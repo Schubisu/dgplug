@@ -1,0 +1,772 @@
+Jul 18 22:47:02 <kushal>	<--SESSION STARTED-->
+Jul 18 22:47:15 *	Prakhar (n=prakhar@122.163.69.101) has joined #dgplug
+Jul 18 22:47:50 <kushal>	Roll Call 
+Jul 18 22:47:57 <ria>	Ria Das
+Jul 18 22:47:58 <amrita>	amrita mukherjee
+Jul 18 22:48:07 <Kishan|away>	kishan goyal
+Jul 18 22:48:11 *	Kishan|away is now known as kishanGoyal
+Jul 18 22:48:21 <Prakhar>	Prakhar Agarwal
+Jul 18 22:48:31 <Debashree>	debashree banerjee
+Jul 18 22:48:33 <Kkhushi>	khushbu mohta
+Jul 18 22:49:56 *	Kkhushi_ (n=khushbu@59.180.137.132) has joined #dgplug
+Jul 18 22:49:57 *	Kkhushi has quit ("Ex-Chat")
+Jul 18 22:50:07 <kushal>	ok
+Jul 18 22:50:14 *	amrita_ (n=amrita@117.201.98.125) has joined #dgplug
+Jul 18 22:50:17 *	amrita_ has quit (Read error: 104 (Connection reset by peer))
+Jul 18 22:51:52 <kushal>	so what about problems 
+Jul 18 22:51:57 *	amrita_ (n=amrita@117.201.98.125) has joined #dgplug
+Jul 18 22:51:57 *	amrita_ has quit (Client Quit)
+Jul 18 22:52:59 *	Kkhushi_ (n=khushbu@59.180.137.132) has left #dgplug ("Ex-Chat")
+Jul 18 22:53:00 *	Kkhushi_ (n=khushbu@59.180.137.132) has joined #dgplug
+Jul 18 22:53:22 <Kkhushi_>	http://wiki.dgplug.org/index.php/User:Khushbu/Python_assignment
+Jul 18 22:54:02 <ria>	kushal, i mailed you
+Jul 18 22:54:13 <ria>	kushal, how to show you now?
+Jul 18 22:55:01 <ria>	i am not getting any message, getting very late all of a sudden
+Jul 18 22:55:20 <kushal>	ok
+Jul 18 22:55:45 <kushal>	ria, make a wiki page please
+Jul 18 22:55:55 <ria>	kushal, i already have one
+Jul 18 22:56:04 <kushal>	ria, for python assignments /
+Jul 18 22:56:04 <kushal>	?
+Jul 18 22:56:25 <ria>	kushal, no i have a wiki page, but not for assign ments
+Jul 18 22:56:34 <ria>	ok will make it then
+Jul 18 22:56:52 <ria>	but i mailed you, you can check from there for now kushal
+Jul 18 22:57:07 <kushal>	ria, no
+Jul 18 22:57:23 <ria>	kushal, will i make the wiki now
+Jul 18 22:57:24 <ria>	?
+Jul 18 22:58:20 <kushal>	ria, yes
+Jul 18 22:58:27 <kushal>	what about others 
+Jul 18 22:58:28 <ria>	ok kushal
+Jul 18 22:58:53 <kishanGoyal>	kushal: making wiki now.
+Jul 18 22:59:13 *	arpita (n=arpita@117.201.96.255) has joined #dgplug
+Jul 18 22:59:49 <kushal>	kishanGoyal, you can show in rafb also 
+Jul 18 23:00:02 <kushal>	arpita, amrita Debashree Prakhar what about you people 
+Jul 18 23:00:06 <ria>	kushal, i am also using it now
+Jul 18 23:00:07 *	karunakarg has quit ("Leaving")
+Jul 18 23:00:29 <arpita>	arpita kapoor
+Jul 18 23:00:33 <kishanGoyal>	http://rafb.net/p/AIR4IT92.html
+Jul 18 23:00:48 <kishanGoyal>	http://rafb.net/p/mDe4Ox49.html
+Jul 18 23:01:03 <Prakhar>	kushal: I couldn't do it, sorry.
+Jul 18 23:01:19 <kushal>	Prakhar, you tried ?
+Jul 18 23:01:25 <Debashree>	kushal, i tried it
+Jul 18 23:01:59 <kishanGoyal>	http://rafb.net/p/tySDzl21.html
+Jul 18 23:02:10 <kushal>	kishanGoyal, what is this http://rafb.net/p/mDe4Ox49.html ?
+Jul 18 23:02:20 <Prakhar>	kushal: no, I did not. I was caught up with some work at my university
+Jul 18 23:02:37 <kushal>	Prakhar, ok :)
+Jul 18 23:02:45 <kishanGoyal>	kushal: conversion to binary.
+Jul 18 23:02:45 <Prakhar>	kushal: sorry about that.
+Jul 18 23:02:52 <amrita>	kushal, i have started but not completed
+Jul 18 23:02:57 <kushal>	amrita, ok
+Jul 18 23:03:10 <kushal>	kishanGoyal, show me the code so that I can just copy and paste 
+Jul 18 23:03:30 <arpita>	kushal, i have only started with the first problem..........not yet finished....
+Jul 18 23:03:42 <ria>	kushal, http://rafb.net/p/4nckQQ58.html
+Jul 18 23:03:47 <kushal>	arpita, ok, just don't type so many dots 
+Jul 18 23:03:51 <Prakhar>	arpita: mind those "."
+Jul 18 23:03:54 <ria>	kushal, http://rafb.net/p/9PXkL461.html
+Jul 18 23:04:05 <ria>	kushal, http://rafb.net/p/ErUIXJ96.html
+Jul 18 23:04:07 <kushal>	ria, I wanted a function 
+Jul 18 23:04:22 <arpita>	kushal, o.k sorry
+Jul 18 23:04:32 <kishanGoyal>	eh?...code not saved...i was just doing it in the evening and pasted it from there..
+Jul 18 23:04:33 <ria>	kushal, you never said so
+Jul 18 23:04:37 <kushal>	ria, second one, a must be inside the function 
+Jul 18 23:04:52 <kushal>	kishanGoyal, so, now is a good time to save it 
+Jul 18 23:04:54 <ria>	kushal, ok then just putting a function
+Jul 18 23:05:04 <kishanGoyal>	ok..
+Jul 18 23:05:06 <kushal>	ria, I am asking you now 
+Jul 18 23:05:13 *	techno_freak has quit ("Leaving")
+Jul 18 23:06:55 *	amrita_ (n=amrita@117.201.98.125) has joined #dgplug
+Jul 18 23:07:00 *	amrita_ has quit (Client Quit)
+Jul 18 23:12:54 <kushal>	so any one needs anything to be talked about 
+Jul 18 23:13:36 <kishanGoyal>	http://rafb.net/p/1iBk1h70.html
+Jul 18 23:13:46 <kishanGoyal>	conversion to binary...
+Jul 18 23:14:13 <kishanGoyal>	kushal:  i am getting it in the form of a list...not as a string..
+Jul 18 23:14:23 <kishanGoyal>	kushal: i could not do that..
+Jul 18 23:14:37 <Kkhushi_>	kushal, your book "python for you and me" is really helpful
+Jul 18 23:14:43 <kushal>	that is ok, we need list only 
+Jul 18 23:14:48 <kushal>	Kkhushi_, thanks :p
+Jul 18 23:15:50 <Kkhushi_>	kushal, i checked it for type conversion...etc
+Jul 18 23:16:02 *	bose_aritra (n=ARITRA@117.201.96.15) has joined #dgplug
+Jul 18 23:17:04 <Kkhushi_>	kushal, it would be great if you can give us some more problems so we can explore it more
+Jul 18 23:17:25 <kushal>	Kkhushi_, yes, but before that I need to talk some more 
+Jul 18 23:18:03 <Prakhar>	kushal: I would request you to ask Kkhushi_ to stay on track, otherwise her recently acquired enthusiasm will die. she has this habit :)
+Jul 18 23:18:20 <kushal>	Prakhar, :)
+Jul 18 23:19:13 *	ria_ (n=ria@121.245.23.226) has joined #dgplug
+Jul 18 23:19:21 <kushal>	so 
+Jul 18 23:19:43 *	ria has quit (Nick collision from services.)
+Jul 18 23:19:49 *	ria_ is now known as ria
+Jul 18 23:20:17 <ria>	kushal, http://rafb.net/p/fdslwn78.html
+Jul 18 23:20:25 <ria>	i used function
+Jul 18 23:20:36 <kushal>	ok
+Jul 18 23:20:54 <kushal>	So , you all will read about files in python http://kushal.fedorapeople.org/book/pythonforyouandme-File-opening.html
+Jul 18 23:20:57 <kushal>	from there 
+Jul 18 23:21:41 <ria>	kushal, you can check it
+Jul 18 23:21:56 <kushal>	ria, just read, good work 
+Jul 18 23:21:59 <kushal>	moving on 
+Jul 18 23:22:02 <kushal>	modules
+Jul 18 23:23:57 *	ecntrk (n=ecntrk_@117.194.1.67) has joined #dgplug
+Jul 18 23:23:58 <kushal>	so, some times you need to reuse your code 
+Jul 18 23:24:23 <kushal>	for that we keep the code in another file, and use from there 
+Jul 18 23:24:29 <kushal>	we call them as modules
+Jul 18 23:24:39 <kushal>	One module may have many files 
+Jul 18 23:25:16 <kushal>	Python is so much powerful because of these so many modules available for any work 
+Jul 18 23:25:57 *	munichlinux has quit (Read error: 104 (Connection reset by peer))
+Jul 18 23:26:00 <kushal>	now to use any module you have to import it 
+Jul 18 23:26:14 <kushal>	like to use math module
+Jul 18 23:26:17 <kushal>	import math 
+Jul 18 23:26:51 <kushal>	now like in you code you need to use pi 
+Jul 18 23:27:00 <kushal>	so you can get that by math.pi 
+Jul 18 23:27:12 <kushal>	see the value what it is showing 
+Jul 18 23:27:13 <kushal>	?
+Jul 18 23:27:39 <kishanGoyal>	3.1415926535897931
+Jul 18 23:27:46 <kushal>	ok
+Jul 18 23:28:05 <kushal>	we do have math.sin cos and other methods 
+Jul 18 23:28:32 <kushal>	to know more about this module read http://docs.python.org/lib/module-math.html
+Jul 18 23:29:58 <ecntrk>	!
+Jul 18 23:30:15 <kushal>	ecntrk, yes 
+Jul 18 23:30:25 <ecntrk>	What if we need to viwe what are the functions under any module...?
+Jul 18 23:30:33 <ecntrk>	*view
+Jul 18 23:30:37 <ecntrk>	<eof>
+Jul 18 23:30:54 <kushal>	ecntrk, do RTFM , simple :)
+Jul 18 23:30:55 *	Soumya (n=Soumya@117.192.4.233) has joined #dgplug
+Jul 18 23:31:02 <kushal>	ecntrk, like import pwd
+Jul 18 23:31:05 <kushal>	help(pwd)
+Jul 18 23:31:07 <kushal>	or 
+Jul 18 23:31:24 <kushal>	http://docs.python.org/lib/module-pwd.html
+Jul 18 23:31:28 <kushal>	ecntrk, ^^
+Jul 18 23:31:46 <kushal>	http://docs.python.org/modindex.html  here you can find all the default modules in python 
+Jul 18 23:31:49 <ecntrk>	okok..i forgot<eof>
+Jul 18 23:32:16 <kushal>	any other question ?
+Jul 18 23:32:35 <Prakhar>	kushal: please continue
+Jul 18 23:33:02 <bose_aritra>	roll call... Aritra Bose :)   <eof>
+Jul 18 23:33:21 <amrita>	!
+Jul 18 23:33:28 <kushal>	amrita, yes
+Jul 18 23:33:50 <amrita>	kushal, how to use pi here couldn't understand
+Jul 18 23:34:16 <kushal>	amrita, like in a code you need to divide some value by pi
+Jul 18 23:34:24 <kushal>	like 3 / math.pi
+Jul 18 23:34:26 <kushal>	:)
+Jul 18 23:34:48 <arpita>	!
+Jul 18 23:34:58 <kushal>	arpita, yes
+Jul 18 23:35:05 <arpita>	kushal, it is showing error ....math is not defined
+Jul 18 23:35:05 <kushal>	brb
+Jul 18 23:35:13 <kushal>	arpita, scroll back and read 
+Jul 18 23:35:19 <kushal>	will be back after 10 minutes
+Jul 18 23:35:27 <kushal>	people discuss here among yourself 
+Jul 18 23:36:15 <Kkhushi_>	arpita, first write import math
+Jul 18 23:36:47 <ria>	yes arpita
+Jul 18 23:36:57 <arpita>	Kkhushi_, yes now working...thanks ...
+Jul 18 23:40:02 *	kishanGoyal has quit (Remote closed the connection)
+Jul 18 23:40:31 *	munichlinux (n=prashant@59.92.114.224) has joined #dgplug
+Jul 18 23:40:41 *	kishanGoyal (n=kishan@218.248.70.235) has joined #dgplug
+Jul 18 23:40:51 *	Subhodip has quit (Read error: 110 (Connection timed out))
+Jul 18 23:44:49 <kushal>	back 
+Jul 18 23:44:54 <kushal>	any question ?
+Jul 18 23:45:35 <kushal>	To do anything file paths
+Jul 18 23:45:43 <kushal>	we have os.path module 
+Jul 18 23:45:58 <kushal>	So please write some code which will 
+Jul 18 23:46:31 <kushal>	Ask user to enter a path and then the code will tell whether it is file or directory or link 
+Jul 18 23:46:47 <kushal>	I will see it after 5 minutes 
+Jul 18 23:47:01 <kushal>	any question on ^^ 
+Jul 18 23:47:42 <kushal>	no , ok 
+Jul 18 23:47:45 <kushal>	5 minutes
+Jul 18 23:49:16 *	munichlinux has quit ("Ex-Chat")
+Jul 18 23:53:20 <bose_aritra>	:/
+Jul 18 23:53:23 *	viggy_prabh1 (n=viggy@210.212.5.85) has joined #dgplug
+Jul 18 23:56:17 <ecntrk>	kushal, !
+Jul 18 23:58:38 <ria>	kushal, over
+Jul 18 23:59:08 <ecntrk>	over
+Jul 18 23:59:30 <ecntrk>	http://rafb.net/p/v2Rcl878.html
+Jul 19 00:00:37 *	stephaniewhiting has quit ("ChatZilla 0.9.83 [Firefox 2.0.0.16/2008070205]")
+Jul 19 00:02:21 <ria>	kushal, are you there?
+Jul 19 00:02:52 <bose_aritra>	}:)
+Jul 19 00:02:53 <ecntrk>	I don't think so.
+Jul 19 00:03:06 <ria>	kushal, ???
+Jul 19 00:04:08 <kushal>	back
+Jul 19 00:04:12 <kushal>	sorry for the delay 
+Jul 19 00:04:20 <ria>	kushal, http://rafb.net/p/e63f7j23.html
+Jul 19 00:04:34 <ria>	kushal, check it
+Jul 19 00:04:38 <kushal>	ecntrk, that is not complete 
+Jul 19 00:04:57 <kushal>	ria, good work 
+Jul 19 00:05:04 <kushal>	anyone else ?
+Jul 19 00:05:05 <ria>	:)
+Jul 19 00:05:20 <ecntrk>	kushal, ok...
+Jul 19 00:05:34 <Kkhushi_>	http://rafb.net/p/HCPV1o92.html
+Jul 19 00:05:47 <kushal>	ecntrk, you missed links
+Jul 19 00:06:12 <kushal>	Kkhushi_, nice code 
+Jul 19 00:06:17 <ecntrk>	kushal, I found my mistake...
+Jul 19 00:06:28 <kushal>	ecntrk, just add few new lines
+Jul 19 00:06:55 <ecntrk>	kushal: ok...
+Jul 19 00:07:11 <kushal>	amrita, arpita Debashree bose_aritra ?
+Jul 19 00:07:23 <bose_aritra>	ya
+Jul 19 00:07:41 <Debashree>	kushal, yes i am doing
+Jul 19 00:07:47 <kushal>	Debashree, ok :)
+Jul 19 00:08:35 <kushal>	from now on, I will not teach very less, will ask you people to read and find stuffs
+Jul 19 00:09:40 <bose_aritra>	:\
+Jul 19 00:09:58 <ecntrk>	http://rafb.net/p/epD4bW86.html
+Jul 19 00:10:06 <ecntrk>	is it ok now kushal?
+Jul 19 00:11:05 <kushal>	ecntrk, what about links ?
+Jul 19 00:11:13 <ecntrk>	you only asked for file or directory... so i didn't do much.
+Jul 19 00:11:19 <kushal>	ecntrk, eh
+Jul 19 00:11:36 <ecntrk>	ok. i'll include that
+Jul 19 00:11:38 <kushal>	ecntrk, kushal> Ask user to enter a path and then the code will tell whether it is file or directory or link 
+Jul 19 00:11:50 <kushal>	ecntrk, I told about link 
+Jul 19 00:11:56 <ecntrk>	ah... i see.. sorry kushal
+Jul 19 00:12:19 <kushal>	no problem 
+Jul 19 00:13:27 <kushal>	next, ask for a username, and show all details about that user, like real name, home directory etc
+Jul 19 00:13:36 <ecntrk>	http://rafb.net/p/OcfE7x14.html
+Jul 19 00:14:31 <kushal>	ecntrk, ok, also check the indentation 
+Jul 19 00:14:54 <kushal>	amrita, arpita Debashree bose_aritra you people never asked anything , I will assume you never understood anything 
+Jul 19 00:15:11 <ecntrk>	ok, i'm still not very keen at python syntax.
+Jul 19 00:15:19 <ecntrk>	I'm trying hard..:)
+Jul 19 00:15:20 <kushal>	ecntrk, any reason ?
+Jul 19 00:15:23 <kushal>	ok :)
+Jul 19 00:15:46 <ecntrk>	kushal: I missed your earlier classes... I was ill.
+Jul 19 00:17:05 <kushal>	ecntrk, ok 
+Jul 19 00:17:21 <kushal>	hints : use pwd module for the above problem 
+Jul 19 00:18:17 <kushal>	I am waiting 
+Jul 19 00:18:56 <ecntrk>	ok
+Jul 19 00:21:10 *	indradg (n=indradg@59.93.198.133) has joined #dgplug
+Jul 19 00:23:19 <indradg>	drunkencoder, kushal, acchis naki
+Jul 19 00:23:33 <kushal>	indradg, yes, pm
+Jul 19 00:24:54 <kushal>	so, anyone any solution ?
+Jul 19 00:25:11 <kushal>	any idea how we should go forward on this problem
+Jul 19 00:26:02 <ria>	ya i think
+Jul 19 00:26:32 <ria>	getpwuid(uid) all these will help to get the required
+Jul 19 00:26:42 <ria>	there are 3 like that which returns
+Jul 19 00:26:55 <ria>	pw_name, pw_dir etc
+Jul 19 00:26:58 <ria>	i think so
+Jul 19 00:27:06 <ecntrk>	may I paste the code kushal?
+Jul 19 00:27:08 <ria>	this i found after googling
+Jul 19 00:27:11 <kushal>	ecntrk, yes please 
+Jul 19 00:27:16 <ecntrk>	http://rafb.net/p/eC1jTb25.html
+Jul 19 00:27:24 <kushal>	ria, I gave the link for the modules page in python 
+Jul 19 00:27:36 <ria>	that i have seen
+Jul 19 00:27:37 <kushal>	ria, try to read python documentation :)
+Jul 19 00:27:49 <ria>	but was not able to understand the attribute part
+Jul 19 00:27:55 <ria>	so i checked
+Jul 19 00:27:56 <ria>	ok
+Jul 19 00:28:06 <ria>	kushal, give your book link
+Jul 19 00:28:24 <ecntrk>	ria: Help(pwd) :)
+Jul 19 00:28:31 <ria>	:)
+Jul 19 00:28:52 <kushal>	ecntrk, is it working ?
+Jul 19 00:28:59 <kushal>	ecntrk, I don't think so 
+Jul 19 00:32:30 <ria>	kushal, what will be the input?
+Jul 19 00:32:36 *	amrita_ (n=amrita@117.201.98.125) has joined #dgplug
+Jul 19 00:32:40 *	amrita_ has quit (Client Quit)
+Jul 19 00:32:40 <ria>	kushal, will giving ria work?
+Jul 19 00:32:48 <ria>	only ria?
+Jul 19 00:32:54 <kushal>	yes
+Jul 19 00:33:01 <kushal>	ria, only your username 
+Jul 19 00:33:10 <ria>	ok
+Jul 19 00:33:14 <ria>	not working
+Jul 19 00:33:32 <kushal>	:)
+Jul 19 00:33:48 <kushal>	now working is better than not doing anything 
+Jul 19 00:33:55 <kushal>	always :D
+Jul 19 00:34:21 <ria>	kushal, it worked
+Jul 19 00:34:30 <kushal>	ria, so, show us the code 
+Jul 19 00:34:51 <ria>	kushal, i did in interpreter
+Jul 19 00:35:09 *	ecntr1 (n=ecntrk_@117.194.0.133) has joined #dgplug
+Jul 19 00:35:38 <ecntr1>	sorry kushal a bug in previous problem...
+Jul 19 00:35:43 <ecntr1>	here's the new one..
+Jul 19 00:35:45 <ecntr1>	http://rafb.net/p/og5j2C47.html
+Jul 19 00:35:50 <ecntr1>	sorry, got dc.
+Jul 19 00:35:52 <ria>	kushal, http://rafb.net/p/JzyLYH13.html
+Jul 19 00:36:00 <ria>	kushal, ^^
+Jul 19 00:36:27 <kushal>	ria, correct , but just get that username from the user 
+Jul 19 00:36:29 <kushal>	:)
+Jul 19 00:36:38 <ria>	ok
+Jul 19 00:36:47 <kushal>	ecntr1, ok
+Jul 19 00:36:47 <ecntr1>	kushal: ^^
+Jul 19 00:36:47 <ria>	that i was just testing quickly
+Jul 19 00:36:53 <ria>	that's why
+Jul 19 00:37:11 <kushal>	ok
+Jul 19 00:37:16 <kushal>	no problem 
+Jul 19 00:38:08 <ria>	http://rafb.net/p/3SsDSZ88.html kushal
+Jul 19 00:38:17 <ria>	its user-defined now
+Jul 19 00:38:26 <kushal>	:)
+Jul 19 00:38:52 <kushal>	amrita, Debashree arpita are you getting what is going on ?
+Jul 19 00:39:06 <amrita>	kushal, little bit
+Jul 19 00:39:31 <arpita>	kushal, yes but still not quite sure with syntax in python
+Jul 19 00:39:43 <Debashree>	kushal, i can't use pwd now because i am in xp now
+Jul 19 00:40:19 <kushal>	Debashree, oh, ok :)
+Jul 19 00:40:27 <kushal>	arpita, so ask what you want to know 
+Jul 19 00:40:31 <kushal>	amrita, ask please
+Jul 19 00:41:06 <amrita>	kushal, i am doing the program
+Jul 19 00:41:29 <kushal>	amrita, ok
+Jul 19 00:41:49 <kushal>	arpita, tell us about your problem on the syntax 
+Jul 19 00:41:58 <kushal>	arpita, I know its kind of new :D
+Jul 19 00:44:33 <arpita>	kushal, pwd.getpwnam(user) is showing error
+Jul 19 00:44:52 <kushal>	arpita, show us the error 
+Jul 19 00:46:20 <arpita>	kushal, it worked now i had made a mistake
+Jul 19 00:46:22 *	amrita_ (n=amrita@117.201.96.125) has joined #dgplug
+Jul 19 00:46:24 <amrita_>	kushal, http://rafb.net/p/gh3Ahg83.html
+Jul 19 00:46:42 <ecntr1>	.
+Jul 19 00:46:42 <ecntr1>	am i online?
+Jul 19 00:46:51 <kushal>	ecntr1, no
+Jul 19 00:47:01 <amrita_>	kushal, its taking time to understand as learning for the first time
+Jul 19 00:47:08 <ecntr1>	sorry kushal
+Jul 19 00:47:09 <kushal>	amrita_, ok, no problem 
+Jul 19 00:47:21 <kushal>	ecntr1, no need to be sorry
+Jul 19 00:47:33 <kushal>	amrita_, just try and try again in the day time
+Jul 19 00:47:40 <kushal>	you all have to spend time 
+Jul 19 00:47:49 <amrita_>	kushal, yes i am trying
+Jul 19 00:48:09 <kushal>	amrita_, good :)
+Jul 19 00:48:34 <amrita_>	kushal, :)
+Jul 19 00:48:59 <bose_aritra>	kushal, i got it too
+Jul 19 00:50:20 <kushal>	ok
+Jul 19 00:50:23 <kushal>	next task 
+Jul 19 00:50:36 <bose_aritra>	http://rafb.net/p/MgtTmI43.html
+Jul 19 00:50:52 <bose_aritra>	i hv givven the error i was gettin before too
+Jul 19 00:51:05 <bose_aritra>	have
+Jul 19 00:51:13 <bose_aritra>	<eof>
+Jul 19 00:51:33 <ecntr1>	yes kushal...
+Jul 19 00:52:03 <kushal>	now a difficult problem :p
+Jul 19 00:52:11 <ecntr1>	:-(
+Jul 19 00:52:12 <bose_aritra>	:(
+Jul 19 00:52:15 <ria>	:(
+Jul 19 00:52:19 <ecntr1>	:D
+Jul 19 00:52:20 <ria>	:D
+Jul 19 00:52:21 <Kkhushi_>	:)
+Jul 19 00:52:42 *	amritaaa (n=amrita@117.201.96.125) has joined #dgplug
+Jul 19 00:52:48 *	amritaaa has quit (Client Quit)
+Jul 19 00:53:03 <kushal>	you all know all some sites show share values 
+Jul 19 00:53:14 <ecntr1>	?
+Jul 19 00:53:31 <Kkhushi_>	i dont know :(
+Jul 19 00:53:36 <ria>	me too
+Jul 19 00:53:38 <ecntr1>	me not either.
+Jul 19 00:53:41 <kushal>	let me explain 
+Jul 19 00:53:55 <kushal>	open http://finance.yahoo.com/
+Jul 19 00:54:02 <ecntr1>	ok.. i got it.
+Jul 19 00:54:14 <ecntr1>	share market vaues..
+Jul 19 00:54:19 <bose_aritra>	l
+Jul 19 00:54:20 <ecntr1>	*values
+Jul 19 00:54:24 <bose_aritra>	:)
+Jul 19 00:54:55 <ria>	i see here Microsoft :)
+Jul 19 00:55:03 <ria>	:P
+Jul 19 00:55:12 <bose_aritra>	:) he he
+Jul 19 00:55:22 <kushal>	now you have to enter a company id there to see the latest share trade value
+Jul 19 00:55:44 <ria>	o got it
+Jul 19 00:55:58 <ecntr1>	stil in vauge..:(
+Jul 19 00:56:07 <kushal>	type ibm there and click get quotes 
+Jul 19 00:56:44 <ria>	i did it already with tcs
+Jul 19 00:56:46 <ria>	:P
+Jul 19 00:56:50 <kushal>	ria, :D
+Jul 19 00:57:02 <ecntr1>	ria:  HMm..
+Jul 19 00:57:26 <bose_aritra>	done
+Jul 19 00:57:41 *	amritaaa (n=amrita@117.201.96.88) has joined #dgplug
+Jul 19 00:57:43 <kushal>	ok, now you can see share details on IBM 
+Jul 19 00:57:48 <ecntr1>	yes
+Jul 19 00:57:48 <kushal>	s/on/of
+Jul 19 00:57:55 <kushal>	the last trade value 
+Jul 19 00:58:11 <ecntr1>	129.75:)
+Jul 19 00:58:16 *	Soumya_ (n=Soumya@117.192.2.58) has joined #dgplug
+Jul 19 00:58:27 <kushal>	can any one tell me what is url it is accessing now ?
+Jul 19 00:58:51 *	ecntrk has quit (Read error: 110 (Connection timed out))
+Jul 19 00:59:07 <ria>	http://finance.yahoo.com/q?s=ibm is it this?
+Jul 19 00:59:12 <kushal>	ria, correct 
+Jul 19 00:59:19 <ria>	:)
+Jul 19 00:59:20 <kushal>	everyone can see it ^^ 
+Jul 19 00:59:20 <kushal>	?
+Jul 19 00:59:25 <arpita>	yes
+Jul 19 00:59:26 <ecntr1>	finance.yahoo.com/q?s=ibm#
+Jul 19 00:59:27 <bose_aritra>	ya
+Jul 19 00:59:31 <Debashree>	yes
+Jul 19 01:00:00 <kushal>	so to see any other company's values, you just have to change the company code in the url 
+Jul 19 01:00:03 <kushal>	like 
+Jul 19 01:00:08 <kushal>	http://finance.yahoo.com/q?s=TCS.NS
+Jul 19 01:00:30 <bose_aritra>	what that graph indicates??
+Jul 19 01:00:35 <bose_aritra>	kushal, ^^^^
+Jul 19 01:00:42 <bose_aritra>	growth of shares
+Jul 19 01:00:50 <ecntr1>	ok..
+Jul 19 01:00:51 <bose_aritra>	is it so, am i correct?
+Jul 19 01:01:02 <ecntr1>	!
+Jul 19 01:01:09 <kushal>	http://finance.yahoo.com/q?s=WIT
+Jul 19 01:01:21 <kushal>	bose_aritra, no idea, and not on topic here 
+Jul 19 01:01:24 <kushal>	ecntr1, yes 
+Jul 19 01:01:30 <ecntr1>	do we need to know about streamapi of yahoo finance?
+Jul 19 01:01:36 <ecntr1>	<eof>
+Jul 19 01:02:09 <kushal>	no
+Jul 19 01:02:20 <kushal>	only the url how we access it
+Jul 19 01:02:25 <kushal>	amrita, arpita undertood ?
+Jul 19 01:02:34 <kushal>	* understood 
+Jul 19 01:02:41 <amritaaa>	kushal, yes
+Jul 19 01:02:44 <arpita>	yes
+Jul 19 01:02:47 <kushal>	ok
+Jul 19 01:02:53 *	amrita has quit (Read error: 110 (Connection timed out))
+Jul 19 01:02:58 <kushal>	lets move on to the problem 
+Jul 19 01:03:19 <bose_aritra>	:(
+Jul 19 01:03:20 *	amrita (n=amrita@117.201.96.88) has joined #dgplug
+Jul 19 01:03:25 *	amritaaa has quit ("Leaving")
+Jul 19 01:03:28 <kushal>	bose_aritra, what ?
+Jul 19 01:03:40 <bose_aritra>	kushal, cant we know more about shares
+Jul 19 01:03:45 <ecntr1>	:d
+Jul 19 01:03:48 <ecntr1>	hahaha
+Jul 19 01:03:49 <bose_aritra>	kushal, it was fine
+Jul 19 01:03:51 <Kkhushi_>	:D
+Jul 19 01:03:54 <bose_aritra>	:D
+Jul 19 01:03:55 <ria>	:D
+Jul 19 01:03:57 <kushal>	bose_aritra, go somewhere else
+Jul 19 01:04:03 *	indradg_ (n=indradg@59.93.255.38) has joined #dgplug
+Jul 19 01:04:05 <kushal>	bose_aritra, like IIM
+Jul 19 01:04:14 <kushal>	anyway back to the point 
+Jul 19 01:04:17 <ecntr1>	nope.. proggraming's more interesting than finance
+Jul 19 01:04:41 <kushal>	there is a module called urllib2
+Jul 19 01:04:46 <ecntr1>	anyway..carry on
+Jul 19 01:04:53 <kushal>	which will help you to work on urls
+Jul 19 01:04:55 <ecntr1>	*programming..
+Jul 19 01:05:13 <kushal>	now the problem 
+Jul 19 01:05:35 <kushal>	Ask the user about a company id (like WIT, IBM etc)
+Jul 19 01:06:05 <kushal>	then get the details from that page using urllib2 (only get , don't show the page)
+Jul 19 01:06:16 <kushal>	then show the value of the last trade 
+Jul 19 01:06:25 <kushal>	^^ that is it 
+Jul 19 01:06:41 <ria>	kushal, can you explain with an example please?
+Jul 19 01:06:50 <kushal>	ria, ok
+Jul 19 01:07:05 <arpita>	where do we get the information about functions to get these details??
+Jul 19 01:07:10 <kushal>	ria, like I wrote a function called part1
+Jul 19 01:07:35 <kushal>	so part1('WIT') will return 10.88
+Jul 19 01:07:46 <kushal>	arpita, in the modules page
+Jul 19 01:07:53 <arpita>	kushal, o.k
+Jul 19 01:07:59 <kushal>	arpita, memorize docs.python.org :p
+Jul 19 01:08:04 <kushal>	arpita, for this case http://docs.python.org/lib/module-urllib2.html
+Jul 19 01:08:14 <kushal>	Debashree, you can also try this from windows 
+Jul 19 01:08:33 <Debashree>	kushal, ok :)
+Jul 19 01:10:23 *	Soumya has quit (Read error: 110 (Connection timed out))
+Jul 19 01:10:57 <kushal>	ok, some hints again 
+Jul 19 01:11:03 <kushal>	to read a page
+Jul 19 01:11:05 <kushal>	do like
+Jul 19 01:11:25 <kushal>	link = urllib2.urlopen("http://dgplug.org")
+Jul 19 01:11:32 <kushal>	data = link.read()
+Jul 19 01:11:41 <kushal>	now data contains the webpage
+Jul 19 01:11:54 <kushal>	you just have to *find* the right data from it 
+Jul 19 01:13:21 <ecntr1>	kushal tell me one thing, how to join 2 strings.
+Jul 19 01:13:33 <kushal>	ecntr1, + 
+Jul 19 01:13:39 <kushal>	ecntr1, :p
+Jul 19 01:13:55 <ecntr1>	no.. i have 2 string variables.. a, b.
+Jul 19 01:14:00 <ecntr1>	how do i join them?
+Jul 19 01:14:06 <ecntr1>	only a+b?
+Jul 19 01:14:10 <kushal>	yes
+Jul 19 01:14:14 <kushal>	c = a + b
+Jul 19 01:14:41 <Prakhar>	ecntr1: power of python!
+Jul 19 01:14:41 <ecntr1>	ok
+Jul 19 01:14:48 <ecntr1>	:D
+Jul 19 01:14:59 *	amrita_ has quit (Read error: 110 (Connection timed out))
+Jul 19 01:16:23 *	munichlinux (n=prashant@59.92.112.216) has joined #dgplug
+Jul 19 01:17:04 <ecntr1>	http://rafb.net/p/y9lLQ411.html
+Jul 19 01:17:17 <ecntr1>	is it right? i mean the main logic?
+Jul 19 01:17:47 <kushal>	let me check
+Jul 19 01:18:02 <ecntr1>	ok
+Jul 19 01:18:04 *	kishanGoyal has quit (Read error: 113 (No route to host))
+Jul 19 01:19:04 <kushal>	ecntr1, what is a ?
+Jul 19 01:19:17 <ecntr1>	a is the function parameter.
+Jul 19 01:19:23 <kushal>	ecntr1, you went up to some distance and then lost :p
+Jul 19 01:19:29 <kushal>	ecntr1, think think :p
+Jul 19 01:19:30 <ecntr1>	in where we'll take infosys as argument
+Jul 19 01:19:31 *	amrita_ (n=amrita@117.201.96.27) has joined #dgplug
+Jul 19 01:19:42 <kushal>	ecntr1, in some variable 
+Jul 19 01:19:44 <ecntr1>	ah..
+Jul 19 01:19:55 <kushal>	like a, but you never did that :p
+Jul 19 01:20:17 <kushal>	and rest of the url , you already know 
+Jul 19 01:20:22 *	indradg has quit (Read error: 110 (Connection timed out))
+Jul 19 01:20:29 <kushal>	try try
+Jul 19 01:20:29 <amrita_>	kushal, !
+Jul 19 01:20:31 <ecntr1>	yes....ss
+Jul 19 01:20:35 <ecntr1>	sorrry
+Jul 19 01:20:36 <kushal>	amrita_, yes please 
+Jul 19 01:20:50 <amrita_>	kushal, i did something
+Jul 19 01:20:54 <kushal>	amrita_, ok
+Jul 19 01:21:21 <ecntr1>	http://rafb.net/p/bqTP4639.html
+Jul 19 01:22:30 <arpita>	kushal, why are  we writing data = none in last line?
+Jul 19 01:22:46 <kushal>	arpita, actually we don't need it
+Jul 19 01:22:56 <kushal>	ecntr1, data's default value is none
+Jul 19 01:23:06 <ecntr1>	ok kushal
+Jul 19 01:23:08 <kushal>	ecntr1, so you can just call it with url
+Jul 19 01:23:10 <ria>	kushal, http://rafb.net/p/qD9TFi56.html
+Jul 19 01:23:22 <ria>	can i approach in this way?
+Jul 19 01:23:30 <ria>	kushal, little bit done
+Jul 19 01:23:31 <amrita_>	kushal, http://rafb.net/p/jFb1fE36.html
+Jul 19 01:23:46 <kushal>	ria, yes, now you have to search the value required 
+Jul 19 01:23:53 <kushal>	amrita, checking
+Jul 19 01:23:54 <ria>	ya ya
+Jul 19 01:23:57 <ria>	that i know
+Jul 19 01:24:00 <ria>	i am doing
+Jul 19 01:24:41 <kushal>	amrita_, urllib2.urlopen("http://finance.yahoo.com/q?s=id") here id becomes a part of the string , not as a varible 
+Jul 19 01:24:45 <kushal>	variable 
+Jul 19 01:25:11 <amrita_>	ok
+Jul 19 01:25:15 *	munichlinux has quit (Read error: 60 (Operation timed out))
+Jul 19 01:25:15 <ecntr1>	so kushal da.. was my program all right?
+Jul 19 01:25:21 <kushal>	amrita, not yet
+Jul 19 01:25:23 <kushal>	oops
+Jul 19 01:25:32 <kushal>	s/amrita/ ecntr1 
+Jul 19 01:25:53 <ecntr1>	indentation?
+Jul 19 01:26:36 *	munichlinux (n=prashant@59.92.115.236) has joined #dgplug
+Jul 19 01:26:39 <kushal>	ecntr1, plus it is not solving the whole problem, write the rest of it 
+Jul 19 01:26:59 <ecntr1>	ok.
+Jul 19 01:27:25 <amrita_>	kushal, so there should be a "plus" before id?
+Jul 19 01:27:45 <kushal>	amrita_, don't think like that 
+Jul 19 01:28:06 <kushal>	amrita_, think you have to add the value of id to the string, how you should do it 
+Jul 19 01:28:11 <kushal>	amrita_, + only :)
+Jul 19 01:29:06 <amrita_>	kushal, yes that only i meant
+Jul 19 01:29:12 <kushal>	amrita_, :D
+Jul 19 01:29:38 <ecntr1>	kushal: I didn't understand what else have to be written...
+Jul 19 01:30:09 <kushal>	ecntr1, you have to find the value of "Last Trade" from that page 
+Jul 19 01:30:36 <ria>	kushal, i did something and got a large html value
+Jul 19 01:30:45 <ria>	perhaps the page source
+Jul 19 01:30:46 <kushal>	ria, yes, 
+Jul 19 01:30:49 <kushal>	coorect 
+Jul 19 01:31:35 <ria>	http://rafb.net/p/9paFpk82.html kushal
+Jul 19 01:32:01 <kushal>	ria, yes, now don't print data, find the last trade value into that
+Jul 19 01:32:12 <kushal>	data is nothing but a string variable
+Jul 19 01:32:22 <ria>	ok kushal
+Jul 19 01:32:31 <ria>	but what will i actually do?
+Jul 19 01:32:34 <ria>	return?
+Jul 19 01:32:44 <kushal>	I told
+Jul 19 01:32:45 <ria>	kushal, ?
+Jul 19 01:33:02 *	amritaaa (n=amrita@117.201.96.19) has joined #dgplug
+Jul 19 01:33:05 <kushal>	ria, like for WIT , you will return 10.82
+Jul 19 01:33:21 <ria>	kushal, ya
+Jul 19 01:33:45 <kushal>	brb
+Jul 19 01:35:30 <Kkhushi_>	kushal can we do like find the position of last trade in string data
+Jul 19 01:35:42 <kushal>	Kkhushi_, yes
+Jul 19 01:36:03 <Kkhushi_>	and then increment the index returned untill we find a digit
+Jul 19 01:36:06 *	amritaa_ (n=amrita@117.201.96.73) has joined #dgplug
+Jul 19 01:36:54 <Kkhushi_>	i mean i have found the position of last trade using getitem
+Jul 19 01:37:18 <kushal>	Kkhushi_, that you figure out :o
+Jul 19 01:38:48 <kushal>	Kkhushi_, that is the tricky part :p
+Jul 19 01:40:16 *	amritaa (n=amrita@117.201.96.43) has joined #dgplug
+Jul 19 01:41:13 *	Soumya_ has quit (Read error: 110 (Connection timed out))
+Jul 19 01:41:29 *	amrita has quit (Nick collision from services.)
+Jul 19 01:42:32 *	amrita (n=amrita@117.201.96.68) has joined #dgplug
+Jul 19 01:46:11 <kushal>	so any idea ?
+Jul 19 01:46:30 <ecntr1>	kushal: is request class has anything to do with?
+Jul 19 01:48:36 <ria>	kushal, i could not do after that
+Jul 19 01:48:38 <ria>	trying
+Jul 19 01:49:50 <kushal>	ecntr1, no, see how ria is doing 
+Jul 19 01:50:01 <kushal>	ecntr1, Kkhushi_ got some idea
+Jul 19 01:50:02 *	amrita_ has quit (Read error: 110 (Connection timed out))
+Jul 19 01:50:34 <ria>	kushal, is the data here link trade?
+Jul 19 01:50:42 <ria>	or the value of link trade?
+Jul 19 01:50:43 <ecntr1>	I didn't understand...:(
+Jul 19 01:50:47 <Kkhushi_>	nope :(
+Jul 19 01:51:00 *	amrita has quit (Read error: 104 (Connection reset by peer))
+Jul 19 01:51:15 <ria>	kushal, i am unable to understand how to get the value
+Jul 19 01:51:27 <kushal>	Kkhushi_, tell us what was your idea 
+Jul 19 01:52:28 <Kkhushi_>	kushal as we have the html file as string in data
+Jul 19 01:52:49 <Kkhushi_>	we cah find the position of Last Trade in the string
+Jul 19 01:53:04 <Kkhushi_>	using .find()
+Jul 19 01:53:19 <kushal>	Kkhushi_, yes, correct 
+Jul 19 01:53:26 <Kkhushi_>	but then i dont know what to do with it
+Jul 19 01:53:43 <Kkhushi_>	i mean i have some idea but it seems little clumsy
+Jul 19 01:53:46 *	amritaaa has quit (Read error: 110 (Connection timed out))
+Jul 19 01:54:15 <kushal>	Kkhushi_, yes, its ok, from that you can try to find a way to solve :p
+Jul 19 01:54:30 <Kkhushi_>	we can get the next 20 characters from the file from that position
+Jul 19 01:54:39 <kushal>	Kkhushi_, yes 
+Jul 19 01:55:00 <Kkhushi_>	this will reduce our work string
+Jul 19 01:55:03 <kushal>	Kkhushi_, yes
+Jul 19 01:55:15 <kushal>	Kkhushi_, I followed almost the same way :p
+Jul 19 01:55:39 <Prakhar>	me too
+Jul 19 01:56:10 *	amritaa_ has quit (Read error: 110 (Connection timed out))
+Jul 19 01:56:45 <kushal>	Prakhar, :)
+Jul 19 01:56:49 <ecntr1>	kushal: can you please help me with find()? I don't know the syntax
+Jul 19 01:56:54 *	Prakhar is now known as PR4KH4R
+Jul 19 01:56:54 <arpita>	Kkhushi_, please tell how do we find position of last trade in data using .find()??
+Jul 19 01:56:59 <kushal>	ecntr1, help(str.find)
+Jul 19 01:57:07 <ecntr1>	ok
+Jul 19 01:57:17 <kushal>	arpita, help(str.find)
+Jul 19 01:57:20 <kushal>	:p
+Jul 19 01:57:28 <PR4KH4R>	guys, "help"
+Jul 19 01:57:34 <Kkhushi_>	i did the same help(str)
+Jul 19 01:57:56 *	Debashree_ (n=Debashre@117.201.96.31) has joined #dgplug
+Jul 19 01:58:10 <Kkhushi_>	when kushal gave the hint that its a string now
+Jul 19 01:58:26 *	Debashree has quit (Nick collision from services.)
+Jul 19 01:58:37 *	Debashree_ is now known as Debashree
+Jul 19 01:58:42 <Kkhushi_>	help(str)
+Jul 19 01:58:52 <Kkhushi_>	oops sorry
+Jul 19 02:00:09 *	amritaa has quit (Read error: 110 (Connection timed out))
+Jul 19 02:00:49 *	amrita (n=amrita@117.201.96.45) has joined #dgplug
+Jul 19 02:03:30 *	amrita_ (n=amrita@117.201.96.110) has joined #dgplug
+Jul 19 02:03:57 <arpita>	Kkhushi_,  in help(str.find)..  S.find(sub [,start [,end]]) -> int    what does sub mean over here?
+Jul 19 02:04:20 <Kkhushi_>	sub means substring we want to find
+Jul 19 02:04:32 <kushal>	arpita, ^^ written there :p
+Jul 19 02:05:00 <Kkhushi_>	start and end are indices which are optional
+Jul 19 02:05:33 <ria>	kushal, can you please say me how to return...
+Jul 19 02:05:49 <kushal>	ria, return 
+Jul 19 02:05:53 <ria>	a string at any paricular position
+Jul 19 02:06:29 <ria>	kushal, ^^
+Jul 19 02:06:49 <kushal>	if the string is s
+Jul 19 02:06:50 <kushal>	then 
+Jul 19 02:07:13 <kushal>	s[10:20] will give from 10th position to 19th position 
+Jul 19 02:07:40 <ria>	ya ok thanks
+Jul 19 02:07:46 <ria>	i was searching just
+Jul 19 02:07:48 <ria>	:)
+Jul 19 02:08:19 <Kkhushi_>	kushal can we just strip all the characters other than digits
+Jul 19 02:08:53 *	amritaaa (n=amrita@117.201.96.101) has joined #dgplug
+Jul 19 02:09:29 <kushal>	Kkhushi_, yes
+Jul 19 02:09:58 <Kkhushi_>	kushal, is there a simple way to write it
+Jul 19 02:10:23 <kushal>	Kkhushi_, not much, you have to find a way 
+Jul 19 02:10:33 <kushal>	Kkhushi_, I tried with some hard coded values :
+Jul 19 02:10:42 *	amritas (n=amrita@117.201.96.93) has joined #dgplug
+Jul 19 02:11:43 <ecntr1>	kushal:  I've used find to get the index of Last Trade in that html file
+Jul 19 02:11:49 <ria>	kushal, i think i got it
+Jul 19 02:11:57 <ria>	let me write the code and check
+Jul 19 02:12:02 <kushal>	ecntr1, yes 
+Jul 19 02:12:15 <ecntr1>	but.. how do I strip any other values except integer?
+Jul 19 02:12:17 <kushal>	ecntr1, and then the value after that somehow
+Jul 19 02:12:27 <ecntr1>	i mean numbers..
+Jul 19 02:12:27 <kushal>	ecntr1, that is the problem :p
+Jul 19 02:12:34 *	amrita_ has quit (Read error: 104 (Connection reset by peer))
+Jul 19 02:12:34 <ecntr1>	:(
+Jul 19 02:12:44 <ecntr1>	I'm stuck into that..
+Jul 19 02:13:07 <ecntr1>	It seems like ria has got it..:)
+Jul 19 02:13:30 <ria>	i have to code ecntr1
+Jul 19 02:13:34 <ria>	logic works
+Jul 19 02:13:55 <ecntr1>	:)
+Jul 19 02:17:38 <ria>	kushal,
+Jul 19 02:17:43 <kushal>	ria, yes
+Jul 19 02:17:47 <ria>	http://rafb.net/p/ipmvxQ34.html
+Jul 19 02:17:50 <ria>	kushal, check it
+Jul 19 02:17:58 <ria>	it is not working
+Jul 19 02:18:06 <ria>	but the logic think is ok
+Jul 19 02:18:35 <ria>	i used a small string with this logic and it works fine kushal
+Jul 19 02:18:50 <ria>	kushal, i used the page source
+Jul 19 02:19:01 <kushal>	ria, logic is almost ok :)
+Jul 19 02:19:03 <ria>	kushal, did you understand it?
+Jul 19 02:19:07 <kushal>	ria, try with http://finance.yahoo.com/q?s=TCS.NS
+Jul 19 02:19:11 <kushal>	ria, no :)
+Jul 19 02:19:28 <ria>	kushal, i did x + 74
+Jul 19 02:19:32 <kushal>	yes
+Jul 19 02:19:37 <ria>	as i counted in page source
+Jul 19 02:19:50 <ria>	how far is it from last trade
+Jul 19 02:20:04 <ria>	i mean the value 10
+Jul 19 02:20:15 <kushal>	ria, count count :p
+Jul 19 02:20:16 <ria>	kushal, ^^
+Jul 19 02:20:22 <ria>	ya count
+Jul 19 02:20:22 <kushal>	this is a nice problem 
+Jul 19 02:20:24 <kushal>	:p
+Jul 19 02:20:26 <ecntr1>	yeh.. but in my case.. not working
+Jul 19 02:20:39 <ria>	ecntr1, its not working either
+Jul 19 02:20:40 <PR4KH4R>	kushal: shouldn't the solution be generic
+Jul 19 02:20:45 <ecntr1>	ria: you must have made some mistake counting..
+Jul 19 02:20:51 <ria>	kushal, but see it should work
+Jul 19 02:21:00 <kushal>	PR4KH4R, yes
+Jul 19 02:21:03 <ria>	ecntr1, anyways it should show something
+Jul 19 02:21:05 <ecntr1>	yah ria..
+Jul 19 02:21:16 <ria>	ecntr1, actually not showing now
+Jul 19 02:21:32 *	amrita has quit (Read error: 110 (Connection timed out))
+Jul 19 02:21:32 <ria>	ecntr1, otherwise i can change the values to get the desired
+Jul 19 02:21:37 <ecntr1>	ria: you'r logic is right.. just we have to count good..:)
+Jul 19 02:21:44 <kushal>	ecntr1, correct 
+Jul 19 02:21:46 <Kkhushi_>	kushal, shouldn't it be located through programming
+Jul 19 02:21:50 <PR4KH4R>	kushal: so, hard coding the values like "74" should be discouraged
+Jul 19 02:21:57 <kushal>	Kkhushi_, yes 
+Jul 19 02:21:58 <ria>	ecntr1, ya i know the counting part is bad
+Jul 19 02:22:09 <ecntr1>	:)
+Jul 19 02:22:13 <kushal>	Kkhushi_, PR4KH4R but you can hard code some amount 
+Jul 19 02:22:26 <kushal>	Kkhushi_, which will not effect any thing 
+Jul 19 02:22:26 <ria>	kushal, but in the page source a number is encountered earlier
+Jul 19 02:22:32 <ecntr1>	PR4KH4R: Mate.. you suggest a better way..:)
+Jul 19 02:22:52 <PR4KH4R>	ecntr1: thinking buddy :)
+Jul 19 02:22:59 <ria>	so i could not wait for a number to come kushal
+Jul 19 02:23:00 <ecntr1>	PR4KH4R: we're working hard on it mate..
+Jul 19 02:23:06 <ria>	kushal, did you get that
+Jul 19 02:23:08 <ria>	?
+Jul 19 02:23:11 <kushal>	ria, no, 
+Jul 19 02:23:19 <kushal>	ria, I am just waiting for a resultr 
+Jul 19 02:23:22 <ecntr1>	PR4KH4R: and ria made a significant code..
+Jul 19 02:23:32 <ecntr1>	kushal: :)
+Jul 19 02:23:45 <kushal>	as I am still in office 
+Jul 19 02:23:46 <kushal>	:D
+Jul 19 02:23:59 <ria>	kushal, can you say why is it not giving any output?
+Jul 19 02:24:03 <PR4KH4R>	ecntr1: yeah, right
+Jul 19 02:24:14 <kushal>	ria, no idea
+Jul 19 02:24:28 <ecntr1>	ria..
+Jul 19 02:24:32 <ria>	kushal, let me do in interpreter, it may work
+Jul 19 02:24:34 <kushal>	ria, what is the input 
+Jul 19 02:24:35 <ria>	ecntr1, :)
+Jul 19 02:24:38 <kushal>	ria, yes
+Jul 19 02:24:42 <ria>	WIT
+Jul 19 02:24:44 <kushal>	ok
+Jul 19 02:24:53 <ecntr1>	i think you should assign a variable and then add 5 into it..
+Jul 19 02:25:02 <ecntr1>	not data[a:5]
+Jul 19 02:25:14 <kushal>	ria, btw, you should paste without the line numbers, or else I can not test the code
+Jul 19 02:25:15 <ecntr1>	i mean aa=a+5
+Jul 19 02:25:20 <ecntr1>	then data[a:aa]
+Jul 19 02:25:25 <ria>	ya i know
+Jul 19 02:25:30 <ria>	sorry kushal
+Jul 19 02:25:36 <kushal>	ecntr1, yes, just have to find a and aa :
+Jul 19 02:25:37 <kushal>	:p
+Jul 19 02:25:39 <ria>	i was in a hurry to paste that's why
+Jul 19 02:25:46 <kushal>	ria, no problem  :p
+Jul 19 02:25:54 <ria>	:)
+Jul 19 02:25:57 <kushal>	ria, to disable nu in vi , :set nu!
+Jul 19 02:26:09 <ria>	ya i always do that
+Jul 19 02:26:20 <ria>	when i show something
+Jul 19 02:26:29 <ria>	but now i am thinking only here
+Jul 19 02:26:30 <ria>	:P
+Jul 19 02:29:21 *	amritaaa has quit (Read error: 110 (Connection timed out))
+Jul 19 02:30:24 <ria>	kushal, when i did in interpreter it gave ' '
+Jul 19 02:30:50 <kushal>	ok
+Jul 19 02:30:51 <kushal>	:p
+Jul 19 02:31:22 <ria>	kushal, the logic is right i think, still not working
+Jul 19 02:31:27 <kushal>	:)
+Jul 19 02:31:31 <ria>	kushal, http://rafb.net/p/nH3ecC83.html
+Jul 19 02:31:34 <ria>	check it
+Jul 19 02:31:41 *	amritas has quit (Read error: 110 (Connection timed out))
+Jul 19 02:31:42 <ria>	i removed the line numbers
+Jul 19 02:31:44 <kushal>	ria, then there is some problem in the logic :po
+Jul 19 02:31:46 <ria>	the same code
+Jul 19 02:32:08 <ria>	kushal, but i used a small string and it worked
+Jul 19 02:32:13 <ria>	the last part
+Jul 19 02:32:47 <kushal>	ria, why you are sending data="Last Trade" ?
+Jul 19 02:33:24 <ria>	kushal, it was working
+Jul 19 02:33:28 <kushal>	eh
+Jul 19 02:33:33 <ecntr1>	kushal.. i got it.
+Jul 19 02:33:44 <ria>	kushal, it was giving the page source
+Jul 19 02:33:47 <kushal>	ria, don't do only if it is working 
+Jul 19 02:33:48 <ria>	earlier
+Jul 19 02:33:56 <ria>	ok kushal
+Jul 19 02:34:00 <kushal>	ria, it may harm somewhere else
+Jul 19 02:34:06 <kushal>	ecntr1, tell 
+Jul 19 02:34:09 <kushal>	rather shwo 
+Jul 19 02:34:10 <kushal>	show 
+Jul 19 02:34:17 <ria>	kushal, should i remove the request part?
+Jul 19 02:34:22 <ria>	kushal, ?
+Jul 19 02:34:33 <kushal>	you can 
+Jul 19 02:34:33 <ecntr1>	http://rafb.net/p/xtKkLh21.html
+Jul 19 02:34:45 <ria>	ok
+Jul 19 02:34:46 <ecntr1>	it's the experiment version.. it's working well
+Jul 19 02:35:06 <ecntr1>	wait for the more sophistication...:)
+Jul 19 02:35:16 <kushal>	hehe
+Jul 19 02:35:31 <PR4KH4R>	he he
+Jul 19 02:35:38 <kushal>	ecntr1, will it work with http://finance.yahoo.com/q?s=TCS.NS
+Jul 19 02:36:02 <PR4KH4R>	ecntr1: again "129"
+Jul 19 02:36:58 *	munichlinux has quit ("Ex-Chat")
+Jul 19 02:37:09 <kushal>	anyway you all can solve this tomorrow also 
+Jul 19 02:37:29 <ecntr1>	http://rafb.net/p/QWYPJJ36.html
+Jul 19 02:37:39 <ecntr1>	It's working well with IBM
+Jul 19 02:37:42 <ecntr1>	:)
+Jul 19 02:37:44 <ria>	kushal, will link.read() give the page source?
+Jul 19 02:37:59 <ria>	ecntr1, why did you use 129?
+Jul 19 02:38:12 <ria>	kushal, ?
+Jul 19 02:38:16 <ecntr1>	?
+Jul 19 02:38:18 <ecntr1>	129?
+Jul 19 02:38:19 <kushal>	will see you guys tomorrow 
+Jul 19 02:38:22 <ria>	ya
+Jul 19 02:38:26 <ecntr1>	oh
+Jul 19 02:38:27 <kushal>	going to do other works
+Jul 19 02:38:34 <ecntr1>	ok.. it's the last share value..
+Jul 19 02:38:44 <ria>	ok
+Jul 19 02:38:45 <PR4KH4R>	kushal: ok
+Jul 19 02:38:50 <ecntr1>	so bu the lowest index of it..
+Jul 19 02:38:57 <ria>	so you found that too:P
+Jul 19 02:38:58 <ecntr1>	*by
+Jul 19 02:39:03 <PR4KH4R>	kushal: see you tomorrow
+Jul 19 02:39:05 <ria>	is it for all?
+Jul 19 02:39:09 <ria>	ecntr1, ?
+Jul 19 02:39:12 <ecntr1>	I found out how many letters to strip.
+Jul 19 02:39:29 <kushal>	PR4KH4R, may be in Sunday 
+Jul 19 02:39:30 <ria>	last share value for all 129 ecntr1 ?
+Jul 19 02:39:38 <ria>	on sunday
+Jul 19 02:39:41 <ria>	kushal, ^^
+Jul 19 02:39:43 <kushal>	yes
+Jul 19 02:39:46 *	ecntr1 says thank you and good night kushal da
+Jul 19 02:39:49 <ria>	wrong english
+Jul 19 02:39:50 <ria>	:P
+Jul 19 02:39:51 <kushal>	bye all

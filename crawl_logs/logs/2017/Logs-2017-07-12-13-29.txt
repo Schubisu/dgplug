@@ -1,0 +1,525 @@
+----BEGIN CLASS----
+[13:29] <kushal> #startclass
+[13:29] <kushal> Roll Call
+[13:29] <skat_sd> Saikat Dey
+[13:29] <anuGupta> Anu kumari Gupta
+[13:29] <avik> Avik Mukherjee
+[13:29] <championshuttle4> Shivam Singhal
+[13:29] <jiteshpabla> Jitesh Pabla
+[13:29] <ishank_g> Ishank Gupta
+[13:29] <samridhia> Samridhi Agarwal
+[13:29] <Phi_mb> Mohit
+[13:29] <asraisingh> Abhishek Singh
+[13:29] <balaji> Balaji
+[13:29] <atul> Atul Krishna
+[13:29] <casper01> Mayur khomane
+[13:29] <skarpy> Akash pathak
+[13:29] <kvy> kumar vipin yadav
+[13:29] <abhinavshirur> Abhinav Shirur
+[13:29] <yurii> yurii pylypchuk
+[13:29] <ikshitij> Kshitij
+[13:29] <deepika_> Deepika Upadhyay
+[13:30] <priyansh> Priyansh
+[13:30] <ganeshnomula_> Ganesh Nomula
+[13:30] <jasonbraganza> Jason Braganza
+[13:30] <aryan1308> Aryan Tripathi
+[13:30] <gauravsitlani> Gaurav Sitlani
+[13:30] <soumam007> Soumam Banerjee
+[13:30] <messifc> Messi fc
+[13:30] <bhavin192> Bhavin Gandhi
+[13:30] <sakshi> Sakshi Saraswat
+[13:30] <NikitaK3> Nikita Kotak
+[13:31] <ahole[m]> kshithij iyer
+[13:31] <kushal> Anyone else?
+[13:31] <akshayg96> Akshay Gaikwad
+[13:31] <poojaencoded> pooja kumari singh
+[13:32] <kushal> We are following our tradition of slowly coming down to people who are really interested to learn :)
+[13:32] <14WABFA2U> neha kandpal
+[13:32] <ashwanig> Ashwani Kumar Gupta
+[13:32] <mrlmachine> murli manohar
+[13:33] <schubisu> Robin Schubert
+[13:33] <kushal> Any questions from the last class?
+[13:33] <kushal> next
+[13:33] <arush> Arush
+[13:34] <fxkundan> kundan kumar
+[13:34] <kushal> Any question from the last session?
+[13:34] <realslimshanky> Shashank Kumar
+[13:34] <fxkundan> i am new here .How does it work?
+[13:34] <kushal> fxkundan, Hi
+[13:35] <kushal> fxkundan, We all discuss things in this channel, if you have a question during the session, type !
+[13:35] <kushal> and then batul will ask you to ask your question, when it comes.
+[13:35] <fxkundan> ok sure
+[13:35] <kushal> fxkundan, You can introduce yourself to all of us :)
+[13:36] <kushal> add: anwesha
+[13:36] <fxkundan> Hi guys i am kundan  i just finished my engineering and very much intrested in linux
+[13:36] <kushal> habeeb[m], You may also want to introduce yourself.
+[13:36] <kushal> fxkundan, Welcome :)
+[13:36] <im_mohsin> Roll Call: Mohsin Mumtaz
+[13:37] <kushal> anwesha, Stage is yours.
+[13:37] <anwesha> Thanks Kushal
+[13:37] <mrlmachine> roll call :murli manohar
+[13:38] <kishore> roll call :Kishore
+[13:38] <Ani_> roll call : Aniket Uttam
+[13:38] <anwesha> Hi, I am Anwesha, a lawyer, the organizer of PyLadies Pune.
+[13:39] <adas0496> roll call : Abhishek Das
+[13:39] <skarpy> Hi anwesha
+[13:39] <poojaencoded> hi anwesha
+[13:39] <anwesha> Today we are going to discuss some boring but (unfortunately important) matters/concepts
+[13:39] <skat_sd> good evening anwesha
+[13:39] <anuGupta> anwesha : Hello
+[13:40] <anwesha> Good everyone thanks :)
+[13:40] <gauravsitlani> Licensing?
+[13:40] <_RicharD_> Roll Call: Mayank gupta
+[13:40] <anwesha>  Lets roll the Tardis and go to  November 2017
+[13:40] <anwesha> You have finished the summer training.
+[13:41] <anwesha> All excited to gather so much knowledge about open source, programming, irc, git -- the list is endless.
+[13:41] <anwesha> Feeling all set to conquer the world.
+[13:41] <theoaradoxer02_> Roll Call: Mannu Gupta
+[13:41] <ahole[m]> Lawyer and organizer of Pyladies. You have degree in both computer science and law. anwesha  wow! you appear to be like harvey specter+Mark zukerburg.
+[13:42] <kushal> ahole[m], please stop talking in the middle of the session.
+[13:42] <anwesha> You have done a project in your summer training session.
+[13:42] <anwesha> Uploaded it in github or bitbbucket or in any other platforms.
+[13:42] <poojaencoded> anwesha how you managed both the things
+[13:42] <poojaencoded> ?
+[13:42] <kushal> poojaencoded, Follow the rules please.
+[13:42] <anwesha> Now starts the big wait, anticipation that you will get an user.
+[13:42] <anwesha> You are setting alarms after every one hour to check if anyone is using it. Nope no user.
+[13:42] <poojaencoded> sorry ,kushal
+[13:42] <anwesha> February 2018
+[13:43] <ahole[m]> kushal: sorry
+[13:43] <anwesha> You have come to attend PyCon Pune, sad, shattered.
+[13:43] <anwesha> While people are discussing how they are adding new features to their project as per the requirement of the users, you are keeping silent, no user till date.
+[13:43] <anwesha> Suddenly you heard someone discussing about Intellectual property, copyright  etc, with a very serious expression on their faces.
+[13:43] <anwesha> You think, âWhat happened to these people? Why they are discussing these boring things in such cool technical conference?â
+[13:44] <anwesha> But could not move out with all your setup. And stay there.
+[13:44] <anwesha> You get to gather more information about the law, licenses.
+[13:44] <anwesha> Wait a minute is this why my project does does have an user?
+[13:44] <anwesha> * Wait a minute is this why my project does not have an user?
+[13:45] <anwesha> Eureka you have the answer.
+[13:45] <anwesha> What exactly have you heard? understood?
+[13:46] <ravindra> Roll call Ravindra Lakal
+[13:46] <jiteshpabla> Are you looking for responses from us, anwesha?
+[13:46] <anwesha> you header that the one small  (big thing) you missed was to choose a license for your project. So, people abstained from using/working your project.
+[13:46] <Phi_mb> Please continue. I want to know what happened.
+[13:46] <anwesha> You wish you had not missed the licensing session (thought it to be boring)
+[13:47] <anwesha> You wish
+[13:47] <anwesha> Roll the Tardis
+[13:47] <anwesha> Back in 12th July, 2017:
+[13:48] <anwesha> Now anyone has any question so far?
+[13:48] <Phi_mb> !
+[13:48] <anuGupta> No
+[13:48] <im_mohsin> No
+[13:48] <asraisingh> no
+[13:48] <sakshi> no
+[13:48] <skarpy> no, thank you.
+[13:48] <anwesha> next
+[13:48] <jiteshpabla> !
+[13:48] <atul> no
+[13:48] <NikitaK3> no
+[13:48] <Phi_mb> How can Licensing affect the users to use our product?
+[13:48] <Phi_mb> <eom>
+[13:48] <poojaencoded> no
+[13:48] <ashwanig> !
+[13:48] <kushal> Stop typing No.
+[13:49] <theoaradoxer02_> !
+[13:49] <SpEcHiDeR> !
+[13:49] <anwesha> Phi_mb, That is coming in the next part of the session.
+[13:49] <anwesha> next
+[13:49] <ashwanig> same question as Phi_mb <eom>
+[13:49] <jiteshpabla> Same as what Phi_mb asked
+[13:49] <anwesha> next
+[13:50] <anwesha> next
+[13:50] <theoaradoxer02_> Does this applies to github public projects too ?
+[13:50] <anwesha> next
+[13:50] <anwesha> Yes we will discuss it later.
+[13:51] <SpEcHiDeR> sorry! accidentaly typed ! . The same question was asked previously.
+[13:51] <anwesha> ok
+[13:51] <anwesha> Continuing
+[13:53] <anwesha> The area of law which we primarily belong to is Intellectual Property
+[13:53] <anwesha> So, todayâs session begins with a introduction to Intellectual Property
+[13:53] <anwesha> As the name suggests âintellectual propertyâ is a property created by and related to someoneâs intellect.
+[13:53] <anwesha> It is a way , one of legal structures to protect our intangible assets.
+[13:54] <anwesha> (Intangible means something which do not have physical structure. )
+[13:54] <fxkundan> kunal
+[13:54] <anwesha> Such as creativity, goodwill, reputation etc.)
+[13:54] <anwesha> There are different kinds of intellectual property such as Copyright, Trade Marks, Patents, Trade secrete, Geographical Indications etc.
+[13:54] <fxkundan> messifc
+[13:54] <anwesha> For todayâs session we are only going to deal with Copyright and to be specific very area of copyright, software license.
+[13:55] <anwesha> I shall not be taking any question other than that particular area.
+[13:55] <pr97> roll call: Priyanka Sharma
+[13:55] <anwesha> Anyone has any question so far?
+[13:56] <anwesha> ok
+[13:56] <anwesha> continuing
+[13:56] <anwesha> Copyright
+[13:57] <anwesha> Now the question that comes to your mind is - what is copyright?
+[13:57] <anwesha> To understand the term copyright let us dissect the word copyright.
+[13:57] <anwesha> If we flip the word Copy Right it comes as
+[13:57] <anwesha> Right Copy
+[13:57] <anwesha> right over a copy,
+[13:57] <anwesha> right to copy.
+[13:57] <anwesha> Copyright is an exclusive right to :
+[13:58] <anwesha> 1. use,
+[13:58] <anwesha> 2. distribute,
+[13:58] <anwesha> 3. sell the original creation
+[13:58] <anwesha> granted for a limited period of time,
+[13:59] <anwesha> by the sovereign, i.e the government.
+[13:59] <anwesha> You don't need to apply for the copyright, one automatically gets it.
+[13:59] <anwesha> Though copyright is an exclusive right but it is not absolute, there are certain limitations to it.
+[13:59] <anwesha> Types of works protected:
+[13:59] <anwesha> The Indian copyright law protects literary works, dramatic works, musical works, artistic works, cinematography films and sound recordings
+[14:00] <anwesha> Having said that it may frown some eyebrows that the developers don't do something like that.
+[14:00] <anwesha>  But actually you do.
+[14:00] <anwesha> To achieve an answer how a programmer will code is her personal choice and "expression".
+[14:01] <anwesha> That makes you an "Artist", a "code poet" isn't that cool!
+[14:02] <anwesha> Apart from Acts, Law of the land there are some important conventions and treaties that governs the regime of Copyright.
+[14:02] <jasonbraganza> <3 "code poet"
+[14:02] <anwesha> Anyone has any question?
+[14:02] <fxkundan> !
+[14:02] <ashwanig> !
+[14:02] <skat_sd> !
+[14:02] <Phi_mb> !
+[14:02] <anwesha> next
+[14:02] <ashwanig> Why copyright is granted for a limited period of time?<eom>
+[14:02] <SpEcHiDeR> !
+[14:02] <fxkundan> What does you mean when you say one automatically gets the copyright
+[14:02] <ashwanig> oops sorry
+[14:03] <skat_sd> How do we automatically get a copyright if we never applied for it in the First place? How does the government know that i need one?
+[14:03] <kushal> skat_sd, ashwanig Next time if you ask out of order, we will happily remove you from the sessions.
+[14:03] <skat_sd> asked earlier than my turn, sotty
+[14:03] <skarpy> !
+[14:03] <skat_sd> s/sotty/sorry
+[14:03] <theoaradoxer02_> !
+[14:03] <ahole[m]> !
+[14:04] <NikitaK3> !
+[14:04] <skat_sd> kushal, accidentally pressed the enter key, had the question typed out, sorry
+[14:05] <anwesha> fxkundan, that you dont have to go to the Registers office to get/have your right over your creation. As soon as you make,create something (there are certain conditions to it) it is considered as your property.
+[14:06] <anwesha> next
+[14:06] <skat_sd> How do we automatically get a copyright if we never applied for it in the First place? How does the government know that i need one?
+[14:06] <ashwanig> Why copyright is granted for a limited period of time?<eom>
+[14:07] <bhavin192> skat_sd, :-/
+[14:07] <anwesha> ashwanig,  so that after the period is over the benefit of the invention can be enjoyed by the public at large.
+[14:07] <anwesha> next
+[14:07] <Phi_mb> Question already asked and answered. :)
+[14:08] <skat_sd> answered, thanks
+[14:08] <anwesha> next
+[14:08] <anwesha> next
+[14:08] <SpEcHiDeR> Why should a person apply for copyright? Why cannot the person release whatever project he makes in the public domain, (if he does not wish to sell the software)?
+[14:09] <deepika_> !
+[14:10] <bhavin192> SpEcHiDeR, what if someone uses your code and sell it as they have made it?
+[14:10] <anwesha> SpEcHiDe,  I will take that question in the Public Domain section. Please remind me once. Thanks
+[14:10] <anwesha> next
+[14:10] <skarpy> how the law knows, who the product actual belongs to? if i automatically get copyright. Is there any relation of this with patent for product?
+[14:10] <balaji> !
+[14:11] <samridhia> !
+[14:11] <SpEcHiDeR> bhavin192: what if the person in the example does not care? (I think it would be an hypothetical case) but still asking?
+[14:11] <anwesha> skarpy, the question if "law knows" or not that comes when and where there is a legal action brought to the court.
+[14:11] <adas0496> !
+[14:12] <Phi_mb> !
+[14:12] <skarpy> anwesha: yes, i am talking about such conditions, also what about patent for products?
+[14:14] <anwesha> skarpy, so then many things/terms/situations arise such as circumstantial  evidence, first to apply or first to invent etc. Then if you have registered your work that registration helps.
+[14:14] <skarpy> thanks :) <eom>
+[14:14] <anwesha> skarpy, Patent is not connected here in this particular case.
+[14:14] <skarpy> anwesha, ok.
+[14:15] <anwesha> next
+[14:15] <theoaradoxer02_> Does 'distribute' means anyone can modify and submit code to original ?
+[14:15] <theoaradoxer02_> One more thing, let us say singing is my art , how can one be exploited , why we need copyright there ?
+[14:16] <anuGupta> !
+[14:18] <anwesha> theoaradoxer02_,   "distribute" here includes both giving it to someone as it is, and /or re-distributing the modified version.
+[14:18] <anwesha> next
+[14:18] <skarpy> theoaradoxer02_: using others music, tone, vocals etc., for your own personal gain. publicity, attracting listeners/viewers without the consent of the person who is the rightful owner cause exploitation.
+[14:19] <anwesha> next
+[14:19] <im_mohsin> theoaradoxer02_, I sing a particular song using the same musical notes and tune you newly created. Now this is something i have copied from you and that is something not my invention. To protect cases of this kind you need copyright
+[14:19] <NikitaK3> Question already answered. Thanks!
+[14:19] <anwesha> next
+[14:19] <deepika_> how do we create copyright license , what if our code matches with someone a bit which i am not aware of, does it violate the law?
+[14:19] <ahole[m]> Didn't get the code poet part? How is copyright which is applied to literature applicable to something like code? Literature is art and code is science right? <eom>
+[14:21] <theoaradoxer02_> skarpy: do we need to take  written permission?
+[14:21] <anwesha> ahole[m], the last situation is a matter of fact not a matter of law.
+[14:21] <skarpy> ahole[m]: like everyone has a different way of singing a song, using various tunes, with different instruments, people code differently using different language
+[14:21] <kushal> People stop doing cross-talk.
+[14:21] <skarpy> theoaradoxer02_: dont know the procedure, but yes, something like that.
+[14:22] <anwesha> deepika I hope you will get your answer in the further
+[14:23] <deepika_> anwesha okay ,eagerly waiting :)<eom>
+[14:24] <anwesha> ahole[m], how come you are sure that code is Science?
+[14:25] <anwesha> ahole[m], between when you are writing a book, it is the application of your mind, you are creating something
+[14:27] <anwesha> ahole[m], Similarly for a particular coding problem I may use 'for loop' to solve and you may choose "while" loop, it is our personal choice and expression.
+[14:27] <anwesha> ahole[m], I guess that answers your question.
+[14:27] <anwesha> next
+[14:27] <balaji> Is any organization has a data or record of who owns the project ? And Who will Issue the License for the projects?
+[14:29] <ahole[m]> anwesha: Art is something that is can't be measured or proved where as science is something that is based on facts and finding and can be quantified. I do agree to the point that we use our creativity in both cases but you can measure code where as art can't be measured. I can decide a price for an app or a script but can we quote the pirce of monalisa.
+[14:30] <anwesha> balaji, You (the creator of project) are the person who issues the license. If you want register there is Government department
+[14:31] <ahole[m]> s/pirce/price
+[14:31] <kushal> ahole[m], That line does not any sense to me.
+[14:32] <bhavin192> ahole[m], but how can you decide price of my work, my creativity ?
+[14:33] <anwesha> ahole[m], measuring in terms of money does not make any sense. Money can not define Science or Art. For an "app'" you are paying the price the creator has quoted
+[14:33] <ikshitij> I agree with kushal. ahole[m] why can't we quote the price of Monalisa. And How can you decide a price for an app ?
+[14:33] <anwesha> next
+[14:33] <ahole[m]> Mona Lisa (the sand women who never smiled painting)  kushal
+[14:33] <samridhia> got answer thanks!
+[14:33] <anwesha> next
+[14:33] <adas0496> anwesha: what is the time period for which we get a copyright automatically, for software products?
+[14:34] <ikshitij> ahole[m]: Price is always quoted by creator not buyer or user.
+[14:35] <anwesha> adas0496,  Generally for 20 years (after the demise of the creator) in most of the countries. In US it is 70 years(after the demise of the creator) .
+[14:35] <anwesha> next
+[14:35] <Phi_mb> You mean I can sell/use anyone copyright legally unless the owner takes me to the court? Based on the skarpy question. <eom>
+[14:36] <adas0496> anwesha: okay
+[14:36] <ahole[m]> Okay! Now I am confused.
+[14:37] <skarpy> Phi_mb: you cant without the consent, and if you do, its stealing which is wrong.
+[14:37] <jasonbraganza> ahole[m] / ikshitij  - figure it out after class
+[14:38] <anwesha> Phi_mb, yes illegally you can do anything you want, even stealing Tony Stark's suit.
+[14:38] <anwesha> next
+[14:38] <anuGupta> Answered.<eof>
+[14:38] <anwesha> next
+[14:38] <anwesha> Continuing
+[14:40] <anwesha> We had so many questions about software license
+[14:40] <anwesha> What actually is license?
+[14:40] <anwesha> Lets take a real life analogy
+[14:40] <anwesha> what does a driving license do?
+[14:40] <anwesha> It gives you the permission to drive.
+[14:40] <anwesha> Similarly a software license also gives you the permission to do certain things with the software.
+[14:41] <anwesha> In case of driving license the motor vehicle authority and for the software license the owner of the software gives you the permission.
+[14:41] <anwesha> The motor vehicle authority is empowered by the govt to issue driving license but here the owner gets his authority under one of the legal regimes governing intellectual sphere called copyright.
+[14:41] <anwesha> The formal definition of the software license is
+[14:41] <anwesha> It a legal instrument
+[14:41] <anwesha> controlling, deciding, governing
+[14:41] <anwesha> the usage,
+[14:42] <anwesha> distribution,
+[14:42] <anwesha> re-distribution of the
+[14:42] <anwesha> software, i.e the subject matter of the license agreement.
+[14:42] <anwesha> It is usually made according to, by the way of contract law.
+[14:42] <anwesha> Types of software licenses
+[14:43] <anwesha> Proprietary License
+[14:43] <anwesha> The software which uses  Proprietary Licenses, gives less, limited and restricted rights to the users.
+[14:44] <anwesha> The publisher of the software or sometimes any other person/authority retains the source code,
+[14:44] <anwesha> User does not have any access to the source code.
+[14:44] <anwesha> Users have all their rights drafted in the End Users License Agreement, EULA.
+[14:44] <anwesha> It is usually made for a limited period of time.
+[14:45] <anwesha> The user may agree to this contract
+[14:45] <anwesha> a. in writing,
+[14:45] <anwesha> b. interactively on screen
+[14:45] <anwesha> or, c. by opening the box containing the software (shrink wrap licensing).
+[14:45] <anwesha> Most of the gaming software uses this kind of commercial licensing (shrink wrap licensing).
+[14:46] <anwesha> Any question so far?
+[14:46] <anwesha> Continuing
+[14:46] <ashwanig> !
+[14:46] <anwesha> next
+[14:47] <ashwanig> When installing games or other software it asks for accept license, do they not use shrink wrap licensing?
+[14:47] <ashwanig> <eof>
+[14:47] <skarpy> !
+[14:50] <anwesha> ashwanig, no it is not. When you are opening up a DVD of Game you are entering into a Contract. Where you are clicking something on the screen it is not Shrink Wrap licensing.
+[14:50] <anwesha> next
+[14:50] <skarpy> so the shrink wrap licensing which we normally see, while installing any game or software, is actually EULA? which tells us the limits/rights we can have?
+[14:51] <anwesha> skarpy, yes
+[14:52] <skarpy> ok, thanks. <eom>
+[14:52] <anwesha> skarpy, as the person who is using the game is the end user of the product.
+[14:52] <anwesha> continuing
+[14:52] <anwesha> If the Commercial Proprietary Licenses are on one side of the pole, Public Domain stands on the other extreme.
+[14:53] <anwesha> The word Domain means field, land.
+[14:53] <anwesha> Therefore we may construe that the works which are in Public Domain as
+[14:53] <anwesha> Something there at the public territory for the use of the Public at large.
+[14:54] <anwesha> All the I.P rights of the developer are relinquished, waived in case of Public Domain.
+[14:54] <anwesha> There are actually 3 ways by which a work can be subjected to Public Domain:
+[14:54] <anwesha> Software whose exclusive intellectual property rights have
+[14:54] <anwesha> 1. expired,
+[14:54] <anwesha> 2. to which intellectual property rights are inapplicable.
+[14:54] <anwesha> 3. waived.
+[14:55] <anwesha> If you want to subject your work into public domain you have to specifically dedicate it to the same.
+[14:57] <anwesha> You have to include a license file in project source, copyright notice in the important (quality and quantity both) source code files.
+[14:57] <anwesha> This is how you dedicate your project to a particular license.
+[14:58] <anwesha>  In case of a Public Domain dedication you have to write it as in those abovemenioned places.
+[14:58] <anwesha> Not writing anything as your license does not place your work into public domain.
+[14:59] <anwesha> In this case no one will be able to use your code.
+[15:00] <anwesha> Not having a proper license means that you are giving me nice plate of food and not saying what to do with it.
+[15:00] <anwesha> Should eat it?
+[15:00] <anwesha> Throw it?
+[15:01] <anwesha> or am I not suppose to touch it at all.
+[15:02] <anwesha> But we have to remember and understand Public Domain is not similar to licensing.
+[15:03] <anwesha> Here you are giving up all your intellectual property right what soever.
+[15:04] <anwesha> Dedication of a software to Public Domain?
+[15:04] <anwesha>  Writing it as Public Domain
+[15:04] <anwesha> Opting for Creative Commons 0
+[15:05] <anwesha> There are countries where dedication into Public Domain is not possible.
+[15:05] <anwesha> Creative Commons have been innovated/ drafted  to make a provision for dedication into public domain  in countries, where public domain is not possible.
+[15:05] <anwesha> Any question so far
+[15:05] <anwesha> *?
+[15:05] <skarpy> !
+[15:05] <anwesha> next
+[15:05] <skarpy> what is creative commons?
+[15:06] <anwesha> skarpy, the link will be provided after the session.
+[15:06] <skarpy> ok.
+[15:06] <anwesha> continuing
+[15:07] <anwesha> We have covered the two extreme ends.
+[15:07] <anwesha> Now there is another way which stays in the middle.
+[15:07] <anwesha> Which is beneficial both for the creator, originator and the user
+[15:07] <anwesha> Open Source
+[15:07] <anwesha> Under Open Source software license the following rights are grated regarding the software:
+[15:08] <anwesha> a. source code is made accessible (sometimes upon requests based on the terms of the license), along with the further rights to:
+[15:08] <anwesha> b. study,
+[15:08] <anwesha> c. change,
+[15:08] <anwesha> d. distribute,
+[15:08] <anwesha> e. re-distribute,
+[15:08] <anwesha> the software to anyone for any reason.
+[15:08] <anwesha> Wikipedia says -" Open-source software (OSS) is computer software with its source code made available with a license in which the copyright holder provides the rights to study, change, and distribute the software to anyone and for any purpose."
+[15:09] <anwesha> Open Source gives  the common platform to work and make a better software with collaborative effort knowledge.
+[15:09] <anwesha> OSI, the Open Source Initiative jots down 10 promises which an Open Source License makes:
+[15:09] <anwesha> 1. Free Redistribution
+[15:09] <anwesha> 2. The program must include source code, and must allow distribution in source code as well as compiled form.
+[15:09] <anwesha> 3. The license must allow modifications and derived works, and must allow them to be distributed under the same terms as the license of the original software.
+[15:09] <anwesha> 4.Integrity of The Author's Source Code: This promise saves the author from any liability caused due to the mistake of the other contributor.
+[15:09] <anwesha> 5. The license must not discriminate against any person or group of persons.
+[15:10] <anwesha> 6. No Discrimination Against Fields of Endeavor
+[15:10] <anwesha> 7. The rights attached to the program must apply to all to whom the program is redistributed without the need for execution of an additional license by those parties.
+[15:10] <anwesha> 8.License Must Not Be Specific to a Product
+[15:10] <anwesha> 9. License Must Not Restrict Other Software
+[15:10] <anwesha> 10. No provision of the license may be predicated on any individual technology or style of interface.
+[15:11] <anwesha> Examples: MIT, BSD, Apache are some examples of Open Source Licenses.
+[15:11] <anwesha> Free software:
+[15:11] <anwesha> We have to understand Free Software in a broader context.
+[15:11] <anwesha> Free Software is movement, revolution.
+[15:11] <anwesha>  It is the first organized battle in the liberation of cyber space.
+[15:12] <anwesha> The battle to control, regulate your own computer (who controls your machine is it a big company or you?).
+[15:12] <anwesha> Is it the program that is controlling you, the users or is it the users who are controlling the  program, computer?
+[15:12] <anwesha> The question was answered by the innovation of the following four freedoms:
+[15:12] <anwesha> Four Freedoms
+[15:13] <anwesha> The word free in free software stands for freedom for users
+[15:13] <anwesha> Not as free as buy one get one free.
+[15:14] <anwesha> Not as free as in no money, without any monitory exchange.
+[15:14] <anwesha> There are 4 core freedoms that make the free software.
+[15:15] <anwesha> Lets consider your software to be a sandwich can use the as you want you can eat it, distribute it, through it, play with it whatever you wish to do.
+[15:15] <anwesha> (freedom 1) Ensures the freedom to modify the source code.
+[15:15] <anwesha> This freedom says that you are not only getting sandwich but also the recipe along with the freedom to do the modifications as per your choice.
+[15:15] <anwesha>  So you can make your own sandwich. Ohh I don't like the cheese here goes out the cheese.
+[15:15] <anwesha>  I love bacon here goes the bacon in it. So you are getting the software + source code+the right of modification
+[15:15] <anwesha> (freedom 2) The freedom to redistribute copies so you can help your neighbor.
+[15:16] <anwesha> So, you are free to distribute the software along with these four freedoms to your friend and to the world at large for the matter of the fact.
+[15:16] <anwesha> (freedom 3) The freedom to distribute copies of your modified versions to others .
+[15:16] <anwesha> The sandwich you made, can distribute it with the new add to recipe to your friends.
+[15:16] <anwesha> The major distinction between sandwich and software is that once you give your pizza to someone you don't have one but in software you.These duties are the originator of GNU General Pubic License.
+[15:16] <anwesha> Examples Gnu GPL, LGPL etc.
+[15:17] <anwesha> With this we have come to the session today.
+[15:17] <anwesha>  * end of the session
+[15:18] <avik> !
+[15:18] <im_mohsin> !
+[15:18] <anwesha> I will take another sessions about the licenses and the best practices.
+[15:18] <anuGupta> !
+[15:18] <skarpy> wonderful session anwesha :)
+[15:18] <anwesha> So questions
+[15:18] <anwesha> skarpy, thanks
+[15:18] <anwesha> next
+[15:18] <avik> if I can distribute copies, how to satisfy the money the developer had planned?
+[15:19] <priyansh> Learned a lot today. Thanks anwesha :)
+[15:19] <anwesha> avik, can you rephrase it?
+[15:19] <avik> if i start editing and shareing, why will anyone buy it?
+[15:20] <championshuttler> !
+[15:20] <avik> because Free did not mean free of money right?
+[15:20] <avik> <eom>
+[15:21] <kushal> avik, tell the full story, is this your code? or you took someone's else's code?
+[15:21] <anwesha> avik, I guess you are worried about the commercial as aspect of free software
+[15:21] <anwesha> right?
+[15:22] <avik> kushal, lets say you developed a code! A Free and open sourced!
+[15:22] <avik> I edit it
+[15:22] <avik> and now I have the right to distribute it
+[15:22] <avik> say i give it to anwesha
+[15:22] <kushal> avik, People pay for service, not for the code.
+[15:22] <avik> so, anwesha did not had to buy it from you
+[15:23] <avik> kushal, got that!
+[15:23] <kushal> avik, So people will still pay me to get any help than you, because you may not know everything about the code.
+[15:23] <ikshitij> !
+[15:23] <avik> but what does distribute mean here?
+[15:23] <anwesha> people actually have different marketing and business policy for it
+[15:23] <avik> <eom>
+[15:23] <anwesha> next
+[15:23] <im_mohsin> How does licensing helps in open source? People can share distribute,redistribute and modify to any extent or it exist to acknowledge the original creator?
+[15:23] <kushal> avik, give to someone.
+[15:23] <deepika_> !
+[15:24] <avik> kushal, give the code, not the full service, is that it?
+[15:24] <kushal> avik, wait, I will explain after the session.
+[15:24] <avik> ok!
+[15:24] <soumam_> bhgeyfgfyrf
+[15:24] <soumam_> oops sorry
+[15:25] <anwesha> im_mohsin, please go through the whole session. For now which license you choose decides the path for your project.
+[15:25] <anwesha> next
+[15:25] <anuGupta> When I make changes in the software ,is it changed globally?<eof>
+[15:26] <anwesha> anuGupta, no the change happens only to your software.
+[15:26] <anuGupta> And then we can distribute it to someone we wish to share with?
+[15:27] <anwesha> anuGupta, if you add salt to your food that does not make my food salty, similar analogy.
+[15:27] <anwesha> next
+[15:27] <championshuttler> what if i sell a open source software providing i am not owner of it?
+[15:28] <avik> kushal, I guess most of us are stuck at the distribution part!
+[15:29] <avik> anwesha, ^^
+[15:29] <anwesha> championshuttler, based on the license the upstream chose, decides if you can sell it or not.
+[15:29] <kushal> avik, https://en.wikipedia.org/wiki/Distribution_(business)
+[15:30] <kushal> avik, For tl;dr https://www.merriam-webster.com/dictionary/distribution
+[15:30] <anwesha> championshuttler, most of the operating systems companies do that
+[15:30] <anwesha> next
+[15:30] <ikshitij> Suppose we made a software open source. We are working in community writing code from scratch.
+[15:30] <adas0496> !
+[15:30] <avik> ok!
+[15:30] <ikshitij>  How can we ensure that someone (within the community or outside the community) can't use that for commercial purpose with little bit modification and later claiming developed by that person himself or herself
+[15:30] <skat_sd> !
+[15:31] <ikshitij> As he knows Everything about software
+[15:32] <anwesha> ikshitij, it is a matter of fact, anyways you have version control systems for that.
+[15:32] <anwesha> next
+[15:32] <deepika_> Thanks anwesha , it was great to get an idea copyright!
+[15:32] <deepika_> What are these places to which intellectual property rights are inapplicable ?
+[15:32] <soumam_> !
+[15:33] <soumam_> anwesha i am having problem with those tricky words of license, i cant understand the points. what shall i do?
+[15:33] <anwesha> deepika_ no countries as far as my knowledge goes
+[15:33] <anwesha> next
+[15:33] <samridhia> sorry have to leave early! thanks for the great session anwesha.
+[15:33] <soumam_> sorry :(
+[15:33] <adas0496> if I don't explicitely include a licence with my software product,
+[15:34] <anwesha> next
+[15:34] <adas0496> does that implies I have complete copyright and others are not allowed to use it without my permission?
+[15:34] <soumam_> anwesha i am having problem with those tricky words of license, i cant understand the points. what shall i do?
+[15:34] <adas0496> <eof>
+[15:34] <skarpy> !
+[15:34] <skat_sd> Suppose i have a system software(linux distro) licensed under GPL. Suddenly i decide i do not want to give out the source code for some reason(think Windows). Now many people have already downloaded the system software before this decision and they can see the code. Can i revert back to not giving source code? if yes, what would happen to the people who already have the source code?
+[15:34] <anwesha> soumam_ we will be there in the channel to help you :)
+[15:34] <anwesha> next
+[15:34] <soumam_> ok anwesha :)
+[15:35] <anwesha> next
+[15:35] <skarpy> the links to follow?
+[15:35] <anwesha> skarpy, later
+[15:35] <skarpy> ok
+[15:36] <anwesha> skat_sd, sorry I missed your question
+[15:36] <adas0496> anwesha: mine too
+[15:37] <skat_sd> anwesha, no problem, you can answer in your own time.
+[15:37] <anwesha> skat_sd, the answer is no, the earlier version will be GPL, you can change the license in the next version.
+[15:38] <skat_sd> okay, thanks
+[15:38] <anwesha> adas0496, can you ask once again
+[15:38] <adas0496> if I don't explicitely include a licence with my software product,
+[15:38] <adas0496> does that implies I have complete copyright and others are not allowed to use it without my permission?
+[15:42] <anwesha> adas0496, yes but please understand other than public domain you have copyright  in all case and fact. By licensing you are actually telling what/how other people  can use it.
+[15:42] <anwesha> next
+[15:43] <adas0496> anwesha: thanks. looking forward to next session
+[15:44] <anwesha> I saw a comment at the initiation of the session that how come I have dual degree. I am a lawyer (masters of law), I don't have any Computer Science or Engineering  degree.
+[15:44] <anwesha> kushal, back to you.
+[15:44] <kushal> https://dgplug.org/irclogs/2014/vanl.log is a log from VanL about Creative Commons.
+[15:44] <kushal> Read it afterwards.
+[15:45] <kushal> We are going to end the session now, people can stay back online and discus as usual.
+[15:45] <kushal> Roll Call
+[15:45] <anuGupta> Anu kumari Gupta
+[15:45] <mdbk> Onyinye Madubuko
+[15:45] <pr97> Priyanka Sharma
+[15:45] <skat_sd> Saikat Dey
+[15:45] <kvy> kumar vipin yadav
+[15:45] <adas0496> Abhishek Das
+[15:45] <ravindra> Ravindra Lakal
+[15:45] <abhinavshirur> Abhinav Shirur
+[15:45] <asraisingh> Abhishek Singh
+[15:45] <akshayg96> Akshay Gaikwad
+[15:45] <bhavin192> hi Bhavin Gandhi
+[15:45] <theoaradoxer02_> Mannu Gupta
+[15:45] <avik> Avik Mukherjee
+[15:45] <priyansh> Priyansh sourav
+[15:45] <gauravsitlani_> Gaurav Sitlani
+[15:45] <deepika_> Deepika Upadhyay
+[15:45] <poojaencoded> pooja kumari singh
+[15:45] <NikitaK3> Nikita Kotak
+[15:45] <Vamsi3296>  Vamsi Krishna
+[15:46] <jiteshpabla> Jitesh Pabla
+[15:46] <Phi_mb> Mohit
+[15:46] <atul> Atul Krishna
+[15:46] <aryan1308> Aryan Tripathi
+----END CLASS----

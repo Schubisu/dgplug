@@ -1,0 +1,31 @@
+"""
+This is dgplug module. We will use this as example.
+"""
+
+
+class Foo(object):
+    """
+    Returns a ``Foo object``
+
+    :arg name: String containing the name
+
+    """
+    def __init__(self, name):
+        self.name = name
+
+    def tellme(self):
+        """
+        This function talks about the name.
+
+        :return: Returns a string containing the name.
+        """
+        return self.name
+
+
+def hello():
+    """
+    Just say hello
+
+    :return: String containing hello message
+    """
+    return "Hello World!"

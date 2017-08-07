@@ -1,0 +1,493 @@
+----BEGIN CLASS----
+[13:28] <kushal> #startclass
+[13:28] <kushal> Roll Call
+[13:28] <jasonbraganza> Jason Braganza
+[13:28] <anupamas> Anupama Shipurkar
+[13:28] <CuriousLearner> Sanyam Khurana
+[13:28] <bhavin192> Bhavin Gandhi
+[13:28] <devendrabhat> Devendra Bhat
+[13:28] <skat_sd> Saikat Dey
+[13:28] <casper011> Mayur khomane
+[13:28] <santoshShaw> Santosh Kumar Shaw
+[13:28] <abhinavshirur> Abhinav Shirur
+[13:28] <ravindra> Ravindra Lakal
+[13:28] <qwebirc824264> Shivam Singhal
+[13:28] <mdbk> Onyinye Madubuko
+[13:28] <wrik003> Wrik Bhadra
+[13:28] <lucifer> Atul kumar
+[13:28] <deepika> Deepika Upadhyay
+[13:28] <apoorv> Apoorv Goel
+[13:28] <schubisu> Robin Schubert
+[13:28] <HoloIRCUser3> Samridhi Agarwal
+[13:28] <Raut> Sayalee Raut
+[13:28] <ikshitij> Kshitij
+[13:28] <pr97> Priyanka Sharma
+[13:28] <skarpy> akash pathak
+[13:28] <Akanksha> Akanksha Bhardwaj
+[13:28] <Phi> Mohit Bansal
+[13:28] <SpEcHiDeR> Shrimadhav U K
+[13:28] <yurii> Yurii Pylypchuk
+[13:28] <kishore> Kishore Saldanha
+[13:29] <imranjeetsingh_> Ranjeet kumar
+[13:29] <sapahia> Rishav
+[13:29] <ishank_g> Ishank Gupta
+[13:29] <sri_> Srikavi
+[13:29] <nisha_> Nisha Rani
+[13:29] <_RicharD_> Mayank gupta
+[13:29] <aryan1308> Aryan tripathi
+[13:29] <rkased> Razy Kased
+[13:29] <Prerna> Prerna Pandey
+[13:29] <soumam_> Soumam Banerjee
+[13:29] <ghishadow> Suraj Ghimire
+[13:29] <messifc> Messi Fc
+[13:29] <meamitk> Amit Kokitkar
+[13:30] <balaji> Balaji
+[13:30] <ahole[m]> Kshithij Iyer
+[13:30] <jiteshpabla> Jitesh Pabla
+[13:30] <ani_> Aniket uttam
+[13:30] <priyansh> Priyansh sourav
+[13:31] <kushal> Kushal Das
+[13:31] <gsitlani> Gaurav Sitlani
+[13:31] <anuGupta> Anu Kumari Gupta
+[13:31] <abdulwahababrar> Abdul Wahab Abrar
+[13:31] <kvy> kumar vipin yadav
+[13:31] <devesh_V> Devesh Verma
+[13:31] <saptaks> Saptak Sengupta
+[13:32] <harshcrop> Harsh Shah
+[13:32] <Skhk634> Shankar Jha
+[13:32] <zoro_7_> Shashank Shekhar (new)
+[13:33] <kushal> Okay
+[13:33] <kushal> I hope everyone made a blog, and started writing.
+[13:33] <kvy> yes
+[13:33] <rkased> yes
+[13:33] <skat_sd> Yes
+[13:33] <deepika> yes
+[13:33] <pr97> yes
+[13:33] <kushal> Now, you all will have to add those feed URL and your name to this page
+[13:34] <kushal> https://public.etherpad-mozilla.org/p/studentplanet
+[13:34] <HoloIRCUser3> yes
+[13:34] <kvy> kushal ,ok
+[13:34] <kushal> If you need help in finding your feed, ask help here.
+[13:34] <kushal> Do it now
+[13:34] <_RicharD_> Yes
+[13:35] <shivamA1_> Shivam Ahirao
+[13:36] <wrik003> !
+[13:36] <kushal> Everyone write at the end
+[13:36] <kushal> :)
+[13:36] <kushal> next
+[13:36] <wrik003> kushal, do we add "feed" at the end for Wordpress blogs?
+[13:36] <wrik003> it isn't exactly clear
+[13:36] <kushal> wrik003, yes, look at the line I wrote
+[13:36] <wrik003> <eof>
+[13:37] <wrik003> kushal, ok
+[13:37] <kushal> People, please follow the format
+[13:37] <kushal> name = Your name
+[13:37] <lucifer> !
+[13:38] <kushal> People with blogs at wordpress
+[13:38] <kushal> your feed url is yourblog.wordpress.com/feed/
+[13:38] <kushal> soumam_, you will have to find your feed
+[13:38] <kushal> next
+[13:39] <abdulwahababrar> !
+[13:39] <lucifer> my blog isn't ready yet can i add my blog tommorrow?
+[13:39] <gsitlani_> !
+[13:39] <kushal> lucifer, maybe
+[13:39] <kushal> lucifer, I will create the planet tonight
+[13:39] <kushal> next
+[13:39] <vipulgupta2048_> !
+[13:39] <abdulwahababrar> Kushal everything is outta my mind as I missed the classes, Can I join the session now?
+[13:39] <andodococo> !
+[13:40] <abdulwahababrar> I missed them due to exams and now reading the logs
+[13:40] <kushal> abdulwahababrar, no, you will have to pay either 1 million dollars as fine or read the old logs
+[13:40] <kushal> next
+[13:40] <kushal> next
+[13:40] <soumam_> kushal, I am not getting how to find it?
+[13:40] <gsitlani_> What is the importance of adding feed?<eom>
+[13:40] <wrik003> kushal, lol
+[13:40] <abhinavshirur> kushal: lol
+[13:40] <abdulwahababrar> Lol! Kushal Thank you so much
+[13:40] <wrik003> abhinavshirur, you have an interesting blog url!
+[13:40] <kushal> gsitlani_, wait, we will discuss about it in some time
+[13:40] <wrik003> ;)
+[13:40] <ashwanig> roll call: Ashwani Kumar Gupta
+[13:41] <vipulgupta2048_> what all has happened right now ? format and feed ? I have created my blog if you want to see.
+[13:41] <realslimshanky> roll call: Shashank Kumar
+[13:41] <abhinavshirur> wrik003, no comments :P
+[13:41] <arush_> roll call: Arush
+[13:41] <vipulgupta2048_> roll call: Vipul Gupta
+[13:42] <wrik003> abhinavshirur, ><
+[13:42] <kushal> soumam_, It seems you have changed the logo of dgplug at http://soumambanerjee007.blogspot.in/2017/06/dgplug-soumam-banerjee-student-of-b.html
+[13:42] <kushal> soumam_, which is really bad.
+[13:42] <andodococo> roll call: Deepak Chethan
+[13:42] <kushal> soumam_, You are not supposed to change anyone's logo ever.
+[13:42] <BhaveshSGupta> Rooll Call Bhavesh Gupta
+[13:42] <kushal> All logos or graphics should always look exactly the same.
+[13:42] <kushal> soumam_, please remove that.
+[13:42] <Anuja> roll call: Anuja  Agarwal
+[13:44] <wrik003> !
+[13:44] <soumam_> kushal, i will do that right now, i changed it because  LUG wasnt visible. OK i am doing it :)
+[13:44] <kushal> next
+[13:44] <andodococo> Sorry I was late, where should I submit my blog?
+[13:44] <kushal> andodococo, https://public.etherpad-mozilla.org/p/studentplanet
+[13:44] <kushal> next
+[13:44] <wrik003> kushal, those who have wordpress blogs, they have to include the brackets right?
+[13:44] <poojaencoded> pooja kumari singh
+[13:45] <kushal> wrik003, everyone should follow the format
+[13:45] <kushal> [fee url]
+[13:45] <kushal> name = your name
+[13:45] <kushal> s/fee/feed
+[13:45] <wrik003> kushal, ok
+[13:46] <wrik003> schubisu, you might want to add the brackets.
+[13:46] <kushal> Each of you please review your own entry
+[13:46] <schubisu> wrik003, done that, thanks
+[13:46] <kushal> I will not fix your entry
+[13:46] <wrik003> schubisu, :)
+[13:46] <soumam_> kushal, done. can you help me out with the feed related issue. I did it on blogger
+[13:47] <saptaks> soumam_: it's [http://<blogname>.blogspot.in/feeds/posts/default?alt=rss]
+[13:47] <kushal> soumam_, I fixed yours
+[13:48] <kushal> Anyone still left?
+[13:48] <theparadoxer02_> I came late
+[13:48] <ahole[m]> Me
+[13:48] <ahole[m]> Sorry my net is a bit slow today.
+[13:49] <kushal> https://public.etherpad-mozilla.org/p/studentplanet add your blog feed url there
+[13:49] <Prerna> I didn't knew about the blog. Can i update tomorrow?
+[13:49] <kushal> Prerna, we will try, it is not our fault that you are not following the sessions, not even the logs.
+[13:49] <poojaencoded> yes i am
+[13:50] <soumam_> kushal, saptaks, thanks :)
+[13:50] <Phi> Prerna, add the url now, you can add your content later.
+[13:50] <vipulgupta2048_> !
+[13:50] <shivamA1_> !
+[13:50] <kushal> abhinavshirur, in future you want to take a better name for your blog. It may sound offensive to many.
+[13:50] <kushal> next
+[13:51] <kushal> next
+[13:51] <vipulgupta2048_> I have posted a blog entry on wordpress but it is showing it on my homepage. I want it to be in one of the tabs.
+[13:51] <vipulgupta2048_> How to do it?
+[13:51] <skat_sd> !
+[13:51] <shivamA1_> Kushal i have used github pages to setup my blog shivamahirao.in
+[13:51] <Phi> shivamA1_, your url seems broken.  Check it.
+[13:52] <abhinavshirur> kushal, sorry, I will. I had named it after my gaming name.
+[13:52] <kushal> shivamA1_, nice, now add it to the page
+[13:52] <shivamA1_> Yes by mistake
+[13:52] <shivamA1_> Ok kushal
+[13:52] <kushal> abhinavshirur, You should also choose a better gaming name.
+[13:52] <vipulgupta2048_> kushal my question ?
+[13:52] <wrik003> Phi, shivamA1_ opens fine on my end.
+[13:52] <kushal> vipulgupta2048_, that depends on themes, we can help you on that later.
+[13:53] <vipulgupta2048_> Ok.
+[13:53] <kushal> vipulgupta2048_, There are many here using wordpress, so you will get help :)
+[13:53] <kushal> next
+[13:53] <skat_sd> Why are we adding the feed page and not the direct url(homepage)?
+[13:53] <kushal> skat_sd, good question.
+[13:53] <kushal> https://en.wikipedia.org/wiki/RSS is the answer.
+[13:54] <kushal> Basically it helps us to read your posts in an feed aggregators
+[13:55] <kushal> For example, our formal planet is at http://planet.dgplug.org/
+[13:55] <kushal> This is one place to visit where I can read all of the students' blogs
+[13:55] <qwebirc166944> !
+[13:55] <realslimshanky> !
+[13:55] <kushal> next
+[13:56] <qwebirc166944> what is the benefit to read in an feed aggregators ? you can read with direct url too
+[13:56] <skat_sd> kushal, so the feeds act as a good overview when many blogs are there in a planet.
+[13:56] <skat_sd> thanks
+[13:57] <kushal> skat_sd, it helps to get the content of the blog.
+[13:57] <kushal> qwebirc166944, yes, but then I will have to open each of your blog one by one.
+[13:57] <poojaencoded> !
+[13:57] <kushal> instead I can just open one site
+[13:57] <kushal> next
+[13:57] <rkased> !
+[13:58] <poojaencoded> where i have to send my blog?
+[13:58] <vipulgupta2048_> https://public.etherpad-mozilla.org/p/studentplanet
+[13:58] <wrik003> poojaencoded, https://public.etherpad-mozilla.org/p/studentplanet
+[13:58] <realslimshanky> DNS for my blog is still to be updated. Will it be a problem as I've already added the lonk. <eof>
+[13:58] <realslimshanky> *link
+[13:58] <kushal> realslimshanky, no problem
+[13:58] <kushal> next
+[13:58] <qwebirc166944> !
+[13:58] <qwebirc166944> !
+[13:58] <kushal> poojaencoded, you asked out of turn
+[13:59] <kushal> :(
+[13:59] <kushal> next
+[13:59] <rkased> What type of content do you want to see us produce on these blogs?
+[13:59] <kushal> rkased, anything you like to talk about to the world.
+[13:59] <rkased> sounds good
+[13:59] <kushal> rkased, But, of course more about your own development, things you learn.
+[13:59] <poojaencoded> !
+[13:59] <qwebirc166944> how to login with same username on webchat.freenode.net as i lost that after reconnecting?
+[13:59] <rkased> yea for sure
+[14:00] <kushal> rkased, this will help others to understand things about you, learn from you
+[14:00] <kushal> qwebirc166944, learn about release command for nickserv
+[14:00] <rkased> okay
+[14:00] <theparadoxer02_> !
+[14:01] <qwebirc166944> okay
+[14:01] <kushal> next
+[14:01] <kushal> next
+[14:01] <ikshitij> qwebirc166944: Just like Facebook or Twitter feed, where you get posts or tweets of all your friends on one page and you don't have to visit everyone's profile one by one :)
+[14:01] <poojaencoded> why there is added /feed? <eof>
+[14:02] <kushal> poojaencoded, Have you read that rss link I gave?
+[14:02] <Phi> poojaencoded, ^^
+[14:02] <rkased> However, the RSS feed for an individual is what has been subscribed, not random.
+[14:02] <kushal> next
+[14:02] <theparadoxer02_> I have seen people sharing personal stuffs like , their last night nightmare etc on their blog is it okay to share such stuffs ?
+[14:03] <theparadoxer02_> Since it is supposed to be tech blog.
+[14:03] <poojaencoded> no,where is it?
+[14:03] <vivek_> theparadoxer02_: kushal answered this last class
+[14:03] <wrik003> poojaencoded, https://en.wikipedia.org/wiki/RSS
+[14:04] <messifc> theparadoxer02_: its your choice what you want to write in your blogs. Why tell people those type of stuffs?
+[14:04] <kushal> theparadoxer02_, Again, personal choice
+[14:04] <joyhimanshu_> roll call:Himanshu Awasthi
+[14:04] <joyhimanshu_> help me guys
+[14:04] <ikshitij> !
+[14:04] <Cyber_freak> rollcall pradhvanbisht
+[14:04] <kushal> joyhimanshu, help with?
+[14:04] <joyhimanshu_> whats going on
+[14:04] <kushal> joyhimanshu, Summer training session.
+[14:05] <kushal> next
+[14:05] <pr97> joyhimanshu_,  update your blog to https://public.etherpad-mozilla.org/p/studentplanet
+[14:05] <joyhimanshu_> Kushal :todays topic?
+[14:05] <deepika> !
+[14:06] <joyhimanshu_> thank tou :pr97
+[14:06] <pr97> joyhimanshu_,  welcome
+[14:06] <kushal> next
+[14:06] <Phi> joyhimanshu_, getting start with blog and all.
+[14:06] <messifc> joyhimanshu_: follow the session. why worry about topic?
+[14:06] <deepika> your's have rss.xml at the end while we have /feed/  does it any different ?<eof>
+[14:06] <im_mohsin> !
+[14:07] <kushal> deepika, Two different URL
+[14:07] <kushal> deepika, like my home page https://kushaldas.in and yours is different.
+[14:07] <kushal> next
+[14:07] <joyhimanshu_> phi , messifc : thank you , sure brother
+[14:07] <im_mohsin> sorry a bit late, what is the topic for today?
+[14:07] <qwebirc166944> !
+[14:08] <deepika> oh okay !
+[14:08] <kushal> im_mohsin, Add your blog to https://public.etherpad-mozilla.org/p/studentplanet
+[14:08] <ikshitij> kushal: suppose we want to raise some political issue. Is it okay to share that on a blog .
+[14:08] <kushal> ikshitij, If you want to write about politics, then yes.
+[14:08] <kushal> If you have different tags, categories, that will help you to separate using different feeds
+[14:08] <qwebirc166944> how to know which type we have to use either feed or rss.xml?
+[14:09] <soumam_> !
+[14:09] <vipulgupta2048_> !
+[14:09] <kushal> ikshitij, For example, https://kushaldas.in/categories/python.xml is only for Python related posts in my blog
+[14:09] <qwebirc166944> how to know which type we have to use either feed or rss.xml?
+[14:09] <kushal> qwebirc166944, depends on which software you are using
+[14:09] <kushal> next
+[14:09] <kushal> next
+[14:09] <soumam_> what were we writing in  was that also a pastebin?
+[14:09] <kushal> soumam_, Nope, it is a web editor where many people can edit together at the same time.
+[14:10] <kushal> Known as etherpad
+[14:10] <kushal> next
+[14:10] <im_mohsin> kushal, i dont have any different feed i have created a generic blog.
+[14:10] <soumam_> ok
+[14:10] <schubisu> soumam_, http://etherpad.org/
+[14:10] <vipulgupta2048_> I had trouble setting up the mailchimp subscribe pop-up and it still doesn't works. what's the issue ? link : https://mixstersite.wordpress.com/
+[14:10] <kushal> im_mohsin, If you tag your posts well, there will be different feeds from it (in wordpress and other popular software).
+[14:11] <kushal> vipulgupta2048_, You can ask these specific questions after the session.
+[14:11] <vipulgupta2048_> Ok.
+[14:11] <kushal> next
+[14:11] <ganesh_nomula> !
+[14:11] <im_mohsin> kushal, i don't understand what to do
+[14:11] <kushal> next
+[14:11] <soumam_> schubisu, day by day i am getting to know about amazing softwares ;)
+[14:12] <ashwanig> Some people are posting the links in the chat window instead of the actual document
+[14:12] <kushal> im_mohsin, which application are you using for blog?
+[14:12] <ganesh_nomula> Hey Kushal, what is today session about?
+[14:12] <im_mohsin> wordpress
+[14:12] <kushal> ganesh_nomula, what do you think?
+[14:12] <balaji> !
+[14:12] <ganesh_nomula> about the blog?
+[14:12] <schubisu> soumam_, same with me ;) I think etherpad is something I've looked for for a long time.
+[14:12] <kushal> im_mohsin, search about how to add tags and add categories to your blog post.
+[14:12] <kushal> ganesh_nomula, yes.
+[14:12] <kushal> next
+[14:13] <balaji> Any good resources for exploring and customizing the wordpress?
+[14:13] <kushal> balaji, There are too many on Internet.
+[14:13] <ganesh_nomula> Perfect, Thanks kushal. Iâll be waiting for the log :)
+[14:13] <realslimshanky> balaji: wpmudev is one of them
+[14:13] <qwebirc166944> !
+[14:13] <kushal> next
+[14:13] <lucifer> !
+[14:13] <kushal> next
+[14:14] <balaji> kushal,  Thanks, Will look on it
+[14:14] <lucifer> suppose a user has many tags in his blog so will he have many feeds also?
+[14:14] <anuGupta> !
+[14:14] <kushal> lucifer, Depends on the software, for some software, yes :)
+[14:14] <kushal> next
+[14:14] <anuGupta> If I write more blogs ,then will it get automatically updated to you?<eof>
+[14:15] <lucifer> if that is the case how will planet manage it?
+[14:15] <kushal> anuGupta, not to me, but in all the feed readers.
+[14:15] <kushal> lucifer, the planet will only follow the feed you typed
+[14:15] <anuGupta> Ok :)
+[14:15] <kushal> Who is Shivam Ahirao?
+[14:15] <lucifer> ok :)
+[14:16] <kushal> and also Name = Shashank Kuma
+[14:16] <kushal> r
+[14:16] <kushal> Harsh Shah
+[14:16] <realslimshanky> I'm Shashank Kumar. My DNS is being updated to medium. Maybe that's the issue?
+[14:16] <kushal> Priyansh
+[14:17] <kushal> All of these people did not add any feed, they just added links to their homepage
+[14:17] <kushal> and pooja kumari singh added in the wrong place, if you are here, please fix it now
+[14:17] <kushal> ^^ also wrong url
+[14:18] <realslimshanky> Kushal: Is it okay if I add my feed url after blog going live?
+[14:18] <priyansh> Sorry
+[14:18] <shivamA1_> Yes kushal
+[14:18] <poojaencoded> !
+[14:19] <kushal> next
+[14:19] <kushal> realslimshanky, Okay
+[14:19] <poojaencoded> kushal: where to add ?
+[14:19] <championshuttler> !
+[14:19] <realslimshanky> Kushal: thank you :)
+[14:19] <singh123> !
+[14:19] <Cyber_freak> https://public.etherpad-mozilla.org/p/studentplanet
+[14:19] <messifc> poojaencoded: add this: https://mepooja.wordpress.com/feed/
+[14:19] <poojaencoded> i am pooja kumari singh <eof>
+[14:19] <kushal> poojaencoded, See where others added.
+[14:20] <kushal> Read first, and then type
+[14:20] <kushal> Sakshi Saraswat your feed url is wrong.
+[14:20] <kushal> next
+[14:20] <messifc> poojaencoded: remove this: https://mepooja.wordpress.com/2017/06/25/online-summer-training-dgplug/feed
+[14:20] <championshuttler> kushal thanks get back my username i was the that qwebirc166944
+[14:20] <kushal> championshuttler, Okay :)
+[14:20] <shivamA1_> !
+[14:20] <kushal> next
+[14:20] <kushal> next
+[14:20] <shivamA1_> I don't have feed/rss right now  in my blog I'll try to manually set it tonight.
+[14:21] <kushal> Mohsin Mumtaz also wrote wrong
+[14:21] <jasonbraganza> realslimshanky - use theparadoxer02_  feed as a template
+[14:21] <kushal> Again, for the people who wrote wrong feed url, we will not fix those.
+[14:21] <shivamA1_> I  used github pages to create the site so how to manually set feed/rss
+[14:21] <championshuttler> !
+[14:22] <kushal> shivamA1_, search to find out about feeds in github pages :)
+[14:22] <shivamA1_> Ok
+[14:22] <kushal> next
+[14:22] <championshuttler> how is your planet website fetch all data?
+[14:22] <kushal> championshuttler, read the planet source code :)
+[14:23] <kushal> Now.
+[14:23] <realslimshanky> jasonbraganza: I'm adding custom domain to my blog. It might be different.
+[14:23] <rkased> !
+[14:23] <realslimshanky> jasonbraganza: thanks anyway :)
+[14:23] <skat_sd> !
+[14:23] <kushal> Because we came to know about feeds and rss, there are a few related history you all should know.
+[14:24] <kushal> The biggest discussion is about "Net neutrality"
+[14:24] <kushal> https://en.wikipedia.org/wiki/Net_neutrality is the wiki page.
+[14:24] <theparadoxer02_> @jasonbraganza: http://www.medium.com/feed/@theparadoxer02 , is it okay now
+[14:25] <arush_> shivamA1_: I can help you out with that, I am using Github pages with custom domain.
+[14:25] <jasonbraganza> theparadoxer02_ nothing was wrong with yours! :)
+[14:25] <poojaencoded> !
+[14:26] <kushal> You all should also learn about one person, Aaron Swartz.
+[14:26] <kushal> When you have time, watch this documentary https://www.youtube.com/watch?v=9vz06QO3UkQ
+[14:26] <kushal> Watch it properly.
+[14:27] <ghishadow> i know about him, great guy
+[14:27] <wrik003> kushal, the one related to the MIT incident, right?
+[14:27] <kushal> wrik003, Yes, but it is much bigger than that.
+[14:27] <kushal> next
+[14:27] <kvy>  Aaron Swartz what a man
+[14:27] <wrik003> kushal, right. i read about him.
+[14:28] <rkased> I believe my entry is corrent on the RSS feed, can you confirm this?
+[14:28] <kushal> rkased, what is your name?
+[14:28] <sakshi> !
+[14:28] <rkased> Razy Kased
+[14:29] <kushal> Mohsin Mumtaz's entry is wrong
+[14:29] <kushal> rkased, wrong
+[14:29] <kushal> next
+[14:29] <skat_sd> can anyone with the link of an etherpad page make changes anonymously, or the creator of the page (in this case, you) know who is making changes?
+[14:29] <im_mohsin> kushal, I have added tags, i don't understand why everyone has shared there blog site XML? what is feed exactly in blog context?
+[14:29] <kushal> skat_sd, I can not see
+[14:29] <kushal> im_mohsin, out of turn.
+[14:30] <kushal> im_mohsin, read the RSS wiki page.
+[14:30] <kushal> im_mohsin, and then ask again here.
+[14:30] <kushal> next
+[14:30] <skat_sd> kushal, so, it is built on mutual trust?
+[14:30] <rkased> !
+[14:30] <poojaencoded> kushal now is it on wtite place?<eof>
+[14:30] <im_mohsin> sorry kushal connectivity issue here
+[14:30] <kushal> poojaencoded, yes
+[14:30] <kushal> next
+[14:30] <sakshi> can you please tell me what is the problem in the url [https://sakshi121.wordpress.com/feed/]
+[14:30] <kushal> skat_sd, yes
+[14:30] <Phi> arush_, is your logo similar to pink colored hackerrank logo?
+[14:30] <sakshi> you said it is wrong
+[14:30] <kushal> sakshi, nothing I think
+[14:31] <messifc> sakshi: it is correct
+[14:31] <jasonbraganza> rkased - try validating your feed here - https://validator.w3.org/feed/
+[14:31] <kushal> sakshi, when I said, it was wrong
+[14:31] <skat_sd> kushal, dont you think it is a loophole when people work on big projects using etherpad?
+[14:31] <sakshi> ok but you said it was wrong so i asked thankyou.
+[14:31] <arush_> Phi: I didn't get your point.<eom>
+[14:31] <sakshi> <eof>
+[14:31] <kushal> skat_sd, people don't work on big projects in etherpad
+[14:31] <rkased> @jasonbraganza, I get a server not found page when I click on that link?
+[14:31] <qwebirc374111> skat_sd etherpad is just for discussion purpose mozilla open source software
+[14:31] <Phi> arush_, your logo is similar to hackerrank's logo.
+[14:31] <kushal> next
+[14:32] <jasonbraganza> rkased  - https://validator.w3.org/feed/
+[14:32] <jasonbraganza> rkased - try typing it out then
+[14:32] <rkased> kushal was my feed incorrect because it was missing brackets? I just added them again, I'm not sure if someone is deleting them or not?
+[14:32] <kushal> rkased, the brakets are for the planet application
+[14:33] <arush_> Phi: It's the pirate guy fawkes mask logo.<eom>
+[14:33] <Phi> arush_, on the title bar.
+[14:33] <kushal> We have also given the link to the http://lym.readthedocs.io/en/latest/
+[14:33] <theparadoxer02_> !
+[14:34] <kushal> I hope you all started practicing from there.
+[14:34] <kushal> next
+[14:34] <kushal> I will go and build that planet now.
+[14:34] <Phi> arush_, sorry, my bad.  They are different but similar.
+[14:34] <kushal> Mean while you all can discuss about any doubt you have here.
+[14:34] <kushal> theparadoxer02_, ?
+[14:34] <theparadoxer02_> Why are you using the word 'planet' many time ?
+[14:35] <kushal> theparadoxer02_, Good question :)
+[14:35] <kushal> theparadoxer02_, http://www.planetplanet.org/
+[14:35] <joyhimanshu_>  Kushal: yes,  Amazing book very helpful
+[14:35] <rkased> !
+[14:36] <wrik003> jasonbraganza, there's no content in my blog & it's also set to private at the moment. is this why the feed validator couldn't recognise it as a valid feed?
+[14:36] <wrik003> sayan, \m/
+[14:36] <jasonbraganza> wrik003 - most probably, yes
+[14:37] <kushal> Roll Call
+[14:37] <ikshitij> wrik003: yes
+[14:37] <jasonbraganza> Jason Braganza
+[14:37] <wrik003> jasonbraganza, yes, i thought so too.
+[14:37] <ashwanig> Ashwani Kumar Gupta
+[14:37] <kvy> kumar vipin yadav
+[14:37] <schubisu> Robin Schubert
+[14:37] <skat_sd> Saikat Dey
+[14:37] <deepika> Deepika Upadhyay
+[14:37] <wrik003> Wrik Bhadra
+[14:37] <poojaencoded> pooja kumari singh
+[14:37] <ravindra> Ravindra Lakal
+[14:37] <Phi> Mohit
+[14:37] <sakshi> Sakshi Saraswat
+[14:37] <priyansh> Priyansh sourav
+[14:37] <Prerna> Prerna Pandey
+[14:37] <Cyber_freak> Pradhvan Bisht
+[14:37] <devendrabhat> Devendra Bhat
+[14:37] <yurii_> Yurii Pylypchuk
+[14:37] <sapahia> Rishav
+[14:37] <casper011> Mayur khomane
+[14:37] <samridhia> Samridhi Agarwal
+[14:37] <singh123> Amarjeet singh
+[14:37] <qwebirc374111> Shivam Singhal
+[14:37] <lucifer> Atul kumar
+[14:37] <vivek_> Vivek Anand
+[14:37] <joyhimanshu_> Himanshu Awasthi
+[14:37] <anupamas> Anupama Shipurkar
+[14:37] <ghishadow> Suraj Ghimire
+[14:37] <Akanksha> Akanksha Bhardwaj
+[14:37] <vishami3> Shashank Shekhar
+[14:37] <theparadoxer02_> Mannu Gupta
+[14:37] <ikshitij> Kshitij
+[14:37] <soumam_> Soumam Banerjee
+[14:37] <rkased> Razy Kased
+[14:37] <messifc> Messi Fc
+[14:37] <arush_> Arush
+[14:37] <jiteshpabla> Jitesh Pabla
+[14:37] <bhavin192> Bhavin Gandhi
+[14:37] <pr97> Priyanka Sharma
+[14:37] <imranjeetsingh_> Ranjeet kumar
+[14:37] <aryan1308> Aryan Tripathi
+[14:37] <Skhk634> Shankar Jha
+[14:37] <abhinavshirur> Abhinav Shirur
+[14:37] <akshayg96[m]> Akshay Gaikwad
+[14:37] <andodococo> Deepak Chethan
+[14:37] <apoorv> Apoorv Goel
+[14:37] <vipulgupta2048_> Vipul Gupta
+[14:37] <sitlanigaurav[m]> Gaurav Sitlani
+[14:38] <ahole[m]> Kshithij Iyer
+[14:38] <realslimshanky> Shashank Kumar
+[14:39] <balaji> Balaji
+----END CLASS----

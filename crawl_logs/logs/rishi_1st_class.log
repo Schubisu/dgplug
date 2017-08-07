@@ -1,0 +1,582 @@
+   1.
+      <debarshi> <-------------- Beginning of class -------------->
+   2.
+      * Debashree_ is now known as Debashree
+   3.
+      * ChanServ gives channel operator status to kushal
+   4.
+      * kushal gives channel operator status to debarshi
+   5.
+      * kushal has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | How to write "Hello World!" in gcc http://tv.dgplug.org/ | <-- CLASS STARTED -->
+   6.
+      <debarshi> So today we will look at the basic Unix shell.
+   7.
+      <debarshi> So all those who are using Unix (or GNU/Linux) right now, do you have your terminals ready?
+   8.
+      * mobilesuit_num_2 (i=partha@61.2.2.114) has joined #dgplug
+   9.
+      <ria> debarshi, yes
+  10.
+      <coolpyro> ! yes <EOF>
+  11.
+      <susenj> yeah
+  12.
+      <debarshi> Ok.
+  13.
+      <mavu_> ! yeah <EOF>
+  14.
+      <t4num0y_cs3> yup
+  15.
+      <kamudhar> Yes
+  16.
+      <kushal> GUYS STOP
+  17.
+      <mobilesuit> that is just another me on dial-up modem on xp in lappy <EOF>
+  18.
+      <mobilesuit> !
+  19.
+      <kushal> please type ! only
+  20.
+      <kushal> if we say , then only speak
+  21.
+      <mobilesuit> incase power goes out<EOF>
+  22.
+      <susenj> !
+  23.
+      <mobilesuit> ok
+  24.
+      <debarshi> So what is a shell? Why do we need it at all?
+  25.
+      <debarshi> Lets try to answer these questions before getting any further.
+  26.
+      <debarshi> Any guesses from anyone?
+  27.
+      <TanmayaT> for ease of user to interact with the kernel
+  28.
+      <kamudhar> The classic textbook answer is "shell is the interface between kernel and userspace programs"
+  29.
+      <TanmayaT> which in turn interacts with the hardware
+  30.
+      <t4num0y_cs3> shell is the mediator between user and kernel.
+  31.
+      <rtnpro> Its an interface between usr and kernel
+  32.
+      <kushal> TanmayaT, before that type ! , and wait for chance
+  33.
+      <TanmayaT> !
+  34.
+      <debarshi> Ok. Ok.
+  35.
+      * Soumya (n=Soumya@117.192.9.239) has joined #dgplug
+  36.
+      <susenj> interface between kernel of the OS and user prog+hardware
+  37.
+      <debarshi> You are more or less right.
+  38.
+      <kushal> Soumya, tell your full name to all
+  39.
+      * samar (n=samar-ad@220.226.14.178) has joined #dgplug
+  40.
+      <debarshi> For those who did not know, a shell is an interface between a human being and the rest of the operating system.
+  41.
+      <Soumya> Hi this is Soumya Kanti Chakraborty joining in
+  42.
+      <Soumya> Soory a bit late , was at office
+  43.
+      <Soumya> hi All
+  44.
+      <debarshi> So obviously without a shell, the rest of the OS is almost useless.
+  45.
+      <debarshi> Soumya: Hello
+  46.
+      * Kishan (n=Kishan@117.194.96.39) has joined #dgplug
+  47.
+      <samar> hi all
+  48.
+      <kushal> Kishan, samar just tell your name
+  49.
+      <samar> hi all I am Samarjit
+  50.
+      <Kishan> kushal, hi kushal...I am Kishan Goyal.
+  51.
+      <kushal> debarshi, please continue
+  52.
+      <debarshi> Now the Unix shells are quite sophisticated, in that they can be used in a way similar to a programming language.
+  53.
+      * mavu (n=satya@59.178.170.223) has joined #dgplug
+  54.
+      <debarshi> eg., if you want to copy all the MP3s on your system to a CD/DVD quite often,...
+  55.
+      <debarshi> ... you can combine all the instructions that you would normally give in the form of a 'shell script'.
+  56.
+      <debarshi> So everytime you invoke the script your CD is ready.
+  57.
+      <debarshi> Any doubts till now?
+  58.
+      <susenj> !
+  59.
+      <debarshi> susenj: ?
+  60.
+      <kushal> susenj, tell
+  61.
+      <rtnpro> !
+  62.
+      <susenj> i want to kno that wat we write in to the console is a shell by the way
+  63.
+      <susenj> *shell command
+  64.
+      * n9986 (n=n9986@59.176.80.223) has joined #dgplug
+  65.
+      * n9986 (n=n9986@59.176.80.223) has left #dgplug
+  66.
+      <debarshi> susenj: Ok.
+  67.
+      <debarshi> rtnpro: Tell.
+  68.
+      <susenj> <EOF>
+  69.
+      <rtnpro> What is that script
+  70.
+      <mobilesuit> !
+  71.
+      <kushal> rtnpro, <eof> ?
+  72.
+      <rtnpro> Is it a collection of commands
+  73.
+      <rtnpro> sorry<EOF>
+
+----------------------------------------I missed the middle part -------------------------------------------------------
+
+
+
+<SDey> Debarshi: I am currently using Windows and using Cygwin to run unix environment, can please suggest me how use GCC there??
+<mobilesuit_num_2> quit
+<debarshi> SDey: No. Use Google.
+<SDey> Ok, thanks,I am searching
+* samar (n=samar-ad@220.226.50.76) has joined #dgplug
+<debarshi> So the most elementary commands are cd, cp, mv, rm, pwd and ls.
+<susenj> pls let the study be continued on one topic.Sorry for interruption<EOF>
+* partha_ (n=partha@59.93.246.223) has joined #dgplug
+<debarshi> Now Unix provides some documentation about every shell command present in the system.
+* nandy_lost (n=chatzill@59.178.189.146) has joined #dgplug
+<debarshi> The standard way to access the documentation about a particular command is 'man'.
+<nandy_lost> sorry 4 being late!
+<debarshi> So you type:
+<debarshi> $ man ls
+<debarshi> <press q> to quit when you are done with the documentation.
+<debarshi> 'man' here stands for manual.
+<debarshi> You can do:
+<debarshi> $ man man
+<debarshi> to read the manual of 'man' itself.
+<SDey> Yeah, its showing  anme, Synopsis and Description
+<debarshi> I want everyone to try 'man'.
+<SDey> *Name
+* Amit_ (n=chatzill@118.95.37.230) has joined #dgplug
+<kushal> SDey, please type ! , and then wait, when asked then only speak while the class is going on
+<debarshi> What about the others?
+<Soumya> i tried man debarshi
+<TanmayaT> !
+* roshan (n=roshan@117.99.50.195) has joined #dgplug
+<kushal> TanmayaT, speak
+* roshan is now known as _roshan
+<Soumya> debarshi , its working as you did mention above .
+<TanmayaT> tried
+<TanmayaT> <EOF>
+<debarshi> Ok. Fine then.
+<susenj> tried #man man<EOF>
+<SDey> !
+<kushal> SDey, yes
+<debarshi> SDey: ??
+<SDey> What about the -C option
+<SDey> ?
+<Soumya> !
+<debarshi> Many commands have a configuration file...
+<debarshi> ...to control their behaviour.
+<SDey> !
+<kushal> Soumya, yes
+<debarshi> 'man' also has a configuration file which mentions where the documentation is stored on the system, how to format the man pages, etc..
+<Soumya> debarshi, can you tell me about the man manual sections
+<kushal> Soumya, do a $man man
+<debarshi> Soumya: Ok.
+<Soumya> i did it kushal
+<Soumya> from seeing there only i am telling , kushal
+<debarshi> Soumya: Ok.
+* samar has quit (Read error: 60 (Operation timed out))
+<kushal> Soumya, <EOF> ?
+<Soumya> debarshi, A bit about $man - k <command name>  ...... apropos ??
+<Soumya> <EOF>
+* mbuf (n=shakthim@59.92.53.17) has joined #dgplug
+<SDey> q
+* rishi (n=rishi@gnu-india/supporter/debarshi) has joined #dgplug
+* rishi got disconnected
+<kushal> <Soumya> debarshi, A bit about $man - k <command name>  ...... apropos ??
+<kushal> <Soumya> <EOF>
+<rishi> Soumya: Did kushal answer your question?
+<Soumya> no debarshi
+<rishi> So when one does:
+<rishi> $ man ls
+<susenj> Soumya:#man -k    is it working?
+<rishi> ... the man command looks for a man page whos name starts with 'ls'.
+<kushal> susenj, please don't interrupt
+<rtnpro> !
+<rtnpro> what is man -k?
+<rishi> Now what happens if there are multiple pages starting with the same string?
+<Soumya> susenj, i am answering, let me first hear from debarshi
+<rtnpro> <EOF>
+<roni> !
+* kamudhar has quit ("will join later")
+<rishi> In those cases, the pages are divided into sections.
+<rishi> Each section is identified by a natural number. eg., 1, 2, etc..
+<rishi> For example there are multiple pages having the prefix 'open'.
+<rishi> So to see all the pages that are available in all the sections, do:
+<rishi> man -a open
+<rishi> $ man -a open
+<Soumya> let me try rishi
+<rishi> Pressing q will take you to the page in the next section.
+* debarshi is now known as Guest55874
+<Soumya> ok i got you rishi
+<rtnpro> !
+* samar (n=samar-ad@220.226.18.79) has joined #dgplug
+<rishi> Soumya: But if you know which section you want, you can do:
+<rishi> $ man 2 open
+<rtnpro> Isn't q used for quiting
+<rishi> ... to see the page in the second section.
+<rishi> rtnpro: Yes.
+* Guest55874 has quit (Read error: 60 (Operation timed out))
+<rishi> $ man 3 open
+<Soumya> ok rishi , i got you
+<rishi> ... to see the page in the third section, etc..
+<rishi> Merely doing:
+<rishi> $ man open
+<rishi> ...will only show the page found in the smallest numbered section.
+* kamudhar (i=kamudhar@117.200.16.9) has joined #dgplug
+<kushal> roni, your question after this
+<rishi> What about the others -- coolpyro, Debashree, kamudhar ?
+<kushal> roni, your question
+<rishi> roni: Ask.
+* nandy_lost_ (n=chatzill@59.178.189.146) has joined #dgplug
+<roni> asking
+* mobilesuit_num_2 has quit (Read error: 113 (No route to host))
+<Soumya> i also had a question before kushal ?
+<Soumya> man -k <command> .. apropos ? , rishi
+<roni> $ man ls, when page is opened at top its showing ls(1), what that indicates
+<roni> is it the number of pages opened
+<rishi> roni: (1) is the section number
+* Amit has quit (Read error: 110 (Connection timed out))
+<kamudhar> Debashree: I was offline for a while; messed up irssi config file; so logged in back using chatzilla
+<rishi> Soumya: Will come to that.
+<Soumya> oks ria
+<Soumya> oks rishi
+<roni> ok
+<Soumya> susenj, man - k is working
+<rishi> So lets move to man's cousins.
+<susenj> yep ,but it shows a linr only and stops
+<susenj> *line
+<rtnpro> Soumya, what does man -k does?
+<kushal> susenj, rtnpro STOP
+<Soumya> do $man - k open
+<rishi> rtnpro: Did you look at $ man man ?
+<kushal> Soumya, STOP
+<Soumya> oks stop
+* rishi wants everyone to look up
+<roni> rtnpro
+<Soumya> rishi, continue sorry for interrupting you
+<Soumya> kushal, sorry
+<rishi> Now that you know about 'man', it will be assumed that you have looked at the manual (wherever applicable) before asking any question.
+<roni> rtnpro, k -  Equivalent to apropos.
+* chacha_chaudhry (n=dev@gnu-india/supporter/rakeshpandit) has joined #dgplug
+<rishi> So lets move to man's cousins.
+<rtnpro> I will look when I log into Linux
+<rishi> rtnpro: They are available on the Internet too.
+<rtnpro> ok
+<rtnpro> I will do a google search <EOF>
+* Amit_ has quit (Read error: 110 (Connection timed out))
+<rishi> If you are completely new to Unix, then it is highly unlikely that you will know any command.
+<rishi> And if you don't know any command, then you can not use man because you can not tell man which manual to show.
+<rishi> Isn't this a common situation for you?
+<rishi> This where one can use 'apropos'.
+<rishi> So if you want to do something which involves manipulating files, you can do:
+<rishi> $ apropos file
+<rishi> ... which will search all the manual pages and return those that document commands which manipulate files.
+<rishi> Similarly if you want to do something with a directory, you could have done:
+<rishi> $ apropos directory
+* _roshan (n=roshan@117.99.50.195) has left #dgplug ("Konversation terminated!")
+* kushal has quit (Read error: 60 (Operation timed out))
+<rishi> Soumya: Any queries regarding this?
+<Soumya> let me see it
+<TanmayaT> !
+<rishi> TanmayaT: Ask.
+<kamudhar> Debashree: apropos chat; apropos browser; apropos editor; apropos mail.... a few more examples <EOF>
+<TanmayaT> sorry, query answered by google
+<TanmayaT> <EOF>
+<rishi> kamudhar: Any problems with them?
+* Soumya_ (n=Soumya@117.192.8.84) has joined #dgplug
+<kamudhar> nope; just gave a few examples to clarify
+<rishi> kamudhar: Ok.
+<Soumya_> rishi, i had a power cut
+<Soumya_> let me check
+<rishi> Soumya_: Can you read the older messages?
+<Soumya_> no :(
+* SDey has quit (Read error: 110 (Connection timed out))
+* nandy_lost_ has quit ("ChatZilla 0.9.83 [Firefox 1.5.0.12/2007050813]")
+<Soumya_> rishi, apropos seems clear
+* kushal (n=kd@122.167.37.101) has joined #dgplug
+<rishi> The third second cousin is "whatis".
+<Soumya_> it mainly searches for all the commands which contains what i give in the apropos
+<rishi> Soumya_: Yes.
+<rishi> A brief look at 'man whatis' should be enough.
+* nandy_lost_ (n=chatzill@59.178.189.146) has joined #dgplug
+<rishi> Now if you are using a GNU system (ie. GNU/Linux) you will also have 'info'.
+* nandy_lost has quit (Read error: 110 (Connection timed out))
+* nandy_lost_ is now known as nandy_lost
+<rishi> Usually the info pages are much more detailed than the man pages, but you might not get an info page for all the commands.
+<rishi> 'info' is used in a way similar to man:
+<rishi> $ info ls
+<susenj> !
+<rishi> susenj: Ask.
+<susenj> is it just the instruction ,not the whole manual,i saw # info gcc
+<susenj> ?<eof>
+<rishi> susenj: As I said info pages are very detailed. Almost like a book.
+<rishi> So what you see in 'info gcc' is the contents page.
+<mobilesuit> !
+<rishi> susenj: Take your cursor to a specific topic (marked by *) and hit enter.
+<susenj> there is a menu containing features of it
+* samar has quit ("Ex-Chat")
+<rishi> susenj: Anything more?
+<susenj> oh,fine!it was not known to me earlier
+<susenj> thnx<eof>
+<rishi> mobilesuit: Ask.
+<mobilesuit> is info a link between various pages ?
+<mobilesuit> <EOF>
+<rishi> mobilesuit: No.
+<rishi> Info pages are different from man pages.
+* Soumya has quit (Nick collision from services.)
+<mobilesuit> !
+* shrink has quit ("ChatZilla 0.9.83 [Firefox 3.0/2008052906]")
+<kushal> mobilesuit, yes
+* Soumya_ is now known as Soumya
+<rishi> Info pages are generally generated from Texinfo files. The same Texinfo file which generated an info page can generate a PDF containing the same information.
+<rishi> man pages are much smaller and concise and use Troff.
+<rishi> Read about Texinfo and Troff if you are interested.
+<kushal> To all: If you have any question regarding what the trainer is telling ASK, or else you will only suffer
+<kamudhar> rishi: any good resources on Texinfo and Troff
+<rishi> http://www.gnu.org/software/texinfo/
+* Kishan_ (n=Kishan@117.194.96.39) has joined #dgplug
+<Kishan_> sorry...got disconnected..
+<Soumya> !
+<kushal> Soumya, ?
+<Soumya> For Troff rishi can you explain it a bit then suggest a resource
+<rishi> $ info emacs
+<rishi> HTML version of Emacs' info page: http://www.gnu.org/software/emacs/manual/html_mono/emacs.html
+<kushal> rishi, please go ahead to the next section
+<kushal> we will take questions later
+<rishi> So you see the same info page can be in HTML, PDF, txt, etc. too.
+<rishi> kushal: Ok.
+* rtnpro has quit (Read error: 104 (Connection reset by peer))
+* rtnpro (n=rtnpro@121.241.211.243) has joined #dgplug
+<rishi> Enough of learning about how to "read the fine manual" or RTFM.
+<rishi> Time to move on to the real stuff. :-)
+<chacha_chaudhry> F => Friendly, Fine, Famous.
+<rishi> chacha_chaudhry: Right.
+<chacha_chaudhry> hi all
+* t4num0y_cs3 has quit ("Bye Bye..")
+<rishi> chacha_chaudhry: Keep quiet. Class is on.
+<chacha_chaudhry> ok.
+<kamudhar> :)
+<kamudhar> chacha_chaudhry: :)
+<rishi> We will first see how to navigate in and out of different directories using the CLI shell.
+<rishi> cd, pwd, basename, dirname <-- these are the relevants commands we will see.
+* partha__ (n=partha@59.93.246.223) has joined #dgplug
+<rishi> Everyone please read the documentation of these commands before we proceed.
+<kushal> arpita, please ask
+<TanmayaT> !
+<kushal> TanmayaT, yes
+* makghosh has quit (Read error: 110 (Connection timed out))
+<TanmayaT> man cd only shows the bash builtin commands
+* Kishan has quit (Read error: 110 (Connection timed out))
+<kushal> TanmayaT, go down :p
+<kushal> TanmayaT, or do /cd
+<TanmayaT> ok
+<TanmayaT> <EOF>
+<mobilesuit> !
+<rishi> TanmayaT: $ man -a cd
+* partha_ has quit (Read error: 110 (Connection timed out))
+<TanmayaT> i did that, thank you
+<rishi> mobilesuit: Ask.
+<rishi> arpita: You had a query?
+<mobilesuit> i read the man of basename and dirname
+<kushal> arpita, Debashree please ask your queries
+<mobilesuit> but what is the actual use of these two commands ?
+<mobilesuit> <EOF>
+<rishi> mobilesuit: Will come to that later.
+<kushal> mobilesuit, we will see
+<rishi> Ok, we will move on.
+* kamudhar has quit ("Will rejoin in a while")
+<roni> !
+<kushal> roni, ?
+<roni> presenly i am unable to get the differences between the two commands
+<rishi> roni: Will come to that.
+<roni> ok
+<rishi> So once you start a shell, you are located within some directory on your system.
+<rishi> Usually this will be your home directory, represented as $HOME or ~, but may be some other location too.
+<rishi> $ pwd
+<rishi> The 'pwd' command is how you find your current location.
+<rishi> To change to someother location:
+<rishi> $ cd /dir1/dir2/dir3
+<rishi> Remember in Unix paths use forward slash ('/') and not backward slash ('\').
+<rishi> To return to the location you were in before giving the cd command, do:
+<rishi> $ cd -
+<rishi> So '-' represents your old working directory.
+* ChanServ gives channel operator status to kushal
+* kushal gives channel operator status to Soumya
+* kushal gives channel operator status to rishi
+<rishi> Any doubts?
+* kushal has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | How to write "Hello World!" in gcc http://tv.dgplug.org/ | Vi from 10:45pm By Kushal | <-- CLASS STARTED -->
+<mobilesuit> !
+<rishi> mobilesuit: Ask.
+<mobilesuit> what's the diff betwwen absolute and relative pathname ?
+<mobilesuit> <EOF>
+<rtnpro> !
+<rishi> A pathname which starts with '/' is an absolute path.
+<rishi> Absolute paths are always interpreted with respect to the root directory.
+<mobilesuit> !
+<rishi> Any pathname not starting with '/' is a relative path.
+<rishi> They are interpreted with respect to the current working directory, ie. the one shown by pwd.
+<mobilesuit> so /home/fre is absolute
+<mobilesuit> and when i am in /usr
+<rishi> Yes.
+* Kishan_ has quit ("Leaving")
+<mobilesuit> ../ is relative path ?
+<rishi> Yes.
+<mobilesuit> like when i am /usr/bin
+<mobilesuit> if i want to change to local
+<mobilesuit> i write ../local
+<mobilesuit> /usr/local
+<mobilesuit> sorry
+<mobilesuit> i write cd ../local ?
+<mobilesuit> <EOF>
+<rishi> mobilesuit: Yes. If you have access to a Unix shell, then try it out.
+<rishi> mobilesuit: Anything else?
+<mavu_> !
+<mobilesuit> no..i was just a bit confused
+<rishi> rtnpro: Ask.
+<mobilesuit> ,EOF>
+<rtnpro> I had the same doubt
+<rtnpro> about absolute and relative paths
+<rishi> Ok,
+<rtnpro> It got cleared <EOF>
+<rishi> There are a few shortcuts to represent some commnonly used locations in Unix.
+<rishi> Some of these are:
+<rishi> (i) ~ --> home directory of user that had invoked the shell
+<rishi> (ii) ~foo --> fome directory of user 'foo', if user 'foo' has an account on the system
+<rishi> ( $HOME is same as ~)
+<rishi> (iii) .. --> parent directory of current directory
+<rishi> (iv) . --> current directory as shown by pwd
+<rishi> So if we are currently working under /devel/gengetopt/fedora/gengetopt/F-9
+<rishi> ... we have:
+<susenj> !
+<rishi> [rishi@ginger F-9]$ pwd
+<rishi> [rishi@ginger F-9]$ dirname /devel/gengetopt/fedora/gengetopt/F-9
+<rishi> [rishi@ginger F-9]$ basename /devel/gengetopt/fedora/gengetopt/F-9
+<rishi> F-9
+<rishi> [rishi@ginger F-9]$
+<rishi> susenj: Ask.
+<susenj> is there a difference between cd.. and cd<space>..              ??
+<susenj> what i did is:
+<rishi> susenj: A world of difference.
+<rishi> 'cd..' means you are trying to invoke a command named 'cd..', which is usually not present.
+<rishi> 'cd ..' means you are invoking the cd command with .. as its argument.
+<roni> !
+<rishi> susenj: Anything else?
+<susenj> but sometimes both works same and sometimes differ
+<Soumya> both works ??
+<rishi> roni: 'cd..' will not work if you did not create a command named 'cd..'.
+<roni> i used this       [aritra@desktop ~]$ pwd
+<susenj> [root@localhost ~]# cd D*
+<Soumya> roni, let rishi finish
+<susenj> [root@localhost Desktop]# cd..
+<susenj> bash: cd..: command not found
+<susenj> [root@localhost Desktop]# cd ..
+<susenj> [root@localhost ~]#
+<susenj> i tried this
+<susenj> <eof>
+<Soumya> cd.. (You already got the answer by the bash shell, as COMMAND NOT FOUND) <EOF>
+<roni> it gave           /home/aritra
+<roni> but then i did    [aritra@desktop ~]$ cd ..
+<roni>                
+<roni> [aritra@desktop home]$ pwd
+<roni>                         it gave      /home
+<roni> now when home and ~ are same
+<roni> then why home is being shown suddenly?
+<roni> <eof>
+<Soumya> rishi, !
+<TanmayaT> !
+* amrita (n=amrita@117.201.96.141) has joined #dgplug
+<kushal> roni, type 'pwd' in /home
+<kushal> roni, and also in '~'
+<Soumya> roni by home rishi meant <your home>
+<kushal> roni, and see if both are same or not
+<Soumya> so when you see ~ it means /home/roni <if roni is the user name you logged in through>
+<Soumya> when you do cd ..
+<Soumya> it means you went to the folder /home which is common for all the users in a unix/linux enviornment
+<Soumya> thus /home doesnt mean its /home/roni got it ??
+<roni> then how to come back to     [aritra@desktop ~]$
+<kushal> roni, cd
+<roni> got the previous thing
+<Soumya> whats user name you are using ?
+<roni> aritra@desktop
+<Soumya> not cd kushal it would be cd -
+<roni> yeah i got you
+<Soumya> you do cd /home/aritra
+<kushal> Soumya, his question is how to come to ~ which is home, so the command is only 'cd'
+<Soumya> i think your machine name is aritra
+<Soumya> sorry desktop
+<roni> yes
+<roni> kushal da s solution worked
+<susenj> you may type in cd root also
+<Soumya> ya then do that
+<kushal> btw, whoever never typed their names, please do so
+<kushal> I think rishi is offline for some reason
+<Soumya> both does same kushal
+<Soumya> oks roni
+<roni> yes
+<kushal> Soumya, only in that situation
+<kushal> Soumya, 'cd' is to go back to your home folder from any location
+<kushal> 'cd -' is to go back to last directory
+<Soumya> ya that i know kushal
+<mavu_> is the class on.. of can i ask a little offtrack but a path related query?
+<mavu_> s/of/or
+<Soumya> i was telling going to ~ you can do 'cd' also you can do cd /home/username
+<kushal> mavu_, class is on , but still ask
+<mavu_> :) by class  not being on.. i meant rishi not being here.. thanks .. what i wantes to know is... if i have a software that i meed to manually install .. which also needs me to compile a few java programs...
+<mavu_> so.. when i give absolute names
+<mavu_> pathnames taht is
+<mavu_> in javac.. it does not work
+<mavu_> if i give a javac  from an intermediate directory
+<mavu_> in the path
+<mavu_> it works
+<rtnpro> kushal, Hello
+<mavu_> but i want it to work from the place that i want to install it
+<Subhodip> mavu_, thats a problem with your classpath 
+<kushal> mavu_, use classpath
+<kushal> -cp
+<rtnpro> kushal, Its boring not trying these commands in the terminal
+<ria> Soumya, ping
+<Soumya> ria, pong
+<Subhodip> mavu_, it depends what you have set as classpath 
+<mavu_> okay... i figured that out for my comp.. but when i package the software up
+<rtnpro> kushal, the lsusb command shows the modem
+<mavu_> and someone else installs
+<mavu_> then how do i set the classpath
+<Subhodip> mavu_, in that case use rpm packaging rules 
+<rtnpro> kushal, but wvdial does not detect it
+<kushal> mavu_, export $CLASSPATH
+<mavu_> okay
+<coolpyro> mavu_: edit ur path env var.
+<rtnpro> What can I do?
+<mavu_> :) thanks
+<kushal> rtnpro, don't know, come to ##linux-india adn ask there
+<Subhodip> mavu_, search the fedora wiki for the same 
+<coolpyro> mavu_: add da path of ur javac to that variable
+<mavu_> hmm
+<susenj> yes ,coolpyro ,you are right!

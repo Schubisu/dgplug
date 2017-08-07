@@ -1,0 +1,580 @@
+[13:08:38] [## Class Started at Mon Jun 30 13:08:38 2014 ##]
+[13:08:38] <kushal> startclass
+[13:08:45] yogi is now known as yogeshwar
+[13:08:46] <singharpit> thanks curious learner
+[13:08:50] <kushal> --------Session starts--------------
+[13:08:52] <CuriousLearner> Sure, I'll check it, though I know some commands, but I would like to learn more
+[13:08:54] <kushal> Roll Call
+[13:09:02] <tkkr6895> Trishal Kumar
+[13:09:02] <vivek-> Vivek Jhaver
+[13:09:02] <sivteck> Sivaram Balakrishnan
+[13:09:03] <CuriousLearner> Sanyam Khurana
+[13:09:03] <donniezazen> Sudhir Khanger
+[13:09:05] <amit001> amit tripathi
+[13:09:07] <titli> Titli Das
+[13:09:09] <singharpit> Arpit Singh
+[13:09:09] <RohanRoy> rohan roy
+[13:09:10] <gnovi> Praveen Patil
+[13:09:10] <hari510> Hari Kiran
+[13:09:10] <ace139> Soumyo Dey
+[13:09:11] <kanika04> kanika narang
+[13:09:11] <zhean1874> hean zhu
+[13:09:11] <Datta> Venkat Datta
+[13:09:11] <abhishekp> Abhishek Potnis
+[13:09:14] <amittima> Amit kumar
+[13:09:14] <papiya> Papiya Sen
+[13:09:16] <sa_> afsheen nazish
+[13:09:17] <vinniesethi> Manpriya Kaur
+[13:09:17] <NP1995> Nishant Pani
+[13:09:17] <ruprela> Dharmesh Ruprela
+[13:09:18] <PraveenK> Praveen Karol
+[13:09:19] <surabhi> kumari surabhi
+[13:09:20] <prahladh> Athira S
+[13:09:22] <shockzp> Shakul Ramkumar
+[13:09:23] <bidisha> Bidisha Mukherjee
+[13:09:23] <yeshi> Yeshita Dutta
+[13:09:23] <heena> Heena Kaushar
+[13:09:24] <siddharth185> Siddharth Kulshrestha
+[13:09:27] <azharh> Azhar Hussain
+[13:09:27] <karthik_B> karthik Buddhavarapu
+[13:09:28] <core_7> Athul Krishna
+[13:09:29] <koushik> Koushik Bag
+[13:09:32] <madangel> aparna k
+[13:09:35] <pratik> Pratik Saraf
+[13:09:40] <rahulmishra> Rahul Mishra
+[13:09:40] <silentSae> Amir Musanna
+[13:09:40] <sj13> Shubheksha Jalan
+[13:09:42] <pavan> pavan priyatham
+[13:09:43] <satarupa> Satarupa
+[13:09:46] <bnprk> Binay Pareek
+[13:09:49] <harsha> Harsha
+[13:09:50] <codaholic> Anjali
+[13:09:51] <dahl007> Michael Dahl
+[13:09:55] <shiminsh> Kumari Shalini
+[13:09:56] <prajesh> Prajesh rawat
+[13:09:59] <yogeshwar> Yogeshwar Dan Charan
+[13:10:02] <eeshangarg> Eeshan Garg
+[13:10:05] <kumarneetesh24> Neetesh Kumar
+[13:10:17] <abhaykrish> Abhay Krishnan
+[13:10:18] <adweq2> Yasharth Choudhary
+[13:10:21] <Anna> Anna
+[13:10:23] <senju> Vikash patil
+[13:10:24] <dev212> Dhanya N
+[13:10:28] <iamviknesh> Vikneshwar L
+[13:10:36] <invincible_b> Ajinkya bhosale
+[13:10:36] <Santhosh> Amrutha Sangeeth
+[13:10:43] <kushal> anyone left?
+[13:10:48] <ahhda> Anuj Bansal
+[13:10:48] <ramsan> Ram sandesh
+[13:10:48] <shilpi> shilpi shukla
+[13:11:01] <akki2200> Aakash
+[13:11:16] <deepu_tp> Deepu
+[13:11:20] <kundan> kundan chourasiya
+[13:11:23] leero9_ is now known as leero9
+[13:11:53] <kushal> masters
+[13:11:59] <kushal> add: chandan_kumar
+[13:12:13] <kushal> So welcome to the second day.
+[13:13:13] <kushal> First if you have any doubt / question related to the links we provided yesterday, please raise your hands :) Today the students should try to answer these questions
+[13:13:25] <kushal> chandan_kumar, and praveenkumar will help with batul
+[13:13:47] <NP1995> !
+[13:13:56] <kushal> anyone else?
+[13:14:03] <kushal> next
+[13:14:09] <kushal> ouch
+[13:14:13] <kushal> clearqueue
+[13:14:20] <kushal> NP1995, ask your question?
+[13:14:34] <shockzp> i read
+[13:14:39] <NP1995> Well I missed yesterday's class
+[13:14:47] <NP1995> I went thru logs
+[13:14:55] <kushal> NP1995, you did not.
+[13:15:11] <leero9> !
+[13:15:16] <biswa> i missed yestarday's class
+[13:15:28] <NP1995> But still I don't understand why we use IRC?
+[13:15:42] <kushal> NP1995, first write in full english words.
+[13:15:46] <ramsan> NP 1995, please don't use sms language.
+[13:16:00] <kushal> ramsan, you wrote the nickname wrong.
+[13:16:17] <kushal> NP1995, because all FOSS developers talk using IRC.
+[13:16:31] <kushal> It is text based and works with low bandwidth area
+[13:16:35] <biswa> what is FOSS?
+[13:16:43] <NP1995> Ok thanks
+[13:16:59] <pratik> NP1995, It is like the Whatsapp group chat for developers
+[13:16:59] <amit001> biswa, free and open source software
+[13:17:04] <chandan_kumar> next
+[13:17:05] <gnovi> biswa, Free Open source Software.
+[13:17:14] <kushal> biswa, first read yesterdays log
+[13:17:16] <donniezazen> NP1995: Everyone has access to IRC. Certain number of folks may not want to associate with Google for Hangouts, etc.
+[13:17:25] <Amrutha> FOSS is free and open source software
+[13:17:42] <biswa> ok,how it will use?
+[13:17:51] <leero9> Can I do with a phone for today's class ?
+[13:18:00] <kushal> leero9, yes
+[13:18:17] <leero9> OK
+[13:18:22] <chandan_kumar> next
+[13:18:25] <kushal> biswa, stop asking random questions in between
+[13:18:35] <kushal> No else has any query?
+[13:18:49] <kushal> Everyone understood everything?
+[13:18:59] <biswa> no
+[13:19:04] <ruprela> started today.
+[13:19:16] <kundan> no
+[13:19:28] <Poornima> kushal, small recap please
+[13:19:30] <vipsy> Vipul Bansal
+[13:19:32] <bnprk> Yes
+[13:19:59] <kushal> Poornima, read   the log and mailing list
+[13:20:08] <Poornima> okay
+[13:20:23] <Koushik_> !
+[13:20:26] <biswa> i miss yesterday's class .i don't understand what is our subject today?
+[13:20:36] <chandan_kumar> next
+[13:20:43] <ruprela> !
+[13:20:46] <biswa> please someone tell me?
+[13:20:55] <Koushik_> what is the topic today?
+[13:21:09] <kushal> biswa, discussing home task.
+[13:21:09] <kundan> what is subject today ?
+[13:21:17] <kushal> koushik, kundan ^^
+[13:21:24] <chandan_kumar> next
+[13:21:40] <ruprela> what is the use of mailing list ?
+[13:21:56] <amit001> biswa, look how others are asking their questions
+[13:22:31] <kushal> someone please asnwer ruprela
+[13:23:03] <Amrutha> biswa you can get yesterday's log here http://dgplug.org/irclogs/2014/session01-welcomeandcommunication.txt
+[13:23:03] <kushal> *answer
+[13:23:04] sree is now known as Mactoc
+[13:23:05] <yank> ruprela, mailing list is good for non live communication, messages are archived.
+[13:23:19] <madangel> @biswa: when you want to ask something enter a '!' first.then when your turn comes ask the question
+[13:23:30] <biswa> ok
+[13:23:31] <pratik> roprela, It is used for communication over email. Everyone in the list receives the mail.
+[13:23:50] <biswa> ok got it
+[13:23:53] <ruprela> got it.
+[13:23:55] <pavan> ruprela it gets you the updates ,timings and other important information regarding the sessio
+[13:23:55] <chandan_kumar> next
+[13:23:58] Amrutha is now known as Jupiter
+[13:24:11] <CuriousLearner> ruprela: Mailing list is used to spread announcements and discuss if you have any doubts after the session. Everyone would receive the mail
+[13:24:13] <titli> ruprela, mailing lists are used to communicate with a group for people for relative discussions.
+[13:24:14] <yogeshwar> biswa,https://compsciworld.wordpress.com/  , this might be of some help
+[13:24:16] <donniezazen> ruprela: You have access to a number of communities. You don't have to visit several forums.
+[13:24:31] <siddhant> !
+[13:24:39] <chandan_kumar> next
+[13:24:50] <biswa> ok.
+[13:24:59] <savitoj> help
+[13:25:20] <siddhant> Sorry, I missed on roll call yesterday and today.
+[13:25:22] <core_7> !
+[13:25:27] <chandan_kumar> At the end of your question, please type <eof>.
+[13:25:32] <siddhant> Eof
+[13:25:42] <chandan_kumar> next
+[13:25:43] <nithinr> !
+[13:25:46] <kushal> siddhant, no problem do it later
+[13:25:54] <siddhant> Okay. Thanks
+[13:26:01] <biswa> please ask your question.
+[13:26:15] <core_7> So what is our topic for todays session?
+[13:26:16] <core_7> eof
+[13:26:25] <leero9> !
+[13:26:32] <kushal> core_7, I already answered that
+[13:26:34] <kundan> what is eof?
+[13:26:37] <chandan_kumar> next
+[13:26:40] <nithinr> i missed my roll call today <eof>
+[13:26:56] <chandan_kumar> next
+[13:27:08] <kushal> kundan, stop asking in between
+[13:27:15] <leero9> Is today another interactive session ?
+[13:27:21] <biswa> got it
+[13:27:37] <NP1995> A mailing list is like a digital notice board
+[13:27:49] <leero9> eof
+[13:27:51] <kushal> kundan, it shows you never read  yesterday's log
+[13:27:53] <chandan_kumar> next
+[13:28:03] <kushal> leero9, everyday is interactive
+[13:28:04] <kundan> okey
+[13:28:21] <kushal> People we are doing these so that you do not get afraid to talk on IRC.
+[13:28:24] <biswa> next question please.
+[13:28:34] <kushal> biswa, stop doing that please.
+[13:28:56] <biswa> ok
+[13:28:56] <kushal> biswa, batul is a robot, you do not have to act like one.
+[13:29:28] <kushal> I am sure many of you never understood all the things in the links provided yesterday but you are afraid to ask.
+[13:29:33] <kushal> So please speak up.
+[13:29:47] <kushal> Unless you ask you will never learn anything in life.
+[13:30:04] <kushal> Forget about IRC, in life asking questions is very much important.
+[13:30:14] <kushal> So who wants to ask the next question?
+[13:30:20] <azharh> !
+[13:30:23] <kushal> next
+[13:30:30] <kundan> how to read yesterday log ?
+[13:30:40] <azharh> Is the choice of fedora a preference or is there something better in it than Ubuntu? <eof>
+[13:30:44] <gnovi> !
+[13:30:58] <donniezazen> !
+[13:31:08] <madangel> kundan, http://www.dgplug.org/irclogs/2014/session01-welcomeandcommunication.txt
+[13:31:10] <kushal> kundan, I almost thought of replying saying using Eyes
+[13:31:18] <chandan_kumar> next
+[13:31:21] <gnovi> how do I know my nick is registered? <eof>
+[13:31:32] <kushal> azharh, It is better for development work.
+[13:31:40] <yogeshwar> !
+[13:31:43] <kushal> Who want to answer gnovi?
+[13:31:50] <kushal> Tip: use google.com
+[13:31:59] <kundan> thanks
+[13:31:59] <chandan_kumar> next
+[13:32:06] <donniezazen> By the time I done thinking and composing my question, topic kinds of get drifted away. You guys are fast? <eof>
+[13:32:23] <pavan> gnovi you can identify your nick only when it is registerd
+[13:32:46] <iamviknesh> gnovi: https://freenode.net/faq.shtml
+[13:32:48] <kushal> donniezazen, but you should still ask
+[13:32:58] <kushal> next
+[13:33:00] <yogeshwar> will ubuntu 12.10 work?
+[13:33:00] <senju> gnovi, if you are registered /msg NickServ identify password
+[13:33:03] <titli> gnovi, u get identified each time u enter the channel.
+[13:33:13] <akki2200> gnovi, http://wiki.swiftirc.net/wiki/NickServ/FAQ#How_do_I_check_if_a_nickname_is_registered_or_identified
+[13:33:14] <gnovi> pavan, and how do I identify it? <eof>
+[13:33:20] <kushal> yogeshwar, there is a new one iirc
+[13:33:35] <singharpit> !
+[13:33:36] <kushal> Can someone tell titli what mistake she did just now?
+[13:33:38] <deepu_tp> @gnovi /msg NickServ IDENTIFY account password
+[13:33:40] <donniezazen> kushal: I do. Do you guys use some automation tool to type things like eof, etc.?
+[13:33:54] <azharh> *you
+[13:33:57] <kushal> donniezazen, I dont
+[13:33:57] <annesha> !
+[13:33:58] <prahladh> She used sms language
+[13:33:59] <Jupiter> she sms language
+[13:34:04] <amit001> !
+[13:34:04] <yogeshwar> kushal,yeah but i don't want to upgrade it now
+[13:34:05] <pavan> gnovi type this : /msg nickserv identify your_nick your_password
+[13:34:06] <ace139> sms language
+[13:34:06] <kushal> titli, ^^
+[13:34:12] <chandan_kumar> next
+[13:34:26] <titli> * i am sorry, I should have written you in stead of u.
+[13:34:27] <vipsy> People having problem using IRC please read - http://lists.dgplug.org/pipermail/users-dgplug.org/2014-June/002646.html
+[13:34:42] <singharpit> will i able to contribute to open source after this training?eof
+[13:34:47] <dev212> titli , no sms language here
+[13:34:55] <kushal> singharpit, Yes, that is the end goal.
+[13:34:58] <kushal> next
+[13:35:08] <annesha> i haven't installed Ubuntu yet ,but will be doing that in a week. Is that ok?
+[13:35:09] <titli> dev212, thanks. :)
+[13:35:15] <CuriousLearner> !
+[13:35:54] <iamviknesh> this is the IRC wiki from mozilla https://wiki.mozilla.org/IRC
+[13:35:57] <pavan> gnovi be aware that you don't put a space infront of /msg.In case you do so your password will be known by all as it gets printed like a message :P
+[13:35:59] <Sawoni> !
+[13:36:04] <kushal> annesha, No, you will need linux for tonight's hometask
+[13:36:14] <kushal> next
+[13:36:17] <amit001> why pthon 3 is not widely used? people still prefer python 2.6 or 2.7
+[13:36:22] <gnovi> pavan, thank you :)
+[13:36:22] Shankho is now known as shonx
+[13:36:26] <yogeshwar> !
+[13:36:31] <NP1995> donniezazen you can improve your typing speed through many online resources.it is quite useful skill for a programmer
+[13:36:34] <singharpit> !
+[13:36:35] <annesha> Ok then i will install it today only. Thanks Kushal.
+[13:36:36] <kushal> amit001, We will learn that while doing Python sessions :)
+[13:36:44] <chandan_kumar> next
+[13:36:48] <CuriousLearner> Will we be able to learn some linux commands too in this training?
+[13:36:53] <CuriousLearner> <eof>
+[13:36:58] <kushal> CuriousLearner, yes, tonight
+[13:37:03] <titli> !
+[13:37:03] <chandan_kumar> next
+[13:37:09] <Sawoni> What is today's session about?
+[13:37:14] <zhean1874> !
+[13:37:22] <kundan> how to run c program in fedora?
+[13:37:25] <kushal> Sawoni, we answered that already, please read the log.
+[13:37:30] <chandan_kumar> next
+[13:37:32] <yogeshwar> will we learn some framework like django,webapp 2?
+[13:37:39] <kushal> kundan, Exactly the same way in Ubuntu.
+[13:37:41] <Sawoni> okay Thank you <eof>
+[13:37:49] <madangel> !
+[13:37:53] <kushal> yogeshwar, yes, depends on the student.
+[13:37:55] <kundan> okey
+[13:37:57] <chandan_kumar> next
+[13:37:59] <singharpit> how do we change our nick?eof
+[13:38:03] <yogeshwar> okay<eof>
+[13:38:04] shonx is now known as Shankho
+[13:38:13] <kushal> singharpit, go to google.com and type that question
+[13:38:17] <kushal> next
+[13:38:18] <titli> kushal, for what kind of developments we use a Fedora and why not ubuntu?
+[13:38:19] <amit001> singharpit, google.com
+[13:38:20] <Anna> !
+[13:38:30] <karthik_B> !
+[13:38:34] <singharpit> okay
+[13:38:35] <biswa> kudan,for compile write gcc program name.c and run ./a.out
+[13:38:37] prahladh is now known as jaba
+[13:38:56] <kushal> titli, for any kind of development, all latest applications and libraries come first in Fedora than any other distribution
+[13:39:05] <chandan_kumar> next
+[13:39:07] <titli> ,<eof>
+[13:39:07] <zhean1874> kushal,do we need to get any textbook to learn this?
+[13:39:13] <zhean1874> <eof>
+[13:39:18] Shankho is now known as shonx
+[13:39:19] <kushal> biswa, kundan does not follow the rules here, do not help him.
+[13:39:21] invincible_b is now known as invincible
+[13:39:27] <kushal> zhean1874, this == ?
+[13:39:39] <kushal> zhean1874, What are you talking about?
+[13:39:39] <zhean1874> python linux
+[13:39:47] <kushal> zhean1874, no
+[13:39:57] <chandan_kumar> next
+[13:39:59] <kushal> zhean1874, we will provide the materials
+[13:39:59] <madangel> I am trying to use Ubuntu using virtual box.But I am not sure whether it is installed properly
+[13:40:18] <madangel> I haven't used virtual box before
+[13:40:22] <kushal> madangel, I guess SpeedBus created a wiki page last night
+[13:40:32] <kushal> SpeedBus, please pass madangel the link
+[13:40:37] <kushal> or anyone else
+[13:40:37] <chandan_kumar> next
+[13:40:38] <kushal> next
+[13:40:39] <donniezazen> madangel: Why do you think its not installed properly?
+[13:40:42] <karthik_B> why should we prefer Python ? please give a practical example?
+[13:40:57] <kushal> kanika04, we will discuss that during python sessions.
+[13:41:01] <dev212> biswa , if you want to ask question type "!" then wait for your chance , that is , wait until batul says you are next .
+[13:41:04] <kushal> Anna, your question please
+[13:41:27] <biswa> ok
+[13:41:28] <Prerie> !
+[13:41:32] <madangel> donnizazen:when i tried to open it i got a black screen
+[13:41:48] <donniezazen> karthik_B: Python reads like English eg print "hello, world"
+[13:41:52] <kundan> how to install?
+[13:41:59] <dev212> biswa sorry i meant to say kundan
+[13:42:00] <kanika04> kushal, i didn't ask any question.
+[13:42:00] <lixxz> madangel, it takes time to load
+[13:42:09] <chandan_kumar> next
+[13:42:16] <kushal> kundan, next time you ask any random question we will kick you out.
+[13:42:19] <kushal> kanika04, sorry.
+[13:42:26] <kushal> tab completion was the issue.
+[13:42:28] <Jupiter> kundan please follow the rules
+[13:42:29] shonx is now known as Shankho
+[13:42:40] <kushal> next
+[13:42:41] <kundan> sorry
+[13:42:45] <prajesh> !
+[13:42:49] <chandan_kumar> next
+[13:42:52] <donniezazen> madangel: Are you sure you configured it properly? Google is your friend.
+[13:43:05] <madangel> lixxz,But when I clicked on the black screen, i got a question "Capture mouse?"
+[13:43:28] <kushal> Anna, prajesh your question please
+[13:43:39] <bibhas> madangel, these are basic VirtualBox queries. Please use a search engine to find the answers.
+[13:43:39] <prajesh> python is a very easy language,quiet close to english.is it going to replace other languages like java in near future?
+[13:43:55] <lixxz> madangel, I am using VMware player,what are you using?
+[13:43:57] <kushal> prajesh, no,
+[13:44:16] <pavan> madangel check whether you have enabled the virtual machine option in BIOS. this was the problem i experienced when i first used virtual box
+[13:44:18] <Shankho> !
+[13:44:23] <madangel> lixxz:oracle VM
+[13:44:30] <kushal> prajesh, we need many languages at the same time for different purposes, just like India also plays football when Brazil plays
+[13:44:40] <kushal> next
+[13:44:53] <Shankho> I registered yesterday but now I had to register again
+[13:44:54] <gnovi> !
+[13:44:59] <Anna> kushal will we cover git?
+[13:45:07] <Shankho> Do I have to register everyday?
+[13:45:09] <tkkr6895> !
+[13:45:10] <kushal> Shankho, no, you just have to identify to the nickserv
+[13:45:10] <donniezazen> !
+[13:45:18] <kushal> Anna, yes
+[13:45:19] <ruprela> !
+[13:45:20] <kushal> next
+[13:45:23] <Shankho> !
+[13:45:29] <gnovi> I have just used this command /msg nickserv identify
+[13:45:46] <gnovi> can any body see my password? <eof>
+[13:45:48] <shockzp> !
+[13:45:55] <senju> gnovi, no
+[13:45:57] <pavan> gnovi no
+[13:45:58] <core_7> quit
+[13:45:59] <lixxz> madangel, sorry i do not have any experience with oracle VM
+[13:46:01] <kushal> next
+[13:46:03] <tkkr6895> That was an accident. No question. I apologise <eof>
+[13:46:05] <madangel> pavan,ok i will check it
+[13:46:14] <chandan_kumar> next
+[13:46:16] <donniezazen> Are we going to learn more about SSH keys, GPG, etc.? <eof>
+[13:46:23] <madangel> lixxz,ok
+[13:46:28] <kushal> donniezazen, yes
+[13:46:38] <chandan_kumar> next
+[13:46:57] <kanika04> !
+[13:47:12] <ruprela> i just disconnected and reconnected again.And it showed hostname lookup failed.Why so ?
+[13:47:32] <SpeedBus> if your IPs rDNS does not match your system hostname or so
+[13:47:39] <kushal> ruprela, ^^
+[13:47:41] <SpeedBus> nothing to worry about as such
+[13:47:46] <ace139> !
+[13:47:48] <Prerie_> !
+[13:47:53] <chandan_kumar> next
+[13:47:54] <kushal> next
+[13:47:59] <shockzp> using python 2.7.5 is ok? <eof>
+[13:48:06] <Shankho> I tried "..identify" , didn't work. I was not registered on NickServ, yesterday I was.
+[13:48:20] <kushal> shockzp, this year we will learn python3
+[13:48:31] <ramsan> madangel, what is the problem exactly ??
+[13:48:38] <kushal> Shankho, the command is /msg NickServ identify yourpassword
+[13:48:40] <kushal> next
+[13:48:44] <shockzp> kushal, okay.
+[13:48:47] <kushal> ramsan, talk it in pm
+[13:49:01] <kanika04> donniezazen was talking about ssh keys, ggp. What is all that ??
+[13:49:12] <SpeedBus> *pgp
+[13:49:24] <kushal> kanika04, there is a shiny tiny site called google.com
+[13:49:28] <kushal> kanika04, use it.
+[13:49:35] <chandan_kumar> next
+[13:49:36] <ace139> Kushal,How you created a bot like this ? Its nice, experienced it for the first time. Can we learn to make such one too ?
+[13:49:38] <lixxz> madangel, you can use VMware Player if you like,it is very easy and i can guide you through whole process
+[13:49:38] <Prerie_> When i try to install g++, it is shown to be already installed. But, i cannot seem to access it from anywhere-- the terminal or main menu-> all applications.
+[13:49:40] <kanika04> okay .
+[13:49:45] <kushal> ace139, yes, we will this year :)
+[13:49:49] <ace139> eof
+[13:49:55] <mnw94> !
+[13:50:00] <chandan_kumar> next
+[13:50:04] <kushal> Prerie_, it is a command, use it in terminal
+[13:50:06] <kushal> next
+[13:50:09] <Prerie_> When i try to install g++, it is shown to be already installed. But, i cannot seem to access it from anywhere-- the terminal or main menu-> all applications.
+[13:50:12] <SpeedBus> that reminds me, i should finish the VirtualBox guide :x
+[13:50:12] <kushal> Prerie_, it is a command, use it in terminal
+[13:50:14] <mnw94> will you cover teting in python3
+[13:50:17] <madangel> lixxz,ok thanks
+[13:50:26] <mnw94> *testing
+[13:50:31] <kushal> mnw94, yes
+[13:50:38] <chandan_kumar> next
+[13:50:50] <kushal> Ok few simple points to remember
+[13:50:54] <kushal> for everyone
+[13:51:04] <kushal> Never ever directly use root account
+[13:51:18] <titli> !
+[13:51:21] <kushal> always use a normal user account and then sudo or su  command to become root.
+[13:51:26] <kushal> next
+[13:51:36] <leero9> !
+[13:51:39] <ace139> !
+[13:51:49] <yeshi> !
+[13:51:53] <singharpit> !
+[13:52:05] <titli> kushal, why so?
+[13:52:18] <kushal> titli, just type that full question in google.com
+[13:52:22] <kushal> titli, you will know
+[13:52:28] <kushal> next
+[13:52:34] <shockzp> !
+[13:52:40] <titli> does any change by the root will affect the other users?
+[13:52:43] <Prerie_> !
+[13:53:00] <amit001> titli, it will affect whole system
+[13:53:04] <leero9> I used root a lot of times haven't faced any trouble, why would you say so ?
+[13:53:08] <kushal> titli, yes
+[13:53:10] <deepu_tp> titli, depends on what you change
+[13:53:15] <titli> amit001,ok.
+[13:53:18] <leero9> kushal ? EOF
+[13:53:20] <kushal> leero9, ask that question to google
+[13:53:27] <kushal> leero9, thanks for writing EOF
+[13:53:34] <kushal> others are not doing it.
+[13:53:37] <kushal> next
+[13:53:39] <ace139> kushal, You said not to use root account directly, but to install anything the system asks for root permission. Why so ? <eof>
+[13:53:52] <madangel> !
+[13:53:59] <kushal> ace139, I said, use a normal account and then become root when required
+[13:54:07] <kushal> and then you can install anything you want.
+[13:54:09] <kushal> next
+[13:54:26] <yeshi> kushal,can you please explain what did you mean by root account here<eof>
+[13:54:51] <deepu_tp> yeshi, the user called root
+[13:55:07] <kushal> yeshi, type this question in google.com:   what is root account in linux?
+[13:55:10] <kushal> next
+[13:55:13] <singharpit> how to make a normal account?eof
+[13:55:33] <titli> yeshi, it is like the administrator account<eof>
+[13:55:36] <kushal> singharpit, when you install linux it generally ask you to create an account.
+[13:55:40] <deepu_tp> singharpit, sudo adduser <name of user>
+[13:55:45] <chandan_kumar> next
+[13:55:47] <shockzp> I use Mac OSX, is it okay if i learn on Mac OS itself? or is there any advantage learning on Ubuntu?<eof>
+[13:55:47] <Prerie_> I am being shown g++ fatal error No input files. Compilation terminated. if i type and enter g++ in terminal. <eof>
+[13:55:59] <kushal> shockzp, Mac is not Linux.
+[13:56:02] <SpeedBus> adduser <username>
+[13:56:03] <SpeedBus> passwd <username>
+[13:56:14] <sj13_> titli, this might help: http://askubuntu.com/questions/16178/why-is-it-bad-to-login-as-root
+[13:56:26] <shockzp> its linux based right?
+[13:56:29] <kushal> Prerie_, yes, search on google how to compile and run a c++ program in linux
+[13:56:34] <titli> sj13_, thanks.
+[13:56:43] <chandan_kumar> next
+[13:56:43] <kushal> shockzp, nope, Mac is BSD unix iirc
+[13:56:59] <shockzp> kushal, so its better learning on ubuntu?
+[13:57:06] <Prerie_> q asked n answered. eof
+[13:57:16] <kushal> shockzp, yes, even better on Fedora :)
+[13:57:23] <madangel> my question has been answered in between
+[13:57:23] <shockzp> kushal, thankyou
+[13:57:28] <chandan_kumar> next
+[13:57:29] <kushal> Prerie_, what is q and what is n?
+[13:57:34] <kushal> next
+[13:57:38] <kushal> Prerie_, what is q and what is n?
+[13:57:43] <pavan> !
+[13:58:01] <Prerie_> I was told to ask the question after it was already answered.
+[13:58:08] <Prerie_> so i typed that.
+[13:58:18] Is is now known as ismundu
+[13:58:20] <ruprela> !
+[13:58:28] <chandan_kumar> next
+[13:58:32] <kushal> Prerie_, q means quadragenarian?
+[13:58:38] <pavan> kushal its not a problem if we use ubuntu or any other linux versions right?
+[13:58:47] <kushal> others please wait before you ask questions.
+[13:58:52] <ace139> !
+[13:58:54] <kushal> pavan, yes no problem
+[13:59:01] <chandan_kumar> next
+[13:59:04] <ruprela> will there be no class today ? <eof>
+[13:59:21] <kushal> ruprela, what is going on you think?
+[13:59:30] <pavan> will the command line instructions vary widely in different distros ? <eof>
+[13:59:35] <kushal> ruprela, Circus?
+[13:59:38] <ruprela> no, one of my friends got a mail
+[13:59:43] <samikshan> ruprela: I guess this is class. Discussions are very important to learn anything.
+[13:59:50] <ruprela> ohk
+[14:00:01] <lixxz> !
+[14:00:03] <kushal> pavan, no, same mostly.
+[14:00:03] <chandan_kumar> next
+[14:00:05] <ace139> My system does not support Fedora, I had to use ubuntu. eof
+[14:00:11] <SpeedBus> http://wiki.crowncloud.net/doku.php/creating_a_virtual_machine_on_windows phew finally getting somewhere
+[14:00:12] <kushal> ace139, ok
+[14:00:18] <chandan_kumar> next
+[14:00:18] <kushal> next
+[14:00:20] <lixxz> what are the pros and cons of working as a root user?
+[14:00:34] <senju> google
+[14:00:35] <kushal> lixxz, google is your friend in this case.
+[14:00:36] <akki2200> lixxz, google it
+[14:00:46] <kushal> Ok coming back
+[14:00:46] <CuriousLearner> lixxz: Read this , already given above : http://askubuntu.com/questions/16178/why-is-it-bad-to-login-as-root
+[14:00:57] <Poornima> !
+[14:00:58] <kushal> Do not use root account.
+[14:01:01] <kushal> And
+[14:01:08] <lixxz> CuriousLearner, and good?
+[14:01:14] <kushal> We need to use Linux consoles and terminals a lot
+[14:01:26] <sj13> lixxz, here: https://help.ubuntu.com/community/RootSudo
+[14:01:36] <RohanRoy> !
+[14:01:42] <kushal> Even though there are GUI applications, you will find that most developers prefer to use command line tools
+[14:01:54] <kushal> These tools/apps runs on the terminal
+[14:02:07] <kushal> You can do many things faster than GUI
+[14:02:56] <kushal> So for tonight's task, please go through http://cli.learncodethehardway.org/book/
+[14:03:03] <kushal> Try each and every commands
+[14:03:07] <kushal> See how they work
+[14:03:13] <karthik_B> Kushal I have to leave for a meeting .Sorry for the inconvenience.
+[14:03:21] <kushal> Practice and practice and practice
+[14:03:27] <kushal> karthik_B, no problem.
+[14:03:36] <titli> !
+[14:03:38] <kushal> next
+[14:03:40] <RohanRoy> while installing softwares  it requires root access, isn't it?<eof>
+[14:03:42] <Poornima> kushal, Sorry need to leave early today where can i add my roll call <eof>
+[14:03:52] <kushal> Poornima, do it next day.
+[14:03:53] <kushal> next
+[14:04:00] <kushal> RohanRoy, yes
+[14:04:01] <kushal> next
+[14:04:03] <donniezazen> RohanRoy: Yes.
+[14:04:07] <Poornima> kushal, Thanks
+[14:04:25] <titli> does a program run by root has more privilege than one by another user?<eof>
+[14:04:31] <kushal> titli, yes
+[14:04:35] <pratik> titli, yes
+[14:04:37] <kushal> next
+[14:04:50] <NBharech> !
+[14:04:53] <kushal> next
+[14:04:55] <donniezazen> titli: You should ideally run programs in userspace.
+[14:04:56] <RohanRoy> !
+[14:05:03] <NBharech> Sorry, i joined late. Whats a root ?
+[14:05:18] <pratik> NBharech, google.com
+[14:05:18] <kushal> NBharech, ask that question to google.com
+[14:05:22] <kushal> next
+[14:05:23] <lixxz> NBharech, https://help.ubuntu.com/community/RootSudo
+[14:05:24] <RohanRoy> can we install packages without being root?<eof>
+[14:05:30] <titli> donniezazen, what do you mean  by ideally?<eof>
+[14:05:33] <kushal> RohanRoy, in Linux, no
+[14:05:38] <kushal> generally no
+[14:05:42] <bibhas> Not globally
+[14:05:43] <chandan_kumar> next
+[14:05:44] <kushal> RohanRoy, you will learn later
+[14:05:53] <bibhas> yeah, generally no.
+[14:05:55] <kushal> bibhas, hi there
+[14:06:01] <bibhas> kushal, Hello
+[14:06:04] <donniezazen> titli: root can delete anything in a system including your operating system and personal data.
+[14:06:14] <kushal> So tomorrow's session will start at 6:30pm
+[14:06:24] <vipsy> NBharech, http://www.linfo.org/root.html
+[14:06:28] <shockzp> !
+[14:06:30] <kushal> Finish the book by tomorrow and come back with questions
+[14:06:35] <kushal> next
+[14:06:40] <EkAurBottleLa> !
+[14:06:41] <shockzp> is it end of todays session?
+[14:06:43] <shockzp> <eof>
+[14:06:48] <kushal> shockzp, let me do that :)
+[14:06:52] <kushal> EkAurBottleLa, ask
+[14:07:00] <mahendra> !
+[14:07:01] <ace139> kushal, thanks for the session. <eof>
+[14:07:06] <kushal> next
+[14:07:07] <kushal> next
+[14:07:13] <EkAurBottleLa> Leaving the session, will it be a problem? Have to go somewhere
+[14:07:16] <akki2200> !
+[14:07:17] <kushal> EkAurBottleLa, no
+[14:07:19] <RohanRoy> !
+[14:07:20] <kushal> next
+[14:07:21] <kushal> next
+[14:07:27] <titli> donniezazen,  so ideally means without harming my system right?<eof>
+[14:07:30] <mahendra> sir i wanted to know yesterdays task
+[14:07:42] <akki2200> is it really necessary to notify if i am going to miss any future sessions?
+[14:07:43] <kushal> mahendra, read the yesterday's log
+[14:07:48] <RohanRoy> does this class covers the topic on passwd and shadow files?
+[14:07:49] <kushal> akki2200, yes
+[14:07:54] <kushal> RohanRoy, yes
+[14:08:05] <kushal> ----------SESSION ENDS------------
+[14:08:12] <kushal> endclass
+[14:08:12] [## Class Ended at Mon Jun 30 14:08:12 2014 ##]

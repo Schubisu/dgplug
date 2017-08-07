@@ -1,0 +1,327 @@
+[16:37:20] [## Class Started at Wed Jul 27 16:37:20 2016 ##]
+[16:37:20] <kushal> startclass
+[16:37:27] <kushal> Roll Call
+[16:37:28] <deep123k> Deepanshu Kapoor
+[16:37:28] <akshays> Akshay Shipurkar
+[16:37:30] <trishnag> Trishna Guha
+[16:37:31] <tabrez> tabrez khan
+[16:37:32] <kushal> Aazad, yes
+[16:37:33] <abstatic> abhishek shrivastava
+[16:37:33] <Alak> Alakshendra Yadav
+[16:37:33] <smdeep> Sudeep Mukherjee
+[16:37:34] <akshay_> akshay cv
+[16:37:35] <rhnvrm> Rohan Verma
+[16:37:35] <gobinda> Gobinda Akhuli
+[16:37:36] <rl56> Varsha R
+[16:37:38] <shobhitupadhyay> shobhit upadhyay
+[16:37:38] <imack> Mahendra Yadav
+[16:37:38] <vshelar>   Vivek Shelar
+[16:37:39] <anjali_p> Anjali Pardeshi
+[16:37:40] <shauryak_3> Shaurya Kalia
+[16:37:41] <code_geek> Shantanu Acharya
+[16:37:45] <suniva> Suniva Priyadarshini
+[16:37:49] <moon45> Mamoon Manzoor
+[16:37:51] <Aazad> sumeet Yadav
+[16:37:51] <jogender> Jogender Kota
+[16:37:59] <iKshitij> Kshitij
+[16:38:00] pksadiq`` is now known as pksadiq
+[16:38:04] <vbhjain> Vaibhav Jain
+[16:38:05] <sandeepk> sandeep kumar choudhary
+[16:38:11] <vharsh> Harsh Vardhan
+[16:38:12] <Anupama> Anupama Mandal
+[16:38:16] <avik> Avik Mukherjee
+[16:38:20] <rohan__> Rohan Hazra
+[16:38:23] <vibhcool> Vibhor verma
+[16:38:24] <jargonmonk> Aniket Khisti
+[16:38:35] <dhritishikhar> Dhriti Shikhar
+[16:38:35] <gunjan> gunjan
+[16:39:01] <PrashantJ> Prashant Jamkhande
+[16:39:06] <riskarsh> Utkarsh Shukla
+[16:39:06] <yASH_> Yashwanth M
+[16:39:40] <kushal> next
+[16:39:42] <kushal> next
+[16:39:48] <kushal> clearqueue
+[16:39:58] <kushal> huzaifas, The stage is yours :)
+[16:40:02] <huzaifas> thanks kushal
+[16:40:07] <huzaifas> so before i start let me introduce myself
+[16:40:24] <huzaifas> My name is Huzaifa Sidhpurwala, i work at Red Hat as Principal Product Security Engineer
+[16:40:49] <huzaifas> I am a part of various open source security teams, including Mozilla, Webkit, PHP, python, Xorg etc
+[16:41:08] <huzaifas> A fedora contributor in various capacities for the last 7/8 years
+[16:41:34] <huzaifas> A freelance security researcher in my spare time, found various flaws etc in different commonly used software component
+[16:41:42] <huzaifas> This session is called "Security 101"
+[16:41:49] <moizsajid> Roll Call: Moiz Sajid
+[16:42:00] <huzaifas> gives a basic introduction to what internet security is, for users
+[16:42:01] <anushil05> Anushil Kumar
+[16:42:08] <c0mrad3> Roll Call: Tummala Dhanvi
+[16:42:21] <huzaifas> if there is any interest, i am take a few follow up sessions as well, depending on what the students are interested in
+[16:42:25] <saru> Roll call :saran teja
+[16:42:29] <poonam> Roll call: Poonam jaddhav
+[16:42:39] <huzaifas> If at any point there are any questions, feel free to ask or ask at the end or maybe later if you remember them
+[16:43:04] <huzaifas> So, there are two main topics which i want to discuss today
+[16:43:17] <huzaifas> 1. System Security
+[16:43:30] <huzaifas> How we can protect our operating system (linux) from attackers
+[16:43:42] <huzaifas> 2. Little bit about application security
+[16:43:59] <huzaifas> which basically boils down to "how to write secure code"
+[16:44:15] <huzaifas> I am assuming most of you guys know a little bit of programming
+[16:44:22] <Anandprakash> very interesting topics
+[16:44:23] <huzaifas> even if you dont, it is going to be interesting
+[16:44:38] <huzaifas> depending on the time we have, we may not finish everything today, in that case, maybe we can do a session 2 of this , depending ofcourse on how interesting or how boring you find my talk :)
+[16:44:59] <indiabhi> roll call, Abhishek Rai
+[16:45:27] <huzaifas> so lets talk about system security: We will take two things under consideration when talking about system security:
+[16:45:31] <madhurii> Roll call: Madhuri Muley
+[16:45:41] <huzaifas>  1. We are talking from a user point of view, we will not talk about a system administrator on a server install ie we are not going to talk about how to security apache installation etc
+[16:46:11] <huzaifas> 2. We are ofcourse talking about FOSS here, i will take fedora as a example, i dont use gui a lot, so i can try to give command line examples and assume that you can google your way to a possible gui available on fedora :)
+[16:46:46] <hemanth> roll call Hemanth Savasere
+[16:46:57] <huzaifas> so before talking about how to secure our OS, lets briefly talk about why to secure our system
+[16:47:08] <huzaifas> because
+[16:47:27] <huzaifas> there are attackers/hackers out there, who want to get into your system and exploit it
+[16:47:34] <huzaifas> and why is that?
+[16:47:37] <huzaifas> many reasons
+[16:47:45] <huzaifas> 1. Financial gain
+[16:47:52] <huzaifas> you may have visited your bank website using your browser, the password is still in the cache, if i can gain access to your system i can steal your bank password
+[16:48:13] <huzaifas> or made a credit/debit card transaction and some of those details can be stolen
+[16:48:30] <huzaifas> you are using password wallets , either built into the browser or are you using some keyring, if i can get the wallet/keyring file, i can brute force the password and get all your details
+[16:49:03] <huzaifas> it may take time, depending on how big/complex your password protecting the wallet is, but in this age of GPU/cloud its not impossible
+[16:49:09] <huzaifas> i can massively parrallize it :)
+[16:49:15] <huzaifas> 2. Spam
+[16:49:26] <huzaifas> I can use your machine as a base to send spam, spam is a big business in the underground economy
+[16:49:36] <huzaifas> or i can use it as a base to attack other machines
+[16:49:51] <Aazad> what is wallet nd kerying refers here ?
+[16:50:00] <huzaifas> i can steal your contacts from your machine and use that to attack all your contacts
+[16:50:13] <huzaifas> Aazad:  when you login to a web site using google-chrome or mozilla firefox
+[16:50:16] <kushal> Aazad, you type ! for any question, and wait for your turn to ask it.
+[16:50:24] <huzaifas> you often get a prompt saying "Do you wan to store this password"
+[16:50:44] <huzaifas> most browsers have a built in system for storing these passwords, they get retrieved automtically when vistiing the site next time
+[16:51:16] <huzaifas> they use some sort of assymmetric/symmetric crypto to store them securely, but its not impossible to crack them, assuming they can be stolen
+[16:51:26] <huzaifas> ok so back to our topic at hand
+[16:51:40] <huzaifas> 3. Steal information
+[16:51:43] <Aazad> firefox doesnot save  that , it ask again n again
+[16:52:05] <sandeepk>  /query Aazad
+[16:52:07] <huzaifas> i think it needs to be enabled, not sure, idont use it :)
+[16:52:16] <huzaifas> your facebook account, your gmail account, your photographs, all of these are can be useful information for the right person
+[16:52:36] <c0mrad3> Aazad: as kushal said type ! for any question and WAIT for your turn to ask it!
+[16:53:02] <huzaifas> they can be used to attack you, your friends, can be sold underground by people who want to sell you something, or deface your facebook page etc
+[16:53:12] <huzaifas> 4. Make it a part of the botnet:
+[16:53:23] <huzaifas> This is common in Windows world, but is getting towards linux now, a bot net is a network of slave computers, which a C&C = command and control system, controls
+[16:53:37] <huzaifas> its like having sleeper cells in a terrorist network, i can activate of the cells and make it do what ever i want, often used for DDOS
+[16:53:55] <huzaifas> or anything else
+[16:54:17] <huzaifas> they can also be used to do computation, so for example if i want to brute force a password, i can use computers on my botnet to do all the work for me
+[16:54:25] <huzaifas> 5. Fun and fame:
+[16:54:47] <huzaifas> Script kiddies - are attackers who hack systems using tools available in the market and have no idea about how tools works, basically novices
+[16:55:03] <huzaifas> there are tons of script kiddies out there, who want to hack your system just for fun and to show off
+[16:55:18] <huzaifas> so to conclude, we want to keep our money, data, information and esteem, so we want to make sure our system are secure
+[16:55:39] <huzaifas> hope you guys get me and i am not going too fast/slow ?
+[16:55:47] <vibhcool> !
+[16:56:04] <huzaifas> vibhcool:  i think you need to type ! and the question i suppose
+[16:56:11] <huzaifas> or not
+[16:56:12] <huzaifas> anwyays
+[16:56:13] <huzaifas> next
+[16:56:41] <vibhcool> huzaifas: your speed is fine :)
+[16:56:49] <huzaifas> ok so..
+[16:57:00] <huzaifas> we have covered the why part, now lets try to address "how"
+[16:57:06] <vibhcool> Is torrent an example of botnet in legal way?
+[16:57:13] <huzaifas> lets talk about how to secure your system, i want to give you a few pointers
+[16:57:15] <code_geek> !
+[16:57:59] <huzaifas> vibhcool:  the torrent protocol contains provision to seed as well as download, so when you download, its expected that your machine will be used for both upload/download
+[16:58:27] <huzaifas> in a botnet, you dont know what your machine is being used for, the purpose is mostly malicious
+[16:58:28] <huzaifas> next
+[16:58:31] <code_geek>  can you give an example of a tool for script kiddies available in market?
+[16:58:46] <huzaifas> any of tools suggested by ankit fadia :P
+[16:58:53] <gkadam> :D
+[16:59:09] <huzaifas> jokes apart, i dont think i want to point you to "tools to attack computers"
+[16:59:10] <sandeepk> :D
+[16:59:18] <vharsh> !
+[16:59:18] <akshays> lol :D
+[16:59:21] <code_geek> :D Okay
+[16:59:27] <huzaifas> but a general search will give you a lot of information
+[16:59:31] <iKshitij> lol :D
+[16:59:52] <code_geek> okay, thanks huzaifas
+[16:59:57] <huzaifas> so lets continue
+[17:00:18] <huzaifas> how to secure your system, a few pointers
+[17:00:24] <huzaifas> (this is not a comprehensive guide)
+[17:00:30] <huzaifas> 1. passwords:
+[17:00:32] <vibhcool> huzaifas: Botnet thing seems interesting :)
+[17:00:40] <huzaifas>  There is a lot of talk everywhere about good passwords and why the should be used
+[17:00:50] <huzaifas> there was a lot of security research sometime back about it as well
+[17:01:00] <huzaifas> The thing about passwords is that, all passwords can be broken via brute force
+[17:01:10] <huzaifas> its only a question of time before the password is broken, what we can do is delay the breakage of password via brute via, using a "strong" password
+[17:01:21] <huzaifas> a good password is a one which combinations of all the allowed character classes
+[17:01:27] <huzaifas> for example, most systems/applications allow a combination of upper case/lower case/ special characters and numbers
+[17:01:33] <huzaifas> p@5sw0rD may be a good password
+[17:01:44] <huzaifas> longer the passwords, the better it is , is the usual rule of the thumb
+[17:01:54] <huzaifas> also ideally passwords should not be dictionary word, those are easily breakable via the so called dictionary attacks
+[17:02:00] <huzaifas> in dictionary attacks all the possible words from the dictionary are tried
+[17:02:08] <huzaifas> combination of dictionary words along with special characters are usually ok
+[17:02:11] <rhnvrm> !
+[17:02:18] <huzaifas> next thing: never put your password in a place where it is accessible
+[17:02:24] <huzaifas> never write it down in a paper
+[17:02:29] <huzaifas> i have known cases where people write down their root passwords in a paste-in note in their cubibles
+[17:02:36] <huzaifas> this is not safe, DONT do it :)
+[17:02:48] <huzaifas> a question which i often get asked is how to i handle multiple passwords in todays online world
+[17:02:55] <huzaifas> this is a truly practical problem, in todays connected world it is often the case, where i have multiple accounts which i need to handle
+[17:03:05] <huzaifas> ranging from financial services , social websites, email, etc etc
+[17:03:09] * abstatic was about to ask the same question
+[17:03:14] <huzaifas> people commonly try to work around this by using the same passwords everywhere
+[17:03:18] <huzaifas> this is very very BAD
+[17:03:28] <huzaifas> and this is the biggest problem today on the internet, its called password recycle
+[17:03:36] <huzaifas> the problem here is that, if one of your account gets compromised due to whatever reason, often due to the fault of the website, the attacker can use this password against other websites and get access to your email etc
+[17:03:39] <huzaifas> so what is the solution?
+[17:03:43] <vibhcool> !
+[17:03:48] <huzaifas>  several solutions have been proposed for this:
+[17:03:54] <huzaifas> They range from random password generators to password wallets
+[17:04:03] <huzaifas> for an average user a good mechanism is a gpg protected password file
+[17:04:10] <huzaifas> one needs to create different , possibly randomly generated password for different accounts, store them in a plain text file and encrypt it using gpg
+[17:04:19] <huzaifas> we can decrypt the file for each access to the password
+[17:04:31] <huzaifas> but make sure the password your encrypt your gpg file is very strong or the whole purpose is lost :)
+[17:04:42] <huzaifas> next
+[17:04:46] <vharsh> [quasi-OT] So, use of 'secure' password managers is bad; because ultimately the 'secure' thing gets it on an insecure machine? How can we achieve an entropy for 100+ account password, without having to write it down(90s thing, also bad)? Do you recommend a good password manager, for a) non tech people b) new-to-tech people
+[17:05:13] <Anandprakash> !
+[17:06:22] <huzaifas> vharsh:  not all password managers are bad, some of them are pretty secure, what you use depends on how paranoid you are, personally i use a gpg encrypted file, my private key is on a hardware device, and its password protected, so multi-factor auth comes into the picture
+[17:06:27] <vharsh> I face the same situation, there is a common way non tech people make up a password. Like, name+dob which is similar to the email, adn written down in Facebook.
+[17:06:31] <avik> !
+[17:06:43] <yASH_> !
+[17:06:54] <vharsh> huzaifas, I have been using Lastpass since 2011 I think. It had a major security flaw.
+[17:07:20] <huzaifas> vharsh:  so there are ways to generate good passwords, linux has a couple of tools available, which can allow you to generate random passwords of various strengths and sizes, if you do a next session, we can discuss some of them with examples
+[17:07:31] <huzaifas> next
+[17:07:34] <rhnvrm> huzaifas, should we prefer password length or special characters? password length should take more time to break right? what is the better option?
+[17:07:48] <vharsh> huzaifas, In my case paranoid-level = zero. Lastpass was motivated due to sheer laziness :) <EOF>
+[17:08:19] <huzaifas> rhnvrm:  a combination of both, most good websites have a minimum for both, they wont accept small and simple passwords, so the right answer here is both :)
+[17:08:36] <huzaifas> vharsh:  it also depends on how valuable your information is :)
+[17:08:38] <huzaifas> next
+[17:08:40] <vharsh> I mean, I use lastpass because I like pressing [alt]+ [G] to generate and store a password.
+[17:08:54] <vibhcool> Is it possible to use brute force to crack passwords on google or facebook or any other website, they give 3-4 tries for each trying passwords
+[17:09:00] <vibhcool> ?
+[17:09:36] <huzaifas> vibhcool:  so two ways of doing that 1. i try various passwords on your online account, all good web sites should block once invalid attempts exceed 3-5 times
+[17:09:41] <huzaifas> and will alert the users
+[17:09:43] <c0mrad3> !
+[17:10:00] <huzaifas> second way is to attack the site and get the password hashes and then break them online
+[17:10:04] <huzaifas> offline rather
+[17:10:06] <vharsh> vibhcool, https://officechai.com/news/flipkart-employee-gets-a-bounty-of-15000-for-reporting-a-bug-to-facebook/ Bugs :)
+[17:10:18] <poonam> !
+[17:10:25] <huzaifas> hope that answers your question
+[17:10:26] <huzaifas> next
+[17:10:29] <Anandprakash> we can add some rules in iptables and some restrictions in  browsers, so is that the good solution to avoid unexpected traffic?
+[17:10:50] <vibhcool> Thank you huzaifas, vharsh :)
+[17:11:04] <code_geek> !
+[17:11:28] <huzaifas> Anandprakash:  both of them arent related, iptables work on the network layer, so for example it can make sure chinese attackers dont brute force you on the ssh port
+[17:12:12] <Anandprakash> okay
+[17:12:23] <moizsajid> !
+[17:12:28] <huzaifas> the browser works on a entirely different level, attackers are trying to steal your online passwords etc, so a good combination is protecting your self on different level, use a good browser, and make sure your system is protected by a good, properly configured firewall
+[17:12:31] <huzaifas> next
+[17:12:36] <avik> I keep my passwords in pain txt file and then change the extension txt to anything, jpg, dat, etc, and keep in in a secret place.
+[17:12:36] <avik> Is is safe, in professional sence?
+[17:12:44] <sayan> vharsh: read this? https://labs.detectify.com/2016/07/27/how-i-made-lastpass-give-me-all-your-passwords/
+[17:13:14] <vharsh> sayan, Yes I read this one today on Reddit/HN app in class.
+[17:13:14] <huzaifas> avik:  its called security via obscurity
+[17:13:24] <avik> ha?
+[17:13:31] <huzaifas> trying to secure yourself by hiding your data
+[17:13:35] <avik> can you please explain
+[17:13:48] <pksadiq> !
+[17:13:48] <huzaifas> may distract the attacker, but they are smart, remember that :)
+[17:13:58] <vibhcool> !
+[17:14:04] <huzaifas> and overall not a good solution
+[17:14:19] <avik> haha ok.:)
+[17:14:20] <huzaifas> and def. not professional
+[17:14:21] <huzaifas> next
+[17:14:23] <yASH_> I use yubikey for strong authentication to how much extent is it secure ?
+[17:14:43] <huzaifas> yASH_:  do you use yubikey to generate one time passwords?
+[17:14:54] <yASH_> No for two factor authentication
+[17:14:58] <huzaifas> right
+[17:15:08] <huzaifas> its not been broken yet, so pretty strong so far
+[17:15:19] <huzaifas> also the algorithm is open
+[17:15:34] <huzaifas> so anyone can see how it works, but its one wayness is established mathematically
+[17:15:40] <huzaifas> so pretty strong security there
+[17:15:42] <huzaifas> next
+[17:15:45] <yASH_> Thank you !! I was pretty skeptic about that
+[17:15:45] <c0mrad3> huzaifas: what is your typical day work at RedHat, do you work with Fedora security team ?
+[17:17:00] <huzaifas> c0mrad3:  slightly outside the scope of our discussion, i did do some work with fedora security team previously, but i mostly dont find any time currently + Red Hat work is tightly integrated with fedora, so anything i dont in RH affects fedora indirectly :)
+[17:17:01] <huzaifas> next
+[17:17:06] <poonam> can you suggest some good password manager to have more secure password
+[17:17:34] <fhackdroid> !
+[17:18:18] <huzaifas> poonam:  password managers are used to store your passwords, i have not used into any gui based password managers yet, though if you want i can try to look and get back to you, i think bruce schiener suggested a few, i mostly use my gpg/tui method
+[17:18:38] <huzaifas> but maybe i can look at a few, and get back to you next time!
+[17:18:39] <poonam> okay
+[17:18:40] <huzaifas> next
+[17:18:45] <code_geek> How prime numbers are used by companies like google or facebook for encryption of password of their users?
+[17:19:04] <huzaifas> code_geek:  ah big topic, prime numbers are the backbone of cryptography
+[17:19:41] <huzaifas> if you have heard of RSA or DHKE or ECC, these are asym algorigthms you use every day to securely transmit your gmail/facebook etc passwords on the internet
+[17:20:06] <huzaifas> they ensure that the encrypted packets are not vulnerable to mitm (man in the middle ) attacks
+[17:20:31] <huzaifas> the above being said, its a huge topic, some day if we do some session on basic cryptography, i can talk more about it
+[17:20:32] <huzaifas> next
+[17:20:58] <moizsajid> In PGP, we will be using password, in this case the key, to get other passwords. Doesn't it sound counter intuitive?
+[17:21:24] <code_geek> Okay, I'll search the web for more details. Thanks. I hope we get some time to do a session on basic cryptography
+[17:21:35] <huzaifas> not really, the trick is not to have the private key on the same machine as the encrypted time
+[17:21:45] <huzaifas> and that is also slightly how the other password managers work
+[17:22:10] <huzaifas> making sure the files which store the passwords are encrypted themselves and they can only be unlocked via a "master password"
+[17:22:35] <huzaifas> also the key is protected by a passworde
+[17:22:47] <huzaifas> so private key + password is used to unlock the file, which contains my passwords
+[17:22:54] <huzaifas> the public key is used to encrypt it
+[17:23:00] <huzaifas> next
+[17:23:06] <pksadiq> How much should we be concerned about the possibilities of remote administration tools like intel ME be cracked (or about presence of backdoors in it), and about the backdoors that may be present in non-free software pieces, like *may* be in linux binary blobs (As we know that malwares are very common in M$ Windows world).
+[17:23:08] <Anandprakash> !
+[17:23:50] <vibhcool> huzaifas: What are examples of vulnerabilities excluding sql injection and preventing user from trying more than 3-4 passwords for a website or a network?
+[17:23:53] <huzaifas> pksadiq:  the bigger question is what you can about them
+[17:24:10] <abstatic> !
+[17:24:18] <vibhcool> I am sorry i posted my question by mistake :(
+[17:24:27] <pksadiq> huzaifas: for the case of linux kernel, may be I can use a freed version
+[17:24:37] <huzaifas> 1. even if you use open source tools ,are they secure, do you have the expertise to look at the its code and figure out if its properly written, for example when you use open ssl do you have the expertise to analyse its code
+[17:24:57] <huzaifas> 2. there is a limit to what you can do with open source, for example all code uses the cpu right?
+[17:25:12] <huzaifas> what if there is backdoor in the cpu, even if there is, what can you do about it
+[17:25:29] <huzaifas> 3. what is no free software is available for your use, do you stop working ?
+[17:26:08] <huzaifas> so there is a line you have to draw here, try to be as secure/paranoid as you can, but your cant build your own computer from scratch, so you have to trust someone at the end
+[17:26:31] <pksadiq> Yeah. I'm trying to.
+[17:27:00] <huzaifas> so i can take only one question, have a meeting at 9:00, i can answer rest of the questions next time/next session
+[17:27:01] <huzaifas> next
+[17:27:05] <vibhcool> huzaifas: What are examples of vulnerabilities excluding sql injection and preventing user from trying more than 3-4 passwords for a website or a network?
+[17:28:19] <huzaifas> vibhcool:  are you asking about "how to brute force an online website account assuming the password hashes cannot be retried and there is a limit on the nunmber of wrong attempts i am allowed" ?
+[17:29:36] <vibhcool> I am asking how a website or a network can be attacked excluding sql injection and brute force method
+[17:29:40] <vibhcool> ?
+[17:29:41] <vharsh> vibhcool, Saw the link? That flipkart guy got >3 numebr of attempts to enter the SMS-OTP, on beta.facebook.com
+[17:29:51] <vharsh> s/numebr/number
+[17:29:59] <fhackdroid> huzaifas, I am aking any how and reply when you get time. :) What are the best sources where one can learn about security ?
+[17:30:17] <huzaifas> vibhcool:  there are a few methods, not sure if i should discuss them here though
+[17:30:43] <huzaifas> fhackdroid:  ok, last question, the answer is simple "internet", no books can give you the most recent knowledge
+[17:30:46] <vibhcool> vharsh: yes that was a brute force  method
+[17:30:53] <huzaifas> anyways, time to leave, seeya guys next time
+[17:31:30] <fhackdroid> hahah damn :P I will catch him next time :P
+[17:31:36] <vharsh> huzaifas' typing :)
+[17:31:37] <moizsajid> huzaifas: Great session Huzaifa!
+[17:31:42] <code_geek> bye huzaifas, great session :)
+[17:32:18] <vharsh> I was like, "wait a second, is he doing a cut-paste operation?"
+[17:32:32] <abstatic> fhackdroid, have you seen this course - http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/
+[17:32:52] <abstatic> fhackdroid, pretty high level stuff about computer security
+[17:33:14] <Aazad> a great session guyss....
+[17:33:19] <vharsh> There's a book called Secure Coding from O'rielly, thats all I know about secure coding :p
+[17:33:24] <iKshitij> bye huzaifas ! It was great session ! Thank you
+[17:33:45] <kushal> Roll Call
+[17:33:46] <vharsh> Have a great evening huzaifas :)
+[17:33:50] <vharsh> Harsh Vardhan
+[17:33:54] <rhnvrm> Rohan Verma
+[17:33:55] <jargonmonk> Aniket Khisti
+[17:33:59] <abstatic> Abhishek Shrivastava
+[17:33:59] <vbhjain> Vaibhav Jain
+[17:34:00] <avik> Avik Mukherjee
+[17:34:02] <vshelar> Vivek Shelar
+[17:34:03] <shauryak_3> Shaurya Kalia
+[17:34:04] <poonam>   Poonam Jadhav
+[17:34:04] <PrashantJ> Prashant Jamkhande
+[17:34:05] <imack> Mahendra Yadav
+[17:34:06] <smdeep> Sudeep Mukherjee
+[17:34:06] <akshay_> akshay cv
+[17:34:07] <iKshitij> Kshitij
+[17:34:08] <jogender> Jogender Kota
+[17:34:10] <madhurii> Madhuri Muley
+[17:34:10] <rl56> Varsha R
+[17:34:10] <anjali_p> Anjali Pardeshi
+[17:34:12] <code_geek> Shantanu Acharya
+[17:34:14] <Anupama> Anupama Mandal
+[17:34:18] <himanshutechy>  Himanshu sharma
+[17:34:18] <yash_b> yash bhardwaj
+[17:34:19] <sandeepk> sandeep kumar choudhary
+[17:34:19] <Aazad> sumeet yadav
+[17:34:20] <moon45> Mamoon Manzoor
+[17:34:23] <tabrez> Tabrez khan
+[17:34:36] <indiabhi> Abhishek rai
+[17:34:39] <shobhitupadhyay> shobhit upadhyay
+[17:34:57] <kushal> endclass
+[17:34:57] [## Class Ended at Wed Jul 27 17:34:57 2016 ##]

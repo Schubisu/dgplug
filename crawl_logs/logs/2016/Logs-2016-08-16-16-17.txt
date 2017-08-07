@@ -1,0 +1,181 @@
+[16:17:38] [## Class Started at Tue Aug 16 16:17:38 2016 ##]
+[16:17:38] <kushal> startclass
+[16:17:47] <kushal> Roll Call
+[16:17:50] <abstatic> Abhishek Shrivastava
+[16:17:52] <gkadam> ganesh kadam
+[16:17:52] <tabrez> Tabrez khan
+[16:17:52] <mbtamuli12_> Mriyam Tamuli
+[16:17:56] <tasin> Md Tasin Siddiqi
+[16:17:57] <madhurii> Madhuri Muley
+[16:17:59] <kushal> avik, no class yesterday
+[16:18:01] <smdeep> Sudeep Mukherjee
+[16:18:06] <rl56> Varsha R
+[16:18:08] <poonam> Poonam Jadhav
+[16:18:10] <HoloIRCUser3> Jogender Kota
+[16:18:13] <code_geek> Shantanu Acharya
+[16:18:19] <akash47> Akash Mishra
+[16:18:24] HoloIRCUser3 is now known as jogender
+[16:18:32] <sandeepk> sandeep kumar choudhary
+[16:18:32] <mahesh5> Mahesh
+[16:18:39] <Anupama> Anupama Mandal
+[16:18:41] <abhishekg5> Abhishek Gupta
+[16:19:12] <avik> Avik Mukherjee. thanks kushal
+[16:20:05] <brahmanNaman> Ayush Kesarwani
+[16:20:16] brahmanNaman is now known as AyushKesar
+[16:20:49] <moizsajid> Moiz Sajid
+[16:20:55] <yash_b> yash bhardwaj
+[16:20:56] <kushal> https://shellshare.net/r/summertraining
+[16:21:20] <kushal> Before we start, any question on Python till now?
+[16:21:36] <deep123k> Deepanshu kapoor
+[16:22:09] <vharsh> Harsh Vardhan
+[16:22:14] <LambaInsaan> Rhitik Bhatt
+[16:22:26] <kushal> So no questions.
+[16:22:31] <kushal> Today's topic: Files
+[16:23:08] <aman_> Roll call : Aman Kumar
+[16:24:25] <kushal> For normal usage we have two different types of files, text files, and binary files for different formats.
+[16:24:35] <kushal> Can you type some names for text files?
+[16:24:50] <kushal> Also type some names for binary files :)
+[16:25:04] <tasin> .docx file
+[16:25:31] <kushal> tasin, what kind?
+[16:25:37] <kushal> What about .mp3 and .jpg?
+[16:25:42] <kushal> What about .py files?
+[16:25:44] <aman_> .txt and .bin
+[16:25:54] <kushal> aman_, which one is what? :)
+[16:26:15] <aman_> .txt is for text and .bin for binary
+[16:26:27] <kushal> Okay
+[16:26:30] <kushal> Anyone else?
+[16:26:31] <aman_> :)
+[16:26:51] <kushal> What about .mp3 and .jpg?
+[16:26:53] <kushal> What about .py files?
+[16:27:04] <kushal> others tell us what do you think.
+[16:27:10] <kushal> Feel free to use google.com :)
+[16:27:15] <code_geek> .mp3 and .jpg is binary
+[16:27:25] <abhishekg5> .py is text. .mp3 and .jpg binary
+[16:27:32] <sandeepk> .mp3 or .jpg are binary files as open any editior see 0 and 1
+[16:27:47] <sandeepk> .py is text file
+[16:27:51] <sandeepk> kushal: ^^
+[16:27:51] <moizsajid> .exe is binary
+[16:27:51] <LambaInsaan> .pyc is binary I guess.
+[16:27:58] <kushal> Ye
+[16:28:00] <kushal> yes.
+[16:28:28] <madhurii> py is scripting file format
+[16:28:38] <kushal> madhurii, text or binary?
+[16:28:49] <madhurii> binary
+[16:28:59] <mbtamuli12_> .py is text
+[16:29:07] <mbtamuli12_> As shown by the file command.
+[16:29:10] <mbtamuli12_> ASCII text.
+[16:29:14] <kushal> mbtamuli12_, :)
+[16:29:18] <mbtamuli12_> Correct me if I am wrong?
+[16:29:27] <vharsh> .docx is a kind of archive file
+[16:29:27] <kushal> mbtamuli12_, Can you please explain that command to others here?
+[16:29:51] <madhurii> kushal,correct me also if am wrong?
+[16:29:54] <mbtamuli12_> file command is used to determine the file type.
+[16:29:57] <mbtamuli12_> file <
+[16:30:14] <mbtamuli12_> file <filename> will display the type of a file
+[16:30:15] <kushal> madhurii, try file somefile.py
+[16:30:50] <kushal> https://shellshare.net/r/summertraining
+[16:32:26] <kushal> Is that okay for everyone?
+[16:32:35] <kushal> If you have question, feel free to type !
+[16:33:36] <tasin> What is all that code on shellshare?
+[16:34:23] <abhishekg5> tasin: That's kushal  sharing his terminal
+[16:34:29] <kushal> tasin, it is not code, it is the output of the file command
+[16:34:45] <tasin> ok got it
+[16:36:10] <kushal> Now first tip:
+[16:36:11] <SpEcHiDe> roll call: Shrimadhav U K [sorry I am late]
+[16:36:28] <akash99> Roll Call : Akash Ganbote
+[16:36:31] <mpmaurya> Mudit Maurya
+[16:41:10] <SRvSaha> Roll Call : Saurav Saha
+[16:41:23] <SRvSaha> Sorry for being late. Was busy in playing Badminton
+[16:42:56] <SRvSaha> Is the session going on ??
+[16:43:18] <lambainsaan_> SRvSaha, yes.
+[16:44:19] <kushal> sorry got disconnected
+[16:44:21] <kushal> What was the last line from me?
+[16:44:37] <avik> <kushal> Now first tip:
+[16:44:57] <kushal> If you open a file, remember to close it.
+[16:44:59] <kushal> In any programming language, in any OS
+[16:45:07] <kushal> Always remember to close the open files.
+[16:46:27] * kushal is having huge network lags
+[16:47:11] <kushal> In Python we use open call to open a file handler.
+[16:47:29] <kushal> please follow https://shellshare.net/r/summertraining
+[16:49:53] <hydro> anushil kumar
+[16:52:57] <kushal> So the easy way: Open a file, read all the lines, and then close it.
+[16:53:42] <kushal> If you want read the whole file at once (bad idea for big files), you can use the read method.
+[16:53:47] <kushal> fobj.read()
+[16:53:59] <kushal> Now python has a better way to do this.
+[16:54:43] <kushal> Where we do not have to manually close the file.
+[16:54:49] <kushal> Let us go back to the shell
+[16:55:52] <kushal> You can see, I never closed the file manually
+[16:56:19] <kushal> with statement makes sure that the opened file is closed at the end.
+[16:57:12] <kushal> Any questions till now?
+[16:57:24] <kushal> Always try to use the with statements.
+[16:57:53] <abstatic> !
+[16:58:17] <kushal> next
+[16:58:19] <kushal> next
+[16:58:20] <abstatic> but what if we want to use the file again in later part of program ? Will we have to reopen it ?
+[16:58:28] <kushal> abstatic, Yes.
+[16:58:31] <hydro> yes
+[16:58:41] <abstatic> Okay
+[16:58:58] <kushal> Question is why do need to read it again?
+[16:59:07] <kushal> You can read once, store it in a variable
+[16:59:15] <kushal> and use that variable as many times as you want.
+[16:59:29] <kushal> Unless you know that the file content is changed in between.
+[17:00:14] <kushal> Any other question?
+[17:00:21] <abstatic> Thanks kushal
+[17:01:10] <kushal> To write to a file, you will have to open it in write mode.
+[17:01:17] <kushal> open("filepath", "w")
+[17:01:39] <kushal> that w stands for write mode
+[17:02:24] <kushal> We actually open in read mode when we do open("filepath", "r")
+[17:02:52] <kushal> But that r is the default value, means if you do not provide it, then it will open in read mode.
+[17:04:08] <kushal> Is this okay?
+[17:04:32] <code_geek> yes
+[17:04:34] <abstatic> Yes
+[17:04:38] <sandeepk> yes
+[17:04:38] <Anupama> yup
+[17:04:54] <aman_> yes
+[17:05:29] <poonam>  !
+[17:05:30] <hydro> yep
+[17:05:31] <deep123k> Yes
+[17:05:34] <kushal> next
+[17:06:46] <poonam> w used to append the , is there any option to overwrite the file?
+[17:07:07] <code_geek> w is for overwriting
+[17:07:39] <poonam> okay then what is for appending?
+[17:07:41] <code_geek> for append we use "a"
+[17:07:45] <kushal> w is for writing, does not matter if it is a new file, or old file (which will be overridden)
+[17:08:02] <poonam> okay
+[17:12:33] <kushal>  less /proc/meminfo
+[17:12:41] <kushal> See the contents of that file.
+[17:13:04] <kushal> First 3 lines show total, free and available memory in your computer.
+[17:13:17] <kushal> Now try to write a code, myfree.py
+[17:13:26] <kushal> which will show those 3 values in MB.
+[17:13:41] <kushal> remember to write proper functions, and call them
+[17:13:49] <mbtamuli12_> !
+[17:14:55] <kushal> next
+[17:15:00] <mbtamuli12_> Does free -m show the same information as the information in /proc/meminfo
+[17:15:19] <mbtamuli12_> Does it actually read from /proc/meminfo?
+[17:15:25] <kushal> mbtamuli12_, I guess so :)
+[17:15:44] <kushal> Not sure how it is implemented, but the same information.
+[17:24:02] <mbtamuli12_> http://sprunge.us/GbZa?py
+[17:25:44] * mbtamuli12_ going for dinner. Be back later. Sorry.
+[17:25:55] <kushal> mbtamuli12_, which one is what?
+[17:25:58] <kushal> :)
+[17:26:12] <code_geek> https://paste.fedoraproject.org/409247/
+[17:26:25] <kushal> Finish this off, show us the answer tomorrow
+[17:26:52] <kushal> code_geek, show us what is what :)
+[17:26:56] <kushal> Roll Call
+[17:27:02] <code_geek> okay
+[17:27:11] <code_geek> Shantanu Acharya
+[17:27:11] <abstatic> Abhishek Shrivastava
+[17:27:32] <deep123k> Deepanshu KAPOOR
+[17:27:38] <Anupama> Anupama Mandal
+[17:27:40] <sandeepk> sandeep kumar choudhary
+[17:27:42] <yash_b> yash bhardwaj
+[17:27:47] <jogender> Jogender Kota
+[17:27:50] <rl56> Varsha R
+[17:27:52] <tabrez> Tabrez khan
+[17:27:54] <lambainsaan_> Rhitik Bhatt
+[17:28:19] <rohan__> Rohan Hazra
+[17:29:33] <lambainsaan_> https://paste.fedoraproject.org/409250/14713613/
+[17:30:05] <lambainsaan_> Does the wrong thing. Sorry.
+[17:30:26] <akash99> Akash Ganbote
+[17:31:00] <kushal> endclass
+[17:31:00] [## Class Ended at Tue Aug 16 17:31:00 2016 ##]

@@ -1,0 +1,528 @@
+[13:45:04] [## Class Started at Mon Jul  8 13:45:04 2013 ##]
+[13:45:04] <kushal> startclass
+[13:45:13] <dot|not> kushal, personally spoken it saddens me. Making mistakes is part of a learning process, of every learning process. But stubbornness seemingly prevents the learning effect from working.
+[13:45:26] <kushal> dot|not, correct
+[13:45:31] <kushal> ------SESSION STARTS----------
+[13:45:34] <kushal> ROLL CALL
+[13:45:35] <dot|not> dot|not,
+[13:45:38] <puspita> puspita ghosh
+[13:45:39] <rahulch> Rahul Chowdhury
+[13:45:40] <Armageddon> Elijah
+[13:45:41] <iam_sudip> iam_sudip
+[13:45:43] <tutum> Pritha Ganguly
+[13:45:43] <puja12> puja gupta
+[13:45:43] <dell> manish jain
+[13:45:44] <shantanu> Shantanu Sarkar
+[13:45:45] <sonam> shantanu, thank you
+[13:45:47] <shalini> Shalini Roy
+[13:45:48] <supriya> supriya saha
+[13:45:49] <m0rin09m`> Shungoh Kaetsu
+[13:45:49] <anisha23> anisha agrawal
+[13:45:49] <sonam> sonam
+[13:45:54] <ravi_pro> ravi kumbhkar
+[13:45:55] <rashmi> Rashmi
+[13:45:55] <avik> avik ghosh
+[13:45:55] <anurag> anurag kumar
+[13:45:57] <bidisha> Bidisha Mukherjee
+[13:46:08] <umesh> Umesh Agarwal
+[13:46:12] <amresh> amresh kumar
+[13:46:20] <Christi123> Christina Beemer
+[13:47:12] <kushal> every one done ?
+[13:47:20] <Christi123> no
+[13:47:32] <korak> korak ghosh
+[13:47:33] <Devyani> Devyani
+[13:47:57] <kushal> So first
+[13:48:19] <kushal> We are slowly moving towards the pointed where only interested students will continue this training
+[13:48:25] <kushal> s/pointed/point/
+[13:48:26] <batul> What kushal meant to say was: We are slowly moving towards the point where only interested students will continue this training
+[13:48:28] <Christi123> !
+[13:48:35] <kushal> Christi123, ask
+[13:49:05] <kushal> any other QA related to my email needs to be resolved after session among the students
+[13:49:05] <Christi123> kushal do we send the user name to you or users account. I am sorry if i am annoying
+[13:49:26] <kavis> kavis
+[13:49:32] <kushal> Christi123, sorry but your question does not make any sense. We will continue for now
+[13:49:43] <kushal> today we will start with python
+[13:50:26] <kushal> pingall: first tell me if you already any other programming language , tell me names in the message here , everyone
+[13:50:53] <elita15> elita lobo
+[13:50:53] <J_Caselles> Hi, Josep Caselles here
+[13:51:24] <kushal> strange no one is answering my question ?
+[13:51:27] <Armageddon> C, C++, ASM, Java but forgot most of it.
+[13:51:28] <fewcha> C, C++, java, python
+[13:51:28] <Christi123> I know c, c++ and java
+[13:51:36] <puspita> c, c++ , java,vb
+[13:51:38] <Devyani> Yes, C, C++, Java
+[13:51:40] <amresh> C,C++, PHP, MATLAB, JAVA
+[13:51:43] <tutum> c,c++ ,java
+[13:51:46] <kavis> i know c,c++,Java
+[13:51:46] <J_Caselles> I know C++ basics, and java/android
+[13:51:47] <kushal> fewcha, you are a mentor this year :D
+[13:51:47] <supriya> c,c++,java
+[13:51:49] <korak> c,java,c++
+[13:51:49] <umesh> C, C++, java
+[13:51:50] <shantanu> C, C++ and little bit of python.
+[13:51:50] <anisha23> java,C
+[13:51:56] <fewcha> kushal: oops, sorry
+[13:51:57] <dot|not> (I hope I got "in the message here" right as "in this channel".) Programming experience in different languages of all kinds - From Python and Perl to Ruby and Shell to PHP and C, C++ Java and more exotic ones. But forgot most of it.
+[13:51:58] <bidisha> java and C
+[13:52:00] <avik> i know C only
+[13:52:00] <rahulch> C, C++, Java, Python
+[13:52:03] <elita15> c , java
+[13:52:13] <rashmi> C
+[13:52:14] <iam_sudip> C, little Java
+[13:52:16] <zishan> I know C only
+[13:52:18] <puja12> c only
+[13:52:25] <m0rin09m`> I know a little bit of c/c++.
+[13:52:25] <ravi_pro_> java,c
+[13:52:26] <dell> c
+[13:52:39] <kushal> anyone left ?
+[13:52:39] <shalini> c only
+[13:52:46] <kavis> lil bit of dot net and c#
+[13:53:11] <kirk_iowa> C
+[13:53:48] * kushal is annoyed to see top posts in the replies again and again , in this case it is Christi123 
+[13:53:50] <praveenkumar> kavis: s/lil/little/
+[13:54:05] <kushal> praveenkumar, thanks
+[13:54:55] <kushal> so today we will start with Python
+[13:54:58] <kavis> sorry
+[13:55:05] <kushal> every one open a terminal
+[13:55:33] <kushal> type python and press enter
+[13:56:04] <kavis> done
+[13:56:07] <kushal> ^^ this command will start the python interpreter
+[13:56:19] <kushal> kavis, stop typing unless asked
+[13:56:36] <kushal> to exit from the interpreter press Ctrl + d
+[13:56:38] <kavis> sorry
+[13:57:11] <kushal> if anyone can not exit from the interpreter and say here now
+[13:57:20] <kushal> if you can then do not type anything
+[13:57:49] <kushal> good
+[13:58:31] <kushal> so basically Python is an object oriented language
+[13:58:45] <kushal> python command is actually the interpreter which we use
+[13:59:02] <kushal> we can also compile any python code into bytecode to run in python vm
+[13:59:08] <kushal> http://en.wikipedia.org/wiki/Bytecode
+[13:59:56] <kushal> Guido van Rossum is the creator of Python
+[14:00:57] <kushal> [OT] dell sent a wrong email once again
+[14:01:44] <dell> kushal: sorry. What is wrong in it?
+[14:01:58] <kushal> dell, read my email and try to find out, I will not tell you
+[14:02:05] <kushal> when we get into python interpreter it gives us a prompt with >>>
+[14:02:57] <kushal> btw, http://www.flickr.com/photos/kushaldas/8609125454/in/set-72157633134565275 is Guido van Rossum
+[14:03:27] <kushal> in the python interpreter we can write python statements
+[14:03:44] <kushal> as usual our first example will be printing hello world
+[14:03:53] <kushal> so type the following and press enter
+[14:04:05] <kushal> print 'Hello World!'
+[14:04:17] <kushal> tell me here if it does not work :)
+[14:05:16] <kushal> going ahead
+[14:05:29] <kushal> as you can see print statement is using to print a string
+[14:05:59] <kushal> a string can be either using double or single quote
+[14:06:13] <kushal> now print the same hello world example using double quoted string
+[14:06:30] <kushal> and tell me done
+[14:06:33] <rahulch> done
+[14:06:36] <tutum> done
+[14:06:36] <puspita> done
+[14:06:38] <anisha23> done
+[14:06:39] <amresh> done
+[14:06:44] <Christi123> done
+[14:06:44] <Armageddon> done
+[14:06:46] <shantanu> done
+[14:06:46] <sonam> done
+[14:06:46] <zishan> done
+[14:06:46] <kirk_iowa> done
+[14:06:47] <m0rin09m`> done
+[14:06:47] <avik> done
+[14:06:48] <bidisha> done
+[14:06:49] <puja12> done
+[14:06:52] <J_Caselles> done
+[14:06:53] <korak> done
+[14:06:54] <nilanjit> done
+[14:07:07] <iam_sudip> Done.
+[14:07:07] <kavis> done
+[14:07:08] <rahulmishra> done
+[14:07:09] <umesh> done
+[14:07:21] <shalini> done
+[14:07:26] <dell> done
+[14:07:33] <tenstormavi> Done
+[14:08:09] <kushal> we can also use this interpreter as simple calculator
+[14:08:10] <kushal> like
+[14:08:13] <kushal> 2 + 10
+[14:08:17] <kushal> 7 * 6
+[14:08:17] <rashmi> done
+[14:08:23] <kushal> 50 / 10
+[14:08:33] <kushal> try those ^^
+[14:08:44] <puspita> done
+[14:08:46] <sonam> done
+[14:09:29] <elita15> done
+[14:09:35] <puja12> done
+[14:10:00] <Christi123> done
+[14:10:33] <shalini> done
+[14:10:47] <umesh> done
+[14:11:02] <shantanu> done
+[14:11:10] <ravi_pro> done
+[14:11:19] <kushal> I will continue
+[14:11:32] <kushal> now python can handle bigger numbers too
+[14:12:02] <Christi123> !
+[14:12:08] <rashmi> done
+[14:12:11] <kushal> some thing like: 23234234 * 368746213874634243243454325
+[14:12:16] <kushal> Christi123, ask
+[14:12:46] <Christi123> kushal 25/2 gives me 12 the interpreter wont display the decimal part ?
+[14:12:51] <Christi123> <EOF>
+[14:13:00] <dot|not> Because you gave it an integer.
+[14:13:05] <kushal> Christi123, ^^
+[14:13:08] <dot|not> So the return value is an integer too.
+[14:13:12] <kushal> Christi123, try 25.0 / 2
+[14:13:37] <Christi123> Kushal, Done :)
+[14:13:45] <kushal> brb 2 minutes
+[14:13:48] <Christi123> dot|not, thanks :)
+[14:17:11] <kushal> you can use arrow keys in the interpreter
+[14:18:06] <kushal> next
+[14:19:02] <kushal> a = 12
+[14:19:04] <navid_> kushal, ping
+[14:19:20] <kushal> navid_, session is going on , what you want ?
+[14:19:36] <korak_> kushal,sorry i had a network problem can you please repeat the tasks ?
+[14:19:47] <kushal> korak_, no sorry
+[14:20:33] <kushal> the above statement create a name called "a" and points it to a value 12
+[14:20:42] <kushal> s/create/creates/
+[14:20:43] <batul> What kushal meant to say was: the above statement creates a name called "a" and points it to a value 12
+[14:20:56] <kushal> generally we call it a variable
+[14:21:35] <kushal> we will go into details later
+[14:21:47] <kushal> now in python we do not need to tell the data type
+[14:21:57] <kushal> the interpreter will figure that out
+[14:22:28] <kushal> so if I write name = 'Kushal Das' it will know name is a variable with string type
+[14:24:01] <kushal> if I write value = 20
+[14:24:16] <kushal> then it will figure variable value is an integer
+[14:26:58] <kushal> so if we do the following
+[14:27:03] <kushal> value = 20.5
+[14:27:06] <kushal> value = 2-
+[14:27:10] <kushal> value = 20
+[14:27:22] <kushal> value = 2- was typo, do not try that
+[14:27:29] <kushal> value = "Kushal Das"
+[14:27:57] <kushal> in all the above cases value holds the data we pass to it
+[14:28:12] <kushal> to know the type of the variable write type(variable)
+[14:28:21] <kushal> type(value) in this case
+[14:29:03] <kushal> try it out
+[14:29:06] <kushal> everyone
+[14:30:06] <kirk_iowa> !
+[14:30:12] <kushal> kirk_iowa, ask
+[14:30:30] <kirk_iowa> are there any such variables such as long, long long ?
+[14:30:44] <kushal> kirk_iowa, there is long
+[14:31:00] <kushal> kirk_iowa, try x =  23234234 * 3687462138746342432434543253
+[14:31:05] <kushal> and then type(x)
+[14:33:17] <kushal> like any other programming language, we can write Python in a file and then execute that file later on
+[14:33:51] <kushal> I will write the hello world example
+[14:34:15] <kushal> python files end with .py extension
+[14:34:28] <kushal> so $vim helloworld.py
+[14:34:42] <kushal> #!/usr/bin/env python
+[14:34:43] <kushal> print "Hello World!"
+[14:34:46] <kushal> save and exit
+[14:35:43] <kushal> get out of python first
+[14:36:15] <kushal> then do that
+[14:36:15] <rahulch> !
+[14:36:36] <kushal> after you wrote that file , do $ chmod +x helloworld.py
+[14:36:46] <kushal> and then
+[14:36:53] <kushal> $ ./helloworld.py
+[14:36:58] <kushal> rahulch, ask
+[14:37:18] <rahulch> what was the first line for? the one with "#!"
+[14:37:25] <kushal> :)
+[14:37:45] <kushal> we call it sha-bang.
+[14:37:50] <kushal> google to learn more
+[14:38:06] <rahulch> kushal, ok
+[14:38:47] <kushal> please try the above example
+[14:38:57] <AndroUser2> !
+[14:39:21] <korak> !
+[14:39:29] AndroUser2 is now known as tenstormavi
+[14:39:30] <kushal> AndroUser2, ask (first tell your name)
+[14:40:00] <kushal> korak, ask
+[14:40:11] <tenstormavi> Sorry i am avinash someone change my nick
+[14:40:53] <tenstormavi> What happens if we write python helloworld.py
+[14:41:06] <dot|not> Then the interpreter interprets your code.
+[14:41:20] <dot|not> s/interprets/interpretes/
+[14:41:22] <batul> What dot|not meant to say was: Then the interpreter interpretes your code.
+[14:41:32] <korak> kushal,when will i have to write the line begining with'#'
+[14:41:41] <kushal> korak, means ?
+[14:41:59] <tenstormavi> Then difference between chmod +x?
+[14:42:19] <kushal> tenstormavi, man chmod
+[14:42:25] <dot|not> tenstormavi, ^^
+[14:42:48] <korak> kushal'#!/usr/bin/env python
+[14:42:48] <tenstormavi> Kushal ok
+[14:43:24] <kushal> korak, in the file named "helloworl.py" withopu quotes
+[14:43:36] <kushal> s/withopu/without/
+[14:43:37] <batul> What kushal meant to say was: korak, in the file named "helloworl.py" without quotes
+[14:43:50] <kushal> eeks
+[14:43:55] <kushal> helloworld.py
+[14:44:00] <kushal> korak, ^^
+[14:44:57] <kushal> any more questions ?
+[14:45:30] <kushal> I guess no
+[14:45:53] <kushal> from now on everyone please create a directory named code inside your home directory
+[14:46:01] <kushal> we will write all programs there
+[14:46:35] <puspita> !
+[14:46:58] <kushal> puspita, ask
+[14:47:50] <puspita> will that directory be inside root and then home?
+[14:48:13] <dot|not> puspita, no.
+[14:48:19] <kushal> puspita, we use normal use accounts, not root
+[14:48:20] <dot|not> In your - as in your user - homedirectory.
+[14:48:30] <puspita> ok thanks
+[14:49:07] <kushal> now python is space sensitive
+[14:49:13] <kushal> so if I write
+[14:49:23] <kushal> >>>  value = 12
+[14:49:43] <kushal> it will throw an error as I have given one extra space in the front
+[14:50:01] <kushal> ^^ everyone try that now
+[14:50:45] <rahulch> !
+[14:50:52] <kushal> rahulch, ask
+[14:51:33] <rahulch> in the error, what does ' File "<stdin>" ' mean ?
+[14:51:43] <kushal> rahulch, google for stdin
+[14:52:22] <rahulch> ok
+[14:52:25] <kushal> it is standard input
+[14:52:53] <rahulch> kushal, yes i know that
+[14:52:57] <kushal> now if you see the error "IndentationError: unexpected indent" what you will understand from it ?
+[14:53:32] <anwesha> there is a problem with indentation i.e space
+[14:53:43] <kushal> correct ^^
+[14:53:44] <Armageddon> tabs are also indentations
+[14:53:45] <Christi123> That there is a space somewhere
+[14:53:52] <rahulch> that i gave wrong indent as input
+[14:53:56] <tutum> kushal, that means we must have given some unnecessary spaces somehwere
+[14:53:59] <kushal> yes
+[14:54:05] <kushal> Armageddon, yes
+[14:54:16] <kushal> now remember from now on, do not mix tabs and spaces
+[14:54:30] <kushal> in python always use 4 spaces as indentation
+[14:54:52] <Christi123> !
+[14:54:57] <kushal> in my vimrc file tab means 4 spaces
+[14:55:31] <kushal> so if you use it then you already have 4 spaces as indentation
+[14:55:33] <kushal> Christi123, ask
+[14:55:35] <Christi123> is it a convention to give 4 spaces
+[14:55:51] <Christi123> kushal, i understood :)
+[14:55:55] <kushal> Christi123, yes
+[14:56:11] <kushal> Now any like with # is a comment
+[14:56:16] <kushal> # This is a comment
+[14:56:27] <kushal> s/like/line/
+[14:56:28] <batul> What kushal meant to say was: Now any line with # is a comment
+[14:56:39] <kushal> a = 12 # here we assign 12 to a
+[14:57:09] <kushal> comments are for human users who will read your code
+[14:57:35] <kushal> so they are very important
+[14:58:45] <kushal> always write as much comment as possible
+[14:58:56] <kushal> s/comment/comments/
+[14:58:57] <batul> What kushal meant to say was: always write as much comments as possible
+[15:00:07] korak_ is now known as korak
+[15:00:52] <kushal> now there are few keywords which you should not use as variable names
+[15:01:00] <kushal> and
+[15:01:00] <kushal> as
+[15:01:00] <kushal> assert
+[15:01:00] <kushal> break
+[15:01:00] <kushal> class
+[15:01:01] <kushal> continue
+[15:01:02] <kushal> def
+[15:01:04] <kushal> del
+[15:01:06] <kushal> elif
+[15:01:08] <kushal> else
+[15:01:11] <kushal> except
+[15:01:15] <kushal> exec
+[15:01:16] <kushal> finally
+[15:01:19] <kushal> for
+[15:01:23] <kushal> from
+[15:01:25] <kushal> global
+[15:01:28] <kushal> if
+[15:01:30] <kushal> import
+[15:01:33] <kushal> in
+[15:01:35] <kushal> is
+[15:01:37] <kushal> lambda
+[15:01:39] <kushal> not
+[15:01:41] <kushal> while
+[15:01:45] <kushal> or
+[15:01:47] <kushal> with
+[15:01:49] <kushal> pass yield
+[15:01:53] <kushal> print
+[15:01:55] <kushal> raise
+[15:01:59] <kushal> return
+[15:02:01] <kushal> try
+[15:02:03] <kushal> ^^ the keywords
+[15:03:13] <kushal> now in a command line program you can take input from the user
+[15:03:27] <kushal> we use raw_input function for the same
+[15:03:30] <kushal> example below:
+[15:04:13] <kushal> value = raw_input('Enter your name: ')
+[15:04:18] <kushal> print value
+[15:06:14] <kushal> now we will write a code which will take user's name as an input
+[15:06:42] <kushal> and print the name twice as out put (in two different lines)
+[15:06:54] <kushal> in a file called print_twice.py
+[15:07:48] <kushal> do it inside that code directory
+[15:07:53] <kushal> everyone ^^
+[15:09:21] <kushal> tell me when you are done
+[15:09:29] <Christi123> done
+[15:09:46] <amresh> done
+[15:09:51] <zishan> done
+[15:10:02] <umesh> done
+[15:10:05] <kavis> done
+[15:10:09] <J_Caselles> done
+[15:10:18] <anwesha> there is a problem with indentation i.e space
+[15:10:35] <tutum> done
+[15:10:44] <kushal> ?
+[15:10:52] <anwesha> typo
+[15:11:02] <elita15> done
+[15:11:09] <nilanjit> done
+[15:11:14] <kirk_iowa> done
+[15:11:45] <m0rin09m`> done
+[15:11:51] <anisha23> done
+[15:11:53] <avik> done
+[15:12:19] <shantanu> done
+[15:12:23] <anwesha> pdone
+[15:12:27] <ravi_pro> done...
+[15:12:29] <anwesha> typo
+[15:12:46] <rahulch> !
+[15:12:55] <anwesha> s/pdone/done/
+[15:12:56] <batul> What anwesha meant to say was: done
+[15:13:02] <kushal> rahulch, ask
+[15:13:42] <kushal> here is point
+[15:13:53] <rahulch> my print_twice.py has these lines- http://fpaste.org/23696/29575713/ , and i am getting this output- http://fpaste.org/23697/13732957/
+[15:14:06] <kushal> raw_input returns a string
+[15:14:52] <kushal> can anyone help rahulch ^^ ?
+[15:15:48] <kushal> anyone ^^
+[15:15:51] <tutum> rahulch, you forgot the sha-bang i guess
+[15:15:57] <kushal> tutum, correct
+[15:16:11] <kushal> rahulch, you forgot the sha-bang line
+[15:16:13] <rahulch> tutum, oh yes, sorry
+[15:16:16] <rahulch> kushal, tutum, thanks
+[15:16:21] <kushal> #!/usr/bin/env python
+[15:16:34] <kushal> rahulch, if you do not write that
+[15:16:42] <kushal> then also you can run your code by
+[15:16:48] <kushal> $ python print_twice.py
+[15:17:02] <kushal> rahulch, ^^ try that
+[15:17:21] <puspita> done
+[15:17:38] <rahulch> kushal, yes it works :)
+[15:17:47] <kushal> so next step
+[15:18:03] <kushal> in python we can assign more than one value in a statement
+[15:18:08] <kushal> a , b = 10, 20
+[15:18:21] <kushal> and then print the values a and b :)
+[15:19:26] <kushal> we can assign 3 values also
+[15:19:31] <kushal> and so on
+[15:19:45] <kushal> we can use this to swap two variable
+[15:19:47] <kushal> a = 10
+[15:19:50] <kushal> b = 20
+[15:21:26] fewcha_ is now known as fewcha
+[15:21:28] <kushal> a, b = b, a
+[15:21:31] <kushal> print a
+[15:21:33] <kushal> print b
+[15:21:43] * J_Caselles applauds
+[15:21:55] <kushal> :D
+[15:22:22] <kushal> J_Caselles, coming from Java land this must be fund I guess ? :)
+[15:22:28] <kushal> s/fund/fun/
+[15:22:30] <batul> What kushal meant to say was: J_Caselles, coming from Java land this must be fun I guess ? :)
+[15:22:32] <J_Caselles> yeah haha
+[15:22:34] <kushal> doing too many typos
+[15:23:52] <kushal> now one can swap between any kind of variables or objects
+[15:24:08] <kushal> in python everything is an object [note]
+[15:24:10] <kushal> so
+[15:24:13] <kushal> a = "Kushal Das"
+[15:24:15] <kushal> b = 20
+[15:24:19] <kushal> a, b = b, a
+[15:24:23] <kushal> print b
+[15:24:25] <kushal> print a
+[15:24:48] <kushal> ^^ everyone try that
+[15:25:48] <kushal> tell me when you are done
+[15:25:53] <rahulmishra> done
+[15:25:54] <Armageddon> done
+[15:25:55] <anisha23> done
+[15:25:56] <iam_sudip> Done.
+[15:25:58] <anurag> done
+[15:25:58] <puspita> done
+[15:26:04] <rahulch> done
+[15:26:04] <tutum> done
+[15:26:06] <elita15> done
+[15:26:08] <shalini> done
+[15:26:09] <avik> done
+[15:26:11] <amresh> done
+[15:26:13] <nilanjit> done
+[15:26:13] <m0rin09m`> done
+[15:26:14] <sonam> done
+[15:26:15] <rashmi> done
+[15:26:15] <Christi123> done
+[15:26:17] <umesh> done
+[15:26:20] <J_Caselles> done
+[15:26:24] <dell> done
+[15:26:25] <korak> done
+[15:26:51] <bidisha> done
+[15:26:56] <anwesha> done
+[15:28:20] <shantanu> done
+[15:28:26] <kavis> done
+[15:29:01] <kushal> http://kushaldas.in/tmp/pym.pdf is my book
+[15:29:30] <kushal> read till 3rd chapter
+[15:29:38] <kushal> try the examples
+[15:30:50] <kushal> that is for tomorrow, you don't have to do it now
+[15:30:58] <Armageddon> !
+[15:31:21] <kushal> Armageddon, ask
+[15:31:59] <Armageddon> just an observation, right above 3.2 'India\'s best' could've been written easier "India's best"
+[15:32:04] <Armageddon> <EOF>
+[15:33:17] <kushal> Armageddon, I am teaching escaping there
+[15:33:32] <Armageddon> right, as I said, observation
+[15:34:04] <kushal> Armageddon, ok :)
+[15:34:10] <kushal> now for tonight's home task
+[15:34:25] <kushal> if anyone is not replying to email properly, will not get any reply from me
+[15:34:39] <kushal> so that is your fault if you do not receive any password
+[15:34:41] <kushal> now
+[15:35:08] <kushal> everyone make a directory in their git repo called intro
+[15:35:40] <kushal> inside create a solution.rst which will contain your introduction and a few lines about what you think about this training
+[15:35:47] <kushal> commit and push
+[15:36:01] <kushal> and then use the submit_hometask command to submit to our server
+[15:36:11] <kushal> DO NOT SUBMIT MORE THAN ONCE
+[15:36:13] <kushal> ^^^
+[15:36:38] <kushal> submit_hometask -f path/to/the/rst/file -t "Introduction"
+[15:37:17] <kushal> write the exact title I wrote
+[15:37:31] <kushal> you can test your rst file using rst2html command and see how it looks
+[15:37:48] <kushal> remember: you should not use double line bases titles
+[15:37:57] <kushal> you should use something like
+[15:38:00] <kushal> title
+[15:38:02] <kushal> --------
+[15:38:15] <kushal> ^^^ that is how
+[15:38:24] <kushal> any question ?
+[15:38:37] <puspita> !
+[15:39:05] <kushal> puspita, ask
+[15:39:23] <puspita> rst2html command always gives an error command not found
+[15:39:40] <kushal> puspita, you never installed python-docutils package
+[15:40:09] <kushal> http://www.dgplug.org/irclogs/2012/rst-primer/ is the rst tutorial
+[15:40:15] <Armageddon> !
+[15:40:21] <kushal> Armageddon, ask
+[15:40:27] fewcha_ is now known as fewcha
+[15:40:34] <kushal> I will reply to the emails after the session
+[15:40:39] <Armageddon> do you want us to be honest about what we think ?
+[15:40:53] <Christi123> !
+[15:41:01] <kushal> Armageddon, yes, brutal truth, what ever you liked, what ever you did not
+[15:41:08] <puspita> <eof>
+[15:41:08] <puspita> ok i'll do that. thanks
+[15:41:16] <Armageddon> kushal, works for me. thanks ^^
+[15:42:17] <kushal> Christi123, ask
+[15:42:19] <Christi123> What do you mean by "write the exact title I wrote"
+[15:42:58] <kushal> Christi123, with -t we specify the title of the home task
+[15:43:20] <Christi123> kushal, ok thanks :)
+[15:43:23] <kushal> Christi123, so write the exact title wrote
+[15:43:46] <tutum> !
+[15:43:54] <kushal> tutum, ask
+[15:44:48] <tutum> kushal,in this command "submit_hometask -f path/to/the/rst/file -t "Introduction"", in place of hometask do we have to write the name of our repo?
+[15:44:59] <tutum> <eof>
+[15:45:36] <kushal> tutum, no, that is the command we gave in the mailing list
+[15:46:02] <tutum> okay ,thanks
+[15:46:31] <kushal> any other question ?
+[15:46:34] <kushal> anyone ?
+[15:47:29] <elita15> !
+[15:47:36] <kushal> btw, I will only create the accounts for which I receive a proper reply by tomorrow afternoon 12pm IST
+[15:48:09] <kushal> elita15, ask
+[15:49:10] <elita15> should we give the submit_hometask command  from our git repo?
+[15:49:36] <elita15> <eof>
+[15:49:56] <kushal> elita15, you can give from anywhere you want
+[15:50:05] <kushal> just point it to the correct rst file
+[15:50:44] <kushal> any other question ?
+[15:52:06] <elita15> kushal, okay thanks.
+[15:55:24] <kushal> ROLL CALL
+[15:55:33] <rahulch> Rahul Chowdhury
+[15:55:33] <anwesha> Anwesha Das
+[15:55:34] <amresh> amresh kumar
+[15:55:37] <puspita> Puspita Ghosh
+[15:55:39] <nilanjit> Nilanjit Mitra
+[15:55:40] <anisha23> anisha agrawal
+[15:55:42] <rahulmishra> Rahul Mishra
+[15:55:45] <J_Caselles> Josep Caselles
+[15:55:46] <bidisha> Bidisha Mukherjee
+[15:55:48] <tutum> Pritha Ganguly
+[15:55:49] <iam_sudip> iam_sudip
+[15:55:50] <m0rin09m`> Shungoh Kaetsu
+[15:55:51] <prikotiyal> Priyanka Kotiyal
+[15:55:52] <dell> manish
+[15:55:52] <sonam> sonam
+[15:55:53] <Christi123> Christina Beemer
+[15:55:53] <rashmi> Rashmi
+[15:56:20] <anurag> anurag kumar
+[15:56:25] <kushal> ------------SESSION ENDS----------
+[15:56:30] <kushal> endclass
+[15:56:30] [## Class Ended at Mon Jul  8 15:56:30 2013 ##]

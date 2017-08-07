@@ -1,0 +1,451 @@
+[15:32:07] <spechard> ========== SESSION STARTS ============
+[15:32:17] <spechard> i recall, type ! when you want to talk
+[15:32:42] <spechard> if you didn't already, please take the presentation of this session: http://spechard.dgplug.org/LaTeXForBeginners/LaTeXForBeginners.pdf
+[15:32:51] <spechard> this is done with LaTeX :-)
+[15:33:06] <spechard> you'll be able to see the code here: http://gitorious.org/latex-for-beginners/
+[15:33:16] <spechard> but please don't go there now, you'll have time later
+[15:33:50] <spechard> ouh, I forgot: ROLL CALL!
+[15:34:04] <kishan> Kishan Goyal
+[15:34:15] <zer0c00l`> Arun SAG
+[15:34:18] <kopecks_> koyel banerjee
+[15:34:21] <-> zer0c00l` is now known as zer0c00l
+[15:34:27] <yevlempy> yevlempy: Harsh Verma
+[15:34:27] <ParthaChwodhury> Partha Chwodhury
+[15:35:08] <spechard> ok, that seems good
+[15:35:31] <spechard> Please go to slide 2
+[15:35:36] <spechard> ===========> 2
+[15:35:48] <spechard> this is the outline basically
+[15:36:03] <spechard> after a small intro, we're going to write our first document
+[15:36:28] <spechard> then I'll go through basic stuff on maths, content management and some additionnal stuff
+[15:36:34] <spechard> i'll close with some resources
+[15:36:55] <spechard> i hope the session I prepared is not too long, tell me if you think I'm going too long
+[15:37:03] <spechard> ==========> 3
+[15:37:13] <spechard> ok, so first a bit of terminology
+[15:37:32] <spechard> you may know LaTeX by name, but do you know TeX?
+[15:37:37] <chandana> Chandana Boral
+[15:37:37] <chandana> Chandana Boral
+[15:38:02] <spechard> TeX was the first step, written by Donald Knuth in the late '70s
+[15:38:06] <spechard> yes, that's old!
+[15:38:25] <spechard> basically, Donald Knuth=God
+[15:38:26] --> SkyRocknRoll (n=chatzill@117.193.163.35) has joined #dgplug
+[15:38:32] <spechard> for coputer scientists
+[15:38:39] <spechard> computer scientists
+[15:38:55] <spechard> TeX is a very low-level markup and programming language
+[15:39:09] <spechard> it's very powerful but very hard to handle
+[15:39:20] <spechard> basically, very few people use it as it is
+[15:39:40] <spechard> that is why LaTeX was created by Leslie Lamport in 1985
+[15:39:51] --> gnukid (n=user@117.199.131.239) has joined #dgplug
+[15:39:53] <spechard> it brings simplicity to the system, with macros
+[15:40:09] <spechard> it's quite easy to use and very extendable as we'll see
+[15:40:23] <spechard> just remember this, TeX != LaTeX
+[15:40:31] <spechard> ===========> 4
+[15:40:43] <spechard> why using LaTeX? you may ask
+[15:41:33] <spechard> well, its main purpose is to separate content from form
+[15:41:58] <spechard> this way, the author only thinks about content while the system applies the form
+[15:42:26] <spechard> style is then consistent over the whole document
+[15:42:45] <spechard> and stuff like maths are easy to be rendered
+[15:43:06] <-- SkyRocknRoll (n=chatzill@117.193.163.35) has quit (Nick collision from services.)
+[15:43:07] <spechard> if you ever try to write a lot of equations with MS Word, you know aht I mean
+[15:43:21] --> SkyRocknRoll (n=chatzill@117.193.173.98) has joined #dgplug
+[15:43:55] <spechard> that's why it is being said that LaTeX uses a "What you see is what you mean" approach
+[15:44:11] <spechard> you think about the logic, the system thinks about the way it is rendered
+[15:44:43] <spechard> and believe me: LaTeX is a way better typographer than me, you and any WYSIWYG system :-)
+[15:44:48] <spechard> ============> 5
+[15:45:02] <spechard> this is a simplified overview of how LaTeX works
+[15:45:27] <spechard> we write a .tex file, that we compile through the system
+[15:45:42] <spechard> it may use some additional data (actually it always does)
+[15:46:09] <spechard> some internal files are generated during the compilation to store temporary data
+[15:46:29] <spechard> and at the output, we get a log and the formatted output we want
+[15:47:00] <spechard> here, I won't talk about .dvi files
+[15:47:24] <spechard> just know that historically, LaTeX, dvi files were the results of the latex command
+[15:47:37] <spechard> now, we use a pdf wrapper called pdflatex
+[15:47:58] <spechard> it generates a pdf, which is usually what we want as an output
+[15:48:03] <spechard> ===========> 6
+[15:48:17] <spechard> ok, time to create our first document
+[15:48:20] <spechard> ===========> 7
+[15:48:42] <spechard> a LaTeX document is made of parts: the preamble and the body
+[15:48:59] <spechard> as you see here, a commented line starst with %
+[15:49:26] <spechard> the preamble begins with \ d o c u m e n t c l a s s { report }
+[15:49:29] <spechard> oups
+[15:49:40] <spechard> the preamble begins with \documentclass{report}
+[15:49:46] <-- Shrink (n=sgupta@redhat/shrink) has quit (Read error: 110 (Connection timed out))
+[15:49:55] <-- SkyRocknRoll (n=chatzill@117.193.173.98) has left #dgplug
+[15:50:03] <spechard> in fact, what is between brackets may vary
+[15:50:28] <spechard> the body begins with \begin{document} and ends with \end{document}
+[15:50:49] <spechard> a \begin{env}...\end{env} structure is called an environment
+[15:51:23] <spechard> we'll see a lot of this in the following, this is a way to structure information in LateX
+[15:51:33] <spechard> ===========> 8
+[15:52:01] <spechard> the \documentclass command takes different options and one parameter
+[15:52:14] <spechard> in LaTeX, options are usually given between [ ]
+[15:52:27] <spechard> and mandatory paramters between { }
+[15:52:41] <spechard> here we create a report class document
+[15:53:04] <spechard> there are different classes, depending on the type of document you're writing
+[15:53:18] <spechard> most common are report, article, book and letter
+[15:53:44] <spechard> there is a lot of options possible for \documentclass
+[15:54:31] <spechard> here I specify the font size (11pt), the paper format (a4format) and the fact that only one side of the paper is used
+[15:54:40] <spechard> ===========> 9
+[15:55:13] <spechard> you'll be able to find the whole list of options online or on a book
+[15:55:38] <spechard> packages are LaTeX components which extend it's possibilities
+[15:56:07] <spechard> this is the way to include a package \usepackage[utf8]{inputenc}
+[15:56:28] <spechard> the package name is inputenc, it specifies the encoding of the input text
+[15:56:39] <spechard> here we use utf8 encoding
+[15:56:59] <spechard> here, I give some common packages
+[15:57:07] <spechard> most of them will be used in the following
+[15:57:24] <spechard> everyone is still there?
+[15:57:48] <zer0c00l> spechard: yes
+[15:58:06] <yevlempy> spechard: yup.
+[15:58:14] <chandana> spechard: yes
+[15:58:25] <spechard> ok, now open your favorite text editor
+[15:58:37] <spechard> or, if you have it on your machine, kile
+[15:58:54] <spechard> which is a kde LaTeX-specific editor
+[15:59:20] <spechard> we will write a simple document called exemple.tex (you may change its name)
+[15:59:38] <spechard> ===========> 10
+[15:59:49] <spechard> here we find the preamble of our document
+[16:00:16] <spechard> of course, you change the author, title and date as you wish :-)
+[16:00:22] <spechard> this is just an exemple
+[16:00:38] --> xAbhishek (n=xAbhishe@unaffiliated/xabhishek) has joined #dgplug
+[16:00:59] <spechard> the important thing here is to get used to the specific syntax (all of these weird \)
+[16:01:18] <spechard> tell me when your preamble is done
+[16:01:52] --> susmit (n=susmit@59.93.210.123) has joined #dgplug
+[16:03:28] <-- chandana (n=7c7ca2a8@67.205.60.108) has quit ("CGI:IRC (Ping timeout)")
+[16:03:49] --> chandana (n=7c7ca2a8@apocalypse.dreamhost.com) has joined #dgplug
+[16:04:38] <spechard> is this done?
+[16:04:42] <zer0c00l> done;
+[16:05:17] <kishan> done
+[16:05:17] <spechard> ok, I hope you read carefully what you've written
+[16:05:31] <spechard> happily, commands are very straightforward
+[16:05:35] <spechard> ===========> 11
+[16:05:45] <spechard> now the real document begins
+[16:05:46] --> aveek (i=75fee537@gateway/web/freenode/x-hzzymkopfamqcfmm) has joined #dgplug
+[16:05:51] <-- xAbhishek (n=xAbhishe@unaffiliated/xabhishek) has left #dgplug
+[16:05:57] <spechard> a command to know is \maketitle
+[16:06:08] <spechard> it generates the title on the first page
+[16:06:34] <spechard> it takes the information you gave in the preamble
+[16:06:51] <spechard> please write down your own simple document
+[16:07:08] <spechard> you can take this one like it is, or modify its content
+[16:07:39] <spechard> the environment abstract creates a small portion of text just below the title
+[16:07:52] <spechard> as an abstract should be
+[16:08:35] <spechard> I forgot to precise that this document is an article, the command \maketitle has a different effect on a report
+[16:08:49] <spechard> as you see, we create two sections
+[16:08:57] <spechard> with the simple command \section{}
+[16:09:16] <spechard> we'll see that there is several sectionning commands
+[16:09:33] <spechard> the second section includes maths
+[16:09:50] <spechard> this may seem strange right now, but we'll explain it soon :-)
+[16:10:01] <spechard> ===========> 12
+[16:10:13] <-- ParthaChwodhury (n=partha@59.93.216.162) has quit (Read error: 110 (Connection timed out))
+[16:10:25] <spechard> when you finish to write down your document, you compile it with: pdflatex exemple.pdf
+[16:10:47] <spechard> please do it, and tell me if you see problems
+[16:11:08] <spechard> a successful compilation gives hand back at you
+[16:11:29] <spechard> otherwise, latex stops and prints an error
+[16:11:40] <spechard> does everyone get a pdf file ?
+[16:13:22] <zer0c00l> !
+[16:13:52] <zer0c00l> what is \usepackage{1modern}? 1modern is a font? what if its not available?
+[16:14:25] <spechard> zer0c00l: you can remove this line usually
+[16:14:47] <spechard> zer0c00l: this way, it will use an old version of Computer Modern font, the default LaTeX font
+[16:15:01] <kishan> yes, got a pdf file
+[16:15:03] <spechard> zer0c00l: you don't have it on your system?
+[16:15:08] <spechard> kishan: great!
+[16:15:22] <spechard> kishan: did you use lmodern?
+[16:15:30] <zer0c00l> spechard: yes
+[16:15:30] <kishan> spechard: yes
+[16:15:35] <spechard> ok
+[16:15:41] <spechard> zer0c00l: try without this line
+[16:16:21] --> binodc (n=binodc@220.225.125.243) has joined #dgplug
+[16:16:23] <zer0c00l> spechard: tired without it, and it worked fine
+[16:16:33] <spechard> this is an important LaTeX lesson here, fonts are easy with LaTeX
+[16:16:34] <spechard> ok
+[16:16:38] <spechard> zer0c00l: got a pdf?
+[16:16:46] <zer0c00l> spechard: yes got it;
+[16:17:10] <spechard> cool, let's proceed
+[16:17:33] <spechard> we'll see at the end how to debug errors and warnings
+[16:17:39] <spechard> ===========> 13
+[16:17:58] <spechard> as I said, you can control very precisely the way your content is organized
+[16:18:23] <spechard> the document structure is defined with the following commands
+[16:18:29] <-- chandana (n=7c7ca2a8@apocalypse.dreamhost.com) has quit ("CGI:IRC (Ping timeout)")
+[16:19:16] <spechard> the command \chapter{Ext4, a modern filesystem} will create a chapter with the title 'Ext4, a modern filesystem'
+[16:19:47] <spechard> ===========> 14
+[16:20:05] <spechard> here you have the different font size available by default
+[16:20:13] <spechard> 10 different ones
+[16:20:38] <spechard> as you can see, command names are very easy to remember
+[16:20:58] <spechard> in fact, it has to, otherwise it would be very difficult to code
+[16:21:19] <spechard> as I say on the slide, there is two ways to define a size
+[16:21:38] <spechard> either with an environment: \begin{tiny}...\end{tiny}
+[16:21:50] <spechard> or with the shorter \tiny{}
+[16:22:26] <spechard> but practically, you'll see you don't need to change font size very often
+[16:22:35] <spechard> as LaTeX takes care of that for you :-)
+[16:22:41] <spechard> ===========> 15
+[16:22:55] <spechard> here are font styles
+[16:23:04] <spechard> and the way to generate them
+[16:23:09] --> chandana (n=7c7ca2a8@apocalypse.dreamhost.com) has joined #dgplug
+[16:23:25] <spechard> can someone tell me the difference between italic and slanted ??
+[16:24:45] <spechard> noone ?
+[16:25:14] <-- yevlempy (i=75c62586@gateway/web/freenode/x-kbjdlprpcatpuuzp) has quit ("Page closed")
+[16:25:26] <zer0c00l> partial italic ?
+[16:25:51] <spechard> zer0c00l: not partial, fake :-)
+[16:26:09] <zer0c00l> :-)
+[16:26:40] <spechard> in fact, italic is a totally new font, created to look like the normal one, but slightly slanted on the right
+[16:26:52] <spechard> slanted is the actual normal font, REALLY slanted
+[16:27:00] <spechard> which turns to be quite ugly
+[16:27:19] <spechard> but sometimes, your font is not available in italic, so this is all you have
+[16:27:47] <-- aveek (i=75fee537@gateway/web/freenode/x-hzzymkopfamqcfmm) has quit (Ping timeout: 180 seconds)
+[16:27:51] <spechard> again, what is the difference between italic and emph ??
+[16:28:04] --> kushal (n=kdas@fedora/kushal) has joined #dgplug
+[16:28:12] <-- chandana (n=7c7ca2a8@apocalypse.dreamhost.com) has quit ("CGI:IRC (Ping timeout)")
+[16:28:31] <spechard> noone ?
+[16:29:06] <spechard> ok, this is an important one: italic is about style, while emph is about logic!
+[16:29:20] --> chandana (n=7c7ca2a8@67.205.60.108) has joined #dgplug
+[16:29:33] <spechard> try to see what \emph{this text is in \emph{italic}} do :-)
+[16:29:57] <spechard> then you'll really get what content/form separation means ;-)
+[16:30:11] <spechard> still with me?
+[16:31:11] <spechard> zer0c00l: kopecks_ kishan chandana: still here?
+[16:31:17] <zer0c00l> yes
+[16:31:26] <kishan> yes spechard
+[16:31:28] <kishan> :)
+[16:31:34] <zer0c00l> two time emph on a text makes it normal?
+[16:31:36] <spechard> ok :-)
+[16:31:44] <spechard> zer0c00l: yes!
+[16:31:50] <spechard> zer0c00l: do you see why?
+[16:32:12] <zer0c00l> spechard: no,
+[16:32:33] <spechard> because it's command that emphasizes text :-)
+[16:33:08] <spechard> when you are in the middle of an italic portion, how do you make a word or two more distinguishable?
+[16:33:17] <spechard> by making it normal
+[16:33:24] <spechard> you see what I mean?
+[16:33:29] <zer0c00l> yes
+[16:33:35] <spechard> ok good
+[16:33:42] <spechard> ===========> 16
+[16:33:58] <spechard> a simple one, just to give three positioning environments
+[16:34:04] <spechard> ===========> 17
+[16:34:10] <spechard> ok, let's do some maths!!
+[16:34:13] <spechard> ===========> 18
+[16:34:37] <spechard> this is the real power of LaTeX: beautiful and easy-to-type maths formulae
+[16:35:01] <spechard> in order to type these commands, you'll need to add the amsmath package
+[16:35:06] <-- chandana (n=7c7ca2a8@67.205.60.108) has quit ("CGI:IRC (Ping timeout)")
+[16:35:43] <spechard> you may also need some others, usually, when you know you'll type maths, just use: amsmath, amssymb and amsfonts
+[16:36:15] <spechard> there is two ways to display an equation: inline or separate
+[16:36:29] <spechard> inline mode is used with $...$
+[16:36:55] <spechard> on the slide, you see the LaTeX code on the left and what you get in the document on the right
+[16:37:29] --> chandana (n=7c7ca2a8@apocalypse.dreamhost.com) has joined #dgplug
+[16:37:55] <spechard> when you want an equation separate from the text, use simply \begin{equation}...\end{equation}
+[16:38:26] <spechard> both inserted images here are from a showcase that you can find with the sources of this document
+[16:38:34] <spechard> ===========> 19
+[16:38:55] <spechard> as you can see, there is *a lot* of different symbols
+[16:39:05] <spechard> this is just a small preview :-)
+[16:39:22] <spechard> and of course, each one is done with its own command...
+[16:39:35] <spechard> ===========> 20
+[16:39:50] <spechard> here I present basic maths typing
+[16:39:58] <spechard> powers are done with ^
+[16:40:02] <spechard> indices with _
+[16:40:35] <spechard> you can get rid of using {} after ^ and _ if there is only one character
+[16:41:08] <spechard> as you may see here, equation rendition is not the same as the previous slide
+[16:41:17] <spechard> the slide 18 actually, sorry
+[16:41:46] <spechard> this is because they are done directly in the presentation, therefore using the presentation font
+[16:41:56] <spechard> ===========> 21
+[16:42:22] <spechard> each mathematical notion has its own command: root, sum, integral
+[16:42:32] --> parthachowdhury (n=partha@59.93.219.44) has joined #dgplug
+[16:42:51] <-- binodc (n=binodc@220.225.125.243) has quit (Read error: 110 (Connection timed out))
+[16:42:56] <spechard> \left( and \right) commands are very useful to let brackets define their own size
+[16:43:01] <spechard> ===========> 22
+[16:43:15] <spechard> a more complicated one for the end: matrices
+[16:43:33] <-- parthachowdhury (n=partha@59.93.219.44) has quit (Client Quit)
+[16:43:38] <spechard> this is not the only way to do it actually, but all are usually good :-)
+[16:43:57] <spechard> you can see more examples online or in books
+[16:44:02] <spechard> ===========> 23
+[16:44:16] <spechard> a special one for computer scientists like us: listings
+[16:44:34] <spechard> it allows you to display code
+[16:44:51] <spechard> with highlighting, line number, etc.
+[16:45:10] <spechard> it knows a lot of languages so don't hesitate to use it :-)
+[16:45:23] <spechard> I actually use it in this document, as you can guess
+[16:45:29] <spechard> ===========> 24
+[16:45:46] <spechard> ok, now let's see some things about content
+[16:45:51] <spechard> ===========> 25
+[16:46:09] <spechard> there is three ways to make lists
+[16:46:31] <spechard> these are easy ways to present information
+[16:46:41] <spechard> and they are easy to type in LaTeX
+[16:47:04] <spechard> here you see the red bullets and number defined by this presentation
+[16:47:17] <spechard> on a classical document, it's of course less red :-)
+[16:47:38] <spechard> ===========> 26
+[16:47:45] <spechard> here's an important slide!
+[16:48:06] <spechard> referencing is another very powerful feature of LaTeX
+[16:48:14] <spechard> there is three commands
+[16:48:44] <-- mbuf (n=mbuf@115.119.41.110) has quit ("Leaving")
+[16:48:49] <spechard> with \label{chap:TheFirstPartOfMyLife}, you create a marker called chap:TheFirstPartOfMyLife
+[16:49:11] <spechard> now that it is created (it needs a compilation for that)
+[16:49:28] <spechard> you can refer to it with \ref{chap:TheFirstPartOfMyLife}
+[16:49:59] <spechard> it is replaced by the number assigned to the marker
+[16:50:33] <spechard> for example, if you do: \chapter{The First Part of my Life} \label{chap:TheFirstPartOfMyLife}
+[16:50:53] <spechard> and say, it is the second chapter of your book
+[16:51:01] <spechard> it will simply print 2
+[16:51:31] <spechard> and \pageref{chap:TheFirstPartOfMyLife} will print the number of the page where chapter 2 begins
+[16:51:51] <spechard> now you may have understood that already: this is a two-step process
+[16:52:06] <-- chandana (n=7c7ca2a8@apocalypse.dreamhost.com) has quit ("CGI:IRC (Ping timeout)")
+[16:52:16] <spechard> first LaTeX finds the markers and stores them
+[16:52:30] <spechard> on the second compilation, it uses them as they defined
+[16:53:08] <spechard> this is why a LaTeX output is often obtained with several compilation
+[16:53:48] <spechard> don't worry if you made errors in the markers, LaTeX tells you when it misses one :-)
+[16:54:03] <spechard> with a nice: LaTeX Warning: There were undeï¬ned references.
+[16:54:14] <spechard> easy right? ;-)
+[16:54:18] --> chandana (n=7c7ca2a8@apocalypse.dreamhost.com) has joined #dgplug
+[16:54:29] <spechard> ===========> 27
+[16:54:36] <spechard> now, let's see tables
+[16:54:47] <spechard> this is a complex topic in LaTeX
+[16:55:25] <spechard> to make a table, we use the tabular environment
+[16:56:13] <spechard> with one option, the vertical position: here, bottom, center or top
+[16:56:33] <spechard> oh.... I now can see an error in the presentation.... :-(
+[16:56:57] <spechard> please read \begin{tabular}[pos]{table spec}...\end{tabular}
+[16:57:20] <spechard> the table spec are a mandatory parameter of the tabular environment
+[16:57:55] <spechard> this is where you specify the number of columns, their alignment and if you want them surrounded by vertical lines
+[16:58:14] <spechard> see the table for all possible parameters
+[16:58:34] <spechard> finally, in the table, you use & to separate data from one column to anothe
+[16:58:40] <spechard> \\ to start a new row
+[16:59:00] <spechard> \hline to display to horizontal line along the whole table
+[16:59:33] <spechard> and \cline{3-5} to display a horizontal line from columns 3 to 5 (for example)
+[16:59:39] <spechard> ===========> 28
+[16:59:50] <spechard> it is surely easier to understand with examples
+[16:59:55] <spechard> so here they are
+[17:00:17] <spechard> try to carefully understand each line of code here
+[17:00:34] <spechard> especially for the second one
+[17:00:44] <spechard> told you it was not an easy topic ;-)
+[17:01:00] <spechard> are you ok with these examples?
+[17:01:39] <zer0c00l> yes :)
+[17:01:48] <spechard> cool
+[17:01:56] <spechard> ===========> 29
+[17:02:08] <spechard> floats are an important notion in LaTeX
+[17:02:17] <spechard> a float is an unbreakable box
+[17:02:29] <spechard> that can contains anything you want
+[17:02:43] <spechard> text, images, rules, formulae, etc.
+[17:03:12] <spechard> it is the way LateX deals with putting things on a page
+[17:03:43] <spechard> on a complex document, you have a lot of data (text, images, charts, etc.)
+[17:04:29] <spechard> putting them in floats allows LaTeX to create an optimal flow of data
+[17:05:16] --> lamda_vishal (n=pikh@122.162.68.181) has joined #dgplug
+[17:05:30] <spechard> of course, I'm sure you got this: sometimes floats are situated on a different place that where you put them in the code
+[17:06:29] <spechard> why? again, because LaTeX knows better than you how to avoid big blanks in documents
+[17:06:43] <spechard> and how to harmoniously spread text along the page
+[17:06:51] --> SkyKnight (n=Alagunam@122.174.152.85) has joined #dgplug
+[17:06:58] --> kishan_ (n=kishan@117.201.98.221) has joined #dgplug
+[17:07:03] <spechard> different kind of placement guide are still possible
+[17:07:34] <spechard> on a big document, you can put your floats on top of pages with [t]
+[17:07:41] <spechard> on the bottom with [b]
+[17:07:54] <spechard> or even on a specially created page with [p]
+[17:08:24] <spechard> if you say [h], LaTeX will do its best to put it right here, i.e. at the same place that in the code
+[17:08:31] <spechard> but nothing is sure
+[17:08:40] <spechard> ===========> 30
+[17:08:57] <-- chandana (n=7c7ca2a8@apocalypse.dreamhost.com) has quit ("CGI:IRC (Ping timeout)")
+[17:09:09] <spechard> here we see how we create floats with tables or figures iin it
+[17:09:43] <spechard> this is also the way to put a caption and a label to a table
+[17:09:46] <spechard> ===========> 31
+[17:09:51] <spechard> remember labels?
+[17:10:07] <spechard> floats are numbered, so they can be referred to
+[17:10:23] <spechard> gold rule: always put the label after caption!!
+[17:10:42] <spechard> this is important, otherwise your references would be erroneous
+[17:11:01] <spechard> again here, at least two compilations are needed to get the references right
+[17:11:04] --> chandana (n=7c7ca2a8@apocalypse.dreamhost.com) has joined #dgplug
+[17:11:07] <spechard> ===========> 32
+[17:11:17] <-- kishan_ (n=kishan@117.201.98.221) has quit (Remote closed the connection)
+[17:11:20] <spechard> I'm sure you sometimes want to insert graphics in your document :-)
+[17:11:22] <spechard> this is how
+[17:11:32] <spechard> use \includegraphics[]{} command
+[17:11:52] <spechard> as we use pdflatex, we can insert png, jpg and pdf files
+[17:12:17] <spechard> there is a lot of options possible here, please the graphicx package documentation
+[17:12:30] <spechard> (i'll talk about documentaiton at the end)
+[17:13:02] <spechard> and in order to better manage your graphics, make them floats!
+[17:13:19] <spechard> with \begin{figure}[]...\end{figure} environment
+[17:13:27] <spechard> ===========> 33
+[17:14:04] <spechard> I don't know what kind of paper format you use, but here in France, we use A4
+[17:14:18] <spechard> and the default size paper in LaTeX is the US letter
+[17:14:47] <spechard> to change this, we specify a4format in the documentclass
+[17:15:04] <spechard> in fact, everything is changeable
+[17:15:07] --> mbuf (n=mbuf@124.123.179.134) has joined #dgplug
+[17:15:20] <spechard> on the right scheme, you can see all the measures defined in LaTeX
+[17:15:29] <spechard> of course, you have control all of them
+[17:15:34] <spechard> +over
+[17:15:48] <spechard> the package geometry is very interesting
+[17:16:11] <spechard> it allows you to specify things like margins, paper orientation and so on
+[17:16:19] <spechard> ===========> 34
+[17:16:48] <spechard> if you want to specify headers and footers, you use the fancyhdr package
+[17:17:19] <spechard> you define the document page style with the \pagestyle{}
+[17:17:45] <spechard> as it is not the default style, you have to specify \pagestyle{fancy}
+[17:18:03] <spechard> if you want no headers and footers, you do \pagestyle{empty}
+[17:19:06] <spechard> with \fancyhead[]{} and \fancyfoot[]{} you define your headers and footers content
+[17:19:28] <spechard> RO and LE options let you say where it is placed on the page
+[17:19:33] <spechard> C is for center
+[17:20:13] <spechard> you can use some shortcuts like \thepage or \leftmark to get current content in the header
+[17:20:20] <spechard> ===========> 35
+[17:20:34] <spechard> some small things
+[17:20:48] <spechard> LaTeX can understand a lot of measurement units
+[17:21:16] <spechard> and as I said for layout, there is a lot of measures you can define, and each one, there is a macro
+[17:21:41] <-- kishan (n=kishan@117.201.96.103) has quit (Read error: 110 (Connection timed out))
+[17:21:45] <spechard> finally, three nice commands: \tableofcontents, \listoffigures and \listoftable
+[17:22:03] <spechard> their name is very clear  I think, no need to say more
+[17:22:09] <spechard> ===========> 36
+[17:22:28] <spechard> ok, you can already do a lots with what I covered already
+[17:22:35] <spechard> let's go a bit further now
+[17:22:40] <spechard> ===========> 37
+[17:23:00] <spechard> in order to clarify your code, you can split your document into multiple files
+[17:23:25] <spechard> \input{file} and \include{file} do what their name suggests
+[17:24:08] <spechard> the use of \include is interesting because with \includeonly{} you can control which one you let for the current compilation
+[17:24:28] --> Shrink (n=sgupta@redhat/shrink) has joined #dgplug
+[17:24:35] <spechard> the content is still compiled but it is not inserted in the output codument
+[17:24:38] <spechard> document
+[17:24:54] <spechard> of course, LaTeX allows you to create new commands
+[17:25:17] <spechard> with \newcommand{name}[num]{def}
+[17:25:37] <spechard> on the slide, you can see an example
+[17:25:44] <-- chandana (n=7c7ca2a8@apocalypse.dreamhost.com) has quit ("CGI:IRC (Ping timeout)")
+[17:25:47] <spechard> I create a \note command
+[17:25:55] <spechard> which takes one argument
+[17:26:15] <spechard> in the definition, replace the argument with #1, #2, etc.
+[17:26:36] <spechard> on the last line, I create another command \nonotes
+[17:27:14] <spechard> it allows you see the \renewcommand command, which do what it says, i.e. modifying the behaviour of an already existing command
+[17:27:20] <spechard> ===========> 38
+[17:27:33] <spechard> ah: debugging :-)
+[17:28:02] --> chandana (n=7c7ca2a8@apocalypse.dreamhost.com) has joined #dgplug
+[17:28:03] <spechard> first, don't panic, it's not that uncommun to mistype or myspell something in LaTeX
+[17:28:29] <spechard> plus, the system uses well defined errors and warnings to help you correct
+[17:28:50] <spechard> even better, an editor may help you in finding them!
+[17:28:54] <spechard> ===========> 39
+[17:29:18] <spechard> if you compile in the command line, you can say LaTeX what to do when it finds an error
+[17:29:57] <spechard> but usually, you use an editor which runs in non-stop mode and analyzes the log to sow you errors
+[17:30:03] <spechard> ===========> 40
+[17:30:20] <spechard> here is an example of what can be done :-)
+[17:30:37] <spechard> actually, it's a new typesetting system, a bit different than LaTeX
+[17:30:58] <spechard> it includes modern stuff like unicode and modern fonts like ODF
+[17:31:13] <spechard> OTF sorry
+[17:31:43] <spechard> its name is xelatex and it's all we're gonna say about it today :-)
+[17:31:48] <spechard> ===========> 41
+[17:32:13] <spechard> there is *A LOT* of packages available
+[17:32:23] <spechard> and of course, you can define yours
+[17:32:42] <spechard> I present here a small sample of some useful and famous ones
+[17:33:01] <spechard> you can find them on the CTAN website
+[17:33:05] <spechard> ===========> 42
+[17:33:15] <spechard> finally, a small word about editors
+[17:33:29] <spechard> as I said, you can use any text editor
+[17:33:49] <spechard> vim and emacs are ok, they even have a specific mode for LaTeX editing
+[17:34:09] <spechard> but personally, I prefer kile, which is a LaTeX environment for KDE
+[17:34:18] <spechard> very usefull and nice to use
+[17:34:22] <spechard> ===========> 43
+[17:34:52] <spechard> as a free software, there are a lot of websites talking about LaTeX
+[17:35:13] <spechard> but you can also find some good books
+[17:35:40] <spechard> I put The TeX book here, but as its name suggests, it's just about TeX
+[17:36:07] <spechard> but that's the reference of anyone wanting to know LaTeX and TeX better
+[17:36:28] <spechard> ok, the presentation is over now, any question?
+[17:36:35] <spechard> but first, ROLL CALL!!
+[17:37:19] <-- zer0c00l (n=user@117.207.64.103) has quit (Connection timed out)
+[17:39:15] <kushal> kushal
+[17:39:48] <spechard> :-)
+[17:39:52] <spechard> any question?
+[17:40:32] <kushal> chandana, gnukid susmit kopecks_ SkyKnight ?
+[17:40:42] <kushal> lamda_vishal, ?
+[17:40:43] -*- susmit is here too
+[17:41:04] <chandana> Chandana Boral
+[17:41:52] <kopecks_> spechard i couldn't attend the session through and through so i will do my homework first then ask questions.
+[17:42:09] <spechard> kopecks_: ok
+[17:42:21] <kopecks_> spechard,eof
+[17:42:34] --> zer0c00l (n=user@117.199.135.18) has joined #dgplug
+[17:42:44] <spechard> ok, so if noone has any question by now, let's close the session
+[17:42:48] <spechard> zer0c00l: ok?
+[17:43:23] <zer0c00l> spechard: i got disconnected
+[17:43:26] <zer0c00l> :(
+[17:43:43] <spechard> zer0c00l: no problem, nothing happened here :-)
+[17:43:48] <spechard> zer0c00l: got questions?
+[17:44:06] <zer0c00l> spechard: no
+[17:44:10] <spechard> ok, so:
+[17:44:16] <spechard> ================ SESSION CLOSED ===================

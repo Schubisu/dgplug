@@ -1,0 +1,381 @@
+Jun 30 18:56:10 <kushal>	<--  CLASS STARTED -->
+Jun 30 18:56:25 *	kushal has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | DOWNLOAD THESE  http://www.shakthimaan.com/downloads/glv/presentations/communication-guidelines.pdf & http://www.shakthimaan.com/downloads/glv/presentations/mailing-list-etiquette.pdf| after mbuf , FHS - Kushal , 10:30 pjp | <--  CLASS STARTED -->
+Jun 30 18:56:34 <mbuf>	Welcome!  Lesson #1 when we call for a meeting at 1900, people should be there at 1855 (atleast 5 minutes in advance)
+Jun 30 18:57:27 <mbuf>	--> #n means, we move to nth slide in the presentation
+Jun 30 18:57:41 <mbuf>	We shall begin with communication guidelines
+Jun 30 18:57:54 <mbuf>	--> #2
+Jun 30 18:58:22 <mbuf>	In any Free Software communication, it is important that every understands each other well
+Jun 30 18:58:44 <mbuf>	so, it is important to speak in a language that is understood by all; English is the accepted language for communication
+Jun 30 18:58:52 *	kushal has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | DOWNLOAD THESE  http://www.shakthimaan.com/downloads/glv/presentations/communication-guidelines.pdf & http://www.shakthimaan.com/downloads/glv/presentations/mailing-list-etiquette.pdf | after mbuf , FHS - Kushal , 10:30 pjp | <--  CLASS STARTED -->
+Jun 30 18:59:15 <mbuf>	It doesn't matter if your grammar is bad, but, atleast spell-check must be done when you are communicating to people
+Jun 30 18:59:59 <mbuf>	most of the time in India, people go for 'accent' in English; functional English is very important
+Jun 30 19:00:23 <mbuf>	for any language there are four things you should learn: reading, comprehension, written, and spoken
+Jun 30 19:00:50 <mbuf>	for a good programmer, reading and comprehension are crucial; then comes written and finally spoken
+Jun 30 19:01:33 <mbuf>	so, if your 'functional' English is poor, you need to work on it; this will in-turn affect your abililty to read, understand and interpret technical manuals
+Jun 30 19:01:43 <mbuf>	--> #3
+Jun 30 19:02:09 <mbuf>	Coming to programming languages, we cannot use all the languages to solve all kinds of problems
+Jun 30 19:02:29 <mbuf>	So, it is essential for newbies to use the right language to solve the right kind of problem
+Jun 30 19:02:53 <mbuf>	most 'graduates' say, I can program only in C or C++ or Java, but, not all
+Jun 30 19:03:29 <mbuf>	it is explicitly putting a barrier for your profile; so, openness to different programming languages and paradigms is important in the Free Software world
+Jun 30 19:04:06 <mbuf>	--> #4
+Jun 30 19:04:15 *	ria (n=ria@121.245.16.166) has joined #dgplug
+Jun 30 19:05:13 <mbuf>	Similarily, in communication, it is important to use the right communication tool, for the right job, at the right time, with the right people!
+Jun 30 19:05:22 *	coolpyro_rishi (n=chatzill@202.63.119.36) has joined #dgplug
+Jun 30 19:05:48 *	Yaniel (n=yaniel@dsl-trebrasgw1-ff44c100-223.dhcp.inet.fi) has joined #dgplug
+Jun 30 19:05:55 <mbuf>	Now, we are all talking on IRC chat, and I am typing, and you are all listening; I cannot do any other work, or move my focus out of this channel
+Jun 30 19:06:43 <mbuf>	there are project Maintainers who get lot of e-mails regarding code patches, and they need to focus on that
+Jun 30 19:06:57 <mbuf>	for such people, IRC could be a distraction during their integration work
+Jun 30 19:07:14 <mbuf>	so, even if you disturb them at that time, they will ask you to hold or come back later
+Jun 30 19:07:43 <mbuf>	In the Free Software world there is no hierarchy as such, but, people can be doing *important* work
+Jun 30 19:07:44 *	Debashree (n=Debashre@61.2.165.21) has joined #dgplug
+Jun 30 19:07:56 <mbuf>	so, it is important to use the necessary tool to communicate with people
+Jun 30 19:08:12 <mbuf>	--> #5
+Jun 30 19:08:33 <mbuf>	Here we have a small sub-set of tools that are frequently used with Free Software communication
+Jun 30 19:09:00 <mbuf>	When we announced for this Summer training, we announced them through mailing list
+Jun 30 19:09:09 *	Yaniel (n=yaniel@dsl-trebrasgw1-ff44c100-223.dhcp.inet.fi) has left #dgplug
+Jun 30 19:09:17 <mbuf>	because everyone is subscribed to it, and it is easier to just sent it across, and it reaches everyone
+Jun 30 19:09:33 *	roni (n=aritra@117.201.98.17) has joined #dgplug
+Jun 30 19:09:45 <mbuf>	mailing list, forums are also useful for discussions; and we can keep track of threads/posts
+Jun 30 19:10:01 <mbuf>	you are now familiar with IRC chat
+Jun 30 19:10:24 <mbuf>	wikis are very useful for team collaboration and sharing of information; we shall look into all of them now
+Jun 30 19:10:30 *	rtnpro (n=rtnpro@121.241.211.243) has joined #dgplug
+Jun 30 19:10:32 <mbuf>	--> #6
+Jun 30 19:10:54 <mbuf>	Many Free Software enthusiasts blog about their work, life, et. al.
+Jun 30 19:11:30 <mbuf>	It is a means of sharing your work to the outside world, something like a journal
+Jun 30 19:11:50 <mbuf>	RSS/Atom are the widely used protocols;
+Jun 30 19:11:55 <tuxmaniac>	help
+Jun 30 19:12:00 <tuxmaniac>	oops. sorry.
+Jun 30 19:12:08 <mbuf>	tuxmaniac, np
+Jun 30 19:12:09 *	h3x (n=chatzill@59.93.214.15) has joined #dgplug
+Jun 30 19:12:53 <mbuf>	Blogs provide support for these protocols; or you can create one from scratch (just like I do)
+Jun 30 19:13:31 <mbuf>	blogs can be aggregated to feeds using http://www.planetplanet.org/
+Jun 30 19:14:04 <mbuf>	see our very own dgplug for example: http://planet.dgplug.org/
+Jun 30 19:14:27 <mbuf>	it is a common URL for people to see what is happening; very useful for getting updates
+Jun 30 19:14:33 *	sumitc has quit (Nick collision from services.)
+Jun 30 19:14:36 *	h3x is now known as sumitc
+Jun 30 19:14:57 <mbuf>	feed clients just pull for any update, as and when things change in your blog
+Jun 30 19:15:05 *	SDey (n=chatzill@117.194.97.41) has joined #dgplug
+Jun 30 19:15:17 <mbuf>	so, you don't have to worry about fetching the blog updates;
+Jun 30 19:15:27 <mbuf>	--> #7
+Jun 30 19:15:37 *	mavu (n=satya@59.178.170.237) has joined #dgplug
+Jun 30 19:15:47 <mbuf>	Most communication in the Free Software world occurs through mailing lists
+Jun 30 19:15:56 <mbuf>	atleast what I have seen :)
+Jun 30 19:16:13 *	mavu is now known as mavu_
+Jun 30 19:16:37 <mbuf>	I will deal with writing e-mails in the next presentation
+Jun 30 19:16:57 <mbuf>	Again, you can use e-mail clients that can fetch the mail from the server, whenever it is available
+Jun 30 19:17:15 <mbuf>	as a user you don't have to manually fetch them;
+Jun 30 19:17:29 <mbuf>	They are useful for both discussion as well as announcements
+Jun 30 19:17:38 <mbuf>	--> #8
+Jun 30 19:18:06 *	amrita_ (n=amrita@117.201.97.5) has joined #dgplug
+Jun 30 19:18:13 <mbuf>	When someone asks you a question (in either communication channel), and you don't respond, it "really" means:
+Jun 30 19:18:21 <mbuf>	1. you are interested in their question, or 2. you don't care
+Jun 30 19:18:35 *	amrita has quit (Nick collision from services.)
+Jun 30 19:18:43 *	amrita_ is now known as amrita
+Jun 30 19:18:51 *	susenj (n=root@59.178.181.30) has joined #dgplug
+Jun 30 19:18:52 <mbuf>	so, it is very important for you to respond "promptly" to peoples' queries
+Jun 30 19:18:59 <mobilesuit>	!
+Jun 30 19:19:14 <mbuf>	mobilesuit, hold on
+Jun 30 19:19:20 <tuxmaniac>	mobilesuit: it is you are *not* interested.
+Jun 30 19:19:20 <mobilesuit>	ok
+Jun 30 19:19:37 <mobilesuit>	ok..ok..i got it :)
+Jun 30 19:19:53 <mbuf>	this is very important in the Free Software world because people have lot of work
+Jun 30 19:20:07 <mbuf>	some of them are doing it for the love of the philosophy behind it
+Jun 30 19:20:37 *	nandy_lost (n=chatzill@59.178.181.30) has joined #dgplug
+Jun 30 19:20:47 <mbuf>	Even if you really forgot to reply, it is courteous to say, "sorry";
+Jun 30 19:21:01 <mbuf>	there is nothing wrong in saying "Sorry, I shall not repeat this again";
+Jun 30 19:21:18 <mbuf>	say a lot of "Thanks" in this community; we owe a lot to this community
+Jun 30 19:21:30 <mbuf>	--> #9
+Jun 30 19:21:42 *	arpita (n=arpita@117.201.97.122) has joined #dgplug
+Jun 30 19:21:54 <mbuf>	whether you are working with a team member or Mentor or friends, it is important to raise any problem/issue that you might have
+Jun 30 19:21:59 <mbuf>	provided you have done your homework
+Jun 30 19:22:17 <mbuf>	you should _never_ wait for the release date to put forth your problem
+Jun 30 19:22:52 <mbuf>	most of the time, your work or others' work will be dependent, so, you should never take any risk of not properly communicating to your fellow developers
+Jun 30 19:23:07 <mbuf>	--> #10
+Jun 30 19:23:30 <mbuf>	people like forums a lot because it has a nice web interface!
+Jun 30 19:23:55 <mbuf>	it is intuitive; but, with today's mobile data rates, forums are probably not good for all users
+Jun 30 19:24:12 <mbuf>	again, you have to subscribe for each and every forum, and open different URLs to use them
+Jun 30 19:24:31 <mbuf>	if you are on one or two forums, it is fine; but, it will be difficult if you are on many :)
+Jun 30 19:24:41 <mbuf>	--> #11
+Jun 30 19:25:04 <mbuf>	So, mailing lists have been around for years, and you can use a single client to read e-mails from different mail servers
+Jun 30 19:25:22 <mbuf>	I can participate in more discussions when I am subscribed to mailing lists than forums
+Jun 30 19:25:44 <mbuf>	Of course, you can use your favorite e-mail client to fetch e-mails
+Jun 30 19:26:03 <mbuf>	And these are quite reasonable to use on mobile networks, as on date
+Jun 30 19:26:11 <mbuf>	--> #12
+Jun 30 19:26:22 <mbuf>	I don't need to explain anything on IRC
+Jun 30 19:26:37 <mbuf>	All tech folks should learn to use IRC
+Jun 30 19:26:48 <mbuf>	not just for discussions, but, it is like Live Tech Support!
+Jun 30 19:27:10 <mbuf>	the more you start using IRC, the more you learn
+Jun 30 19:27:31 <mbuf>	sometimes you don't even need to participate in the discussion; just watching the technical discussions are so useful!
+Jun 30 19:27:49 <mbuf>	of course, you will make a lot of friends; make great contacts; and is the best means of social networking
+Jun 30 19:28:19 <mbuf>	Someday this training program could transform itself into a lecture series for an Open University!
+Jun 30 19:28:20 *	chacha_chaudhry (n=dev@gnu-india/supporter/rakeshpandit) has joined #dgplug
+Jun 30 19:28:30 <mbuf>	--> #13
+Jun 30 19:28:46 <mbuf>	you already have a screenshot of IRC on your system - live; so we shall move on
+Jun 30 19:28:55 <mbuf>	--> #14
+Jun 30 19:29:09 *	makghosh (n=Joy@117.201.97.172) has joined #dgplug
+Jun 30 19:29:11 <mbuf>	IM's are similar to your IRC chat, but, you have to add your buddies
+Jun 30 19:29:35 <mbuf>	again, it is full-duplex, which means, you have to respond to queries thick-and-fast
+Jun 30 19:29:39 *	Debashree has quit (Read error: 104 (Connection reset by peer))
+Jun 30 19:29:53 <mbuf>	else, you will keep your friend waiting, and it might not be a good thing to do
+Jun 30 19:30:05 <mbuf>	Of course, you can change your status to "Away" or "Busy"
+Jun 30 19:30:14 <mbuf>	--> #15
+Jun 30 19:30:29 <mbuf>	The most ugliest of all is your mobile phone or voice chat
+Jun 30 19:30:45 <mavu_>	ugliest?
+Jun 30 19:30:47 <mbuf>	In theory you cannot do anything else, because, it grabs the complete users' attention
+Jun 30 19:30:49 <mavu_>	um sorry
+Jun 30 19:30:54 <mbuf>	mavu_, np
+Jun 30 19:32:13 <mbuf>	mavu_, it is very difficult to multi-task; but, people still do, to varying degrees of comfort
+Jun 30 19:32:13 *	Debashree (n=Debashre@61.2.164.247) has joined #dgplug
+Jun 30 19:32:13 <mbuf>	so, voice chat should only be used when it is really important/critical
+Jun 30 19:32:13 <mavu_>	thanks
+Jun 30 19:32:13 <mbuf>	--> #16
+Jun 30 19:32:14 *	Soumya (n=Soumya@59.164.188.53) has joined #dgplug
+Jun 30 19:32:29 <mbuf>	wiki's are hard for newbies to get used to initially because each one has its own syntax
+Jun 30 19:32:46 <mbuf>	but, when you have developers spread across different time zones, or even working at different time zones,
+Jun 30 19:32:53 <mbuf>	wiki's are great tools for documentation
+Jun 30 19:33:15 <mbuf>	it is hard to keep track of e-mails; because the discussion swings either way
+Jun 30 19:33:39 <mbuf>	but wiki's allow a structured way for documentation and for quick reference
+Jun 30 19:33:54 <mbuf>	--> #17
+Jun 30 19:34:15 <mbuf>	So friends, it is essential that you learn to use all the tools, and use the right tool, for the right job, at the right time, with the right people!
+Jun 30 19:35:50 <mbuf>	Now, I am open for questions on this session; after that we shall move to "Mailing list guidelines"
+Jun 30 19:35:50 *	amrita_ (n=amrita@117.201.96.253) has joined #dgplug
+Jun 30 19:35:50 <mavu_>	!
+Jun 30 19:35:50 <mbuf>	mavu_, shoot your question!
+Jun 30 19:35:50 *	amrita has quit (Nick collision from services.)
+Jun 30 19:35:50 *	amrita_ is now known as amrita
+Jun 30 19:35:51 <mavu_>	i am working on a project in which my mentor asks me to blog
+Jun 30 19:35:55 <mavu_>	regularly
+Jun 30 19:36:15 <mavu_>	now, i am *very* new to blogging and sort of find it difficult
+Jun 30 19:36:29 <mbuf>	mavu_, there are reasons why you should blog regularly
+Jun 30 19:36:47 <mbuf>	mavu_, 1. your busy Mentor can just look at your update and see what work you did
+Jun 30 19:37:01 <mbuf>	mavu_, 2. it is relatively easy to track your progress with your regular blog updates
+Jun 30 19:37:38 <rtnpro>	!
+Jun 30 19:37:39 <mavu_>	1. as i can't get that formal techie spirit into what i write..so some people do keep telling in its amateurish ..
+Jun 30 19:37:40 <mbuf>	mavu_, 3. it keeps a check on you, that you have to put something on the blog, which means you have to complete some tasks in hand
+Jun 30 19:37:50 <mavu_>	2.
+Jun 30 19:38:00 <mavu_>	as you said it is critical to reply immediately
+Jun 30 19:38:14 <mbuf>	mavu_, somethings take time to learn; but, either you try now, or you never will
+Jun 30 19:38:38 <mbuf>	mavu_, you are going through a hard learning curve; so you are bound to fall; but, we all went through the same path to be here :)
+Jun 30 19:38:53 <mbuf>	mavu_, i hope that answers your question
+Jun 30 19:39:00 <mbuf>	rtnpro, shoot!
+Jun 30 19:39:01 <mavu_>	yes..
+Jun 30 19:39:06 <mavu_>	thank you
+Jun 30 19:39:11 <mavu_>	<EOF>
+Jun 30 19:39:18 <rtnpro>	what are these wiki and the mailing list
+Jun 30 19:39:30 <rtnpro>	?
+Jun 30 19:39:48 <rtnpro>	<EOF>
+Jun 30 19:39:57 <mbuf>	rtnpro, i think you joined late?
+Jun 30 19:40:03 <rtnpro>	yes
+Jun 30 19:40:35 <mbuf>	rtnpro, i shall let you read the logs later; in short, wikis are meant for distributed documentation; mailing lists are for e-mail discussions
+Jun 30 19:40:35 <rtnpro>	I know there's a mailing list in DGPLUG
+Jun 30 19:41:02 <rtnpro>	But how to use the mailing list optimally
+Jun 30 19:41:07 <rtnpro>	?
+Jun 30 19:41:20 <mbuf>	rtnpro, define 'optimally'
+Jun 30 19:41:41 <rtnpro>	means in a better and efficient way
+Jun 30 19:42:03 <mbuf>	rtnpro, which leads us to our second presentation of the day
+Jun 30 19:42:17 <mbuf>	does anyone else have any other questions before I go to the second presentation?
+Jun 30 19:42:29 <rtnpro>	ok
+Jun 30 19:42:31 <rtnpro>	thanks
+Jun 30 19:43:00 <mbuf>	Ok, we shall move to the second presentation
+Jun 30 19:43:07 <mbuf>	Mailing list guidelines
+Jun 30 19:43:11 <mbuf>	--> #2
+Jun 30 19:43:30 <mbuf>	Before you send an e-mail, make sure you have something written in the 'subject' line
+Jun 30 19:43:45 <mbuf>	most spam filters treat empty subject lines as spam!
+Jun 30 19:44:15 <mbuf>	If you are subscribed to a GNU/Linux mailing list, and you want to post something not related to it, use the tag [OT] in the subject line
+Jun 30 19:44:20 <mbuf>	OT == Off-topic;
+Jun 30 19:44:51 <mbuf>	When you reply to an e-mail which already has a meaningful subject line, don't change it!
+Jun 30 19:44:59 <mbuf>	--> #3
+Jun 30 19:45:27 <mbuf>	The most common mistake that "graduates" and "newbies" who come from the SMS world of communication is to write e-mails like SMS
+Jun 30 19:45:45 <mbuf>	SMS is the worst form of communication - really; it is hard to comprehend
+Jun 30 19:46:04 <mbuf>	As I told in the first session, always write in full; no short-hand
+Jun 30 19:46:21 <mbuf>	it is professionalism to write in full and do a spell-check before you send the message
+Jun 30 19:46:41 <mbuf>	For most of us English is not our native language, so it is acceptable that our grammar may not be correct, or
+Jun 30 19:46:53 <mbuf>	our accent may not sound good; nobody cares about it!
+Jun 30 19:47:06 <mbuf>	make sure that you atleast type in full, so it is legible to others
+Jun 30 19:47:13 <mbuf>	--> #4
+Jun 30 19:47:32 *	arpita_ (n=arpita@117.201.97.105) has joined #dgplug
+Jun 30 19:47:38 <mbuf>	In English, ellipsis means only three dots (...)
+Jun 30 19:47:47 <mbuf>	people have this bad habit of appending so many dots
+Jun 30 19:47:56 *	TanmayaT (n=sktmeenu@59.95.224.151) has joined #dgplug
+Jun 30 19:48:03 <mbuf>	Even in presentations, "Continued..." is only three dots!
+Jun 30 19:48:28 <mbuf>	Don't put too many dots at the end of the sentence. Full-stop ends a sentence.
+Jun 30 19:48:33 <mbuf>	Start a new sentence with a capital letter
+Jun 30 19:48:41 <mbuf>	Put a space after a comma, semi-colon.
+Jun 30 19:48:57 <mbuf>	Unfortunately most people don't know these!
+Jun 30 19:49:00 <mbuf>	--> #5
+Jun 30 19:49:21 <mbuf>	In chat communication, writing in capital letters really means you are shouting!
+Jun 30 19:49:34 <mbuf>	"I LOVE YOU" is not the same as "I Love You"
+Jun 30 19:50:19 <mbuf>	so, before you click send, make sure you have not typed your text in all CAPS
+Jun 30 19:50:33 <mbuf>	the problem with newbies is that they don't know typing; so they don't see the screen while typing
+Jun 30 19:50:52 <mbuf>	they have to search the keys on the keyboard and type; but, they don't look up and down, and repeat to see what they have typed!
+Jun 30 19:50:58 <mbuf>	funny, but, true!
+Jun 30 19:51:03 <mbuf>	--> #6
+Jun 30 19:51:31 <mbuf>	When you reply to an e-mail, most e-mail clients put the cursor on the top, so you can just reply for the e-mail
+Jun 30 19:51:44 <mbuf>	a very bad practice propagated from Outlook
+Jun 30 19:52:20 <mbuf>	But, the Free Software mailing lists are archived; so discussions can be looked at any time on the Internet
+Jun 30 19:52:37 *	techno_freak (n=parthan@unaffiliated/teknofreak) has joined #dgplug
+Jun 30 19:52:50 <mbuf>	the post that you see has an answer on top of the question
+Jun 30 19:53:00 <mbuf>	in your exams, you write the answers below the question, not on top of it!
+Jun 30 19:53:09 <mbuf>	--> #7
+Jun 30 19:53:14 <mbuf>	So, you should follow bottom posting
+Jun 30 19:53:32 <mbuf>	This make sense, because, it is a logical flow of thought!
+Jun 30 19:53:53 <mbuf>	--> #8
+Jun 30 19:54:17 <mbuf>	When you do bottom posting, you should only keep whatever text that is relevant for your reply post
+Jun 30 19:54:30 <mbuf>	Remove all the unnecessary text to which you are not posting;
+Jun 30 19:54:50 <mbuf>	Discussions on mailing lists can be huge; i mean HUGE!
+Jun 30 19:55:08 <mbuf>	so, over-quoting of text will mess up the logical flow of thought; don't over-quote
+Jun 30 19:55:17 <mbuf>	--> #9
+Jun 30 19:55:36 <mbuf>	If your e-mail client is configured to use HTML e-mail, change it to use ASCII text
+Jun 30 19:55:48 <mbuf>	Not everyone is on a broadband connection!
+Jun 30 19:56:11 <mbuf>	There are still people on dial-up; Also, not all clients support HTML e-mail;
+Jun 30 19:56:37 <mbuf>	So, if you send fancy colors, pictures with HTML e-mail, it will look like the slide you see on #9
+Jun 30 19:56:44 <mbuf>	avoid HTML e-mail, always
+Jun 30 19:56:50 <mbuf>	--> #10
+Jun 30 19:57:08 <mbuf>	For the reason that not everyone is on dial-up, you shouldn't send attachments to mailing lists
+Jun 30 19:57:32 <mbuf>	sending fun forwards is also bad in the "Industry"; refrain from such practices
+Jun 30 19:57:59 <mbuf>	why does a guy in dial-up have to wait for the full attachment to download, just to read your single line that it is a "Forward"
+Jun 30 19:58:17 *	arpita has quit (Read error: 110 (Connection timed out))
+Jun 30 19:58:29 <mbuf>	as on date mobile networks don't have fast data rates, so people on mobile may also hate when you send huge attachments
+Jun 30 19:58:45 <mbuf>	just upload the document, and send a URL to the mailing list
+Jun 30 19:59:03 <mbuf>	that is the reason why I have never attached the presentation slides to any e-mail to dgplug mailing list
+Jun 30 19:59:12 <mbuf>	the URL is provided in this topic
+Jun 30 19:59:19 <mbuf>	--> #11
+Jun 30 19:59:41 <mbuf>	another common newbie mistake is to gift your password to social networking sites
+Jun 30 20:00:02 <mbuf>	who are mean enough to get your friends' contacts and your mailing list e-mail addresses and sent them all invitations!
+Jun 30 20:00:52 <mbuf>	what they are doing is bad; but, you don't be fooled by it; passwords are meant to be secret
+Jun 30 20:01:06 <mbuf>	--> #12
+Jun 30 20:01:27 <mbuf>	When you are on company e-mail addresses, the IT departments will append a disclaimer to all e-mails sent from the company
+Jun 30 20:01:36 <mbuf>	the terms are against the philosophy of Free Software
+Jun 30 20:01:50 <mbuf>	if your company is doing it, refrain from using that account for Free Software mailing lists
+Jun 30 20:02:10 <mbuf>	--> #13
+Jun 30 20:02:42 <mbuf>	People on dial-up sometimes subscribe to "Digest mode" where they receive a summary e-mail on the week's activities - a collection of e-mails for the week in a single e-mail
+Jun 30 20:03:07 <mbuf>	so, when they reply, they make lot of mistakes, that confused the other mailing list members, who get e-mail as and when it arrives
+Jun 30 20:03:25 <mbuf>	Clearly in this slide, the subject line is improper for those who receive e-mail on a daily basis
+Jun 30 20:03:34 <mbuf>	we cannot make anything of it
+Jun 30 20:03:43 <mbuf>	--> #14
+Jun 30 20:03:58 <mbuf>	on top of that they top-post; which leads us to a big, long post!
+Jun 30 20:04:20 <mbuf>	look at this one, for example, http://www.ae.iitm.ac.in/pipermail/ilugc/2008-April/040535.html
+Jun 30 20:04:39 *	sumitc has quit ("ChatZilla 0.9.82.1 [Firefox 3.0/2008060309]")
+Jun 30 20:04:44 <mbuf>	if I am on a dial-up, just to read one line, the e-mail client will download the whole e-mail!
+Jun 30 20:05:00 *	h3x (n=chatzill@59.93.214.15) has joined #dgplug
+Jun 30 20:05:03 *	h3x is now known as sumitc
+Jun 30 20:05:05 <mbuf>	Avoid using digest mode
+Jun 30 20:05:26 <mbuf>	The following guy has properly bottom posted, but forgot to change the subject line! http://www.ae.iitm.ac.in/pipermail/ilugc/2008-April/040551.html
+Jun 30 20:06:22 <mbuf>	--> #15-19 ... and the saga continues
+Jun 30 20:06:37 <mbuf>	--> #20
+Jun 30 20:06:55 <mbuf>	You can get web interface for mailing list posts; like gmane for example
+Jun 30 20:07:15 <mbuf>	You really need to do your homework (not school/college homework) before you ask questions
+Jun 30 20:07:41 *	makghosh is now known as makghosh|afk
+Jun 30 20:08:01 <mbuf>	by 'homework' we mean 1. search in search engines for bugs/error
+Jun 30 20:08:07 <mbuf>	2. ask in mailing list for help
+Jun 30 20:08:17 <mbuf>	3. talk to people on IRC regarding your problem
+Jun 30 20:08:28 <mbuf>	you can use pastebin.ca or rafb.net for posting your logs/error/outputs
+Jun 30 20:08:35 <mbuf>	4. try asking on forums
+Jun 30 20:08:53 <mbuf>	In essence, you have to use the various communication tools to solve your problem first
+Jun 30 20:09:31 <mbuf>	the ability to solve the problem by yourself is essential
+Jun 30 20:09:46 <mbuf>	most people have already been where you are probably stuck, and they might have a solution out there
+Jun 30 20:09:51 *	Soumya has quit (Remote closed the connection)
+Jun 30 20:09:56 <mbuf>	it is you who has to go and get it;
+Jun 30 20:10:07 <mbuf>	hence the need for proper communication and mailing list guidelines
+Jun 30 20:10:32 <mbuf>	In life, you will face different types of people; those who help, those who may give some help, those who may not help at all
+Jun 30 20:10:42 <mbuf>	but, you have to take everyone out of the equation;
+Jun 30 20:11:00 <mbuf>	it is your world, your system, your tools; and you see how you can use them for your productivity and for others
+Jun 30 20:11:35 <mbuf>	when you reach that stage, the enlightenment, the knowledge that you get is priceless!
+Jun 30 20:11:46 <mbuf>	--> #21
+Jun 30 20:11:59 <mbuf>	Some useful references for you to go through when you have the time
+Jun 30 20:12:16 <mbuf>	With this the second presentation is complete; I am open to questions
+Jun 30 20:13:53 *	Soumya (n=Soumya@59.164.188.53) has joined #dgplug
+Jun 30 20:13:53 <techno_freak>	i have a small suggestion to make - it's better to use a separate email address for mailing lists, so you dont end up with sending "joining me at foobar network" even by mistake. it also helps you to keep your personal mails away from list mails.
+Jun 30 20:13:53 <Kishan>	!
+Jun 30 20:13:59 <mbuf>	techno_freak, true
+Jun 30 20:14:01 <mbuf>	Kishan, shoot
+Jun 30 20:14:15 <Kishan>	what is "fun forwarding"?
+Jun 30 20:14:44 <mbuf>	Kishan, people have these picture forwards, or greetings forwards; they usually circulate amongst peers
+Jun 30 20:15:11 <mbuf>	Kishan, funny tricks, games, scenic pictures et. al.
+Jun 30 20:15:13 <susenj>	!
+Jun 30 20:15:15 <Kishan>	ok got it..thanks.
+Jun 30 20:15:23 <mbuf>	susenj, shoot
+Jun 30 20:15:58 <pushkal>	!
+Jun 30 20:16:05 <susenj>	HTML e-mails and ASCII texts!You told to use ASCII texts ,how it could be?
+Jun 30 20:16:09 <mbuf>	pushkal, hold on
+Jun 30 20:16:27 <mbuf>	susenj, Yahoo!, for example, in your Mail Settings, you can change it to ASCII text
+Jun 30 20:16:37 <rtnpro>	!
+Jun 30 20:16:52 <mbuf>	susenj, don't use WYSIWYG (What-You-See-Is-What-You-Get) editors -- they are mostly for HTML e-mail
+Jun 30 20:17:00 <mbuf>	pushkal, shoot!
+Jun 30 20:17:02 <pushkal>	Whats is the right way to sign mails.I mean the signatures used in the mails,what they should have and what not ?
+Jun 30 20:17:08 <rtnpro>	ok
+Jun 30 20:17:26 <techno_freak>	susenj, by ASCII he means plain text email
+Jun 30 20:17:37 <mbuf>	pushkal, People have different signatures; it is up to them; some have 4-5 lines
+Jun 30 20:17:56 <mbuf>	pushkal, some do GPG-signed e-mail that comes with header/footer -- essential when sending code patches
+Jun 30 20:18:08 <mbuf>	pushkal, some keep just two lines; name and blog URL
+Jun 30 20:18:16 <nandy_lost>	!
+Jun 30 20:18:28 <pushkal>	ok... got it ! thanks !
+Jun 30 20:18:30 <mbuf>	pushkal, so it depends on the person, what e-mail you are sending
+Jun 30 20:18:35 <mbuf>	rtnpro, shoot
+Jun 30 20:18:56 <rtnpro>	I had the same doubt as susenj
+Jun 30 20:19:01 <rtnpro>	<eof>
+Jun 30 20:19:08 <mbuf>	rtnpro, ok
+Jun 30 20:19:08 <rtnpro>	thanks
+Jun 30 20:19:11 <mbuf>	nandy_lost, shoot
+Jun 30 20:19:13 <nandy_lost>	how can we make a link for sending the pic in e mail which is saved in my hard disk?
+Jun 30 20:19:54 <mbuf>	nandy_lost, upload to some flickr or any other photo gallery, and send e-mail link
+Jun 30 20:20:22 <nandy_lost>	mbuf, Thanks!
+Jun 30 20:20:26 <mbuf>	nandy_lost, there are freely available photo galleries where you can create accounts; flickr, picasa, et. al.
+Jun 30 20:20:45 <mbuf>	nandy_lost, link that to your blogs :)
+Jun 30 20:21:18 <nandy_lost>	But these pics may be accessed by some one irrelevant?
+Jun 30 20:21:43 <kushal>	nandy_lost, you can set that who can view your photo 
+Jun 30 20:21:44 <nandy_lost>	ok!
+Jun 30 20:21:52 <mbuf>	nandy_lost, then upload them and lock them with a password; give it only those whom you want to
+Jun 30 20:22:02 <mbuf>	*to only
+Jun 30 20:22:35 *	khushi (n=khushbu@59.180.156.164) has joined #dgplug
+Jun 30 20:22:53 <susenj>	!
+Jun 30 20:23:04 <mbuf>	susenj, shoot
+Jun 30 20:23:06 <susenj>	"Gifting someone's password to social networking sites",what does it mean?
+Jun 30 20:23:32 <mbuf>	susenj, like giving your mobile phone SIM number to your friends :)
+Jun 30 20:24:04 <mbuf>	susenj, these sites usually ask for your e-mail password; so they can look up the mailing lists you are subscribed to, your friends' e-mail addresses
+Jun 30 20:24:25 <mbuf>	susenj, and then they will send a "join our networking site" e-mail to all; very wrong, but, they do it for 'marketing'
+Jun 30 20:24:34 <susenj>	yes,i have undergone through such sites!
+Jun 30 20:24:41 *	Soumya_ (n=Soumya@59.164.188.53) has joined #dgplug
+Jun 30 20:24:57 <susenj>	oh ,i see...
+Jun 30 20:25:04 <susenj>	thanks
+Jun 30 20:25:07 <susenj>	<eof>
+Jun 30 20:25:16 <mbuf>	BTW, you are welcome to modify, distribute these two presentations; you can take the sources from http://shakthimaan.com/downloads.html
+Jun 30 20:25:30 *	Soumya has quit (Nick collision from services.)
+Jun 30 20:25:35 *	Soumya_ is now known as Soumya
+Jun 30 20:26:01 <mbuf>	The .odp files are available
+Jun 30 20:26:22 <techno_freak>	mbuf, tell them about it's license as well :)
+Jun 30 20:26:58 <mbuf>	techno_freak, thanks
+Jun 30 20:27:29 <mbuf>	It is GNU Free Documentation License, so you can freely copy, modify, re-distribute -- as long as you retain credit to my work
+Jun 30 20:28:26 *	SDey_ (n=chatzill@117.194.96.215) has joined #dgplug
+Jun 30 20:29:36 <mbuf>	but, don't ask how to update the original copy :)
+Jun 30 20:30:00 <kushal>	:)
+Jun 30 20:30:24 *	deepakBCREC (n=chatzill@125.20.11.34) has joined #dgplug
+Jun 30 20:30:42 <mbuf>	any other questions?
+Jun 30 20:30:47 *	a__ (n=a@117.201.96.89) has joined #dgplug
+Jun 30 20:30:49 *	Soumya_ (n=Soumya@59.164.188.53) has joined #dgplug
+Jun 30 20:31:23 <kushal>	mbuf, can I call for a close ?
+Jun 30 20:31:43 <kushal>	before that a roll call please 
+Jun 30 20:31:58 *	Soumya has quit (Nick collision from services.)
+Jun 30 20:31:58 *	Soumya_ is now known as Soumya
+Jun 30 20:32:23 <pushkal>	thanks mbuf!  - Pushkal Srivastava
+Jun 30 20:32:36 <ria>	Ria Das
+Jun 30 20:32:49 <roni>	Aritra Bose>>>>> present
+Jun 30 20:32:50 <Soumya>	Soumya Kanti Chakraborty
+Jun 30 20:32:51 *	tuxmaniac is Aanjhan - http://www.tuxmaniac.com (or) http://blog.tuxmaniac.com
+Jun 30 20:32:52 <amrita>	amrita mukherjee
+Jun 30 20:32:53 <rtnpro>	Ratnadeep Debnath
+Jun 30 20:32:56 <Kishan>	Kishan Goyal
+Jun 30 20:32:59 <TanmayaT>	Tanmaya Tewari
+Jun 30 20:33:00 <mavu_>	Satya Komaragiri
+Jun 30 20:33:02 <susenj>	Neeraj kumar
+Jun 30 20:33:26 <kushal>	anyone else ?
+Jun 30 20:33:42 <nandy_lost>	Narendra Kumar
+Jun 30 20:33:42 *	techno_freak is Parthan "technofreak" http://blog.technofreak.in
+Jun 30 20:33:48 *	mbuf is Shakthi Kannan, a.k.a "mbuf", "shakthimaan", and at http://shakthimaan.com
+Jun 30 20:33:49 <Debashree>	debashree banerjee
+Jun 30 20:34:12 <kushal>	not for trainers , students only :)
+Jun 30 20:34:30 <mbuf>	kushal, forgot to introduce myself :)
+Jun 30 20:34:43 <techno_freak>	kushal, that was for letting them know we aren't students ;)
+Jun 30 20:34:53 <kushal>	techno_freak, :)
+Jun 30 20:35:28 <tuxmaniac>	techno_freak: no no. I am student..
+Jun 30 20:35:57 <kushal>	<--CLASS STOPPED -->

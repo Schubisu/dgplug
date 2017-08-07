@@ -1,0 +1,408 @@
+[19:00:21] [## Class Started at Fri Sep  2 19:00:21 2016 ##]
+[19:00:21] <kushal> startclass
+[19:00:28] <anushil> Anushil Kumar
+[19:00:30] <gkadam> ganesh kadam
+[19:00:31] <kushal> Roll Call
+[19:00:36] <SpEcHiDe> Shrimadhav U K
+[19:00:36] <c0mrad3> Tummala Dhanvi
+[19:00:37] <gunjan_11> gunjan
+[19:00:38] <abstatic> Abhishek Shrivastava
+[19:00:38] <trishnag> Trishna Guha
+[19:00:39] <avik> Avik Mukherjee
+[19:00:39] <tabrez> tabrez khan
+[19:00:39] <akshays> Akshay Shipurkar
+[19:00:39] <rohan_h> Rohan Hazra
+[19:00:40] <sandeepmaity09> Sandeep Maity
+[19:00:40] <girish946> girish joshi
+[19:00:41] <anwesha> Anwesha das
+[19:00:42] <navneet> Navneet Sharma
+[19:00:42] <fhackdroid> Farhaan Bukhsh
+[19:00:42] <ak_d> Akhilesh Dhaundiyal
+[19:00:42] <PrashantJ> Prashant Jamkhande
+[19:00:42] <surrr> Suraj Narwade
+[19:00:43] <gobinda> Gobinda Akhuli
+[19:00:43] <shashank_> Shashank Vivek
+[19:00:44] <grepRoot> Gourav Chawla
+[19:00:45] <akash47> Akash Mishra
+[19:00:45] <smdeep> Sudeep Mukherjee
+[19:00:46] <abhi2016> Abhi
+[19:00:46] <pabitra> Pabitra Pati
+[19:00:47] <moon45> Mamoon Manzoor
+[19:00:47] <lambainsaan_> Rhitik Bhatt
+[19:00:48] <mahesh5> Mahesh Gahlot
+[19:00:49] <pritthi7> Saagnik Adhikary
+[19:00:49] <aghadge> Amit Ghadge
+[19:00:49] <anjali__> Anjali pardeshi
+[19:00:52] <vibhcool> Vibhor Verma
+[19:00:53] <rhnvrm> Rohan Verma
+[19:00:55] <yASH_> Yashwanth M
+[19:00:56] <code_geek> Shantanu Acharya
+[19:00:56] <sandeepk> sandeep kumar choudhary
+[19:00:58] <sanad> Mohd Sanad Zaki Rizvi
+[19:00:59] <SebinDuke> Sebin Duke
+[19:01:01] <sayan> Sayan Chowdhury
+[19:01:01] <jogender> Jogender Kota
+[19:01:03] <rtnpro> Ratnadeep Debnath
+[19:01:03] <haseeb> Haseeb
+[19:01:03] <gvanrossum> Guido van Rossum
+[19:01:05] <sagarhani> Sagar Hani
+[19:01:07] <mr-karan_> Karan Sharma
+[19:01:12] <devyani7> Devyani Kota
+[19:01:12] <Desi_Geek> Navdeep Verma
+[19:01:17] <kushal> Kushal Das
+[19:01:18] <satyanash> Satyajeet Kanetkar
+[19:01:28] <CuriousLearner> Sanyam Khurana
+[19:01:32] <iKshitij> Kshitij
+[19:01:36] <shauryak_3> Shaurya Kalia
+[19:01:38] <harsh0522> harsh
+[19:01:42] <amey> Amey Jain
+[19:01:50] <shanky_> G shashank rao
+[19:01:51] <mbtamuli12> Mriyam Tamuli
+[19:02:03] <acetakwas> Tosin Damilare James Animashaun
+[19:02:04] <kushal> We will wait for 1 more minute for everyone to join in.
+[19:02:26] <Anupama> Anupama Mandal
+[19:02:39] <jargonmonk> Aniket Khisti
+[19:02:41] <kushal> So, we can start.
+[19:02:49] <kushal> gvanrossum, Thank you once again for joining in.
+[19:02:56] <gvanrossum> My pleasure.
+[19:02:58] <buvanesh_kumar> Buvanesh Kumar
+[19:03:11] <kushal> gvanrossum, Do you want to say something to all these (new) Python programmers before taking questions?
+[19:04:29] <gvanrossum> I'm just honored that so many of you are interested in chatting with me. And I am happy that you have all chosen to learn Python!
+[19:05:46] <kushal> gvanrossum, We team how to solve life problems with Python here.
+[19:05:52] * prakash is here
+[19:05:55] <rahuldecoded> Roll Call: Rahul Bhattacharjee
+[19:06:01] <kushal> s/team/teach
+[19:06:11] <kushal> It is our primary programming language (for most of us).
+[19:06:21] <sanad> s/team/teach
+[19:06:22] <kushal> gvanrossum, Should I open up for questions?
+[19:06:29] <gvanrossum> go ahead!
+[19:06:34] <kushal> clearqueue
+[19:06:35] <prakash> Prakash Mishra
+[19:06:41] <kushal> Questions people :)
+[19:06:51] <fhackdroid> !
+[19:06:54] <Kamlesh> Kamlesh
+[19:06:55] <avik> !
+[19:06:57] <pabitra> !
+[19:07:00] <acetakwas> !
+[19:07:03] <abhi2016> !
+[19:07:04] <sanad> !
+[19:07:14] <gvanrossum> kushal can I type next yet
+[19:07:25] <yash_b> roll call : Yash Bhardwaj
+[19:07:37] <c0mrad3> !
+[19:07:39] <kushal> gvanrossum, yes
+[19:07:41] <surrr> !
+[19:07:42] <gvanrossum> next
+[19:07:49] <aviraldg> (this is the dgplug channel, right?)
+[19:07:54] <kushal> ourch
+[19:07:59] <kushal> add: gvanrossum
+[19:08:00] <anushil> aviraldg, yes
+[19:08:05] <kushal> gvanrossum, can you please try once more
+[19:08:09] <gvanrossum> next
+[19:08:12] <aviraldg> whoo. sayan, you around?
+[19:08:12] <fhackdroid> What was the inspiration behind having one more language Python? and why did you name it after Monty Python ?
+[19:08:22] <fhackdroid> gvanrossum, ^
+[19:08:27] <navneet> !
+[19:08:30] <sayan> aviraldg: yes, let's discuss anything after the session :)
+[19:08:31] <theCreativeG33k> !
+[19:08:32] <SRvSaha> Roll Call : Saurav Saha
+[19:08:58] <aviraldg> batul: how do I join the queue?
+[19:09:05] <gvanrossum> The inspiration (27 years ago) was that I wanted something I could code in faster than C but which was less hacky than shell.
+[19:09:14] <gkadam> aviraldg, type !
+[19:09:16] <SRvSaha> aviraldg: Batul is a bot.
+[19:09:24] <gvanrossum> And Perl was right out (it's *more* hacky than shell).
+[19:09:39] <SRvSaha> aviraldg: Once you press ! to ask question, you are added to the queue automatically
+[19:09:47] <gvanrossum> Also I wanted to revive the good ideas from ABC: http://homepages.cwi.nl/~steven/abc/
+[19:09:51] <aviraldg> Thanks!
+[19:09:51] <aviraldg> !
+[19:10:19] <gvanrossum> The name was because I was (and still am) a big fan of Monty Python, and in our project (Amoeba) we had a tradition of naming programs after TV shows.
+[19:10:20] <gvanrossum> next
+[19:10:53] surrr is now known as SurajN
+[19:10:57] <fhackdroid> <eof> thanks gvanrossum  for the reply :)
+[19:11:04] <avik> gvanrossum, thanks for your time for us! Q. what made u to create python? or something new in that case! Got the answer!
+[19:11:09] <LambaInsaan> !
+[19:11:29] <avik> <eof>
+[19:11:47] sandeepmaity09_ is now known as sandeepmaity09
+[19:11:49] <gvanrossum> avik: also I liked to write compilers and stuff
+[19:11:51] <gvanrossum> next
+[19:12:08] <pabitra> Why experienced people (experience in Python) suggest to use multiprocessing (subprocess module) rather than multi threading ?
+[19:12:12] <vibhcool> !
+[19:12:34] <thebigj> !
+[19:12:39] tenstormavi__ is now known as tenstormavi_
+[19:12:46] <kushal> showqueue
+[19:13:19] <gvanrossum> that's because of the GIL (Global Interpreter Lock). You can multiplex I/O using threads, but if you need to use multiple CPUs (cores) CPython threads will not help. Multiprocessing creates separate processes, each of which can run on a different CPU.
+[19:14:21] <pabitra> What is the approach that makes python's threading different from java's threading ?
+[19:14:25] rohan__4 is now known as rohan_h
+[19:14:44] <anwesha> !
+[19:15:30] <kushal> showqueue
+[19:15:51] <gvanrossum__> Sorry folks I lost my connection
+[19:16:02] <girish946> !
+[19:16:02] <gvanrossum__> kushal are we still here?
+[19:16:10] <kushal> add: gvanrossum__
+[19:16:25] <gvanrossum__> sorry again
+[19:16:29] <kushal> gvanrossum__, the last question: <pabitra> What is the approach that makes python's threading different from java's threading ?
+[19:16:29] <gvanrossum__> can the last person repeat their q?
+[19:16:38] <gvanrossum__> ok got it
+[19:16:45] <pabitra> thanks kushal
+[19:16:51] <rohan_h> !
+[19:16:51] <gvanrossum__> Python threads can't use multiple cores/CPUs because of the GIL
+[19:16:55] <gvanrossum__> (Global Interpreter Lock)
+[19:17:10] <gvanrossum__> you can multiplex I/O with Python threads
+[19:17:23] <gvanrossum__> but for multiple cores you must create a separate process per CPU
+[19:17:27] <gkadam> !
+[19:17:30] <gvanrossum__> that's where multiprocessing comes in
+[19:17:46] <SebinDuke> !
+[19:17:58] <gvanrossum__> but there are costs too -- each process has a copy of all modules it has imported in memory (no sharing there) and there is also cost in communication between the processes
+[19:18:04] <gvanrossum__> so choose carefully!
+[19:18:18] <gvanrossum__> that's it about threading
+[19:18:22] <gvanrossum__> next
+[19:18:24] <acetakwas> My first question has been asked by fhackdroid. So, asides the community, in your opinion, what are some of the reasons why Python is so successful and continues to remain relevant?
+[19:18:32] <acetakwas> gvanrossum__::  ^
+[19:18:46] <pabitra> oh ok got it. thanks gvanrossum__
+[19:18:48] <gvanrossum__> Oh, I think it's largely the community that has determined Python's success
+[19:19:13] <gvanrossum__> Sure, the language is decent, but it started out pretty crippled because I was only one guy trying to build a language in a few months
+[19:19:31] <acetakwas> :)
+[19:19:33] <gvanrossum__> without help Python would still raise a TypeError on 12 + 3.14
+[19:19:58] <gvanrossum__> (seriously, early Python did not automatically cast int to float as needed)
+[19:20:10] <anushil> !
+[19:20:10] <mr-karan_> !
+[19:20:22] <janki> !
+[19:20:23] <gvanrossum__> also the community has created lots of packages (both in the stdlib and on PyPI)
+[19:20:51] <pritthi7> !
+[19:21:07] <akshays> !
+[19:21:12] <gvanrossum__> and the community has created many events and conferences (it had never occurred to me to organize the first Python workshop in 1994, but it started a venerable tradition)
+[19:21:28] <iKshitij> !
+[19:21:48] <yASH_> !
+[19:21:58] <gvanrossum__> Python also keeps evolving, to adopt to new technologies (e.g. web)
+[19:22:12] <ssapo> !
+[19:22:21] <gvanrossum__> And Python's roots in ABC ensure that it is very readable and easy to learn, but also useful for experts and wizards
+[19:22:23] <gvanrossum__> next
+[19:22:28] <pabitra> !
+[19:22:43] <abhi2016> Hello gvanrossum_, How can someone become a master Python programmer?
+[19:22:44] <acetakwas> <eof> Thanks for your detailed answer gvanrossum__ . I like that the language continues to evolve to support more domains.
+[19:23:05] <kushal> showqueue
+[19:23:17] <gvanrossum__> To become a master in anything you must start as an apprentice.
+[19:23:18] rohan__4 is now known as rohan_h
+[19:23:43] <gvanrossum__> For programming that means lots of programming projects, preferably with other more experienced programmers.
+[19:24:26] <gvanrossum__> Make sure to read code written by other masters. Eventually you will find bugs in the master's code and then you are beginning to approach master level yourself.
+[19:24:44] <rahul_bajaj> !
+[19:24:45] <gvanrossum__> There is no shortcut! (Though for some the path is longer than for others, so don't despair!)
+[19:24:46] <gvanrossum__> next
+[19:24:50] <abhi2016> nice tip thanks :)
+[19:24:50] <sanad> gvanrossum__ : What is the most creative thing you have done or seen someone do using python?
+[19:25:17] <gvanrossum__> My own most creative thing was creating Python in the first place.
+[19:25:25] <gvanrossum__> :-)
+[19:25:49] <sanad> amazing! thank you :)
+[19:25:50] <sanad> <eof>
+[19:26:16] <gvanrossum__> One of the most creative things is IPython (now Jupyter) -- it opens up a whole new world.
+[19:26:16] <gvanrossum__> next
+[19:26:21] <c0mrad3> gvanrossum__: how do you feel that the language you created is being used everywhere now(in production)? mainly for pentesters
+[19:26:22] <sayan> !
+[19:26:36] <gvanrossum__> ha ha ha
+[19:26:42] <kushal> showqueue
+[19:26:47] <gvanrossum__> I think your view of the world is pretty narrow
+[19:27:00] <gvanrossum__> I am proud that Python has so many uses
+[19:27:00] <gvanrossum__> next
+[19:27:05] <SurajN> Will python replace shell script in sysadmin world ?
+[19:27:13] <rtnpro> !
+[19:27:26] <gvanrossum__> No, shell scripts are optimized for a different purpose
+[19:27:39] <gvanrossum__> There is overlap but almost any two languages have overlapping domains.
+[19:27:50] <gvanrossum__> Learn many languages so you can always choose the right one!
+[19:27:51] <gvanrossum__> next
+[19:27:57] <navneet> It always believed that python is dangerous than Java i.e., while Java is bound makes developer Do work in Rules, while python is risk prone. what is take on that?
+[19:27:58] <SurajN> thanks gvanrossum
+[19:28:31] <navneet> And how do you suggest some new in the field of python to learn it effectively
+[19:28:43] <lounge-user39> What was your main motivation to develop a new language instead of improving on say cN
+[19:29:03] <gvanrossum__> lounge-user39: out of turn, I am still pondering navneet's question
+[19:29:28] <pritam> !
+[19:29:43] <gvanrossum__> navneet: Python vs Java is complicated, they are good at different things, don't consider either a competitor for the other.
+[19:29:44] <kushal> showqueue
+[19:29:55] <SpEcHiDe> !
+[19:30:19] <gvanrossum__> To learn effectively when new in the field, read tutorials. I would recommend staying away from video classes, they are too fixed-paced. But they work for some.
+[19:30:20] <gvanrossum__> next
+[19:30:26] <theCreativeG33k> 1) Which is your most favorite 3rd-party Python project? 2) Could you tell us some interesting story behind some of the easter eggs that you left in Python?
+[19:30:42] <cosmologist10> !
+[19:30:58] <gvanrossum__> (1) Currently definitely mypy, that's why I am contributing to it.
+[19:31:22] <gvanrossum__> (Remember, it's mypy-lang on PyPI, `pip install mypy-lang`, and it requires Python 3)
+[19:32:26] <gvanrossum__> (2) "import this" was the winning entry in a contest for Python slogans. The entries were all terrible and the jury got frustrated, so they chose one of the more infuriating ones.
+[19:33:10] <gvanrossum__> Then we decided, now that we have "import this" on a T-shirt, we should make it so that if people type that in the interpreter, something funny happens. So then we decided on the Zen of Python (also PEP 20).
+[19:33:47] <gvanrossum__> Later we also printed T-shirts with the Zen of Python on them. :-)
+[19:33:48] <gvanrossum__> next
+[19:33:52] <aviraldg> Love Python and think it's the single language that makes program logic the clearest; thanks so much for taking the time to talk to us. As someone who loves the style, curious why are you less than fond of functional programming style in Python eg. moving reduce from builtins to functools from 2.7 to 3.x and discouraging it in general? What do you think about typing hints and stricter type-checking in Python? With a language
+[19:33:52] <aviraldg> like golang being heavily-promoted by Google and gaining wider acceptance in roles where Python was previously used, what do you think is going to be the new niche for Python?
+[19:33:53] <theCreativeG33k> Awesome! Thanks for your time. And thanks for creating Python! You, sir, are awesome! *hat tip*
+[19:34:56] <trini7y> !
+[19:35:17] <gvanrossum__> Python is fundamentally OO, and making people believe it is also functional is a mistake -- e.g. in Haskell map/filter can be parallellized, but in Python that would break some code so we can't do that.
+[19:35:54] <gvanrossum__> Given my support for mypy, obviously I think type hints etc. are great, BUT only as an add-on, like linters, and only for large projects.
+[19:36:52] <gvanrossum__> If you have 100s of programmers working on a project of a million lines of code, the next person to join the team benefits enormously from type hints, as does everyone any time they need to refactor something or understand code written years ago.
+[19:37:04] <gvanrossum__> If you are just learning Python, please don't use type hints!
+[19:37:35] <gvanrossum__> I'm not worried at all about Go (please don't call it golang, that's just the website)
+[19:37:36] <gvanrossum__> next
+[19:37:39] <LambaInsaan> gvanrossum__, Python is a very big project, you have contributions coming in from all over the world. And as a result sometimes you might end up having conflicts in the team, some people might like the idea of the proposed contribution and some people might not like it, how does python community deal with such conflicts? <eom>
+[19:37:56] <kushal> showqueue
+[19:38:22] <gvanrossum__> We have long and heated discussions, sometimes in the tracker, sometimes on the python-dev list
+[19:39:06] <gvanrossum__> Sometimes someone has to write a PEP specifying the proposal and motivating it, to help the debate (without a PEP some discussions go around in circles)
+[19:39:44] <ebarry> !
+[19:39:46] <aviraldg> thanks gvanrossum__! (can I ask a follow-up without queuing up again?)
+[19:39:48] <gvanrossum__> in the end the BDFL (that's me) has to accept or reject a PEP. But usually that's a formality and people have already hashed out the right solution while writing it up carefully in the PEP, and that's why we have that process.
+[19:40:05] <gvanrossum__> Also, if no agreement can be reached, the status quo wins, i.e. nothing changes.
+[19:40:22] <ebarry> It's been ~8 years since the 2-
+[19:40:26] <gvanrossum__> sorry, one turn per person
+[19:40:27] <gvanrossum__> next
+[19:40:31] <ebarry> (whoops, accidentally hit enter)
+[19:40:31] <vibhcool> gvanrossum__: when we think of creating something new, there is a purpose like implementing a new idea, etc. What is that thing you tried to solve by inventing python in 1991? And other things you didn't thought of but became a good feature of python?
+[19:40:58] <gvanrossum__> My original purpose was just a language in between shell and C.
+[19:41:11] <gvanrossum__> (It was 1989 BTW)
+[19:41:32] <gvanrossum__> I did not have in mind that Python would also be good for learning.
+[19:42:04] <gvanrossum__> We didn't even have the www then, so I did not plan Python as a web language. Nor as a language for scientists (as enabled by numpy and Jupyter)
+[19:42:14] <gvanrossum__> next
+[19:42:17] <thebigj> First questions: I believe maximum efforts of developer will make less load on CPU. When I see Python code the reverse is most commonly found in code base. Why slower but readable code of Python is encouraged than faster but less readable code? Second Question: Why you chosen to develop Python as a Scripting language and not compiled?
+[19:42:30] <sayan> showqueue
+[19:42:55] <kushal> showqueue
+[19:42:56] <vibhcool> gvanrossum__: thank you :)
+[19:43:15] <gvanrossum__> (1) most code spends much less time executing than the developer spends writing it. So I am trying to help the programmer be more productive (in those cases).
+[19:43:44] <gvanrossum__> (2) Because I didn't like writing the backend of a compiler.
+[19:43:45] <gvanrossum__> next
+[19:44:02] <anwesha> How does software licenses important for a community? And why should a developer choose it wisely for his project?
+[19:44:14] <anwesha> <eof>
+[19:44:31] <gvanrossum__> That's a pretty leading q. :-)
+[19:44:46] <thebigj> gvanrossum__: Thank you :)
+[19:44:51] <gvanrossum__> Licensing is boring, just use the MIT or BSD license.
+[19:44:58] <gvanrossum__> GPL is communism. :-)
+[19:44:58] <gvanrossum__> next
+[19:45:09] <girish946> gvanrossum_, hello could you please talk about Formatted string literals (python 3.6)
+[19:45:19] <anwesha> The reason for me to ask this I come from a legal background.
+[19:45:19] <gvanrossum__> Ah, f-strings.
+[19:45:32] <girish946> gvanrossum_, hello could you please talk about Formatted string literals (python 3.6) /
+[19:45:42] <gvanrossum__> anwesha: IANAL. Back to f-strings
+[19:45:55] <gvanrossum__> PEP 498 explains it
+[19:46:10] <gvanrossum__> We want to improve simple formatting jobs. E.g. today you write
+[19:46:33] <gvanrossum__> print("The sum of", x, "and", y, "is", x+y)
+[19:46:35] <anwesha> Thank you.
+[19:46:45] <gvanrossum__> But that doesn't give you control over spaces between items
+[19:46:51] <gvanrossum__> You can write things like
+[19:47:10] <gvanrossum__> print("The sum of {}, {} and {} is {}".format(x, y, z, x+y+z))
+[19:47:23] <gvanrossum__> (just to avoid a space before the comma)
+[19:47:31] <gvanrossum__> but with f-strings it becomes much nicer
+[19:48:01] <ChaKu> !
+[19:49:04] <gvanrossum_> hey I'm back
+[19:49:16] <kushal> add: gvanrossum_
+[19:49:21] <kushal> gvanrossum_, go ahead
+[19:49:22] <gvanrossum_> last example was print(f"The sum of {x}, {y} and {z} is {x+y+z}.")
+[19:49:23] <gvanrossum_> next
+[19:49:26] <rohan_h> gvanrossum_, Why didn't you forced object oriented programming in Python? (As we see in JAVA)
+[19:49:36] <girish946> thank you!
+[19:49:57] <gvanrossum_> rohan that's because for small programs it's not necessary.
+[19:50:08] <gvanrossum_> OO is not religion to me, just a useful mechanism.
+[19:50:30] <gvanrossum_> Some things look better in OO notation, others look better in function/procedure notation.
+[19:50:56] <gvanrossum_> Hence, len(a) vs. f.readline().
+[19:50:57] <gvanrossum_> next
+[19:50:59] <gkadam> gvanrossum__ :
+[19:51:01] <gkadam> 1. How one can be a good programmer? Is knowing OS, having a hardware
+[19:51:01] <gkadam> knowledge, and knowing architectural aspects really very important?
+[19:51:01] <gkadam> 2. Is Python really a scripting language or programming language?
+[19:51:01] <gkadam> 3. I read your blogs and in some blog post I came to know that Python was
+[19:51:01] <gkadam> your hobby project! How do you feel when it is widely accepted and loved by the
+[19:51:02] <gkadam> community?
+[19:51:04] <gkadam> <eof>
+[19:51:05] <rohan_h> gvanrossum_, Okay :)
+[19:51:28] <gvanrossum_> 1. That sounds more like the road to being a good hacker.
+[19:52:02] <gvanrossum_> For programming more is needed, like understanding of algorithms, datastructures, complexity measures, distributed systems
+[19:52:14] <gvanrossum_> 2. It's really a programming language disguised as a scripting language
+[19:52:38] <gvanrossum_> next
+[19:52:42] <gvanrossum_> 3. I am very proud of Python and very happy that I have been so useful for programmers worldwide.
+[19:52:47] <SebinDuke> gvanrossum__: What do you think is more important for a budding programmer, concentrating on algorthmic skills or learning more new technologies(programing & scripting languages and there frameworks) ?
+[19:52:51] <gkadam> gvanrossum_, thank you!
+[19:53:45] <gvanrossum_> Don't become a programming contest junkie. They are very limited in what they teach. Work with others to become a member of a team and learn diverse things that way.
+[19:53:49] <gvanrossum_> next
+[19:53:56] <anushil> Thank's for Python sir. I would like to ask, except python which programming language you prefer or like ? And, what new technology would you like to/should  adopt Python?
+[19:54:08] rohan_h is now known as sayak
+[19:54:57] <SebinDuke> Thanks :)
+[19:55:02] <gvanrossum_> I don't really use any other languages except C. Sometimes I read C++ or Java or JavaScript but I cannot recommend any.
+[19:55:08] <gvanrossum_> Go is interesting but I have never used it.
+[19:55:18] <gvanrossum_> Some people I know recommend Rust.
+[19:55:27] <irctc214> Join.
+[19:55:29] <gvanrossum_> And a very interesting functional language for the web is Elm.
+[19:55:30] <irctc214> Join
+[19:55:55] <gvanrossum_> For Python, my personal focus for the next year or so will be type hints (PEP 484, 526)
+[19:55:57] <gvanrossum_> next
+[19:56:44] <sayan> showqueue
+[19:56:57] <kushal> showqueue
+[19:56:57] <adityakonarde> Hello there, I've been following the conversation on the dgplug channel. Are you using any script for the queuing of questions and sending messages?
+[19:56:59] <gvanrossum_> [kushal is there a way not to view all the join/quit stuff?]
+[19:57:05] <gvanrossum_> mr-karan_ are you there?
+[19:57:21] <gvanrossum_> next
+[19:57:39] <janki> Hello gvanrossum sir, Thank you for writing Python. Python is the reason I code.
+[19:57:40] <janki> I have noticed that a list of alphabets and digits donot sort. ['a', 1].sort() would error out.
+[19:57:40] <janki> Was this functionality purposefully left out or is it in development or nobody ever thought of it or there is no real life use case of it?
+[19:57:43] <kushal> gvanrossum_, can not block that now, it depends on the client. Sorry :(
+[19:58:11] <kushal> gvanrossum_, sayan will tell yo a way (he knows).
+[19:58:21] <gvanrossum_> janki: in Python 2.7 that was possible but gave a nonsense answer. So in Python 3 we decided to disallow it.
+[19:58:50] <janki> gvanrossum_, thank you for answering :)
+[19:58:51] <gvanrossum_> People can't agree on whether 'a' should be smaller or larger than 1.
+[19:58:52] <gvanrossum_> next
+[19:58:58] <sayan> gvanrossum_: on top left there is a bar icon, click on it. Go to option. Check the HIDE/JOIN/PART
+[19:58:59] <pritthi7> Hello gvanrossum sir.I would like to know about garbage collection in python.Is the process the same as that in java?
+[19:59:23] <gvanrossum_> @sayan not in my client. so never mind.
+[19:59:27] <ebarry> gvanrossum_: click the hamburger button top-right, Options, "Hide JOINS/PARTS/QUITS", Save :)
+[19:59:42] <ebarry> err, top-left*
+[20:00:00] <sayan> gvanrossum_: oh I thought you are using webchat.freenode
+[20:00:00] <gvanrossum_> ok, back to pritthi7
+[20:00:13] <gvanrossum_> Python's GC is different from Java
+[20:00:24] <gvanrossum_> because we support C extensions we never move objects
+[20:00:40] <gvanrossum_> also we have reference counting for basic GC, then a separate cycle detector on top of that
+[20:00:47] <gvanrossum_> it works very well given the constraints
+[20:00:48] <gvanrossum_> next
+[20:01:02] <pritthi7> Thank you sir
+[20:01:26] <gvanrossum_> [kushal I give you 5 extra minutes because i dropped out twice]
+[20:01:35] <kushal> gvanrossum_, Thanks :)
+[20:01:36] <gvanrossum_> akshays: question please?
+[20:01:39] <girish946> !
+[20:01:47] <gvanrossum_> next
+[20:01:48] <sayan> showqueue
+[20:01:57] <kushal> showqueue
+[20:02:13] <akshays> when i try convince some of my friends to move to python they say that python is slow compared to java and c++. 1. how do i convince them to use python ? 2. How does it feel to be such a highly successful project ?
+[20:02:13] <gvanrossum_> iKshitij: question please?
+[20:02:30] <iKshitij> [1.) When and how did you first become interested in programming?
+[20:03:01] <gvanrossum_> akshays: 1. tell them Python is about developer speed not execution speed. and they may be surprised in some cases. 2. very proud.
+[20:03:21] <gvanrossum_> iKshitij: when I was 18 I went to university and they had a mainframe in the basement.
+[20:03:21] <mahesh5> !
+[20:03:23] <akshays> Thanks gvanrossum :)
+[20:03:32] <pritam> gvanrossum__, Iot Devices are using python, scientists too use python, is there a possibility in near future that python might come to the mobile platform like iphone, android smartphones as an innate feature? And lastly what is your favourite song and a motivational quote? =)
+[20:03:47] <gvanrossum_> iKshitij: also http://neopythonic.blogspot.com/2016/04/kings-day-speech.html
+[20:04:19] <gvanrossum_> pritam: join mobile-sig at mail.python.org to find out how python will conquer iphone and android.
+[20:05:08] <sayan> showqueue
+[20:05:15] <kushal> gvanrossum_, you can end now (if you want).
+[20:05:19] <gvanrossum_> also kivy and beeware (pybee.org)
+[20:05:27] <pritam> gvanrossum__, Okay : ) thank you sir, and your favourite song sir?
+[20:05:40] <iKshitij> thank you gvanrossum__ ! My questions already have been asked and answered ! Thank you for the session !
+[20:05:41] <gvanrossum_> I like traffic lights, but only when they're green
+[20:05:52] <kushal> gvanrossum, sorry, he was out of queue.
+[20:05:54] <gvanrossum_> thanks everyone, that's got to be it. gotta run!
+[20:06:11] <ebarry> aw, didn't get to ask my question :(
+[20:06:14] <kushal> gvanrossum_, Thank you :)
+[20:06:18] <gkadam> gvanrossum_, thank you so much for your time!
+[20:06:18] <sayan> gvanrossum_: thanks for coming down :)
+[20:06:20] <ebarry> oh well, another time then! later!
+[20:06:20] <cosmologist10> me too :(
+[20:06:21] <buvanesh_kumar> thanks a lot gvanrossum_ :)
+[20:06:22] <rtnpro> gvanrossum, Thanks :)
+[20:06:22] <abhishekg5> Thank you gvanrossum_
+[20:06:27] <fhackdroid> gvanrossum_, thanks for  answering :)
+[20:06:27] <amey> thanks gvanrossum_
+[20:06:27] <SurajN> gvanrossum, thank you :)
+[20:06:27] <rahul_bajaj> gvanrossum, we are really privileged to have you here :D
+[20:06:28] <PrashantJ> Many many thanks gvanrossum_ :)
+[20:06:30] <LambaInsaan> gvanrossum_, Thank you so much! :)
+[20:06:33] <gkadam> kushal, thanks for the session! :-)
+[20:06:34] <SebinDuke> Thanks a lot ð
+[20:06:35] sayak is now known as rohan_h
+[20:06:36] <acetakwas> gvanrossum_::  Thank you GvR. This was indeed an awesome session.
+[20:06:36] <ChaKu> gvanrossum_, Thank you!! :)
+[20:06:37] <kushal> ebarry, you know how to find him :)
+[20:06:42] <trishnag> gvanrossum: Thank you :)
+[20:06:46] <abhi__> thankyou so much
+[20:06:47] <satyanash> Thanks a lot for the fabulous session, gvanrossum_ !
+[20:06:50] <chshbh> thank you :)
+[20:06:51] <adityakonarde> Thank you, gvanrossum_! :)
+[20:06:53] <kushal> endclass
+[20:06:53] [## Class Ended at Fri Sep  2 20:06:53 2016 ##]

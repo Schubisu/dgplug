@@ -1,0 +1,482 @@
+Jul 05 22:33:57 *	kushal has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | 7:30pm - More on tags - Kushal | 10:30pm Python introduction Kushal | <--CLASS STARTED-->
+Jul 05 22:34:01 <rangeen>	kushal:-> because then i would take off as you know i am on a dial up
+Jul 05 22:34:03 <kushal>	rangeen, but same basic things
+Jul 05 22:34:12 <kushal>	rangeen, you can tonight :)
+Jul 05 22:34:13 <ria>	kushal, is the roll call over?
+Jul 05 22:34:17 <kushal>	Roll call
+Jul 05 22:34:23 *	Debashree has quit (Read error: 104 (Connection reset by peer))
+Jul 05 22:34:23 <Kishan>	kishan goyal
+Jul 05 22:34:28 <ria>	Ria Das
+Jul 05 22:34:29 *	munichlinux (n=prashant@59.92.123.163) has joined #dgplug
+Jul 05 22:34:32 <rtnpro>	Ratnadeep Debnath
+Jul 05 22:34:34 <Prakhar>	Prakhar Agarwal
+Jul 05 22:34:37 <pushkal>	Pushkal Srivastava
+Jul 05 22:34:42 <amrita>	amrita mukherjee
+Jul 05 22:34:43 <khushi_>	Khushbu Mohta
+Jul 05 22:34:49 <rangeen>	kushal:-> thanks.i have read your book it's good.
+Jul 05 22:34:59 <kushal>	rangeen, :)
+Jul 05 22:35:00 <rangeen>	rangeen basu roy chowdhury
+Jul 05 22:35:02 <bose_aritra>	aritra bose
+Jul 05 22:35:06 *	pushkal wants that book too !!
+Jul 05 22:35:51 <kushal>	all done ?
+Jul 05 22:36:31 <drunkencoder>	kushal: yes, I guess
+Jul 05 22:36:34 <kushal>	ok
+Jul 05 22:36:42 *	Debashree (n=Debashre@61.2.165.226) has joined #dgplug
+Jul 05 22:36:51 *	suse_nj (n=chatzill@59.178.182.18) has joined #dgplug
+Jul 05 22:36:58 <kushal>	So, from tonight we are going to learn a new programming language called python 
+Jul 05 22:37:16 <kushal>	How many of you already know Python ?
+Jul 05 22:37:17 *	techno_freak (n=parthan@unaffiliated/teknofreak) has joined #dgplug
+Jul 05 22:37:39 <kushal>	techno_freak, tonight we have couple of GUESTS here it seems :)
+Jul 05 22:37:45 <Prakhar>	I know it, but relatively new.
+Jul 05 22:37:50 <kushal>	ok
+Jul 05 22:37:54 <kushal>	anyone else ?
+Jul 05 22:38:09 <techno_freak>	kushal, guests?
+Jul 05 22:38:18 <kushal>	techno_freak, look at the nicks :p
+Jul 05 22:38:33 *	kushal gives channel operator status to indradg
+Jul 05 22:38:36 <techno_freak>	:p
+Jul 05 22:38:38 *	kushal gives channel operator status to tuxmaniac
+Jul 05 22:38:41 *	kushal gives channel operator status to techno_freak
+Jul 05 22:38:52 *	kushal gives channel operator status to Soumya
+Jul 05 22:39:16 <Prakhar>	kushal, please if you could introduce some of those guests :)
+Jul 05 22:39:25 <kushal>	Prakhar, later
+Jul 05 22:39:33 <Prakhar>	ok
+Jul 05 22:39:58 *	arpita (n=arpita@117.201.97.191) has joined #dgplug
+Jul 05 22:40:06 <kushal>	I am not going to talk about how this language is better or why you should use this 
+Jul 05 22:40:28 *	techno_freak is now known as HereBePython
+Jul 05 22:40:28 *	susenj (n=student@59.178.182.18) has joined #dgplug
+Jul 05 22:40:34 <arpita>	kushal, roll call
+Jul 05 22:40:38 <arpita>	arpita kapoor
+Jul 05 22:40:52 <susenj>	Neeraj Kumar
+Jul 05 22:40:58 <kushal>	I hope you all remember, someone in the class told that you should decide which language/tool you are going to use
+Jul 05 22:41:09 *	suse_nj (n=chatzill@59.178.182.18) has left #dgplug
+Jul 05 22:41:39 <Debashree>	debashree banerjee
+Jul 05 22:41:51 <mavu>	satya komaragiri
+Jul 05 22:42:06 <kushal>	Linux users, goto terminal , run the Python interpreter with the command "python"
+Jul 05 22:42:26 <kushal>	Windows guys , open the python shell from the meny 
+Jul 05 22:42:29 <kushal>	* menu 
+Jul 05 22:43:26 <kushal>	Everyone opened ?
+Jul 05 22:43:31 <kushal>	yes/no 
+Jul 05 22:43:33 <pushkal>	yes
+Jul 05 22:43:34 <mavu>	ye
+Jul 05 22:43:35 <amrita>	yes
+Jul 05 22:43:36 <khushi_>	yes
+Jul 05 22:43:40 <susenj>	yes
+Jul 05 22:43:41 <rtnpro>	done
+Jul 05 22:43:42 <arpita>	yes
+Jul 05 22:43:51 <Prakhar>	yup
+Jul 05 22:43:56 <Debashree>	yes
+Jul 05 22:44:12 <kushal>	see, I told you to open the interpreter 
+Jul 05 22:44:20 <Kishan>	yes
+Jul 05 22:44:22 <bose_aritra>	yes
+Jul 05 22:44:41 <kushal>	that means we are not going to compile the codes, we will write in the interpreter , 
+Jul 05 22:45:06 <kushal>	in that way we can check every line of the code that time only 
+Jul 05 22:45:29 <kushal>	You can see >>>   that is the python shell prompt
+Jul 05 22:45:46 <kushal>	it means it is waiting for the command (code) to be entered 
+Jul 05 22:46:21 <kushal>	Python is a dynamic language , so no need to define variables before, just use them whenever needed
+Jul 05 22:46:26 <kushal>	write 
+Jul 05 22:46:27 <kushal>	a = 10
+Jul 05 22:47:28 <kushal>	now after this again command prompt will come 
+Jul 05 22:47:49 <kushal>	To see the value of a ,just type a
+Jul 05 22:47:56 <kushal>	what it is showing ?
+Jul 05 22:48:00 <pushkal>	10
+Jul 05 22:48:08 <pushkal>	:)
+Jul 05 22:48:15 <rtnpro>	yes, 10
+Jul 05 22:48:15 <kushal>	pushkal, :)
+Jul 05 22:48:18 <kushal>	ok
+Jul 05 22:48:21 <susenj>	10
+Jul 05 22:48:30 <Kishan>	yes, 10
+Jul 05 22:48:47 <kushal>	so, we never declared what is 'a',  
+Jul 05 22:48:56 <kushal>	now type , a  = 2.0
+Jul 05 22:49:15 <kushal>	see the value of a
+Jul 05 22:49:23 <bose_aritra>	2.0
+Jul 05 22:49:25 <amrita>	2.0
+Jul 05 22:49:28 <rtnpro>	2.0
+Jul 05 22:49:35 <susenj>	2.0
+Jul 05 22:49:36 *	ria_ (n=ria@121.245.51.114) has joined #dgplug
+Jul 05 22:49:40 <kushal>	ok
+Jul 05 22:49:45 <kushal>	no need to type here :p
+Jul 05 22:50:08 <kushal>	To see the type of a variable, use type(variable) 
+Jul 05 22:50:21 <kushal>	so tell me what is the current type of a ?
+Jul 05 22:50:33 <rtnpro>	float
+Jul 05 22:50:33 <Kishan>	float
+Jul 05 22:50:36 <arpita>	float
+Jul 05 22:50:49 <susenj>	float
+Jul 05 22:50:51 <pushkal>	float
+Jul 05 22:50:51 <bose_aritra>	float
+Jul 05 22:50:53 <kushal>	ok, make a = 10
+Jul 05 22:50:57 <kushal>	and check then ?
+Jul 05 22:51:06 <mavu>	int
+Jul 05 22:51:08 <Kishan>	int
+Jul 05 22:51:15 <kushal>	ok
+Jul 05 22:51:18 <rtnpro>	int
+Jul 05 22:51:19 <susenj>	'int'
+Jul 05 22:51:24 <bose_aritra>	int
+Jul 05 22:51:29 <pushkal>	int
+Jul 05 22:51:40 <kushal>	so you can see dynamically the type of the variable is changing 
+Jul 05 22:51:44 <Debashree>	int
+Jul 05 22:51:59 <kushal>	Let us write the first Full program , which is Hello World
+Jul 05 22:52:06 <kushal>	print "Hello World!"
+Jul 05 22:52:37 <kushal>	Working ? yes/no 
+Jul 05 22:52:40 <mavu>	yes
+Jul 05 22:52:44 <Kishan>	yes
+Jul 05 22:52:48 <rtnpro>	yes
+Jul 05 22:52:48 <susenj>	ya
+Jul 05 22:52:51 <arpita>	yes
+Jul 05 22:52:56 <bose_aritra>	yup
+Jul 05 22:53:00 <pushkal>	yes
+Jul 05 22:53:03 *	ria_ has quit (Client Quit)
+Jul 05 22:53:18 *	sharanr (n=sharan@117.98.99.162) has joined #dgplug
+Jul 05 22:53:22 <kushal>	See how easy to write helloworld code 
+Jul 05 22:53:25 <Debashree>	yes
+Jul 05 22:53:57 <kushal>	Now we are going to write the same program in  a file and execute it 
+Jul 05 22:54:05 <kushal>	Fire up vi
+Jul 05 22:54:52 <kushal>	first create a new directory to write all python codes
+Jul 05 22:54:59 <kushal>	and start vi there 
+Jul 05 22:55:00 <rtnpro>	what should be the ext. of the file, .py?
+Jul 05 22:55:16 <kushal>	don't create all files in the same folder
+Jul 05 22:55:25 <kushal>	rtnpro, I never told about anyfile
+Jul 05 22:55:31 *	ria__ (n=ria@121.245.51.114) has joined #dgplug
+Jul 05 22:55:32 <kushal>	rtnpro, just asked to open vi
+Jul 05 22:55:34 <rtnpro>	ok
+Jul 05 22:55:51 <Kishan>	!
+Jul 05 22:55:55 <kushal>	Kishan, yes 
+Jul 05 22:55:58 <Kishan>	didnt get you
+Jul 05 22:56:17 <arpita>	!
+Jul 05 22:56:31 <kushal>	Kishan, I told to write different codes in different folders, people do write all thing in the home folder only 
+Jul 05 22:56:38 <kushal>	only to keep things clean 
+Jul 05 22:56:42 <kushal>	arpita, yes
+Jul 05 22:57:13 <kushal>	All write http://rafb.net/p/wGpQsK69.html in vi 
+Jul 05 22:57:13 <arpita>	to open vi editor command in python is??
+Jul 05 22:57:33 <kushal>	arpita, where do you opened vi still now /
+Jul 05 22:57:33 <kushal>	?
+Jul 05 22:57:54 *	munichlinux is now known as munichpython
+Jul 05 22:58:11 <arpita>	so here also vi <filename> is the comm?
+Jul 05 22:58:50 <kushal>	arpita, yes, you already learned vi 
+Jul 05 23:00:09 <arpita>	kushal, here vi <filename> is giving syntax error
+Jul 05 23:00:19 <Kishan>	!
+Jul 05 23:00:40 <kushal>	arpita, yes, because you are supposed to use vi in shell, not in python interpreter 
+Jul 05 23:00:44 <rtnpro>	!
+Jul 05 23:00:46 <kushal>	Kishan, yes 
+Jul 05 23:00:57 <Kishan>	same with me...im in windows...
+Jul 05 23:01:04 <Kishan>	invalid syntax
+Jul 05 23:01:08 <khushi_>	!
+Jul 05 23:01:10 <kushal>	Kishan, not for windows guys
+Jul 05 23:01:13 <kushal>	rtnpro, yes 
+Jul 05 23:01:36 <rtnpro>	kushal, I opened vi and wrote the code...how do i assign a filename to it and save it from within vi
+Jul 05 23:01:49 <kushal>	rtnpro, I taught that long back 
+Jul 05 23:02:09 <rtnpro>	I can do that by vi <filename>
+Jul 05 23:02:13 <kushal>	anyone help rtnpro ^^ 
+Jul 05 23:02:14 <kushal>	rtnpro, no
+Jul 05 23:02:26 *	pushkal urges people to read logs !
+Jul 05 23:02:33 <kushal>	rtnpro, you asked the right question 
+Jul 05 23:02:39 <rtnpro>	but how to do that from within vi
+Jul 05 23:02:41 <kushal>	rtnpro, now wait for someone to reply 
+Jul 05 23:03:00 <kushal>	rtnpro, yes, either read the log or wait for someone to answer 
+Jul 05 23:03:02 <kushal>	anyone ?
+Jul 05 23:03:04 <pushkal>	:save <filename>
+Jul 05 23:03:04 <susenj>	:w <filename>
+Jul 05 23:03:18 <rtnpro>	whats the significance of #!/usr/bin/env python
+Jul 05 23:03:28 <kushal>	rtnpro, never told yet 
+Jul 05 23:03:34 <kushal>	khushi_, yes please 
+Jul 05 23:03:37 <khushi_>	how to exit from python interpreter<eof>
+Jul 05 23:04:11 <kushal>	khushi_, not told yet
+Jul 05 23:04:16 <kushal>	Ctrl + D
+Jul 05 23:04:23 <kushal>	Ctrl + d
+Jul 05 23:05:53 <kushal>	after saving that file, first give it executable permission , then run it like ./helloworld.py  (helloworld.py is the file name)
+Jul 05 23:06:04 <HereBePython>	Windows guys, copy the code into a Notepad
+Jul 05 23:06:27 <HereBePython>	and name it <filename>.py
+Jul 05 23:06:55 <HereBePython>	if you have installed python, you should see the file icon like a python icon
+Jul 05 23:07:25 <Kishan>	yes..got that
+Jul 05 23:07:35 *	munichpython is now known as munichlinux
+Jul 05 23:08:18 <kushal>	Kishan, just type the filename from cmd to run it 
+Jul 05 23:08:50 <kushal>	For everyone running ?
+Jul 05 23:09:03 <susenj>	yes
+Jul 05 23:09:11 <mavu>	yes
+Jul 05 23:09:18 <rtnpro>	kushal, it says bash: ./hello.py: Permission denied
+Jul 05 23:09:31 <munichlinux>	rtnpro, #!/usr/bin/env python this called shebang read this http://en.wikipedia.org/wiki/Shebang_(Unix)
+Jul 05 23:09:52 <munichlinux>	rtnpro, do this chmod +x hello.py
+Jul 05 23:09:53 <Kishan>	!
+Jul 05 23:10:17 <kushal>	munichlinux, please don't tell them these easy steps, they are supposed to know them from other classes 
+Jul 05 23:10:21 <kushal>	Kishan, yes please
+Jul 05 23:10:32 <Kishan>	command prompt or python's prompt??...not running in both
+Jul 05 23:10:39 <kushal>	rtnpro, and you are *NOT* using ! or <eof>
+Jul 05 23:10:41 *	rsa_md5 (n=droopy@117.194.1.225) has joined #dgplug
+Jul 05 23:10:55 *	ria has quit (Read error: 110 (Connection timed out))
+Jul 05 23:10:56 <munichlinux>	kushal, oops sorry
+Jul 05 23:10:58 <kushal>	Kishan, command prompt 
+Jul 05 23:11:04 <kushal>	munichlinux, no problem :_
+Jul 05 23:11:05 <rtnpro>	kushal, sorry
+Jul 05 23:11:06 <kushal>	:)
+Jul 05 23:11:12 <Kishan>	not running
+Jul 05 23:11:25 <kushal>	Kishan, just delete the first line 
+Jul 05 23:11:36 <amrita>	its running
+Jul 05 23:11:37 <kushal>	Kishan, that is from linux guys 
+Jul 05 23:11:46 <rtnpro>	munichlinux, what was the significance of chmod +x hello.py
+Jul 05 23:11:47 <Kishan>	ok
+Jul 05 23:12:04 <kushal>	rtnpro, you go and read rishi's classes 
+Jul 05 23:12:04 <HereBePython>	rtnpro, man chmod
+Jul 05 23:12:08 <kushal>	rtnpro, then come back 
+Jul 05 23:12:17 <rtnpro>	ok
+Jul 05 23:12:25 <munichlinux>	rtnpro, read man page # man chmod
+Jul 05 23:12:26 <kushal>	rtnpro, it clearly indicates you are not at following 
+Jul 05 23:12:28 <arpita>	showing syntax error while running
+Jul 05 23:12:36 <bose_aritra>	kushal, after doing chmod +x p1,py its running
+Jul 05 23:12:38 <HereBePython>	arpita, what error?
+Jul 05 23:12:39 <kushal>	arpita, paste the error 
+Jul 05 23:12:45 <kushal>	arpita, in rafb
+Jul 05 23:12:58 <kushal>	bose_aritra, I asked you to do that ^^ see my words 
+Jul 05 23:13:47 <kushal>	arpita, ??
+Jul 05 23:13:55 <Kishan>	still not running...says windows can not find the file helloworld.py
+Jul 05 23:14:30 <tuxmaniac>	Kishan: open dos prompt
+Jul 05 23:14:48 <kushal>	Kishan, you are supposed to be in the same folder of the file 
+Jul 05 23:14:53 <tuxmaniac>	Kishan: go to the directory where the file is by using "cd"
+Jul 05 23:14:59 <kushal>	Kishan, first go to that directory 
+Jul 05 23:15:05 <Kishan>	oh!...ok
+Jul 05 23:15:10 <Kishan>	thanks
+Jul 05 23:15:14 <kushal>	arpita, are you there ?
+Jul 05 23:15:25 <arpita>	yes trying once again
+Jul 05 23:15:34 <kushal>	arpita, ok
+Jul 05 23:15:35 <HereBePython>	arpita, arrr, show us the error, plz
+Jul 05 23:15:41 <rtnpro>	munichlinux, got it...thanks
+Jul 05 23:15:52 <munichlinux>	rtnpro, cool
+Jul 05 23:15:53 <HereBePython>	arpita, let others too know what error you got and how to fix it
+Jul 05 23:16:24 <Kishan>	kushal, got it...its working...thanks...
+Jul 05 23:16:37 <kushal>	Kishan, ok 
+Jul 05 23:18:14 <kushal>	arpita, ! ?
+Jul 05 23:18:21 <arpita>	yes got it
+Jul 05 23:18:31 <kushal>	for everone else working ? yes/no 
+Jul 05 23:18:46 <amrita>	yes
+Jul 05 23:18:55 <bose_aritra>	yes
+Jul 05 23:19:23 <kushal>	only two ?
+Jul 05 23:19:31 <mavu>	yes
+Jul 05 23:19:34 <susenj>	kushal...me too
+Jul 05 23:19:38 <rtnpro>	yes ....
+Jul 05 23:20:12 <kushal>	ok
+Jul 05 23:20:18 <kushal>	moving on 
+Jul 05 23:20:33 <kushal>	In python indentation is a very critical thing 
+Jul 05 23:20:49 <kushal>	that means you have to be careful with white spaces 
+Jul 05 23:20:51 <kushal>	try this 
+Jul 05 23:21:08 <kushal>	 a = 10    (look that blank space before a)
+Jul 05 23:21:30 <kushal>	what it is telling ?
+Jul 05 23:21:34 <bose_aritra>	error
+Jul 05 23:21:40 <susenj>	indentation error
+Jul 05 23:21:45 <mavu>	File "<stdin>", line 1
+Jul 05 23:21:46 <mavu>	    a = 10
+Jul 05 23:21:46 <mavu>	    ^
+Jul 05 23:21:46 <mavu>	IndentationError: unexpected indent
+Jul 05 23:21:46 <mavu>	>>>
+Jul 05 23:21:57 <pushkal>	same
+Jul 05 23:22:01 <kushal>	mavu, don't flood the room 
+Jul 05 23:22:03 <Kishan>	same
+Jul 05 23:22:03 <bose_aritra>	^^^^^^ same
+Jul 05 23:22:03 <kushal>	ok
+Jul 05 23:22:10 <mavu>	sorry
+Jul 05 23:22:17 <kushal>	we will see indentation properly later on
+Jul 05 23:22:17 <rtnpro>	yes, same error
+Jul 05 23:22:37 <kushal>	in python to write comments , we use #
+Jul 05 23:22:43 <kushal>	#this is a comment 
+Jul 05 23:22:52 <kushal>	#        this is also a comment 
+Jul 05 23:23:10 <kushal>	Tell me how you write comments in C ? 
+Jul 05 23:23:40 <mavu>	 /*    */
+Jul 05 23:23:49 <bose_aritra>	 /*
+Jul 05 23:23:51 <drunkencoder>	correct :)
+Jul 05 23:24:06 <kushal>	bose_aritra, wrong, you have to finish it 
+Jul 05 23:24:07 <susenj>	/*        */
+Jul 05 23:24:08 <bose_aritra>	 /*
+Jul 05 23:24:20 <bose_aritra>	am doing that only
+Jul 05 23:24:32 <bose_aritra>	just a bit slow
+Jul 05 23:24:37 <kushal>	bose_aritra, where you did that , show us ?
+Jul 05 23:24:47 <bose_aritra>	typo
+Jul 05 23:24:48 <susenj>	"// one line comment"
+Jul 05 23:24:48 <bose_aritra>	oops
+Jul 05 23:24:57 <bose_aritra>	 /*     */
+Jul 05 23:25:09 <kushal>	susenj, I don't think that is allowed in C, in C++ yes 
+Jul 05 23:25:15 <kushal>	tuxmaniac, ^^ am I correct ?
+Jul 05 23:25:33 <susenj>	but ...it works, i  have seen
+Jul 05 23:25:39 <susenj>	<eof>
+Jul 05 23:25:50 <kushal>	susenj, try now in hello.c and tell us 
+Jul 05 23:25:50 <pushkal>	depends on the compiler <eof>
+Jul 05 23:25:56 <mavu>	/ is C++ style i guess... its perhaps because its the same compiler that both work .. @ susenj
+Jul 05 23:26:06 <mavu>	 //
+Jul 05 23:27:20 *	rangeen has quit ("Ah La La and Tata")
+Jul 05 23:27:36 *	rsa_md5 has quit ("Leaving")
+Jul 05 23:27:45 <kushal>	http://rafb.net/p/KwpOGU55.html  is what I a getting 
+Jul 05 23:27:51 <kushal>	anyway moving on 
+Jul 05 23:27:55 <tuxmaniac>	kushal: allowed
+Jul 05 23:28:10 <kushal>	tuxmaniac, for any standard ?
+Jul 05 23:28:24 <kushal>	tuxmaniac, I know at least not in ansi 
+Jul 05 23:28:28 <tuxmaniac>	kushal: but just not standard. For standards it is always better to use /* and */
+Jul 05 23:28:38 <kushal>	tuxmaniac, ok
+Jul 05 23:28:54 <kushal>	anyway 
+Jul 05 23:29:10 <kushal>	you already saw how to define variables 
+Jul 05 23:29:14 <kushal>	You can do like
+Jul 05 23:29:19 <kushal>	a =10
+Jul 05 23:29:22 <kushal>	b = 90
+Jul 05 23:29:26 <kushal>	c = a + b
+Jul 05 23:29:28 <kushal>	print c
+Jul 05 23:29:43 *	susenj_ (n=chatzill@59.178.160.245) has joined #dgplug
+Jul 05 23:30:26 <kushal>	you can assign more than one variable in a single statement 
+Jul 05 23:30:45 <kushal>	a, b = 90, 23
+Jul 05 23:31:16 <kushal>	^^ by using this style it is very easy to do swapping of two variables 
+Jul 05 23:31:22 <kushal>	a, b = b, a
+Jul 05 23:31:58 <kushal>	try above and tell me what are the values of a,b
+Jul 05 23:32:12 <arpita>	a=23,b=90
+Jul 05 23:32:31 <Kishan>	^^^^same
+Jul 05 23:32:37 <amrita>	same
+Jul 05 23:32:40 <bose_aritra>	same
+Jul 05 23:32:45 <kushal>	ok, that mens values got swapped 
+Jul 05 23:32:58 <Debashree>	same
+Jul 05 23:33:01 <kushal>	I hope you remember how many lines you have to write in C
+Jul 05 23:33:21 <bose_aritra>	:)
+Jul 05 23:33:52 <rtnpro>	yes
+Jul 05 23:34:12 <kushal>	Now , write one code to convert the given temperature to Celsius from Fahrenheit
+Jul 05 23:34:47 <kushal>	given temp is 75.0 degree Fahrenheit
+Jul 05 23:34:50 <kushal>	fast
+Jul 05 23:35:04 <kushal>	and show us the rafb link 
+Jul 05 23:36:59 <pushkal>	http://rafb.net/p/4fJdcr89.html
+Jul 05 23:37:51 <mavu>	http://rafb.net/p/Qz3iKw96.html
+Jul 05 23:38:53 <arpita>	http://rafb.net/p/4Ej74z40.html
+Jul 05 23:39:12 <kushal>	pushkal, give me in float result :)
+Jul 05 23:39:21 <kushal>	mavu, ^^ 
+Jul 05 23:39:22 <pushkal>	ok kushal ! :)
+Jul 05 23:39:33 <kushal>	arpita, ^^ 
+Jul 05 23:39:38 <Kishan>	http://rafb.net/p/wAqPYc36.html
+Jul 05 23:40:08 <pushkal>	http://rafb.net/p/q5ppZ558.html , kushal  !
+Jul 05 23:40:09 <kushal>	Kishan, ^^ see above 
+Jul 05 23:40:23 <mavu>	http://rafb.net/p/ljRm0S87.html
+Jul 05 23:40:37 <kushal>	ok
+Jul 05 23:40:37 <rtnpro>	kushal, http://rafb.net/p/XEl3y135.html
+Jul 05 23:40:44 <Kishan>	got it
+Jul 05 23:41:25 <kushal>	ok all
+Jul 05 23:41:37 <susenj_>	http://rafb.net/p/OqQAtr54.html
+Jul 05 23:41:50 <susenj_>	sorry...late<eof>
+Jul 05 23:41:52 <arpita>	http://rafb.net/p/aumaZy21.html
+Jul 05 23:41:54 <arpita>	in float
+Jul 05 23:42:18 <kushal>	ok
+Jul 05 23:42:22 <kushal>	moving on 
+Jul 05 23:42:38 <kushal>	You can use all arithmetic operators
+Jul 05 23:42:47 <kushal>	also the relational operators
+Jul 05 23:43:02 <kushal>	like < , > , >= <= ...
+Jul 05 23:43:27 <kushal>	/ is used to get floor division result
+Jul 05 23:43:31 <kushal>	 // is used to get floor division result
+Jul 05 23:43:37 <kushal>	try 
+Jul 05 23:43:48 <kushal>	10.0 // 3
+Jul 05 23:43:52 <kushal>	10.0 / 3
+Jul 05 23:44:24 <pushkal>	!
+Jul 05 23:44:25 <bose_aritra>	working
+Jul 05 23:44:40 <mavu>	working
+Jul 05 23:44:50 <rtnpro>	works
+Jul 05 23:44:50 <susenj_>	yes
+Jul 05 23:44:55 <bose_aritra>	for first case its 3, for second its 3.33333333335
+Jul 05 23:44:57 <pushkal>	'/' isnt giving the floor result
+Jul 05 23:45:09 <kushal>	pushkal, see the next line, that was a typo 
+Jul 05 23:45:18 <pushkal>	got it kushal  !
+Jul 05 23:45:49 <kushal>	There is something about True value and False value in Python 
+Jul 05 23:46:05 <kushal>	We have True and False as keywords 
+Jul 05 23:46:44 *	susen1 (n=student@59.178.160.245) has joined #dgplug
+Jul 05 23:47:01 <kushal>	anything other than 0, False and empty default data structure, is True 
+Jul 05 23:47:10 <kushal>	^^ above stated things are False
+Jul 05 23:47:20 <kushal>	we will talk later on data structure 
+Jul 05 23:47:41 <kushal>	You can use short hand operators like += , *=
+Jul 05 23:48:15 <kushal>	We don't have character type ehere
+Jul 05 23:48:25 <kushal>	here
+Jul 05 23:48:27 *	susenj_ (n=chatzill@59.178.160.245) has left #dgplug
+Jul 05 23:48:34 <kushal>	We have String type
+Jul 05 23:48:50 <kushal>	to define a string use double or single quotes 
+Jul 05 23:48:53 <kushal>	like 
+Jul 05 23:49:00 <kushal>	"kushal" , 'shjakhds'
+Jul 05 23:49:14 <kushal>	"I don't"
+Jul 05 23:49:25 <kushal>	'Here is double quote ""'
+Jul 05 23:49:48 *	susenj has quit (Read error: 110 (Connection timed out))
+Jul 05 23:50:18 <kushal>	everyone ok ?
+Jul 05 23:50:23 <mavu>	hmm
+Jul 05 23:50:29 <Kishan>	yes
+Jul 05 23:50:45 <bose_aritra>	yup
+Jul 05 23:50:45 <kushal>	others ?
+Jul 05 23:50:47 <susen1>	yep
+Jul 05 23:51:13 <Prakhar>	yup
+Jul 05 23:51:16 <arpita>	yes
+Jul 05 23:51:20 <kushal>	ok
+Jul 05 23:51:40 <rtnpro>	ok
+Jul 05 23:52:02 <amrita>	yees
+Jul 05 23:52:07 <khushi_>	yes
+Jul 05 23:52:28 <kushal>	ok
+Jul 05 23:52:43 <kushal>	Now I am going to talk about some basic string features
+Jul 05 23:52:51 <kushal>	ask questions when I say STOP 
+Jul 05 23:53:42 <kushal>	You can create strings of multiple lines using triple double quotes or triple single quotes 
+Jul 05 23:54:11 <kushal>	To add(concatenation) of strings we use +
+Jul 05 23:54:32 <kushal>	strings are indexed 
+Jul 05 23:54:36 <kushal>	like in array in C
+Jul 05 23:54:40 <kushal>	so you can do like
+Jul 05 23:54:43 <kushal>	s = "abcd"
+Jul 05 23:54:46 <kushal>	s[0]
+Jul 05 23:54:48 *	youngling is now known as pradeepto
+Jul 05 23:54:55 <kushal>	which will print a
+Jul 05 23:55:40 <kushal>	to print 0 to 3rd position of the string
+Jul 05 23:55:44 <kushal>	s[0:4]
+Jul 05 23:55:58 <kushal>	^^ which  can written as s[:4]
+Jul 05 23:56:18 <kushal>	so you can write even this s[2:4]
+Jul 05 23:56:35 <kushal>	index can be negetive
+Jul 05 23:56:39 *	Debashree has quit (Read error: 104 (Connection reset by peer))
+Jul 05 23:56:46 <kushal>	which will be counted from the right side
+Jul 05 23:56:52 <kushal>	so s[-1] will give d
+Jul 05 23:57:33 <kushal>	to see the size of a string use len function 
+Jul 05 23:57:36 <kushal>	len(s)
+Jul 05 23:57:40 <kushal>	will give you 4
+Jul 05 23:58:23 <kushal>	<STOP>
+Jul 05 23:58:30 <kushal>	ask questions if any
+Jul 05 23:58:32 <Kishan>	!
+Jul 05 23:59:02 <rtnpro>	!
+Jul 05 23:59:16 <Kishan>	cant we do s[-1:-4]
+Jul 05 23:59:18 <Kishan>	?
+Jul 05 23:59:35 <kushal>	Kishan, try ans see yourself 
+Jul 05 23:59:39 <kushal>	rtnpro, yes
+Jul 05 23:59:41 <Kishan>	result gives ' '
+Jul 05 23:59:45 <Kishan>	always
+Jul 06 00:00:09 <rtnpro>	whats the significance of 4 in [0:4] and [2:4]
+Jul 06 00:00:12 *	Debashree (n=Debashre@61.2.164.106) has joined #dgplug
+Jul 06 00:00:46 <kushal>	rtnpro, upto 4 -1 th position 
+Jul 06 00:00:59 <rtnpro>	ok
+Jul 06 00:01:04 <kushal>	rtnpro, so it will print like s[0], s[1], s[2], s[3]
+Jul 06 00:01:16 <rtnpro>	ok thanks
+Jul 06 00:01:19 <kushal>	The actual syntax for slicing is 
+Jul 06 00:02:38 <kushal>	anyone else ?
+Jul 06 00:02:43 <pushkal>	!
+Jul 06 00:02:45 <Kishan>	!
+Jul 06 00:02:53 <kushal>	pushkal, yes
+Jul 06 00:02:59 <pushkal>	s[-1:-4]
+Jul 06 00:03:16 <kushal>	^^ to explain this
+Jul 06 00:03:23 <pushkal>	yes
+Jul 06 00:03:25 <kushal>	the actual syntax is 
+Jul 06 00:03:31 <kushal>	s[from , to , offset]
+Jul 06 00:03:39 <kushal>	by default offset is 1
+Jul 06 00:03:48 <pushkal>	oh
+Jul 06 00:03:52 <kushal>	which becomes a false in ^^ case
+Jul 06 00:03:58 <kushal>	so, to see from right side
+Jul 06 00:04:02 <kushal>	you should write
+Jul 06 00:04:06 <arpita>	!
+Jul 06 00:04:32 <kushal>	s[-1:-4:-1]
+Jul 06 00:04:38 <kushal>	arpita, yes please 
+Jul 06 00:05:00 <arpita>	offset here means size of each slice??
+Jul 06 00:05:37 <kushal>	arpita, offset means how much you want jump everytime (almost what you said )
+Jul 06 00:05:46 <kushal>	all , try with a bigger string 
+Jul 06 00:05:54 <kushal>	and offset like 2 or 3
+Jul 06 00:06:43 <pushkal>	s[-1:-4:-1] gives 'dcb'... where is the 'a' ?
+Jul 06 00:06:54 <rtnpro>	kushal, !
+Jul 06 00:07:23 <kushal>	pushkal, if you start with d as -1 what is the value of a ?
+Jul 06 00:07:46 <rtnpro>	kushal, does it mean that the magnitude of the value in 'to' always gets reduced by 1
+Jul 06 00:07:54 <pushkal>	-4, kushal
+Jul 06 00:08:02 <rtnpro>	kushal, is it?
+Jul 06 00:08:20 <rtnpro>	kushal, thats why b is in -3
+Jul 06 00:08:32 <kushal>	pushkal, yes, then try s[-1:-5:-1]
+Jul 06 00:08:50 <pushkal>	that shows it, thanks !
+Jul 06 00:08:53 <kushal>	rtnpro, yes not just reduced, but by the offset 
+Jul 06 00:08:54 <rtnpro>	kushal, !
+Jul 06 00:09:17 <kushal>	rtnpro, yes 
+Jul 06 00:10:38 *	pradeepto (n=pradeept@59.184.244.17) has left #dgplug ("Konversation terminated!")
+Jul 06 00:12:18 <kushal>	so , no questions ?
+Jul 06 00:12:32 *	susenj (n=chatzill@59.178.160.245) has joined #dgplug
+Jul 06 00:12:35 *	arpita_ (n=arpita@117.201.96.243) has joined #dgplug
+Jul 06 00:12:57 *	susenj (n=chatzill@59.178.160.245) has left #dgplug
+Jul 06 00:13:39 <kushal>	ok, then I am stopping here
+Jul 06 00:13:48 <kushal>	<--CLASS OVER-->

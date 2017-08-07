@@ -1,0 +1,250 @@
+Jul 22 19:00:14 <kushal>	<--SESSION STARTED-->
+Jul 22 19:00:17 <kushal>	Roll Call
+Jul 22 19:00:25 <amrita>	amrita mukherjee
+Jul 22 19:00:32 <kishanGoyal>	kishan goyal
+Jul 22 19:00:40 <Kkhushi>	khushbu mohta
+Jul 22 19:00:50 <arpita>	kushal, right now i am trying to do everything again but on typing   svn co http://dgplug.org/training
+Jul 22 19:00:51 <arpita>	   svn: PROPFIND request failed on '/training'
+Jul 22 19:00:51 <arpita>	svn: PROPFIND of '/training': Could not resolve hostname `dgplug.org': Temporary failure in name resolution (http://dgplug.org)
+Jul 22 19:00:58 <arpita>	it is showing the above error
+Jul 22 19:01:29 <kushal>	amrita, you ever heard about rafb ?
+Jul 22 19:01:42 <kushal>	arpita, next time you will do it, I will kick you out 
+Jul 22 19:01:58 <arpita>	kushal, sorry
+Jul 22 19:02:01 <kushal>	arpita, btw, that error means your DNS server can not resolve dgplug.org 
+Jul 22 19:02:29 <arpita>	kushal, but yesterday it had worked fine
+Jul 22 19:02:36 <arpita>	kushal, why not now?
+Jul 22 19:02:59 <kushal>	arpita, ask your ISP 
+Jul 22 19:04:21 *	amrita_ (n=amrita@117.201.97.159) has joined #dgplug
+Jul 22 19:04:27 *	amrita_ has quit (Client Quit)
+Jul 22 19:04:58 <kushal>	so, many of you still never checked in anything 
+Jul 22 19:07:36 <kushal>	any question ?
+Jul 22 19:09:32 *	arpita has quit ("Leaving")
+Jul 22 19:09:41 <kushal>	ok moving on 
+Jul 22 19:09:43 <amrita>	kushal, !
+Jul 22 19:09:46 <kushal>	amrita, yhes
+Jul 22 19:09:47 <kushal>	yes
+Jul 22 19:10:10 <amrita>	kushal, yesterday when i was trying to fix the problem
+Jul 22 19:10:35 <kushal>	amrita, you never read what I typed here 
+Jul 22 19:10:53 <amrita>	kushal, what?
+Jul 22 19:11:00 <kushal>	amrita, nothing , please go on 
+Jul 22 19:11:45 <amrita>	kushal, i had the file prime3.c in a folder named "files" in my home
+Jul 22 19:12:09 <kushal>	yes
+Jul 22 19:12:20 <amrita>	kushal, when i did svn add prime3.c from the file folder it showed some error
+Jul 22 19:12:40 <amrita>	kushal, http://rafb.net/p/MijPZ951.html
+Jul 22 19:13:08 <amrita>	kushal, i could not use the command svn add
+Jul 22 19:13:09 <kushal>	amrita, yes
+Jul 22 19:13:29 <kushal>	amrita, yes as "files" directory is not under any svn repo 
+Jul 22 19:13:39 <kushal>	amrita, you can not add anything randomly to the repo 
+Jul 22 19:13:58 <kushal>	svn command will work for the things only under repo
+Jul 22 19:14:16 <kushal>	amrita, this case , "training" directory 
+Jul 22 19:14:27 <amrita>	kushal, ok understood
+Jul 22 19:14:53 <kushal>	ok
+Jul 22 19:15:01 <kushal>	anything more ?
+Jul 22 19:15:24 <kushal>	now a funny part of svn command 
+Jul 22 19:15:52 <kushal>	I need two volunteers who are having some file under their folder 
+Jul 22 19:16:45 <kushal>	anyone ?
+Jul 22 19:17:40 <kushal>	so let me choose 
+Jul 22 19:17:51 <kushal>	amrita, and Kkhushi 
+Jul 22 19:18:08 <kushal>	Kkhushi, ping
+Jul 22 19:18:17 <Kkhushi>	kushal, ok
+Jul 22 19:18:30 <amrita>	kushal, i have only one file under my folder
+Jul 22 19:18:37 <kushal>	Kkhushi, please go to amrita directory under trunk
+Jul 22 19:19:01 <Kkhushi>	kushal, done
+Jul 22 19:19:09 <kushal>	Kkhushi, then add some random line in the prime3.c 
+Jul 22 19:19:12 <kushal>	and commit 
+Jul 22 19:21:18 <kushal>	Kkhushi, ?
+Jul 22 19:21:45 *	arpita (n=arpita@117.201.97.0) has joined #dgplug
+Jul 22 19:21:52 <kushal>	Kkhushi, you there ?
+Jul 22 19:22:00 <kushal>	can anyone else do that ?
+Jul 22 19:22:02 <kushal>	please 
+Jul 22 19:22:07 <Kkhushi>	kushal, dont i have to add it again
+Jul 22 19:22:15 <kushal>	Kkhushi, no, it is already added 
+Jul 22 19:22:21 <kushal>	Kkhushi, just commit 
+Jul 22 19:23:21 <Kkhushi>	kushal, done
+Jul 22 19:23:30 <kushal>	everyone please do svn up
+Jul 22 19:25:06 <kushal>	Kkhushi, eh, you don't know how to mess with other's code :p
+Jul 22 19:25:27 <kushal>	I also made some changes 
+Jul 22 19:25:57 <kushal>	current revision is 30
+Jul 22 19:26:07 <arpita>	 
+Jul 22 19:26:07 <arpita>	<arpita> one problem that i was not facing yesterday....on typing  svn co http://dgplug.org/training in terminal it is showing output checked out revision
+Jul 22 19:26:07 <arpita>	< can you please help?
+Jul 22 19:26:45 <kushal>	amrita, I can not see any error 
+Jul 22 19:26:59 *	ecntrk (n=ecntrk_@117.194.1.185) has joined #dgplug
+Jul 22 19:27:18 <arpita>	kushal, no we should get the training/trunk written that is not visible
+Jul 22 19:27:22 <amrita>	kushal, i think i need to change my name:p
+Jul 22 19:27:31 <kushal>	amrita, oh
+Jul 22 19:27:52 <kushal>	arpita, can't you see any directory called training there 
+Jul 22 19:28:02 <kushal>	arpita, please show us the actual error 
+Jul 22 19:28:29 <kushal>	btw, everyone do svn up
+Jul 22 19:28:48 <arpita>	kushal, yes i am able to enter into training/trunk now
+Jul 22 19:29:09 <kushal>	svn up done 
+Jul 22 19:29:19 <kushal>	?
+Jul 22 19:29:23 <kushal>	yes/no ?
+Jul 22 19:29:50 <Kkhushi>	yes
+Jul 22 19:30:00 <kishanGoyal>	yes
+Jul 22 19:31:02 <kushal>	now think a case
+Jul 22 19:31:12 <kushal>	we are telling amrita you did wrong 
+Jul 22 19:31:23 <kushal>	and she is telling no she never made those changes 
+Jul 22 19:31:38 <kushal>	to find out who made which change use the command 
+Jul 22 19:31:45 <kushal>	svn blame filename 
+Jul 22 19:31:48 <kushal>	try and see
+Jul 22 19:33:06 <viggy_prabhu>	kushal: i got this when i did svn up
+Jul 22 19:33:15 <viggy_prabhu>	"Skipped '.'
+Jul 22 19:33:16 <viggy_prabhu>	"
+Jul 22 19:33:27 <kushal>	viggy_prabhu, use rafb.net please 
+Jul 22 19:33:35 <viggy_prabhu>	oh sorry
+Jul 22 19:33:50 <kushal>	viggy_prabhu, yes, as you are not inside any directory which is under svn control 
+Jul 22 19:34:03 <kushal>	what you can see from svn blame ?
+Jul 22 19:36:13 *	arpita has quit ("Leaving")
+Jul 22 19:36:52 <Kkhushi>	kushal, svn blame shows the name of the person who made the changes along with eachline
+Jul 22 19:37:08 <kushal>	Kkhushi, yes
+Jul 22 19:37:16 <kushal>	amrita, you can also check the logs
+Jul 22 19:37:18 <kushal>	by 
+Jul 22 19:37:24 <kushal>	svn log prime3.c 
+Jul 22 19:37:30 *	Debashree (n=Debashre@117.201.97.18) has joined #dgplug
+Jul 22 19:39:38 <viggy_prabhu>	kushal: !
+Jul 22 19:39:42 <kushal>	viggy_prabhu, yes please
+Jul 22 19:40:07 <viggy_prabhu>	kushal: yesterday when i had last checked out, the revision number was 11
+Jul 22 19:40:20 <viggy_prabhu>	kushal: today when i checked out, the revision number is 11
+Jul 22 19:40:21 <kushal>	yes
+Jul 22 19:40:24 <viggy_prabhu>	sorry, 30
+Jul 22 19:40:27 <kushal>	yes
+Jul 22 19:40:34 <kushal>	viggy_prabhu, no need to check out everytime
+Jul 22 19:40:43 *	mintos (n=mvaliyav@nat/redhat-in/x-e539dd19d3a47071) has joined #dgplug
+Jul 22 19:40:48 <kushal>	viggy_prabhu,  do a svn up in the old checkout itself 
+Jul 22 19:40:50 <viggy_prabhu>	is there any file which keeps record of this
+Jul 22 19:40:57 <kushal>	viggy_prabhu, yes, svn itself 
+Jul 22 19:41:03 *	ecntr1 (n=ecntrk_@117.194.1.153) has joined #dgplug
+Jul 22 19:41:08 <ecntr1>	kushal: !
+Jul 22 19:41:17 <viggy_prabhu>	no but i want to know the revision number which i have checked out
+Jul 22 19:41:17 *	Debashree has quit (Client Quit)
+Jul 22 19:41:18 <kushal>	ecntr1, yes please 
+Jul 22 19:41:22 <ecntr1>	http://rafb.net/p/ljBWP060.html
+Jul 22 19:41:29 <kushal>	viggy_prabhu, do a svn log 
+Jul 22 19:42:27 <kishanGoyal>	 kushal i was reading the yesterday's logs ..(missed last class)..please see this error...=   http://rafb.net/p/UR2w1l69.html
+Jul 22 19:42:46 <kushal>	kishanGoyal, use ! from next time
+Jul 22 19:42:53 *	amrita_ (n=amrita@117.201.96.111) has joined #dgplug
+Jul 22 19:42:58 <viggy_prabhu>	kushal: that gave me the changes made in each and every revisions
+Jul 22 19:42:59 <kishanGoyal>	sorry..
+Jul 22 19:43:12 <viggy_prabhu>	kushal: but i want only those which were made in my computer
+Jul 22 19:43:18 <kushal>	viggy_prabhu, you can see the last revision 
+Jul 22 19:43:19 *	amrita has quit (Nick collision from services.)
+Jul 22 19:43:23 <kushal>	viggy_prabhu, means >
+Jul 22 19:43:24 <kushal>	?
+Jul 22 19:43:26 *	amrita_ is now known as amrita
+Jul 22 19:44:32 <viggy_prabhu>	kushal: like is there a file which stores in my computer that 21july revision 11 checked out, 22july revision 30 checked out.....
+Jul 22 19:44:43 <ecntr1>	kushal: !
+Jul 22 19:44:47 <kushal>	viggy_prabhu, yes
+Jul 22 19:44:51 <kushal>	ecntr1, wait 
+Jul 22 19:44:54 <ecntr1>	did you see the link?
+Jul 22 19:44:59 <kushal>	yes
+Jul 22 19:45:07 <ecntr1>	<eof>
+Jul 22 19:45:17 <viggy_prabhu>	kushal: which file?
+Jul 22 19:45:41 <kushal>	viggy_prabhu, you know which file isn't it ?
+Jul 22 19:46:09 <viggy_prabhu>	kushal: sorry didnt get you.
+Jul 22 19:47:15 <kushal>	viggy_prabhu, what do you mean by "viggy_prabhu> kushal: which file?" 
+Jul 22 19:47:27 <kushal>	ecntr1, what you wanted from it ?
+Jul 22 19:48:41 <viggy_prabhu>	kushal: in which file is the revision numbers which i have checked out are stored in my computer?
+Jul 22 19:49:08 <kushal>	viggy_prabhu, see in .svn folder, if you can find there, I am just a user 
+Jul 22 19:49:20 <viggy_prabhu>	kushal: ok cool
+Jul 22 19:49:27 <viggy_prabhu>	kushal: <eof>
+Jul 22 19:49:45 <ecntr1>	kushal: Actually.. i can't understand what it really meant...
+Jul 22 19:49:50 <ecntr1>	<eof>
+Jul 22 19:51:16 <kushal>	ecntr1, left hand side line numbers, and then user name who changed that line last time
+Jul 22 19:51:25 *	amrita_ (n=amrita@117.201.96.111) has joined #dgplug
+Jul 22 19:51:30 *	amrita_ has quit (Client Quit)
+Jul 22 19:52:24 <amrita>	kushal, !
+Jul 22 19:52:31 <kushal>	amrita, yes please 
+Jul 22 19:52:35 <ecntr1>	but kushal, how it's possible that somebody else (kkhushi) changed Amrita's file?
+Jul 22 19:52:45 <amrita>	kushal, on doing svn stat
+Jul 22 19:52:52 <ecntr1>	<eof>
+Jul 22 19:53:00 <kushal>	ecntr1, because all you are having commit access on the project 
+Jul 22 19:53:07 <kushal>	"training"
+Jul 22 19:53:10 <amrita>	kushal, !  +   amrita
+Jul 22 19:53:19 <kushal>	amrita, yes please 
+Jul 22 19:53:29 <ecntr1>	ok<eof>
+Jul 22 19:53:33 <amrita>	kushal, what does that mean?
+Jul 22 19:53:45 <kushal>	amrita, show me on rafb
+Jul 22 19:53:50 <kishanGoyal>	!
+Jul 22 19:53:53 <kushal>	kishanGoyal, yes 
+Jul 22 19:54:02 <kishanGoyal>	http://rafb.net/p/UR2w1l69.html
+Jul 22 19:54:21 <kushal>	kishanGoyal, ah, use username kishan 
+Jul 22 19:54:22 <kushal>	:
+Jul 22 19:54:23 <kushal>	:p
+Jul 22 19:54:32 <kishanGoyal>	ok..
+Jul 22 19:56:06 <kishanGoyal>	same error again!!!
+Jul 22 19:56:19 *	amrita_ (n=amrita@117.201.97.127) has joined #dgplug
+Jul 22 19:56:25 *	munichlinux has quit (Remote closed the connection)
+Jul 22 19:56:47 *	amrita has quit (Nick collision from services.)
+Jul 22 19:56:52 *	amrita_ is now known as amrita
+Jul 22 19:57:30 <amrita>	kushal, sorry got dc , did you gave my answer?
+Jul 22 19:57:41 <kishanGoyal>	http://rafb.net/p/mAAiwA97.html
+Jul 22 19:57:55 <kushal>	amrita, show me on rafb, can not understand here
+Jul 22 19:58:04 <amrita>	ok
+Jul 22 19:58:43 <amrita>	kushal, http://rafb.net/p/mgJxAB41.html
+Jul 22 19:58:47 <kushal>	amrita, you made any local changes
+Jul 22 19:58:59 <amrita>	kushal, no
+Jul 22 19:59:22 <kushal>	amrita, what is the out put of pwd 
+Jul 22 19:59:23 <kushal>	?
+Jul 22 19:59:58 <amrita>	http://rafb.net/p/mgJxAB41.html
+Jul 22 20:00:02 <amrita>	oops
+Jul 22 20:00:20 <amrita>	/home/amrita/training/trunk/amrita
+Jul 22 20:00:37 <kushal>	ok
+Jul 22 20:01:02 <kishanGoyal>	kushal: done...getting this..=  http://rafb.net/p/wbRzmG66.html
+Jul 22 20:01:14 <kushal>	amrita, try svn revert on that file/folder 
+Jul 22 20:02:09 *	mether has quit (Read error: 113 (No route to host))
+Jul 22 20:03:34 <amrita>	kushal, done but same thing
+Jul 22 20:04:00 *	S_2 (n=Packager@117.192.8.202) has joined #dgplug
+Jul 22 20:04:13 *	Debashree (n=Debashre@117.201.96.174) has joined #dgplug
+Jul 22 20:04:20 <kushal>	amrita, pm me please
+Jul 22 20:04:21 *	ecntrk has quit (Read error: 110 (Connection timed out))
+Jul 22 20:04:32 *	S_2 (n=Packager@117.192.8.202) has left #dgplug ("Leaving")
+Jul 22 20:05:00 *	F_ (n=Packager@117.192.8.202) has joined #dgplug
+Jul 22 20:05:16 *	F_ (n=Packager@117.192.8.202) has left #dgplug ("Leaving")
+Jul 22 20:05:38 <kushal>	kishanGoyal, ok
+Jul 22 20:06:06 <kushal>	any other question ?
+Jul 22 20:06:34 <kishanGoyal>	not yet
+Jul 22 20:07:37 <kushal>	amrita, I just did , svn revert amrita 
+Jul 22 20:07:47 <kushal>	it got fixed, no idea why it happened 
+Jul 22 20:08:44 <kushal>	amrita, btw, you have many files on your home folder, put them in different directories, clean the home :p
+Jul 22 20:08:50 <kushal>	now next task
+Jul 22 20:08:56 <amrita>	ok
+Jul 22 20:09:14 <kushal>	amrita, if you want to change back to the last version you changed on prime3.c 
+Jul 22 20:09:27 <kushal>	amrita, do a svn log prime3.c
+Jul 22 20:09:47 *	amrita_ (n=amrita@117.201.97.127) has joined #dgplug
+Jul 22 20:09:52 *	amrita_ has quit (Client Quit)
+Jul 22 20:09:58 <amrita>	ok
+Jul 22 20:10:25 <kushal>	amrita, now you can see all changes made on that file
+Jul 22 20:10:34 <kushal>	amrita, like last change you made was ?
+Jul 22 20:10:42 <kushal>	amrita, tell me the revision number 
+Jul 22 20:11:07 <amrita>	kushal, 25
+Jul 22 20:11:20 <kushal>	amrita, and the current revision ?
+Jul 22 20:11:31 <amrita>	kushal, 30
+Jul 22 20:12:10 <kushal>	amrita, so from 30 to change back to 25 do 
+Jul 22 20:12:26 <kushal>	svn merge -r 30:25 prime3.c 
+Jul 22 20:12:33 <kushal>	then do svn stat
+Jul 22 20:12:38 <kushal>	and see the file next 
+Jul 22 20:13:54 *	S_pack_F (n=Packager@117.192.8.202) has joined #dgplug
+Jul 22 20:14:06 <kushal>	amrita, what you can see /
+Jul 22 20:14:06 <kushal>	?
+Jul 22 20:14:07 <amrita>	kushal, done
+Jul 22 20:15:25 <amrita>	kushal, M      prime3.c
+Jul 22 20:16:07 <kushal>	amrita, that means it is modified 
+Jul 22 20:16:11 <kushal>	so commit itr 
+Jul 22 20:16:12 <kushal>	now
+Jul 22 20:16:24 <kushal>	with a message that you reverted it to revision 25
+Jul 22 20:16:25 <Kkhushi>	svn up
+Jul 22 20:16:29 <Kkhushi>	oops
+Jul 22 20:16:44 <kushal>	:)
+Jul 22 20:18:53 *	Kkhushi_ (n=khushbu@59.180.157.113) has joined #dgplug
+Jul 22 20:19:13 *	Kkhushi has quit (Nick collision from services.)
+Jul 22 20:19:19 *	Kkhushi_ is now known as Kkhushi
+Jul 22 20:20:00 *	kushal has kicked S_pack_F from #dgplug (kushal)
+Jul 22 20:20:27 *	kushal hates unknown coming to room and starting pms 
+Jul 22 20:21:26 <kushal>	any questions ?
+Jul 22 20:21:26 *	S_pack_F (n=Packager@117.192.8.202) has joined #dgplug
+Jul 22 20:21:45 <kushal>	please please try to revert files you have
+Jul 22 20:24:47 *	Debashree_ (n=Debashre@117.201.97.198) has joined #dgplug
+Jul 22 20:27:26 <kushal>	any questions ?
+Jul 22 20:29:50 <kushal>	I will check python home works tomorrow 
+Jul 22 20:30:01 <kushal>	<--SESSION STOPPED-->

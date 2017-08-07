@@ -1,0 +1,250 @@
+[10:10:53] [## Class Started at Wed Jul 17 10:10:53 2013 ##]
+[10:10:53] <kushal> startclass
+[10:11:06] <kushal> ------SESSION STARTS-------------
+[10:11:15] <kushal> pingall: Roll call
+[10:11:18] <tenstormavi> Avinash Kumar Dasoundhi
+[10:11:22] <rashmi> Rashmi
+[10:11:25] <nilanjit> Nilanjit Mitra
+[10:11:25] <anuragk> anurag kumar
+[10:11:27] <kavis_1> kavis khandelwal
+[10:11:27] <shantanu> Shantanu Sarkar
+[10:11:27] <dot|not> dot|not,
+[10:11:27] <chandankumar> Chandan Kumar
+[10:11:29] <devyani> Devyani
+[10:11:29] <iam_sudip> iam_sudip
+[10:11:30] <rahulch> Rahul Chowdhury
+[10:11:32] <puspita> Puspita Ghosh
+[10:11:32] <sayan> Sayan Chowdhury
+[10:11:34] <souradeep> Souradeep De
+[10:11:35] <kushal> Kushal Das
+[10:11:41] <amresh> Amresh Kumar / Christina Beemer
+[10:11:45] <rtnpro_> Ratnadeep Debnath
+[10:11:49] <piotrektt> Piotr Bednarek
+[10:11:59] <prikotiyal> Priyanka Kotiyal
+[10:12:14] <ncoghlan> Nick Coghlan
+[10:12:21] <kushal> :)
+[10:12:31] <pjp> :)
+[10:12:37] <kushal> so we can start our first guest session this year
+[10:12:43] <kushal> ncoghlan, stage is yours :)
+[10:12:49] <ncoghlan> cheers
+[10:13:16] <ncoghlan> kushal asked me to start by explaining how I got started with Python, so that's what I'll do :)
+[10:13:44] <ncoghlan> these days I work almost entirely on Linux, but I didn't get started with Python that way
+[10:13:48] <J_Caselles> Josep Caselles
+[10:14:06] <ncoghlan> my first job out of university was programming digital signal processors
+[10:14:21] <ncoghlan> and we had a lot of problems with defects getting through my testing
+[10:14:44] <ncoghlan> so I needed a better way to run unit tests on a Windows NT host, to test the behaviour of the DSPs
+[10:14:51] <manishjain2792> manish
+[10:15:08] <ncoghlan> the project was way over budget already, so "free" was major factor in choosing something
+[10:15:38] <ncoghlan> the Python 2.2.2 unittest module + SWIG to wrap our custom DSP driver module was my answer
+[10:16:17] <ncoghlan> I found I rather liked the language, and started hanging out on python-list/comp.lang.python and python-dev
+[10:16:45] <ncoghlan> I'm too opinionated to lurk very well, so I started participating actively on both lists rather than just reading
+[10:17:13] <ncoghlan> eventually the python-list volume got too much for me to keep up with so, so I don't read that any more :(
+[10:17:56] <ncoghlan> around 2004 I think I submitted my first patch - one of those ones where a mailing list discussion had been spinning on for a while
+[10:18:10] <ncoghlan> and the best way to end it seemed to be to just provide some code
+[10:18:26] <ncoghlan> and thus Python 2.4 came with the -m switch to run a top level module as a script
+[10:18:52] <ncoghlan> and then it took me until Python 2.7 to actually finish making the thing work properly ;)
+[10:19:36] <ncoghlan> (from another point of view, it only *really* works properly in 3.3 - that's the first time it is using the true import system rather than an emulation)
+[10:20:42] <ncoghlan> my path to becoming a core developer probably isn't one I'd recommend as a general tactic: I got commit privileges by arguing with Guido about a PEP he wrote :)
+[10:21:14] <ncoghlan> that was PEP 340, his original "block" PEP that was... mind-blowing
+[10:21:34] <ncoghlan> incredibly powerful proposal, incredibly mind-bending to try to figure out when and how you would use it
+[10:21:56] rahulch_ is now known as rahulch
+[10:22:20] <ncoghlan> I wasn't the only one who had issues with it, but I was the one who had the time and inclination to write a competing PEP (eventually published on python.org as PEP 436)
+[10:22:32] <ncoghlan> err, 346 rather
+[10:23:07] <ncoghlan> Guido didn't like my specific proposal, but he could see merit in some of the objections
+[10:23:28] <ncoghlan> so he rejected both his own PEP and mine, and we ended up with two other PEPs
+[10:23:41] <ncoghlan> PEP 342, which added the send() and throw() methods to generators
+[10:24:15] <ncoghlan> and one which has consequences most pythonistas will be familiar with: PEP 343, which added context managers and the with statement to the language
+[10:25:19] <ncoghlan> the way I ended up with commit privileges out of all that, is that Guido gave them to me when PEP 343 needed some significant updates, and he didn't have time to do them himself :)
+[10:26:03] <ncoghlan> it's a roundabout way to get commit privileges, though - most sensible people do it by being active on the issue tracker and providing multple good patches
+[10:26:12] <ncoghlan> without the "arguing with Guido" part :)
+[10:26:58] <ncoghlan> he's a very smart fellow and we're lucky to have him as Python's BDFL, but that isn't the same thing as always being right :)
+[10:27:27] kirk is now known as Guest69994
+[10:28:27] <ncoghlan> and *being* a core developer isn't all that different from *becoming* a core developer - write patches, review patches, participated in design discussions
+[10:28:51] <ncoghlan> the additional power we get is to say "yes, that's a good idea, we'll do that" :)
+[10:29:37] <ncoghlan> shall we move on to the Q&A now?
+[10:29:46] <kushal> ncoghlan, ok
+[10:30:04] <kushal> every one, feel free to ask question, follow ! rule :)
+[10:30:29] <dot|not> !
+[10:30:38] <kushal> dot|not, ask
+[10:31:28] <dot|not> What was your motivation to actively commit to the development of the language? The will to give something back? Just for fun? A mix of both? Something different? <EOF>
+[10:32:03] <kushal> ncoghlan, ^^
+[10:32:05] <pingou> !
+[10:32:07] <piotrektt> !
+[10:32:12] <ncoghlan> Fun, mostly - I find language design discussions almost endlessly fascinating
+[10:32:24] <ncoghlan> I've also found it immensely educational
+[10:32:42] <kushal> pingou, ask
+[10:32:42] <dot|not> Thank you.
+[10:32:43] <pingou> following dot|not , a specific reason for getting involved in python (sorry if it has been said before, I arrived a little late) </!>
+[10:32:45] <ncoghlan> I know far more about floating point, unicode, data structure design, just from listing to expects
+[10:33:08] <ncoghlan> heh, I should put a .... on the end if I have more to say
+[10:33:19] <kushal> ncoghlan, sorry
+[10:33:26] <ncoghlan> also, s/expects/experts/
+[10:33:32] <ncoghlan> kushal: no worries
+[10:33:58] <pjp> ncoghlan: for a new Python programmer, is bugzilla/mailing-list best places to look for opportunities to contribute? Or starting small projects is a way to go??
+[10:34:05] <ncoghlan> pingou: I joined the lists because I liked the language, I stayed because the people are awesome
+[10:34:35] <ncoghlan> pjp: I think the most important thing is for people to do something *they* find interesting...
+[10:35:15] <ncoghlan> when we set up things like pythonmentors.com/core-mentorship@python.org, we're trying to guess at what people might find interesting
+[10:35:18] <ncoghlan> ...
+[10:35:20] <batul> ncoghlan: Error: ".." is not a valid command.
+[10:35:27] <kushal> :)
+[10:35:51] <ncoghlan> but we sometimes get people diving in to quite complex things - one first patch we received was to fix a bug in the metaclass resolution order
+[10:35:51] <kushal> ncoghlan, that is our bot, takes command with anything starting with a .
+[10:36:18] <kushal> piotrektt, ask
+[10:37:09] <piotrektt> well, my question was being answered all the time so I change it a little bit. You said that python interested you. Was there some feature or anything else in particular that makes python "cool"?
+[10:37:19] <pjp> ncoghlan: true, thank you!
+[10:37:58] <ncoghlan> piotrektt: I think the part that most interested me was simply Guido's approach to language design
+[10:38:26] <piotrektt> you mean that it is so human like? :P
+[10:38:37] <ncoghlan> piotrektt: well, Guido and the rest of the Python Labs team
+[10:38:45] <ncoghlan> more so the Zen of Python, and the ideas behind it
+[10:38:57] <ncoghlan> especially "Readability counts"
+[10:39:18] <ncoghlan> <continuing?
+[10:39:42] <ncoghlan> I'm one of those people that likes writing almost as much as coding
+[10:39:50] <ncoghlan> (hence my fondness for email)
+[10:40:00] <ncoghlan> so Python is a very appealing language to me
+[10:40:18] <ncoghlan> whereas languages that are too symbol heavy irritate me
+[10:40:40] <kushal> ncoghlan, can you tell few points on why/how learning Python or doing projects during college days using Python is helpful for students ?
+[10:40:45] <sayan> !
+[10:41:28] <ncoghlan> kushal: one of the best things about Python is that I think it fits the "easy to learn, difficult to master" pattern you want in a truly powerful tool
+[10:41:52] <ncoghlan> we have some incredibly sophisticated capabilities in the language, like metaclasses and import hooks
+[10:42:02] <ncoghlan> but we tell people not to use them unless the *really* need them
+[10:42:22] <ncoghlan> "do the simplest thing that could possible work" is something Python tries hard to enable
+[10:42:41] <ncoghlan> by we try to make sure the power tools are still there for when you need them
+[10:42:44] <ncoghlan> *but we
+[10:43:05] <kushal> sayan, ask
+[10:43:36] <piotrektt> !
+[10:43:46] <ravi_pro> !
+[10:43:48] <sayan> ncoghlan, you told about pythonmentors.com, are there mentored bugs in Python? how do we identify them?<eof>
+[10:43:58] <rtnpro_> sayan, +1
+[10:44:18] <ncoghlan> sayan: we try to mark bugs that we think are good starting points with "easy" in the tracker
+[10:44:33] <ncoghlan> but the standard library is so bug, it's hard to use that flag appropriately
+[10:45:01] <kushal> piotrektt, ask
+[10:46:17] <piotrektt> I just wanted to point you guys to the Zen of Python, Nick mentioned http://www.python.org/dev/peps/pep-0020/  it's a Python Enchancement Proposal. So cool! :)
+[10:46:48] <ncoghlan> also try "python -m this" in your shell :)
+[10:47:02] <kushal> ravi_pro, ask
+[10:47:12] <ravi_pro> ncoghlan , mainly in every programming language logic design is very important, So how can we develop LOGIC for any real life program?
+[10:47:18] <ncoghlan> oh, and "python -m antigravity" :)
+[10:47:33] <piotrektt> *enhancement
+[10:47:52] <ravi_pro> <eof>
+[10:47:56] <ncoghlan> ravi_pro: ultimately, I think every program comes down to a modelling exercise
+[10:48:29] <ncoghlan> you have to figure out what output you want, what inputs you have available, and what you need to do to get from those inputs to the desired outputs
+[10:49:00] <ncoghlan> so the first two questions to ask are usually
+[10:49:10] <ncoghlan> 1. What outcome do I need?
+[10:49:18] <ncoghlan> 2. What inputs are available?
+[10:49:22] <pjp> !
+[10:49:48] <ncoghlan> from there, it gets much harder to generalise - I'm still figuring it out :)
+[10:50:06] <ncoghlan> oh, and you have to factor in "how long do I have" as well :P
+[10:50:27] <ncoghlan> <eom>
+[10:50:40] <kushal> pjp, ask
+[10:50:50] <ravi_pro> ncoghlan, thanks
+[10:51:23] <pjp> ncoghlan: as python student - what were some of the exercises you did for practice?
+[10:52:03] <ncoghlan> pjp: I was already an experienced C/C++ developer when I learned Python, so I don't actually have an answer to that
+[10:52:28] <ravi_pro> !
+[10:52:33] <pjp> ncoghlan: ah I see, cool!
+[10:52:49] <kushal> ravi_pro, ask
+[10:53:05] <ravi_pro> ncoghlan, which part in python language we will have to make strong?
+[10:53:40] <ravi_pro> ncoghlan, sothat we can be a developer in python
+[10:54:08] <ncoghlan> ah, OK - thanks for the clarification
+[10:54:45] <ncoghlan> hmm, in some regards it depends on exactly the kinds of problems you're trying to solve
+[10:55:14] <ncoghlan> the universal elements are being able to *use* things like functions, iterators and context managers effectively
+[10:55:26] <ncoghlan> and classes
+[10:55:36] <ncoghlan> since most APIs will be built around those four things
+[10:55:56] <ncoghlan> and a lot of the time, what we do as programmers is taking an existing API that solves a problem in general
+[10:56:03] <ncoghlan> and applying it to our particular case
+[10:56:23] <ncoghlan> the "next level" is then learning to create those things ourselves
+[10:56:43] <ncoghlan> since that provides for more powerful tools for avoid code repetition and that kind of thing
+[10:57:11] <ncoghlan> beyond that, it's really a matter of honing our *problem solving* skills
+[10:57:22] <ncoghlan> learning to ask the right questions, learning how to research good answers
+[10:57:55] <ncoghlan> one way to describe being a developer is "using computers to solve our own and other people's problems" :)
+[10:58:18] <ncoghlan> and Python just happens to be a very effective way of telling computers what to do :)
+[10:59:05] <ravi_pro> ncoghlan, the problem with me regarding *problem solving skill*
+[10:59:27] <ncoghlan> can I digress a moment to talk about some things that *I've* been excited to learn about recently?
+[10:59:35] <kushal> ncoghlan, go ahead
+[10:59:36] <kushal> :)
+[10:59:53] <ncoghlan> IPython Notebook is pretty spectacular
+[11:00:32] <ncoghlan> I've started using it for things I would have previously written ad hoc scripts for, and it's just a much better way of working
+[11:00:54] <ncoghlan> and you can share the results by saving the notebook as a HTML file
+[11:01:09] shalini is now known as shalini_
+[11:01:27] <ncoghlan> there's a lot of good scientific software related to that, too
+[11:01:42] * kushal notes that IPython Notebook will be in a separate session 
+[11:01:49] <ncoghlan> the other one which people may have heard of is the "requests" library
+[11:02:02] <ncoghlan> a lot of the networking APIs in the stdlib are quite old
+[11:02:27] rahulch_ is now known as rahulch
+[11:02:39] <ncoghlan> before HTTP really won the network protocol wars for the request/response layer above TCP.
+[11:03:10] <ncoghlan> so you need to do a bunch of configuration to do any HTTP specific configuration (beyond a basic GET call)
+[11:03:24] <ncoghlan> requests is far more recent, so it does a lot more for you
+[11:03:42] <ncoghlan> and ends up being much easier to use, since so many good defaults are encoded into the library
+[11:04:19] <ncoghlan> I think those are the main two I wanted to share
+[11:04:29] <kushal> pasting another question from navid_
+[11:04:34] <kushal> <navid_> ncoghlan, please talk about test driven development in python, how/at which extent,  you use it in core development?
+[11:05:08] <ncoghlan> so, there's the purist definition of test driven development, which says it has to be test *first* development
+[11:05:27] <ncoghlan> I think that can be a good way to go, especially if you're trying to fix an existing bug
+[11:05:36] <ncoghlan> first write a test that fails, then make it pass
+[11:06:14] <ncoghlan> however, the only rule we enforce in the standard library is that, wherever practical, any change must be accompanied by a test for that change
+[11:06:24] <zishan> kya wahi
+[11:06:30] <ncoghlan> I used the same rule for beaker-project.org
+[11:06:51] <ncoghlan> the exceptions are cases where it's not practical to write a robust test
+[11:07:08] <ncoghlan> fragile tests that fail intermittently are often worse than not having the test at all
+[11:07:26] <ncoghlan> since they cause false alarms in continuous integration systems
+[11:07:58] <ncoghlan> I've written software with and without good regression test suites
+[11:08:16] <ncoghlan> and without the test suite, you're taking huge risks any time you make even a small change
+[11:08:46] <ncoghlan> whereas with a solid test suite, you can make big changes, confident that the externally visible behaviour will remain the same
+[11:09:21] <ncoghlan> was anyone here at PyCon India last year?
+[11:09:36] * kushal was
+[11:09:41] * rtnpro_ was
+[11:09:54] <chandankumar> */me was
+[11:10:03] * chandankumar was
+[11:10:36] <kushal> sayan, was also there
+[11:10:43] <sayan> ncoghlan, me
+[11:10:45] <ncoghlan> I gave a longer version of this Path Dependent Development talk (https://www.youtube.com/watch?v=PYw2K0_ZZ0w) there
+[11:11:34] <ncoghlan> and one of my points was that if the industry has pretty much figured out that if you're trying to improve a software product
+[11:11:54] <ncoghlan> then working out how to start building a test suite for it is a key milestone
+[11:12:12] <ncoghlan> because getting the test suite in place then gives you the freedom to start fixing everything else
+[11:13:17] <ncoghlan> we're able to make fairly deep changes to CPython (like replacing the whole import system) without most users even noticing when they upgrade
+[11:13:53] <ncoghlan> and it's the regression test suite, and the buildbot fleet that give us the power to do that
+[11:14:31] <kushal> any more questions ?
+[11:14:34] <ncoghlan> http://buildbot.python.org/all/waterfall?category=3.x.stable (and, of ourse, one of the platforms is broken when I link it...)
+[11:15:05] <ncoghlan> also, people might be interested in a talk I gave a couple of years ago about core development and where it fits in the bigger picture: https://www.youtube.com/watch?v=UZIq_9KgFEY
+[11:15:56] <ncoghlan> ok, thanks for having me here all - hope it was interesting :)
+[11:16:08] <kushal> ncoghlan, thanks a lot for the session
+[11:16:15] <dot|not> Thanks a lot.
+[11:16:22] <tenstormavi> Thanks
+[11:16:28] <shantanu> Thank you
+[11:16:31] <kirk_iowa> Thank you.
+[11:16:38] <bidisha> Thank you
+[11:16:41] <rahulch> nilanjit, thanks for this session :)
+[11:16:42] <rashmi> Thank you
+[11:16:47] <amresh> thank you :)
+[11:16:50] <puspita> Thank You for this session :)
+[11:16:54] <rtnpro_> Thanks, ncoghlan
+[11:16:58] <kushal> btw, this is ncoghlan http://www.flickr.com/photos/kushaldas/8608027063/ while discussion over the future of Python in language summit
+[11:16:59] <piotrektt> thanks!
+[11:17:00] <devyani> Thank you
+[11:17:05] <nilanjit> great session, thanks :)
+[11:17:08] <rahulch> ncoghlan, thanks for this session :)
+[11:17:14] <anuragk> thanks.
+[11:17:16] <kushal> roll call:
+[11:17:18] <nilanjit> rahulch, :p
+[11:17:23] <rashmi> Rashmi
+[11:17:25] <nilanjit> Nilanjit Mitra
+[11:17:27] <puspita> Puspita Ghosh
+[11:17:28] <bidisha> Bidisha Mukherjee
+[11:17:29] <piotrektt> Piotr Bednarek
+[11:17:30] <kushal> Kushal Das
+[11:17:30] <rtnpro_> Ratnadeep Debnath
+[11:17:32] <devyani> Devyani
+[11:17:33] <kirk_iowa> kirk gunderson
+[11:17:33] <rahulch> Rahul Chowdhury
+[11:17:37] <anuragk> anurag kumar
+[11:17:38] <chandankumar> Chandan Kumar
+[11:17:42] <zishan> Sheesh Mohsin
+[11:17:44] <J_Caselles> Josep Caselles
+[11:17:45] <shalini_> Shalini Roy
+[11:17:47] <tenstormavi> Avinash Kumar Dasoundhi
+[11:17:50] <shantanu> Shantanu Sarkar
+[11:18:13] * ncoghlan waves goodbye
+[11:18:34] <amresh> amresh kumar / christina Beemer
+[11:18:35] <ravi_pro> ravi kumbhkar
+[11:18:36] <kavis_1> kavis khandelwal
+[11:18:36] <kushal> ----------- SESSION ENDS ----------
+[11:18:44] <kushal> endclass
+[11:18:44] [## Class Ended at Wed Jul 17 11:18:44 2013 ##]

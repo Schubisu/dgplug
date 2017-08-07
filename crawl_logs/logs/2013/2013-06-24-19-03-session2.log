@@ -1,0 +1,442 @@
+[19:03:00] [## Class Started at Mon Jun 24 19:03:00 2013 ##]
+[19:03:00] <sayan> startclass
+[19:03:09] <kushal>    ROLL CALL
+[19:03:11] <Zubin> Bodhiswattwa Tewari
+[19:03:18] <shantanu> Shantanu Sarkar
+[19:03:19] <avik> Avik Ghosh 
+[19:03:20] <tenstormavi> Avinash Kumar Dasoundhi
+[19:03:20] <piotrektt> Piotr Bednarek
+[19:03:22] <tutum> kushal,todat I am online through my mobile phone as my home net connection is down..if you give any exercises during the session I won't be able to show the output to you
+[19:03:23] <rahulch> Rahul Chowdhury
+[19:03:24] <Armageddon> Elijah
+[19:03:25] <Christina> Christina Beemer
+[19:03:27] <nitesh> nitesh kumar 
+[19:03:28] <arin> Arin Ghosh 
+[19:03:30] <siddhant> siddhant sengar
+[19:03:33] <rashmi> Rashmi
+[19:03:36] <purva> purva 
+[19:03:36] <tutum> pritha Ganguly
+[19:03:36] <tanvi> tanvi dutta 
+[19:03:37] <satarupa> Satarupa Sinha 
+[19:03:38] <irenebmy> Irene 
+[19:03:38] <suman> suman roy
+[19:03:38] <prikotiyal> Priyanka Kotiyal
+[19:03:41] <anisha> Anisha
+[19:03:44] <iam_sudip> sudip maji
+[19:03:47] <zishan> Sheesh Mohsin
+[19:03:49] <korak> korak ghosh
+[19:03:50] <rahulmishra> Rahul Mishra
+[19:03:52] <shalini> Shalini Roy
+[19:03:58] <bidisha> Bidisha Mukherjee
+[19:03:58] <fewcha> Sanjiban Bairagya
+[19:03:58] <Guest75892> elita lobo
+[19:04:12] <praveenkumar> Praveen Kumar
+[19:04:16] <anwesha> Anwesha Das
+[19:04:18] <Sudip> Sudip Gorai
+[19:04:19] <elita15> Elita lobo
+[19:04:28] <anurag> Anurag Kumar
+[19:04:30] <J_Caselles3> Josep Caselles
+[19:05:04] <kushal> is there anyone joining us for the first time ?
+[19:05:12] <dot|not> dot|not,
+[19:05:21] <bidisha> kushal, yes
+[19:05:32] <praveenkumar> Guest75892: is same as elita15 ? then logout from Guest75892
+[19:05:32] <sankha87> sankhadeep pujaru
+[19:05:37] <rahulch> kushal, i had missed last day's class as my connection was down, so it is my first lesson
+[19:05:44] <sankha87> kushal: yes sir, myself
+[19:05:57] <anisha> kushal, yes
+[19:06:00] <kushal> bidisha, rahulch sankha87 please introduce yourselves
+[19:06:12] <shalini> kushal:yes
+[19:06:25] <puja12> Puja Gupta
+[19:06:33] <ashis> ashis mohta
+[19:06:38] <sankha87> sankhadeep pujaru ,  m tech , nit durgapur
+[19:06:48] <kushal> shalini, you too :)
+[19:07:05] <rahulch> Hello everyone. I am Rahul Chowdhury, pursuing my Btech in Information Technology from National Institute of Technology, Durgapur.
+[19:07:21] <bidisha> kushal, I am Bidisha Mukherjee. I am a student of Dr.B.C.Roy engg. college, Durgapur,b.tech 3rd semester
+[19:07:38] <mac1733> Terry Mackin
+[19:07:53] <chaap> Ajay Singh
+[19:09:15] <kushal> ok then we can safely start
+[19:09:19] <supriya> supriya saha
+[19:09:30] <Devyani> Devyani
+[19:09:34] <shalini> kushal:hello i am shalini from BCREC from b.tech 3rd sem
+[19:10:05] <cyogesh> Yogesh Chaudhari.
+[19:10:51] <kushal> just as a side note, people who are introducing themselves that they are from BCREC, please tell/type the real name of the college from next time, nobody knows what BCREC is
+[19:11:09] <kushal> Saturday one person even wrote wrong name
+[19:11:11] <kushal> anyway
+[19:11:13] <kushal> any questions from the logs or the link we gave in the last class ?
+[19:11:26] <kushal> you all know the rule on asking questions
+[19:11:43] <anurag> !
+[19:12:14] <ashis> kushal: no
+[19:12:24] <kushal> anurag, ask
+[19:13:11] <anurag> when sending mail (to ask doubt) to any developer or mentor, we can use our gmail accounts?
+[19:13:22] <anurag> <EOF>
+[19:13:33] <kushal> anurag, yes, you should use your primary email account
+[19:14:36] <kushal> any other question ?
+[19:14:38] <kushal> anyone ?
+[19:14:51] <pratikkumar> !
+[19:14:54] <kushal> pratikkumar, ask
+[19:15:15] <kushal> btw, people please ask any doubt you have or else they will stay as doubt in your mind
+[19:15:36] <pratikkumar> has todays class  started?
+[19:15:40] <praveenkumar> ashis: you can see how anurag asked the question, same way you can also ask. " if you have any question then type '!' and wait for your turn"
+[19:16:25] <zishan> !
+[19:16:42] <kushal> pratikkumar, should I count that as joke or serious question ?
+[19:16:48] <kushal> not sure
+[19:16:51] <kushal> zishan, ask
+[19:16:56] <zishan> ASCII text email is same as basic html view or not? <EOF>
+[19:17:31] <pratikkumar> kushal,serious question.
+[19:17:38] <zishan> ASCII text email is same as basic html view of gmail or not? <EOF>
+[19:17:49] <kushal> zishan, no, it is plain text mail, many people do not like html in emails and there are people like me who reads them in terminal
+[19:18:10] <zishan> !
+[19:18:11] <tutum> !
+[19:18:19] <prikotiyal> !
+[19:18:20] <kushal> zishan, there was a checkbox to do only plaintext email
+[19:18:23] <kushal> tutum, ask
+[19:18:45] <kushal> pratikkumar, that means you are late as the class was supposed to start at 7pm
+[19:18:51] <kushal> prikotiyal, ask
+[19:19:05] <tutum> kushal,I didn't understand the concept of RSS/Atom feed.
+[19:19:29] <kushal> tutum, do you have firefox installed ?
+[19:19:31] <pratikkumar> kushal,yes and sorry
+[19:19:38] <kushal> pratikkumar, no problem
+[19:19:39] <tutum> <EOF>
+[19:19:52] <tutum> yes..
+[19:19:56] dell is now known as PleaseSTART
+[19:20:17] <PleaseSTART> manish present
+[19:20:30] <kushal> tutum, http://planet.fedoraproject.org/rss20.xml is an example of RSS feed
+[19:20:39] <prikotiyal> kushal, how can we do bottom posting or how will we realise that we are diong bottom posting or top posting?
+[19:20:52] <prikotiyal> *doing
+[19:20:58] <prikotiyal> <EOF>
+[19:21:10] <kushal> tutum, there are various readers available to read from these feeds
+[19:22:14] <zishan> !
+[19:22:21] <anurag> !
+[19:22:24] <kushal> tutum, http://mashable.com/2007/05/26/rss-firefox-guide/
+[19:22:40] <kushal> prikotiyal, we will show you an example
+[19:22:47] <kushal> pratikkumar, there ?
+[19:23:00] <pratikkumar> kushal,yes
+[19:23:06] <kushal> oops, sorry
+[19:23:09] <kushal> praveenkumar, ping
+[19:23:14] <prikotiyal> kushal, ok thanks
+[19:23:18] <praveenkumar> kushal: pong
+[19:23:53] <kushal> praveenkumar, can you please do a fpaste of one example of top posting and one example of bottom posting ?
+[19:24:04] <kushal> praveenkumar, paste the links here for prikotiyal
+[19:24:08] <praveenkumar> kushal: sure,
+[19:24:14] <kushal> praveenkumar, thanks
+[19:24:18] <PleaseSTART> kushal,sorry for being late.Have u started the tuiotorial?
+[19:24:19] <kushal> zishan, anurag ask
+[19:24:20] <aanchal> aanchal
+[19:24:24] <kushal> PleaseSTART, yes
+[19:24:40] <kushal> aanchal, good morning
+[19:24:51] <Ravi_pro> kushal, sorry for being late.
+[19:25:09] <PleaseSTART> !
+[19:25:13] <kushal> PleaseSTART, ask
+[19:25:19] <aanchal> kushal,sorry for late
+[19:25:31] <korak> !
+[19:25:38] <kushal> korak, ask
+[19:25:44] <anurag> when are logs for these sessions coming up? I lost the pdf file given in the last session
+[19:25:54] <anurag> <EOF>
+[19:26:09] <korak> kushal, what will you teach today in python?
+[19:26:36] <kushal> anurag, ah, we will set it up today, anyway you should also enable logging in your client
+[19:26:51] <kushal> korak, we are not learning python for now, it will come later
+[19:27:00] <PleaseSTART> !
+[19:27:09] <Christina> !
+[19:27:29] <aanchal> kushal,what will we learn today??
+[19:27:49] <Armageddon> http://pastebin.com/H1KmF4rq <--- bottom vs top posting
+[19:28:17] <kushal> PleaseSTART, Christina ask
+[19:28:22] <Christina> I seriously am not understanding what is going on please can you explain ?
+[19:28:48] <Sudip> !
+[19:28:49] <dell>  I seriously am not understanding what is going on please can you explain ?
+[19:29:09] <zishan> !
+[19:29:18] <praveenkumar> prikotiyal: http://fpaste.org/20512/72082440/
+[19:29:20] <kushal> Christina, wait for a minute
+[19:29:23] <J_Caselles3> !
+[19:29:45] <aanchal> !
+[19:30:09] <kushal> Christina, we gave links to read last saturday and now we are making sure everyone understand those documents
+[19:30:19] <prikotiyal> Armageddon,praveenkumar: thanks a lot
+[19:30:27] <kushal> Sudip, zishan J_Caselles3 ask
+[19:30:35] <zishan> kushal, I didn't understand the concept of wiki <EOF>
+[19:30:51] <kushal> zishan, do you know about wikipedia ?
+[19:30:52] <Christina> ok i haven't done my home work. I will read it today
+[19:31:00] <Armageddon> !
+[19:31:09] <zishan> kushal, yes
+[19:31:14] dell is now known as PleaseSTART
+[19:31:22] <PleaseSTART> !
+[19:31:27] <kushal> zishan, that is biggest wiki as of know
+[19:31:39] <J_Caselles3> Sorry forgot my question, nevermind
+[19:31:56] <pratikkumar> !
+[19:31:58] <zishan> kushal, ok
+[19:32:01] <dot|not> !
+[19:32:19] <kushal> zishan, http://bit.ly/HIGJaP
+[19:32:21] <piotrektt> zishan, the concept is that you can create a wiki for your project, like wikipedia.org - but it's a private wiki visible only for you and members of the project (or public if you wish so)
+[19:32:23] <kushal> J_Caselles3, :D
+[19:32:37] <kushal> Armageddon, PleaseSTART ask
+[19:32:42] <kushal> dot|not, ask
+[19:32:45] <kushal> pratikkumar, ask
+[19:32:52] <Sudip> kushal:I have not received any mail.Last saturday i attend the class.What should i do?
+[19:33:08] <Armageddon> kushal, would you like the people who know the answer to help with answering them ? <EOF>
+[19:33:13] <pratikkumar> kushal,whats 'gifting password to socila networking sites'?
+[19:33:18] <kushal> Sudip, we never sent any email, so you should read what ever links given that day
+[19:33:20] <PleaseSTART> actually i was bit late. can u tell me the topic that u r discussing??
+[19:33:28] <PleaseSTART> <EOF>
+[19:34:01] <pratikkumar> *social
+[19:34:03] <kushal> Armageddon, yes, we don't have a problem , but it is better first one ask for permission to answering and then answer
+[19:34:20] <Sudip> Kushal:thanks.
+[19:34:28] <dot|not> This is rather an appeal than a question: I know, lots of things are now, I know some things may be confusing. But I would love people to stick to the rules and the netiquette and calm down instead of furiosly typing. Also: Some questions may have been already answered at some point or another - like in the guide we saw in the last lesson, good questions mean doing some recherche on the forehand.
+[19:34:44] <kushal> dot|not, thanks
+[19:34:44] <Armageddon> kushal, but that would be ! then can I asnwer, then go ahead and that would be after answering it... Can we use for example ? to request answering questions ?
+[19:34:45] <dot|not> So please, think about that, this would reduce chaos immensely. Thank you. <EOF>
+[19:34:52] <dot|not> *new
+[19:35:16] <kushal> pratikkumar, say you created a new account to facebook and after login in it asks your gmail username/password so that it can find friends for you
+[19:35:38] <pratikkumar> kushal,yes
+[19:35:44] <Zubin> sorry got disconnected.
+[19:35:48] <kushal> pratikkumar, so you are giving your password to random social networking site
+[19:36:06] <kushal> Armageddon, just ask if I can answer
+[19:36:20] <pratikkumar> kushal,ok i got that,thank you
+[19:36:23] <kushal> PleaseSTART, we are in QA mode
+[19:36:29] <pratikkumar> <eof>
+[19:36:45] <J_Caselles3> !
+[19:36:46] <sankha87> !
+[19:37:06] <kushal> PleaseSTART, also get an English dictionary, there are no such word like 'u' or 'r'
+[19:37:12] <kushal> J_Caselles3, sankha87 ask
+[19:37:33] <sankha87> sir, is RSS  written in xml ?
+[19:37:53] <kushal> sankha87, you don't have to call sir anyone here
+[19:38:09] <sankha87> ok
+[19:38:28] <pratikkumar> !
+[19:38:34] <J_Caselles3> I use some rss feeds, but didn't know about planet. It seems special, but don't know in which sense. Could you explain to me?
+[19:38:36] <kushal> sankha87, and yes, it is written using XML, read http://en.wikipedia.org/wiki/RSS for more details
+[19:38:50] <PleaseSTART> ! Sorry For this things. I will keep in my mind. Please tell me how to retrieve the previous discussion.<EOF>
+[19:40:06] <kushal> J_Caselles3, let us take an example, dgplug is a group of people who blogs, and now there are two ways of reading them, 1. go to each blog individually and read or 2. Get all blog posts into one single place and read
+[19:40:14] <kushal> 2. option is done with planets
+[19:40:35] <kushal> all major projects have their planets
+[19:40:39] <kushal> http://planet.dgplug.org/ is ours
+[19:41:03] <J_Caselles3> Cause there are several blogs that post about dgplug?
+[19:41:15] <kushal> as a part of the training we will ask everyone to create an account in wordpress.com (unless you already have a blog) and start blogging
+[19:41:34] <kushal> J_Caselles3, no, but there are several people who talks in similar line
+[19:41:47] <kushal> J_Caselles3, and they all contribute to dgplug
+[19:42:00] <kushal> PleaseSTART, are you using xchat ?
+[19:42:07] <PleaseSTART> yes
+[19:42:22] <kushal> settings->preferences->Logging
+[19:42:26] <kushal> enable it there first
+[19:42:46] <J_Caselles3> Ok thanks, I think I got it
+[19:43:01] <PleaseSTART> enabled.
+[19:43:17] <kushal> then all logs will be available under your home folder ~/.xchatlogs
+[19:43:27] <kushal> pratikkumar, ask
+[19:43:30] <pratikkumar> kushal, 'e-mail client is configured to use HTML e-mail',how to  change it to use ASCII text?
+[19:43:47] <PleaseSTART> the previous one??
+[19:44:02] <kushal> pratikkumar, which email client ?
+[19:44:10] <kushal> PleaseSTART, we will upload that later
+[19:44:15] <sayan> kushal, it's stored in ~/.xchat2/xchatlogs/
+[19:44:30] <kushal> sayan, ah, you are correct
+[19:44:32] <pratikkumar> kushal,it was talked about in first class
+[19:44:44] <Zubin_> sorry poor connection.
+[19:44:59] <Zubin_> !
+[19:45:18] <kushal> pratikkumar, I mean which email client you are using ?
+[19:45:36] <kushal> Zubin, ask
+[19:45:48] <J_Caselles3> !
+[19:46:02] <Zubin_> kushal, would you kindly review the given link and perhaps give a few opinions http://zubinblog.wordpress.com/2013/06/22/how-to-dual-boot-fedora-18-and-windows-8-successfully/
+[19:46:03] <kushal> btw, people who are not asking any questions, should we think that you understood everything or nothing ?
+[19:46:07] <Zubin_> <eom>
+[19:46:20] Zubin_ is now known as Zubin
+[19:46:50] PleaseSTART is now known as Dell
+[19:46:52] <pratikkumar> kushal,i m sorry but can so explain me about email client?
+[19:46:59] <piotrektt> kushal, everything is fine :) if anyone needs help with setting thunderbird to send only text messages i can help.
+[19:47:31] Dell is now known as PleaseSTART
+[19:48:02] <kushal> pratikkumar, the word is "am" not "m"
+[19:48:15] <sankha87> !
+[19:48:16] <pratikkumar> *m
+[19:48:28] <dot|not> !
+[19:48:33] <pratikkumar> *am
+[19:48:35] * praveenkumar points pratikkumar -> http://en.wikipedia.org/wiki/Email_client 
+[19:49:25] <kushal> pratikkumar, http://bit.ly/18aRTXh
+[19:49:31] <pratikkumar> praveenkumar,thank you
+[19:49:42] <kushal> praveenkumar, use http://lmgtfy.com
+[19:49:49] <kushal> sankha87, dot|not ask
+[19:49:57] <kushal> J_Caselles3, ask'
+[19:50:03] <J_Caselles3> I asume android gmail app, as it doesn't provide any formating options, sends emails in ascii, non-html style?
+[19:50:10] <pratikkumar> kushal,thank you
+[19:50:29] <praveenkumar> kushal: sure.
+[19:50:39] <sankha87> kushal: i didnt attend the previous class but i want to continue from today
+[19:50:48] <kushal> J_Caselles3, not sure, let me check
+[19:51:06] <kushal> sankha87, continue, you don't have to pay any fine, no one is stopping you
+[19:51:16] <dot|not> Again, not exactly a question about the topic: There are several questions now, and there will be further ones, that come up repeatedly - for example about setting up plaintext mails .. wouldn't it be easier for the instructors to make a simple infopage, maybe only pointing to the official documenation, so you can spare yourself the repeated work.
+[19:51:19] <dot|not> <EOF>
+[19:51:31] <aanchal> !
+[19:51:51] <rahulmishra> !
+[19:53:09] <sankha87> kushal: is  RSS  an application of sematic web ?
+[19:53:14] <kushal> dot|not, true, but we will build up this FAQ this year
+[19:53:14] <sankha87> <EOF>
+[19:53:25] <kushal> sankha87, no iirc
+[19:53:32] <kushal> aanchal, rahulmishra ask
+[19:53:42] <rahulmishra> kushal, i use yahoo mail client, how to change  it to ASCII text?
+[19:53:45] <kushal> dot|not, so getting the questions are important
+[19:53:48] <rahulmishra> <EOF>
+[19:53:56] <kushal> rahulmishra, google for an answer :D
+[19:54:03] <dot|not> kushal: Thank you.
+[19:54:10] <rahulmishra> kushal, okay
+[19:54:28] <aanchal> what will we learn today ?<EOF>
+[19:55:12] <kushal> aanchal, I thought you are already learning from this QA session
+[19:55:22] <kushal> unless you already knew everything
+[19:55:34] <kushal> for tonight'r reading check http://www.dgplug.org/irclogs/mbuf_2ndclass.log
+[19:56:06] <kushal> http://www.shakthimaan.com/downloads/glv/presentations/i-want-2-do-project-tell-me-wat-2-do.pdf is the pdf
+[19:56:28] <kushal> s/tonight'r/tonight's/
+[19:56:29] <batul> What kushal meant to say was: for tonight's reading check http://www.dgplug.org/irclogs/mbuf_2ndclass.log
+[19:56:51] <pratikkumar> !
+[19:56:58] <kushal> pratikkumar, ask
+[19:58:05] <anurag> !
+[19:58:26] <kushal> pratikkumar, anurag ask
+[19:58:28] <prikotiyal> !
+[19:58:40] <pratikkumar> kushal,according to wikipedia,gmail is a email client
+[19:59:01] <Armageddon> it's a web client
+[19:59:07] <PleaseSTART> !
+[19:59:09] <pratikkumar> so how will i change to ascii text?
+[19:59:31] <piotrektt> may i answer that?
+[19:59:32] <anurag> both the pdf and the link have same information ? <EOF>
+[19:59:44] <kushal> pratikkumar, there is a nice shiny site called google.com , use it :D
+[19:59:52] <kushal> piotrektt, you can also answer :)
+[20:00:43] <kushal> anurag, the log explains the pdf
+[20:00:43] <kushal> PleaseSTART, ask
+[20:00:44] <kushal> quick poll, please type "Yes" if you already know basic shell commands to use for everyday or else type "No", without quotes
+[20:00:44] <PleaseSTART> what is the difference between the email client and the web client?
+[20:00:44] <PleaseSTART> <EOF>
+[20:00:44] <fewcha> Yes
+[20:00:45] <pratikkumar> kushal,ok i will
+[20:00:55] <rahulch> yes
+[20:00:56] <J_Caselles3> Yes
+[20:00:56] <piotrektt> when you create new message there is an option to use only plain text. you need to press the triangle in the right bottom of the create message window
+[20:01:04] <tutum> no
+[20:01:06] <siddhant> no
+[20:01:07] <arin> No
+[20:01:07] <PleaseSTART> no
+[20:01:18] <supriya> yes
+[20:01:29] <tenstormavi> no
+[20:01:29] <anurag> no
+[20:01:29] <anisha> yes
+[20:01:29] <avik> no
+[20:01:29] <piotrektt> yes
+[20:01:29] <satarupa> no
+[20:01:29] <shantanu> yes
+[20:01:29] <nitesh> no
+[20:01:29] <sonam> no
+[20:01:29] <anisha23> no
+[20:01:29] <pratikkumar> no
+[20:01:31] <purva> no
+[20:01:39] <umesh> yes
+[20:01:42] <puja_> no
+[20:01:44] <Armageddon> Yes
+[20:01:47] <redramires> Ð½ÑÑ
+[20:01:51] <redramires> yes
+[20:01:56] <tanvi> no
+[20:02:02] <suman> no
+[20:02:04] <bidisha> no
+[20:02:06] <irenebmy> no
+[20:02:15] <iam_sudip> no
+[20:02:16] <aanchal> no
+[20:02:20] <sankha87> yes
+[20:02:21] <rashmi> no
+[20:02:22] <shalini> no
+[20:02:34] <Ravi_pro> yes
+[20:02:36] <elita15> no
+[20:02:43] <Sudip> no
+[20:02:48] <zishan> no
+[20:03:11] <m0rin09m`> yes
+[20:03:12] <prikotiyal> no
+[20:03:27] <sayan> PleaseSTART, http://lmgtfy.com/?q=what+is+the+difference+between+the+email+client+and+the+web+client%3F
+[20:03:46] <dot|not> Yes
+[20:04:03] <Christina> no
+[20:04:12] <korak> no
+[20:04:15] <tanvi> yes
+[20:05:17] <J_Caselles3> !
+[20:05:25] <kushal> J_Caselles3, ask
+[20:05:43] pritha_ is now known as tutum
+[20:05:59] <kushal> btw, from today's questions it seems many of you never read http://www.catb.org/esr/faqs/smart-questions.html
+[20:06:05] <kushal> read that
+[20:06:09] <kushal> READ THAT
+[20:06:32] <kushal> ^^ now someone tell me what line in capital letters means ?
+[20:06:37] <dot|not> Shouting.
+[20:06:44] <arin> Shouting
+[20:06:46] <prikotiyal> shouting
+[20:06:48] <dot|not> It's generally considered as rude behaviour.
+[20:06:52] <shantanu> shouting
+[20:06:55] <tutum> Shouting..
+[20:06:57] <anurag> shouting
+[20:07:00] <kushal> ok,
+[20:07:10] <elita15> shouting
+[20:07:12] <kushal> so few people read that link it seems
+[20:07:17] <J_Caselles3> I would suggest to keep with the course planning, and don't lower the level, though some of us will have to work harder googling
+[20:07:19] <pratikkumar> Shouting
+[20:07:19] <rahulmishra> shouting
+[20:07:25] <dot|not> !
+[20:07:26] <zishan> shouting
+[20:07:35] <PleaseSTART> Shouting
+[20:07:46] <suman> shouting
+[20:07:48] <puja_> shouting
+[20:07:50] <tenstormavi> shouting
+[20:07:58] <supriya> shouting
+[20:08:01] <purva> shouting
+[20:08:08] <korak> shouting
+[20:08:15] <kushal> feeling like tubelight effect
+[20:08:18] <siddhant> very important to do
+[20:08:21] <aanchal> shouting
+[20:08:28] <Sudip> shouting
+[20:08:33] <shalini> shouting
+[20:08:36] <Armageddon> kushal, why are you shouting at us ? :/
+[20:08:54] <dot|not> Because some of us obviously haven't done their homework (Sorry for interrupting.)
+[20:09:18] <kushal> J_Caselles3, yes, but in general the course starts with beginner friendly and slowly it will increase
+[20:09:35] <kushal> dot|not, thanks :)
+[20:09:43] <kushal> dot|not, you have any question ?
+[20:10:11] <lakshya> kushal: ping, pm?
+[20:10:20] <dot|not> Yes. If I need to regularly leave during the classes, should I tell it once, should I tell it everytime _before_ the class starts or at the exact point when I need to leave? <EOF>
+[20:10:40] <kushal> lakshya, please wait till the session finishes
+[20:10:47] <J_Caselles3> I mean don't be afraid of kicking us out if we don't do our homework... :P
+[20:10:48] <lakshya> kushal: okay
+[20:10:52] <kushal> dot|not, just once mentioning it will do
+[20:11:03] <kushal> J_Caselles3, hehe :D
+[20:11:22] <kushal> for the command line basics read http://cli.learncodethehardway.org/book/
+[20:11:32] <dot|not> kushal: Thanks. So, let me mention it: I'll have to leave regularly for heading home in the middle of the class. Please just ignore me leaving and be assured that it has nothing to do with the class.
+[20:11:43] <kushal> dot|not, no problem
+[20:13:32] <suman> !
+[20:14:29] <kushal> everyone please read http://cli.learncodethehardway.org/book/
+[20:14:45] <kushal> before coming to next class
+[20:14:45] <tenstormavi> ok
+[20:14:51] <prikotiyal> ok
+[20:14:52] <arin> ok
+[20:14:54] <shantanu> ok
+[20:14:56] <korak> ok
+[20:15:02] <aanchal> ok
+[20:15:02] <kushal> if it means you have to stay awake whole night, stay awake and do it
+[20:15:03] <rahulmishra> ok
+[20:15:08] <tutum> ok
+[20:15:10] <shalini> ok
+[20:15:11] <puja_> ok
+[20:15:13] <bidisha> ok
+[20:15:33] <kushal> you don't have to say ok everytime unless the mentor asks for it
+[20:17:04] <kushal> also remember to stay online in IRC, if you just come for session time you are missing the major point of community
+[20:17:26] <kushal> it is not only about learning, it is lot of fun too
+[20:18:01] <Christina> !
+[20:18:50] <kushal> suman, Christina ask
+[20:18:56] <Zubin> kushal, +1.
+[20:19:02] <suman>  should it necessary  to read all that link given during the class? <eof>
+[20:19:05] <Christina> i use IRC by using the following link http://webchat.freenode.net/?channels=dgplug is it ok
+[20:19:28] <tanvi> !
+[20:19:43] <Christina> or do i have to download something like xchat
+[20:19:50] <Christina> <EOF>
+[20:20:12] <kushal> suman, no, most of the links are to be read after the session, they are the homework
+[20:20:32] <kushal> Christina, xchat is better option
+[20:20:36] <kushal> tanvi, ask
+[20:20:44] <tanvi> what does shell user means?
+[20:21:08] <kushal> tanvi, means the user account in that computer to access the shell/terminal/console
+[20:21:27] <tanvi> thank you
+[20:22:12] <Armageddon> I have weechat running in tmux on a shell
+[20:22:35] <Armageddon> I can leave and I will stay connected here and see what happened in my absence
+[20:22:56] <kushal> Armageddon, we try not to confuse people with many options :)
+[20:23:03] <kushal> any more question ?
+[20:23:20] shantanu_ is now known as shantanu
+[20:23:50] <kushal> tomorrow
+[20:24:05] <Armageddon> kushal, tanvi asked and I explained it easily, configuring it is a different question :p
+[20:24:32] <kushal> tomorrow's session will be from 6:30pm, mostly Questions and answers related today's links
+[20:25:56] <piotrektt> !
+[20:26:00] <kushal> piotrektt, ask
+[20:26:08] <piotrektt> are we done for today? or next session will begin?
+[20:26:29] <kushal> piotrektt, we are done
+[20:26:32] <arin> !
+[20:26:37] <kushal> ------------SESSION ENDS--------------
+[20:26:40] <kushal> arin, ask
+[20:26:47] <sayan> endclass
+[20:26:47] [## Class Ended at Mon Jun 24 20:26:47 2013 ##]

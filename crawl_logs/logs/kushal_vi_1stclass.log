@@ -1,0 +1,449 @@
+Jun 28 22:56:00 <kushal>	<--- CLASS STARTED -->
+Jun 28 22:56:04 *	kushal has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | How to write "Hello World!" in gcc http://tv.dgplug.org/ | Vi from 10:55pm By Kushal | <-- CLASS PAUSED --> |
+Jun 28 22:56:05 <arpita>	$ means user??
+Jun 28 22:56:06 <mobilesuit>	techno_freak, i just need to connect two lan cards in a switch
+Jun 28 22:56:07 <techno_freak>	amrita, both?
+Jun 28 22:56:11 *	kushal has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | How to write "Hello World!" in gcc http://tv.dgplug.org/ | Vi from 10:55pm By Kushal | <-- CLASS STARTED --> |
+Jun 28 22:56:20 <techno_freak>	ALL SUPPORT Questions LATER!!
+Jun 28 22:56:26 <kushal>	techno_freak, :p
+Jun 28 22:56:28 *	roni (n=aritra@117.201.96.216) has joined #dgplug
+Jun 28 22:56:33 <kushal>	Hi all 
+Jun 28 22:56:39 <Soumya>	hi
+Jun 28 22:56:41 <mobilesuit>	ok will ask tomorrow then :)
+Jun 28 22:56:42 <Subhodip>	kushal, hello
+Jun 28 22:56:44 <susenj>	Do you want to ping broadcast?then -b,it shows!Techno_freak
+Jun 28 22:56:50 <roni>	kushal, hi
+Jun 28 22:56:52 <susenj>	Hello,Kushal
+Jun 28 22:56:54 <kushal>	in this session we are going to learn about the editor called vi 
+Jun 28 22:57:08 <Prams>	ok
+Jun 28 22:57:13 <Soumya>	where's rishi ?
+Jun 28 22:57:16 <kushal>	I hope you all understand what is an editor 
+Jun 28 22:57:32 *	kushal gives voice to Prakhar
+Jun 28 22:57:42 <roni>	you give a prpper idea
+Jun 28 22:57:47 *	kushal gives channel operator status to Soumya
+Jun 28 22:57:54 <roni>	i mean proper
+Jun 28 22:58:00 <Prakhar>	Hi all!
+Jun 28 22:58:12 <kushal>	an editor is a software which help you to edit some file 
+Jun 28 22:58:22 <kushal>	now there are different kinds of editor 
+Jun 28 22:58:34 <kushal>	some for text, some for audio, some for video 
+Jun 28 22:59:23 <kushal>	Now, the one we are going to discuss about is Vi (actually vim ) and other good one is emacs 
+Jun 28 22:59:41 <kushal>	we will discuss about vim which is newer version of vi 
+Jun 28 22:59:45 <kushal>	Vi imroved 
+Jun 28 22:59:50 <kushal>	* improved
+Jun 28 23:00:10 <kushal>	Now, whoever is on Fedora, vi is an alias to vim 
+Jun 28 23:00:18 <mobilesuit>	!
+Jun 28 23:00:21 *	techno_freak has quit ("Leaving")
+Jun 28 23:00:25 <Prams>	mean?
+Jun 28 23:00:29 <kushal>	for the other distros you have to type vim as command 
+Jun 28 23:00:33 <kushal>	mobilesuit, yes
+Jun 28 23:00:56 <mobilesuit>	on fedora, will vi-minimal package suffice ?
+Jun 28 23:01:03 <mobilesuit>	<EOF>
+Jun 28 23:01:10 <coolpyro>	Soumya: Im Rishi too :)
+Jun 28 23:01:22 <mobilesuit>	on fedora, will vim-minimal package suffice ?
+Jun 28 23:01:25 <kushal>	mobilesuit, hopefully 
+Jun 28 23:01:26 <mobilesuit>	typo
+Jun 28 23:01:40 <kushal>	coolpyro, do you like to be kicked out ?
+Jun 28 23:02:01 <kushal>	Prams, see vi and vim are two different commands 
+Jun 28 23:02:08 <coolpyro>	Kushal: Oh sorry for that
+Jun 28 23:02:17 *	nandy_lost (n=chatzill@59.178.189.146) has joined #dgplug
+Jun 28 23:02:22 <mobilesuit>	!
+Jun 28 23:02:43 <Prams>	full form of vi
+Jun 28 23:02:45 <kushal>	Prams, so, in Fedora if you type vi , actually vim will work through an alias (we will tell later what is an alias )
+Jun 28 23:02:49 <Soumya>	ok so we have another one :p , coolpyro
+Jun 28 23:03:00 <kushal>	Soumya, shut up please 
+Jun 28 23:03:06 <mobilesuit>	!
+Jun 28 23:03:10 <kushal>	Prams, it is vi
+Jun 28 23:03:13 <kushal>	mobilesuit, yes 
+Jun 28 23:03:52 <mobilesuit>	do u need to have /bin/vim present ? i don't have it in vim-minimal<EOF>
+Jun 28 23:04:04 #fedora-india #fedora-mktg #fedora-devel #fedora-python #fedora-docs #fedora-mentors 
+Jun 28 23:04:07 <Soumya>	yup kushal
+Jun 28 23:04:08 *	debayan (n=debayan@117.198.32.183) has joined #dgplug
+Jun 28 23:04:13 <kushal>	mobilesuit, please ask in #fedora for these questions 
+Jun 28 23:04:19 <kushal>	mobilesuit, and type *you* 
+Jun 28 23:04:29 <kushal>	ok
+Jun 28 23:04:40 <kushal>	so, all in terminal 
+Jun 28 23:04:42 <kushal>	type 
+Jun 28 23:04:44 <roni>	!
+Jun 28 23:04:48 <debayan>	baapre... great numbers here
+Jun 28 23:04:51 <debayan>	nice
+Jun 28 23:04:54 <kushal>	$vim  filename 
+Jun 28 23:05:00 <kushal>	debayan, class is going on 
+Jun 28 23:05:09 <mavu_>	!
+Jun 28 23:05:11 <debayan>	kushal, ya... carry on
+Jun 28 23:05:16 <debayan>	kushal, bye
+Jun 28 23:05:17 <kushal>	give a new filenam e
+Jun 28 23:05:22 <kushal>	roni, yes
+Jun 28 23:05:35 *	rtnpro has quit ("Leaving")
+Jun 28 23:05:44 <debayan>	kushal, am i allowed to stay?
+Jun 28 23:05:45 <roni>	kushal, i just yped vi its showing vim details
+Jun 28 23:05:53 <arpita>	kushal, extension part of file name will be .c??
+Jun 28 23:06:01 <kushal>	debayan, most welcome :)
+Jun 28 23:06:08 <debayan>	ok
+Jun 28 23:06:12 <kushal>	roni, that is what I said by alias 
+Jun 28 23:06:21 <mobilesuit>	in fedora do we need the vim-enhanced package ?
+Jun 28 23:06:27 <kushal>	arpita, any file, arpita.txt will also do
+Jun 28 23:06:33 #fedora-india #fedora-mktg #fedora-devel #fedora-python #fedora-docs #fedora-mentors 
+Jun 28 23:06:34 <kushal>	mobilesuit, please ask in #fedora 
+Jun 28 23:06:47 <mavu_>	! (i did a ! but it probably got lost :(  )in my humble opinion,we tend to degress a little too much to the extent that the flow is terribly interrupted ,would it not be better if we had say 15 minutes of uninterrupted lecture and the 10 minutes of question  time? ( just a suggestion)
+Jun 28 23:06:51 <roni>	got you
+Jun 28 23:07:00 <kushal>	ok
+Jun 28 23:07:12 <kushal>	I will take questions only after I stop 
+Jun 28 23:07:17 <kushal>	and ask for questions 
+Jun 28 23:07:21 <kushal>	mavu_, thanks 
+Jun 28 23:07:21 <Prakhar>	yeah, i also agree with mavu_
+Jun 28 23:07:27 <mavu_>	:)
+Jun 28 23:07:28 <kushal>	so , 
+Jun 28 23:07:31 *	TanmayaT has quit (Read error: 104 (Connection reset by peer))
+Jun 28 23:07:33 <kushal>	vim filename 
+Jun 28 23:07:47 <kushal>	if will open the file in the vim editor
+Jun 28 23:08:00 <kushal>	if it is a new file, then it will be empty 
+Jun 28 23:08:11 <kushal>	if old file, then some text will show 
+Jun 28 23:08:20 <kushal>	as for us it is a new file 
+Jun 28 23:09:04 <kushal>	now you all are in command mode of vi , if you want to type anything in the file type 'i' 
+Jun 28 23:09:24 <kushal>	Now type few english lines
+Jun 28 23:09:35 *	TanmayaT (n=sktmeenu@59.95.211.159) has joined #dgplug
+Jun 28 23:09:45 <kushal>	and then press Escape to come back to command mode 
+Jun 28 23:10:00 <kushal>	Everyone did ?
+Jun 28 23:10:08 <mavu_>	yes
+Jun 28 23:10:11 <Prams>	yea
+Jun 28 23:10:12 <TanmayaT>	!
+Jun 28 23:10:16 <nandy_lost>	yup
+Jun 28 23:10:17 <kushal>	TanmayaT, yes 
+Jun 28 23:10:24 <susenj>	ya
+Jun 28 23:10:27 <TanmayaT>	i missed it all got disconnected
+Jun 28 23:10:38 <roni>	yes
+Jun 28 23:10:46 <kushal>	Ta<kushal> vim filename 
+Jun 28 23:10:46 <kushal>	<kushal> if will open the file in the vim editor
+Jun 28 23:10:46 <kushal>	<kushal> if it is a new file, then it will be empty 
+Jun 28 23:10:46 <kushal>	<kushal> if old file, then some text will show 
+Jun 28 23:10:46 <kushal>	<kushal> as for us it is a new file 
+Jun 28 23:10:46 <kushal>	<kushal> now you all are in command mode of vi , if you want to type anything in the file type 'i' 
+Jun 28 23:10:46 <kushal>	<kushal> Now type few english lines
+Jun 28 23:11:13 <kushal>	ok, now to save the file type :w 
+Jun 28 23:11:25 <kushal>	first type colon :   , then 'w'
+Jun 28 23:11:40 <kushal>	to get back to the editing mode , press i 
+Jun 28 23:11:44 <Prams>	done
+Jun 28 23:11:52 <kushal>	Debashree, arpita working ?
+Jun 28 23:12:13 <arpita>	:w has to be typed while we have held the escape key also?
+Jun 28 23:12:27 <roni>	explain the :w part
+Jun 28 23:12:46 <kushal>	arpita, no, first press Escape to go to command mode, then type ":w" to save the file 
+Jun 28 23:12:49 <susenj>	done,file is created
+Jun 28 23:12:49 <mobilesuit>	!
+Jun 28 23:12:56 <kushal>	mobilesuit, yes
+Jun 28 23:13:02 <Debashree>	kushal, ok
+Jun 28 23:13:08 <kushal>	no more questions after this 
+Jun 28 23:13:09 <arpita>	kushal, done
+Jun 28 23:13:11 <kushal>	ok
+Jun 28 23:13:14 <TanmayaT>	ok got it
+Jun 28 23:13:15 <kushal>	moving on 
+Jun 28 23:13:29 <mobilesuit>	 i installed vim-enhanced and it has /usr/bin/vim
+Jun 28 23:13:36 <kushal>	now, to save and exit command is  :x 
+Jun 28 23:13:41 <mobilesuit>	so no prob now
+Jun 28 23:13:44 <kushal>	mobilesuit, ok
+Jun 28 23:13:45 <mobilesuit>	<EOF>
+Jun 28 23:13:59 <mobilesuit>	what would be the file name ?
+Jun 28 23:14:04 <kushal>	if you do save and exit you will come back to the command prompt 
+Jun 28 23:14:08 <kushal>	mobilesuit, anything 
+Jun 28 23:14:13 <arpita>	kushal, yes
+Jun 28 23:14:24 <mobilesuit>	i just named it vim-file :P
+Jun 28 23:14:31 <Prams>	ok
+Jun 28 23:14:42 <kushal>	mobilesuit,  don't disturb in btween 
+Jun 28 23:14:45 <susenj>	file saved,what to do next?
+Jun 28 23:14:47 <kushal>	between 
+Jun 28 23:15:03 <kushal>	now reopen the file with vim again 
+Jun 28 23:15:18 <kushal>	press i and add some random text 
+Jun 28 23:16:26 <kushal>	now if you don't want to save , but want to go back to the last saved version , command is :e!
+Jun 28 23:16:42 <Soumya>	done
+Jun 28 23:16:42 <susenj>	done
+Jun 28 23:16:44 <Prams>	done
+Jun 28 23:16:49 <kushal>	Please don't type here 
+Jun 28 23:17:11 <kushal>	if you don't want to save, and also exit , type :q!
+Jun 28 23:17:11 <Prams>	what?
+Jun 28 23:17:20 <Prams>	oh
+Jun 28 23:17:37 <kushal>	let us reopen the file 
+Jun 28 23:17:51 *	Tanmaya1 (n=sktmeenu@59.95.204.234) has joined #dgplug
+Jun 28 23:18:24 <Tanmaya1>	!
+Jun 28 23:18:37 <Prams>	then
+Jun 28 23:18:37 <kushal>	now some basic movements in the file
+Jun 28 23:18:42 <kushal>	Tanmaya1, later 
+Jun 28 23:18:51 <kushal>	Prams, please stop typing here 
+Jun 28 23:19:13 <kushal>	You can use your arrow keys to move around 
+Jun 28 23:19:24 <kushal>	also some other keys 
+Jun 28 23:19:33 <kushal>	h == 1 char left 
+Jun 28 23:19:39 <kushal>	j == 1 char down 
+Jun 28 23:19:46 <kushal>	k == 1 char up 
+Jun 28 23:19:53 <kushal>	l == 1 char right 
+Jun 28 23:20:09 <kushal>	try them, 
+Jun 28 23:20:24 <arpita>	kushal, where to type these commands??
+Jun 28 23:20:32 <arpita>	kushal, in command prompt??
+Jun 28 23:20:33 <kushal>	arpita, in the command mode 
+Jun 28 23:20:44 <kushal>	arpita, no we are talking about vim editor 
+Jun 28 23:21:15 <roni>	yeah its working fine
+Jun 28 23:21:19 <kushal>	now to move word by word 
+Jun 28 23:21:21 <arpita>	kushal, yse but h==l all these commands to be tried in command mode??
+Jun 28 23:21:22 <kushal>	press w
+Jun 28 23:21:29 <kushal>	arpita, yes, correct 
+Jun 28 23:21:40 <kushal>	to come back word by word 
+Jun 28 23:21:44 <kushal>	press b
+Jun 28 23:21:49 <kushal>	try 
+Jun 28 23:22:27 <Tanmaya1>	ok done
+Jun 28 23:22:29 <kushal>	now two special characters 
+Jun 28 23:22:35 <kushal>	Tanmaya1, don;t type here 
+Jun 28 23:22:48 <kushal>	to go back to the beginning of the line 
+Jun 28 23:22:52 <kushal>	press 0
+Jun 28 23:23:01 <kushal>	to go to the end of the line press $
+Jun 28 23:23:44 <kushal>	to go to the end of the word 
+Jun 28 23:23:47 <kushal>	press e
+Jun 28 23:24:12 <kushal>	now some editing option 
+Jun 28 23:24:34 <kushal>	to append some text from the current cursor position , press a
+Jun 28 23:24:53 <kushal>	to replace the current character with something 
+Jun 28 23:25:01 <kushal>	press r and then the new character 
+Jun 28 23:25:30 <kushal>	to delete a character , press x
+Jun 28 23:25:57 <mobilesuit>	!
+Jun 28 23:26:05 <kushal>	now there are two special options also 
+Jun 28 23:26:38 <kushal>	mobilesuit, later 
+Jun 28 23:27:01 <kushal>	change and delete 
+Jun 28 23:27:21 <kushal>	they both require  some kind of text object to work on 
+Jun 28 23:27:40 <kushal>	like you want to change a word , press cw
+Jun 28 23:27:59 <kushal>	if you want to change from the cursor to the end of the line press c$
+Jun 28 23:28:06 <kushal>	or C
+Jun 28 23:28:51 <kushal>	same way from the cursor to the beginning of the line is c0
+Jun 28 23:28:53 *	nandy_lost_ (n=chatzill@59.178.183.55) has joined #dgplug
+Jun 28 23:29:26 <kushal>	btw, if I don't type for long that means power went off, please wait in that kind of situation 
+Jun 28 23:29:52 <kushal>	now to change a whole line is cc
+Jun 28 23:30:28 <kushal>	to delete 
+Jun 28 23:30:36 <kushal>	d
+Jun 28 23:30:38 *	l1unatic has quit (Read error: 110 (Connection timed out))
+Jun 28 23:30:41 <kushal>	like to delete a word 
+Jun 28 23:30:43 <kushal>	dw
+Jun 28 23:30:52 <kushal>	to delete upto end of the line d$
+Jun 28 23:31:00 <kushal>	or D
+Jun 28 23:31:08 <kushal>	to delete/cut the whole line dd
+Jun 28 23:31:28 <kushal>	to the beginning of the line is d0
+Jun 28 23:31:56 <kushal>	done by everyone ?
+Jun 28 23:31:58 *	susenj_ (n=chatzill@59.178.183.55) has joined #dgplug
+Jun 28 23:32:02 <mavu_>	yes
+Jun 28 23:32:04 <kushal>	answer in yes/no 
+Jun 28 23:32:18 <ria>	yes
+Jun 28 23:32:24 <amrita>	yes
+Jun 28 23:32:31 *	debayan has quit (Read error: 110 (Connection timed out))
+Jun 28 23:32:35 <Prams>	yes
+Jun 28 23:32:37 <nandy_lost_>	yes
+Jun 28 23:32:37 <roni>	yup
+Jun 28 23:32:45 <kushal>	ok
+Jun 28 23:32:52 <susenj_>	did
+Jun 28 23:32:53 <Tanmaya1>	yes
+Jun 28 23:32:56 <kushal>	arpita, Debashree ?
+Jun 28 23:32:59 <mobilesuit>	!
+Jun 28 23:33:02 <kushal>	mobilesuit, yes 
+Jun 28 23:33:25 <mobilesuit>	plz tell the use of r in command mode
+Jun 28 23:33:39 <mobilesuit>	to replace or something
+Jun 28 23:33:40 <kushal>	mobilesuit, please type *please* 
+Jun 28 23:33:41 <roni>	!
+Jun 28 23:33:48 <kushal>	mobilesuit, yes, to replace a character 
+Jun 28 23:33:50 <kushal>	mobilesuit, try 
+Jun 28 23:33:54 <kushal>	roni, yes 
+Jun 28 23:33:59 <roni>	what we deleted cant that be gained again, i mean no undo option
+Jun 28 23:34:11 <kushal>	roni, coming to that :p
+Jun 28 23:34:16 <amrita>	!
+Jun 28 23:34:17 <roni>	:0
+Jun 28 23:34:20 <kushal>	amrita, yes 
+Jun 28 23:34:25 <mobilesuit>	kushal, yes ?
+Jun 28 23:34:36 <amrita>	kushal, suppose we write something
+Jun 28 23:34:49 *	TanmayaT has quit (Read error: 110 (Connection timed out))
+Jun 28 23:34:53 <amrita>	then we come to the command mode by esc
+Jun 28 23:34:57 *	Soumya has quit (Read error: 104 (Connection reset by peer))
+Jun 28 23:34:58 <kushal>	amrita, yes 
+Jun 28 23:35:14 <kushal>	btw, nandy_lost nandy_lost_ your name ?
+Jun 28 23:35:17 <amrita>	then by pressing  s we come to the insert mode
+Jun 28 23:35:25 <amrita>	how come?
+Jun 28 23:35:25 *	SDey (n=chatzill@117.194.96.210) has joined #dgplug
+Jun 28 23:35:27 <kushal>	amrita, press i 
+Jun 28 23:35:32 <mobilesuit>	kushal, try what ?
+Jun 28 23:35:43 <amrita>	yes that is working
+Jun 28 23:35:46 <nandy_lost_>	nandy_lost_
+Jun 28 23:35:59 <amrita>	but also working for some other characters
+Jun 28 23:36:03 <kushal>	amrita, s is not just insert mode, we will discuss later that 
+Jun 28 23:36:06 <roni>	kushal, amrita is right
+Jun 28 23:36:13 <kushal>	roni, amrita, all are different 
+Jun 28 23:36:18 <kushal>	mobilesuit, try r 
+Jun 28 23:36:19 <amrita>	ok
+Jun 28 23:36:29 <kushal>	so move on 
+Jun 28 23:36:35 <susenj_>	!
+Jun 28 23:36:35 <kushal>	Now , to undo , press u 
+Jun 28 23:36:45 <kushal>	susenj, at next stop :p
+Jun 28 23:37:25 <mobilesuit>	!
+Jun 28 23:37:25 <kushal>	sometimes you find we do typo like "teh "
+Jun 28 23:37:39 <kushal>	"moblie "
+Jun 28 23:37:59 <kushal>	you can see that we misplaced two characters 
+Jun 28 23:38:07 <kushal>	mobilesuit, wait for the next stop 
+Jun 28 23:38:35 <kushal>	nwo to fix this, go to the first character to fix , then press xp
+Jun 28 23:38:42 <kushal>	x to cut , p to paste 
+Jun 28 23:38:45 <kushal>	try it 
+Jun 28 23:39:19 <kushal>	btw, don't forget to save the file in between by :w 
+Jun 28 23:39:45 <kushal>	nandy_lost_, your real name ?
+Jun 28 23:39:55 <nandy_lost_>	narendra
+Jun 28 23:39:59 <kushal>	ok 
+Jun 28 23:40:04 *	makghosh_ has quit (Read error: 110 (Connection timed out))
+Jun 28 23:40:06 <kushal>	Now to copy , press y 
+Jun 28 23:40:13 <kushal>	like to copy a line yy
+Jun 28 23:40:17 <kushal>	a word yw
+Jun 28 23:40:30 <kushal>	upto end of the line y$
+Jun 28 23:40:42 <kushal>	upto the beginning of the line y0
+Jun 28 23:40:54 <kushal>	and to paste you already know p
+Jun 28 23:41:42 <kushal>	now few more magics 
+Jun 28 23:41:46 *	amrita has quit (Read error: 104 (Connection reset by peer))
+Jun 28 23:42:02 <kushal>	to repeat last action press .
+Jun 28 23:42:16 <kushal>	to change case of a letter press ~
+Jun 28 23:42:20 <kushal>	try the above ^^^^
+Jun 28 23:42:45 <roni>	great
+Jun 28 23:42:49 *	_pjp_ (n=pjp@59.92.129.216) has joined #dgplug
+Jun 28 23:42:53 *	ria_ (n=ria@121.245.53.111) has joined #dgplug
+Jun 28 23:43:01 <nandy_lost_>	gr8
+Jun 28 23:43:03 <_pjp_>	hello all
+Jun 28 23:43:03 <kushal>	_pjp_, welcome 
+Jun 28 23:43:12 <kushal>	_pjp_, I am talking vi now 
+Jun 28 23:43:12 <mavu_>	nice
+Jun 28 23:43:14 <_pjp_>	kushal: hi
+Jun 28 23:43:18 *	ria has quit (Nick collision from services.)
+Jun 28 23:43:24 <_pjp_>	kushal: okay.
+Jun 28 23:43:24 *	susenj_ is now known as suse_nj
+Jun 28 23:43:25 *	ria_ is now known as ria
+Jun 28 23:43:27 <roni>	no sms language nandy_lost
+Jun 28 23:43:34 <kushal>	roni, good 
+Jun 28 23:43:38 <nandy_lost_>	ok friend
+Jun 28 23:43:41 <kushal>	so move on 
+Jun 28 23:44:03 <kushal>	If you want to add a new line below the current line press o
+Jun 28 23:44:11 <kushal>	above the current line press O
+Jun 28 23:44:37 <kushal>	To join the current and next line press J
+Jun 28 23:44:44 <kushal>	capital J
+Jun 28 23:45:36 <kushal>	now all the things we did we can add numerical values to it 
+Jun 28 23:45:47 <kushal>	like copy 2 lines 2yy
+Jun 28 23:45:52 <kushal>	paste is just p 
+Jun 28 23:45:58 <kushal>	delete 2 words 
+Jun 28 23:46:01 <kushal>	2dw 
+Jun 28 23:46:28 <kushal>	toggle case of 6 characters 
+Jun 28 23:46:31 <kushal>	6~
+Jun 28 23:46:40 *	balajirrao (n=balaji@59.92.249.39) has joined #dgplug
+Jun 28 23:47:11 <kushal>	balajirrao, welcome 
+Jun 28 23:47:17 <Tanmaya1>	!
+Jun 28 23:47:22 <kushal>	Tanmaya1, yes please 
+Jun 28 23:47:29 <suse_nj>	!
+Jun 28 23:47:37 <Tanmaya1>	is there a redo like the undo command
+Jun 28 23:47:38 <nandy_lost_>	!
+Jun 28 23:47:49 <mavu_>	!
+Jun 28 23:48:06 *	amrita (n=amrita@117.201.96.23) has joined #dgplug
+Jun 28 23:48:20 <kushal>	Tanmaya1, ctrl R
+Jun 28 23:48:31 *	nandy_lost has quit (Read error: 110 (Connection timed out))
+Jun 28 23:48:33 <Tanmaya1>	thank you <EOF>
+Jun 28 23:48:56 <kushal>	any other questions ?
+Jun 28 23:48:56 *	nandy_lost_ has quit ("ChatZilla 0.9.83 [Firefox 1.5.0.12/2007050813]")
+Jun 28 23:49:00 <suse_nj>	s,i and a-all three make insert mode active?what is the distinction?
+Jun 28 23:49:02 <mavu_>	!
+Jun 28 23:49:07 <suse_nj>	<EOF>
+Jun 28 23:49:10 *	nandy_lost_ (n=chatzill@59.178.183.55) has joined #dgplug
+Jun 28 23:49:12 *	nandy_lost_ is now known as nandy_lost
+Jun 28 23:49:20 <nandy_lost>	can we add numeric values in all these type of commands
+Jun 28 23:49:24 *	susenj has quit (Read error: 110 (Connection timed out))
+Jun 28 23:49:27 <kushal>	suse_nj, we will see them one by one when they will come 
+Jun 28 23:49:32 <kushal>	nandy_lost, yes, we just did 
+Jun 28 23:49:36 <kushal>	mavu_, yes
+Jun 28 23:49:52 <mavu_>	why do some commands end in ! is the ! of any special significance?
+Jun 28 23:50:01 <mavu_>	like we did a q! and e!
+Jun 28 23:50:05 <mavu_>	:q!
+Jun 28 23:50:09 <roni>	!
+Jun 28 23:50:18 <kushal>	mavu_, negative form 
+Jun 28 23:50:20 <kushal>	roni, yes
+Jun 28 23:50:38 <roni>	i got i, amd a, but explain s
+Jun 28 23:50:54 <roni>	and not amd
+Jun 28 23:51:16 <kushal>	roni, how many times i have to tell you I will explain when it will come ?
+Jun 28 23:51:48 <kushal>	move on 
+Jun 28 23:52:05 <kushal>	see, in any file we always try to know the line number , 
+Jun 28 23:52:14 <kushal>	like while writing a program 
+Jun 28 23:52:25 <kushal>	so to turn that on , type :set nu 
+Jun 28 23:52:47 <kushal>	to turn it off :set nu!
+Jun 28 23:53:30 <Tanmaya1>	!
+Jun 28 23:53:34 <kushal>	and to go to any particular line :linenumber 
+Jun 28 23:53:43 <kushal>	Tanmaya1, yes 
+Jun 28 23:54:04 <Tanmaya1>	i missed the part about e and q what do they do ???
+Jun 28 23:54:15 <roni>	!
+Jun 28 23:54:31 <arpita>	kushal, dada why my name is faded??
+Jun 28 23:54:40 *	debayan (n=debayan@117.198.33.65) has joined #dgplug
+Jun 28 23:54:43 <kushal>	Tanmaya1, :e! to go back to the last saved version , :q! to no save and quit 
+Jun 28 23:54:49 <kushal>	arpita, press Alt + a
+Jun 28 23:54:52 <kushal>	roni, 
+Jun 28 23:54:56 <kushal>	roni, yes 
+Jun 28 23:55:16 <roni>	move on, i myself cleared it, o also sets on input
+Jun 28 23:55:24 <Tanmaya1>	and what do they do without the ! option
+Jun 28 23:55:31 <Tanmaya1>	<EOF>
+Jun 28 23:57:02 <kushal>	Tanmaya1, :q == only quit , like when you never edited anything 
+Jun 28 23:57:20 <Tanmaya1>	ok thank you
+Jun 28 23:57:23 <kushal>	Tanmaya1, to edit the current file, may be the file is changed outside vim 
+Jun 28 23:57:27 <kushal>	:e 
+Jun 28 23:57:55 <kushal>	I think this is good enough vim for today 
+Jun 28 23:58:01 <kushal>	now question section 
+Jun 28 23:58:09 <kushal>	Q/A 
+Jun 28 23:58:25 <mobilesuit>	!
+Jun 28 23:58:47 <kushal>	mobilesuit, yes please 
+Jun 28 23:59:23 <mobilesuit>	can we type <linenumber> then G to go to a particular word ?
+Jun 28 23:59:28 <mobilesuit>	<EOF>
+Jun 28 23:59:40 <mobilesuit>	sorry typo
+Jun 28 23:59:52 <mobilesuit>	line
+Jun 29 00:00:25 <nandy_lost>	!
+Jun 29 00:00:38 <kushal>	mobilesuit, yes 
+Jun 29 00:00:47 <kushal>	mobilesuit, like 10G for 10th line
+Jun 29 00:00:50 <kushal>	nandy_lost, yes 
+Jun 29 00:00:56 <mobilesuit>	ok
+Jun 29 00:00:57 <nandy_lost>	are all commands are strictly case sensitive
+Jun 29 00:01:01 <kushal>	nandy_lost, yes 
+Jun 29 00:01:11 <kushal>	nandy_lost, like o and O does different things 
+Jun 29 00:01:16 <amrita>	!
+Jun 29 00:01:20 <kushal>	amrita, yes 
+Jun 29 00:01:37 <amrita>	when we write something
+Jun 29 00:01:37 <suse_nj>	!
+Jun 29 00:01:40 <nandy_lost>	ok
+Jun 29 00:01:53 <amrita>	and press :q
+Jun 29 00:02:01 <amrita>	it should quit
+Jun 29 00:02:03 <amrita>	?
+Jun 29 00:02:11 <nandy_lost>	!
+Jun 29 00:02:23 <mobilesuit>	you have to write :q!
+Jun 29 00:02:26 *	balajirrao has quit (Remote closed the connection)
+Jun 29 00:02:31 <kushal>	amrita, if you edited some thing  , then no 
+Jun 29 00:02:46 <kushal>	amrita, after edit to quit :q!
+Jun 29 00:02:52 <kushal>	suse_nj, yes 
+Jun 29 00:03:08 <amrita>	kushal, i have simple opened a file and started writing
+Jun 29 00:03:16 <suse_nj>	i didn't understand,what mobilesuit is saying to go to a aprticular word
+Jun 29 00:03:20 <amrita>	then i want to quit
+Jun 29 00:03:21 <kushal>	amrita, wait for yor turn 
+Jun 29 00:03:25 <suse_nj>	*particular
+Jun 29 00:03:25 *	Debashree_ (n=Debashre@61.0.133.49) has joined #dgplug
+Jun 29 00:03:34 <kushal>	suse_nj, like open a file 
+Jun 29 00:03:46 <kushal>	suse_nj, then you want to go to the 99th line of it 
+Jun 29 00:03:51 <kushal>	there are two ways 
+Jun 29 00:03:55 <kushal>	:99
+Jun 29 00:03:58 <kushal>	99G
+Jun 29 00:04:07 <kushal>	suse_nj, ^^ try them 
+Jun 29 00:04:28 <kushal>	_pjp_, ping 
+Jun 29 00:04:50 <mavu_>	!
+Jun 29 00:04:53 <kushal>	mavu_, yes 
+Jun 29 00:04:57 <mavu_>	does a :wq work as in once we saved.. then there is nothing edited after that?
+Jun 29 00:05:11 <suse_nj>	yeah,both work fine,thanks!<eof>
+Jun 29 00:05:14 <nandy_lost>	!
+Jun 29 00:05:17 <mavu_>	or :w then :q
+Jun 29 00:05:20 <kushal>	mavu_, see :w means save, and q wil quit 
+Jun 29 00:05:30 *	Soumya (n=Soumya@117.192.5.81) has joined #dgplug
+Jun 29 00:05:46 <kushal>	mavu_, so you have option of :wq, :w and then :q , or in simple :x 
+Jun 29 00:05:55 <mavu_>	oh
+Jun 29 00:05:59 <mavu_>	okay
+Jun 29 00:06:00 <mavu_>	:
+Jun 29 00:06:15 <Soumya>	kushal, difference between :wq and :x
+Jun 29 00:06:16 <Soumya>	??
+Jun 29 00:06:38 <kushal>	Soumya, nothing I know of 
+Jun 29 00:07:14 <nandy_lost>	is there any command to reach a particular word in a particular line
+Jun 29 00:07:22 <Soumya>	ok kushal
+Jun 29 00:08:27 <kushal>	nandy_lost, yes, you mean search 
+Jun 29 00:08:37 <kushal>	nandy_lost, we will learn them tomorrow 
+Jun 29 00:08:42 <kushal>	nandy_lost, or you can googl e
+Jun 29 00:08:59 <kushal>	any other questions ?
+Jun 29 00:09:31 <kushal>	ok, then closing this session 
+Jun 29 00:09:44 <kushal>	< -- CLASS OVER -->

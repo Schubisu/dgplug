@@ -1,0 +1,204 @@
+Aug 28 22:35:28 <nicubunu>	i am Nicu, i am from Romania and was invited by kushal to talk a bit about free culture, sharing and Creative Commons licenses
+Aug 28 22:35:56 <nicubunu>	i work or worked on various FLOSS projects
+Aug 28 22:36:23 <nicubunu>	for example contributed for some years to the Design Team in the Fedora project
+Aug 28 22:36:39 <nicubunu>	and also on some Wikipedia stuff, and not only
+Aug 28 22:36:57 <nicubunu>	i do photography http://photoblog.nicubunu.ro/
+Aug 28 22:37:10 <nicubunu>	and graphics: http://howto.nicubunu.ro/
+Aug 28 22:37:14 *	chandan_kumar (ciypro@223.176.236.213) has joined #dgplug
+Aug 28 22:37:53 <nicubunu>	almost all the things i do are published under a Free license, because i believe in freedom, sharing, free software, free culture
+Aug 28 22:38:04 <nicubunu>	how about you all?
+Aug 28 22:38:17 <nicubunu>	i understand you are programmers
+Aug 28 22:38:35 *	Jyoti_varpe (7bfce562@gateway/web/freenode/ip.123.252.229.98) has joined #dgplug
+Aug 28 22:38:52 <nicubunu>	are you familiar with the free software world? free software licenses? do you use them?
+Aug 28 22:39:08 <kushal>	everyone please answer whenever nicubunu asks
+Aug 28 22:39:10 *	sayan has quit (Ping timeout: 245 seconds)
+Aug 28 22:39:25 <fewcha>	no, not me
+Aug 28 22:39:33 <StarOnD>	mathematics/economics/computer science (amateur)  student having a small idea of the free software world
+Aug 28 22:39:48 *	Kalyani (79f3d045@gateway/web/freenode/ip.121.243.208.69) has joined #dgplug
+Aug 28 22:40:13 *	oini_ (~oini@117.227.12.236) has joined #dgplug
+Aug 28 22:40:18 <nicubunu>	ok, anyone here heard before about Creative Commons licenses?
+Aug 28 22:40:27 <nikita_>	very few idea
+Aug 28 22:40:31 <fewcha>	i am familiar with free software world and use free software too but no idea on the licenses part
+Aug 28 22:40:49 <fewcha>	no
+Aug 28 22:40:52 <nicubunu>	thanks
+Aug 28 22:40:52 *	sayan (~sayanchow@106.218.240.53) has joined #dgplug
+Aug 28 22:40:53 *	sayan has quit (Changing host)
+Aug 28 22:40:53 *	sayan (~sayanchow@fedora/sayan) has joined #dgplug
+Aug 28 22:40:56 <nikita_>	no
+Aug 28 22:40:57 <StarOnD>	a little bit but would like a clearer explanation
+Aug 28 22:41:09 <nicubunu>	are you into photography and/or graphics?
+Aug 28 22:41:23 <fewcha>	into photography, yes
+Aug 28 22:41:30 *	bamachrn has quit (Ping timeout: 252 seconds)
+Aug 28 22:41:48 *	oini has quit (Ping timeout: 245 seconds)
+Aug 28 22:41:48 *	oini_ is now known as oini
+Aug 28 22:42:02 <StarOnD>	I plan to make a photogallery with python which will allow image manipulation
+Aug 28 22:43:02 <nicubunu>	so, for example say you may need a photo for a project, maybe you need to write a piece about the real history behind the myth of Dracula and need a picture of a castle where the real man lived
+Aug 28 22:43:04 <nikita_>	photography
+Aug 28 22:43:10 *	garima_ has quit (Quit: Konversation terminated!)
+Aug 28 22:43:17 *	bamachrn (~bamachrn@106.77.66.164) has joined #dgplug
+Aug 28 22:43:27 *	garima_ (~garima_@14.139.221.18) has joined #dgplug
+Aug 28 22:43:30 <nicubunu>	or you may want to make a video with vacancy photos and need a song for its soundtrack
+Aug 28 22:43:50 <nicubunu>	what do you do? go search for one on the internet
+Aug 28 22:44:01 <nicubunu>	but you are legally allowed to use it?
+Aug 28 22:44:42 <nicubunu>	i have another group question: have anyone tried to read the copyright law from your country? is so, did you understood it?
+Aug 28 22:45:09 <fewcha>	no, never thought of doing so actually :(
+Aug 28 22:45:14 <nicubunu>	kushal, at least you?
+Aug 28 22:45:17 <StarOnD>	not tried to do that
+Aug 28 22:45:23 *	Subho has quit (Ping timeout: 265 seconds)
+Aug 28 22:45:29 <kushal>	nicubunu, once :)
+Aug 28 22:45:39 <kushal>	never understood totally 
+Aug 28 22:45:40 <nicubunu>	there are two big problems
+Aug 28 22:46:23 <nicubunu>	first of them, every human creation falls automatically under FULL COPYRIGHT
+Aug 28 22:46:23 <oini>	nicubunu: never tried it
+Aug 28 22:46:48 <nicubunu>	legally, you can't use it without express permission from the author
+Aug 28 22:46:49 <nikita_>	not yet tried to do so :(
+Aug 28 22:47:20 <nicubunu>	for example, if you find some blog with a nice photo, is illegal to use it, you have to ask for permission
+Aug 28 22:47:52 <nicubunu>	the second problem: the laws are written in "legalese", a language made by lawyers for lawyers
+Aug 28 22:48:11 <nicubunu>	not easy to understand for normal people
+Aug 28 22:48:15 *	Kalyani has quit (Quit: Page closed)
+Aug 28 22:48:22 <fewcha>	!
+Aug 28 22:48:46 <kushal>	fewcha, ask
+Aug 28 22:49:24 <fewcha>	sorry, nothing i got my answer thanks :)
+Aug 28 22:49:25 <nicubunu>	so a group of people from San Francisco came with a great idea to solve this, they founded Creative Commons and created a few licenses which are easy to understand by us, normal people
+Aug 28 22:50:35 <nicubunu>	those licenses are inspired by Free software licenses, but they are intended for artistic works: pictures, videos, sounds, music, literature, etc.
+Aug 28 22:50:59 <nicubunu>	have a look at http://creativecommons.org/choose/
+Aug 28 22:52:01 <nicubunu>	the idea is to put your work under one of those licenses, people will understand *easily* which rights and restrictions they have, and they can use your works easily
+Aug 28 22:52:45 <nicubunu>	use that page and generate a license for yourself, look at the result page
+Aug 28 22:52:58 <nicubunu>	remember seeing those buttons on the web?
+Aug 28 22:53:11 <sayan>	yes
+Aug 28 22:53:44 <nicubunu>	let me talk a bit about the specific CC licenses
+Aug 28 22:54:15 <nicubunu>	practically all of them will require attribution for the original author, the "BY" clause
+Aug 28 22:54:39 <nicubunu>	no matter how you use the creation, you have to give credit
+Aug 28 22:55:12 <nicubunu>	this is the basic license, Creative Commons Attribution, or short CC-BY
+Aug 28 22:55:54 <nicubunu>	supposedly, if you use a photo made by me and released under this license, all you have to do is to write somewhere: photo by Nicu Buculei
+Aug 28 22:56:05 <nicubunu>	you can even sell that photo!
+Aug 28 22:57:19 <nicubunu>	another option is Share Alike, this means  if someone uses a work under that license have to credit the original author and keep the license the same for the derivatives he created
+Aug 28 22:57:53 <nicubunu>	this is a "viral" license, much like GPL in Free software, it ensure the work is Free and will remain Free
+Aug 28 22:58:43 <nicubunu>	there are to more options: Non-Derivative (ND), which does not allow for derivative work based on the original, it must be kept the same
+Aug 28 22:59:10 <nicubunu>	and Non-Commercial (NC), which does not allow the work to be sold
+Aug 28 22:59:44 <nicubunu>	so you can have any combination of those: BY-SA. BY-SA-NC, BY-NC-ND etc.
+Aug 28 22:59:53 <nicubunu>	still following me?
+Aug 28 23:00:09 <StarOnD>	yes,interesting
+Aug 28 23:00:21 <sayan>	nicubunu, yes
+Aug 28 23:00:35 <oini>	nicubunu: yes
+Aug 28 23:00:37 <chandan_kumar>	nicubunu, yes
+Aug 28 23:00:38 <nicubunu>	i would like to have you selecting one of those licenses you like and say its name
+Aug 28 23:01:09 <StarOnD>	BY-SA
+Aug 28 23:01:17 <sayan>	BY-NC
+Aug 28 23:01:25 *	praveenkumar has quit (Ping timeout: 268 seconds)
+Aug 28 23:01:26 <oini>	BY-SA
+Aug 28 23:01:31 <nicubunu>	:) there are options for everyone
+Aug 28 23:01:48 *	Abhishek has quit (Ping timeout: 245 seconds)
+Aug 28 23:01:52 <StarOnD>	!
+Aug 28 23:01:54 *	encipher (~kaushik@101.63.229.143) has joined #dgplug
+Aug 28 23:02:03 <chandan_kumar>	nicubunu, BY-ND
+Aug 28 23:02:08 <nikita_>	nicubunu, yes
+Aug 28 23:02:19 <kushal>	StarOnD, ask
+Aug 28 23:02:21 <nicubunu>	we in the Free software world find some of those as Free: BY and BY-SA and others not free, like those with NC or ND
+Aug 28 23:03:08 *	garima_ has quit (Ping timeout: 248 seconds)
+Aug 28 23:03:30 *	nicubunu waiting
+Aug 28 23:03:50 <kushal>	StarOnD, ?
+Aug 28 23:04:13 <StarOnD>	Is there any licence where BY is not required? For instance if I write some code I want anyone to use it,anyway they like, it would be nice to be attributed but depending on the context I want everyone to benefit from it ,even if it is proprietary and I don't think he will be able to attribute it then
+Aug 28 23:04:42 <StarOnD>	apologies, was typing
+Aug 28 23:04:48 <nicubunu>	StarOnD, what you ask is a work released under the Public Domain
+Aug 28 23:05:08 <StarOnD>	ahh alright
+Aug 28 23:05:21 <nicubunu>	and because PD is not compatible with laws in some countries, Creative Commons made the CC0 license
+Aug 28 23:05:53 <nicubunu>	StarOnD: http://creativecommons.org/choose/zero/
+Aug 28 23:06:21 *	nikita_ has quit (Quit: Leaving)
+Aug 28 23:06:32 <StarOnD>	nicubunu,thank you
+Aug 28 23:06:45 *	Jyoti_varpe has quit (Quit: Page closed)
+Aug 28 23:07:01 <nicubunu>	so, about Free and Non-Free licenses: projects like Fedora or Debian have a Free policy, they will accept only work under a Free license: CC-BY, CC-BY-SA or CC0
+Aug 28 23:07:20 <nicubunu>	now, where do we find such content?
+Aug 28 23:07:48 <nicubunu>	google advanced search: https://www.google.com/advanced_search
+Aug 28 23:07:49 <batul>	http://productforums.google.com/d/topic/websearch/pqXQwuhZwAs
+Aug 28 23:08:09 <nicubunu>	scroll down to "usage rights"
+Aug 28 23:08:43 <nicubunu>	photos on flickr: http://www.flickr.com/search/advanced/?
+Aug 28 23:08:58 *	kishan has quit (Quit: Konversation terminated!)
+Aug 28 23:09:06 <nicubunu>	scroll down to Creative Commons
+Aug 28 23:09:25 <nicubunu>	a lot of image sites have this option
+Aug 28 23:09:48 <nicubunu>	if you need a song: http://www.jamendo.com/en/search
+Aug 28 23:10:09 *	bamachrn has quit (Ping timeout: 260 seconds)
+Aug 28 23:10:15 <nicubunu>	there is the "CC license" drop-down
+Aug 28 23:10:54 <nicubunu>	have you heard about the Nine Inch Nails rock band?
+Aug 28 23:11:10 <nicubunu>	they have licensed an album under a CC license: http://ghosts.nin.com/main/faq
+Aug 28 23:11:31 <nicubunu>	they even uploaded themselves the MP3 to thepiratebay
+Aug 28 23:11:49 <nicubunu>	it was a success and they did it again :)
+Aug 28 23:12:01 *	bamachrn (~bamachrn@106.77.66.164) has joined #dgplug
+Aug 28 23:12:18 <nicubunu>	so there are band releasing their music under a Free license, even big banbds, like NIN
+Aug 28 23:13:04 <nicubunu>	group question again: have you ever used Wikipedia? have you ever contributed to it?
+Aug 28 23:13:16 <fewcha>	not contributted but used, yes
+Aug 28 23:13:28 <StarOnD>	yes have used it,but not contributed to it
+Aug 28 23:13:55 <nicubunu>	you know Wikipedia in an encyclopedia created by the community
+Aug 28 23:13:56 <oini>	use it regularly but never contributed to it
+Aug 28 23:14:14 <nicubunu>	this is possible because it has a Free license, CC-BY-SA
+Aug 28 23:15:28 <nicubunu>	speaking about Wikipedia, during the month of September, we have a Free photography contest, Wiki Loves Monuments: http://www.wikilovesmonuments.org/
+Aug 28 23:16:08 <nicubunu>	it happens in over 30 countries in the world (will probably get a new Guinness World Record for the largest photography contest)
+Aug 28 23:16:24 <fewcha>	nicubunu: one question!
+Aug 28 23:16:32 <nicubunu>	this year it takes place also in India, hope Kushal knows more and will participate :)
+Aug 28 23:16:36 <nicubunu>	please fewcha
+Aug 28 23:17:06 <fewcha>	can ANYONE contribute to wikipedia, or do we have to fall under some criterias or something ?
+Aug 28 23:18:05 <nicubunu>	ANYONE can, you have to follow a single rule: you'll have to agree to contribute under a Free license
+Aug 28 23:18:29 <nicubunu>	of course, you have to write accurate stuff and document your sources :)
+Aug 28 23:18:47 <fewcha>	nicubunu: and who or what verifies that ?
+Aug 28 23:18:57 <nicubunu>	other people!
+Aug 28 23:19:23 <nicubunu>	if you read a Wikipedia article and you find something wrong, you can correct it yourself
+Aug 28 23:19:43 <fewcha>	nicubunu: oh okay got it thanks! :)
+Aug 28 23:21:05 <nicubunu>	so about that photography contest, i don't know about the specifics in India, but it should have national prizes and the top 10 pictures will go for the international contest and another round of prizes
+Aug 28 23:21:36 <nicubunu>	we in Romania had last year about 5700 photos submitted by over 300 people
+Aug 28 23:21:56 <nicubunu>	India is a much larger country, so you can do *a lot* more :)
+Aug 28 23:22:51 <nicubunu>	i see i am over time, will try to end fast :) don't want to make people fall asleep
+Aug 28 23:23:02 <kushal>	nicubunu, you can continue
+Aug 28 23:23:10 <kushal>	nicubunu, we keep talking till late night here
+Aug 28 23:23:19 <nicubunu>	there is the Open Clip Art Library: http://openclipart.org/
+Aug 28 23:23:34 <oini>	nicubunu: i agree with kushal
+Aug 28 23:23:37 <nicubunu>	this is a collection of Free clip art images
+Aug 28 23:23:37 <oini>	:)
+Aug 28 23:24:09 <fewcha>	:)
+Aug 28 23:24:39 <nicubunu>	when we started it we selected the Public Domain license (CC0) because the idea was: clipart images are building blocks, they shold be used with no restriction, otherwise is useless
+Aug 28 23:25:31 <nicubunu>	one of the things i made for openclipart.org  was this collection of game buildings: http://clipart.nicubunu.ro/?gallery=rpg_map
+Aug 28 23:26:03 <nicubunu>	many people contacted me, they wanted to us those graphics for their games :)
+Aug 28 23:26:57 <nicubunu>	speaking of games, there is a website with Free resources (graphics and sounds) for games: http://opengameart.org/
+Aug 28 23:27:26 <nicubunu>	they recently had a cool project, Liberated Pixel Cup: http://lpc.opengameart.org/
+Aug 28 23:27:53 <nicubunu>	some assets were provided (graphics, sounds, animations) and people were invited to make games with them
+Aug 28 23:28:09 <nicubunu>	is a competition, submission ended, now it judging time
+Aug 28 23:28:19 <nicubunu>	some of those games are fun!
+Aug 28 23:28:58 <nicubunu>	i talked *a lot* about about those licenses, but WHY would someone use them?
+Aug 28 23:29:41 <nicubunu>	i said i believe in freedom, in sharing and such, but there should be also a pragmatic side, right?
+Aug 28 23:30:02 *	garima_ (~garima_@14.139.221.18) has joined #dgplug
+Aug 28 23:31:13 <nicubunu>	for example i do art, WHY i do it? art is about sharing feelings and emotions, the purpose of art is to send those feelings and emotions to people, you reach your goal by allowing people to see your art
+Aug 28 23:31:30 <nicubunu>	still idealistic! let me be more pragmatic :)
+Aug 28 23:31:47 <nicubunu>	i am a photographer, but i am unknown
+Aug 28 23:32:24 <nicubunu>	then i put my works online under a Free license, people reuse or share it, spread my name along with the work
+Aug 28 23:32:41 <nicubunu>	my name may became known, i may land a big $$$ contract :D
+Aug 28 23:33:18 <nicubunu>	the same about music, a band releases its music freely, people learn about it, like it, they go to concerts and pay tickets
+Aug 28 23:34:15 <nicubunu>	i think this is what i planned to say for today, any questions?
+Aug 28 23:34:43 <StarOnD>	!
+Aug 28 23:34:59 <kushal>	StarOnD, ask 
+Aug 28 23:36:18 <StarOnD>	I read somewhere that depending on our contract with our employer ALL copyright of our work even if it is outside of work hours may be owned by the employer,is there any other circumstance under which copyright to an individual's work may be owned by someone else?
+Aug 28 23:36:59 <nicubunu>	that depends on the laws of your country
+Aug 28 23:37:55 <nicubunu>	an employer can write anything on your contract, but if it is contrary to the law, you are not forced to follow it
+Aug 28 23:38:03 <nicubunu>	you should ask a lawyer
+Aug 28 23:38:15 <StarOnD>	alright thank you
+Aug 28 23:38:31 <nicubunu>	let me give an example
+Aug 28 23:38:49 <nicubunu>	some employers put in the contract a non-compete clause
+Aug 28 23:39:06 *	Subho (~IceChat77@117.201.97.59) has joined #dgplug
+Aug 28 23:39:28 <nicubunu>	meaning after your employment ends, you are not allowed to work for a competitor for some time (6 months,  a year)
+Aug 28 23:39:28 <StarOnD>	okay,please continue
+Aug 28 23:39:53 <nicubunu>	this things is allowed in some places, in others is illegal, for example in California is illegal
+Aug 28 23:40:03 *	bamachrn has quit (Ping timeout: 252 seconds)
+Aug 28 23:40:08 <nicubunu>	so the contract clause is void, even if you signed it
+Aug 28 23:40:35 <nicubunu>	that is why you better have a lawyer from your country check the contract
+Aug 28 23:41:28 <nicubunu>	normally what you do in your free time is supposed to be yours
+Aug 28 23:41:33 <StarOnD>	nicubunu,thank you
+Aug 28 23:41:44 <nicubunu>	you welcome, StarOnD
+Aug 28 23:44:26 <nicubunu>	then thank you for your attention and have a good night :)
+Aug 28 23:44:48 <kushal>	nicubunu, thanks a lot :)
+Aug 28 23:45:01 <kushal>	I will putting the log in the site in few minutes
+Aug 28 23:45:18 <oini>	Thank you very much nicubunu :)
+Aug 28 23:45:33 <oini>	Good night
+Aug 28 23:45:36 <fewcha>	nicubunu: today's session was really helpful, thanks a lot! :)
+Aug 28 23:45:48 <fewcha>	Good night! :)
+Aug 28 23:46:10 <nicubunu>	if you want more specifics about one of the topics covered, don't be afraid to ask
+Aug 28 23:46:21 <sayan>	nicubunu, thank you for the session
+Aug 28 23:46:51 *	nicubunu has quit (Quit: Fading into sunset)
+

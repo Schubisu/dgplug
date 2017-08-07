@@ -1,0 +1,1012 @@
+[15:00:17] [## Class Started at Mon Jul 11 15:00:17 2016 ##]
+[15:00:17] <sayan> startclass
+[15:00:22] <sayan> Roll Call
+[15:00:24] <deep123k> Deepanshu Kapoor
+[15:00:27] <Richard99> Mayank Gupta
+[15:00:27] <jogi96_> Jogender Kota
+[15:00:27] <ak_d> Akhilesh Dhaundiyal
+[15:00:29] <mahesh5> Mahesh Gahlot
+[15:00:30] <priyanka> Priyanka Sharma
+[15:00:31] <yASH> Yashwanth M
+[15:00:31] <vharsh> Harsh Vardhan
+[15:00:34] <Alak> Alakshendra Yadav
+[15:00:36] <ksaikiranr> K Sai Kiran
+[15:00:37] <real56> Varsha R
+[15:00:38] <satya4ever> Satyajit Bulage
+[15:00:38] <avik> Avik Mukherjee
+[15:00:39] <smdeep> Sudeep Mukherjee
+[15:00:51] <buvanesh_kumar> Buvanesh Kumar
+[15:00:51] <Anupama> Anupama Mandal
+[15:00:56] <akshays> Akshay shipurkar
+[15:00:56] <imack> Mahendra Yadav
+[15:01:00] <rohan_h> Rohan Hazra
+[15:01:05] <Krishna> Krishna Biradar
+[15:01:05] <mbtamuli12> Mriyam Tamuli
+[15:01:05] <snarwade> Suraj Narwade
+[15:01:18] <meamitk> Amit Kokitkar
+[15:01:18] <shobhit> shobhit upadhyay
+[15:01:24] <moizsajid> Moiz Sajid
+[15:01:34] <jargonmonk> Aniket Khisti
+[15:01:43] <joyita_c> joyita chakraborty
+[15:01:44] <akahat> Amol Kahat
+[15:01:57] <Kamlesh> Kamlesh Chaudhari
+[15:02:00] <skarale> snehal karale
+[15:02:23] <akash47> Akash Mishra
+[15:02:26] <pabitra> Pabitra Pati
+[15:02:26] <LambaInsaan> Rhitik Bhatt
+[15:02:35] <rahuldecoded> Rahul Bhattacharjee
+[15:03:22] <sayan> Questions?
+[15:03:31] <madhurii> Madhuri Muley
+[15:03:59] <priyanka> !
+[15:04:10] <sayan> next
+[15:04:19] <pabitra> !
+[15:04:23] <sayan> next
+[15:04:38] <pabitra> what are bare repos
+[15:04:48] <pabitra> what is the use if they don;t allow local modification
+[15:04:54] <priyanka> sayan, i couldn't understand what are localized and centralized VCS.
+[15:04:57] <PrashantJ> Roll call: Prashant Jamkhande
+[15:05:13] <sayan> pabitra: did you google the exact term?
+[15:05:24] <pabitra> yes... I did
+[15:05:33] <pabitra> but can't understand
+[15:06:24] <pabitra> i realized that we all use non-bare repos
+[15:06:25] <code_geek_> Roll Call: Shantanu Acharya
+[15:06:47] <pabitra> but I still can't get what is the use of bare repos if user can't modify any files in it
+[15:07:03] <vbhjain> Rollcall : Vaibhav Jain
+[15:07:40] <ponam> Roll call : poonam jadhav
+[15:07:42] <snarwade> pabitra, generally bare repos are at git server
+[15:08:15] <sayan> sorry got ping in other channel
+[15:08:49] <pabitra> only used for git server ??
+[15:08:58] <sayan> pabitra: yes
+[15:09:04] <pabitra> ok
+[15:09:05] <sandy_> is session started ?
+[15:09:14] <sayan> thanks snarwade
+[15:09:21] <snarwade> sayan, :)
+[15:09:22] <pabitra> snarwade, thanks
+[15:09:28] <pabitra> !
+[15:09:30] <satya4ever> sandy_, yes
+[15:09:31] <sayan> priyanka: you will understand that in few minutes
+[15:09:33] <sayan> next
+[15:09:35] <sayan> next
+[15:09:47] <priyanka> okay sayan.
+[15:10:11] <pabitra> what is staging ?? if out of 20 files I select 10 files for commit is that called i am staging 10 fikes
+[15:10:12] <pabitra> ??
+[15:10:58] <vharsh> pabitra, staging is a preparatory stage before committing changes to repository.
+[15:11:21] <sayan> pabitra: so there are four stages
+[15:11:23] <pabitra> yes I know that... that's understood from what was written vharsh
+[15:11:48] <vharsh> You can commit( & monitor) changes to file you stage.
+[15:12:26] <sayan> open this image: https://rkbookreviews.files.wordpress.com/2011/11/clip_image004_thumb4.jpg?w=474&h=271
+[15:12:32] <sayan> I will explain the same
+[15:12:53] <pabitra> ok
+[15:12:54] <skarale> staging is just before commit
+[15:13:04] <sayan> so you initialize your git directory with `git init`
+[15:13:17] <sayan> and all the files are in untracked staged
+[15:13:21] <skarale> when you add files using git add, you staged files for commiting
+[15:13:27] <sayan> that means those are not tracked by git
+[15:13:56] <sayan> once you add those files using git add, they start getting tracked by git untill removed
+[15:14:23] <pabitra> ok... got it...
+[15:14:25] <sayan> once started to get tracked they move around the stages  unmodified, modified and staging
+[15:15:01] <pabitra> sayan, so once added they are not even staged also ??
+[15:15:06] <sayan> once you start modifying the file it foes to modified
+[15:15:17] <sayan> s/foes/goes
+[15:15:50] <sayan> then once you add the modified files they go to stage
+[15:16:27] <sayan> the files in stage are the files which will get commited on doing git commit
+[15:16:37] <pabitra> so git add' takes the files to staging mode ?
+[15:16:48] <sayan> pabitra: yes
+[15:17:07] <sayan> pabitra: for both untracked and modified
+[15:17:15] <pabitra> then what refers to tracked -- because it says commited not staged
+[15:17:15] <jargonmonk> swap 4 15
+[15:17:22] <jargonmonk> sorry
+[15:17:59] <pabitra> how a file can be committed without staging or is it being committed in last checkin but not modified or staged for current checkin ??
+[15:18:32] <PrashantJ> what do you mean by check in
+[15:18:40] <PrashantJ> sorry
+[15:18:46] <sayan> pabitra: it cannot be commited without going through staged
+[15:18:46] <sandy_> !
+[15:18:48] <pabitra> check-in means commit
+[15:19:20] <sayan> once the file is commited it comes back to unmodified
+[15:19:20] <pabitra> sayan, but the defination of tracked says cmmited not staged
+[15:19:53] <sayan> pabitra: link?
+[15:20:07] <sayan> next
+[15:20:09] <sandy_> what if we add the file by git add. and modified it but than commit it ,what version of file will be saved v1 or v2
+[15:20:23] <pabitra> http://www.vogella.com/tutorials/Git/article.html#gitdefintion_branching
+[15:20:29] <pabitra> section 2.3
+[15:21:19] <sayan> pabitra: tracked is basically unmodified in the picture I gave
+[15:21:50] <sayan> sandy_: good question
+[15:22:00] <pabitra> ok
+[15:22:09] <sayan> sandy_: once you do git add it goes to staging right
+[15:22:18] <sandy_> sayan:  yes :)
+[15:22:34] <sayan> and then if you change something those will be added to modified
+[15:22:49] <sayan> to add those changes you need to add that file again using git add
+[15:22:59] <sayan> or else they will not be committed
+[15:23:08] <sayan> sandy_: got it?
+[15:23:25] <sayan> next
+[15:23:29] <sandy_> sayan:  yes got it  ; sayan thank's
+[15:23:38] <sayan> so more questions on Git?
+[15:23:41] <pabitra> !
+[15:23:44] <sayan> next
+[15:23:58] <sandy_> !
+[15:24:03] <sayan> next
+[15:24:16] <pabitra> detached head mode -- creation of commit doesnot move any branch
+[15:24:17] <sandy_> i search about fork but did not underrstand much
+[15:24:28] <pabitra> sayan, this is a bit unclear to me
+[15:24:29] <sayan> sandy_: will explain today later
+[15:24:29] <sandy_> s/underrdtand/understand
+[15:24:36] <sandy_> sayan:  ok
+[15:25:46] <sayan> pabitra: http://gitolite.com/detached-head.html
+[15:26:15] <pabitra> okay... i will go through it
+[15:26:18] <pabitra> thanks sayan
+[15:26:29] <pabitra> !
+[15:26:36] <sayan> pabitra: and this https://www.git-tower.com/learn/git/faq/detached-head-when-checkout-commit
+[15:26:42] <sayan> next
+[15:26:59] <ponam> !
+[15:27:10] <sayan> next
+[15:27:39] <pabitra> what hash calculation for commit happens ?? is it like checksum for all files that are with git commit ??
+[15:28:18] <sayan> pabitra: yes kind off
+[15:28:42] <pabitra> ok..
+[15:29:06] <sayan> So now you all must be knowing basic of Git
+[15:29:28] <sayan> atleast the basic commands like the git add, git commit, git log etc
+[15:29:46] <buvanesh_kumar> yep :)
+[15:29:58] <sayan> But how do you collaborate with others using git?
+[15:30:12] <vharsh> Using a common repo on a server.
+[15:30:18] <rahulbajaj> github.
+[15:30:29] <sayan> While collaborating you get a centralized git server which hosts the git repos
+[15:30:30] <madhurii> !
+[15:30:51] <sayan> you do all the operations on you local machine
+[15:31:00] <sayan> and push the changes to this remote git server
+[15:31:14] <sayan> There are various Git hosting services like
+[15:31:31] <satya4ever> some git basics for beginners --> https://git-scm.com/book/en/v2/Getting-Started-Git-Basics
+[15:31:32] <pabitra> !
+[15:31:45] <sayan> Pagure, Github, Bitbucket, Gitlab , Sourceforge etc
+[15:32:08] <sayan> Today we will be learning how create a repo on Github and collaborate
+[15:32:11] <sayan> next
+[15:32:14] <poonam> !
+[15:32:15] <sayan> next
+[15:32:21] <madhurii> i did not get by what this reference means
+[15:32:23] <madhurii> commit reference - simple ref and symbolic ref
+[15:32:30] <madhurii> ??
+[15:32:59] <moizsajid> like Github, Bitbucket etc
+[15:33:50] <pabitra> somewhere in beginning of link i have read git stores the files instead of deltas but in section 3.2 for blob, it says it stores delta... little bit confusion here
+[15:34:11] <sayan> madhurii: did you read this ? https://git-scm.com/book/en/v2/Git-Internals-Git-References
+[15:34:18] <sayan> searched the same which you asked?
+[15:34:55] <madhurii> i will check
+[15:35:06] <madhurii> sayan, thanks
+[15:35:19] <sayan> pabitra: link?
+[15:35:34] <pabitra> http://www.vogella.com/tutorials/Git/article.html#gitdefintion_branching
+[15:35:37] <sayan> Please everybody head to github.com and create and account
+[15:35:45] <pabitra> section 3.2
+[15:35:46] <SRvSaha> kushal: Sorry for being late. Actually I was busy in solving a question in Codeforces and hardly watched at time. Sorry for being late
+[15:35:46] <iyogeshjoshi> trishnag: ping!
+[15:35:52] <SRvSaha> Roll Call: Saurav Saha
+[15:36:01] <sayan> those who already have an account please wait
+[15:36:20] <sayan> Once done with creating your account please type done
+[15:36:29] <SRvSaha> Can anybody please tell me what is the topic going on today ? I joined late :(
+[15:36:34] <iyogeshjoshi> Roll Call: Yogesh
+[15:36:45] <sandy_>  /query SRvSaha:
+[15:36:46] <Alak> SRvSaha, we're still discussing git
+[15:37:11] <SRvSaha> Alak Thanks
+[15:37:16] <rahulbajaj> SRvSaha, ok so we are learning git and now we will learn how to use git and share your code with all on a server.
+[15:37:38] <rahulbajaj> SRvSaha, so you might want to open a browser and create an account on github.
+[15:38:10] <SRvSaha> sandy_: ?
+[15:38:14] <SRvSaha> Alak: So is the discussion session going on about git from the article that was told to read that day?
+[15:38:41] <iKshitij> done
+[15:38:44] <PrashantJ> Done
+[15:38:45] <trishnag> iyogeshjoshi: pong. session going on. pm me?
+[15:38:53] <sandy_> SRvSaha:  nothing just want to tell you about the topic of session :)
+[15:38:56] <sayan> trishnag++
+[15:39:30] <Richard99> done
+[15:39:33] <sayan> pabitra: where does it states that git stores files instead of deltas?
+[15:39:39] <iKshitij> SRvSaha: yes !
+[15:40:36] <SRvSaha> rahulbajaj: Ok thanks.
+[15:41:07] <sandy_> SRvSaha: but /query did not work : )
+[15:41:19] <sayan> anybody still working on creating the account?
+[15:41:26] sk_ is now known as ksaikiranr
+[15:41:35] <avik> i
+[15:41:49] <pabitra> sayan, section 1.1 :-  Please note that this picture fits primarily to Git. Other version control systems like Concurrent Versions System (CVS) donât create snapshots of the files but store file deltas.
+[15:41:50] <madhurii> yes sayan
+[15:41:54] <SRvSaha> I have github account and I am an active contributor in it
+[15:43:00] <pabitra> SRvSaha, great
+[15:45:11] <avik> a little problem: any user name i type, it says its already registered!
+[15:45:43] <SRvSaha> avik: Make use of _ or -
+[15:46:01] <avik> no special charecters!
+[15:46:06] <avik> SRvSaha, tried
+[15:46:35] <vharsh> What's your name avik?
+[15:46:38] <Richard99> avik i also faced the same problem and used -
+[15:46:55] <vharsh> I had a username of harsh99v
+[15:47:07] <vharsh> I changed mine to vharsh later :p
+[15:47:28] <anushil05> Roll Call: Anushil Kumar
+[15:47:49] <vharsh> You can change your username anytime, don't worry.
+[15:48:08] <avik> okay done
+[15:48:42] <avik> sorry for keeping all waiting! :(
+[15:48:58] <rahulbajaj> avik, its ok.
+[15:49:11] <SRvSaha> avik: Try a mixture of Uppercase, lowercase and - or _ and number
+[15:49:30] <avik> SRvSaha, done thank you
+[15:49:39] <sayan> avik: registered?
+[15:49:53] <avik> yes sayan
+[15:49:59] <madhurii> yes
+[15:50:16] <sayan> Now everybody head over to this url https://github.com/new
+[15:50:24] <sayan> this is the page to create a new repo
+[15:50:34] <vharsh> avik, Choose any username, you can change it later.
+[15:50:38] <sandy_> !
+[15:50:40] <sayan> next
+[15:50:43] <sayan> next
+[15:50:46] <sandy_> Did using remote reference we cannot update our repo again
+[15:50:57] <sandy_> sayan: : link : https://git-scm.com/book/en/v2/Git-Internals-Git-References#Remotes
+[15:51:03] <vharsh> avik, How about __avik__
+[15:51:25] <SRvSaha> !
+[15:51:25] <sayan> sandy_: you can
+[15:51:35] <sandy_> sayan: ok
+[15:51:48] <avik> vharsh, used> 'IamTechnotron'
+[15:51:51] <avik> :)
+[15:52:04] <sandy_> sayan:  but on given link it say this
+[15:52:20] <vharsh> avik, Cool, try shortening it sometime later.
+[15:52:23] * sayan reads
+[15:52:24] <SRvSaha> sayan: Can I create a remote repo directly from the terminal ?
+[15:52:35] <vharsh> SRvSaha, Yes
+[15:52:46] <vharsh> You need to add the remote manually then.
+[15:52:52] <SRvSaha> vharsh: How?
+[15:53:08] <mbtamuli12> SRvSaha: git remote add origin <url>
+[15:53:09] <iKshitij> Same question!
+[15:53:14] <vharsh> Read GIT-REMOTE(1)
+[15:53:25] <sayan> SRvSaha: in github?
+[15:53:39] <SRvSaha> mbtamuli12: That is the case when we have the repo in github
+[15:53:46] <SRvSaha> sayan  : Yes
+[15:53:49] <iKshitij> sayan yes in github
+[15:54:10] <LambaInsaan> SRvSaha, http://stackoverflow.com/questions/2423777/is-it-possible-to-create-a-remote-repo-on-github-from-the-cli-without-opening-br
+[15:54:15] <SRvSaha> sayan: As we generally go to github.com and create repo
+[15:54:20] <vharsh> SRvSaha, It is easier to create a repo in Github and then clone it to your machine, to begin with.
+[15:54:25] <sayan> I don't know if you can but github has a client https://github.com/github/hub
+[15:54:30] <SRvSaha> and then we set remote to that repo
+[15:54:45] <sayan> sandy_: so bascically if you checkout to that particular remote ref you can't
+[15:54:54] <sandy_>  ok
+[15:55:06] <pabitra> !
+[15:55:08] <sayan> but you can change back to normal branch then you can
+[15:55:16] <SRvSaha> vharsh: So, it is. Just I was curious to know if we can do that even.
+[15:55:26] <avik> !
+[15:55:32] <sayan> let's take the question a bit later
+[15:55:45] <sayan> Let's name the repo foobar
+[15:56:00] <sandy_> sayan: thanks :)
+[15:56:02] <vharsh> All of us naming it "foobar" ?
+[15:56:08] <sayan> yes
+[15:56:45] <sayan> Keep the repository name as foobar and click on the create repository button
+[15:57:02] <rahuldecoded> !
+[15:57:10] <sayan> this will create a repo for you and redirect you to <username>/foobar
+[15:57:12] <sayan> next
+[15:57:14] <sayan> next
+[15:57:16] <sayan> next
+[15:57:18] <sayan> next
+[15:57:26] <SRvSaha> I asked mine. Thanks
+[15:57:28] <rahuldecoded> Any description?
+[15:57:34] <sayan> rahuldecoded: as you like :)
+[15:57:36] <avik> so what exactly are we suppose to do after creating sayan's link?
+[15:57:51] <SRvSaha> rahuldecoded: Description is just an optional thing. It's upto you
+[15:58:06] <vharsh> avik, Clone it to your pc
+[15:58:07] <sayan> avik: just gave the instructions https://github.com/new
+[15:58:34] <avik> foobar done,sorry
+[15:58:35] <sayan> everybody done?
+[15:58:39] <Richard99> yes
+[15:58:41] <Alak> yes
+[15:58:41] <rahuldecoded> yes]
+[15:58:43] <smdeep> yes
+[15:58:44] <avik> an earlier question
+[15:58:46] <SRvSaha> avik: Give name to the repository as "FooBar" and press create repository
+[15:58:47] <PrashantJ> yes
+[15:58:56] <SRvSaha> yes done
+[15:59:01] <madhurii> !
+[15:59:02] <ksaikiranr> yes
+[15:59:08] <joyita_c> yes
+[15:59:15] <sayan> next under the quick setup you see something like this
+[15:59:16] <sayan> https://github.com/sayanchowdhury/foobar.git
+[15:59:24] <Richard99> yes
+[15:59:35] <SRvSaha> yes
+[15:59:36] <mbtamuli12> done
+[15:59:49] <sayan> copy that url and in termial type git clone https://github.com/sayanchowdhury/foobar.git
+[16:00:18] <sayan> remember replace sayanchowdhury with your username :)
+[16:00:20] <sayan> next
+[16:00:26] <madhurii> what is the difference between  git reference and git tag ?
+[16:00:34] <SRvSaha> done
+[16:00:44] <Richard99> done
+[16:00:44] <Alak> !
+[16:01:02] <SRvSaha> !
+[16:01:16] <rahulbajaj> madhurii, did you ask your question to google.com ?
+[16:01:19] <madhurii>  i understood both reference and tag are used to make git commit easily accessible.
+[16:01:42] <madhurii> but what is the difference in these two ??
+[16:01:58] <sayan> madhurii: so reference means you are referencing something
+[16:02:08] <sayan> be it commit, tag etc
+[16:02:09] <SRvSaha> sayan: Suppose I have added a file to my local repo and the did a wrong commit there. Not it's says everything is ready to push. How to I change the commit if I want ?
+[16:02:30] <sayan> SRvSaha: use !
+[16:02:38] <madhurii> okay sayan
+[16:02:41] <SRvSaha> Sorry sayan
+[16:03:13] <sayan> madhurii: so tag reference will give you reference for a tag i.e the SHA
+[16:03:34] <sayan> next
+[16:03:45] <sayan> everybody are done with cloning?
+[16:03:49] <smdeep> yes
+[16:03:50] <Alak> Should I use the git link below HTTPS or SSH
+[16:03:50] <PrashantJ> Done
+[16:03:52] <rahuldecoded> yes
+[16:03:53] <deep123k> Yes
+[16:03:56] <LambaInsaan> Yes!
+[16:03:58] <madhurii> oh.. i understood now thaks syan
+[16:03:59] <sayan> Alak: use Https
+[16:03:59] <Richard99> yes
+[16:04:01] <ksaikiranr> yes
+[16:04:03] <rahuldecoded> HTTPS
+[16:04:08] <Alak> Thank you.
+[16:04:14] <SRvSaha> yes
+[16:04:18] <sayan> next
+[16:04:31] <shauryak_3> yes
+[16:04:41] <sayan> SRvSaha: let's do the same in todays class
+[16:04:54] <SRvSaha> ok sayan
+[16:05:02] <sayan> now everybody go into the directory foobar
+[16:05:04] <pabitra> sayan... can we stop QA as your instructions for git and QA are getting messed up
+[16:05:13] <sayan> pabitra: right
+[16:05:16] <SRvSaha> sayan : I faced the problem while pushing today in my repo
+[16:05:38] <sayan> pabitra: but the thing is people might get doubts in each step
+[16:05:56] <sayan> once you move into the git directory create a file
+[16:06:09] <sayan> name the file helloworld.txt
+[16:06:18] <pabitra> yes... those can be asked
+[16:06:27] <sayan> you can use the command `touch helloworld.txt`
+[16:06:38] <sayan> to create the file
+[16:07:32] <sayan> once the file is created type `git status`
+[16:07:50] <sayan> and you will see the file in Untracked file section, right?
+[16:07:58] <Alak> Yes
+[16:08:06] <Anupama> yeah
+[16:08:07] <PrashantJ> Yes
+[16:08:09] <smdeep> Yes
+[16:08:11] <real56> yes
+[16:08:15] <ksaikiranr> yes
+[16:08:18] <moizsajid> !
+[16:08:20] <sayan> so this file is right now not getting tracked by git
+[16:08:45] <sayan> If you type `git diff` you will see there is no diff
+[16:09:08] <sayan> now to add the file type `git add helloworld.txt`
+[16:10:12] <sayan> once done, if you do `git status` again you will see that the file has moved to `staging area` or `changes to be committed`
+[16:10:50] <sayan> now open the file helloworld.txt and add the text "Hello World"
+[16:11:07] <moizsajid> How is the foobar directory already git initialized?
+[16:11:24] <moizsajid> We didn't use the command git init?
+[16:11:32] <vharsh> moizsajid, You just cloned it from github. THey did it for you.
+[16:11:40] <sayan> moizsajid: please wait, I will take question all at once
+[16:11:55] <sayan> you can add the text using `echo "Hello World" > helloworld.txt`
+[16:12:09] <sayan> tell when done
+[16:12:13] <smdeep> done
+[16:12:16] <SRvSaha> done
+[16:12:17] <Anupama> done
+[16:12:18] <Alak> done
+[16:12:19] <ksaikiranr> done
+[16:12:22] <Richard99> done
+[16:12:22] <code_geek> done
+[16:12:23] <sandy_> done
+[16:12:27] <rahuldecoded> done
+[16:12:33] <mbtamuli12> done
+[16:12:35] <moizsajid> done
+[16:12:39] <PrashantJ> Done
+[16:12:39] <vharsh> done
+[16:12:51] <real56> done
+[16:12:53] <jargonmonk> done
+[16:13:06] <vbhjain> done
+[16:13:13] <LambaInsaan> done
+[16:13:14] <sayan> now if you do git status
+[16:13:27] <anushil05> Done
+[16:13:28] <vbhjain> git status
+[16:13:42] <sayan> you will see the same file in `staging area` as well as `modified section`
+[16:14:13] <sayan> this is because the change you did by adding "Hello World" is yet to be added to staging
+[16:14:50] <sayan> to the check the diff of modiefied section do `git diff`
+[16:15:00] <sayan> and for staging are `git diff --staged`
+[16:15:20] <sayan> ask if you have questions till now
+[16:15:21] <sayan> next
+[16:16:30] <anushil05> !
+[16:16:39] <sayan> next
+[16:16:54] <sandy_> !
+[16:16:55] <anushil05> What is --- a/helloworld.txt
+[16:17:10] <anushil05> +++ b/helloworld.txt
+[16:17:30] <anushil05> @@ -0,0 +1 @@
+[16:18:07] <SRvSaha> anushil05: That is indicating the difference. --- is the deleted stuffs and +++ the added. +1 is the line added
+[16:18:31] <sayan> anushil05: version of the same file + denotes adding, - denotes removed
+[16:18:40] <sayan> and the numbers says 1 line was added
+[16:18:55] <sayan> any more questions?
+[16:19:00] <sandy_> sayan: now in this case new file will be saved if we commit or it will not be saved
+[16:19:11] <sandy_> as it is in modified stage
+[16:19:12] <SRvSaha> anushil05: -0,0 means 0 subtraction and file was of 0 lines and +1 means One line is added
+[16:19:38] <sayan> sandy_: use !
+[16:19:42] <sandy_> ok
+[16:19:50] <sayan> sandy_: no it will not be saved
+[16:20:06] <pabitra> to save it we need to go git add
+[16:20:13] <sayan> pabitra: right
+[16:20:15] <pabitra> sandy_,
+[16:20:27] <sayan> now to add the changes do git add helloworld.txt
+[16:20:36] <anushil05> what is a and b in that
+[16:21:09] <sayan> anushil05: maybe take help of larry's site?
+[16:21:17] <sayan> next
+[16:21:23] <sayan> next
+[16:21:47] <sayan> now that you have added the changes to the staging section
+[16:22:10] <pabitra> !
+[16:22:17] <sayan> check the difference between the output of git diff  and git diff --staged
+[16:22:29] <sayan> next
+[16:22:31] <SRvSaha> !
+[16:22:34] <pabitra> sayan, git diff --staged doesnot shows detailed like git diff
+[16:22:35] <sayan> next
+[16:23:03] <sayan> pabitra: yes, because there is no change
+[16:23:10] <anushil05> !
+[16:23:14] <sayan> pabitra: it's a empty file
+[16:23:17] <sayan> next
+[16:23:39] <pabitra> but we added hellow wolrd to it
+[16:23:42] <SRvSaha> sayan : what is this --- /dev/null when we do git diff --staged. Does it mean that from nothing(null) this is now changed to the file?
+[16:23:52] <anushil05> git diff --staged is showing ---/dev/null ???
+[16:23:53] <pabitra> as it is shown in git diff
+[16:24:18] <code_geek> pabitra, after adding a line to https://github.com/codegeek96/foobar, add that file to staging area again and then it will show the detailed diff
+[16:24:25] <anushil05> +++ b/helloworld.txt
+[16:24:32] <pabitra> ok
+[16:24:37] <pabitra> got it sayan
+[16:24:44] <code_geek> s/ https://github.com/codegeek96/foobar/ helloworld.txt
+[16:24:57] <pabitra> thanks sayan code_geek ... I got the difference
+[16:25:19] <sayan> /dev/null means nothing
+[16:25:36] <SRvSaha> ok. My intuition was correct
+[16:25:43] <sayan> next
+[16:25:50] <sayan> Okay moving ahead
+[16:26:12] <sayan> to commit the changes `git commit -m "Add helloworld.txt"`
+[16:26:56] <vharsh> !
+[16:27:12] <sayan> Once the commit is done you can check the log using `git log`
+[16:27:28] <sayan> next
+[16:27:38] <vharsh> Had the file not been empty at first, i.e created with some text earlier, would we still get /dev/null ?
+[16:27:45] <sayan> vharsh: no
+[16:27:54] <vharsh> <EOF>
+[16:27:58] <sandy_> !
+[16:28:09] <sayan> vharsh: I mean if there is something in the staging diff then no, else yes
+[16:28:14] <sayan> next
+[16:28:18] <sandy_> what this mean  create mode 100644 helloworld.txt
+[16:28:27] <sayan> sandy_: google?
+[16:28:35] <sandy_> sayan: ok
+[16:28:45] <sayan> .link question
+[16:29:11] <sayan> seems like this link needs a re-read
+[16:29:19] <sandy_> sayan:  sorry for that
+[16:29:43] <sayan> everybody remembers file permissions?
+[16:29:50] <rahuldecoded> !
+[16:29:55] <SRvSaha> yes
+[16:30:03] <pabitra> !
+[16:30:04] <anushil05> !
+[16:30:04] <PrashantJ> yes
+[16:30:06] <mbtamuli12> Yes
+[16:30:10] <Richard15> yes
+[16:30:15] <LambaInsaan> Yes
+[16:31:01] <rahuldecoded> yes
+[16:31:09] <jargonmonk> yes
+[16:31:34] <vharsh> i guess git has a different file mode system. Here's what I found. stackoverflow.com/questions/19620335/what-is-gits-filemode
+[16:31:39] <yudocaa> slow internet nick freezed :(
+[16:32:09] <vharsh> yudocaa, sayan is that you?
+[16:32:17] <sayan> sandy_: http://stackoverflow.com/questions/14127501/how-to-interprit-git-create-mode-message
+[16:32:42] <sandy_> sayan: thanks :)
+[16:33:11] <sayan> add:yudocaa
+[16:33:25] <sayan> masters
+[16:33:47] <sayan> oh sad
+[16:33:52] <sayan> next
+[16:33:54] <sayan> next
+[16:33:57] <vharsh> sayan, But mbuf isn't online now.
+[16:34:01] <pabitra> solved
+[16:34:10] <rahuldecoded> I got my answer.
+[16:34:14] <sayan> cool
+[16:34:18] <sayan> next
+[16:34:21] <sayan> next
+[16:34:30] <anushil05> There are 2 commit:1. Add helloworld.txt 2.Initial commit but I commit only once
+[16:34:59] <sayan> anushil05: you must have checked the Create README.md file thing
+[16:35:08] <sayan> while creating the repo in Github
+[16:35:18] <anushil05> Oh yes sayan
+[16:35:33] <anushil05> So that is also a commit then
+[16:35:54] <sayan> anushil05: yes, you will have a file called README.md
+[16:36:03] <sayan> that is added by Github for you
+[16:36:12] <anushil05> Thanks
+[16:36:47] <sayan> now do this `cat .git/config`
+[16:37:56] <sayan> you will see something like this http://paste.fedoraproject.org/389895/82478531/
+[16:38:12] <sayan> this is a configuration file
+[16:38:56] <sayan> now under [remote "origin"] you will see there is the url
+[16:39:07] <sayan> the url which you used to clone
+[16:40:00] <sayan> when you type `git push origin master` in your terminal to push the changes you did to remote
+[16:40:18] <iKshitij> sayan https://github.com/username/repo
+[16:40:51] <sayan> git breaks git as `git push <remote_name> <branch_name>`
+[16:41:04] <pabitra> !
+[16:41:50] <sayan> so for us the remote name is `origin`, so git checks the url for `origin` in the config and updates the branch `master`
+[16:41:55] <sayan> as the branch here is master
+[16:42:12] <sayan> next
+[16:42:46] <pabitra> sayan... till the time we dont do "git push origin master" it is in our local repo?? not pusjed to github ??
+[16:42:52] <sayan> pabitra: yes
+[16:43:02] <sayan> pabitra: one question mark
+[16:43:08] <rahulbajaj> sayan, your explanation is as clear as crystal.
+[16:43:14] <sayan> no need to use two
+[16:44:04] <sayan> next
+[16:44:06] <sayan> rahulbajaj: :)
+[16:44:15] <pabitra> sorry sayan
+[16:44:21] <sayan> Now everybody do `git push origin master`
+[16:44:28] <mbtamuli12> done
+[16:44:33] <PrashantJ> Doen
+[16:44:38] <sayan> it will ask for you github username/password
+[16:44:41] <PrashantJ> s/den/done
+[16:44:47] <sayan> s/you/your
+[16:45:47] <vbhjain> done
+[16:45:50] <sandy_> done
+[16:46:19] <pabitra> not asking me username
+[16:46:47] <iKshitij> sayan Authentication failed ! Username and password is correct
+[16:46:57] casper is now known as Guest73693
+[16:47:00] <rahulbajaj> pabitra, did you use ssh cloning?
+[16:47:06] <sayan> iKshitij: can't be
+[16:47:07] <abhishekg5_> pabitra, what does 'git push' return ?
+[16:47:50] <vharsh_> Sorry, I was disconnected for a minute or two
+[16:47:57] <sayan> pabitra: hmm, fpaste the output of git remote -v
+[16:48:00] <vharsh_> I have pushed the changes, now what?
+[16:48:11] <pabitra> sayan, it did
+[16:48:20] <abhishekg5_> vharsh_, cool. No you can see your changes on github
+[16:48:29] <pabitra> but along with some wallet like pop-up asking password
+[16:48:47] <sayan> vharsh_: nothing :)
+[16:48:48] <vharsh_> abhishekg5_, Thanks. Dammn college wifi :/
+[16:48:55] <vharsh_> sayan, :) thanks
+[16:49:02] <Richard15> vharsh_ i knw the pain
+[16:49:06] <abhishekg5_> pabitra, you'll have to put your github password there.
+[16:49:15] <fhackdroid> pabitra, that is how gnome is configured
+[16:49:23] <sayan> Richard15: knw?
+[16:49:26] <pabitra> ok... I did
+[16:49:41] <Richard15> i meant know
+[16:49:50] <sayan> now you can see you changes in Github :)
+[16:50:03] <pabitra> thanks sayan abhishekg5_ fhackdroid rahulbajaj
+[16:50:07] <abhishekg5_> pabitra, only one full stop is enough. :)
+[16:50:14] * fhackdroid congratulates everyone on the first push :)
+[16:50:30] * vharsh_ wohoo :)
+[16:50:38] * Richard15 hi5 !!
+[16:50:50] * mbtamuli12 says not the first push for him
+[16:50:58] <rahulbajaj> Well DOne all :D
+[16:51:05] <fhackdroid> pabitra, avoid SMS language is prohibited :)
+[16:51:06] <sayan> Class is still not over
+[16:51:28] <pabitra> sorry fhackdroid...
+[16:51:52] <fhackdroid> pabitra, "..." are not required :)
+[16:52:08] <avik> fhackdroid, "avoid SMS language is prohibited :)"?
+[16:52:18] <pabitra> i know but adat se majboor. :P
+[16:52:20] <fhackdroid> avik, my bad :)
+[16:52:32] <PrashantJ> !
+[16:52:36] <vharsh_> fhackdroid, np :)
+[16:52:41] <sayan> Everybody please stop talking or will be kicked
+[16:52:46] vharsh_ is now known as vharsh
+[16:53:13] <sayan> pabitra: follow the irc ettiquetes
+[16:53:17] HoloIRCUser1 is now known as Anupama_
+[16:53:20] <sayan> next
+[16:53:21] <PrashantJ> sayan, can I clone from github and push the entire repo to bitbucket?
+[16:53:23] <pabitra> sorry sayan
+[16:53:29] <sayan> PrashantJ: yes
+[16:53:40] <sayan> PrashantJ: that's what I will be telling next
+[16:53:49] <PrashantJ> sayan, okay thanks:)
+[16:54:26] <sayan> In open source projects you have a main repo
+[16:54:28] <vharsh> sayan, No need of special permissions? I mean, the repo must exist beforehand.
+[16:55:11] <sayan> vharsh: I never told the answer
+[16:55:24] <vharsh> sayan, sorry
+[16:55:47] <sayan> In open source projects you have a main repo, from which you fork the repo because you will not have the rights to push to the main repo
+[16:56:16] <sayan> forking creating a repo for you in which you can push pull
+[16:56:47] <sayan> for example we have a repo fedora-infra/fedmsg which is a amazing project
+[16:57:14] <sayan> Now if you want to contribute you can directly clone the repo to you local system but cannot push any changes
+[16:57:23] <sayan> because you don't have the access
+[16:57:33] <sayan> For that you clone the project
+[16:57:40] <sayan> s/clone/fork
+[16:58:00] <sayan> Forking the project will create a repo for you like sayanchowdhury/fedmsg
+[16:58:14] <sayan> https://github.com/sayanchowdhury/fedmsg
+[16:58:17] <sayan> Here is the link
+[16:58:48] <sayan> You can see in this link that the under sayanchowdhury/fedmsg, it's written forked from fedora-infra/fedmsg
+[16:59:11] <sayan> Now you can clone this sayanchowdhury/fedmsg and work on this repo
+[16:59:17] <sayan> Questions?
+[16:59:33] <vharsh> !
+[16:59:57] <sayan> next
+[17:00:04] <vharsh> Do we need explicit permissions to fork?
+[17:00:10] <sayan> vharsh: no
+[17:00:10] <vharsh> ok cleared.
+[17:00:12] <pabitra> !
+[17:00:12] <PrashantJ> !
+[17:00:15] <anushil05> !
+[17:00:23] <sayan> next
+[17:00:34] <pabitra> sayan, I didn't get about file permisssions while commiting
+[17:00:34] <sayan> next
+[17:00:38] <PrashantJ> sayan, When can you push your changes in main repo?
+[17:00:42] <pabitra> as I was not asked
+[17:00:49] <sayan> pabitra: after the session
+[17:01:12] <sayan> PrashantJ: you cannot push until you have the permission
+[17:01:13] <pabitra> in which case we will be asked for thses file permission
+[17:01:15] <pabitra> ?
+[17:01:33] <sayan> pabitra: did not get you
+[17:01:35] <sayan> next
+[17:01:52] <anushil05> So fork and clone does the same thing
+[17:01:54] <abhishekg5_> PrashantJ,  you'll have to open a PR, then only the maintainers of the main repo can merge your commits
+[17:02:10] <sayan> anushil05: no
+[17:02:26] <rahuldecoded> I am sorry. I have got to go now. Exams are heading.
+[17:02:35] <PrashantJ> abhishekg5_, sayan Thanks. Will explore PR.
+[17:02:37] <code_geek> anushil05, in clone you can push the changes tovthe original repository but in fork you can't
+[17:02:46] <rahuldecoded> thanks Sayan for the session
+[17:02:50] <code_geek> s/tovthe/ to the
+[17:02:57] <anushil05> Yeah I mean that
+[17:03:06] <abhishekg5_> anushil05, no. Fork makes a clone of main repo into your profile. Cloning is basically copying repo from server to your local machine
+[17:03:08] <sayan> anushil05: clone pulls the repo from the remote and forks create a copy in the remote server
+[17:03:17] <sayan> next
+[17:03:37] <sayan> now back to the foobar repo
+[17:05:13] <sayan> Now suppose my repo is the main repo - https://github.com/sayanchowdhury/foobar
+[17:05:36] <sayan> so you add a new remote that would point to this main repo
+[17:05:56] <sayan> Use `git remote add upstream https://github.com/sayanchowdhury/foobar.git`
+[17:06:08] <sayan> Here upstream is the remote name
+[17:06:48] <sayan> Check the output of `cat .git/config` again. you will see a entry for upstream with the url pointing to mine
+[17:07:33] <sandy_> !
+[17:07:37] <sayan> Now pull the changes type `git pull upstream master`
+[17:08:02] <sayan> this will tell git to pull the changes from upstream (https://github.com/sayanchowdhury/foobar)
+[17:08:03] <sayan> next
+[17:08:15] <sandy_> sayan: can we name remote anything else?
+[17:08:24] <sayan> sandy_: yes
+[17:08:33] <sayan> sandy_: you can give your name too :)
+[17:08:43] <sandy_> sayan: ok
+[17:08:45] <vharsh> !
+[17:09:00] <sayan> sandy_: but then you need to reference using that name git pull sandy_ master
+[17:09:02] <Alak> !
+[17:09:06] <sayan> next
+[17:09:09] <sayan> next
+[17:09:10] <SRvSaha> !
+[17:09:13] <vharsh> WHy does this come in between two remote declarations ?
+[17:09:15] <vharsh> [branch "master"]
+[17:09:21] <sandy_> sayan: ok i understand :)
+[17:09:27] <sandy_> sayan: thanks :)
+[17:09:29] <Alak> It shows a fatal error
+[17:09:35] <vharsh> I am looking in the file cat .git/config
+[17:09:35] <vharsh>  <EOF>
+[17:09:36] <Alak> refusing to merge unrelated histories
+[17:09:54] <sayan> vharsh: new entries are added to the end, order does not mater
+[17:10:00] <sayan> s/mater/matter
+[17:10:01] <sayan> next
+[17:10:07] <SRvSaha> What is the use of making different remotes?
+[17:10:34] <sayan> Alak: that is because you must has not followed what we told
+[17:10:53] <Alak> I'll check, thanks
+[17:10:59] <sayan> Alak: fpaste git log
+[17:11:22] <sayan> SRvSaha: to work with different repos of different people
+[17:11:37] <sayan> SRvSaha: or to check changes they are doing
+[17:11:40] <sayan> next
+[17:11:58] <Alak> https://paste.fedoraproject.org/389905/
+[17:12:22] <sayan> Alak: just one commit?
+[17:12:42] <SRvSaha> sayan: That means we can pull using other's remote and branch to see what they are up to ?
+[17:12:44] <sayan> Ah! my mistake a terrible one :(
+[17:13:14] <code_geek> !
+[17:13:17] <Alak> I guess I missed something. I'll scroll up
+[17:13:41] <sandy_> !
+[17:13:47] <rahulbajaj> sayan, did you forget to create the branch?
+[17:14:29] <sayan> rahulbajaj: no the thing is all the repos are diffent
+[17:14:37] <vharsh> sayan, But things are fine here.
+[17:14:54] <sayan> vharsh: can fpaste your git log
+[17:15:19] <smdeep> !
+[17:15:44] <pabitra> sayan, what mistake are you talking about ?
+[17:15:51] <sayan> next
+[17:15:54] <sayan> next
+[17:15:55] <sayan> next
+[17:15:57] <sandy_> sayan: I am getting error Merge Conflict link: http://paste.fedoraproject.org/389908/68249972/
+[17:15:57] <smdeep> May I paste my log? Pretty similar.
+[17:15:57] <sayan> next
+[17:15:59] <vharsh> sayan, https://paste.fedoraproject.org/389910/50153146/
+[17:16:02] <code_geek> query solved
+[17:16:49] <sayan> smdeep: yes, I did the mistake
+[17:16:53] <smdeep> http://paste.fedoraproject.org/389909/25008314/
+[17:17:14] <vharsh> sayan, I can see that you added a line "Hello Mars, I am coming :)"
+[17:17:49] <sayan> I think everybody has a merge conflict now because of my mistake :(
+[17:18:07] <Alak> What was the mistake, sayan?
+[17:18:19] <rahulbajaj> sayan, its okay, the basic concept is clear i guess.
+[17:18:34] <vharsh> We can remove the heretext markers and commit :)
+[17:18:52] <sayan> Let me explain the mistake, that would actually clear up things
+[17:19:02] <vharsh> sayan, Is there something else?
+[17:19:05] <sayan> So the commit history is different
+[17:20:03] <sayan> For everybody the first commit is different, so when you pull mine git tries to merge it
+[17:20:19] <sayan> but cannot because there is no common commit, got it?
+[17:20:33] <rahulbajaj> yeah.
+[17:20:34] <vharsh> sayan, Git didn't try to merge in my case?
+[17:20:40] <sandy_> sayan: yes
+[17:21:02] <sayan> vharsh: you git log is not proper because it does not show my commit
+[17:21:04] <pabitra> !
+[17:21:06] <sayan> next
+[17:21:12] <vharsh> s/?/.
+[17:21:31] <pabitra> if in this case we are trying to pull the same file from two repos
+[17:21:31] <smdeep> !
+[17:21:34] <sandy_> !
+[17:21:45] <avik> !
+[17:21:46] <pabitra> it is showing error as no common commits
+[17:21:47] <vharsh> sayan, But I can see the added message "Mars" ,etc
+[17:22:00] <pabitra> so is it mandatory to have a common commit
+[17:22:01] <pabitra> ?
+[17:22:02] <sayan> next
+[17:22:04] <sayan> next
+[17:22:04] <smdeep> why is the first commit different for everyone?
+[17:22:06] <sayan> next
+[17:22:08] <sandy_> sayan: So what command should we use instead of this git pull ?
+[17:22:11] <avik> would anyone mind to have a look:  http://paste.fedoraproject.org/389912?
+[17:22:41] <sayan> smdeep: the text for everybody's is same :)
+[17:22:53] <sayan> smdeep: but the author is different, the SHA is different
+[17:22:56] <vharsh> sayan, My helloworld.txt file http://paste.fedoraproject.org/389913/50530146/
+[17:22:58] <Alak> avik, upsteam typo
+[17:23:01] <sandy_> avik:tyo in upstream
+[17:23:10] <smdeep> ok
+[17:23:22] <LambaInsaan> vharsh, Checkout if you have 'rebase = true' in your .git/config. Maybe it is the reason you don't have merge conflicts.
+[17:23:48] <sayan> smdeep: the SHA is calculated using content, author, time, ...
+[17:23:58] <sandy_> avik: you named it upsteam and you are typing git pull upstream
+[17:24:08] <vharsh> LambaInsaan, I have prune set to true under [fetch]
+[17:24:11] <sayan> smdeep: so even though the content of first commit is different, the commit is not the same :)
+[17:24:20] <smdeep> ok
+[17:24:25] <vharsh> LambaInsaan, I had this config from the Github Webinar.
+[17:24:30] <pabitra> sayan, the author will be different in each case, whenever we will try to merge. so will this show such error everytime ?
+[17:25:01] <sayan> pabitra: no, it will not be
+[17:25:10] <sayan> avik: typo while adding remote :)
+[17:25:16] <sayan> Okay let's fix this
+[17:25:24] <sayan> really quick
+[17:25:45] <vharsh> Nope, .git/config also has no rebase=true
+[17:25:56] <code_geek> LambaInsaan, I also didn't get any merge conflict and yes, in .git/config rebase = true
+[17:26:00] <sayan> come out of the git directory using cd ..
+[17:26:34] <sayan> Fork this repo https://github.com/sayanchowdhury/foobar
+[17:26:49] <sayan> you will find a Fork button on top right corner :)
+[17:26:50] <SRvSaha> code_geek: Which url did you use in the remote upstream you created?
+[17:26:50] <vharsh> sayan, using github?
+[17:27:07] <sayan> vharsh: fork is done using Github only
+[17:27:41] <sayan> This will create new repo for you
+[17:27:48] <code_geek> SRvSaha, https://github.com/sayanchowdhury/foobar.git
+[17:28:14] <smdeep> sayan: it created foobar-1
+[17:28:21] <sayan> smdeep: cool :)
+[17:28:28] <SRvSaha> code_geek: Use url of sayan's foobar repo
+[17:28:28] <Alak> We already have a repo named foobar, so it creates foobar-1
+[17:28:35] <SRvSaha> yes code_geek but it should have given error
+[17:28:36] <smdeep> Right.
+[17:28:37] <sayan> everybody will have a similar url foobar-1
+[17:28:53] <sayan> now clone that repo
+[17:28:55] <code_geek> SRvSaha, okay I'll try it again
+[17:29:02] <smdeep> Ok
+[17:29:13] <sayan> git clone https://github.com/<username>/foobar.git/
+[17:29:56] <Alak> done
+[17:30:00] <smdeep> done
+[17:30:04] <PrashantJ> done
+[17:30:48] <pabitra> sayan, i guess it would be foobar-1.git
+[17:30:58] <rahulbajaj> pabitra, yes.
+[17:31:38] <sayan> pabitra: correct :) I did mine
+[17:31:52] <sayan> Now let's add remote again
+[17:32:06] <pabitra> i am always seeing kdewallet
+[17:32:08] <pabitra> :(
+[17:32:24] <sayan> You know the steps right ? git remote add upstream https://github.com/sayanchowdhury/foobar.git
+[17:32:29] <SRvSaha> !
+[17:32:38] <sayan> pabitra: while cloning also?
+[17:32:39] <smdeep> it will be foobar.git and not foobar-1.git
+[17:32:43] <pabitra> yes
+[17:32:46] <sayan> smdeep: yes
+[17:32:50] <pabitra> error code 9
+[17:33:38] <sayan> smdeep: for adding the remote it will be the exact command I told
+[17:33:43] <sayan> git remote add upstream https://github.com/sayanchowdhury/foobar.git
+[17:33:44] <SRvSaha> sayan: Are we to create the remote inside foobar-1
+[17:33:44] <sayan> next
+[17:33:50] <sayan> SRvSaha: yes
+[17:33:58] <vharsh> pabitra, Eh? While cloning too, seriously?
+[17:34:04] <pabitra> yes
+[17:34:05] <sayan> pabitra: fpaste the log
+[17:34:16] <pabitra> its a pop-up
+[17:34:16] <sayan> pabitra: let's see what you did
+[17:34:21] <pabitra> how will i paste log
+[17:34:50] <vharsh> git log | fpaste # should do?
+[17:34:54] <sayan> pabitra: copy and paste it in paste.fedoraproject.org
+[17:35:06] <sayan> vharsh: that needs fpaste to be installed
+[17:35:58] <sayan> everybody done?
+[17:36:03] <Alak> yes
+[17:36:04] <smdeep> yes
+[17:36:20] <sayan> rest?
+[17:36:21] <SRvSaha> yes
+[17:36:21] <SRvSaha> !
+[17:36:23] <Anupama> !
+[17:36:24] <ksaikiranr> yes
+[17:36:26] <LambaInsaan> Yes.
+[17:36:26] <code_geek> yes
+[17:36:26] <sayan> next
+[17:36:29] <sayan> next
+[17:36:36] <PrashantJ> done
+[17:36:47] <Anupama> https://paste.fedoraproject.org/389920/51371146/
+[17:36:53] <Anupama> i m getting this
+[17:37:10] <sayan> Anupama: ah no
+[17:37:27] <sayan> Anupama: did you fork? the repo?
+[17:37:37] <SRvSaha> Like what we did now, say we have not forked the repo and I am having a remote to your repo of same name, when will it give merging conflict> I but the files with the same name have different content?
+[17:37:37] <Anupama> yeah i did
+[17:37:49] <vharsh> Anupama you have cloned Sayan's repo I guess.
+[17:37:53] <sayan> Anupama: once you have forked and cloned you need to do `cd foobar-1`
+[17:38:38] <sayan> SRvSaha: after you for you will have the content of my repo :)
+[17:38:40] <vharsh> Anupama, you are in the previous repo.
+[17:39:22] <sayan> SRvSaha: because you are having a clone of my repo
+[17:39:27] <Anupama> https://paste.fedoraproject.org/389923/82515491/
+[17:39:52] <sayan> Anupama: did you clone the repo you forked?
+[17:40:16] <sayan> Anupama: what is your github username?
+[17:40:18] <SRvSaha> sayan: Did not get it :(
+[17:40:41] <sayan> SRvSaha: you told you did not fork the repo rather have the repo of mine right?
+[17:40:53] <Anupama> https://paste.fedoraproject.org/389925/14682516/
+[17:41:08] <Anupama> yeah i have forked and cloned
+[17:41:15] <Anupama> it is Anupama0013
+[17:41:29] <SRvSaha> sayan: Is merging conflict just because of files of same name have different content and when they are merged git gets confused?
+[17:41:30] <pabitra> sayan, https://snag.gy/BX6lUv.jpg
+[17:41:51] <vharsh> SRvSaha, You get merge conflicts when you try to merge two branches(or same branches across different origins/sources) with different file contents.
+[17:41:52] <SRvSaha> sayan: yes. Just I am using a remote to your repo
+[17:42:06] <vibhcool> whoIs sayan
+[17:42:14] <vibhcool> oops sorry
+[17:42:37] <sayan> Anupama: can you just do cd foobar-1 ?
+[17:42:40] <SRvSaha> it is `/WHOIS` vibhcool
+[17:43:03] <sayan> Anupama: do cd foobar.git
+[17:43:07] <Anupama> sayan: still same
+[17:43:16] <vibhcool> hah, i missed that '/'
+[17:43:31] <vharsh> Anupama, Do a "pwd"
+[17:44:03] <sayan> Anupama: `cd foobar.git` also gives error?
+[17:44:34] <Anupama> https://paste.fedoraproject.org/389927/14682518/
+[17:45:23] <sayan> Anupama: `cd && cd foobar-1.git`
+[17:45:44] <SRvSaha> sayan: I think it'll be cd foobar rather than cd foobar.git
+[17:45:51] <avik> Anupama, do: cd foobar or cd foobar-1
+[17:45:53] <jogi96_> Anupama : come out of foobar
+[17:46:21] <jogi96_> Anupama, : do cd first
+[17:46:22] <Alak> Yeah, do a cd .. to come to /home/onu/
+[17:46:30] <Anupama> got it...
+[17:46:36] <sayan> Anupama: worked ?
+[17:46:38] <Anupama> :)
+[17:46:44] <Anupama> yeah worked
+[17:46:46] <sayan> cool \o/
+[17:46:58] <sayan> I forgot where I was  :)
+[17:47:01] <Anupama> at last :)
+[17:47:06] <sayan> Anupama: you need to add the remote
+[17:47:11] <Alak> We added remote upstream
+[17:47:15] <sayan> git remote add upstream https://github.com/sayanchowdhury/foobar.git
+[17:47:18] <jogi96_> git remote add upstream https://github.com/sayanchowdhury/foobar.git
+[17:47:27] <jogi96_> u were here sayan
+[17:47:35] <jogi96_> you were here sayan
+[17:48:26] <sayan> Anupama: you added the remote :)
+[17:49:00] <Anupama> sayan: yes
+[17:49:05] <sayan> pabitra: I am cluless about you :(
+[17:49:26] <sayan> now pull the changes from upstream
+[17:49:28] <pabitra> so I got it sayan
+[17:49:36] <sayan> git pull --rebase upstream master
+[17:49:37] <pabitra> what is wallet i dont know
+[17:49:58] <sayan> That will pull some new changes :)
+[17:50:26] <pabitra> sayan, i missed all those after clone
+[17:50:36] <vharsh> sayan, pm
+[17:50:36] <pabitra> can you please repeat ?
+[17:50:38] <vharsh> please
+[17:50:50] <sayan> can somebody tell pabitra the steps in pm?
+[17:50:58] <sandy_> sayan:
+[17:51:12] <smdeep> done no errors
+[17:51:46] <vharsh> sayan, Have any instant battery saving tips ? 7% and counting? I am in a park, using a different wifi. I don't want to loose out? I have shut firefox a few minutes ago.
+[17:52:22] <sayan> vharsh: nope :(
+[17:52:27] <sayan> cool :)
+[17:52:29] <sayan> everybody done
+[17:52:34] <PrashantJ> done :)
+[17:52:36] <iKshitij> vharsh same here ! 6%
+[17:52:36] <sayan> vharsh: almost done :)
+[17:52:37] <sandy_> sayan: yes
+[17:52:50] <LambaInsaan> Yes.
+[17:52:54] <Richard15> yes
+[17:53:04] <sayan> Now add something to the helloworld.txt file, commit it and push it :)
+[17:53:09] <smdeep> Ok
+[17:53:11] <anushil05> !
+[17:53:29] <pabitra> !
+[17:53:29] <rahulbajaj> pabitra, PM.
+[17:53:32] <sayan> now when you try to push using `git push upstream master`
+[17:53:58] <sayan> this will give you an error as it points to my repo and you don't have access
+[17:54:19] <sayan> so you need to do `git push origin master` --> that will push to you repo :)
+[17:54:33] <sayan> tell me when done, try pushing to both remote :)
+[17:55:00] <LambaInsaan> Done.
+[17:55:28] <smdeep> git push origin master # works
+[17:55:32] <smdeep> Done.
+[17:55:43] <sayan> smdeep: tried git push upstream master?
+[17:55:50] <sandy_> done
+[17:55:55] <smdeep> sayan: that gave permission denied
+[17:55:57] <Richard15> DONE
+[17:56:20] <sayan> smdeep: cool :) you know the reason why :)
+[17:56:26] <anushil05> Done
+[17:56:32] <PrashantJ> Done
+[17:56:32] <smdeep> Yes :)
+[17:56:34] <vharsh> Everything up-to-date
+[17:56:42] <vharsh> oops.
+[17:56:42] <sk_> done.
+[17:56:49] <vharsh> I'll fix it
+[17:56:49] sk_ is now known as ksaikiranr
+[17:56:59] <SRvSaha> Yes permission denied it is
+[17:57:00] <jogi96_> done
+[17:57:10] <Anupama> done
+[17:57:25] <iKshitij> Done
+[17:57:37] <mbtamuli12> done
+[17:57:38] <vharsh> SRvSaha, You gave a wong password.
+[17:57:39] <sayan> Next go to your github repo the `foobar-1` one
+[17:57:51] <vharsh> s/wong/wrong
+[17:58:09] <sayan> And search for Pull request :)
+[17:58:25] <sayan> Click on the pull request button
+[17:58:25] <SRvSaha> vharsh: I can push I my repo not in the cloned repo. So, it's a permission denied
+[17:58:53] <vharsh> You must have given a wring password to your GIthub Account
+[17:59:00] <sayan> It will ask for PR title and description, fill it with something you want
+[17:59:23] <sayan> and click on the create Pull Request button at the bottom of the page
+[17:59:33] <mbtamuli12> sayan: Sorry, but I have to leave, I'll send the Pull Request later.
+[17:59:36] <sayan> ^^ I guess it's in the bottom of the page
+[17:59:44] <sayan> mbtamuli12: no issues, this is the last thing :)
+[18:00:34] * sayan waits for the PRs
+[18:00:35] <smdeep> Sayan I have a New Pull Request button
+[18:00:57] <smdeep> sayan: Should I click that?
+[18:01:02] <sayan> smdeep: Yes
+[18:01:08] <smdeep> sayan: thanks.
+[18:01:17] <iKshitij> Battery dead ! :(
+[18:01:25] <pabitra> !
+[18:01:29] <sayan> next
+[18:01:31] <smdeep> Done, identical.
+[18:01:32] <sayan> next
+[18:01:44] <pabitra> i tried git push origin master
+[18:01:46] <pabitra> it worked
+[18:01:54] <anushil05> Showing there isn't anything to compare
+[18:01:54] <pabitra> so what else remote i should push it
+[18:02:34] <sayan> anushil05: fpaste `git log`
+[18:03:18] <sayan> pabitra: the other remote I told was mine, but it would give permission denied as you don't have access
+[18:03:45] <pabitra> do you mean upstream commad
+[18:03:52] <sayan> pabitra: yes
+[18:04:16] <sandy_> sayan: pull request created
+[18:04:33] <sayan> Can see only 4 PR here - https://github.com/sayanchowdhury/foobar/pulls
+[18:05:08] <pabitra> !
+[18:05:13] <sayan> next
+[18:05:23] <pabitra> what is the working of this pull request?
+[18:05:25] <sayan> next
+[18:05:38] <sayan> pabitra: you mean the use?
+[18:06:02] <pabitra> yues
+[18:06:04] <pabitra> yes
+[18:06:13] <sayan> One you create the pull request the maintainer of the project can merge your changes to the project after a review
+[18:06:22] <anushil05> https://paste.fedoraproject.org/389938/25304514/
+[18:06:37] <pabitra> so is it like a merge ??
+[18:06:46] <pabitra> sorry again for double '?'
+[18:06:56] <sayan> pabitra: :) I was going to point for that
+[18:07:13] <sayan> pabitra: yes, merge
+[18:07:30] <anushil05> sayan https://paste.fedoraproject.org/389938/25304514/
+[18:07:31] <sayan> anushil05: you need to do a commit, right now the log has only my changes
+[18:08:07] <sayan> smdeep: did not see your PR ?
+[18:08:42] <pabitra> so once the PR is reviewed then it can be merged ?
+[18:09:07] <sayan> pabitra: yes
+[18:09:13] <sayan> next
+[18:09:21] <sayan> Any questions?
+[18:09:24] <pabitra> !
+[18:09:34] <sayan> Shall we end?
+[18:09:35] <sayan> next
+[18:09:37] <pabitra> then who does this merging? github or
+[18:09:44] <SRvSaha> sent PR
+[18:09:45] <pabitra> the owner/maintainer
+[18:09:47] <sayan> pabitra: the maintainer of the project
+[18:10:02] <anushil05> I did but still same
+[18:10:03] <sayan> SRvSaha: yes saw :)
+[18:10:10] <sayan> anushil05: repo url?
+[18:10:14] <pabitra> so i as a user who sent the PR have nothing to do after review
+[18:10:15] <pabitra> ?
+[18:10:33] <sayan> pabitra: yes, send more PRs
+[18:10:38] <akshays> !
+[18:10:40] <sayan> next
+[18:10:40] <anushil05> hydro69/foobar-1/pulls
+[18:10:44] <pabitra> I already sent
+[18:11:06] <sayan> pabitra: I mean that's the task after sending a PR for review
+[18:11:40] <sayan> anushil05: did you push? Only my commits here -https://github.com/hydro69/foobar-1/commits/master
+[18:11:48] <akshays> sayan could you show us on terminal how when you fork a project and make changes to the project and commit it to your repo
+[18:11:53] <pabitra> ok, so you mean we need to send  more PRs
+[18:12:04] <akshays> how do these changes go to the main repo
+[18:12:06] <pabitra> !
+[18:12:14] sk_ is now known as ksaikiranr
+[18:12:21] <sayan> akshays: check the logs just told pabitra
+[18:12:30] <sayan> pabitra: after the session
+[18:12:39] <avik> sayan nothings happening
+[18:12:42] <avik> :(
+[18:12:53] <sayan> avik: while trying to create PR?
+[18:13:00] <sayan> avik: Github URL?
+[18:13:24] <avik> yes, can not create PR
+[18:13:28] <anushil05> I pushed
+[18:13:39] <anushil05> Now it showing what I added
+[18:13:43] <sayan> anushil05: cool :)
+[18:14:24] <anushil05> So pull request will show me the changes in your file and mine
+[18:14:25] <sayan> avik: github URL?
+[18:14:30] <sayan> anushil05: yes
+[18:14:30] <anushil05> sayan
+[18:14:31] <code_geek> I had a slow connection, was taking forever to git push. Now done :)
+[18:14:38] <sayan> code_geek: cool :)
+[18:14:45] <avik> https://github.com/sayanchowdhury/foobar/compare/master@%7B1day%7D...master
+[18:14:49] <avik> sayan^^
+[18:14:55] <akshays> got it sayan thanks :)
+[18:15:12] <sayan> can somebody explain avik?
+[18:15:17] <anushil05> One more thing after commit I will push?
+[18:15:34] <sayan> Roll Call
+[18:15:42] <pabitra> Pabitra Pati
+[18:15:44] <jogi96_> Jogender Kota
+[18:15:52] <code_geek> Shantanu Acharya
+[18:15:55] <real56> Varsha R
+[18:15:57] <sandy_> sandeep choudhary
+[18:15:57] <vbhjain> Vaibhav jain
+[18:15:59] <Anupama> Anupama Mandal
+[18:16:00] <madhurii> Madhuri Muley
+[18:16:03] <Richard15> Mayank Gupta
+[18:16:06] <akshays> Akshay Shipurkar
+[18:16:07] <yASH> Yashwanth M
+[18:16:08] <avik> Avik Mukherjee  sayan  none:(
+[18:16:32] <priyanka_> Priyanka Sharma
+[18:16:33] <deep123k> Deepanshu Kapoor
+[18:17:01] <sayan> endclass
+[18:17:01] [## Class Ended at Mon Jul 11 18:17:01 2016 ##]

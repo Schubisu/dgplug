@@ -1,0 +1,604 @@
+[13:43:42] [## Class Started at Wed Jun 26 13:43:42 2013 ##]
+[13:43:42] <sayan> startclass
+[13:43:45] <avik> Avik Ghosh
+[13:43:46] <lakshya> lakshya
+[13:43:46] <tenstormavi> Avinash Kumar Dasoundhi
+[13:43:47] <shantanu> shantanu sarkar
+[13:43:47] <puspita> puspita ghosh
+[13:43:48] <rahulch> Rahul Chowdhury
+[13:43:49] <rashmi> Rashmi
+[13:43:50] <arin> Arin Ghosh
+[13:43:50] <anurag> anurag kumar
+[13:43:51] <J_Caselles> Josep Caselles
+[13:43:51] <m0rin09m`> Shungoh Kaetsu
+[13:43:52] <redramires> Ramon
+[13:43:52] <anisha23> Anisha Agrawal
+[13:43:53] <sonam_> sonam
+[13:43:53] <purva> purva
+[13:43:53] <siddhant> siddhant sengar
+[13:43:53] <pratikkumar> Pratik Kumar
+[13:43:54] <tanvi> tanvi dutta
+[13:43:54] <tutum> Pritha Ganguly
+[13:43:57] <wiki> vivek sinha
+[13:44:01] <aanchal_> aanchal
+[13:44:01] <prikotiyal> Priyanka Kotiyal
+[13:44:02] <piotrektt> Piotr Bednarek
+[13:44:11] <sankha> sankhadeep pujaru
+[13:44:15] <irenebmy> Irene
+[13:44:17] <mac1733> Terry Mackin
+[13:44:17] <puja12> Puja Gupta
+[13:44:18] <Christina> Christina Beemer
+[13:44:18] <umesh> Umesh Agarwal
+[13:44:23] <nilanjit> Nilanjit Mitra
+[13:44:26] <Ravi_pro> ravi kumbhkar
+[13:44:28] <PleaseSTART> manish jain
+[13:44:29] <amresh> Amresh Kumar
+[13:44:34] <rahulmishra> Rahul Mishra
+[13:44:53] <zishan> Sheesh Mohsin
+[13:45:12] <korak> Korak Ghosh
+[13:45:15] <elita15> elita lobo
+[13:45:35] <iowa_kirk> Kirk Gunderson
+[13:45:37] <bidisha> Bidisha Mukherjee
+[13:45:42] <anwesha> Anwesha Das
+[13:45:51] <iam_sudip> Iam sudip
+[13:46:13] <cyogesh> Yogesh
+[13:46:15] <shalini> Shalini Roy
+[13:46:23] <wjcrane> William Crane
+[13:46:46] <ashis> ashis mohta
+[13:47:05] <kenzo450D> Sayantan Datta
+[13:47:13] <kushal> good
+[13:47:27] <kushal> so anyone starting for first day here ?
+[13:47:39] <iowa_kirk> Me
+[13:47:43] <kushal> if yes, please introduce yourself to the class
+[13:48:22] <iowa_kirk> I am Kirk, I live in Charlotte NC USA... linux user nerd... want to learn more.
+[13:48:27] <wjcrane> Me too
+[13:48:47] <kushal> iowa_kirk, wjcrane welcome :)
+[13:48:48] <dot|not> dot|not, just in time.
+[13:48:56] <piotrektt> wjcrane, you are too Kirk from Charlotte NC USA. what a coincidence :P
+[13:49:12] <wjcrane> My name is William and I live in Atlanta, GA. I am a Linux SysAdmin and I want to learn more.
+[13:49:28] <iowa_kirk> piotrektt:  lolz
+[13:49:32] <piotrektt> wohoo... nice to have you here :)
+[13:50:01] <kushal> iowa_kirk, I might visit your airport in 2months, will ping you before that :D
+[13:50:14] <kushal> anyway , we can start
+[13:50:19] <kushal> questions time
+[13:50:30] <kushal> everyone feel free to answer
+[13:50:45] <shantanu> !
+[13:50:57] <kushal> shantanu, ask
+[13:51:12] <tanvi> !
+[13:51:24] <rahulch> !
+[13:51:40] <kushal> tanvi, ask
+[13:51:40] <shantanu> kushal, in the logs you used the word "iirc" twice. i didnt get it <eof>
+[13:51:51] <kushal> shantanu, good question
+[13:51:59] <fewcha> shantanu: if i remember correctly
+[13:52:00] <praveenkumar> shantanu: iirc -> If I Remember Correctly
+[13:52:38] <tanvi> kushal, why is the tty files are there in the /dev directory?
+[13:52:38] <shantanu> oh, thank you
+[13:52:44] <kushal> there are few abbreviations we use in IRC
+[13:52:52] <lakshya> !
+[13:53:12] <arin> !
+[13:53:13] <bidisha> !
+[13:53:18] <kushal> tanvi, if you google you will get a link to http://www.tldp.org/HOWTO/Text-Terminal-HOWTO-7.html
+[13:53:23] <kushal> tanvi, read it
+[13:53:29] <kushal> rahulch, lakshya ask
+[13:53:56] <tenstormavi> !
+[13:53:56] <lakshya> kushal,what r automounted drives
+[13:53:59] <lakshya> ??
+[13:54:07] <kushal> lakshya, are not r
+[13:54:11] <rahulch> kushal, what is the difference between / and /root?
+[13:54:13] <rahulch> <EOF>
+[13:54:29] <kushal> lakshya, drives that get mounted automatically, you don't have to do it manually
+[13:54:31] <lakshya> kushal,sorry :(]\
+[13:54:58] <PleaseSTART> !
+[13:55:00] <kushal> rahulch, / is the root directory of the filesystem, /root is the home directory of the "root"/superuser
+[13:55:02] <piotrektt> rahulch, / is a main directory. root is a user. and folder /root has filest taht only root can acess.
+[13:55:18] <kushal> arcolife, bidisha tenstormavi ask
+[13:55:20] <lakshya> kushal , please give some examples
+[13:55:24] <tenstormavi>  how can we  read anything from hard disk or from dvd using /dev?
+[13:55:30] <rahulch> kushal, okay got it :)
+[13:55:37] <kushal> arin, ask
+[13:55:38] <bidisha> When I did $ ls -l /mnt it shows 0 in total why?
+[13:55:41] <praveenkumar> lakshya: you flash drive.
+[13:55:52] <praveenkumar> s/ you / your /
+[13:55:54] <batul> What praveenkumar meant to say was: lakshya: your flash drive.
+[13:55:56] <piotrektt> tenstormavi, in linux to read files from a device you need to mount it in a direcotry
+[13:55:57] <kushal> bidisha, as nothing is mounted in your system
+[13:55:58] <arin> in the command / dev you said we will find a driver named as dvd but in my system i dint find it instead i got disc. are the the same?
+[13:56:00] <puspita> !
+[13:56:03] <arin> <eof>
+[13:56:03] <umesh> lakshya, pen drive, cd/dvd
+[13:56:04] <rahulch> !
+[13:56:17] <kushal> arin, should be
+[13:56:28] <lakshya> praveenkumar thanks
+[13:56:35] <arin> kushal thanks
+[13:56:41] <bidisha> <EOF>
+[13:57:01] <kushal> tenstormavi, you will learn it slowly.
+[13:57:01] <bidisha> thanks, kushal
+[13:57:06] <tenstormavi> piotrektt, how can we do that? can you explain it with a example?
+[13:57:07] <Christina> !
+[13:57:19] <kushal> PleaseSTART, puspita rahulch
+[13:57:29] <kushal> ask
+[13:57:32] <puja12> !
+[13:57:34] <rahulmishra> !
+[13:57:40] <praveenkumar> tenstormavi: check "man mount"
+[13:58:01] <rahulch> the lost+found folder in the root directory, is it only for the root user?
+[13:58:02] <puspita> could you please elaborate on RAMFs.
+[13:58:09] <puspita> <eof>
+[13:58:16] <rahulch> <EOF>
+[13:58:20] <tenstormavi> kushal, praveenkumar thanks.
+[13:58:21] <siddhant> !
+[13:58:25] <piotrektt> tenstormavi, yes read the man moun because it has a lot to explain
+[13:58:32] <rashmi> !
+[13:58:44] <elita15> !
+[13:58:48] <kushal> puspita, learn to use the shiny new site called google.com
+[13:58:52] <kushal> puspita, https://www.kernel.org/doc/Documentation/filesystems/ramfs-rootfs-initramfs.txt
+[13:58:56] <tenstormavi> piotrektt, thanks.
+[13:59:26] <kushal> rahulch, anything under root directory is generally for super user
+[13:59:31] <anurag> !
+[13:59:47] <umesh> !
+[13:59:52] <kushal> Christina, puja12 ask
+[13:59:56] <Christina> pendrives cd's are automounted so do you have any example of drives that need to be mounted manually
+[13:59:59] <puja12> what is the purpose of lost+found under root directory?
+[14:00:10] <rahulch> !
+[14:00:14] <piotrektt> Christina, they are not automonted
+[14:00:15] <puja12> <eof>
+[14:00:31] <kushal> Christina, say if you have two harddrives in your computer
+[14:00:32] <lakshya_> actually i was confused
+[14:00:33] <dot|not> pujal: Please google that.
+[14:00:48] <kushal> puja12, ^^
+[14:00:48] <piotrektt> there is a slight difference, because to automont you need to specify the mount command in /etc/fstab file
+[14:00:54] <dot|not> "lost found linux" gives you plenty of results.
+[14:00:55] <lakshya_> as i read in wikipedia of mounting that in linux one has to mount the drives autmatically
+[14:00:55] <PleaseSTART> what are these term define in linux like root, swap, mount etc? If we use linux in VMware then what type of things we will get at terminal?
+[14:01:36] <kushal> PleaseSTART, that is also a linux, same thing, no difference from your point of view
+[14:01:52] <kushal> siddhant, rashmi elita15 ask
+[14:01:56] <siddhant> when i put the pendrive in my laptop i didnot find anything in /media why is it so there is nothing in the /media it is empty why is it so?
+[14:01:58] <rashmi> can we make changes in folders other than /usr?
+[14:02:13] <kushal> siddhant, which distro ?
+[14:02:20] <lakshya_> kushal !
+[14:02:23] <elita15> there is nothing in   /opt directory , why is it so?
+[14:02:32] <kushal> rashmi, as root user you can change to any directory
+[14:02:36] <dot|not> elita15, check out what /opt is for.
+[14:02:41] <dot|not> This should explain it to you.
+[14:02:54] <rashmi> is / bin and /usr/bin same?
+[14:03:05] <kushal> anurag, umesh rahulch ask
+[14:03:19] <anurag> RAMFs is supposed to be listed in /dev, right ?
+[14:03:20] <kushal> rashmi, in the latest Fedora systems, it is same
+[14:03:28] <PleaseSTART> <EOF>
+[14:03:42] <rahulch> whatever configuration files are there in /boot, will they also be available in /etc?
+[14:03:43] <kushal> anurag, only the devices are listed (if any)
+[14:03:44] <rahulch> <EOF>
+[14:03:48] <siddhant> kushal,as in log it is said that we can see all the removable devices like pendrive in /media.then why it is not there i mean to say
+[14:03:58] <umesh> siddhant, go to run then in media
+[14:04:08] <kushal> siddhant, which Linux distribution you are using ?
+[14:04:10] <rashmi> any change in /bin will be transmitted to /usr/bin?
+[14:04:10] <praveenkumar> rahulch: no
+[14:04:35] <umesh> kushal, can we change the color codes through gui ?
+[14:04:36] <kushal> lakshya_, ask
+[14:04:40] <lakshya_> i read in wikipedia of mounting that in linux one has to mount the drives manually so how come the concept of automount occur in linux
+[14:04:41] <umesh> <eof>
+[14:05:02] <rashmi> <eof>
+[14:05:06] <kushal> lakshya_, man fstab
+[14:05:13] <praveenkumar> rashmi: do a 'ls -l' on / directory, you will understand
+[14:05:28] <pratikkumar> !
+[14:05:29] <elita15> !
+[14:05:30] <kushal> siddhant, which Linux distribution you are using ?
+[14:05:38] <kushal> pratikkumar, elita15 ask
+[14:05:41] <siddhant> kushal,fedora 18
+[14:05:43] <prikotiyal> !
+[14:05:46] <rahulch> praveenkumar: ok.
+[14:06:16] <kushal> siddhant, in latest Fedora system they get mounted under /run/media/username/ and then somewhere
+[14:06:18] <rashmi> thank you
+[14:06:25] <pratikkumar> what is the purpose of /sda in /dev ?
+[14:06:36] <piotrektt> kushal, it's also true for ubuntu
+[14:06:40] <siddhant> kushal,ok thank you :)
+[14:06:54] <wiki> kushal: !
+[14:06:55] <shantanu> pratikkumar, /sda is you hard disk
+[14:06:55] <kushal> piotrektt, thanks for telling that, never knew
+[14:07:01] <elita15> shouldn't there be software packages in opt directory which are not part of default installation? can you explain what exactly is stored in opt directory?
+[14:07:02] <piotrektt> kushal, oh no sorry it's actually /media/username
+[14:07:29] <piotrektt> i've missed the /run
+[14:07:44] <kushal> elita15, unless you install anything there, it will be empty, it is like a water bottle, unless you fill it up, there will be no water inside
+[14:08:09] <kushal> pratikkumar, again learn to use google.com
+[14:08:11] <kushal> pratikkumar, http://en.wikipedia.org/wiki/SDA
+[14:08:31] <pratikkumar> kushal, ok
+[14:08:34] <kushal> http://en.wikipedia.org/wiki/Device_file#Linux_naming_conventions
+[14:08:42] <kushal> prikotiyal, wiki
+[14:08:44] <kushal> ask
+[14:08:48] <nilanjit> !
+[14:08:50] <wiki> am i in wrong class? or it was supposed to be Linux rather then a python class?
+[14:09:19] <praveenkumar> wiki: today session about FHS.
+[14:09:22] <kushal> wiki, you are in right class, but we start from beginning and then slowly move into Python
+[14:09:23] <prikotiyal> kushal, what does  "services specific data" means?
+[14:09:26] <umesh> !
+[14:09:41] <kushal> prikotiyal, where you found that text ?
+[14:09:44] <elita15> kushal, i did install many softwares. do you mean that only softwares which are downloaded directly from net  and installed are listed in opt directory?
+[14:09:50] <siddhant> pratikkumar,it is explained clearly about /sda in logs first go through completely the log then question here
+[14:09:54] <kushal> prikotiyal, can be data related to a system service
+[14:09:57] <elita15> <EOF>
+[14:10:25] <wiki> kushal: okay i got it!
+[14:10:27] <praveenkumar> elita15: no, it's depend of the upstream where he want to put the files.
+[14:10:34] <prikotiyal> kushal, under the definition of /serv
+[14:10:43] <kushal> elita15, /opt is generally for isv applications which follow their own packaging/paths, or you install them manually
+[14:11:21] <kushal> prikotiyal, and you wrote wrong path :D
+[14:11:32] <lakshya_> kushal,i cant move to the fstab drectory??
+[14:11:59] <praveenkumar> lakshya_: fstab directory?
+[14:12:00] <elita15> praveenkumar, kushal, thankyou
+[14:12:05] <bidisha_> prikotiyal, it is /srv
+[14:12:05] <kushal> lakshya_, ?
+[14:12:14] <prikotiyal> kushal: sorry
+[14:12:20] <dot|not> lakshya_, stab is no directory. It's a file.
+[14:12:22] <kushal> prikotiyal, search for linux system services
+[14:12:25] <dot|not> *fstab
+[14:12:28] <prikotiyal> bidisha: thank you
+[14:12:40] <sonam_> !
+[14:12:42] <lakshya_> kushal sorry
+[14:12:42] <lakshya_> file
+[14:12:50] <kushal> nilanjit, umesh ask
+[14:12:55] <nilanjit> Kushal, can we access data of hard drive from /dev?
+[14:13:05] <kushal> umesh ask
+[14:13:07] <nilanjit> <eof>
+[14:13:18] <prikotiyal> kushal: thank you
+[14:13:30] <praveenkumar> lakshya_: that's a configuration file which suppose to be /etc, you can move it but after that your stuff won't work.
+[14:13:31] <umesh> kushal, can we change the color codes through gui ?
+[14:13:32] <kushal> nilanjit, yes, your linux OS is actually helping you to do so
+[14:13:42] <umesh> <EOF>
+[14:13:57] <rahulmishra> !
+[14:14:11] <kushal> umesh, color codes of ?
+[14:14:11] <prikotiyal> !
+[14:14:12] <lakshya_> praveenkumar ok
+[14:14:12] <nilanjit> thanks
+[14:14:57] <kushal> if anyone missed http://www.pathname.com/fhs/pub/fhs-2.3.pdf is the pdf
+[14:15:00] <elita15> !
+[14:15:00] <kushal> prikotiyal, rahulmishra ask
+[14:15:27] <umesh> kushal, etc/DIR_COLOUR
+[14:15:27] <anurag> !
+[14:15:27] <prikotiyal> kushal: in the logs it is written that while rebooting the system all files in /tmp should be deleted.Why?
+[14:15:41] <rahulmishra> kushal, in /dev i got so many ram, i dont really follow it? are there so many ram?
+[14:15:43] <kushal> umesh, it is a text file, means you can change it through any text editor
+[14:16:16] <umesh> kushal, yes but i am not able to save it
+[14:16:17] <puspita> +1 rahulmishra
+[14:16:17] <kushal> prikotiyal, as it is a temporary directory, when we reboot we can remove all temporary things
+[14:16:17] <sonam_> !
+[14:16:39] <kushal> rahulmishra, what do you mean by so many ram ?
+[14:16:53] <kushal> rahulmishra, $ free -m
+[14:17:08] <tenstormavi>  kushal you forgot to give the pdf yesterday.
+[14:17:08] <kushal> that command tells you your ram details
+[14:17:08] <J_Caselles> rahulmishra: it's expalined in the log itself...
+[14:17:23] <prikotiyal> kushal: is it necessary to delete it.What is the problem if we don't?
+[14:17:29] <kushal> tenstormavi, no, people should learn to use google.com
+[14:17:34] <rahulmishra> J_Caselles, okay.
+[14:17:37] <tenstormavi> kushal, ok
+[14:17:49] <umesh> kushal, i tried through terminal in su mode it worked there but through gui its not working
+[14:17:52] <kushal> umesh, you need to be superuser to write under /etc
+[14:18:28] <kushal> elita15, anurag  sonam ask
+[14:18:41] <sonam_> when i installed fedora 18 the memory gor mounted,after thant some problem was arised,in google i found that one have to distribute memory manually.why so??
+[14:19:04] <kushal> sonam, memory or hard drive ?
+[14:19:14] <kushal> sonam, where are you from ?
+[14:19:22] <sonam_> kushal,hard drive
+[14:19:25] <umesh> kushal, so we cannot change those files without using terminal?
+[14:19:56] <kushal> sonam_, try to find someone locally who can help you to install
+[14:19:57] <praveenkumar> umesh: as in gui you logged in as normal user which don't have permission
+[14:20:03] <sonam_> purulia,west bengal
+[14:20:04] <elita15> can we access the home directory of superuser?
+[14:20:11] <kushal> umesh, for now you can not, later you will find how
+[14:20:16] <piotrektt> umesh, to edit from gui just start your editor in superuser mode
+[14:20:31] <kushal> elita15, yes, just become superuser
+[14:20:32] <sonam_> kushal,i have installed
+[14:20:33] <piotrektt> f.e sudo gedit /etc/fstab
+[14:20:38] <praveenkumar> elita15: using superuser, yes
+[14:20:39] <rahulch> elita15, go to su mode and do "cd root"
+[14:20:42] <umesh> kushal, thank you
+[14:20:56] <tenstormavi> kushal, i want to know the answer of the last question that was asked by prikotiyal.
+[14:21:23] <umesh> praveenkumar, piotrektt , how to get in gui su mode?
+[14:21:35] <prikotiyal> kushal: me too
+[14:21:42] <praveenkumar> umesh: please google it.
+[14:21:49] <kushal> prikotiyal, tenstormavi if you do not delete it then your hard drive might become full and then your computer will stop working
+[14:21:55] <umesh> praveenkumar, ok thank you
+[14:22:06] <J_Caselles> !
+[14:22:13] <kushal> J_Caselles, ask
+[14:22:24] <J_Caselles> isn't tmp automatically deleted?
+[14:22:30] <kushal> J_Caselles, yes
+[14:22:43] <iowa_kirk> umesh:  an example to launch a nautilus gui in super user would be to type "sudo nautilus" then enter password
+[14:22:44] <prikotiyal> kushal: ok ,thank you
+[14:22:45] <kushal> J_Caselles, they just don't want to :D
+[14:22:50] <siddhant> kushal,then how deleting tmp files recommendation depends upon os
+[14:22:54] <J_Caselles> :D xD
+[14:22:55] <tenstormavi> kushal, but since i installed fedora i din't delete them but it is working properly.
+[14:23:15] <iam_sudip> sudo pluma
+[14:23:22] turB0gears is now known as SG
+[14:23:28] <iam_sudip> then enter you password umesh
+[14:23:32] <kushal> siddhant, when you will learn about os design and differences you will learn this also
+[14:23:47] <piotrektt> tenstormavi, read the sentence "it might" which if you check in dictionary does not mean it will
+[14:23:48] <elita15> !
+[14:23:52] SG is now known as Guest89547
+[14:23:53] <umesh> iowa_kirk, but that we have to do through terminal
+[14:24:00] <siddhant> kushal,ok
+[14:24:02] <tenstormavi> piotrektt, ok
+[14:24:09] <kushal> tenstormavi, even in Fedora it deletes time to time
+[14:24:19] <kushal> elita15, ask
+[14:24:29] <iowa_kirk> umesh:  yes... to launch it
+[14:24:32] Guest89547 is now known as subho
+[14:24:33] <kushal> piotrektt, :D
+[14:24:44] <tenstormavi> kushal, thanks.
+[14:24:57] <elita15> is it possible to recover password required to get into superuser mode incase you lost it?
+[14:25:07] <umesh> iowa_kirk, thank you
+[14:25:12] <kushal> elita15, in general, the answer is no
+[14:25:44] <iowa_kirk> umesh:  just type the gui application with sudo or gksudo
+[14:25:48] <Christina> !
+[14:25:55] <kushal> Christina, ask
+[14:26:14] <umesh> iowa_kirk, ok let me try
+[14:26:22] <Christina> what can be done in case we lose the super user password.
+[14:26:32] <Christina> <EOF>
+[14:26:44] <elita15> kushal,  actually i am sure the password is right, but i am getting an error authentication failed. do i have any option or do i have to reinstall ubuntu?
+[14:26:50] <korak> kushal,in the terminal i wrote cd/ and it displayed  bash : cd/: no such file or directory ,what is the problem?
+[14:27:07] <tutum> korak,its cd /
+[14:27:09] <kushal> korak, type ancddf
+[14:27:12] <prikotiyal> korak: use a space after cd
+[14:27:15] <fewcha> korak: cd /
+[14:27:15] <lakshya_> i will be cd /
+[14:27:17] <lakshya_> korak
+[14:27:20] <praveenkumar> elita15: what command you are executing?
+[14:27:21] <elita15> <eof>
+[14:27:30] <tutum> korak:cd<space>/
+[14:27:35] <kushal> elita15, if you are reinstalling then you can install Fedora this time :D
+[14:27:47] <elita15> praveenkumar, su
+[14:27:52] <kushal> Christina, generally format and reinstall
+[14:28:13] <praveenkumar> elita15: try "sudo su" and then provide the password.
+[14:28:19] <ravi_pro> !
+[14:28:25] <kushal> ravi_pro, ask
+[14:28:30] <piotrektt> elita15, you can recover your password but it's complicated. you need to log in single-user mode
+[14:28:49] <piotrektt> elita15, google it and decide if you like to reinstall or use the single user mode
+[14:29:04] <fewcha> +1 kushal :D
+[14:29:27] <ravi_pro> after installing fedora16 i got error like GRUB, and it is not opening either fedora nor windows
+[14:29:31] <Christina> kushal, but in case i am using .iso then nothing can be done isnt it ?
+[14:29:32] <ravi_pro> <eof>
+[14:29:53] <ravi_pro> kushal,after installing fedora16 i got error like GRUB, and it is not opening either fedora nor windows
+[14:30:04] <dot|not> ravi_pro, Fedora 16 is outdated!
+[14:30:21] <praveenkumar> ravi_pro: use updated version
+[14:30:30] <piotrektt> ravi_pro and this can be really so many different issues. it's hard to diagnose with single wod - GRUB
+[14:30:34] <kushal> ravi_pro, also it seems you did some mistake while installing
+[14:30:39] <elita15> kushal,piotrektt, praveenkumar , sudo su command with password worked, but i still did not understand why su  command with password failed.
+[14:30:54] <piotrektt> elita15, oh you are in ubuntu
+[14:30:59] <praveenkumar> elita15: ubuntu specific
+[14:30:59] <kushal> elita15, now use passwd command to change superuser password
+[14:31:06] <piotrektt> elita15, in ubuntu su does not work. there is no root user at all
+[14:31:15] <kushal> oh
+[14:31:23] <kushal> even I never knew
+[14:31:24] <puspita> !
+[14:31:28] <piotrektt> there is speciall layer called sudo that enables you to become root
+[14:31:28] <piotrektt> for short time
+[14:31:29] <praveenkumar> piotrektt: correct
+[14:31:40] dell_ is now known as PleaseSTART
+[14:31:40] <kushal> puspita, ask
+[14:31:42] <piotrektt> to have superuser account you need to create it. google it
+[14:32:05] <dot|not> No, please don't.
+[14:32:10] <dot|not> There is no need for a superuser account.
+[14:32:43] divs_ is now known as divs
+[14:32:45] <puspita> with passwd command password changes when using in terminal, but when i'm logging into the system it's taking the old password. how to change the log in password
+[14:32:52] <puspita> ? <eof>
+[14:33:15] <dot|not> With the passed command you change your password ..
+[14:33:24] <dot|not> There is no "separate" login password.
+[14:33:29] <kushal> puspita, ^^
+[14:33:31] <elita15> !
+[14:34:18] <praveenkumar> dot|not: s/passed/passwd
+[14:34:51] <dot|not> praveenkumar, you forgot a "g" at the end but you are right, thanks.
+[14:34:54] <puspita> dot|not  previously i changed my password using passwd command.
+[14:35:29] <sankha> !
+[14:35:47] <praveenkumar> dot|not: 'g' is used for globally changed and in your line passed only once so no need :)
+[14:35:48] <puspita> dot|not but that only worked with the terminal. When i'm logging in its still taking the old password.
+[14:36:15] <kushal> samikshan, elita15 ask
+[14:36:25] <kushal> sankha, elita15 ask
+[14:36:36] <dot|not> praveenkumar, I know. But you want to change my mistake globally. ;)
+[14:36:54] <praveenkumar> oh ok.
+[14:36:55] <dot|not> puspita, NO. "passed" works on your password, not just a single session. You must have make another mistake then.
+[14:37:01] <pratikkumar> !
+[14:37:02] <dot|not> *passwd
+[14:37:03] <dot|not> ARGS.
+[14:37:20] <sankha> 'sudo su' password ans 'su' password are same or not ?  when i am trying to become superuser 'sudo su ' is working. 'su' command is showing authentication failure
+[14:37:23] <elita15> what is the command to change the password of superuser ? and why is ubuntu better than fedora just incase i want to reinstall?
+[14:37:37] <dot|not> sankha, which distribution do you use?
+[14:37:46] <puspita> dot|not ok thanks
+[14:37:47] <sankha> ubuntu 12.04
+[14:37:50] <piotrektt> snkha, please look up. the question was answered already few minutes ago
+[14:37:53] <kushal> sankha, ^^ read the above log, someone already answered that
+[14:37:54] <dot|not> elita15: It would be passed root, but because there is no superuser on Linux, this won't work.
+[14:38:01] <dot|not> sankha: Ubuntu has NO superuser.
+[14:38:07] <dot|not> Therefore this does not work.
+[14:38:10] divs is now known as devyani
+[14:38:12] <praveenkumar> sankha: we already discussed it, scroll over.
+[14:38:13] <tenstormavi> elita15, fedora is better.
+[14:38:33] <piotrektt> tenstormavi, please don't start trash talk
+[14:38:35] <kushal> elita15, nothing about better, Fedora is more developer friendly
+[14:38:40] <bpcse> in ubuntu sudo can covert to super user
+[14:38:45] <tenstormavi> piotrektt, ok
+[14:38:52] <praveenkumar> tenstormavi: well it's user prospective. don't troll.
+[14:39:00] <kushal> pratikkumar, ask
+[14:39:19] <elita15> kushal,dot_not , thanks
+[14:39:22] <pratikkumar> how can we restore a removed filed using command?
+[14:39:36] <kushal> pratikkumar, you can not, simple :D
+[14:39:39] <dot|not> pratikkumar, that's not done easily.
+[14:39:48] <dot|not> So for now: You can't do that.
+[14:39:52] <shantanu> pratikkumar, you should use it wisely
+[14:39:57] <praveenkumar> use rm command carefully.
+[14:40:20] <piotrektt> when you use rm command its good practice to run rm -i  it will ask you again then
+[14:40:45] <kushal> is there anymore question ?
+[14:41:02] <anurag> !
+[14:41:37] <kushal> anurag, ask
+[14:41:45] <sankha> piotrektt, superuser and root user are different ?
+[14:41:49] <pratikkumar> <praveenkumar><piotrektt>, kushal, shantanu ok
+[14:42:07] <anurag> coming from windows format, i still use mouse to remove files/dir, copy etc. should i more use the terminal for this ?
+[14:42:10] <piotrektt> snkha, it's the same
+[14:42:12] <umesh> !
+[14:42:33] <kushal> umesh, ask
+[14:42:43] <piotrektt> sankha, in linux terminology root is a superuser. but both terms are used.
+[14:42:47] <kushal> anurag, yes, will help you in future
+[14:42:53] <kushal> umesh, ask
+[14:42:56] <m0rin09m`> !
+[14:42:59] <elita15> !
+[14:43:01] <kushal> m0rin09m`, ask
+[14:43:29] <umesh> kushal, i can now login as root used the folling way http://fpaste.org/21029/
+[14:43:43] <kushal> umesh, what is the question ?
+[14:43:48] <kushal> elita15, ask
+[14:43:48] <dot|not> Please don't do that umesh.
+[14:43:56] <m0rin09m`> In between /dev/random and python random module, which pseudo-random generator generates more truly random number?
+[14:44:15] <praveenkumar> umesh: listen to dot|not
+[14:44:31] <elita15> i used  sudo su command to get into root mode  then tried to access  home directory of root account but it was empty, why is it so?
+[14:44:32] <sankha> piotrektt, "sudo su " ans 'su' -  both are used to become superuser . 'su' doesnt work in ubuntu but 'sudo su ' does.'su' is for other distro .  am i correct ?
+[14:44:36] <umesh> kushal, to become super user in gui mode
+[14:44:44] <dot|not> elita15, because there are no files there by default.
+[14:44:45] <m0rin09m`> <EOF>
+[14:44:52] <dot|not> ls -a should show you some configuration files.
+[14:44:59] <umesh> dot|not, praveenkumar ok
+[14:46:15] <kushal> m0rin09m`, I don't know, but still now I saw all people using random module if they are using python
+[14:46:28] <pratikkumar> !
+[14:46:40] <elita15> dot_not, thanks.
+[14:46:41] <m0rin09m`> kushal, ok. thanks
+[14:46:56] <piotrektt> sankha, http://lmgtfy.com/?q=super+user+in+ubuntu
+[14:46:56] <kushal> pratikkumar, thanks
+[14:47:17] <pratikkumar> actually in the log,its written that lost+found folder keeps some files that may get deleted.so files cannot be restored from there?
+[14:47:40] <tutum> pratikkumar.+1
+[14:47:48] <kushal> pratikkumar, when you use rm, it just gets deleted
+[14:47:58] <dot|not> Lost + found is for another purpose.
+[14:47:59] <dot|not> Google it.
+[14:48:07] <kushal> pratikkumar, ^^
+[14:48:10] <batul> http://en.wikipedia.org/wiki/It_(novel)
+[14:48:23] <kushal> lol
+[14:48:27] <praveenkumar> :)
+[14:48:27] <pratikkumar> dot|not, which purpose?
+[14:48:36] <pratikkumar> dot|not, ok
+[14:48:47] <korak> kushal, what is lost +found?
+[14:48:52] <piotrektt> haha
+[14:48:57] <dot|not> SERIOUSLY.
+[14:49:00] <dot|not> (Sorry.)
+[14:49:04] <dot|not> korak, please google it.
+[14:49:07] <kushal> korak, there is a nice shiny site called google.com
+[14:49:14] <piotrektt> batul are you not afraid to read such scary things? :P
+[14:49:15] <batul> piotrektt: Error: "are" is not a valid command.
+[14:49:16] <redramires> :)
+[14:49:19] <kushal> korak, they will not charge any money from you
+[14:49:28] <korak> kushal,what is the meaning of lost+found?
+[14:49:38] <redramires> :)
+[14:49:41] <amresh> !
+[14:49:44] <kushal> korak, can you understand English ?
+[14:49:47] <supriya_> !
+[14:49:55] <kushal> I mean read and understand English ?
+[14:50:12] <korak> kushal,sorry
+[14:50:23] <piotrektt> !
+[14:50:36] <kushal> amresh, supriya_ piotrektt ask
+[14:50:39] <piotrektt> kushal, where can I learn batul's language
+[14:50:43] <piotrektt> ?
+[14:50:47] <piotrektt> <eof>
+[14:50:58] * praveenkumar going for meeting 
+[14:50:59] <pratikkumar> !
+[14:51:10] <amresh> what is  architecture independent data files in context to /usr/share and why does it needs to be arch. independent ?
+[14:51:13] <kushal> piotrektt, http://wiki.dgplug.org/index.php/Batul
+[14:51:28] <anurag> piotrektt : +1
+[14:51:59] <kushal> amresh, first you have to google about "what is computer architecture?" and then slowly advance from there
+[14:52:07] <kushal> supriya_, pratikkumar ask
+[14:52:19] <pratikkumar> whit is rwx permissions?
+[14:52:31] <bidisha_> !
+[14:52:45] <dot|not> pratikkumar - this stands for read, write and execute.
+[14:52:46] <rahulch> pratikkumar: rwx means read/write/execute permissions
+[14:52:46] <kushal> pratikkumar, google.com is your friend
+[14:52:49] <amresh> kushal, thanks :)
+[14:52:53] <kushal> bidisha_, ask
+[14:52:55] <dot|not> For more information, please refer to Google.
+[14:52:58] <pratikkumar> and whats iirc?
+[14:53:13] <kushal> pratikkumar, google.com
+[14:53:16] <dot|not> iirc = if I remember correctly.
+[14:53:18] <bidisha_> is there something called cpu architecture?
+[14:53:23] <dot|not> This has already been answered before.
+[14:53:28] <dot|not> bidisha_, yes.
+[14:53:31] <kushal> bidisha_, yes
+[14:53:33] <lakshya> yes,bidisha
+[14:53:51] <pratikkumar> dot|not, kushal, rahulch ok
+[14:54:29] <kushal> anymore questions ?
+[14:54:45] <bidisha_> what are i386 and i686?
+[14:54:55] <kushal> bidisha_, google :)
+[14:55:13] <bidisha_> kushal, thanks.
+[14:55:18] <kushal> bidisha_, it is not that hard :)
+[14:55:19] <nilanjit> was that a joke from batul, about It_novel?
+[14:55:21] <bidisha_> <EOF>
+[14:55:27] <kushal> nilanjit, no
+[14:55:37] <nilanjit> Kushal, then?
+[14:55:49] <nilanjit> it says It is a 1986 horror novel by American author Stephen King
+[14:56:20] <kushal> nilanjit, batul is a bot who replied to a command from piotrektt
+[14:56:26] <kushal> for tomorrow
+[14:56:32] <nilanjit> oh. ok.
+[14:56:37] <kushal> again we are going to push people
+[14:56:40] <nilanjit> got it :)
+[14:57:11] <kushal> remember if you don't ask question, it is you, who will not learn things, there will be no difference for us
+[14:57:32] <kushal> http://www.dgplug.org/irclogs/kushal_vi_1stclass.log and http://www.dgplug.org/irclogs/kushal_vi_2ndclass.log
+[14:57:38] <dot|not> But, please please please, read the links kushal hands out. Read them good and thoroughly.
+[14:57:38] <kushal> these are tomorrow's session
+[14:57:49] <kushal> dot|not, thanks
+[14:57:55] <ravi_pro> !
+[14:57:59] <piotrektt> .lucky -snippet google.com
+[14:58:01] <batul> piotrektt: (lucky [--snippet] <search>) -- Does a google search, but only returns the first result. If option --snippet is given, returns also the page text snippet.
+[14:58:09] <supriya_> kushal,whta will you teach in our nxt session rom 9?
+[14:58:20] <supriya_> *what
+[14:58:26] <kushal> supriya_, clean your keyboard :)
+[14:58:31] <piotrektt> .lucky --snippet google
+[14:58:32] <batul> piotrektt: http://maps.google.com/ | Find local businesses, view maps and get driving directions in Google Maps.
+[14:58:46] <kushal> piotrektt, you can do that in pm to it :)
+[14:58:47] <piotrektt> ok. no more trying :P
+[14:58:53] <sankha> .tell piotrektt  Hi! How are you
+[14:58:53] <batul> sankha: The operation succeeded.
+[14:58:55] <kushal> ravi_pro, ask
+[14:59:06] <kushal> sankha, stop doing that in the session
+[14:59:07] <piotrektt> thx :)
+[14:59:13] <kushal> thanks :)
+[14:59:20] <ravi_pro> kushal, sorry! due to powercut i was not able to get the answer. Can you answer again?
+[14:59:20] <piotrektt> oh. thanks :)
+[14:59:32] <sankha> kushal, sorry. ok.
+[14:59:39] <kushal> ravi_pro, what is the question ?
+[15:00:07] <Pallab> !
+[15:00:13] <kushal> Pallab, ask
+[15:00:23] <ravi_pro> after installing fedora16 , i got the error related to Grub?
+[15:00:33] <Pallab> yestrday we had class?
+[15:00:37] <ravi_pro> kushal,after installing fedora16 , i got the error related to Grub?
+[15:00:42] <Pallab> <EOF>
+[15:00:45] <dot|not> ravi_pro, ah, I remember. My answer was: Fedora 16 is outdated. kushal did the rest.
+[15:00:49] <dot|not> Pallab, yes.
+[15:01:00] <kushal> ravi_pro, reinstall with Fedora 18
+[15:01:07] <kushal> Pallab, yes
+[15:01:09] <rahulch> Pallab: http://dgplug.org/irclogs/2013/2013-06-25-18-35-session3.log
+[15:01:27] <kushal> Pallab, and we don't like missing students
+[15:01:37] <korak> !
+[15:01:42] <ravi_pro> kushal, Is there any alternative solution apartfrom reinstall?
+[15:01:47] <kushal> so I hope everyone understood today's task
+[15:01:51] <kushal> ravi_pro, no
+[15:01:54] <kushal> korak, ask
+[15:02:02] <ravi_pro> kushal, i have fedora 16 , not 18?
+[15:02:11] <dot|not> ravi_pro, that's why he told you to reinstall.
+[15:02:16] <kushal> ravi_pro, that is old
+[15:02:39] <ravi_pro> kushal, how can we get fedora18?
+[15:02:44] <korak> kushal ,will there be a session after 9 pm?
+[15:02:57] <dot|not> ravi_pro, obtain it from the official homepage ..
+[15:03:04] <dot|not> korak, at 9pm sharpish.
+[15:03:07] <kushal> korak, at 9pm, wait for it
+[15:03:13] <Christina> !
+[15:03:25] <Pallab> yesrterday i was not internet available...so...sorry!
+[15:03:32] <kushal> Christina, ask
+[15:03:44] <Christina> does the official home page give .iso for fedora
+[15:03:51] <dot|not> Yes.
+[15:03:58] <kushal> Christina, yes
+[15:04:14] <piotrektt> dot|not you are fast :)
+[15:04:22] <Christina> the other day i downloaded fedora 18 but i couldnt open it using vmware
+[15:04:22] <kushal> Christina, also you come down to our office and get it as you are in same city iirc
+[15:04:58] <kushal> piotrektt, correct :)
+[15:05:35] <piotrektt> !
+[15:05:38] <kushal> I think he is a bit frustrated
+[15:05:43] <kushal> piotrektt, ask
+[15:05:45] <piotrektt> so now is a half hour brake?
+[15:06:09] <sankha> piotrektt, break
+[15:06:12] <kushal> yes, let me first finish this session first
+[15:06:16] <kushal> it is not ended yet :)
+[15:06:20] <piotrektt> haha
+[15:06:25] <dot|not> !
+[15:06:26] <piotrektt> yes sorry break :)
+[15:06:33] <piotrektt> i always mistype that one
+[15:06:42] <kushal> -----------SESSION ENDS----------
+[15:06:43] <Christina> That is so nice of you kushal i will try to download in case it doesn't work i will come
+[15:06:47] <sayan> endclass
+[15:06:47] [## Class Ended at Wed Jun 26 15:06:47 2013 ##]

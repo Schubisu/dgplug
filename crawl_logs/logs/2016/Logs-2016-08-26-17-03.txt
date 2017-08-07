@@ -1,0 +1,194 @@
+[17:03:24] [## Class Started at Fri Aug 26 17:03:24 2016 ##]
+[17:03:24] <sayan> startclass
+[17:03:33] <sayan> Roll Call
+[17:03:39] <rahuldecoded> Rahul Bhattacharjee
+[17:03:40] <sandeepk> sandeep kumar choudhary
+[17:03:43] <iKshitij> Kshitij
+[17:03:44] <abhishekg5> Abhishek Gupta
+[17:03:48] <poonam> poonam jadhav
+[17:03:52] <Anupama> Anupama Mandal
+[17:03:53] <code_geek> Shantanu Acharya
+[17:04:18] <pabitra> Pabitra Pati
+[17:04:20] <HoloIRCUser8> Jogender Kota
+[17:04:32] HoloIRCUser8 is now known as jogender
+[17:04:47] <avik> Avik Mukherjee
+[17:05:09] <HoloIRCUser1> Mamoon manzoor
+[17:05:24] <amey> Amey Jain
+[17:05:37] <deep123k> Deepanshu Kapoor
+[17:05:40] <surrr> Suraj Narwade
+[17:05:42] <abhi2016> Abhi
+[17:05:44] <sayan> Any doubts from Modules?
+[17:06:35] <LambaInsaan> Roll Call: Rhitik Bhatt
+[17:07:08] <amey> !
+[17:07:21] <sayan> next
+[17:07:41] <amey> What is the basic use of submodules and __all_in_init__.py?
+[17:08:54] <sayan> any file that ends with .py in a package is known as submodule
+[17:09:37] <sayan> __all__ basically tell which are the public available objects
+[17:10:01] <sayan> when you do import * then only those specified in __all__ are imported
+[17:10:23] <sayan> any more questions
+[17:10:34] <amey> In here by public we mean that they are accessible by the user of the library those which are not listed in __all__ can not be used?
+[17:10:54] <sayan> amey: yes, accessible from other modules
+[17:12:05] <amey> They provide a restricted path to functions of other modules and limited access thus
+[17:12:29] <sayan> amey: what do you mean by path here?
+[17:13:23] <amey> Path here means a way to use the other modules which are these functions listed in __all__
+[17:14:12] <sayan> Ok, write a program that takes input of a path, and takes input of a character
+[17:14:37] <sayan> and lists all the files in that particular path that starts with the character
+[17:15:04] <sayan> Do this program using the command line arguments
+[17:15:56] <code_geek> !
+[17:16:11] <sayan> next
+[17:16:19] <code_geek> the '.' and '..' in from . import echo and from .. import formats means we are importing packages from current and the previous directory. Right?
+[17:17:01] <sayan> relative import, yes
+[17:17:16] <code_geek> okay
+[17:17:40] <code_geek> then what is meant by from ..filters import equalizer
+[17:17:48] <code_geek> we used ..filters?
+[17:17:59] <code_geek> <EOF>
+[17:20:15] <sayan> code_geek: did you google that?
+[17:20:41] <code_geek> okay sayan, I will google it
+[17:22:41] <SRvSaha> ROLL CALL : SAURAV SAHA
+[17:23:51] <abhishekg5> What's going on ?
+[17:25:41] <sayan> Are people trying the question I gave?
+[17:26:18] <sandeepk> yes
+[17:26:18] <jogender_> yes trying.
+[17:26:28] <avik> yup
+[17:26:38] <poonam> yes
+[17:26:41] <code_geek> yes
+[17:27:15] <amey> yes
+[17:27:20] <abhishekg5> Can someone paste the question again ? I got disconnected
+[17:28:09] <sayan> can somebody type the question to abhishekg5 in PM?
+[17:29:35] <sandeepk> yes sayan
+[17:29:59] <LambaInsaan> sayan, https://paste.fedoraproject.org/414397/14722253/
+[17:32:56] * SRvSaha is going for dinner
+[17:35:16] <sayan> LambaInsaan: Looks good
+[17:35:23] <sayan> LambaInsaan: go ahead and fix corner cases
+[17:36:25] <LambaInsaan> sayan, Okay!
+[17:39:43] <code_geek> sayan, https://paste.fedoraproject.org/414403/
+[17:42:36] <amey> !
+[17:42:39] <sayan> next
+[17:42:52] <ashdev> roll call aswin devarajan
+[17:43:21] <amey> my program lists the files but it ends in an infinite loop
+[17:43:37] <code_geek> sayan, is my code correct?
+[17:43:37] <sayan> LambaInsaan: code_geek: modify you code to take wild cards like * and ? and search for the filenames
+[17:43:46] <sayan> s/you/your
+[17:43:46] <code_geek> ok
+[17:44:08] <amey> http://paste.fedoraproject.org/414405/
+[17:44:12] <sayan> * means multiple characters
+[17:44:18] <sayan> ? means single character
+[17:44:26] <sayan> amey: did you try to debug
+[17:44:57] <sayan> amey: the question is to take input using command line argument
+[17:45:17] <amey> Sorry, I will get back to it again
+[17:45:25] <pabitra> https://paste.fedoraproject.org/414407/72226319/
+[17:46:00] <sayan> pabitra: same for you; the question is to be done using command line arguments
+[17:48:51] <LambaInsaan> sayan, What does '?' do?
+[17:49:50] <LambaInsaan> Got it!
+[17:49:50] <sayan> LambaInsaan: multiple characters matching.
+[17:49:55] <sayan> LambaInsaan: sorry single
+[17:50:01] <sayan> * is multiple
+[17:50:02] <LambaInsaan> Okay!
+[17:50:18] <code_geek> sayan, https://paste.fedoraproject.org/414410/
+[17:50:53] <pabitra> https://paste.fedoraproject.org/414411/22266391/
+[17:52:38] <rahuldecoded> https://paste.fedoraproject.org/414413/72226736/
+[17:54:55] <anushil05_> What is going on ?
+[17:55:01] <anushil05_> Sorry I am late
+[17:55:28] <LambaInsaan> sayan, is there any workaround that without using regular expressions?
+[17:58:14] <sayan> code_geek: I did not understand what you did here
+[17:58:33] <sayan> how are you handling * and ?
+[17:58:37] <sayan> LambaInsaan: yes
+[17:58:59] <rahuldecoded> LambaInsaan why you have used sys? Can use please explain? (Just asking)
+[17:59:36] <code_geek> in my code, the user can give multiple inputs. suppose he enters p and c, then the output gives the list of all files starting with p and c
+[17:59:48] <sayan> code_geek: nope
+[18:00:03] <sayan> code_geek: I want if the user input *P*
+[18:00:19] <sayan> it should show all the files that contains P
+[18:00:25] <sayan> *P means ends with P
+[18:00:34] <sayan> P* means starts with P
+[18:00:37] <sayan> code_geek: got it?
+[18:00:55] <code_geek> oh, okay got it
+[18:01:08] <sandeepk> sayan: https://paste.fedoraproject.org/414423/14722272/
+[18:04:34] <sayan> sandeepk: combine 6,7,8,9 into one line
+[18:04:50] <sandeepk> ok sayan
+[18:06:49] <Anupama> sayan using sys.argv[1] gives me error=>https://paste.fedoraproject.org/414429/72227519/
+[18:07:11] <sandeepk> sayan:  done http://paste.fedoraproject.org/414430/72227616/ :)
+[18:07:39] <sayan> Anupama: why not write in a file?
+[18:07:52] <rahuldecoded> sayan https://paste.fedoraproject.org/414413/72226736/ I didn't have used sys. though I am getting my required answer.
+[18:08:00] <sayan> sandeepk: +1
+[18:08:05] <LambaInsaan> sayan, I am facing problem whenever I am trying to send 'some_string*' it sends the name of the first file in the directory in which I am in.
+[18:08:06] <sandeepk> sayan: :)
+[18:08:27] <sayan> rahuldecoded: yes, but had to be done using command line arguments
+[18:08:42] <Anupama> okay sayan
+[18:08:59] <sandeepk> sayan: for * and ? , we have to use if statement that will turn out be too mant cases
+[18:09:13] <rahuldecoded> sayan ok
+[18:09:34] <sayan> sandeepk: we are having modules class :)
+[18:10:10] <sandeepk> sayan: so solution have to be with modules  :)
+[18:13:45] <Anupama> sayan still the same error
+[18:13:51] <avik> !
+[18:14:00] <sayan> Anupama: if you write in a file?
+[18:14:06] <sayan> next
+[18:14:08] <avik> sayan, I could not do that. speaking frankly. I have been missing a few classes, lagging behind, and in a bewildered position. If you can, then please help me!
+[18:14:44] <avik> I have missed almost a week now!
+[18:15:07] <Anupama> sayan: Yes after writing in a file. It says list index out of range.
+[18:15:30] <sayan> Anupama: okay, why are you using sys.argv there?
+[18:15:34] <sayan> avik: in that case
+[18:15:51] <sayan> avik: you need to spend more time, stay online and ask questions
+[18:15:53] <sayan> read things
+[18:16:03] <sandeepk> Anupama: try to call your function like this path_(/, h)
+[18:17:51] <avik> read logs right?
+[18:18:02] <avik> sayan, ^^
+[18:18:20] <sandeepk> Anupama: if you want to give command line argument you have to make a python file not in interpreter you can give command line argument ,a s i think
+[18:18:43] <sayan> avik: read logs, ask people what was taught
+[18:18:49] <sayan> learn things on your own
+[18:19:53] <avik> ok
+[18:22:16] <kdas__> avik, you will have to practice
+[18:22:21] <hydro_> https://paste.fedoraproject.org/414443/
+[18:22:28] <kdas__> When ever you get stuck, come to IRC and ask for help.
+[18:22:52] <avik> ok
+[18:23:11] <hydro_> sayan, https://paste.fedoraproject.org/414443/  is this correct
+[18:23:43] <avik> kushal, will learning from you-tube be any helpful??
+[18:24:00] <avik> generally, they are faster than reading!
+[18:24:09] <avik> kdas__, ^^
+[18:24:18] <sayan> practice != reading
+[18:24:32] <sandeepk> sayan: +1
+[18:24:52] <sayan> hydro_: looks good
+[18:25:29] <sayan> avik: have you read Python for you and me?
+[18:25:30] <avik> ok, starting now, then
+[18:26:40] <kdas__> avik, starting what?
+[18:27:07] <avik> starting to read
+[18:27:12] kdas__ is now known as kushal
+[18:27:14] <avik> pybook??
+[18:27:37] <kushal> avik, what is pybook?
+[18:28:05] <avik> sorry, the pymbook
+[18:28:36] <Anupama> okay sandeepk :)
+[18:28:55] <sandeepk> Anupama: :) try and tell if it's work or not
+[18:29:48] <Anupama> sandeepk: Wait let me try your code and see
+[18:29:57] <sandeepk> ok
+[18:30:23] <kushal> Btw, many of you added wrong link in https://github.com/dgplug/studentsplanet/wiki
+[18:30:35] <kushal> You are supposed to add the feed URL, not the web URL.
+[18:30:44] <kushal> anushil05_, smdeep ^^^
+[18:31:02] <kushal> creativeintelligencespace.wordpress.com who ever that is
+[18:31:09] <avik> what is feed url?
+[18:31:30] <avik> and how is it different from web URL?
+[18:32:41] <kushal> avik, there is a nice site called google.com
+[18:32:48] <kushal> avik, which can tell you the answer.
+[18:32:53] <kushal> avik, search first.
+[18:32:59] <avik> hahahh, sorry
+[18:33:04] <sayan> *google.com* cries in the corner
+[18:33:24] <kushal> avik, or open that URL I pasted, and try to see the difference in the URL(s)
+[18:33:27] <kushal> sayan, :)
+[18:33:37] <sayan> What is the status of the wildcard question?
+[18:34:36] <sandeepk> sayan: still trying
+[18:34:46] <avik> sayan, here i go to cradle Google. :)
+[18:35:41] <sandeepk> sayan: not complete yet but would it be like this http://paste.fedoraproject.org/414464/29317147/
+[18:43:24] <sayan> Anybody still trying?
+[18:43:32] <LambaInsaan> Me!
+[18:44:08] <sayan> Let keep this question as assignment. Ending class here
+[18:44:09] <LambaInsaan> Do we have to implement the case where there are * and ? both?
+[18:44:19] <sayan> LambaInsaan: yes
+[18:44:25] <LambaInsaan> Okay! :)
+[18:44:34] <sayan> Roll Call
+[18:44:36] <kushal> If only one can use google.com nicely :)
+[18:44:39] <LambaInsaan> Rhitik Bhatt
+[18:44:55] <Anupama> Anupama Mandal
+[18:45:18] <avik> Avik Mukherjee (yup googling)
+[18:45:21] HoloIRCUser10 is now known as jogender
+[18:45:28] <jogender> Jogender Kota
+[18:47:10] <anushil05_> kushal: ok ,I Will correct my mistake
+[18:47:19] <sayan> endclass
+[18:47:19] [## Class Ended at Fri Aug 26 18:47:19 2016 ##]

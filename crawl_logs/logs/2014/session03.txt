@@ -1,0 +1,411 @@
+[13:05:38] [## Class Started at Tue Jul  1 13:05:38 2014 ##]
+[13:05:38] <kushal> startclass
+[13:05:43] <gnovi> Good batul is back
+[13:05:53] <kushal> --------------SESSION STARTS----------------
+[13:05:57] <kushal> Roll Call
+[13:05:59] <bnprk> Binay Pareek
+[13:06:00] <zishan> Sheesh Mohsin
+[13:06:01] <zhean1874> hean zhu
+[13:06:01] <sivteck> Sivaram Balakrishnan
+[13:06:02] <hari510> Hari Kiran
+[13:06:03] <gnovi> Praveen Patil
+[13:06:05] <mnw94> Mayuresh Waykole
+[13:06:05] <abhishekp> Abhishek Potnis
+[13:06:06] <thejaman> Thejazeto Lhousa
+[13:06:07] <lgp171188> Guruprasad
+[13:06:07] <harsha> Harsha
+[13:06:08] <amit001> amit tripathi
+[13:06:09] <pavan> pavan priyatham
+[13:06:09] <papiya> Papiya Sen
+[13:06:09] <nmzaheer> Zaheer
+[13:06:09] <kanika04> kanika narang
+[13:06:11] <annesha> Annesha Chowdhury
+[13:06:12] <nithinr> Nithin Raj
+[13:06:12] <eeshangarg> Eeshan Garg
+[13:06:13] <ruprela> Dharmesh Ruprela
+[13:06:13] <surabhi> Surabhi
+[13:06:14] <codaholic> Anjali
+[13:06:15] <ace139> Soumyo Dey
+[13:06:15] <amittima> Amit kumar
+[13:06:15] <silentSae> Amir Musanna
+[13:06:16] <Mactoc> Sreedevi Pillai
+[13:06:17] <heena> Heena Kaushar
+[13:06:17] <koushik> Koushik Bag
+[13:06:18] <satarupa> Satarupa
+[13:06:18] <dahl007> Michael Dahl
+[13:06:18] <lixxz> Yasharth Choudhary
+[13:06:20] <Prash_542> Prashant
+[13:06:20] <sagarkrkv> Vidya Sagar
+[13:06:21] <shiminsh> Kumari Shalini
+[13:06:21] <sukanya> Sukanya Mandal
+[13:06:22] <novice-coder12> Niharika
+[13:06:24] <abhi_poo> Abhishek Poojary
+[13:06:29] <jaba> Athira S
+[13:06:35] <mahendra> Mahendra yadav
+[13:06:37] <korak1> Korak Ghosh
+[13:06:41] <titli> Titli Das
+[13:06:44] <deepu_tp> Deepu Philip
+[13:06:44] <ramsan> ramsandesh
+[13:06:46] <akki2200> Aakash
+[13:06:52] <johnmtv> John Lizer
+[13:06:56] <Praveen__> Praveen
+[13:07:12] <alec> alec
+[13:07:23] PraveenKarol is now known as PraveenK
+[13:07:25] <yeshi> Yeshita Dutta
+[13:07:28] <abhaykrish> Abhay Krishnan
+[13:07:29] <shilpi> shilpi shukla
+[13:07:32] <senju> Vikash Patil
+[13:07:46] PraveenK is now known as PraveenKarol
+[13:07:56] <Praveen__> Praveen.ksna
+[13:08:03] <yogeshwar> Yogeshwar Dan Charan
+[13:08:03] <donniezazen> Sudhir Khanger
+[13:08:11] <NP1995> Nishant Pani
+[13:08:12] <PraveenKarol> Praveen Karol
+[13:08:18] <Jupiter> Amrutha
+[13:08:31] <prajesh> prajesh rawat
+[13:08:35] <kushal> Anyone left?
+[13:08:40] <invincible> ajinkya bhosale
+[13:09:05] <rahulmishra> Rahul Mishra
+[13:09:10] shalini1 is now known as shiminsh
+[13:09:18] <Deccan> <>Rupitha
+[13:10:11] <Praveen__> Praveen kumar
+[13:10:30] <siddharth185> Siddharth Kulshrestha
+[13:10:50] <kushal> pingall: roll call in case you never noticed.
+[13:11:20] <kushal> We can start
+[13:11:24] <kushal> So QA time.
+[13:11:37] <silentSae> !
+[13:11:42] <pavan> !
+[13:11:49] <ace139> !
+[13:11:55] <kushal> next
+[13:12:05] <silentSae> i read about robocopy but couldn't understand it completely
+[13:12:13] <silentSae> please explain it <eof>
+[13:12:30] <titli> !
+[13:12:40] <pavan> what is the ls -lr command ,i can't get it
+[13:12:58] <unknown21> !
+[13:13:32] <kushal> silentSae, can you please point me to the link you read on robocopy?
+[13:13:45] <chandan_kumar> pavan, Please wait for your turn.
+[13:13:53] <silentSae> give me a minute<eof>
+[13:14:18] <donniezazen> pavan: "man ls" should help you.
+[13:14:27] <senju> pavan, -lr are the options you give to ls command, -l is longlist, -r is recursive
+[13:14:44] shalini1 is now known as shiminsh
+[13:14:56] <kushal> silentSae, that is a windows command
+[13:15:00] <donniezazen> senju: -r is not recursive it is -r, --reverse
+[13:15:07] <silentSae> http://cli.learncodethehardway.org/book/ex1.html
+[13:15:08] <senju> -R
+[13:15:12] <arbi007> !
+[13:15:17] <donniezazen> senju: -R is recursive.
+[13:15:37] <senju> got it
+[13:15:40] <kushal> silentSae, not sure why are you reading windows commands in a linux session.
+[13:15:57] <silentSae> yes I saw that but there was a discussion on its linux equivalent. So I thought its not 'cp' equivalent
+[13:16:03] <silentSae> <eof>
+[13:16:14] <kushal> next
+[13:16:16] <kushal> next
+[13:16:23] <ace139> 1. What does really ls -lR does ? it showed some output but couldn't understand it. <eof>
+[13:16:37] <obhee> Abhishek Chowdhury
+[13:16:48] <kushal> ace139, go to /dev
+[13:16:54] <kushal> and give that command
+[13:17:06] <kushal> ace139, and then give ls -l
+[13:17:10] <ace139> 2. when we are typing > mv file1.txt  file2.txt what happens to file1.txt ?
+[13:17:12] <kushal> you will understand the different.
+[13:17:29] <kushal> ace139, file1.txt gets renamed to file2.txt
+[13:17:49] <ace139> but its the command for move ! <eof>
+[13:17:53] <NP1995> ace139 If there are any sub directories in the directory when you give that command,the contents of thoe sub directories will be listed in a recursive fashion
+[13:18:10] <kushal> ace139, yes, so to speak it moved file1.txt to file2.txt
+[13:18:13] <pavan> !
+[13:18:26] <kushal> another way to say rename :)
+[13:18:27] <kushal> next
+[13:18:32] <titli> I have read about symbolic links, but it is not very clear to me. Can you please explain it? <eof>
+[13:18:32] <ace139> Got it <eof>
+[13:18:50] <kushal> titli, which part is not clear?
+[13:18:54] <shilpi> !
+[13:19:11] <titli> how to make such links, and when to use?
+[13:19:30] <titli> like why we need them?
+[13:20:32] <kushal> titli, say you have one file under /data directory, but you want every user in your system should see that file in your home directory and be able to read it, one way is to copy the file everyplace
+[13:20:41] <kushal> but that means wastage of space.
+[13:20:49] <ace139> !
+[13:21:03] <kushal> Instead you can create a link to it from every users home directory.
+[13:21:05] <kushal> ln -s
+[13:21:17] <kushal> titli, google about why soft linking
+[13:21:19] <kushal> next
+[13:21:40] <titli> kushal, thanks.<eof>
+[13:22:05] <kushal> next
+[13:22:18] <deepak_sirone> !
+[13:22:20] <arbi007> kushal , how can we define permission to any file ?
+[13:22:24] <alec> !
+[13:22:42] <kushal> arbi007, first tell me do you know how to view the permissions?
+[13:23:02] <arbi007> kushal ,ls -l
+[13:23:15] <kushal> arbi007, good.
+[13:24:15] <kushal> arbi007, now read the man page about chmod command after the session
+[13:24:18] <obhee> !
+[13:24:23] <chandan_kumar> next
+[13:24:40] <arbi007> kushal , ok
+[13:25:03] <pavan> when we have a cd .. command then what's the use of pushd and popd ? Is to just to make the switching easier?<eof>
+[13:25:04] <silentSae> !
+[13:26:06] <kushal> add: chandan_kumar
+[13:26:44] <kushal> next
+[13:26:46] <praveenkumar> pavan: pushd is create a stack, check man pushd and you will find usecase.
+[13:27:11] <kushal> next
+[13:27:23] <kushal> masters
+[13:27:31] <shilpi> what is the use of touch command ??
+[13:27:40] <shilpi> <eof>
+[13:27:49] <ramsan> to create an empty file
+[13:27:56] <pavan> shilpi: to create an empty directory
+[13:28:05] <kushal> pavan, nope
+[13:28:07] <arbi007> !
+[13:28:07] <tonythomas> pavan: directory ?
+[13:28:29] <pavan> sorry file
+[13:28:29] <kushal> shilpi, it creates an empty directory.
+[13:28:49] <tonythomas> kushal: nope. mkdir creates an empty directory
+[13:29:04] vj is now known as vivk-
+[13:29:06] <NP1995> touch command is used to modify the proerties of files
+[13:29:06] <kushal> Btw there are many people here who already knows a lot about Linux, feel free to answer the questions.
+[13:29:07] <tonythomas> touch <filename> creates new file
+[13:29:16] <amit001> kushal, directory ?
+[13:29:23] vivk- is now known as vivek-
+[13:29:27] <vipsy> Touch creates new empty files. http://linfo.org/touch.html
+[13:29:28] <kushal> amit001, tonythomas ah,
+[13:29:32] <praveenkumar> shilpi: To change file timestamp and if file not present then create file.
+[13:29:37] <kushal> copy paste error
+[13:29:45] <deepu_tp> try `touch --help`
+[13:29:48] * kushal feels stupid 
+[13:29:50] <kushal> next
+[13:29:54] <ace139> kushal, When I am using >pushd dev for checking the ls -lR command as you said, its showing no file or directory. <eof>
+[13:30:16] <kushal> ace139, I said go to /dev directory. the command is cde
+[13:30:17] <kushal> cd
+[13:30:23] <kushal> ace139, $ cd /dev
+[13:30:25] <tonythomas> deepu_tp: I would just go for man touch
+[13:30:42] <praveenkumar> next
+[13:30:45] <Mactoc> !
+[13:30:51] <deepak_sirone> kushal, where in memory do the environment variables live?
+[13:31:11] chandan_kumar is now known as chandankumar
+[13:31:20] <kushal> deepak_sirone, inside the bash process?
+[13:31:21] <acetakwas_> I haven't been able to readup before this class..will that affect me much
+[13:31:36] <kushal> acetakwas_, you used extra dots.
+[13:31:50] <deepak_sirone> kushal, So no special location or anything?
+[13:31:58] <kushal> acetakwas_, yes, not doing homework will make you feel that you know nothing.
+[13:32:16] <kushal> deepak_sirone, nope, same as in every other program iirc
+[13:32:18] <kushal> next
+[13:32:21] <alec> what is a festival command? and y do we use it ?
+[13:32:22] <deepak_sirone> <eof>
+[13:33:12] <core_7> !
+[13:33:23] <kushal> alec, it is a command which can help you to read a file.
+[13:33:34] <kushal> text to speech
+[13:33:37] <kushal> next
+[13:33:43] <obhee> I have used that command(ls -l).What does those descriptions mean actually.? <eof>
+[13:33:48] <praveenkumar> alec: check man festival for more detail.
+[13:33:58] <acetakwas_> deepak|_sirone, check the /var directory
+[13:34:03] <chandankumar> alec, http://linux.die.net/man/1/festival for more info on festival command.
+[13:34:12] <Jupiter> alec don't use sms language
+[13:34:16] <core_7> !
+[13:34:20] <titli> obhee , it shows you all the seven attributes.
+[13:34:40] <kushal> Jupiter, nice catch.
+[13:35:13] <alec> ok thanks thanks kushal, praveenkumar and chandankumar
+[13:35:28] <obhee> Titli, Seven attributes?
+[13:35:42] <amit001> obhee, it tells you about permissions authors name date of creation etc
+[13:35:52] <alec> and ya i am sorry for that Jupiter
+[13:36:05] <titli> obhee, yeah.
+[13:36:08] <Deccan> !
+[13:36:10] <arbi007> !
+[13:36:15] <praveenkumar> next
+[13:36:36] <amit001> ls
+[13:36:40] <amit001> sorry
+[13:36:42] <obhee> Amit001,titli, yeah.got it :)
+[13:36:43] <kushal> amit001, hehe
+[13:36:52] <praveenkumar> next
+[13:36:54] <arbi007> kushal , what is the  diffrence between type and typeset command ?
+[13:38:09] <kushal> arbi007, http://www.tldp.org/LDP/abs/html/declareref.html
+[13:38:11] <kushal> next
+[13:38:33] <deepak_sirone> acetakwas_, what in the /var directory?
+[13:38:37] <Mactoc> what is the difference between cat command and less command? I mean, both are showing the contents of a file. Can you please explain?
+[13:38:42] <silentSae> even if some file does not have the permission to be executed i.e. 'x', we can still open it. How? Please explain this. <eof>
+[13:38:44] <praveenkumar> arbi007: if you use type then it will indicate how each name would be interpreted and typeset for declare variables and/or give them reference (check man type/typeset)
+[13:39:19] donniezazen_ is now known as donniezazen
+[13:39:37] <praveenkumar> Mactoc: cat will show complete file in stdout but tail will show last 10 lines by default, (check man for both commands)
+[13:39:40] <tonythomas> Mactoc: less would help you see contents of files with very large sentences. Probably, similar to word-wrapping the cat command. Long sentences get cut to new lines, so we can see full
+[13:39:47] <arbi007> praveenkumar, thank you
+[13:39:54] <chandankumar> next
+[13:40:17] * praveenkumar misreads less with tail.
+[13:40:32] <titli> !
+[13:40:37] <codaholic> !
+[13:40:49] <praveenkumar> next
+[13:41:18] soumyaC_ is now known as soumyaC
+[13:41:27] <kushal> next
+[13:41:31] <Deccan> once the path is created how can I remove the path ?
+[13:42:22] <tonythomas> silentSae:  because executing  != opening. Executing is like running a .exe file in windows, while opening like opening in a text editor
+[13:42:41] <Mactoc> Praveenkumar, tonythomas: Thank you.
+[13:42:43] <acetakwas_> deepak_sirone, I think the /var directory is for variables
+[13:42:56] <kushal> Deccan, create a new PATH variable and export it.
+[13:42:59] <kushal> acetakwas_, nope.
+[13:43:11] <deepak_sirone> acetakwas_, the /var is not for environment variables
+[13:43:12] umesh_ is now known as umeshs
+[13:43:35] <silentSae> tonythomas : ok so we cannot run a compiled c program without giving it permission to execute, right? <eof>
+[13:43:37] <praveenkumar> Deccan: how did you create path using same way don't include your_remove_path in $PATH env variable during exporting it.
+[13:43:39] <praveenkumar> next
+[13:44:17] <nmzaheer> !
+[13:45:16] <praveenkumar> silentSae: yes and by default when gcc compile C program output binary have executable permission.
+[13:45:17] <praveenkumar> next
+[13:45:18] <kushal> silentSae, correct.
+[13:45:26] <titli> Problem solved.<eof>
+[13:45:31] <praveenkumar> next
+[13:45:31] <chandankumar> next
+[13:45:35] <codaholic> Instead of Ubuntu or Fedora, can we use the PowerShell terminal of Windows for these sessions? <eof>
+[13:45:39] <deepu_tp> deepak_sirone, Refer the Filesystem Hierarchy Standard http://www.pathname.com/fhs/
+[13:45:42] <silentSae> praveen : yes I know that. Thanks <rof>
+[13:45:43] <praveenkumar> codaholic: no
+[13:45:53] <nmzaheer> Can find command be used to search inside files like grep?
+[13:45:55] <tonythomas> silentSae: running a command is = executiing and as praveenkumar says, yes
+[13:46:39] <deepu_tp> nmzaheer, no. From man page "find - search for files in a directory hierarchy"
+[13:46:40] <Deccan> Thankyou! praveenKumar and Kushal
+[13:46:43] <alec> !
+[13:46:51] <praveenkumar> next
+[13:46:53] <nmzaheer> thanks <eof>
+[13:46:55] <titli> nmzaheer, nope, grep is used for pattern matching.
+[13:46:59] <kushal> nmzaheer, we use find and grep together using pipes.
+[13:47:03] <vipsy> deepak_sirone, global environment variables are defined in /etc/profile.env but they are stored in every process memory
+[13:47:16] <kushal> next
+[13:47:22] <ruprela> !
+[13:47:25] <praveenkumar> next
+[13:47:41] <ruprela> kushal, you said using pipes..means ?
+[13:47:43] <deepak_sirone> vipsy, thanks a lot :) <eof>
+[13:48:00] <titli> !
+[13:48:06] <vipsy> deepak_sirone, you might have already read this link - https://www.linuxquestions.org/questions/linux-general-1/where-are-environment-variables-stored-382971/
+[13:48:10] <madangel> !
+[13:48:29] <kushal> ruprela, that shows you never read the book link we gave
+[13:48:30] <praveenkumar> ruprela: do a google search about pipe for linux. '|' -> is a pipe
+[13:48:32] <kushal> ruprela, http://cli.learncodethehardway.org/book/ex15.html
+[13:48:38] <praveenkumar> next
+[13:48:43] <titli> why the environment variables are stored in every process memory?
+[13:48:53] <deepak_sirone> deepu_tp, Thanks a million , I was hunting for something like this :)
+[13:48:56] <titli> I mean aren't they static?
+[13:49:00] <gnovi> !
+[13:49:06] <kushal>  titli not in every process memory but only in bash memory
+[13:49:10] <kushal> I mean
+[13:49:17] <kushal> in the bash process in the memory.
+[13:49:21] <praveenkumar> next
+[13:49:24] <kushal> titli, they are not static.
+[13:49:28] <titli> ok.<eof>
+[13:49:38] <madangel> what is pattern matching as nmzaheer said ?
+[13:49:45] <titli> kushal, ?
+[13:49:48] <kushal> madangel, read the book.
+[13:50:02] <kushal> titli, environment variables are not static.
+[13:50:06] <kushal> next
+[13:50:10] <gnovi> can a user other than root run 'unmount' command? how? <eof>
+[13:50:26] <mr1holmes> sorry to interrupt, but is there any order/list by which people are allowed to ask quetions ?
+[13:50:29] <praveenkumar> gnovi: if user have sudo permission then yes
+[13:50:40] <kushal> mr1holmes, means?
+[13:50:56] <nmzaheer> !
+[13:50:59] <praveenkumar> next
+[13:51:02] <nmzaheer> kushal, when you mean they are not static, you mean every user will have different values or the same user will have different values at different times?
+[13:51:10] <CuriousLearner> mr1holmes: No. To ask a question please type ! and wait till Batul says it's your turn.
+[13:51:25] <mr1holmes> ok
+[13:51:36] <praveenkumar> nmzaheer: Each shell session have different value of env variable.
+[13:51:44] <kushal> nmzaheer,  every single bash process will have some environment variables, they can be different.
+[13:52:07] <tonythomas> kushal: like you close the terminal, it dies, right ?
+[13:52:13] <kushal> tonythomas, yes
+[13:52:19] chiral_ is now known as sivteck
+[13:52:21] <praveenkumar> next
+[13:52:26] <nmzaheer> so two users may have the same values?
+[13:52:31] <kushal> nmzaheer, yes
+[13:52:40] <mr1holmes> !
+[13:52:43] <kushal> next
+[13:52:44] <chandankumar> next
+[13:52:44] <nmzaheer> ok <eof>
+[13:52:47] <tonythomas> nmzaheer: you can even make it permanent too http://unix.stackexchange.com/questions/117467/how-to-permanently-set-environmental-variables
+[13:53:02] <titli> kushal, if theya re using different shells then?
+[13:53:12] <mr1holmes> i have file consisting repetations of following manner or it's variantssome institute name (scattered in two or three lines)
+[13:53:12] <mr1holmes> (inst code)
+[13:53:12] <mr1holmes> some department name(scattered one or two lines)
+[13:53:12] <mr1holmes> (dep code)
+[13:53:12] <mr1holmes> some program name(scattered one or two lines)
+[13:53:13] <mr1holmes> (prog code)
+[13:53:15] <mr1holmes> what can be a good vim macro to make it something like this
+[13:53:17] <mr1holmes> all with single line
+[13:53:19] <mr1holmes> 1.inst name
+[13:53:21] <mr1holmes> 2.dep name
+[13:53:23] <mr1holmes> 3.prog name
+[13:53:25] <mr1holmes> i tried a simple macro but results were not good as some institues has names with three lines
+[13:53:27] <mr1holmes> is there something called conditional macro in vim ?
+[13:53:55] <kushal> mr1holmes, sorry but I don't know much about vim macros. never used them.
+[13:54:20] <mr1holmes> ok
+[13:54:33] <kushal> mr1holmes, there should be a channel form vim , try #vim if any.
+[13:54:44] <kushal> ask the experts there.
+[13:54:53] <kushal> Ok, I want to say a few things
+[13:54:54] <chandankumar> mr1holmes, http://vim.wikia.com/wiki/Macros
+[13:55:17] <RohanRoy> !
+[13:55:28] <kushal> We will take questions later.
+[13:55:32] <nmzaheer> tonythomas, thanks
+[13:55:43] <kushal> The participants will see that we are asking you all to read a lot of links.
+[13:55:55] <kushal> This is because of few reasons.
+[13:56:18] <RohanRoy> I'm late. what's the topic for today?
+[13:56:42] <kushal> RohanRoy, I said we will take questions later, can you please do not disturb in middle.
+[13:56:56] <kushal> 1. To make an habit of reading. Reading is important but many students these days do not read more than FB or twitter updates.
+[13:57:29] <kushal> Reading is always a great habit.
+[13:57:40] <kushal> Try to read more books(any type).
+[13:57:45] <Praveen__> this is my first class.so, can u tell me what should i do now?
+[13:58:03] <kushal> Praveen__, yes, stay silent.
+[13:58:04] <amit001> Praveen__, read :)
+[13:58:11] <kushal> amit001, you too.
+[13:58:20] <Jupiter> praveen please dont use sms language
+[13:58:20] <jaba> Praveen__: don't use sms language
+[13:58:45] <kushal> Jupiter, jaba read the lines I said above and stay silent please.
+[13:59:18] <kushal> 2. In many cases you will find there is no one to help you out other than internet.
+[13:59:36] <kushal> That case you will have to know how to search the solution for a problem
+[13:59:58] <kushal> how to tell the difference between a good answer and a bad answer.
+[14:00:13] <kushal> So again you have to read regularly to understand those.
+[14:00:40] <kushal> That is why we are trying to give you more links to read.
+[14:01:00] <kushal> Btw, also make an habit of staying online on IRC, just the way you do for FB.
+[14:01:13] <kushal> There are many channels and people discuss all kinds of things.
+[14:01:27] <kushal> Fun, work, books, movies everything.
+[14:01:46] chandan_kumar is now known as chandan|afk
+[14:01:50] chandan|afk is now known as ciypro|afk
+[14:02:10] rtnpro_w is now known as rtnpro
+[14:02:36] <kushal> Here in this channels most of us close friends
+[14:03:00] <kushal> We know each other for a long time, may be few of us never met each other face to face.
+[14:03:13] <kushal> But we are one community together.
+[14:03:28] <kushal> Coming back to the linux commands.
+[14:03:40] <umeshs> !
+[14:03:43] <kushal> We will learn about many other commands in the coming months.
+[14:03:44] <kushal> next
+[14:03:47] <kushal> next
+[14:03:59] <RohanRoy> topic for today
+[14:04:15] <umeshs> How can we get those chats which are lost because of connection loss
+[14:04:38] <kushal> umeshs, ask a friend for the log
+[14:04:44] <madangel> umeshs, http://www.dgplug.org/irclogs/
+[14:04:46] <CuriousLearner> umeshs:  Please refer to irc logs after the class.
+[14:04:47] <kushal> RohanRoy, linux command line.
+[14:04:51] <umeshs> ok <EOF>
+[14:04:57] <deepak_sirone> umeshs, http://dgplug.org/irclogs/2014/
+[14:05:05] <RohanRoy> ok<eof>
+[14:06:23] <nmzaheer> is the session over?
+[14:06:49] <CuriousLearner> nmzaheer: No.
+[14:07:00] <nmzaheer> ok
+[14:07:11] <kushal> ruprela, have you read the book link we gave?
+[14:07:19] <sagarkrkv> !
+[14:07:22] <rtnpro> nmzaheer, no
+[14:07:29] <ruprela> yes
+[14:07:44] <ruprela> the one which you gave to me just now
+[14:08:08] <kushal> someone please give ruprela the book link.
+[14:08:17] <kushal> ruprela, you have to go through all the commands.
+[14:08:27] chiral_ is now known as sivteck
+[14:08:30] <nmzaheer> ruprela, http://cli.learncodethehardway.org/book/
+[14:08:46] <CuriousLearner> ruprela: Read it : http://cli.learncodethehardway.org/book/
+[14:08:57] <EkAurBottleLa> ruprela, http://cli.learncodethehardway.org/
+[14:08:58] <ruprela> thank you
+[14:09:09] <kushal> http://dgplug.org/irclogs/kushal_fhs_class.log  finish this log along with the fhs link on the top of it for tomorrow.
+[14:09:13] <kushal> next
+[14:09:18] <sagarkrkv> can you suggest us some interesting irc channels<eof>
+[14:09:26] <kushal> sagarkrkv, #fedora
+[14:09:42] <kushal> sagarkrkv, #wikipedia
+[14:09:56] <kushal> sagarkrkv, the rest is based on what you want.
+[14:09:58] <kushal> next
+[14:10:11] <nmzaheer> !
+[14:10:16] <kushal> next
+[14:10:19] <nmzaheer> which fhs link?
+[14:10:21] chandan_kumar is now known as chandankumar
+[14:10:32] <kushal> nmzaheer, read the log, you will know
+[14:10:37] <kushal> Tomorrow's session will start at 18:30pm IST.
+[14:10:40] <nmzaheer> ok <eof>
+[14:10:41] <deepak_sirone> nmzaheer, http://www.pathname.com/fhs/
+[14:10:46] <kushal> -------SESSION ENDS------------
+[14:10:52] <kushal> endclass
+[14:10:52] [## Class Ended at Tue Jul  1 14:10:52 2014 ##]

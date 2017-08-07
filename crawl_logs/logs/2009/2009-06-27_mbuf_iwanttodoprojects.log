@@ -1,0 +1,609 @@
+Jun 27 19:02:30 <kushal>	----- Session starts ----
+Jun 27 19:02:37 <kushal>	RollColl please 
+Jun 27 19:02:56 <SkyRocknRoll>	Yes
+Jun 27 19:03:05 <mbuf>	kushal: or just not on time
+Jun 27 19:03:09 <mbuf>	SkyRocknRoll: say your name
+Jun 27 19:03:22 *	priya (n=priya@59.180.135.128) has joined #dgplug
+Jun 27 19:03:23 <SkyRocknRoll>	mbuf: My Name is YUVARAJ
+Jun 27 19:04:19 <priya>	priya
+Jun 27 19:05:31 <mbuf>	kushal: i guess, people don't know what a roll call is?
+Jun 27 19:05:57 <kushal>	mbuf, we did roll call last night only 
+Jun 27 19:06:06 <mbuf>	kushal: ok
+Jun 27 19:06:10 <kushal>	people when we say roll call, say your name 
+Jun 27 19:06:12 <kushal>	like
+Jun 27 19:06:14 <kushal>	Kushal Das
+Jun 27 19:06:20 <SkyRocknRoll>	Yuvaraj
+Jun 27 19:06:31 <SkyRocknRoll>	like this too
+Jun 27 19:06:36 <mbuf>	ok let us begin
+Jun 27 19:06:42 <SkyRocknRoll>	yes
+Jun 27 19:07:10 <sumitc>	Sumit Chakraborty
+Jun 27 19:07:13 <mbuf>	please download the presentation from: http://shakthimaan.com/downloads/glv/presentations/i-want-2-do-project-tell-me-wat-2-do-fedora.pdf
+Jun 27 19:07:41 <mbuf>	if not done already; this presentation has been revised many a time, so I am going to go through this again
+Jun 27 19:07:54 <SkyRocknRoll>	done
+Jun 27 19:08:08 <mbuf>	also the chat logs will be useful for reference; if you want to ask a question, please type ! and I shall then prompt you to shoot a question
+Jun 27 19:08:18 <mbuf>	please don't type any messages in the channel, otherwise;
+Jun 27 19:08:38 <mbuf>	--> #n, means slide number 'n'
+Jun 27 19:08:53 <mbuf>	--> #1
+Jun 27 19:09:15 <mbuf>	this has been updated for Fedora, and it actually contains four presentation put together
+Jun 27 19:09:25 <mbuf>	--> #2
+Jun 27 19:09:38 <mbuf>	Please read;
+Jun 27 19:10:06 <mbuf>	These are my views based on my experience; you are welcome to agree to disagree with me, if you like;
+Jun 27 19:10:24 <mbuf>	You are also welcome to re-use, redistribute the presentation giving credit to my work;
+Jun 27 19:10:28 <parthachowdhury>	partha chowdhury
+Jun 27 19:10:50 <mbuf>	--> #3
+Jun 27 19:11:02 <mbuf>	--> #4
+Jun 27 19:11:16 <mbuf>	In the Industry and in geneal, we always address people by their first name;
+Jun 27 19:11:31 <mbuf>	don't say 'Sir', 'Madam' etc.
+Jun 27 19:11:36 <mbuf>	*general
+Jun 27 19:12:00 <mbuf>	you can address me by my nickname in the IRC channel, otherwise, you address me as Shakthi;
+Jun 27 19:12:15 <mbuf>	in written and spoken forms;
+Jun 27 19:12:25 <mbuf>	--> #5
+Jun 27 19:12:56 <mbuf>	In the Free Software community, you will meet people from different backgrounds, cultures who have different views; so it is important to not take things very personal;
+Jun 27 19:13:27 <mbuf>	you are welcome to agree to disagree with different points of view, but, you should try to avoid any conflicts or arguments;
+Jun 27 19:14:02 <mbuf>	--> #6
+Jun 27 19:14:29 <mbuf>	you should always do something because you 'want' or you have a 'need' to do it
+Jun 27 19:14:47 <mbuf>	you should never do things that are 'forced' to you; because, you will never do things well if it is 'forced' on to you;
+Jun 27 19:15:01 *	Kkhushi (n=khushbu@59.180.157.115) has joined #dgplug
+Jun 27 19:15:06 <mbuf>	always remember this;
+Jun 27 19:15:18 <priya>	ok
+Jun 27 19:15:28 <sumitc>	!
+Jun 27 19:15:33 <mbuf>	priya: if you want to reply or ask a question, please use !
+Jun 27 19:15:35 <mbuf>	sumitc: shoot
+Jun 27 19:16:06 *	koyel_ (n=koyel@117.201.96.61) has joined #dgplug
+Jun 27 19:16:07 <sumitc>	sometimes we *need* to do things that we do not want to, what should we do then?
+Jun 27 19:16:31 *	koyel_ has quit (Client Quit)
+Jun 27 19:16:53 *	koyel_ (n=koyel@117.201.96.61) has joined #dgplug
+Jun 27 19:16:57 <mbuf>	sumitc: you could take it up as a challenge making it a necessity for you, or, don't do it because you feel you are being forced to do it;
+Jun 27 19:17:18 <sumitc>	ok
+Jun 27 19:17:20 <sumitc>	eof
+Jun 27 19:17:23 <mbuf>	sumitc: either 'need' overrides the 'force', or 'force' doesn't let you do things that you don't want
+Jun 27 19:17:48 <sumitc>	yes, in the end I have to prioritise i think
+Jun 27 19:18:11 <mbuf>	sumitc: priority comes for your *need* tasks;
+Jun 27 19:18:23 <mbuf>	sumitc: i wouldn't recommend doing anything that is forced on to you or others;
+Jun 27 19:18:51 <sumitc>	tuxmaniac, what I meant was I have to prioritise my need vs. my liking
+Jun 27 19:18:59 <spechard>	!
+Jun 27 19:19:03 <sumitc>	need vs will
+Jun 27 19:19:14 <mbuf>	sumitc: I would put liking as a subset of need;
+Jun 27 19:19:19 <mbuf>	spechard: shoot!
+Jun 27 19:19:30 <spechard>	i have an interesting link about this, maybe to read after class: http://whatconsumesme.com/2009/what-im-writing/how-to-be-happy-in-business-venn-diagram/
+Jun 27 19:19:34 <mbuf>	sumitc: want and need can be used together;
+Jun 27 19:19:43 <spechard>	it is not a question actually :-) <EOF>
+Jun 27 19:19:53 <mbuf>	spechard: thanks!
+Jun 27 19:20:06 <sumitc>	tuxmaniac, but that doesnot always happen in life
+Jun 27 19:20:27 <mbuf>	a good example is that I find students in India doing Java because they *think* they will get a job, and not because they want or love Java;
+Jun 27 19:20:38 *	koyel_ has quit (Client Quit)
+Jun 27 19:20:43 <sumitc>	tuxmaniac, exactly my point
+Jun 27 19:20:48 <tuxmaniac>	sorry for the disturbance. Why are you addressing stuff to me?
+Jun 27 19:20:52 <tuxmaniac>	sumitc: ^
+Jun 27 19:20:59 <mbuf>	in the end they force themselves to do Java, rather than finding a need or desire to experiment with Java;
+Jun 27 19:21:08 <sumitc>	tuxmaniac, sorry, that was for mbuf
+Jun 27 19:21:44 <sumitc>	mbuf, colleges in India force students to go through outdated ideas
+Jun 27 19:21:52 <sumitc>	mbuf, often against their wishes
+Jun 27 19:21:54 <parthachowdhury>	!
+Jun 27 19:22:02 <sumitc>	mbuf, and often unnecessary
+Jun 27 19:22:04 <SkyRocknRoll>	sumitc: i agree with you fully
+Jun 27 19:22:30 <mbuf>	sumitc: sure, one can do that for the sake of the college; but one should also do things that are necessary to become an engineer;
+Jun 27 19:22:34 <mbuf>	parthachowdhury: shoot
+Jun 27 19:22:55 <mbuf>	sumitc: vomiting in exam or mugging up for the college is not the answer or the methodology of learning;
+Jun 27 19:23:01 <parthachowdhury>	what do we need to prioritise ?
+Jun 27 19:23:11 <mbuf>	sumitc: one has to understand the basics and represent that in a nice manner in the exam;
+Jun 27 19:23:27 <mbuf>	parthachowdhury: prioritize your day-to-day tasks;
+Jun 27 19:23:42 <parthachowdhury>	our need to learn java or our passion to learn oss technology ?
+Jun 27 19:23:46 <mbuf>	sumitc: last minute studying, going through last few years exam papers is not the answer, I am afraid;
+Jun 27 19:24:11 <mbuf>	parthachowdhury: Java is OSS;
+Jun 27 19:24:23 <sumitc>	mbuf, absolutely correct. But the examiners themselves often depend on rote learning while examining papers. They never say, " read the basics". They say," Go through my note and mug every point"
+Jun 27 19:24:37 <parthachowdhury>	!
+Jun 27 19:25:11 <mbuf>	sumitc: I am sorry to quote 'me' as an example, but, I never studied before the exams, and I still got good grades;
+Jun 27 19:25:40 <mbuf>	sumitc: I only presented content in a presentable manner in the paper, and that was good enough;
+Jun 27 19:25:42 <mbuf>	parthachowdhury: shoot!
+Jun 27 19:25:54 <mbuf>	sumitc: people who follow that are fooling themselves;
+Jun 27 19:26:09 <mbuf>	sumitc: Ohh! I was University 3rd rank, if I can say that;
+Jun 27 19:26:16 <parthachowdhury>	form a careeristic viewpoint what should we be doing at this stage in our life ?
+Jun 27 19:26:19 <parthachowdhury>	*from
+Jun 27 19:26:26 <mbuf>	parthachowdhury: I
+Jun 27 19:26:33 <mbuf>	parthachowdhury: I'll come to that;
+Jun 27 19:26:38 <mbuf>	--> #7
+Jun 27 19:26:45 <parthachowdhury>	yes..sorry for the typo
+Jun 27 19:26:54 <sumitc>	mbuf, that is good to hear. But most of the times I see my fellow students mugging up before the exam and score well even though most of them do not have any inkling about the content they are mugging
+Jun 27 19:27:09 <mbuf>	sumitc: sad state, but true!
+Jun 27 19:27:10 *	kopecks889 (n=koyel@117.201.96.61) has joined #dgplug
+Jun 27 19:27:17 *	kopecks889 has quit (Client Quit)
+Jun 27 19:27:25 <mbuf>	as a budding 'engineer' one must have the curiosity to experiment and learn new things
+Jun 27 19:27:53 <mbuf>	most of the time students come to engineering because their parents forced them to hoping that their life is good; but, people who pay money to join such programs are not interested, but, do it just for the degree
+Jun 27 19:28:11 <mbuf>	so they obviously have no interest and only use it as a time-pass; it doesn't help them or the faculty either;
+Jun 27 19:28:16 <sumitc>	the biggest problem is the lack of curiosity for more knowledge
+Jun 27 19:28:46 <SkyRocknRoll>	sumitc: and also the lazy proffessors
+Jun 27 19:28:49 <mbuf>	sumitc: that is where Free Software user groups can help; Industry exposure can also trigger people on what 'state' they are in; competition helps :)
+Jun 27 19:28:49 *	kopecks-89 (n=koyel@117.201.96.61) has joined #dgplug
+Jun 27 19:28:54 <parthachowdhury>	sumitc: please follow online etiquette
+Jun 27 19:29:03 <mbuf>	SkyRocknRoll: that is the mistake that students make as well!
+Jun 27 19:29:08 <parthachowdhury>	don't but in between
+Jun 27 19:29:26 <mbuf>	SkyRocknRoll: blaming faculty, management is an excuse by students; even that is not going to help you or others becoming an engineer;
+Jun 27 19:29:47 <mbuf>	SkyRocknRoll: self-study is the best form of learning IMO, along with the help of user groups;
+Jun 27 19:29:50 <sumitc>	parthachowdhury, I thought I was having a discussion with mbuf, maybe I missed something
+Jun 27 19:30:21 <parthachowdhury>	ok ..sorry for that
+Jun 27 19:30:42 <mbuf>	as much as one hunger for food, one must also have hunger to seek out for information, which includes using search engines, reading different books, online HOWTOs, talking to Free Software people, going through manuals;
+Jun 27 19:30:46 *	Kkhushi1 (n=khushbu@59.180.154.81) has joined #dgplug
+Jun 27 19:31:17 <mbuf>	no faculty/management is stopping a student from doing his/her work with Free Software; I fail to buy the excuse from students;
+Jun 27 19:31:25 <mbuf>	--> #8
+Jun 27 19:31:41 <mbuf>	So, just because you have a degree doesn't make you an engineer;
+Jun 27 19:31:47 <SkyRocknRoll>	mbuf: yes but they can play really a good role in students life.. if they follow a professors etiquette it will be really nice . I learned all through sself learning with the help of internet
+Jun 27 19:31:56 <mbuf>	Students in India are always on top of the world, they think they know everything, but, they seldom know anything!
+Jun 27 19:32:11 <mbuf>	SkyRocknRoll: if you want to type something or ask something, type !
+Jun 27 19:32:19 <mbuf>	SkyRocknRoll: I will then ask you to reply, please don't interrupt otherwise!
+Jun 27 19:32:23 <SkyRocknRoll>	mbuf: sorry
+Jun 27 19:32:50 <mbuf>	SkyRocknRoll: wrong! at your age, expecting a professor to spoonfeed students is a shame! Does someone spoonfeed food to you at this age?
+Jun 27 19:33:07 <SkyRocknRoll>	mbuf: !
+Jun 27 19:33:13 <parthachowdhury>	!
+Jun 27 19:33:17 <mbuf>	SkyRocknRoll: since, I asked you a question, please reply
+Jun 27 19:33:19 <mbuf>	parthachowdhury: wait!
+Jun 27 19:33:37 <mbuf>	SkyRocknRoll: when you are hungry does food come directly to your mouth, or do you take food and eat?
+Jun 27 19:33:42 <SkyRocknRoll>	mbuf: there are many colleges in india which donot have adequate infrastructure like internet
+Jun 27 19:33:49 <mbuf>	SkyRocknRoll: answer my question, please
+Jun 27 19:34:01 <SkyRocknRoll>	mbuf: no
+Jun 27 19:34:11 <mbuf>	SkyRocknRoll: you take the plate, put food and eat, right?
+Jun 27 19:34:14 <SkyRocknRoll>	mbuf: yes for 2nd question
+Jun 27 19:34:24 <mbuf>	SkyRocknRoll: so when you have hunger for food, why not hunger for knowledge?
+Jun 27 19:34:46 <mbuf>	SkyRocknRoll: I am afraid knowledge doesn't come to you and people in India (most of them) have a wrong notion of it that they can buy a degree;
+Jun 27 19:35:05 <mbuf>	SkyRocknRoll: there are numerous training institutes in this country, that are mere money making houses;
+Jun 27 19:35:17 <mbuf>	SkyRocknRoll: there are few exceptions too;
+Jun 27 19:35:36 <SkyRocknRoll>	mbuf: hmmm yes i am a victim of one of those :(
+Jun 27 19:35:45 <mbuf>	at this age, if you (and others' like you) expect to come a teach you something, it is a disgrace and shame
+Jun 27 19:36:00 <mbuf>	what is required is only guidance and not spoonfeeding
+Jun 27 19:36:00 *	kopecks (n=koyel@117.201.99.201) has joined #dgplug
+Jun 27 19:36:06 <mbuf>	there is a big difference between the two;
+Jun 27 19:36:20 <mbuf>	SkyRocknRoll: type ! please!
+Jun 27 19:36:27 <mbuf>	SkyRocknRoll: if you want to talk!
+Jun 27 19:36:44 <SkyRocknRoll>	mbuf: i thought u r talking with me
+Jun 27 19:36:53 <SkyRocknRoll>	mbuf:  so i replied
+Jun 27 19:37:01 <mbuf>	SkyRocknRoll: ok
+Jun 27 19:37:13 *	parthachowdhury has quit ("WeeChat 0.2.6.2")
+Jun 27 19:37:17 <mbuf>	there are no shortcuts in life, and if students felt that they can get a job because they got a certificate, they are doomed for sure
+Jun 27 19:37:40 <mbuf>	because they will not know what to do in the job, if the certification doesnt' test the skills properly, and most of the time it has been the case;
+Jun 27 19:38:10 <mbuf>	the first thing for students (in India0 to realize is that they are nowheree students from other countries, who are far better in their hands-on computer experience;
+Jun 27 19:38:18 <mbuf>	*(in India);
+Jun 27 19:38:36 <mbuf>	there are very few exceptional students, which is only < 5% of the entire class;
+Jun 27 19:38:42 *	parthachowdhury (n=parthach@59.93.247.162) has joined #dgplug
+Jun 27 19:38:57 <mbuf>	I find students in India only boasting, but, they lack any practical experience;
+Jun 27 19:39:13 <mbuf>	boasting that they know this, that, and everything, but, then you ask a few questions, they are clueless!
+Jun 27 19:39:25 <mbuf>	--> #9
+Jun 27 19:39:36 <mbuf>	Reading habit is very important;
+Jun 27 19:39:52 *	parthachowdhury has quit (Client Quit)
+Jun 27 19:39:55 <mbuf>	in Free Software, one has to read lot of IRC, mailing list discussions; online HOWTOs, manuals et. al.
+Jun 27 19:40:22 *	parthachowdhury (n=parthach@59.93.247.162) has joined #dgplug
+Jun 27 19:40:29 <mbuf>	it is a means of gaining knowledge;
+Jun 27 19:40:35 <mbuf>	--> #10
+Jun 27 19:41:01 <mbuf>	--> #11
+Jun 27 19:41:12 <mbuf>	Always make sure you use a meaningful subject line;
+Jun 27 19:41:23 *	zer0c00l (n=zer0c00l@117.199.135.104) has joined #dgplug
+Jun 27 19:41:28 <mbuf>	Don't write like "Urgent", "I want help"
+Jun 27 19:41:54 <mbuf>	Use [OT] for off-topic discussions; use [Commercial] for job postings
+Jun 27 19:42:01 <mbuf>	--> #12
+Jun 27 19:42:10 *	akuscifi007 (n=akuscifi@122.162.81.208) has joined #dgplug
+Jun 27 19:42:17 <mbuf>	this yet another common use from students in India;
+Jun 27 19:42:27 <mbuf>	SMS is the worst form of communication (except when using SMS)
+Jun 27 19:42:38 <mbuf>	don't use it anywhere else; it is considered very unprofessional;
+Jun 27 19:43:06 <mbuf>	even on IRC, type as in full; grammar doesn't matter (our native language is not English); but, atleast use a spell checker
+Jun 27 19:43:15 <mbuf>	--> #13
+Jun 27 19:43:29 <mbuf>	The sentence is not grammatically correct, but, it is readable;
+Jun 27 19:43:37 <mbuf>	--> #14
+Jun 27 19:43:58 <mbuf>	This is yet another mistakes that students (in India) make;
+Jun 27 19:44:13 <mbuf>	always end a sentence with a full-stop. Start a new sentence with a capital letter.
+Jun 27 19:44:32 <mbuf>	While chatting I use semi-colon as a delimiter; comes from C and Perl :p
+Jun 27 19:44:41 <mbuf>	--> #15
+Jun 27 19:44:54 <mbuf>	Much better.
+Jun 27 19:45:00 <mbuf>	--> #16
+Jun 27 19:45:16 <mbuf>	Typing in capital letter means one is shouting.
+Jun 27 19:45:25 <mbuf>	Acronyms are fine, but, avoid otherwise;
+Jun 27 19:45:27 *	Kkhushi has quit (Read error: 110 (Connection timed out))
+Jun 27 19:45:34 <mbuf>	--> #17
+Jun 27 19:45:46 <mbuf>	There has always been a debate between top-posting and bottom-posting
+Jun 27 19:46:03 <mbuf>	Since mailing list discussions are archived, one should never write above the previous reply.
+Jun 27 19:46:13 <mbuf>	--> #18
+Jun 27 19:46:18 <mbuf>	Always use interleaved, trimmed, bottom posting
+Jun 27 19:46:28 <mbuf>	Trim content that is relevant, and reply below
+Jun 27 19:46:44 <mbuf>	Just like in exams, you reply below the question and not above the question :)
+Jun 27 19:46:57 <mbuf>	You can try replying above the question if you want to (for a change) :p
+Jun 27 19:47:04 <mbuf>	--> #19
+Jun 27 19:47:23 <mbuf>	When the discussions become long, you should again trim it and not keep quoting all the previous replies; it becomes ugly
+Jun 27 19:47:40 <mbuf>	--> #20
+Jun 27 19:48:01 <mbuf>	not everyone in this world is on broadband; so please don't send fancy HTML e-mails
+Jun 27 19:48:12 <mbuf>	no red, blue, yellow colour, with italics style font;
+Jun 27 19:48:20 <mbuf>	always use simple, plain ASCII text;
+Jun 27 19:48:27 <mbuf>	what is important is your message is conveyed;
+Jun 27 19:48:38 <mbuf>	--> #21
+Jun 27 19:48:59 <mbuf>	Again, as there are still dial-up users, it is important not to send huge attachments to mailing lists;
+Jun 27 19:49:14 <mbuf>	patch of code is acceptable; but, not forwards, pictures;
+Jun 27 19:49:46 <mbuf>	--> #22
+Jun 27 19:50:33 *	kopecks-89 has quit (Read error: 110 (Connection timed out))
+Jun 27 19:50:34 <mbuf>	Don't blindly give your username and passwords of your e-mail accounts to social networking websites, else they will use that to check all your friends' e-mail addresses and the groups you belong to and send an invite to all
+Jun 27 19:50:50 <mbuf>	there were students who asked me how can they do it? people are such ignorant!
+Jun 27 19:50:59 <mbuf>	or use a different e-mail address for mailing lists;
+Jun 27 19:51:07 <mbuf>	--> #23
+Jun 27 19:51:25 <mbuf>	Some companies attach disclaimers for every e-mail sent from your company account;
+Jun 27 19:51:49 <mbuf>	the disclaimer contents are against the philosophy, objectives of Free Software of knowledge sharing;
+Jun 27 19:52:06 <mbuf>	don't use company account for such mailing list discussions;
+Jun 27 19:52:23 <mbuf>	if public e-mail accounts are disabled through corporate network, that is your problem;
+Jun 27 19:52:30 <mbuf>	--> #24
+Jun 27 19:52:48 <mbuf>	People who are on dial-up sometimes subscribe in digest mode, where they receive e-mail once a week or so;
+Jun 27 19:53:10 <mbuf>	such people when they want to reply to a topic, they blindly hit 'reply' and post their message; for them the subject line has the digest details as shown
+Jun 27 19:53:23 <mbuf>	but, others who receive e-mails as and when it arrives will make no sense of it!
+Jun 27 19:53:41 <mbuf>	so if you are not sure how to use digest mode, don't use it! or if you reply, change the subject line and quote whatever is relevant
+Jun 27 19:53:52 <mbuf>	--> #25
+Jun 27 19:54:22 <mbuf>	This guy has replied few lines and has left a big list of trailing messages; Urgh!
+Jun 27 19:54:25 <mbuf>	--> #26
+Jun 27 19:54:28 <mbuf>	--> #27
+Jun 27 19:54:32 <mbuf>	--> #28
+Jun 27 19:54:36 <mbuf>	--> #29
+Jun 27 19:54:40 <mbuf>	--> 30
+Jun 27 19:54:44 <mbuf>	--> #31
+Jun 27 19:54:49 <mbuf>	--> #32
+Jun 27 19:55:05 <mbuf>	all these in one e-mail! Erase the irrelevant text or don't use digest mode!
+Jun 27 19:55:12 <mbuf>	--> #33
+Jun 27 19:55:36 <mbuf>	Mailing list discussions are archived, so you can always refer to them later;
+Jun 27 19:55:46 <mbuf>	so think twice before hitting the 'send' reply;
+Jun 27 19:56:03 <mbuf>	*hitting the 'send' button;
+Jun 27 19:56:09 <mbuf>	--> #34
+Jun 27 19:56:16 <mbuf>	Some mailing list references that you can look at later;
+Jun 27 19:56:35 <mbuf>	try to use words like 'please', 'thank you' often; even saying 'sorry' is ok;
+Jun 27 19:56:57 <mbuf>	--> #35
+Jun 27 19:57:21 <mbuf>	before you decide to work on some task/project, it is good to write about your skills, any area or domain expertise, timelines, and about yourself
+Jun 27 19:57:38 <mbuf>	there is more to the community than just manual tasks; there is a social element also;
+Jun 27 19:57:44 <mbuf>	--> #36
+Jun 27 19:58:10 <mbuf>	Please don't make orders like these; the later being the inspiration for this presentation;
+Jun 27 19:58:17 <mbuf>	--> #37
+Jun 27 19:58:42 <mbuf>	as mentioned earlier you shouldn't do things because it is forced on to you;
+Jun 27 19:58:58 <mbuf>	you should do things because you 'want' to do it, or you feel there is a 'need' to do it
+Jun 27 19:59:20 <mbuf>	if you do a Final year (engineering) project without interest, it is a waste of time for you and your mentor
+Jun 27 19:59:27 <mbuf>	--> #38
+Jun 27 19:59:57 <mbuf>	having detailed discussion with mentor(s) is always good before you start; it could be how you want to work, or what difficulties you feel you will face
+Jun 27 20:00:01 <mbuf>	or any issues that you might have;
+Jun 27 20:00:25 <mbuf>	being open and honest is a good characteristic of an individual;
+Jun 27 20:00:36 <mbuf>	--> #39
+Jun 27 20:00:59 <mbuf>	this is one of those important soft skills
+Jun 27 20:01:05 <mbuf>	--> #40
+Jun 27 20:01:20 <mbuf>	--> #41
+Jun 27 20:01:49 <mbuf>	If I typed in a language that you all don't know this conversation would have been over long time back;
+Jun 27 20:02:19 <mbuf>	it is every important that we converse in a language that others' are comfortable with; if everyone else in the team are comfortable in a regional language, you are welcome to use it;
+Jun 27 20:02:26 <mbuf>	--> #42
+Jun 27 20:02:54 <mbuf>	you should choose a programming language that helps you solve an appropriate problem for a project or problem domain
+Jun 27 20:03:15 <mbuf>	you should _never_ do a project because you know a particular programming language
+Jun 27 20:03:41 <mbuf>	most students (in India) have the wrong approach, IMO; they will always do a project in the language they know;
+Jun 27 20:04:02 <mbuf>	I am sorry to keep quoting 'students (in India)', but, that has been my experience;
+Jun 27 20:04:27 <mbuf>	a good programmer will learn any new language in few days time, and gain experience with projects
+Jun 27 20:04:39 <mbuf>	it is good to be a jack of all languages and a master of one;
+Jun 27 20:04:54 <mbuf>	it is _not_ good to be a jack of one, and calling oneself the 'master' of one;
+Jun 27 20:05:24 <mbuf>	also, choice of language is determined by customer requirements;
+Jun 27 20:05:38 <mbuf>	you could still recommend one, but, customer or your immediate client decides for you;
+Jun 27 20:05:51 <mbuf>	you never ever choose a project after you have chosen a programming language;
+Jun 27 20:05:57 <mbuf>	--> #43
+Jun 27 20:06:32 <mbuf>	because we have people from different backgrounds, and on different timezones it is important to ues the right communication tool for the right job at the right time with the right people
+Jun 27 20:06:40 <mbuf>	we shall go through these tools
+Jun 27 20:06:45 <mbuf>	--> #44
+Jun 27 20:06:54 <mbuf>	here is a small list;
+Jun 27 20:07:17 <mbuf>	Blogs are part of the Free Software culture; everyone should have a blog and post their updates or whatever they are working with;
+Jun 27 20:07:29 <mbuf>	we will go through these;
+Jun 27 20:07:36 <mbuf>	--> #45
+Jun 27 20:07:59 <mbuf>	search engines also return postings from blogs;
+Jun 27 20:08:15 <mbuf>	it gives an idea of what a person has been working or his/her views;
+Jun 27 20:08:32 <mbuf>	Planet is a collection of all our blogs;
+Jun 27 20:08:43 <mbuf>	RSS, Atom are the protocol formats;
+Jun 27 20:08:47 <mbuf>	--> #46
+Jun 27 20:09:01 <mbuf>	E-mail is useful for communication, and we all use it;
+Jun 27 20:09:07 <mbuf>	just follow the mailing list guidelines when you post;
+Jun 27 20:09:16 <mbuf>	--> #47
+Jun 27 20:09:41 <mbuf>	when someone asks you a question and if you don't reply, it generally means you are not interested in responding immediately or you don't care;
+Jun 27 20:09:53 <mbuf>	if you are away, you should mark your status as away;
+Jun 27 20:10:08 <mbuf>	hence, communication should be very clear and prompt;
+Jun 27 20:10:15 <mbuf>	--> #48
+Jun 27 20:10:29 *	h3x (n=sumit@125.20.11.34) has joined #dgplug
+Jun 27 20:10:39 <mbuf>	If you have any problems or issues, you should raise the issue immediately to the group or to your team;
+Jun 27 20:10:55 <mbuf>	it is easier to escalate things early and fix things, rather than do last minute work;
+Jun 27 20:11:23 <mbuf>	procrastination is evil; always try to finish things today; don't postpone work;
+Jun 27 20:11:32 <mbuf>	if you finish things today, you can take more work tomorrow;
+Jun 27 20:11:33 <kopecks>	mbuf how am i to know who my mentor will be if in case im willing to talk over a project idea?
+Jun 27 20:11:46 <mbuf>	kopecks: if you want to talk, type !
+Jun 27 20:11:54 <kopecks>	sorry
+Jun 27 20:12:00 <mbuf>	kopecks: and I will prompt you to ask a question;
+Jun 27 20:12:01 *	akuscifi007 has quit (Read error: 104 (Connection reset by peer))
+Jun 27 20:12:16 *	akuscifi007 (n=akuscifi@122.162.81.208) has joined #dgplug
+Jun 27 20:12:24 <kopecks>	i just wanted to know how am i to be sure who my mentor will be?
+Jun 27 20:12:27 <mbuf>	kopecks: you need to talk to the project team members on who is interested in mentoring you
+Jun 27 20:12:42 <mbuf>	kopecks: it is pretty straight-forward;
+Jun 27 20:12:50 <kopecks>	okay.i get it
+Jun 27 20:12:55 <kopecks>	thanks
+Jun 27 20:12:56 <mbuf>	--> #49
+Jun 27 20:13:10 <mbuf>	forums are also available for people who like the Web interface;
+Jun 27 20:13:25 <mbuf>	--> #50
+Jun 27 20:13:26 *	akuscifi007 has quit (Read error: 54 (Connection reset by peer))
+Jun 27 20:13:54 *	akuscifi007 (n=akuscifi@122.162.81.208) has joined #dgplug
+Jun 27 20:14:06 <mbuf>	Mailing lists, you already use; there can be mailing list for user groups, projects etc.
+Jun 27 20:14:12 <mbuf>	--> #51
+Jun 27 20:14:24 <mbuf>	You are already using IRC;
+Jun 27 20:14:35 <mbuf>	sometimes just listening on the discussion can be useful on IRC;
+Jun 27 20:14:48 <mbuf>	make good friends on IRC; you never know who will be helpful when you really need it;
+Jun 27 20:14:54 <mbuf>	--> #52
+Jun 27 20:15:05 <mbuf>	this is X-Chat screenshot; use the one you like;
+Jun 27 20:15:21 <mbuf>	multi-tasking on different channels can be difficult first, but, you will get used to it;
+Jun 27 20:15:28 <mbuf>	always try to hang in the channel whenever you are online;
+Jun 27 20:15:36 <mbuf>	--> #53
+Jun 27 20:15:46 <mbuf>	Instant Messenger chats are also available;
+Jun 27 20:15:58 <mbuf>	You can do private chatting with these and on IRC;
+Jun 27 20:16:04 <mbuf>	use the one that your project uses;
+Jun 27 20:16:10 <mbuf>	--> #54
+Jun 27 20:16:22 <mbuf>	Voice chat is good if you have important things to discuss;
+Jun 27 20:16:34 <mbuf>	things that are critical or need immediate attention;
+Jun 27 20:16:40 <mbuf>	but, avoid as much as possible;
+Jun 27 20:16:48 <mbuf>	this might be difficult if team members are in different timezones;
+Jun 27 20:16:56 <mbuf>	--> #55
+Jun 27 20:17:05 <mbuf>	wikis are good for documentation and sharing content;
+Jun 27 20:17:19 <mbuf>	you should always learn to use one;
+Jun 27 20:17:26 <mbuf>	--> #56
+Jun 27 20:17:46 <mbuf>	so, even when we are distributed, we use the different tools for different reasons, and still work together in a project;
+Jun 27 20:17:56 <mbuf>	it is important to learn to use these tools for effective project work;
+Jun 27 20:18:04 <mbuf>	I have emphasized this a lot :)
+Jun 27 20:18:10 <mbuf>	--> #57
+Jun 27 20:18:31 <mbuf>	So, before you ask a question, 'do some homework' -- meaning try to find soe answers on your own through these tools
+Jun 27 20:18:47 <mbuf>	that is the curiosity to find answers, than expect someone to provide the answer to you
+Jun 27 20:18:58 <mbuf>	--> #58
+Jun 27 20:19:23 <mbuf>	In the Industry we generally use English as a means of communication;
+Jun 27 20:19:41 <mbuf>	what is important is only reading and comprehension in English;
+Jun 27 20:19:58 <mbuf>	I don't care about your written and spoken;
+Jun 27 20:20:12 <mbuf>	but written -- don't use SMS, use a spell-check; grammar doesn't matter
+Jun 27 20:20:31 <mbuf>	the reason being that there are lot of technical manuals that are written in English;
+Jun 27 20:20:48 <mbuf>	there are HOWTOs, and lot of translation done in regional languges, but, that is mostly in countries in Europe;
+Jun 27 20:21:04 <mbuf>	atleast, what I have seen;
+Jun 27 20:21:08 <mbuf>	--> #59
+Jun 27 20:21:27 <mbuf>	Reading habit is important; by comprehension I mean that you should be able to read a paragraph and understand what it says;
+Jun 27 20:21:36 <mbuf>	you can improve this by reading newspapers;
+Jun 27 20:21:47 <mbuf>	written and spoken are of least priority;
+Jun 27 20:21:53 <mbuf>	--> #60
+Jun 27 20:22:03 <mbuf>	It is good to have weekend discussions with mentors or team members;
+Jun 27 20:22:18 <mbuf>	if you put it in your blog, your team members can see it whenever they have the time
+Jun 27 20:22:26 <mbuf>	otherwise, discussions on IRC are fine;
+Jun 27 20:22:31 <mbuf>	--> #61
+Jun 27 20:22:44 <mbuf>	but, you shouldn't ping members or mentors who are at work during weekdays;
+Jun 27 20:22:54 <mbuf>	if they are free, you can ping them for a discussion; otherwise, don't
+Jun 27 20:23:06 <mbuf>	you can send e-mail, or update your blog, or update a wiki page;
+Jun 27 20:23:13 <mbuf>	that is why we have different tools;
+Jun 27 20:23:21 <mbuf>	--> #62
+Jun 27 20:23:39 <mbuf>	whenever you have a problem, try to give detailed reports of your problem;
+Jun 27 20:24:05 <mbuf>	writing a bug report is an art! it is good to provide explanation on what you did, how you did it; paste output of error or log messages
+Jun 27 20:24:16 <mbuf>	you can even give screenshots;
+Jun 27 20:24:25 <mbuf>	it must be as detailed that anyone should be able to reproduce your problem;
+Jun 27 20:24:32 <mbuf>	--> #63
+Jun 27 20:24:34 <parthachowdhury>	!
+Jun 27 20:24:39 <mbuf>	parthachowdhury: shoot!
+Jun 27 20:24:48 *	sa111 (i=3b601631@gateway/web/freenode/x-786230b53a12a933) has joined #dgplug
+Jun 27 20:25:00 <parthachowdhury>	i think taking a session on filing bug report is good
+Jun 27 20:25:07 <parthachowdhury>	*would be
+Jun 27 20:25:21 <mbuf>	parthachowdhury: yes, that has been proposed earlier; we can look into it;
+Jun 27 20:25:45 <kopecks>	!
+Jun 27 20:25:50 <mbuf>	kopecks: yes
+Jun 27 20:26:15 <kopecks>	how about a thought on LIRC-linux infrared remote control?
+Jun 27 20:26:26 <mbuf>	kopecks: what about that?
+Jun 27 20:27:09 <kopecks>	i went through a site maintained by redhat where it was speaking of such a concern
+Jun 27 20:27:16 <mbuf>	kopecks: that is off-topic to the discussion we are having; we can discuss that later;
+Jun 27 20:27:25 <kopecks>	wanting to upload suchlike driver in the linux kernel
+Jun 27 20:27:34 <kopecks>	okay thanks
+Jun 27 20:27:48 <mbuf>	kopecks: no, that is off-topic to the discussion; only ask questions relevant questions;
+Jun 27 20:28:02 <mbuf>	On slide #63
+Jun 27 20:28:03 <kopecks>	yes ill do so next time
+Jun 27 20:28:10 <mbuf>	Time is precious;
+Jun 27 20:28:33 <mbuf>	everything in this world runs on time, except in India (Mumbai is an exception)
+Jun 27 20:28:48 <spechard>	!
+Jun 27 20:28:57 <mbuf>	So, coming to meetings on time is very important; replying to queries promptly is important
+Jun 27 20:28:59 <mbuf>	spechard: shoot!
+Jun 27 20:29:01 <spechard>	why 'except in India' ?
+Jun 27 20:29:16 <spechard>	are you guys always on late? eof
+Jun 27 20:29:17 <mbuf>	spechard: IST is jokingly called Indian Stretchable Time
+Jun 27 20:29:28 <spechard>	ok :-)
+Jun 27 20:29:34 <mbuf>	spechard: people don't follow time; you will know when you are in India;
+Jun 27 20:30:01 <mbuf>	spechard: Mumbai trains are punctual; life in Mumbai runs on time; that is why it is exceptional;
+Jun 27 20:30:16 <spechard>	ok, cultural thing ;-)
+Jun 27 20:30:18 <mbuf>	spechard: people in India, in general, don't value 'time as money'
+Jun 27 20:30:31 <mbuf>	spechard: it is more of a habit, than a culture thing;
+Jun 27 20:31:04 <mbuf>	so if one loses time, it cannot be undone! so make sure you use the best use of your precious time;
+Jun 27 20:31:13 <mbuf>	--> #64
+Jun 27 20:31:30 <mbuf>	if an online meeting is scheduled and you are unable to attend the same, please inform!
+Jun 27 20:31:36 <mbuf>	even if you are not able to finish a task on time, inform!
+Jun 27 20:32:00 <mbuf>	'commit early, commit often' is the key;
+Jun 27 20:32:11 <mbuf>	--> #65
+Jun 27 20:32:33 *	akuscifi007_ (n=akuscifi@122.162.82.80) has joined #dgplug
+Jun 27 20:32:36 <mbuf>	when discussing in chat, if you are asking a question, put a question mark at the end;
+Jun 27 20:32:50 <mbuf>	otherwise I or others will not know that you are asking a question, and are expecting a reply from us;
+Jun 27 20:33:02 <mbuf>	simple mistakes, but, people make it;
+Jun 27 20:33:08 <mbuf>	--> #66
+Jun 27 20:33:12 <mbuf>	--> #67
+Jun 27 20:33:32 <mbuf>	mentors will not do the project for you; they can guide you or give directions;
+Jun 27 20:33:40 <mbuf>	it is up to you to take the effort to get work done;
+Jun 27 20:33:56 <mbuf>	I was once asked by a student to do all these for his college work;
+Jun 27 20:34:08 <mbuf>	I did each one, just to see if he would do the rest;
+Jun 27 20:34:13 <mbuf>	but, that just didn't happen;
+Jun 27 20:34:37 <mbuf>	the more effort you put in, the more you learn, and it is good for you;
+Jun 27 20:34:41 <mbuf>	--> #68
+Jun 27 20:34:56 <mbuf>	always start with small tasks, and ask for feedback
+Jun 27 20:35:09 <mbuf>	it is good to correct mistakes at an early stage and fix it;
+Jun 27 20:35:21 <mbuf>	that is why last minute studying for exams is students fooling themselves;
+Jun 27 20:35:37 <mbuf>	commit early code to the project, even if it is small; it shows your capability;
+Jun 27 20:35:48 <mbuf>	it also gives you confidence;
+Jun 27 20:35:52 <mbuf>	--> #69
+Jun 27 20:36:07 <mbuf>	you can blog your daily work; that is the best!
+Jun 27 20:36:22 <mbuf>	sending updates often is important so others' know your progress and work done;
+Jun 27 20:36:48 <mbuf>	so if you send code just before the deadline and the customer doesn't like it, you are in a mess;
+Jun 27 20:36:55 <mbuf>	--> #70
+Jun 27 20:37:03 *	akuscifi007 has quit (Read error: 60 (Operation timed out))
+Jun 27 20:37:17 <mbuf>	Most of the things we have discussed may seem new to you;
+Jun 27 20:37:27 <mbuf>	because you haven't seen anything like this, before (maybe)
+Jun 27 20:37:39 <mbuf>	so it will be a steep learning curve for you;
+Jun 27 20:37:50 <mbuf>	so steep that you will complain, be angry about why things are not working;
+Jun 27 20:38:08 <mbuf>	because the methodology teaches you to work efficiently which you probably haven't followed before;
+Jun 27 20:38:26 *	akuscifi007_ is now known as akuscifi007
+Jun 27 20:38:28 <mbuf>	you will bang your head before the computer, but, it is important for you to be patient and work hard;
+Jun 27 20:38:42 <mbuf>	only then you will find the answers, you will understand, and you will learn how things work;
+Jun 27 20:38:51 <mbuf>	because, when you do, you will reach enlightenment!
+Jun 27 20:38:58 <mbuf>	--> #71
+Jun 27 20:39:13 <mbuf>	Always give detailed info as possible;
+Jun 27 20:39:24 <mbuf>	these have been one of many instances posted to mailing list groups;
+Jun 27 20:39:27 <mbuf>	--> #72
+Jun 27 20:39:46 <mbuf>	so when you have problem, it is always good to answer questions like what? ho? which? etc.
+Jun 27 20:39:54 <mbuf>	this is technical writing and communication
+Jun 27 20:39:57 <mbuf>	--> #73
+Jun 27 20:40:05 <mbuf>	yet another of those examples!
+Jun 27 20:40:13 <mbuf>	--> #74
+Jun 27 20:40:27 <mbuf>	whenever you complete a task, you should immediately document it;
+Jun 27 20:40:33 <mbuf>	commit early is not just for code, but, also for documentatio
+Jun 27 20:40:36 <mbuf>	*documentation
+Jun 27 20:41:08 <mbuf>	if I found out how to use IRC in X-Chat, I will immediately write a document with screenshots on how to start, login, add settings;
+Jun 27 20:41:28 <mbuf>	and upload it to HOWTOs or to my blog, so it is useful for me and for others, in future;
+Jun 27 20:41:43 <mbuf>	it could be as simple as using a ls command with options;
+Jun 27 20:42:05 <mbuf>	this is very, very important that you document step-by-step as you work, rather than documenting at the end of the project
+Jun 27 20:42:19 <mbuf>	because by the end of the project, you would have forgotten what you did at every step!
+Jun 27 20:42:50 <mbuf>	you have to follow this strictly, because, this is the way we commit early (code and documentation) and we commit often;
+Jun 27 20:43:13 <mbuf>	if you do work on a Friday, go for vacation to Las Vegas for the weekend, you will forget what you did on Friday :)
+Jun 27 20:43:24 <mbuf>	that is where the documentation on Friday helps to refresh your memory;
+Jun 27 20:43:30 <mbuf>	--> #75
+Jun 27 20:43:45 <mbuf>	when we ask questions, say five of them, make sure you reply to all five questions;
+Jun 27 20:44:04 <mbuf>	people sometimes tend to skip reading sentences;
+Jun 27 20:44:28 <mbuf>	it is very important to read slowly and understand before replying; this habit also needs to be inculcated in reading andn following HOWTOs
+Jun 27 20:44:42 <mbuf>	because if you miss a step in a HOWTO, you will not end with the expected output;
+Jun 27 20:44:49 <mbuf>	--> #76
+Jun 27 20:45:07 <mbuf>	when things start to work, and you reach enlightenment very fast you tend to become over-excited;
+Jun 27 20:45:18 <mbuf>	it is important to be calm and composed while you work;
+Jun 27 20:45:29 <mbuf>	impatience is not going to help you or the team in making decisions;
+Jun 27 20:45:40 <mbuf>	--> #77
+Jun 27 20:45:53 <mbuf>	if you wish to do something, always consult with your team members
+Jun 27 20:46:10 <mbuf>	usually projects have mailing lists, so you can participate in it
+Jun 27 20:46:22 <mbuf>	but, if it is a small team, make sure you send e-mail to all of them;
+Jun 27 20:46:33 <mbuf>	the last thing you want is to lose trust with your team members;
+Jun 27 20:46:39 <mbuf>	--> #78
+Jun 27 20:46:49 <mbuf>	people do move in and out of projects; it is very normal human tendency
+Jun 27 20:47:02 <mbuf>	so just because you lose few developers, don't be put down with it; you can find new developers
+Jun 27 20:47:08 <mbuf>	it is hard though to build a good team;
+Jun 27 20:47:15 <mbuf>	and also to sustain it;
+Jun 27 20:47:35 <mbuf>	but, with Free Software, people have been together because they share ideals and thoughts;
+Jun 27 20:47:41 <mbuf>	--> #79
+Jun 27 20:48:05 <mbuf>	"Me and my friend ate in the same plate, went to the same school, went to the same college, can he/she also join the project"?
+Jun 27 20:48:29 <mbuf>	as much as we are social and helpful, we also value technical competence;
+Jun 27 20:48:48 <mbuf>	so, yes, if your friend is also interested in the project; but, you shouldn't make your friend do all the work with you sitting idle
+Jun 27 20:48:58 <mbuf>	that is why commit logs are useful;
+Jun 27 20:49:04 <mbuf>	--> #80
+Jun 27 20:49:12 <mbuf>	"How much salary are you getting, Sir?"
+Jun 27 20:49:21 <mbuf>	don't ask personal questions; it is none of your business;
+Jun 27 20:49:31 <mbuf>	by social, talking on general subjects is fine;
+Jun 27 20:49:36 <mbuf>	--> #81
+Jun 27 20:49:47 <mbuf>	I have emphasized this earlier;
+Jun 27 20:49:56 <parthachowdhury>	!
+Jun 27 20:50:00 <mbuf>	parthachowdhury: shoot!
+Jun 27 20:50:07 <parthachowdhury>	what is PITA ?
+Jun 27 20:50:33 <mbuf>	parthachowdhury:  Pain In The Back (said it nicely)
+Jun 27 20:50:33 *	akuscifi007 has quit (Read error: 104 (Connection reset by peer))
+Jun 27 20:51:02 *	akuscifi007 (n=akuscifi@122.162.82.80) has joined #dgplug
+Jun 27 20:51:08 <mbuf>	parthachowdhury: you are to use a search engine for that :)
+Jun 27 20:51:22 <mbuf>	--> #82
+Jun 27 20:51:25 <parthachowdhury>	ok ...ok.. i just googled it :)
+Jun 27 20:51:34 <mbuf>	parthachowdhury: enlightenment, already?
+Jun 27 20:51:35 *	akuscifi007 has quit (Read error: 104 (Connection reset by peer))
+Jun 27 20:51:54 <parthachowdhury>	:)
+Jun 27 20:52:03 *	akuscifi007 (n=akuscifi@122.162.82.80) has joined #dgplug
+Jun 27 20:52:09 <mbuf>	so never make any assumptions, like, this might work, or maybe that is wrong;
+Jun 27 20:52:18 <mbuf>	always give proof when you make statements;
+Jun 27 20:52:40 <mbuf>	that is why steps to reproduce a bug are important;
+Jun 27 20:52:50 <mbuf>	logs, output, error messages are crucial;
+Jun 27 20:52:58 <mbuf>	--> #83
+Jun 27 20:53:20 <mbuf>	the last thing that you want is to do something which you think is right, but, customer expects something totally different;
+Jun 27 20:53:33 *	abhishekg (n=chatzill@123.236.112.122) has joined #dgplug
+Jun 27 20:53:41 <mbuf>	never ever thing that a question is stupid or silly;
+Jun 27 20:53:53 <mbuf>	do some research online by yourself, and try to find answers, else, ask;
+Jun 27 20:54:15 <mbuf>	even when you ask you can say that I searched here and here, these were the results I got, I asked on IRC etc.
+Jun 27 20:54:24 <mbuf>	the more info you give, the more interested people will be to help you
+Jun 27 20:54:30 <mbuf>	--> #84
+Jun 27 20:54:41 <mbuf>	Fedora project has lot of sub-projects that you can contribute to;
+Jun 27 20:54:49 <mbuf>	we will go through them briefly;
+Jun 27 20:55:01 <mbuf>	most of them are quite self-explanatory, and the wiki is well documented;
+Jun 27 20:55:09 <mbuf>	--> #85
+Jun 27 20:55:24 <mbuf>	to become a member, some tasks which you should complete;
+Jun 27 20:55:44 <mbuf>	Just follow them; if in doubt you can ask in various #fedora channels
+Jun 27 20:55:53 <mbuf>	or for now you can use #dgplug as well
+Jun 27 20:56:03 <mbuf>	--> #86
+Jun 27 20:56:25 <mbuf>	in each page you will see links to mailing list, IRC channel and wiki page for each sub-project
+Jun 27 20:56:44 <mbuf>	Ambassadors promote Fedora; they help taking Fedora to different regions;
+Jun 27 20:57:09 *	priya has quit ("Ex-Chat")
+Jun 27 20:57:11 <mbuf>	if you like traveling this is a good task
+Jun 27 20:57:20 <mbuf>	--> #87
+Jun 27 20:57:31 <mbuf>	some salient points of Fedora Ambassadors;
+Jun 27 20:57:40 <mbuf>	--> #88
+Jun 27 20:58:03 <mbuf>	if you are interested in art work; if you are creative you can use many Free Software tools available for design work;
+Jun 27 20:58:17 <mbuf>	contribution need not necessarily be code;
+Jun 27 20:58:30 <mbuf>	--> #89
+Jun 27 20:59:08 <mbuf>	If you have the skill to solve problems; or attack challenging problems, you can work on solving bugs;
+Jun 27 20:59:19 <mbuf>	you will need to create an account in bugzilla.redhat.com
+Jun 27 20:59:25 <mbuf>	--> #90
+Jun 27 20:59:41 <mbuf>	you could also try to reproduce bugs and see if that is the same as what has been reported;
+Jun 27 20:59:57 <mbuf>	this is a good exercise to begin with for newbies;
+Jun 27 21:00:04 <mbuf>	--> #91
+Jun 27 21:00:25 <mbuf>	if your written language (any language) skills are good, you could do documentation;
+Jun 27 21:00:32 <mbuf>	but, writing documentation, IMO, is an art;
+Jun 27 21:00:49 <mbuf>	writing documentation on a daily basis on your work is a must;
+Jun 27 21:01:09 <mbuf>	there are various tools available that you can use; i like LaTeX and asciidoc;
+Jun 27 21:01:20 <mbuf>	--> #92
+Jun 27 21:01:44 <mbuf>	if you are the System Administrator type, and you like to maintain servers, troubleshoot networks, you can look into Infrastructure
+Jun 27 21:01:51 <mbuf>	scripting know-how is a good asset here;
+Jun 27 21:01:58 <mbuf>	--> #93
+Jun 27 21:02:29 <mbuf>	This involves mechanisms to provide support for software to use regional languages;
+Jun 27 21:02:47 <mbuf>	when programmers write code, it is important that it can be used with different natural languages;
+Jun 27 21:02:53 <mbuf>	--> #94
+Jun 27 21:03:06 <mbuf>	The task of translating strings from one natural language to another is localization;
+Jun 27 21:03:22 <mbuf>	in developing countries, people are not comfortable with English, so teaching them in regional language helps;
+Jun 27 21:03:41 <mbuf>	for that matter, translating this presentation in a regional language is also helpful :)
+Jun 27 21:03:48 <mbuf>	--> #95
+Jun 27 21:04:08 <mbuf>	if you are good at marketing work, you can work with Fedora Ambassadors;
+Jun 27 21:04:27 <mbuf>	traveling may be required; or you can just prepare the material for others;
+Jun 27 21:04:30 <mbuf>	--> #96
+Jun 27 21:04:59 <mbuf>	Package maintainers are important for the Fedora distribution; they take Free Software packages and add it to the Fedora repository;
+Jun 27 21:05:06 <mbuf>	I will focussing on this as a separate session;
+Jun 27 21:05:25 <mbuf>	this helps you in learning to work with other Fedora developers, and also understanding how this packaging works;
+Jun 27 21:05:54 <mbuf>	Even if you develop your own Free Software, you will understand how to package it, and release it for your customers with Fedora;
+Jun 27 21:05:58 <mbuf>	--> #97
+Jun 27 21:06:16 <mbuf>	if you are creative and like website designing, you can contribute to the Fedora web pages;
+Jun 27 21:06:34 <mbuf>	it is not only CSS work, but, also could be managing content;
+Jun 27 21:06:37 <mbuf>	--> #98
+Jun 27 21:06:59 <mbuf>	If your written/spoken language skills are good, you can contribute to weekly news;
+Jun 27 21:07:08 <mbuf>	or you can work on podcasts and interviews;
+Jun 27 21:07:28 <mbuf>	can work closely on updates from various Fedora projects;
+Jun 27 21:07:31 <mbuf>	--> #99
+Jun 27 21:07:58 <mbuf>	so choose the work that you like based on your 'interest' and you feel there is a 'need' for you to work on it;
+Jun 27 21:08:19 <mbuf>	even if you are not sure, you could try your hands on one; but, try to finish the task, before you jump to another;
+Jun 27 21:08:26 <mbuf>	--> #100
+Jun 27 21:08:47 <mbuf>	If you 'want' to do it, you will be able to do it;
+Jun 27 21:08:58 <mbuf>	if you don't want to do it, you will not do it;
+Jun 27 21:09:14 <mbuf>	Impossible is a word only to be found in the dictionary of fools.
+Jun 27 21:09:24 <mbuf>	Thank you very much. This ends the presentation.
+Jun 27 21:09:33 <mbuf>	I shall take any questions that you might have regarding the presentation.
+Jun 27 21:10:00 <SkyRocknRoll>	!
+Jun 27 21:10:09 <mbuf>	SkyRocknRoll: shoot!
+Jun 27 21:10:31 <SkyRocknRoll>	is fedora is using any CMS to maintain websites?
+Jun 27 21:10:37 <mbuf>	SkyRocknRoll: mediawiki
+Jun 27 21:10:58 <SkyRocknRoll>	mbuf: fine <eof>
+Jun 27 21:11:46 <mbuf>	ok, I will let you folks review the discussion;
+Jun 27 21:11:56 <mbuf>	go through all the links and ask any questions you might have, anytime;
+Jun 27 21:13:36 <SkyRocknRoll>	!
+Jun 27 21:13:36 *	akuscifi007 has quit (Read error: 104 (Connection reset by peer))
+Jun 27 21:13:44 <mbuf>	SkyRocknRoll: yes
+Jun 27 21:14:03 *	akuscifi007 (n=akuscifi@122.162.82.80) has joined #dgplug
+Jun 27 21:14:18 <SkyRocknRoll>	How can i enter into infrastructure domain? do i need any experience or a fresher is allowed?
+Jun 27 21:15:01 <mbuf>	SkyRocknRoll: 1. Check their wiki. 2. Talk to them on #fedora-admin (IIRC) 3. Write to them on their mailing list
+Jun 27 21:15:22 <mbuf>	SkyRocknRoll: you should avoid the use of the word 'fresher'
+Jun 27 21:15:34 <mbuf>	SkyRocknRoll: it is only used in India; but, Fedora has a global community
+Jun 27 21:15:42 <mbuf>	SkyRocknRoll: you can simply say that you are a newbie;
+Jun 27 21:16:01 <SkyRocknRoll>	mbuf: thanks i will follow it :)
+Jun 27 21:16:01 <mbuf>	SkyRocknRoll: people may not understand the word 'fresher' outside India;
+Jun 27 21:17:41 <mbuf>	BRB
+Jun 27 21:18:39 <SkyRocknRoll>	mbuf: what is the best way to introduce me in an IRC channel?
+Jun 27 21:18:39 <kopecks>	!
+Jun 27 21:18:54 *	priya (n=priya@59.180.143.228) has joined #dgplug
+Jun 27 21:19:41 <tuxmaniac>	SkyRocknRoll: you dont need to introduce yourself in an IRC channel unless you are in some meeting. If you have doubt on something say "some ruby stuff"
+Jun 27 21:20:08 <mbuf>	SkyRocknRoll: name is fine;
+Jun 27 21:20:23 <tuxmaniac>	just go to #ruby or something and say "/me is working on thisn and this and facing this problem. tried here and there and couldnt find the solution. Any help is appreciated"
+Jun 27 21:20:24 *	akuscifi007 has quit (Read error: 104 (Connection reset by peer))
+Jun 27 21:20:35 <mbuf>	SkyRocknRoll: people value technical competency more than who you are, what your designation is, how much years of experience you have, or how much money you have;

@@ -1,0 +1,241 @@
+Jun 26 17:03:06 <kushal>	after 5 minutes we will star the session on shell commands
+Jun 26 17:03:16 <kushal>	agarwalashish05, no :)
+Jun 26 17:03:19 <Rana_amit>	ok kushal
+Jun 26 17:04:38 <kushal>	how many of you are comfortable with different shell commands ?
+Jun 26 17:05:42 <praveenkumar>	kushal, i am comfortable with most of them.
+Jun 26 17:06:09 <pranay_09>	kushal: me too
+Jun 26 17:06:11 <agarwalashish05>	i know a bit of them but haven't practised a great deal
+Jun 26 17:06:26 <Rana_amit>	kushal, me too
+Jun 26 17:06:59 <kushal>	ok, starting up the session 
+Jun 26 17:07:09 *	ChanServ gives channel operator status to kushal
+Jun 26 17:07:15 *	kushal has changed the topic to: Welcome to Linux User's Group of Durgapur | Mailing list at  http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | http://rfc.dgplug.org/rfc-index.txt read all inner things | Please register your nick http://freenode.net/faq.shtml#registering | Summer training session 2 started |
+Jun 26 17:07:16 <wyuka>	kushal, i am also comfortable with most of them
+Jun 26 17:07:29 <kushal>	ok
+Jun 26 17:07:38 <kushal>	let us go through them slowly again 
+Jun 26 17:07:54 <kushal>	I will tell you the command names
+Jun 26 17:08:07 <kushal>	anyone of you just write what it does 
+Jun 26 17:08:15 <kushal>	with an example
+Jun 26 17:08:19 <kushal>	ok ?
+Jun 26 17:08:48 <wyuka>	kushal, ok
+Jun 26 17:08:54 <Rana_amit>	ok kushal
+Jun 26 17:08:56 <kushal>	ok , 
+Jun 26 17:09:00 <pranay_09>	 kushal : ok
+Jun 26 17:09:03 <kushal>	first command --        ls
+Jun 26 17:09:06 <kushal>	?
+Jun 26 17:09:12 <kushal>	what it does ?
+Jun 26 17:09:18 <Rana_amit>	it is listing for files
+Jun 26 17:09:42 <wyuka>	lists files
+Jun 26 17:10:06 <kushal>	how to see all files inside the directory /etc/yum.repos.d/ ?
+Jun 26 17:10:26 <kushal>	sayan, do you know the commands ?
+Jun 26 17:10:30 <Rana_amit>	ls  etc/yum.repos.d/
+Jun 26 17:10:34 <pranay_09>	ls -la
+Jun 26 17:10:39 <sayan>	no
+Jun 26 17:10:43 *	praveenkumar has quit (Ping timeout: 240 seconds)
+Jun 26 17:10:53 <kushal>	sayan, if not, then just try out the commands and see how they work 
+Jun 26 17:11:14 <kushal>	pranay_09, ls -la will do what exactly ?
+Jun 26 17:11:23 <kushal>	pranay_09, just tell in one line
+Jun 26 17:11:49 <wyuka>	lists ALL the files with details
+Jun 26 17:11:51 <pranay_09>	kushal: it will list all files including the hidden ones
+Jun 26 17:12:03 <kushal>	yes
+Jun 26 17:12:20 <kushal>	so, ls -l will list the files in a format 
+Jun 26 17:12:35 <kushal>	and -la will list even hidden files
+Jun 26 17:12:42 <kushal>	sayan, try the commands 
+Jun 26 17:12:55 <kushal>	sayan, tell here when you are done
+Jun 26 17:13:33 <agarwalashish05>	kushal ls will list all the files present in the current directory or it will display all the files
+Jun 26 17:13:33 <kushal>	what is the command to change the directory ?
+Jun 26 17:13:43 <wyuka>	kushal: cd
+Jun 26 17:14:03 <kushal>	agarwalashish05, only ls will display all the files in the current directory 
+Jun 26 17:14:22 <kushal>	to understand the format of ls -l 
+Jun 26 17:14:32 <kushal>	later you can read man ls
+Jun 26 17:14:37 <agarwalashish05>	the file which you mentioned above was a hidden file or what
+Jun 26 17:15:26 <kushal>	agarwalashish05, not hidden files, simple files
+Jun 26 17:15:40 <kushal>	to see hidden files try -a
+Jun 26 17:15:49 <agarwalashish05>	ok
+Jun 26 17:16:34 <kushal>	wyuka, so cd command changes a directory ?
+Jun 26 17:16:52 <wyuka>	kushal: changes the present working directory
+Jun 26 17:16:57 <kushal>	yes
+Jun 26 17:17:23 <kushal>	syntax is: cd new_directory
+Jun 26 17:17:24 *	rohit1988 (3b5ddd7c@gateway/web/freenode/ip.59.93.221.124) has joined #dgplug
+Jun 26 17:17:52 <kushal>	like cd /tmp will take us to /tmp directory 
+Jun 26 17:18:25 <kushal>	now only cd without any argument will take you back to your home directory 
+Jun 26 17:18:43 <kushal>	to go to the parent directory , cd ..
+Jun 26 17:18:46 <agarwalashish05>	how to go back one directory back
+Jun 26 17:18:55 <rohit1988>	hi!kushal sorry for being late
+Jun 26 17:18:55 <kushal>	agarwalashish05, cd ..
+Jun 26 17:19:12 <kushal>	rohit1988, no problem, roll call not done yet :)
+Jun 26 17:19:16 *	koustava (~koustava@117.201.113.56) has joined #dgplug
+Jun 26 17:19:35 <rohit1988>	ok
+Jun 26 17:19:51 <kushal>	now small question, how to go back to the previous directory using cd ?
+Jun 26 17:20:30 <kushal>	anyone ?
+Jun 26 17:20:38 <kushal>	cd -
+Jun 26 17:20:43 <kushal>	try cd /tmp
+Jun 26 17:20:48 <kushal>	and then cd -
+Jun 26 17:21:06 <kushal>	try and say ok here when you understood 
+Jun 26 17:21:16 *	pranay_09 (dce15098@gateway/web/freenode/ip.220.225.80.152) has left #dgplug
+Jun 26 17:21:23 <wyuka>	kushal: ok
+Jun 26 17:21:23 <agarwalashish05>	ok
+Jun 26 17:21:32 <rohit1988>	ok
+Jun 26 17:22:19 <kushal>	koustava, sayan ?
+Jun 26 17:22:52 <koustava>	kushal,I am late so I didnt understand
+Jun 26 17:23:03 *	kishan has quit (Remote host closed the connection)
+Jun 26 17:23:08 <bamachrn>	kushal, I also want to do the training
+Jun 26 17:23:39 <koustava>	kushal,what was that?
+Jun 26 17:23:41 <kushal>	ok
+Jun 26 17:23:47 <kushal>	commands
+Jun 26 17:23:48 *	kishan (~kishan@117.99.186.174) has joined #dgplug
+Jun 26 17:24:09 <kushal>	next
+Jun 26 17:24:22 <kushal>	koustava, open a terminal and try out the command shown here 
+Jun 26 17:24:42 <kushal>	koustava, ls is to see all files in the current directory 
+Jun 26 17:24:46 <koustava>	kushal,ok
+Jun 26 17:25:26 <Rana_amit>	kushal i also to do summer training
+Jun 26 17:25:33 <sayan>	what is the difference between one directory back and previous directory
+Jun 26 17:25:43 <kushal>	Rana_amit, I thought you are already doing 
+Jun 26 17:25:58 <Rana_amit>	ok kushal
+Jun 26 17:26:08 <Rana_amit>	kushal, i am doing
+Jun 26 17:26:10 <kushal>	sayan, let us you are in your home directory , /home/sayan
+Jun 26 17:26:21 <sayan>	ok
+Jun 26 17:26:36 <kushal>	and you did cd /tmp
+Jun 26 17:26:47 <kushal>	so now you are in /tmp
+Jun 26 17:26:54 <sayan>	ok
+Jun 26 17:27:40 <kushal>	so from here if you go a directory back/above you do cd .. , then you will be under / , but if you do cd - , then you will be in the previous directory which is /home/sayan
+Jun 26 17:27:59 <sayan>	ok
+Jun 26 17:28:12 <kushal>	what is the command to clear the screen ?
+Jun 26 17:28:51 <wyuka>	kushal: clear
+Jun 26 17:28:56 <kushal>	correct 
+Jun 26 17:29:10 <kushal>	Ctrl + l will do the same 
+Jun 26 17:29:12 <koustava>	kushal,thats true
+Jun 26 17:29:13 <kushal>	try it out 
+Jun 26 17:29:14 <wyuka>	kushal: it displays one page of blank lines
+Jun 26 17:29:15 <agarwalashish05>	clear
+Jun 26 17:29:47 <agarwalashish05>	ok
+Jun 26 17:30:00 <koustava>	kushal,yes it is showing page of blank lines
+Jun 26 17:30:19 <kushal>	to view the contents of a file which command we use ?
+Jun 26 17:30:48 <wyuka>	kushal: cat
+Jun 26 17:30:56 <rohit1988>	cat filename
+Jun 26 17:31:03 <bamachrn>	vi filename
+Jun 26 17:31:26 <agarwalashish05>	gedit
+Jun 26 17:31:38 *	Rana_ (Rana@59.161.152.156) has joined #dgplug
+Jun 26 17:31:52 <kushal>	cat
+Jun 26 17:32:03 <kushal>	cat command shows content of file
+Jun 26 17:32:05 <koustava>	kushal,it is not working
+Jun 26 17:32:16 *	Rana_ has quit (Client Quit)
+Jun 26 17:32:17 <kushal>	koustava, what is not working ?
+Jun 26 17:32:44 *	Rana_ (Rana@59.161.152.156) has joined #dgplug
+Jun 26 17:33:15 *	Rana_ has quit (Client Quit)
+Jun 26 17:33:20 *	Rana_ (Rana@59.161.152.156) has joined #dgplug
+Jun 26 17:33:57 *	Rana_ has quit (Client Quit)
+Jun 26 17:34:39 <kushal>	koustava, what is not working ?
+Jun 26 17:34:41 *	Rana_amit has quit (Ping timeout: 265 seconds)
+Jun 26 17:35:21 <kushal>	ok, here is another question 
+Jun 26 17:36:10 <kushal>	you know the name of a file, but don't remember where in the filesystem the file is ?
+Jun 26 17:36:35 *	koustava_ (~koustava@117.201.118.18) has joined #dgplug
+Jun 26 17:36:44 *	koustava has quit (Ping timeout: 260 seconds)
+Jun 26 17:36:54 <wyuka>	find
+Jun 26 17:37:12 <bamachrn>	locate
+Jun 26 17:37:52 <kushal>	locate 
+Jun 26 17:38:08 <rohit1988>	ok
+Jun 26 17:38:11 <kushal>	find works when you atleast know the top most directory to find 
+Jun 26 17:38:34 <agarwalashish05>	ok
+Jun 26 17:38:47 <koustava_>	kushal,i cant get the command cat
+Jun 26 17:38:59 <kushal>	koustava_, are you on terminal ?
+Jun 26 17:39:11 <wyuka>	kushal: does it show the contents of a file faithfully always even if it is not of type text/plain ?
+Jun 26 17:39:34 <koustava_>	kushal,yes
+Jun 26 17:39:35 <kushal>	wyuka, yes
+Jun 26 17:39:55 <kushal>	koustava_, try cat /etc/fedora-release   this will tell the contents of /etc/fedora-release
+Jun 26 17:40:40 <agarwalashish05>	kushal one question to see the content of a file do we need to mention the extension as well or only the name will do
+Jun 26 17:40:52 *	Rana_amit (Rana@219.64.190.72) has joined #dgplug
+Jun 26 17:41:40 <kushal>	agarwalashish05, in linux the extension is part of filename 
+Jun 26 17:41:50 <koustava_>	kuushal,it is showing  Fedora release 12 (Constantine)
+Jun 26 17:42:17 <agarwalashish05>	okk
+Jun 26 17:42:38 <kushal>	koustava_, yes that is what written in /etc/fedora-release file
+Jun 26 17:43:09 <koustava_>	kushal,whats that?
+Jun 26 17:43:29 <kushal>	that is the name of the fedora release you are using ?
+Jun 26 17:43:50 <koustava_>	kushal,why it is not showing me the contents?
+Jun 26 17:44:29 <koustava_>	kushal,yes
+Jun 26 17:44:31 <kushal>	koustava_, it is showing you the content 
+Jun 26 17:44:43 *	kishan has quit (*.net *.split)
+Jun 26 17:44:44 <kushal>	koustava_, the content of that is "Fedora release 12 (Constantine)"
+Jun 26 17:44:52 <kushal>	* that file
+Jun 26 17:45:14 <koustava_>	kushal,to open that file what to do?
+Jun 26 17:45:33 <kushal>	koustava_, open for editing ?
+Jun 26 17:46:04 <koustava_>	kushal,open?
+Jun 26 17:46:28 *	zer0c00l|afk is now known as zer0c00l
+Jun 26 17:46:35 <kushal>	I mean you asked how to open that file, why you want to open that file ?
+Jun 26 17:47:28 <wyuka>	koustava: too view the contents of the file, we use cat. to edit it, we use an editor
+Jun 26 17:47:37 *	kishan (~kishan@117.99.186.174) has joined #dgplug
+Jun 26 17:47:37 <kushal>	we will come to editing in few minutes 
+Jun 26 17:47:39 <wyuka>	koustava: *too=to
+Jun 26 17:47:56 <koustava_>	kushal,no actually it should be editing??
+Jun 26 17:48:10 <kushal>	means ?
+Jun 26 17:49:17 <kushal>	free command show the free and used memory in the system
+Jun 26 17:49:29 <kushal>	you can try free -m also 
+Jun 26 17:49:48 <kushal>	to get the output in MB format which a human can understand 
+Jun 26 17:49:52 <kushal>	try it out now
+Jun 26 17:50:02 <agarwalashish05>	done
+Jun 26 17:50:08 <wyuka>	kushal: done.it works
+Jun 26 17:50:46 <kushal>	everyone say done if you understood 
+Jun 26 17:50:55 <agarwalashish05>	what does -/+ buffers/cache means in the output
+Jun 26 17:51:08 <Rana_amit>	done
+Jun 26 17:51:09 <koustava_>	kushal,I have download a setup file of an application now what to do to install?
+Jun 26 17:51:11 <rohit1988>	done
+Jun 26 17:51:25 <bamachrn>	done
+Jun 26 17:51:34 <kushal>	agarwalashish05, man free :p
+Jun 26 17:51:36 <sayan>	done
+Jun 26 17:51:53 <kushal>	agarwalashish05, you will slowly find all answers yourself only :)
+Jun 26 17:52:07 <kushal>	koustava_, I guess that is not part of this session at all 
+Jun 26 17:52:17 <wyuka>	kushal: which is better ? info or man?
+Jun 26 17:52:41 <kushal>	info shows information about a command in details
+Jun 26 17:52:46 <kushal>	man show the man page 
+Jun 26 17:52:58 <kushal>	info mostly shows details in depth 
+Jun 26 17:53:17 <kushal>	wyuka, now it is your choice what you want to use
+Jun 26 17:53:38 <wyuka>	kushal: ok.got you
+Jun 26 17:54:23 <kushal>	http://dgplug.org/intro/?q=forum/7  you can find details about few commands here
+Jun 26 17:54:52 *	koustava_ has quit (Ping timeout: 248 seconds)
+Jun 26 17:55:43 *	koustava_ (~koustava@117.201.112.174) has joined #dgplug
+Jun 26 17:55:50 <kushal>	http://dgplug.org/irclogs/rishi_1st_class.log http://dgplug.org/irclogs/rishi_2ndclass.log http://dgplug.org/irclogs/rishi_3rdclass.log
+Jun 26 17:56:07 <kushal>	^^ these three from 2008 sessions on shell commands 
+Jun 26 17:56:50 <koustava_>	kushal,let i have download a application what to do to install it?
+Jun 26 17:57:20 <kushal>	koustava_, we will discuss this after the session is over , now now
+Jun 26 17:57:40 <kushal>	sop tonight you are all these learn the commands 
+Jun 26 17:57:46 <koustava_>	kushal,thanx
+Jun 26 17:58:06 <kushal>	koustava_, it seems you never read mbuf's log
+Jun 26 17:58:10 <kushal>	koustava_, did you ?
+Jun 26 17:58:29 <koustava_>	kushal,yes
+Jun 26 17:58:39 <koustava_>	kkushal,not fully
+Jun 26 17:59:46 <kushal>	yes I can understand that 
+Jun 26 17:59:46 *	wyuka has quit (Read error: Connection reset by peer)
+Jun 26 17:59:56 <kushal>	you are not supposed to write thankx 
+Jun 26 18:00:06 <kushal>	the proper english word is thanks 
+Jun 26 18:00:27 <koustava_>	kushal,sorry it was my mistake
+Jun 26 18:02:41 <kushal>	also in linux the file and directories in a proper format 
+Jun 26 18:02:48 <kushal>	we call it FHS 
+Jun 26 18:03:08 <kushal>	read http://dgplug.org/irclogs/kushal_fhs_class.log  to learn basics of fhs 
+Jun 26 18:03:21 <kushal>	the guide is actually available in net to download 
+Jun 26 18:03:28 <kushal>	any questions ?
+Jun 26 18:03:53 <Rana_amit>	no kushal
+Jun 26 18:03:59 <koustava_>	kushal,how ccan i get tthe guide?
+Jun 26 18:04:09 <kushal>	koustava_, you have to search and download 
+Jun 26 18:04:26 <kushal>	but better you try to read the log first to learn the basics for now 
+Jun 26 18:04:34 <koustava_>	kushal,ok
+Jun 26 18:04:44 <kushal>	so there are the home tasks for tonight 
+Jun 26 18:04:49 <kushal>	we will be onlin e
+Jun 26 18:04:52 <kushal>	* online
+Jun 26 18:05:03 <kushal>	if you have any doubts, ask here 
+Jun 26 18:05:07 <kushal>	try to stay online 
+Jun 26 18:05:11 <kushal>	Roll Call
+Jun 26 18:05:32 <agarwalashish05>	Ashish Agarwal
+Jun 26 18:05:46 *	sayan has quit (Ping timeout: 265 seconds)
+Jun 26 18:05:49 <Rana_amit>	Rana Amit
+Jun 26 18:05:54 <koustava_>	koustava,Koustava Goswami
+Jun 26 18:05:54 <rohit1988>	Rohit Agarwal
+Jun 26 18:06:11 <bamachrn>	Bamacharan Kundu
+Jun 26 18:06:42 *	sayan (Sayan@110.227.185.169) has joined #dgplug
+Jun 26 18:07:39 <kushal>	sayan, roll call time
+Jun 26 18:07:49 *	wyuka_ (~wyuka_@117.254.90.179) has joined #dgplug
+Jun 26 18:07:53 <sayan>	Sayan Chowdhury
+Jun 26 18:08:07 <wyuka_>	i got disconnected
+Jun 26 18:08:19 <kushal>	roll call 
+Jun 26 18:08:22 <wyuka_>	what are we doing?
+Jun 26 18:08:28 <wyuka_>	okay
+Jun 26 18:08:41 <wyuka_>	Tirtha Chatterjee
+Jun 26 18:08:52 <kushal>	ok ending session 

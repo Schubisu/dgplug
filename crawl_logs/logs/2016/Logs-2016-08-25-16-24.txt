@@ -1,0 +1,288 @@
+[16:24:24] [## Class Started at Thu Aug 25 16:24:24 2016 ##]
+[16:24:24] <kushal> startclass
+[16:24:34] <kushal> Roll Call
+[16:24:37] <pabitra> Pabitra Pati
+[16:24:40] <PrashantJ> Prashant Jamkhande
+[16:24:41] <vharsh> Harsh Vardhan
+[16:24:42] <tabrez> tabrez khan
+[16:24:49] <SRvSaha> Saurav Saha
+[16:24:49] <aman_> Aman Kumar
+[16:24:50] <anjali_> Anjali Pardeshi
+[16:24:51] <avik> Avik Mukherjee
+[16:24:51] <amey> Amey Jain
+[16:24:55] <abhishekg5> Abhishek Gupta
+[16:25:05] <iKshitij> Kshitij
+[16:25:06] <code_geek> Shantanu Acharya
+[16:25:20] <moon45> Mamoon Manzoor
+[16:25:27] <LambaInsaan> Rhitik Bhatt
+[16:25:45] <Anupama> Anupama Mandal
+[16:25:46] <poonam> Poonam Jadhav
+[16:25:48] <sandeepk> sandeep kumar choudhary
+[16:27:11] <kushal> Okay
+[16:27:24] <jogender> Jogender KOta
+[16:27:24] <kushal> Can we move on to next chapter in the book?
+[16:27:30] LambaIns1 is now known as RhitikBhatt
+[16:27:41] <abhishekg5> yes
+[16:27:44] dhritishikhar___ is now known as dhritishikhar
+[16:27:45] <iKshitij> kushal Yes
+[16:27:51] <code_geek> yes
+[16:27:56] <SRvSaha> yes
+[16:27:57] <LambaInsaan> Yes.
+[16:28:14] <PrashantJ> yes
+[16:28:15] <Anupama> Yup
+[16:28:24] <sandeepk> yes
+[16:28:27] <ashdev> Aswin Devarajan
+[16:28:36] <rl56> Roll Call:Varsha R
+[16:28:43] <kushal> Okay
+[16:28:55] <anushil05_> Anushil Kumar
+[16:30:22] <kushal> okay
+[16:31:03] <kushal> https://shellshare.net/r/summertraining
+[16:33:07] <kushal> Modules
+[16:33:19] <kushal> We try to reuse code when ever possible.
+[16:33:26] <kushal> Functions are the smallest unit for that.
+[16:34:12] <kushal> We try to put in all the functions, constant values related into modules, which in turn can be reused by many projects.
+[16:34:46] <kushal> Generally any .py file can be used as a module
+[16:34:55] <kushal> Let us go to the shell to see a simple example
+[16:34:57] <avik> !
+[16:35:02] <kushal> next
+[16:35:17] <avik> did not got the concept of module!
+[16:35:27] <kushal> avik, let me show you
+[16:35:31] <avik> can you please explain once more?
+[16:35:33] <kushal> look at the shell
+[16:35:38] <avik> ok
+[16:36:46] <anushil05_> We didn't call the function
+[16:36:48] <code_geek> because we never called the function
+[16:36:52] <SRvSaha> Since the function is not called
+[16:36:53] <rohan_h> Function wasn't called
+[16:36:54] <kushal> Correct :)
+[16:36:57] <amey>  nothing printed because function wasnt called
+[16:36:58] <kushal> Good
+[16:37:02] <SRvSaha> It's just the structure
+[16:39:58] <kushal> Do you have any questions still now?
+[16:40:00] <avik> !
+[16:40:05] <kushal> next
+[16:40:16] <anushil05_> !
+[16:40:38] <avik> How is a module different from a class? I mean it felt same like using a class
+[16:40:59] <kushal> avik, A module is a source code which can contain many classes, functions
+[16:41:11] <avik> oh
+[16:41:12] <kushal> which can be shared with others.
+[16:41:16] <kushal> next
+[16:41:22] <anushil05_> we need to be in same directory for doing that ,how can we do if it is in different directory ?
+[16:41:23] <avik> but the idea is same, isnt it?
+[16:41:40] <kushal> avik, no, we will see why in future.
+[16:41:48] <avik> ok :)
+[16:41:54] <kushal> avik, it takes time to have clear ideas, so don't worry
+[16:42:04] <avik> :D
+[16:42:04] <kushal> anushil05_, Good question, we will see that in some time.
+[16:42:27] <kushal> any other question anyone?
+[16:42:56] <SRvSaha> !
+[16:43:16] <SRvSaha> Can I ask a question related to classes ?
+[16:43:29] <kushal> SRvSaha, ask :)
+[16:43:46] <SRvSaha> Is there any way to do something like private in python class data members as in Java ?
+[16:43:58] <SRvSaha> That gives additional security
+[16:44:00] <anushil05_> !
+[16:44:31] <kushal> SRvSaha, first point: private variables are not for security. They have nothing to do with security
+[16:44:48] <kushal> SRvSaha, they help so that people by mistake do not update them.
+[16:44:58] <kushal> You can do that by mangling the variable names
+[16:45:26] <SRvSaha> mangling ?
+[16:45:41] <SpEcBOT1> SpEcHiDe: ROLL CALL: Shrimadhav U K
+[16:46:35] <kushal> SRvSaha, let us see an example
+[16:46:46] <kushal> brb in 1 minute
+[16:46:49] <SRvSaha> Sure :)
+[16:47:18] <kushal> in the shell everyone
+[16:47:24] <kushal> SRvSaha, good point btw
+[16:47:28] <kushal> I should add that in the book
+[16:47:38] <SRvSaha> :) Thanks
+[16:50:02] <kushal> SRvSaha, can you see that?
+[16:50:12] <SRvSaha> yes
+[16:50:16] <SRvSaha> thanks :)
+[16:50:27] <kushal> SRvSaha, see how the class name gointo
+[16:50:30] <kushal> got into
+[16:50:36] <kushal> SRvSaha, that is mangling the name
+[16:50:44] <kushal> so that people do not mess around easily
+[16:51:09] * SRvSaha digging deeper in mangling
+[16:51:29] <kushal> Now can anyone tell me what we call the function __init__?
+[16:51:44] <LambaInsaan> Constructor function.
+[16:51:49] <amey> It is a contructor for object
+[16:51:56] <SRvSaha> Yes, a constructor
+[16:52:00] <code_geek> constructor
+[16:52:02] <kushal> oops
+[16:52:09] <kushal> I mean how to pronounce it?
+[16:52:15] <anushil05_> Constructor
+[16:52:20] <amey> Constructor
+[16:52:21] <kushal> double underscore init double underscore?
+[16:52:28] <nipun> double underscore init
+[16:52:50] <kushal> nipun, what about the double underscore at the end?
+[16:52:51] <PrashantJ> kushal, yes, that's how we call it
+[16:53:14] <kushal> dunder init   --- this is how Python people call it
+[16:53:46] <kushal> Any name with double underscore in front and at the end
+[16:53:46] <kushal> like
+[16:53:46] <kushal> dunder call
+[16:53:47] <SRvSaha> never knew it
+[16:53:56] <kushal> SRvSaha, now you know :)
+[16:54:00] <amey> why only one dunder
+[16:54:01] <SRvSaha> :)
+[16:54:04] <amey> ?
+[16:54:25] * sandeepk away for dinner
+[16:54:28] <avik> quite a fancy name!
+[16:54:45] <kushal> amey, so that we don't say it again
+[16:54:52] <kushal> people generally understand
+[16:55:10] <amey> OK :)
+[16:55:20] <kushal> going back to modules
+[16:55:44] <kushal> Python has many modules by default in the standard library, we call them part of stdlib
+[16:55:53] <kushal> everyone do this
+[16:55:54] <kushal> import os
+[16:55:56] <kushal> os.uname()
+[16:56:15] <kushal> Tell us what you see (what does that text means?)
+[16:56:36] <SRvSaha> Detailed info about the system and the username
+[16:56:54] <SRvSaha> oops not username only system related info
+[16:57:06] <rl56> system information
+[16:57:35] <PrashantJ> tuple with system infomation in it.
+[16:57:45] <RhitikBhatt> Field 1 : OS , Field 2 : Server, Field 3: Kernel Version, Field 5: Architecture
+[16:57:51] <Anupama> deatils of our system
+[16:58:06] <kushal> yes
+[16:58:08] <amey> !
+[16:58:10] <kushal> now in bash
+[16:58:19] <pabitra> !
+[16:58:24] <kushal> uname -a
+[16:58:26] <jogender> system information
+[16:58:34] <kushal> ^^^ run the above command in bash
+[16:59:04] <abhishekg5> yeah, same info
+[16:59:13] <PrashantJ> kushal, similar information
+[16:59:20] <jogender> it is showing the same inforamtion
+[16:59:37] <kushal> os is the module which contains many operating system related functions etc.
+[16:59:47] <kushal> Let us go back to the shell
+[17:00:10] <kushal> help()
+[17:00:12] <kushal> modules
+[17:00:26] <kushal> ^^^ the above two will give you all the install modules in your system.
+[17:02:06] <kushal> here
+[17:02:21] <kushal> Who all are reading this?
+[17:02:30] <SRvSaha> me
+[17:02:31] <PrashantJ> me
+[17:02:32] <jogender> me
+[17:02:34] <amey> me
+[17:02:35] <code_geek> me
+[17:02:36] <abhishekg5> me
+[17:02:40] <tabrez> me
+[17:02:46] <nipun> me
+[17:02:49] <Anupama> me
+[17:02:53] <rl56> me
+[17:03:03] <anushil05_> Me
+[17:03:04] <rohan_h> me too
+[17:03:07] <RhitikBhatt> Me
+[17:03:15] <avik> me
+[17:03:33] <pabitra> reading what kushal  ?? list of modules in shell
+[17:03:53] <kushal> Someone please answer pabitra :)
+[17:04:18] <RhitikBhatt> Messages on the channel.
+[17:04:28] <SRvSaha> pabitra: Reading the text from kushal in IRC.
+[17:04:44] <avik> pabitra, kushal is just checking who are actually attending the session!
+[17:04:53] <avik> :D
+[17:05:01] <poonam> i am also reading
+[17:05:06] <pabitra> oh LOL :) :D
+[17:05:08] <SRvSaha> Since he switched from Shell to IRC, just to check how many of ius are really attending the sesssion
+[17:05:38] <pabitra> I got confused because there was nothing in shell after modules
+[17:05:49] <iKshitij> Me
+[17:06:03] <kushal> pabitra, :)
+[17:06:17] <kushal> one important point
+[17:06:19] <pabitra> kushal,  i tried help() and module on my machine
+[17:06:23] <pabitra> getting some error
+[17:06:26] <kushal> modules
+[17:06:29] <kushal> pabitra, ^^
+[17:07:06] <pabitra> even though modules are listed
+[17:07:19] <kushal> pabitra, okay, means some module is causing pain :)
+[17:07:25] <kushal> Anyway
+[17:07:39] <kushal> from modulename import *
+[17:07:43] <kushal> ^^^^ never do that
+[17:07:47] <kushal> Never ever.
+[17:07:50] <kushal> Please don't
+[17:08:01] <kushal> Why? you will find with time.
+[17:08:06] <SRvSaha> ok
+[17:08:13] <kushal> Either import the whole module, or do the following
+[17:08:22] <kushal> Let us say I want to use uname from os
+[17:08:25] <kushal> from os import uname
+[17:08:29] <kushal> look at the shell
+[17:08:33] <SRvSaha> But that's a quite common practice in other programming languages like JAVA
+[17:08:43] * PrashantJ was about to try that as you typed it kushal 
+[17:08:59] <kushal> SRvSaha, yes, that is why I am trying to tell you, don't do that :)
+[17:09:45] <SRvSaha> Ok :)
+[17:10:40] <kushal> So separate out the imports by using commas
+[17:12:08] <SRvSaha> !
+[17:12:10] <kushal> next
+[17:12:14] <kushal> next
+[17:12:16] <SRvSaha> kushal: I am getting this error http://paste.fedoraproject.org/413901/47213791/
+[17:12:16] <kushal> next
+[17:12:41] * code_geek is getting the same error as SRvSaha 
+[17:12:50] <amey> query solved:)
+[17:12:52] <kushal> SRvSaha, what distro and python?
+[17:13:14] <SRvSaha> Python3 & UBUNTU 16.04LTS
+[17:13:26] <SRvSaha> Python 3.4 being precise
+[17:15:00] <kushal> SRvSaha, there is a reason we ask people to use Fedora for development
+[17:15:12] <kushal> SRvSaha, this may be part of the cause https://mail.python.org/pipermail/python-bugs-list/2002-July/012691.html
+[17:15:16] <iKshitij> kushal +1
+[17:15:25] <SRvSaha> I had problems with Fedora  :( Graphics Issues
+[17:15:26] <kushal> But I am not sure.
+[17:15:56] <kushal> SRvSaha, we will have to find some solution so that you can use Fedora :)
+[17:16:02] <kushal> next
+[17:16:05] <kushal> next
+[17:16:05] <iKshitij> SRvSaha you can ignore that !
+[17:16:05] <pabitra> I did not get mangling
+[17:17:19] <kushal> pabitra, even though I named the variable as __specialvalue it got mangled into _example__specialvalue
+[17:17:40] <kushal> pabitra, can you see the difference?
+[17:17:49] <kushal> For the log readers in the future.
+[17:17:56] <pabitra> oh ok.
+[17:18:01] <kushal> Yes, we are talking to you :)
+[17:18:08] <kushal> >>> class example:
+[17:18:08] <kushal> ...   def __init__(self):
+[17:18:08] <kushal> ...     self.name = "foobar" # normal name
+[17:18:08] <kushal> ...     self.__specialvalue = 10 # we don't people mess with this
+[17:18:11] <kushal> ...     self.point = 15
+[17:18:14] <kushal> ...
+[17:18:14] <pabitra> but I guess this is because you made it private
+[17:18:19] <kushal> >>> e = example()
+[17:18:24] <kushal> >>> dir(e)
+[17:18:26] <kushal> pabitra, I did not
+[17:18:36] <kushal> I just used __ in the front, which in turn changed the name
+[17:18:42] <kushal> but it is not private
+[17:18:43] <abhishekg5> pabitra: no, that is single underscore
+[17:19:08] <pabitra> that is dunder I guess abhishekg5
+[17:19:23] <pabitra> dunder at begining
+[17:19:45] <SRvSaha> kushal: Is the name mangling automatically done always when we use __ before any data member's name ?
+[17:20:14] <pabitra> kushal, if I am correct, hiding the original varaiable using __ is referred as name mangling here
+[17:20:33] <pabitra> yes I guess SRvSaha
+[17:21:26] <kushal> pabitra, not hiding but just changing the name
+[17:22:01] <kushal> https://en.wikipedia.org/wiki/Name_mangling#Python
+[17:22:06] <SRvSaha> kushal: That means anything that has dunder in the beginning will as an alias
+[17:22:18] <kushal> the word private is just to explain.
+[17:22:26] <kushal> As you can see that we can still use it.
+[17:22:27] <SRvSaha> s/as/act
+[17:22:54] <abhishekg5> pabitra: single underscore before a name- means you want that name to be private. Double underscores before name- means python will mangle this one. Double underscores before and after a name- means these are generally specific python methods. Just a convention
+[17:23:16] <SRvSaha> abhishekg5: Thanks
+[17:23:41] <abhishekg5> SRvSaha: :)
+[17:24:49] <SRvSaha> pabitra: http://stackoverflow.com/questions/1641219/does-python-have-private-variables-in-classes
+[17:25:07] dhritishikhar___ is now known as dhritishikhar
+[17:26:02] <SRvSaha> kushal: Please update the logs after 16th
+[17:26:16] <kushal> I will :)
+[17:26:29] <kushal> Anyway, read http://pymbook.readthedocs.io/en/latest/modules.html tonight and practice.
+[17:26:36] <kushal> Come back with questions after that.
+[17:26:37] <SRvSaha> Ok :)
+[17:26:52] <LambaIns1> Okay (:
+[17:27:00] <kushal> After the book chapter, read https://docs.python.org/3/tutorial/modules.html
+[17:27:09] <jogender> ok
+[17:27:22] <iKshitij> ok
+[17:27:27] <sandeepk> ok
+[17:27:32] <kushal> Roll Call
+[17:27:35] <amey> OK
+[17:27:38] <PrashantJ> Prashant Jamkhande
+[17:27:39] <abhishekg5> Abhishek Gupta
+[17:27:39] <LambaInsaan> Rhitik Bhatt
+[17:27:39] <anushil05_> Anushil Kumar
+[17:27:40] <code_geek> Shantanu Acharya
+[17:27:41] <SRvSaha> Saurav Saha
+[17:27:41] <amey> Amey Jain
+[17:27:46] <rl56> Varsha R
+[17:27:49] <sandeepk> sandeep kumar choudhary
+[17:27:49] <smdeep_> Sudeep Mukherjee
+[17:27:50] <Anupama> Anupama Mandal
+[17:27:51] <rahuldecoded> Rahul Bhattacharjee
+[17:27:55] <kushal> endclass
+[17:27:55] [## Class Ended at Thu Aug 25 17:27:55 2016 ##]

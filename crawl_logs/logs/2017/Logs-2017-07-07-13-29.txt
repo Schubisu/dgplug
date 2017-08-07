@@ -1,0 +1,270 @@
+----BEGIN CLASS----
+[13:29] <kushal> #startclass
+[13:29] <ikshitij> skat_sd: :)
+[13:29] <ikshitij> skat_sd: :)
+[13:29] <kushal> Roll Call
+[13:29] <rahuldecoded_> Rahul Bhattacharjee
+[13:29] <asraisingh> Abhishek Singh
+[13:29] <andodococo> Deepak Chethan
+[13:29] <_Richard_> Mayank gupta
+[13:29] <Phi_mb> Mohit
+[13:29] <pr97> Priyanka Sharma
+[13:29] <Cyber_freak> Pradhvan Bisht
+[13:30] <skat_sd> Saikat Dey
+[13:30] <lucifer> Atul kumar
+[13:30] <sakshi> Sakshi Saraswat
+[13:30] <schubisu> Robin Schubert
+[13:30] <abhinavshirur> Abhinav Shirur
+[13:30] <ashwanig> Ashwani Kumar Gupta
+[13:30] <pavan> pavan yejare
+[13:30] <samridhia> Samridhi Agarwal
+[13:30] <kvy> kumar vipin yadav
+[13:30] <anuGupta> Anu kumari Gupta
+[13:30] <LambaInsaan> Rhitik Bhatt
+[13:30] <cran-cg_> Chiranjeev Gupta
+[13:30] <harshcrop> Harsh Shah
+[13:30] <imranjeetsingh_> Ranjeet kumar
+[13:30] <akshayg96> Akshay Gaikwad
+[13:30] <santoshShaw> Santosh Kumar Shaw
+[13:30] <joyhimanshu> Himanshu Awasthi
+[13:30] <ravindra_> Ravindra Lakal
+[13:30] <CHOCOS3> neha kandpal
+[13:30] <avik> Avik Mukherjee
+[13:30] <soumam007> Soumam Banerjee
+[13:30] <messifc_> Messi Fc
+[13:31] <mrlmachine> murli manohar
+[13:31] <arush> Arush
+[13:31] <mdbk> Onyinye Madubuko
+[13:31] <NikitaK3> Roll Call: Nikita Kotak
+[13:32] <adas0496> Abhishek Das
+[13:32] <jasonbraganza> Jason Braganza
+[13:32] <balaji> Balaji
+[13:32] <priyansh> priyansh
+[13:32] <skarpy> Akash pathak
+[13:32] <yurii> yurii pylypchuk
+[13:32] <kushal> I have mentioned two packages in the topic of the channel, please install those two.
+[13:32] <sitlanigaurav[m]> Gaurav Sitlani
+[13:33] <ikshitij> Roll Call: Kshitij
+[13:35] <ganeshnomula_> Ganesh Nomula
+[13:35] <vishami3> Shashank Shekhar
+[13:35] <sitlanigaurav[m]> Gaurav Sitlani
+[13:36] <bhavin192> Bhavin Gandhi
+[13:36] <ghishadow`> Suraj Ghimire
+[13:36] <pavan> done
+[13:37] <ahole[m]> Kshithij Iyer
+[13:38] <im_mohsin> Mohsin Mumtaz
+[13:38] <devendrabhat> devendra bhat
+[13:38] <atul> Atul Krishna
+[13:38] <yurii> !
+[13:38] <ravindra_> done
+[13:38] <asraisingh> sayan, done.
+[13:38] <ashwanig> done
+[13:38] <kushal> next
+[13:39] <kushal> next
+[13:39] <kushal> oops
+[13:39] <kushal> next
+[13:39] <kushal> yurii, anyway, ask
+[13:39] <soumam007_> !
+[13:40] <yurii> i have problem with instalation
+[13:40] <yurii> i will fpaste in moment
+[13:41] <championshuttler> Shivam Singhal
+[13:41] <shankarj67> Roll call: Shankar Jha
+[13:41] <ahole[m]> !
+[13:41] <AndChat|622356> Amol
+[13:42] <dodococo> Done
+[13:42] <skarpy> Done
+[13:42] <RIcharD_> Done
+[13:42] <kushal> next
+[13:42] <soumam007_> can you please check " sudo pip install docutils "?
+[13:43] <kushal> soumam007_, Install the packages from your system package.
+[13:43] <kushal> dnf or apt-get
+[13:43] <kushal> next
+[13:43] <soumam007_> apt-get
+[13:43] <ahole[m]> Are these Python 2.X packages ?
+[13:44] <Cyber_freak> !
+[13:44] <kushal> ahole[m], Yes, that is why I typed python-
+[13:44] <kushal> next
+[13:44] <soumam007_> sudo apt-get install docutils?kushal
+[13:45] <im_mohsin> !
+[13:45] <rahuldecoded_> soumam007, I guess sphinx has dependency on docutils. So first install sphinx
+[13:45] <yurii> i have this result https://paste.fedoraproject.org/paste/8rsWjZvua8j0rcqBwVY3Kw
+[13:46] <Cyber_freak> I should install using pip or pip3  ? What we will be using in the session ?
+[13:46] <kushal> yurii, checking
+[13:46] <Vamsi3296> Roll call: Vamsi Krishna.
+[13:46] <ashwanig> Cyber_freak, Use dnf
+[13:46] <rahuldecoded_> Cyber_freak, type `which pip` and tell the result.
+[13:48] <joyhimanshu> rahuldecoded : I install using pip
+[13:48] <bhavin192> Cyber_freak, who told you to use pip?
+[13:49] <kushal> yurii, the package must be python-sphinx
+[13:49] <kushal> next
+[13:49] <im_mohsin> I installed python-docutils using apt get and the output is this: https://pastebin.com/33ugSDeA Does it means its installed correctly?
+[13:50] <ashwanig> im_mohsin, Seems like you already had python-docutils
+[13:50] <bhavin192> im_mohsin, you already have the package
+[13:50] <cran-cg_> im_mohsin: Yes
+[13:50] <im_mohsin> bhavin192, ashwanig, cran-cg_ ubuntu has it by default?
+[13:51] <ashwanig> im_mohsin, I am on ubuntu but I had to install it
+[13:51] <im_mohsin> ashwanig, bhavin192 cran-cg_ Thank you :)
+[13:51] <ikshitij> im_mohsin: you already had package ! Package manager ran update only
+[13:51] <cran-cg_> Cyber_freak: [19:15] <@kushal> soumam007_, Install the packages from your system package. [19:15] <@kushal> dnf or apt-get
+[13:52] <im_mohsin> ikshitij, Thanks
+[13:52] <deepika> Roll Call : Deepika Upadhyay
+[13:52] <Cyber_freak> okay doing that cran-cg_
+[13:52] <soumam007_> !
+[13:53] <kushal> next
+[13:53] <soumam007_>  how can i check if it has downloaded properly?
+[13:53] <kushal> soumam007_, apt-get command should tell you that.
+[13:53] <kushal> soumam007, You never used apt-get before?
+[13:53] <Phi_mb> !
+[13:53] <yurii> is it ok this  result ----https://paste.fedoraproject.org/paste/KUy3YiAPU6Rb5TTKnjQYJg
+[13:53] <soumam007_> yes used but its saying error at the last line
+[13:54] <soumam007_> though it gave downloading %tages
+[13:54] <soumam007_> https://paste.fedoraproject.org/paste/X2C4NdEZwgkoRSEWITSl7w
+[13:54] <ashwanig> soumam007_, what is %tages?
+[13:55] <soumam007_> ashwanig, i meant percentages sorry for inconvenience
+[13:55] <sandeepK> soumam007: try apt-cache policy python-docutils
+[13:56] <NikitaK3> !
+[13:56] <kushal> yurii, Did it actually installed?
+[13:56] <soumam007_> sandeepK, its done :) thanks
+[13:56] <kushal> next
+[13:56] <Phi_mb> What would be the difference if we install via pip or system package? <eom>
+[13:56] <kushal> next
+[13:56] <sandeepK> soumam007: welcome
+[13:57] <NikitaK3> While installing python 2 packages while using python 3 is it necessary to always have python-<package_name> in command line?
+[13:57] <ikshitij> soumam007_: By the way copy 'error or error code' and Google ! It will help you and you will get the reason also.
+[13:57] <kushal> Phi_mb, system package means it will be installed system-wide, and that is supposed to be well tested along with the other packages in the distribution. We never told anything about pip to people here, so some people are just trying to act smart.
+[13:58] <kushal> NikitaK3, you have to give the right package name.
+[13:58] <ahole[m]> kushal: Agreed! it was really quick in fedora. And I even got time to update my pip and install pandas for my Data mining class tomorrow,.
+[13:58] <kushal> NikitaK3, Which distribution are you using?
+[13:58] <cran-cg> yurii: https://askubuntu.com/questions/829370/n-ignoring-file-50unattended-upgrades-ucf-dist-in-directory-etc-apt-apt-con
+[13:58] <skat_sd> yurii, https://askubuntu.com/questions/882251/apt-get-update-errors-50unattended-upgrades-ucf-dist
+[13:58] <soumam007_> ikshitij, thanks i will :)
+[13:58] <cran-cg> skat_sd: ;)
+[13:58] <Phi_mb> kushal: Ok, got it.
+[13:59] <kushal> Anyone still waiting for the install?
+[13:59] <NikitaK3> kushal, Ubuntu 16.04
+[13:59] <lucifer_> yes
+[13:59] <mdbk> yes
+[14:00] <skat_sd> cran-cg, :)
+[14:00] <anuGupta> !
+[14:01] <kushal> next
+[14:01] <anuGupta> Is there any difference between sudo dnf install and sudo dnf -y install ? I searched but could not find it.<EOF>
+[14:01] <kushal> NikitaK3, search by using "apt-cache search docutils"
+[14:01] <kushal> and see what are the actual package names.
+[14:01] <bhavin192> anuGupta, try it once
+[14:01] <ghishadow`> anuGupta, you don't need to confirm with Yes with -y
+[14:02] <kushal> anuGupta, Yes, if you provide -y, then you don't have to type yes :)
+[14:02] <skat_sd> anuGupta, -y basically means you are already saying yes to download
+[14:03] <anuGupta> Yes I did sudo dnf install but it gave failed to synchronize repo updates whereas sudo dnf -y install perfectly installedl
+[14:03] <adas0496> on Ubuntu this should work: "sudo apt-get install python-docutils python-sphinx"
+[14:04] <anuGupta> Thanks everyone :)
+[14:04] <NikitaK3> kushal, okay thank you
+[14:05] <bhavin192> anuGupta, Sometimes it may fail
+[14:05] <skat_sd> anuGupta, also see this: https://ask.fedoraproject.org/en/question/88086/error-failed-to-synchronize-cache-for-repo-fedora/
+[14:06] <anuGupta> Oh
+[14:07] <mdbk> !
+[14:07] <kushal> next
+[14:08] <mdbk> I tried installing python-docutils on ubuntu 16.04 and got this error https://pastebin.com/7MTduTS2
+[14:10] <ashwanig> mdbk, You are installing something else in another terminal?
+[14:10] <vishami3> mdbk you have processes running which are already installing some software..just finish it and retry installing
+[14:10] <mdbk> Okay
+[14:11] <kushal> next
+[14:12] <bhavin192> mdbk, reboot your machine
+[14:12] <kushal> Now, every start following https://dgplug.org/irclogs/2012/rst-primer/  if you are done, type done here, if you have any queries feel to raise your hand.
+[14:13] <mdbk> bhavin192: Alright
+[14:17] <yurii> is there a session
+[14:18] <kvy__> yes
+[14:19] <ashwanig> !
+[14:19] <vishami3> yurii, we are instructed to read https://dgplug.org/irclogs/2012/rst-primer/ for now
+[14:19] <yurii> vishami3 --thanks
+[14:19] <kushal> next
+[14:20] <ashwanig> I can't understand the comments slide. Comments start with .. right?
+[14:20] <ashwanig> <eof>
+[14:20] <kushal> yes
+[14:20] <kushal> those are different ways to write comments
+[14:20] <kushal> which will not be rendered into HTML
+[14:21] <gauravsitlani> !
+[14:21] <kushal> next
+[14:21] <jiteshpabla> !
+[14:21] <kushal> next
+[14:21] <gauravsitlani> I did not understand doctest blocks.
+[14:22] <gauravsitlani> please can you elaborate?<eom>
+[14:22] <jiteshpabla> Why is rst important? when we already have markdown?
+[14:22] <kushal> gauravsitlani, skip that, we are yet to do Python.
+[14:22] <kushal> jiteshpabla, because it has way more things to do proper technical documentations.
+[14:23] <im_mohsin> !
+[14:23] <kushal> jiteshpabla, and we will learn more about why in the coming weeks.
+[14:23] <kushal> next
+[14:23] <im_mohsin> kushal, section title are centered. can we change it?
+[14:23] <kushal> im_mohsin, Yes, you will have to pass CSS to the command
+[14:24] <kushal> im_mohsin, search about it, I never did it
+[14:24] <im_mohsin> oh okay. so after we convert that to html and we can design more with css. Thanks
+[14:24] <kushal> jiteshpabla, At least one thing we will learn at the end today.
+[14:27] <soumam007_> looks like the man pages :)
+[14:28] <kushal> next
+[14:28] <kushal> soumam007, hehe
+[14:29] <ashwanig> !
+[14:29] <lucifer> !
+[14:30] <ahole[m]> !
+[14:32] <ahole[m]> There is a small error in the document: it says "1. item 1 text" but if you write like "1. item 1 pizza" the output comes like "1. item 1 pizza" instead it should be "1. text" and so the output will be "1. pizza"...
+[14:32] <ahole[m]> <eom>
+[14:32] <kushal> next
+[14:33] <ashwanig> Some section titles are smaller than sub section title. Why?<eof>
+[14:33] <kushal> ashwanig, paste the .rst file please
+[14:34] <kushal> ahole[m], "1. item 1 pizza" should show 1. item 1 pizza
+[14:34] <im_mohsin> !
+[14:35] <kushal> next
+[14:35] <lucifer> where we will be using it?
+[14:35] <kushal> lucifer, what rst? In documentation, and also in code in Python.
+[14:35] <sandeepK> !
+[14:35] <kushal> next
+[14:35] <im_mohsin> kushal, for ordered list shows a error for me "Bullet list ends without a blank line"
+[14:35] <kushal> lucifer, and some other fancy place
+[14:35] <im_mohsin> sorry
+[14:35] <ashwanig> kushal, I made a mistake. Sorry for that.
+[14:36] <kushal> im_mohsin, Correct, if you read it again, it is telling you to give a blank line :)
+[14:36] <kushal> next
+[14:36] <kushal> next
+[14:36] <sandeepK> kushal, got this error https://pastebin.com/brYsv0yU
+[14:36] <kushal> sandeepK, show the actual command and full error message and also paste the file somewhere
+[14:37] <sandeepK> kushal,  ok wait
+[14:39] <sandeepK> kushal, https://pastebin.com/c86hE85c
+[14:40] <ashwanig> !
+[14:40] <kushal> sandeepK, You have space in front in line 28-29 there on the paste
+[14:40] <samridhia> !
+[14:40] <kushal> remove those
+[14:40] <kushal> next
+[14:40] <ashwanig> Cannot understand lists and literal blocks slides<eof>
+[14:41] <kushal> ashwanig, literal blocks just shows you whatever you wrote.
+[14:41] <kushal> ashwanig, lists are lists of items.
+[14:41] <kushal> next
+[14:41] <samridhia> I can not understand what is the use of footnotes?
+[14:42] <mrlmachine> !
+[14:43] <kushal> samridhia, Have you seen footnotes in books or research papers?
+[14:44] <sandeepK> kushal, now got this "test.rst:9: (ERROR/3) Unexpected indentation."
+[14:44] <samridhia> no! actually i don't know what footnotes are?
+[14:44] <samridhia> I will google it
+[14:44] <kushal> sandeepK, means you have wrong indentation on that line
+[14:45] <kushal> samridhia, https://eng244.files.wordpress.com/2012/11/footnote1.jpg
+[14:45] <kushal> next
+[14:45] <mrlmachine> i do not  know how and where to execute option list commands.
+[14:46] <samridhia> kushal, got it.
+[14:46] <kushal> mrlmachine, you don't, just an example.
+[14:46] <kushal> next
+[14:47] <soumam007> mrlmachine, i guess like in you write only Â¨gitÂ¨ there in the terminal you get a lot of option ; similar type
+[14:48] <mrlmachine> soumam007: thanks. got it
+[14:48] <jasonbraganza> done
+[14:48] <soumam007> done
+[14:49] <pavan> done
+[14:49] <gauravsitlani> done
+[14:50] <im_mohsin> done
+[14:50] <RIcharD_> done
+[14:51] <Cyber_freak> !
+[14:51] <kushal> next
+[14:52] <abhinavshirur> soumam007, mrlmachine here you are only displaying the content, nothing is executed
+[14:52] <Cyber_freak> The doctest block should give me an output without the print statement ?
+[14:52] <adas0496> done
+[14:53] <kushal> I am ending the session now.
+[14:53] <kushal> I will send out more instructions over mail.
+[14:53] <kushal> #endsession
+[14:53] <samridhia> done
+----END CLASS----

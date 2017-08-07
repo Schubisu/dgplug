@@ -1,0 +1,1107 @@
+[13:02:54] [## Class Started at Sun Jun 29 13:02:54 2014 ##]
+[13:02:54] <kushal> startclass
+[13:02:58] <Armageddon> iamsudip: I hope they stay in this attitude until the end ! :P
+[13:02:59] <Poornima|> iamviknesh, :P
+[13:03:02] <saaggy18> it's 18:30 already.. :D
+[13:03:25] <iamsudip> Armageddon, Yes. :p (I don't think so, but I do hope so)
+[13:03:26] <iamviknesh> Poornima|: what ??
+[13:03:37] <chandan_kumar_> Armageddon, first time our channel have more than 110 people :)
+[13:03:39] <kushal> So welcome everyone
+[13:03:44] <charany1> kushal,sorry to ask but how do i refer to someone like this ...........[kushal: if you need help let me know]
+[13:03:50] <Armageddon> iamsudip: I didn't know this year it was with python 3
+[13:04:00] <Armageddon> iamsudip: now I have to make time to read all the logs...
+[13:04:03] <kushal> Everyone please stop talking
+[13:04:08] <CuriousLearner> Hi
+[13:04:16] <Poornima|> opps iamviknesh it was for iamsudip python ceremony :)
+[13:04:19] <titli> kushal,hi
+[13:04:21] <iamsudip> Armageddon, I'll reply you later.
+[13:04:24] <Rohit_> who is the organizer here
+[13:04:46] <Armageddon> kushal: +m it
+[13:04:50] <iamviknesh> Poornima|: k np :)
+[13:04:51] <kushal> This is the 7th year of the training.
+[13:05:04] <alec> time???
+[13:05:05] <kushal> Thank you everyone for joining in.
+[13:05:29] <CuriousLearner> Kushal Sir, can you please tell me the details of this training, what all topics would be covered?
+[13:05:46] <Poornima|> wow kushal Sir  mine is the first experience eager to learn
+[13:05:47] <kushal> CuriousLearner, Can you please stop talking and ask later?
+[13:05:55] <CuriousLearner> ok
+[13:05:56] <kushal> Poornima|, stop taking please.
+[13:06:09] <iamsudip> CuriousLearner, You are so curious. Stay here. You'll know.
+[13:06:16] <Prajesh> hello everyone
+[13:06:22] * iamsudip iamsudip stops talking now.
+[13:06:40] <kushal> So few basic points about the training first.
+[13:07:20] <kushal> We will have sessions every weekday in the evening, may not be at the same time but in evening sometime.
+[13:07:20] <PraveenK> This is my first experience.....
+[13:07:45] <kushal> Generally no sessions at weekends.
+[13:07:54] <Rohit_> please do inform us via email
+[13:08:00] <saaggy18> yeah..
+[13:08:04] <saaggy18> via mail
+[13:08:25] <titli> I think we should let kushal finish
+[13:08:25] <kushal> saaggy18, Rohit_ stop talking or else you will be kicked out.
+[13:08:47] <novice-coder12> please share your excitement later,everyone.And let khushal speak.
+[13:09:11] <kushal> The sessions will be between 1 hour and 30 minutes to 3 hours
+[13:09:29] <kushal> depends on the number of students and the topic.
+[13:09:56] <kushal> Everyone should keep an eye on the mailing list, we send updates there.
+[13:10:12] <kushal> Few people you should know here,
+[13:10:47] * kushal mbuf Armageddon chandan_kumar rtnpro sayan orriols 
+[13:11:04] <kushal> ^^ these people will moderate the sessions.
+[13:11:49] <kushal> We generally ask people to join in all the sessions but if you are from a different timezone then you don't have to.
+[13:12:16] <kushal> But in case you are skipping a session you should drop a note to the list.
+[13:12:19] <tkkr6895> Hey can I get a log of what alll happened till 18:41
+[13:12:32] <kushal> tkkr6895, we will provide it later.
+[13:12:44] <bagusaji> am i late?
+[13:12:45] <Siddhant> Hi, I am new to IRC. Can anyone guide me further with training process?
+[13:13:21] <kushal> bagusaji, yes, please check your watch
+[13:13:34] <kushal> Siddhant, read what we are saying here.
+[13:13:52] <Siddhant> Okay. Thanks
+[13:14:11] <kushal> There will be special guest lectures happening, try to attend all of those.
+[13:14:34] <kushal> There will be many upstream developers in those special sessions.
+[13:14:40] <sach199> whats in schedule for today ?
+[13:14:58] <kushal> sach199, For the next 1 hour you read what I write.
+[13:15:09] <Siddhant> Is it possible to get the schedule of entire training?
+[13:15:27] <siddharth185> Guys shut up and let the man talk.
+[13:15:28] <kushal> Siddhant, please ask questions in the qa time.
+[13:15:30] <Siddhant> So that we can try our best not to miss those sessions
+[13:15:31] <SpeedBus> +m it guys
+[13:15:40] <SpeedBus> so only voice/op can talk
+[13:15:46] <Siddhant> Okay.
+[13:15:47] <kushal> SpeedBus, we will do it after few days :)
+[13:15:52] <SpeedBus> ah :)
+[13:16:07] <kushal> So rules about the training.
+[13:16:41] <kushal> After someone says roll call, everyone writes their First name, last name here
+[13:16:43] <kushal> Like:
+[13:16:47] <bann> please start - its 6.45 PM
+[13:16:49] <kushal> Kushal Das
+[13:17:32] <Armageddon> bann: if you have somewhere to be, you may leave at any time. No one is forcing you to be here.
+[13:17:34] <kushal> In case you have a question, you type ! and wait till the moderator or batul ask you to talk.
+[13:17:46] rahul is now known as Guest84080
+[13:17:58] <kushal> I will give a demo for that.
+[13:18:06] <Armageddon> !
+[13:18:16] <kushal> any one else?
+[13:18:19] <sivteck> !
+[13:18:22] <titli> !
+[13:18:22] <kushal>  next
+[13:18:23] <chandan_kumar_> !
+[13:18:23] <core_7> !
+[13:18:23] <sa_> roll call should either be xchat id or real name
+[13:18:27] <kushal> next
+[13:18:27] <dev212> !
+[13:18:34] <Armageddon> kushal: :)
+[13:18:34] <kushal> next
+[13:18:35] <alec> !
+[13:18:37] <kushal> next
+[13:18:37] <pratik> !
+[13:18:45] <amittima> !
+[13:18:46] <chandan_kumar_> :)
+[13:18:52] <kushal> Now everyone stop
+[13:18:58] <kushal> clearqueue
+[13:19:00] <kushal> next
+[13:19:03] <kushal> good.
+[13:19:06] <CuriousLearner> !
+[13:19:14] <kushal> So this is how you ask questions.
+[13:19:28] <sa_> !
+[13:19:30] <senju_> \nick senju
+[13:19:54] <ansh> ansh
+[13:19:55] <kushal> Before you come online tomorrow read http://dgplug.org/irclogs/mbuf_1stclass.log and http://dgplug.org/irclogs/mbuf_2ndclass.log
+[13:20:11] <meet> !
+[13:20:17] <kushal> and find the corresponding pdfs
+[13:20:25] <prahladh> yes
+[13:20:31] <kushal> Next, few more rules.
+[13:20:50] <kushal> Type in full English words here, No more sms speak.
+[13:20:56] <kushal> No extra ....
+[13:21:06] <kushal> You don't
+[13:21:15] Poornima|mtg is now known as Poornima
+[13:21:17] <kushal> You don't have to call us Sirs or Madams
+[13:21:29] <kushal> Call us with our IRC nicks.
+[13:21:36] <Datta> got it
+[13:21:45] <alec> ok
+[13:21:48] <amittima> ok got it
+[13:21:51] <sach199> ok
+[13:21:54] <kushal> Please type later.
+[13:21:57] charany1 is now known as yogi
+[13:21:58] <shonx> ok
+[13:21:59] <Armageddon> you don't have to say got it or ok
+[13:21:59] <dev212> ok
+[13:22:04] <deccan> yes got it
+[13:22:06] <Armageddon> that's one of the rules
+[13:22:07] <Poornima> sorry my system went hang in between at the time of Roll Call :(
+[13:22:22] <kushal> Poornima, you will get the logs later.
+[13:22:42] <Poornima> kushal, okay thx alot !
+[13:22:59] <kushal> Poornima, the spelling is thanks, not thx.
+[13:23:01] * Nishesh96 slaps shockzp around a bit with a large trout
+[13:23:02] <dev212> no sms language pls
+[13:23:14] ubuntu is now known as Guest53606
+[13:23:41] <sach199> can we start something now , its 6:52  !!!
+[13:23:44] <shonx> please not pls
+[13:23:46] <LuisSuarez> "no sms language pls" Oh the irony.
+[13:23:47] <meet> Just wanted to introduce myself. got a little late.  meet.
+[13:23:57] <kushal> LuisSuarez, good catch
+[13:24:07] <alec> ya
+[13:24:10] <LuisSuarez> :)
+[13:24:18] <kushal> Stop talking everyone.
+[13:24:27] <kushal> I will be back in a minute
+[13:24:50] Guest53606 is now known as Sawoni
+[13:25:05] <kushal> So.
+[13:25:10] <sach199> Can we start something ???
+[13:25:26] <meet> !
+[13:25:31] <admin_> quit
+[13:25:35] <kushal> sach199, we started the communication class in case you never noticed.
+[13:26:14] Prajesh is now known as Prajesh__
+[13:26:18] prajesh_ is now known as prajesh
+[13:26:26] <kushal> While replying to the mailing list always reply inline or bottom post. Still now everyone replied  in top
+[13:26:34] <kushal> Please don't do that.
+[13:26:53] <meet> !
+[13:26:53] <bagusaji> !
+[13:26:58] <iamviknesh> !
+[13:26:59] <donniezazen> We need a slide of all these etiquette on people's face.
+[13:26:59] <arushi> !
+[13:27:22] <kushal> next
+[13:27:45] <kushal> When you end talking/asking type <eof>
+[13:27:49] <kushal> next
+[13:27:56] <sa_> which id i have to say for my roll call
+[13:28:10] <kushal> sa_ just your name will do.
+[13:28:24] <sa_> my xchat id or my original name
+[13:28:25] <kushal> sa_ remember to say <eof> here.
+[13:28:26] <dev212> !
+[13:28:34] <kushal> sa_ original name.
+[13:28:36] <kushal> next
+[13:28:37] <stguin> today i dont have linux
+[13:28:44] <CuriousLearner> Sir, I was in the training but I didn't noticed when the roll call was made. Just wanted to say, that I'm Sanyam Khurana. And wanted to know we type ! for asking questions right? <eof>
+[13:28:48] <stguin> so is there will be any problem
+[13:28:48] <meet> have I been taken into the roll call?
+[13:29:06] <kushal> there was no roll call yet, we will do that at the end
+[13:29:07] <kushal> next
+[13:29:12] <kushal> ah
+[13:29:14] <kushal> next
+[13:29:17] <kushal> next
+[13:29:22] elita15__ is now known as elita15
+[13:29:24] <meet> done with my question. thanks.
+[13:29:31] <kushal> next
+[13:29:36] <bagusaji> kushal: could you explain what the meaning by replied on top? <eof>
+[13:29:55] <iamviknesh> just now i subscribed to mailing list , is it ok ??
+[13:30:04] <core_7> !
+[13:30:18] <kushal> iamviknesh, yes
+[13:30:19] <gnovi> !
+[13:30:26] <kushal> bagusaji, http://lists.dgplug.org/pipermail/users-dgplug.org/2014-June/002628.html look at the reply
+[13:30:36] <kushal> The person replied with the text on top.
+[13:30:42] <core_7> !
+[13:30:49] <dev212> !
+[13:30:53] <dev212> !
+[13:30:57] <kushal> so when we read we really do not know which question he is replying.
+[13:31:09] <core_7> how to subscribe to the mailing list?
+[13:31:16] prajesh is now known as prajesh_
+[13:31:24] <Armageddon> kushal: do you need help with answering questions ?
+[13:31:24] <bagusaji> kushal: ok, i understand
+[13:31:37] <kushal> core_7, please wait for your turn.
+[13:31:38] <meet> !
+[13:31:40] <kushal> Armageddon, yeah.
+[13:31:43] <Armageddon> next
+[13:31:47] <kanika04> !
+[13:31:56] <Armageddon> kushal: you didn't add me ! :P
+[13:31:57] <bagusaji> <eof>
+[13:31:59] <kushal> Armageddon, I will add you to the masters, wait
+[13:32:02] <kushal> bagusaji, http://lists.dgplug.org/pipermail/users-dgplug.org/2014-June/002602.html
+[13:32:19] <mars95> hello... i am new to IRC and dont have much idea whats goin on here
+[13:32:20] <kushal> Now read that reply.
+[13:32:21] <kushal> next
+[13:32:29] prajesh_ is now known as prajesh
+[13:32:36] <arushi> done with my question . same a smeet
+[13:32:43] <kushal> mars95, we are doing our first session here.
+[13:32:45] <kushal> next
+[13:32:59] <kushal> next
+[13:33:04] <ansh> what is goin on...i am new to it!!
+[13:33:05] <dev212> I got my answer
+[13:33:12] <bagusaji> kushal: ok, i understand
+[13:33:20] <kushal> ansh, We are discussing.
+[13:33:21] <kushal> next
+[13:33:24] <gnovi> Can you please provide a link to do's and dont's of IRC chat?
+[13:33:42] <kushal> mbuf, ^^ do you have that in your presentation?
+[13:34:02] <kushal> gnovi, real the old logs, you will get an clear idea.
+[13:34:06] <core_7> how to subscribe to the mailing list? Please give me the link
+[13:34:19] <kushal> gnovi, plus we will provide you more details later.
+[13:34:19] <gnovi> kushal, ok
+[13:34:19] <stguin> this questions are being asked by previous  students ?? I am new so cant understand
+[13:34:26] <Armageddon> core_7: wait your turn
+[13:34:49] <kushal> Armageddon, he is in turn actually :)
+[13:34:54] <kushal> core_7, http://lists.dgplug.org/listinfo.cgi/users-dgplug.org
+[13:35:03] <core_7> thanks eof
+[13:35:03] <mars95> !
+[13:35:08] <kushal> next
+[13:35:13] <kushal> next
+[13:35:24] <Armageddon> kushal: dev212 got his answer you can move on
+[13:35:25] <kushal> Ah I should modify the bot.
+[13:35:29] <kushal> next
+[13:35:33] <kushal> next
+[13:35:35] <kushal> next
+[13:35:45] <LuisSuarez> !
+[13:35:49] <kushal> next
+[13:35:55] <kanika04> what all do we require for this training ?
+[13:35:56] <mbuf> kushal, https://fedoraproject.org/wiki/How_to_use_IRC
+[13:35:58] <meet> can we keep a separate help channel so that we can start here. just a suggestion.
+[13:36:11] <Rohit__> !
+[13:36:20] <kushal> meet, we prefer everyone to talk here after sessions.
+[13:36:39] <meet> also, what are the exact roles of kushal, batul ?
+[13:36:57] <kushal>  This is a community, so we want everyone to participate as much as possible.
+[13:37:03] <shockzp> !
+[13:37:07] <acetakwas> Kushal is the head
+[13:37:16] <acetakwas> Hi everyone
+[13:37:17] <kushal> kanika04, fast internet and any latest Linux distro.
+[13:37:25] <Armageddon> meet: kushal is the bot and batul is the producer of this lovely session
+[13:37:27] <kanika04> fedora 18 will work
+[13:37:27] <kanika04> ?
+[13:37:30] <acetakwas> I hope I am not too late
+[13:37:44] <kushal> kanika04, no, that is end of life, use Fedora20
+[13:37:44] <bagusaji> kanika04: why not try fedora 20?
+[13:37:58] <kushal> next
+[13:38:01] <LuisSuarez> Any clear timeline as to when we are actually getting started? Just asking. Thanks.
+[13:38:20] <Armageddon> LuisSuarez: I thought we just did, you have homework ;)
+[13:38:25] <kanika04> okay thnks
+[13:38:27] <pavan_priyatham> !
+[13:38:28] <kanika04> eof
+[13:38:31] <Rohit__> today open source will be discussed or not ?
+[13:38:37] <Dhriti> !
+[13:38:42] <prash_> ubuntu 12.04 is fine right ?
+[13:38:44] <iamsudip> kushal, Be protective. Suarez can bite you. :p Anyway LuisSuarez nice nick.
+[13:39:08] <bnprk> !
+[13:39:12] <Armageddon> prash_: it should be, but you need to move on
+[13:39:14] <kushal> LuisSuarez, this is actually the first session about communication. Most people are new to IRC and mailing lists
+[13:39:25] <mbuf> kushal, http://fedoraproject.org/wiki/Board_public_IRC_meetings#Meeting_protocol
+[13:39:35] <NBharech> do we need to use Ubuntu now ?
+[13:39:37] <pavan_priyatham> !
+[13:39:39] <LuisSuarez> Thanks iamsudip. I am a Luis fanboy though. Beware ;)
+[13:39:39] <Armageddon> NBharech: starting next session you do
+[13:39:40] <prash_> yea sure currently exams going on so shifting to fedora after VTU exams
+[13:39:43] <tushraj> !
+[13:39:48] <kushal> http://fedoraproject.org/wiki/Board_public_IRC_meetings#Meeting_protocol
+[13:39:53] <kushal> mbuf, thanks
+[13:40:13] <kushal> Everyone stop talking pleased.
+[13:40:15] <kushal> please.
+[13:40:22] <kushal> next
+[13:40:32] <kushal> LuisSuarez, btw, is my answer enough?
+[13:40:38] <singharpit> !
+[13:40:42] <kushal> next
+[13:40:43] <Armageddon> next
+[13:40:49] <Rohit__> today we will be discuss open source or not
+[13:41:07] <kushal> Rohit__, I am ignoring you as you are asking out of turn.
+[13:41:09] <Armageddon> Rohit__: this is a part of open source, teaching people how to communicate on IRC
+[13:41:12] <kushal> next
+[13:41:16] <shockzp> when does todays session end?
+[13:41:26] <kushal> shockzp, let us see, not sure.
+[13:41:29] <kushal> next
+[13:41:32] <pavan_priyatham> will linux mint work for this ?
+[13:41:34] <Dhriti> Kushal, what topics are going to be covered in this training? <eof>
+[13:41:42] <prajesh> !
+[13:42:03] <pratik> !
+[13:42:08] <kushal> Dhriti, look at our wiki page, http://wiki.dgplug.org/index.php/SummerTraining
+[13:42:11] <kushal> next
+[13:42:14] <bnprk> kushal, can i use fedora 19 , as i am having problem with installation of fedora 20 due to some legacy boot problem?
+[13:42:16] <alec> !
+[13:42:17] <Armageddon> pavan_priyatham: if it's the latest then yes
+[13:42:29] <kushal> pavan_priyatham, latest version should do.
+[13:42:39] <kushal> bnprk, ok, it should work.
+[13:42:41] <kushal> next
+[13:42:42] <pavan_priyatham> mine is cinnamon.Is it fine? <eof>
+[13:42:52] <Armageddon> pavan_priyatham: there shouldn't be any problem
+[13:42:56] <kushal> next
+[13:43:02] <tushraj> Can i use ubuntu 12.04?
+[13:43:10] <kundan> hello
+[13:43:21] <kushal> I guess that is too old, can someone confirm?
+[13:43:22] <bagusaji> tushraj: try the newest version 14.04 \o/
+[13:43:23] <mars95> !
+[13:43:24] <Armageddon> tushraj: it is a bit outdated but it should do for now as it is long term support, you should invest in moving
+[13:43:29] <kushal> bagusaji, thanks.
+[13:43:32] <mars95> I missed my turn
+[13:43:32] <kushal> next
+[13:43:34] <tkkr6895> !
+[13:43:35] <singharpit> i didn't get the reply part of mailing list can u explain
+[13:43:49] <Armageddon> kushal: 12.04 is still not EOL it is still supported
+[13:44:02] <kushal> siddharth185, first learn to say "you" not u.
+[13:44:20] <kushal> siddharth185, then what exactly do you want to know?
+[13:44:37] <kushal> next
+[13:44:39] <prajesh> how long will our training continue?
+[13:44:54] <kushal> prajesh, almost 3 moths
+[13:44:58] <kushal> months
+[13:44:59] <prahladh> !
+[13:45:02] <kushal> next
+[13:45:03] <pratik> Can I use elementary os for the training?<eof>
+[13:45:06] <shockzp> !
+[13:45:11] <singharpit> i didnt got my answer no one replied
+[13:45:17] <mnw94> !
+[13:45:19] <bagusaji> pratik: every distro will work i think
+[13:45:20] <kushal> pratik, ah
+[13:45:21] <iamviknesh> tushraj: you can use 12.04 its LTS , support till 2017 :) BTW its good to use the latest 14.04 :)
+[13:45:27] <kushal> siddharth185, sorry
+[13:45:39] <kushal> singharpit, first learn to say "you" not u.
+[13:45:41] <kanika04> !
+[13:45:54] <kushal> singharpit, then what exactly do you want to know?
+[13:45:56] <kushal> next
+[13:45:59] <alec> Will simple ubuntu be fine, though we know you suggested Fedora 4 ?
+[13:46:08] <kushal> 4?
+[13:46:18] <kushal> alec, latest Ubuntu should do.
+[13:46:20] <kushal> next
+[13:46:26] <mars95> How do this IRC work exactly?
+[13:46:32] <singharpit> i read the mail i could not understand the format of reply you are insisting
+[13:46:33] <kundan> hello
+[13:46:36] rahul_ is now known as rahulNonia
+[13:46:38] <alec> ok thanks ,
+[13:46:44] <mars95> I am new and unable to get anything
+[13:46:47] <kushal> Armageddon, can you please find some links for mars95 ?
+[13:47:03] <Armageddon> mars95: what are you using exactly ?
+[13:47:18] <tushraj> iamviknesh: so i guess 12.04 is fine for now ?
+[13:47:24] <mars95> what as in ?
+[13:47:31] <D4rk> https://freenode.net/faq.shtml mars95
+[13:47:39] <Armageddon> mars95: what IRC client are you using on your mac ?
+[13:47:41] <D4rk> mars95, https://blog.freenode.net/2007/03/nickserv-is-your-friend/
+[13:47:42] <kushal> siddharth185, read the reply, the reply is down below the question, not on the top, so that we know what exactly he is replying.
+[13:47:42] <mars95> PC with Chrome in Windows
+[13:47:51] <kushal> next
+[13:47:53] <tkkr6895> Will the software and courseware details needed for the program be sent to us via the mailing list? If so, when?
+[13:48:04] <Armageddon> mars95: what D4rk sent you should help you
+[13:48:09] <Armageddon> D4rk: thanks :)
+[13:48:10] <iamviknesh> tushraj: yeah fine , try to update frequently ;)
+[13:48:25] <kushal> tkkr6895, it will come before the sessions as required.
+[13:48:26] <kushal> next
+[13:48:38] <prahladh> Is ubuntu 14.04 fine?
+[13:48:38] <kushal> nexf
+[13:48:44] <rahulNonia> how to compile and run c program
+[13:48:45] <kushal> prahladh, yes
+[13:48:58] <kushal> rahulNonia, out of turn question I guess.
+[13:49:02] <PraveenK> !
+[13:49:08] <prash07> @rahul g++  filename.cpp
+[13:49:15] <kushal> rahulNonia, Also type the same question in google.com
+[13:49:24] <novice-coder12> !
+[13:49:35] <abhishekp>  /msg NickServ VERIFY REGISTER abhishekp vxffwxgnjwdt
+[13:49:39] <deccan> !
+[13:49:45] <kushal> abhaykrish, nice password
+[13:49:47] <vimalrughani> !
+[13:49:53] <SpeedBus> lol
+[13:49:54] <kushal> Everyone should also read http://www.catb.org/esr/faqs/smart-questions.html
+[13:50:06] <amit001> abhishekp difficult one
+[13:50:14] <kushal> Remember to read http://www.catb.org/esr/faqs/smart-questions.html
+[13:50:14] <vipsy> abhishekp, either you verify or register!
+[13:50:17] <kushal> next
+[13:50:18] <kundan>  /msg NickServ VERIFY REGISTER
+[13:50:19] <shockzp> What if i miss some class? how do i catch up? I also read that i need to inform you people if i am missing a class, how do i?
+[13:50:34] <kushal> shockzp, we will provide either logs or details
+[13:50:37] <NBharech> !
+[13:50:43] <abhishekp>  /msg NickServ VERIFY abhishekp vxffwxgnjwdt
+[13:50:50] <dev212> !
+[13:50:50] <Armageddon> abhishekp: lose the spaces
+[13:50:58] <kundan>  /msg NickServ identify sunny@5
+[13:50:58] <Armageddon> abhishekp: the spaces at the beginning
+[13:51:00] <kushal> shockzp, just drop a mail to the mailing list
+[13:51:09] <D4rk> that's awsome stuff lol.
+[13:51:10] <shockzp> kushal, saying what?
+[13:51:11] <Armageddon> abhishekp: the command starts with a /
+[13:51:18] <mnw94> hello , are the etiquettes taught here common to all the IRC channels <eof>
+[13:51:22] <kushal> shockzp, that you will not be able to join :)
+[13:51:33] <abhishekp> Thank you all ! :)
+[13:51:41] <parbhat> !
+[13:51:44] <kushal> mnw94, not all, but speaking full english words yes
+[13:51:44] <shockzp> kushal, and when how do i get the logs?
+[13:51:58] <Armageddon> shockzp: it will be in the /topic
+[13:51:59] <kushal> shockzp, there is a link in the channel topic
+[13:52:03] <kushal> next
+[13:52:16] <kushal> next
+[13:52:19] <mnw94> I got my answer, Thank You
+[13:52:23] <kushal> next
+[13:52:32] <kushal> next
+[13:52:42] <kushal> next
+[13:52:45] <novice-coder12> Can  we  keep two different irc channels,one for lesson and one for questions ? At one khushal can respond and at the other,Armageddo can.
+[13:52:47] <kanika04> do we need to learn something beforehand for this training ?
+[13:52:53] <PraveenK> is kubuntu okay for this?
+[13:52:56] <kushal> novice-coder12, we do not want that.
+[13:53:02] <kushal> PraveenK, yes
+[13:53:13] <shockzp> !
+[13:53:17] <novice-coder12> why so?
+[13:53:17] <kushal> kanika04, nope, you can learn along the sessions
+[13:53:27] <kanika04> okay
+[13:53:31] <kanika04> eof
+[13:53:33] <abhi_poo> !
+[13:53:36] <kushal> novice-coder12, so that it becomes a more tight community
+[13:53:44] <singharpit> !
+[13:53:46] <kushal> everyone knows each other
+[13:53:47] <prash07> when are the sessions gonna start ?
+[13:53:51] <kushal> we are  friends here.
+[13:53:54] <novice-coder12> ok eof
+[13:54:02] <kushal> prash07, like 1 hour ago
+[13:54:04] <kushal> next
+[13:54:06] <vimalrughani> can we have faq which solve queries, instead of wasting much time here, I am egar to learn from you. <eof>
+[13:54:35] <kushal> vimalrughani, I will make faq from these question here :) for next year.
+[13:54:38] <kushal> next
+[13:54:43] <NBharech> How are the classes going to be taken? as in through this text chatting or video ? and what timing
+[13:54:59] <vimalrughani> :) thanx..
+[13:55:06] <kushal> NBharech, text like these.
+[13:55:23] <kushal> vimalrughani, the spelling is Thanks according to the dictionary.
+[13:55:31] <NBharech> okay , and timings?
+[13:55:38] <PraveenK> !
+[13:55:41] <kushal> NBharech, IST evening times
+[13:55:45] <vimalrughani> sorry, I will take care of that.
+[13:55:48] <kushal> keep checking the list.
+[13:55:50] amitt001 is now known as amit001
+[13:55:54] <kundan> Can I use elementary os for the training?<eof>
+[13:55:55] <kushal> next
+[13:56:06] <stguin> seriously still i cant understand anything please help me
+[13:56:09] <dev212> Should we learn Github before in hand for these sessions ?Do we have to know all Linux command beforehand too ?
+[13:56:12] <kushal> kundan, sorry I do not know what is that.
+[13:56:16] <bagusaji> kundan: yes you can. luna supported until 2017 :D
+[13:56:23] <kushal> dev212, no.
+[13:56:34] <dev212> ok
+[13:56:38] <kushal> stguin, can you understand what I am writing here?
+[13:56:38] <bagusaji> elementary os luna = ubuntu 12.04
+[13:56:41] <puzzles__> !
+[13:56:59] <kushal> stguin, like write full English words here.
+[13:57:14] <stguin> yes
+[13:57:17] <dev212> Do you mean no to both of my questions kushal ?
+[13:57:18] <ron___> What all things will be taught in the lessons?
+[13:57:34] <gnovi> vimalrughani, It is not waste of time. All these things are important for a beginer like me.
+[13:57:37] <kushal> stguin, so like that just read what we are discussing
+[13:57:46] <kushal> dev212, no to both.
+[13:57:48] <kushal> next
+[13:58:08] <prajesh> !
+[13:58:11] <kushal> next
+[13:58:13] <shockzp> how many active sessions are there in a day(teaching sessions)? just one?
+[13:58:27] <acetakwas> hi all. Am I late?
+[13:58:27] <kushal> shockzp, generally one.
+[13:58:37] <shockzp> kushal, thankyou
+[13:58:38] <kushal> acetakwas, yes only 1 hour.
+[13:58:39] <kushal> next
+[13:58:43] <abhi_poo> In order to register by nickname in freenode, where exactly am i supposed to type this -' /msg nickserv register your_password your_email_address' command ??
+[13:58:49] <qfarjad> !
+[13:58:52] <PraveenK> Do we have to make any preparations for next session?
+[13:58:58] <D4rk> abhi_poo, in the same window.
+[13:59:11] <kushal> PraveenK, stop asking out of turn.
+[13:59:14] <alec> !
+[13:59:36] <acetakwas> one hour late...isn't he class for one hour alone?
+[13:59:36] <kushal> abhi_poo, in exact same place where you are typing now.
+[13:59:39] <kushal> next
+[13:59:41] <deccan> !!
+[13:59:43] <kushal> acetakwas, nopel
+[13:59:46] <kushal> next
+[13:59:50] <kushal> next
+[13:59:59] <kanika04> !
+[14:00:02] <PraveenK> Do we have to make any preparations for next session?
+[14:00:23] <acetakwas> sorry but what is 'nopel'?
+[14:00:25] <kushal> PraveenK, yes, I already pasted few links to read for the next session.
+[14:00:37] <core_7> !
+[14:00:39] <puzzles__> I've noticed this phrase: "eof" - what does it mean?
+[14:00:51] <deepak_sirone> end of file
+[14:00:52] <prajesh> what topics will be covered in these three months of training?
+[14:00:56] <kushal> acetakwas, no clue, where you saw it?
+[14:01:01] <acetakwas> can you post the links again for late comers?
+[14:01:01] <saaggy18> !
+[14:01:06] <kundan> how to compile and run c program
+[14:01:18] <kushal> acetakwas, at the end of the sessions yes
+[14:01:38] <kushal>  kundan http://www.catb.org/esr/faqs/smart-questions.html
+[14:01:41] <kushal> next
+[14:01:49] <puzzles__> deepak_sirone: what does end of file? What is it referring to.
+[14:01:53] <acetakwas> kushal: in the mailing list. someone said one hour
+[14:02:16] <prajesh> what topics will be covered in these three months?
+[14:02:24] <kushal> puzzles__, so that we can understand that he/she finished asking question, sadly no one using it still now
+[14:02:40] <kushal> prajesh, read the wiki link I gave before
+[14:02:43] <kushal> next
+[14:02:44] <qfarjad> Can I have a look at the source code for the bot (batul)? Am just curious, and would like to have a crack at improving/modifying it.
+[14:02:56] <qfarjad> <eof>
+[14:03:02] <core_7> !
+[14:03:09] <kushal> qfarjad, yes of course, we will add lot of more features
+[14:03:20] <qfarjad> I will be waiting for the link, thank you
+[14:03:22] <kushal> qfarjad, I will pass you the link after the event.
+[14:03:27] <kushal> next
+[14:03:30] <alec> Will be the time same for all the sessions ?
+[14:03:30] <amit001> !
+[14:03:43] <ace139> !
+[14:03:53] <puzzles__> kushal: thank you!
+[14:03:55] <lixxz> what has been covered up until now? i was late
+[14:03:58] <kundan>  will linux mint work for this ?
+[14:04:00] <kushal> alec, generally but the guest sessions can be at anytime, many of them will be from EU or USA
+[14:04:12] <vipsy> !
+[14:04:14] <kushal> lixxz, wait for the log at the end.
+[14:04:15] <kushal> next
+[14:04:19] <deepak_sirone> kushal , cool!
+[14:04:19] <bagusaji> kundan: yes. try linux mint 17 qiana
+[14:04:20] <kanika04> will i have a problem in today's session if i have fedora 18 ? may be till the next class i will be able to upgrade it.
+[14:04:23] <iamviknesh> i was not aware batul is a bot :P
+[14:04:24] <kundan> !
+[14:04:27] <alec> Will it be informed beforehand ?
+[14:04:32] <kushal> add: Armageddon
+[14:04:36] <kushal> alec, yes
+[14:04:38] <D4rk> damn it started again
+[14:04:41] <Armageddon> next
+[14:04:49] <kushal> next
+[14:04:56] <kushal> next
+[14:05:07] <Armageddon> next
+[14:05:10] <amit001> kushal please pass the bot code link in mailing list <eof>
+[14:05:14] <saaggy18> Someone already asked my question. so it's ok. eof
+[14:05:17] <kushal> amit001, ok.
+[14:05:20] <kushal> next
+[14:05:29] <ace139> can i also have the source code for the bot <eof>
+[14:05:32] <NBharech> !
+[14:05:33] <core_7> can you tell the timing of the next session?
+[14:05:45] <kundan> How do this IRC work exactly?
+[14:05:46] <kushal> core_7, tomorrow at the same time.
+[14:05:52] <core_7> !
+[14:05:56] <alec> amit001, what is bot code
+[14:05:56] <Armageddon> next
+[14:05:57] <kushal> kundan, answered already
+[14:05:59] <vipsy> so today is not the main class, just the communications class right?
+[14:06:00] <kushal> next
+[14:06:02] <tushraj> !
+[14:06:12] <Armageddon> vipsy: that is correct but this will help you for the next classes
+[14:06:25] <amit001> batul a bot (a script) so i am asking for its code
+[14:06:27] <kushal> vipsy, Communication is so much important that we teach that first.
+[14:06:28] <kundan> okk sir
+[14:06:29] <vipsy> <eof>
+[14:06:30] <kushal> next
+[14:06:31] <Armageddon> vipsy: the lessons you will learn during your homework from the links that kushal provided are crucial to continue
+[14:06:32] <NBharech> Is there an android mobile application for this IRC?
+[14:06:44] <kushal> kundan, do not call sir
+[14:06:48] <kushal> NBharech, nope.
+[14:06:50] <lixxz> so how will the training take place?
+[14:06:50] <kushal> next
+[14:06:56] <core_7> http://www.catb.org/esr/faqs/smart-questions.html is this the link to be read before the next session?
+[14:06:59] <bagusaji> NBharech: yes, you can search on playstore
+[14:07:02] <kushal> lixxz, like this now going on.
+[14:07:04] <kushal> next
+[14:07:08] <tushraj> will there be any statement of accomplishment at the end? and can a student can learn easily from the logs?eof
+[14:07:10] <kushal> core_7, yes.
+[14:07:13] <D4rk> NBharech, you can use AndriodIRC.
+[14:07:15] <amit001> alec batul a bot (a script) so i am asking for its code
+[14:07:17] <core_7> eof
+[14:07:23] <Armageddon> next
+[14:07:26] <kushal> tushraj, no, students should learn to read.
+[14:07:29] <NBharech> Great, thank you.
+[14:07:31] <lixxz> like this? okay
+[14:07:39] <alec> ok thanks amit001
+[14:07:40] <fossterer> NBharech:  Look at AndroIRC
+[14:07:58] <kushal> Remember, sometimes we can be very much sarcastic here.
+[14:08:06] <vipsy> Armageddon, Thank you for answering. I have already read IRC etiquettes by Shaktimaan (sorry for wrong spelling) and other documnets on IRC.
+[14:08:27] <kushal> and if you do anything stupid you might be kicked out, so be right back in after that
+[14:09:00] <iam_sudip> NBharech, Andchat is another option.
+[14:09:08] <Armageddon> vipsy: you should read these, you might learn something new
+[14:09:26] <kushal> I hope everyone is registered to IRC because after few days only registered and identified people will be able to talk.
+[14:09:36] <kushal> In this channel.
+[14:09:36] <lixxz> what exactly are we going to learn?
+[14:09:45] iam_sudip is now known as iamsudip
+[14:09:51] <pavan_priyatham> !
+[14:09:55] <kushal> lixxz, http://wiki.dgplug.org/index.php/SummerTraining
+[14:10:00] <kushal> next
+[14:10:08] <NBharech> Iamsudip , yeah, AndChat seems better ! better reviews
+[14:10:24] <vipsy> Armageddon, The links kushal provided above or the ones he 'will' be providing?
+[14:10:40] <pavan_priyatham> what is the chat used in linux? Is it something different from this page?
+[14:10:45] <kushal> vipsy, the ones already provided.
+[14:10:49] <Armageddon> vipsy: at the beginning of the session about etiquette
+[14:10:53] <iamsudip> NBharech, Yeah! It's pretty stable.
+[14:10:57] <kushal> pavan_priyatham, you can use xchat
+[14:11:12] <kushal> pavan_priyatham, google about using xchat.
+[14:11:24] <kushal> Ok, something different
+[14:11:54] <abhishekp> pavan_priyatham: You could also use Chatzilla - it is an addon for Firefox
+[14:12:07] <prash07> is this just query based sessions or anyone's gonna teach us  anything specific ?
+[14:12:12] <core_7> !
+[14:12:19] <kushal> Everyone type their full name and one line about yourself, I will ask  the names one by one and if I miss you go ahead and write about yourself.
+[14:12:55] <kushal> Kushal Das, I am one of organizer here, a CPython core developer.
+[14:12:57] <singharpit> Arpit Singh
+[14:13:08] <prash07> prashasth baliga here.. an enthusiast in coding and open source from BNMIT,bangalore
+[14:13:12] <kushal> singharpit, wait for your turn
+[14:13:29] <prash07> oops sorry
+[14:13:34] <kushal> abhaykrish, please tell us about yourself.
+[14:13:39] <abhaykrish> Abhay Krishnan,engineering student,kerala
+[14:13:49] <kushal> abhi_poo, go ahead.
+[14:13:53] <donniezazen> Sudhir Khanger, I am currently trying become an Android app developer. I already know Java and am learning C++.
+[14:14:05] <jphollanti> Juha Hollanti. Developer by vocation, cloud and virtualization enthusiast.
+[14:14:06] <kushal> donniezazen, wait for your turn.
+[14:14:17] <prash07> wait for your turn guys
+[14:14:20] <qfarjad> Qazi Farjad, I am an UnderGrad from NUST, Pakistan
+[14:14:20] <prajesh> prajesh rawat, a self motivated person looking for a platform for coding and open source.
+[14:14:23] <kushal> abhaykrish,
+[14:14:35] <kushal> ace139,
+[14:14:37] <ace139> Soumyo Dey, Up for any new learning experience and challenges
+[14:14:41] <kushal>  acetakwas
+[14:15:00] <kushal> remember to say where are you from.
+[14:15:03] <kushal> ad
+[14:15:05] <kushal> alec
+[14:15:07] <ad> Adhyan srivastava,Student,Jamia millia islamia
+[14:15:08] <kushal> amit001,
+[14:15:11] <kushal> amittima,
+[14:15:18] <amit001> Amit Tripathi from New Delhi - i love mountains, coding and Internet.
+[14:15:23] <kushal> AndChat|650601, AndChat|81776
+[14:15:26] <kushal> aniket,
+[14:15:29] <kushal> Anna,
+[14:15:36] <kushal> anuragkr,
+[14:15:41] <kushal> Armageddon,
+[14:15:41] <amittima> Amit kumar engineering student from jharkhand
+[14:15:46] <yeshi> Yeshita Dutta
+[14:15:59] <core_7> Athul Krishna ,  Engineering student at Amrita School of enginnering,Kerala,India
+[14:16:01] <kushal> arun3q,
+[14:16:02] <Armageddon> Elijah
+[14:16:10] <kushal> arushi,
+[14:16:16] <kushal> arushi_,
+[14:16:19] <kushal> Azharh,
+[14:16:22] <arushi_> arushi goyal , nit durgapur , btech 3rd year
+[14:16:22] <kushal> bagusaji,
+[14:16:23] <Azharh> Azhar Hussain student at MIT Manipal, stay in Delhi Foss enthusiast
+[14:16:25] <div25> has training started?
+[14:16:26] <bagusaji> Bagus Aji Santoso, student of computer science education of Indonesia University of Education. I come from Bandung - Indonesia.
+[14:16:36] <kushal> bann,
+[14:16:38] <abhishekp> Abhishek Potnis, I am from Mumbai, interested in webdev and open source. I code contribute to Mozilla Firefox. Will be pursuing my MTech in Geoinformatics from IIT Bombay starting this July.
+[14:16:41] <kushal> bnprk,
+[14:16:53] <kushal> chandan_kumar, chandan_kumar_
+[14:16:55] <chandan_kumar_> Chandan Kumar, I am a OpensStack and KDE contributor, currently works at Red Hat, pune.
+[14:16:57] <kushal> chaudhary_,
+[14:17:03] <kushal> codaholic,
+[14:17:04] <bann> Ankit Bhutwala from Gujarat , working as Linux System Administrator
+[14:17:07] <kushal> core_7,
+[14:17:10] <codaholic> Anjali, Computer Science Engineering Student. I'm from New Delhi.
+[14:17:22] <kushal> CuriousLearner,
+[14:17:25] <CuriousLearner> Sanyam Khurana, I'm a Computer Science enthusiast & Engineering Student from Delhi, India. Always want to know more about computer stuff. I'm able to code in C/C++/Python (basics) /HTML/CSS/JS (basics). Hope to learn about Open Source stuff here and gain knowledge <eof>
+[14:17:26] <kushal> D4rk,
+[14:17:30] <yodebu> Debapriya, CS student from NIT DGP
+[14:17:31] <Armageddon> My name is Elijah. I am a systems engineer. I work with scripts, linux servers, windows servers, zenoss, puppet and virtualziation. I learned python, here, last year and it was crucial to my job. I write python scripts to automate my work flow everyday. I am also a Gentoo contributor and the open source community.
+[14:17:39] <kushal> dahl007,
+[14:17:42] <kushal> Datta,
+[14:17:44] <dahl007> Michael Dahl from Reno, Nevada, USA - Linux Systems Administrator wanting to learn about Python
+[14:17:47] <kushal> deccan,
+[14:17:54] <deccan> Rupitha ,Engineering student at Amrita School of Engineeriing.
+[14:17:54] <core_7> Athul Krishna N S , Engineering Student at Amrita School of engineering Kerala,India.I am a newbie to OpenSource
+[14:17:57] <kushal> deepak7514,
+[14:18:00] <alec> Sreelakshmi , i'm from Amrita School Of engineering,Kerala
+[14:18:02] <kushal> deepak_sirone,
+[14:18:04] <Datta> Venkat Datta,Enginnering Student,Bangalore,Currently working on AI
+[14:18:10] <deepak_sirone> deepak sirone , nit calicut , helped in conducting open source events in college but never contributed to any project :)
+[14:18:14] <kushal> deepsa,
+[14:18:22] <kushal> dev212,
+[14:18:28] <kushal> devyani,
+[14:18:31] <kushal> dharmit,
+[14:18:34] <abhi_poo> Abhishek Poojary , CS Engineering student from Fr. Agnel, Bandra,Mumbai. Keen to learn web development.
+[14:18:36] <kushal> Dhriti,
+[14:18:38] <Dhriti> Dhriti Shikhar, 3rd year engineering student and coding enthusiast from Pune
+[14:18:41] <kushal> digisec,
+[14:19:04] <Armageddon> kushal: that's the other me
+[14:19:14] <stguin> Satam Guin, CSE Engineering student from NIT Durgapur
+[14:19:14] <devyani> Devyani, am a third year student studying Computer Sc. and engineering in Durgapur. Am a open source contributor and love to code. :)
+[14:19:15] <kushal>  div25
+[14:19:22] <kushal> donniezazen,
+[14:19:27] <kushal> dropped,
+[14:19:33] <deepak7514> deepak netaji subhash institute of technology(nsit) 2nd year
+[14:19:34] <yodebu> I am a newbie to Open Source
+[14:19:36] <kushal> droy,
+[14:19:42] <kushal> eeshangarg,
+[14:19:46] <ace139> Soumyo Dey,Dr.B.C.Roy Engineering College, Durgapur. Up for any new learning experience and challenges
+[14:19:48] <kushal> elacheche,
+[14:19:49] <eeshangarg> Eeshan Garg. High school student from Punjab. OpenHatch contributor. :)
+[14:19:56] <kushal> elita15__,
+[14:19:59] <kushal> fewcha,
+[14:20:01] <kushal> fossterer,
+[14:20:03] <kushal> gnovi,
+[14:20:05] <gnovi> Praveen Patil, I am a Physics Teacher and a free software enthusiast. I am from Belgaum, India. I work as a volunteer for ExpEYES Project http://www.expeyes.in/
+[14:20:05] <kushal> hari510,
+[14:20:06] <dev212> Dhanya , 2nd year CSE , Amrita School of Engineering , Kerala . I am new to contribution .
+[14:20:07] <hari510> Hari Kiran, I am from hyderabad,currently working as a hadoop developer at datametica in pune.
+[14:20:07] <arun3q> Arun kumar yadav, ECE student from greater noida , new to open source
+[14:20:08] <fossterer> I am Shashank Sabniveesu, a Masters student in Computer Science, USA. Currently I fix bugs for Mozilla project. Love Object-oriented Programming a lot
+[14:20:08] <kushal> harsha_,
+[14:20:27] <donniezazen> Sudhir Khanger, I am currently trying become an Android app developer. I already know Java and am learning C++. I currently live in Bhopal.
+[14:20:28] <kushal> hc_,
+[14:20:31] <kushal> heena,
+[14:20:34] <kushal> hemanth_shiva,
+[14:20:37] <kushal> iamsudip,
+[14:20:39] <fewcha> Sanjiban Bairagya. Final year, NIT Durgapur, developer in KDE
+[14:20:41] <kushal> iamviknesh,
+[14:20:46] <kushal> invincible_b,
+[14:20:48] <invincible_b> i am ajinkya bhosale , web developer , python  , GNU/Linux enthusiast from Pune
+[14:20:49] <kushal> jphollanti,
+[14:20:52] <yodebu> hey anybody ... gimme settings to run mIRC behind proxy, using Ubuntu14.04 lts
+[14:20:54] <kushal> kanha,
+[14:20:56] <iamviknesh> I am Vikneshwar , i am a 2014 BE-CSE graduate from Chennai ,  Contributing to firefox is my hobby
+[14:21:03] <jphollanti> Juha Hollanti. Developer by vocation, cloud and virtualization enthusiast. I come from Helsinki, Finland.
+[14:21:07] <kushal> kanika04,
+[14:21:20] <kushal> kaustavdm,
+[14:21:24] <kushal> kdas_, is me
+[14:21:28] <kushal> korak1,
+[14:21:31] <kushal> koushik,
+[14:21:34] <koushik> Koushik Bag, Engineering student and love coding.
+[14:21:34] <kushal> ksinny_,
+[14:21:40] <kushal> lambda1,
+[14:21:40] <korak1> Korak Ghosh ,a Computer Science and Engineering  student in Durgapur. Am an open source contributer and love to code.... :)
+[14:21:42] <kushal> liara,
+[14:21:53] <kanika04> kanika narang from gurgaon. i have just completed my class 12 and looking forward to pursue engineering in comp science.
+[14:21:54] <kushal> lixxz,
+[14:21:55] <lixxz> Yasharth Choudhary(you try pronouncing that :D) from Delhi,passed 12th this year.I already know C/C++,HTML,CSS,Python(basics).
+[14:21:56] vivek- is now known as Guest31062
+[14:22:07] <kushal> madangel,
+[14:22:08] <madangel> I am Aparna,first year Btech student from Kerala and i am new to open source
+[14:22:11] <kushal> mapyth,
+[14:22:13] <yodebu> hello, please gimme settings to run mIRC behind proxy, using UBUNU !$>)$
+[14:22:16] <kushal> marienz,
+[14:22:26] <marienz> hmm?
+[14:22:27] <_krash> kushal:you left me
+[14:22:28] <kushal> yodebu,one session is going on.
+[14:22:32] <kushal> _krash,
+[14:22:34] <marienz> we keep missing each other, pesky timezones
+[14:22:36] <kushal> _krash, sorry.
+[14:22:41] <mapyth> Mayank! from durgapur! :D
+[14:22:51] <kushal> mbuf,
+[14:22:54] <kushal> meet,
+[14:22:57] <meet> meet from Pune, Maharashtra, India. recently completed my engineering; joining tavisca solutions from this week as a developer; got passion for sports, music, games, programming and linux. also a translator for linux mint.
+[14:23:02] <kushal> megansquire,
+[14:23:06] <kushal> mnw94,
+[14:23:09] <kushal> mr1holmes,
+[14:23:10] <mr1holmes> Chirag Chauhan, Programmer,Dreamer from  Ahmedabad, Gujarat
+[14:23:12] sayan is now known as Guest53357
+[14:23:18] <mbuf> Shakthi Kannan, shakthimaan.com
+[14:23:19] <kushal> NBharech,
+[14:23:23] <mnw94> Mayuresh Waykole from Pune
+[14:23:24] <kushal> nithinr,
+[14:23:28] <nithinr> Nithin Raj, Engineering student at Amrita School of Engineering, Kerala,
+[14:23:34] <annesha> i maybe missed out my roll-call because of my flickering internet connection. Sorry to interrupt,I am Annesha Chowdhury ,A engineering student from Kolkata and new to open source.
+[14:23:34] <kushal> Nonia,
+[14:23:34] ksinny_ is now known as ksinny
+[14:23:36] <kushal> novice-coder12,
+[14:23:45] <_krash> its ok :) Kaushal Gupta,just finished my engineering,looking for opportunities to excel
+[14:23:46] <kushal> orriols,
+[14:23:51] <kushal> p0ker,
+[14:23:54] <kushal> papiya,
+[14:24:00] <kushal> parbhat,
+[14:24:02] <ksinny> I am sinny, working in Red Hat and contributes to KDE during free time
+[14:24:04] <kushal> pavan_priyatham,
+[14:24:07] <papiya> Papiya Sen, a 3rd year IT student from Dr. B.C. Roy Engineering College, Durgapur.
+[14:24:07] <parbhat> 2nd year CSE student at Shri Mata Vaishno Devi University,j&k. Love python,web development
+[14:24:07] <kushal> Poornima,
+[14:24:19] <kushal> prahladh,
+[14:24:22] <kushal> prajesh,
+[14:24:28] <kushal> Prasad,
+[14:24:28] <prahladh> Athira ,Engineering student at Amrita School of Engineeriing,KERALA
+[14:24:29] <prajesh> prajesh rawat , i completed my engineering last month from sharda university, New delhi and now i am looking for a platform to enhance my coding skills.
+[14:24:30] <kushal> prash07,
+[14:24:37] <Prasad> prasad
+[14:24:52] <Poornima> Poornima Kshirsagar had done BE & MBA in computer Management from pune, Have knowledge of Bash shell scripting would like to contribute to open source community beginner in python :-)
+[14:24:58] <kushal> prash_,
+[14:25:00] <kushal> pratik,
+[14:25:03] <kushal> praveen,
+[14:25:04] <pratik> Pratik Saraf, engineering student, KJSCE Mumbai.
+[14:25:06] <dharmit> dharmit shah, I live in Pune. Would like to get started with contributing to FOSS projects.
+[14:25:08] <prash07> prashasth baliga , 3rd year cse student in BNMIT ,bangalore
+[14:25:08] <kushal> PraveenK,
+[14:25:12] <PraveenK> Praveen K, an engineering student. I wish to get more familiarized with IRC and people working with different organizations.
+[14:25:13] <iamsudip> Sudip Maji, from Durgapur WB. In final year of B. Tech. Working with profoundis labs. Very passionate about Open source and love python.
+[14:25:27] <kushal> donniezazen,
+[14:25:29] <novice-coder12> Niharika ,a 3rd year engg. student,new to open source. Feeling good to see people from different fields,looking forward to a great community.
+[14:25:33] <kushal> preludelinux,
+[14:25:37] <kushal> puzzles__,
+[14:25:40] <kushal> qfarjad,
+[14:25:43] <kushal> rahulNonia,
+[14:25:43] <qfarjad> Qazi Farjad, I am an UnderGrad from NUST, Pakistan. Enthusiastic about coding, and have a strong desire to add value to the world. Technical Interests: Machine learning, Artificial Intelligence.
+[14:25:47] <kushal> ramsan,
+[14:25:51] <puzzles__> Leena P, a beginner level student interested in learning about python, Linux, IRC and open source. Location, East Coast US
+[14:25:58] <donniezazen> Sudhir Khanger, I am currently trying become an Android app developer. I already know Java and am learning C++. I am from Bhopal.
+[14:26:03] <Prasad> Prasad mhatre,studying in G.h .raisoni COE,pune,4th year CS Engineering
+[14:26:09] <kushal> sa_,
+[14:26:12] <sa_> Afsheen nazish.I am a computer science engineering student from west bengal
+[14:26:13] <kushal> sagarkrkv,
+[14:26:16] <kushal> samikshan,
+[14:26:19] <kushal> samyak,
+[14:26:19] <pavan_priyatham> pavan priyatham, cse 2nd year IIT(BHU) varanasi,I really love python also want to learn something about open source in my vacation
+[14:26:23] <kushal> satarupa,
+[14:26:28] <kushal> Sawoni,
+[14:26:31] <kushal> senju,
+[14:26:32] <Sawoni> Sawoni DebRoy, Final year student from Annamalai University, Chidambaram, TamilNadu. Windows Application developer. Willing to step into open source world. :) <eof>
+[14:26:33] <senju> Vikash patil, 1st year engineering, BITS pilani goa, newbie to open soucre world, i like coding, anime
+[14:26:34] <kushal> Shankho,
+[14:26:39] <satarupa> Satarupa Sinha , a computer science engineering student in Dr.B C Roy Engineering college in Durgapur
+[14:26:41] <kushal> shantanu,
+[14:26:49] <sagarkrkv> Vidya Sagar, CS undergrad Student from JNTU Hyd
+[14:27:06] <kushal> shilpi,
+[14:27:10] <kushal> shiminsh,
+[14:27:12] <kushal> shockzp,
+[14:27:14] <shockzp> Shakul Ramkumar, doing BE at PES-U,Karanataka,India . I love to code and eat :P <eof>
+[14:27:15] <kushal> shonx,
+[14:27:21] <ramsan> ramsan, Ram Sandesh,second year M.tech in Cyber Security and Networks,Amrita School of Engineering.
+[14:27:22] <kushal> shrees,
+[14:27:29] <kushal> Siddhant,
+[14:27:31] <shrees>  I am Shikha Shree. Completed my B.tech last month fro NSEC, Kolkata in EIE discipline, new to open source, started my contribution from Mediawiki Foundation.
+[14:27:33] <rahulNonia> I'm rahul kumar nonia, Dr. B.C. Roy engineering college, durgapur. cse department, 1st year
+[14:27:35] <kushal> simpleirc1,
+[14:27:38] <kushal> singharpit,
+[14:27:40] <shilpi> shilpi shukla,CSE student,durgapur
+[14:27:41] <singharpit> Arpit Singh,Executive Member at the GNU Linux users group Nit durgapur ,a btech  2nd year cse  student at Nit durgapur,from Ahmedabad India
+[14:27:45] <orriols> Arnau Orriols, I was a lost music student who got enlightened by this course last summer. Now I'm working as a backend engineer for a couple of companies, using all the power Python can give to me :)
+[14:28:08] <kushal> Siddhant, What is Executive member?
+[14:28:09] <bnprk> Binay Pareek, from Dr. B.C. Roy Engineering College,Durgapur.3rd year,I.T. department.
+[14:28:12] <Shankho> Shankho Ghosh , EEE branch but interested in coding. Project was about Face recognition. Intend to pursue it in my free time right now. Started "Teach Yourself Java in 21days" book
+[14:28:25] <shiminsh> Kumari Shalini , a 3rd year computer science and engineering student in Dr. B C ROY Engineering College
+[14:28:29] <kushal> sivteck,
+[14:28:30] <sivteck> Sivaram Balakrishnan, I am a Mechanical Engineer from Trichy, India. Using GNU/Linux since 2006 and never contributed ;[
+[14:28:33] <kushal> sj13,
+[14:28:37] <sj13> Shubheksha Jalan- CSE student and enthusiast- Always keen to learn more about programming and open source. From Manipal.
+[14:28:41] <singharpit> it was me not siddhant
+[14:28:43] <kushal> skoushik,
+[14:28:45] <kushal> SpeedBus,
+[14:28:46] <skoushik> Koushik S, Engineering Student from Bangalore. Krita/KDE contributor.
+[14:28:48] <kushal> stguin,
+[14:28:50] <stguin> Satam Guin a student of B.Tech 4th year from NIT Durgapur
+[14:28:53] <kushal> sukanya,
+[14:28:56] <Siddhant> Siddhant Agarwal, Final Year CSE student from University of Petroleum & Energy Studies,Dehradun. Android App developer alongwith knowledge of J2EE and C++. Interested in Python developement.
+[14:28:56] <kushal> sukanya,
+[14:28:58] <kushal> surabhi,
+[14:29:02] <kushal> tenstormavi,
+[14:29:04] <kushal> titli,
+[14:29:05] <tenstormavi> Avinash Kumar Dasoundhi, a 3rd year student of computer science in Dr B.C. Roy Engineering college, Durgapur. Currently i am an intern in a startup company of bangalore and an open source contributor.
+[14:29:06] <kushal> tjc,
+[14:29:07] <surabhi> Surabhi , computer science engineering student , Durgapur
+[14:29:11] <kushal> tkkr6895,
+[14:29:15] <tkkr6895> Trishal Kumar. Tech Head,Android Developer, Foodie, Debator, second year ISE Student at PES University, Bangalore. <eof>
+[14:29:15] <kushal> Trutunz,
+[14:29:17] <titli> Titli Das , MCA student from HITK, Kolkata,India.
+[14:29:18] <kushal> tushraj,
+[14:29:21] <tushraj> Tushar Rajput, I am a python neophyte and wants to learn more. Engineering student.New Delhi,India.
+[14:29:23] <kushal> vaishal,
+[14:29:24] <vaishal> Vaishal Shah,Electronics and Instrumentation student at BITS-Pilani from Ahmedabad,Gujarat but interested in coding a lot. I am new to open-source .
+[14:29:27] <kushal> vimalrughani,
+[14:29:29] <vimalrughani> Vimal Rughani,  Open Source Developer - Learning / working on PHP, Android, Python, Django , OpenERP and creative writer of pulse7.net blog - From Rajkot, Gujara, India
+[14:29:30] <kushal> vipsy,
+[14:29:32] <kushal> yeshi,
+[14:29:32] <vipsy> Vipul Bansal, Electrical & Electronics Undergrad (Final Year), Lucknow. Learning to rotate motors by day, coding for the rest. Would love to contribute to the web.
+[14:29:35] <kushal> yodebu,
+[14:29:37] <kushal> yogesh,
+[14:29:39] <kushal> yogesh,
+[14:29:43] <kushal> yogi,
+[14:29:43] <yogi> Yogeshwar Dan Charan, Third year B.Tech Student  at  Netaji Subhas Institute of Technology,New Delhi,Interested in Python, Django and Linux
+[14:29:46] <kushal> zhean1874,
+[14:29:49] <kushal> zishan,
+[14:29:51] <zhean1874> hean zhu,comes from China.Computer Science major,have just finished my first year in college.
+[14:29:54] <zishan> Sheesh Mohsin, 3rd year CSE student from Dr. B. C. Roy Engineering college, Durgapur
+[14:30:10] <kushal> Anyone left?
+[14:30:15] <yodebu> yodebu, Debapriya Das, Computer Science Student NIT DURGAPUR, n00b in open source
+[14:30:19] <Guest31062> Vivek Jhaver - Final year CSE student from VNIT Nagpur; Currently working on python based project as part of internship and learning about linux kernel
+[14:30:29] <Anna> Anna, Senior at MIT-AU FOSS newbie
+[14:30:36] <kushal> Guest31062, register a nick
+[14:30:41] <yeshi> I am Yeshita Dutta, BTECH student from kolkata.new to open source
+[14:30:57] <kushal> Anyone left?
+[14:30:59] <siddharth185>  Siddharth, EI student from UPTU currently interning in Porto, Portugal.Working in Machine learning.Want to contribute to Open Source and become a better coder.
+[14:31:13] <kushal> Few more points
+[14:31:17] <kundan> why do not run exe file in fedora?
+[14:32:01] <rahulmishra> Rahul Mishra, CSE passout from NSEC kolkata, FOSS lover and computer enthusiast.
+[14:32:07] <dahl007> !
+[14:32:12] <kushal> next
+[14:32:15] <kushal> next
+[14:32:22] <kundan>  /msg NickServ identify sunny@5
+[14:32:26] <Poornima> !
+[14:32:38] <kushal> kundan, now change your password
+[14:32:38] <yodebu> !
+[14:32:44] <amit001> kundan space
+[14:32:44] <dahl007> Because exe files are for windows and will not run in Linux
+[14:32:46] <abhishekp> kundan: remove the space before the'/'
+[14:32:56] <kushal> kundan, ^^
+[14:32:58] <sukanya> Hello, I am Sukanya, a foss enthusiast and final year engineering student.
+[14:33:08] vivek is now known as Guest61751
+[14:33:08] <kushal> Let me go through few points
+[14:33:16] <kushal> Please come online on time.
+[14:33:32] <kundan> why do not run exe file in fedora?
+[14:33:34] <qfarjad> <kushal>
+[14:33:38] <puzzles__> !
+[14:33:45] <kanika04> !
+[14:33:47] <madangel_> when do we have to come online next?
+[14:33:54] <kundan> !
+[14:34:09] <kushal> Few people are here with lot of experience, for them these first few sessions will be very simple  but we need them for new people
+[14:34:10] <harsha_> harsha, engineering student at Dr B.C.Roy Engineering college,Durgapur,India
+[14:34:26] <ramsan> #kundan Because exe files are for windows and will not run in Linux
+[14:34:36] <kushal> Please help others here, your experience will help us to grow together.
+[14:34:55] <yogesh> Yogesh Chaudhari - I'm from Pune. B.E. passout. Love computers and love programming!!
+[14:34:59] <kundan> why ?
+[14:35:06] <singharpit> !
+[14:35:14] <Armageddon> kundan: why what ?
+[14:35:15] <meet> kundan: please try googling first. I don't think this is the channel to discuss this.
+[14:35:16] <kundan> !
+[14:35:20] <kushal> kundan, google for difference between linux and windows
+[14:35:26] <kushal> next
+[14:35:35] <Poornima> do we have this sessions on weekly basis ? where can I get the schedule and timings for next session
+[14:35:38] <hemanth_shiva> I am Hemanth, a 3rd year Computer science and engineering student from SASTRA University.
+[14:35:43] <abhishekp> kundan: This may help. http://superuser.com/questions/209703/why-wont-windows-exes-work-on-linux
+[14:35:53] <kushal> Poornima, every weekday sessions will be there.
+[14:35:57] <kushal> next
+[14:36:07] <Poornima> kushal, timings ?
+[14:36:12] <yodebu> my xchat client is not connecting
+[14:36:15] <yogi> !
+[14:36:17] <yodebu> i am behind proxy
+[14:36:20] <yodebu> any help?
+[14:36:27] <kushal> Poornima, 6:30pm
+[14:36:31] <kushal> yodebu, google :)
+[14:36:34] <kushal> next
+[14:37:02] <kushal> next
+[14:37:04] <Poornima> kushal, thank you !
+[14:37:04] <kushal> next
+[14:37:11] <kanika04> got my answer
+[14:37:14] <kushal> next
+[14:37:17] <singharpit> how do i register nick on pidgin
+[14:37:20] <puzzles__> I am in a different time zone. If I have to leave class early, should I announce it mid class?
+[14:37:34] <kushal> singharpit, commands are same in every client
+[14:37:42] <prajesh> !
+[14:37:49] <kushal> puzzles__, yes, just say that and go offline :)
+[14:37:58] <singharpit> can you please give the commands and steps
+[14:37:58] <kushal> next
+[14:38:01] <yogi> can we have a list of all those members who had done this earlier?so,we can interact with them once session is over.
+[14:38:13] <puzzles__> kushal: thank you!
+[14:38:14] <kushal> next
+[14:38:18] <amit001> singharpit google
+[14:38:25] <puzzles__> !
+[14:38:27] <kushal> yogi, stay in the channel and talk
+[14:38:30] <kushal> no rules
+[14:38:31] <kushal> next
+[14:38:32] <prajesh> i hope the timings are not flexible....are they?
+[14:38:38] <D4rk> !
+[14:38:41] <tushraj> Sorry gotta go !
+[14:38:59] <kushal> prajesh, first do not use .... , every time you do that a cat dies.
+[14:39:01] <NBharech> sorry guys, i got disconnected! damn Powercut !
+[14:39:05] <kundan> how to run c program in fedora ?
+[14:39:12] <yodebu> compile it
+[14:39:13] <lixxz> what is the approximate duration of one session?
+[14:39:18] <kushal> kundan, there is nice site called google.com
+[14:39:20] <NBharech> Nishesh Bharech , PES University, Bangalore !
+[14:39:31] <kushal> kundan, use that.
+[14:39:34] <kushal> next
+[14:39:36] <puzzles__> During class, will we need access to our computer? For example, today I am participating on IRC via a tablet and will complete assignments on my desktop.
+[14:39:49] <yogi> kushal,sorry sir,my typing speed is slow!
+[14:39:56] <shockzp> !
+[14:39:59] <prajesh> answer to my question?
+[14:40:03] <kushal> puzzles__, for many sessions you will need a linux distro.
+[14:40:17] <kushal> prajesh, nope, timings depends on each session.
+[14:40:18] <iamviknesh> singharpit: http://deadlytechnology.com/linux/irc-on-ubuntu/
+[14:40:19] <kushal> next
+[14:40:22] <D4rk> I missed to give my introduction, kushal can i still share it?
+[14:40:24] <lixxz> what is the approximate duration of one session?
+[14:40:27] <puzzles__> kushal: thank you! I will plan accordingly :)
+[14:40:40] <kushal> next
+[14:40:50] <kushal> yogi, do not call us sir.
+[14:41:03] <kushal> yogi, we are not your college teacher.
+[14:41:04] <Poornima> !
+[14:41:04] <kushal> next
+[14:41:05] <yogi> kushal,sure!
+[14:41:10] <shockzp> how so we get to know when todays session has ended?
+[14:41:12] <kushal> D4rk, go ahead.
+[14:41:18] <Poornima> how do i start with python
+[14:41:22] <kushal> shockzp, when I say that.
+[14:41:28] <D4rk> Heya friends this is Rohit from Indore am working as an security consultant and have currently achieved My OSCP Certification.
+[14:41:30] <kushal> Poornima, google.com
+[14:41:37] <kushal> next
+[14:41:39] <Shankho> !
+[14:41:42] <kushal> next
+[14:41:45] <meet> !
+[14:41:53] <shockzp> kushal, okay.
+[14:41:55] <madangel_> !
+[14:41:57] <yogi> !
+[14:42:02] <kundan> okey.
+[14:42:02] <kushal> next
+[14:42:05] <kushal> next
+[14:42:14] <Shankho> I am logged in with two user ids. one  I have registered
+[14:42:14] <madangel_> when do i have to come online next?
+[14:42:16] <meet> duration of the course? (dates)
+[14:42:17] <Poornima> kushal, done with basics from google python.org ;) how to proceed ahead ?
+[14:42:34] <kushal> madangel_, tomorrow same time.
+[14:42:56] <kushal> Poornima, it is very nicely explained in the tutorial or wait for our python sessions.
+[14:42:57] <kushal> next
+[14:42:59] <yogi>  can we have a list of all those members who had done this earlier?so,we can interact with them once session is over.
+[14:42:59] <Poornima> kushal, want to be specific to understand writing code now
+[14:43:04] <kushal> Shankho, that is ok
+[14:43:11] <kushal> you can group them.
+[14:43:23] <meet> !
+[14:43:25] <kushal> Poornima, read the documents then.
+[14:43:27] <kushal> next
+[14:43:30] <meet> duration of the course? (dates)
+[14:43:34] <Poornima> kushal, okay when will be the python session
+[14:43:52] <kushal> yogi, just talk here after the sessions, people will be here.
+[14:43:58] <kushal> Poornima, no dates yet.
+[14:44:00] <kushal> next
+[14:44:02] <yogi> sure<eof>
+[14:44:09] <kushal> Any other question?
+[14:44:14] <iamviknesh> Poornima: http://goo.gl/HAPgAi
+[14:44:24] <yogi> No
+[14:44:29] <kundan> no
+[14:44:32] <shilpi> !
+[14:44:32] <kushal> So, roll call
+[14:44:39] <kushal> shilpi, ask
+[14:44:43] <Poornima> iamviknesh, thanks
+[14:44:57] <shilpi> where can i get the logs?
+[14:44:58] <bnprk> Binay Pareek
+[14:45:00] <zishan> Sheesh Mohsin
+[14:45:01] <Shankho> !
+[14:45:01] <Shankho> What is ping timeout
+[14:45:05] <shiminsh> Kumari Shalini
+[14:45:11] <kushal> shilpi, check the /topic
+[14:45:13] <mnw> Mayuresh Waykole
+[14:45:14] <iamviknesh> Vikneshwar
+[14:45:15] <satarupa> Satarupa Sinha
+[14:45:16] <fossterer> Shashank Sabniveesu
+[14:45:16] <nithinr> nithin raj
+[14:45:16] <kushal> Kushal Das
+[14:45:17] <abhaykrish> Abhay Krishnan
+[14:45:17] <jphollanti> Juha Hollanti
+[14:45:19] <devyani> Devyani
+[14:45:21] <dahl007> Michael Dahl
+[14:45:23] <singharpit> Arpit Singh
+[14:45:23] <D4rk> Shankho, Google google
+[14:45:23] <tkkr6895> Trishal Kumar
+[14:45:23] <eeshangarg> Eeshan Garg
+[14:45:23] <titli> Titli Das
+[14:45:23] <hari510> Hari Kiran
+[14:45:25] <kanika04> kanika narang
+[14:45:25] <Datta> Venkat Datta
+[14:45:26] <sivteck> Sivaram Balakrishnan
+[14:45:27] <annesha> Annesha Chowdhury
+[14:45:28] <Azharh> Azhar Hussain
+[14:45:28] <NBharech> Nishesh  Bharech
+[14:45:28] <surabhi> kumari surabhi
+[14:45:29] <lixxz> Yasharth Choudhary
+[14:45:29] <gnovi> Praveen Patil
+[14:45:29] <tenstormavi> Avinash Kumar Dasoundhi
+[14:45:30] <deepak_sirone> Deepak Sirone
+[14:45:31] <Dhriti> Dhriti Shikhar
+[14:45:31] <amit001> Amit Tripathi
+[14:45:39] <yodebu> Debapriya Das
+[14:45:40] <yogi> Yogeshwar Dan Charan
+[14:45:43] Guest31062 is now known as vjhaver
+[14:45:46] <parbhat> Parbhat Puri
+[14:45:48] <ad>   Adhyan srivastava
+[14:45:50] <heena> Heena Kaushar
+[14:45:53] <codaholic> Codaholic
+[14:45:53] <harsha_> Harsha
+[14:45:54] <AndChat|81776> koushik bag
+[14:45:54] <kushal> See so many people are not reading this channel :)
+[14:45:56] <puzzles__> Leena P
+[14:45:57] <_krash> Kaushal Gupta
+[14:45:58] <papiya> Papiya Sen
+[14:45:59] <rahulmishra> Rahul Mishra
+[14:46:00] <Sawoni> Sawoni DebRoy
+[14:46:01] <prajesh> prajesh rawat
+[14:46:05] <vjhaver> Vivek Jhaver
+[14:46:08] <korak1> Korak Ghosh
+[14:46:09] <senju> Vikash Patil
+[14:46:09] <zhean1874> hean zhu
+[14:46:11] <arushi> arushi goyal
+[14:46:12] <D4rk> Rohit Asoliya
+[14:46:12] <shockzp> shockzp
+[14:46:17] <madangel_> mad angel
+[14:46:20] <vaishal> Vaishal Shah
+[14:46:21] <liara> liara
+[14:46:29] <Armageddon> Elijah
+[14:46:29] <rohivarkey> Rohit Varkey Thankachan.
+[14:46:33] <yeshi> Yeshita Dutta
+[14:46:37] <div25> divyansh sharma
+[14:46:38] <shockzp> Shakul Ramkumar
+[14:46:43] <sagarkrkv> vidya sagar
+[14:46:43] <iamsudip> Sudip Maji
+[14:46:44] <abhishek> Abhishek Banerjee
+[14:46:45] <donniezazen> Sudhir Khanger
+[14:46:53] <Shankho> Shankho Ghosh
+[14:46:55] <siddharth185> Siddharth Kulshrestha
+[14:46:59] <CuriousLearner> Sanyam Khurana
+[14:47:24] <amittima> Amit kumar
+[14:47:24] <abhi_poo> Abhishek Poojary
+[14:47:37] <dropped> Bruno Criado
+[14:47:39] <sukanya> Sukanya Mandal
+[14:47:53] <Anna> Anna
+[14:47:56] <abhishekp> Abhishek Potnis
+[14:47:56] <kushal> Next session tomorrow at the same time.
+[14:48:01] <novice-coder12> Niharika
+[14:48:19] <kushal> session ends here for tonight
+[14:48:42] <CuriousLearner> Thanks :)
+[14:48:44] <kushal> endclass
+[14:48:44] [## Class Ended at Sun Jun 29 14:48:44 2014 ##]

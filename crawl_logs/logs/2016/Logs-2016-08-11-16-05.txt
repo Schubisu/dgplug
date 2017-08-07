@@ -1,0 +1,417 @@
+[16:05:04] [## Class Started at Thu Aug 11 16:05:04 2016 ##]
+[16:05:04] <praveenkumar> #startclass
+[16:05:05] <moizsajid> !
+[16:05:22] <Onkar> Onkar Karale
+[16:05:23] <praveenkumar> Roll call please
+[16:05:25] <SRvSaha> Saurav Saha
+[16:05:29] <abstatic> Abhishek Shrivastava
+[16:05:31] <rohan_h> Rohan Hazra
+[16:05:32] <cosmologist10> shweta suman
+[16:05:33] <ksaikiranr> K Sai Kiran
+[16:05:33] <vharsh> Harsh Vardhan
+[16:05:34] <pyadav_> Pooja Yadav
+[16:05:36] <chshbh> Avinash Madhukar
+[16:05:37] <gobinda> Gobinda Akhuli
+[16:05:38] <akash47> Akash Mishra
+[16:05:43] <mbtamuli12_> Mriyam Tamuli
+[16:05:46] <Anupama> Anupama Mandal
+[16:05:51] <radhikaa> Radhika Arora
+[16:05:51] <priya> Priyanka Ambre
+[16:05:52] <akahat> Amol Kahat.
+[16:05:53] <imack> Mahendra Yadav
+[16:05:53] <HoloIRCUser> Mamoon Manzoor
+[16:05:58] <mpmaurya> Mudit Maurya
+[16:06:01] <shashank_loki> Shashank Aryan
+[16:06:01] <sandeepk> sandeep kumar choudhary
+[16:06:01] <rahuldecoded> Rahul Bhattacharjee
+[16:06:03] <moizsajid> Moiz Sajid
+[16:06:03] <yASH_> Yashwanth M
+[16:06:07] <jargonmonk> Aniket Khisti
+[16:06:13] <PrashantJ> Prashant Jamkhande
+[16:06:14] <code_geek> Shantanu Acharya
+[16:06:15] <indiabhi> Abhishek Rai
+[16:06:16] <mahesh5> Mahesh
+[16:06:23] <poonam> poonam jadhav
+[16:07:09] <deep123k> Deepanshu kapoor
+[16:07:32] <chshbh> abstatic, sshpass is not installed :D
+[16:07:44] <abstatic> chshbh, i got it working after installing sshpass
+[16:07:58] <avik> Avik mukherjee
+[16:08:32] <praveenkumar> Alright so let's begin.
+[16:08:40] <hydro> Anushil Kumar
+[16:08:46] <pabitra> Pabitra Pati
+[16:08:58] <iKshitij>  Kshitij
+[16:09:00] <praveenkumar> How many of you already know about ansible (it is fine if you know little bit)?
+[16:09:36] <SRvSaha> I am totally new. Heard the term second time today
+[16:09:37] <sayan> Sayan Chowdhury
+[16:09:55] <code_geek> I am also totally new to it
+[16:09:55] <praveenkumar> So looks like most of folks are newbie here.
+[16:10:07] <moizsajid> Never heard of it
+[16:10:13] <indiabhi> No i don't know , totally new
+[16:10:13] <hydro> I am totally new.no idea
+[16:10:19] <sayan> I know tids and bits :)
+[16:10:20] <mbtamuli12_> Little bit.
+[16:10:35] <mahesh5> no idea
+[16:10:37] <abstatic> I am new as well
+[16:10:51] <praveenkumar> So we will do a very basic session today and then some more stuff in another session.
+[16:11:01] <yASH_> Demo video helped a little
+[16:11:02] <sandeepk> No idea, but heard the name before
+[16:11:05] <iKshitij> Totally new ! Heard never tried to do research ! Never googled
+[16:11:13] <shashank_loki>  I am also new to it.
+[16:11:24] <radhikaa> Ansible is used to automate IT deployments
+[16:11:44] <praveenkumar> Did everyone have it install in system?
+[16:11:58] <abstatic> yes
+[16:12:00] <radhikaa> yes
+[16:12:00] <imack> yes
+[16:12:11] <PrashantJ> yes
+[16:12:11] <mbtamuli12_> Yes.
+[16:12:12] <SRvSaha> praveenkumar: I installed it using the ppa using apt-get in ubuntu. Is it fine ?
+[16:12:14] <shashank_loki> yes
+[16:12:15] <LambaInsaan> Yes.
+[16:12:16] <Anupama> yep
+[16:12:21] <gobinda> yes, but how to test it work or not
+[16:12:21] <chshbh> yes
+[16:12:23] <yASH_> Yup
+[16:12:23] <cosmologist10> yeah
+[16:12:25] <mahesh5> yes
+[16:12:33] <jargonmonk> yes
+[16:12:42] <sandeepk> yes
+[16:12:44] <hydro> yes
+[16:12:44] <rahuldecoded> no. :(
+[16:12:51] <vharsh> Yes
+[16:12:58] <moizsajid> No
+[16:13:06] <poonam> No
+[16:13:12] <praveenkumar> SRvSaha: yes that fine.
+[16:13:22] <SRvSaha> Ok thanks praveenkumar
+[16:13:51] <praveenkumar> folks who didn't install it can you do it fast. meanwhile I will ask some questions which will setup our expection about this tool.
+[16:15:38] <praveenkumar> So if you folks check what ansible is then you will find => Ansible is a radically simple IT automation engine that automates cloud provisioning, configuration management, application deployment, intra-service orchestration, and many other IT needs.
+[16:15:48] <deep123k> I am not able to install ansible tower
+[16:15:58] <deep123k> It asked me to fill some form
+[16:16:01] <praveenkumar> deep123k: who told you to install tower?
+[16:16:14] <deep123k> Link was of ansible tower
+[16:16:27] <deep123k> In mailing list
+[16:16:58] <abstatic> praveenkumar, is it kind of powerful version of docker ?
+[16:17:23] <praveenkumar> deep123k: doesn't http://docs.ansible.com/ansible/intro_installation.html# is in the ML?
+[16:18:07] <deep123k> Praveenkumar query solved
+[16:18:13] <deep123k> Thanks vharsh
+[16:18:17] <shobhitupadhyay> shobhit upadhyay
+[16:18:20] <praveenkumar> deep123k: which Mailing list you were looking to?
+[16:18:33] <deep123k> Dgplug
+[16:18:36] <praveenkumar> abstatic: no it's not powerful version of docker
+[16:18:39] <deep123k> It had two links
+[16:18:47] <deep123k> I opened first one
+[16:19:00] <praveenkumar> deep123k: you have to read that mail carefully
+[16:19:23] <deep123k> praveenkumar thanks query solved
+[16:19:36] <jogender> roll call : JOgender Kota
+[16:19:52] <jogender> sorry for late :(
+[16:19:53] <praveenkumar> Anyway can anyone of you list down what you folks usually do after installation of a operating system (assume you install fedora today what next)?
+[16:20:29] <abstatic> I install all of the software that I require for my development needs like compilers, editors, settings etc
+[16:20:38] <mbtamuli12_> I run my bash script to set up chrome, mplayer, zsh, docker, sublime text etc.
+[16:20:41] <SRvSaha> 1. Install the most important softwares
+[16:20:49] <aniketh_> Roll call: Aniketh Girish
+[16:20:50] <SRvSaha> 2. Do some settings.
+[16:21:03] <SRvSaha> 3. Get our customization
+[16:21:16] <chshbh> update the system
+[16:21:19] <moizsajid> I run the update
+[16:21:24] <avik> look into you tube for tips and tricks of the os, if its unknown to me
+[16:21:27] <aniketh_> paraveen kumar, sorry for being late. I have installed ansible.
+[16:21:39] <SRvSaha> mbtamuli12_: How do you maintain your set-up in bash scripts ?
+[16:21:40] <hydro> rpm
+[16:21:57] <praveenkumar> Alright so let me put a list here.
+[16:22:08] <praveenkumar> 1. Update our distro
+[16:22:22] <mbtamuli12_> SRvSaha, since session is going on, we can continue in pm.
+[16:22:22] <praveenkumar> 2. Setup a repository which might not there default
+[16:22:41] <praveenkumar> 3. Install required software
+[16:22:58] <praveenkumar> 4. Do some config changes if a software require
+[16:23:06] <SRvSaha> mbtamuli12_: Ok, sure. May be after the session
+[16:23:19] <c0mrad3> Roll Call: Tummala Dhanvi
+[16:23:25] <praveenkumar> 5. Start a service which we want to run (like httpd, mysql ..etc)
+[16:24:21] <praveenkumar> Now assume we have to do it for 100 machine is it feasible to do it manually to each machine?
+[16:24:37] <sandeepk> no
+[16:24:38] <pyadav_> No
+[16:24:38] <SRvSaha> No
+[16:24:42] <hydro> ohh
+[16:24:43] rohan_ is now known as rohan_h
+[16:25:03] <cosmologist10> no
+[16:25:12] <gobinda> no
+[16:25:33] <praveenkumar> So ansible comes in the picture here, it do other lot more stuff but let's we discuss about how it will configure our system.
+[16:27:06] <aman_> Roll Call : Aman Kumar
+[16:27:15] <praveenkumar> which version of ansible you folks have ( try to execute $ ansible --version)
+[16:27:29] <pyadav_> 1.9.2
+[16:27:36] <mbtamuli12_> 2.1.1.0
+[16:27:42] <sandeepk> 2.1.1.0
+[16:27:42] <radhikaa> ansible 2.1.1.0
+[16:27:48] <vharsh> ansible 2.1.1.0
+[16:27:51] <aman_> Sorry for being late. :(  Can anyone please tell me whats going on ?
+[16:27:51] <code_geek> ansible 2.0.0.2
+[16:27:53] <mahesh5> 2.1.1.0
+[16:27:55] <SRvSaha> 2.1.1.0
+[16:28:05] <shobhitupadhyay> 1.9.2
+[16:28:06] <gobinda> 2.1.1.0
+[16:28:09] <smdeep> ansible 2.1.1.0
+[16:28:10] <shashank_loki> 2.1.1.0
+[16:28:13] <LambaInsaan> 2.2.0
+[16:28:13] <hydro> 2.1.1.0
+[16:28:20] <chshbh> ansible 2.1.1.0
+[16:28:26] <abstatic> 2.2.0
+[16:28:30] <jargonmonk> 2.0.0.2
+[16:28:35] <Anupama> 2.1.1.0
+[16:28:36] <imack> aman install ansible in your system and follow here
+[16:28:46] <yASH_> 2.1.1.0
+[16:28:53] <deep123k> 2.1.1.0
+[16:29:16] <cosmologist10> ansible 1.5.4
+[16:29:27] <praveenkumar> cosmologist10: that's way to old
+[16:29:33] <iKshitij> 2.1.1.0
+[16:29:45] <code_geek> updated it to 2.1.1.0
+[16:29:45] <praveenkumar> cosmologist10: can you upgrade to 2.x?
+[16:30:12] <cosmologist10> okay! i am upgrading...
+[16:32:00] <gobinda> praveenkumar, ansible 2.1.1.0  config file = /etc/ansible/ansible.cfg
+[16:32:01] <gobinda>   configured module search path = Default w/o overrides is it ok or I have to do any thing
+[16:32:19] <praveenkumar> now can you folks add your local system ssh key => execute $ ssh-copy-id <your_username>@127.0.0.1 ?
+[16:32:57] <abstatic> yes
+[16:34:09] <mbtamuli12_> praveenkumar, is it okay if I am using a VM? I have the ssh-key authentication set up already.
+[16:34:15] <vharsh> praveenkumar: Do I need to enable remote login with passwords? I have it disabled.
+[16:34:26] <SRvSaha> praveenkumar: I am getting error :/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+[16:34:34] <LambaInsaan> Error /usr/bin/ssh-copy-id: ERROR: ssh: connect to host 127.0.0.1 port 22: Connection refused
+[16:34:44] <vharsh> So it shows "Permission denied (publickey,gssapi-keyex,gssapi-with-mic)."
+[16:34:45] <praveenkumar> mbtamuli12_: that will work
+[16:35:05] <vharsh> LambaInsaan: Install openssh-server
+[16:35:06] <praveenkumar> vharsh: no let it be ssh enabled only
+[16:35:24] <LambaInsaan> vharsh, Alright!
+[16:35:56] <LambaInsaan> Already installed.
+[16:36:03] <praveenkumar> SRvSaha: can you do ssh <user_name>@127.0.0.1 ?
+[16:36:06] <vharsh> LambaInsaan: Fedora?
+[16:36:14] <vharsh> LambaInsaan: Pm.
+[16:36:14] <LambaInsaan> vharsh, Yes.
+[16:36:24] <sayan> LambaInsaan: if installed start the ssh server
+[16:36:31] <praveenkumar> LambaInsaan: can you able to ssh to your VM with ssh keys only?
+[16:36:32] <sayan> s/server/service/
+[16:36:56] <abstatic> LambaInsaan: sudo service restart sshd ?
+[16:37:25] <SRvSaha> praveenkumar: Nope, I am still getting the connection refused error
+[16:37:29] <hydro> 	(to install the contents of '/home/hydro/.pub' anyway, look at the -f option)
+[16:37:46] <hydro> 	(to install the contents of '/home/hydro/.pub' anyway, look at the -f option)
+[16:37:53] <SRvSaha> praveenkumar: srvsaha@XcidCruX:~$ ssh srvsaha@127.0.0.1 ssh: connect to host 127.0.0.1 port 22: Connection refused
+[16:37:55] <LambaInsaan> sayan, How to start SSH server?
+[16:38:14] <LambaInsaan> ' systemctl sshd start' ?
+[16:38:22] <rohan_h> Same error as hydro
+[16:39:23] <LambaInsaan> It's working now! :)
+[16:39:24] <sayan> LambaInsaan: yes
+[16:39:30] <LambaInsaan> Thanks to vharsh
+[16:39:56] <code_geek> praveenkumar, ssh-copy-id wasn't working. ssh <username>@... worked.
+[16:40:01] <praveenkumar> Alright let's try to execute $ ansible all -i "localhost," -c local -m ping
+[16:40:04] <sayan> SRvSaha: start the ssh service
+[16:40:19] <hydro> usr/bin/ssh-copy-id: ERROR: failed to open ID file '/home/hydro/.pub': No such file or directory
+[16:40:30] <vharsh> LambaInsaan: swap the sshd with start :p and run it as root :)
+[16:40:53] <aniketh_> bash: @127.0.0.1: Permission denied . What should i do ?
+[16:40:55] <chshbh> SRvSaha, fixed your error? i am getting the same error :V
+[16:41:06] <SRvSaha> sayan: How to start ssh service ?
+[16:41:16] <sayan> SRvSaha: which OS?
+[16:41:28] <Anupama> got disconnected. what to do after naming the version?
+[16:41:38] <sayan> hydro: do you have ssh keys created?
+[16:41:39] <vharsh> Anupama: Pm
+[16:41:52] <SRvSaha> UBUNTU
+[16:41:54] <aman_> Sayan, i am facing the same problem, i have ubuntu 16.04
+[16:41:59] <praveenkumar> how many of you executed it without any error $ ansible all -i "localhost," -c local -m ping ?
+[16:42:05] <sayan> praveenkumar: /me
+[16:42:12] <SRvSaha> chshbh: No I am still getting the error
+[16:42:14] <mbtamuli12_> SRvSaha, sudo systemctl start sshd.service || sudo service ssh start
+[16:42:15] <code_geek> me
+[16:42:31] <hydro> me
+[16:42:32] <abstatic> praveenkumar, me :D
+[16:42:38] <smdeep_> worked for me
+[16:42:49] <gobinda> me
+[16:42:54] <pyadav_> executed
+[16:42:55] <mbtamuli12_> ping worked.
+[16:43:02] <imack> me
+[16:43:08] <aniketh_> ping worked.
+[16:43:16] <praveenkumar> Folks who are having ssh issue please take help to google (make sure you mention what distro you are using) but right now let's play with ansible.
+[16:43:25] <praveenkumar> s/to/from/
+[16:43:50] <SRvSaha> praveenkumar: Is this the output we are supposed to get : localhost | SUCCESS => {
+[16:43:50] <SRvSaha>     "changed": false,
+[16:43:50] <SRvSaha>     "ping": "pong"
+[16:43:50] <SRvSaha> }
+[16:43:50] <SRvSaha>  ?
+[16:44:14] <praveenkumar> SRvSaha: yes and if you have multiple line output always use pastebin
+[16:44:28] <sayan> SRvSaha: don't spam the channel, use pastebin
+[16:44:30] <Anupama> yes ping worked
+[16:44:50] <vharsh> I got the exact same thing SRvSaha, praveenkumar, is it ok?
+[16:45:18] <SRvSaha> praveenkumar: Sorry, will take care from next time
+[16:45:37] <praveenkumar> So ansible by default use ssh to send any instructions.
+[16:46:01] <praveenkumar> In this command you sent a ping to your localhost and then localhost replied back with pong.
+[16:46:07] <hydro> rohan_h you found the solution
+[16:46:36] <rohan_h> hydro, googling :(
+[16:46:38] <praveenkumar> here you can see 'changed' flag also in output. which mean no config change happen when you executed this step.
+[16:46:49] <praveenkumar> that's why it says false.
+[16:47:09] <deep123k> I am not able to get anything after installing ansible
+[16:47:19] <deep123k> Can anyone help
+[16:48:03] <avik> deep123k, you are not alone in that track. try Google
+[16:48:36] <praveenkumar> Also if you noticed we used -m ping, here m => module. So we tried out it's ping module.
+[16:49:13] <praveenkumar> we will discuss about module later but before that try out $ ansible all -i "localhost," -c local -m shell -a 'echo $TERM'
+[16:50:16] <gobinda> localhost | SUCCESS | rc=0 >>
+[16:50:17] <vharsh> praveenkumar: It shows us our $TERM variable content, is it the $TERM of our machine or the $TERM of a virtual machine?
+[16:50:18] <gobinda> xterm-256color
+[16:50:33] <smdeep_> xterm-256color
+[16:51:02] <aniketh_> http://pastebin.com/zHQ8ujrL
+[16:51:29] <mbtamuli12_> screen-256color
+[16:51:43] <praveenkumar> vharsh: currently we are doing on localhost so your host term not VM
+[16:51:50] <Anupama> done
+[16:51:54] <vharsh> ok
+[16:52:12] <praveenkumar> Anyone face issue with this?
+[16:52:30] <code_geek> no
+[16:52:32] <PrashantJ> no
+[16:52:56] <aniketh_> no
+[16:53:02] <imack> no
+[16:53:12] <shobhitupadhyay> http://pastebin.com/hbvy9ZyG
+[16:53:13] <Anupama> no
+[16:53:21] <shobhitupadhyay> no
+[16:53:41] <abstatic> nope
+[16:53:45] <jargonmonk> no
+[16:53:52] <avik> no. but can you please explain what we did? praveenkumar
+[16:54:29] <praveenkumar> yes so here we used shell module '-m shell' and then executed 'echo $TERM' on your localhost.
+[16:55:04] <radhikaa> what is -c local in command
+[16:55:40] <praveenkumar> radhikaa: that's mean we are executing those locally not any remove VM/server.
+[16:56:17] <praveenkumar> Now because we all are lazy so we don't want to add -i "localhost" -c local right
+[16:56:31] <avik> what is $TERM?
+[16:57:29] <praveenkumar> avik: TERM is a environment variable in your local system (check printenv)
+[16:57:55] <praveenkumar> Now everyone create a directory name as demo (# mkdir demo)
+[16:57:58] <avik> oo ok. thanks
+[16:58:22] <praveenkumar> then go inside that directory and then create a file hosts
+[16:58:36] <praveenkumar> s/file hosts/file name as hosts/
+[16:59:10] <praveenkumar> Content of that file should be  localhost ansible_connection=local
+[17:00:08] <praveenkumar> Done?
+[17:00:11] <imack> yes
+[17:00:12] <sayan> yes
+[17:00:13] <code_geek> yes
+[17:00:14] <mbtamuli12> Yes
+[17:00:21] <PrashantJ> yes
+[17:00:21] <sandeepkk> yes
+[17:00:28] <cosmologist10_> yes
+[17:00:30] <jargonmonk> yes
+[17:00:45] <gobinda> done
+[17:00:57] <avik> yes
+[17:00:58] <Anupama> yup
+[17:01:05] <shobhitupadhyay> yes
+[17:01:06] <praveenkumar> Alright now again try to execute ansible all -i hosts -m ping
+[17:01:12] <aniketh_> yes
+[17:01:18] <SRvSaha> yes
+[17:01:27] <vharsh> Works the same :)
+[17:01:29] <praveenkumar> if you didn't get any error that means you did it right.
+[17:01:43] <praveenkumar> yes it should works as before.
+[17:02:06] <abstatic> yes it works
+[17:02:11] <radhikaa> yes, it worked the same
+[17:02:28] <Anupama> yes done.
+[17:02:31] <abstatic> but it requires me to be in the same directory
+[17:02:34] <shashank_loki> yes done
+[17:03:00] <praveenkumar> File we just created is call inventory file in ansible term. Default inventory file present /etc/ansible/hosts and we can use -i flag to use our own inventory file.
+[17:03:08] <SRvSaha> praveenkumar: Works only if we are in demo directory
+[17:03:23] <abstatic> What is inventory ?
+[17:03:41] <praveenkumar> SRvSaha: yes other wise you have to provide abosute path to host file.
+[17:04:04] <SRvSaha> praveenkumar: OK thanks
+[17:04:08] <code_geek> if we are outside the the directory, then we have to give the the path of the file
+[17:04:25] <praveenkumar> abstatic: it just a file which have details about our servers (right now localhost)
+[17:04:39] <abstatic> praveenkumar, okay
+[17:05:05] <praveenkumar> Everyone open /etc/ansible/hosts file (in fedora this is location I am not sure what is location for other distro)
+[17:05:24] <mbtamuli12_> It is the same for Arch Linux.
+[17:05:29] <praveenkumar> Try to read it and let me know if something doesn't make sense to you.
+[17:06:35] <hydro>  Groups of hosts are delimited by [header] elements
+[17:06:36] <hydro> ?
+[17:07:16] <LambaInsaan> Can't find it.
+[17:07:37] <avik> LambaInsaan, +1
+[17:07:55] <hydro> how example  1 and 2 are different ?
+[17:08:04] <avik> praveenkumar, not found. [fedora 24]
+[17:08:20] <abstatic> can't find it [ubuntu 14.04]
+[17:08:32] <praveenkumar> hydro: example one is ungrouped host and 2 is group host.
+[17:08:40] <praveenkumar> hydro: I will explain it in a bit.
+[17:08:44] <hydro> ok
+[17:09:16] <praveenkumar> avik: that's not posible? How did you install it? (using dnf or some other way)?
+[17:09:30] <code_geek> !
+[17:09:41] <praveenkumar> Can any ubuntu user help abstatic
+[17:09:44] <praveenkumar> next
+[17:09:45] <abstatic> praveenkumar, i ma using this http://docs.ansible.com/ansible/intro_installation.html#running-from-source ?
+[17:09:48] <punarvasu510> @abstatic: it works for ubuntu 14.04
+[17:09:49] <praveenkumar> next
+[17:09:55] <praveenkumar> next
+[17:09:57] <praveenkumar> exnt
+[17:09:59] <praveenkumar> next
+[17:10:00] <avik> just wrote anisble. It prompted me to install or not
+[17:10:04] <abstatic> praveenkumar, do i need to install it using apt as well ?
+[17:10:07] <avik> praveenkumar, ^^
+[17:10:08] <SRvSaha> Works in Ubuntu 16.04 LTS
+[17:10:31] <abstatic> Got it working
+[17:10:44] <radhikaa> @abstatic i could easily find hosts file in /etc/ansible/
+[17:10:51] <radhikaa> in ubuntu 14.04
+[17:11:15] <abstatic> radhikaa, I was running it directly from source. After installing it using apt I found it as well :D
+[17:11:18] <praveenkumar> abstatic: I am not sure but folks who are not able to find then => https://paste.fedoraproject.org/406251/28265147/
+[17:11:28] <praveenkumar> next
+[17:11:31] <code_geek> does www[001:006].example.com mean that there are 6 hosts? numbered from 1 to 6?
+[17:11:42] <avik> praveenkumar, strangely enough, ls in ansible dir. shows hosts
+[17:11:54] <sandeepkk> praveenkumar: i think they have to do cd /etc/ansible/ and than type cat hosts to see the content
+[17:11:56] <radhikaa> @abstatic. ok.:)
+[17:12:44] <praveenkumar> code_geek: yes right
+[17:13:03] <code_geek> ok
+[17:13:08] <avik> ok, got it, doing vi
+[17:13:11] <abstatic> praveenkumar, what are groups here ?
+[17:13:26] <praveenkumar> lets now discuss about groups and un-group stuff.
+[17:14:18] <pabitra> can I know what all have been discussed till now, as I got disconnected ?
+[17:14:47] <praveenkumar> so assume I have 20 db server and I want to install a patch to all those server or I want same config for all those server to I will create a group call [dbserver] and then list down hostname/IP for those.
+[17:15:24] <sandeepkk> pabitra: https://da.gd/GdwCN
+[17:15:24] <praveenkumar> then I will just say ansible dbserver -m ping (which will only ping my db servers not any other group)
+[17:15:43] <praveenkumar> Same way I can have frontend group also
+[17:15:49] <pabitra> Trhanks alot sandeepkk :)
+[17:16:26] <praveenkumar> Good thing about grouping is it will make things clean and easy to identify.
+[17:17:34] <hydro>  [WARNING]: provided hosts list is empty, only localhost is available
+[17:17:56] <hydro> on running ansible dbserver -m ping
+[17:17:56] <praveenkumar> Now try to do one thing in your host file where you added localhost before that put [webserver]
+[17:18:17] <praveenkumar> hydro: because you don't have any dbserver group yet.
+[17:18:23] <avik> with the []?
+[17:18:27] <praveenkumar> yes
+[17:18:38] <avik> ok thanks
+[17:18:50] <praveenkumar> now when you done try to execute $ ansible webserver -i hosts -m ping
+[17:19:29] <hydro> Now try to do one thing in your host file where you added localhost before that put [webserver] ? what are you trying to say
+[17:19:34] <praveenkumar> So instead of "all" which mean (group + non-group) we used a specific group.
+[17:19:46] <praveenkumar> hydro: we are putting our localhost under a group
+[17:20:17] <praveenkumar> hydro: currently it is a stand alone host (Ungrouped host)
+[17:20:52] <praveenkumar> Everyone got that?
+[17:21:00] <code_geek> yes
+[17:21:12] <mahesh5> yes
+[17:21:17] <sandeepkk> yes :)
+[17:21:30] <jargonmonk> yes
+[17:21:54] <mbtamuli12_> yes
+[17:22:04] <hydro>  [WARNING]: provided hosts list is empty, only localhost is available
+[17:22:08] <abstatic> yes, finally :)
+[17:22:28] <praveenkumar> Great so we discussed about inventory and ad-hoc run. Next session we will discuss about playbook and then tell you how we can create a playbook with different task and execute.
+[17:22:52] <punarvasu510> praveenkumar: what has to be done in the hosts file?
+[17:22:56] <avik> praveenkumar, is it ok t get what hydro just showed ^^?
+[17:22:57] <praveenkumar> Also we will write playbook for all step which we listed today in the begin of this session.
+[17:23:24] <avik> *t/to
+[17:24:03] <praveenkumar> avik: hydro http://paste.fedoraproject.org/406261/9290171/ this is what you folks should get.
+[17:24:13] <gobinda> praveenkumar, I goe an error http://paste.fedoraproject.org/406262/92901814/
+[17:24:47] <mbtamuli12_> praveenkumar, what is the tool you use to install and set-up an OS on a bare-metal, before all the ansible stuff can be done.
+[17:24:54] <praveenkumar> As a homework you folks check http://docs.ansible.com/ansible/playbooks_intro.html and whatever interest you (ansible have huge documentation)
+[17:25:01] <punarvasu510> nevermind.i got it
+[17:25:45] <praveenkumar> gobinda: because you put [webserver] and localhost in same line put it in the different line
+[17:25:51] <mbtamuli12_> I have played around with playbooks. :) More specifically, LAMP setup.
+[17:26:37] <hydro> done
+[17:26:49] <gobinda> praveenkumar, it done thank you
+[17:27:03] <praveenkumar> mbtamuli12_: baremetal provision is something different and when you have bare minimal OS up you can use ansible to do all sort of stuff.
+[17:27:25] <praveenkumar> Anyone have any more questions?
+[17:28:29] <praveenkumar> Alright so I am going to close this session
+[17:28:33] <praveenkumar> Roll call please
+[17:28:36] <imack> Mahendra Yadav
+[17:28:45] <aman_> Aman Kumar
+[17:28:46] <cosmologist10_> shweta suman
+[17:28:47] <mbtamuli12_> Mriyam Tamuli
+[17:28:49] <punarvasu510> Alekhya
+[17:28:49] <mahesh5> Mahesh
+[17:28:51] <jargonmonk> Aniket Khisti
+[17:28:53] <deep123k> Deepanshu kapoor
+[17:28:54] <sandeepkk> sandeep kumar choudhary
+[17:28:55] <code_geek> Shantanu Acharya
+[17:28:55] <akash47> Akash Mishra
+[17:28:56] <shobhitupadhyay> shobhit upadhyay
+[17:28:57] <LambaInsaan> Rhitik Bhatt
+[17:29:04] <Anupama> Anupama Mandal
+[17:29:11] <gobinda> Gobinda Akhuli
+[17:29:14] <smdeep> Sudeep Mukherjee
+[17:29:16] <chshbh> Avinash Madhukar
+[17:29:20] <praveenkumar> #endclass
+[17:29:20] [## Class Ended at Thu Aug 11 17:29:20 2016 ##]

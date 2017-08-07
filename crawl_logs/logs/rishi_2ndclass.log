@@ -1,0 +1,262 @@
+Jun 30 01:26:23 <rishi>	<-------- Class started -------->
+Jun 30 01:26:26 *	roni has quit ("Leaving")
+Jun 30 01:26:30 *	roni (n=aritra@117.201.96.252) has joined #dgplug
+Jun 30 01:26:53 <rishi>	This is the second class on the basics of the Unix shell.
+Jun 30 01:27:14 <rishi>	For today's class we will assume knowledge of:
+Jun 30 01:27:28 <rishi>	(i) what the shell is and what it does
+Jun 30 01:27:51 <rishi>	(ii) ability to use man, apropos, whatis and info to see documentation
+Jun 30 01:28:06 <rishi>	(iii) cd, pwd, basename and dirname
+Jun 30 01:28:32 *	roni has quit (Client Quit)
+Jun 30 01:28:37 <rishi>	(iv) meanings of '~', '..', '.', '$HOME', '-'
+Jun 30 01:28:51 *	roni (n=aritra@117.201.96.252) has joined #dgplug
+Jun 30 01:29:10 <rishi>	Like yesterday everyone is encouraged to ask questions. Use a '!' and wait fro your turn.
+Jun 30 01:29:41 *	mavu (n=satya@59.178.190.54) has joined #dgplug
+Jun 30 01:29:59 <rishi>	If you find that I am not responding for a long time, say 15 minutes, then that is because of a powercut at my house.
+Jun 30 01:30:53 <rishi>	Today we will look at basic manipulation of files and directories.
+Jun 30 01:32:08 <rishi>	cp, ln, ls, mkdir, mv, rm <-- please have a look at the documentation for these
+Jun 30 01:33:29 <susenj>	!
+Jun 30 01:34:17 <rishi>	susenj: Ask.
+Jun 30 01:34:23 <susenj>	i din't understand 'ln'-to make links between files.which type of link it is?
+Jun 30 01:34:43 <susenj>	<eof>
+Jun 30 01:34:52 <pushkal>	same query <eof>
+Jun 30 01:34:59 <rishi>	A link is something similar to a shortcut in Windows, but exactly the same thing.
+Jun 30 01:35:12 *	Kishan (n=Kishan@218.248.70.235) has left #dgplug ("Leaving")
+Jun 30 01:35:53 <rishi>	pushkal, susenj: Clear?
+Jun 30 01:36:03 <pushkal>	!
+Jun 30 01:36:08 <susenj>	pls provide an example to show.....<eof>how to make links
+Jun 30 01:36:10 <rishi>	pushkal: Ask
+Jun 30 01:36:12 <susenj>	<eof>
+Jun 30 01:36:28 <rishi>	susenj: Will come to that later.
+Jun 30 01:36:29 <pushkal>	a shortcut in windows is not between two files..
+Jun 30 01:36:39 <pushkal>	here it says between stwo files
+Jun 30 01:36:42 <pushkal>	<eof>
+Jun 30 01:36:54 *	ria has quit ("Leaving")
+Jun 30 01:36:57 <rishi>	pushkal: What is a shortcut then?
+Jun 30 01:37:33 <deepak>	!
+Jun 30 01:38:15 <pushkal>	rishi: k clear <eof>
+Jun 30 01:38:39 <rishi>	deepak: Ask.
+Jun 30 01:38:43 *	amrita has quit (Remote closed the connection)
+Jun 30 01:39:14 <deepak>	do operating system use soft link and hard link?
+Jun 30 01:39:40 <deepak>	<eof>
+Jun 30 01:41:39 <rishi>	deepak: Are you asking whether both are supported or not?
+Jun 30 01:45:21 <rishi>	deepak: What do you mean by "used by operating system" ?
+Jun 30 01:45:42 <rishi>	If it was not supported by the OS there is no way you could have had hard/soft links.
+Jun 30 01:46:09 <rishi>	By the way if someone wants to read a bit more: http://kb.iu.edu/data/aibc.html
+Jun 30 01:46:37 *	mavu_ has quit (Read error: 110 (Connection timed out))
+Jun 30 01:46:37 <deepak>	means both user and OS use linking concept
+Jun 30 01:47:33 <rishi>	The user uses it. That is what the ln command provides.
+Jun 30 01:48:22 <rishi>	I do not know what you mean by "OS use linking concept". If the OS supports it, you can use it.
+Jun 30 01:48:34 <deepak>	how the OS uses this linking concept?
+Jun 30 01:50:03 <deepak>	please site some example where OS use soft linking or hard linking?
+Jun 30 01:50:09 <rishi>	deepak: There is nothing special about how the OS uses it. It uses it like any other user would use it -- to create links.
+Jun 30 01:50:40 <rishi>	A hard link is just another entry for a file that already existed.
+Jun 30 01:51:59 *	roni has quit (Read error: 110 (Connection timed out))
+Jun 30 01:51:59 <deepak>	means you want to say OS uses it in the same way as user
+Jun 30 01:52:39 <rishi>	deepak: Are you asking how the OS implements links?
+Jun 30 01:52:50 <rishi>	"implements" is different from "uses"
+Jun 30 01:53:04 <deepak>	yes
+Jun 30 01:53:29 <rishi>	deepak: Please use the right words. I can not guess what is on your mind.
+Jun 30 01:53:54 <rishi>	http://kb.iu.edu/data/abbe.html
+Jun 30 01:54:02 <rishi>	http://kb.iu.edu/data/aibc.html
+Jun 30 01:54:38 <rishi>	deepak: Will come to links when we discuss the ln command.
+Jun 30 01:54:38 <rishi>	For the moment, just go through those links.
+Jun 30 01:54:38 <rishi>	Ok.
+Jun 30 01:54:40 <rishi>	So lets move ahead.
+Jun 30 01:55:04 <rishi>	The cp command is what allows us to copy files and directories.
+Jun 30 01:55:55 <rishi>	In Unix almost all I/O related things are represented as files.
+Jun 30 01:56:32 <rishi>	A directory is just a special file, so what applies to files also applies to directories (with some modifications).
+Jun 30 01:57:19 *	coolpyro_rishi has quit (Read error: 110 (Connection timed out))
+Jun 30 01:58:30 <rishi>	It will also help to remember that every file has an entry in some filesystem.
+Jun 30 01:59:19 <rishi>	And each entry is represented by an inode.
+Jun 30 01:59:38 *	TanmayaT (n=chatzill@59.95.194.40) has joined #dgplug
+Jun 30 02:00:04 *	TanmayaT has quit (Client Quit)
+Jun 30 02:00:25 <rishi>	We don't need too many details about inodes today. Just remember that each inode has an index number corresponding to it.
+Jun 30 02:00:41 <rishi>	For further reading on inodes: http://en.wikipedia.org/wiki/Inode
+Jun 30 02:01:00 <rishi>	So if you do:
+Jun 30 02:01:09 <rishi>	$ cp foo /tmp
+Jun 30 02:01:51 <rishi>	..it will copy an existing file named foo, present in your current working directory, to a directory named /tmp.
+Jun 30 02:02:51 <rishi>	In case there was no directory named tmp under /, cp will try to create a file named tmp which will be a copy of foo,
+Jun 30 02:03:09 <rishi>	Another alternative is:
+Jun 30 02:03:16 <rishi>	$ cp foo /tmp/bar
+Jun 30 02:03:50 <rishi>	Sorry, not really an alternative, rather just another example.
+Jun 30 02:04:37 *	ecntrk1 (i=sunny@117.194.0.143) has joined #dgplug
+Jun 30 02:05:05 <rishi>	If what you are trying to copy is a directory and not a regular file, then you need to use the '-R' or '-r' option.
+Jun 30 02:05:38 <rishi>	$ cp -r /usr /tmp
+Jun 30 02:05:46 <rishi>	... is the same as ...
+Jun 30 02:05:46 *	t4num0y_cs3 has quit ("Bye Bye..")
+Jun 30 02:05:54 <rishi>	$ cp -R /usr /tmp
+Jun 30 02:06:00 <rishi>	... which is the same as ...
+Jun 30 02:06:20 <rishi>	$ cp --recursive /usr /tmp
+Jun 30 02:06:53 <susenj>	!
+Jun 30 02:07:00 <rishi>	susenj: Ask.
+Jun 30 02:07:11 <susenj>	why this --?
+Jun 30 02:07:18 <susenj>	before recursive?
+Jun 30 02:07:21 <susenj>	<eof>
+Jun 30 02:07:55 <rishi>	susenj: If the option is a single character usually a '-' is used, otherwise '--'.
+Jun 30 02:08:00 *	susenj has quit (Excess Flood)
+Jun 30 02:08:27 *	susenj (n=root@59.178.169.121) has joined #dgplug
+Jun 30 02:08:38 <rishi>	Otherwise the command will not be able to differentiate between a single character option and a longer option.
+Jun 30 02:08:55 <susenj>	okay....thanks<eof>
+Jun 30 02:09:13 <rishi>	A few other options that might interest you areL
+Jun 30 02:09:21 *	debayan (n=debayan@117.198.32.30) has joined #dgplug
+Jun 30 02:09:46 <deepak>	!
+Jun 30 02:10:17 <rishi>	-i, -p, -l, -s
+Jun 30 02:10:38 <rishi>	Please read the documentation for these options.
+Jun 30 02:10:43 <rishi>	deepak: Ask.
+Jun 30 02:11:12 <deepak>	if both option do the same job then why both we require?
+Jun 30 02:12:10 <rishi>	deepak: Sometimes for compatibility, sometimes for clarity and sometimes for brevity.
+Jun 30 02:12:15 <Soumya>	!
+Jun 30 02:12:50 <rishi>	--recursive is clearer than -r/-R, but -r/-R are easier to type.
+Jun 30 02:13:08 <rishi>	So its upto the user to use whatever she wants.
+Jun 30 02:13:10 <rishi>	Soumya: Ask.
+Jun 30 02:13:17 <Soumya>	cp -l and cp -s er madhye exactly ki difference ?
+Jun 30 02:13:30 <deepak>	clarity is good but how compatibility and brevity
+Jun 30 02:14:28 <rishi>	Soumya: cp -l will create a hard link, while cp -s will create a symbolic or soft link.
+Jun 30 02:14:32 *	Prakhar has quit (Read error: 60 (Operation timed out))
+Jun 30 02:14:39 <rishi>	$ cp -l foo bar
+Jun 30 02:14:46 <rishi>	... is same as
+Jun 30 02:14:53 <rishi>	$ ln foo bar
+Jun 30 02:14:58 <rishi>	Similarly:
+Jun 30 02:15:03 <rishi>	$ cp -s foo bar
+Jun 30 02:15:08 <rishi>	...is same as
+Jun 30 02:15:13 <rishi>	$  ln -s foo bar
+Jun 30 02:15:32 *	kushal gives channel operator status to rishi
+Jun 30 02:16:19 <Soumya>	got you, thanks rishi
+Jun 30 02:17:01 <deepak>	!
+Jun 30 02:17:03 <rishi>	deepak: Different flavours of Unix might offer differ short and long options for the same thing.
+Jun 30 02:17:44 <rishi>	So for compatibility you might have more than one option for the same purpose.
+Jun 30 02:18:16 <rishi>	Any more queries?
+Jun 30 02:18:24 <deepak>	brevity means what?
+Jun 30 02:18:52 <Soumya>	deepak, can we please proceed with shell. rather than ENGLISH
+Jun 30 02:18:56 <pushkal>	deepak: please use google, define:brevity on google
+Jun 30 02:19:10 <deepak>	ok
+Jun 30 02:19:15 <Soumya>	can we discuss englis classes in different channel
+Jun 30 02:19:24 <Soumya>	rishi, please proceed
+Jun 30 02:20:00 <rishi>	While we are dealing with file manipulation, it might be useful to know about 'touch'.
+Jun 30 02:20:04 <rishi>	$ touch foo
+Jun 30 02:20:20 <rishi>	...will create an empty file named foo in the current directory.
+Jun 30 02:20:25 <rishi>	Similarly:
+Jun 30 02:20:30 <rishi>	$ touch ~/foo
+Jun 30 02:22:08 <rishi>	You can also use touch on an existing file.
+Jun 30 02:23:14 <rishi>	In that case 'touch' will update the 'times' of the file to the current time.
+Jun 30 02:24:12 <susenj>	!
+Jun 30 02:24:13 <rishi>	Every file has some timestamps associated with it. eg., access time or atime, modification time or mtime
+Jun 30 02:24:13 <rishi>	atime is when the file was last read/written
+Jun 30 02:24:20 <rishi>	mtime is when it was last modified
+Jun 30 02:25:05 <rishi>	When we come to the ls command we will see how one can see the timestamps of a particular file.
+Jun 30 02:25:53 <rishi>	If you do:
+Jun 30 02:26:01 <rishi>	$ touch -r foo bar
+Jun 30 02:26:27 <rishi>	... then the timestamps of the pre-existing file foo will be copied to that of bar.
+Jun 30 02:26:31 <rishi>	susenj: Ask.
+Jun 30 02:26:44 <susenj>	no query.....it was resolved!<eof>
+Jun 30 02:26:57 <rishi>	Anything else?
+Jun 30 02:27:20 <pushkal>	!!
+Jun 30 02:27:25 <rishi>	pushkal: Ask.
+Jun 30 02:27:51 <pushkal>	the touch command created a file foo on my distro.. but when i deited it with vim, it couldnt save it
+Jun 30 02:28:07 <pushkal>	edited*
+Jun 30 02:28:29 *	Prakhar (n=prakhar@122.163.69.172) has joined #dgplug
+Jun 30 02:28:41 <rishi>	pushkal: Why? What was the message given?
+Jun 30 02:28:51 <pushkal>	this file is read only
+Jun 30 02:29:22 <pushkal>	<eof>
+Jun 30 02:30:49 <deepak>	rishi:carry on
+Jun 30 02:30:55 <rishi>	pushkal: Can I see what you did?
+Jun 30 02:31:02 <rishi>	Paste it on some pastebin.
+Jun 30 02:31:19 <pushkal>	ok rishi
+Jun 30 02:31:35 <rishi>	Now lets move to 'ls'.
+Jun 30 02:31:53 <rishi>	ls is what is used to list files in a directory,
+Jun 30 02:32:10 *	debayan has quit (Read error: 110 (Connection timed out))
+Jun 30 02:32:12 <rishi>	By default it will list the entries in the current directory:
+Jun 30 02:32:13 <rishi>	$ ls
+Jun 30 02:32:19 <rishi>	You can also do:
+Jun 30 02:32:25 <rishi>	$ ls <path>
+Jun 30 02:32:47 <rishi>	...where <path> can be an absolute/relative path to a directory or file.
+Jun 30 02:33:16 <rishi>	$ ls -R <path>
+Jun 30 02:33:39 <rishi>	... will recursively list the entries of all sub-directories in the path
+Jun 30 02:34:53 *	debayan (n=debayan@117.198.32.27) has joined #dgplug
+Jun 30 02:35:46 <rishi>	You can use the -s option to see the size of the files
+Jun 30 02:36:10 <debayan>	rishi, alapathy hai kya?
+Jun 30 02:36:27 <kushal>	debayan, no , he is the trainer 
+Jun 30 02:36:33 <debayan>	rishi, o sorry
+Jun 30 02:36:37 <kushal>	:)
+Jun 30 02:36:44 <rishi>	... however the size will be in terms of 1KB blocks. So usually one would use the -h option alongwith -s.
+Jun 30 02:37:01 <rishi>	Any queries?
+Jun 30 02:37:32 <rishi>	Another common option for ls is -l:
+Jun 30 02:37:39 <rishi>	$ ls -l <path>
+Jun 30 02:38:33 <rishi>	In the output of ls -l, the leftmost columns are the permissions associated with the file.
+Jun 30 02:38:43 <rishi>	It is something like:
+Jun 30 02:39:11 <rishi>	drwxr-xr-x or -rw-r--r--
+Jun 30 02:39:44 <rishi>	d --> directory
+Jun 30 02:39:47 <rishi>	r --> read
+Jun 30 02:39:52 <rishi>	w --> write
+Jun 30 02:39:56 <rishi>	x --> execute
+Jun 30 02:40:57 <rishi>	The 2nd, 3rd and 4th characters are for the owner of the file, the next three are for all users that belong to the same group as the owner, while the last three characters for other users.
+Jun 30 02:42:09 <rishi>	d, r, w are obvious. 'x' is necessary to execute a file (eg., programs) or to cd inside it (eg., directories).
+Jun 30 02:42:29 <rishi>	If /usr/bin did not have 'x', then:
+Jun 30 02:42:35 <rishi>	$ cd /usr/bin
+Jun 30 02:42:39 <rishi>	...would not work.
+Jun 30 02:43:14 <rishi>	The second field is the user, while the thrid field is the group.
+Jun 30 02:43:21 <kushal>	rishi, !
+Jun 30 02:43:27 <rishi>	kushal: Ask.
+Jun 30 02:44:03 <kushal>	rishi, if I only need to read/write/execute a file inside a directory , what permissions I should need on that directory 
+Jun 30 02:44:06 <kushal>	as user
+Jun 30 02:44:15 <kushal>	user == owner 
+Jun 30 02:44:51 <kushal>	rishi, Yahoo! interview people asked me this question 
+Jun 30 02:45:16 <kushal>	rishi, and i got totally confused 
+Jun 30 02:45:28 <Soumya>	me too :P
+Jun 30 02:45:44 <rishi>	kushal, Soumya: Ok.
+Jun 30 02:45:59 <rishi>	As owner you will need:
+Jun 30 02:46:12 *	ecntrk1 has quit (Read error: 110 (Connection timed out))
+Jun 30 02:46:41 <rishi>	d--x------
+Jun 30 02:48:46 <kushal>	ok
+Jun 30 02:48:54 <pushkal>	!
+Jun 30 02:49:02 <Soumya>	i thought of similarly but 'r' will not be neede ?
+Jun 30 02:49:11 <Soumya>	r/neede/needed
+Jun 30 02:49:14 <rishi>	Soumya: I am trying that. :-)
+Jun 30 02:49:16 <pushkal>	not drwx------
+Jun 30 02:49:22 <rishi>	kushal: Hang on.
+Jun 30 02:49:40 <susenj>	d-x------ should work,i think
+Jun 30 02:49:52 <kushal>	guys please let rishi talk 
+Jun 30 02:51:33 <rishi>	kushal: It looks like you will need drwx------
+Jun 30 02:51:50 *	susenj has quit ()
+Jun 30 02:52:23 <rishi>	kushal: Lets solve this tommorrow.
+Jun 30 02:52:36 <pushkal>	!
+Jun 30 02:52:38 <rishi>	Its 03:00hrs now.
+Jun 30 02:52:43 <rishi>	pushkal: Ask.
+Jun 30 02:52:50 <pushkal>	what was the logic behind d--x------ ?
+Jun 30 02:52:58 <Soumya>	yes rishi you need like it only
+Jun 30 02:53:01 <Soumya>	i tried
+Jun 30 02:53:13 <pushkal>	and not drwx------ <eof>
+Jun 30 02:53:45 <rishi>	pushkal: Without x you can not enter/traverse the directory, so that is a must.
+Jun 30 02:54:18 <kushal>	rishi, ok 
+Jun 30 02:55:03 <pushkal>	just a last !
+Jun 30 02:56:00 <rishi>	kushal: d--x------ will work as long as you have an existing file that is readable and writable
+Jun 30 02:56:09 <kushal>	rishi, ok 
+Jun 30 02:56:13 <rishi>	you can not create a new file.
+Jun 30 02:56:27 *	chacha_chaudhry has quit ("Ex-Chat")
+Jun 30 02:56:53 <pushkal>	rishi: but question said read/write/execute , for reading writing r,w must also be there, right ?
+Jun 30 02:57:28 <kushal>	pushkal, means , read or write or execute 
+Jun 30 02:57:36 <rishi>	pushkal: Question did not say whether its an existing file or not.
+Jun 30 02:57:42 *	sharanr has quit (Read error: 110 (Connection timed out))
+Jun 30 02:58:02 <kushal>	rishi, you can call it off for tonight 
+Jun 30 02:58:05 <pushkal>	ok got it <eof>
+Jun 30 02:58:40 <rishi>	kushal: Did they ask for existing file?
+Jun 30 02:58:44 <kushal>	yes 
+Jun 30 02:59:03 <rishi>	Then d--x------ is enough.
+Jun 30 02:59:18 <Prakhar>	yup, it seems logical
+Jun 30 02:59:37 <Prakhar>	for an existing file this should do
+Jun 30 02:59:54 <rishi>	Ok. Folks.
+Jun 30 03:00:01 <rishi>	Anymore queries?
+Jun 30 03:00:09 <Prakhar>	nopes
+Jun 30 03:00:10 <Prakhar>	:)
+Jun 30 03:00:29 <Soumya>	not today atleast
+Jun 30 03:00:31 <mavu>	:)
+Jun 30 03:00:32 <Soumya>	:P
+Jun 30 03:00:36 <Soumya>	:)
+Jun 30 03:01:04 <rishi>	Then lets stop at 'cp', 'touch' and 'ls' for today.
+Jun 30 03:01:13 <Soumya>	done rishi
+Jun 30 03:01:28 <rishi>	Will continue with 'ln', 'mv' ,etc. in the next class.
+Jun 30 03:01:30 <Soumya>	thanks for all the knowledge sharing session
+Jun 30 03:01:36 <rishi>	:-)
+Jun 30 03:01:36 <Soumya>	oks done
+Jun 30 03:01:37 <deepak>	rishi:we will carry on next day
+Jun 30 03:01:51 <rishi>	<-------- Class Ended -------->

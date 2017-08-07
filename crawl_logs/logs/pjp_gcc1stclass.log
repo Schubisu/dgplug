@@ -1,0 +1,686 @@
+Jun 29 22:45:51 <kushal>	<-- CLASS STARTED -->
+Jun 29 22:46:04 *	kushal has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplualso jg.org | How to write "Hello World!" in gcc http://tv.dgplug.org/ | Old classes http://www.dgplug.org/irclogs/ | Tonight 7pm Vi by Kushal, 10:30pm gcc by __pjp__, 12:00AM shell by rishi | <--CLASS STARTED-->
+Jun 29 22:46:12 <kushal>	_pjp_, all yours 
+Jun 29 22:46:25 <_pjp_>	kushal: yes, thanks.
+Jun 29 22:46:45 <_pjp_>	hello guys
+Jun 29 22:46:48 *	nandy_lost (n=chatzill@59.178.175.199) has joined #dgplug
+Jun 29 22:46:48 *	techno_freak welcomes the most happening bachelor in bengaluru
+Jun 29 22:46:59 <Soumya>	hello
+Jun 29 22:47:01 <kushal>	techno_freak, shhhhh! class is going on 
+Jun 29 22:47:04 <Prakhar>	Hello
+Jun 29 22:47:05 <Kishan>	hi.
+Jun 29 22:47:19 <_pjp_>	I assume everybody here know how to edit a file, and write a C program.
+Jun 29 22:47:25 *	ecntrk1 (i=sunny@117.194.0.243) has joined #dgplug
+Jun 29 22:47:34 <techno_freak>	_pjp_, no :|
+Jun 29 22:47:38 <kushal>	techno_freak, please 
+Jun 29 22:47:44 <_pjp_>	techno_freak: hi
+Jun 29 22:47:59 <techno_freak>	kushal, err.. i donno the second part, let him tell
+Jun 29 22:48:06 <ecntrk1>	!
+Jun 29 22:48:14 <kushal>	ecntrk, yes 
+Jun 29 22:48:31 <ecntrk1>	i got disconnected..
+Jun 29 22:48:39 <kushal>	nothing happened 
+Jun 29 22:48:42 <ecntrk1>	is it the 1st class?
+Jun 29 22:48:51 <kushal>	ecntrk, and from now on please ask friends in pm
+Jun 29 22:49:00 <kushal>	_pjp_, please carry on 
+Jun 29 22:49:11 <ecntrk1>	<eof>
+Jun 29 22:49:26 <_pjp_>	so for example, let's write the program to print the greeting ï»¿ "hello, world\n" and I'll explain how to compile it, and other things related.
+Jun 29 22:49:39 <_pjp_>	techno_freak: ?
+Jun 29 22:49:48 <techno_freak>	_pjp_, carry on
+Jun 29 22:51:03 *	ecntrk has quit (Read error: 110 (Connection timed out))
+Jun 29 22:52:25 <_pjp_>	does everyone have the program ready?
+Jun 29 22:52:27 *	debayan (n=debayan@117.198.32.77) has joined #dgplug
+Jun 29 22:52:30 <_pjp_>	see: http://rafb.net/p/2t460H47.html
+Jun 29 22:52:33 <ecntrk1>	I have...
+Jun 29 22:52:44 <_pjp_>	Great!
+Jun 29 22:53:12 <ecntrk1>	but.. I'm not in linux.. so in notepad...:(
+Jun 29 22:53:13 <Prams>	done
+Jun 29 22:53:20 <kushal>	ecntrk1, DON"T SPEAK 
+Jun 29 22:53:23 <kushal>	ecntrk1, use !
+Jun 29 22:53:23 <ria>	_pjp_, ya ready
+Jun 29 22:53:46 <ecntrk1>	!sure...sorry...<eof>
+Jun 29 22:53:51 <_pjp_>	ecntrk1: you need the Linux terminal
+Jun 29 22:53:55 *	Debashree_ (n=Debashre@61.2.164.146) has joined #dgplug
+Jun 29 22:53:56 <arpita>	_pjp_, yes ready
+Jun 29 22:54:10 <Prakhar>	done
+Jun 29 22:54:20 <roni>	done
+Jun 29 22:54:22 <ecntrk1>	!
+Jun 29 22:54:24 <techno_freak>	done
+Jun 29 22:54:33 <susenj>	done
+Jun 29 22:54:34 <_pjp_>	Now on the shell prompt type: $ gcc hello.c
+Jun 29 22:54:44 <_pjp_>	you can even say: cc hello.c
+Jun 29 22:54:52 <_pjp_>	I assume your filename is hello.c
+Jun 29 22:55:20 <ria>	done
+Jun 29 22:55:30 <susenj>	!
+Jun 29 22:55:30 <ecntrk1>	!
+Jun 29 22:55:45 <_pjp_>	Any error..anybody?
+Jun 29 22:55:55 <kushal>	susenj, yes
+Jun 29 22:55:56 <_pjp_>	ecntrk1: susenj?
+Jun 29 22:56:03 <ecntrk1>	but first, don't we need to install gcc? I don't have it installed in my distro..
+Jun 29 22:56:08 <susenj>	i tried cc in place of gcc ,it's okay!but when i typed man cc,shows no manual entry for cc
+Jun 29 22:56:18 *	Debashree has quit (Nick collision from services.)
+Jun 29 22:56:24 <susenj>	<eof>
+Jun 29 22:56:29 <ecntrk1>	<eof>
+Jun 29 22:56:29 <arpita>	_pjp_, it has returned to $ prompt
+Jun 29 22:56:29 *	Debashree_ is now known as Debashree
+Jun 29 22:56:37 <ria>	_pjp_, no error
+Jun 29 22:56:47 <arpita>	_pjp_, that means no error??
+Jun 29 22:56:50 <Soumya>	done _pjp_
+Jun 29 22:56:53 <_pjp_>	susenj: cc is a symbolic link to gcc
+Jun 29 22:57:05 <ria>	ya arpita
+Jun 29 22:57:13 <arpita>	ria, o.k
+Jun 29 22:57:15 <_pjp_>	susenj: do you know about symbolic link?
+Jun 29 22:57:21 <susenj>	is it not a command?<eof>
+Jun 29 22:57:21 <kushal>	all others STOP TALKING 
+Jun 29 22:57:25 <techno_freak>	arpita, no, do ls and check if you have a.out
+Jun 29 22:57:37 <kushal>	STOP TALKING 
+Jun 29 22:57:43 <susenj>	no,please let me know<eof>
+Jun 29 22:57:51 <_pjp_>	If you did not see any errors, you should see a file called a.out
+Jun 29 22:58:00 <_pjp_>	is it there?
+Jun 29 22:58:11 <ria>	yup
+Jun 29 22:58:19 <arpita>	_pjp_, yes a.out is there
+Jun 29 22:58:49 >techno_freak<	that was for the students 
+Jun 29 22:58:50 <_pjp_>	susenj: symbolic link is like a desktop shortcut in Windows.
+Jun 29 22:59:14 <_pjp_>	if you see the file a.out, on the shell prompt say $ ./a.out
+Jun 29 22:59:15 <susenj>	oh,i see,thanks!<eof>
+Jun 29 22:59:50 <_pjp_>	that should display the greeting "Hello, world\n"
+Jun 29 22:59:57 <arpita>	_pjp_, done
+Jun 29 23:00:07 <ria>	done
+Jun 29 23:00:09 <roni>	working
+Jun 29 23:00:13 <susenj>	me too
+Jun 29 23:00:42 *	rtnpro (n=rtnpro@121.241.211.243) has joined #dgplug
+Jun 29 23:00:55 <Prams>	done
+Jun 29 23:01:04 <deepak>	done
+Jun 29 23:01:24 <deepak>	_pjp_:!
+Jun 29 23:01:26 <_pjp_>	a.out is the earliest executable file format, and the name is the gift of Unix legacy.
+Jun 29 23:01:48 <_pjp_>	though the executable file format today in Linux is far different.
+Jun 29 23:01:51 <_pjp_>	see: http://en.wikipedia.org/wiki/A.out
+Jun 29 23:03:32 *	techno_freak has quit ("Leaving")
+Jun 29 23:04:39 <_pjp_>	Now when you said $ gcc hello.c, it took four steps for gcc to actually generate the executable/binary file a.out.
+Jun 29 23:05:19 <_pjp_>	fours steps are: Preprocessing, Compilation, Assembly, and lastly Code generation.
+Jun 29 23:05:44 *	coolpyro_rishi (n=chatzill@202.63.119.36) has joined #dgplug
+Jun 29 23:05:59 <_pjp_>	I hope folks are aware of these steps.
+Jun 29 23:06:14 <_pjp_>	deepak: ?
+Jun 29 23:06:16 <roni>	!
+Jun 29 23:06:20 <_pjp_>	roni: ?
+Jun 29 23:06:25 <roni>	[aritra@desktop ~]$ ./a.out
+Jun 29 23:06:25 <roni>	Hello, world
+Jun 29 23:06:25 <roni>	[aritra@desktop ~]$ gcc hello.c
+Jun 29 23:06:25 <roni>	hello.c:9:2: warning: no newline at end of file
+Jun 29 23:06:46 <kushal>	roni, please use http://rafb.net/paste from now on
+Jun 29 23:06:47 <roni>	why this is shown<eof>
+Jun 29 23:06:52 <kushal>	guys all please
+Jun 29 23:07:10 <kushal>	USE http://rffb.net/paste for showing any code or error
+Jun 29 23:07:11 <_pjp_>	roni: did you copy file from Windows to Linux?
+Jun 29 23:07:18 <kushal>	roni, see written in english 
+Jun 29 23:07:27 <deepak>	_pjp_:tell me the option i can use with gcc to name the file i wish
+Jun 29 23:07:46 <_pjp_>	deepak: you mean instead of a.out?
+Jun 29 23:08:11 <Soumya>	kushal, the link is http://rafb.net/paste
+Jun 29 23:08:16 <deepak>	_pjp_:yes
+Jun 29 23:08:22 <kushal>	Soumya, correct , my typo 
+Jun 29 23:08:45 <kushal>	deepak, use ! to ask permission for speaking 
+Jun 29 23:08:55 <_pjp_>	Okay, to name the executable file say: $ gcc -o <file-name> hello.c
+Jun 29 23:09:08 *	mobilesuit (n=freedom@59.93.217.29) has joined #dgplug
+Jun 29 23:09:16 <_pjp_>	Or $ cc -o <file-name> hello.c
+Jun 29 23:09:35 *	kushal gives channel operator status to _pjp_
+Jun 29 23:09:53 *	mobilesuit is away: 
+Jun 29 23:09:53 <_pjp_>	the -o option of gcc/cc lets you specify the output file-name.
+Jun 29 23:10:05 <_pjp_>	see gcc --help | more for more options.
+Jun 29 23:10:30 <deepak>	_pjp_:ok thanks
+Jun 29 23:10:45 <_pjp_>	You can actually see the output of every step mentioned earlier.
+Jun 29 23:10:54 <rtnpro>	!
+Jun 29 23:11:02 <_pjp_>	rtnpro: ?
+Jun 29 23:11:15 <rtnpro>	whats cc -o?
+Jun 29 23:11:15 *	ecntrk1 has quit ()
+Jun 29 23:11:51 <_pjp_>	cc is symbolic link/shorcut to gcc, it works the same way.
+Jun 29 23:12:06 <rtnpro>	!
+Jun 29 23:12:23 <rtnpro>	means in place of gcc...can I use cc?
+Jun 29 23:12:31 <deepak>	_pjp_:!
+Jun 29 23:12:46 <_pjp_>	the earliest Unix compiler was called cc, for C Compiler
+Jun 29 23:12:50 <_pjp_>	rtnpro: yes
+Jun 29 23:13:02 <rtnpro>	ok
+Jun 29 23:13:04 <_pjp_>	and the GNU version of cc was called gcc.
+Jun 29 23:13:38 <kushal>	_pjp_, please carry on 
+Jun 29 23:13:38 <_pjp_>	I hope all are aware of GNU
+Jun 29 23:13:50 <kushal>	we will take questions later 
+Jun 29 23:13:54 <_pjp_>	kushal: yes.
+Jun 29 23:13:55 <rtnpro>	ok <eof>
+Jun 29 23:14:47 <_pjp_>	So far, everybody with me?
+Jun 29 23:14:53 <Prakhar>	yes
+Jun 29 23:15:14 <ria>	yup
+Jun 29 23:15:21 <susenj>	ya
+Jun 29 23:15:25 <deepak>	_pjp_:yes
+Jun 29 23:15:27 <amrita>	yes
+Jun 29 23:15:30 <coolpyro_rishi>	_pjp_: yes
+Jun 29 23:15:35 <arpita>	yes
+Jun 29 23:15:43 <Prams>	yea
+Jun 29 23:15:43 <Kishan>	yes
+Jun 29 23:15:54 <_pjp_>	Great.
+Jun 29 23:15:59 <nandy_lost>	yes
+Jun 29 23:16:16 *	atanubera (n=root@125.20.11.34) has joined #dgplug
+Jun 29 23:16:31 <roni>	yes
+Jun 29 23:16:35 <rtnpro>	yes
+Jun 29 23:16:48 *	a (i=a@117.201.96.63) has joined #dgplug
+Jun 29 23:16:53 <_pjp_>	Now let's see how to generate a.out in two steps
+Jun 29 23:17:41 <_pjp_>	please type: gcc -c hello.c
+Jun 29 23:17:47 <_pjp_>	or cc -c hello.c
+Jun 29 23:18:31 <_pjp_>	the option `-c' stops just after compilation, that is after creating the object code.
+Jun 29 23:18:57 <_pjp_>	that means, preprocessing->compilation
+Jun 29 23:19:20 <nandy_lost>	!
+Jun 29 23:19:29 <_pjp_>	what remains is linking->executable_code_generation
+Jun 29 23:19:32 <_pjp_>	nandy_lost: ?
+Jun 29 23:19:48 <nandy_lost>	after compiling file name is hel.o
+Jun 29 23:19:49 *	debayan has quit (Read error: 110 (Connection timed out))
+Jun 29 23:19:56 <nandy_lost>	how can we open it/
+Jun 29 23:19:59 <nandy_lost>	?
+Jun 29 23:20:35 *	Soumya_ (n=Soumya@59.164.98.92) has joined #dgplug
+Jun 29 23:20:47 <_pjp_>	nandy_lost: you don't have to open it, it's not in human readable format
+Jun 29 23:20:59 *	Soumya has quit (Nick collision from services.)
+Jun 29 23:21:05 *	Soumya_ is now known as Soumya
+Jun 29 23:21:07 <nandy_lost>	is it executable code?
+Jun 29 23:21:17 <nandy_lost>	<eof>
+Jun 29 23:21:19 <_pjp_>	nandy_lost: file-name remains same, except extension changes to .o
+Jun 29 23:21:38 <kushal>	nandy_lost, please ask questions later 
+Jun 29 23:21:48 <susenj>	it gives some garbage with  "hello world!" in the end,when i typed cat hello.o
+Jun 29 23:21:51 <_pjp_>	nandy_lost: not executable really, but it's in binary format.
+Jun 29 23:22:37 <Prakhar>	please move forward
+Jun 29 23:22:48 <atanubera>	So todays topic is C programming in gcc compiler
+Jun 29 23:23:15 <atanubera>	I am following the process
+Jun 29 23:23:27 <Prakhar>	i don't think you need to re-iterate the topic
+Jun 29 23:23:37 <_pjp_>	susenj: right, the garbage is actually the information used by the gcc.
+Jun 29 23:23:44 *	root (n=root@117.194.2.152) has joined #dgplug
+Jun 29 23:24:01 *	root is now known as Guest29576
+Jun 29 23:24:12 <_pjp_>	atanubera: C Programming *using* gcc compiler
+Jun 29 23:24:24 *	kart_ has quit (Read error: 104 (Connection reset by peer))
+Jun 29 23:24:29 *	kart__ (n=kart_@121.245.17.223) has joined #dgplug
+Jun 29 23:24:35 <_pjp_>	kart__: hi
+Jun 29 23:24:46 <Guest29576>	Hi .. sory i'm late
+Jun 29 23:24:46 *	kart__ is now known as kart_
+Jun 29 23:25:01 *	Guest29576 is now known as t4num0y_cs3
+Jun 29 23:25:24 <_pjp_>	now let's see -c option in action.
+Jun 29 23:25:43 <kart_>	_pjp_: You are late ;)
+Jun 29 23:25:49 *	rtnpro has quit ("Leaving")
+Jun 29 23:25:50 *	ria_ (n=ria@219.64.69.160) has joined #dgplug
+Jun 29 23:26:08 *	ria has quit (Nick collision from services.)
+Jun 29 23:26:21 *	ria_ is now known as ria
+Jun 29 23:26:21 <_pjp_>	kart_: yeah, was having dinner. :)
+Jun 29 23:26:43 <kart_>	_pjp_: :)
+Jun 29 23:26:53 >kart_<	please talk in pm 
+Jun 29 23:27:35 <deepak>	_pjp_:carry on
+Jun 29 23:27:38 <_pjp_>	please modify the hello.c to also display square root of some number using maths library ï»¿function: sqrt()
+Jun 29 23:28:51 *	nandy_lost_ (n=chatzill@59.178.169.121) has joined #dgplug
+Jun 29 23:29:41 <arpita>	!
+Jun 29 23:29:42 *	chacha_chaudhry_ (n=dev@122.161.23.179) has joined #dgplug
+Jun 29 23:30:20 >arpita<	arpita yes
+Jun 29 23:30:26 <_pjp_>	see: http://rafb.net/p/6sIpnQ62.html
+Jun 29 23:30:50 <_pjp_>	now, first say: gcc hello.c
+Jun 29 23:30:55 <_pjp_>	or cc hello.c
+Jun 29 23:30:59 <_pjp_>	what error do you get?
+Jun 29 23:31:06 *	t4num0y_cs3 has quit ("leaving")
+Jun 29 23:32:04 *	t4num0y_cs3 (n=Neo@117.194.2.152) has joined #dgplug
+Jun 29 23:32:29 *	rishi (n=rishi@gnu-india/supporter/debarshi) has joined #dgplug
+Jun 29 23:32:40 <kushal>	please paste the error in the rafb.net/paste and give the link 
+Jun 29 23:33:17 *	Debashree has quit (Read error: 104 (Connection reset by peer))
+Jun 29 23:33:30 *	Prams (n=prams@125.20.11.34) has left #dgplug
+Jun 29 23:33:40 *	suse_nj (n=root@59.178.169.121) has joined #dgplug
+Jun 29 23:33:41 <_pjp_>	on some machines gcc might not complain
+Jun 29 23:33:56 <_pjp_>	as maths library is linked by default.
+Jun 29 23:34:14 <_pjp_>	ls
+Jun 29 23:34:26 <_pjp_>	oops..sorry!
+Jun 29 23:34:45 <Soumya>	my filename is 2nd.c error given is http://rafb.net/p/MWYHas92.html
+Jun 29 23:34:56 <ria>	http://rafb.net/p/JtMVYv53.html
+Jun 29 23:35:03 <ria>	the error ^^
+Jun 29 23:35:30 <_pjp_>	Excellent! :)
+Jun 29 23:36:14 <amrita>	http://rafb.net/p/2u54Mr27.html
+Jun 29 23:36:16 <_pjp_>	the error says that the function sqrt() is not defined in the file hello.c
+Jun 29 23:36:32 <Prakhar>	mine is here: http://rafb.net/p/y0DFKl10.html
+Jun 29 23:36:36 *	debayan (n=debayan@117.198.32.147) has joined #dgplug
+Jun 29 23:36:57 *	Debashree (n=Debashre@61.2.164.51) has joined #dgplug
+Jun 29 23:36:59 <_pjp_>	Great..all errors are same.
+Jun 29 23:37:14 <roni>	http://rafb.net/p/dNaBbQ64.html
+Jun 29 23:37:29 <roni>	error ^^^
+Jun 29 23:37:30 <deepak>	my error is here :http://rafb.net/p/H0V47h97.html
+Jun 29 23:37:55 <_pjp_>	so..the function sqrt () is defined in the standard maths library.
+Jun 29 23:38:09 <_pjp_>	now type gcc -c hello.c
+Jun 29 23:38:14 <_pjp_>	or cc -c hello.c
+Jun 29 23:38:43 <Soumya>	done, no errors
+Jun 29 23:39:03 <Prakhar>	yup, next?
+Jun 29 23:39:48 <arpita>	_pjp_, my error ishttp://rafb.net/p/w2VNBw45.html
+Jun 29 23:39:51 *	kart_ has quit (Read error: 104 (Connection reset by peer))
+Jun 29 23:40:19 <_pjp_>	right..option -c comes handy to point out compilation/syntax errors.
+Jun 29 23:40:27 <_pjp_>	arpita: with -c option?
+Jun 29 23:40:39 *	ria_ (n=ria@219.64.69.160) has joined #dgplug
+Jun 29 23:40:57 *	ria has quit (Nick collision from services.)
+Jun 29 23:41:05 *	ria_ is now known as ria
+Jun 29 23:41:32 <deepak>	_pjp_:done no error
+Jun 29 23:41:34 <_pjp_>	because when you use gcc -c, the actual linking is deferred till later.
+Jun 29 23:41:44 <arpita>	_pjp_, with -c option it is not showing any errors
+Jun 29 23:41:47 <t4num0y_cs3>	!
+Jun 29 23:41:56 <_pjp_>	t4num0y_cs3: ?
+Jun 29 23:42:00 <ria>	_pjp_, sorry for interruption, was disconnected
+Jun 29 23:42:02 <_pjp_>	oops..sorry later
+Jun 29 23:42:06 <ria>	<_pjp_> or cc -c hello.c
+Jun 29 23:42:12 <_pjp_>	right
+Jun 29 23:42:14 <ria>	can i get what is done after this?
+Jun 29 23:42:20 <t4num0y_cs3>	i don't understand the function of -c ?
+Jun 29 23:42:44 <Soumya>	t4num0y_cs3, read gcc --help
+Jun 29 23:42:48 <suse_nj>	to suppress the errors t4num0y!
+Jun 29 23:42:52 <Soumya>	_pjp_, carry on
+Jun 29 23:42:59 <arpita>	_pjp_, how come only gcc was showing errors and gcc -c is not showing errors??
+Jun 29 23:43:15 *	chacha_chaudhry has quit (Connection timed out)
+Jun 29 23:43:32 *	chacha_chaudhry_ is now known as chacha_chaudhry
+Jun 29 23:44:09 *	SDey has quit (Remote closed the connection)
+Jun 29 23:44:22 <arpita>	_pjp_,  _pjp_, how come only gcc was showing errors and gcc -c is not showing errors??
+Jun 29 23:44:33 <ria>	!
+Jun 29 23:44:36 *	nandy_lost has quit (Read error: 110 (Connection timed out))
+Jun 29 23:44:55 *	suse_nj (n=root@59.178.169.121) has left #dgplug
+Jun 29 23:45:21 *	atanubera (n=root@125.20.11.34) has left #dgplug
+Jun 29 23:45:24 <Soumya>	may be _pjp_ is disconnected, wait a while
+Jun 29 23:45:37 <Soumya>	kushal, ping
+Jun 29 23:46:05 *	susenj_ (n=root@59.178.169.121) has joined #dgplug
+Jun 29 23:46:20 <ria>	Soumya, seems all are disconnected
+Jun 29 23:46:35 <Soumya>	may be kushal , _pjp_ all rae dc
+Jun 29 23:46:38 <Soumya>	lets wait ria
+Jun 29 23:46:46 <ria>	hmm Soumya :)
+Jun 29 23:46:58 <ria>	Soumya, did your program give an output?
+Jun 29 23:47:01 <susenj_>	may i know,how these nickname collision occuring frequently
+Jun 29 23:47:31 *	susenj has quit (Read error: 110 (Connection timed out))
+Jun 29 23:47:39 *	susenj_ is now known as susenj
+Jun 29 23:47:42 <ria>	Soumya, the sqrroot one?
+Jun 29 23:47:47 <amrita>	ria, i didn't get an output
+Jun 29 23:47:47 <kushal>	yes
+Jun 29 23:47:55 <ria>	amrita, me too
+Jun 29 23:48:00 <Soumya>	_pjp_, is dc may be
+Jun 29 23:48:14 <kushal>	yes
+Jun 29 23:48:16 <kushal>	wait
+Jun 29 23:48:21 <Soumya>	amrita, ria , for that one read gcc --help
+Jun 29 23:48:32 <ria>	Soumya, ya
+Jun 29 23:49:09 <Soumya>	-c option only compiles and assembles but doesn't link to output file ria, amrita
+Jun 29 23:49:18 <kushal>	everyone wait for _pjp_ , he is in DNS problem 
+Jun 29 23:49:19 <ria>	Soumya, ya
+Jun 29 23:49:20 <Prakhar>	yes, correct
+Jun 29 23:49:30 *	Subhodip wonders why people are logged is as root 
+Jun 29 23:49:34 <Soumya>	so nobody did receive the error
+Jun 29 23:49:35 <amrita>	Soumya, yes
+Jun 29 23:49:35 <t4num0y_cs3>	but how can  get a obj file ?
+Jun 29 23:49:41 <t4num0y_cs3>	* i
+Jun 29 23:49:48 <ria>	Soumya, i tried with gcc -o , but that will not work
+Jun 29 23:49:49 *	Soumya supports Subhodip 's idea
+Jun 29 23:50:22 <Soumya>	what do you mean by that t4num0y_cs3
+Jun 29 23:50:24 <arpita>	Soumya, m=no error is showing on giving gcc -c but a.out file is not created
+Jun 29 23:50:40 <Soumya>	you gave gcc -c (which creates a object file only ) so you got a object file
+Jun 29 23:50:46 <t4num0y_cs3>	cc hello.c gives you a obj file that is a.out ...
+Jun 29 23:50:47 <kushal>	arpita, yes, but hello.o 
+Jun 29 23:50:48 <kushal>	see
+Jun 29 23:50:50 <Prakhar>	a.out file is the final output file
+Jun 29 23:50:59 <Soumya>	yes arpita it will not create a.out
+Jun 29 23:51:01 <t4num0y_cs3>	but cc -c hello.c .. where is a.out ?
+Jun 29 23:51:08 <kushal>	t4num0y_cs3, no a.out 
+Jun 29 23:51:12 <Soumya>	it will create yourfilename.o file (means object file)
+Jun 29 23:51:13 <kushal>	that is what he is teaching 
+Jun 29 23:51:14 <deepak>	kushal:yes hello.o only has created
+Jun 29 23:51:26 <arpita>	Soumya, so now to execute it what to do?
+Jun 29 23:51:34 <Soumya>	let _pjp_ come
+Jun 29 23:51:37 <Prakhar>	wait
+Jun 29 23:51:42 <Soumya>	he will tell you the details
+Jun 29 23:51:50 <Soumya>	arpita, wait till here till _pjp_ comes
+Jun 29 23:52:00 <coolpyro_rishi>	arpita: ./ hello.out
+Jun 29 23:52:16 <kushal>	arpita, you can not 
+Jun 29 23:52:20 <Soumya>	coolpyro_rishi, FYI no out file is created
+Jun 29 23:52:27 <kushal>	arpita, that is what he is teaching 
+Jun 29 23:52:32 <t4num0y_cs3>	bash: ./samp: cannot execute binary file
+Jun 29 23:52:38 <kushal>	hello.o is not executable code 
+Jun 29 23:52:46 <kushal>	it is only object file 
+Jun 29 23:52:48 <t4num0y_cs3>	samp is the obj file ..:)
+Jun 29 23:53:02 <arpita>	coolpyro_rishi, ./hello.out does not exist at all
+Jun 29 23:53:04 <susenj>	arpita:  gcc -c hello.c -o hello.out
+Jun 29 23:53:12 <susenj>	try this
+Jun 29 23:53:13 <ria>	kushal, you say me why gcc -c works but not gcc -o
+Jun 29 23:53:24 <ria>	kushal, gcc -o gives errors
+Jun 29 23:53:28 <kushal>	ria, yes
+Jun 29 23:53:36 <ria>	kushal, why?
+Jun 29 23:53:40 <kushal>	_pjp_, was telling in two steps
+Jun 29 23:53:46 <kushal>	first step is gcc -c 
+Jun 29 23:53:51 <Soumya>	please you people make it (no .out file is created) the last command created a object file .o (You cant execute .o file)
+Jun 29 23:54:04 <ria>	kushal, ok
+Jun 29 23:54:30 <Soumya>	_pjp_, is teaching to make it in two steps
+Jun 29 23:54:32 <ria>	kushal, if i do gcc -c hello.c, how will i run the program
+Jun 29 23:54:34 <ria>	?
+Jun 29 23:54:37 *	_pjp_1 (n=pjp@59.92.157.171) has joined #dgplug
+Jun 29 23:54:43 <Subhodip>	t4num0y_cs3, check if you have executable  permission in your swamp file
+Jun 29 23:54:48 <kushal>	ria, wait 
+Jun 29 23:54:51 <Soumya>	_pjp_1, thank god you came
+Jun 29 23:54:59 <_pjp_1>	sorry..that was some DNS problem.
+Jun 29 23:55:00 <ria>	:)
+Jun 29 23:55:02 <kushal>	ria, learn to wait 
+Jun 29 23:55:03 <Soumya>	there was raining questions _pjp_1
+Jun 29 23:55:08 <t4num0y_cs3>	Subhodip , ya chmod +x samp...
+Jun 29 23:55:13 <arpita>	Kishan, now hello.out is created but it is showing permission denied when i am trying to execute it
+Jun 29 23:55:18 <t4num0y_cs3>	but till same error .. :(
+Jun 29 23:55:30 <arpita>	kushal,  now hello.out is created but it is showing permission denied when i am trying to execute it
+Jun 29 23:55:32 *	pushkal (n=chatzill@117.197.18.9) has joined #dgplug
+Jun 29 23:55:35 <kushal>	ALL PLEASE FOLLOW ONLY _pjp_ _pjp_1 
+Jun 29 23:55:46 <Soumya>	you people stop let _pjp_1 continue
+Jun 29 23:55:47 <kushal>	arpita, he never told you to do so 
+Jun 29 23:55:52 <Soumya>	pleaseeeeee
+Jun 29 23:55:56 <_pjp_1>	why am I _pjp_1?
+Jun 29 23:56:04 <Soumya>	ALL PLEASE STOP
+Jun 29 23:56:10 <Soumya>	_pjp_, is ghost
+Jun 29 23:56:17 <kushal>	  _pjp_1 /msg nickserv ghost _pjp_  yourpassword 
+Jun 29 23:56:23 <kushal>	to ghost it 
+Jun 29 23:56:29 <Soumya>	yup
+Jun 29 23:56:29 <_pjp_1>	okay..where were we?
+Jun 29 23:56:30 <Soumya>	:)
+Jun 29 23:56:41 <Soumya>	we were creating the object file .o
+Jun 29 23:56:43 <kushal>	gcc -c hello,c 
+Jun 29 23:56:43 *	_pjp_1 (n=pjp@59.92.157.171) has left #dgplug
+Jun 29 23:56:49 *	indradg is now known as indradg|dinner
+Jun 29 23:56:58 *	_pjp_1 (n=pjp@59.92.157.171) has joined #dgplug
+Jun 29 23:57:19 <_pjp_1>	hello
+Jun 29 23:57:24 <Soumya>	typo kushal
+Jun 29 23:57:30 <Soumya>	gcc -c hello.c
+Jun 29 23:58:17 <_pjp_1>	hello.and..sorry again.
+Jun 29 23:58:23 <_pjp_1>	so where were we?
+Jun 29 23:58:26 <kushal>	gcc -c hello.c  
+Jun 29 23:58:49 <deepak>	_pjp_:we get the file name as hello.o after -c option
+Jun 29 23:59:38 <_pjp_1>	okay..so -c comes handy when you only want to get rid of the compilation errors without actually going through linking and code generation.
+Jun 29 23:59:53 *	debayan has quit (Read error: 110 (Connection timed out))
+Jun 30 00:00:38 <Soumya>	after that what _pjp_1 how can we execute from .o file
+Jun 30 00:00:46 <deepak>	_pjp_:last two process is still left
+Jun 30 00:00:47 <_pjp_1>	that'll anyway won't happen in case of compilation errors..but you can build static/dynamic libraries this way using -c.
+Jun 30 00:00:53 *	_pjp_ has quit (Read error: 110 (Connection timed out))
+Jun 30 00:00:56 <kushal>	deepak, Soumya, please STOP
+Jun 30 00:01:00 *	Subhodip has quit ("Leaving")
+Jun 30 00:01:06 *	nandy_lost_ has quit ("ChatZilla 0.9.83 [Firefox 3.0/2008052906]")
+Jun 30 00:01:31 *	kushal gives channel operator status to Soumya
+Jun 30 00:01:35 <_pjp_1>	Do all know about the static/dynamic libraries?
+Jun 30 00:01:41 <arpita>	no
+Jun 30 00:02:14 <deepak>	deepak:only heard
+Jun 30 00:02:17 <_pjp_1>	anyways..first let's complete this..then will see about libraries.
+Jun 30 00:02:42 *	samar has quit ("Ex-Chat")
+Jun 30 00:03:03 <_pjp_1>	so now, to link the hello.o with the standard maths library say: $ gcc hello.o -lm
+Jun 30 00:03:10 <_pjp_1>	or cc hello.o -lm
+Jun 30 00:03:33 <pushkal>	i m sorry to disturb... but please.. someone paste the conversation on www.pastebin.com
+Jun 30 00:04:15 <kushal>	pushkal, only after the class 
+Jun 30 00:04:22 <pushkal>	kushal: ok
+Jun 30 00:04:26 <_pjp_1>	the option -lm tells the compiler(ie. gcc) to link the executable file with the given library, in this case maths library.
+Jun 30 00:06:08 <deepak>	done
+Jun 30 00:06:23 <_pjp_1>	because of this linking, when you execute the program, like say: ./a.out or ./hello the OS knows which libraries to load and from where.
+Jun 30 00:06:25 <amrita>	done
+Jun 30 00:06:40 <ria>	!
+Jun 30 00:07:06 <_pjp_1>	ria: later please, 10 mins.
+Jun 30 00:07:13 <ria>	ok
+Jun 30 00:07:22 <ria>	<eof>
+Jun 30 00:07:29 <_pjp_1>	so do you see the a.out or hello file again?
+Jun 30 00:07:44 <_pjp_1>	delete the previous one, and try again.
+Jun 30 00:07:49 <deepak>	yes
+Jun 30 00:07:55 <ria>	yup
+Jun 30 00:08:13 <_pjp_1>	Great..execute that file.
+Jun 30 00:08:47 <ria>	sqrroot of 9 , it gives 0
+Jun 30 00:08:55 <amrita>	mine too
+Jun 30 00:09:03 <_pjp_1>	he..he..could some one guess why?
+Jun 30 00:09:17 <roni>	pushkal, http://pastebin.com/m2360d687
+Jun 30 00:09:51 <kushal>	roni, talk in pm please 
+Jun 30 00:10:03 <roni>	ok
+Jun 30 00:10:09 <arpita>	sqroot of 9 is showing 0
+Jun 30 00:10:21 <kushal>	arpita, yes, and _pjp_1 asked why ? 
+Jun 30 00:10:21 <roni>	^^^^^^
+Jun 30 00:10:51 <susenj>	sqrt takes float/double as an argumebt
+Jun 30 00:10:57 <susenj>	*argument
+Jun 30 00:11:16 *	Debashree has quit (Read error: 104 (Connection reset by peer))
+Jun 30 00:11:30 <t4num0y_cs3>	sqrt takes only double...
+Jun 30 00:11:33 <ria>	something related to string _pjp_1
+Jun 30 00:11:56 <_pjp_1>	right..sqrt() returns a *double* value which can not be displayed using %d
+Jun 30 00:12:29 <kushal>	s/takes/returns
+Jun 30 00:13:06 <_pjp_1>	kushal: ?
+Jun 30 00:13:22 *	indradg|dinner is now known as indradg
+Jun 30 00:13:35 <kushal>	_pjp_1, not for you, the students said takes, I replaced it with returns 
+Jun 30 00:13:42 <kushal>	_pjp_1, sorry to interrupt 
+Jun 30 00:13:47 *	Debashree (n=Debashre@61.2.165.135) has joined #dgplug
+Jun 30 00:13:55 <_pjp_1>	ï»¿Please replace %d with %f
+Jun 30 00:14:16 *	mavu (n=satya@59.178.160.205) has joined #dgplug
+Jun 30 00:14:17 <_pjp_1>	and compile->run again
+Jun 30 00:14:54 *	mavu is now known as mavu_
+Jun 30 00:15:02 <_pjp_1>	does it works now?
+Jun 30 00:15:10 <t4num0y_cs3>	!
+Jun 30 00:15:18 <_pjp_1>	t4num0y_cs3: yes
+Jun 30 00:15:20 <_pjp_1>	?
+Jun 30 00:15:22 <ria>	no
+Jun 30 00:15:31 <arpita>	no
+Jun 30 00:15:36 <t4num0y_cs3>	./samp1.o: Permission denied
+Jun 30 00:15:42 <amrita>	no
+Jun 30 00:15:43 <kushal>	all students please link it also 
+Jun 30 00:15:55 <t4num0y_cs3>	after cc -c samp1.c -lm
+Jun 30 00:15:59 <_pjp_1>	what is the error?
+Jun 30 00:16:18 <kushal>	t4num0y_cs3, in two different lines 
+Jun 30 00:16:19 <t4num0y_cs3>	_pjp_1 :  Permission denied
+Jun 30 00:16:27 <kushal>	t4num0y_cs3, two commands
+Jun 30 00:16:28 <_pjp_1>	t4num0y_cs3: no, -c does not do linking.
+Jun 30 00:16:29 <ria>	not showing error, but the same output
+Jun 30 00:16:36 <Soumya>	done
+Jun 30 00:16:54 <arpita>	yes still showing 0 as output
+Jun 30 00:16:54 <amrita>	same output
+Jun 30 00:16:55 <_pjp_1>	ria: remove the old file and try again
+Jun 30 00:17:07 <ria>	_pjp_1, i did so
+Jun 30 00:17:14 <_pjp_1>	that's strange.
+Jun 30 00:17:22 <_pjp_1>	wait a sec..I'll paste it.
+Jun 30 00:17:29 <kushal>	ria, please type the steps here 
+Jun 30 00:17:56 <kushal>	_pjp_1, please change the nick and identify , I need to pm 
+Jun 30 00:18:22 <_pjp_1>	kushal: how do I change nicname?
+Jun 30 00:18:34 <kushal>	_pjp_1, /nick _pjp_ 
+Jun 30 00:18:50 <kushal>	_pjp_1, then /msg nickserv identify yourpassword 
+Jun 30 00:19:21 <ria>	_pjp_1, is it wrong http://rafb.net/p/qMdEuV98.html ?
+Jun 30 00:19:25 <_pjp_1>	http://rafb.net/p/HznzXg70.html
+Jun 30 00:19:50 <arpita>	kushal, if i change variable n's type from int to float correct output is showing...is that o.k???
+Jun 30 00:19:56 <_pjp_1>	ria: you need not change the data type of n.
+Jun 30 00:20:09 <ria>	earlier i did so but did not work so i changed _pjp_1
+Jun 30 00:20:32 <arpita>	ya me too changed data type and then it is working
+Jun 30 00:20:39 <_pjp_1>	it's not wrong..but not necessary cause 9 is an integer.
+Jun 30 00:20:53 *	indradg has quit (Remote closed the connection)
+Jun 30 00:20:58 <kushal>	ria, and main rever returns float 
+Jun 30 00:21:04 <kushal>	s/rever/never 
+Jun 30 00:21:47 <ria>	_pjp_1, still the same
+Jun 30 00:21:53 <deepak>	_pjp_:again it is showing output as 0
+Jun 30 00:22:16 <ria>	_pjp_1, http://rafb.net/p/yHqWux73.html
+Jun 30 00:22:16 <kushal>	ria, please type your steps here 
+Jun 30 00:22:40 <kushal>	ria, please type your steps here from the writing of the code by vim 
+Jun 30 00:22:46 <t4num0y_cs3>	!
+Jun 30 00:22:47 <ria>	[ria@rialappy c]$ rm a.out
+Jun 30 00:23:08 <ria>	[ria@rialappy c]$ gcc hello.o -lm
+Jun 30 00:23:26 <ria>	[ria@rialappy c]$ ./a.out
+Jun 30 00:23:29 <kushal>	ria, first create that hello.o as your code changed
+Jun 30 00:23:33 <_pjp_1>	ria:  use hello.c
+Jun 30 00:23:37 <kushal>	./gcc -c hello.c
+Jun 30 00:23:47 <kushal>	I mean $gcc -c hello.c
+Jun 30 00:23:49 <_pjp_1>	you changed the source, not hello.o right?
+Jun 30 00:23:49 <ria>	ok
+Jun 30 00:24:38 <ria>	working
+Jun 30 00:24:43 <t4num0y_cs3>	!
+Jun 30 00:24:44 <arpita>	kushal, ria my program is running correctly now
+Jun 30 00:25:01 <arpita>	kushal, without changing data type of n
+Jun 30 00:25:31 *	chacha_chaudhry_ (n=rpmbuild@122.162.66.111) has joined #dgplug
+Jun 30 00:25:32 <_pjp_1>	ï»¿folks please note that, you can pass integer to a function which accepts float/double values, but the reverse is not allowed.
+Jun 30 00:25:55 <amrita>	    !
+Jun 30 00:26:28 <_pjp_1>	that's why sqrt() can accept an integer, but it's return value can not be used with %d in printf().
+Jun 30 00:27:51 <t4num0y_cs3>	!
+Jun 30 00:27:51 <arpita>	_pjp_1, this implies square root function may accept an integer or floating value as arguement but will return a float type value always?
+Jun 30 00:28:22 <_pjp_1>	correct.
+Jun 30 00:28:34 <_pjp_1>	t4num0y_cs3:
+Jun 30 00:28:36 <_pjp_1>	?
+Jun 30 00:28:53 <t4num0y_cs3>	ya i got permission denied error everytime ..
+Jun 30 00:29:07 <_pjp_1>	t4num0y_cs3: what are you doing?
+Jun 30 00:29:28 <t4num0y_cs3>	#cc -c samp1.c
+Jun 30 00:29:42 <t4num0y_cs3>	#cc samp1.c -lm
+Jun 30 00:29:49 <_pjp_1>	t4num0y_cs3: Do not work as root user.
+Jun 30 00:30:15 <kushal>	t4num0y_cs3, cc sanple1.o -lm
+Jun 30 00:30:22 <_pjp_1>	t4num0y_cs3: switch to some other user.
+Jun 30 00:30:55 <t4num0y_cs3>	ok ...
+Jun 30 00:31:07 *	t4num0y_cs3 has quit ("Leaving")
+Jun 30 00:31:32 <kushal>	good boy
+Jun 30 00:31:37 <kushal>	_pjp_1, carry on please :)
+Jun 30 00:31:44 <_pjp_1>	okay..
+Jun 30 00:32:55 <_pjp_1>	there are other useful options of gcc like `-x' to specify source file type, as gcc can also compile c++ sources.
+Jun 30 00:33:22 <Soumya>	give one example _pjp_1
+Jun 30 00:33:25 *	t4num0y_cs3 (n=T4num0y@117.194.2.152) has joined #dgplug
+Jun 30 00:33:53 <_pjp_1>	say: gcc -x c hello.c
+Jun 30 00:34:16 <_pjp_1>	or copy hello.c to hello.txt and say: gcc -x c hello.txt
+Jun 30 00:34:30 <_pjp_1>	you should get the same a.out file.
+Jun 30 00:35:03 <_pjp_1>	this comes handy when a project includes both, C and C++ source files.
+Jun 30 00:35:23 *	chacha_chaudhry has quit (Read error: 110 (Connection timed out))
+Jun 30 00:35:43 <_pjp_1>	other one is -std to specify the language standard.
+Jun 30 00:36:11 <arpita>	gcc -x c hjello.c is not working
+Jun 30 00:36:16 <_pjp_1>	C language has more than one published standard so far.
+Jun 30 00:36:35 <_pjp_1>	arpita: what happens?
+Jun 30 00:37:13 <_pjp_1>	standard C89 is the most widely used and supported standard todate.
+Jun 30 00:37:35 <deepak>	!
+Jun 30 00:37:47 <t4num0y_cs3>	!
+Jun 30 00:38:32 <arpita>	 _pjp_1 ,In function `main':hello.c:: undefined reference to `sqrt returned 1 exit status is the error showing
+Jun 30 00:38:46 <_pjp_1>	All C compilers comply with the C89 standard.
+Jun 30 00:39:02 <_pjp_1>	arpita: you did not link with -lm
+Jun 30 00:39:14 <_pjp_1>	deepak: t4num0y_cs3: ?
+Jun 30 00:39:49 <deepak>	[deepak@localhost ~]$ cp hello1.c hello1.txt
+Jun 30 00:40:04 <deepak>	i used this as first
+Jun 30 00:40:10 <t4num0y_cs3>	same permission denied error ..
+Jun 30 00:40:19 <deepak>	my file name is hello1.c
+Jun 30 00:40:20 <_pjp_1>	there is also C99 standard, but not all compilers support this, and thus still not portable enough.
+Jun 30 00:40:53 <_pjp_1>	t4num0y_cs3: what did you do?
+Jun 30 00:40:53 <deepak>	[deepak@localhost ~]$ gcc -x c hello1.txt
+Jun 30 00:41:50 <kushal>	deepak, link it with -lm
+Jun 30 00:42:16 <deepak>	kushal:now it is ok
+Jun 30 00:42:21 <t4num0y_cs3>	$ cc -c hello.c
+Jun 30 00:42:23 <t4num0y_cs3>	$ cc -lm hello.c
+Jun 30 00:42:36 <Soumya>	_pjp_1, can we directly do gcc -x hello.txt
+Jun 30 00:42:39 <t4num0y_cs3>	also $ cc -lm hello.o
+Jun 30 00:42:41 <Soumya>	to get a.out ??
+Jun 30 00:43:07 <t4num0y_cs3>	no i got hello.o
+Jun 30 00:43:10 <_pjp_1>	Soumya: no, -x option asks for source language, and hello.txt is a file-name.
+Jun 30 00:44:23 <Soumya>	ok so let any program be in hello.txt we should do gcc -x c hello.txt
+Jun 30 00:44:35 <Soumya>	right _pjp_1 ?
+Jun 30 00:44:57 <ria>	!
+Jun 30 00:45:17 <_pjp_1>	Soumya: not always -x c
+Jun 30 00:45:20 <_pjp_1>	ria: ?
+Jun 30 00:45:39 <Soumya>	then _pjp_1 ?
+Jun 30 00:45:43 <t4num0y_cs3>	_pjp_1 , ?
+Jun 30 00:45:46 <ria>	if it combines 2 languages then will it be like gcc -x c c++ <filename> ?
+Jun 30 00:46:12 <ria>	is the c for the c language?
+Jun 30 00:46:16 <ria>	<eof>
+Jun 30 00:46:20 <_pjp_1>	Soumya: I mean, specify the language of the program that is in hello.txt
+Jun 30 00:46:45 <_pjp_1>	ria: c++ compiler understands C code, so you can just say -x c++
+Jun 30 00:47:20 <Soumya>	ok
+Jun 30 00:47:24 <ria>	ok
+Jun 30 00:47:30 *	chacha_chaudhry_ is now known as chacha_chaudhry
+Jun 30 00:47:39 <ria>	_pjp_1, when there are 2 languages then?
+Jun 30 00:47:49 <ria>	other than c and c++?
+Jun 30 00:48:02 <ria>	can we use gcc +x?
+Jun 30 00:48:14 <_pjp_1>	ria: gcc +x?
+Jun 30 00:48:26 <ria>	sorry gcc -x
+Jun 30 00:48:56 <_pjp_1>	ï»¿folks there are other useful options like -I -L and -D etc. May be we'll talk about them tomorrow.
+Jun 30 00:49:11 <_pjp_1>	for now let's take the questions.
+Jun 30 00:49:15 <_pjp_1>	kushal: okay?
+Jun 30 00:49:39 <_pjp_1>	ria: two languages in one file?
+Jun 30 00:50:09 <ria>	no you were talking of combining 2 languages that's why _pjp_1
+Jun 30 00:50:15 <kushal>	_pjp_1, perfect 
+Jun 30 00:50:27 <t4num0y_cs3>	!
+Jun 30 00:50:31 <ria>	ya its not possible to have to languages in a file
+Jun 30 00:50:44 <_pjp_1>	okay guys..let's hit the questions. :)
+Jun 30 00:50:46 <_pjp_1>	t4num0y_cs3: ?
+Jun 30 00:50:59 <Soumya>	!
+Jun 30 00:51:02 <_pjp_1>	Soumya: ?
+Jun 30 00:51:04 <t4num0y_cs3>	What about this Permission ? what i have to do ?
+Jun 30 00:51:21 <_pjp_1>	t4num0y_cs3: I'm sorry, but I don't know what you are doing?
+Jun 30 00:51:43 <Soumya>	_pjp_1, what you told in gcc -x c hello.txt was we should specify the language !!
+Jun 30 00:52:02 <Soumya>	can you specify by some example and all so that i can get completely
+Jun 30 00:52:13 <Soumya>	i have got you , but i need one example
+Jun 30 00:52:26 <kushal>	t4num0y_cs3, please type the steps in rafb and give us the link
+Jun 30 00:52:34 <kushal>	Soumya, like
+Jun 30 00:52:43 <kushal>	there is a file called kus.txt
+Jun 30 00:52:58 <kushal>	if inside it C code is there  
+Jun 30 00:53:01 <kushal>	then 
+Jun 30 00:53:10 <kushal>	gcc -x c kus.txt 
+Jun 30 00:53:14 <kushal>	if C++ 
+Jun 30 00:53:19 <kushal>	gcc -x c++  kus.txt 
+Jun 30 00:53:25 <_pjp_1>	Soumya: the program in hello.txt is written in C, so you say -x c
+Jun 30 00:53:37 <kushal>	anyone , any other question ?
+Jun 30 00:53:48 <ria>	!
+Jun 30 00:53:53 <kushal>	ria, yes
+Jun 30 00:54:03 <ria>	why do we need to use it gcc -x?
+Jun 30 00:54:05 <_pjp_1>	otherwise you could say -x c++ or -x ada or -x assembler etc.
+Jun 30 00:54:10 <ria>	when is it needed
+Jun 30 00:54:17 <ria>	?
+Jun 30 00:54:24 <ria>	<eof>
+Jun 30 00:54:32 <_pjp_1>	ria: it's not always necessary, but sometimes useful.
+Jun 30 00:54:34 <arpita>	!
+Jun 30 00:54:34 <kushal>	ria, like in a project you wrote files in C and C++ also (different files)
+Jun 30 00:54:50 <kushal>	ria, so then compiling each you can specify which language 
+Jun 30 00:54:53 <kushal>	arpita, yes 
+Jun 30 00:55:02 <ria>	kushal, are there 2 files one with c and other c++?
+Jun 30 00:55:13 <_pjp_1>	Soumya: ?
+Jun 30 00:55:28 <kushal>	ria, yes, (example )
+Jun 30 00:55:38 <ria>	ok kushal
+Jun 30 00:55:41 <Soumya>	got it _pjp_1 , thank you
+Jun 30 00:55:50 <kushal>	t4num0y_cs3, there ?
+Jun 30 00:55:51 <arpita>	Kishan, gcc -x c hello.c is not working
+Jun 30 00:56:02 <ria>	everything clear :)
+Jun 30 00:56:02 <kushal>	arpita, no, see the error
+Jun 30 00:56:03 *	amrita_ (n=amrita@117.201.96.85) has joined #dgplug
+Jun 30 00:56:22 <t4num0y_cs3>	http://rafb.net/p/abIepp48.html
+Jun 30 00:56:22 <kushal>	arpita, and try to remember how you solved that error couple of minutes bac k
+Jun 30 00:56:30 *	amrita has quit (Nick collision from services.)
+Jun 30 00:56:35 <kushal>	who is a ?
+Jun 30 00:56:39 *	amrita_ is now known as amrita
+Jun 30 00:56:56 <arpita>	In function `main':
+Jun 30 00:56:56 <arpita>	 hello.c:(.text+0x45): undefined reference to `sqrt'
+Jun 30 00:56:56 <arpita>	 collect2: ld returned 1 exit status
+Jun 30 00:57:10 <kushal>	t4num0y_cs3, in the second step you are supposed to link the object file not the source
+Jun 30 00:57:12 <kushal>	hello.o 
+Jun 30 00:57:15 <_pjp_1>	t4num0y_cs3: hello.o is not executable file.
+Jun 30 00:57:32 <kushal>	arpita, please use http://rafb.net/paste from now on
+Jun 30 00:57:41 <arpita>	Kishan, o.k
+Jun 30 00:57:45 <arpita>	kushal, o.k
+Jun 30 00:57:48 <kushal>	arpita, see at the beginning of the class you got this error 
+Jun 30 00:57:49 <ria>	arpita, use gcc -c -x
+Jun 30 00:57:59 <ria>	arpita, it will work then
+Jun 30 00:57:59 <kushal>	arpita, ^^ 
+Jun 30 00:58:50 <kushal>	a, who are you ?
+Jun 30 00:59:01 <t4num0y_cs3>	_pjp_1 , then which one is executable file ? i mean how can i run it ?
+Jun 30 00:59:02 <ria>	kushal, will the link be done in the same way after using gcc -c -x?
+Jun 30 00:59:10 <kushal>	ria, yes, correct 
+Jun 30 00:59:19 <kushal>	ria, gcc hello.o -lm
+Jun 30 00:59:37 <ria>	ya ok kushal
+Jun 30 00:59:48 <t4num0y_cs3>	kushal , http://rafb.net/p/FXMuZZ70.html
+Jun 30 00:59:59 <_pjp_1>	t4num0y_cs3: a.out or what ever you named it using -o option.
+Jun 30 01:00:01 *	a has quit (Read error: 104 (Connection reset by peer))
+Jun 30 01:00:09 <kushal>	t4num0y_cs3, run ./a.out 
+Jun 30 01:00:27 <kushal>	t4num0y_cs3, gcc hello.o -lm will create a.out as executable 
+Jun 30 01:01:07 <amrita>	kushal, previously when we did the hello world programme we used a single command to execute and it worked but in sqrt case it is not why?
+Jun 30 01:01:28 <kushal>	amrita, because _pjp_1 mentioned to do the same in two steps
+Jun 30 01:01:37 <kushal>	amrita, scroll back and read 
+Jun 30 01:01:50 <amrita>	kushal, yes that's ok
+Jun 30 01:02:05 <kushal>	:)
+Jun 30 01:02:10 <kushal>	any other question 
+Jun 30 01:02:36 <amrita>	kushal, but if  i want to do in single command should it work?
+Jun 30 01:02:44 <kushal>	amrita, yes
+Jun 30 01:02:53 <deepak>	no every thing clear
+Jun 30 01:02:57 <_pjp_1>	deepak: ?
+Jun 30 01:03:00 *	clover123 (n=chatzill@117.197.16.83) has joined #dgplug
+Jun 30 01:03:09 <kushal>	clover123, who are you ?
+Jun 30 01:03:22 *	clover123 has quit (Client Quit)
+Jun 30 01:03:24 <amrita>	kushal, the command would be gcc -o hello hello.c?
+Jun 30 01:03:30 <kushal>	amrita, no 
+Jun 30 01:03:34 <deepak>	_pjp_:whatever u told
+Jun 30 01:03:38 <kushal>	amrita, you forgot to link 
+Jun 30 01:03:44 <kushal>	deepak, what is *u* ?
+Jun 30 01:03:57 <kushal>	deepak, like *a* ? 
+Jun 30 01:04:04 *	pushkal_ (n=chatzill@117.197.16.83) has joined #dgplug
+Jun 30 01:04:13 <kushal>	deepak, type in English language please 
+Jun 30 01:04:14 *	pushkal has quit (Nick collision from services.)
+Jun 30 01:04:16 *	pushkal_ is now known as pushkal
+Jun 30 01:04:20 <deepak>	kushal:ok
+Jun 30 01:04:40 <deepak>	_pjp_:whatever you told
+Jun 30 01:04:41 <kushal>	next class is in 5 minutes 
+Jun 30 01:04:44 <ria>	!
+Jun 30 01:04:49 <_pjp_1>	ria: ?
+Jun 30 01:04:49 <kushal>	ria, yes please 
+Jun 30 01:05:17 <ria>	after linking can gcc -o be done?
+Jun 30 01:05:29 <ria>	to change a.out?
+Jun 30 01:05:36 <ria>	<eof>
+Jun 30 01:05:36 <kushal>	_pjp_1, I am pausing this class, please carry on taking question 

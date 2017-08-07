@@ -1,0 +1,404 @@
+Jul 05 17:07:56 <kushal>	ok session starts
+Jul 05 17:07:58 <kushal>	roll call
+Jul 05 17:08:07 <Rana_amit>	rana amit
+Jul 05 17:08:07 <samxan>	Samikshan Bairagya
+Jul 05 17:08:13 <koustava>	Koustava Goswami
+Jul 05 17:08:28 <kushal>	thanks 
+Jul 05 17:08:43 <kushal>	mkpai, is our guest lecturer today 
+Jul 05 17:08:51 <wyuka>	Tirtha Chatterjee
+Jul 05 17:09:02 <bamachrn>	Bamacharan Kundu
+Jul 05 17:09:19 <kushal>	mkpai, stage is yours , you can start 
+Jul 05 17:09:27 <mkpai>	Hello
+Jul 05 17:09:35 <Rana_amit>	hi mkpai
+Jul 05 17:09:40 <samxan>	Hello
+Jul 05 17:09:41 <mkpai>	I plan to take you through the basics of Perl
+Jul 05 17:09:44 <koustava>	hello
+Jul 05 17:09:54 <wyuka>	mkpai, hello
+Jul 05 17:10:25 <mkpai>	Perl: Practical Extraction and Reporting Language
+Jul 05 17:10:32 <mkpai>	It was created by Larry Wall to work around the limitations of traditional
+Jul 05 17:10:39 <mkpai>	UNIX text processing tools like awk, sed and grep.
+Jul 05 17:10:54 <mkpai>	it evolved into a full programming language
+Jul 05 17:11:13 <mkpai>	with a distinct philosophy :)
+Jul 05 17:11:21 <mkpai>	Larry was trained to be a missionary, and studied linguistics. These
+Jul 05 17:11:26 <mkpai>	influences are seen in his book "Programming Perl", which is also called
+Jul 05 17:11:32 <mkpai>	the "camel book" because O'Reilly put a camel on the cover.
+Jul 05 17:11:55 <mkpai>	This is a really good book even for non-programmers
+Jul 05 17:12:01 <mkpai>	The first edition of the camel book has hilarious sections on how
+Jul 05 17:12:08 <mkpai>	Biblical characters from the Old Testament could use Perl to solve their
+Jul 05 17:12:14 <mkpai>	problems. Larry actively promotes the attitude of not taking oneself
+Jul 05 17:12:19 <mkpai>	seriously. The basic attitude of the Perl programmer is "TIMTOWTDI"
+Jul 05 17:12:26 <mkpai>	or There Is More Than One Way To Do It.
+Jul 05 17:12:37 <mkpai>	This is in marked contrast to most programming languages where there is
+Jul 05 17:12:42 <mkpai>	one correct way to do things and all other ways are wrong. Larry feels
+Jul 05 17:12:47 <mkpai>	that if you can complete your assignment before your boss fires you,
+Jul 05 17:12:52 <mkpai>	your solution is correct :)
+Jul 05 17:12:58 <mkpai>	so
+Jul 05 17:13:07 <mkpai>	thats why theres more than one way to do it
+Jul 05 17:13:18 <mkpai>	Larry also says that a great programmer should have 3 virtues
+Jul 05 17:13:24 <mkpai>	i. Laziness
+Jul 05 17:13:29 <mkpai>	this means
+Jul 05 17:13:34 <mkpai>	   Write code that can be re-used
+Jul 05 17:13:42 <mkpai>	and also
+Jul 05 17:13:44 <mkpai>	   Write code that can be read and understood
+Jul 05 17:13:56 <mkpai>	ii. Impatience
+Jul 05 17:14:01 <mkpai>	    Write programs that anticipate needs - not just react to needs
+Jul 05 17:14:08 <mkpai>	iii. Hubris
+Jul 05 17:14:24 <mkpai>	   which is excessive pride
+Jul 05 17:14:26 <mkpai>	     Write programs that you will be proud of showing others
+Jul 05 17:14:34 <mkpai>	BUT
+Jul 05 17:14:39 <mkpai>	Its OK if you miss one or two :)
+Jul 05 17:14:58 *	praveenkumar has quit (Ping timeout: 252 seconds)
+Jul 05 17:14:59 <mkpai>	Brief intro to how I started to use Perl
+Jul 05 17:15:08 <mkpai>	I came to Perl for reasons very similar to Larry Wall's. I was writing
+Jul 05 17:15:13 <mkpai>	an application in which I needed to open different files based on
+Jul 05 17:15:18 <mkpai>	different conditions. I couldn't do that in awk. Later I found that I
+Jul 05 17:15:26 <mkpai>	could express my ideas quickly and correctly in Perl, so I stayed.
+Jul 05 17:15:57 <mkpai>	with the philosophy out of the way, lets get to the fun bit
+Jul 05 17:16:26 <mkpai>	any questions so far ? lets wait for 1 minute before proceeding ...
+Jul 05 17:17:26 <samxan>	mkpai, no.
+Jul 05 17:17:37 <mkpai>	ok, so we'll go on
+Jul 05 17:17:47 <mkpai>	The mandatory Hello World program
+Jul 05 17:17:58 <mkpai>	please run the command
+Jul 05 17:18:14 <mkpai>	which perl
+Jul 05 17:18:18 <mkpai>	in a terminal
+Jul 05 17:18:23 <mkpai>	do you get
+Jul 05 17:18:27 <mkpai>	/usr/bin/perl
+Jul 05 17:18:28 <mkpai>	?
+Jul 05 17:18:39 <bamachrn>	yes
+Jul 05 17:18:41 <Rana_amit>	yes mkpai
+Jul 05 17:18:44 <wyuka>	mkpai, yes
+Jul 05 17:18:49 <samxan>	yes mkpai
+Jul 05 17:18:51 <mkpai>	ah ok
+Jul 05 17:19:12 <koustava>	yes
+Jul 05 17:19:18 *	kishan (~kishan@110.227.80.60) has joined #dgplug
+Jul 05 17:19:21 <mkpai>	I'll write a Perlm program - please save it to /tmp/hello.pl
+Jul 05 17:19:32 <mkpai>	print "Hello World\n";
+Jul 05 17:19:47 <mkpai>	Save this line to /tmp/hello.pl and run
+Jul 05 17:19:53 <mkpai>	/usr/bin/perl /tmp/hello.pl
+Jul 05 17:20:16 <mkpai>	as you can see, the basic program is really basic
+Jul 05 17:20:22 <mkpai>	but it works
+Jul 05 17:20:31 <mkpai>	no imports/includes
+Jul 05 17:20:52 <mkpai>	it only expects the statement-terminator to be a ;
+Jul 05 17:20:56 <mkpai>	a semi-colon
+Jul 05 17:21:09 <mkpai>	with me so far ?
+Jul 05 17:21:32 <bamachrn>	yes mkpai
+Jul 05 17:21:33 <wyuka>	mkpai, yes
+Jul 05 17:21:36 <mkpai>	ok
+Jul 05 17:21:41 <koustava>	yes
+Jul 05 17:21:49 <samxan>	mkpai yes
+Jul 05 17:21:55 <mkpai>	then lets move on the basic variable types in Perl
+Jul 05 17:22:00 <Rana_amit>	mkpai, yes
+Jul 05 17:22:21 <mkpai>	The concept of variables in Perl is slightly different from other
+Jul 05 17:22:26 <mkpai>	languages. Other languages want the programmer to think in terms of int,
+Jul 05 17:22:32 <mkpai>	float, char etc. But Perl wants you to think in terms of singular
+Jul 05 17:22:38 <mkpai>	or plural.
+Jul 05 17:22:44 <mkpai>	Larry is a linguist - so he created the language to imitate the way we
+Jul 05 17:22:49 <mkpai>	think. We don't set variable types we think. So why should our programs
+Jul 05 17:22:55 <mkpai>	force us to ?
+Jul 05 17:23:36 <mkpai>	so, Larry radically simplified the idea of a variable. And he did this in the
+Jul 05 17:23:40 <mkpai>	early 1980s
+Jul 05 17:23:54 <mkpai>	Singular variables are called scalars. Plurals can be either lists
+Jul 05 17:24:00 <mkpai>	Singular variables are called scalars. Plurals can be either lists
+Jul 05 17:24:06 <mkpai>	or hashes.
+Jul 05 17:24:31 <mkpai>	I am now going to wite a simple program to demo what is meant by scalar
+Jul 05 17:24:43 <mkpai>	please save in /tmp/scalar.pl
+Jul 05 17:24:51 *	samxan has quit (Read error: Connection reset by peer)
+Jul 05 17:24:53 <mkpai>	$a = 1;
+Jul 05 17:24:58 <mkpai>	$b = "hello world";
+Jul 05 17:25:04 <mkpai>	print "a is $a while b is $b\n";
+Jul 05 17:25:21 <mkpai>	now run this program with
+Jul 05 17:25:34 <mkpai>	/usr/bin/perl /tmp/scalar.pl
+Jul 05 17:25:53 <mkpai>	done ?
+Jul 05 17:26:01 <mkpai>	any errors ?
+Jul 05 17:26:25 *	samxan (~samxan@59.93.216.237) has joined #dgplug
+Jul 05 17:26:52 <mkpai>	samxan: should I paste the buffer again for you ?
+Jul 05 17:26:52 <Rana_amit>	no error mkpai
+Jul 05 17:27:05 <bamachrn>	ok done mkpai
+Jul 05 17:27:18 <samxan>	mkpai, yes
+Jul 05 17:27:25 <mkpai>	ah ok, samxan
+Jul 05 17:27:39 <mkpai>	$a = 1;
+Jul 05 17:27:41 <samxan>	mkpai, sorry got disconnected,network problems
+Jul 05 17:27:46 <mkpai>	$b = "hello world";
+Jul 05 17:28:06 <mkpai>	I saw - maybe the netwoirk is also observing bharat bandh :)
+Jul 05 17:28:15 <mkpai>	print "a is $a while b is $b\n";
+Jul 05 17:28:27 <samxan>	mkpai, :D
+Jul 05 17:28:53 *	wyuka_ (~wyuka@117.254.229.79) has joined #dgplug
+Jul 05 17:28:56 <mkpai>	samxan: just 3 lines
+Jul 05 17:29:17 <mkpai>	pls put them in /tmp/scalar.pl and run it as
+Jul 05 17:29:21 *	wyuka has quit (Ping timeout: 265 seconds)
+Jul 05 17:29:26 <mkpai>	/usr/bin/perl /tmp/scalar.pl
+Jul 05 17:30:13 <mkpai>	now wyuka seems to have dropped off
+Jul 05 17:30:20 <kushal>	mkpai, you can go ahead 
+Jul 05 17:30:25 <mkpai>	ah ok
+Jul 05 17:30:26 *	wyuka_ has quit (Read error: Connection reset by peer)
+Jul 05 17:30:31 <mkpai>	done samxan ?
+Jul 05 17:31:13 <samxan>	mkpai, yes
+Jul 05 17:31:18 <mkpai>	ok
+Jul 05 17:31:21 *	kishan_ (~kishan@110.227.92.94) has joined #dgplug
+Jul 05 17:31:29 <mkpai>	In this programs $a and $b are scalars. As you can see immediately,
+Jul 05 17:31:35 <mkpai>	there is no concept of numeric values etc. A scalar is a variable that
+Jul 05 17:31:35 *	tazz (~gaurav.c@triband-mum-120.60.135.228.mtnl.net.in) has joined #dgplug
+Jul 05 17:31:40 <mkpai>	stores a single value. That can be a number, word or whatever.
+Jul 05 17:32:07 *	pranay_09 (dce15098@gateway/web/freenode/ip.220.225.80.152) has joined #dgplug
+Jul 05 17:32:14 <mkpai>	just remember this - a scalar contains a single value and is denoted by $
+Jul 05 17:32:29 <mkpai>	hence $a, $b etc
+Jul 05 17:32:52 <samxan>	mkpai, ok
+Jul 05 17:32:55 <mkpai>	As long as there is a $ at the beginning of the variable name, its a scalar
+Jul 05 17:33:06 <mkpai>	Now lets move to the idea of plural.
+Jul 05 17:33:12 <mkpai>	What do you mean by "plural" anyway ? Plural means a list of singulars, right ?
+Jul 05 17:33:19 <mkpai>	Thats why the simplest plural is called the "list".
+Jul 05 17:33:36 <mkpai>	so the list is the second basic variable type in Perl
+Jul 05 17:33:51 <mkpai>	pls save this program to /tmp/lists.pl
+Jul 05 17:34:00 <mkpai>	@a = (1, "hello class", 2, 5, 6);
+Jul 05 17:34:06 <mkpai>	print "a is a list. Also called array\n";
+Jul 05 17:34:12 <mkpai>	print "The first element is ",$a[0], "\n";
+Jul 05 17:34:15 *	wyuka_ (~wyuka@117.254.234.242) has joined #dgplug
+Jul 05 17:34:18 <mkpai>	print "a has $#a elements in it,if you count from 0, not 1\n";
+Jul 05 17:34:23 <mkpai>	print "The last element is $a[$#a]\n";
+Jul 05 17:34:29 <mkpai>	thats it
+Jul 05 17:34:51 <mkpai>	5 lines to be saved to /tmp/lists.pl
+Jul 05 17:34:54 *	kishan has quit (Ping timeout: 265 seconds)
+Jul 05 17:34:59 <mkpai>	now run it as
+Jul 05 17:35:11 *	bamachrn_ (~bamachrn@27.248.200.245) has joined #dgplug
+Jul 05 17:35:13 <mkpai>	/usr/bin/perl /tmp/lists.pl
+Jul 05 17:35:18 <mkpai>	done ?
+Jul 05 17:37:00 *	bamachrn has quit (Ping timeout: 276 seconds)
+Jul 05 17:37:35 <wyuka_>	mkpai, sorry i got disconnected :(
+Jul 05 17:37:37 <koustava>	mkpai,it is showing many things
+Jul 05 17:37:49 <mkpai>	kushal, do you archive the irc logs for later reference ?
+Jul 05 17:38:00 <kushal>	mkpai, yes
+Jul 05 17:38:11 <samxan>	mkpai, yes done
+Jul 05 17:38:11 <mkpai>	koustava, any errors ?
+Jul 05 17:38:22 <koustava>	mkpai,yes
+Jul 05 17:38:27 <mkpai>	koustava: can you paste what you get ?
+Jul 05 17:38:36 <koustava>	one minute
+Jul 05 17:38:46 <mkpai>	lets fix that before going on
+Jul 05 17:39:02 <samxan>	mkpai, !
+Jul 05 17:39:09 <koustava>	http://fpaste.org/saC9/
+Jul 05 17:39:09 <kushal>	samxan, yes
+Jul 05 17:39:35 <kushal>	koustava, fpaste your code
+Jul 05 17:39:39 <samxan>	a[0] is a scalar...so we denote it as $a[0]?
+Jul 05 17:40:00 <tazz>	heh works fine in windows 7 :)
+Jul 05 17:40:08 <mkpai>	yes, samxan - coming to that :)
+Jul 05 17:40:27 <mkpai>	koustava, can you paste your line 3 in /tmp/lists.pl ?
+Jul 05 17:40:45 <mkpai>	tazz: glad to know that :O)
+Jul 05 17:41:20 <mkpai>	it should be
+Jul 05 17:41:23 <mkpai>	print "The first element is ",$a[0], "\n";
+Jul 05 17:41:30 <koustava>	mkpai,http://fpaste.org/1gc2/
+Jul 05 17:42:13 <mkpai>	koustava: you wrote: print"the first element is$a[0]'"\n";
+Jul 05 17:42:37 <koustava>	mkpai,yes
+Jul 05 17:42:37 <mkpai>	koustava: You need to write print "The first element is ",$a[0], "\n";
+Jul 05 17:43:11 <mkpai>	there is a ", between is and $a[0]
+Jul 05 17:43:21 <koustava>	ok
+Jul 05 17:43:26 <Rana_amit>	done mkpai
+Jul 05 17:43:29 <mkpai>	ah good
+Jul 05 17:43:49 <mkpai>	beware: we are soon getting to the homework bit ...
+Jul 05 17:43:58 <mkpai>	and it will make your head explode ...
+Jul 05 17:44:00 <mkpai>	:)
+Jul 05 17:44:20 <wyuka_>	mkpai, could it have been print "the first element is $a[0] \n";   ?
+Jul 05 17:44:34 <mkpai>	wyuka: yes it could be
+Jul 05 17:44:41 <koustava>	mkpai,I got it
+Jul 05 17:44:49 <mkpai>	this brings up a very nice thing about Perl
+Jul 05 17:44:51 <koustava>	mkpai,done
+Jul 05 17:44:59 <mkpai>	its sensitive to context
+Jul 05 17:45:18 <mkpai>	so here the print function is receiving a list context
+Jul 05 17:45:28 <mkpai>	the first element of this list is
+Jul 05 17:45:31 *	bamachrn_ is now known as bamachrn
+Jul 05 17:45:38 <mkpai>	"The first element is "
+Jul 05 17:45:51 <mkpai>	the second element of the list is
+Jul 05 17:45:53 <mkpai>	$a[0]
+Jul 05 17:46:02 <mkpai>	the third element of the list is "\n"
+Jul 05 17:46:13 <mkpai>	so you see
+Jul 05 17:46:27 <mkpai>	simple lists can have profound meanings :)
+Jul 05 17:46:58 <mkpai>	there is a spirituality associated with Perl - I am going to recommed a book at the end - just for that :)
+Jul 05 17:47:04 <koustava>	mkpai!
+Jul 05 17:47:22 <mkpai>	back to the list @a
+Jul 05 17:47:39 <mkpai>	The first element of list @a is $a[0]
+Jul 05 17:47:47 <mkpai>	The second element of list @a is $a[1]
+Jul 05 17:47:57 <mkpai>	now some wierdness
+Jul 05 17:47:58 <mkpai>	The length of the list is $#a
+Jul 05 17:48:05 <mkpai>	So the last element of the list is $a[$#a]
+Jul 05 17:48:43 <mkpai>	this construct makes it easy to manipulate things in Perl
+Jul 05 17:49:04 <mkpai>	you don't need to pre-allocate resources - say give me an array of size 100
+Jul 05 17:49:23 <mkpai>	you can just declare a list and Perl automatically knows what to do
+Jul 05 17:49:25 <mkpai>	also
+Jul 05 17:49:32 <mkpai>	a list contains scalars
+Jul 05 17:49:40 <mkpai>	a scalar can be numeric or not
+Jul 05 17:49:47 <tazz>	do i ask questions now, or at the end ?
+Jul 05 17:49:59 <kushal>	tazz, if you have a question type !
+Jul 05 17:50:01 <mkpai>	so a list can contain numeric or non-numeric data
+Jul 05 17:50:08 <mkpai>	go ahead
+Jul 05 17:50:10 <mkpai>	ask
+Jul 05 17:50:16 <mkpai>	the next section build on this
+Jul 05 17:50:17 <kushal>	koustava, you first 
+Jul 05 17:50:24 *	samxan has quit (Ping timeout: 240 seconds)
+Jul 05 17:50:39 <tazz>	how do i refer to the 2nd last element? $a[$#a-1] ?
+Jul 05 17:50:43 *	wyuka_ has quit (Read error: Connection reset by peer)
+Jul 05 17:50:50 <koustava>	kushal,i already got my answer
+Jul 05 17:51:30 <mkpai>	tazz: yes
+Jul 05 17:51:35 <tazz>	cool
+Jul 05 17:52:01 <mkpai>	told you - its almost spiritual :)
+Jul 05 17:52:08 <kushal>	tazz, after your question is over type EOF to indicate the same 
+Jul 05 17:52:22 <tazz>	ack
+Jul 05 17:52:28 <tazz>	ok
+Jul 05 17:52:42 <mkpai>	should we proceed ?
+Jul 05 17:52:55 <Rana_amit>	yes mkpai
+Jul 05 17:52:58 <tazz>	yes
+Jul 05 17:52:59 <koustava>	yes
+Jul 05 17:53:07 <bamachrn>	yes please
+Jul 05 17:53:08 <mkpai>	The third basic variable in Perl is the hash. Its signified by %
+Jul 05 17:53:34 <mkpai>	Save the following program to /tmp/hashes.pl
+Jul 05 17:53:42 <mkpai>	%a = ( 'a' => "hello", 'b' => 1, 'c' => "world" );
+Jul 05 17:53:50 <mkpai>	print $a{'a'}, "\n";
+Jul 05 17:53:56 <mkpai>	print $a{'b'},"\n";
+Jul 05 17:54:02 <mkpai>	print $a{'c'},"\n";
+Jul 05 17:54:12 <mkpai>	now run this with
+Jul 05 17:54:20 <mkpai>	/usr/bin/perl /tmp/hashes.pl
+Jul 05 17:54:46 <mkpai>	done ?
+Jul 05 17:55:01 *	wyuka (~wyuka@117.254.235.9) has joined #dgplug
+Jul 05 17:55:04 *	samxan (~samxan@59.93.247.125) has joined #dgplug
+Jul 05 17:55:45 <mkpai>	any errors ?
+Jul 05 17:56:07 <tazz>	no
+Jul 05 17:56:15 <mkpai>	ok
+Jul 05 17:56:17 <bamachrn>	done
+Jul 05 17:56:26 <mkpai>	a hash is a special kind of array
+Jul 05 17:56:38 <koustava>	done
+Jul 05 17:56:38 <bamachrn>	mkpai, !
+Jul 05 17:56:39 <mkpai>	in a normal list, you index the elements by number
+Jul 05 17:56:47 <mkpai>	yes bamachrn
+Jul 05 17:56:52 <mkpai>	whatsup ?
+Jul 05 17:57:00 <bamachrn>	here a is used twice
+Jul 05 17:57:21 <mkpai>	bamachrn: getting to that
+Jul 05 17:57:24 <bamachrn>	as var name and position?
+Jul 05 17:57:26 <bamachrn>	<eof>
+Jul 05 17:57:36 <bamachrn>	ok
+Jul 05 17:57:38 <mkpai>	bamachrn: if you want, you can say
+Jul 05 17:57:47 <mkpai>	'foo' => "hello"
+Jul 05 17:57:48 *	sayan (~sayan@110.227.168.80) has joined #dgplug
+Jul 05 17:57:53 <mkpai>	anyhow
+Jul 05 17:58:04 <mkpai>	as I said in a normal list, you index the elements by number
+Jul 05 17:58:23 *	sayan has quit (Remote host closed the connection)
+Jul 05 17:58:28 <mkpai>	so you can say - give me the 3rd element, give me the last element etc
+Jul 05 17:58:35 <mkpai>	but a hash is different
+Jul 05 17:58:46 <mkpai>	here, the index is a key
+Jul 05 17:58:56 <mkpai>	so the key of "hello" is 'a'
+Jul 05 17:59:08 <mkpai>	this 'a' has nothing to do with the name of the hash
+Jul 05 17:59:25 <mkpai>	the hash could be called %mkpai :)
+Jul 05 17:59:42 <mkpai>	this has some important consequences
+Jul 05 17:59:59 *	samxan has quit (Read error: Connection reset by peer)
+Jul 05 18:00:00 <mkpai>	firstly, you cannot say - give me the 3rd element of the list
+Jul 05 18:00:16 <mkpai>	because there is no such thing as the 3rd element of the list
+Jul 05 18:00:21 <mkpai>	you can only say
+Jul 05 18:00:49 <mkpai>	give me the c'th element of the list - and you'll get "world"
+Jul 05 18:01:03 <mkpai>	a hash is a list of key-value pairs
+Jul 05 18:01:22 *	sayan (6ee3a850@gateway/web/freenode/ip.110.227.168.80) has joined #dgplug
+Jul 05 18:01:36 <mkpai>	secondly, since the indexing is done via keys and not numbers, there isn't a "last" element in hash
+Jul 05 18:01:58 <mkpai>	at a simple syntactic level
+Jul 05 18:02:14 *	samxan (~samxan@59.93.201.2) has joined #dgplug
+Jul 05 18:02:14 <mkpai>	in a list you use square brackets - $a[0]
+Jul 05 18:02:31 *	bamachrn has quit (Ping timeout: 276 seconds)
+Jul 05 18:02:40 <mkpai>	in a hash, you use curly braces - $a{'a'} or $a{'c'}
+Jul 05 18:02:46 <mkpai>	see
+Jul 05 18:02:47 <mkpai>	?
+Jul 05 18:02:57 <mkpai>	kushal: how much time do we have ?
+Jul 05 18:03:13 <kushal>	mkpai, you can go on as long as you want 
+Jul 05 18:03:26 <kushal>	mkpai, no time limit if you have time
+Jul 05 18:03:37 <mkpai>	ah, I have approx 10 more mins :)
+Jul 05 18:03:52 <mkpai>	so
+Jul 05 18:04:26 <mkpai>	pls remember that you won't be able to do Perl properly unless you understand how to do hashes
+Jul 05 18:04:56 <mkpai>	people have implented a whole OOPs sub-system simply based on the concept of hashes
+Jul 05 18:05:00 <mkpai>	its that important
+Jul 05 18:05:06 <mkpai>	so as I said
+Jul 05 18:05:12 <mkpai>	A hash is a list which contains key-value pairs.
+Jul 05 18:05:19 <mkpai>	Its a list where the index is not a number, but a unique key. In the
+Jul 05 18:05:25 <mkpai>	hash above, the key of "hello" is 1, the key of "world" is 'c'.
+Jul 05 18:05:32 <mkpai>	the key is unique
+Jul 05 18:05:45 <mkpai>	one key cannot point to more than one value
+Jul 05 18:06:03 <wyuka>	!
+Jul 05 18:06:11 <mkpai>	wyuka: yes ?
+Jul 05 18:06:32 <wyuka>	can a key only be a string?
+Jul 05 18:06:55 <mkpai>	wyuka: no, you can use a number if you want
+Jul 05 18:07:06 *	samxan_ (~samxan@59.93.218.171) has joined #dgplug
+Jul 05 18:07:09 <mkpai>	you can even mix numbers and strings
+Jul 05 18:07:11 *	samxan has quit (Ping timeout: 248 seconds)
+Jul 05 18:07:19 <wyuka>	mkpai, and do we calculate the length of a list in same way? like $#mylist
+Jul 05 18:07:38 <mkpai>	%b = ('a' => 'hello', '23' => "foo");
+Jul 05 18:07:39 <mkpai>	etc
+Jul 05 18:07:43 *	koustava has quit (Ping timeout: 248 seconds)
+Jul 05 18:07:55 <mkpai>	wyuka: you can use $#mylist
+Jul 05 18:08:11 <mkpai>	but that way there is no guarantee that the same element will be last
+Jul 05 18:08:32 <mkpai>	a hash can be randomly rearranged if the program is run multiple times
+Jul 05 18:08:40 <mkpai>	all the elements will be there
+Jul 05 18:08:41 <wyuka>	mkpai, no, i meant can we write %b = (1 => 'haha'); ?
+Jul 05 18:08:51 <mkpai>	wyuka: yes
+Jul 05 18:09:02 *	koustava (~koustava@117.201.112.196) has joined #dgplug
+Jul 05 18:09:03 <mkpai>	wyuka: 1 => 'foo' is ok
+Jul 05 18:09:20 *	sayan_ (~sayan@110.227.168.80) has joined #dgplug
+Jul 05 18:09:41 <mkpai>	now that concludes the most basic lesson,
+Jul 05 18:09:47 <mkpai>	now for the exercises
+Jul 05 18:09:58 <mkpai>	a. write a Perl program to query a timeserver and output what the
+Jul 05 18:09:58 <mkpai>	localtime is and what GMT is.
+Jul 05 18:10:23 <mkpai>	b. write a chatbot that logs into an IRC network and logs out after introducing itself
+Jul 05 18:10:59 *	bamachrn_ (79f26fc2@gateway/web/freenode/ip.121.242.111.194) has joined #dgplug
+Jul 05 18:11:02 <mkpai>	these are intersting applications that you will be able to do if you skim through the refernces that I am going to give you now
+Jul 05 18:11:13 <mkpai>	first and foremost
+Jul 05 18:11:13 *	samxan (~samxan@59.93.209.78) has joined #dgplug
+Jul 05 18:11:15 <mkpai>	man perl
+Jul 05 18:11:24 <mkpai>	then man man perldata
+Jul 05 18:11:32 <mkpai>	sorry
+Jul 05 18:11:36 <mkpai>	then man perldata
+Jul 05 18:11:50 <mkpai>	pls do all the example progs in these man pages
+Jul 05 18:11:58 <mkpai>	all of them are about 5 lines long
+Jul 05 18:12:05 <mkpai>	but they are important
+Jul 05 18:12:06 <koustava>	mkpai!
+Jul 05 18:12:13 <mkpai>	yes, koustava ?
+Jul 05 18:12:23 *	samxan_ has quit (Ping timeout: 260 seconds)
+Jul 05 18:12:32 <koustava>	I was offline...can you give me??
+Jul 05 18:12:46 <kushal>	koustava, ask other students please
+Jul 05 18:12:48 *	samxan has quit (Read error: Connection reset by peer)
+Jul 05 18:12:50 <kushal>	mkpai, carry on
+Jul 05 18:12:56 <mkpai>	koustava: kushal will be sending you the entire chat log
+Jul 05 18:13:12 <mkpai>	so those 3 manpages are the most important
+Jul 05 18:13:14 <mkpai>	next
+Jul 05 18:13:25 <mkpai>	sorry, I forgot the 3rd manpage
+Jul 05 18:13:30 <mkpai>	man perlsyn
+Jul 05 18:13:49 <mkpai>	man perl will give an overview of perl
+Jul 05 18:14:03 <mkpai>	man perldata will be an intro to the perl data types
+Jul 05 18:14:21 <mkpai>	man perlsyn is an intro syntax and style
+Jul 05 18:14:39 <mkpai>	after this, I'd suggest the camel book which is on googlebooks
+Jul 05 18:14:56 <mkpai>	http://books.google.com.au/books?id=oh8lz4A3sUsC&dq=programming+perl+by+larry+wall&printsec=frontcover&source=bn&hl=en&ei=2rExTKyVEtOQjAe6lbyWBg&sa=X&oi=book_result&ct=result&resnum=4&ved=0CCYQ6AEwAw#v=onepage&q&f=false
+Jul 05 18:15:25 <mkpai>	Perl is widely used for quick tasks
+Jul 05 18:15:52 <mkpai>	so there is an excellent collection of problem/solutions in the Perl Cookbook which is also on googlebooks
+Jul 05 18:15:58 <mkpai>	http://books.google.com.au/books?id=IzdJIax6J5oC&printsec=frontcover&dq=programming+perl+by+larry+wall&source=gbs_similarbooks_s&cad=1#v=onepage&q=programming%20perl%20by%20larry%20wall&f=false
+Jul 05 18:16:02 <mkpai>	Lastly
+Jul 05 18:16:09 *	mbuf has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+Jul 05 18:16:16 <mkpai>	as promised
+Jul 05 18:16:25 <mkpai>	if you are looking for spiritual liberation, please do read
+Jul 05 18:16:33 <mkpai>	Higher-Order Perl which is available free at http://hop.perl.plover.com/
+Jul 05 18:16:38 <mkpai>	but please ask your employer/college to buy a copy. The author needs money.
+Jul 05 18:17:04 <mkpai>	one more source
+Jul 05 18:17:39 <mkpai>	there are some columns by famnous programmers
+Jul 05 18:17:46 <mkpai>	http://www.stonehenge.com/merlyn/LinuxMag/col01.html onwards
+Jul 05 18:17:50 <mkpai>	and also
+Jul 05 18:17:55 <mkpai>	http://www.stonehenge.com/merlyn/PerlJournal/col01.html onwards
+Jul 05 18:18:05 <mkpai>	I guess thats all for the moment ...
+Jul 05 18:18:12 <kushal>	mkpai, thank you :)
+Jul 05 18:18:16 <tazz>	! also perl is good for any type of parsing <eof>
+Jul 05 18:18:24 <mkpai>	kushal, what sthe procedure now ?
+Jul 05 18:18:25 <kushal>	mkpai, when you want to take the next session ?
+Jul 05 18:18:26 *	mvaliyav_ (~mvaliyav@nat/redhat/x-btsqjdfpgrjrkeet) has joined #dgplug
+Jul 05 18:18:41 <mkpai>	I would like to see the assignments first ...
+Jul 05 18:18:44 <kushal>	mkpai, nothing, today's session is over 
+Jul 05 18:18:50 <mkpai>	two weeks ?
+Jul 05 18:18:56 <kushal>	mkpai, assignments should be done before >
+Jul 05 18:18:58 <kushal>	?
+Jul 05 18:19:04 <mkpai>	2 weeks ?
+Jul 05 18:19:19 <kushal>	two weeks is too long, make it smaller, they don't have much other work 
+Jul 05 18:19:23 <kushal>	1 week ?
+Jul 05 18:19:33 <kushal>	by next money 
+Jul 05 18:19:34 <mkpai>	ok
+Jul 05 18:19:38 <kushal>	* mondey 
+Jul 05 18:19:38 <mkpai>	done
+Jul 05 18:19:41 <kushal>	thanks
+Jul 05 18:19:44 <mkpai>	same time
+Jul 05 18:19:54 <mkpai>	thanks guys, and see you next week

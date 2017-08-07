@@ -1,0 +1,416 @@
+Jul 06 23:07:47 *	kushal has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at  http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | <--SPECIAL SESSION ON VIM pyNem--> |
+Jul 06 23:07:50 <pyNem>	kushal, ok .. what is the general format? what am I supposed to do? Q/A ? or .. ?
+Jul 06 23:08:03 <kushal>	pyNem, you can just talk about features
+Jul 06 23:08:14 <kushal>	pyNem, after a few of them , you can take questions
+Jul 06 23:08:34 <kushal>	pyNem, students will type ! and wait, you ask them to speak one by one in FIFO 
+Jul 06 23:08:35 <kushal>	:p
+Jul 06 23:08:38 <pyNem>	first up, obviously a rough count of how many people use vim here ?
+Jul 06 23:08:38 <kushal>	pyNem, thats it 
+Jul 06 23:08:44 Usage: ME <action>, sends the action to the current channel (actions are written in the 3rd person, like /me jumps)
+Jul 06 23:08:48 *	kushal uses vim
+Jul 06 23:09:25 <pyNem>	okay ..
+Jul 06 23:09:27 <pyNem>	:)
+Jul 06 23:09:52 <kushal>	GUYS
+Jul 06 23:09:55 <kushal>	are you here 
+Jul 06 23:10:08 *	Prakhar uses vim
+Jul 06 23:10:23 *	Soumya uses vim
+Jul 06 23:10:34 *	ria is here
+Jul 06 23:10:37 *	Subhodip uses vim
+Jul 06 23:10:57 *	ria uses vim
+Jul 06 23:11:08 <pyNem>	obv, how many use emacs?
+Jul 06 23:11:11 *	mavu_ uses vim
+Jul 06 23:11:31 <pyNem>	oh before any of that.. I should be introducing myself
+Jul 06 23:11:54 <pyNem>	I am Pranesh Srinivasan, a second year at Comp Sci at IIT Madras.
+Jul 06 23:13:00 <pyNem>	I recently wrote an article for the linuxgazette, after which Kushal spoke to me about speaking at #dgplug . I agreed immidieatly.
+Jul 06 23:13:15 <pyNem>	The article can be found here http://linuxgazette.net/152/srinivasan.html
+Jul 06 23:13:36 <pyNem>	and since this is the first time i am speaking to an audience on irc .. i would prefer that it is more interactive
+Jul 06 23:14:32 <pyNem>	As for myself, I use vim all the time. I do know enough of emacs, to do the basics, but Vim was first love. Vim has always allowed me to do whatever I want to without too much of fuss.
+Jul 06 23:14:35 *	bose_aritra uses vim
+Jul 06 23:14:39 <pyNem>	And yeah, no carpal tunnel syndrome :)
+Jul 06 23:15:17 <pyNem>	OK .. so I guess I can assume that people know how to insert stuff in vim, and move around (with hjkl of course) ...
+Jul 06 23:16:03 <ria>	yup :)
+Jul 06 23:16:04 <pyNem>	hm.. the Vim editor basically stands for Vi Improved, and was modelled after Vi, one of the first visual editors ever.
+Jul 06 23:16:28 <pyNem>	It offers a lot of nice features over and above Vi, and can be real fun to use.
+Jul 06 23:16:43 <pyNem>	As I like to say it, vim makes you think about text editing. :)
+Jul 06 23:16:44 <samar>	pyNem, read you article.. good one
+Jul 06 23:16:52 <pyNem>	samar, thanks :)
+Jul 06 23:17:23 <pyNem>	the latest version of Vim is Vim 7.x and is probably a supernova release
+Jul 06 23:17:37 <pyNem>	it has several new features like omni-completion, tabs, etc..
+Jul 06 23:17:48 <pyNem>	so why should you use vim at all? Over something like Gedit?
+Jul 06 23:17:57 <pyNem>	because it is more effective in the long run.
+Jul 06 23:18:08 *	techno_freak uses Emacs
+Jul 06 23:18:15 <pyNem>	Agreed that there is a bit of a learning curve involved, but in the long run it pays off.
+Jul 06 23:18:44 *	pyNem doesnt care about the editor war. Each editor to itself. They have separated hack3rd0m enough.
+Jul 06 23:18:56 <pyNem>	so what can you do in vim?
+Jul 06 23:19:24 <pyNem>	to put it simply, anything you would ever want to do with any IDE
+Jul 06 23:19:30 *	prams has quit ("ChatZilla 0.9.83 [Firefox 3.0b5/2008032600]")
+Jul 06 23:19:49 *	prams (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 06 23:19:51 <pyNem>	You can make vim behave like your favourite IDE
+Jul 06 23:20:02 <pyNem>	or make it complete PHP code for the web developer in you
+Jul 06 23:20:07 *	munichlinux use GNUEmacs 
+Jul 06 23:20:17 <pyNem>	prompt you with GObject methods
+Jul 06 23:20:37 <pyNem>	anything you would ever want to do with programming
+Jul 06 23:20:55 <pyNem>	it is important to keep in mind that vim isnt quite like emacs
+Jul 06 23:21:19 <pyNem>	vim kind of integrates with the GNU philosophy of one tool for one action
+Jul 06 23:22:01 <pyNem>	in Bram Moolenaar's (the founder of Vim's) words
+Jul 06 23:22:32 <pyNem>	vim isnt a one stop solution for everything
+Jul 06 23:22:41 <pyNem>	i am not quoting him word for word
+Jul 06 23:23:29 <pyNem>	aha
+Jul 06 23:23:44 <pyNem>	"After all, Vim is an editor, it's not supposed to do non-editing tasks. " :help shell-window
+Jul 06 23:24:02 <pyNem>	yeah so that basically sums up its philosophy
+Jul 06 23:24:35 <pyNem>	but even if you are one of those people who wish to learn an all powerful tool, vim would do fine too, since lots of programs have vim keybindings
+Jul 06 23:24:40 <pyNem>	yeah so that gotten across
+Jul 06 23:24:49 <pyNem>	there is a lot I can talk about vim.
+Jul 06 23:25:01 <pyNem>	it is feature packed, and very powerful
+Jul 06 23:25:33 <pyNem>	when it comes to editing text there is nothing like vim
+Jul 06 23:25:51 <pyNem>	you should see a vim maestro on the keyboard... they plan changes, and keys are struck, and changes reflected
+Jul 06 23:25:51 <pyNem>	:)
+Jul 06 23:26:00 *	sunny_slls (i=Sunny@117.99.50.224) has joined #dgplug
+Jul 06 23:26:20 <pyNem>	a friend of mine from the US told me about his prof's RA who used vim :)
+Jul 06 23:26:39 <pyNem>	ok .. without getting Off Topic, lets get to the vim basics
+Jul 06 23:27:06 <pyNem>	there are three basic modes in Vim (the Vim help says 6, the other 3 are best left out for now)
+Jul 06 23:27:16 <pyNem>	normal mode, which is what you get into when you launch vim,
+Jul 06 23:27:17 *	Debashree has quit (Read error: 104 (Connection reset by peer))
+Jul 06 23:27:30 <pyNem>	insert mode which is what happens when you hit 'i' in normal mode
+Jul 06 23:27:43 <pyNem>	and visual mode which is what you get into when you hit 'v' in normal mode
+Jul 06 23:27:57 <pyNem>	to get back to normal mode from insert or visual, simply hit <Esc>
+Jul 06 23:28:02 <pyNem>	or am I being too basic here?
+Jul 06 23:28:08 <pyNem>	hm.. where should I start off?
+Jul 06 23:28:49 <pyNem>	kushal, what should I be doing? Intro to vim? or how to customise vim? or what you can use vim for?
+Jul 06 23:28:58 <techno_freak>	pyNem, 2nd level, not beginners, just answer beginner questions if they have
+Jul 06 23:29:05 <techno_freak>	:)
+Jul 06 23:29:10 <kushal>	pyNem, what you can do , customize 
+Jul 06 23:29:38 <kushal>	pyNem, what techno_freak said 
+Jul 06 23:29:55 <pyNem>	ok .. any beginner questions ?
+Jul 06 23:29:56 *	Debashree (n=Debashre@61.2.165.173) has joined #dgplug
+Jul 06 23:29:59 *	Soumya has quit ("Leaving")
+Jul 06 23:30:50 <sunny_slls>	am i late
+Jul 06 23:31:00 <sunny_slls>	sunny sharma
+Jul 06 23:31:09 <mavu_>	we did the mode switching , going to lines.. find replace etc. copy paste action
+Jul 06 23:31:20 <pyNem>	mavu_, oh .. :)
+Jul 06 23:31:38 <pyNem>	fine do you people know about xp?
+Jul 06 23:31:54 <pyNem>	it was one of my favourite vim tricks in the beginning.
+Jul 06 23:32:03 <bose_aritra>	ya
+Jul 06 23:32:06 <samar>	pyNem, switching between chars
+Jul 06 23:32:09 <pyNem>	yup
+Jul 06 23:32:11 <pyNem>	swapping chars..
+Jul 06 23:32:12 <pyNem>	:)
+Jul 06 23:32:23 <sunny_slls>	!
+Jul 06 23:32:26 <pyNem>	useful for hte and the likes
+Jul 06 23:32:30 <pyNem>	yeah sunny_slls
+Jul 06 23:32:56 <sunny_slls>	what's swapping chars...
+Jul 06 23:33:15 <kushal>	sunny_slls, please read all old classes first 
+Jul 06 23:33:27 <pyNem>	ok so i presume you know ddp as well
+Jul 06 23:33:34 <pyNem>	which translates to swapping lines
+Jul 06 23:33:50 <pyNem>	sunny_slls, it isnt all that difficult.. :)
+Jul 06 23:34:05 <pyNem>	fine do you know about text objects then?
+Jul 06 23:34:17 <pyNem>	these are awesome if you can use them well ..
+Jul 06 23:34:24 <sunny_slls>	pyNem, thanks i wanted to hear this
+Jul 06 23:34:36 <pyNem>	i presume you wouldnt
+Jul 06 23:34:46 <pyNem>	so ill explain what text objects are
+Jul 06 23:34:50 <pyNem>	sunny_slls, no probs :)
+Jul 06 23:34:57 <pyNem>	and see how things go
+Jul 06 23:35:17 <sunny_slls>	ok
+Jul 06 23:35:19 <pyNem>	human language is divided into various parts that computers wont understand naturally
+Jul 06 23:35:33 <pyNem>	like for eg.. predicates, and clauses, and articles ..
+Jul 06 23:35:43 <pyNem>	vim doesnt let you deal with them of course
+Jul 06 23:35:55 <pyNem>	it lets you deal with words and sentences, and paragraphs
+Jul 06 23:36:36 <pyNem>	you can navigate with words, or delete sentences or replace paragraphs, or skip blocks of code (it changes the meaning of some of these things, like blocks of code, with respect to the language you are editing).
+Jul 06 23:37:13 <pyNem>	hm.. well start off with deleting a word
+Jul 06 23:37:35 <pyNem>	oh btw, i think vim has natural lang support for bengali, so you should be able to do this in  bengali as well ?
+Jul 06 23:38:07 <pyNem>	fire vim up and type in a sentence or a paragraph. Say we type in
+Jul 06 23:38:27 <pyNem>	We are the Linux Users' Group of Durgapur. The group officially started on Sep 8, 2004. A few small brains grouped together to populate Linux in the locality.
+Jul 06 23:38:28 <pyNem>	The core team for the group is like:
+Jul 06 23:38:28 <pyNem>	Coordinator: Kushal Das, Soumya Kanti Chakraborty, Ajitesh Chaudhury, Subhodip Biswas
+Jul 06 23:38:41 <pyNem>	which is lifted form the about page of the dgplug
+Jul 06 23:39:09 <pyNem>	you could simply put your cursor on the W of the first word, and hit "w"
+Jul 06 23:39:18 <pyNem>	without the quotes of course
+Jul 06 23:39:27 <pyNem>	it would take you to the next word of course
+Jul 06 23:39:47 <samar>	pyNem, i have a question
+Jul 06 23:40:05 <pyNem>	to go a sentence ahead you would do ")" (without the quotes)
+Jul 06 23:40:06 <pyNem>	yeah samar
+Jul 06 23:40:12 <samar>	pyNem, i didn't understand the diff between zc and zo
+Jul 06 23:40:28 <pyNem>	in folds ?
+Jul 06 23:40:34 <samar>	pyNem, yeah
+Jul 06 23:40:50 <pyNem>	oh .. if you people have progressed till there, then I guess I am a little behind
+Jul 06 23:40:51 <samar>	pyNem, zo is to open fold
+Jul 06 23:41:03 <pyNem>	and zc is to close one
+Jul 06 23:41:04 <samar>	pyNem, wait ...
+Jul 06 23:41:05 <sunny_slls>	!
+Jul 06 23:41:12 <samar>	pyNem, not all of them
+Jul 06 23:41:14 <pyNem>	yeah sunny_slls
+Jul 06 23:41:21 <samar>	pyNem, i am just asking for curiocity
+Jul 06 23:41:33 <pyNem>	oh
+Jul 06 23:41:44 <pyNem>	ok .. fine .. you can ask these other questions in a while
+Jul 06 23:41:52 <pyNem>	when we get to the Q & A session
+Jul 06 23:41:56 <samar>	pyNem, ok i got your answer
+Jul 06 23:42:03 <sunny_slls>	can you go in the same fashion
+Jul 06 23:42:04 <samar>	pyNem, thanx
+Jul 06 23:42:11 <pyNem>	if there is anything related to what I am saying, please feel free to ask
+Jul 06 23:42:25 <pyNem>	sunny_slls, if it is unrelated please wait till a while later
+Jul 06 23:42:33 <pyNem>	sunny_slls, otherwise go ahead
+Jul 06 23:42:57 <pyNem>	should I contine then?
+Jul 06 23:43:10 <Prakhar>	please continue
+Jul 06 23:43:16 <sunny_slls>	i request you to not to jump
+Jul 06 23:43:32 <pyNem>	sunny_slls, oh ok .. sure
+Jul 06 23:43:40 <pyNem>	fine .. so we start again with the paragraph
+Jul 06 23:43:51 <sunny_slls>	yes
+Jul 06 23:44:04 <pyNem>	put your cursor on 'W' (the first letter) in the normal mode ..
+Jul 06 23:44:23 <pyNem>	and hitting a #w# would take us one word ahead
+Jul 06 23:44:39 *	pyNem says that from now on all commands will be prefixed and suffixed with a #
+Jul 06 23:44:46 <pyNem>	you are not to type in the hash of course
+Jul 06 23:45:13 *	prams has quit ("ChatZilla 0.9.83 [Firefox 3.0b5/2008032600]")
+Jul 06 23:45:15 <pyNem>	so #w# takes you to the beginning of the next word
+Jul 06 23:45:33 *	susenj has quit (Connection timed out)
+Jul 06 23:45:37 <pyNem>	you sould now be at the 'a'
+Jul 06 23:45:40 <pyNem>	of are
+Jul 06 23:45:51 <pyNem>	hitting 'b' would take you one word backward
+Jul 06 23:46:12 <pyNem>	and put your cursor at the beginning of the prev word
+Jul 06 23:46:23 <pyNem>	sorry hitting #b#
+Jul 06 23:46:34 <pyNem>	hitting #e# would take you to the end of the next word ...
+Jul 06 23:47:17 <pyNem>	there is no simple equivalent for the end of the previous word
+Jul 06 23:47:32 <kushal>	2be
+Jul 06 23:47:34 <kushal>	?
+Jul 06 23:47:52 <pyNem>	you would have to hit a two character keystroke #ge#
+Jul 06 23:47:58 <kushal>	ok
+Jul 06 23:48:07 <pyNem>	kushal, yeah but there is a simpler one .. #ge# .. not one char though :(
+Jul 06 23:48:35 <pyNem>	but it is fine because you will realise that going to the end of the prev word is something you rarely do
+Jul 06 23:48:39 <pyNem>	anyway ..
+Jul 06 23:48:50 <pyNem>	hitting #(# would take you one sentence backward
+Jul 06 23:48:56 <pyNem>	and #)# one sentence forward
+Jul 06 23:49:16 <pyNem>	Sentences are of course delimited by full stop '.'
+Jul 06 23:50:15 <pyNem>	#{# and #}# take you paragraphs backward and ahead respectively
+Jul 06 23:50:20 <pyNem>	all of you got that?
+Jul 06 23:50:38 *	techno_freak has quit ("Leaving")
+Jul 06 23:51:01 <mavu_>	yes
+Jul 06 23:51:06 <pyNem>	so we know how to describe text objects ..
+Jul 06 23:51:20 <pyNem>	(well come to blocks of code later)
+Jul 06 23:51:21 <pyNem>	why do we bother about them?
+Jul 06 23:51:38 <pyNem>	becuase it will make deleting and editing stuff a lot easier
+Jul 06 23:52:00 <pyNem>	you can team these motions up with the delete commnad you learnt before
+Jul 06 23:52:20 <pyNem>	put your cursor on the L of "Linux" on the first line of the paragraph
+Jul 06 23:52:28 <pyNem>	htiting dw would delete the word
+Jul 06 23:52:55 <pyNem>	it basically means delete from here till end of word
+Jul 06 23:53:04 <pyNem>	hit u to undo
+Jul 06 23:53:13 <pyNem>	and move your cursor forward to the n of Linux
+Jul 06 23:53:23 <pyNem>	hitting dn would now remove nux
+Jul 06 23:53:26 <pyNem>	#dn#*
+Jul 06 23:53:46 <pyNem>	"nux " (inc the space after the x)
+Jul 06 23:54:41 <pyNem>	as you guessed #d)# would delete from here till end of sentence
+Jul 06 23:55:30 <pyNem>	vim also lets us use the more natural #ds# delete from here till end of sentence for this. (you cannot however use s to move around. Only in deleting and change motions)
+Jul 06 23:55:45 <pyNem>	similary d( would delete from here till start of sentence
+Jul 06 23:56:41 <pyNem>	similarly #d{# would delte from here till start of paragraph
+Jul 06 23:56:53 <pyNem>	and #d}# till the end of the pragraph.
+Jul 06 23:57:08 <pyNem>	what if you wanted to delete an entire sentence. (and not a line)
+Jul 06 23:57:29 <pyNem>	would you do #(d)# (which means #(# goto start of sentence
+Jul 06 23:57:47 <pyNem>	and #d)# or #ds# to delete from here till end of sentence ?
+Jul 06 23:57:51 <pyNem>	no there is an eaiser way
+Jul 06 23:58:02 <pyNem>	#das# Delete A Sentence
+Jul 06 23:58:11 <pyNem>	you can do this with your cursor anywhere in the sentence
+Jul 06 23:58:27 *	susenj (n=student@59.178.187.255) has joined #dgplug
+Jul 06 23:58:56 <pyNem>	similarly daw would delete the word you are on
+Jul 06 23:59:28 <pyNem>	and #dap# would Delete A Paragraph
+Jul 06 23:59:35 <pyNem>	have you people followed so far?
+Jul 07 00:00:07 <amrita>	yes
+Jul 07 00:00:11 <mavu_>	yes
+Jul 07 00:00:13 <samar>	yes
+Jul 07 00:00:24 <rtnpro>	yes
+Jul 07 00:00:35 <pyNem>	:)
+Jul 07 00:00:46 <pyNem>	did you know all this before?
+Jul 07 00:00:50 <mavu_>	no
+Jul 07 00:00:53 <pyNem>	(just to ensure that I am not repeating)
+Jul 07 00:00:55 <pyNem>	fine :)
+Jul 07 00:00:59 <pyNem>	continuing on...
+Jul 07 00:01:00 <sunny_slls>	!
+Jul 07 00:01:08 <pyNem>	yeah sunny_slls
+Jul 07 00:01:31 <sunny_slls>	can you show this with an example
+Jul 07 00:01:44 <sunny_slls>	deleting a para
+Jul 07 00:01:48 <pyNem>	sure
+Jul 07 00:02:01 <pyNem>	i hope you have copy pasted that paragraph into vim
+Jul 07 00:02:11 <pyNem>	the "About us" para from the dgplug
+Jul 07 00:02:30 <pyNem>	actaully thats a bad example, since there is only one para
+Jul 07 00:02:31 <pyNem>	hold on
+Jul 07 00:02:44 <sunny_slls>	no sorry i am working on windows
+Jul 07 00:03:27 <pyNem>	no probs
+Jul 07 00:03:33 <pyNem>	<<< lots of text to follow >>>>
+Jul 07 00:03:43 <pyNem>	lifted from today's wikipedia feature article
+Jul 07 00:03:45 <pyNem>	The RussianâCircassian War (1763 â 1864) was the period of hostilities between the Russian Empire and the inhabitants of Circassia during the Russian invasion and occupation of the Circassian region. Circassia (also known as Cherkessia in Russian) was a region in Caucasia which consisted of the coastline and most of the interior of the current territory of Krasnodar Krai and Adygea.[5] The historical region, now mainly North OssetiaâAlania, was name
+Jul 07 00:03:45 <pyNem>	d after the traditional inhabitants, the Circassians, Adyghe or Adiga, along with a number of smaller ethnic groups and tribes.[6] The RussianâCircassian conflict began with the initial arrival of Russian occupation forces in 1763, and ended with the signing of several Russian loyalty oaths by Circassian leaders on June 2, 1864 (May 21, O.S.).
+Jul 07 00:03:45 <pyNem>	While the RussianâCircassian War began as an isolated conflict, Russian expansion through the entire region soon brought it into conflict with a number of other nations in what later became known as the Caucasian War, and of which the RussianâCircassian War became a part. Both came to an end with the signing of the loyalty oaths to Russia, and with the total occupation of the region by Russian forces, which involved the mass migration[1][7][5] of mill
+Jul 07 00:03:50 <pyNem>	ions of indigenous Circassians to areas of the Ottoman Empire (modern Turkey, Syria, Lebanon, Israel, Jordan and Kosovo),[5] with some Circassian historians citing that up to 4,000,000 civilians perished during the exodus.[8]
+Jul 07 00:03:53 <pyNem>	ill put it on pastebin
+Jul 07 00:04:01 <kushal>	pyNem, you can use http://rafb.net/paste :p
+Jul 07 00:04:26 <pyNem>	yeah, but i wasnt sure if i needed it :)
+Jul 07 00:06:02 <pyNem>	http://rafb.net/p/iaL2hI31.html
+Jul 07 00:06:11 <sunny_slls>	did
+Jul 07 00:06:14 <pyNem>	we shall from now on work on that piece of text
+Jul 07 00:06:54 <pyNem>	you can now put your cursor anywhere in the first paragraph, and try a #dap#
+Jul 07 00:07:07 <pyNem>	ok .. with that done
+Jul 07 00:07:28 <pyNem>	the next thing you should realise is the preciousness of keystrokes
+Jul 07 00:07:39 <pyNem>	editing in vim is like a game.. every keystroke matters ;)
+Jul 07 00:07:52 <pyNem>	so what if you wanted to delete the word, but leave the spaces around it?
+Jul 07 00:08:07 <pyNem>	you would do #diw# which means Delete Inside of Word
+Jul 07 00:08:50 <pyNem>	you can try it with your cursor somewhere on the word "period" on the first line of the new sample text
+Jul 07 00:08:54 *	Soumya (n=Soumya@117.192.0.231) has joined #dgplug
+Jul 07 00:09:40 <pyNem>	similarly you can do #dis# for Delete Inside of Sentece
+Jul 07 00:09:48 <pyNem>	which would leave the space after '.'
+Jul 07 00:10:15 <pyNem>	#dip# would mean Delete Inside of Paragraph, and would leave the newline after the first paragraph
+Jul 07 00:10:28 <pyNem>	you can try this out with your cursor on the first paragraph ..
+Jul 07 00:10:53 <pyNem>	try #dap# to see the effect. Hit #u# for undo, and hit #dip# for Delete Inside of Paragprah and see the changes
+Jul 07 00:11:36 <pyNem>	done?
+Jul 07 00:11:49 <pyNem>	so think before hit delete basically
+Jul 07 00:12:03 <pyNem>	think what you want left .. how much of it do you want left ..
+Jul 07 00:12:17 <pyNem>	the initial thinking will pay off when you get used to it :)
+Jul 07 00:13:17 <pyNem>	now why would you want to do this?
+Jul 07 00:13:24 <pyNem>	because you obviouly want to either
+Jul 07 00:13:27 <pyNem>	a) delete the sentence
+Jul 07 00:13:33 <pyNem>	b) replace the sentence
+Jul 07 00:13:41 <sunny_slls>	!
+Jul 07 00:13:47 <pyNem>	for case b) instead of #disi# there is something easier :)
+Jul 07 00:13:50 <pyNem>	yeah sunny_slls
+Jul 07 00:15:06 <sunny_slls>	how do we do it in windows
+Jul 07 00:15:16 <pyNem>	as in ?
+Jul 07 00:15:21 <pyNem>	arent you using vim on windows?
+Jul 07 00:15:42 <sunny_slls>	nop
+Jul 07 00:16:03 <pyNem>	oh then none of this would have worked
+Jul 07 00:16:08 <pyNem>	these are all features of vim..
+Jul 07 00:16:12 <pyNem>	you can download vim for windows
+Jul 07 00:16:31 <pyNem>	ftp://ftp.vim.org/pub/vim/pc/gvim71.exe
+Jul 07 00:16:38 <pyNem>	would get you the latest
+Jul 07 00:16:46 <pyNem>	ok .. are the others following?
+Jul 07 00:16:50 <mavu_>	yes
+Jul 07 00:17:32 <pyNem>	fine before we proceed ahead
+Jul 07 00:17:38 <pyNem>	let me just explain something
+Jul 07 00:18:03 <pyNem>	see the word in the first paragraph ? "RussianâCircassian"
+Jul 07 00:18:07 <pyNem>	how would you delete it?
+Jul 07 00:18:15 <pyNem>	daw wont work, since it would stop at '-'
+Jul 07 00:19:04 <pyNem>	that is why vim provides another text object W, which is for words with hypens, semi-colons, parantheses .. etc..
+Jul 07 00:19:08 <pyNem>	only the space will stop it
+Jul 07 00:19:22 <pyNem>	therefore you just have to hit #daW# delete a Word
+Jul 07 00:20:24 *	indradg_ has quit (Remote closed the connection)
+Jul 07 00:20:50 <pyNem>	got that?
+Jul 07 00:20:55 <mavu_>	yes
+Jul 07 00:21:03 <pyNem>	get used to this small difference .. it can pay a lot when editing code :)
+Jul 07 00:21:14 <pyNem>	of course there are other motions as well
+Jul 07 00:21:25 <pyNem>	for example say your cursor is on the first line
+Jul 07 00:21:35 <pyNem>	at the u of Russian
+Jul 07 00:21:57 <pyNem>	and you wanted to get to the 'o' of period
+Jul 07 00:22:07 <pyNem>	(it is the first 'o' from your current cursor position)
+Jul 07 00:22:19 <pyNem>	you can hit #fo# which means move forward till o
+Jul 07 00:23:13 <pyNem>	this is the most useful feature in vim
+Jul 07 00:23:16 <pyNem>	get used to ti
+Jul 07 00:23:23 <mavu_>	xp
+Jul 07 00:23:26 <pyNem>	obviously this can be combined with the delete command
+Jul 07 00:23:28 <pyNem>	xp ?
+Jul 07 00:23:32 <mavu_>	it
+Jul 07 00:23:37 <kushal>	lol
+Jul 07 00:23:45 <kushal>	:)
+Jul 07 00:24:02 <kushal>	pyNem, your students are using Vim on you
+Jul 07 00:24:02 <pyNem>	:)
+Jul 07 00:24:07 <pyNem>	yeah i got it :)
+Jul 07 00:24:17 *	pyNem says thats the way to go! :)
+Jul 07 00:24:27 <pyNem>	when i first learnt vim, my text would often be like
+Jul 07 00:24:44 <pyNem>	yeah, so like you know4xcan seehj :)
+Jul 07 00:25:14 <pyNem>	yeah so if you wanted to delete from the u of Russian to the 'o' of period, it would be
+Jul 07 00:25:18 <pyNem>	#dfo#
+Jul 07 00:25:19 <pyNem>	:)
+Jul 07 00:25:47 <pyNem>	what about from the 'u' of Russian to the 'h' of hostilities
+Jul 07 00:26:05 <mavu_>	dbo?
+Jul 07 00:26:06 <pyNem>	noting that it is the second 'h' it would be
+Jul 07 00:26:20 <mavu_>	oops
+Jul 07 00:26:26 <pyNem>	mavu_, no probs :)
+Jul 07 00:26:32 <pyNem>	#d2fo#
+Jul 07 00:26:42 <pyNem>	so you begin to see that you can combine motions with deletion
+Jul 07 00:26:57 <sunny_slls>	!
+Jul 07 00:27:53 <pyNem>	yeah sunny_slls
+Jul 07 00:28:31 <sunny_slls>	once more please #d2fo#
+Jul 07 00:29:18 <sunny_slls>	explain
+Jul 07 00:30:39 <pyNem>	sorry was away for a while
+Jul 07 00:30:45 <pyNem>	yeah so what #d2fo# does is
+Jul 07 00:31:04 <pyNem>	it deletes from current cursor position to the second 'o' from here (2fo)
+Jul 07 00:31:15 <pyNem>	including the second 'o'
+Jul 07 00:32:04 *	Soumya has quit ("Leaving")
+Jul 07 00:32:13 <pyNem>	ok so as we were saying when you have to replace a sentence vim provides a very nice way of doing things
+Jul 07 00:33:11 <sunny_slls>	so how it is deleting u of russian to h of hostellites
+Jul 07 00:33:47 <pyNem>	see the #fo# takes you to the first 'o' after 'u' (which is 'o' of period)
+Jul 07 00:34:11 <pyNem>	another #fo# would take you to the first 'o' after 'o' of period which is 'o' of hostilities
+Jul 07 00:34:25 <pyNem>	you can combine these with #2fo#
+Jul 07 00:34:42 <pyNem>	and #d2fo# means Delete till 2nd 'o'
+Jul 07 00:35:32 <pyNem>	so as i was saying
+Jul 07 00:35:36 <pyNem>	changing in vim
+Jul 07 00:36:01 <pyNem>	say you want to change this sentence, and your cursor is somehwere on it.. with your new found knowledge, it would be #disi#
+Jul 07 00:36:07 <pyNem>	there is a better way of doing things ..
+Jul 07 00:36:18 <pyNem>	#cis# Change Inside of Sentence ,
+Jul 07 00:36:28 <pyNem>	or #cas# change a sentence
+Jul 07 00:36:42 <pyNem>	note that this puts you in insert mode after deletion
+Jul 07 00:36:46 *	Soumya (n=Soumya@117.192.0.231) has joined #dgplug
+Jul 07 00:36:47 <pyNem>	so you save the keystroke
+Jul 07 00:36:56 *	Debashree has quit (Read error: 104 (Connection reset by peer))
+Jul 07 00:37:24 <pyNem>	you can do this for words, and paragraphs, and Words ..
+Jul 07 00:37:38 <pyNem>	#caw# #cap# #ciW# whatever you want :)
+Jul 07 00:37:55 <pyNem>	a typical situation that arises is something like this
+Jul 07 00:38:15 <pyNem>	a = fooFight(foo, bar);
+Jul 07 00:38:20 <pyNem>	a typical line in a C program
+Jul 07 00:38:35 *	Debashree (n=Debashre@61.2.165.218) has joined #dgplug
+Jul 07 00:38:43 <pyNem>	you are on the 'g' of fooFight, and you suddenly realise that the parameters are wrong...
+Jul 07 00:39:31 <pyNem>	so you can hit #ff# which will take you to the opening 'f' of the argument foo
+Jul 07 00:40:08 <pyNem>	and the hit, #cfr# which means change from here to next r
+Jul 07 00:40:35 <pyNem>	but looking at the prev char of whatever you are going to say is cumbersome, we wanted to delete till '(' ..
+Jul 07 00:40:49 <pyNem>	')'*
+Jul 07 00:40:52 <pyNem>	why should we delete till the 'r' before ')'
+Jul 07 00:41:05 <pyNem>	why cant vim allow me to directly delete till (Excluding) ')'
+Jul 07 00:41:06 <pyNem>	it does
+Jul 07 00:41:12 <pyNem>	using the delete till command
+Jul 07 00:41:30 <pyNem>	basically like #fx# takes you to the next instance of char x
+Jul 07 00:41:41 <pyNem>	#tx# takes you till x, putting you just before the next 'x'
+Jul 07 00:42:49 <pyNem>	therefore as you may guess #dtx# puts delets till x (excluding x)
+Jul 07 00:43:01 <pyNem>	so we could have done #ff# followed by #dtx#
+Jul 07 00:43:06 <pyNem>	#dt)# *
+Jul 07 00:43:16 <pyNem>	which would have translated to #ffdt)#
+Jul 07 00:43:27 <pyNem>	if we wanted to change we would have done #ffct)#
+Jul 07 00:43:29 <pyNem>	go that?
+Jul 07 00:43:32 <pyNem>	take your time with this :)
+Jul 07 00:44:37 <mavu_>	!
+Jul 07 00:44:55 *	samar has quit ("Ex-Chat")
+Jul 07 00:45:14 <pyNem>	yeah tell me mavu_
+Jul 07 00:45:19 <mavu_>	is there a way to remember all these? (/me is losing track :(  )
+Jul 07 00:45:42 <pyNem>	yeah
+Jul 07 00:45:46 <pyNem>	see
+Jul 07 00:45:48 <pyNem>	ill repeat again
+Jul 07 00:45:54 <pyNem>	and then give you a nice thing to keep with you
+Jul 07 00:45:59 <pyNem>	fx is to go forward till x
+Jul 07 00:46:22 <pyNem>	w is go ahead a word (similarly for e, b, and ge)
+Jul 07 00:46:44 <pyNem>	tx is to go till x (to stop short of x)
+Jul 07 00:47:05 <pyNem>	and you can combine these things with 'd' and 'c' which mean delete and chnage
+Jul 07 00:47:11 <pyNem>	use the english  mnemonics
+Jul 07 00:47:21 <pyNem>	hm.. because I had trouble rememembering
+Jul 07 00:47:45 <pyNem>	i wrote notes, which i transformed to the vim tut, i wrote
+Jul 07 00:47:46 <pyNem>	http://linuxgazette.net/152/srinivasan.html
+Jul 07 00:48:06 <pyNem>	you can find all this on the slightly advanced navigation on a line
+Jul 07 00:48:21 <pyNem>	slightly advanced navigation > simple navigation on a line
+Jul 07 00:48:22 <pyNem>	of course
+Jul 07 00:48:31 <pyNem>	there is also one other excellent thing to keep in mind
+Jul 07 00:48:38 <pyNem>	in handy*
+Jul 07 00:49:18 <pyNem>	http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html
+Jul 07 00:49:24 <pyNem>	download a copy and keep it with you :)
+Jul 07 00:49:51 <mavu_>	:)
+Jul 07 00:50:01 <pyNem>	ok, i think i have done enough, to gulp down for a night
+Jul 07 00:50:05 <pyNem>	any questions
+Jul 07 00:50:06 <pyNem>	whatsoever
+Jul 07 00:50:10 <pyNem>	related to anything
+Jul 07 00:50:19 <pyNem>	plugins, customisation, colorschemes, anything :)
+Jul 07 00:50:26 <pyNem>	or related to whatever i said.. :)
+Jul 07 00:50:32 <pyNem>	feel free to ask
+Jul 07 00:51:32 <pyNem>	i use the desert color scheme (on gvim) and evening on normal vim .. you can change your colorscheme to evening using
+Jul 07 00:51:33 <pyNem>	:colorscheme evening
+Jul 07 00:51:36 <pyNem>	and similar commands
+Jul 07 00:52:04 <pyNem>	you can find my .vimrc here
+Jul 07 00:52:21 <pyNem>	http://linuxgazette.net/152/misc/srinivasan/vimrc.txt
+Jul 07 00:53:40 *	_pjp_ (n=pjp@59.92.195.167) has joined #dgplug
+Jul 07 00:53:54 <kushal>	_pjp_, hi 
+Jul 07 00:54:29 <kushal>	pyNem, thank you 
+Jul 07 00:54:44 <kushal>	pyNem, you can call it off for tonight 
+Jul 07 00:54:56 <pyNem>	thanks kushal
+Jul 07 00:55:06 <pyNem>	it was great fun everybody :)
+Jul 07 00:55:08 <mavu_>	:) thanks a lot
+Jul 07 00:55:17 <kushal>	<--SESSION CLOSED-->

@@ -1,0 +1,552 @@
+[15:02:53] [## Class Started at Wed Jun 29 15:02:53 2016 ##]
+[15:02:53] <kushal> startclass
+[15:02:58] <kushal> Roll Call
+[15:03:03] <abstatic> Abhishek Shrivastava
+[15:03:05] <LambaInsaan> Rhitik Bhatt
+[15:03:06] <rahuldecoded> Rahul Bhattacharjee
+[15:03:08] <akshays> Akshay Shipurkar
+[15:03:10] <PrashantJ> Prashant Jamkhande
+[15:03:11] <priyanka> Priyanka Sharma
+[15:03:12] <vbhjain> Vaibhav Jain
+[15:03:13] <chshbh> Avinash Madhukar
+[15:03:14] <neha_> Neha Shinde
+[15:03:15] anushilk is now known as anushil051
+[15:03:15] <vharsh> Harsh Vardhan
+[15:03:21] <smdeep> Sudeep Mukherjee
+[15:03:23] <anushil051> Anushil Kumar
+[15:03:25] <snarwade> Suraj Narwade
+[15:03:30] <iKshitij> Kshitij
+[15:03:31] <deep123k> Deepanshu Kapoor
+[15:03:42] <rohan_h> Rohan Hazra
+[15:04:17] <kashyap638> abhishek kashyap
+[15:04:22] <gunjan> Gunjan
+[15:04:28] <amrtanair_> Amrita Nair
+[15:04:32] <code_geek> Shantanu Acharya
+[15:04:41] <ak_d> Akhilesh Dhaundiyal
+[15:04:42] anushil_ is now known as anushil051
+[15:04:54] <rahul_bajaj> Rahul bajaj
+[15:05:17] <anushil051> Anushil Kumar
+[15:05:31] <aman_> Aman Kunar
+[15:05:38] <himanshutechy> Himanshu sharma
+[15:05:40] <ananthakrishnan> Ananthakrishnan H
+[15:05:44] <shalaka_shastri> Shalaka
+[15:05:44] <tron> when is todays class starting?
+[15:06:12] <rahul_bajaj> tron, started,
+[15:06:12] <LambaInsaan> tron, Already started.
+[15:06:22] <code_geek> right now tron
+[15:07:04] <kushal> clearqueue
+[15:07:11] <kushal> Okay, questions?
+[15:07:13] <avik> Avik Mukherjee
+[15:07:23] <warlord77> rollcall, Sahil Joseph
+[15:07:29] <real56> Varsha R
+[15:07:43] <tgadsing> Tejas Gadsing
+[15:07:48] <Richard99> Mayank Gupta
+[15:07:49] <kushal> Any questions on the things we discussed yesterday?
+[15:07:51] <abstatic> !
+[15:07:51] <iSingh> Ishdeep Singh
+[15:08:11] <mahesh5> Mahesh Gahlot
+[15:08:15] <Onkar> Onkar Karale
+[15:08:24] <gobinda> gobinda akhuli
+[15:08:34] <Anupama> Anupama Mandal
+[15:08:58] <fhackdroid> Farhaan Bukhsh
+[15:09:38] <kushal> next
+[15:09:41] <abstatic> Is it possible to generate documentation using sphinx like we do using javadoc ? Meaning generating documentation from source , using the comments that are in the source code ?
+[15:09:47] <kushal> Yes
+[15:09:52] <kushal> abstatic, google for autodoc
+[15:09:58] <abstatic> okay
+[15:10:06] <abhishekg5> Abhishek Gupta
+[15:10:08] <dep1> !
+[15:10:17] <CuriousLearner> Roll Call: Sanyam Khurana
+[15:10:21] <kushal> next
+[15:10:48] <dep1> in index.rst what does this line mean ..toctree:: :maxdepth: 2
+[15:11:23] <kushal> dep1, type the exact line in google
+[15:11:33] <kushal> I can see the right/perfect answer on the second link
+[15:11:46] <kushal> I just copy pasted to google.com
+[15:11:50] <dep1> ok kushal
+[15:12:02] <kushal> Okay
+[15:12:17] <kushal> dep1, come back and ask if you still have doubt
+[15:12:19] <kushal> next
+[15:12:26] <kushal> Any other questions?
+[15:13:14] <kushal> 38 people in the class.
+[15:13:30] <abhishekcs10> roll call: Abhishek Tiwari
+[15:13:35] <kushal> 39 :)
+[15:13:42] <Richard99> :(
+[15:13:57] <kushal> Okay, so no questions on sphinx.
+[15:14:04] <kushal> can we move to next topic?
+[15:14:10] <rahul_bajaj> yes.
+[15:14:11] <Richard99> yes
+[15:14:15] <vbhjain> yes
+[15:14:15] <PrashantJ> yes
+[15:14:16] <code_geek> yup
+[15:14:16] <warlord77> yezz
+[15:14:17] <gobinda> yes
+[15:14:24] <abstatic> yes
+[15:14:25] <dep1> !
+[15:14:26] <chshbh> yes
+[15:14:27] <himanshutechy> yes
+[15:14:27] <snarwade> yes
+[15:14:35] <rahuldecoded> yes
+[15:14:38] <kushal> next
+[15:14:38] <code_geek> warlord77, it's yes :)
+[15:14:42] <dep1>    * Tables of contents from all those documents are inserted, with a maximum
+[15:14:42] <dep1>      depth of two, that means one nested heading.  ``toctree`` directives in
+[15:14:42] <dep1>      those documents are also taken into account.
+[15:14:50] <dep1> what does this mean
+[15:15:08] <warlord77> code_geek, both are same :p
+[15:15:16] <kushal> TOC == table of content
+[15:15:41] <kushal> dep1, http://summertraining.readthedocs.io/en/latest/ if you see, the toc shows the section names as chapter name, and subsections as links too
+[15:16:11] <kushal> dep1, it says by default it will show subsection and sub-subsection level only (iirc)
+[15:16:35] <kushal> One other thing for everyone.
+[15:16:50] <kushal> If you are from India, you may want to come down to https://in.pycon.org
+[15:16:54] <dep1> thanks kushal
+[15:17:03] <kushal> dgplug meets in PyCon India every year.
+[15:17:11] <kushal> This year it will be in Delhi.
+[15:17:11] <pabitrapati> ROll call :-  Pabitra Pati
+[15:17:12] <abstatic> kushal, I have already booked my tickets !
+[15:17:17] <chshbh> i am in :D
+[15:17:27] <kushal> So, if possible book the event tickets, and then come in
+[15:17:31] <abstatic> Infact pycon india was how I came to know about DGPLUG
+[15:17:37] <kushal> abstatic, chshbh Nice :)
+[15:17:43] <kushal> abstatic, okay :)
+[15:17:57] * LambaInsaan is coming to PyCon
+[15:18:16] <avik> !
+[15:18:17] <pabitrapati> !
+[15:18:20] <code_geek> I can't. We have our mid sem exams on september end :(
+[15:18:20] <kushal> next
+[15:18:27] <avik> WHAT IF WE CANT COME?
+[15:18:33] <kushal> avik, in caps?
+[15:18:43] <kushal> avik, Then it is okay, we can meet in future too
+[15:18:45] <chshbh>  code_geek : i am skipping them lol
+[15:18:46] <avik> sorry the caps was con
+[15:18:50] <kushal> avik, hehe
+[15:18:56] <avik> s/con/on
+[15:19:11] <code_geek> chshbh, :D
+[15:19:23] <PrashantJ> !
+[15:19:30] <kushal> next
+[15:19:33] <pabitrapati> how we can move to a topic by giving link to it.. like in python documentation, if you click on List
+[15:19:35] <iKshitij> Pycon India 2017
+[15:19:44] <pabitrapati> you will reach there in List
+[15:19:53] <pabitrapati> I was trying it out
+[15:20:15] <kushal> pabitrapati, http://www.sphinx-doc.org/en/stable/markup/inline.html
+[15:20:32] <kushal> next
+[15:20:35] <PrashantJ> newbie to python should attend Pycon? I mean would there be anything to take away for begginers?
+[15:20:45] HoloIRCUser6 is now known as jogi96_
+[15:21:18] <jogi96_> Roll call: Jogender Kota
+[15:21:22] <kushal> PrashantJ, Yes, many.
+[15:21:56] <kushal> next
+[15:22:03] <kushal> PrashantJ, if possible you should come.
+[15:22:09] <kushal> That is true for everyone.
+[15:22:11] <CuriousLearner> I would like to share something; I was a student here in 2014; and I didn't attend PyCon India 2014 because of exams clash, and after that I've been scolding myself really badly :p In 2015, I even left my college placement for PyCon India, and it was well worth it :)
+[15:22:12] <PrashantJ> kushal, okay. thank you. I am thinking to attend it :)
+[15:22:23] <akshays> Anyone coming from mumbai
+[15:22:37] <CuriousLearner> So, if you want to learn and meet people, do come :)
+[15:22:46] <rahul_bajaj> akshays, me.
+[15:23:02] <rahul_bajaj> akshays, PM me.
+[15:23:35] <PrashantJ> CuriousLearner, thanks for sharing that:)
+[15:24:18] <aman_> !
+[15:25:29] <akshays> rahul_bajaj i am on my phone so could you pm me
+[15:25:51] <poonam> is training going on?
+[15:25:58] <LambaInsaan> poonam, Yes.
+[15:26:01] <himanshutechy> :)
+[15:27:00] <kushal> next
+[15:27:04] <aman_> Kushal, Can you please provide the yesterday's shellshare logs ?
+[15:27:15] <kushal> aman_, shellshare is not logged.
+[15:27:32] <aman_> So how can i see that logs ?
+[15:27:45] <kushal> aman_, I pasted the configuration I did on the channel, you can see those logs.
+[15:28:01] <kushal> aman_, I don't have an answer, this is why we ask people to join the sessions.
+[15:28:08] <kushal> next
+[15:28:24] <poonam> i am late so can anyone tell what is covered till now.
+[15:28:31] <kushal> poonam, nothing new
+[15:28:37] <poonam> ok
+[15:28:58] <aman_> I got disconnected :(
+[15:29:11] <thisisashwani> roll call : ashwani pandey
+[15:29:41] <akorep_> Roll Call: Akshay T S
+[15:30:21] <akshay_CV> Roll call: Akshay cv
+[15:31:02] <kushal> So, now for this year's participants, who all already has a blog?
+[15:31:22] <akorep> I do.
+[15:31:27] <ananthakrishnan> me too
+[15:31:31] <abstatic> kushal, me, abstatic.github.io
+[15:31:44] <thisisashwani> kushal : i do have one, although it's not completely technical
+[15:31:58] <snarwade> me, surajnarwade.github.io
+[15:32:01] <kushal> For the rest, do you know what is a blog?
+[15:32:04] <dep1> i will create one
+[15:32:05] <chshbh> kushal : blog as in git ?
+[15:32:19] <indiabhi> indiabhi.github.io
+[15:32:22] <vharsh> I have one vharsh.tumblr.com it's inactive now.
+[15:32:23] <moizsajid_> Me but it is unmaintained
+[15:32:48] <rohan_h> Blog is like a online journal to tell the world what we are doing.
+[15:32:54] <dep1> chshbh +1
+[15:32:56] <aman934> Roll Call: Aman Singh
+[15:33:06] <kushal> So
+[15:33:20] <kushal> Blog is the short form of weblog.
+[15:33:42] <kushal> We write down what ever we want in a site/web application, and others in the world can read those
+[15:33:57] <kushal> like http://abstatic.github.io
+[15:34:06] <kushal> or mine is at https://kushaldas.in
+[15:34:18] <kushal> Now this is very important in Open Source world.
+[15:34:22] <iKshitij> !
+[15:34:28] <kushal> As people can read about what you are working on.
+[15:34:44] <kushal> They will know about your interests, and other random things.
+[15:34:57] <kushal> It can be fully technical or personal, or mix of both.
+[15:34:59] <kushal> next
+[15:35:06] <pabitrapati> kushal, I am in process of creating one... :D
+[15:35:39] <kushal> People who do not have a blog, you can go to https://wordpress.com/
+[15:35:43] <kushal> and create a blog there.
+[15:35:54] <kushal> Remember to give a nice name for the blog,
+[15:36:21] <sayan> yes, it's a tag you will carry for your life :) Give it a good name
+[15:36:30] <chshbh> is it compulsion?  kushal
+[15:36:54] <pabitrapati> !
+[15:36:58] <sayan> chshbh: you mean compulsion to create blog? yes
+[15:37:05] <vharsh> !
+[15:37:20] <sayan> chshbh: best way to share ideas, things you learned and things you are working on
+[15:37:23] <sayan> next
+[15:37:24] <chshbh> i mean i have nothing to write technical about, i do not wish to share anything personal.
+[15:37:26] <pabitrapati> kushal, I was trying but all the blogs are listing one below the other in wordpress. where as is it possible to list them page by page ??
+[15:37:35] <kushal> pabitrapati, ?
+[15:37:45] <kushal> that depends on theme
+[15:37:50] <sayan> chshbh: you can blog about your summer training :)
+[15:37:50] <kushal> that can be changed in future
+[15:37:57] <sayan> for now atleast
+[15:37:58] <pabitrapati> oh...
+[15:38:09] <pabitrapati> I was trying but could not find such one
+[15:38:14] <iKshitij> Kushal blog on github is compulsory ? as I am having a blog on blogspot !
+[15:38:25] <CuriousLearner> iKshitij, no
+[15:38:34] <sayan> iKshitij: that works :)
+[15:38:40] <CuriousLearner> iKshitij, you can blog on the blogspot blog
+[15:38:46] <sayan> iKshitij: also use ! before asking
+[15:38:49] <sayan> next
+[15:38:52] <vharsh> Is it a good idea to blog on tumblr? vharsh.wordpress.com belongs to someone else. So I switched to tumblr. I am trying to keep a consistent name.
+[15:39:16] <kushal> vharsh, tumblr is bought by yahoo
+[15:39:30] <kushal> wordpress is the best free option
+[15:39:47] <kushal> There are other options, but we would suggest you this.
+[15:39:48] <kushal> next
+[15:39:50] <vharsh> okay, I'll switch to wordpress then. <EOF>
+[15:40:03] <vharsh> !
+[15:40:09] <sayan> vharsh: next
+[15:40:10] <vharsh> Did you mean free as in price?
+[15:40:11] <akshays> Kushal, do you host your blog on WordPress ?
+[15:40:21] <vharsh> Tumlr is free
+[15:40:33] <vharsh> s/Tumlr/Tumblr
+[15:41:54] <chshbh> !
+[15:42:18] <sayan> next
+[15:42:22] <sayan> next
+[15:42:32] <kushal> akshays, No, I have written a tool couple of years back called shonku
+[15:42:36] <chshbh> sayan, are irc not properly sorted?
+[15:42:36] <kushal> I use that to blog
+[15:42:41] <kushal> next
+[15:43:01] <sayan> chshbh: elaborate?
+[15:43:20] <chshbh> https://dgplug.org/irclogs/2016/
+[15:43:34] <chshbh> irc logs are not sorted.
+[15:43:47] <abstatic> !
+[15:43:56] <rohan_h> !
+[15:44:08] <chshbh> it is not yesterday's log.
+[15:44:30] <chshbh> 28th june's log is yesterday's log on site <eof>
+[15:44:47] <himanshutechy> !
+[15:45:03] <chshbh> okay sorry my mistake :/
+[15:45:07] <madhuri> #dgplug
+[15:45:27] <sayan> chshbh: 28th june was yesterday?
+[15:45:29] <sayan> chshbh: oh
+[15:45:31] <sayan> next
+[15:45:34] <sayan> next
+[15:45:36] <rohan_h> kushal, can we use shonku?
+[15:45:50] <abstatic> can we get links to shonku ?
+[15:45:56] <kushal> rohan_h, yes, if you can read the docs, and figure out how to use it :)
+[15:45:56] <sayan> rohan_h: yes, at ease
+[15:46:00] <rahul_bajaj> rohan_h, yes, you can
+[15:46:15] <kushal> rohan_h, abstatic http://shonku.readthedocs.io/en/latest/
+[15:46:54] <rohan_h> kushal, i will try to figure it out . Thanks
+[15:47:30] <kushal> rohan_h, you can ask me later :)
+[15:47:34] <sayan> next
+[15:47:36] <himanshutechy> I have already a blog on tumblr is it fine or i have to move to other service provider?
+[15:47:56] <kushal> So everyone please go to https://wordpress.com and open a blog right now
+[15:48:00] <kushal> We will wait for you.
+[15:48:33] <buvanesh_kumar> i have created one already kushal :)
+[15:48:58] <kushal> himanshutechy, you can keep using it
+[15:49:02] <rahuldecoded> I am having one in blogspot
+[15:49:04] <kushal> if you are using it for a long time.
+[15:49:08] <kushal> rahuldecoded, Which is okay
+[15:49:11] <moizsajid_> !
+[15:49:12] <kushal> this is for new people only
+[15:49:13] <kushal> next
+[15:49:30] <moizsajid_> Is Jekyll a good option?
+[15:49:33] <buvanesh_kumar> !
+[15:49:39] <kushal> moizsajid_, It is also
+[15:49:53] <kushal> moizsajid_, that case I can ask you to have a look at shonku :)
+[15:50:00] <iKshitij> !
+[15:50:23] <moizsajid_> sure
+[15:50:23] <kushal> next
+[15:50:31] <buvanesh_kumar> Can i use blogger instead of wordpress for this?
+[15:50:45] <kushal> buvanesh_kumar, yes
+[15:50:46] <kushal> next
+[15:51:15] <pabitrapati> Done
+[15:51:26] <iKshitij> Kushal those who already have blog ?
+[15:52:00] <iKshitij> Got answer ! Thank You
+[15:53:07] <snarwade> for pelican based blog, http://docs.getpelican.com/en/3.6.3/
+[15:53:39] <PrashantJ> kushal, Done.:)
+[15:54:46] <kushal> iKshitij, they should continue
+[15:55:09] <kushal> Everyone, created your blog?
+[15:55:19] <akorep> Yes.
+[15:55:23] <rahuldecoded> Yes.
+[15:55:45] <deep123k> Yes
+[15:55:57] <vharsh> Yes
+[15:56:02] <himanshutechy> yes
+[15:56:08] <buvanesh_kumar> yes
+[15:56:10] <akshays> Yes
+[15:56:15] <PrashantJ> yes
+[15:56:25] <kushal> If anyone is still doing, we will wait for them to finish
+[15:56:36] <D1mz> yes
+[15:56:43] <vbhjain> yes
+[15:56:45] <priyanka> yes.
+[15:56:46] <jogi96_> Yes
+[15:57:22] <thisisashwani> !
+[15:57:24] <sayan> If you are still doing then please write it here that you are still working on creating the blog
+[15:57:26] <sayan> next
+[15:57:32] <avik>  !
+[15:57:36] <sayan> next
+[15:57:49] <sayan> avik: without space :)
+[15:57:49] <thisisashwani> kushal: i had a question related to blog, a little ahead, can i ask?
+[15:57:51] <avik> blog created but nothing added!
+[15:57:58] <kushal> avik, Which is okay.
+[15:58:00] <priyanka> yes, i am still creating it
+[15:58:02] <chshbh> yes, i am still working
+[15:58:03] <kushal> thisisashwani, ask
+[15:58:06] <sayan> thisisashwani: shoot
+[15:58:13] <kushal> priyanka, chshbh yes, we will wait for you.
+[15:58:30] <thisisashwani> most of the blogs that i see have the copyright thing? how does one get hat?
+[15:58:45] <thisisashwani> kushal, sayan : and what's the use of that?
+[15:58:50] <avik> !
+[15:58:52] <thisisashwani> s/hat/that
+[15:58:59] <kushal> thisisashwani, in most countries by default when you write something, you get the copyright of that.
+[15:59:07] <sayan> next
+[15:59:09] <kushal> You don't have to register it anywhere.
+[15:59:23] <akshays> Kushal, do we have it in india
+[15:59:29] <avik> why did we create the blog? i mean i have nothing to share!
+[15:59:40] <kushal> thisisashwani, You can use that when someone steals you text and try to put it as theirs.
+[15:59:49] <kushal> akshays, yes, same rule, you don't have to register.
+[15:59:55] <kushal> avik, Don't you?
+[16:00:03] <kushal> avik, First you answer my questions :)
+[16:00:11] <thisisashwani> kushal: okay, that means i can simply have it on my blog "2016, all rights reserved"?
+[16:00:13] <moizsajid_> !
+[16:00:17] <kushal> avik, Did you learn anything in the last few days in this summer training?
+[16:00:22] <kushal> thisisashwani, Yes
+[16:00:49] <thisisashwani> kushal: okay, thanks!
+[16:00:58] <kushal> In future we will have more in depth sessions about copyright hopefully :)
+[16:01:17] <thisisashwani> kushal: okay, i was writing to ask for that only!
+[16:01:26] <kushal> :)
+[16:01:29] <kushal> avik, ?
+[16:01:30] <thisisashwani> because it seems quite confusing, different licenses!
+[16:01:38] <avik> i do not know muchyes kushal!
+[16:01:47] <avik> oops
+[16:01:59] <avik> yes kushal
+[16:02:13] <avik> but its nothing much to share
+[16:02:54] <avik> and sorry for the late answer :/
+[16:03:11] <kushal> avik, Do you think all the things you know, any of your friends know?
+[16:03:25] <kushal> avik, Do you think that it is too less for them to learn?
+[16:03:32] <kushal> Nothing is small.
+[16:03:41] <avik> ok i give up
+[16:03:45] <kushal> ?
+[16:03:53] <kushal> For example, some math problem may be very easy for you.
+[16:04:29] <avik> lets see if i can help others
+[16:04:34] <kushal> But for sure it is very difficult for me.
+[16:04:44] <chshbh> okay, done.
+[16:05:00] <tgadsing_> Done.
+[16:05:05] <sayan> avik: I was going through abstatic blog post and saw this post - http://abstatic.github.io/dotfiles.html
+[16:05:16] <priyanka> i have created it, thanks kushal for waiting.
+[16:05:21] <kushal> avik, You don't worry about that, just write regular blog posts.
+[16:05:33] <abhishekg5> avik, take it slow. We start small. Always. Everyone. You can blog about vim, fhs, reST, sphinx. See, plenty of things. And a lot more to come
+[16:05:57] <sayan> the topic is dotfiles. something which I know but you might not know so you will be interested in reading
+[16:06:13] <avik> :)
+[16:06:49] <kushal> abstatic, nice, keep writing like this.
+[16:07:03] <kushal> Write regularly.
+[16:07:11] <kushal> It takes years to become good at it.
+[16:07:14] <abstatic> sayan, and that reminds me, that I have to do another blog post which will cover the uploaded dotfiles. That post is half complete.
+[16:07:19] * kushal is still not good at all. 
+[16:07:33] <abstatic> kushal, thank you kushal ! , means a lot
+[16:07:34] <himanshutechy> :)
+[16:07:54] <ak_d> kushal: my internet is not working smoothly right now, I'm not able to make blog at the moment.
+[16:08:13] <ak_d> I'll do it later
+[16:08:23] pksadiq` is now known as pksadiq
+[16:08:30] <kushal> ak_d, okay
+[16:08:37] <kushal> One thing for tonight, everyone write a blog post about this summer training, all good/bad things you want to share.
+[16:09:08] <aman_> Yes, i will .Thanks kushal :)
+[16:09:15] <kushal> I will start a thread in the list, reply to it (inline reply) with the link to your blog.
+[16:09:46] <himanshutechy> yes Sergeant
+[16:10:00] <kushal> next
+[16:10:09] <moizsajid_> Why are software packages like Nikola called static site generators even though we continuously add blog posts from time to time?
+[16:10:40] <kushal> moizsajid_, because you are writing a static file on your computer, and then generating the html files from it.
+[16:11:21] <kushal> those html files are static, nothing is happening on the server to generate those.
+[16:11:30] <kushal> The server just servers those as it is.
+[16:11:38] <kushal> Means they are faster.
+[16:12:03] <code_geek_> kushal: My internet connection is not working properly. I'll create a blog later.
+[16:12:09] <sayan> moizsajid_: you might want to read the difference between static web pages and dynamic web pages
+[16:12:30] <moizsajid_> okay
+[16:12:34] <kushal> code_geek_, Okay
+[16:12:37] <sayan> next
+[16:12:58] <kushal> avik, has a question.
+[16:13:10] <kushal> avik, ask here.
+[16:13:25] <avik> what is the meaning :
+[16:13:35] <avik>  "I will start a thread in the list, reply to it (inline reply) with the link to your blog."
+[16:13:39] <rahul_bajaj> !
+[16:13:44] <kushal> Who wants to answer avik ?
+[16:13:50] <kushal> Go ahead and answer
+[16:14:16] <kushal> avik, Let us see if anyone from here wants to help you or not :)
+[16:14:27] <kushal> avik, It is a valid question.
+[16:14:32] <priyanka> actually, i have the same dout as avik
+[16:14:35] <thisisashwani> avik, that means you will get a mail tonight
+[16:14:40] <snarwade> avik, kushal will send a mail to mailing list
+[16:14:41] <rohan_h> avik, He was talking about the mailing list. There you will reply inline with a link to your blog.
+[16:14:46] <thisisashwani> reply to that mail with your blog post link
+[16:14:52] <abstatic> It means that kushal will send out a new mail in the mailing list, in reply to which we will write the link to the blog post that we have written. "inline reply" means that we will trim the content and add our reply
+[16:15:00] <vharsh> avik, You can reply in three ways, inline, top-posting, bottom-posting.
+[16:15:08] <snarwade> so you have to put your blog link in inline reply
+[16:15:28] <thisisashwani> avik: so many people are here to help you! :D
+[16:15:33] <kushal> :)
+[16:15:37] <vharsh> top-posting is discouraged, as it is equivalent to writing the question before the answer.
+[16:15:39] <kushal> I just found https://wiki.openstack.org/wiki/MailingListEtiquette
+[16:15:45] <moizsajid_> kushal will start an email thread for us to show our work i.e. the link to out blog, remember the initial thread before dgplug started?
+[16:15:47] <vharsh> kushal, Community power :)
+[16:15:48] <avik> is inline == normal reply?
+[16:15:58] <kushal> avik, In our community, yes
+[16:16:05] <kushal> avik, most of the devels do that.
+[16:16:45] <avik> devels ==?
+[16:17:00] <dep1> developer i guess
+[16:17:03] <kushal> developers
+[16:17:10] <vharsh> oops, it is "writing the answer before the question."
+[16:17:28] <kushal> vharsh, hehe :)
+[16:17:35] <avik> ok. sorry
+[16:17:49] * vharsh should have used the s/ notation here.
+[16:17:50] <rohan_h> avik, why sorry?
+[16:18:35] <avik> sorry for the stupid question! not a Smart one :p
+[16:18:46] <kushal> avik, stupid questions are also okay.
+[16:18:56] <kushal> avik, but ask those to google.com first :)
+[16:18:56] <avik> hehe.
+[16:19:09] <code_geek_> Has anyone created a blog right now? Give me the link. I want to see.
+[16:19:41] <anushil051> code_geek code_geek_
+[16:19:45] <iKshitij> abstatic, Nice Blog !
+[16:19:53] <anushil051> https://wordpress.com/settings/general/anushil05.wordpress.com
+[16:19:54] <sayan> code_geek_: good to wait for the email from kushal :)
+[16:19:56] <himanshutechy> https://www.tumblr.com/blog/thehimanshusharma
+[16:20:07] <abstatic> iKshitij, thank you :)
+[16:20:18] <D1mz> https://everythingdimzy.wordpress.com/
+[16:20:38] <avik> https://wordpress.com/posts/technotronsite.wordpress.com
+[16:20:42] <rahul_bajaj> by using a static blog generator, can we have sessions and interconnections between links?
+[16:20:49] <moizsajid_> annshil051, your blog is anushil05.wordpress.com, please share this link with others
+[16:21:02] <vharsh> https://vharshblog.wordpress.com/
+[16:21:03] <moizsajid_> *aushil051
+[16:21:10] <code_geek_> anushil051: that's not the link to your blog
+[16:21:16] <akshays> akshayshipurkar.me/blog
+[16:21:18] <sayan> rahul_bajaj: what do you mean by interconnection?
+[16:21:28] <akshay_CV> https://akshaycv006.wordpress.com
+[16:21:44] <nishapoyarekar> reserved-bit.com
+[16:22:13] <thisisashwani> https://thisisashwanipandey.blogspot.in/
+[16:22:51] <code_geek_> Ok sayan
+[16:22:56] <kushal> Not sure why people are sharing here.
+[16:23:00] <kushal> We never asked for that.
+[16:23:08] <anushil051> code_geek_, https://anushil05.wordpress.com/2016/06/29/oneplus-3/
+[16:23:12] <kushal> People just do forget that the session is going on.
+[16:23:14] <kushal> :(
+[16:23:35] <moizsajid_> code_geek, asked for our blog links
+[16:23:42] <thisisashwani> kushal: actually someone asked for that, and everyone jumped on the boat.
+[16:23:44] <D1mz> kushal, code_geek asked
+[16:23:54] <D1mz> :)
+[16:23:55] <code_geek_> sorry kushal :(
+[16:24:05] <kushal> moizsajid_, D1mz He can ask 1 million dollar too, will you give that to him?
+[16:24:17] <himanshutechy> apology ;(
+[16:24:42] <avik> sorry :(
+[16:24:52] <rahul_bajaj> sayan, like on wordpress at the end of one blog, we get the option to look at the previous and next blog
+[16:24:53] <kushal> Anyway
+[16:25:06] <kushal> rahul_bajaj, Yes
+[16:25:08] <D1mz> I'm sorry:( I should have sent him privately
+[16:25:11] <kushal> that depends on theme
+[16:25:26] <rahul_bajaj> kushal, okay.
+[16:25:28] <rahul_bajaj> <eof?
+[16:25:33] <rahul_bajaj> <eof>
+[16:25:34] <anushil_>  sorry kushal
+[16:25:35] <kushal> next
+[16:25:36] <sayan> rahul_bajaj: yes posible
+[16:25:37] <kushal> next
+[16:26:29] amrtanair_ is now known as amrtanair
+[16:26:57] <kushal> Okay
+[16:27:44] <kushal> There is a software called planet, we use that to aggravate many blogs into a single place.
+[16:27:54] <kushal> (There are other software too).
+[16:28:09] <kushal> For example: in Fedora we have http://fedoraplanet.org/
+[16:28:23] <kushal> From dgplug we have http://planet.dgplug.org
+[16:28:57] <kushal> People follow these planets regularly, so when your blog gets added to any planet, all the people who follows that planet, will read your blog posts.
+[16:29:08] <kushal> That is a super useful way to reach to many people.
+[16:31:06] <D1mz> !
+[16:31:18] <kushal> next
+[16:31:32] <D1mz> kushal, Is it okay to add my blog to a planet if I use the blog as my personal blog also?
+[16:31:59] <kushal> D1mz, yes, that case you can say which all tags/categories will go to the planet.
+[16:32:15] <kushal> Like I have a special feed for Python planet, all posts with Python tag
+[16:32:25] <kushal> for Fedora or dgplug I just link to my whole blog
+[16:32:47] <D1mz> How can i add my blog to a planet?
+[16:33:20] <kushal> D1mz, every project(planet) has a different rules.
+[16:33:27] <jogi96_> Kushal, how can i add my blog to planet?
+[16:33:30] <kushal> D1mz, For dgplug, we want to add only regular member
+[16:33:34] <kushal> D1mz, For dgplug, we want to add only regular member's blogs
+[16:33:51] <kushal> jogi96_, see above.
+[16:33:57] <priyanka> I am new to the blog, i mean that i don't know what to write about, any suggestions?
+[16:33:57] <kushal> So for tonight, your job is to write at least one blog post, and share the link to the blog (not the post, but the link to the blog itself).
+[16:34:15] <kushal> priyanka, Write about the summer training, what you liked, what you hated?
+[16:34:15] <jogi96_> Yeah got the answer kushal
+[16:34:16] <D1mz> I mean the procedure for adding
+[16:34:20] <kushal> How did you find about it.
+[16:34:22] <kushal> etc
+[16:34:26] <akorep> !
+[16:34:28] <kushal> D1mz, it depends.
+[16:34:34] <kushal> next
+[16:34:34] <priyanka> okay, thank you kushal.
+[16:35:01] <D1mz> thank you
+[16:35:16] <akorep> Can I write about anything else other than the summer training?
+[16:35:26] <code_geek_> !
+[16:35:26] <sayan> akorep: yes
+[16:35:31] <sayan> next
+[16:35:34] <code_geek_> Instead of using the free domain name from wordpress, can I buy a domain name from another website (for example: from godaddy) and then link that to my wordpress blog?
+[16:35:44] <jogi96_> Kushal: can we add our old blogs the we have written or we have to start new?
+[16:36:11] <kushal> jogi96_, you can not add, only the person/group runs the planet can add.
+[16:36:26] <sayan> code_geek_: you can buy and do that
+[16:36:27] <kushal> code_geek_, don't use godaddy.
+[16:36:40] <kushal> next
+[16:36:51] <code_geek_> Then which website kushal ?
+[16:36:52] <kushal> Roll Call
+[16:36:58] <rahul_bajaj> Rahul Bajaj
+[16:36:59] <vharsh> Harsh Vardhan
+[16:37:01] <priyanka> Priyanka Sharma
+[16:37:01] <Rnarwade> Rushiprasad Narwade
+[16:37:02] <kushal> code_geek_, will talk about it after the sesion
+[16:37:02] <PrashantJ> Prashant Jamkhande
+[16:37:02] <anushil_>  Anushil Kumar
+[16:37:06] <chshbh> Avinash Madhukar
+[16:37:07] <abhishekg5> Abhishek Gupta
+[16:37:07] <jogi96_> Jogender Kota
+[16:37:07] <indiabhi_> Abhishek Rai
+[16:37:07] <code_geek_> Shantanu Acharya
+[16:37:08] <CuriousLearner> Sanyam Khurana
+[16:37:08] <deep123k> Deepanshu Kapoor
+[16:37:10] <tgadsing_>  Tejas Gadsing
+[16:37:11] <LambaInsaan> Rhitik BHatt
+[16:37:11] <Richard99> Mayank Gupta
+[16:37:14] <abstatic> Abhishek Shrivastava
+[16:37:15] <smdeep> Sudeep Mukherjee
+[16:37:15] <himanshutechy> Himanshu sharma
+[16:37:17] <ak_d> Akhilesh Dhaundiyal
+[16:37:17] <real56> Varsha R
+[16:37:19] <sidhant> Sidhant Gupta
+[16:37:20] <avik> Avik Mukherjee
+[16:37:21] <akorep> Akshay T S
+[16:37:22] <rohan_h> Rohan Hazra
+[16:37:23] <neha_> Neha Shinde
+[16:37:25] <Anupama> Anupama Mandal
+[16:37:26] <vbhjain> Vaibhav JAin
+[16:37:28] <suniva> Suniva Priyadarshini
+[16:37:31] <mahesh5> Mahesh Gahlot
+[16:37:32] <thisisashwani> Ashwani Pandey
+[16:37:36] <akash_> Akash Krishnan
+[16:37:39] <priya> Priyanka Ambre
+[16:37:49] <poonam> poonam jadhav
+[16:37:50] <nishapoyarekar> Nisha Poyarekar
+[16:37:50] <akshays> Alshay Shipurkar
+[16:38:19] <amrtanair> Amrita Nair
+[16:38:33] <moizsajid_> Moiz Sajid
+[16:38:36] <buvanesh_kumar> Buvanesh Kumar
+[16:38:52] <kushal> endclass
+[16:38:52] [## Class Ended at Wed Jun 29 16:38:52 2016 ##]

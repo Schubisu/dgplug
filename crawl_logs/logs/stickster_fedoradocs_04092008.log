@@ -1,0 +1,351 @@
+Sep 04 18:36:02 <stickster>	Welcome everyone, I'm Paul Frields, and I'm the Fedora Project Leader.
+Sep 04 18:36:11 *	f3ew waves at stickster 
+Sep 04 18:36:11 <stickster>	I'm also a long-time contributor to the Fedora Documentation team
+Sep 04 18:36:39 <stickster>	I want to make sure this session is helpful to all of you so that you can contribute to our team if you're interested
+Sep 04 18:37:04 <stickster>	How many people here are current members of the Fedora Project, meaning you have an account in the Fedora Account System?  Just answer "+1" if you are.
+Sep 04 18:37:17 <kushal>	+1
+Sep 04 18:38:10 <kushal>	I know of Soumya , Subhodip sm|CPU mintos , existing contributors 
+Sep 04 18:38:16 <kushal>	and rahul_b 
+Sep 04 18:38:38 <stickster>	OK, I assume they're not around to see this then :-)
+Sep 04 18:38:52 <kushal>	Soumya, is disconnected 
+Sep 04 18:38:53 <stickster>	Moving on...
+Sep 04 18:39:03 *	n9986 has quit (Client Quit)
+Sep 04 18:39:08 *	mib_v7kcr8 (i=75630a5b@gateway/web/ajax/mibbit.com/x-e78fd16a332bd077) has joined #dgplug
+Sep 04 18:39:15 <stickster>	Free and open source software is a highly scalable model, but only if people do sign up to help and contribute.
+Sep 04 18:39:16 <Subhodip>	+1
+Sep 04 18:39:23 *	mib_v7kcr8 (i=75630a5b@gateway/web/ajax/mibbit.com/x-e78fd16a332bd077) has left #dgplug
+Sep 04 18:39:34 <stickster>	Not everyone can be a great programmer -- I am definitely not one!
+Sep 04 18:39:36 *	mib_v7kcr8 (i=75630a5b@gateway/web/ajax/mibbit.com/x-e78fd16a332bd077) has joined #dgplug
+Sep 04 18:39:45 <mib_v7kcr8>	kishan goyal
+Sep 04 18:40:01 <stickster>	But almost anyone can write short pieces of information to teach others how to accomplish tasks.
+Sep 04 18:40:02 *	mib_v7kcr8 has quit (Client Quit)
+Sep 04 18:40:09 *	n9986 (n=n9986@61.16.159.195) has joined #dgplug
+Sep 04 18:40:27 <stickster>	In Fedora, one of the *easiest* ways you can contribute this sort of help is through our wiki.
+Sep 04 18:40:48 <stickster>	You only need a Fedora account to be able to create or edit documentation on our wiki.
+Sep 04 18:40:58 <stickster>	kushal: Is everyone here aware of what a wiki is, and how it works?
+Sep 04 18:41:03 <kushal>	stickster, yes
+Sep 04 18:41:09 <kushal>	stickster, we had a session on that 
+Sep 04 18:41:11 <stickster>	OK
+Sep 04 18:41:14 <stickster>	excellent!
+Sep 04 18:41:21 <rahul_b>	1
+Sep 04 18:41:25 <rahul_b>	+1
+Sep 04 18:41:33 <zabeehkhan>	of course +1
+Sep 04 18:41:44 <Subhodip>	+1
+Sep 04 18:41:46 *	Soumya_ (n=Soumya@117.192.5.239) has joined #dgplug
+Sep 04 18:41:50 *	kishan (i=75630a5b@gateway/web/ajax/mibbit.com/x-172239edb2621940) has joined #dgplug
+Sep 04 18:41:56 <mintos>	+1
+Sep 04 18:41:57 *	n9986 has quit (Client Quit)
+Sep 04 18:42:02 <stickster>	Our wiki is connected to our account system, so you only need the single account to be able to edit it.  You can get an account at http://join.fedoraproject.org
+Sep 04 18:42:02 <kushal>	stickster, please continue 
+Sep 04 18:42:05 <kishan>	kishan goyal
+Sep 04 18:42:08 <kishan>	+1
+Sep 04 18:42:14 <rtnpro>	+1
+Sep 04 18:42:29 *	Soumya has quit (Nick collision from services.)
+Sep 04 18:42:34 *	Soumya_ is now known as Soumya
+Sep 04 18:42:44 <stickster>	You don't need to apply for any special groups.
+Sep 04 18:43:05 <stickster>	You simply fill in your information, and click through the Contributor License Agreement.
+Sep 04 18:43:10 <stickster>	(CLA)
+Sep 04 18:43:12 *	sunny_slls (n=sunny@125.20.11.34) has joined #dgplug
+Sep 04 18:43:36 <stickster>	Because Fedora is sponsored by Red Hat, a USA-based company, there are certain legal requirements we must meet.
+Sep 04 18:44:45 <stickster>	One of those requirements is a CLA, which tells us that you agree that the materials you contribute are eligible for Fedora -- either created by you or by someone else in a way that allows a FOSS project to use them
+Sep 04 18:45:31 <stickster>	It also gives Fedora and Red Hat the right to reuse, redistribute, license, modify, etc. these materials on your behalf.
+Sep 04 18:46:25 <stickster>	In other words, you are telling Red Hat and Fedora "What I contribute is open for everyone to use, and I want you to ensure that always stays true"
+Sep 04 18:46:37 *	stickster notes he is not an attorney and the above is not legal advice :-)
+Sep 04 18:47:14 <stickster>	The information you put in the wiki can be reused by everyone just like anything we produce in Fedora
+Sep 04 18:47:38 <stickster>	Once you have that account, you can use it to access our wiki: https://fedoraproject.org/wiki/Special:Userlogin
+Sep 04 18:48:07 <stickster>	Any questions so far?  If you have a question, raise your hand by sending the text "!"
+Sep 04 18:48:23 <stickster>	You can "raise your hand" at any time. :-)
+Sep 04 18:48:35 *	debarshi (n=debarshi@gnu-india/supporter/debarshi) has joined #dgplug
+Sep 04 18:48:40 <kushal>	stickster, we follow fedora marketing meeting rules here :)
+Sep 04 18:49:03 <stickster>	kushal: Excellent, I'll let you moderate the queue of people/questions then?
+Sep 04 18:49:09 <kushal>	stickster, ok
+Sep 04 18:49:13 <stickster>	superb!
+Sep 04 18:49:20 <stickster>	All right, moving right along then.
+Sep 04 18:49:53 <stickster>	The Fedora Docs team has weekly meetings, at 1900 UTC on Wednesdays, in #fedora-meeting.
+Sep 04 18:50:07 <stickster>	We also have a full-time IRC channel at #fedora-docs.
+Sep 04 18:50:14 <stickster>	(Both here on IRC Freenode.)
+Sep 04 18:51:06 <stickster>	Everyone is welcome to stop by #fedora-docs anytime with questions, and everyone is welcome in our meetings, although we do like to stay with our agenda since we only have ~60 minutes for that meeting.
+Sep 04 18:51:44 <stickster>	We also have a dedicated mailing list, for which you can sign up here:  http://redhat.com/mailman/listinfo/fedora-docs-list
+Sep 04 18:52:19 <stickster>	kushal: Would you like me to talk about some of the more "intermediate/advanced" tools we use?
+Sep 04 18:52:30 <kushal>	stickster, most welcome :)
+Sep 04 18:52:40 <kushal>	stickster, that will help more
+Sep 04 18:52:58 <stickster>	One of the most effective ways to produce documentation is by using DocBook.
+Sep 04 18:53:16 <stickster>	We use DocBook XML to generate some of our official documentation, like the Installation Guide.
+Sep 04 18:53:26 <stickster>	We also use it to prepare the final versions of the Release Notes for each release.
+Sep 04 18:53:57 <stickster>	The interesting thing about Release Notes is that we prepare them on the wiki during the development cycle of each Fedora release, and then convert them to DocBook to produce the official published versions.
+Sep 04 18:54:27 <stickster>	DocBook XML is a markup language, and for those of you who know XML, there's nothing difficult about DocBook XML.
+Sep 04 18:54:45 <stickster>	For those of you who know HTML or some other markup language, you will also find DocBook XML very simple.
+Sep 04 18:55:15 <stickster>	Is there anyone here who doesn't know any markup languages at all? Don't be shy, many people do not. I didn't know anything about XML myself when I started in Fedora Docs some years ago.
+Sep 04 18:55:41 <sunny_slls>	sunny_slls, !
+Sep 04 18:55:51 <kushal>	sunny_slls, eh ?
+Sep 04 18:56:14 <kishan>	I don't know any...
+Sep 04 18:56:24 <Debashree>	i too don't know
+Sep 04 18:56:27 <rtnpro>	I don't know any markup language, I am jearing this term the 1st time
+Sep 04 18:56:33 <sunny_slls>	stickster, i don't know any of the markup languages
+Sep 04 18:56:42 <rtnpro>	*hearing
+Sep 04 18:56:49 <stickster>	Great, thanks for speaking up everyone!
+Sep 04 18:57:05 <stickster>	A "markup language" allows you to mark text in a way that tells the computer that text has a specific meaning
+Sep 04 18:57:18 <stickster>	So for example, look at this little bit of DocBook:
+Sep 04 18:57:59 <stickster>	<para>This text is the content of a paragraph. It might be part of a larger DocBook work, like an article or a book. There are <emphasis>many</emphasis> ways to mark up text in DocBook.</para>
+Sep 04 18:58:35 <sunny_slls>	stickster, !
+Sep 04 18:58:36 <stickster>	What you're seeing there ^^^ is DocBook XML markup.  The tags have angle brackets, and there are both "start" and "end" tags.  A start tag looks like <para>, and an end tag looks like </para> (see the slash?)
+Sep 04 18:58:50 <stickster>	sunny_slls: go ahead
+Sep 04 18:59:24 <sunny_slls>	stickster, does glade3 has any relation with these markup languages?
+Sep 04 18:59:50 <stickster>	sunny_slls: Interesting question -- glade uses XML markup to create its interface definition files too.
+Sep 04 19:00:05 <stickster>	XML is used in *LOTS* of places by programmers, not just in Linux
+Sep 04 19:00:34 <stickster>	XML is very flexible, so it can be used to define lots of different things
+Sep 04 19:00:42 *	AJuOnLiNE has quit ("Code for Sahana http://tinyurl.com/sahana-hindi")
+Sep 04 19:01:21 <stickster>	When you want to use XML to describe data, you come up with what's called a Document Type Definition (or DTD) that shows how the XML should look when defining that data.
+Sep 04 19:01:50 <stickster>	(I should say, "you" the user don't always have to do this. Someone often has done it for you, and you just have to *follow* the DTD to write your XML.)
+Sep 04 19:02:15 <stickster>	In fact, this is exactly the case with DocBook XML. It's just a definition for how various XML elements fit together to make a DocBook document.
+Sep 04 19:02:31 <stickster>	So for instance, let's look at the DocBook snippet I provided a few moments ago:
+Sep 04 19:02:35 <stickster>	<para>This text is the content of a paragraph. It might be part of a larger DocBook work, like an article or a book. There are <emphasis>many</emphasis> ways to mark up text in DocBook.</para>
+Sep 04 19:03:14 <stickster>	The DocBook XML definition, or DTD, is what says that there is such thing as a "para" (or paragraph) element.
+Sep 04 19:03:23 *	rahul_b has quit ("Leaving(à¤ªà¥à¤¨à¥à¤¹à¤¾ à¤­à¥à¤à¥)")
+Sep 04 19:03:26 <stickster>	It also says that you can use an "emphasis" element inside that "para" element.
+Sep 04 19:03:59 <stickster>	Notice how the "emphasis" element starts and ends *inside* the "para" element.  That's called "nesting."
+Sep 04 19:04:11 <stickster>	Let me show you how nesting works:
+Sep 04 19:04:25 <stickster>	<para>You <emphasis>can</emphasis> do this in XML.</para>
+Sep 04 19:04:42 <stickster>	<para>But doing this is <emphasis>wrong.</para></emphasis>
+Sep 04 19:04:56 <stickster>	Who can tell me what's wrong with the 2nd example?
+Sep 04 19:05:35 <Debashree>	in second one emphasis is after para
+Sep 04 19:05:45 <stickster>	Debashree: Very good! Exactly.
+Sep 04 19:06:18 <stickster>	The emphasis element starts *inside* the para, but it ends *outside* the para. You can't do that in XML -- or rather, if you do, you will confuse all the computer's tools for understanding the XML data.
+Sep 04 19:06:28 *	ramkrsna (n=ramkrsna@unaffiliated/ramkrsna) has joined #dgplug
+Sep 04 19:06:45 *	indradg_ has quit (Read error: 104 (Connection reset by peer))
+Sep 04 19:06:47 <stickster>	The 1st example is right, because it properly "nests" the XML.
+Sep 04 19:07:24 <stickster>	So a DocBook XML document is basically a set of data, marked up with start and end tags, properly nested, in a way that follows the DocBook definition (or DTD).
+Sep 04 19:07:48 <stickster>	I'm sure many people are asking now, "So how do you know what the tags are?"
+Sep 04 19:07:55 <f3ew>	!
+Sep 04 19:08:01 <stickster>	f3ew: go ahead :-)
+Sep 04 19:08:04 <f3ew>	TLDP link would be useful
+Sep 04 19:08:21 <f3ew>	http://tldp.org/HOWTO/DocBook-Demystification-HOWTO/
+Sep 04 19:08:40 <stickster>	f3ew: Thank you
+Sep 04 19:08:52 <stickster>	I was just about to point out the *definitive* guide to DocBook:
+Sep 04 19:09:00 <stickster>	http://www.docbook.org/tdg/en/html/docbook.html
+Sep 04 19:09:26 <stickster>	DocBook has versions, just like many programs do.  Each new version may have some additional features or fixes.
+Sep 04 19:09:53 <stickster>	The newest version of DocBook is 5.0, and it was just released a few weeks ago.
+Sep 04 19:11:13 <rtnpro>	stickster: !
+Sep 04 19:11:17 <f3ew>	!
+Sep 04 19:11:21 <stickster>	rtnpro: go ahead
+Sep 04 19:11:47 <rtnpro>	stickster: From where do I download that?
+Sep 04 19:12:13 <stickster>	rtnpro: You can find DocBook packages on most Linux distributions, already available through your standard software add/remove tools.
+Sep 04 19:12:16 <stickster>	For Fedora, you can do this:
+Sep 04 19:12:29 <stickster>	su -c 'yum groupinstall "Authoring and Publishing"'
+Sep 04 19:13:54 <stickster>	f3ew: go ahead
+Sep 04 19:14:11 <rtnpro>	stickster: Thank you :)
+Sep 04 19:14:20 *	ria (n=ria@121.245.99.131) has joined #dgplug
+Sep 04 19:14:23 <f3ew>	http://tldp.org/LDP/LDP-Author-Guide/html/index.html is also a good reference
+Sep 04 19:14:35 <f3ew>	and should answer a lot of questions
+Sep 04 19:14:52 <f3ew>	http://tldp.org/LDP/LDP-Author-Guide/html/tools-distro.html (for example)
+Sep 04 19:15:05 <stickster>	f3ew: Yes, although that is a specific reference for TLDP.
+Sep 04 19:15:18 <f3ew>	Covers most of the docbook stuff
+Sep 04 19:15:48 <stickster>	Ah yes, and it's quite out of date! :-)
+Sep 04 19:16:03 <stickster>	Anyway, moving on
+Sep 04 19:16:16 *	arpita (n=arpita@117.201.98.60) has joined #dgplug
+Sep 04 19:16:17 *	Subhodip has quit (Read error: 110 (Connection timed out))
+Sep 04 19:16:28 *	stickster notes that the Fedora Documentation Guide is much more current:  http://docs.fedoraproject.org/documentation-guide/
+Sep 04 19:16:42 <f3ew>	ah, useful
+Sep 04 19:16:44 <stickster>	Even that needs to be updated a little.
+Sep 04 19:17:01 <stickster>	So what I'm going to do now is to show you a working DocBook document that consists of several files.
+Sep 04 19:17:11 *	debarshi has quit ("ERC Version 5.2 (IRC client for Emacs)")
+Sep 04 19:17:14 <stickster>	DocBook doesn't have to all appear in one file
+Sep 04 19:17:32 <stickster>	Let's start with a simple single file though: http://fpaste.org/paste/5708
+------------------
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.docbook.org/xml/4.4/docbookx.dtd">
+
+<section>
+  <title>More Stuff</title>
+  <para>Here's even more stuff that I wanted in my article.  Doesn't
+  my article rock?  Yeah, I thought you'd agree.</para>
+</section>
+------------------
+
+Sep 04 19:17:35 *	Soumya_ (n=Soumya@117.192.1.78) has joined #dgplug
+Sep 04 19:17:55 <stickster>	The first two header lines in that file look confusing, but they're only doing two things:
+Sep 04 19:18:03 <stickster>	1. Indicate this is an XML file
+Sep 04 19:18:33 <stickster>	2. Indicate this XML file follows the DocBook XML V4.4 definition (or DTD), and it's a "section"
+Sep 04 19:19:03 <stickster>	Following that is the actual content
+Sep 04 19:19:20 *	Soumya has quit (Read error: 110 (Connection timed out))
+Sep 04 19:19:46 <stickster>	Which is a "section" element, as required -- when you declare the document to be a "section," the top-level element must match and be <section>
+Sep 04 19:20:00 <stickster>	Inside the <section> there's a <title> element, and a <para> element.
+Sep 04 19:20:22 <stickster>	Now let's look at one other type of content you can have in an XML file.
+Sep 04 19:21:08 <stickster>	There are some types of content that you might want to make both *reusable*, and *easily changed*.
+Sep 04 19:21:40 <stickster>	Say for instance you're documenting a product for your company, and it's called "EasyWidget," but the company wants to re-launch and rename the product to "WidgetPro."
+Sep 04 19:21:57 <stickster>	It would be awful if you had to go through your entire document renaming all the instances of "EasyWidget" to "WidgetPro."
+Sep 04 19:22:35 <stickster>	If you use entities, you only have to change one entity definition, and all the places where you use that entity will change automatically when you regenerate your document!
+Sep 04 19:22:49 <stickster>	An entity looks like this:   &MY-ENTITY;
+Sep 04 19:23:03 <stickster>	Note the ampersand (&) at the beginning, and the semicolon (;) at the end.
+Sep 04 19:23:22 <stickster>	In between you can use letters, numbers, dashes and underlines to name your entity.
+Sep 04 19:23:34 <stickster>	Here's an example of an entity definition: http://fpaste.org/paste/5709
+------------------
+<!ENTITY DISTRO "Fedora">
+------------------
+
+Sep 04 19:23:42 *	karunakar (n=karunaka@61.17.194.27) has joined #dgplug
+Sep 04 19:23:53 <stickster>	Note that in that file, we're defining the entity "DISTRO" to be equal to the text "Fedora."
+Sep 04 19:24:07 <stickster>	So wherever I use "&DISTRO;" in my text, the word "Fedora" will appear instead.
+Sep 04 19:24:46 *	arpita_ (n=arpita@117.201.97.116) has joined #dgplug
+Sep 04 19:24:48 <stickster>	Now, if one day Fedora changes its name to AwesomeLinux, I can just change the one definition, and all my uses of &DISTRO; will then become "AwesomeLinux."
+Sep 04 19:25:04 *	Subhodip (n=subhodip@125.20.11.34) has joined #dgplug
+Sep 04 19:25:17 <stickster>	Now, let's look at another DocBook file, and how we can *combine* several files together to make a document.
+Sep 04 19:25:25 <stickster>	http://fpaste.org/paste/5710
+Sep 04 19:25:40 <stickster>	First, let me point out that our "header" has changed a little.
+Sep 04 19:25:52 <stickster>	In between the [ and ] we have a place that we can define entities.
+Sep 04 19:26:40 *	indradg_ (n=indradg@59.93.247.170) has joined #dgplug
+Sep 04 19:26:44 <stickster>	The way I've defined an entity there is special, called a "system entity."  That means that instead of just defining a "general entity" that is equal to some text, I'm defining a URI/URL that *contains* more entities.
+Sep 04 19:26:48 *	Soumya__ (n=Soumya@117.192.3.104) has joined #dgplug
+Sep 04 19:27:28 <stickster>	If you have DocBook tools installed, you can test this document by saving each of the files I've created on your local disk:
+Sep 04 19:27:36 <stickster>	http://fpaste.org/paste/5708  --> "section.xml"
+Sep 04 19:27:49 <stickster>	http://fpaste.org/paste/5709  --> "entities.ent"
+Sep 04 19:28:04 <stickster>	http://fpaste.org/paste/5710  --> "article.xml"
+Sep 04 19:28:27 *	Debashree_ (n=Debashre@117.201.96.44) has joined #dgplug
+Sep 04 19:28:41 <stickster>	Let's look closer at "article.xml", or http://fpaste.org/paste/5710
+Sep 04 19:29:19 <stickster>	There's one other new feature I've added to this XML file.  Can someone tell me which line number has the new feature in that document?
+Sep 04 19:29:20 *	zabeehkhan_ (n=chatzill@117.102.16.126) has joined #dgplug
+Sep 04 19:29:23 *	Debashree has quit (Nick collision from services.)
+Sep 04 19:29:32 *	Debashree_ is now known as Debashree
+Sep 04 19:29:40 <stickster>	(Hint: It's in the actual XML content.)
+Sep 04 19:31:08 <stickster>	Can anyone find the line number in http://fpaste.org/paste/5710 that has an additional new feature that we haven't yet discussed?
+Sep 04 19:31:31 <stickster>	(Hint #2:  It happens somewhere *after* line 8.)
+Sep 04 19:32:19 <stickster>	(OOPS: I see that somehow I put a typo in this document, let me regenerate it.)
+Sep 04 19:32:58 <stickster>	http://fpaste.org/paste/5711
+-------------
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.docbook.org/xml/4.4/docbookx.dtd" [
+
+<!ENTITY % MYENTITIES SYSTEM "entities.ent">
+%MYENTITIES;
+
+]>
+<article>
+  <title>My &DISTRO; Article</title>
+  <articleinfo>
+    <author>
+      <firstname>Paul</firstname>
+      <surname>Frields</surname>
+    </author>
+  </articleinfo>
+  <section>
+    <title>General Stuff</title>
+    <para>Here is some general stuff that
+    I wanted to write in my article.  DocBook XML is a really cool way
+    to write any size documentation for any purpose.  All the tools
+    you need come standard in &DISTRO;.</para>
+  </section>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section.xml"/>
+  <section>
+    <title>Yet Another &DISTRO; Section</title>
+    <para>Here's some more text.</para>
+  </section>
+</article>
+--------------
+
+Sep 04 19:33:02 *	Soumya__ is now known as Soumya
+Sep 04 19:33:08 <stickster>	   '--->  "article.xml"
+Sep 04 19:33:31 <stickster>	For those of you saving these to your local disk, you may want to grab that new revision: http://fpaste.org/paste/5711
+Sep 04 19:33:44 <stickster>	OK, no one has come up with the answer so here it is:
+Sep 04 19:33:46 <stickster>	Line 23.
+Sep 04 19:33:53 <stickster>	(in the earlier, bad copy it was line 22.)
+Sep 04 19:34:14 <stickster>	This is called an "XInclude," and it lets you put the content from one XML document *inside* another one.
+Sep 04 19:34:28 <stickster>	In other words, you can "include" some XML inside other XML.
+Sep 04 19:34:38 *	Debashree has quit (Read error: 104 (Connection reset by peer))
+Sep 04 19:34:56 <stickster>	The XInclude always looks just like this <xi:include> element, with the only difference being the "href" attribute.
+Sep 04 19:35:33 *	arpita has quit (Read error: 110 (Connection timed out))
+Sep 04 19:35:36 <stickster>	The href attribute will be set to the URI for the XML you want to include -- in this case, since it's just a filename, I'm referring to a file on the local storage in the same directory location as the current document.
+Sep 04 19:36:13 <stickster>	So this XInclude will try to include the content of the "section.xml" file.
+Sep 04 19:36:15 *	Debashree (n=Debashre@117.201.98.144) has joined #dgplug
+Sep 04 19:36:29 <stickster>	Now, for those of you who have saved these files on disk, you can run this command:
+Sep 04 19:36:40 *	zabeehkhan__ (n=chatzill@117.102.16.126) has joined #dgplug
+Sep 04 19:36:49 <stickster>	xmllint --xinclude --postvalid --noout article.xml
+Sep 04 19:37:33 <stickster>	You should get no output, just another shell prompt./
+Sep 04 19:37:57 <stickster>	We just used the XML toolkit's built-in "xmllint" command to *validate* our document
+Sep 04 19:38:38 <stickster>	When you validate a document, you make sure that the XML you have is properly nested, or "well-formed" as XML people say, *AND* that it properly follows the definition or DTD you have declared (in this case DocBook XML V4.4).
+Sep 04 19:38:58 *	zabeehkhan_ has quit (Read error: 60 (Operation timed out))
+Sep 04 19:39:19 <stickster>	If your document validates, you *know* that it should work properly when you convert it to other formats -- i.e. your document is correct.
+Sep 04 19:39:23 <sunny_slls>	stickster, !
+Sep 04 19:39:26 <stickster>	sunny_slls: go ahead
+Sep 04 19:39:40 <sunny_slls>	stickster, please explain the href attribute
+Sep 04 19:39:53 *	Soumya_ has quit (Read error: 110 (Connection timed out))
+Sep 04 19:40:22 <stickster>	The href attribute for the <xi:include> element is a pointer to another resource, in this case a file.
+Sep 04 19:40:27 <stickster>	href="section.xml"
+Sep 04 19:40:50 <stickster>	That means that we are using XInclude to include the contents of the "section.xml" file inside this file.
+Sep 04 19:41:00 <stickster>	The href could point to a network location too, like this:
+Sep 04 19:41:11 <stickster>	href="http://some-domain.org/section.xml"
+Sep 04 19:41:55 <stickster>	When you don't declare any network protocol like "http://" you are assumed to be talking about a file.
+Sep 04 19:42:02 <stickster>	You could also put the file in a *different* directory:
+Sep 04 19:42:11 <stickster>	href="/some/other/path/section.xml"
+Sep 04 19:42:35 <stickster>	In this case, we haven't declared any other directory path, so "section.xml" is expected to be in the same directory as the file that includes it.
+Sep 04 19:42:55 <stickster>	sunny_slls: Does that answer your question?
+Sep 04 19:43:14 <sunny_slls>	stickster, yup thanks
+Sep 04 19:43:19 <stickster>	great!
+Sep 04 19:43:45 <stickster>	OK, so this brings me to my last bit of information, more specific to Fedora Docs
+Sep 04 19:44:33 <stickster>	We are starting to make our documents available through Fedora Hosted, instead of in our own special CVS
+Sep 04 19:44:56 <stickster>	Each document will be its own "project" and people can contribute to documents by requesting access to those projects just like any upstream FOSS project
+Sep 04 19:45:06 <stickster>	For example, https://fedorahosted.org/release-notes
+Sep 04 19:45:07 *	zabeehkhan has quit (Read error: 110 (Connection timed out))
+Sep 04 19:45:27 <stickster>	We are going to start using a new tool called Publican to produce our documentation
+Sep 04 19:45:36 <stickster>	To install Publican on your Fedora box, just run:
+Sep 04 19:45:42 <stickster>	su -c 'yum install publican-fedora'
+Sep 04 19:46:03 <stickster>	(This gets you publican, and the special Fedora brand information)
+Sep 04 19:46:42 <stickster>	publican includes a "create_book" command that produces a partially-completed set of DocBook XML files
+Sep 04 19:47:10 <stickster>	Then you can simply edit the existing content to create your own materials.
+Sep 04 19:47:24 <stickster>	publican also has everything you need to create HTML, PDF, or other formats for your documentation.
+Sep 04 19:47:52 <stickster>	Of course, we will need to change our Documentation Guide to reflect this new usage! :-)
+Sep 04 19:48:26 <stickster>	You can also install publican's built-in help documentation by installing publican-doc:
+Sep 04 19:48:29 <stickster>	su -c 'yum install publican-doc'
+Sep 04 19:48:45 <stickster>	You'll have a menu entry that displays the publican user documentation.
+Sep 04 19:50:04 <stickster>	If you're interested in looking over this information in a slide deck format, visit http://jsmith.fedorapeople.org/UTOSC-DocBook.odp
+Sep 04 19:50:21 <stickster>	This class has been similar to the class Jared Smith and I taught at UTOSC 2008 just last week.
+Sep 04 19:50:33 *	Soumya_ (n=Soumya@117.192.10.42) has joined #dgplug
+Sep 04 19:50:39 <stickster>	(OpenOffice.org format, ~370KB)
+Sep 04 19:51:07 <stickster>	Fedora Documentation is always happy to have help, and you *do not* need to be a DocBook expert to get started.
+Sep 04 19:51:45 <stickster>	We have several experienced DocBook and XML people, and love to get new people involved
+Sep 04 19:51:54 <stickster>	Most documentation folks learn very quickly as they go
+Sep 04 19:52:08 <stickster>	And remember that the wiki is where a lot of work is also happening, which is even easier.
+Sep 04 19:52:12 <sunny_slls>	stickster, !
+Sep 04 19:52:17 <stickster>	I would encourage all of you to *get involved*!
+Sep 04 19:52:21 <stickster>	sunny_slls: go ahead :-)
+Sep 04 19:52:38 *	mavu (n=mavu@59.178.167.124) has joined #dgplug
+Sep 04 19:52:48 *	Soumya has quit (Read error: 110 (Connection timed out))
+Sep 04 19:52:53 <sunny_slls>	stickster, means is it something like adding visuals to documentation files and formats
+Sep 04 19:53:31 <stickster>	sunny_slls: I think I understand your question as, "Can I add visual elements like screenshots to documentation, using DocBook?"
+Sep 04 19:53:41 <stickster>	Is that right?
+Sep 04 19:53:58 <sunny_slls>	stickster, yup something like that?
+Sep 04 19:53:59 <stickster>	Or are you asking about Publican specifically, and what it does?
+Sep 04 19:54:15 *	kishan has quit ("http://www.mibbit.com ajax IRC Client")
+Sep 04 19:54:16 <sunny_slls>	stickster, yes i wanna know it too
+Sep 04 19:54:24 <stickster>	OK, first question first then :-)
+Sep 04 19:54:38 <stickster>	Yes, DocBook has elements that can be used to insert pictures into your text.
+Sep 04 19:54:49 <stickster>	So you can include a screenshot into documentation about a program.
+Sep 04 19:55:10 <stickster>	The <inlinemediaobject> is usually used for this purpose.
+Sep 04 19:55:16 <stickster>	Now for the second question:
+Sep 04 19:55:22 <stickster>	Publican does a couple of things:
+Sep 04 19:55:37 <stickster>	* It allows you to create a document "skeleton" from a template quickly and easily.
+Sep 04 19:55:52 <stickster>	* It includes tools for converting that DocBook document into other formats like HTML and PDF.
+Sep 04 19:56:11 <stickster>	* It also includes tools for creating, updating, and including translations for your document.
+Sep 04 19:56:45 *	kishan (i=75631d5f@gateway/web/ajax/mibbit.com/x-7c4f1b387553416c) has joined #dgplug
+Sep 04 19:56:46 <stickster>	Publican is built to use DocBook XML as the input, so once you learn a little bit of DocBook, you can create very nice looking documents.
+Sep 04 19:57:00 <sunny_slls>	stickster, means we can design the document as per our wish like we do to design a website with the help of HTML..
+Sep 04 19:57:21 <stickster>	sunny_slls: Yes, and keep in mind that DocBook is all about *content*, not *appearance*
+Sep 04 19:57:22 <sunny_slls>	stickster,am i right?
+Sep 04 19:57:28 <kushal>	!
+Sep 04 19:57:36 <sunny_slls>	stickster, got it
+Sep 04 19:57:40 <stickster>	So you could create the content in DocBook, convert it to HTML, and then use CSS to style the appearance any way you like
+Sep 04 19:57:50 <stickster>	kushal: go ahead :-)
+Sep 04 19:57:51 <kushal>	just for info I am writing http://kushal.fedorapeople.org/book/ using publican
+Sep 04 19:57:54 <kushal>	<eof>
+Sep 04 19:58:26 <stickster>	kushal: Very good! A great example.
+Sep 04 19:58:44 <stickster>	Well, if there's nothing further, I guess I'm finished!
+Sep 04 19:58:55 <kushal>	any last question ?
+Sep 04 19:59:07 <stickster>	I encourage people to join Fedora at http://join.fedoraproject.org and get involved in free and open source software!
+Sep 04 19:59:26 <zabeehkhan__>	stickster: I registered an account for myself. I will be contributing to translation though...  :)
+Sep 04 19:59:37 <stickster>	zabeehkhan__: Anything that you enjoy, you should do :-)
+Sep 04 19:59:47 <zabeehkhan__>	stickster: :)
+Sep 04 19:59:52 *	kushal hands over flowers (virtual) to stickster 
+Sep 04 20:00:13 <stickster>	Thanks for allowing me to talk to you guys!
+Sep 04 20:00:14 <kushal>	stickster, thank you for coming and doing the session :)
+Sep 04 20:01:17 <stickster>	If anyone has further questions about DocBook or Fedora Docs, look for me at #fedora-docs
+Sep 04 20:01:25 <stickster>	Have a great evening :-)

@@ -1,0 +1,405 @@
+[15:00:21] [## Class Started at Fri Jul  1 15:00:21 2016 ##]
+[15:00:21] <kushal> startclass
+[15:00:22] <akshays> Akshay Shipurkar
+[15:00:29] <kushal> akshays, ?
+[15:00:30] <akshays> sorry
+[15:00:35] <kashyap638> abhishek kashyap
+[15:00:36] <kushal> Roll Call
+[15:00:37] <mahesh5> Mahesh Gahlot
+[15:00:38] <gkadam> Ganesh Kadam
+[15:00:38] <ak_d> Akhilesh Dhaundiyal
+[15:00:38] <Ultimatepritam> Pritam Mondal
+[15:00:39] <LambaInsaan> Rhitik BHatt
+[15:00:40] <deep123k> Deepanshu Kapoor
+[15:00:41] <vharsh> Harsh Vardhan
+[15:00:42] <Richard15> Mayank Gupta
+[15:00:42] <abstatic> Abhishek Shrivastava
+[15:00:43] <priyanka_> Priyanka Sharma
+[15:00:44] <CuriousLearner> Sanyam Khurana
+[15:00:44] <vibhcool> Vibhor verma
+[15:00:45] <amey> Amey Jain
+[15:00:46] <amitk_> Amit Kokitkar
+[15:00:47] <akshays> Akshay Shipurkar
+[15:00:48] <gobinda> Gobinda Akhuli
+[15:00:49] <jogi96> Jogender Kota
+[15:00:51] <chshbh> Avinash Madhukar
+[15:00:53] <rohan_h> Rohan Hazra
+[15:00:53] <smdeep> Sudeep Mukherjee
+[15:00:54] <ksaikiranr> K Sai Kiran
+[15:00:54] <hemanth> hemanth savasere
+[15:00:55] <PrashantJ> Prashant Jamkhande
+[15:00:57] <mitra002> Shubhodeep Mitra
+[15:00:58] <amrtanair> Amrita Nair
+[15:01:01] <thisisashwani> Ashwani Pandey
+[15:01:04] <pragnavi> Pragnavi
+[15:01:05] <shobhitupadhyay> shobhit upadhyay
+[15:01:05] <poonam> poonam jadhav
+[15:01:06] <D1mz> Aditya Bayana
+[15:01:18] <kashyap638> abhishek kashyap
+[15:01:19] <moon45> Mamoon Manzoor
+[15:01:19] <abhishekg5> Abhishek Gupta
+[15:01:38] <akash47> Akash Mishra
+[15:01:42] <anushil051> Anushil Kumar
+[15:01:53] <rahuldecoded> Rahul Bhattacharjee
+[15:01:55] <yASH> Yashwanth M
+[15:01:58] <warlord77> sahil joseph
+[15:02:00] <SRvSaha> Saurav Saha
+[15:02:07] <moizsajid> Moiz Sajid
+[15:02:33] <sandeepmaity09> Sandeep Maity
+[15:02:51] <kushal> Okay.
+[15:03:02] <Anupama> Anupama Mandal
+[15:03:06] <kushal> Before we start
+[15:03:19] <kushal> Who writes this blog https://pabitrapati.wordpress.com ?
+[15:03:19] grepRoot is now known as gourav
+[15:03:44] <pabitra> kushal, I wrote.. but i wrongly deleted my post
+[15:03:53] <pabitra> Actually I was trying to rebuild it
+[15:03:54] <code_geek_> Roll Call: Shantanu Acharya
+[15:04:01] <pabitra> and i am facing some issues
+[15:04:06] <kushal> Okay
+[15:04:13] <avik> roll call: Avik Mukherjee
+[15:04:14] <akshay_CV> Roll call : Akshay
+[15:04:14] <kushal> Anyway.
+[15:04:32] <aman_> Roll call: Aman Kumar
+[15:04:33] <kushal> Today is our first guest lecture.
+[15:04:34] <mbtamuli12> Roll Call: Mriyam Tamuli
+[15:05:01] <kushal> trishnag, is our guest speaker. She was a summer training participant last year.
+[15:05:09] <pabitra> Roll call : Pabitra Pati
+[15:05:12] <kushal> She is a regular contributor to various upstream projects.
+[15:05:15] <gourav> Roll call : Gourav Chawla
+[15:05:17] <kushal> trishnag, stage is yours
+[15:05:21] <riskarsh> Roll call: Utkarsh Shukla
+[15:05:22] <kushal> trishnag, Go ahead :)
+[15:05:26] <trishnag> kushal: Thanks :)
+[15:05:29] <shauryak-3> Roll Call : Shaurya Kalia
+[15:05:32] <trishnag> Hello everyone!
+[15:05:40] <rahuldecoded> Hello
+[15:05:46] <hemanth> hello
+[15:05:48] <pabitra> Hi trishnag
+[15:05:48] <kashyap638> hello
+[15:05:49] <Ultimatepritam> Hello trishnag :)
+[15:05:50] <priyanka_> Hi trishnag .
+[15:05:50] <akshays> Hello trishnag
+[15:05:50] <SRvSaha> Hello
+[15:05:50] <deep_13> hello
+[15:05:51] <ksaikiranr> Hello
+[15:05:53] <sandeepmaity09> Hello trishnag
+[15:05:53] <gkadam> trishnag, \o/
+[15:05:55] <shobhitupadhyay> hello
+[15:05:56] <riskarsh> Hello
+[15:05:58] <yASH> Hello trishnag !!
+[15:05:59] <LambaInsaan> Hello o/
+[15:06:00] <code_geek> Hello
+[15:06:00] <akshay_CV> Hello
+[15:06:01] <kushal> Stop saying hello
+[15:06:07] <poonam> hello trishnag
+[15:06:11] <trishnag> kushal asked me to share my journey about FOSS, Python and dgplug :)
+[15:06:14] <anushil051> hello trishnag
+[15:06:19] <Krishna> Roll Call Krishna Biradar
+[15:06:41] <trishnag> A little introduction about me: I am Trishna Guha pursuing 7th sem of B.Tech(CS) from Kolkata, India.
+[15:06:48] <fhackdroid> Roll call : Farhaan Bukhsh
+[15:06:56] <vibhcool> Which college
+[15:06:58] <trishnag> I began coding when I was in school. I use to code in C and C++ that time.
+[15:07:03] <jargonmonk> Roll Call: Aniket Khisti
+[15:07:15] <trishnag> In 3rd year of my college  I attended dgplug summer training. It was 2015 :). I learned Python and started coding in Python.
+[15:07:29] <Alak> Roll Call: Alakshendra Yadav
+[15:07:35] <trishnag> After that I started contributing to Fedora. It was 23rd September,2015 when I made my first contribution to Fedora :-).
+[15:07:53] <trishnag> Most of my contributions are for Fedora Bodhi(Infrastructure) and Fedora Tunirtests(Cloud/Atomic).
+[15:07:59] <trishnag> So my FOSS journey began with dgplug only!
+[15:08:08] * fhackdroid witnessed it :)
+[15:08:52] <trishnag> I would prefer question now :).
+[15:09:00] <fhackdroid> !
+[15:09:02] <hemanth> !
+[15:09:06] <trishnag> next
+[15:09:07] <SRvSaha> !
+[15:09:07] <moizsajid> !
+[15:09:16] <vibhcool> !
+[15:09:21] <sandeepmaity09> !
+[15:09:33] <gkadam> !
+[15:09:36] <fhackdroid> How does it feel ? what is the most important thing you learnt ?
+[15:09:43] <abstatic> !
+[15:10:16] <rahuldecoded> !
+[15:10:17] <fhackdroid> it being contributing
+[15:10:22] <trishnag> fhackdroid: The best feeling I have is the world is using my code.
+[15:10:30] <trishnag> And solving my own issue
+[15:10:45] <fhackdroid> <eof>
+[15:11:18] <trishnag> fhackdroid: I learned team work, patience, project work flow. and ofcourse various skills
+[15:11:36] <trishnag> next
+[15:11:39] <hemanth> caan you brief more about how you started contributing to fedora and share  your experiences especially with those of faliures during contribution ?
+[15:11:50] <hemanth> sorry caan/can
+[15:11:52] <fhackdroid> trishnag, thank you good to know that :)
+[15:12:33] <shalaka> sorry for late :(  roll call shalaka
+[15:12:55] <trishnag> hemanth: I began started with a beginner bug. Because ofcourse one doesn't know how everything works inside there primarily :)
+[15:13:01] <c0mrad3> Roll Call Tummala Dhanvi
+[15:13:05] <mbtamuli12> !
+[15:13:15] <iKshitij_> Roll Call Kshitij
+[15:13:21] <sneo> Roll Call Sarah Masud
+[15:13:28] <vbhjain> Roll Call  Vaibhav Jain
+[15:13:42] <trishnag> Suppose take a bug that need a fix regarding changing height,width of something or like changing text somewhere
+[15:13:46] <tgadsing_> Roll call Tejas Gadsing
+[15:13:58] <trishnag> that's always best way to start with I feel :).
+[15:14:20] <trishnag> slowly you start understanding the workflow and how the components work inside there
+[15:14:26] <shauryak-3> !
+[15:14:40] <trishnag> I always try to stick to the bug even if I fail
+[15:14:42] <trishnag> hemanth: ^
+[15:14:45] <trishnag> next
+[15:14:54] <SRvSaha> trishnag: In the 3 months of the training, you were well up in Python including all the advanced stuffs like Unit Testing, Wrapper,Lambda functions et al. Since I know the basic Python, I wanted to know how much of extra effort is needed for Contributing? Also you mentioned in your blog about mbuf's book "I want to do a Project, what to do". Should it be followed after the training for more real life applications of everything. Also how tough is it to st
+[15:14:54] <SRvSaha> art with a bug fix when you are a newbie?  <eof>
+[15:15:05] <hemanth> thanks trishnag :)
+[15:15:45] <indiabhi> !
+[15:16:02] wanderMind` is now known as wanderMind
+[15:16:09] <trishnag> SRvSaha: as I told to hemanth :) we don't have to be super expert in something to begin contributing.
+[15:16:18] <Anandprakash> Roll Call Anandprakash Tandale
+[15:16:35] <trishnag> It's all about choosing a bug that you know you can fix (for the first time).
+[15:16:45] <trishnag> that boosts up your confidence :)
+[15:16:48] <snarwade> Roll Call: Suraj Narwade
+[15:17:26] <trishnag> SRvSaha: with Knowing basic python you can begin contributing and slowly you will learn many things you never know :)
+[15:17:49] <trishnag> and ofcourse the book by mbuf is really good. You should read it :)
+[15:17:58] <trishnag> next
+[15:18:03] <moizsajid> (1)I haven't installed Fedora. Can I still contribute to mainstream Fedora projects? (2)Also, which project are you mentoring as a part of GSoC?
+[15:18:25] <SRvSaha> trishnag: So, we don't need to understand the workflow of the whole thing at the first go. Doing some research about choosing the bug to fix would do ? <>eof
+[15:19:02] <trishnag> moizsajid: Try to spin up a vm(fedora) later. You might face issues regarding setting up development environment.
+[15:19:33] <trishnag> moizsajid: I am contributing as a back mentor of Org admins for Python software foundation
+[15:19:44] <rohan_h> !
+[15:20:29] <trishnag> SRvSaha: I believe it takes almost a year to understand the full work flow a project(which is really bigger).
+[15:21:03] <trishnag> SRvSaha: To starting with an easy bug wil help to get started
+[15:21:05] <trishnag> next
+[15:21:20] <vibhcool> How much time it took for your first contribution. How you got to that bug . And what is your github id. If i say i want to start contributing which software you would suggest.Actually i know how to code in c,c++,php,lua and recently did basic python, still it is getting hell out of me to start contributing
+[15:22:05] <trishnag> vibhcool: I joined in dgplug training last year.
+[15:22:30] <trishnag> vibhcool: Choosing a bug to work on took me 2 days :)
+[15:22:34] <trishnag> my first bug*
+[15:22:44] <trishnag> Because it was super easy
+[15:23:30] <trishnag> vibhcool: I selected a bug from here https://fedoraproject.org/easyfix/ that contains all beginner level bugs of fedora project
+[15:23:44] <trishnag> my github username trishnaguha
+[15:24:12] <trishnag> vibhcool: It is up to you what you are going to select to contribute for(organization)
+[15:24:18] <vibhcool> and also java,missed that
+[15:24:38] <trishnag> https://sayanchowdhury.dgplug.org/how-to-get-started-with-open-source/
+[15:24:45] <trishnag> might be helpful for you
+[15:24:47] <trishnag> vibhcool: ^
+[15:24:52] <trishnag> next
+[15:24:54] <sandeepmaity09> Why did you choose fedora-bodhi as your first project ?
+[15:25:19] <trishnag> sandeepmaity09: It wasn't my first project :)
+[15:25:45] <vibhcool> Thank you @trishnag
+[15:25:45] * trishnag digs up the link
+[15:26:47] <trishnag> https://github.com/fedora-infra/python-fedora/pull/149
+[15:27:00] <trishnag> My first contribution
+[15:27:10] <sandeepmaity09> I read your blog post "My first contribution to Fedora: Getting Started"
+[15:27:30] <jargonmonk> !
+[15:27:32] <trishnag> Generally it all started with selecting a bug
+[15:27:46] <trishnag> Because at the beginning you don't know much about the project
+[15:27:50] <trishnag> For me atleast :)
+[15:27:51] <snarwade> !
+[15:27:56] <trishnag> then you dive in
+[15:28:12] <trishnag> It wa Python-fedora sandeepmaity09
+[15:28:20] <trishnag> next
+[15:28:22] <gkadam> trishnag, please share your thoughts on how you manage your time in your day today tasks and the dedication you need for open source contribution.
+[15:28:50] <sandeepmaity09> trishnag,Ok... Sorry My mistake
+[15:28:57] <amey> !
+[15:30:01] <trishnag> gkadam: So in 6 months of semester I spend 4.5 months for FOSS and 1.5 months for academic :)
+[15:30:34] <trishnag> gkadam: But I am generally regular in college :P
+[15:31:06] <trishnag> Coming to dedication, it is about commitment and responsibility.
+[15:31:42] <trishnag> I never left a bug unfixed that I have decided to work on.
+[15:32:23] <trishnag> Even if I falied at many attempts,I kept trying. it is about patience, tweaks and communication
+[15:32:29] <trishnag> next
+[15:32:32] <gkadam> trishnag, thank you!
+[15:32:34] <abstatic> (1) how does open source contribution help in making career as a programmer ? (2) How hard is it to get a full time job at redhat or fedora or anyother FOSS org ?
+[15:33:35] <trishnag> abstatic: I don't think Contributing to FOSS means getting in to that FOSS org :).
+[15:33:44] <trishnag> It is about fun.
+[15:33:46] <yASH> !
+[15:34:23] <trishnag> It is about the thing you learn, acquiring skills. Doing what you love. Fixing your issues by sending patches or reporting the bug
+[15:34:41] <Onkar> Roll call: Onkar Karale
+[15:35:03] <trishnag> abstatic: It definitely builds your skills, thus career :)
+[15:35:11] <trishnag> next
+[15:35:18] <abstatic> trishnag, thanks !
+[15:35:19] <rahuldecoded> Have you contributed to any other open source before attending the dgplug?
+[15:35:36] <trishnag> rahuldecoded: No I hadn't.
+[15:35:48] <rahuldecoded> Thanks :)
+[15:35:49] <trishnag> next
+[15:35:59] <mbtamuli12> I wanted to ask, how much of the Bodhi code did you go through before your first fix on Bodhi? Even though it was tagged as an EasyFix, to find the fix, what did you do?
+[15:36:16] <vibhcool> @trishnag, are you on openhatch? If yes what is your id
+[15:37:10] <trishnag> mbtamuli12: For the first time I just went through all the beginner level bugs
+[15:37:36] <trishnag> Regarding all fedora projects listed there(Which sounded doable for me)
+[15:38:18] <trishnag> Generally a good bug reporting is mentioning all the things like the error, when it did occur and all.
+[15:38:35] <mbtamuli12> I understood that. I got that you went through the doable projects to select the one you wanted to do.
+[15:38:57] <trishnag> So it becomes easy to understand for the developers.
+[15:39:17] <trishnag> And then communicating with maintainer of the project if you don't understand :)
+[15:39:36] <trishnag> that will be able to make your first contribution I believe :)
+[15:39:39] <mbtamuli12> But after that, how did you go through it? Did you ask one of the project maintainers about which files to go through for solving that bug or did you study the files that you thought were related to the bug?
+[15:40:14] <trishnag> mbtamuli12: No it is bad habit like asking which file to go where to edit
+[15:40:56] <trishnag> You can use git grep "" to know what are the possible files.
+[15:41:17] <mbtamuli12> Yes. That is what I wanted to know. I try doing that only! :)
+[15:41:24] <trishnag> then going to through the methods or part of the files that needs fix :)
+[15:41:34] <trishnag> next
+[15:41:44] <shauryak-3> so your first bug and the whole journey later on has been on python? from day 1? also how did you select the project to work on (keeping what in mind )?
+[15:42:04] <akshays> !
+[15:42:40] <trishnag> shauryak-3: Yes It has been Python after that.
+[15:42:55] <trishnag> Though my first patch was not related to Python.
+[15:43:02] <trishnag> I shared the link above. :)
+[15:43:05] <pabitra> same questoion as shauryak-3 - how you select
+[15:43:51] <trishnag> shauryak-3: For me it began with selecting bugs(at the beginning) rather than selecting a project :)
+[15:43:55] <trishnag> next
+[15:44:09] <indiabhi> How should I go finding/choosing an easy bug, I would like to contribute to CPython or Django,since you are a mentor for PSF, any kind approach you would recommend?
+[15:44:56] <trishnag> indiabhi: http://bugs.python.org/issue?status=1&@sort=-activity&@dispname=Easy%20issues&@startwith=0&@filter=&@group=priority&@columns=id,activity,title,creator,status&keywords=6&@action=search&@pagesize=50
+[15:45:45] <trishnag> indiabhi: Join the IRC channel regarding PSF and mailing list :)
+[15:45:48] <trishnag> next
+[15:45:54] <rohan_h> What kind of mistake should new contributors avoid while contributing to open source for the first time?
+[15:46:09] <indiabhi> okay thanks trishnag :)
+[15:46:11] <SpEcHiDe> Roll Call: Shrimadhav U K
+[15:46:23] <himanshutechy> !
+[15:47:04] <trishnag> rohan_h: First of all not getting afraid looking at the size of the project ;).
+[15:47:51] <trishnag> rohan_h: Don't get embarrassed if you are finding it hard to make the first contribution.
+[15:48:03] <trishnag> rohan_h: Being active on IRC channels
+[15:48:04] <rohan_h> trishnag, if i am not able to fix a bug for quite some time, should i keep trying or go ahead?
+[15:48:41] <trishnag> rohan_h: If you really find it hard you can ask for hints to the maintainer of the project
+[15:48:58] <trishnag> Atleast try for few times :).
+[15:49:06] <trishnag> next
+[15:49:15] <aman_> !
+[15:49:18] <jargmonk> trishnag: after fixing first bug, whether you had any strategy next? did you go after other easyfixes or instead did you target milestones next?
+[15:50:07] <trishnag> jargmonk: Yes I went for easyfixes after the first fix.
+[15:50:26] <trishnag> Slowly I took a tricky bug
+[15:50:38] <trishnag> Because I became bore with easyfix bugs :)
+[15:50:45] <trishnag> next
+[15:50:53] <jargmonk> Okay. Thanks.
+[15:51:02] <snarwade> trishnag, how you learnt python ? please explain
+[15:51:41] <Ultimatepritam> !
+[15:51:59] <trishnag> snarwade: dgplug :)
+[15:52:25] <trishnag> I did Python basics first. then tried to go through different modules that are regularly used
+[15:53:05] <snarwade> okay
+[15:53:15] <trishnag> After getting started with FOSS I learned many things regarding Python and best practices.
+[15:53:22] <trishnag> next
+[15:53:25] <amey> How much does the college syllabus matters in here open source,for instance like theory of computation?
+[15:53:29] <snarwade> thanks trishnag :)
+[15:53:41] <pabitra> !
+[15:53:43] Guest24062 is now known as qua-non
+[15:54:24] <trishnag> amey: that depends on what your domain of interest is.
+[15:54:53] <trishnag> College academic really helps. It is easy to connect them to real world applications when you start contributing to FOSS
+[15:55:08] <trishnag> Regular expressions from theory of computation :)
+[15:55:12] <trishnag> next
+[15:55:17] <amey> OK,thanks
+[15:55:51] <trishnag> next
+[15:55:52] <akshays> What are you going to do for your final year project ?
+[15:56:00] <yASH> (1) How much time do you spend on fixing bugs or working on project everyday like spend all night till you finish it or work a little everyday ?
+[15:56:09] <yASH> Sorry it went to pastebin
+[15:56:21] <trishnag> akshays: I haven't decided yet.
+[15:56:41] <mahesh5> !
+[15:57:00] <trishnag> yASH: No I don't spend all night to fix bug
+[15:57:07] <poonam> !
+[15:57:24] <trishnag> Usually I don't have a regular plan like I will this much time everyday.
+[15:57:48] <trishnag> I will spend*
+[15:58:02] <yASH> Okay !! ^ ^
+[15:58:03] <trishnag> It depends on the bug and what I want to do :)
+[15:58:08] jargmonk is now known as jargonmonk
+[15:58:09] <trishnag> next
+[15:58:11] <himanshutechy> how would you suggest a beginner to move from 2.7 to 3.x,in the terms of deployment of code and project selection for contribution ?and how could one become good at programming challenges if he can read the code and can do some basic stuff?how to approach that ?
+[16:00:10] <trishnag> himanshutechy: There are various blogs regarding moving from 2.x to 3.x in terms of deployment of code. I would suggest you to read them.
+[16:00:35] <aman_> Beside Python, do you contribute in any other languages ?
+[16:00:36] <trishnag> himanshutechy: And for project selection like I said I started with a bug.
+[16:01:05] <trishnag> Once I got confidence I started working on  a project that I enjoy working on more :)
+[16:01:26] <himanshutechy> ok and to become good at programming day by day?
+[16:02:01] <trishnag> Reading source codes really helps. You will be able to know how each and every components are linked to each other of the specific project.
+[16:02:10] <trishnag> what the best practices are.
+[16:02:34] <trishnag> The way developers approach to write a line of code
+[16:02:57] <himanshutechy> yeah it helps but what to do for  making things from scratch ?
+[16:03:35] <trishnag> himanshutechy: reading tutorials,blogs and sample codes.
+[16:03:37] <shalaka> !
+[16:03:57] <real56> !
+[16:03:58] <trishnag> that helps how you can start.
+[16:04:00] <Ultimatepritam> trishnag, How did you get acknowledged after fixing the first bug?
+[16:04:02] <trishnag> next
+[16:04:06] <aman_> Beside Python, do you contribute in any other languages ?
+[16:04:23] <trishnag> aman_: Not yet.
+[16:04:55] <Ultimatepritam> trishnag, How did you get acknowledged after fixing the first bug?
+[16:04:56] <aman_> Okk, thanks trishang :)
+[16:05:04] <trishnag> But definitely bash scripts, html and all the project needed.
+[16:05:07] <trishnag> next
+[16:06:09] <trishnag> Ultimatepritam: Can you be more specific?
+[16:06:50] <trishnag> next
+[16:06:55] <pabitra> can you please guide how can I learn the best practices in python?
+[16:07:37] <trishnag> pabitra: Like I said reading source codes, following pep rules and reading developers' blogs.
+[16:07:52] <trishnag> and contributing to FOSS.
+[16:08:00] <LambaInsaan> !
+[16:08:02] <trishnag> next
+[16:08:04] <mahesh5> Is algorithms and mathematical skills specially competitive programming matters in FOSS and how one can select a organization best suited for him ?
+[16:08:59] <trishnag> mahesh5: I haven't used any mathematical skills yet :). But yes algorithms do.
+[16:09:39] <trishnag> Not the way of competitive programming. It is more like real world projects.
+[16:10:01] <trishnag> mahesh5: You need to figure out what your skills are and what you are good at.
+[16:10:20] <trishnag> The select a project accordingly
+[16:10:28] <trishnag> s/The/Then
+[16:10:37] <trishnag> next
+[16:11:09] <poonam> for first contribution is it enough to know basic of programing  or  have to be really good. and what extra practice do one require?
+[16:11:51] <trishnag> poonam: Yes by knowing basic programming you will be able to make your first contribution.
+[16:11:55] <himanshutechy> !
+[16:12:13] <trishnag> You don't have to be expert to make your first contribution.
+[16:12:15] <jargonmonk> !
+[16:12:21] <poonam> okay
+[16:12:29] <trishnag> next
+[16:12:32] <shalaka> how you decided that you want to be a contributor for fedora community ? i mean im in 3rd year of electronics and telecommunication engineering and still confused in choosing my carrier. please can you help me or guide me ?
+[16:13:52] <trishnag> shalaka: First of all I learned Python and decided to contribute to such an organization where I can write more Python. Because I loved it.
+[16:14:33] <trishnag> Then I choose fedora community and I love fedora.
+[16:15:12] <trishnag> shalaka: You can try choosing what suits you best and what you like to do
+[16:15:19] <vharsh> !
+[16:15:23] <shalaka> okay so you did what u loved
+[16:15:27] <trishnag> Yes
+[16:15:30] <shalaka> you*
+[16:15:32] * chshbh "is afk" 
+[16:15:35] <trishnag> next
+[16:15:42] <real56> Is it bad to take a lot of time for solving a bug?
+[16:16:35] <trishnag> real56: No. But you should stay connected with the maintainer of the project and let him/her know that you are still working on.
+[16:17:12] <trishnag> With updating the status of your current fix/work.
+[16:17:17] <trishnag> next
+[16:17:22] <LambaInsaan> Did you go through every single detail of whatever was taught here on #dgplug? What was your plan back then, like did you revise the concepts after some days, or read the logs 3-4 times?  <EOF>
+[16:17:26] <real56> okay,thanks
+[16:18:06] <trishnag> LambaInsaan: I attended dgplug regularly. I hardly missed a session.
+[16:18:21] <trishnag> I didn't use to read logs like that
+[16:18:30] <trishnag> I read the resources suggested by mentors
+[16:18:42] <trishnag> and when in doubt I tried to figure out from logs.
+[16:18:53] <trishnag> next
+[16:18:55] <himanshutechy> when we talk about python and its market in india it is not large? but to do things in python  it is very joyful, so being a final year student what process would you suggest for indian students for motivation irrespective of job opportunities?and if there are not that much job opportunities for freshers then do we have to change our language from python to something else like java etc?
+[16:20:07] <trishnag> himanshutechy: we should never learn what is there in market. we should learn what we like.
+[16:20:57] <trishnag> himanshutechy: And python is pretty popular nowadays in India. You can trying searching for job online, the requirements. you will know :)
+[16:21:09] <trishnag> next
+[16:21:16] <jargonmonk> trishnag: while reading related to your bug/project, did you document every new concept or just the lesser-known/complex ones? so did you blog topic wise / milestone wise or as per your time(weekly,monthly)?
+[16:21:20] <himanshutechy> yeah thanks trishnag :)
+[16:22:00] <trishnag> jargonmonk: Blogging is really important in FOSS world.
+[16:22:30] <trishnag> It depends on what feature I introduced in the project.
+[16:22:48] <trishnag> I do blog when it is really an interesting feature.
+[16:23:13] <trishnag> or anything that I feel is interesting and important for me and for FOSS.
+[16:23:49] <trishnag> Yes documentation is important for the users to understand current services, status of a project.
+[16:23:54] <trishnag> next
+[16:23:57] <vharsh> I just saw the wrong version of fedora specified in the [Gnome Newcomers page](https://wiki.gnome.org/Newcomers/NewcomersTutorial)
+[16:23:57] <vharsh>   It looks like they have an older version of the manual online.
+[16:23:57] <vharsh>   (1) * How should I go about reporting/contacting them?
+[16:23:57] <vharsh>   (2) * What sort of "homework" is required before reporting a (such a small) typo?
+[16:24:07] <jargonmonk> trishnag: thanks.
+[16:24:37] * trishnag clicks
+[16:25:22] <trishnag> vharsh: https://www.gnome.org/get-involved/
+[16:25:34] <trishnag> vharsh: Join their IRC channel.
+[16:25:36] <vharsh> Shouldn't I just drop in a message in #newcomers
+[16:25:59] <trishnag> Yes that will do
+[16:26:08] <vharsh> ok. Thanks <EOF>
+[16:26:28] <trishnag> but generally to keep track of bugs FOSS projects use some trac services(like bugzilla or something)
+[16:26:41] <trishnag> You can ask there where you should report the bug
+[16:26:42] <vharsh> trishnag, Bugzilla for such a small thing?
+[16:27:03] <SpEcHiDe> !
+[16:27:12] <trishnag> vharsh: Why not? fedora17 is really old :)
+[16:27:20] <trishnag> next
+[16:27:24] <vharsh> ok <EOF>
+[16:27:35] <CuriousLearner> vharsh, no bug is small or large, and each feature may in turn depend on other feature, so it's essential to track everything.
+[16:27:49] <trishnag> CuriousLearner: +1
+[16:28:11] <trishnag> next
+[16:28:12] <vharsh> thanks CuriousLearner :)
+[16:28:13] <SpEcHiDe> i happened to come across this site: https://git.io/voj5g But I did not understand what it is ? Could you please explain what is autocloud?
+[16:29:01] <trishnag> SpEcHiDe: Autocloud is a service where all the fedora cloud and atomic images are tested.
+[16:29:17] <trishnag> http://autocloud.readthedocs.io/en/latest/
+[16:29:48] <SpEcHiDe> thank you! I did not find this link.
+[16:29:52] <trishnag> SpEcHiDe: Images are build on Koji build system and they are sent to Autocloud for testing purpose.
+[16:30:07] <trishnag> Because no Image with bugs should be released ;)
+[16:30:13] <trishnag> next
+[16:30:18] <SpEcHiDe> One more doubt: What do you mean by Atomic images?
+[16:30:45] <trishnag> SpEcHiDe: They are specifically built to run containers.
+[16:30:54] <trishnag> http://www.projectatomic.io/docs/
+[16:31:06] <trishnag> So no one is in the queue
+[16:31:07] <trishnag> :)
+[16:31:13] <SpEcHiDe> thank you trishnag
+[16:31:34] <trishnag> I am closing the session then
+[16:31:48] <trishnag> endclass
+[16:31:48] [## Class Ended at Fri Jul  1 16:31:48 2016 ##]

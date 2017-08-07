@@ -1,0 +1,327 @@
+Aug 20 18:34:27 <Amrita>	nicubunu, hi :)
+Aug 20 18:34:44 <nicubunu>	hi Amrita!
+Aug 20 18:35:38 *	debashree (n=debashre@117.201.97.65) has joined #dgplug
+Aug 20 18:39:01 <kushal>	nicubunu, debashree is the girl whose flickr set I showed you
+Aug 20 18:39:16 <kushal>	nicubunu, you already met Amrita :)
+Aug 20 18:39:27 <nicubunu>	cool! I liked her drawings
+Aug 20 18:39:31 <nicubunu>	yeah
+Aug 20 18:40:16 <debashree>	hi! nicubunu
+Aug 20 18:40:35 <nicubunu>	hi debashree!
+Aug 20 18:41:24 <Amrita>	nicubunu, can you please share some of your experiences when you first started working with inkscape?
+Aug 20 18:42:04 <nicubunu>	well, my first run with it was back when it was called Sodipodi and it has an awful interface
+Aug 20 18:42:21 <nicubunu>	and at the time I was a newbie at working with vector graphics
+Aug 20 18:42:56 <nicubunu>	I used briefly before OpenOffice Draw and very little paths in GIMP
+Aug 20 18:43:27 <nicubunu>	but I was attracted instantly by the way how the Bezier tools work
+Aug 20 18:44:00 <nicubunu>	but very quickly after that Sodibody was worked in what is today known as Inkscape
+Aug 20 18:44:24 <nicubunu>	and also soon after that the Open Clip Art Library was started as a side-project of Inkscape
+Aug 20 18:44:45 <nicubunu>	so I joined OCAL
+Aug 20 18:44:58 <nicubunu>	and it was an opportunity for me to draw
+Aug 20 18:45:38 <nicubunu>	and to look at drawings made by other people (big praises to Andy Ftizsimmon) and learn from the way they draw
+Aug 20 18:46:34 <nicubunu>	was a godsend to have access to their sources in SVG where I had the possibility to open, dissect, understand and learn
+Aug 20 18:47:51 <kushal>	nicubunu, that is around how many years back ?
+Aug 20 18:48:03 <nicubunu>	4 or 5
+Aug 20 18:48:18 <nicubunu>	look here: http://clipart.nicubunu.ro/?gallery=fruits
+Aug 20 18:49:13 <nicubunu>	some of those are from when I was a newbie (strawberry, lemon) and a few other are newer
+Aug 20 18:49:23 <kushal>	nicubunu, you made me hungry :)
+Aug 20 18:49:35 <nicubunu>	sorry :p
+Aug 20 18:50:31 <nicubunu>	OK, I started with Sodipodi in the fall of 2003 and moved to Inkscape after a few months, OCAL was launched in the spring of 2004
+Aug 20 18:50:41 *	Kkhushi (n=khushbu@59.180.155.128) has joined #dgplug
+Aug 20 18:51:08 <Amrita>	nicubunu, so as a newbie from where should you think we should start doing some work?
+Aug 20 18:51:08 <nicubunu>	not sure how many of you know the history of Inkscape
+Aug 20 18:51:42 <nicubunu>	but you are not that a "newbie", I saw some good things made by you
+Aug 20 18:52:00 <nicubunu>	what i think is important is to draw something you like
+Aug 20 18:52:13 <nicubunu>	something you are passionate about
+Aug 20 18:52:21 <nicubunu>	so you won't get bored
+Aug 20 18:52:39 <nicubunu>	and maybe set a kind of a goal
+Aug 20 18:53:33 <nicubunu>	other than that, it's hard to direct you to a specific area, since there are so many areas: you can draw illustrations, icons, web graphics, interface mockups, etc
+Aug 20 18:54:04 <nicubunu>	important is to feel good while working at them
+Aug 20 18:54:28 <nicubunu>	and there is need for people with experience on any of those areas
+Aug 20 18:54:49 *	ria (n=ria@59.161.144.6) has joined #dgplug
+Aug 20 18:55:48 *	arpita (n=arpita@117.201.97.85) has joined #dgplug
+Aug 20 18:56:18 *	Prakhar (n=prakhar@122.163.70.245) has joined #dgplug
+Aug 20 18:56:35 <kushal>	nicubunu, so if you tell us some points, which we can start working on 
+Aug 20 18:57:15 <nicubunu>	what do you think about working on the Echo icon set?
+Aug 20 18:57:46 <kushal>	nicubunu, please explain us about it , I am sure none here heard that name before 
+Aug 20 18:57:46 <nicubunu>	it is an original icon set created inside fedora, a king of side-project of the art team
+Aug 20 18:58:12 <nicubunu>	we have it for some time available in fedora but not installed by default
+Aug 20 18:58:32 <nicubunu>	because we didn't consider it complete enough
+Aug 20 18:58:51 <nicubunu>	Martin and Luya are the people working on it the most
+Aug 20 18:59:03 <nicubunu>	https://fedorahosted.org/echo-icon-theme/
+Aug 20 18:59:49 <nicubunu>	the idea is to use the same naming scheme as Tango but an original look and feel (sometime the metaphors can be the same as in Tango)
+Aug 20 19:00:07 <nicubunu>	you can browse the existing icons: https://fedorahosted.org/echo-icon-theme/wiki/IconThemeStatus
+Aug 20 19:01:02 <nicubunu>	and there is a collection of guidelines: https://fedorahosted.org/echo-icon-theme/wiki/Guidelines (color palette, perspective, light, shadow etc)
+Aug 20 19:01:49 <nicubunu>	as you can note, those icons have an "isometric" perspective, akin the old Bluecurve - it was intended as a replacement for Bluecurve
+Aug 20 19:02:49 <nicubunu>	de development happens on the Art mailing list, someone propose a new icon and receive feed-back from others for improvements until we think is good enough
+Aug 20 19:03:48 <nicubunu>	here is one good (I think) example, an icon started like this: https://www.redhat.com/archives/fedora-art-list/2008-August/pngtTSumNoS9D.png
+Aug 20 19:04:00 <nicubunu>	and it ended like this: http://www.thefinalzone.net/echo/apps/preferences-system-users48d.png
+Aug 20 19:05:34 <nicubunu>	sure, creating icons is not an easy task but we have made a few tutorials: https://fedorahosted.org/echo-icon-theme/wiki/Guidelines#TipsforcreatingEchoiconsusingyourfavoritegraphicapplication
+Aug 20 19:06:28 <nicubunu>	if you think the task is hard you may want to play a bit with graphics for websites
+Aug 20 19:06:52 <nicubunu>	like a banner or button
+Aug 20 19:07:02 <nicubunu>	or maybe a mockup of how a page is supposed to look
+Aug 20 19:08:59 <nicubunu>	something like this: https://fedoraproject.org/wiki/MyFedora/Mockups
+Aug 20 19:09:39 <nicubunu>	all this stuff is made with Inkscape and someone else will implement it in HTML
+Aug 20 19:10:32 *	debashree_ (n=debashre@117.201.96.106) has joined #dgplug
+Aug 20 19:10:51 <nicubunu>	so see, icons or mockups are completely different
+Aug 20 19:11:41 <nicubunu>	you may be very good at creating one type but not that good at the other
+Aug 20 19:12:08 <nicubunu>	this is why I think is important for each of us to determine his own field of interest
+Aug 20 19:12:52 *	debashree has quit (Nick collision from services.)
+Aug 20 19:13:18 *	debashree_ is now known as debashree
+Aug 20 19:13:58 <nicubunu>	sure, there is occasionally an easy task, like the FUDCon T-shirt design
+Aug 20 19:16:13 <nicubunu>	see this: http://www.flickr.com/photos/mairin/2591006734/
+Aug 20 19:16:36 <nicubunu>	it has made by Mizmo for the Boston FUDCon
+Aug 20 19:17:01 <nicubunu>	and i worked on her sources (SVG) to make an adaptation for Brno
+Aug 20 19:17:25 *	arpita has quit (Read error: 110 (Connection timed out))
+Aug 20 19:17:33 <nicubunu>	just changed the skyline (an automatic trace of the buildings from a photo) and the text
+Aug 20 19:18:20 <kushal>	btw, I think 7:30pm in IST is 10AM in EST 
+Aug 20 19:18:20 <nicubunu>	my end result is http://fedora.nicubunu.ro/fudcon2008-brno-simple1.svg or http://fedora.nicubunu.ro/fudcon2008-brno-simple2.svg
+Aug 20 19:19:23 <nicubunu>	and now your time is.... ? how much until 7:30?
+Aug 20 19:19:33 *	techno_freak (n=parthan@unaffiliated/teknofreak) has joined #dgplug
+Aug 20 19:19:49 <kushal>	nicubunu, 11 minutes :)
+Aug 20 19:20:22 <nicubunu>	mizmo just went online on the art channel
+Aug 20 19:20:23 *	mizmo (n=duffy@nat/redhat/x-470acadbcc2c2f36) has joined #dgplug
+Aug 20 19:20:47 <kushal>	mizmo, welcome to the dgplug :)
+Aug 20 19:20:53 <mizmo>	thanks :)
+Aug 20 19:21:01 <Amrita>	hello mizmo :)
+Aug 20 19:21:09 <mizmo>	hey Amrita! :)
+Aug 20 19:21:19 <debashree>	hi! mizmo
+Aug 20 19:21:22 <Prakhar>	mizmo: welcome!
+Aug 20 19:21:33 <techno_freak>	sankarshan, thanks for that tweet ;)
+Aug 20 19:21:39 <nicubunu>	i tried to warm the audience a bit for you mizmo :D
+Aug 20 19:21:49 <mizmo>	lol nice thanks nicubunu
+Aug 20 19:21:59 <mishti>	h0la mizmo :)
+Aug 20 19:22:09 <kushal>	mizmo, stage is yours, people will type ! if they need to ask you anything 
+Aug 20 19:22:13 <mizmo>	hey mishti :)
+Aug 20 19:22:15 <mizmo>	okay sure
+Aug 20 19:22:39 <mizmo>	so i think the approach ill take is to talk about all the various type of artwork the fedora art team does
+Aug 20 19:22:46 <mizmo>	and how you can get involved
+Aug 20 19:23:02 <mizmo>	i think there are probably 3 different types of work the fedora art team works on:
+Aug 20 19:23:11 <mizmo>	- Fedora release theme artwork
+Aug 20 19:23:37 <mizmo>	this is one of our major projects right now
+Aug 20 19:23:50 <mizmo>	because Fedora 10 is going to be released in late october/november which is coming up on us soon
+Aug 20 19:24:01 <mizmo>	here's a link to where the work is taking place:
+Aug 20 19:24:03 <mizmo>	https://fedoraproject.org/wiki/Artwork/F10Themes
+Aug 20 19:24:08 <mizmo>	i'll come back to this
+Aug 20 19:24:08 <mizmo>	:
+Aug 20 19:24:13 <mizmo>	:)
+Aug 20 19:24:17 <mizmo>	- Icon work
+Aug 20 19:24:30 <mizmo>	the Fedora art time also works on creating icons
+Aug 20 19:24:37 <mizmo>	the Echo icon theme project is a pretty big one
+Aug 20 19:24:59 <mizmo>	also, if a Fedora developer or package maintainer needs an icon for their app because either they just don't have one, or the application comes with an icon that doesn't fit in
+Aug 20 19:25:12 <mizmo>	they will come to our team and ask us to develop a new icon for them
+Aug 20 19:25:49 <mizmo>	the echo icon theme has a project page on fedora hosted.org
+Aug 20 19:26:01 <mizmo>	i dont think it's up right now, but normally I think it's echo.fedorahosted.org
+Aug 20 19:26:21 <mizmo>	our Fedora wiki page for the project is https://fedoraproject.org/wiki/Artwork/EchoIconTheme
+Aug 20 19:26:41 <mizmo>	- Posters, banners, tshirts, etc
+Aug 20 19:26:54 <mizmo>	this last type of artwork we do is not as much on a schedule as the theme artwork
+Aug 20 19:26:58 <nicubunu>	the Echo URL is https://fedorahosted.org/echo-icon-theme/
+Aug 20 19:27:00 <mizmo>	and is a little more randon than the icon work
+Aug 20 19:27:06 <mizmo>	oh great, thanks nicubunu
+Aug 20 19:27:29 <mizmo>	for this more random category of work, we take requests from anyone in the Fedora community on this wiki page:
+Aug 20 19:27:30 <mizmo>	https://fedoraproject.org/wiki/Artwork/DesignService
+Aug 20 19:27:58 <mizmo>	you can see there are banner, poster, and icon requests in there for projects across Fedora
+Aug 20 19:28:38 <mizmo>	we also do print work so if it's something that interests you, we do disc sleeve and disc designs for every Fedora release (Which is roughly every 6 months)
+Aug 20 19:28:48 <mizmo>	and for FUDcons we've recently started helping out making designs for the tshirts and banners
+Aug 20 19:29:08 <mizmo>	here's an example of some of that work from the last Boston FUDcon: http://mihmo.livejournal.com/57437.html
+Aug 20 19:29:19 <mizmo>	so I think maybe that's a good overview of the different types of stuff we do
+Aug 20 19:29:25 <mizmo>	does anyone have any questions at this point?
+Aug 20 19:29:58 <mizmo>	okay ill move on then :)
+Aug 20 19:30:08 <mizmo>	(but feel free to interrupt at any time)
+Aug 20 19:30:30 <mizmo>	so one thing ill mention at this point, seeing as the last link i posted is maybe a good segueway
+Aug 20 19:30:44 <mizmo>	is that we try to use all free & open source tools to make the artwork we work on
+Aug 20 19:31:09 <mizmo>	that last link (http://mihmo.livejournal.com/57437.html) shows things that were all produced using gimp, inkscape, and scribus. these are all applications that are a part of Fedora today
+Aug 20 19:31:33 <mizmo>	i think it's important that the things the Fedora art team works on also showcase the things that are possible to create using Fedora itself
+Aug 20 19:32:02 <mizmo>	if you'd like to get started working on the Fedora art team
+Aug 20 19:32:10 <mizmo>	the first thing you'll want to do is to familiarize yourself with these tools
+Aug 20 19:32:31 <mizmo>	and feel free to ask questions and get any help you need on either the Fedora art team IRC chat (#fedora-art) or our mailing list fedora-art-list@redhat.com
+Aug 20 19:32:43 <Prakhar>	mizmo: !
+Aug 20 19:32:57 <mizmo>	don't be shy about it either :) i think it's really helpful for all to ask questions openly because a lot of people probably have similar questions
+Aug 20 19:33:01 <mizmo>	what's up, Prakhar :)
+Aug 20 19:33:03 <nicubunu>	first with GIMP and Inkscape, Scribus is used somewhat rarely
+Aug 20 19:33:35 <mizmo>	nicubunu, definitely. Scribus right now, we mainly use for getting the colors in artwork ready for print. Inkscape and Gimp are the two most important programs.
+Aug 20 19:33:49 <mizmo>	the majority of the work we do isn't print anyway
+Aug 20 19:34:04 <Prakhar>	mizmo: some of my friends have apprehensions about whether they should directly start contributing or wait for a while to get acquainted with how the things happen
+Aug 20 19:34:56 <mizmo>	Prakhar, well, it depends on their experience/skill level maybe
+Aug 20 19:35:07 <mizmo>	Prakhar, if they are not used to Inkscape/Gimp
+Aug 20 19:35:21 <mizmo>	Prakhar, then it might be a good idea to pick a small project off of our design queue: https://fedoraproject.org/wiki/Artwork/DesignService
+Aug 20 19:35:34 <Prakhar>	mizmo: ok
+Aug 20 19:35:40 <mizmo>	Prakhar, and maybe pick a mentor within the Fedora art team to help them work through the project as they become more familiar with the tools
+Aug 20 19:36:05 <mizmo>	I think in terms of the work that we do,
+Aug 20 19:36:09 <nicubunu>	if i may: it is a good idea for any FOSS project/mailing list to have a look at the archive, maybe subscribe and lurk for a few days
+Aug 20 19:36:18 <mizmo>	nicubunu, +1
+Aug 20 19:36:42 <Prakhar>	mizmo: so, you would not recommend a person to hold up his/her desire to contribute even if they are not *that* much experienced, right?
+Aug 20 19:36:50 <nicubunu>	and get a bit familiar, see how people talk, how fast to expect an answer and such
+Aug 20 19:36:54 <mizmo>	i think if i were to classify the difficulty of the 3 types of artwork we do in contribution difficulty level
+Aug 20 19:37:36 <mizmo>	the theme work is probably the hardest, as its the least-structured. the design queue, maybe next hardest since it's not as structured and you may need knowledge of similar works for consistency. the icons may be easiest to contribute because there are standard guidelines to follow
+Aug 20 19:37:37 <nicubunu>	the thing is: you don't learn until you don't work effectively
+Aug 20 19:37:48 <Amrita>	mizmo, !
+Aug 20 19:38:19 <mizmo>	Prakhar, well, even if someone is not very experienced, they gain experience by working on things
+Aug 20 19:38:40 <mizmo>	actually one thing nicubunu and I discussed recently is maybe having some regular time where people can come to #fedora-art and ask questions
+Aug 20 19:38:56 <mizmo>	or we could hold classes/tutorial sessions on some kind of regular basis to help inexperienced folks learn our tools
+Aug 20 19:39:07 <mizmo>	does that sound like something your friends would be interested in, Prakhar?
+Aug 20 19:39:18 <Prakhar>	mizmo: yes surly
+Aug 20 19:39:20 <Prakhar>	surely
+Aug 20 19:39:56 <mizmo>	Prakhar, it would help us to know what kinds of things you'd like to learn
+Aug 20 19:40:17 <mizmo>	nicubunu, how do you think we should go forward with this idea?
+Aug 20 19:40:26 <Amrita>	mizmo, what things do you people see or give importance before approving a particular drawing?
+Aug 20 19:40:29 <Prakhar>	mizmo: sure. I'll ask my friends to get started right away
+Aug 20 19:40:57 <mizmo>	Prakhar, okay, if maybe you could send a list of the topics your friends are interested in learning about, then we can plan out our first session around that
+Aug 20 19:41:00 <mizmo>	Prakhar, sound good?
+Aug 20 19:41:07 <nicubunu>	maybe... will see how often the classes are needed, how much time do we have and so
+Aug 20 19:41:15 <Prakhar>	mizmo: yes. perfect
+Aug 20 19:41:16 <mizmo>	Prakhar, you could send it to fedora-art-list as a proposal for a class?
+Aug 20 19:41:20 <mizmo>	Amrita, well
+Aug 20 19:41:30 <mizmo>	Amrita, it depends how the drawing is meant to be used, the context
+Aug 20 19:41:34 <Prakhar>	mizmo: thanks
+Aug 20 19:41:45 <mizmo>	Amrita, for example, there are a lot of properties of a desktop wallpaper that have to be in place before it can be used
+Aug 20 19:42:06 <mizmo>	Amrita, it's important that the wallpaper doesn't make it hard to find icons on the desktop
+Aug 20 19:42:15 <mizmo>	Amrita, if it's too bright, our users complain it hurts their eyes to look at
+Aug 20 19:42:27 <mizmo>	Amrita, if it doesn't use blue, we get complaints that it's not "Fedora" :)
+Aug 20 19:42:38 <Prakhar>	he he:)
+Aug 20 19:42:44 <mizmo>	Amrita, another big property of a wallpaper is that the graphic must be able to scale very large
+Aug 20 19:43:03 <mizmo>	Amrita, this is why we tend to prefer creating graphics using vectors and inkscape. The artwork can be scaled up to any size needed.
+Aug 20 19:43:37 <mizmo>	Amrita, if there are specific types of graphics you're interested in the evaluation of, let me know, and I'd be happy to give a bit of an analysis on how we look at them
+Aug 20 19:44:08 <nicubunu>	for the DesignService queue usually the approval comes from the requester
+Aug 20 19:44:22 <mizmo>	yep that's a good point
+Aug 20 19:44:32 <mizmo>	(I'm really glad you're here, nicubunu :) )
+Aug 20 19:44:40 *	debashree has quit (Read error: 110 (Connection timed out))
+Aug 20 19:44:53 <nicubunu>	well, kushal invited me
+Aug 20 19:45:02 <kushal>	:)
+Aug 20 19:45:12 <mizmo>	Also, when people first join the art team, we do ask that they complete a DesignService queue item before we approve their art group membership request
+Aug 20 19:45:32 <mizmo>	so it's good to know how that works
+Aug 20 19:45:49 <kushal>	mizmo, that means I can apply for art group membership ?
+Aug 20 19:46:18 <mizmo>	kushal, yep :) and let us know which DesignService item you completed and we'll approve you
+Aug 20 19:46:25 <nicubunu>	I am the bad guy who reject requests when we don't have follow-ups... but i accepted requests with some other contributions, like a wallpaper proposal
+Aug 20 19:46:33 *	debashree (n=debashre@117.201.96.21) has joined #dgplug
+Aug 20 19:46:55 <kushal>	mizmo, I did for liveusb-creator ?
+Aug 20 19:46:55 *	bheekling has quit ("ooooooo, what does *this* button d?")
+Aug 20 19:47:36 <mizmo>	kushal, oh that's right! we've gotten a lot of positive feedback on that graphic too.
+Aug 20 19:47:37 <Amrita>	mizmo, that means the drawings on that fedora 10 theme site are all approved ones?
+Aug 20 19:47:41 <mizmo>	we used it as part of the Fedora 9 press kit
+Aug 20 19:47:44 <mizmo>	kushal, well go ahead and apply and ill make sure it goes through :)
+Aug 20 19:47:53 <nicubunu>	yes, you are fine to receive membership... i would give it to you even just for some good fedora related photos
+Aug 20 19:48:00 <mizmo>	Amrita, no, not necessarily
+Aug 20 19:48:10 <kushal>	nicubunu, :)
+Aug 20 19:48:30 <mizmo>	Amrita, if you put together a proposal for a theme, even if the theme doesn't make it, we will approve your application to the art group because you produced some good works
+Aug 20 19:48:38 <mizmo>	Amrita, but it doesn't mean the works will become the Fedora theme
+Aug 20 19:48:56 <kushal>	mizmo, now, how to apply ? in FAS ?
+Aug 20 19:49:30 <mizmo>	kushal, yep log into FAS (the url is admin.fedoraproject.org/accounts i think?) and I think there is a button on the left that lets you view all the groups
+Aug 20 19:49:38 <mizmo>	i think the name of the art group is just 'art' or 'art group'
+Aug 20 19:49:45 <mizmo>	begins with 'a' so it's easy to find :)
+Aug 20 19:50:07 <kushal>	ok
+Aug 20 19:50:17 <Amrita>	mizmo, http://amrita.dgplug.org/wp-content/uploads/2008/08/drawing2.png
+Aug 20 19:50:29 <Amrita>	mizmo, i did that for theme wings
+Aug 20 19:50:43 <mizmo>	Amrita, that's really pretty :)
+Aug 20 19:50:49 <mizmo>	Amrita, did you post it to the Wings proposal page?
+Aug 20 19:50:56 <Amrita>	mizmo, no
+Aug 20 19:51:14 <mizmo>	okay, maybe this is a good opportunity to explain our theme process
+Aug 20 19:51:28 <mizmo>	so a few months  before a Fedora release comes out
+Aug 20 19:51:38 <mizmo>	we open up round 1 of the theming process
+Aug 20 19:51:49 <mizmo>	this is usually announced on the fedora-artwork-list and on planet.fedoraproject.org
+Aug 20 19:52:04 <mizmo>	during round 1, we are open to any theme ideas/proposals
+Aug 20 19:52:13 <mizmo>	the point of round 1 is that the artwork is not important, but the ideas are
+Aug 20 19:52:22 <mizmo>	so we ask that you write a description of how your idea relates to Fedora
+Aug 20 19:52:33 <mizmo>	since we want our artwork to have a strong connection to the principles/ideals behind Fedora
+Aug 20 19:52:35 <mizmo>	for example:
+Aug 20 19:52:55 <mizmo>	here is the gears proposal: http://fedoraproject.org/wiki/Artwork/F10Themes/Gears
+Aug 20 19:53:06 <mizmo>	"In the naming contest for Fedora 9, Batisphere (see Wikipedia ) was a popular name, second to the final choice, Sulphur. From this "old but cool technology" concept, came the idea to feature the technology aspect of Fedora (technology advancement is one of the primary goals of our distro) by using a steampunk aspect. And as steampunk is represented by steam engines and clockworks, a Gears theme seems fit."
+Aug 20 19:53:35 <mizmo>	for a proposal to make it to round 2, it must have a wiki page devoted to it, with an explanation of how the theme relates to Fedora, and some rough sketches to explain the concept
+Aug 20 19:53:50 <mizmo>	at this point, right now, round 1 is closed, so we aren't accepting new concept ideas.
+Aug 20 19:54:22 <mizmo>	what we are accepting is new artwork for the concepts that were already proposed (and they are all listed at http://fedoraproject.org/wiki/Artwork/F10Themes/)
+Aug 20 19:54:38 <mizmo>	in round 2, for a theme proposal to move forward, it must have 4 designs:
+Aug 20 19:54:41 <mizmo>	- a wallpaper
+Aug 20 19:54:46 <mizmo>	- a horizontally-long graphic
+Aug 20 19:54:49 <mizmo>	- a vertically-long graphic
+Aug 20 19:54:55 <mizmo>	- a square-sized graphic
+Aug 20 19:55:18 <mizmo>	so Amrita has decided she likes the Wings proposal, and she's created a piece of artwork to help that proposal
+Aug 20 19:55:21 <nicubunu>	usually those small graphics are derived worm the wallpaper
+Aug 20 19:55:45 <mizmo>	the next steps for her should be to upload her graphic, both a bitmap graphic file as well as any sources she might have, to the Wings theme page
+Aug 20 19:56:10 <mizmo>	which is: http://fedoraproject.org/wiki/Artwork/F10Themes/WingAnatomy
+Aug 20 19:56:38 <mizmo>	it's really important to upload your source artwork too. It makes it easier for other team members to work on your drawing and modify it to push it forward
+Aug 20 19:56:42 <mizmo>	does that make sense?
+Aug 20 19:57:27 <nicubunu>	and if i feel something, anything about her graphic, i will give feed-back on list
+Aug 20 19:57:37 <mizmo>	exactly
+Aug 20 19:57:44 <mizmo>	i think, to write out the steps concisely it would be:
+Aug 20 19:57:47 <nicubunu>	if i *really* like it, will play with the source and make my own modification
+Aug 20 19:57:49 <mizmo>	1) pick a theme concept you like
+Aug 20 19:58:00 <mizmo>	2) create your own drawing or graphic for that concept
+Aug 20 19:58:09 <mizmo>	3) upload your graphic and its source artwork to the concept's proposal page on the wiki
+Aug 20 19:58:20 <mizmo>	4) message fedora-art-list to let people know you posted a new graphic and to see how they like it
+Aug 20 19:58:41 <mizmo>	if people like your graphic, as nicubunu said, they will definitely take your source artwork and try to push it to the next level
+Aug 20 19:58:46 <mizmo>	so its important to make sure your source is available
+Aug 20 19:58:57 <mizmo>	an alternative to the round 2 steps above could be
+Aug 20 19:59:11 <mizmo>	2) pick someone else's artwork you like, and make modifications to it to make it better
+Aug 20 19:59:23 <mizmo>	so even if you aren't confident in your skills to create something from scratch
+Aug 20 19:59:40 <mizmo>	you can take the artwork of someone very skilled and talented like Amrita and make some smaller improvements to it
+Aug 20 20:00:23 <mizmo>	nicubunu, can you think of a good example from in the past when we've done that before?
+Aug 20 20:00:24 <nicubunu>	and the different people working on a certain drawing are really what we count as votes for passing from one round int another or selecting the "winner"
+Aug 20 20:01:00 <mizmo>	maybe the f8 theme is a good example, it changed a LOT from the first graphic over time
+Aug 20 20:01:02 <nicubunu>	DNA? your concept and Mola's 3D implementation in Blender?
+Aug 20 20:01:20 <mizmo>	oh thats a good example too
+Aug 20 20:01:43 <mizmo>	so for Fedora Core 6, one of our theme concepts was DNA
+Aug 20 20:02:14 <mizmo>	(one sec, looking it up on the wiki :) )
+Aug 20 20:02:43 <nicubunu>	or dA: http://pookstar.deviantart.com/art/Fedora-DNA-Unraveling-37183342
+Aug 20 20:03:41 *	arpita (n=arpita@117.201.97.193) has joined #dgplug
+Aug 20 20:03:56 <mizmo>	so the theme started with this: http://fedoraproject.org/wiki/Image:Artwork_FC6ThemeSubmissions_fc6-theme-idea-duffy-infinity.png
+Aug 20 20:04:08 <mizmo>	the Fedora logo was created with the ideas of infinty, freedom, and voice
+Aug 20 20:04:14 <mizmo>	so at one point i created three posters to illustrate each
+Aug 20 20:04:26 <mizmo>	i kind of liked the infinity one, so i create the artwork nicubunu linked to above
+Aug 20 20:04:39 <mizmo>	Mola, who is our team's resident Blender expert, took that artwork and rendered it in 3D
+Aug 20 20:04:49 *	Prakhar_Geek (n=prakhar@122.163.69.216) has joined #dgplug
+Aug 20 20:05:12 <mizmo>	it ended up looking something like this: http://linux-noob.com/review/fedora/development/images/fcr6.png
+Aug 20 20:05:54 <mizmo>	someone who was on the team at the time, diana, took his renderings and added some effects like sparkles and resized them to fit all the resolutions needed
+Aug 20 20:07:31 <mizmo>	maybe that is a good place to stop and open up for any questions?
+Aug 20 20:07:35 <mizmo>	what do you recommend, kushal?
+Aug 20 20:08:16 <kushal>	mizmo, yup
+Aug 20 20:08:31 <kushal>	people please ask :)
+Aug 20 20:09:02 <Amrita>	tell us something on animations
+Aug 20 20:09:15 <Amrita>	how to do them?
+Aug 20 20:09:32 <nicubunu>	currently only with GIMP
+Aug 20 20:09:41 <Amrita>	yes
+Aug 20 20:09:58 <nicubunu>	basically each layer is a different frame
+Aug 20 20:10:09 <nicubunu>	and you can save it as an animated GIF
+Aug 20 20:10:37 <mizmo>	maybe gimp animations are something we could do a tutorial on
+Aug 20 20:10:40 <nicubunu>	sometime I create the frames one by one with Inkscape, export as PNG, import them as layers
+Aug 20 20:10:49 <nicubunu>	convert to indexed colors and save as GIF
+Aug 20 20:11:02 <nicubunu>	yeah, is something for a full tutorial
+Aug 20 20:11:29 <nicubunu>	there is another way, but the tools are lacking: animation with SVG
+Aug 20 20:11:51 <nicubunu>	in theory you can to there everything one can do with Flash and all with vector graphics
+Aug 20 20:12:13 <nicubunu>	but there is no GUI for that and you'll have to to the animations by hand...
+Aug 20 20:12:21 <mizmo>	one way it can be done like this is using clutter
+Aug 20 20:12:24 <nicubunu>	expect a GUI from Inkscape in the *far* future
+Aug 20 20:12:35 <mizmo>	but like nicubunu mentioned you have to script it yourself, there isn't a gui
+Aug 20 20:13:04 <mizmo>	http://clutter-project.org/  <= for more information
+Aug 20 20:13:19 <nicubunu>	so for now only animated GIFs made with GIMP
+Aug 20 20:13:33 <nicubunu>	or with Blender.... but I know nothing about Blender
+Aug 20 20:16:08 <nicubunu>	so what kind of animation do you have in mind?
+Aug 20 20:16:26 <nicubunu>	something like an animated banner for a website or something else, more complex?
+Aug 20 20:16:40 <Amrita>	like closing eyes
+Aug 20 20:17:03 *	debashree has quit (Read error: 104 (Connection reset by peer))
+Aug 20 20:17:10 <nicubunu>	let me search my hard drive, i have something like that made with inkscape + gimp
+Aug 20 20:17:18 <Amrita>	just the starting one which is simple
+Aug 20 20:18:05 <nicubunu>	this is a very simple one: http://nicubunu.ro/pictures/games/bomber/player-walking-front-preview.gif
+Aug 20 20:18:17 <nicubunu>	open it with GIMP
+Aug 20 20:19:05 <nicubunu>	and then Filters -> Animation -> Unoptimize and will see the frames I did by hand with Inkscape
+Aug 20 20:21:43 *	Prakhar has quit (Connection timed out)
+Aug 20 20:22:05 <mizmo>	well, i think it's 8 pm there now,
+Aug 20 20:22:10 <mizmo>	so i guess we'll wrap this up?
+Aug 20 20:22:11 *	Prakhar_Geek is now known as Prakhar
+Aug 20 20:22:16 <mizmo>	thanks for listening and asking questions
+Aug 20 20:22:23 <mizmo>	hope to see you on fedora-art-list or in #fedora-art :)
+Aug 20 20:22:36 <Prakhar>	mizmo: thank you so much
+Aug 20 20:22:39 <kushal>	mizmo, thanks for your talk
+Aug 20 20:22:52 <Amrita>	mizmo, nicubunu thanks a lot :)
+Aug 20 20:22:52 <nicubunu>	Amrita: closing the topic on animations
+Aug 20 20:22:53 <kushal>	nicubunu, thank you for coming here and helping us :)
+Aug 20 20:23:10 <Amrita>	nicubunu, ok
+Aug 20 20:23:15 <mizmo>	:) thanks nicubunu im really glad you were here
+Aug 20 20:23:22 <nicubunu>	if you don't mind a creepy image, here is one winking: http://nicubunu.ro/gfx/bleeding.gif
+Aug 20 20:23:22 *	arpita has quit (Read error: 110 (Connection timed out))
+Aug 20 20:23:32 <nicubunu>	it was nice
+Aug 20 20:23:56 <Amrita>	nicubunu, its nice
+Aug 20 20:24:45 *	sankarshan has quit ("Are you sure you want to quit this channel (Cancel/Ok) ?")
+Aug 20 20:25:24 <Amrita>	nicubunu, it would be nice if you tell us when you are generally present on IRC ?
+Aug 20 20:25:41 <Amrita>	nicubunu, i mean the time
+Aug 20 20:26:00 <kushal>	in GMT :)
+Aug 20 20:26:24 <nicubunu>	on fedora-art all working days from 8 to 18 EET (UTC+2 i believe)
+Aug 20 20:26:45 <nicubunu>	GMT + 2  (that is including DS)
+Aug 20 20:28:30 <Amrita>	nicubunu, ok

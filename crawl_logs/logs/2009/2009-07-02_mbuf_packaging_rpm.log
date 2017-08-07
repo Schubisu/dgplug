@@ -1,0 +1,606 @@
+<mbuf> Let us begin!  [19:00]
+<mbuf> ----------- Packaging RPM session -----------
+<mbuf> Roll call! Please tell your name!
+*** ANKUR_ (n=ANKUR@124.124.233.29) has joined channel #dgplug
+<rtnpro> Ratnadeep Debnath
+<yevlempy> Harsh verma
+<Meejan> Meejanur Rahaman
+<chandana> Chandana Boral
+<zer0c00l> zer0c00l, Arun SAG  [19:01]
+<kishan> Kishan Goyal
+<mbuf> ok, todays' presentation is about packaging RPM;  [19:02]
+*** s111 (i=3b601f16@gateway/web/freenode/x-3fcb07004b9284b0) has joined
+    channel #dgplug
+<mbuf> if you would like to talk, please type '!'; otherwise, don't interrupt
+       the session;
+*** ANKUR_ (n=ANKUR@124.124.233.29) is now known as DEVIL_HEART
+*** kopecks (n=koyel@117.201.96.209) has joined channel #dgplug
+<mbuf> if you haven't downloaded the presentation, please download it from:
+       http://shakthimaan.com/downloads/glv/presentations/packaging-red-hot-paneer-butter-masala.pdf 
+								        [19:03]
+*** DEVIL_HEART (n=ANKUR@124.124.233.29) has quit: Client Quit
+*** DEVIL_HEART (n=ANKUR@124.124.233.29) has joined channel #dgplug
+<mbuf> Packaging software is very important for easier installation, and
+       upgradation at customer deployments;
+<mbuf> it is also useful to keep track of dependencies that your package
+       needs;
+<mbuf> so this presentation is on packaging Red Hat Package Manager, that is
+       useful on Fedora distribution;  [19:04]
+*** aunkit (n=aunkit@117.197.60.209) has joined channel #dgplug
+<mbuf> some of you may not like development, but, might be interested in
+       automation;
+<mbuf> packaging is one of those tasks that you could look at;
+<mbuf> this presentation has been done to make a pun on the word RPM;  [19:05]
+<mbuf> --> #n, means slide number 'n'
+*** s111 (i=3b601f16@gateway/web/freenode/x-3fcb07004b9284b0) has quit: Ping
+    timeout: 180 seconds
+<mbuf> --> #1
+<mbuf> you are welcome to redistribute, share this presentation with your
+       friends;  [19:06]
+<mbuf> --> #2
+<mbuf> to work on packaging software, you will need to install
+       fedora-packager;
+*** s111 (i=3b5c6a59@gateway/web/freenode/x-98bec72b8e4d59da) has joined
+    channel #dgplug  [19:07]
+<mbuf> it will obtain all the tools required for the same;
+<mbuf> --> #3
+<mbuf> Only once, you should rpmdev-setuptree, which will create a list of
+       directories;
+<mbuf> --> #4
+<mbuf> --> #5
+<mbuf> In general, you use your HOME directory to run rpmdev-setuptree; it
+       creates a rpmbuild directory  [19:08]
+<mbuf> and BUILD, BUILDROOT, RPMS, SOURCES, SPECS, SRPMS directories within it
+*** SkyRocknRoll (n=SkyRockn@122.164.57.64) has joined channel #dgplug
+*** s111_ (i=3b5c6a59@gateway/web/freenode/x-77304a05eb53b46a) has joined
+    channel #dgplug
+<mbuf> projects have their own development cycle, and releases;
+<SkyRocknRoll> roll call over ?
+*** sumitc (n=chatzill@unaffiliated/sumitc) has joined channel #dgplug  [19:09]
+<mbuf> SkyRocknRoll: yes; it is 1910 IST
+<mbuf> SkyRocknRoll: if you want to say something, type '!' first; please
+       don't interrupt the session, otherwise;
+*** akuscifi007 (n=akuscifi@122.162.83.132) has joined channel #dgplug
+<SkyRocknRoll> mbuf, sorry ok
+<mbuf> what distro packagers do is take a snapshot from the project release
+       (upstream) and package it for their distribution
+*** akuscifi007 (n=akuscifi@122.162.83.132) has quit: Read error: 54
+    (Connection reset by peer)  [19:10]
+*** s111 (i=3b5c6a59@gateway/web/freenode/x-98bec72b8e4d59da) has quit: Ping
+    timeout: 180 seconds
+*** akuscifi007 (n=akuscifi@122.162.83.132) has joined channel #dgplug
+<mbuf> so packaging is basically referred as 'downstream'
+<mbuf> a distro is a collection of packages from various software project
+       teams, put in a media (DVD, for example) and given to you for use;
+<mbuf> subsequent upstream releases are again fetched by the packagers, and
+       next package releases are done; a freeze is done to release a
+       particular distro version; hence we have Fedora 9, 10, and now 11;
+								        [19:11]
+<mbuf> --> #6
+<mbuf> Here I am assuming we have Paneer Butter Masala as upstream that
+       someone has already prepared;
+*** djthequest (i=daf85072@gateway/web/freenode/x-fe645077a6e3ab36) has joined
+    channel #dgplug
+<mbuf> When you take it, you always check the README and/or INSTALL file in
+       it;  [19:12]
+<mbuf> that is why in software development, we insist on writing one;
+<mbuf> here we see a just a simple .c file that is part of paneer butter
+       masala;
+<mbuf> --> #7
+<mbuf> Upstream 'cooks' have prepared a Makefile to build it;  [19:13]
+<mbuf> It is a simple Makefile to compile the .c file;
+<mbuf> installation is just moving the executable to a PATH that the system
+       knows to search for executables, usually /bin, /sbin, /usr/bin or
+       /usr/sbin;
+<mbuf> clean, just removes the paneer-butter-masala
+<mbuf> --> #8  [19:14]
+<mbuf> so this upstream paneer butter masala should be packaged so Fedora
+       users can use it;
+<mbuf> really? yes
+<mbuf> We like food!
+<mbuf> so one needs to write a .spec file that describes on how to package the
+       same!
+<mbuf> we will go through some basic, required fields in a .spec file;  [19:15]
+<mbuf> using the tools installed in fedora-packager, we will package it;
+<mbuf> Each .spec file should have a 'Name' that states what the package name
+       is;
+<mbuf> --> #9
+<mbuf> Version denotes the upstream version number  [19:16]
+<mbuf> --> #10
+<mbuf> Release denotes your .spec file release number
+<mbuf> --> #11
+<mbuf> Summary defines a brief one line summary of the package
+<mbuf> --> #12
+<mbuf> Group defines the possible group to which the package belongs to;
+<mbuf> There is a small collection of groups used in Fedora;  [19:17]
+*** ravijha (n=rkjpro@125.20.11.34) has joined channel #dgplug
+*** akuscifi007 (n=akuscifi@122.162.83.132) has quit: Read error: 54
+    (Connection reset by peer)
+<mbuf> they are listed in /usr/share/doc/rpm-*/GROUPS 
+<mbuf> your package should fit in either one of these groups;
+*** akuscifi007 (n=akuscifi@122.162.83.132) has joined channel #dgplug
+<mbuf> --> #13
+<mbuf> License specifies the license the upstream source is released in;
+								        [19:18]
+<mbuf> must be a F/OSS license;
+<mbuf> --> #14
+<mbuf> URL should point to the upstream project web page; 
+<mbuf> --> #15
+<mbuf> Source0 should point to the upstream URL for the exact upstream
+       snapshot release that you are taking to package it;  [19:19]
+<mbuf> usually upstream package repositories are hosted in sourceforge.net, or
+       freshmeat.net, or github.com
+<mbuf> --> #16
+<mbuf> BUILDROOT defines as to where the package will be installed by the rpm
+       tools;
+*** akuscifi007 (n=akuscifi@122.162.83.132) has quit: Read error: 104
+    (Connection reset by peer)
+*** kishan_ (n=kishan@117.99.166.124) has joined channel #dgplug  [19:20]
+<mbuf> this is usually in rpmbuild/BUILDROOT/
+<mbuf> --> #17
+<mbuf> You can write comments in the .spec file, and all comments begin with a
+       #
+<mbuf> --> #18
+<mbuf> BuildRequires specifies what software, tools or dependencies are
+       required to build this package;  [19:21]
+<mbuf> there are some basic ones that are assumed to be already available,
+       like gcc, make et. al.; 
+*** akuscifi007 (n=akuscifi@122.162.83.132) has joined channel #dgplug
+<mbuf> the wiki link at the bottom of the slide lists these exceptions;
+*** root (n=weechat@59.93.206.179) has joined channel #dgplug
+<rtnpro> mbuf, !
+<mbuf> so you don't need to specify gcc, make et. al.;  [19:22]
+*** root (n=weechat@59.93.206.179) is now known as Guest27388
+<mbuf> but, if you need to specify, separate them with a space as shown;
+<mbuf> rtnpro: shoot!
+<rtnpro> mbuf, page 17, didn't understand          %{
+	 tmppath}/%{name}-%{version}-
+<rtnpro> %{release}-root-%(%{ id u} -n)
+*** sam111 (n=sam111@59.96.31.22) has quit: Read error: 110 (Connection timed
+    out)  [19:23]
+*** ravijha (n=rkjpro@125.20.11.34) has quit: "Leaving"
+*** Guest27388 (n=weechat@59.93.206.179) has quit: Client Quit
+<rtnpro> mbuf, EOF
+<mbuf> rtnpro: these are called macros, and I will come to that later; these
+       macros are substituted for values
+<rtnpro> mbuf, ok
+<mbuf> rtnpro: usually %{tmppath} corresponds to /home/foo/rpmbuild/BUILDROOT
+								        [19:24]
+*** s111_ (i=3b5c6a59@gateway/web/freenode/x-77304a05eb53b46a) has quit: Ping
+    timeout: 180 seconds
+<rtnpro> mbuf, ok
+<mbuf> rtnpro: and the install directory will with name, version macros that
+       have been defined in the spec
+<mbuf> rtnpro: Name in the .spec refers to %{name} here  [19:25]
+<mbuf> rtnpro: Version in the .spec refers to %{version} here
+<mbuf> rtnpro: when you install the rpm with the rpm tools, you will see how
+       this directory is 'named'
+<mbuf> --> #19
+*** test (n=test@59.93.206.179) has joined channel #dgplug  [19:26]
+*** test (n=test@59.93.206.179) is now known as Guest63620
+<mbuf> Requires specifies any packages or tools that are required for the
+       package to be used in run-time
+<mbuf> for paneer butter masala to be used, we need 'Naan' (for example)
+<mbuf> one can also specify version numbers next to BuildRequires and
+       Requires, but, that is generally not encouraged  [19:27]
+<mbuf> unless there is a real reason to put exact dependency version numbers,
+       it is best to avoid them; so upgrade from one distro release to another
+       is smooth;
+<mbuf> --> #20
+<mbuf> %description is a multi-line description of the package;  [19:28]
+<mbuf> --> #21
+<mbuf> the %prep section is usually for preparing the sources;
+<mbuf> --> #22
+<mbuf> along with %setup, they are usually used for extracting the upstream
+       sources;  [19:29]
+<mbuf> after these you can also add any patches that are needed (we will look
+       at patches, later)
+<mbuf> --> #23
+<mbuf> %build tells how to build the sources;
+<mbuf> --> #24
+<mbuf> in our case, we have one Makefile and one .c file; so just issue make
+       will build the paneer-butter-masala for us;  [19:30]
+<mbuf> --> #25
+<mbuf> %install tells us where to install the build executables (or libraries)
+<mbuf> --> #26
+<mbuf> before installing, we first remove the previous installation instance;
+<mbuf> $RPM_BUILD_ROOT and %{rpm_build_root} refer to the same location;
+								        [19:31]
+<mbuf> --> #27
+<mbuf> since the Makefile has an 'install' target we just call 'make install
+       DESTDIR...' to do the installation to the $RPM_BUILD_ROOT/sbin
+       directory;  [19:32]
+<mbuf> all commands are executed in sequential order below the defined
+       %install and other tags;
+<mbuf> --> #28
+<mbuf> %clean is should remove previous installs;
+<mbuf> --> #29
+<mbuf> --> #30  [19:33]
+<mbuf> The %files section tells the packager as to what files are to be
+       included in the packaged;
+<mbuf> In our case, we have only one executable, 'paneer-butter-masala'
+*** akuscifi007 (n=akuscifi@122.162.83.132) has quit: Read error: 104
+    (Connection reset by peer)
+<mbuf> --> #31
+<mbuf> %defattr defines the default attributes that the installed files should
+       have;  [19:34]
+*** akuscifi007 (n=akuscifi@122.162.83.132) has joined channel #dgplug
+<mbuf> so in this example, the files owner and group should be 'root'
+<mbuf> --> #32
+*** akuscifi007 (n=akuscifi@122.162.83.132) has quit: Read error: 54
+    (Connection reset by peer)
+<mbuf> the executable is located in the sbin/ directory; %{_sbindir} is a
+       macro for the same  [19:35]
+<mbuf> --> #33
+<mbuf> upstream sources should ship documentation or atleast a README file;
+*** Shrink (n=sgupta@redhat/shrink) has quit: Read error: 113 (No route to
+    host)
+*** akuscifi007 (n=akuscifi@122.162.83.132) has joined channel #dgplug
+<mbuf> so we say we are to put them in the %doc directory, which is usually
+       /usr/share/doc in *nix systems;
+<mbuf> --> #34
+<mbuf> Finally we have a %changelog entry for the .spec file;
+<mbuf> this lists the changes made to the .spec file;  [19:36]
+<mbuf> --> #35
+<mbuf> Each new entry starts with a '*', followed by week day in three
+       characters;
+<mbuf> then month in three characters, day (should be 01) actually;
+<mbuf> followed by your name, e-mail address
+<mbuf> and finally <upstreamversion-release> in a single line  [19:37]
+<mbuf> our upstream source snapshot is 2.0; this is our first .spec file, so
+       it is 1
+<mbuf> --> #36
+<mbuf> Starting with -, we tell what change has been made;
+<mbuf> this is a very simple .spec file;  [19:38]
+<mbuf> --> #37
+*** aunkit (n=aunkit@117.197.60.209) has left channel #dgplug
+<mbuf> Now we shall see how the rpm tools are used on this .spec file to
+       clean, build, install the package;
+<mbuf> --> #38
+<mbuf> you can use the --clean option to rpmbuild on the .spec file as shown
+       to clean the package;
+<mbuf> --> #39
+<mbuf> --> #40  [19:39]
+<mbuf> --> #41
+<mbuf> By default, before you build, rpm will invoke %clean; so you don't have
+       to explicitly do it before building the package;
+<mbuf> --> #42
+<mbuf> --> #43
+<mbuf> as we progress, this summary table will list the options for keeping
+       track of what we have learnt;
+<mbuf> --> #44  [19:40]
+<mbuf> we need to prepare the sources, as defined in %prep and %setup
+<mbuf> --> #45
+<mbuf> we use -bp option to rpmbuild on the .spec file;
+<mbuf> --> #46
+<mbuf> --> #47
+<mbuf> it cleans first, as mentioned earlier;
+*** sankarshan (n=sankarsh@fedora/sankarshan) has quit: "Are you sure you want
+    to quit this channel (Cancel/Ok) ?"  [19:41]
+<mbuf> and it extracts the upstream sources (.tar.gz) using tar;
+*** akuscifi007 (n=akuscifi@122.162.83.132) has quit: Read error: 104
+    (Connection reset by peer)
+<mbuf> you will need to manually keep a copy of the upstream sources in the
+       rpmbuild/SOURCES directory;
+<mbuf> the .spec files are to be kept in the rpmbuild/SPECS directory
+<mbuf> whatever you build is in the rpmbuild/BUILD directory
+*** akuscifi007 (n=akuscifi@122.162.83.132) has joined channel #dgplug
+<mbuf> whatever you install will be in the rpmbuild/BUILDROOT directory;
+<mbuf> whatever RPMs that are generated will be in the rpmbuild/RPMS
+       directory;  [19:42]
+<mbuf> --> #48
+*** akuscifi007 (n=akuscifi@122.162.83.132) has quit: Read error: 104
+    (Connection reset by peer)
+<mbuf> so, we have extracted the sources;
+<mbuf> --> #49
+<mbuf> then we build;
+<mbuf> --> #50
+*** akuscifi007 (n=akuscifi@122.162.83.132) has joined channel #dgplug
+*** kishan (n=kishan@117.99.167.61) has quit: Connection timed out  [19:43]
+<mbuf> -bc to rpmbuild on the .spec file compiles the sources, or does make as
+       mentioned in the .spec file;
+<mbuf> --> #51
+<mbuf> --> #52
+*** kishan_ (n=kishan@117.99.166.124) is now known as kishan
+<mbuf> --clean called by default;
+<mbuf> --> #53
+<mbuf> --> #54
+<mbuf> make is invoked on the extracted Makefile from the upstream sources;
+								        [19:44]
+*** zer0c00l_ (n=zer0c00l@117.199.140.52) has joined channel #dgplug
+<mbuf> --> #55
+<mbuf> so the executable is built; at any stage if things are incorrect,
+       rpmbuild will exit with error;
+<mbuf> the reason why I pasted the log in the slides, is for you to see what
+       rpmbuild says;
+<mbuf> it is always good to read the logs!
+<mbuf> --> #56
+<mbuf> --> #57  [19:45]
+<mbuf> now we need to install the executable in rpmbuild/BUILDROOT;
+<mbuf> --> #58
+<mbuf> --> #59
+<mbuf> --clean invoked first, by default;
+<mbuf> --> #60
+<mbuf> --> #61
+<mbuf> make is invoked to build it;  [19:46]
+<mbuf> --> #62
+<mbuf> --> #63
+<mbuf> it installs the executable in DESTDIR;
+*** vivek (n=vivek@117.201.97.14) has joined channel #dgplug
+<mbuf> so what you see as paneer-butter-masala-2.0-1.i386 is the
+       %{name}-%{version}-%{release} that you saw in the .spec file BUILDROOT
+								        [19:47]
+<mbuf> --> #64
+<mbuf> installed! note /usr/sbin within BUILDROOT/packagename-version-release
+<mbuf> when you install the package on your system, using yum it will just
+       install in /usr/sbin;
+<mbuf> --> #65
+<mbuf> --> #66  [19:48]
+<mbuf> we already add the README file to be put in the %doc directory
+<mbuf> --> #67
+<mbuf> --> #68
+<mbuf> DOCDIR is defined and exported by default by the rpm tools;
+<mbuf> --> #69
+<mbuf> README file was added to %files, so it is copied to the
+       /usr/share/doc/paneer-butter-masala-2.0 directory  [19:49]
+*** hermes1 (n=abhishek@114.143.50.205) has joined channel #dgplug
+<mbuf> --> #70
+<mbuf> summary on what we have done so far;
+*** akuscifi007 (n=akuscifi@122.162.83.132) has quit: Read error: 104
+    (Connection reset by peer)
+*** vivek (n=vivek@117.201.97.14) has quit: Client Quit
+<mbuf> --> #71
+<mbuf> now we package it as an .rpm;
+<mbuf> --> #71
+*** akuscifi007 (n=akuscifi@122.162.83.132) has joined channel #dgplug
+<mbuf> --> #72
+<mbuf> -bb is used to create the .rpm;  [19:50]
+<mbuf> --> #73
+<mbuf> --> #74
+<mbuf> --clean called by default and sources are extracted;
+<mbuf> --> #75
+<mbuf> --> #76
+<mbuf> build is done with make;
+<mbuf> --> #77
+<mbuf> --> #78
+<mbuf> installation is done at DESTDIR;
+<mbuf> --> #79
+<mbuf> --> #80  [19:51]
+<mbuf> --> #81
+<mbuf> %doc needs to be processed;
+<mbuf> --> #82
+<mbuf> --> #83
+<mbuf> DOCDIR defined and exported;
+<mbuf> --> #84
+<mbuf> README is copied to the respective directory for the package;
+<mbuf> --> #85
+<mbuf> --> #86  [19:52]
+*** zer0c00l_ (n=zer0c00l@117.199.140.52) has quit: "will check logs"
+<mbuf> a binary .rpm is created!
+*** sumit (n=chatzill@125.20.11.34) has joined channel #dgplug
+<mbuf> --> #87
+<mbuf> --> #88
+*** sumit (n=chatzill@125.20.11.34) has quit: Client Quit
+<mbuf> so if you check the rpmbuild/RPMS/i386 directory, you will see the .rpm
+       generated;
+<mbuf> the debuginfo rpm is has debug symbols in it, so if a user has a
+       problem with the package, they can install this package and get a core
+       dump, that can be sent to the developer for bug fixing or
+       troubleshooting;  [19:53]
+<mbuf> --> #89
+<mbuf> so there you have the summary for creating an .rpm with rpmbuild tool;
+<mbuf> --> #90
+<mbuf> The binary rpm only has the executable; but if you want to make a
+       package of the sources, you can make a .src.rpm;  [19:54]
+<mbuf> you use -bs with rpmbuild on the .spec file to do it;
+<mbuf> --> #91
+<mbuf> I have skipped the logs here, and just showing the name of the built
+       rpm;
+<mbuf> --> #92
+<mbuf> summary, again;
+<mbuf> --> #93
+<mbuf> if you want to build both .src.rpm and .rpm you can also use -ba with
+       rpmbuild;  [19:55]
+<mbuf> note the SRPMS are located in rpmbuild/SRPMS
+<mbuf> --> #94
+<mbuf> --> #95
+<mbuf> --> #96
+<mbuf> --> #97
+<mbuf> that is the complete summary of what we have done so far;
+<mbuf> --> #98
+<mbuf> rpmlint is useful to do some sanity checks on the .spec file that you
+       have written;  [19:56]
+<mbuf> just to make sure that your .spec file follows the standards defined
+       for RPM;
+<mbuf> --> #99
+*** hermes1 (n=abhishek@114.143.50.205) has left channel #dgplug
+<mbuf> if there are no errors or warnings, you will get an output like this;
+<mbuf> --> #100  [19:57]
+<mbuf> you should also run rpmlint on the built .rpm to check for errors or
+       warnings;
+<mbuf> --> #101
+<mbuf> --> #102
+<mbuf> also on the .src.rpm
+<mbuf> --> #103
+<mbuf> --> #104
+*** zer0c00l (n=zer0c00l@117.199.131.143) has quit: Connection timed out
+*** hermes1 (n=abhishek@114.143.50.205) has joined channel #dgplug
+<mbuf> If you simply want to list the rpm contents, you can use rpmls on the
+       .rpm;
+<mbuf> --> #105
+<mbuf> as you can see it lists the executable, paneer-butter-masala to be
+       installed in /usr/sbin and the README file  [19:58]
+<mbuf> --> #106
+<mbuf> you can also use rpm2cpio, cpio to extract the RPM contents  [19:59]
+<mbuf> --> #107
+<mbuf> --> #108
+<mbuf> so, we can now test the rpm; you can use yum install with --nogpgcheck
+       to install it;
+<mbuf> if the RPM is signed with your GPG check and added to yums' list, then
+       nogpgcheck is not required;
+<mbuf> --> #109  [20:00]
+<mbuf> it will prompt you if you want to install it or not, and if you say 'Y'
+       it will install it;
+<mbuf> --> #110
+<mbuf> you can check if the rpm is installed or not through -qa option to rpm;
+<mbuf> --> #111
+<mbuf> --> #112
+<mbuf> since the executable is in the PATH, you can simply run to see the
+       output;
+<mbuf> --> #113  [20:01]
+<mbuf> that is what the upstream .c file printed, anyway;
+<mbuf> --> #114
+<mbuf> if you want to uninstall the rpm you can use 'yum remove' and just the
+       package name!
+<mbuf> note that we haven't specified any version, release or i386 (arch)
+       type;
+<mbuf> --> #115
+<mbuf> now we are going to go through the process of how to create patches;
+								        [20:02]
+*** sumitc (n=chatzill@unaffiliated/sumitc) has quit: Read error: 110
+    (Connection timed out)
+<mbuf> so you have taken a software from upstream and you found a bug in it,
+       or you feel something needs to be changed;
+<mbuf> you can make the change as a patch; add the patch to the .spec file so
+       when you package it, your changes are in the built package that you
+       ship with your distro;
+<mbuf> you can send these changes to the upstream source;  [20:03]
+<mbuf> the upstream project developers may or may not take it;
+<mbuf> I am going to describe one way of creating a patch;
+<mbuf> use -bp to extract the sources;
+<mbuf> --> #116
+<mbuf> --> #117
+<mbuf> --clean called and the sources are extracted;
+<mbuf> --> #118
+<mbuf> you know where the sources are extracted, as in
+       rpmbuild/BUILD/packagename  [20:04]
+<mbuf> --> #119
+<mbuf> enter into the directory; since we have only one .c file in our
+       upstream source, and we want to make a change in it, we make a copy
+       first with a .fix extension
+<mbuf> --> #120
+<mbuf> I am now making changes in the original file;
+<mbuf> --> #121
+<mbuf> go one directory up -- to the rpmbuild/BUILD directory;  [20:05]
+<mbuf> --> #122
+<mbuf> use gendiff on the packagename and the extension that we used (.fix)
+<mbuf> --> #123
+<mbuf> this basically lists the change as a diff output;
+*** akuscifi007 (n=akuscifi@122.162.83.132) has quit: Read error: 104
+    (Connection reset by peer)
+<mbuf> as you can see, I only changed the printf;
+<mbuf> - is the old, + is the new change;
+<mbuf> --> #124  [20:06]
+<mbuf> --> #125
+*** akuscifi007 (n=akuscifi@122.162.83.132) has joined channel #dgplug
+<mbuf> to save it as a patch, I just redirect the output as a paneer-fix.patch
+       file
+<mbuf> this .patch and all patches must be in the rpmbuild/SOURCES directory;
+<mbuf> --> #126
+<mbuf> now we are going to make a new release of the package, with an updated
+       .spec file  [20:07]
+<mbuf> our Version (upstream) is still 2.0; our Release for the .spec file is
+       now 2;
+<mbuf> --> #127
+<mbuf> We give the name of the patch and it is referred as Patch0;
+<mbuf> we can have many patches like Patch1, Patch2, etc.  [20:08]
+<mbuf> --> #128
+<mbuf> we need to apply the patch on the sources, as soon after they are
+       extracted; so it is after the %prep, %setup phase;
+<mbuf> we say %patch0 has to be applied
+<mbuf> --> #129
+<mbuf> that is for the .c file extension  [20:09]
+<mbuf> --> #130
+<mbuf> We added a new changelog entry, the recent one on the top;
+*** yevlempy (i=cbc8bc02@gateway/web/freenode/x-30d7fc39fa830d4a) has quit:
+    "Page closed"
+*** akuscifi007 (n=akuscifi@122.162.83.132) has quit: Read error: 104
+    (Connection reset by peer)
+<mbuf> so the updated date was on May 2, compared to the previous May 1
+								        [20:10]
+*** chandana (i=cbc8bc02@gateway/web/freenode/x-a8a4c023911a6aa6) has quit:
+    "Page closed"
+<mbuf> Also see that we have incremented the release from 2.0-1 to 2.0-2
+*** akuscifi007 (n=akuscifi@122.162.83.132) has joined channel #dgplug
+<mbuf> a new comment that we have 'Fixed Paneer Butter Masala' has been added
+<mbuf> --> #131
+<mbuf> --> #132
+<mbuf> we can simply test if the patch applies cleanly;
+<mbuf> just -bp will do the %prep, %setup and called %patch0  [20:11]
+<mbuf> --> #133
+<mbuf> --> #134
+<mbuf> clean invoked and the sources are extracted;
+<mbuf> --> #135
+<mbuf> patch is applied
+<mbuf> and the exit status is 0 -- which is clean;  [20:12]
+<mbuf> --> #136
+<mbuf> here you find a short list of macros that are used in the .spec file;
+<mbuf> and what each one corresponds to in the file system;
+<mbuf> when packaging, one should always follow Filesystem Hierarchy Standard
+       (FHS) as to where one should put the files in the / directory;
+<mbuf> --> #137
+<mbuf> you can define your own macros if you want to;  [20:13]
+<mbuf> you use the %define tag to do it;
+<mbuf> here I show an example of redefining the destdir target;
+<mbuf> --> #138
+<mbuf> --> #139
+<mbuf> --> #140
+<mbuf> sometimes the upstream software might use a specific language, say
+       python, or perl, or ruby  [20:14]
+<mbuf> and the distro defines that such packages need to named as python-foo,
+       or perl-foo, or ruby-foo;
+<mbuf> so this example defines a macro packname and how to use the same in
+       'Name'
+<mbuf> --> #141
+<mbuf> the wiki page has useful content on RPM macros;
+<mbuf> --> #142  [20:15]
+<mbuf> some quick notes/tips if you like; it is good to use a separate
+       username for building and testing packages rather than your regular
+       user account that you use in your system
+<mbuf> just to check on permission issues (if any), dependency package access
+       and so on;  [20:16]
+<mbuf> --> #143
+<mbuf> if you have a macro within a comment (#) in the .spec file, the
+       rpmbuild tool might actually parse the macro; so avoid this;
+<mbuf> --> #144
+<mbuf> Koji is used (online) to build your RPM across different architectures
+       to make sure it builds fine;  [20:17]
+<mbuf> if your upstream package uses interpreted language, like perl, ruby,
+       python then your package should use 'Arch: noarch' in the .spec file;
+<mbuf> so when built, it will be built in rpmbuild/RPMS/noarch as compard to
+       rpmbuild/RPMS/i386 that we have seen here;  [20:18]
+<mbuf> --> #145
+<mbuf> --> #146
+<mbuf> --> #147
+<mbuf> --> #148
+<mbuf> --> #149
+<mbuf> --> #150
+<mbuf> the documentation in fedoraproject.org wiki is quite good; please go
+       through it when you get the time;  [20:19]
+<mbuf> --> #151
+<mbuf> --> #152
+<mbuf> --> #153
+<mbuf> --> #154
+<mbuf> --> #155
+<mbuf> --> #156
+<mbuf> --> #157
+<mbuf> there are useful mailing lists, as well as #fedora-devel for your
+       packaging queries;
+<mbuf> you can also ask in #fedora-india
+<mbuf> what I have described is just how to package RPMs; but there is a
+       workflow in how to get your built packages approved by Fedora sponsors;
+								        [20:20]
+<mbuf> for that, I have written this draft document:
+       http://shakthimaan.com/downloads/glv/howtos/packaging-rpm-workflow.html 
+<mbuf> please go through it;
+<mbuf> the presentation + packaging rpm workflow should help you doing your
+       first RPM package (I hope)
+<mbuf> If you like this work, I would appreciate your help in packaging
+       software for Fedora;   [20:21]
+<mbuf> we also have packaging tasks in Fedora Electronic Lab, if you are
+       interested;
+<mbuf> https://fedorahosted.org/fedora-electronic-lab/report/1   [20:22]
+<mbuf> you could take one task at a time;
+<mbuf> with this, the presentation ends; I shall take any questions that you
+       might have;
+

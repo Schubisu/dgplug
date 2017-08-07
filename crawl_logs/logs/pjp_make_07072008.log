@@ -1,0 +1,440 @@
+Jul 07 23:37:20 <_pjp_>	well..we are almost through with the gcc options used in everyday life.
+Jul 07 23:38:08 <munichlinux>	cool
+Jul 07 23:39:01 <_pjp_>	there are some more like -Wall, and -S, -g and -O etc.
+Jul 07 23:39:11 <sunny_slls>	!
+Jul 07 23:39:50 <_pjp_>	but I was wondering whether to cover them now or not?
+Jul 07 23:40:15 <sunny_slls>	!
+Jul 07 23:40:21 <munichlinux>	_pjp_, go head
+Jul 07 23:40:24 <_pjp_>	-g will be more clear when used with gdp
+Jul 07 23:40:27 <_pjp_>	gdb
+Jul 07 23:40:31 <_pjp_>	sunny_slls: ?
+Jul 07 23:40:37 <sunny_slls>	i didn't understand that # define no 9
+Jul 07 23:40:56 <sunny_slls>	please explain with an example
+Jul 07 23:40:57 <munichlinux>	macro call
+Jul 07 23:41:03 <kushal>	sunny_slls, GO BACK AND READ YOUR C BOOK FIRST
+Jul 07 23:41:24 <sunny_slls>	oops sorry i remembered
+Jul 07 23:41:33 <kushal>	munichlinux, please don't explain these simple things 
+Jul 07 23:41:42 <munichlinux>	OK
+Jul 07 23:41:46 <_pjp_>	sunny_slls: well, just write that line in your hello.c file and see the pre-processed output
+Jul 07 23:41:51 <sunny_slls>	i thought it is a different thing
+Jul 07 23:42:11 *	amrita_ (n=amrita@117.201.97.167) has joined #dgplug
+Jul 07 23:42:40 *	amrita has quit (Nick collision from services.)
+Jul 07 23:42:47 *	amrita_ is now known as amrita
+Jul 07 23:43:26 <_pjp_>	okay..-Wall is used to enable *all* the compile time warning messages
+Jul 07 23:44:33 *	samar (n=samar-ad@220.226.26.171) has joined #dgplug
+Jul 07 23:45:57 <_pjp_>	Though C is a standardised language, the C standard leaves quite a few things open for user interpretation and/or implementation and does not clearly define what the course of events should result in.
+Jul 07 23:46:04 *	techno_freak has quit ("Leaving")
+Jul 07 23:47:33 <_pjp_>	For example, if you don't declare a function before it's use, some implementations do assume things and produce code accordingly..which may not be portable.
+Jul 07 23:49:17 <_pjp_>	-Wall options gives you all such warning messages and millions of others, which at times are quite informative and do help extend your understanding of the C language.
+Jul 07 23:49:49 <_pjp_>	The -O<level> option is used to specify the code optimisation level
+Jul 07 23:51:15 *	susenj has quit (Read error: 110 (Connection timed out))
+Jul 07 23:51:26 <amrita>	!
+Jul 07 23:51:30 *	karunakar has quit ("Leaving")
+Jul 07 23:51:34 <susen1>	!
+Jul 07 23:51:48 <_pjp_>	gcc supports different optimisation levels, which offer different optimisation while generating the final code
+Jul 07 23:51:54 <_pjp_>	amrita: susen1?
+Jul 07 23:51:54 *	Subhodip has quit ("Leaving")
+Jul 07 23:52:00 <susen1>	what is <level> here?
+Jul 07 23:52:05 <susen1>	<eof>
+Jul 07 23:52:16 <_pjp_>	susen1: <level> is an integer number
+Jul 07 23:52:32 <amrita>	_pjp_, code optimasation means?
+Jul 07 23:52:36 <_pjp_>	one can say $ gcc -O1 hello.c
+Jul 07 23:52:47 <amrita>	*optimisation
+Jul 07 23:53:04 <susen1>	_pjp_,1 means??
+Jul 07 23:53:57 *	rtnpro has quit (Read error: 110 (Connection timed out))
+Jul 07 23:54:17 *	Kkhushi (n=khushbu@59.180.151.45) has left #dgplug ("Ex-Chat")
+Jul 07 23:54:32 <_pjp_>	code optimisation is, while generating binary code for macros, or loop statements, or pointer/string operations, gcc can produce more efficient/faster code
+Jul 07 23:54:42 <_pjp_>	gcc is quite an intelligent program that way.
+Jul 07 23:55:17 <munichlinux>	true :)
+Jul 07 23:55:46 <_pjp_>	susen1: 1 is first level optimisation, it tries to generate faster code.
+Jul 07 23:56:13 <_pjp_>	please see man gcc for more information about each level.
+Jul 07 23:56:25 <susen1>	_pjp_,ok<eof>
+Jul 07 23:56:34 <_pjp_>	it's kind of difficult to type all that here.
+Jul 07 23:56:55 *	susenj (n=chatzill@59.178.170.98) has joined #dgplug
+Jul 07 23:57:20 <mavu_>	#systemtap
+Jul 07 23:57:29 <mavu_>	oops.. sorry
+Jul 07 23:57:31 *	susen1 (n=student@59.178.170.98) has left #dgplug
+Jul 07 23:58:39 <_pjp_>	then..which else..ah there -g and -p
+Jul 07 23:59:11 <_pjp_>	these options are more suitable for debugging your program with the external tools like gdb and gprof
+Jul 08 00:00:10 <_pjp_>	they each insert extra information in the executable files, which can be used later while debuggin.
+Jul 08 00:00:52 <_pjp_>	say: gcc -g hello.c
+Jul 08 00:00:55 *	samar has quit ("Ex-Chat")
+Jul 08 00:01:12 <_pjp_>	and check the file-size difference for yourself.
+Jul 08 00:02:55 <_pjp_>	then -S options is used to produce the compilation output in an assembly language, ie. a step just before the code generation
+Jul 08 00:03:05 <_pjp_>	say: $ gcc -S hello.c
+Jul 08 00:03:16 <_pjp_>	and you'll get a file called hello.s
+Jul 08 00:03:51 <_pjp_>	that's how your hello.c looks like in assembly language
+Jul 08 00:04:47 <_pjp_>	these assembly instructions are then converted to the machine codes and also the linking information is inserted to produce the binary file.
+Jul 08 00:05:02 <_pjp_>	so far..with me?
+Jul 08 00:06:00 <munichlinux>	ya
+Jul 08 00:06:04 <amrita>	yes
+Jul 08 00:06:10 <susenj>	yes
+Jul 08 00:06:20 <bose_aritra>	yup
+Jul 08 00:08:04 <_pjp_>	okay, I guess that's pretty much what is used while doing *general* day-to-day C programming
+Jul 08 00:10:10 <_pjp_>	other options are quite advanced and are used when working with different architectures and/or embedded system etc.
+Jul 08 00:10:27 <_pjp_>	Which I think are not required here.
+Jul 08 00:11:02 *	ria (n=ria@219.64.67.135) has joined #dgplug
+Jul 08 00:12:13 <_pjp_>	Now, since we are talking about compilation, it
+Jul 08 00:13:01 <_pjp_>	it makes sense to cover Make first than gdb
+Jul 08 00:13:14 <_pjp_>	is that okay with all?
+Jul 08 00:15:40 <kushal>	_pjp_, go ahead 
+Jul 08 00:16:22 *	Soumya has quit ("ChatZilla 0.9.83 [Firefox 3.0/2008052906]")
+Jul 08 00:16:50 <munichlinux>	i am actually waiting for make :)
+Jul 08 00:16:58 <_pjp_>	right..okay
+Jul 08 00:17:55 <_pjp_>	The makefile is used to define how a project should be compiled.
+Jul 08 00:19:54 <_pjp_>	Make has some really cool benefits which are inherent because of the way it works
+Jul 08 00:20:12 *	susen1 (n=student@59.178.170.98) has joined #dgplug
+Jul 08 00:21:21 *	susen1 has quit (Client Quit)
+Jul 08 00:21:43 <_pjp_>	What it does is, it conditionally(based on timestamps) compiles only those source files which require compilation and leaves the others.
+Jul 08 00:21:45 *	susenj (n=chatzill@59.178.170.98) has left #dgplug
+Jul 08 00:22:28 *	susenj (n=student@59.178.170.98) has joined #dgplug
+Jul 08 00:23:50 <_pjp_>	which means shorter compilations times, it saves you from typing the long commands on the shell prompt, and also gives you some handy options like clean and dist and etc.
+Jul 08 00:24:14 <_pjp_>	So, let's write our first Makefile, and then I'll explain the details.
+Jul 08 00:26:41 <_pjp_>	hey kushal what's that rbfp.net/paste site?
+Jul 08 00:26:57 <_pjp_>	kushal: ?
+Jul 08 00:27:07 <kushal>	_pjp_, rafb.net/paste 
+Jul 08 00:27:24 <_pjp_>	oh..thanks
+Jul 08 00:28:07 <_pjp_>	wait a min guys..
+Jul 08 00:32:08 *	amrita_ (n=amrita@117.201.96.252) has joined #dgplug
+Jul 08 00:32:30 *	amrita has quit (Nick collision from services.)
+Jul 08 00:32:36 *	amrita_ is now known as amrita
+Jul 08 00:34:54 *	amrita_ (n=amrita@117.201.96.252) has joined #dgplug
+Jul 08 00:34:59 *	amrita_ has quit (Client Quit)
+Jul 08 00:39:06 <susenj>	sorry...class paused?
+Jul 08 00:39:46 <kushal>	susenj, nope, wait for _pjp_ 
+Jul 08 00:39:54 *	susenj_ (n=chatzill@59.178.170.98) has joined #dgplug
+Jul 08 00:40:01 *	susenj_ (n=chatzill@59.178.170.98) has left #dgplug
+Jul 08 00:40:53 <susenj>	kushal,okay !i thought my pidgin crashed
+Jul 08 00:40:53 <_pjp_>	yes, 1 sec
+Jul 08 00:41:33 <kushal>	susenj, :)
+Jul 08 00:42:12 <_pjp_>	please see: http://rafb.net/p/NpvgTu50.html
+Jul 08 00:44:20 <_pjp_>	okay..create a file named Makefile or makefile from that link in the directory where you have your hello.c and greet.c sources.
+Jul 08 00:45:14 <_pjp_>	I suggest you type it instead of just copy/paste and tell me when you're done.
+Jul 08 00:45:44 <kushal>	_pjp_, tell them about tab 
+Jul 08 00:46:02 <_pjp_>	kushal: yes, let them finish first.
+Jul 08 00:46:31 <kushal>	ok:)
+Jul 08 00:47:30 <amrita>	_pjp_, done
+Jul 08 00:47:39 <_pjp_>	okay
+Jul 08 00:48:06 <sunny_slls>	pjp,!
+Jul 08 00:48:11 <_pjp_>	sunny_slls: ?
+Jul 08 00:48:34 <sunny_slls>	how i will do it in windows
+Jul 08 00:48:44 <_pjp_>	sunny_slls: windows?
+Jul 08 00:49:49 <sunny_slls>	how i will makefile in windows?
+Jul 08 00:49:50 <kushal>	sunny_slls, fist format C drive then install Linux , then you can do that 
+Jul 08 00:50:01 <munichlinux>	lol
+Jul 08 00:50:03 <Prakhar>	:)
+Jul 08 00:50:05 <Prakhar>	lol
+Jul 08 00:50:14 <_pjp_>	:)
+Jul 08 00:50:17 <Prakhar>	that was awesome!
+Jul 08 00:50:27 <munichlinux>	kushal, i was about to say that
+Jul 08 00:51:03 <_pjp_>	sunny_slls: they do have make in Windows, but I really don't have much idea about it.
+Jul 08 00:51:14 <sunny_slls>	ok
+Jul 08 00:51:16 <kushal>	sunny_slls, you have to wait, copy the whole session log to your linux partition and try there 
+Jul 08 00:51:21 <sunny_slls>	bad luck
+Jul 08 00:51:43 <_pjp_>	okay..I think all are done.
+Jul 08 00:52:14 <sunny_slls>	atleast show me the example
+Jul 08 00:52:53 <_pjp_>	So as you can see, makefile is nothing but a plain text file containing the same shell commands we used earlier to compile our hello.c, isn't it?
+Jul 08 00:53:01 <_pjp_>	sunny_slls: what example?
+Jul 08 00:53:02 <ria>	!
+Jul 08 00:53:05 <_pjp_>	ria: ?
+Jul 08 00:53:27 <ria>	i joined late, so could not follow the earlier discussion
+Jul 08 00:53:43 <ria>	can i start from creating the file makefile
+Jul 08 00:53:44 <_pjp_>	ria: well..I'm sorry.
+Jul 08 00:53:44 <ria>	?
+Jul 08 00:53:53 <_pjp_>	ria: sure you can
+Jul 08 00:53:55 <kushal>	sunny_slls, he gave the example 
+Jul 08 00:54:19 <ria>	was confused i will understand or not
+Jul 08 00:54:23 <ria>	ok thanks
+Jul 08 00:54:26 <ria>	<eof>
+Jul 08 00:54:32 *	bose_ (n=aritra@117.201.96.74) has joined #dgplug
+Jul 08 00:55:12 <ria>	!
+Jul 08 00:55:32 <_pjp_>	So, the first section of the makefile defines some variables, that must be intuitive, right?
+Jul 08 00:55:35 <_pjp_>	ria: ?
+Jul 08 00:55:37 <ria>	why is this file makefile written?
+Jul 08 00:55:53 <_pjp_>	I did explain it before.
+Jul 08 00:55:58 <kushal>	ria, scroll back 
+Jul 08 00:56:08 <_pjp_>	will cover up later again if need be.
+Jul 08 00:56:23 <ria>	ok
+Jul 08 00:56:24 <_pjp_>	now let's just go forward?!
+Jul 08 00:57:25 <_pjp_>	The SHELL and CC variables are declared because they defines exactly which shell and which compiler to use
+Jul 08 00:57:31 *	bose_aritra has quit (Read error: 110 (Connection timed out))
+Jul 08 00:58:49 <_pjp_>	the /bin/sh is suppose to be the most portable and thus widely available shell today
+Jul 08 00:59:17 <_pjp_>	though, on most of the systems today it's a symbolic link to bash(1)
+Jul 08 01:00:26 <_pjp_>	bash is really incredibly powerful..
+Jul 08 01:01:15 <_pjp_>	okay, this variable declaration is optional, and not necessary always.
+Jul 08 01:02:14 <_pjp_>	next observe the line hello: hello.o greet.o
+Jul 08 01:02:54 <_pjp_>	This line as two parts, one before the colon(:) and one after the colon(:)
+Jul 08 01:03:09 <_pjp_>	oops..that was `:'
+Jul 08 01:03:50 <_pjp_>	The part before the colon <:> character is called `target'
+Jul 08 01:04:20 <_pjp_>	The part after the colon<:> character is called `dependencies'.
+Jul 08 01:04:51 <_pjp_>	ie. the target depends on the dependencies.
+Jul 08 01:05:46 <_pjp_>	so, when any one of the dependencies change, the target is recompiled by make
+Jul 08 01:06:28 <_pjp_>	The line immediately following the above is the actual shell command used by make to create the target
+Jul 08 01:07:12 <_pjp_>	ie. to create executable hello from hello.o and greet.o make uses the command $(CC) -o hello hello.o greet.o $(LIBS)
+Jul 08 01:07:28 <_pjp_>	everybody with me?
+Jul 08 01:07:54 <munichlinux>	go head
+Jul 08 01:08:25 <_pjp_>	great..
+Jul 08 01:09:01 <munichlinux>	http://sources.redhat.com/autobook/download.html this is good
+Jul 08 01:09:49 <_pjp_>	the important thing to note/remember here is that, the line containing command *must always* begin with a tab(\t) character.
+Jul 08 01:10:14 <_pjp_>	That's just the make syntax
+Jul 08 01:12:23 <_pjp_>	the Make starts reading makefile from the top(unless if the target is specified on the command line) and executes the command for the first target it sees.
+Jul 08 01:12:43 <_pjp_>	unless of-course it's dependencies are accessible.
+Jul 08 01:16:29 *	Debashree has quit ("Leaving")
+Jul 08 01:16:57 <_pjp_>	So now when you say `$ make' on the command line, make starts reading our Makefile, and encounters the target hello:, but to create hello you need hello.o and greet.o, so then make goes ahead and tries to find out how to create hello.o and greet.o
+Jul 08 01:17:45 <_pjp_>	for which rules are defined right below the hello: rules
+Jul 08 01:18:05 *	Debashree (n=Debashre@61.2.164.108) has joined #dgplug
+Jul 08 01:18:53 <_pjp_>	Oh btw, the sequence of target: <dependencies><\n\t>command(s) is called a make rule.
+Jul 08 01:21:09 <_pjp_>	the dependencies are optional, as you can see for clean:
+Jul 08 01:21:58 <_pjp_>	one can specify the particular target on the command line with the make
+Jul 08 01:22:03 <_pjp_>	as $ make clean
+Jul 08 01:22:30 <_pjp_>	it will wipe out all the object files and executable files from the respective directories.
+Jul 08 01:22:46 <_pjp_>	In our case, same as the source directory.
+Jul 08 01:23:05 <_pjp_>	Now, let's play around with this a bit.
+Jul 08 01:23:50 <_pjp_>	just type $ make
+Jul 08 01:24:08 <_pjp_>	you
+Jul 08 01:24:21 <_pjp_>	you'll see how make executes the commands.
+Jul 08 01:24:44 <_pjp_>	first it creates the hello.o, then greet.o and then finally hello
+Jul 08 01:24:55 <ria>	!
+Jul 08 01:25:00 <_pjp_>	ria: ?
+Jul 08 01:25:38 <ria>	[ria@rialappy c]$ make
+Jul 08 01:25:39 <ria>	makefile:6: *** missing separator.  Stop.
+Jul 08 01:25:43 <ria>	what is it?
+Jul 08 01:26:21 <_pjp_>	I think you missed the \t on near line 6
+Jul 08 01:26:58 <ria>	ok let me check
+Jul 08 01:27:22 <amrita>	_pjp_, me too getting same thing but on line 8
+Jul 08 01:27:45 <ria>	_pjp_, line 6 is a blank line
+Jul 08 01:27:55 *	munichlinux has quit ("Ex-Chat")
+Jul 08 01:27:57 <ria>	_pjp_, should i put /t over there?
+Jul 08 01:28:29 <_pjp_>	folks remember that the line containing command *must* begin with the tab(\t) character.
+Jul 08 01:28:33 *	sunny_slls has quit ("Leaving")
+Jul 08 01:28:49 <_pjp_>	I did tell you not to copy/paste it
+Jul 08 01:29:15 <ria>	_pjp_, even i cannot see /t in your code
+Jul 08 01:29:24 <ria>	*\t
+Jul 08 01:29:51 *	sunny_slls (i=Sunny@117.99.54.17) has joined #dgplug
+Jul 08 01:30:08 <susenj>	ria,just press tab and that's it
+Jul 08 01:30:30 <ria>	susenj, ok
+Jul 08 01:30:45 <ria>	_pjp_, indentation is ok but
+Jul 08 01:30:53 <_pjp_>	well of-course `\t' is a C escape sequence character, you won't see it there
+Jul 08 01:31:07 <susenj>	!
+Jul 08 01:31:09 <ria>	ok i did not understand
+Jul 08 01:31:21 <ria>	_pjp_, my indentation is ok
+Jul 08 01:31:32 <_pjp_>	generally it's same as a sequence of 8 spaces, but not the same.
+Jul 08 01:31:59 <ria>	ya that i already corrected at the beginning
+Jul 08 01:32:40 <_pjp_>	go to the beginning of the line and hit the tab key
+Jul 08 01:33:02 *	Debashree_ (n=Debashre@61.2.165.154) has joined #dgplug
+Jul 08 01:33:20 <ria>	i went and this time pressed with 8 spaces
+Jul 08 01:34:18 <ria>	again i did with tabs after going at the beginning
+Jul 08 01:34:26 <ria>	still the same error _pjp_
+Jul 08 01:34:37 <_pjp_>	susenj: ?
+Jul 08 01:34:43 <susenj>	ï»¿i didn't understand this #make clean part<eof>
+Jul 08 01:34:52 *	sunny_slls has quit ("Leaving")
+Jul 08 01:35:04 <_pjp_>	ria: no, 8 spaces is *not* same as tab
+Jul 08 01:35:15 <susenj>	ria,first delete all the spaces and then do the same thing ,as _pjp_told
+Jul 08 01:35:26 <ria>	_pjp_, ya its equal to 2
+Jul 08 01:35:39 <ria>	_pjp_, i did with one tab still the same
+Jul 08 01:36:15 <_pjp_>	susenj: well..that directly invokes the clean target
+Jul 08 01:36:24 <_pjp_>	ria: what is 2
+Jul 08 01:37:03 <susenj>	_pjp_,okay,i will try to explore it
+Jul 08 01:37:07 <ria>	_pjp_, wait check it http://rafb.net/p/zGzFh811.html
+Jul 08 01:37:09 <_pjp_>	if you have set the `expand tab(et)' option of vim then you'll have to use the Crtl+v+tab combination
+Jul 08 01:37:37 <ria>	_pjp_, this is my code, is it ok?
+Jul 08 01:38:13 <_pjp_>	ria: well..it's looks okay..but still check for tabs
+Jul 08 01:38:36 <_pjp_>	ria: I can not really tell even if I copy/paste it here.
+Jul 08 01:38:42 <ria>	_pjp_, i think its ok, still checking
+Jul 08 01:39:17 <_pjp_>	is everybody trying..?
+Jul 08 01:39:55 <susenj>	yes
+Jul 08 01:40:10 <kushal>	ria, show us the make file 
+Jul 08 01:40:26 <_pjp_>	kushal: there is the link above.
+Jul 08 01:40:28 <ria>	kushal, scroll back
+Jul 08 01:40:56 <kushal>	got it
+Jul 08 01:41:21 <kushal>	ria, those are spaces, not tabs
+Jul 08 01:42:30 <_pjp_>	if you are using vim, do /
+Jul 08 01:42:30 <susenj>	kushal,how did you identify that??
+Jul 08 01:42:54 <_pjp_>	search for tab characters as: /\t
+Jul 08 01:43:01 <ria>	kushal, i pressed tab
+Jul 08 01:43:03 <_pjp_>	it should highlight
+Jul 08 01:43:17 <susenj>	oh ....yes...got it
+Jul 08 01:43:26 <ria>	_pjp_, will pressing tab not work?
+Jul 08 01:43:37 <ria>	kushal, ^^^
+Jul 08 01:44:09 <_pjp_>	I told you, if you have `expand tab' set in vim, hitting tab key won't do
+Jul 08 01:44:21 <_pjp_>	use Ctrl+v+tab combination
+Jul 08 01:44:35 <kushal>	susenj, see this http://rafb.net/p/mXZ8m738.html   first line is tab , next line space 
+Jul 08 01:45:16 <kushal>	Btw, whoever is not telling that his/her makefile is not working is a looser 
+Jul 08 01:45:27 <kushal>	this is a session , you can ask here 
+Jul 08 01:45:54 <kushal>	but if you don't tell here that your code is not working , then we can not help you 
+Jul 08 01:45:57 <susenj>	kushal okay....you have pressed 9 apaces
+Jul 08 01:46:04 <kushal>	susenj, :)
+Jul 08 01:46:04 <susenj>	in second line
+Jul 08 01:46:04 <ria>	_pjp_, still not working
+Jul 08 01:46:09 <amrita>	kushal, how can we differentiate by seeing tabs and spaces?
+Jul 08 01:46:19 <ria>	_pjp_, i did ctrl+v+tab
+Jul 08 01:46:30 <kushal>	amrita, open the file in gedit 
+Jul 08 01:46:44 <kushal>	there is a vi option , I just don't remember which one
+Jul 08 01:46:54 <_pjp_>	amrita: that's not visibly intuitive
+Jul 08 01:47:11 <_pjp_>	ria: press Ctrl+v and then tab key
+Jul 08 01:47:41 <ria>	_pjp_, ya i did so
+Jul 08 01:47:53 <ria>	http://rafb.net/p/TkjSyy74.html _pjp_
+Jul 08 01:48:00 <_pjp_>	kushal: vi is quite different that vim at times.
+Jul 08 01:48:03 <ria>	^^^the newer one
+Jul 08 01:48:10 <kushal>	I mean vim 
+Jul 08 01:48:15 <kushal>	i never use vi 
+Jul 08 01:48:52 <kushal>	ria, still they are spaces
+Jul 08 01:49:01 <kushal>	ria, open the file in gedit and try 
+Jul 08 01:49:08 <ria>	kushal, _pjp_ its working now
+Jul 08 01:49:29 <_pjp_>	ria: great..congratulations!
+Jul 08 01:49:35 <ria>	_pjp_, i did ctrl+v and then tab then i worked
+Jul 08 01:49:43 <_pjp_>	ria: he..he..really?
+Jul 08 01:49:49 <_pjp_>	:)
+Jul 08 01:49:54 <ria>	_pjp_, :)
+Jul 08 01:50:05 <ria>	its so critical with spaces
+Jul 08 01:50:14 <susenj>	ria,:)
+Jul 08 01:50:15 <_pjp_>	hmmn...
+Jul 08 01:51:55 <_pjp_>	try $ make clean as well
+Jul 08 01:52:36 <ria>	done
+Jul 08 01:53:17 <_pjp_>	okay..so now you see how rule are executed, I mean the sequence
+Jul 08 01:53:38 <_pjp_>	I'm assuming it for everyone here.
+Jul 08 01:54:54 <_pjp_>	now just say: $ touch hello.c and again $ make
+Jul 08 01:55:10 <_pjp_>	see which commands are executed and which are not
+Jul 08 01:55:53 *	Debashree has quit (Read error: 113 (No route to host))
+Jul 08 01:56:13 <ria>	greet.c is executed
+Jul 08 01:56:17 *	Debashree_ is now known as Debashree
+Jul 08 01:56:39 <_pjp_>	well, if you did tocuh greet.c
+Jul 08 01:57:02 <ria>	i did touch hello.c
+Jul 08 01:57:12 <_pjp_>	Only the files which are modified are(or should be) compiled again
+Jul 08 01:57:51 <_pjp_>	so if you touch hello.c then hello.o is generated again, because hello.o is older than hello.c
+Jul 08 01:58:19 *	bose_ has quit ("Leaving")
+Jul 08 01:58:29 <_pjp_>	and because hello.o is generated again, the target hello is built again, as it depends on hello.o
+Jul 08 01:58:39 *	bose_aritra (n=aritra@117.201.96.74) has joined #dgplug
+Jul 08 01:59:07 <ria>	!
+Jul 08 01:59:17 <_pjp_>	ria: ?
+Jul 08 01:59:19 <ria>	_pjp_, i get this http://rafb.net/p/gae3HC10.html
+Jul 08 02:00:05 <_pjp_>	ria: you did $ make clean before touch
+Jul 08 02:00:24 <ria>	what will it be then?
+Jul 08 02:00:55 <_pjp_>	 do $ make -> $ touch -> $make
+Jul 08 02:01:03 <amrita>	kushal !
+Jul 08 02:01:11 <kushal>	amrita, yes
+Jul 08 02:01:16 <ria>	_pjp_, ok
+Jul 08 02:01:23 <amrita>	kushal, its not comming
+Jul 08 02:01:28 <_pjp_>	The whole intention of having make is to not having to recompile entire source tree again and again.
+Jul 08 02:01:31 <amrita>	kushal, did as ria
+Jul 08 02:01:51 <kushal>	amrita, show us the makefile 
+Jul 08 02:02:03 <amrita>	ria, have you done same thing with line 15?
+Jul 08 02:02:35 <ria>	amrita, yes i forgot to say you
+Jul 08 02:03:05 <ria>	_pjp_, make does the same after doing $touch hello.c
+Jul 08 02:03:23 <_pjp_>	ria: no, it should not compile greet.c again
+Jul 08 02:04:12 <_pjp_>	ria: first time you see three output line, then second time only two should be there
+Jul 08 02:04:20 <amrita>	kushal, http://rafb.net/p/noWaK677.html
+Jul 08 02:04:23 <ria>	_pjp_, earlier also greet.c was not compiled
+Jul 08 02:04:38 <ria>	_pjp_, no first time also i see two
+Jul 08 02:04:38 <_pjp_>	ria: why?
+Jul 08 02:04:52 <_pjp_>	ria: check your makefile
+Jul 08 02:05:01 <kushal>	amrita, is it working ?
+Jul 08 02:05:08 <amrita>	kushal, no
+Jul 08 02:05:44 <kushal>	amrita, please change the spaces with only single tab
+Jul 08 02:05:56 <amrita>	ok
+Jul 08 02:05:59 <ria>	but when i did the mistake of $make clean, and then $touch it showed me three
+Jul 08 02:06:20 <amrita>	kushal, http://rafb.net/p/ZZp1lM27.html
+Jul 08 02:06:26 <amrita>	kushal, the error before
+Jul 08 02:06:27 <ria>	so i said you i see greet.c here which i did not see earlier _pjp_
+Jul 08 02:07:27 <kushal>	amrita, that is a problem in the hello.c you can see that, try to fix that, your make file shows ok 
+Jul 08 02:07:46 <amrita>	kushal, ok
+Jul 08 02:08:37 <_pjp_>	ria: of-course that's the first time. And second is after you touch hello.c
+Jul 08 02:08:44 <_pjp_>	so that's okay
+Jul 08 02:09:05 <ria>	_pjp_, ya first time i got two
+Jul 08 02:09:16 <_pjp_>	ria: three?
+Jul 08 02:09:22 <ria>	_pjp_, when i did $make for the first time
+Jul 08 02:09:37 <ria>	_pjp_, after that i did $make clean
+Jul 08 02:09:53 <ria>	_pjp_, then i did touch hello.c
+Jul 08 02:10:02 <_pjp_>	ria: yes, do it again, $ make clean -> $ make -> $ touch hello.c -> $ make
+Jul 08 02:10:10 <ria>	_pjp_, which was a mistake
+Jul 08 02:10:20 <amrita>	kushal, http://rafb.net/p/4T0U1t12.html
+Jul 08 02:10:21 <kushal>	brb
+Jul 08 02:10:24 <ria>	_pjp_, then i did make and got three
+Jul 08 02:10:38 <ria>	_pjp_, ok
+Jul 08 02:10:43 <kushal>	amrita, now show me the latest makefile
+Jul 08 02:10:53 <amrita>	kushal, ok
+Jul 08 02:11:13 <_pjp_>	guys shall we take the questions
+Jul 08 02:11:14 <ria>	_pjp_, now its working fine
+Jul 08 02:11:20 <_pjp_>	ria: great!
+Jul 08 02:11:34 <ria>	_pjp_, but i wonder why it did not work earlier
+Jul 08 02:11:43 <_pjp_>	well..
+Jul 08 02:11:53 <amrita>	kushal, http://rafb.net/p/mhlkdi69.html
+Jul 08 02:12:34 <ria>	[ria@rialappy c]$ make
+Jul 08 02:12:35 <ria>	makefile:9: *** missing separator.  Stop.
+Jul 08 02:12:35 <ria>	[ria@rialappy c]$ vi makefile
+Jul 08 02:12:35 <ria>	[ria@rialappy c]$ make
+Jul 08 02:12:35 <ria>	/usr/bin/gcc -x c -ansi -c hello.c
+Jul 08 02:12:36 <ria>	/usr/bin/gcc -o hello hello.o greet.o -lm
+Jul 08 02:12:55 <kushal>	ria, you ever heard about http://rafb.net/paste ?
+Jul 08 02:13:00 <ria>	_pjp_, see this is the first time i did make and it gave me two results
+Jul 08 02:13:08 <ria>	kushal, it was a smaller one
+Jul 08 02:13:38 <_pjp_>	ria: because you did not touch/modify the C source/header file(s)
+Jul 08 02:13:40 <kushal>	ria, NO
+Jul 08 02:13:57 <kushal>	ria, use rafb if your paste is more than 2 lines 
+Jul 08 02:14:04 <ria>	_pjp_, ok that too needs to be modified
+Jul 08 02:14:24 <kushal>	amrita, ask _pjp_ , I can not figure out 
+Jul 08 02:14:24 <ria>	kushal, ok extremely sorry
+Jul 08 02:14:44 <amrita>	_pjp_, please
+Jul 08 02:15:41 <_pjp_>	amrita: open your makefile in vim
+Jul 08 02:15:58 <amrita>	_pjp_, i have vi
+Jul 08 02:16:04 <_pjp_>	then search for tab(\t) character as: /\t
+Jul 08 02:16:08 <_pjp_>	say $ vim
+Jul 08 02:16:48 *	arpita has quit (Read error: 110 (Connection timed out))
+Jul 08 02:17:57 <_pjp_>	amrita: ?
+Jul 08 02:18:11 <amrita>	_pjp_, i have done that
+Jul 08 02:18:47 <_pjp_>	amrita: do you see the highlighted tab character
+Jul 08 02:18:51 <_pjp_>	?
+Jul 08 02:19:36 *	susenj (n=student@59.178.170.98) has left #dgplug
+Jul 08 02:19:38 <amrita>	_pjp_, yes in red
+Jul 08 02:20:48 *	amrita_ (n=amrita@117.201.96.252) has joined #dgplug
+Jul 08 02:20:53 *	amrita_ has quit (Client Quit)
+Jul 08 02:21:09 <_pjp_>	amrita: right? does the lines containing commands begin with the tab?
+Jul 08 02:21:48 <amrita>	_pjp_, i did contrl+v and then tab
+Jul 08 02:22:06 <_pjp_>	okay, then?
+Jul 08 02:22:29 <_pjp_>	amrita: do you have expand tab option set in vim?
+Jul 08 02:22:47 <_pjp_>	amrita: you need Ctrl+v + tab only then
+Jul 08 02:23:06 <amrita>	_pjp_, i have vi not vim
+Jul 08 02:23:30 <_pjp_>	amrita: say $ vim makefile
+Jul 08 02:25:28 <_pjp_>	folks please try to do some C programming using all that we've covered so far
+Jul 08 02:25:30 <_pjp_>	amrita: ?
+Jul 08 02:25:36 <amrita>	http://rafb.net/p/3i94gA27.html
+Jul 08 02:25:47 <amrita>	_pjp_, this is the error i am getting
+Jul 08 02:25:49 <ria>	_pjp_, sure :)
+Jul 08 02:26:35 <_pjp_>	You can write programs to find N-factorials, find perfect numbers below/upto n, sort an array, or find magic numbers upto/below n
+Jul 08 02:26:50 <_pjp_>	where n is an input given by the user, etc
+Jul 08 02:27:09 <amrita>	_pjp_, now tell me what to do?
+Jul 08 02:28:14 *	stephaniewhiting has quit ("ChatZilla 0.9.82.1 [Firefox 2.0.0.15/2008062306]")
+Jul 08 02:28:29 <_pjp_>	amrita: do you have the file named hello3.h in the same directory?
+Jul 08 02:28:39 <amrita>	_pjp_, yes
+Jul 08 02:29:28 <_pjp_>	amrita: it seems to be that make can not find that file there.
+Jul 08 02:29:37 <amrita>	_pjp_, i have hello.h not hello3.h
+Jul 08 02:30:08 <amrita>	_pjp_, but hello3.c
+Jul 08 02:30:10 <_pjp_>	amrita: but your makefile says hello3.h not hello.h
+Jul 08 02:30:54 <_pjp_>	amrita: $ mv hello.h hello3.h   or change the makefile
+Jul 08 02:32:07 <_pjp_>	amrita: ?
+Jul 08 02:32:30 <amrita>	http://rafb.net/p/ZGh1in55.html
+Jul 08 02:32:45 <amrita>	_pjp_, is it correct?
+Jul 08 02:32:56 <_pjp_>	amrita: yes, congratulations.
+Jul 08 02:33:06 <amrita>	_pjp_, ohhh thanks
+Jul 08 02:33:15 <_pjp_>	amrita: now say $make clean -> $make -> $ touch hello.c -> $ make
+Jul 08 02:33:40 <_pjp_>	amrita: and tell me if you observe any difference
+Jul 08 02:34:33 <amrita>	http://rafb.net/p/V3h64T12.html
+Jul 08 02:34:47 <_pjp_>	amrita: right
+Jul 08 02:35:33 <amrita>	_pjp_, but didn't understand the 2nd part
+Jul 08 02:35:53 *	Kishan has quit ("Leaving")
+Jul 08 02:36:09 <_pjp_>	amrita: you changed/touched hello.c, so second time there was no need to compile greet.c again, was there?
+Jul 08 02:37:40 <amrita>	_pjp_, ok
+Jul 08 02:38:50 <amrita>	_pjp_, will you teach anything more today?
+Jul 08 02:39:24 <_pjp_>	okay guys and girls..please try to play around with gcc and make with some simple C programs of your choice, and see how you do.
+Jul 08 02:39:35 <_pjp_>	amrita: no, it's quite late today.
+Jul 08 02:39:45 <amrita>	_pjp_, thanks
+Jul 08 02:40:06 <amrita>	kushal, are you there?
+Jul 08 02:40:07 <_pjp_>	Will catch again on Wednesday/Thursday night, okay?
+Jul 08 02:40:12 <_pjp_>	kushal: ?
+Jul 08 02:40:15 <amrita>	ok
+Jul 08 02:40:30 <ria>	thanks _pjp_
+Jul 08 02:40:48 <ria>	kushal, my roll call
+Jul 08 02:40:57 <amrita>	ria, he he
+Jul 08 02:41:01 <_pjp_>	okay then good night all
+Jul 08 02:41:03 *	_pjp_ has quit ("Leaving.")
+

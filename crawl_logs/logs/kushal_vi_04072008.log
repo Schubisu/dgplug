@@ -1,0 +1,418 @@
+Jul 04 19:04:43 *	kushal has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | 7pm tags in Vim - Kushal | <-- CLASS STARTED -->
+Jul 04 19:04:47 <kushal>	eh
+Jul 04 19:04:50 <kushal>	rtnpro, yes 
+Jul 04 19:04:51 <rtnpro>	!
+Jul 04 19:05:12 <rtnpro>	kushal, I downloaded ecb yesterday in .gz
+Jul 04 19:05:24 <rtnpro>	kushal, How do i install it?
+Jul 04 19:06:02 <rtnpro>	kushal, ?
+Jul 04 19:06:09 <susenj>	rtnpro.is it tarball aur bunzip?
+Jul 04 19:06:42 <kushal>	rtnpro, will talk about later 
+Jul 04 19:06:48 <kushal>	brb, call 
+Jul 04 19:06:54 *	mobilesuit (n=freedom@59.93.254.100) has joined #dgplug
+Jul 04 19:07:21 <kushal>	btw, what is ecb , any link ?
+Jul 04 19:07:42 <rtnpro>	emacs code browser
+Jul 04 19:07:55 <kushal>	rtnpro, aren't you on fedora ?
+Jul 04 19:08:14 *	mobilesuit is away: away
+Jul 04 19:08:32 <rtnpro>	yes
+Jul 04 19:08:38 *	ria (n=ria@121.245.58.120) has joined #dgplug
+Jul 04 19:09:02 <kushal>	rtnpro, so, you can install it from yum repo itself 
+Jul 04 19:09:29 <kushal>	anyway back to task 
+Jul 04 19:10:13 <kushal>	To check the power of the tags in vi, you need some code where you can use it 
+Jul 04 19:10:56 <kushal>	so let us write some dummy code 
+Jul 04 19:11:56 <kushal>	or let me give some link to download 
+Jul 04 19:12:09 <ria>	!
+Jul 04 19:12:12 *	amrita has quit (Read error: 110 (Connection timed out))
+Jul 04 19:12:33 <kushal>	ria, yes
+Jul 04 19:12:43 <ria>	what are tags in vi?
+Jul 04 19:12:57 <ria>	i missed the previous part
+Jul 04 19:13:02 <ria>	<eof>
+Jul 04 19:13:42 <kushal>	ria, read yesterday's log 
+Jul 04 19:13:56 <ria>	kushal, ok
+Jul 04 19:14:33 <kushal>	so for now , download from https://svn.gnumonks.org/trunk/librfid/python/   all .c and .h files in some different folder 
+Jul 04 19:14:47 <kushal>	say yes here after you are done 
+Jul 04 19:15:38 <ria>	!
+Jul 04 19:16:01 <kushal>	ria, yes 
+Jul 04 19:16:12 <ria>	kushal, its giving on openening server certificate expired
+Jul 04 19:16:26 <ria>	kushal, after that i clicked on continue
+Jul 04 19:16:34 <susenj>	Page load error.kushal!
+Jul 04 19:16:44 <ria>	kushal, then possible reasons for error
+Jul 04 19:17:03 <ria>	after that examine certificate
+Jul 04 19:17:16 <ria>	and then three options to click on kushal
+Jul 04 19:17:25 <Kishan>	kushal, page isn't loading.
+Jul 04 19:17:38 *	Debashree (n=Debashre@61.2.164.223) has joined #dgplug
+Jul 04 19:18:14 <ria>	kushal, though after accepting temporarily i got a page
+Jul 04 19:18:20 <kushal>	people please fix your firefox bugs 
+Jul 04 19:18:41 <ria>	kushal, i think it worked for me finally
+Jul 04 19:18:42 <kushal>	ria, yes, that is a very well known firefox issue 
+Jul 04 19:18:45 <ria>	<eof>
+Jul 04 19:18:51 <susenj>	found that ..kushal
+Jul 04 19:18:54 <kushal>	Kishan, susenj try with other browser 
+Jul 04 19:18:55 <rtnpro>	Downloaded all the .c and .h files
+Jul 04 19:18:56 <susenj>	<eof>
+Jul 04 19:19:08 <kushal>	who else is done 
+Jul 04 19:19:09 <kushal>	?
+Jul 04 19:19:28 <ria>	kushal, can i check out the page?
+Jul 04 19:19:29 <rangeen>	me
+Jul 04 19:19:40 <kushal>	ria, don't know 
+Jul 04 19:19:46 <ria>	ok
+Jul 04 19:19:53 <susenj>	done!
+Jul 04 19:19:53 <ria>	kushal, i am doing a save as
+Jul 04 19:20:22 <kushal>	ria, ok, and no need for a commentary here 
+Jul 04 19:20:24 <rtnpro>	kushal, can we use python in c?
+Jul 04 19:20:48 <kushal>	rtnpro, can I use Windows in your mobile ?
+Jul 04 19:21:05 *	arpita (n=arpita@117.201.97.50) has joined #dgplug
+Jul 04 19:21:08 <rtnpro>	kushal, no
+Jul 04 19:21:17 <rtnpro>	kushal, it supports symbian
+Jul 04 19:21:21 <kushal>	rtnpro, we are discussing on tags in vi
+Jul 04 19:21:22 <arpita>	Debashree, chole eli?
+Jul 04 19:21:30 <rtnpro>	ok
+Jul 04 19:21:31 <kushal>	arpita, !
+Jul 04 19:21:44 <kushal>	open the pyrfid.c in vim
+Jul 04 19:21:49 <arpita>	kushal, sorry
+Jul 04 19:22:23 <kushal>	you all remember how we can issue shell commands in vi
+Jul 04 19:22:29 <Debashree>	arpita, yes just now i returned
+Jul 04 19:22:45 <kushal>	to create tags , we are going to use command ctags
+Jul 04 19:23:10 <kushal>	syntax for ctags  is
+Jul 04 19:23:17 <kushal>	ctags *.[ch]
+Jul 04 19:23:44 <kushal>	^^ above means any for any filename where it ends with .c or .h
+Jul 04 19:24:06 <kushal>	so, tell me how can I run that command inside of vi ?
+Jul 04 19:24:58 <kushal>	anyone ?
+Jul 04 19:25:04 <susenj>	in command mode just typing this :ctags *.[ch]
+Jul 04 19:25:08 <susenj>	just a guess
+Jul 04 19:25:13 <susenj>	<eof>
+Jul 04 19:25:28 <kushal>	susenj, that means you are *not* studying seriously 
+Jul 04 19:25:46 <kushal>	susenj, and also not taking classes seriously 
+Jul 04 19:26:01 <kushal>	susenj, don't guess things which have been taught 
+Jul 04 19:26:16 <kushal>	So, someone tell me
+Jul 04 19:26:25 <susenj>	sorry,kushal
+Jul 04 19:26:54 <kushal>	susenj, try the things at home, or else it is very difficult for anyone to remember 
+Jul 04 19:26:57 *	techno_freak (n=parthan@unaffiliated/teknofreak) has joined #dgplug
+Jul 04 19:27:29 >techno_freak<	techno_freak hi
+Jul 04 19:27:38 *	sumitc (n=chatzill@unaffiliated/sumitc) has joined #dgplug
+Jul 04 19:28:52 *	indradg (n=indradg@59.93.244.226) has joined #dgplug
+Jul 04 19:28:52 *	sumitc has quit (Client Quit)
+Jul 04 19:29:20 *	indradg_ has quit (Read error: 110 (Connection timed out))
+Jul 04 19:29:21 *	sumitc (n=chatzill@unaffiliated/sumitc) has joined #dgplug
+Jul 04 19:29:37 <Debashree>	kushal, is it :!
+Jul 04 19:29:47 *	khushi__ (n=khushbu@59.180.141.153) has joined #dgplug
+Jul 04 19:30:11 <kushal>	15 minutes break , emergency 
+Jul 04 19:30:13 <kushal>	will be back
+Jul 04 19:30:14 *	khushi__ has quit (Read error: 104 (Connection reset by peer))
+Jul 04 19:30:24 <Debashree>	kushal, :! ctags *.[ch]?
+Jul 04 19:31:18 <makghosh_>	Debashree: [ch] means c/h
+Jul 04 19:31:25 <techno_freak>	BREAK!
+Jul 04 19:32:12 <kushal>	Debashree, correct 
+Jul 04 19:32:12 *	Khushbu (n=khushbu@59.180.141.153) has joined #dgplug
+Jul 04 19:32:53 <Debashree>	makghosh_, then what is the difference?
+Jul 04 19:33:49 <makghosh_>	eh! .c is a c-source code and .h are header files
+Jul 04 19:35:57 <Debashree>	makghosh_, o.k
+Jul 04 19:36:20 *	khushi has quit (Read error: 110 (Connection timed out))
+Jul 04 19:36:34 *	Khushbu is now known as Khushi
+Jul 04 19:38:22 *	Debashree has quit ("Leaving")
+Jul 04 19:40:05 *	Debashree (n=Debashre@61.2.165.104) has joined #dgplug
+Jul 04 19:44:27 Python interface unloaded
+**** ENDING LOGGING AT Fri Jul  4 19:44:27 2008
+
+**** BEGIN LOGGING AT Fri Jul  4 19:44:44 2008
+
+Jul 04 19:44:44 *	Now talking on #dgplug
+Jul 04 19:44:44 *	Topic for #dgplug is:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | 7pm tags in Vim - Kushal | <-- CLASS STARTED -->
+Jul 04 19:44:44 *	Topic for #dgplug set by kushal at Fri Jul  4 19:05:21 2008
+Jul 04 19:44:45 *	#dgplug :[freenode-info] please register your nickname...don't forget to auto-identify! http://freenode.net/faq.shtml#nicksetup
+Jul 04 19:46:27 *	kushal has quit (Nick collision from services.)
+Jul 04 19:46:31 *	You are now known as kushal
+Jul 04 19:48:11 *	pushkal (n=chatzill@117.197.16.35) has joined #dgplug
+Jul 04 19:51:06 <kushal>	back
+Jul 04 19:51:30 <kushal>	so, now everyone please give the above stated command , and create tags file 
+Jul 04 19:53:07 <kushal>	you will find a new "tags" in that directory 
+Jul 04 19:53:52 <rtnpro>	kushal, where do we give this command?
+Jul 04 19:54:06 <kushal>	rtnpro, Debashree told that 
+Jul 04 19:54:23 <sumitc>	!
+Jul 04 19:54:30 <kushal>	sumitc, yes 
+Jul 04 19:54:36 <arpita>	!
+Jul 04 19:54:38 <sumitc>	I joined in late, so could you please repeat the command?
+Jul 04 19:54:42 <kushal>	sumitc, no
+Jul 04 19:55:15 <kushal>	arpita, yes 
+Jul 04 19:55:26 <rtnpro>	!
+Jul 04 19:55:35 <arpita>	what will the output be like?
+Jul 04 19:55:49 *	sumitc (n=chatzill@unaffiliated/sumitc) has left #dgplug
+Jul 04 19:56:01 <kushal>	arpita, do ls , and you will find a *tags* file in that directory 
+Jul 04 19:56:05 <kushal>	rtnpro, yes 
+Jul 04 19:56:19 <rtnpro>	ctags in html
+Jul 04 19:56:19 *	pushkal has quit ("ChatZilla 0.9.83 [Firefox 2.0.0.15/2008062306]")
+Jul 04 19:56:33 <rtnpro>	is that what should I get?
+Jul 04 19:56:45 <kushal>	rtnpro, no
+Jul 04 19:57:04 <arpita>	kushal, in which directory will i find the tags file?
+Jul 04 19:57:17 <kushal>	arpita, the directory you gave that ctags command 
+Jul 04 19:57:37 <ria>	kushal, i find tags not ctags
+Jul 04 19:57:54 <kushal>	ria, from the beginning I am telling *tags8 never told ctags
+Jul 04 19:58:06 <kushal>	ria, and type ! and wait before talk 
+Jul 04 19:58:38 <kushal>	everyone done >
+Jul 04 19:58:38 <kushal>	?
+Jul 04 19:58:44 *	mbuf has quit (Read error: 113 (No route to host))
+Jul 04 19:59:10 *	ChanServ gives channel operator status to kushal
+Jul 04 19:59:33 *	mbuf (n=shakthim@61.16.248.242) has joined #dgplug
+Jul 04 20:00:26 <arpita>	kushal, i got a file of name tags
+Jul 04 20:00:40 <kushal>	arpita, thats what i am telling for a long time 
+Jul 04 20:01:03 <ria>	!
+Jul 04 20:02:57 <kushal>	ria, yes
+Jul 04 20:03:00 <ria>	kushal, you said me to read yesterday's logs, but do you know they are no updated?
+Jul 04 20:03:13 <kushal>	ria, yes, 
+Jul 04 20:03:14 <ria>	sorry to ask this as it is not related
+Jul 04 20:03:25 <ria>	so how can i read?
+Jul 04 20:03:29 <ria>	anyways carry on
+Jul 04 20:03:29 <kushal>	ria, you should have the log, if you attended the class 
+Jul 04 20:03:32 <ria>	<eof>
+Jul 04 20:03:56 <kushal>	now , you can search different tags in source code 
+Jul 04 20:03:59 <ria>	kushal, ya but i thought of dowloading from there to get the exact one
+Jul 04 20:04:08 <ria>	<eof>
+Jul 04 20:04:32 <kushal>	ria, it is supposed to students' duty to maintain log 
+Jul 04 20:04:36 <kushal>	not ours 
+Jul 04 20:04:48 <kushal>	now open the pyrfid.c 
+Jul 04 20:04:58 <ria>	kushal, i thought its written at the topic that's why
+Jul 04 20:05:01 <ria>	sorry again
+Jul 04 20:05:07 <ria>	please move on
+Jul 04 20:05:10 <ria>	<eof>
+Jul 04 20:05:14 <kushal>	goto line 79
+Jul 04 20:05:19 <rtnpro>	kushal, got it
+Jul 04 20:05:34 <kushal>	there is a function call openpcd_open_reader 
+Jul 04 20:05:45 <kushal>	take the cursor to the first character of it 
+Jul 04 20:06:17 <arpita>	!
+Jul 04 20:06:22 <kushal>	Now if you want to see the definition 
+Jul 04 20:06:27 <kushal>	arpita, wait 
+Jul 04 20:06:38 <kushal>	definition of openpcd_open_reader
+Jul 04 20:06:44 <kushal>	press Ctrl + ]
+Jul 04 20:06:59 <kushal>	vi will take you to the proper file
+Jul 04 20:07:04 <kushal>	is it working ?
+Jul 04 20:07:24 <rtnpro>	something to export ..
+Jul 04 20:07:31 <rtnpro>	?
+Jul 04 20:07:33 <ria>	!
+Jul 04 20:07:37 <kushal>	arpita, yes 
+Jul 04 20:07:50 <kushal>	rtnpro, no idea what you are talking about 
+Jul 04 20:08:13 <rtnpro>	it took me here....
+Jul 04 20:08:15 <rtnpro>	EXPORT int EXPORT_CONVENTION openpcd_open_reader(MIFARE_HANDLE *handle)
+Jul 04 20:08:17 <rtnpro>	{
+Jul 04 20:08:17 <rtnpro>	    struct rfid_reader_handle *rh;
+Jul 04 20:08:17 <rtnpro>	    struct openpcd_state *state;
+Jul 04 20:08:17 <rtnpro>	    if(!handle)
+Jul 04 20:08:17 <rtnpro>	        return PCDERROR_INVALID_PARAMETER;
+Jul 04 20:08:18 <rtnpro>	        
+Jul 04 20:08:20 <rtnpro>	    rh = rfid_reader_open(NULL, RFID_READER_OPENPCD);
+Jul 04 20:08:22 <rtnpro>	    if(!rh)
+Jul 04 20:08:24 <rtnpro>	        return PCDERROR_NO_READER;
+Jul 04 20:08:39 <rtnpro>	kushal, is it what I should get?
+Jul 04 20:08:55 <kushal>	rtnpro, now I am going to kick you out for not using rafb.negt 
+Jul 04 20:08:58 <kushal>	rtnpro, now I am going to kick you out for not using rafb.net 
+Jul 04 20:09:02 <mbuf>	rtnpro, don't flood! Use rafb.net/paste
+Jul 04 20:09:08 <kushal>	guys
+Jul 04 20:09:23 <rtnpro>	ok..sorry
+Jul 04 20:09:25 <kushal>	please use http://rafb.net/paste for pasting the code 
+Jul 04 20:09:37 <kushal>	rtnpro, yes, see it is the definition 
+Jul 04 20:09:49 <kushal>	for everyone it is working ?
+Jul 04 20:10:37 <kushal>	please answer , yes, no ?
+Jul 04 20:10:45 <kushal>	Am I connected ?
+Jul 04 20:11:08 <arpita>	to open pyrfid.c what is the command?
+Jul 04 20:11:11 <ria>	!
+Jul 04 20:11:25 <ria>	!
+Jul 04 20:11:29 <rtnpro>	yes
+Jul 04 20:11:31 <kushal>	arpita, don't know, read the first vi class 
+Jul 04 20:11:35 <kushal>	ria, yes 
+Jul 04 20:11:48 <arpita>	that was vi pyrfid.c
+Jul 04 20:11:50 <ria>	is it the third brakett?
+Jul 04 20:11:54 <kushal>	ria, yes 
+Jul 04 20:11:58 <rtnpro>	arpita, vi <filename>
+Jul 04 20:12:02 <ria>	ctrl + third brakett?
+Jul 04 20:12:07 <kushal>	ria, yes 
+Jul 04 20:12:31 *	rangeen has quit ("Ah La La and Tata")
+Jul 04 20:12:49 <kushal>	ok, moving on
+Jul 04 20:12:50 <ria>	it gives ctags not found kushal
+Jul 04 20:13:00 <kushal>	ria, where you tried ?
+Jul 04 20:13:01 <ria>	did not work for me
+Jul 04 20:13:51 <ria>	i went to line 79 and then to 'o' of openpcd_open_reader(&handle))
+Jul 04 20:14:06 <ria>	after that pressed ctrl + }
+Jul 04 20:14:12 <kushal>	ria, ^^ 
+Jul 04 20:14:18 <ria>	*ctrl + ]
+Jul 04 20:14:45 <rtnpro>	kushal, !
+Jul 04 20:14:50 <kushal>	ria, do you have openpcd.c ?
+Jul 04 20:14:53 <kushal>	rtnpro, yes 
+Jul 04 20:15:12 <rtnpro>	why did we do "!ctags *.[ch]"
+Jul 04 20:15:29 <ria>	kushal, yes
+Jul 04 20:15:41 <ria>	openpcd.c ^^
+Jul 04 20:15:47 <rtnpro>	kushal, what's the significance of the tags file?
+Jul 04 20:15:49 <kushal>	rtnpro, we used ctags command on all .c and .h files in the current directory to create tags files 
+Jul 04 20:16:16 <kushal>	mbuf, ^^ you talked about this ?
+Jul 04 20:16:39 <rtnpro>	kushal, I opened tags through vi
+Jul 04 20:16:50 <kushal>	rtnpro, so ?
+Jul 04 20:16:59 <kushal>	then ?
+Jul 04 20:17:01 <mbuf>	kushal, use "find . -type f -name '*.[ch]' | xargs etags -a"
+Jul 04 20:17:06 *	techno_freak has quit (Read error: 110 (Connection timed out))
+Jul 04 20:17:22 <rtnpro>	there are a lot of .c and .h names written out there
+Jul 04 20:17:25 <kushal>	mbuf, I mean you told them about tags ?
+Jul 04 20:17:30 <mbuf>	kushal, yes
+Jul 04 20:17:35 <kushal>	rtnpro, yes
+Jul 04 20:17:44 <kushal>	rtnpro, see last night's log 
+Jul 04 20:17:49 <rtnpro>	kushal, but I can't relate that
+Jul 04 20:18:19 <rtnpro>	kushal, I am not understanding what I see in the tags file
+Jul 04 20:18:32 <kushal>	rtnpro, this tags file is kind of database for all tags in the code, like for functions, variables 
+Jul 04 20:18:40 <kushal>	rtnpro, yes
+Jul 04 20:19:04 <kushal>	rtnpro, so for now just do what I say, then do all experiments 
+Jul 04 20:19:12 <rtnpro>	kushal, are the numbers the location of the functions?
+Jul 04 20:19:16 <kushal>	ria, we will see your problem later 
+Jul 04 20:19:19 <rtnpro>	ok
+Jul 04 20:19:59 <kushal>	so after the first step, you can see in the line 203 ( 2 lines below) openpcd_state 
+Jul 04 20:20:13 <kushal>	so take your cursor there and press Ctrl + ]
+Jul 04 20:21:24 <kushal>	you will find 2 options given 
+Jul 04 20:21:31 <rtnpro>	It says choice number
+Jul 04 20:21:36 <kushal>	there is a kind column 
+Jul 04 20:21:44 <kushal>	written as s and v
+Jul 04 20:21:54 <kushal>	where s == structure , v = variable 
+Jul 04 20:22:01 <rtnpro>	yes
+Jul 04 20:22:03 <ria>	!
+Jul 04 20:22:14 <kushal>	if somewhere it shows f, it means fuction 
+Jul 04 20:22:20 <kushal>	* function 
+Jul 04 20:22:34 *	Debashree_ (n=Debashre@61.2.165.226) has joined #dgplug
+Jul 04 20:22:44 <kushal>	choose 1 or 2 anyon e
+Jul 04 20:22:47 <kushal>	anyone 
+Jul 04 20:22:49 <kushal>	ria, yes 
+Jul 04 20:23:18 <ria>	kushal, are you talking about the pyrfid.c file?
+Jul 04 20:23:26 *	parthan (n=parthan@unaffiliated/teknofreak) has joined #dgplug
+Jul 04 20:23:29 <kushal>	ria, we stared from there 
+Jul 04 20:23:41 <kushal>	ria, now we were in openpcd.c 
+Jul 04 20:23:43 <ria>	it's last line no is 128
+Jul 04 20:23:56 <ria>	ok will check it
+Jul 04 20:25:06 <kushal>	so, it will take you directly to the definition of openpcd_state structure if you chose 1, or to the struct openpcd_state variable at line 61
+Jul 04 20:25:28 <kushal>	now to see where you are give :tags 
+Jul 04 20:25:33 <ria>	kushal, will the cursor be taken to 'o'?
+Jul 04 20:25:44 <ria>	if so the same thing again
+Jul 04 20:25:54 <kushal>	ria, at first yes, anywhere in that function name
+Jul 04 20:26:03 <kushal>	ria, ok, we will see your problem later 
+Jul 04 20:26:26 <ria>	openpcd_state *state
+Jul 04 20:26:27 <kushal>	everyone tried tags command ?
+Jul 04 20:26:35 <ria>	is this the function name?
+Jul 04 20:27:01 <kushal>	no , that is after we chose to see openpcd_state structure 
+Jul 04 20:27:24 <ria>	then which one?
+Jul 04 20:27:33 <kushal>	ria, read scroll back 
+Jul 04 20:27:55 <ria>	i saw 2 lines below 203
+Jul 04 20:28:13 <kushal>	now to back to back to the main file again , press Ctrl + t 
+Jul 04 20:28:26 <kushal>	for our case you have to do that twice 
+Jul 04 20:28:26 <ria>	there i see if(!handle)
+Jul 04 20:29:09 <kushal>	ria, we talked about 203, please follow what is written here 
+Jul 04 20:29:47 <kushal>	working for everyone ?
+Jul 04 20:29:54 <susenj>	!
+**** BEGIN LOGGING AT Fri Jul  4 20:33:05 2008
+
+Jul 04 20:33:05 *	Now talking on #dgplug
+Jul 04 20:33:05 *	Topic for #dgplug is:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | 7pm tags in Vim - Kushal | <-- CLASS STARTED -->
+Jul 04 20:33:05 *	Topic for #dgplug set by kushal at Fri Jul  4 19:05:21 2008
+Jul 04 20:33:07 *	#dgplug :[freenode-info] if you need to send private messages, please register: http://freenode.net/faq.shtml#privmsg
+Jul 04 20:33:14 <kd_>	sorry got disconnected 
+Jul 04 20:33:35 *	kushal has quit (Nick collision from services.)
+Jul 04 20:33:35 -NickServ-	kushal has been ghosted.
+Jul 04 20:33:52 *	You are now known as kushal
+Jul 04 20:34:06 -NickServ-	You are now identified for kushal.
+Jul 04 20:34:06 *	services. sets mode +e kushal
+Jul 04 20:34:09 <susenj>	!
+Jul 04 20:34:13 <kushal>	susenj, yes 
+Jul 04 20:34:20 <ria>	is the first step done in pyrfid.c?
+Jul 04 20:34:21 <susenj>	kushal,i found    http://rafb.net/p/6LkmDA95.html
+Jul 04 20:34:34 <kushal>	ria, yes
+Jul 04 20:34:58 <kushal>	susenj, let me check 
+Jul 04 20:35:04 <ria>	ok kushal i am not able to understand which line you are talking of in openpcd.c
+Jul 04 20:35:24 <kushal>	ria, in 203 , openpcd_state press Ctrl + ] 
+Jul 04 20:35:53 <ria>	kushal, i said you that only earlier but you said no
+Jul 04 20:35:58 <kushal>	susenj, see your file names
+Jul 04 20:36:13 <susenj>	kushal ...i have checked them
+Jul 04 20:36:21 <susenj>	you may also see  http://rafb.net/p/FXlMJT96.html
+Jul 04 20:36:24 <kushal>	ria, yes, as you asked if that is a function or not, I replied that it is a structure name 
+Jul 04 20:36:27 <susenj>	<eof>
+Jul 04 20:36:46 <kushal>	susenj, delete tags file, and recreate it 
+Jul 04 20:36:49 <ria>	no i talked about the function only kushal
+Jul 04 20:37:00 <ria>	i did not ask is it a function or not
+Jul 04 20:37:16 <kushal>	ria, and again i am replying it is not a fuction 
+Jul 04 20:37:20 <kushal>	*function 
+Jul 04 20:37:26 <ria>	i asked about the function succeding
+Jul 04 20:37:40 <kushal>	no function after that 
+Jul 04 20:37:54 <susenj>	thanks...kushal..it's working<eof>
+Jul 04 20:37:55 <ria>	ok i understand
+Jul 04 20:38:04 <kushal>	ria, it will take you to the definition of the structure 
+Jul 04 20:38:11 <kushal>	susenj, ok :)
+Jul 04 20:38:17 <ria>	its not working for me anyways kushal
+Jul 04 20:38:22 <kushal>	ria, ok
+Jul 04 20:38:42 <ria>	kushal, i did not see that nicely
+Jul 04 20:38:55 <ria>	kushal, now checked it :)
+Jul 04 20:39:27 <kushal>	so, everyone worked ?
+Jul 04 20:40:37 <kushal>	anyone here ?
+Jul 04 20:41:40 <kushal>	no i think 
+Jul 04 20:43:06 <rtnpro>	yes
+Jul 04 20:43:14 <kushal>	rtnpro, worked ?
+Jul 04 20:43:23 *	Debashree_ (n=Debashre@61.2.164.164) has joined #dgplug
+Jul 04 20:43:35 <ria>	kushal, for me no
+Jul 04 20:43:40 *	drunkencoder (i=7aa70611@gateway/web/ajax/mibbit.com/x-a702fe2649bbd333) has joined #dgplug
+Jul 04 20:43:42 *	mbuf has quit ("shakthimaan.com")
+Jul 04 20:43:44 <kushal>	ria, I know 
+Jul 04 20:44:08 <rtnpro>	yes
+Jul 04 20:44:08 <ria>	i thought i belong to everyone so repleid
+Jul 04 20:44:14 <kushal>	ria, ok
+Jul 04 20:44:18 <ria>	*replied
+Jul 04 20:44:26 *	Debashree has quit (Nick collision from services.)
+Jul 04 20:44:27 *	Kishan has quit (Read error: 104 (Connection reset by peer))
+Jul 04 20:44:41 <susenj>	worked,kushal
+Jul 04 20:44:44 <kushal>	so, press Ctrl + t to come back to the main file (pyrfid.c)
+Jul 04 20:44:49 <rtnpro>	kushal, but I don't know...why is it saying that swap file runnning
+Jul 04 20:44:50 *	Debashree_ is now known as Debashree
+Jul 04 20:45:07 <kushal>	rtnpro, we will see it later 
+Jul 04 20:45:22 <kushal>	now to see/go different tags , type :tags and press tab
+Jul 04 20:45:31 *	Kishan (n=Kishan@218.248.70.235) has joined #dgplug
+Jul 04 20:45:48 <kushal>	:tag and then tab
+Jul 04 20:45:54 <kushal>	sorry for the typo 
+Jul 04 20:46:52 <kushal>	you will see all tags, now use arrow keys, and browse them 
+Jul 04 20:47:00 <kushal>	just like before  you did 
+Jul 04 20:48:40 <ria>	did not work again
+Jul 04 20:48:53 <kushal>	to come back to the fist level (first file ) use Ctrl + t
+Jul 04 20:49:04 <kushal>	ria, how use created tags file ?
+Jul 04 20:50:22 <kushal>	ria, I mean how you created ?
+Jul 04 20:50:32 <ria>	:! ctags *.[ch]?
+Jul 04 20:51:04 <kushal>	ria, and then it is showing a file called "tags" there 
+Jul 04 20:51:10 <kushal>	:!ls 
+Jul 04 20:51:17 <ria>	ya showing
+Jul 04 20:51:33 <kushal>	ria, now, type :tag and press tab ?
+Jul 04 20:51:34 <ria>	i did not do inside it ls
+Jul 04 20:51:45 <kushal>	ria, same 
+Jul 04 20:51:54 <kushal>	ria, no problem
+Jul 04 20:52:19 <ria>	kushal, will i do , :! ctags *.[ch] in openpcd.c or pyrfid.c?
+Jul 04 20:52:29 <kushal>	ria, anywhere 
+Jul 04 20:52:30 <ria>	i did it in pyrfid.c
+Jul 04 20:52:36 <kushal>	even from command promt 
+Jul 04 20:52:39 <kushal>	prompt 
+Jul 04 20:52:46 <kushal>	ctags *.[ch]
+Jul 04 20:52:54 <ria>	where then :tag + tab?
+Jul 04 20:53:07 <ria>	will it work in openpcd.c
+Jul 04 20:53:09 <ria>	?
+Jul 04 20:53:13 <kushal>	ria, in any file ? pyrfid.c ?
+Jul 04 20:53:20 <kushal>	ria, yes there too
+Jul 04 20:53:45 <ria>	kushal, but does not work for me
+Jul 04 20:54:00 <kushal>	ria, ok, we will check that after 
+Jul 04 20:54:07 <kushal>	anyone else is present ?
+Jul 04 20:54:14 <kushal>	Roll call again ?
+Jul 04 20:54:30 <rtnpro>	Ratnadeep Debnath
+Jul 04 20:54:30 <ria>	ria das
+Jul 04 20:54:34 <kushal>	anyone understand anything ?
+Jul 04 20:54:57 <Kishan>	kishan goyal
+Jul 04 20:54:59 *	#dgplug :You need to be a channel operator to do that
+Jul 04 20:55:07 *	ChanServ gives channel operator status to kushal
+Jul 04 20:55:12 <Debashree>	debashree banerjee
+Jul 04 20:55:12 *	kushal gives channel operator status to parthan
+Jul 04 20:55:20 <Khushi>	Khushbu Mohta
+Jul 04 20:56:01 <kushal>	Debashree, you tried anything ?
+Jul 04 20:57:06 <Debashree>	kushal, no i am presently not in linux
+Jul 04 20:57:11 <kushal>	Debashree, ok 
+Jul 04 20:57:21 <rtnpro>	kushal, see this error
+Jul 04 20:57:30 <rtnpro>	kushal, http://rafb.net/p/cMQNjN84.html
+Jul 04 20:57:42 <arpita>	arpita kapoor
+Jul 04 20:58:22 <rtnpro>	kushal, how do I solve it
+Jul 04 20:58:46 <kushal>	rtnpro, goto shell delete the file .pyrfid.c.swp
+Jul 04 21:00:04 <rtnpro>	done
+Jul 04 21:00:15 <rtnpro>	kushal, why did this happen>
+Jul 04 21:00:29 <kushal>	rtnpro, somehow that swap file kept back 
+Jul 04 21:00:42 <kushal>	anyways, i will create one video tonight on this
+Jul 04 21:01:00 *	kushal has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | 7pm tags in Vim - Kushal | <-- CLASS STOPPED -->

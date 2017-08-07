@@ -1,0 +1,1052 @@
+Jul 02 18:31:11 <kushal>	--------SESSION STARTS------
+Jul 02 18:31:11 <acetakwas>	kushal, hi
+Jul 02 18:31:12 *	sree has quit (Ping timeout: 255 seconds)
+Jul 02 18:31:14 *	abhi_poo (~abhi_poo@114.79.178.187) has joined #dgplug
+Jul 02 18:31:22 *	ruprela (~dharmesh@1.187.236.129) has joined #dgplug
+Jul 02 18:31:22 <kushal>	pingall: roll call
+Jul 02 18:31:23 <batul>	ruprela, abhi_poo, sukanya, gnovi, korak1, annesha_, Sannu, papiya, pratik, akki2200, girib, Adhyan, Amalesh, amittima, abhaykrish, noyal, Swarnava, gaurav2011, Jupiter, core_7, yeshi, acetakwas, zhean1874, Prash_542, umeshs, Koushik_Saha, senju, vignesh_, vignesh, iamviknesh, shilpi, leero9, mnw94, amit001, jaba, devyani, titli, bidisha, sj13, DhritiShikhar_, ramsan,
+Jul 02 18:31:23 <batul>	harsha, Deccan, vmk, Poornima, satarupa, koushik, arbi007, eeshangarg, rdas, lixxz, PraveenKarol, shashankqv, fz29, sambit, dev212, Anupkumar, mjnovice, deepu_tp, shiminsh, ace139, anarang, harshit933, kanika04, stultus, devmodem, swati, vivek-, orriols, vimal, ramkrsna, sivteck, soumyaC, harshit93, hari_, kanha, Jackson_waartaa, rahulch1, ajnr_, ciypro|afk, nithinr,
+Jul 02 18:31:23 <batul>	sgupta, droy, subho, elacheche, Armageddon, preludelinux, chaudhary, D4rk, oini, codaholic, SpeedBus, kdas_, liara, digisec, marienz, ralsina, @ChanServ, samikshan
+Jul 02 18:31:23 <batul>	roll call
+Jul 02 18:31:26 <harsha>	Harsha
+Jul 02 18:31:29 <acetakwas>	kushal, Well I'm early to class today; may I give a quick intro about myself since I missed that in my first class?
+Jul 02 18:31:31 <girib>	Giri
+Jul 02 18:31:32 <gnovi>	Praveen Patil
+Jul 02 18:31:32 <jaba>	Athira S
+Jul 02 18:31:33 <deepu_tp>	Deepu Philip
+Jul 02 18:31:34 <Prash_542>	Prashant
+Jul 02 18:31:35 <Poornima>	Poornima Kshirsagar
+Jul 02 18:31:38 <satarupa>	Satarupa Sinha
+Jul 02 18:31:39 <amittima>	Amit kumar
+Jul 02 18:31:39 <annesha_>	Annesha Chowdhury
+Jul 02 18:31:40 <mnw94>	Mayuresh Waykole
+Jul 02 18:31:41 <sivteck>	Sivaram Balakrishnan
+Jul 02 18:31:42 <amit001>	amit
+Jul 02 18:31:42 <pratik>	Pratik Saraf
+Jul 02 18:31:43 <leero9>	Aditya Nalluri
+Jul 02 18:31:43 <PraveenKarol>	Praveen Karol
+Jul 02 18:31:44 <sj13>	Shubheksha Jalan
+Jul 02 18:31:44 <Amalesh>	Aswin Kumar
+Jul 02 18:31:44 <titli>	Titli Das
+Jul 02 18:31:45 <dev212>	Dhanya N
+Jul 02 18:31:45 <sukanya>	Sukanya Mandal
+Jul 02 18:31:45 <papiya>	 /msg nickserv identify papiya papiyasen92
+Jul 02 18:31:46 <senju>	Vikash patil
+Jul 02 18:31:47 <noyal>	noyal,
+Jul 02 18:31:48 <korak1>	korak ghosh
+Jul 02 18:31:48 <Sannu>	sandeep singh
+Jul 02 18:31:49 <Jupiter>	Amrutha
+Jul 02 18:31:49 *	iamsudip (~iamsudip@unaffiliated/iam-sudip/x-2707379) has joined #dgplug
+Jul 02 18:31:49 <lixxz>	Yasharth
+Jul 02 18:31:53 <vmk>	vishwamitra kala
+Jul 02 18:31:58 <noyal>	noyal singhania
+Jul 02 18:31:58 <shilpi>	shilpi shukla
+Jul 02 18:31:58 <ruprela>	Dharmesh Ruprela
+Jul 02 18:31:59 <acetakwas>	Tosin Animashaun
+Jul 02 18:32:01 <eeshangarg>	Eeshan Garg
+Jul 02 18:32:01 <Swarnava>	Swarnava sengupta
+Jul 02 18:32:03 <ace139>	Soumyo Dey
+Jul 02 18:32:03 <codaholic>	Anjali
+Jul 02 18:32:09 <yeshi>	Yeshita Dutta
+Jul 02 18:32:10 <iamviknesh>	Vikneshwar L
+Jul 02 18:32:11 *	madhumita (~madhumita@106.51.53.251) has joined #dgplug
+Jul 02 18:32:14 <Koushik_Saha>	Koushik
+Jul 02 18:32:15 *	sree (~sreedevi@117.202.117.29) has joined #dgplug
+Jul 02 18:32:16 *	umeshs has quit (Read error: Connection reset by peer)
+Jul 02 18:32:17 *	heena (~heena@223.176.10.133) has joined #dgplug
+Jul 02 18:32:17 <abhi_poo>	Abhishek Poojary
+Jul 02 18:32:18 *	koushik_ (670ad002@gateway/web/freenode/ip.103.10.208.2) has joined #dgplug
+Jul 02 18:32:19 <arbi007>	arbaaz farooqi
+Jul 02 18:32:20 <Anupkumar>	Anup
+Jul 02 18:32:22 *	sree is now known as Mactoc
+Jul 02 18:32:24 <papiya>	Papiya Sen
+Jul 02 18:32:28 <koushik_>	Koushik Bag
+Jul 02 18:32:29 <shiminsh>	Kumari Shalini
+Jul 02 18:32:35 <core_7>	Athul Krishna
+Jul 02 18:32:37 *	umeshs (~androirc@182.156.145.136) has joined #dgplug
+Jul 02 18:32:37 <Mactoc>	Sreedevi
+Jul 02 18:32:39 *	CuriousLearner (3bb2de55@gateway/web/freenode/ip.59.178.222.85) has joined #dgplug
+Jul 02 18:32:45 <DhritiShikhar_>	Dhriti Shikhar
+Jul 02 18:32:48 <SpeedBus>	Arjit
+Jul 02 18:32:50 *	vipsy (~vipsy@117.197.23.99) has joined #dgplug
+Jul 02 18:32:50 *	tkkr6895 (~tkkr6895@122.172.202.115) has joined #dgplug
+Jul 02 18:32:51 <Adhyan>	Adhyan srivastva
+Jul 02 18:32:53 *	sj13_ (75c7aeb0@gateway/web/freenode/ip.117.199.174.176) has joined #dgplug
+Jul 02 18:32:58 <CuriousLearner>	Sanyam Khurana
+Jul 02 18:33:03 <abhaykrish>	Abhay Krishnan
+Jul 02 18:33:03 <tkkr6895>	Trishal Kumar
+Jul 02 18:33:04 <fz29>	Feroz Ahmad
+Jul 02 18:33:05 <vipsy>	Vipul Bansal
+Jul 02 18:33:06 *	gaurav__ (~gaurav@106.51.53.251) has joined #dgplug
+Jul 02 18:33:19 <zhean1874>	hean zhu
+Jul 02 18:33:23 <kanika04>	kanika narang
+Jul 02 18:33:31 *	ajnr (~ajnr@14.139.209.3) has joined #dgplug
+Jul 02 18:33:40 *	tkkr6895 (~tkkr6895@122.172.202.115) has left #dgplug
+Jul 02 18:33:41 *	surabhi (~surabhi@115.240.135.189) has joined #dgplug
+Jul 02 18:33:48 *	chandan_kumar is now known as chandankumar
+Jul 02 18:33:49 *	tkkr6895 (~tkkr6895@122.172.202.115) has joined #dgplug
+Jul 02 18:33:49 *	koushik has quit (Ping timeout: 246 seconds)
+Jul 02 18:33:59 <bidisha>	Bidisha Mukherjee
+Jul 02 18:34:14 <kushal>	good. 
+Jul 02 18:34:17 <akki2200>	Aakash
+Jul 02 18:34:20 *	umeshs has quit (Client Quit)
+Jul 02 18:34:25 <kushal>	acetakwas, Now you give your introduction :)
+Jul 02 18:34:34 <acetakwas>	Name: Tosin Animashaun | About Me: I am a Software Engineering student with NIIT, Nigeria. I'm a programming enthusiast with knowledge in Java, (x)HTML(4), CSS(3), and a bit of python, javascript, php. I love to explore all things TECH. I think that's how to learn best. "You may need to break things to breakthrough".
+Jul 02 18:34:40 <Sannu>	!
+Jul 02 18:34:44 *	qfarjad (~qfarjad@39.32.111.183) has joined #dgplug
+Jul 02 18:34:53 <kushal>	acetakwas, welcome :)
+Jul 02 18:34:54 *	umeshs (~androirc@182.156.145.136) has joined #dgplug
+Jul 02 18:34:58 <kushal>	next
+Jul 02 18:34:58 <batul>	Sannu please ask your question.. Sannu you are next. Get ready with your question.
+Jul 02 18:34:59 <Sannu>	may i also give introduction?
+Jul 02 18:35:01 <kushal>	next
+Jul 02 18:35:02 <batul>	Sannu please ask your question.
+Jul 02 18:35:06 <kushal>	Sannu, yes
+Jul 02 18:35:09 <kushal>	go ahead.
+Jul 02 18:35:14 *	stultus_ (~stultus@111.92.103.134) has joined #dgplug
+Jul 02 18:35:20 <acetakwas>	kushal, thanks
+Jul 02 18:35:27 <vignesh>	vignesh iyer
+Jul 02 18:35:30 <qfarjad>	Qazi Farjad
+Jul 02 18:35:37 <ajnr>	Anupam Jamatia
+Jul 02 18:35:38 *	acetakwas_ (~acetakwas@196.46.246.175) has joined #dgplug
+Jul 02 18:35:44 <Sannu>	sandeep singh,from new delhi. an engineering student of jamia hamdard. lover of python.
+Jul 02 18:35:51 *	dahl007 (~dahl@162-195-70-191.lightspeed.renonv.sbcglobal.net) has joined #dgplug
+Jul 02 18:35:51 *	obhee (~AndChat76@111.93.204.250) has joined #dgplug
+Jul 02 18:36:15 <kushal>	Any one else wants to give introduction? In case someone missed before.
+Jul 02 18:36:25 <umeshs>	Me
+Jul 02 18:36:28 <kushal>	Though it is difficult to remember, so many new nicks
+Jul 02 18:36:31 *	stultus has quit (Ping timeout: 248 seconds)
+Jul 02 18:36:32 <kushal>	umeshs, Go ahead.
+Jul 02 18:36:43 *	annesha (~annesha@117.194.120.25) has joined #dgplug
+Jul 02 18:36:44 *	charany1 (~yogeshwar@120.56.228.228) has joined #dgplug
+Jul 02 18:36:47 *	macrao (65dd8350@gateway/web/freenode/ip.101.221.131.80) has joined #dgplug
+Jul 02 18:36:49 <umeshs>	Umesh sharnagat .from  VNIT
+Jul 02 18:37:05 *	madhumita has quit (Quit: Leaving)
+Jul 02 18:37:06 *	charany1 is now known as yogeshwar
+Jul 02 18:37:07 <Anupkumar>	me
+Jul 02 18:37:09 <kushal>	umeshs, It will be better if you explain what is VNIT, 
+Jul 02 18:37:13 <kushal>	no one knowns
+Jul 02 18:37:14 *	harsha has quit (Ping timeout: 272 seconds)
+Jul 02 18:37:24 <SpeedBus>	Vellore ?
+Jul 02 18:37:25 *	dharmit (~shahdharm@unaffiliated/shahdharmit) has joined #dgplug
+Jul 02 18:37:31 <girib>	me
+Jul 02 18:37:34 <amit001>	varanasi?
+Jul 02 18:37:36 <senju>	nagpur
+Jul 02 18:37:38 <umeshs>	VNIT. Is NIT Nafpur
+Jul 02 18:37:38 <kushal>	SpeedBus, Vomit?
+Jul 02 18:37:38 <qfarjad>	varanasi?
+Jul 02 18:37:45 <SpeedBus>	lol nah
+Jul 02 18:37:57 *	dharmit has quit (Client Quit)
+Jul 02 18:37:58 <kushal>	See that is the point
+Jul 02 18:38:00 <umeshs>	Nagpur*
+Jul 02 18:38:05 <kushal>	haha
+Jul 02 18:38:08 *	nmzaheer (~zaheer@125.17.38.126) has joined #dgplug
+Jul 02 18:38:09 <acetakwas>	!
+Jul 02 18:38:10 <mnw94>	speedbus, no sms language :)
+Jul 02 18:38:15 *	gaurav__ has quit (Quit: Leaving)
+Jul 02 18:38:16 *	gaurav2011 has quit (Quit: Leaving)
+Jul 02 18:38:18 <qfarjad>	why is it VNIT then?
+Jul 02 18:38:18 <kushal>	umeshs, So  learn to say the full names :)
+Jul 02 18:38:19 <Prash_542>	This is Prashant from JNTU Kakinada
+Jul 02 18:38:33 *	annesha_ has quit (Ping timeout: 240 seconds)
+Jul 02 18:38:37 <qfarjad>	nevermind
+Jul 02 18:38:38 <kushal>	Prash_542, same what is JNTU?
+Jul 02 18:38:46 *	noyal has quit (Quit: Leaving)
+Jul 02 18:38:49 <girib>	This is Giri Bhatnagar from PESIT , Bangalore , 2nd year ISE student
+Jul 02 18:38:51 <Anupkumar>	I am Anup from Amrita university Bangalore campus. I am a mozilla contributor and a gnome contributor. I am a fan of python language.
+Jul 02 18:39:00 *	elita15 (~elita15@59.95.1.163) has joined #dgplug
+Jul 02 18:39:14 <mnw94>	Jawaharlal Nehru technological University, JNTU
+Jul 02 18:39:25 <senju>	qfarjad visvesvariya national institute of technology )vnit(
+Jul 02 18:39:33 <qfarjad>	oh ok
+Jul 02 18:39:36 <Sannu>	!
+Jul 02 18:39:36 *	Adhyan has quit (Ping timeout: 260 seconds)
+Jul 02 18:39:42 <kushal>	Anupkumar, Thanks for saying the full name.
+Jul 02 18:39:44 <kushal>	next
+Jul 02 18:39:45 <batul>	acetakwas please ask your question.. Sannu you are next. Get ready with your question.
+Jul 02 18:39:47 <kushal>	next
+Jul 02 18:39:48 <batul>	Sannu please ask your question.
+Jul 02 18:39:50 <Sannu>	today's topics? not mentioned in /topic
+Jul 02 18:39:52 <Mactoc>	me
+Jul 02 18:39:54 <yogeshwar>	!
+Jul 02 18:39:57 <Anupkumar>	kushal: you are welcome :)
+Jul 02 18:40:05 <nmzaheer>	Zaheer
+Jul 02 18:40:06 <acetakwas>	!
+Jul 02 18:40:11 <kushal>	Sannu, it was never mentioned in topic :)
+Jul 02 18:40:12 *	Adhyan (~Adhyan@223.189.75.246) has joined #dgplug
+Jul 02 18:40:12 <acetakwas>	I have two questions
+Jul 02 18:40:20 <kushal>	acetakwas, ask :)
+Jul 02 18:40:26 *	Azharh (~AndChat40@106.78.87.64) has joined #dgplug
+Jul 02 18:40:27 *	prajesh (~prawat@114.143.36.238) has joined #dgplug
+Jul 02 18:40:28 <Amalesh>	Hi This is Aswin Kumar ,did my Btech in Amrita University.Planning to do my higher studies in Computer Science.
+Jul 02 18:40:32 <nmzaheer>	!
+Jul 02 18:40:41 <acetakwas>	One: Is NIIT in India and does anyone know its full meaning?
+Jul 02 18:40:41 *	bidisha_ (bidisha@115.243.28.189) has joined #dgplug
+Jul 02 18:40:42 *	sambit has quit (Ping timeout: 244 seconds)
+Jul 02 18:40:50 <Sannu>	!
+Jul 02 18:40:56 *	bnprk (~vinay.par@112.79.37.41) has joined #dgplug
+Jul 02 18:41:17 *	novice-coder12 (783b6542@gateway/web/freenode/ip.120.59.101.66) has joined #dgplug
+Jul 02 18:41:18 <kushal>	acetakwas, I do not.
+Jul 02 18:41:31 <kushal>	acetakwas, It is in India.
+Jul 02 18:41:35 <Swarnava>	!
+Jul 02 18:41:35 <titli>	acetakwas, me too.
+Jul 02 18:41:41 <kushal>	Amalesh, hello
+Jul 02 18:41:45 *	rani (75c2563d@gateway/web/freenode/ip.117.194.86.61) has joined #dgplug
+Jul 02 18:41:46 <kushal>	next
+Jul 02 18:41:47 <batul>	yogeshwar please ask your question.. acetakwas you are next. Get ready with your question.
+Jul 02 18:41:50 <yogeshwar>	I am bit late,sorry for that ,are we done with roll call?<eof>
+Jul 02 18:41:51 <acetakwas>	two: This is a general question; is anyone in this community from Nigeria?
+Jul 02 18:41:51 *	chiral_ (~chiral@101.222.237.61) has joined #dgplug
+Jul 02 18:41:55 <kushal>	yogeshwar, yes
+Jul 02 18:42:07 <acetakwas>	oh sorry I missed batul
+Jul 02 18:42:09 <kushal>	acetakwas, nope, you are the first ever here.
+Jul 02 18:42:09 *	rani is now known as Guest89385
+Jul 02 18:42:13 <kushal>	next
+Jul 02 18:42:13 <acetakwas>	I'll wait my turn
+Jul 02 18:42:14 <batul>	acetakwas please ask your question.. nmzaheer you are next. Get ready with your question.
+Jul 02 18:42:19 <kushal>	next
+Jul 02 18:42:19 <batul>	nmzaheer please ask your question.. Sannu you are next. Get ready with your question.
+Jul 02 18:42:22 <nmzaheer>	Is /proc not part of FHS? if yes then why?
+Jul 02 18:42:23 <Swarnava>	I am swarnava sengupta..  Studying. Bachelor of computer application and i live in Kolkata :)
+Jul 02 18:42:29 *	harsha (~harsha@112.79.37.16) has joined #dgplug
+Jul 02 18:42:31 <leero9>	acetakwas congrats on exiting the  world cup
+Jul 02 18:42:37 <jaba>	acetakwas,India-Kerala
+Jul 02 18:42:37 <acetakwas>	kushal, okay thanks <eof>
+Jul 02 18:42:43 <Mactoc>	I am Sreedevi from Amrita University.
+Jul 02 18:42:51 <acetakwas>	leero9, lol
+Jul 02 18:42:53 *	sivteck has quit (Ping timeout: 252 seconds)
+Jul 02 18:42:57 <qfarjad>	*burn?
+Jul 02 18:42:59 <vipsy>	acetakwas, NIIT is in India too. https://en.wikipedia.org/wiki/NIIT
+Jul 02 18:42:59 *	zishan (~Sheesh@182.66.46.25) has joined #dgplug
+Jul 02 18:43:05 *	chiral_ is now known as sivteck
+Jul 02 18:43:11 *	ajnr has quit (Quit: Bye, I am leaving !)
+Jul 02 18:43:16 *	macrao has quit (Ping timeout: 246 seconds)
+Jul 02 18:43:19 *	Datta (~chatzilla@59.93.74.218) has joined #dgplug
+Jul 02 18:43:19 <acetakwas>	jaba, location, right?
+Jul 02 18:43:37 <kushal>	nmzaheer, It is a virtual file system. Read https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/proc-virt-fs.html 
+Jul 02 18:43:42 <acetakwas>	vipsy, thanks
+Jul 02 18:43:51 <nmzaheer>	ok thanks <eof>
+Jul 02 18:43:54 <jaba>	acetakwas,yes
+Jul 02 18:44:00 <titli>	Guest89385,
+Jul 02 18:44:05 <acetakwas>	jaba, thanks
+Jul 02 18:44:15 *	bidisha has quit (Ping timeout: 255 seconds)
+Jul 02 18:44:43 *	papiya has quit (Quit: Leaving)
+Jul 02 18:44:49 *	Adhyan has quit (Ping timeout: 272 seconds)
+Jul 02 18:44:51 <iamviknesh>	acetakwas it's National Institute of Information and Technology
+Jul 02 18:44:52 *	madangel (75cfeadb@gateway/web/freenode/ip.117.207.234.219) has joined #dgplug
+Jul 02 18:44:57 <nmzaheer>	!
+Jul 02 18:44:59 <kushal>	next
+Jul 02 18:44:59 <batul>	Sannu please ask your question.. Swarnava you are next. Get ready with your question.
+Jul 02 18:45:04 *	papiya (~papiya@117.227.24.58) has joined #dgplug
+Jul 02 18:45:41 <Swarnava>	kushal: i have already Introduced me :)
+Jul 02 18:45:58 <acetakwas>	iamviknesh, are you sure, because I have heard that isn't correct?
+Jul 02 18:46:33 <acetakwas>	!
+Jul 02 18:46:44 <iamviknesh>	acetakwas i did a course in NIIT , people say that :) not sure though
+Jul 02 18:46:49 <Mactoc>	acetakwas:http://www.niit.com/india/training
+Jul 02 18:47:00 *	souradeep (~de@101.221.131.6) has joined #dgplug
+Jul 02 18:47:02 <kushal>	next
+Jul 02 18:47:03 <batul>	Swarnava please ask your question.. nmzaheer you are next. Get ready with your question.
+Jul 02 18:47:05 <kushal>	next
+Jul 02 18:47:06 <batul>	nmzaheer please ask your question.. acetakwas you are next. Get ready with your question.
+Jul 02 18:47:08 <nmzaheer>	to change configuration of devices we need to modify files in /dev or /proc/devices?
+Jul 02 18:47:15 *	sukanya has quit (Quit: AndroIRC - Android IRC Client ( http://www.androirc.com ))
+Jul 02 18:47:26 <acetakwas>	Mactoc, thanks
+Jul 02 18:47:26 <acetakwas>	iamviknesh, okay
+Jul 02 18:47:33 <kanika04>	!
+Jul 02 18:47:37 *	Adhyan (~Adhyan@106.202.201.9) has joined #dgplug
+Jul 02 18:47:38 <nmzaheer>	afk(ramzan fasting) brb
+Jul 02 18:47:59 <kushal>	nmzaheer, I personally never played around with device files, so we have to ask around for that answer.
+Jul 02 18:48:00 *	Sannu has quit (Ping timeout: 260 seconds)
+Jul 02 18:48:05 *	sukanya (~androirc@101.221.129.18) has joined #dgplug
+Jul 02 18:48:19 *	tonythomas (uid25971@gateway/web/irccloud.com/x-mmvcjexepvzungwg) has joined #dgplug
+Jul 02 18:48:28 *	gnovi has quit (Read error: Connection reset by peer)
+Jul 02 18:48:33 *	Azharh has quit (Ping timeout: 240 seconds)
+Jul 02 18:48:46 *	Sannu (~Sandeep@120.56.182.169) has joined #dgplug
+Jul 02 18:49:10 <kushal>	next
+Jul 02 18:49:10 <batul>	acetakwas please ask your question.. kanika04 you are next. Get ready with your question.
+Jul 02 18:49:14 <kushal>	next
+Jul 02 18:49:15 <batul>	kanika04 please ask your question.
+Jul 02 18:49:16 <acetakwas>	Hmm...just curious, was batul coded in Python?
+Jul 02 18:49:20 <kushal>	acetakwas, yes
+Jul 02 18:49:24 <kanika04>	what is the difference between cat, less and more when all of them display the content of a file ?
+Jul 02 18:49:26 <Mactoc>	acetakwas: NIIT's offer many courses for undergraduates, and graduated students
+Jul 02 18:49:26 *	Sannu has quit (Client Quit)
+Jul 02 18:49:32 <acetakwas>	kushal, thanks
+Jul 02 18:49:32 <kushal>	acetakwas, you have too many extra dots.
+Jul 02 18:49:34 *	Sannu (~Sandeep@120.56.182.169) has joined #dgplug
+Jul 02 18:49:36 <mnw94>	!
+Jul 02 18:49:43 <leero9>	!
+Jul 02 18:50:00 <acetakwas>	kushal, that is actually a correct use of the ellipsis in English Language
+Jul 02 18:50:04 <dev212>	mactoc, the site you posted, isn't it a training company ??
+Jul 02 18:50:07 *	girib has quit (Quit: Leaving)
+Jul 02 18:50:26 <kushal>	acetakwas, yes, but try to avoid them in IRC :)
+Jul 02 18:50:27 <acetakwas>	Mactoc, Yes I'm a student @ NIIT here in Nigeria
+Jul 02 18:50:28 <kushal>	next
+Jul 02 18:50:29 <batul>	mnw94 please ask your question.. leero9 you are next. Get ready with your question.
+Jul 02 18:50:34 <mnw94>	Is batul opensource ? If so, where can I find the file
+Jul 02 18:50:40 <acetakwas>	kushal, okay
+Jul 02 18:50:46 *	noyal (~noyal@106.51.53.251) has joined #dgplug
+Jul 02 18:51:06 <amit001>	mnw94, on github
+Jul 02 18:51:28 *	Shankho (IceChat7@27.49.4.122) has joined #dgplug
+Jul 02 18:51:34 <acetakwas>	funny, but even batul uses 'ellipsis'
+Jul 02 18:52:01 <Mactoc>	dev212:It's an Indian company,  Global Talent development company
+Jul 02 18:52:21 <Mactoc>	acetakwas, Ok :)
+Jul 02 18:52:30 <mnw94>	amit001 , whose account ? I dint find it on Kushal's account
+Jul 02 18:52:31 *	annesha has quit (Ping timeout: 248 seconds)
+Jul 02 18:52:32 *	Prerie (7aa33d72@gateway/web/freenode/ip.122.163.61.114) has joined #dgplug
+Jul 02 18:52:54 <core_7>	!
+Jul 02 18:52:58 <Poornima>	!
+Jul 02 18:53:09 <kushal>	mnw94, https://github.com/kushaldas/theb0t/ source code for batul
+Jul 02 18:53:14 <mnw94>	amit001 , I found it . Thank You :)
+Jul 02 18:53:17 <kanika04>	kushal, my question was not answered
+Jul 02 18:53:19 <amit001>	mnw94, its on kushal's account with mybot name, maybe not the exact code of batul but the base code
+Jul 02 18:53:32 <leero9>	I never found any of my partitions in mnt folder they are all in media, but the log says different ?
+Jul 02 18:53:39 <kushal>	yes
+Jul 02 18:53:44 <kushal>	Wait everyone.
+Jul 02 18:53:51 <kushal>	Silence please
+Jul 02 18:54:16 *	tkkr6895 (~tkkr6895@122.172.202.115) has left #dgplug
+Jul 02 18:54:26 *	Sannu has quit (Ping timeout: 252 seconds)
+Jul 02 18:54:27 *	tkkr6895 (~tkkr6895@122.172.202.115) has joined #dgplug
+Jul 02 18:54:30 <acetakwas>	leero9, that's the default location for mounts except you explicitly mount in /mnt
+Jul 02 18:54:38 *	Sannu (~Sandeep@120.59.188.195) has joined #dgplug
+Jul 02 18:55:28 *	sagarkrkv (~sagarkrkv@124.123.17.253) has joined #dgplug
+Jul 02 18:55:47 <kushal>	Who wants to answer kanika04 ?
+Jul 02 18:56:12 *	elita15 has quit (Ping timeout: 244 seconds)
+Jul 02 18:56:20 <mnw94>	CAT prints the whole file, whereas less printd the last 10 lines by default
+Jul 02 18:56:23 <leero9>	thanks, acetakwas
+Jul 02 18:56:24 *	abhi_poo has quit (Ping timeout: 255 seconds)
+Jul 02 18:56:31 <iamviknesh>	kanika04: cat displays the entire content of the file , while less and more prints by page
+Jul 02 18:56:39 *	Guest89385 has quit (Quit: Page closed)
+Jul 02 18:57:33 <core_7>	!
+Jul 02 18:57:42 *	abhi_poo (~abhi_poo@114.79.178.187) has joined #dgplug
+Jul 02 18:57:45 <kushal>	kanika04, which distribution are you using?
+Jul 02 18:57:45 <kanika04>	thnks :)
+Jul 02 18:57:58 <kanika04>	fedora
+Jul 02 18:58:31 <kushal>	kanika04, Fedora 20?
+Jul 02 18:58:35 <madangel>	kanika04, no sms language
+Jul 02 18:58:56 <Poornima>	kanika04, do #man cat, #man less and #man more , now just read the first line you will get the difference
+Jul 02 18:58:56 <kanika04>	no, fedora 18
+Jul 02 18:59:04 <kanika04>	i have not upgraded it yet
+Jul 02 18:59:05 *	ranishaw (75c2563d@gateway/web/freenode/ip.117.194.86.61) has joined #dgplug
+Jul 02 18:59:12 <kanika04>	i will do it soon
+Jul 02 18:59:22 <kushal>	kanika04, ok
+Jul 02 18:59:22 <core_7>	!
+Jul 02 18:59:30 <kushal>	kanika04, do cat /usr/share/doc/glibc/LICENSES
+Jul 02 18:59:32 *	annesha (~annesha@117.194.120.127) has joined #dgplug
+Jul 02 18:59:32 <kushal>	and then
+Jul 02 18:59:36 <kushal>	less /usr/share/doc/glibc/LICENSES
+Jul 02 18:59:45 <kushal>	kanika04, you will find the differences.
+Jul 02 19:00:08 *	noyal has quit (Remote host closed the connection)
+Jul 02 19:00:30 <iamviknesh>	less allows you to scroll upwards and downwards . while more allows only downwards
+Jul 02 19:00:41 <kushal>	next
+Jul 02 19:00:41 <batul>	leero9 please ask your question.. core_7 you are next. Get ready with your question.
+Jul 02 19:01:02 <leero9>	I am done.
+Jul 02 19:01:04 <kushal>	next
+Jul 02 19:01:05 <batul>	core_7 please ask your question.. Poornima you are next. Get ready with your question.
+Jul 02 19:01:05 <kanika04>	kushal, it is showing
+Jul 02 19:01:08 <core_7>	where does the installed files go in ubuntu ? does ubuntu have some folder where the installed files goes by default?
+Jul 02 19:01:14 <kanika04>	no such file or directory
+Jul 02 19:01:29 <tonythomas>	core_7: you meant installed applications ?
+Jul 02 19:01:32 <kushal>	kanika04, ah, I am on F20
+Jul 02 19:01:35 <core_7>	yes
+Jul 02 19:01:36 <amit001>	kanika04, iamviknesh already answered your question
+Jul 02 19:01:40 <kushal>	but that file should be same.
+Jul 02 19:01:49 *	abhi_poo_ (~abhi_poo@114.79.178.187) has joined #dgplug
+Jul 02 19:01:51 <kushal>	core_7, FHS is same everywhere
+Jul 02 19:01:53 <kushal>	next
+Jul 02 19:01:54 <batul>	Poornima please ask your question.. core_7 you are next. Get ready with your question.
+Jul 02 19:01:59 <Poornima>	what is the difference between static and variable files ?
+Jul 02 19:02:07 *	obhee has quit (Ping timeout: 248 seconds)
+Jul 02 19:02:15 <PraveenKarol>	!
+Jul 02 19:02:21 <acetakwas>	core_7, look at: /var/cache/apt/archives
+Jul 02 19:02:42 <kanika04>	what should i do now ?
+Jul 02 19:02:54 <Anupkumar>	core_7: the installed files will be installed in different locations and the path to the file will be in $PATH
+Jul 02 19:02:56 kanha kanika04 kdas_ korak1 koushik_ Koushik_Saha kushal 
+Jul 02 19:03:00 *	elita15 (~elita15@59.95.1.163) has joined #dgplug
+Jul 02 19:03:08 <acetakwas>	core_7, keep in mind that linux apps use dependencies
+Jul 02 19:03:21 <kushal>	kanika04, download a big session log file and run both cat and less command on it.
+Jul 02 19:03:24 *	abhi_poo has quit (Ping timeout: 260 seconds)
+Jul 02 19:03:25 <DhritiShikhar_>	poornima, static files are files which rarely change. variable files are bound to change.
+Jul 02 19:03:39 <kushal>	next
+Jul 02 19:03:40 <batul>	core_7 please ask your question.. core_7 you are next. Get ready with your question.
+Jul 02 19:03:45 <kushal>	nextg
+Jul 02 19:03:45 *	arbi007 has quit (Quit: Leaving)
+Jul 02 19:03:46 <kushal>	next
+Jul 02 19:03:50 <batul>	core_7 please ask your question.. PraveenKarol you are next. Get ready with your question.
+Jul 02 19:03:51 <tonythomas>	also core_7, I would check in /usr/bin/ too
+Jul 02 19:04:25 <kanika04>	okay thnks :)
+Jul 02 19:04:25 <core_7>	<eof>
+Jul 02 19:04:45 <kanika04>	*thanks
+Jul 02 19:04:50 <kushal>	Ok, every one, please tell kanika04 that the spelling is thanks
+Jul 02 19:04:56 <PraveenKarol>	Suppose a software has been installed. How do we always make a particular file extension open with that software? <eof>
+Jul 02 19:05:02 prajesh Prash_542 pratik PraveenKarol praveenkumar preludelinux Prerie 
+Jul 02 19:05:04 <qfarjad>	kanika04, thanks*
+Jul 02 19:05:07 *	AndChat|503424 (~AndChat50@101.221.128.174) has joined #dgplug
+Jul 02 19:05:08 <Poornima>	DhritiShikhar_, well thats to generic answer  let me put it this way can we say all non-root /normal users accessible files termed as static ?
+Jul 02 19:05:20 <CuriousLearner>	You may say thanks or thank you. kanika04
+Jul 02 19:05:25 <kushal>	Poornima, where exactly you found static files ?
+Jul 02 19:05:35 <kushal>	Poornima, like under /usr/share 
+Jul 02 19:05:36 <kushal>	?
+Jul 02 19:05:37 <acetakwas>	kanika04, 'The spelling is thanks', lol
+Jul 02 19:05:44 <Poornima>	 /usr
+Jul 02 19:05:47 <kushal>	Poornima, everyone can read those files.
+Jul 02 19:06:01 papiya Poornima prajesh Prash_542 pratik PraveenKarol praveenkumar preludelinux Prerie 
+Jul 02 19:06:20 <vipsy>	kushal, static files are ones which can be modified only by administrator, right?
+Jul 02 19:06:22 <madangel>	kanika04,spelling is thanks
+Jul 02 19:06:33 <DhritiShikhar_>	poornima, non-root users usually have access to variable files, and not static files
+Jul 02 19:06:36 <kushal>	PraveenKarol, right click on that particular file, there should be an option for open with
+Jul 02 19:06:41 <tonythomas>	PraveenKarol: I think that is available from the file properties menu. atleast in KDE, its available. just do a right click > properties on one of the file and you will get it
+Jul 02 19:06:46 *	annesha has quit (Quit: Leaving)
+Jul 02 19:06:53 <kanika04>	ya i am sorry for that. but i guess i have already corrected the spelling :P
+Jul 02 19:07:08 *	thejaman (~thejazeto@115.253.183.33) has joined #dgplug
+Jul 02 19:07:22 <deepu_tp>	core_7:  dpkg-deb -c /var/cache/apt/archives/<some deb archive>.deb
+Jul 02 19:07:32 *	t4nk_ (0e63ddfb@gateway/web/freenode/ip.14.99.221.251) has joined #dgplug
+Jul 02 19:07:37 *	Swarnava has quit (Ping timeout: 272 seconds)
+Jul 02 19:07:41 <kushal>	vignesh, Poornima static files are the files which will not be changed in the course of the application, say running it or terminating the process.
+Jul 02 19:07:41 *	t4nk_ has quit (Client Quit)
+Jul 02 19:07:47 <kushal>	Like a logo image.
+Jul 02 19:07:53 *	annesha (~annesha@117.194.120.123) has joined #dgplug
+Jul 02 19:07:57 <kushal>	next
+Jul 02 19:07:58 <batul>	PraveenKarol please ask your question.
+Jul 02 19:08:00 <kushal>	next
+Jul 02 19:08:01 <batul>	No one is in queue.
+Jul 02 19:08:03 *	AndChat|503424 has quit (Client Quit)
+Jul 02 19:08:37 <kushal>	Any more questions?
+Jul 02 19:08:40 <Poornima>	kushal,  as the permissions are set to be read hence we can read those no write permission
+Jul 02 19:08:41 *	harshit93 has quit (Quit: Page closed)
+Jul 02 19:08:50 *	sukanya has quit (Remote host closed the connection)
+Jul 02 19:08:51 <kushal>	Poornima, yes.
+Jul 02 19:08:56 *	sukanya (~androirc@101.221.129.18) has joined #dgplug
+Jul 02 19:09:04 <acetakwas>	!
+Jul 02 19:09:04 <Poornima>	so read only files are static
+Jul 02 19:09:16 <Poornima>	am i getting it correctly ?
+Jul 02 19:09:37 <Sannu>	!
+Jul 02 19:09:41 <kanika04>	!
+Jul 02 19:09:55 <thejaman>	! sorry to barge in. Are we in Q&A section for yesterdays homework right now?
+Jul 02 19:09:57 <PraveenKarol>	!
+Jul 02 19:10:13 <mnw94>	!
+Jul 02 19:10:25 <acetakwas>	thejaman, no
+Jul 02 19:11:13 <kushal>	next
+Jul 02 19:11:14 <batul>	acetakwas please ask your question.. Sannu you are next. Get ready with your question.
+Jul 02 19:11:21 papiya Poornima prajesh Prash_542 pratik PraveenKarol praveenkumar preludelinux Prerie 
+Jul 02 19:11:24 <kushal>	Poornima, no, 
+Jul 02 19:11:27 <acetakwas>	I need to be clear on whether being static has to do with root access; a few folks mentioned that.
+Jul 02 19:11:35 <kushal>	Wait 
+Jul 02 19:11:40 <kushal>	Let me find another idea
+Jul 02 19:12:06 *	Poornima waits
+Jul 02 19:13:09 *	mbuf (~mbuf@122.164.141.3) has joined #dgplug
+Jul 02 19:13:34 *	yogeshwar has quit (Ping timeout: 240 seconds)
+Jul 02 19:14:12 <kushal>	Poornima, say your name, it is not supposed to change in your life time or afterwards, so you can call it a static one.
+Jul 02 19:14:13 <satarupa>	sorry
+Jul 02 19:14:43 *	shashankqv has quit (Quit: Leaving)
+Jul 02 19:14:44 <Poornima>	:D
+Jul 02 19:14:44 <kushal>	Poornima, but you nickname right now is something only you (root) can change, which is read only for us
+Jul 02 19:14:56 <kushal>	but it is not static
+Jul 02 19:15:03 <ruprela>	!
+Jul 02 19:15:06 <kushal>	tomorrow you may choose a newer and better name
+Jul 02 19:15:07 <kushal>	next
+Jul 02 19:15:07 <batul>	Sannu please ask your question.. kanika04 you are next. Get ready with your question.
+Jul 02 19:15:12 <Sannu>	when i was trying to install pyinstaller in fedora 20. it said , Tkinter module not installed. how to add Tkinter module to python libraries. ?
+Jul 02 19:15:35 <Sannu>	pip didn't worked
+Jul 02 19:15:49 <acetakwas>	I need to be clear on whether being static has to do with root access; a few folks mentioned that.
+Jul 02 19:15:55 *	shrees (0e638bda@gateway/web/freenode/ip.14.99.139.218) has joined #dgplug
+Jul 02 19:16:24 <nmzaheer>	"Static" files include binaries, libraries, documentation files and other files that do not change without system administrator intervention
+Jul 02 19:16:28 *	tkkr6895 (~tkkr6895@122.172.202.115) has left #dgplug
+Jul 02 19:16:29 *	shilpi has quit (Ping timeout: 272 seconds)
+Jul 02 19:16:42 <nmzaheer>	According to the FHS doc this is what they say about static files
+Jul 02 19:16:50 <Poornima>	kushal, the files which are changed by root are .... (Fill in the blanks) (hope this clears my concept)
+Jul 02 19:16:52 *	AndroUser2 (~androirc@182.156.148.238) has joined #dgplug
+Jul 02 19:16:53 <nmzaheer>	now look at the example of /usr as static
+Jul 02 19:17:19 <nmzaheer>	when you do an ls -l on /usr what do you see?
+Jul 02 19:17:37 <kushal>	Poornima, root's own/personal file 
+Jul 02 19:17:46 *	annesha has quit (Ping timeout: 272 seconds)
+Jul 02 19:17:56 <Poornima>	actually root has all access
+Jul 02 19:18:00 <acetakwas>	nmzaheer, I see: "bin  games  include  lib  local  sbin  share  src"
+Jul 02 19:18:01 <sayan>	Sannu, http://lmgtfy.com/?q=how+to+install+tkinter+in+linux
+Jul 02 19:18:11 *	shilpi (~shilpi@223.176.56.247) has joined #dgplug
+Jul 02 19:18:12 <nmzaheer>	you will see bin share local etc which are either binaries or docs which the non-root user should not modify in any case right?
+Jul 02 19:18:25 <tonythomas>	Poornima: but there are some files that can be manipulated only with root/ sudo access
+Jul 02 19:18:27 *	Shankho has quit (Quit: IceChat - Its what Cool People use)
+Jul 02 19:19:11 *	umeshs has quit (Ping timeout: 248 seconds)
+Jul 02 19:19:13 <jaba>	!
+Jul 02 19:19:33 <kushal>	next
+Jul 02 19:19:34 <batul>	kanika04 please ask your question.. PraveenKarol you are next. Get ready with your question.
+Jul 02 19:19:48 <acetakwas>	nmzaheer, okay
+Jul 02 19:19:50 <acetakwas>	<eof>
+Jul 02 19:19:52 <Poornima>	tonythomas, thats what root has all permissions if u give sudo permission to user it can also access those file
+Jul 02 19:19:54 <kanika04>	can u please tell me what is the use of pushd and popd commands ? i am not able to get it.
+Jul 02 19:20:15 <kushal>	Poornima, kanika04 The spelling is you.
+Jul 02 19:20:27 <kushal>	^^ everyone tell them the spelling is you.
+Jul 02 19:20:31 <kanika04>	sorry
+Jul 02 19:20:41 <madangel>	the spelling is you
+Jul 02 19:20:43 <tonythomas>	Poornima: true that . if the user is in the sudoers list.
+Jul 02 19:21:02 <Poornima>	sorry kushal
+Jul 02 19:21:08 *	ash_ (7aaf930e@gateway/web/freenode/ip.122.175.147.14) has joined #dgplug
+Jul 02 19:21:13 <nmzaheer>	!
+Jul 02 19:21:13 <iamviknesh>	kanika04:  push and popd is like a stack to handle directories
+Jul 02 19:21:14 <kushal>	kanika04, leave those two commands for now.
+Jul 02 19:21:19 *	ash_ has quit (Client Quit)
+Jul 02 19:21:26 <kushal>	kanika04, you can learn them later, no need now.
+Jul 02 19:21:32 <kushal>	Learn the rest properly.
+Jul 02 19:21:33 <kushal>	next
+Jul 02 19:21:34 <batul>	PraveenKarol please ask your question.. mnw94 you are next. Get ready with your question.
+Jul 02 19:21:36 <PraveenKarol>	Regarding, opening of files in Ubuntu 14.04GNome. This rigtht click option and open with other applications does not list all the applications. We've to manually search for the applications. Is it possible to get the applications listed as in Windows?
+Jul 02 19:21:40 *	annesha (~annesha@117.194.120.66) has joined #dgplug
+Jul 02 19:21:43 <kanika04>	okay :)
+Jul 02 19:21:46 <Poornima>	tonythomas, yes
+Jul 02 19:21:48 <CuriousLearner>	kanika04: pushd actually makes a stack and push it to your current path, popd helps in removing that. It just help you in moving back and forth with ease.
+Jul 02 19:21:48 *	ash_ (7aaf930e@gateway/web/freenode/ip.122.175.147.14) has joined #dgplug
+Jul 02 19:21:56 *	ash_ has quit (Client Quit)
+Jul 02 19:22:06 <Jupiter>	kanika04  pushd will save the current directory to a stack and switch to the specified directory
+Jul 02 19:22:07 <kushal>	PraveenKarol, Do not know that, ask in the Ubuntu channels for more help.
+Jul 02 19:22:19 <lixxz>	 ^^
+Jul 02 19:22:21 <vipsy>	kanika04, when you decide to to move to another directory from your current working directory, you use pushd. When you want to come back to the previous directory you were working in, popd
+Jul 02 19:22:25 <PraveenKarol>	<eos>
+Jul 02 19:22:28 <kushal>	next
+Jul 02 19:22:29 <batul>	mnw94 please ask your question.. ruprela you are next. Get ready with your question.
+Jul 02 19:22:31 <mnw94>	How do I delete a file so that it goes to the trash directory ?  I am using Ubuntu 14.04 .
+Jul 02 19:22:38 *	humpty (7aaf930e@gateway/web/freenode/ip.122.175.147.14) has joined #dgplug
+Jul 02 19:22:49 <kanika04>	thank you everyone
+Jul 02 19:22:50 <kanika04>	:)
+Jul 02 19:22:52 <mnw94>	I found this, but its not a complete answer http://askubuntu.com/questions/307505/delete-files-to-trash
+Jul 02 19:22:54 <kushal>	mnw94, Trash is only for desktops, in command line we do not have that.
+Jul 02 19:22:59 <tonythomas>	PraveenKarol: I dont know Gnome personally, but is there an option 'other' where we can type in some application name ?
+Jul 02 19:23:18 <iamviknesh>	kanika04: see the hack 5 here http://goo.gl/Bl05f
+Jul 02 19:23:23 <mnw94>	Thank You, Kushal
+Jul 02 19:23:40 <PraveenKarol>	tonythomas :thank you
+Jul 02 19:23:48 <kushal>	next
+Jul 02 19:23:49 <batul>	ruprela please ask your question.. jaba you are next. Get ready with your question.
+Jul 02 19:23:50 <ruprela>	while practicing shell commands,there may be some commands that may harm our computer.So how to avoid this situation ?
+Jul 02 19:24:16 <kushal>	ruprela, Create a vm and try the commands in that vm. 
+Jul 02 19:24:16 <kanika04>	thank you iamviknesh
+Jul 02 19:24:20 <tonythomas>	PraveenKarol: yeah. the inputbox there can readily take in application names, something we wont get in windows by the way.
+Jul 02 19:24:32 <nmzaheer>	the messages pertaining to people joining and quiting the channel is annoying.Can we filter those messages?
+Jul 02 19:24:33 <kushal>	So that even if something is wrong, your main computer is perfect
+Jul 02 19:24:37 <ruprela>	kushal, any other way ?
+Jul 02 19:24:56 <kushal>	ruprela, unless you break your system, you will not learn many things.
+Jul 02 19:24:57 <Poornima>	ruprela, yes vm or use sudo on physical system
+Jul 02 19:25:22 <ruprela>	yes you are right
+Jul 02 19:25:23 *	yogeshwar (~yogeshwar@120.56.231.31) has joined #dgplug
+Jul 02 19:25:27 <ruprela>	thank you
+Jul 02 19:25:31 <kushal>	How many people here has a desktop?
+Jul 02 19:25:49 <kushal>	Say yes if you have any, do not say anything if you do not have one.
+Jul 02 19:25:55 <mnw94>	yes
+Jul 02 19:25:57 <vipsy>	Yes
+Jul 02 19:25:58 *	vmk has quit (Ping timeout: 246 seconds)
+Jul 02 19:25:59 <eeshangarg>	yes
+Jul 02 19:25:59 <abhaykrish>	yes
+Jul 02 19:26:00 <sivteck>	yes
+Jul 02 19:26:03 <koushik_>	yes
+Jul 02 19:26:03 <madangel>	yes
+Jul 02 19:26:05 <codaholic>	yes
+Jul 02 19:26:10 <prajesh>	yes
+Jul 02 19:26:13 <pratik>	yes
+Jul 02 19:26:24 <iamviknesh>	yes
+Jul 02 19:26:25 <leero9>	yes
+Jul 02 19:26:30 <Jupiter>	yes
+Jul 02 19:26:37 <amittima>	yes
+Jul 02 19:26:38 <Mactoc>	yes
+Jul 02 19:26:54 <shilpi>	yes
+Jul 02 19:26:56 <CuriousLearner>	yes
+Jul 02 19:26:59 <heena>	yes
+Jul 02 19:26:59 <abhi_poo_>	yes
+Jul 02 19:27:02 <dev212>	yes
+Jul 02 19:27:05 <papiya>	yes
+Jul 02 19:27:08 *	ahhda (~anuj@101.57.253.176) has joined #dgplug
+Jul 02 19:27:10 <iamviknesh>	kushal: sorry i dont have desktop ;) i have laptop
+Jul 02 19:27:19 <titli>	kushal, ^^
+Jul 02 19:27:34 <titli>	:P
+Jul 02 19:27:37 <jaba>	yes
+Jul 02 19:27:44 <kushal>	I said in case you do not have one, say nothing.
+Jul 02 19:27:50 *	Pushkar_Raj (~rajpushka@42.104.27.133) has joined #dgplug
+Jul 02 19:27:51 <Amalesh>	yes
+Jul 02 19:27:57 <kushal>	lesser noise is better.
+Jul 02 19:28:06 <ramsan>	batul: yes
+Jul 02 19:28:31 <kushal>	So why am I asking this?
+Jul 02 19:28:32 *	acetakwas_ has quit (Ping timeout: 272 seconds)
+Jul 02 19:28:32 *	acetakwas has quit (Ping timeout: 272 seconds)
+Jul 02 19:28:43 *	acetakwas (~acetakwas@196.46.245.119) has joined #dgplug
+Jul 02 19:28:50 <nmzaheer>	to install a vm?
+Jul 02 19:28:53 <kushal>	During our sessions this year, we will try to teach you how to use private clouds, 
+Jul 02 19:29:12 <kushal>	and using those private clouds you can actually learn a lot of things.
+Jul 02 19:29:23 <vignesh>	yes
+Jul 02 19:29:32 <kushal>	I had this blog post http://kushaldas.in/posts/why-private-cloud-matters-to-the-students.html
+Jul 02 19:30:05 <iamviknesh>	kushal: using openstack ??
+Jul 02 19:30:18 <kushal>	iamviknesh, using any FOSS cloud techs.
+Jul 02 19:30:27 <jaba>	!
+Jul 02 19:30:28 <kushal>	next
+Jul 02 19:30:28 <batul>	jaba please ask your question.. nmzaheer you are next. Get ready with your question.
+Jul 02 19:30:33 <jaba>	Why do some commands don't have manual entry?
+Jul 02 19:30:34 <kanika04>	!
+Jul 02 19:30:57 <acetakwas>	how do I refresh xchat? I'm no longer receiving messages
+Jul 02 19:30:58 *	annesha has quit (Ping timeout: 264 seconds)
+Jul 02 19:31:00 <kushal>	jaba, because the authors who wrote those commands thought that they do not need one, so the world do not need one.
+Jul 02 19:31:09 <kushal>	next
+Jul 02 19:31:10 <batul>	nmzaheer please ask your question.. jaba you are next. Get ready with your question.
+Jul 02 19:31:13 <nmzaheer>	the messages pertaining to people joining and quiting the channel is annoying.Can we filter those messages in Xchat?
+Jul 02 19:31:21 <leero9>	I dint know that :O
+Jul 02 19:31:22 *	vignesh (uid36483@gateway/web/irccloud.com/x-xotlbjgpmpfwlrpj) has left #dgplug
+Jul 02 19:31:41 *	annesha (~annesha@117.194.120.66) has joined #dgplug
+Jul 02 19:31:59 <kushal>	nmzaheer, not sure, just google.
+Jul 02 19:32:01 <kushal>	next
+Jul 02 19:32:02 <batul>	jaba please ask your question.. kanika04 you are next. Get ready with your question.
+Jul 02 19:32:12 <kanika04>	what is a private cloud ?
+Jul 02 19:32:19 <jaba>	<eof>
+Jul 02 19:32:25 <acetakwas>	!
+Jul 02 19:32:34 <yogeshwar>	!
+Jul 02 19:32:45 <kushal>	 kanika04 eh, we said to jaba to ask the question?
+Jul 02 19:32:54 <kushal>	or kanika04 and jaba are same person?
+Jul 02 19:33:05 <kushal>	next
+Jul 02 19:33:05 <batul>	kanika04 please ask your question.. acetakwas you are next. Get ready with your question.
+Jul 02 19:33:10 <kanika04>	sorry kushal
+Jul 02 19:33:11 <nmzaheer>	ok <eof>
+Jul 02 19:33:25 <acetakwas>	please I'm no longer receiving messages...how do I refresh xchat
+Jul 02 19:33:31 <prajesh>	Private cloud is  a cloud computing platform that is implemented within the corporate firewall, under the control of the IT department.
+Jul 02 19:33:37 <amit001>	acetakwas, reconnect
+Jul 02 19:33:42 <kushal>	acetakwas, ^^
+Jul 02 19:33:42 *	novice-coder12 has quit (Quit: Page closed)
+Jul 02 19:33:46 <tonythomas>	acetakwas: try https://www.waartaa.com/
+Jul 02 19:33:52 <ramsan>	Private cloud is cloud infrastructure operated solely for a single organization, whether managed internally or by a third-party, and hosted either internally or externally
+Jul 02 19:34:01 <nmzaheer>	acetakwas,close xchat and reopen it once again
+Jul 02 19:34:01 <sayan>	acetakwas, remove the channel and join again
+Jul 02 19:34:06 <prajesh>	for example gmail is a public cloud.
+Jul 02 19:34:21 <kushal>	kanika04, Private clouds are the cloud systems which can be installed on your own infrastructure. It will not be running on someone else's hardware.
+Jul 02 19:34:40 *	Pushkar_Raj has quit (Ping timeout: 260 seconds)
+Jul 02 19:34:41 <nmzaheer>	!
+Jul 02 19:34:43 *	senju has quit (Ping timeout: 246 seconds)
+Jul 02 19:34:48 <kushal>	kanika04, so for students, it can be their desktops where they will run their own cloud
+Jul 02 19:34:51 <kushal>	next
+Jul 02 19:34:52 <batul>	acetakwas please ask your question.. yogeshwar you are next. Get ready with your question.
+Jul 02 19:34:55 <ramsan>	private cloud is more secure when compared to public cloud
+Jul 02 19:35:02 <kushal>	next
+Jul 02 19:35:02 <batul>	yogeshwar please ask your question.. nmzaheer you are next. Get ready with your question.
+Jul 02 19:35:04 <yogeshwar>	can cloud possibly be a substitute for hard drives in future?what's your opinion?
+Jul 02 19:35:11 <kanika04>	okay thanks.
+Jul 02 19:35:12 <kushal>	yogeshwar, Nope.
+Jul 02 19:35:12 <leero9>	!
+Jul 02 19:35:15 <kushal>	next
+Jul 02 19:35:16 <batul>	nmzaheer please ask your question.. leero9 you are next. Get ready with your question.
+Jul 02 19:35:17 <iamviknesh>	jaba:basically shell builtin commands dont have mna page , like cd
+Jul 02 19:35:18 <yogeshwar>	why so?
+Jul 02 19:35:22 *	acetakwas_ (~acetakwas@196.46.245.121) has joined #dgplug
+Jul 02 19:35:27 <nmzaheer>	no question.I'll google
+Jul 02 19:35:33 <iamviknesh>	jaba: s/mna/man
+Jul 02 19:35:40 <kushal>	yogeshwar, All those clouds there run on harddrives 
+Jul 02 19:35:52 <acetakwas>	<eof>
+Jul 02 19:35:57 <kushal>	yogeshwar, also guessing the future is out of these sessions
+Jul 02 19:36:15 *	acetakwas has quit (Disconnected by services)
+Jul 02 19:36:18 <kushal>	yogeshwar, I can do that if someone sends me a million dollar pack.
+Jul 02 19:36:20 <kushal>	next
+Jul 02 19:36:21 <batul>	leero9 please ask your question.
+Jul 02 19:36:30 *	acetakwas_ is now known as acetakwas
+Jul 02 19:36:30 <yogeshwar>	i mean we won't require to have a personal Hard drive in our systems.
+Jul 02 19:36:33 <leero9>	Cant we start a cloud on a laptop or anything with a hard disk and an UI ?
+Jul 02 19:36:50 *	EkAurBottleLa (b6423f1f@gateway/web/freenode/ip.182.66.63.31) has joined #dgplug
+Jul 02 19:36:58 <iamviknesh>	jaba: so how to know , whether its a builtin command
+Jul 02 19:36:58 <jaba>	iamviknesh,ok thanks
+Jul 02 19:37:03 <leero9>	EOF
+Jul 02 19:37:04 <ramsan>	yes,but resources will be less
+Jul 02 19:37:24 *	annesha has quit (Ping timeout: 272 seconds)
+Jul 02 19:37:24 <kushal>	leero9, yes, you can start a cloud on your laptop but that means if you make a mistake you will have to clean install your laptop
+Jul 02 19:37:26 <kushal>	next
+Jul 02 19:37:27 <batul>	No one is in queue.
+Jul 02 19:37:33 <ruprela>	ramsan,by resource you mean hard disk space or something els ?
+Jul 02 19:37:34 <qfarjad>	!
+Jul 02 19:37:36 <ruprela>	*else
+Jul 02 19:37:38 <nmzaheer>	iamviknesh, check /bin i suppose
+Jul 02 19:37:39 <iamviknesh>	jaba: so type this------> type  <command>
+Jul 02 19:37:51 *	Sannu has quit (Ping timeout: 248 seconds)
+Jul 02 19:37:55 <ramsan>	hard disk space
+Jul 02 19:38:02 *	annesha (~annesha@117.194.120.66) has joined #dgplug
+Jul 02 19:38:05 <iamviknesh>	nmzaheer: i was answering :P
+Jul 02 19:38:05 <ruprela>	ok
+Jul 02 19:38:12 <ramsan>	and CPU capacity
+Jul 02 19:38:39 <iamviknesh>	jaba: type cd <------ do this , it will says its a builtin command
+Jul 02 19:38:42 <ramsan>	i mean processing speed will be less
+Jul 02 19:39:15 <acetakwas>	ramsan, so real clouds are supercomputers more or less right?
+Jul 02 19:39:20 *	mnw94 has quit (Ping timeout: 260 seconds)
+Jul 02 19:39:23 <kushal>	acetakwas, no
+Jul 02 19:39:36 <jaba>	iamviknesh,Ok I understood.Thank you
+Jul 02 19:39:42 <kushal>	acetakwas, these days they are normal desktops or sometimes powerful servers
+Jul 02 19:39:50 *	vipsy has quit (Quit: Leaving)
+Jul 02 19:40:09 *	Deccan has quit (Quit: Page closed)
+Jul 02 19:40:29 <kushal>	acetakwas, http://kushaldas.in/posts/cloud-on-desk.html here is a cloud running on my desk.
+Jul 02 19:40:31 *	elita15 has quit (Ping timeout: 248 seconds)
+Jul 02 19:40:32 <qfarjad>	why do we have to clean install on laptops in case of a mistake? whats the difference between setting up a private cloud on a desktop and setting up a private cloud on a laptop?
+Jul 02 19:40:34 <acetakwas>	kushal, What are servers? Isn't that just another fancy term for highly resourced Desktop Computers?
+Jul 02 19:40:38 *	Adhyan has quit (Ping timeout: 244 seconds)
+Jul 02 19:40:41 <iamviknesh>	jaba: anyway , you can find their manual in manual for bash -----> man bash
+Jul 02 19:40:45 <kushal>	acetakwas, yes.
+Jul 02 19:40:52 <kushal>	acetakwas, you can say that.
+Jul 02 19:41:10 <acetakwas>	kushal, okay
+Jul 02 19:41:18 <kushal>	next
+Jul 02 19:41:19 <batul>	qfarjad please ask your question.
+Jul 02 19:41:26 <acetakwas>	<eof>
+Jul 02 19:41:31 <qfarjad>	 why do we have to clean install on laptops in case of a mistake? whats the difference between setting up a private cloud on a desktop and setting up a private cloud on a laptop? <eof>
+Jul 02 19:41:45 *	mnw94 (~mnw@49.200.119.251) has joined #dgplug
+Jul 02 19:42:04 *	zhean1874 has quit (Quit: ç¦»å¼)
+Jul 02 19:42:05 <kushal>	qfarjad, generally we all use our laptops as our primary computer. That means all important files here. 
+Jul 02 19:42:21 <mnw94>	!
+Jul 02 19:42:31 <kushal>	Then we can do experiments on our desktops, even if something is wrong, you can just format it.
+Jul 02 19:42:34 <qfarjad>	oh, so no need to worry then (No important files here)
+Jul 02 19:42:34 <kushal>	mnw94, tell me
+Jul 02 19:42:37 <leero9>	!
+Jul 02 19:42:38 <mnw94>	can i run the private cloud and access it from the same laptop ?
+Jul 02 19:42:47 <kushal>	mnw94, yes
+Jul 02 19:42:53 <kushal>	Ok, no more cloud questions.
+Jul 02 19:43:03 <acetakwas>	kushal, lol
+Jul 02 19:43:04 <lixxz>	mnw94, it is called cloud for a reason
+Jul 02 19:43:10 <Jupiter>	:-8
+Jul 02 19:43:12 <jaba>	iamviknesh,ok
+Jul 02 19:43:15 <kushal>	There will be a session on private cloud after 14 by a guest speaker.
+Jul 02 19:43:17 <acetakwas>	before we all start floating
+Jul 02 19:43:25 <kushal>	acetakwas, hehe.
+Jul 02 19:43:50 *	vmk (b6421235@gateway/web/freenode/ip.182.66.18.53) has joined #dgplug
+Jul 02 19:43:55 <qfarjad>	I have to leave (Ramadan Fast). Bye
+Jul 02 19:43:57 <prajesh>	end of cloud session.
+Jul 02 19:44:00 <acetakwas>	kushal, do you mean d'ay' 14?
+Jul 02 19:44:02 *	qfarjad has quit (Quit: Leaving)
+Jul 02 19:44:07 <kushal>	qfarjad, ok, bye,
+Jul 02 19:44:07 <mnw94>	Kushal, Thats great . Who would be the speaker ?
+Jul 02 19:44:09 <Anupkumar>	Jupiter: no smiley's allowed here
+Jul 02 19:44:16 <kushal>	mnw94, wait and see.
+Jul 02 19:44:17 <acetakwas>	kushal, sorry 'day'*
+Jul 02 19:44:18 *	senju (3bb8f8c4@gateway/web/freenode/ip.59.184.248.196) has joined #dgplug
+Jul 02 19:44:18 *	unknown21 (78399a06@gateway/web/freenode/ip.120.57.154.6) has joined #dgplug
+Jul 02 19:44:20 <Jupiter>	oh i am sorry
+Jul 02 19:44:41 <kushal>	Anupkumar, Jupiter actually text based ones do.
+Jul 02 19:44:48 <kushal>	We use them always.
+Jul 02 19:44:52 *	Prerie has quit (Ping timeout: 246 seconds)
+Jul 02 19:44:55 *	encipher_ (uid35484@gateway/web/irccloud.com/x-mlcwmbsviaxfzdfa) has joined #dgplug
+Jul 02 19:45:08 <nmzaheer>	kushal, so what plans for tomorrow?we need to install the private cloud on our systems?
+Jul 02 19:45:13 <acetakwas>	kushal, do you mean 'day' 14?
+Jul 02 19:45:16 *	sambit (~chatzilla@59.89.19.49) has joined #dgplug
+Jul 02 19:45:23 <kushal>	nmzaheer, nope
+Jul 02 19:45:28 <iamviknesh>	what wrong in using smileys =-O
+Jul 02 19:45:36 <kushal>	acetakwas, no 14th july 
+Jul 02 19:45:47 <kushal>	Anyway coming back. 
+Jul 02 19:45:47 <acetakwas>	kushal, okay
+Jul 02 19:45:51 *	annesha has quit (Ping timeout: 248 seconds)
+Jul 02 19:46:08 <kushal>	Tell us in one line what you do not like about the sessions/trainings till now?
+Jul 02 19:46:25 <nmzaheer>	no coding
+Jul 02 19:46:35 <ramsan>	not moving fast
+Jul 02 19:46:41 <prajesh>	people asking questions out of our purpose.
+Jul 02 19:46:52 <ruprela>	not telling about the topic to be covered
+Jul 02 19:46:54 <acetakwas>	We should exclude server
+Jul 02 19:47:23 <acetakwas>	We should exclude server msgs in the class logs; they get unnecessarily long due to this
+Jul 02 19:47:33 <CuriousLearner>	Just sometimes I found lost as I find some people answering some previous questions and other's asking out of turn. I think it's cross talk and I don't get the point.
+Jul 02 19:47:43 <jaba>	people are asking random questions
+Jul 02 19:48:09 <unknown21>	homework being ready only
+Jul 02 19:48:18 <mnw94>	I learnt a lot more in the first 4 days than I expected to .
+Jul 02 19:48:26 <sivteck>	leave notices and mails without subject flooding my inbox
+Jul 02 19:48:34 <titli>	Random discussions make it confusing sometimes.
+Jul 02 19:48:42 *	devmodem has quit (Quit: Leaving)
+Jul 02 19:48:44 <nmzaheer>	sivteck, +1
+Jul 02 19:48:54 <Poornima>	curious to get hands
+Jul 02 19:49:02 <kushal>	Poornima, ?
+Jul 02 19:49:03 <unknown21>	sivteck, +2
+Jul 02 19:49:04 <Poornima>	on practice
+Jul 02 19:49:06 <thejaman>	Topics are random and hard to get the gist midway.
+Jul 02 19:49:07 <titli>	But the random topics help us know new things. :) <eof>
+Jul 02 19:49:13 <Jupiter>	session was good......we could learn more linux commands through different questions...
+Jul 02 19:49:16 <acetakwas>	I second sivteck; I don't see the need in notifying about missing classes. We understand we all have different schedules.
+Jul 02 19:49:19 <mnw94>	sivteck ,agreed that mails are sometimes an issue
+Jul 02 19:49:26 <dev212>	Lot of topics overlapping eachother and even the questions too , running over one another
+Jul 02 19:49:43 <Poornima>	kushal, i mean practicals are important
+Jul 02 19:49:49 *	rahulmishra (~chatzilla@1.187.238.129) has joined #dgplug
+Jul 02 19:50:16 <dev212>	poornima has a good point.
+Jul 02 19:50:18 <Mactoc>	Random questions
+Jul 02 19:50:41 *	Datta has quit (Quit: ChatZilla 0.9.90.1 [Firefox 4.0.1/20110413222027])
+Jul 02 19:50:55 <acetakwas>	Questions asked should not be displayed until the batul permits; that way things may appear more orderly
+Jul 02 19:51:20 <leero9>	Three month course, I am sure kushal has a lot of practicals in store, it just began.
+Jul 02 19:51:48 <rahulmishra>	come on gmail
+Jul 02 19:52:03 *	mjnovice has quit (Ping timeout: 252 seconds)
+Jul 02 19:52:07 <ramsan>	kushal, what are we going to learn in tomorrow's class ??
+Jul 02 19:52:10 *	humpty_ (7aaf930e@gateway/web/freenode/ip.122.175.147.14) has joined #dgplug
+Jul 02 19:52:13 rahulch1 rahulmishra ralsina ramkrsna ramsan ranishaw 
+Jul 02 19:52:28 <kushal>	ramsan, let us please go through the above list.
+Jul 02 19:52:28 <mnw94>	ramsan, wondering the same
+Jul 02 19:52:39 <kushal>	nmzaheer, No coding yes, 
+Jul 02 19:52:45 <kushal>	Many people are new here.
+Jul 02 19:52:56 <kushal>	So we want them to go through some basics first.
+Jul 02 19:53:12 <kushal>	So that everyone are at least in similar conditionl.
+Jul 02 19:53:17 <kushal>	condition.
+Jul 02 19:53:34 <kushal>	Not moving fast is also for the same reason.
+Jul 02 19:53:59 <kushal>	There are new people, give them time, after few days you may want to tell us to go slow :)
+Jul 02 19:54:23 <nmzaheer>	i thought we'll atleast do some shell scripting to familiarise with commands and do fun stuff.but i agree with your point.
+Jul 02 19:54:34 *	rahulmishra has quit (Read error: Connection reset by peer)
+Jul 02 19:54:38 <kushal>	nmzaheer, Yes, I will come to that point tonight :)
+Jul 02 19:55:01 <kushal>	ruprela, Not telling what topics will be covered, because we want you to attend all the sessions :)
+Jul 02 19:55:01 *	humpty has quit (Quit: Page closed)
+Jul 02 19:55:17 <ruprela>	+1 :)
+Jul 02 19:55:19 <kushal>	People asking random questions is always a problem.
+Jul 02 19:55:31 <kushal>	But with time people learn not to do that.
+Jul 02 19:55:38 <CuriousLearner>	kushal: but you can tell all the topics, not in order, but so that we know what to expect :)
+Jul 02 19:56:13 <humpty_>	i just read about dgplug on quora and i am here. But i got to know i am already late by few days. can i continue and is it possible to catch up?
+Jul 02 19:56:16 <kushal>	Remember that this is for new people and they will learn how to behave before they go into other big projects :)
+Jul 02 19:56:25 *	harshit93 (a7dcec13@gateway/web/freenode/ip.167.220.236.19) has joined #dgplug
+Jul 02 19:56:39 <kushal>	humpty_, yes, just read the log files from http://dgplug.org/irclogs/2014/
+Jul 02 19:56:55 <kushal>	CuriousLearner, slowly :)
+Jul 02 19:57:14 <kushal>	Home work read only -- Yes, because there was no real home work yet :)
+Jul 02 19:57:18 <acetakwas>	kushal, I agree with get people to familiarise with basics. Many of us indeed are first timers. I believe there are people who do not even talk during these sessions, instead they just read.
+Jul 02 19:57:20 <kushal>	It will come in.
+Jul 02 19:57:26 <acetakwas>	getting*
+Jul 02 19:57:31 <unknown21>	kushal, waiting for it :)
+Jul 02 19:57:34 <CuriousLearner>	kushal: +1, By the way, I like these sessions. :)
+Jul 02 19:57:49 *	giri_gb (~TheLostLa@117.200.251.209) has joined #dgplug
+Jul 02 19:57:57 <kushal>	acetakwas, correct and they are missing the point, you are supposed to make mistakes here. Then you learn from those mistakes and do not repeat them.
+Jul 02 19:58:03 <Poornima>	well kushal i have a suggestion on this situation what if you give small practicals as well in home work around the topic eg (communication class: configure the irc on test box/ or shell class some commands exercise like create file,modify and delete) so that new beginners will capture accordingly
+Jul 02 19:58:23 <acetakwas>	kushal, ;)
+Jul 02 19:58:44 <kushal>	Poornima, so we have some sort of ideas how we will manage, I hope you will find them useful.
+Jul 02 19:58:55 <kushal>	Poornima, but we will keep your point in mind.
+Jul 02 19:59:03 <kushal>	About leave emails
+Jul 02 19:59:17 *	Adhyan (~Adhyan@171.60.111.55) has joined #dgplug
+Jul 02 19:59:18 *	elita15 (~elita15@59.95.1.163) has joined #dgplug
+Jul 02 19:59:30 <kushal>	I thought that would be good idea but few minutes back even mbuf talked with me about them.
+Jul 02 19:59:49 <kushal>	It seems everyone is happily sending those emails. 
+Jul 02 19:59:52 *	rdas has quit (Quit: Leaving)
+Jul 02 20:00:15 <kushal>	So I think we can stop them, no more leave notices are required in the list from now on.
+Jul 02 20:00:19 <acetakwas>	kushal, actually mails are getting unnecessarily flooded.
+Jul 02 20:00:21 <kushal>	mbuf, Thanks for pinging me.
+Jul 02 20:00:37 <CuriousLearner>	kushal: The problem is, every new guy post in a new email, it feels like spam, rather if there's only one mail, and people post the reply, it would be good, or else it can be ignored all together.
+Jul 02 20:00:50 <acetakwas>	Yes! \o/
+Jul 02 20:00:54 <kushal>	CuriousLearner, yes, that we can not control.
+Jul 02 20:00:55 <ruprela>	kushal, what is the homework for today ?
+Jul 02 20:01:01 <kushal>	ruprela, wait please :)
+Jul 02 20:01:08 <EkAurBottleLa>	instead of leave mails, why don't you create a google form for those to fill?
+Jul 02 20:01:25 <Poornima>	awesome :-)
+Jul 02 20:01:26 <kushal>	Any other feedback please? good/bad?
+Jul 02 20:01:28 <CuriousLearner>	EkAurBottleLa: +1
+Jul 02 20:01:29 <Mactoc>	EkAurBottleLa:+1
+Jul 02 20:01:29 <kushal>	anything.
+Jul 02 20:01:38 <titli>	EkAurBottleLa, +1
+Jul 02 20:01:43 <kushal>	EkAurBottleLa, will look into that.
+Jul 02 20:01:50 <kushal>	Any other feedback please? good/bad?
+Jul 02 20:01:59 *	devmodem (~modem@121.244.87.115) has joined #dgplug
+Jul 02 20:02:04 <kushal>	Come on there are 100 plus people here.
+Jul 02 20:02:14 <mbuf>	Poornima, whatever is discussed in class can be tried on your home PC; homework and practicals are usually something that you build based on the discussions that you have here
+Jul 02 20:02:27 <acetakwas>	kushal, you are yet to attend to my last question. Do I post it again?
+Jul 02 20:02:30 <DhritiShikhar_>	learnt a lot. :)
+Jul 02 20:02:34 *	giri_gb is now known as girib
+Jul 02 20:02:36 <kushal>	acetakwas, ask
+Jul 02 20:02:41 <acetakwas>	Questions asked should not be displayed until the batul permits; that way things may appear more orderly
+Jul 02 20:02:45 <mbuf>	Poornima, and you document or write a tutorial on the same for your reference; the idea is not to correct your home work, but, to teach you how to learn
+Jul 02 20:02:52 <ruprela>	slow speed is good for beginners
+Jul 02 20:03:06 <leero9>	how can batul know if thats a question ?
+Jul 02 20:03:35 <yogeshwar>	leero9,might be regex may help
+Jul 02 20:03:38 <kushal>	yeah, acetakwas batul is not smart :)
+Jul 02 20:03:47 <CuriousLearner>	leero9: Just in case anyone wants to ask he would post !
+Jul 02 20:03:50 <kushal>	yogeshwar, patches are welcome :)
+Jul 02 20:03:51 <mbuf>	Poornima, you should list down what you need to learn, jot them down, create a plan, discuss with mentors here, estimate, and work on it
+Jul 02 20:04:02 <kushal>	everyone ^^^^^^^^^^^^^^^^^^^^^^^
+Jul 02 20:04:03 <titli>	kushal, I think before you say next, let discussion over the previous topic finish.
+Jul 02 20:04:10 <kushal>	titli, ok.
+Jul 02 20:04:13 <acetakwas>	Like in a classroom nobody talks except when permitted; you simply raise your hand
+Jul 02 20:04:16 *	devmodem has quit (Client Quit)
+Jul 02 20:04:26 <mbuf>	Poornima, mentors are here to guide you, and spoon-feeding is generally discussed; the problem with giving specific homework is that students think that is all there is to it
+Jul 02 20:04:38 *	ramsan (~chatzilla@123.63.138.34) has left #dgplug
+Jul 02 20:04:40 *	annesha (~annesha@117.194.120.26) has joined #dgplug
+Jul 02 20:04:43 <CuriousLearner>	May be if batul detects a question mark, he would know it's a question.
+Jul 02 20:04:47 <yogeshwar>	kushal,i am still a newbie but will try to learn to make batul smart
+Jul 02 20:04:49 <mbuf>	Poornima, honestly, there is always something to be learnt every day
+Jul 02 20:04:51 <Amalesh>	Hi Kushal, you had mentioned that after the summer training we would be able to contribute to some upstream projects, it would be good if you discuss briefly  about  atleast one upstream project per session; just briefly not indetail
+Jul 02 20:04:51 <nmzaheer>	acetakwas, that'll become many-to-one relationship.We need to behave as a community so we need to encourage people to ask questions which anyone can reply not only kushal
+Jul 02 20:05:04 <titli>	mbuf,+1 and people should keep discussing after sessions too.
+Jul 02 20:05:05 <humpty_>	i have a question, however i can use irc on my cs50 appliance which is modified version of fedora, whats the problem with windows?
+Jul 02 20:05:08 *	jaba (uid27174@gateway/web/irccloud.com/x-tfozsfhgzxxxurzg) has left #dgplug
+Jul 02 20:05:13 <acetakwas>	That way only the moderators' post, kushal's post' batul's post and permitted folks post will appear
+Jul 02 20:05:21 <kushal>	titli, +1
+Jul 02 20:05:45 <mbuf>	titli, people can stay on the channel whenever they are online, not, only when a session starts; this is not a classroom
+Jul 02 20:06:05 <kushal>	acetakwas, we do not want to do that as that will stop people to give some vital input time to time.
+Jul 02 20:06:07 <mbuf>	it takes time for people to get the hang of it, but, we are patient, as always :)
+Jul 02 20:06:14 *	core_7 has quit (Quit: Leaving)
+Jul 02 20:06:26 <Poornima>	mbuf, yes i always learn new things everyday i agree i am still learning alot in this session those were just a few pointers for self learner (one who dont have mentor)
+Jul 02 20:06:49 <acetakwas>	kushal, okay another question
+Jul 02 20:06:53 <mbuf>	Poornima, in the community, there is no one mentor; you can work with many people
+Jul 02 20:07:02 <acetakwas>	We should exclude server msgs in the class logs; they get unnecessarily long due to this
+Jul 02 20:07:17 *	madangel_ (75d819e4@gateway/web/freenode/ip.117.216.25.228) has joined #dgplug
+Jul 02 20:07:29 <Poornima>	mbuf, true :-)
+Jul 02 20:07:33 <kushal>	acetakwas, may be in future.
+Jul 02 20:07:37 <CuriousLearner>	acetakwas: +1
+Jul 02 20:07:42 <acetakwas>	Example: [user_name_here] has changed
+Jul 02 20:07:50 <EkAurBottleLa>	acetakwas +1
+Jul 02 20:07:58 *	madangel has quit (Ping timeout: 246 seconds)
+Jul 02 20:08:07 <nmzaheer>	we can write a python script to do that !!!!
+Jul 02 20:08:22 <kushal>	acetakwas, use grep till then.
+Jul 02 20:08:23 <Poornima>	kushal, mbuf thank you !
+Jul 02 20:08:28 <prajesh>	log becomes flodded by the notifications of people entering and leaving.
+Jul 02 20:08:33 *	PraveenKarol has quit (Quit: ChatZilla 0.9.90.1 [Firefox 30.0/20140608211828])
+Jul 02 20:08:37 <acetakwas>	nmzaheer, thanks
+Jul 02 20:08:42 <kushal>	Ok. Now coming back to tonight's stuff.
+Jul 02 20:08:46 <humpty_>	!
+Jul 02 20:08:49 <kushal>	next
+Jul 02 20:08:50 <batul>	mnw94 please ask your question.. leero9 you are next. Get ready with your question.
+Jul 02 20:08:52 <kushal>	next
+Jul 02 20:08:53 <batul>	leero9 please ask your question.. humpty_ you are next. Get ready with your question.
+Jul 02 20:08:53 <kushal>	next
+Jul 02 20:08:54 <batul>	humpty_ please ask your question.
+Jul 02 20:08:59 <mnw94>	<eof>
+Jul 02 20:09:02 <Poornima>	kushal, can i leave i have a meeting
+Jul 02 20:09:07 <kushal>	Poornima, yes
+Jul 02 20:09:07 <mnw94>	Got my answer :)
+Jul 02 20:09:16 <mbuf>	Poornima, there is a mind set that is required in order to work in F/OSS; and that is what we want you to learn
+Jul 02 20:09:21 <humpty_>	why do i need irc client, i am working fine without it.
+Jul 02 20:09:53 <Poornima>	mbuf, i will learn soon
+Jul 02 20:10:00 <kushal>	humpty_, without IRC you would not be able to ask this question to me and get the answer right away.
+Jul 02 20:10:19 <kushal>	humpty_, read the pdf and log mentioned in the first session
+Jul 02 20:10:21 hari_ harsha harshit93 harshit933 heena humpty_ 
+Jul 02 20:10:23 *	Jupiter has quit (Ping timeout: 248 seconds)
+Jul 02 20:10:24 *	akki2200 has quit (Quit: Leaving)
+Jul 02 20:10:33 <kushal>	Any other question?
+Jul 02 20:10:35 <Poornima>	mbuf, catch you tomorrow
+Jul 02 20:10:38 <humpty_>	no, i am asking about the client such as xchat and many others. What is the benefit of that?
+Jul 02 20:10:54 *	senju has quit (Quit: Page closed)
+Jul 02 20:10:55 <yogeshwar>	!
+Jul 02 20:10:55 <kushal>	humpty_, so that you can use IRC?
+Jul 02 20:11:06 <leero9>	Few commands dont work on webchat i guess.
+Jul 02 20:11:09 <kushal>	humpty_, just like you do need a mobile handset
+Jul 02 20:11:26 *	Poornima has quit (Quit: Leaving)
+Jul 02 20:11:28 <kushal>	humpty_, which is your own and you can use it from where ever you want.
+Jul 02 20:11:40 <kushal>	humpty_, webchat is like payphone in some shop
+Jul 02 20:11:47 <kushal>	You have to be there to use them.
+Jul 02 20:12:03 <acetakwas>	humpty_, it is your interface to this community and many more like this
+Jul 02 20:12:04 <kushal>	And you do not know if they are listening to your conversations
+Jul 02 20:12:11 <nmzaheer>	lol
+Jul 02 20:12:29 <humpty_>	kushal, ok i will read the previous logs tonight and will come tomorrow better prepared
+Jul 02 20:12:34 <kushal>	humpty_, ok
+Jul 02 20:12:36 <kushal>	So 
+Jul 02 20:12:53 <kushal>	Everyone who thinks they learned the basic commands well, should start reading http://tldp.org/LDP/abs/abs-guide.pdf
+Jul 02 20:13:01 <kushal>	Download it and start reading it.
+Jul 02 20:13:11 *	annesha_ (~annesha@117.194.120.67) has joined #dgplug
+Jul 02 20:13:34 *	annesha has quit (Ping timeout: 240 seconds)
+Jul 02 20:13:46 <kushal>	Tomorrow during the session you should come and discuss any doubts
+Jul 02 20:13:57 <kushal>	we will keep an over watch.
+Jul 02 20:14:27 <nmzaheer>	ok cool
+Jul 02 20:14:28 *	AndroUser2 has quit (Read error: Connection reset by peer)
+Jul 02 20:14:30 <titli>	ok.
+Jul 02 20:14:39 <EkAurBottleLa>	916 pages :O
+Jul 02 20:14:40 <deepu_tp>	!
+Jul 02 20:14:44 <kushal>	We may not answer:)
+Jul 02 20:14:57 <kushal>	EkAurBottleLa, see many said we are going slow :)
+Jul 02 20:15:05 <leero9>	Too easy :P
+Jul 02 20:15:07 <kushal>	next
+Jul 02 20:15:08 <batul>	yogeshwar please ask your question.. deepu_tp you are next. Get ready with your question.
+Jul 02 20:15:09 <kushal>	next
+Jul 02 20:15:10 <batul>	deepu_tp please ask your question.
+Jul 02 20:15:11 *	AndroUser2 (~androirc@14.194.9.109) has joined #dgplug
+Jul 02 20:15:12 <yogeshwar>	what is FHS? I didn't got it.
+Jul 02 20:15:14 <deepu_tp>	Any specific chapters? <eof>
+Jul 02 20:15:26 <Amalesh>	!
+Jul 02 20:15:27 <yogeshwar>	i am reading about it<eof>
+Jul 02 20:15:28 <kushal>	deepu_tp, from the first page to the last page :)
+Jul 02 20:15:28 <acetakwas>	Are we expected to complete that 916-page book before the next session?
+Jul 02 20:15:32 <CuriousLearner>	Would take time, but I would get through it and learn it. :)
+Jul 02 20:15:37 <EkAurBottleLa>	kushal, hahaha.. we can read at our pace right? take as much time to finish that book?
+Jul 02 20:15:43 <kushal>	acetakwas, of course not.
+Jul 02 20:15:44 <kushal>	EkAurBottleLa, yes
+Jul 02 20:16:09 <kushal>	acetakwas, that is only for the people who thinks we are going sloooow.
+Jul 02 20:16:11 <leero9>	FHS, defines directory structure and contents, yog.
+Jul 02 20:16:31 <acetakwas>	kushal, lol ;)
+Jul 02 20:16:36 <kushal>	yogeshwar, Read the book and then come back and ask us the quetions.
+Jul 02 20:16:49 <mnw94>	yog, FHS - filesystem hierarchy standar
+Jul 02 20:16:49 <yogeshwar>	ksuhal,sure<eof>
+Jul 02 20:17:16 <yogeshwar>	mnw94,yes i wil.
+Jul 02 20:17:17 <kushal>	Also many of you can actually stay online for more time, mostly you all are coming here only during the sessions.
+Jul 02 20:17:20 <yogeshwar>	will
+Jul 02 20:17:30 <kushal>	IRC is not only for that, you can stay online as long as you want.
+Jul 02 20:17:34 *	annesha_ has quit (Ping timeout: 240 seconds)
+Jul 02 20:17:37 <kushal>	and talk to many people.
+Jul 02 20:17:49 <kushal>	There are people from so many countries here.
+Jul 02 20:18:08 <Mactoc>	Kushal: sure :)
+Jul 02 20:18:09 <kushal>	Like right now, please tell your country names if you are not from India?
+Jul 02 20:18:28 <acetakwas>	Nigeria
+Jul 02 20:18:32 <kushal>	That should have been a full stop.
+Jul 02 20:18:35 *	annesha (~annesha@117.194.120.58) has joined #dgplug
+Jul 02 20:18:44 <kushal>	Anyone else from another country?
+Jul 02 20:18:50 <acetakwas>	But people don't seem to respond during those off-class periods
+Jul 02 20:18:54 <thejaman>	yogeshwar, prefix your corrections with a "*" eg: *will
+Jul 02 20:19:05 <thejaman>	yogeshwar, things are hairy enough in here
+Jul 02 20:19:10 <kushal>	acetakwas, because people are busy.
+Jul 02 20:19:23 <yogeshwar>	kushal, a non technical question ,is batul a Bengali word?
+Jul 02 20:19:24 <kushal>	acetakwas, when we see  the messages, we do reply.
+Jul 02 20:19:32 <acetakwas>	kushal, Well, I'm busy too
+Jul 02 20:19:36 <yeshi>	!
+Jul 02 20:19:37 <yogeshwar>	thejaman,sure thanks.
+Jul 02 20:19:42 *	surabhi has quit (Quit: Leaving)
+Jul 02 20:19:47 <kushal>	yogeshwar, http://en.wikipedia.org/wiki/Batul_The_Great
+Jul 02 20:19:53 <kushal>	next
+Jul 02 20:19:53 <batul>	Amalesh please ask your question.. yeshi you are next. Get ready with your question.
+Jul 02 20:19:54 <kushal>	next
+Jul 02 20:19:54 <batul>	yeshi please ask your question.
+Jul 02 20:19:57 <acetakwas>	It may just be a thing with time difference
+Jul 02 20:20:02 <kushal>	acetakwas, ok
+Jul 02 20:20:23 <Amalesh>	Got it , googled it :)
+Jul 02 20:20:24 <deepu_tp>	I guess first ask on irc and if no one replies then create a thread on the mailing list.
+Jul 02 20:20:41 <kushal>	deepu_tp, good   idea :)
+Jul 02 20:20:46 <acetakwas>	It seems I am the only one who is not from India
+Jul 02 20:20:55 *	vmk has quit (Ping timeout: 246 seconds)
+Jul 02 20:21:06 <kushal>	acetakwas, I am sure there are other people, not sure why they are not speaking.
+Jul 02 20:21:16 abhaykrish abhi_poo_ ace139 acetakwas Adhyan ahhda ajnr_ Amalesh amit001 amittima anarang AndroUser2 annesha Anupkumar Armageddon 
+Jul 02 20:21:20 <kushal>	Like Armageddon is in Boston.
+Jul 02 20:21:21 *	pratik has quit (Read error: Connection reset by peer)
+Jul 02 20:21:25 <yeshi>	kushal, can you please help me with the grep command...
+Jul 02 20:21:26 <kushal>	orriols, is in Spain.
+Jul 02 20:21:30 <acetakwas>	kushal, okay
+Jul 02 20:21:33 <CuriousLearner>	Yes, I saw many people saying there country names
+Jul 02 20:21:42 <kushal>	yeshi, what you want?
+Jul 02 20:22:33 *	amit001 has quit (Ping timeout: 240 seconds)
+Jul 02 20:22:40 *	amitt001 (~amit001@120.57.196.41) has joined #dgplug
+Jul 02 20:22:45 <yeshi>	it says with grep command we can look inside files
+Jul 02 20:22:48 *	surabhi (~surabhi@115.243.228.120) has joined #dgplug
+Jul 02 20:22:59 <yeshi>	but i cant understand it
+Jul 02 20:23:01 *	amitt001 is now known as amit001
+Jul 02 20:23:22 <kushal>	Someone please help yeshi 
+Jul 02 20:24:02 <titli>	yeshi, what problems are you facing with grep?
+Jul 02 20:24:16 <leero9>	look inside files ?
+Jul 02 20:24:23 *	ruprela has quit (Quit: Leaving)
+Jul 02 20:24:32 <leero9>	It is basically used to match patterns and print them
+Jul 02 20:24:40 <yogeshwar>	kushal, batul ,superhero of dgplug training.
+Jul 02 20:24:43 <iamviknesh>	yeshi: you can search for a particular string in a file -----> grep "some_string" file_name
+Jul 02 20:24:59 <tonythomas>	yeshi: grep can be used to find occurences of a string inside a file, or many files inside a directory. try using grep -R 'string' * ( this will print occurences inside current dir )
+Jul 02 20:25:10 <leero9>	use 'man grep' in your terminal or google it
+Jul 02 20:25:14 <titli>	yeshi, you may create a file first to understand.
+Jul 02 20:25:38 *	koushik_ has quit (Quit: Page closed)
+Jul 02 20:25:56 <Mactoc>	yeshi :http://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/
+Jul 02 20:26:01 <iamviknesh>	yeshi: http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/
+Jul 02 20:26:13 <yeshi>	thanks
+Jul 02 20:26:17 <titli>	http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/
+Jul 02 20:26:32 <CuriousLearner>	!
+Jul 02 20:26:51 *	yogeshwar has quit (Quit: Leaving)
+Jul 02 20:26:55 <humpty_>	!
+Jul 02 20:27:21 *	zishan has quit (Quit: Leaving)
+Jul 02 20:28:10 *	korak1 has quit (Ping timeout: 244 seconds)
+Jul 02 20:28:12 <kushal>	next
+Jul 02 20:28:13 <batul>	CuriousLearner please ask your question.. humpty_ you are next. Get ready with your question.
+Jul 02 20:28:16 <humpty_>	just one more silly question. How long is this training program? means for many weeks will it run?
+Jul 02 20:28:21 <CuriousLearner>	kushal: In many cases we use -R with Linux commands, I know it's kind of parameter but I want to know what does it do?
+Jul 02 20:28:37 <CuriousLearner>	humpty_:  3 months.
+Jul 02 20:28:45 *	acetakwas_ (~acetakwas@196.46.245.121) has joined #dgplug
+Jul 02 20:28:46 <amit001>	CuriousLearner, -R recursive
+Jul 02 20:28:51 *	zishan (~Sheesh@182.66.46.25) has joined #dgplug
+Jul 02 20:29:53 <orriols>	CuriousLearner: though is completely dependent on the command. Some use -r, some use -R for the same, recursion
+Jul 02 20:29:55 <titli>	CuriousLearner, man the command with -R option.
+Jul 02 20:29:57 *	vulpix (7839c429@gateway/web/freenode/ip.120.57.196.41) has joined #dgplug
+Jul 02 20:30:06 *	acetakwas__ (~acetakwas@196.46.245.124) has joined #dgplug
+Jul 02 20:30:21 *	vulpix is now known as Guest38878
+Jul 02 20:30:24 *	ksinny (~quassel@kde/developer/sinnykumari) has joined #dgplug
+Jul 02 20:30:28 <CuriousLearner>	Thanks amit001 orriols titli
+Jul 02 20:30:53 <titli>	CuriousLearner, for example, with ls -R means recursive but with rmdir -r means recursive.
+Jul 02 20:31:08 <titli>	<eof>
+Jul 02 20:31:13 <sukanya>	!
+Jul 02 20:31:19 <kushal>	next
+Jul 02 20:31:19 <batul>	humpty_ please ask your question.. sukanya you are next. Get ready with your question.
+Jul 02 20:31:23 <CuriousLearner>	titli:  in both you said recursive, didn't got it.
+Jul 02 20:31:24 <kushal>	next
+Jul 02 20:31:24 <batul>	sukanya please ask your question.
+Jul 02 20:31:26 <kushal>	next
+Jul 02 20:31:26 *	acetakwas has quit (Disconnected by services)
+Jul 02 20:31:26 <batul>	No one is in queue.
+Jul 02 20:31:42 *	acetakwas_ has quit (Disconnected by services)
+Jul 02 20:31:42 <titli>	kushal, thanks for proceeding after we finished.
+Jul 02 20:32:05 <titli>	* we have finished.
+Jul 02 20:32:07 *	acetakwas__ is now known as acetakwas
+Jul 02 20:32:14 <kushal>	------SESSION FINISHED-----------

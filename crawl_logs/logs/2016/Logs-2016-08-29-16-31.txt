@@ -1,0 +1,314 @@
+[16:31:00] [## Class Started at Mon Aug 29 16:31:00 2016 ##]
+[16:31:00] <kushal> startclass
+[16:31:05] <kushal> Roll Call
+[16:31:06] <LambaInsaan> Rhitik Bhatt
+[16:31:09] <amey> Amey Jain
+[16:31:10] <abstatic> Abhishek Shrivastava
+[16:31:14] <PrashantJ> Prashant Jamkhande
+[16:31:14] <Onkar1> Onkar Karale
+[16:31:16] <HoloIRCUser3> Jogender Kota
+[16:31:17] <smdeep> Sudeep Mukherjee
+[16:31:17] <trishnag> Trishna Guha
+[16:31:20] <avik> Avik Mukherjee
+[16:31:21] <Anupama> Anupama Mandal
+[16:31:22] <code_geek> Shantanu Acharya
+[16:31:29] HoloIRCUser3 is now known as jogender
+[16:31:30] <akash47_> Akash Mishra
+[16:31:32] <rohan_h> Rohan Hazra
+[16:31:36] <SRvSaha> Saurav Saha
+[16:31:37] <yASH_> Yashwanth M
+[16:31:38] <tabrez> Tabrez khan
+[16:31:40] <sneo> Sarah Masud
+[16:31:57] <abhishekg5> Abhishek Gupta
+[16:32:03] <gobinda> Gobinda Akhuli
+[16:32:38] <sandeepk> sandeep Kumar Choudhary
+[16:32:44] <pritam> Pritam Bankar
+[16:32:46] <ksaikiranr> K Sai Kiran
+[16:33:15] <kushal> Anyone else?
+[16:33:35] <girish946> girish joshi
+[16:33:58] <shauryak_3> Shaurya Kalia
+[16:34:17] <kushal> Okayy
+[16:34:24] <rahul_bajaj> Rahul bajaj
+[16:34:26] <kushal> semioticrobotic, Thank you for coming in.
+[16:34:33] <mahesh5> Mahesh
+[16:34:38] <semioticrobotic> My pleasure kushal
+[16:34:51] <anwesha> Anwesha Das
+[16:34:57] <kushal> If anyone wants to ask you a question, they will type ! and wait for turn.
+[16:35:06] <kushal> semioticrobotic, stage is yours.
+[16:35:12] <kushal> semioticrobotic, go ahead :)
+[16:35:23] <semioticrobotic> Okay!
+[16:35:25] <gobinda> semioticrobotic: Good evening
+[16:35:25] <semioticrobotic> Hi everybody! I'm Bryan Behrenshausen (aka semioticrobotic), and I'm so thankful to kushal for letting me speak with you today.
+[16:35:37] <semioticrobotic> I just finished my PhD in Communication, and now I live in Raleigh, North Carolina in the U.S., where I work for Red Hat on Opensource.com.
+[16:35:48] <semioticrobotic> I've been a been a writer and editor at Opensource.com for the past six years. You can read more about what I do right here: (www.semioticrobotic.net)
+[16:36:03] <semioticrobotic> Opensource.com is a place where people tell stories about the ways open source values can spark positive change everywhereânot just in the domain of computing.
+[16:36:21] <semioticrobotic> In other words, we believe "open" is something much broader than a methodology for developing the best software!
+[16:36:41] <semioticrobotic> We actually like to talk more about the "open source way" (www.opensource.com/open-source-way) in order to stress that openness is a set of values and beliefsâsomething deeply cultural.
+[16:37:03] <semioticrobotic> We believe that embracing certain values (like open exchange, community, sharing, and transparency) can help us change the world for the better.
+[16:37:22] <semioticrobotic> So at Opensource.com we help people share their stories about the ways that living and working the open source way can make a difference in various areas of our lives, like government, education, business, and more.
+[16:37:43] <semioticrobotic> We want it to be a place where people can share ideas about openness, share opinions on various ways to live and think openly, exchange tips for using open toolsâand generally chat about anything related to the open source way.
+[16:38:06] <semioticrobotic> At Opensource.com, I help support the community of our members who like talking about the ways that open values are changing organizational cultures: (www.opensource.com/open-organization)
+[16:38:30] <semioticrobotic> Open source thinking is starting to alter the future of work, management, and leadership, and we're trying to track exactly how that's happening.
+[16:38:47] <semioticrobotic> This particular community formed around a recent book by Jim Whitehurst, CEO of Red Hat, called The Open Organization: (www.theopenorganizationbook.com/)
+[16:39:06] <semioticrobotic> The book is really about all the management and leadership lessons Jim has learned since he became CEO of Red Hat.
+[16:39:13] <pabitra> Roll Call : Pabitra Pati
+[16:39:20] <semioticrobotic> He discovered the the way open source communities organize to make software can actually function as a model for running a business.
+[16:39:44] <semioticrobotic> So every day, I collaborate with people who are writing and thinking and openness, edit their work, help them brainstorm ideas, put them in touch with other people in our networks, and more.
+[16:40:03] <semioticrobotic> I also help host our #OpenOrgChat Twitter chats, run live webcasts, publish companion materials related to The Open Organizationâlot s of things, really! (www.opensource.com/open-organization/resources)
+[16:40:29] <semioticrobotic> I'm happy to take your questions about Opensource.com, The Open Organization, the open source wayâor anything else you'd like to ask! I'm sure I won't have all the answers, but I would love to explore ideas with you.
+[16:40:49] <semioticrobotic> Who's first?
+[16:41:11] <kushal> Question time :)
+[16:41:40] <avik> !
+[16:41:45] <semioticrobotic> next
+[16:41:47] <anwesha> !
+[16:42:03] <avik> semioticrobotic, hello!
+[16:42:12] <rahul_bajaj> !
+[16:42:25] <semioticrobotic> avik: Hi! Thanks for coming today!
+[16:42:31] <avik> Can you please explain the  word 'open' a little more?
+[16:42:54] <avik> Like to what extent are our org open now?
+[16:43:14] <avik> and to how what extent should they be open?
+[16:43:20] <avik> <eof>
+[16:43:26] <semioticrobotic> avik: Yes, absolutely. In the field of programming, we consider software to be "open" if people can examine its source code, then modify and share that source code with others.
+[16:43:29] <trishnag> !
+[16:43:35] <amey> !
+[16:43:58] <semioticrobotic> avik: So several principles are embedded in that definition
+[16:44:28] <semioticrobotic> avik: transparency, collaboration, sharing, ability to modify, etc.
+[16:44:51] <semioticrobotic> avik: We can abstract those principles from programming and apply them to other areas of the world, too, including our organizations
+[16:45:29] <semioticrobotic> avik: People are discovering that working "openly" means focusing on those values (transparency, collaboration, meritocracy, rapid failure, etc.) that make open source communities run well
+[16:46:06] <semioticrobotic> avik: More and more organizations are becoming open! We hope more will every day. It is not really the "default" mode for organizations right now, though.
+[16:46:57] <semioticrobotic> To what extent they should be open differs from organization to organization, especially given their different sets of constraints. It's easier for a software company to be open than, say, a health care provider (sometimes)
+[16:47:13] <semioticrobotic> So we have to really think about the ways open principles can affect every domain differently
+[16:47:19] <semioticrobotic> Thank you!
+[16:47:20] <semioticrobotic> next
+[16:47:35] <avik> thanks semioticrobotic :D
+[16:47:35] <anwesha> semioticrobotic, can you please explain the "rapid failure"? (I will ask one more question after this)
+[16:47:43] <anwesha> What are the basic things/points we should keep in  mind while writing an article in general?
+[16:47:53] <anwesha> <eof>
+[16:47:53] <sneo> !
+[16:47:57] <semioticrobotic> anwesha: Yes, definitely!
+[16:48:09] <semioticrobotic> In open source communities, we like to celebrate "rapid failure."
+[16:48:43] <semioticrobotic> That means that we are always finding ways to "fail faster" -- to make productive mistakes, so we can learn from them and get closer to a working solution in a shorter amount of time
+[16:48:58] <semioticrobotic> That has several implications for the ways we work together
+[16:49:18] <semioticrobotic> Another way to put this value is "Release early, release often" -- even if you don't have all the answers or details yet!
+[16:49:42] <semioticrobotic> The sooner you release something (code, text, thoughts), the sooner you can get feedback, learn, and improve.
+[16:50:18] <semioticrobotic> That's what we mean by "rapid failure." Fail fast, fail gracefully, and keep learning to improve faster. Don't be afraid to fail, because failure is just one path to figuring out the right solution.
+[16:50:23] <semioticrobotic> As for writing,
+[16:50:50] <semioticrobotic> Opensource.com is focused on the ways that open principles can be applied "beyond technology"
+[16:51:05] <semioticrobotic> So we like authors to focus on the values as they might be applied to new areas
+[16:51:29] <semioticrobotic> We still write about open source technologies, of course, but when we do this we are focused on what that technology does or enables
+[16:51:49] <semioticrobotic> (Not just, say, an article that outlines what's new in "version 4.2" of this or that application)
+[16:52:01] <semioticrobotic> So that's the most important thing to keep in mind.
+[16:52:09] <semioticrobotic> The other one is: Anyone can write!
+[16:52:35] <semioticrobotic> We are always listening to new ideas for articles, and our team loves to help people edit and prepare their writing for the website
+[16:52:53] <semioticrobotic> Here are a few more details: https://opensource.com/how-submit-article
+[16:53:02] <semioticrobotic> I hope you consider writing something!
+[16:53:03] <semioticrobotic> next
+[16:53:11] <anwesha> Thank you
+[16:53:14] <rahul_bajaj> semioticrobotic, hello :D so i dont have a question, just wanted to share something, while being a part of dgplug, i have known that leadership comes with better listening skills and i have actually able to listen to people and imply things correctly, which i previously was not able to:D  can you share one incidence where you amazed to hear something about opensource which you coud ahve not imagined.
+[16:53:55] <semioticrobotic> rahul_bajaj: Great question!
+[16:54:04] <semioticrobotic> This is a very important, but very difficult, lesson to learn
+[16:54:10] <rahul_bajaj> semioticrobotic, thanks :)
+[16:54:16] <semioticrobotic> I'm impressed that you've come to realize it so early in your open source journey
+[16:54:32] <abhishekg5> !
+[16:54:43] <semioticrobotic> At Opensource.com, we actually talk quite a bit about "open leadershiop"
+[16:54:53] <semioticrobotic> that is, what "leadership" looks like when done the open source way
+[16:55:31] <semioticrobotic> One of our executives actually just wrote an article about this:
+[16:55:35] <semioticrobotic> https://opensource.com/open-organization/16/7/future-belongs-open-leaders
+[16:55:40] <semioticrobotic> You may find it interesting!
+[16:55:49] <semioticrobotic> As for surprises
+[16:56:08] <semioticrobotic> I am always really impressed when I hear stories about open source in space
+[16:56:33] <semioticrobotic> Many U.S. space projects rely on open source software
+[16:56:41] <hydro> Roll Call:Anushil Kumar
+[16:57:02] hydro is now known as anushil
+[16:57:07] <semioticrobotic> So imagine if, some day, an alien civilization finds one of our space artifacts
+[16:57:13] <semioticrobotic> and examines the computer code there
+[16:57:47] <semioticrobotic> They're examining code that was collaboratively designed, and what they learn about our computing technology will be based on the impressions they get from the open source software!
+[16:58:24] <semioticrobotic> I am also always impressed by how younger generations of open source advocates "get" open source much more quickly than I ever did
+[16:58:41] <semioticrobotic> It seems to me that younger and younger groups of people are learning and expressing the open source way
+[16:58:47] <semioticrobotic> And that makes me very happy!
+[16:58:50] <semioticrobotic> next
+[16:58:57] <trishnag> semioticrobotic: Would you like to explain how free software and open source software are different? :)
+[16:59:00] <trishnag> <eof>
+[16:59:07] <semioticrobotic> trishnag: I will try, yes :)
+[16:59:28] <semioticrobotic> This is a tricky question because it is a very "political" one
+[16:59:29] <rahul_bajaj> semioticrobotic, Thank you.
+[17:00:07] <semioticrobotic> People use the terms "free software" and "open source" in different ways
+[17:00:21] <semioticrobotic> Other people use them interchangeable, which makes that first group of people rather mad sometimes :)
+[17:00:48] <semioticrobotic> People who use the term "free software" use it because they want to emphasize freedom
+[17:00:58] <semioticrobotic> Not just "free" as in "cost"
+[17:01:07] <semioticrobotic> But freedom in the sense of civil rights
+[17:01:27] <semioticrobotic> They believe you should be free to understand what your computers are doing, how software is shaping your world
+[17:01:45] <semioticrobotic> And that your computers should never control you. It should always be the other way around.
+[17:02:36] <semioticrobotic> So they campaign around the idea that software should always be available for modification, and that no one should deny anyone that freedom (to inspect, modify, thinker, etc,)
+[17:02:49] <semioticrobotic> Certain software licenses guarantee this right (like the GNU GPL)
+[17:03:01] <semioticrobotic> (Keep in mind that I am not a lawyer ;0 )
+[17:03:34] <semioticrobotic> People who use the term "open source" tend to use it because they are focused more so on different advantages of that kind of software
+[17:03:56] <semioticrobotic> They believe that open source software is the best, technically speaking
+[17:04:18] <semioticrobotic> It works best, can be developed in the best way, is most effective, easiest to adapt, etc.
+[17:05:16] <semioticrobotic> People originally coined the term "open source software" because they want to be able to convince businesses that they should use this kind of osftware
+[17:05:20] <semioticrobotic> *software
+[17:05:45] <fhackdroid> !
+[17:05:59] <semioticrobotic> And they felt that using the term "free" would be confusing to some of the people they were trying to convince (especially in business, where "free" often means "no cost"). So that's how the two terms emerged and split.
+[17:06:05] <semioticrobotic> Hope that helps!
+[17:06:06] <semioticrobotic> next
+[17:06:10] <trishnag> semioticrobotic: Thanks a lot! You explained it so well :).
+[17:06:11] <amey> Can you elaborate more on the business part, how open work culture helps in that domain? Any books or useful links other than opensource.com that I could use?
+[17:06:55] <semioticrobotic> amey: Yes, absolutely
+[17:07:04] <semioticrobotic> This is actually two questions rolled into one
+[17:07:41] <semioticrobotic> When we think of open source "in business," we can mean the actual business of making money from open source software
+[17:08:01] <semioticrobotic> So lots of people have explored ways to build business models around open source software
+[17:08:10] <semioticrobotic> And the results have been really impressive.
+[17:08:30] <semioticrobotic> I would suggest looking at books like _Producing Open Source Software_ by Karl Fogel
+[17:08:52] <semioticrobotic> and the _Open Voices_ series from O'Reily, to hear how some early pioneers built businesses around open source
+[17:08:59] <semioticrobotic> The other way to read/interpret your question
+[17:09:25] <semioticrobotic> Is to ask: "How can open source values make a difference in the way I run my business, no matter what I produce."
+[17:09:38] <semioticrobotic> In this case, I recommend reading on "organizational culture"
+[17:09:53] <semioticrobotic> The work is more theoretical, but that makes it applicable to all kinds of businesses
+[17:10:09] <semioticrobotic> So I recommend reading _The Open Organization_ by Jim Whitehurst (of course :) )
+[17:10:21] <semioticrobotic> and
+[17:10:45] <semioticrobotic> _Reinventing Organizations_ by Frederic LaLoux
+[17:11:05] <semioticrobotic> hope that helps!
+[17:11:07] <semioticrobotic> next
+[17:11:08] <amey> That helps all of my queries. Thanks a lot. And very nice to meet you :)
+[17:11:15] <rahul_bajaj> semioticrobotic, surely going to walk through these books :D thanks.
+[17:11:26] <semioticrobotic> enjoy them!!
+[17:11:33] <sneo> Hello semioticrobotic, I have 3 questions,
+[17:11:41] <semioticrobotic> sneo: ok! I will do my best
+[17:12:07] <semioticrobotic> (just a warning to everyone that I will need to meet a friend for lunch in 15 minutes...sorry!)
+[17:12:11] <sneo> 1. What is the ratio of articles contributed by volunteers to those produced in-house
+[17:12:22] <semioticrobotic> sneo: This is a great question!
+[17:12:26] <semioticrobotic> We track this very closely
+[17:12:30] <kushal> semioticrobotic, you can always do a second session later some day :)
+[17:12:42] <sneo> 2. How does your team make sure that the quality is maintained, irrespective of the level of contributors?
+[17:13:05] <semioticrobotic> sneo: Our goal is always to have more community authors published per month than internal authors
+[17:13:09] grepRoot is now known as gourav
+[17:13:22] <semioticrobotic> sneo: Last month, I believe our ratio was 60 percent community and 40 percent in-house
+[17:13:31] <sneo> 3. Apart from RedHat do we have other organizations contributing or willing to contribute to opensource.com
+[17:13:37] <semioticrobotic> We are not happy with that an are trying to grow the community part even larger
+[17:13:40] <semioticrobotic> So please submit!
+[17:13:45] <semioticrobotic> As for question 2
+[17:13:56] <semioticrobotic> sneo: We have a very strong editorial team here
+[17:14:16] <semioticrobotic> We specialize in editing and publication
+[17:14:43] <semioticrobotic> So when writers submit articles, we first review them to see if they're good "fits" for Opensource.com
+[17:14:54] <semioticrobotic> Then we have a copy editor edit the piece, and send it back to the author to review
+[17:15:09] <semioticrobotic> When we've finished that, we put the article online and send the author a link to review the "final proofs"
+[17:15:17] <semioticrobotic> And then we publish it soon after!
+[17:15:26] <semioticrobotic> Multiple people on our team look at every article
+[17:15:37] <semioticrobotic> So that's one way to maintain quality--collaboration!
+[17:15:48] <semioticrobotic> We also work together to write the headlines every week :) That's fun.
+[17:15:57] <semioticrobotic> Now, #3:
+[17:16:20] <semioticrobotic> Yes; Red Hat sponsors Opensource.com, but we feature writings from everywhere we can
+[17:16:55] <semioticrobotic> because the website is not a place where we market specific products and services, we like to ask people from different organizations to share their stories about openness (not sell their products, necessarily)
+[17:17:04] <semioticrobotic> That allows us to capture a wide variety of voices!
+[17:17:09] <semioticrobotic> next
+[17:17:13] <abhishekg5> semioticrobotic: I think you already gave an idea about my question in amey's answer. So you can move to next question or if you want to add anything(which would be great :D), my question is ->
+[17:17:15] <sneo> Thanks
+[17:17:29] <abhishekg5> semioticrobotic: How do organizations monetize their open source business/project keeping in mind that the source code is open ? I mean, the maintainers are somehow funded if they are working on something. Since I have experience mostly in technology, I am asking this in that regard only for now.
+[17:17:44] <semioticrobotic> abhishekg5: This is a great question
+[17:17:58] <abhishekg5> semioticrobotic: Thanks
+[17:18:19] <semioticrobotic> And it is one of the most important and pressing questions for businesses in the 21st century, I think: How do you create value in an era of abundance?
+[17:18:30] <semioticrobotic> So much of traditional capitalism is based on the idea of scarcity
+[17:18:48] <semioticrobotic> You can make money on something by selling it to someone who doesn't have it (or have access to it)
+[17:18:50] <semioticrobotic> But!
+[17:19:02] <semioticrobotic> In open source, the code is available to all
+[17:19:10] <semioticrobotic> I can get it without necessarily having to pay you for it
+[17:19:19] <abhishekg5> semioticrobotic: Exactly
+[17:20:02] <semioticrobotic> So the question becomes: What kind of value are you providing _on top of_ or _around_ an open source ecosystem that people are willing to pay for?
+[17:20:17] <semioticrobotic> Some people are experts at troubleshooting and supporting open source software
+[17:20:31] <semioticrobotic> So people pay them to provide high-quality support for the open source software they use
+[17:20:33] <semioticrobotic> Very lucrative!
+[17:21:04] <semioticrobotic> Other companies offer certifications or other guarantees around open source software
+[17:21:30] <semioticrobotic> So, for example, as our CEO, Jim Whitehurst, likes to say: "Why do people pay for bottled water?"
+[17:21:41] <semioticrobotic> Water is relatively easy to acquire (for most people, anyway)
+[17:21:49] <semioticrobotic> It's abundant (but becoming less so)
+[17:22:20] <semioticrobotic> But people like bottled water because they know that when they buy it they're getting a guarantee that it's been examined, vetted, scrutinized, etc.
+[17:22:23] <semioticrobotic> Same goes for software
+[17:22:38] <semioticrobotic> This is actually a big part of Red Hat's value proposition, by the way
+[17:22:58] <semioticrobotic> Customers come to Red Hat for help because we are experts in open source
+[17:23:21] <semioticrobotic> And we can ensure that the open source software you want to use will work, work well, work as you expect, and work for a certain period of time.
+[17:23:28] <semioticrobotic> For many people, that's worth paying for!
+[17:23:30] * sandeepk semioticrobotic : I was thinking an case of fish which for we give money to buy, that can we have it free in ocean but the effort fishermen make to catch fish from ocean to the end user have that price
+[17:23:45] <semioticrobotic> sandeepk: That is great!
+[17:23:50] <semioticrobotic> Yes, very much the truth
+[17:23:54] <sandeepk> semioticrobotic: :)
+[17:23:59] <semioticrobotic> I can go online and fetch the code "for free"
+[17:24:20] <semioticrobotic> But I would much rather pay someone to test it, secure it, guarantee it, and support it for me, so I can do what I _really_ want to be doing
+[17:24:29] <semioticrobotic> Because I am not a software developer. I am a writer!
+[17:24:40] <semioticrobotic> next
+[17:24:44] <fhackdroid> hey semioticrobotic good to have you here! Loved the alien example, I wanted to know more about copyright, most people think it is evil and also can you throw light on patents !
+[17:24:50] <abhishekg5> semioticrobotic: Thank you very much for such a wonderful and thorough answer
+[17:24:58] <fhackdroid> <eof>
+[17:25:22] <semioticrobotic> fhackdroid: We do publish some stories about copyright and patents on Opensource.com
+[17:25:44] <semioticrobotic> This is a very "hot" and important issue right now, especially in the United States, where I live and work
+[17:26:38] <semioticrobotic> What, specifically, would you like to know about copyright, however?
+[17:27:03] <semioticrobotic> Copyright originally emerged as a mechanism for formally ensuring that creators get compensated adequately for the things they create
+[17:27:35] <semioticrobotic> So if I write a book, the thinking goes, I should have an exclusive right to sell that book to anyone who wants it, and no one should be able to pass off that book as their own
+[17:27:43] <semioticrobotic> But that right expires after a few years
+[17:28:15] <semioticrobotic> Today, what often makes people most upset about copyright is not the fact that it exists, but the fact that governments keep extending the duration of copyright
+[17:28:31] <semioticrobotic> In other words, creators have exclusive monopoly on their creations for longer and longer nowadays
+[17:28:47] <semioticrobotic> Some people think those terms are _too_ long and should be shortened.
+[17:28:57] <semioticrobotic> so that innovation can happen more quickly, in their eyes
+[17:29:17] <semioticrobotic> Some people are against copyright altogether, as a concept
+[17:29:30] <semioticrobotic> Others just want to see shortened copyright term limits
+[17:29:55] <semioticrobotic> I can take one more!
+[17:29:57] <semioticrobotic> next
+[17:30:00] <semioticrobotic> Ah!
+[17:30:04] <semioticrobotic> Looks like I don't have to!
+[17:30:08] <semioticrobotic> Perfect timing, everyone
+[17:30:10] <fhackdroid> semioticrobotic, thanks a lot :)
+[17:30:15] <semioticrobotic> Thank you so very much for all your great questions
+[17:30:25] <AyushKesar> !
+[17:30:30] <praveenkumar> Thanks semioticrobotic for a great session.
+[17:30:44] <trishnag> semioticrobotic: Thank you for the great session :).
+[17:30:50] <yASH_> Thank you for enlightening us about open source and clearing out the common misconceptions !!
+[17:30:50] <rahul_bajaj> semioticrobotic, really helpful session and thanks for your time, means a lot :D
+[17:30:55] <semioticrobotic> Please use any of the contact details on my site to get in touch with me if you'd like
+[17:30:59] <fhackdroid> semioticrobotic, it was really amazing to have you here
+[17:31:05] <semioticrobotic> And please consider contributing to Opensource.com!
+[17:31:06] <sandeepk> semioticrobotic: Openally a great session :D
+[17:31:13] <deep123k> semioticrobotic thanks great session
+[17:31:17] <PrashantJ> Thank you for awesome session, semioticrobotic :)
+[17:31:18] <semioticrobotic> rahul_bajaj: Thank you!
+[17:31:20] <semioticrobotic> sandeepk: Thanks!
+[17:31:26] <semioticrobotic> fhackdroid: Thank you!
+[17:31:28] <avik> semioticrobotic, hope to see you as soon as possible :D
+[17:31:35] <semioticrobotic> deep123k: Thanks very much!
+[17:31:42] <semioticrobotic> PrashantJ: I appreciate that! thanks!
+[17:31:48] <LambaInsaan> Thank you semioticrobotic for this great session. You changed my view how I used to see free and open source softwares. :)
+[17:31:52] <semioticrobotic> avik: You bet! I hope so, too
+[17:32:05] <semioticrobotic> LambaInsaan: Wow! That's great! Keep exploring!
+[17:32:11] <AyushKesar> Thanks semioticrobotic.
+[17:32:15] <kushal> semioticrobotic, Thank you :)
+[17:32:21] <semioticrobotic> AyushKesar: My pleasure
+[17:32:21] <kushal> Roll call
+[17:32:25] <semioticrobotic> thanks kushal
+[17:32:27] <rahul_bajaj> Rahul bjaja
+[17:32:28] <abstatic> Abhishek Shrivastava
+[17:32:29] <yASH_> Yashwanth M
+[17:32:29] <PrashantJ> Prashant Jamkhande
+[17:32:29] <semioticrobotic> Bye, everyone!
+[17:32:30] <trishnag> Trishna Guha
+[17:32:31] <rohan_h> Rohan Hazra
+[17:32:34] <tabrez> Tabrez khan
+[17:32:37] <LambaInsaan> Rhitik Bhatt
+[17:32:38] <pyadav> Pooja Yadav
+[17:32:38] <jogender_> Jogender Kota
+[17:32:40] <deep123k> Deepanshu kapoor
+[17:32:42] <code_geek> Shantanu Acharya
+[17:32:42] <aman_> Aman Kumar
+[17:32:42] <sandeepk> sandeep kumar Choudhary
+[17:32:43] <avik> Avik Mukherjee
+[17:32:43] <sneo> Sarah Masud
+[17:32:44] <Anupama> Anupama Mandal
+[17:32:44] <pritam> Pritam Bankar
+[17:32:44] <amey> Amey Jain
+[17:32:47] <abhishekg5> semioticrobotic: You have an awesome typing speed :D
+[17:32:47] <anjali_> Anjali Pardeshi
+[17:32:54] <anushil> Anushil Kumar
+[17:33:04] <gourav> Gourav Chawla
+[17:33:05] <cosmologist10> shweta suman
+[17:33:17] <abhishekg5> Abhishek Gupta
+[17:33:21] <himanshutechy> Himanshu sharma
+[17:33:40] <kushal> endclasss
+[17:33:41] <kushal> endclass
+[17:33:41] [## Class Ended at Mon Aug 29 17:33:41 2016 ##]

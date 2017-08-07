@@ -1,0 +1,465 @@
+----BEGIN CLASS----
+[12:33] <kushal> startclass
+[12:34] <LambaInsaan> Rhitik Bhatt
+[12:34] <LambaInsaan> Sorry!
+[12:35] <vibhcool_> Vibhor Verma
+[12:35] <kushal> Roll Call
+[12:35] <imack> Mahendra Yadav
+[12:35] <SRvSaha> Saurav Saga
+[12:35] <LambaInsaan> Rhitik Bhatt
+[12:35] <vibhcool_> Vibhor Verma
+[12:35] <iKshitij> Kshitij
+[12:35] <rohan_h_> Rohan Hazra
+[12:35] <code_geek> Shantanu Acharya
+[12:35] <thebigj> Jaysinh Shukla
+[12:35] <sourabh> T K Sourabh
+[12:36] <ksaikiranr> K Sai Kiran
+[12:36] <kushal> Anyone else?
+[12:36] <kushal> rtnpro, you can continue
+[12:36] <rtnpro> ok
+[12:37] <rtnpro> Today, we are going to look into Python unittesting
+[12:37] <rtnpro> But, before I create unittests for you, I have a few questions for you
+[12:38] <rtnpro> How many of you have heard about testing, specifically, testing software?
+[12:38] <SRvSaha> Me
+[12:38] <vibhcool_> Me
+[12:38] <LambaInsaan> I have.
+[12:38] <rtnpro> Awesome :)
+[12:38] <mohankumar> me
+[12:38] <imack> me
+[12:39] <sourabhtk37> I have
+[12:39] <rtnpro> How many of you have written tests for your code?
+[12:39] <sourabhtk37> never
+[12:39] <iKshitij> just heard ! Don't know about it
+[12:39] <mohankumar> I did
+[12:39] <rtnpro> How do you test the code you have written?
+[12:40] <LambaInsaan> I did.
+[12:40] <SRvSaha> I did
+[12:40] <rtnpro> Hit and trial? Manually?
+[12:40] <SRvSaha> Manually
+[12:40] <LambaInsaan> Manually.
+[12:41] <iKshitij> Yes !
+[12:41] <SRvSaha> using assert inside the testcases code
+[12:41] <rtnpro> like supplying different inputs (from CLI or UI) to see if your software works or not, right?
+[12:41] <imack> yes
+[12:41] <mohankumar> rtnpro , Well , I do mock the function  call and output
+[12:41] <rtnpro> mohankumar, great, it seems like you know how to write tests, good!
+[12:42] <SRvSaha> No not that actually. The test file had the expected output and the original output. If it's true then assert  true works else failure message is displayed
+[12:42] <mohankumar> rtnpro, but having some doubts :)
+[12:42] <mohankumar> rtnpro , here to clafify those !
+[12:42] <rtnpro> mohankumar, sure, we can take up questions later
+[12:42] <kushal> For questions type !
+[12:43] <rtnpro> So, we as human beings take great pride in our work, sometimes we tend to think that our work is flawless and perfect
+[12:44] <rtnpro> If there's no syntax error in my code, it ran with all the inputs I had supplied, etc. so it's perfect
+[12:44] <rtnpro> But there goes a popular saying
+[12:44] <rtnpro> "To err is human"
+[12:44] <rtnpro> Human beings tend to make mistakes, and this is true when we code as well
+[12:45] <rtnpro> It's very difficult to test a software manually, with all possible inputs that exist out there in the world
+[12:46] <rtnpro> and manual efforts cannot be reproduced and it's a pain to repeat them
+[12:46] <rtnpro> when manual testing is done again and again, it becomes boring
+[12:47] <rtnpro> so, we always look for ways to optimize and automate the tests we do
+[12:47] <rtnpro> Test scripts give you access to do that
+[12:48] <rtnpro> you can write test in probably any language: bash, python, ruby, C, Java, etc.
+[12:48] <rtnpro> Here, we'll be focusing on how to write tests for our code in Python
+[12:49] <rtnpro> So, am I clear with the context of this session?
+[12:49] <SRvSaha> Yes
+[12:49] <rtnpro> or are there some questions?
+[12:49] <ksaikiranr> Yes
+[12:49] <iKshitij> Yes
+[12:49] <LambaInsaan> Yes
+[12:49] <rtnpro> cool, I will go ahead then
+[12:49] <rtnpro> I will be using http://pymbook.readthedocs.io/en/latest/testing.html#unit-testing as a reference material for this class
+[12:50] <rtnpro> Nick Coghlan, python core contributor, once said "with a solid test suite, you can make big changes, confident that the externally visible behavior will remain the same"
+[12:51] <rtnpro> let's have a look at the crude stages involved in software development
+[12:52] <rtnpro> 1. You have an idea, you convert it to certain requirements
+[12:52] <rtnpro> 2. You write new code
+[12:53] <rtnpro> 3. Test the application against your requirements (manually or automatically)
+[12:53] <rtnpro> 4. You add new features, or fix bugs, and update code
+[12:54] <rtnpro> When releasing the new software, you have to ensure that the software does what it promises to do
+[12:54] <rtnpro> how do you ensure that it happens, in an automated fashion?
+[12:54] <rtnpro> you write tests for it: unit tests, integration tests, functional tests, etc
+[12:55] <rtnpro> now, after your initial release, you hit some bugs in your software
+[12:56] <rtnpro> to fix the bugs, you refactor your code
+[12:56] <SpEcHiDe> Roll Call: Shrimadhav U K
+[12:56] <aniketh_> Ping
+[12:56] <aniketh_> No session going on right ?
+[12:56] <rtnpro> now, refactoring your code could fix the bugs reported, however, it might break some existing features in your software and introduce new bugs as well
+[12:56] <SRvSaha> aniketh_: Session is on
+[12:57] <rtnpro> so, if you had written test cases initially to test the initial release of your software, you can run those tests to ensure that the refactor did not introduce any new bugs
+[12:58] <rtnpro> this gives you confidence to refactor your code and release updates
+[12:58] <rtnpro> also, now, you will need to add new test cases for your software that assert that the bugs reported are fixed
+[12:59] <rtnpro> this will ensure that the reported bugs do not appear in the future
+[12:59] <rtnpro> testing is a continuous and kind of never ending process
+[13:00] <rtnpro> as a human being, it's difficult to think of all the scenarios to test your software, in one shot
+[13:00] <rtnpro> it takes time
+[13:00] <rtnpro> so, you start with a basic minimal test suite, and keep on expanding it over time
+[13:01] <rtnpro> testing and refactoring your code or adding new features goes in parallel
+[13:02] <rtnpro> enough talk, let's look into some examples. it will make things more understandable
+[13:02] <rtnpro> create a directory for this session, and create a python file: factorial.py with the content below
+[13:03] <rtnpro> https://paste.fedoraproject.org/484233/
+[13:04] <rtnpro> is the script running?
+[13:05] <code_geek> yes
+[13:05] <LambaInsaan> yes
+[13:05] <mohankumar> yes
+[13:05] <rtnpro> let's now write some tests for it
+[13:05] <rtnpro> In the same directory add a file: factorial_test.py with the content below
+[13:05] <SRvSaha> yes
+[13:06] <vibhcool_> yes
+[13:06] <rtnpro> https://paste.fedoraproject.org/484235/
+[13:07] <rtnpro> try to run that tests file: python factorial_test.py
+[13:07] <archer121> rtnpro: I am really, sorry. I am late. Can I start from here?
+[13:07] <SRvSaha> Ran the test successfully :)
+[13:07] <rtnpro> archer121, yeah
+[13:07] <LambaInsaan> Passed the test.
+[13:07] <rtnpro> so, let us now inspect the file and establish how to write tests
+[13:08] <rtnpro> 1st thing you do is, ``import unittest``
+[13:08] <rtnpro> unittest is a Python module that helps you to write test cases and run them
+[13:09] <archer121> Can somebody share factorial.py?
+[13:09] <rtnpro> You encapsulate your test cases inside a class (which a subclass of unittest.TestCase)
+[13:09] <imack> https://paste.fedoraproject.org/484233/
+[13:09] <SRvSaha> archer121: https://paste.fedoraproject.org/484233/
+[13:10] <rtnpro> the convention is that this class should be named "Test*"
+[13:10] <rtnpro> in this case, "TestFactorial"
+[13:11] <rtnpro> you add the test cases as methods of the class, the method names should be of the form "test_*"
+[13:11] <rtnpro> in this case test_fact
+[13:12] <rtnpro> you must have noticed that we have also imported the function that we want to test: fact
+[13:12] <rtnpro> in our test case, we'll now run an action: res = fact(5)
+[13:12] <rtnpro> following that we'll run an assertion: self.assertEqual(res, 120)
+[13:13] <rtnpro> so, we are asserting that the result of fact(5) is 120
+[13:13] <rtnpro> if the result is not 120, the assertion will fail and it will report that
+[13:14] <rtnpro> try changing the assertion value from 120 to 125 and run the test file again
+[13:14] <rtnpro> let me know when someone is done
+[13:14] <SRvSaha> done
+[13:15] <SRvSaha> Got "failure"
+[13:15] <vibhcool_> done
+[13:15] <vibhcool_> it returns asserterror
+[13:15] <imack> !
+[13:15] <rtnpro> yes
+[13:15] <rtnpro> next
+[13:15] <archer121> yes, I got a FAIL and a AssertionError
+[13:15] <imack> rtnpro, it is a naming convention to name the class as such?
+[13:15] <rtnpro> imack, yes
+[13:15] <vibhcool_> !
+[13:15] <rtnpro> that's the default convention
+[13:16] <rtnpro> the way unittest test runner discovers your tests is with the "Test" class prefix and "test_" method prefix
+[13:16] <rtnpro> it will skip calling the other classes and methods
+[13:17] <rtnpro> however, you can write custom discovery logic, if needed
+[13:17] <rtnpro> next
+[13:17] <vibhcool_> assert returns assertionerror when there is any error else returns nothing. thats it?
+[13:17] <archer121> rtnpro, but it seems to work event if I dont start the class with Test*
+[13:17] <archer121> I named it as "TRstFactorial"
+[13:18] <imack> rtnpro, i tried to change the name and saw that the output is again same, so how does the class and function is getting called?
+[13:18] <rtnpro> vibhcool_, it basically does that, but there are more to assertions
+[13:18] <rtnpro> we'll get into that
+[13:19] <krish_iyer> in assertion do we define the error or is it the same error which is definied in python
+[13:19] <vibhcool_> rtnpro: ok :)
+[13:19] <imack> ok
+[13:19] <rtnpro> archer121, may be, I missed it. However, your test cases must start with a "test"
+[13:19] <rtnpro> archer121, can you check that out?
+[13:20] <rtnpro> krish_iyer, I do not follow
+[13:20] <imack> then it is not working
+[13:20] <mohankumar> !
+[13:20] <imack> if we change the function name to anthing other then test_*
+[13:20] <rtnpro> imack, yes, you got it
+[13:21] <rtnpro> next
+[13:21] <mohankumar> rtnpro: your test cases must start with a "test" .. it's guideline  or must follow , even i change function name it works
+[13:21] <imack> then function is not called
+[13:21] <imack> :)
+[13:21] <archer121> rtnpro: Yes, it should start with `test`, and if it does not, it won't be ran. (Ran 0 tests in 0.000s)
+[13:21] <rtnpro> mohankumar, archer121 answered your question :)
+[13:22] <rtnpro> mohankumar, is it OK?
+[13:22] <krish_iyer> rtnpro, why we need assert?
+[13:22] <rtnpro> krish_iyer, I will come that
+[13:22] <mohankumar> rtnpro ,  archer121 .. thanks .. will check
+[13:22] <krish_iyer> ohk :)
+[13:22] <rtnpro> we'll proceed now
+[13:22] <imack> yes
+[13:22] <rtnpro> so, the structure of a test case is
+[13:23] <rtnpro> 1. perform an action 2. Assert it's result
+[13:24] <rtnpro> theoretically, a test case should have a single action and one or many assertions
+[13:24] <rtnpro> it's simple, action, then assert
+[13:24] <rtnpro> krish_iyer, about your question, "why we need assert"
+[13:25] <rtnpro> isn't it how you check your software? or your teachers check your exam answers? ;)
+[13:26] <rtnpro> there's an expected output, if the real output matches the expected, it passes, else it fails
+[13:26] <rtnpro> krish_iyer, did you get it?
+[13:26] <krish_iyer> yup :)
+[13:26] <SRv__> !
+[13:27] <rtnpro> next
+[13:27] <SRv__> rtnpro: Is there any automatic test cases generator ? Or do we need to write manually all the test cases and assert it ?
+[13:28] <iKshitij> !
+[13:28] <rtnpro> SRv__, there may be, I never found one that worked for me, so, you have to write your own :P
+[13:28] <rtnpro> next
+[13:28] <iKshitij> Thank you ! Got answer !
+[13:28] <SRv__> !
+[13:29] <rtnpro> next
+[13:29] <SRv__> rtnpro: So, we need to take care of all corner cases and normal cases. I was seeking if anything works like the one used in competitive programming for checking the solution against the submitted code ?
+[13:30] <iKshitij> We can write multiple input and corresponding output to check multiple cases ? Or we have to check one by one !
+[13:30] <rtnpro> SRv__, the platforms have test cases written in the backend for you. It does not happen magically :P
+[13:31] <mohankumar> !
+[13:31] <rtnpro> next
+[13:31] <mohankumar> same question now with classname
+[13:31] <mohankumar> https://paste.fedoraproject.org/484245/47578414/
+[13:32] <SRv__> rtnpro: I know that. But the thing is they don't write tests cases manually right ? They use generators for it. Is there anything here in real software development world ?
+[13:32] <mohankumar> Without Test__ Classaname is consider as valid
+[13:33] <rtnpro> mohankumar, that's what I discovered today, however, the convention is to start the class name with "Test"
+[13:33] <mohankumar> rtnpro , okay thanks
+[13:33] <rtnpro> so that people understand that this is a Test Case just by it's name
+[13:33] <mohankumar> rtnpro , true ..Agree !
+[13:34] <rtnpro> SRv__, may be, I am not aware of that
+[13:34] <rtnpro> SRv__, at least, I have not seen people around me write tests automagically :D
+[13:34] <SRv__> rtnpro: Ok thanks anyways :)
+[13:35] <krish_iyer> !
+[13:35] <rtnpro> next
+[13:35] <iKshitij> @SRv__: input and corresponding output are written ! Online judge just compare your output! I have seen coordinator checking test cases manually !
+[13:36] <archer121> !
+[13:36] <iKshitij> When you will organise competitive programming they will provide you sample input (test cases) and output
+[13:37] <rtnpro> now, let's try to test the div() function
+[13:38] <SRv__> iKshitij: Man, that's just a sample. Behind the scene there are 100s of test cases that are tested. So, there should be some generator for it. THough the corner cases are written manullly. I agree
+[13:38] <rtnpro> let's test an expected error scenario for the div() function
+[13:38] <krish_iyer> So this is what I understood, assert is for only testing the code but when we are wrtting the original code we have to get every output expectedly correct. Am I right?
+[13:38] <rtnpro> we all know that n/0 will throw a ZeroDivisionError in Python
+[13:39] <rtnpro> In this case, this exception is not a bug, because it's as per your expectations
+[13:39] <rtnpro> so, let's add a test case for it
+[13:39] <rtnpro> import unittest
+[13:39] <rtnpro> from factorial import fact, div
+[13:39] <rtnpro> class TestFactorial(unittest.TestCase):
+[13:39] <rtnpro>     """
+[13:39] <rtnpro>     Our basic test class
+[13:39] <rtnpro>     """
+[13:39] <rtnpro>     def test_fact(self):
+[13:40] <rtnpro>         """
+[13:40] <rtnpro>         The actual test.
+[13:40] <rtnpro>         Any method which starts with ``test_`` will considered as a test case.
+[13:40] <rtnpro>         """
+[13:40] <rtnpro>         res = fact(5)
+[13:40] <rtnpro>         self.assertEqual(res, 120)
+[13:40] <rtnpro>     def test_error(self):
+[13:40] <rtnpro>         """
+[13:40] <rtnpro>         To test exception raise due to run time error
+[13:40] <rtnpro>         """
+[13:40] <rtnpro>         self.assertRaises(ZeroDivisionError, div, 0)
+[13:40] <rtnpro> if __name__ == '__main__':
+[13:40] <rtnpro>     unittest.main()
+[13:40] <rtnpro> we added a test case test_error which asserts an exception
+[13:40] <rtnpro> it will error out if there's not an exception in this case
+[13:41] <rtnpro> krish_iyer, I do not follow, please rephrase your question
+[13:43] <SRvSaha> !
+[13:43] <rtnpro> next
+[13:43] <archer121> What generally happens when the output is not a integer. Like if it is an object?
+[13:45] <rtnpro> you can assert that as well, if the object's class has implemented a __eq__ function to check object equality
+[13:45] <vibhcool_> !
+[13:45] <rtnpro> archer121, is that clear?
+[13:45] <archer121> rtnpro: I get it.
+[13:46] <archer121> Thanks
+[13:46] <rtnpro> next
+[13:46] <SRvSaha> rtnpro: What is refactoring in layman terms ?
+[13:46] <vibhcool_> rtnpro: assertrasises fn returns ok.
+[13:46] <rtnpro> vibhcool_, that's what we are expecting
+[13:46] <rtnpro> vibhcool_, try changing it to:  self.assertRaises(ZeroDivisionError, div, 1)
+[13:47] <rtnpro> SRvSaha, changing/editing code
+[13:47] <vibhcool_> rtnpro: ok got it , it fails on everything except 0
+[13:47] <rtnpro> vibhcool_, cool
+[13:47] <SRvSaha> rtnpro: Ok.
+[13:49] <rtnpro> let's move ahead
+[13:49] <rtnpro> let's try the following code
+[13:49] <rtnpro> import os
+[13:49] <rtnpro> def mount_details():
+[13:49] <rtnpro>     """
+[13:49] <rtnpro>     Prints the mount details
+[13:49] <rtnpro>     """
+[13:49] <rtnpro>     if os.path.exists('/proc/mounts'):
+[13:49] <rtnpro>         fd = open('/proc/mounts')
+[13:49] <rtnpro>         for line in fd:
+[13:49] <rtnpro>             line = line.strip()
+[13:49] <rtnpro>             words = line.split()
+[13:49] <rtnpro>             print()'%s on %s type %s' % (words[0],words[1],words[2]), end=' ')
+[13:49] <rtnpro>             if len(words) > 5:
+[13:49] <rtnpro>                 print('(%s)' % ' '.join(words[3:-2]))
+[13:49] <rtnpro>             else:
+[13:49] <rtnpro>                 print('')
+[13:49] <rtnpro> if __name__ == '__main__':
+[13:49] <rtnpro>     mount_details()
+[13:49] <rtnpro> save it as mounttab2.py
+[13:52] <rtnpro> please try to write tests for it
+[13:53] <rtnpro> give it a shot, don't be shy?
+[13:53] <SRv__> rtnpro: I think there is a small mistake in the code print statement. The first closing paranthesis should not be there
+[13:54] <rtnpro> SRv__, fix it :P
+[13:54] <SRv__> rtnpro: Done that. Working now :)
+[13:55] <archer121> this time, it is an output to stdout that we have to test.
+[13:55] <rtnpro> can you try to write tests for it?
+[13:55] <rtnpro> archer121, so, how'd you test that?
+[13:56] <archer121> rtnpro: No idea. I'll have to google it out. :-)
+[13:56] <rtnpro> archer121, you can do that later
+[13:57] <archer121> rtnpro: In that case, I'll need a clue.
+[13:57] <rtnpro> we need some sort of result from a the callee (function/method) to assert something, right?
+[13:57] <rtnpro> if there's no result, what to assert?
+[13:58] <rtnpro> we have written such code many times in our early days of programming
+[13:58] <rtnpro> the result is visible on screen and we verify it with our eyes
+[13:58] <rtnpro> this model does not work for automated testing
+[13:59] <rtnpro> so, we need to take care to write code in a way that it can be tested
+[13:59] <rtnpro> somebody said "If you need to think too much to write tests for your code, your code is broken by design"
+[14:00] <rtnpro> let's look into how we can refactor this code so that we can test it
+[14:02] <rtnpro> here's the refactored code: https://paste.fedoraproject.org/484252/
+[14:02] <rtnpro> import os
+[14:02] <rtnpro>  
+[14:02] <rtnpro> def parse_mounts():
+[14:02] <rtnpro>     """
+[14:02] <rtnpro>    It parses /proc/mounts and returns a list of tuples
+[14:02] <rtnpro>    """
+[14:02] <rtnpro>     result = []
+[14:02] <rtnpro>     if os.path.exists('/proc/mounts'):
+[14:02] <rtnpro>         fd = open('/proc/mounts')
+[14:02] <rtnpro>         for line in fd:
+[14:02] <rtnpro>             line = line.strip()
+[14:02] <rtnpro>             words = line.split()
+[14:02] <rtnpro>             if len(words) > 5:
+[14:02] <rtnpro>                 res = (words[0],words[1],words[2], '(%s)' % ' '.join(words[3:-2]))
+[14:02] <rtnpro>             else:
+[14:02] <rtnpro>                res = (words[0],words[1],words[2])
+[14:02] <rtnpro>             result.append(res)
+[14:02] <rtnpro>     return result
+[14:02] <rtnpro>  
+[14:02] <rtnpro> def mount_details():
+[14:02] <rtnpro>     """
+[14:02] <rtnpro>    Prints the mount details
+[14:02] <rtnpro>    """
+[14:02] <rtnpro>     result = parse_mounts()
+[14:02] <rtnpro>     for line in result:
+[14:02] <rtnpro>         if len(line) == 4:
+[14:02] <rtnpro>             print('%s on %s type %s %s' % line)
+[14:02] <rtnpro>         else:
+[14:02] <rtnpro>             print('%s on %s type %s' % line)
+[14:02] <rtnpro>  
+[14:02] <rtnpro>  
+[14:03] <rtnpro> if __name__ == '__main__':
+[14:03] <rtnpro>     mount_details()
+[14:03] <rtnpro> now, can you write some test for it?
+[14:04] <rtnpro> can we now write test for the major logic in this code, which is parse_mounts()?
+[14:06] <imack> rtnpro, should we test that our function is returning something or not? right ?
+[14:06] <rtnpro> here's the test you'd write for the above:
+[14:06] <rtnpro> #!/usr/bin/env python
+[14:06] <rtnpro> import unittest
+[14:06] <rtnpro> from mounttab2 import parse_mounts
+[14:06] <rtnpro> class TestMount(unittest.TestCase):
+[14:06] <rtnpro>     """
+[14:06] <rtnpro>     Our basic test class
+[14:07] <rtnpro>     """
+[14:07] <rtnpro>     def test_parsemount(self):
+[14:07] <rtnpro>         """
+[14:07] <rtnpro>         The actual test.
+[14:07] <rtnpro>         Any method which starts with ``test_`` will considered as a test case.
+[14:07] <rtnpro>         """
+[14:07] <rtnpro>         result = parse_mounts()
+[14:07] <rtnpro>         self.assertIsInstance(result, list)
+[14:07] <rtnpro>         self.assertIsInstance(result[0], tuple)
+[14:07] <rtnpro>     def test_rootext4(self):
+[14:07] <rtnpro>         """
+[14:07] <rtnpro>         Test to find root filesystem
+[14:07] <rtnpro>         """
+[14:07] <rtnpro>         result = parse_mounts()
+[14:07] <rtnpro>         for line in result:
+[14:07] <rtnpro>             if line[1] == '/' and line[2] != 'rootfs':
+[14:07] <rtnpro>                 self.assertEqual(line[2], 'ext4')
+[14:07] <rtnpro> if __name__ == '__main__':
+[14:07] <rtnpro>     unittest.main()
+[14:07] <rtnpro> https://paste.fedoraproject.org/484255/
+[14:09] <rtnpro> is it making sense?
+[14:10] <imack> yes
+[14:11] <rtnpro> so, lesson learnt is that you should code in such a way it can be tested
+[14:11] <archer121> rtnpro: "ResourceWarning: unclosed file " cool!
+[14:11] <rtnpro> we're not going into the intricacies of the example
+[14:12] <archer121> !
+[14:12] <rtnpro> it's just an example to create the concept
+[14:12] <rtnpro> next
+[14:12] <rtnpro> next
+[14:13] <archer121> Did you not print int the function which is not being tested because you did not want to clutter the test output?
+[14:13] <archer121> in*
+[14:13] <archer121> sorry, which is being tested*
+[14:13] <rtnpro> we could have printed in the test function itself, that'd not harm
+[14:14] <rtnpro> but the point is that the function being tested need to return an output for it to be tested
+[14:14] <archer121> ok
+[14:15] <rtnpro> we'll move forward
+[14:16] <rtnpro> how do you know how comprehensive is your test?
+[14:17] <rtnpro> one way to know is that how much of your source code got executed during the test runs
+[14:17] <rtnpro> we have got a tool for that, called: coverage
+[14:17] <rtnpro> you can install it as below
+[14:17] <rtnpro> # yum install python-coverage
+[14:17] <rtnpro> or
+[14:18] <rtnpro> $pip install coverage
+[14:18] <rtnpro> once coverage is installed, you can run it on mounttest.py in the following way
+[14:18] <rtnpro> coverage -x mounttest.py
+[14:19] <rtnpro> once it runs, you can generate a report as follows:
+[14:19] <rtnpro> coverage -rm
+[14:19] <rtnpro> the output will look something like below:
+[14:19] <rtnpro> Name        Stmts   Miss  Cover   Missing
+[14:19] <rtnpro> -----------------------------------------
+[14:19] <rtnpro> mounttab2      21      7    67%   16, 24-29, 33
+[14:19] <rtnpro> mounttest      14      0   100%
+[14:19] <rtnpro> -----------------------------------------
+[14:19] <rtnpro> TOTAL          35      7    80%
+[14:19] <rtnpro> it tells how much code is covered by the test case
+[14:19] <vibhcool_> !
+[14:20] <rtnpro> next
+[14:20] <archer121> !
+[14:20] <vibhcool_> rtnpro: i didn't understand for loop of test program
+[14:21] <vibhcool_> what does it do?
+[14:21] <vibhcool_> for line in result:                                                                                    â@kushal
+[14:21] <vibhcool_> 09:07:35     @rtnpro |             if line[1] == '/' and line[2] != 'rootfs':                                                         â@rtnpro
+[14:21] <vibhcool_> 09:07:37     @rtnpro |                 self.assertEqual(line[2], 'ext4')
+[14:21] <SRv__> done
+[14:22] <rtnpro> vibhcool_, it does a dynamic assertion
+[14:22] <rtnpro> in the previous examples, we had done assertion against static values
+[14:22] <kushal> vibhcool_, you can use fpaste, rtnpro is pasting so that it stays in logs
+[14:23] <rtnpro> you can write all sorts of python inside test cases and do assertions as you want
+[14:23] <rtnpro> however, it's recommended to keep test cases simple
+[14:23] <rtnpro> it's just an example to show you the possibilities with test cases
+[14:23] <vibhcool_> kushal: sorry :P
+[14:23] <kushal> vibhcool_, no need to say sorry, just informed you :)
+[14:24] <rtnpro> vibhcool_, is that OK?
+[14:24] <vibhcool_> rtnpro: ok :D
+[14:25] <rtnpro> next
+[14:25] <archer121> I am getting this error: "no such option: -x". I am running Arch Linux. Any idea how to fix it?
+[14:26] <rtnpro> archer121, can you check "coverage -h"
+[14:26] <rtnpro> and find an equivalent
+[14:28] <archer121> rtnpro: https://paste.ubuntu.com/23495645/
+[14:28] <archer121> https://paste.ubuntu.com/23495649/
+[14:29] <archer121> I am a bit confused
+[14:29] <rtnpro> archer121, coverage run will work for you
+[14:29] <imack> !
+[14:29] <archer121> rtnpro: I just ran the test. No statistics
+[14:29] <rtnpro> next
+[14:30] <imack> rtnpro, coverage -x is not working in fedora as well
+[14:30] <imack> no such option
+[14:31] <SRv__> So, is this all ? rtnpro
+[14:31] <rtnpro> wait
+[14:32] <rtnpro> imack, so, you can use `coverage run` in place of `coverage -x`
+[14:32] <imack> ok
+[14:32] <archer121> that will just ran the test. No statistics
+[14:32] <archer121> run*
+[14:32] <rtnpro> and `coverage report -m` in place of `coverage -rm`
+[14:32] <archer121> oh, sorry
+[14:32] <rtnpro> archer121, ^^
+[14:33] <archer121> works, thanx!
+[14:33] <rtnpro> we're almost at the close of the session
+[14:33] <rtnpro> if you want to get mastery on writing tests, there's only one way
+[14:34] <rtnpro> practice, practice, practice
+[14:34] <rtnpro> you can go through upstream projects and help test and adding tests for them
+[14:35] <rtnpro> if you have some query, you can reach out to me
+[14:35] <kushal> archer121, thanks is the right spelling.
+[14:35] <imack> rtnpro, can you guide me to write test case for any project
+[14:35] <rtnpro> Before, I end this session, I'd like to tell everyone about Pycon Pune, https://pune.pycon.org
+[14:36] <archer121> kushal: :)
+[14:36] <rtnpro> the 4 days ticket for devsprint is almost half gone
+[14:36] <rtnpro> so, you better hurry :D
+[14:36] <kushal> archer121, I am actually serious.
+[14:36] <kushal> As rtnpro said, remember to register for PyCon Pune as soon as possible.
+[14:37] <kushal> We are going to have an amazing line of speakers
+[14:37] <kushal> Do not miss the chance
+[14:37] <rtnpro> I acknowledge you all to take out time from your lives to attend this session
+[14:37] <rtnpro> I hope that I was able to do justice with your time
+[14:37] <rtnpro> Thanks all :)
+[14:37] <SRv___> Thanks a lot rtnpro for detailed instruction on unittesting :)
+[14:38] <PrashantJ> rtnpro, thank you for the session :)
+[14:38] <imack> rtnpro, thanks :)
+[14:38] <PrashantJ> rtnpro, kushal, sorry, I missed major part of today's session. Kindly upload logs.
+[14:38] <kushal> Ending the session
+----END CLASS----

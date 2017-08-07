@@ -1,0 +1,369 @@
+[15:00:22] [## Class Started at Fri Jul 22 15:00:22 2016 ##]
+[15:00:22] <praveenkumar> #startclass
+[15:00:31] <praveenkumar> roll call please
+[15:00:33] <code_geek> Shantanu Acharya
+[15:00:34] <Yash_B> yash bhardwaj
+[15:00:34] <abstatic> Abhishek Shrivastava
+[15:00:34] <vharsh> Harsh Vardhan
+[15:00:35] <ak_d> Akhilesh Dhaundiyal
+[15:00:35] <priyanka> Priyanka Sharma
+[15:00:35] <vbhjain> Vaibhav JAin
+[15:00:38] <sandeepk> sandeep kumar choudhary
+[15:00:42] <pyadav> Pooja Yadav
+[15:00:43] <avik> Avik Mukherjee
+[15:00:44] <chandu> chandu
+[15:00:44] <shauryak_3> Shaurya Kalia
+[15:00:45] <sidhant> Sidhant Gupta
+[15:00:47] <trishnag> Trishna Guha
+[15:00:50] <sriniketh> sriniketh
+[15:00:51] <D1mz> Aditya Bayana
+[15:00:52] <hemanth> hemanth
+[15:00:53] <Anupama> Anupama Mandal
+[15:00:53] <priya_> Priyanka Ambre
+[15:00:56] <mspreddy>  mspreddy
+[15:01:03] <surendhar> surendhar
+[15:01:05] <kalyan> kalyan
+[15:01:08] <kiran_> kiran
+[15:01:08] <bhanu> bhanuteja
+[15:01:09] <iKshitij> Kshitij
+[15:01:11] <CuriousLearner> Sanyam Khurana
+[15:01:12] <yajushi> Yajushi Srivastava
+[15:01:20] <aman_> Aman Kumar
+[15:01:23] <chaitanya> chaitanya gupta
+[15:01:27] <goutham__> goutham
+[15:01:32] <akshays> Akshay Shipurkar
+[15:01:33] <sairam> sairam
+[15:01:35] <devmodem> Anurag
+[15:01:43] <chshbh> Avinash Madhukar
+[15:02:31] <rohan_h> Rohan Hazra
+[15:02:47] <jogender> Jogender Kota
+[15:02:55] <praveenkumar> Before we start today topic, anyone have query regarding about what we learnt yesterday?
+[15:02:58] <vshelar> Vivek Shelar
+[15:03:07] <PrashantJ> Prashant Jamkhande
+[15:03:09] <deep123k> Deepanshu kapoor
+[15:03:26] <gobinda> Gobinda Akhuli
+[15:04:11] <smdeep> Sudeep Mukherjee
+[15:04:21] <rl56> Varsha R
+[15:04:46] <praveenkumar> Looks like everyone got what we discussed yesterday. Today's topic is Data Structure in python.
+[15:05:10] <praveenkumar> What is data structure, anyone know?
+[15:05:36] <goutham__> Data Structure is a way to organized data in such a way that it can be used efficiently
+[15:05:37] <abstatic> programming constructs which allow us to store data in various ways
+[15:05:56] <pyadav> used to store data
+[15:06:09] <iKshitij> Organising data in CS
+[15:06:10] <darkside_> format for data so that it could be easily used
+[15:06:15] <vbhjain> a way to organize and access data.
+[15:06:15] <mspreddy> A data structure is a specialized format for organizing and storing data.
+[15:06:21] <praveenkumar> Right so it is a way to store data and then we can retrieve or manipulate later.
+[15:06:36] <vharsh> It is a collection of possible data that can be stored in an organized fashion, so that possible operations can be defined, can be carried out efficiently
+[15:06:51] <avik> arrays, stacks and queues are its examples, right?
+[15:06:58] <vharsh> avik, Yes
+[15:07:03] <rohan_h> Data means information and structure means how it is organized.
+[15:07:06] <praveenkumar> Now python different build in data-structures. which we will discuss today.
+[15:07:23] <praveenkumar> 1. We will start from List.
+[15:07:38] <shobhitaqua14> different operations to store and retrieve data efficiently.
+[15:07:49] <praveenkumar> Everyone is in python terminal if not then open one.
+[15:08:11] <pragnavi> roll call:Pragnavi
+[15:08:25] <sriniketh> python
+[15:08:41] <himavarshini> roll call: himavarshini
+[15:08:48] <sindhu_> roll call:sindhu
+[15:09:11] <praveenkumar> Now try to execute >>> a = ['hi', 'welcome', 'to', 'dgplug']
+[15:09:45] <poonam> Roll call: Poonam Jadhav
+[15:09:51] <praveenkumar> you can check a object type in python using type method.
+[15:10:03] <revathy> Roll call: Revathy Narayankutty
+[15:10:04] <praveenkumar> Try >>> type(a)
+[15:10:20] <Krishna> Roll call : Krishna Biradar
+[15:10:47] <praveenkumar> You will find that object type is a list. so we just defined a list.
+[15:11:11] <sarathchandrika> Roll call: Sarath Chandrika
+[15:11:29] <praveenkumar> We can perform lots of different operation on list. As we said earlier we can retrieve the data also so let's try that.
+[15:12:09] <praveenkumar> Assume I want to access 'welcome' then I should access it using list index which start from 0.
+[15:12:20] <priyanka> i got disconnected after praveenkumar said Now python different build in....someone please help me after that.
+[15:12:55] <praveenkumar> So to get 'welcome' you should >>> print a[1]
+[15:13:18] <praveenkumar> s/print a[1]/print(a[1])
+[15:13:29] <praveenkumar> Everyone got welcome printed?
+[15:13:38] <chandu> can we modify this?
+[15:13:41] <abstatic> yes
+[15:13:51] <code_geek> yes
+[15:13:52] <kiran_> yes
+[15:14:10] <aman_> Yes
+[15:14:13] <PrashantJ> yes
+[15:14:22] <Krishna> yes
+[15:14:22] <vshelar> yes
+[15:14:25] <praveenkumar> chandu: use ! if you have question. and yes we can modify it, we will discuss that also soon.
+[15:15:01] <praveenkumar> Now if I want to get 'dgplug' what should I execute?
+[15:15:08] <yajushi> Yes
+[15:15:17] <pyadav> a[3]
+[15:15:21] <kalyan> A[3]
+[15:15:22] <iKshitij> praveenkumar: I can get result by typing "print a[1] !
+[15:15:23] <vshelar> print a]3
+[15:15:25] <chaitanya>  print a[3]
+[15:15:25] <ak_d> print (a[3])
+[15:15:27] <mounica_> print(a[3])
+[15:15:27] <Anupama> a[3]
+[15:15:29] <kiran_> printa[3]
+[15:15:35] <hemanth> a(3)print
+[15:15:43] <sairam> print(a[3])
+[15:15:53] <yajushi> print(a[3])
+[15:15:59] <sriniketh> print a[3]
+[15:16:04] <hemanth> printa[3]
+[15:16:05] <poonam> a[-1]
+[15:16:09] <Krishna> print(a[-1])
+[15:16:15] <praveenkumar> iKshitij: it should be print(a[1])
+[15:16:35] <darkside_> a[-1]
+[15:17:04] <praveenkumar> Now what if I want to insert a element at 2nd index?
+[15:17:44] <kalyan> a[2]="element"
+[15:17:45] <hemanth> ??
+[15:17:50] <pyadav> a[2] = 'element'
+[15:17:53] <code_geek> a.insert(2, "hi")
+[15:17:54] <kiran_> a[2]='element'
+[15:17:55] <praveenkumar> list have lots of inbuild methods to manipute list according to our need in this situation we execute >>> a.insert(2, "my_element")
+[15:18:01] <PrashantJ> a.insert(2,'element')
+[15:18:02] <rohan_h> a[2]=elementname
+[15:18:16] <vshelar> a[1]='element'
+[15:18:23] <himanshutechy> roll call :Himanshu sharma
+[15:18:36] <praveenkumar> kiran_: kalyan Your suggession will replace 2nd index item with new one not insert.
+[15:18:57] <srvsaha> Roll Call : Saurav Saha
+[15:19:03] <darkside_> this means list is dynamic
+[15:19:04] srvsaha is now known as SRvSaha
+[15:19:36] <praveenkumar> List is mutable object in python so you can change it easily. (we will discuss it in a min)
+[15:20:44] <praveenkumar> Now everyone know about stack/queue right so how we will implement using list?
+[15:21:19] <aman_> a.pop()
+[15:21:23] <vharsh> yes
+[15:21:28] <pyadav> a.append()
+[15:21:33] <pyadav> a.pop()
+[15:21:35] <praveenkumar> Stack => It's Last in First out structure and Queue => first come first out structure.
+[15:21:40] <code_geek> we have methods like a.pop() and a.append() to use list as stack
+[15:22:09] <code_geek> and a.pop() and a.insert() for queue
+[15:22:13] <rahuldecoded> Roll call: Rahul Bhattacharjee
+[15:22:30] <aman_> !
+[15:22:36] <praveenkumar> So we have pop() and append() method for list which can be used for this.
+[15:22:40] <praveenkumar> next
+[15:22:42] <aman_> A.append() is  not working .
+[15:23:13] <aman_> Clear
+[15:23:16] <code_geek> aman_, use a.append('element')
+[15:23:28] <aman_> Got it . :)
+[15:23:33] <praveenkumar> aman_: Not working doesn't give me any clue about your problem until you tell me what is the error when you executed.
+[15:23:39] <praveenkumar> aman_: Great.
+[15:23:50] <darkside_> !
+[15:23:59] <praveenkumar> now everyone clear about how basic operation in list working?
+[15:24:17] <code_geek> yes
+[15:24:22] <aman_> Yes
+[15:24:26] <PrashantJ> yes
+[15:24:31] <rl56> yes
+[15:24:37] <surendhar> yes
+[15:24:51] <praveenkumar> Good, Now we discuss about List Comprehensions
+[15:24:53] <abstatic> yes
+[15:24:57] <poonam> yes
+[15:25:03] <praveenkumar> Anyone know what is that?
+[15:25:07] <shobhitupadhyay> yes
+[15:25:23] <praveenkumar> next
+[15:25:26] <PrashantJ> easy way to generate list without for loop
+[15:25:26] <praveenkumar> next
+[15:25:31] <darkside_> pop() and append() are for stack ?
+[15:26:31] <mspreddy>  pop()??
+[15:26:37] <praveenkumar> darkside_: to implement stack you can use pop(last_index_of_array) and to append(last_index_of_arrary)
+[15:26:37] <iKshitij> !
+[15:26:46] <darkside_> then what will be for queue ?
+[15:26:52] <iKshitij> praveenkumar: pop() not clear
+[15:27:15] <hemanth> !
+[15:27:30] <praveenkumar> darkside_: For queue you should use pop(0) and append(last_index_of_array)
+[15:27:53] <praveenkumar> iKshitij: try in your python terminal.
+[15:27:55] <darkside_> okay got that
+[15:27:55] <praveenkumar> next
+[15:28:00] <praveenkumar> next
+[15:28:32] <hemanth> last in first out means???
+[15:28:40] <pyadav> list comprehension way to create list
+[15:29:12] <praveenkumar> hemanth: https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
+[15:29:15] <deep123k> The element that is entered last is the first one to be popped
+[15:29:29] <pabitra> Roll Call - Pabitra Pati
+[15:29:37] <praveenkumar> Alright let's carry with list comprehension.
+[15:30:48] <praveenkumar> Assume I have a list >>> a = [1, 2, 3] and I want another list which have elements multiple of a's elements.
+[15:31:21] <praveenkumar> List comprehension is a way to do that and it's more pythonic way.
+[15:31:51] <praveenkumar> >>> [x ** 2 for x in a] will provide me another list which what I required.
+[15:32:37] <praveenkumar> Within single line I can generate another list.
+[15:32:41] <surendhar> !
+[15:32:44] <praveenkumar> next
+[15:33:01] <surendhar> can we use a while loop
+[15:33:30] <praveenkumar> surendhar: yes you can do but as I said pythonic way to create another list if operation is simple.
+[15:33:58] <surendhar> ok
+[15:33:58] <vbhjain> !
+[15:34:01] <praveenkumar> next
+[15:34:05] <vbhjain> praveenkumar , I have seen map function in haskell does it work in python for the same task?
+[15:34:22] <pabitra> surendhar, in while loop you may need 3 lines to do a task but list comphrension can do that for you in 1 line
+[15:35:18] <praveenkumar> vbhjain: yes python does have map function but I am not sure how it work with haskell. for python you can check help(map) in python terminal
+[15:35:47] <vbhjain> praveenkumar, ok I will :)
+[15:36:04] <praveenkumar> Moving on I suggest you folks to do more practice about list comprehension and other available methods.
+[15:36:18] <Yash_B> !
+[15:36:19] <praveenkumar> 2. Tuples - Another data structure in python
+[15:36:22] <praveenkumar> next
+[15:36:40] <Yash_B> in list comprehension do we really create a new list
+[15:37:00] <Yash_B> or we just print the previous pist  in multiples
+[15:37:22] <Yash_B> s pist/list
+[15:37:22] <surajd> Yash_B, a new list is created, if you wish you can assign it to a variable
+[15:37:38] <praveenkumar> Yash_B: No so when you used list comprehension you actucally created a new list which can be assigned to a variable.
+[15:37:53] <akshays> !
+[15:37:56] <praveenkumar> next
+[15:38:00] <Yash_B> thanks praveenkumar
+[15:38:03] <akshays> [x ** 2 for x in a] give me error
+[15:38:13] <poonam> !
+[15:38:15] <akshays> Traceback (most recent call last):
+[15:38:15] <akshays>   File "<stdin>", line 1, in <module>
+[15:38:15] <akshays>   File "<stdin>", line 1, in <listcomp>
+[15:38:15] <akshays> TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+[15:38:34] <praveenkumar> akshays: always use pastebin for multiple line paste.
+[15:38:44] <Yash_B> you need to use integers for this list
+[15:38:54] <Yash_B> or numbers
+[15:38:56] <surajd> akshays, pastebin ->
+[15:38:56] <surajd> <akshays>   File "<stdin>", line 1, in <listcomp>
+[15:38:58] <shauryak_3> akshays, power operator cannot be used on strings
+[15:39:05] <surajd> sorry https://paste.fedoraproject.org/
+[15:39:08] <praveenkumar> akshays: looks like your variable 'a' is either string or number but not list.
+[15:39:20] <akshays> i know but it was just 4 lines so i just pasted it
+[15:39:32] <chandu> !
+[15:39:43] <praveenkumar> next
+[15:39:46] <praveenkumar> next
+[15:40:02] <chandu> is any way to replace element from list
+[15:40:12] <praveenkumar> akshays: also make sure each element in list should be integer so you can perform multiply operation.
+[15:40:38] <poonam> same problem as akshays
+[15:40:38] <praveenkumar> chandu: yes you can replace a element from list using it's index
+[15:41:21] <chandu> thank you
+[15:41:49] <bhanu> !
+[15:41:49] <Yash_B> !
+[15:41:50] <akshays> thanks praveenkumar
+[15:41:53] <praveenkumar> next
+[15:41:55] <akshays> got it
+[15:42:15] <bhanu> how to find index in list
+[15:43:00] <surajd> bhanu, a.index
+[15:43:09] <surajd> bhanu, a.index(element)
+[15:43:19] <praveenkumar> bhanu: you can check index method
+[15:43:26] <praveenkumar> next
+[15:43:29] <Yash_B> k=1 ; k*3  #does that create a new variable other than k
+[15:44:04] <praveenkumar> Yash_B: new variable no until you assign k*3 to some variable.
+[15:44:11] <chandu> !
+[15:44:16] <darkside_> a.index(element) will return you the first index of the element
+[15:44:32] <praveenkumar> next
+[15:44:51] <chandu> if same elements there in list means how can i get index of all
+[15:45:01] <shauryak_3> Yash_B, typing k*3 will only make the python interpretor give out the result of the operation . no new variable till you assign it
+[15:45:52] <Yash_B> shaurya_3 is this  thing not comparable with the list comprehension technique
+[15:46:06] <darkside_> yash_B it just same as doing calculations in c or c++
+[15:46:15] <sriniketh> !
+[15:46:19] <praveenkumar> chandu: http://stackoverflow.com/questions/6294179/how-to-find-all-occurrences-of-an-element-in-a-list
+[15:46:22] <praveenkumar> next
+[15:46:22] <darkside_> yash_B list is mutable object
+[15:47:29] <sriniketh> if i have a character or string in the list and we perform a comprehension then what is the output
+[15:48:23] <praveenkumar> sriniketh: Still will be a list if operation you performed inside comprehension supported by string otherwise you will get nice traceback.
+[15:48:50] <praveenkumar> Any more questions or we should move to Tuple now?
+[15:48:58] <surajd> sriniketh, comprehensions are usually done on lists that has homogenous objects
+[15:49:16] <sriniketh> !
+[15:49:38] <praveenkumar> next
+[15:49:44] <sriniketh> what do u mean by traceback
+[15:50:17] <kushal> sriniketh, what do you mean by  u?
+[15:51:04] <praveenkumar> sriniketh: type B in your python shell and you will get NameError which is traceback, more you can check https://docs.python.org/3/library/traceback.html
+[15:51:15] <sriniketh> means we will get back the list even the comprehension has done
+[15:51:59] <praveenkumar> sriniketh: Big No, check what I said for traceback.
+[15:52:29] <sriniketh> okay ,thank you.
+[15:52:48] <praveenkumar> Now let's talk about Tuples.
+[15:53:04] <mspreddy> !
+[15:53:24] <praveenkumar> try to execute >>> a = 'Fedora', 'Debian', 'Kubuntu', 'Pardus'
+[15:53:28] <praveenkumar> next
+[15:54:28] <praveenkumar> Now to check the object type execute >>> type(a) , what type you get?
+[15:54:49] <shauryak_3> tuple
+[15:54:53] <pyadav> tuple
+[15:54:54] <rl56> tuple
+[15:54:58] <aman_> Tuple
+[15:55:01] <priyanka> tuple
+[15:55:08] <chandu> tuple
+[15:55:21] <sriniketh> tuple
+[15:55:23] <suniva> tuple
+[15:55:23] <shobhitupadhyay> tuple
+[15:55:34] <surendhar> tuple
+[15:55:56] <ak_d> <class 'tuple'>
+[15:55:58] <mspreddy> what is tuple
+[15:56:01] <praveenkumar> Good so we have now tuple obect type, Now try to replace a value from tuple >>> a[2] = 'Replaced' , what you see (only one can tell)?
+[15:56:02] <PrashantJ> <type 'tuple'>
+[15:56:07] <bhanu> tuple
+[15:56:30] <praveenkumar> mspreddy: tupple is another data structure in python like list but have different property.
+[15:57:10] <PrashantJ> 'tuple' object does not support item assignment
+[15:57:23] <praveenkumar> That's right
+[15:57:51] <vbhjain> yes tuples are immutable like strings in java
+[15:58:03] <praveenkumar> Because tuple is immutable and it means you can't del/add/edit anything from tuple.
+[15:58:29] <chandu> https://www.irccloud.com/pastebin/Ni8gUUS7/
+[16:00:03] <praveenkumar> We need tuple for non-editable data so that if by mistake we try to replace anything in data it will throw a error.
+[16:00:43] <praveenkumar> Any questions on Tuple?
+[16:01:27] <praveenkumar> Alright so another data structure is Set
+[16:01:53] <praveenkumar> 3. Set => data structure which provide no duplicate item.
+[16:02:21] <praveenkumar> Now everyone try to execute >>> a = set('abcthabcjwethddda')
+[16:03:18] <praveenkumar> Here you can see we put a string to set method which we create a set object for us and assigned to 'a'. Again you can check type of a using >>> type(a)
+[16:04:23] <shauryak_3> !
+[16:05:07] <praveenkumar> So if you noticed we provide multiple char in the strings and some are used multiple times but when you check about what 'a' contain you will see it doesn't have any duplicate item.
+[16:05:09] <praveenkumar> next
+[16:05:20] <shauryak_3> how can we access the separate non-duplicate items in a set?
+[16:06:46] <praveenkumar> shauryak_3: set is not list so you can't access the element but you can perform set operations.
+[16:07:10] <praveenkumar> Now try to execute >>> b = set('alacazam')
+[16:07:54] <darkside_> shauryak_3 : you can try  e = next(iter(a)) and then print e
+[16:08:31] <praveenkumar> And now we can perform set operation like union, intersection ..etc
+[16:08:32] <darkside_> you can iterate over the elements
+[16:08:43] <shauryak_3> praveenkumar, darkside_  thanks
+[16:09:08] <praveenkumar> darkside_: yes iteration is possible but you can't accesss set element using index
+[16:09:36] <praveenkumar> Now try >>> a - b, what you get?
+[16:10:35] <praveenkumar> you will get letters in 'a' but not in 'b' right
+[16:10:49] <praveenkumar> which set operation is this?
+[16:10:49] <priyanka> yes
+[16:10:58] <PrashantJ> Difference, yes
+[16:11:24] <vbhjain> like in maths
+[16:11:45] <praveenkumar> yes in math we call it set complements operation.
+[16:12:59] <praveenkumar> 4. Dictionary another data structure for python
+[16:14:09] <praveenkumar> Dictionary is unordered set of key:value pair where key is always unique. And we access item value using that unique key
+[16:14:57] <praveenkumar> Try to execute >>> data = {'kushal':'Fedora', 'kart_':'Debian', 'Jace':'Mac'}
+[16:15:21] <praveenkumar> And check the type of data variable using >>> type(data)
+[16:15:28] <kushal> Funny that this line is still valid :)
+[16:15:31] <vshelar> dict
+[16:15:36] <kushal> All 3 of us use the same distro.
+[16:15:37] <praveenkumar> kushal: :)
+[16:16:01] <pyadav> type dict
+[16:16:25] <praveenkumar> Now I would I know what 'Jace' uses ( here I know the key)
+[16:16:42] <praveenkumar> s/I would/how would/
+[16:17:16] <praveenkumar> So I can execute >>> data['Jace'] and it will provide me value which associated with this key
+[16:18:49] <praveenkumar> How can I know if a key exist or not in a dictionary?
+[16:19:49] <PrashantJ> dict.haskey()
+[16:19:55] <aman_> 'Keyname' in data
+[16:20:08] <PrashantJ> data.haskey() in our case
+[16:21:06] <praveenkumar> it's data.has_key() or you can check using 'in' operation.
+[16:21:51] <praveenkumar> so >>> data.has_key('Jace') will return True and same >>> 'Jace' in data
+[16:21:53] <PrashantJ> Okay, thanks for correction
+[16:22:43] <praveenkumar> You can add and modify element in dictionary because it's mutable.
+[16:23:18] <praveenkumar> To add a item use >>> data['welcome'] = 'dgplug' here welcome will become key.
+[16:23:56] <praveenkumar> If you want to edit then >>> data['welcome'] = 'edited' and it will replace 'welcome' key value from dgplug to replace
+[16:25:25] <praveenkumar> Now I will encourage you folks to go through datastructure section in http://pymbook.readthedocs.io/en/latest/datastructure.html and next time when we have session ask your doubts if any.
+[16:25:41] <praveenkumar> If you have any questions right now please ask.
+[16:25:47] <aman_> !
+[16:25:52] <praveenkumar> next
+[16:26:02] <aman_> How to use new line and tab in string
+[16:26:32] <praveenkumar> aman_: '\n' => new line and '\t' for tab
+[16:27:03] <chshbh> !
+[16:27:12] <praveenkumar> next
+[16:27:25] <chshbh> are there any specific operations in tupple buy not in lists?
+[16:28:11] <praveenkumar> chshbh: yes you can't del a element from tuple but can do in list. same with replace and add.
+[16:28:11] <chshbh> they look same just that tupple are immutable? <eof>
+[16:28:51] <praveenkumar> Looks same does't mean they are same. They do have different use case.
+[16:29:06] <chshbh> okay
+[16:29:16] <sandeepk> !
+[16:29:18] <praveenkumar> next
+[16:29:21] <sandeepk> getting error while trying this data.has_key('jace')
+[16:29:29] <sandeepk> link :https://da.gd/y9ORQ
+[16:30:07] <praveenkumar> sandeepk: which python version you are using?
+[16:30:19] <PrashantJ> data.has_key('jac') in your case
+[16:30:23] <sandeepk> 3.4.3
+[16:30:30] <PrashantJ> sandeepk, ^^
+[16:30:59] <PrashantJ> sandeepk, you have used 'jac' as your key
+[16:31:13] <sandeepk> but in that case return value shoul be false
+[16:31:30] <sandeepk> 'dict' object has no attribute 'has_key'
+[16:31:43] <sandeepk> PrashantJ: , ^^
+[16:31:57] <PrashantJ> sandeepk, yes did not noticed that
+[16:32:59] <praveenkumar> sandeepk: it should work try to use a different variable and define dictionary and then access using has_key
+[16:32:59] <PrashantJ> sorry sandeepk
+[16:33:11] <praveenkumar> sandeepk: see if that work
+[16:33:22] <sandeepk> PrashantJ: it's ok do't say sorry :-)
+[16:33:33] <sandeepk> s/do't/don't
+[16:34:18] <praveenkumar> Alright so we are closing today session.
+[16:34:25] <praveenkumar> #endclass
+[16:34:25] [## Class Ended at Fri Jul 22 16:34:25 2016 ##]

@@ -1,0 +1,364 @@
+----BEGIN CLASS----
+[13:33] <sayan> #startclass
+[13:33] <sayan> Roll Call
+[13:33] <RIcharD_> Mayank gupta
+[13:34] <pr97> now i can charge my laptop, supply came:)
+[13:34] <poojaencoded> pooja kumari singh
+[13:34] <kvy> kumar vipin yadav
+[13:34] <abhinavshirur> Abhinav Shirur
+[13:34] <skat-sd> Saikat Dey
+[13:34] <championshuttler> Shivam Singhal
+[13:34] <pr97> Priyanka Sharma
+[13:34] <ghishadow> Suraj Ghimire
+[13:34] <asraisingh> Abhishek Singh
+[13:34] <jasonbraganza> Jason Braganza
+[13:34] <balaji> Balaji
+[13:34] <bhavin192> Bhavin Gandhi
+[13:34] <san-D> Sandesh patel
+[13:34] <ashwanig> Ashwani Kumar Gupta
+[13:34] <Guest92539> Atul kumar
+[13:34] <knrai> Krishnanand Rai
+[13:34] <aryan1308> Aryan tripathi
+[13:34] <deepika> Deepika Upadhyay
+[13:34] <yurii> yurii  pylypchuk
+[13:35] <priyansh> Priyansh Sourav
+[13:35] <imack> Mahendra Yadav
+[13:35] <NEEL_> Navanil Roy
+[13:35] <sayan> pr97: yay!
+[13:36] <pr97> :)
+[13:36] <vharsh> Harsh Vardhan
+[13:36] <sayan> wow, the people have gone down
+[13:36] <sayan> good for us :)
+[13:36] <sayan> Questions please!
+[13:36] <AndroUser> Roll Call Ravindra Lakal
+[13:36] <CHOCOS2> neha kandpal
+[13:37] <joyhimanshu> roll call:Himanshu Awasthi
+[13:37] <Casper_01[m]> Mayur khomane
+[13:37] <ikshitij> Kshitij
+[13:37] <jiteshpabla> Jitesh Pabla
+[13:37] <mriyam> Mriyam Tamuli
+[13:39] <kushal> Anyone has questions so far? from the hometask?
+[13:39] <championshuttler> !
+[13:40] <im_mohsin> Roll Call- Mohsin Mumtaz
+[13:40] <Vamsi3296> Roll call:Vamsi Krishna.
+[13:40] <sayan> next
+[13:40] <mdbk> Roll Call: Onyinye Madubuko
+[13:40] <championshuttler> why python community change "print" syntax to a function
+[13:41] <samridhia> Roll Call: Samridhi Agarwal
+[13:42] <sayan> championshuttler: https://www.python.org/dev/peps/pep-3105/
+[13:42] <kushal> samridhia, Please stay online after class, I have a few things to say.
+[13:42] <kushal> samridhia, Nice blog posts :)
+[13:42] <samridhia> thanks, kushal
+[13:42] <sayan> no more questions?
+[13:42] <sayan> This is good :
+[13:42] <sayan> :)
+[13:43] <skat-sd> !
+[13:43] <sayan> next
+[13:43] <skat-sd> There  is a line in the book "In Python we donât specify what kind of data we are going to put in a variable.". But then, while reading input from keyboard for a variable, we are using float, int, etc. Please explain this.
+[13:44] <skat-sd> <EOM>
+[13:44] <kushal> skat-sd, a = 213
+[13:45] <kushal> a = 32.4
+[13:45] <kushal> a = "I am not saying that I am dog on Internet"
+[13:45] <kushal> skat-sd, ^^^ not defining the data type.
+[13:46] <championshuttler> !
+[13:46] <skat-sd> I thought python will auto-detect data type while scanning user input just like we are not mentioning data type while declaring a variable.
+[13:47] <im_mohsin> skat-sd, when you have to explicitly typecast the input to your desired form like this like this int(input()). This is typecasting to make it into integer and do regular integer operation on it
+[13:48] <im_mohsin> s/when/then
+[13:48] <sayan> next
+[13:48] <skat-sd> im_mohsin, okay, so we are only going the required specific way by that. Thanks
+[13:49] <asraisingh> !
+[13:49] <championshuttler> doubt cleared :)
+[13:49] <sayan> next
+[13:49] <asraisingh> why python always takes input in string, as it identifies the data type automatically?
+[13:50] <sayan> asraisingh: input always returns string
+[13:51] <sayan> I am sure there is somewhere in PEP written on why or maybe in doc
+[13:51] <asraisingh> ok
+[13:51] <sayan> but I have not thought on it why
+[13:52] <sayan> Ok, people can you start reading: http://pymbook.readthedocs.io/en/latest/ifelse.html
+[13:52] <sayan> Once you read I will explain again, but read first
+[13:54] <anuGupta> Roll call: Anu kumari Gupta
+[13:57] <championshuttler> done :)
+[13:57] <sayan> tell when done
+[13:57] <pr97> done
+[13:57] <yurii> done
+[13:57] <skat-sd> done
+[13:57] <ashwanig> done
+[13:58] <kvy> done
+[13:58] <samridhia> done
+[13:58] <hemanth_> done
+[13:58] <mdbk> done
+[13:58] <jiteshpabla> done
+[13:58] <priyansh> done
+[13:58] <san-D> done
+[13:58] <knrai> done
+[13:59] <anuGupta> Done
+[13:59] <im_mohsin> done
+[13:59] <Guest92539> done
+[13:59] <deepika> done
+[13:59] <NEEL_> done
+[14:00] <sayan> Cool
+[14:00] <asraisingh> done
+[14:00] <poojaencoded> done
+[14:01] <balaji> done
+[14:03] <sayan> once you start programming, you would come to a point when you need your program to decide a detour based on condition
+[14:04] <sayan> for example you are operating a mobile store
+[14:04] <sayan> and you are told to sell mobiles only to people with the age greater than 18
+[14:05] <sayan> so you would put a condition in your program that
+[14:05] <sayan> if the age of the person is greater than 18
+[14:05] <sayan> then go ahead sell the mobile
+[14:05] <sayan> or else you soo off the kid :)
+[14:05] <sayan> this is also called control flow
+[14:06] <sayan> because at the end of the day you are managing the control of your program
+[14:06] <sayan> the syntax is
+[14:06] <sayan> if condition:
+[14:06] <sayan>     do stuff if the condition is true
+[14:06] <sayan> else:
+[14:06] <sayan>    do stuff is the condition is false
+[14:07] <sayan> note the else part is optional
+[14:07] <sayan> that means if the age of the person is greater that 18; then you sell the mobile
+[14:08] <sayan> and if you don't put the else condition in there, your program will just ignore and passon
+[14:08] <sayan> - Few things to remember
+[14:08] <sayan> - each if and else line ends with colon
+[14:08] <sayan> followed by idented lines
+[14:09] <sayan> can somebody explain what is indentation?
+[14:09] <jasonbraganza> pushing stuff ahead of the margin, by spaces or tabs
+[14:09] <hemanth_> we use tab spacing to make code more readable.
+[14:09] <jiteshpabla> The space we leave on the left side of the page in text and code
+[14:10] <skat-sd> empty space at the beginning of a line to start something new in it
+[14:10] <anuGupta> It is very important in python. To declare the scope of a set of statements in a loop or conditional check we use indentation
+[14:11] <anuGupta> Suppose we need to put a set of statements under any type of loop or conditional check, we give spaces and maintain the equal amount of spaces throughout within that
+[14:12] <Guest92539> the prorper allignment of code is called indentation.
+[14:12] <san-D> it shows that the indented lines belong to the above unindented statement
+[14:13] <championshuttler> A space left between the left-hand margin of a line of type or handwriting and the beginning of a sentence or quotation
+[14:13] <avik> Indentation in python is basically discriminating a block of code, by maintaining a certain space from the margin.
+[14:14] <sayan> right, idendation in python is more than just shifting the code
+[14:14] <sayan> it is a way to define the scope of the code
+[14:16] <sayan> >>> if x < 0:
+[14:16] <sayan> ...      x = 0
+[14:16] <tenida> sayan: Error: ".." is not a valid command.
+[14:16] <sayan> ...      print('Negative changed to zero')
+[14:16] <tenida> sayan: Error: ".." is not a valid command.
+[14:17] <sayan> so if you see here, the idented code is the then block
+[14:17] <sayan> there are only 2 lines in the then block
+[14:17] <sayan> and if the condition is tru
+[14:17] <sayan> s/tru/true/
+[14:17] <sayan> those 2 lines would be executed
+[14:17] <sayan> any questions?
+[14:18] <sayan> seems like no
+[14:19] <skat-sd> !
+[14:19] <sayan> next
+[14:19] <skat-sd> What was the truth value testing at the bottom of the page?
+[14:20] <championshuttler> !
+[14:21] <sayan> skat-sd: i was planning to come to it later
+[14:21] <skat-sd> sayan, okay.
+[14:24] <sayan> in Python even if you don't give a condition
+[14:24] <sayan> like x==0, or x<=10
+[14:24] <sayan> at the end of the day python checks if the condition is true or false
+[14:25] <sayan> there for even if you give just if True
+[14:25] <sayan> or if False, that would just work
+[14:26] <sayan> so write a program to take input from user two numbers, number_1 & number_2
+[14:26] <sayan> and preferred operation ( +, -, /, *)
+[14:26] <sayan> after the inputs print the result
+[14:27] <sayan> Do this task on the azure notebook
+[14:27] <kushal> sayan, Nice problem :)
+[14:29] <samridhia> done
+[14:29] <hemanth_> done
+[14:29] <kushal> samridhia, link please?
+[14:29] <samridhia> https://notebooks.azure.com/n/IEV4pGuJLXE/notebooks/practice.ipynb
+[14:30] <sayan> update the links here: https://etherpad.gnome.org/p/dgplug-2018
+[14:31] <kushal> sayan, let them paste here, links may change between start/stop iirc
+[14:31] <kushal> samridhia, https://notebooks.azure.com/anon-9o7bwq/libraries/dgplug2/html/practice.ipynb
+[14:31] <kushal> wrong
+[14:31] <sayan> kushal: they can paste multiple times in the etherpad
+[14:32] <sayan> this is because links might now work and people who are referencing might panic
+[14:32] <samridhia> kushal, ok i have to see
+[14:32] <sayan> like I deleted venus :)
+[14:34] <kushal> samridhia, sayan said to take input about the operation too
+[14:34] <samridhia> oh got it kushal
+[14:35] <jasonbraganza> https://notebooks.azure.com/run/jasonbraganza/dgplug?dest=/notebooks/summertraining.ipynb
+[14:36] <hemanth_> https://repl.it/JmyS/0
+[14:36] <hemanth_> oh sorry
+[14:37] <bhavin192> done
+[14:37] <kushal> jasonbraganza, we need the HTML view :)
+[14:38] <bhavin192> https://notebooks.azure.com/n/gYEEwo4DvbM/notebooks/summertraining.ipynb
+[14:38] <jasonbraganza> will this do? - https://notebooks.azure.com/n/UoS88puoAwg/nbconvert/html/summertraining.ipynb?download=false
+[14:39] <jasonbraganza> no i think
+[14:41] <abhinavshirur> https://notebooks.azure.com/abhinavshirur/libraries/dgplug/html/summertraining.ipynb
+[14:41] <ashwanig> done
+[14:41] <ashwanig> https://notebooks.azure.com/n/lIcDepG7Rmg/notebooks/calculator.ipynb
+[14:41] <sayan> jasonbraganza: this: https://notebooks.azure.com/jasonbraganza/libraries/dgplug/html/summertraining.ipynb
+[14:41] <jiteshpabla> https://notebooks.azure.com/anon-qjhtmg/libraries/dgplug
+[14:42] <jasonbraganza> sayan - thank you. was madly googling :)
+[14:42] <RIcharD_> https://notebooks.azure.com/anon-jm5vqa/libraries/dgplug
+[14:42] <knrai> https://notebooks.azure.com/n/QBFrmUluK0A/notebooks/summertraining.ipynb
+[14:42] <sayan> People don't read :( I told to update the etherpad link
+[14:43] <sayan> only jasonbraganza did
+[14:43] <abhinavshirur> sorry to interrupt, but I want to share something. I got placed in Eaton Technologies, Pune :)
+[14:43] <asraisingh> done
+[14:43] <sayan> jasonbraganza: you had to take the input of the operation too
+[14:44] <jasonbraganza> sayan - will do
+[14:44] <abhinavshirur> sayan, sorry
+[14:44] <samridhia> sayan, i did the code but my code is still in running state since 5 minutes. no idea why?
+[14:44] <mdbk> https://notebooks.azure.com/n/u6rqtXNxUrw/notebooks/summertraining.ipynb
+[14:44] <kushal> samridhia, wrote something wrong, you can restart the kernel
+[14:45] <jasonbraganza> sayan - aah and thatâs where flow control come into play
+[14:45] <samridhia> ok kushal, trying
+[14:45] <sayan> kushal: ?
+[14:45] <balaji> sayan,  https://notebooks.azure.com/n/Wk6T6AksC1c/notebooks/IOprogram.ipynb
+[14:45] <pr97> https://notebooks.azure.com/n/Z2iNApRes9s/notebooks/summertraining.ipynb
+[14:46] <sayan> kushal: no samridhia goes to restart the kernel
+[14:46] <sayan> balaji: pr97 what will I do with this link?
+[14:46] <kushal> Not sure why people can not read the problem sayan gave
+[14:46] <pr97> ohh sorry sayan
+[14:46] <kushal> He asked to take input of the operator
+[14:46] <samridhia> it's showing dead kernel!
+[14:47] <kushal> samridhia, yes, you can start it again
+[14:47] <samridhia> ok kushal
+[14:47] <balaji> kushal, I did like that only
+[14:48] <avik> https://notebooks.azure.com/n/JTqGecxlkZA/notebooks/calculator_ifelse.ipynb
+[14:48] <avik> sorry for pasting here!
+[14:49] <kushal> Also, everyone please try to use the same notebook for everything in the class
+[14:52] <deepika> https://notebooks.azure.com/n/KyxAjAp8hRQ/notebooks/summertraining.ipynb
+[14:52] <jasonbraganza> sayan - done
+[14:53] <RIcharD_> https://notebooks.azure.com/anon-jm5vqa/libraries/dgplug
+[14:53] <sayan> jasonbraganza: bad choice of variables
+[14:53] <sayan> asraisingh: also has bad choice of variables
+[14:53] <jasonbraganza> sayan - you want me to be descriptive in some way?
+[14:53] <sayan> jasonbraganza: yes, that's why I wrote number_1 & number_2
+[14:53] <jasonbraganza> Iâm sorry. fixing
+[14:54] <asraisingh> sayan, oh sorry for that fixing it
+[14:54] <sayan> jiteshpabla: no access
+[14:54] <sayan> abhinavshirur: that's good you are using the same notebook I guess
+[14:54] <jiteshpabla> sayan: ok, i'll check
+[14:54] <sayan> but variable names :(
+[14:55] <jasonbraganza> sayan - fixed
+[14:55] <sayan> san-D: cool, you followed the variable names except 'op'
+[14:55] <sayan> jasonbraganza: cool
+[14:55] <abhinavshirur> sayan, sorry, fixing that
+[14:56] <asraisingh> sayan, done
+[14:57] <abhinavshirur> sayan, done :)
+[14:58] <sayan> mdbk: nope, the solution is wrong
+[14:58] <hemanth_> sayan done
+[14:58] <mdbk> Sayan - okay
+[14:59] <sayan> avik: avoid duplication
+[14:59] <vharsh> We have to add two numbers?
+[15:00] <jiteshpabla> sayan: link fixed!
+[15:00] <sayan> vharsh: nope, calculator
+[15:00] <vharsh> sayan, okay, The user will input +, -, *, or /
+[15:00] <sayan> vharsh: yes
+[15:00] <sayan> people any questions?
+[15:01] <avik> sayan, duplication like?
+[15:01] <avik> number1 and number2 ?
+[15:01] <championshuttler> !
+[15:01] <sayan> avik: can you paste your link here?
+[15:01] <sayan> next
+[15:01] <championshuttler> what is pass in python?
+[15:01] <avik> sayan, https://notebooks.azure.com/technotron/libraries/dgplug/html/calculator_ifelse.ipynb
+[15:02] <sayan> okay people look in avik solution and tell what can be improved?
+[15:02] <kushal> No one read the question statement sayan told.
+[15:03] <Guest92539> instead of taking a variable named result he could have directly printed the result
+[15:03] <sayan> championshuttler: pass is just a placeholder, does nothing
+[15:03] <RIcharD_> And the code can be shorter. Saving time :)
+[15:04] <jasonbraganza> his variables have to be in curly braces?
+[15:04] <sayan> RIcharD_: shorter code != saving time
+[15:04] <jasonbraganza> in the print statements?
+[15:04] <RIcharD_> sayan, okay.
+[15:04] <sayan> he repeated the line print
+[15:05] <sayan> which is not ideal
+[15:05] <avik> Guest92539, yes, i could have done that! I was initially planning to print the result once , after all if/else conditions!, then realised a problem in that!
+[15:05] <sayan> avik: what?
+[15:05] <asraisingh> input command produces string and avik directly processed the string not typecasting into int or float which is more preffered.
+[15:05] <avik> sayan, the else at the end might cause a problem
+[15:06] <jasonbraganza> asraisingh - he made floarts
+[15:06] <sayan> avik: there is a way to fix that
+[15:06] <sayan> avik: if condition on result
+[15:07] <avik> like if I gave say 4 as an operator, it would first print the error! then woulgd go on to print an result, which had not been calculated! thus giving a garbage value!
+[15:07] <avik> sayan, yes!
+[15:07] <avik> I thought of that!
+[15:07] <avik> *I did not thought of that
+[15:07] <asraisingh> jasonbraganza, sorry
+[15:07] <sayan> :)
+[15:07] <sayan> next
+[15:07] <vharsh> sayan, I couldn't login into my Windows Live account. So I posted a gist.
+[15:08] <avik> sayan, thanks :D
+[15:08] <sayan> vharsh: ok
+[15:08] <sayan> Going ahead, I am not continuing with loops which I thought
+[15:09] <sayan> because people cannot read
+[15:09] <sayan> So, I would like to talk on that
+[15:09] <sayan> I specifically told to write number_1, number_2 and operator
+[15:09] <sayan> people did not read that :(
+[15:09] <sayan> So, here are few things I would like to tell on naming variables
+[15:11] <bhavin192> jasonbraganza, give something else as operator and then check the answer
+[15:11] <jasonbraganza> bhavin192 - i know. will fix later. listening right now
+[15:11] <bhavin192> jasonbraganza, oops sorry, it is a black else
+[15:12] <sayan> so, there are two ways of naming followed in Python
+[15:12] <sayan> - this_is_a_variable_name
+[15:12] <sayan> see how the variable name is self explainable
+[15:13] <sayan> and it is seperated by underscore
+[15:13] <sayan> all the letters are small
+[15:13] <sayan> most of the Python folks follow this convention
+[15:13] <sayan> but few places you would see this
+[15:13] <sayan> - thisIsAVariable
+[15:14] <sayan> This is called camelCase, not much followed (only in the test cases I have seen)
+[15:14] <sayan> seen in testcases because of the practices come from Java
+[15:14] <sayan> ^^ afaik
+[15:14] <sayan> so, DONT use variables name like a, b, c, d, i, j
+[15:15] <sayan> I really don't know what they mean
+[15:15] <avik> !
+[15:15] <sayan> nor the project maintainers, the maintainers have huge load of work so having these variable names just annoys them
+[15:16] <sayan> variables name should be self-explanatory
+[15:16] <sayan> like number_1 instead of n1, num1, num2, or even number1
+[15:16] <sayan> this last one because it's not seperated by underscore
+[15:17] <sayan> you can also write number_one
+[15:17] <sayan> Always, remember while writing code, the person who would be reading and maintaining your code 10 years later has your home address
+[15:18] <sayan> You really don't want to annoy that person
+[15:18] <sayan> next
+[15:18] <avik> isn't 'i' used for iterations?
+[15:18] <sayan> avik: nope
+[15:18] <avik> so what should we use?
+[15:19] <sayan> for school in schools?
+[15:19] <avik> "x" in range?
+[15:19] <avik> ok!
+[15:19] <avik> got that! thanks. <eom>
+[15:20] <sayan> Like in IRC, some of the shortforms are allowed like brb, bbiab
+[15:20] <sayan> similarly there are few variable names that you can use
+[15:20] <sayan> like I use elem a lot, but I am moving to using element
+[15:21] <sayan> for elem in range(): for element in range()
+[15:21] <ashwanig> !
+[15:21] <sayan> next
+[15:21] <ashwanig> Why do we use capital letters for a constant? <eof>
+[15:22] <sayan> I really don't know the reason, but it is defined in PEP8
+[15:22] <ashwanig> okay
+[15:22] <sayan> Next, thing is read, even though this is a small question, you read the specifications wrong
+[15:23] <sayan> suppose a airline company had been using your code, surely 2-3 planes would have come down
+[15:23] <sayan> specifications are important because other people depend on them
+[15:24] <sayan> Another thing is people/project have style guides, you need to read before contributing or working to their project
+[15:24] <sayan> if you are working on someone else project, you follow their code style guide
+[15:24] <sayan> any questions?
+[15:25] <jasonbraganza> no. this was clear
+[15:25] <sayan> I would recommend people to read PEP 8 every 6 months
+[15:25] <sayan> https://www.python.org/dev/peps/pep-0008/
+[15:26] <kushal> sayan, it is also in the book :)
+[15:26] <sayan> kushal: hope people read that
+[15:26] <sayan> also read this blog: http://treyhunner.com/2017/07/craft-your-python-like-poetry/
+[15:27] <sayan> this talk: https://www.youtube.com/watch?v=0PkRhfRkj1s
+[15:27] <sayan> and this talk: https://www.youtube.com/watch?v=knMg6G9_XCg
+[15:29] <sayan> Roll Call
+[15:29] <jasonbraganza> Jason Braganza
+[15:29] <mdbk> Onyinye Madubuko
+[15:29] <pr97> Priyanka Sharma
+[15:29] <yurii> yurii pylypchuk
+[15:29] <ashwanig> Ashwani Kumar Gupta
+[15:29] <samridhia> Samridhi Agarwal
+[15:29] <RIcharD_> Mayank gupta
+[15:29] <avik> Avik Mukherjee
+[15:29] <knrai> Krishnanand Rai
+[15:29] <vharsh> Harsh Vardhan
+[15:29] <san-D> Sandesh Pael
+[15:29] <deepika> Deepika Upadhyay
+[15:30] <jiteshpabla> Jitesh Pabla
+[15:30] <skat-sd> Saikat Dey
+[15:30] <abhinavshirur> Abhinav Shirur
+[15:30] <bhavin192> Bhavin Gandhi
+[15:30] <joyhimanshu> Himanshu Awasthi
+----END CLASS----

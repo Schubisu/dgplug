@@ -1,0 +1,318 @@
+[17:02:13] [## Class Started at Fri Jul 15 17:02:13 2016 ##]
+[17:02:13] <kushal> startclass
+[17:02:28] <kushal> roll call
+[17:02:29] <Smarty_The_BOT> Mahesh Gahlot
+[17:02:30] <PrashantJ> Prashant Jamkhande
+[17:02:30] <LambaInsaan> Rhitik Bhatt
+[17:02:30] <vharsh> Harsh Vardhan
+[17:02:31] <akshays> Akshay Shipurkar
+[17:02:31] <vbhjain> Vaibhav Jain
+[17:02:31] <ak_d> Akhilesh Dhaundiyal
+[17:02:32] <sandy__> sandeep kumar choudhary
+[17:02:33] <priyanka> Priyanka Sharma
+[17:02:33] <d1ndra> Indranil Dutta
+[17:02:33] <riskarsh> Utkarsh Shukla
+[17:02:34] <dhritishikhar> Dhriti Shikhar
+[17:02:34] <SRvSaha> Saurav Saha
+[17:02:34] <vijeya> cool!
+[17:02:34] <meamitk> Amit Kokitkar
+[17:02:35] <trishnag> Trishna Guha
+[17:02:35] <ksaikiranr_> K Sai Kiran
+[17:02:35] <SpEcHiDe> Shrimadhav U K
+[17:02:36] <akash47> Akash Mishra
+[17:02:37] <mbtamuli12> Mriyam Tamuli
+[17:02:38] <shobhitupadhyay> shobhit upadhyay
+[17:02:40] <sneo> Sarah Masud
+[17:02:41] <aghadge__> Amit Ghadge
+[17:02:42] <joinshack> Anjali Pardeshi
+[17:02:43] <suniva> Suniva Priyadarshini
+[17:02:46] <gobinda> Gobinda Akhuli
+[17:02:46] <moon45> Mamoon manzoor
+[17:02:49] <poonam> Poonam Jadhav
+[17:02:52] <indiabhi> Abhishek rai
+[17:02:55] <smdeep> Sudeep Mukherjee
+[17:02:55] <mahesh5> Mahesh Gahlot
+[17:02:57] <thunderoy> Abhishek Kumar Roy
+[17:02:57] <yASH> Yashwanth M
+[17:02:57] <Anupama> Anupama Mandal
+[17:03:02] <pabitrakumarpati> Pabitra Pati
+[17:03:02] <aman_> Aman Kumar
+[17:03:05] <kushal> masters
+[17:03:16] <kushal> mbuf, stage is yours.
+[17:03:17] <vijeya> Vijeya Patel
+[17:03:23] <mbuf> kushal: thanks!
+[17:03:31] <chandankumar> chandankumar
+[17:03:35] <abstatic> Abhishek Shrivastava
+[17:04:11] <mbuf> I am Shakthi Kannan (@shakthimaan) and today I will be discussing on "Time Management"
+[17:04:20] <anushil051> Anushil Kumar
+[17:04:42] <mbuf> This session will go on till 2130 IST, and I am happy to take questions during the session
+[17:05:12] <shauryak_3> Shaurya Kalia
+[17:05:27] <mbuf> Time is a very important dimension in our life, and that is something that we need to keep track of effectively
+[17:05:32] <amey> Amey Jain
+[17:05:42] googledocs is now known as acetakwas
+[17:06:02] <acetakwas> Roll Call: Tosin Animashaun
+[17:06:20] <mbuf> Being on-time is a good habit and a very difficult one to keep up
+[17:06:32] <code_geek> Roll Call: Shantanu Acharya
+[17:06:45] <mbuf> But, the discipline will definitely help you in the long run.
+[17:07:02] <mbuf> Time lost is lost. Unfortunately, there is no undo or redo button (except in Git).
+[17:07:36] <mbuf> Hence, the first thing that I would like all of you to do is to keep track of the time that you spend working with free and open source software.
+[17:07:38] <devyani7> Roll Call: Devyani
+[17:08:22] <mbuf> This can be time spent on 1. reading (search engines, Stack Overflow, books, forums etc.)
+[17:08:35] <mbuf> 2. Time that you spend writing and testing code
+[17:08:47] <mbuf> 3. Time that you spend on doing documentation, or writing blogs
+[17:09:01] <mbuf> 4. Time that you spend debugging an issue or bug
+[17:09:18] <yajushi> Roll Call: Yajushi Srivastava
+[17:09:18] <mbuf> 5. Time that you spend on IRC channel
+[17:09:50] <mbuf> I would like you to monitor this for a week, to begin with.
+[17:10:00] <himanshutechy> Himanshu sharma
+[17:10:22] <mbuf> At the end of the first week, if you have measured it honestly, you will know how much time you have sincerely spent on the tasks.
+[17:10:38] <mbuf> You can then project as to how much time, you intend to spend in the following weeks.
+[17:11:13] <jogender> roll call: Jogender Kota
+[17:11:17] <mbuf> You can of course, do this exercise for other things that you do, and not necessarily for just the free and open source software work that you do.
+[17:11:29] <mitra00> Roll Call: Shubhodeep Mitra
+[17:11:41] <madhurii> Roll call: Madhuri Muley
+[17:11:58] <real56> Roll Call:Varsha R
+[17:11:58] <mbuf> For example, you can clock time on travelling (car, bus, auto, train etc.) to school, work. The time that you spend watching television.
+[17:12:28] <mbuf> The time that you spend shopping, watching a movie etc.
+[17:12:58] <mbuf> You do not need share this info with anyone, because, it is your private data. But, it is something you must do because we have only 24 hours.
+[17:13:25] <mbuf> Hence, the first and foremost step is to collect data. If you really want to see improvement, you should be honest in this exercise.
+[17:13:44] <cosmologist10> roll call:shweta suman
+[17:13:56] <mbuf> Cooking up numbers is not going to help you. There are different free and open source software available for this too!
+[17:14:25] <mbuf> I have experimented with Hamster in the past
+[17:14:27] <mbuf> link https://projecthamster.wordpress.com/screenshots/
+[17:15:01] * SpEcHiDe installing hAmster
+[17:15:53] <mbuf> If you like C and are GTK+ fan, you can try Planner
+[17:16:03] <mbuf> link https://wiki.gnome.org/Apps/Planner/Screenshots
+[17:16:16] <mbuf> If you like C++ and are a KDE fan, you can try TaskJuggler
+[17:16:25] <mbuf> link http://www.taskjuggler.org/
+[17:17:11] <mbuf> I use GNU Emacs and Org mode. There are lot of write-ups and setups available for this too.
+[17:17:41] <mbuf> link http://doc.norang.ca/org-mode.html#Clocking
+[17:18:13] <mbuf> You do not necessarily have to be a time freak, clocking everything you do.
+[17:18:20] <priyanka> I got disconnected, someone please tell what i missed?
+[17:18:35] <mbuf> For example, you do not need to track time spent with family.
+[17:18:54] <mbuf> priyanka: the logs will be available later
+[17:19:30] <priyanka> okay thank you mbuf.
+[17:19:46] <mbuf> If you collect data for few months, you will know how much time you have spent on what, and this will help you to plan your work
+[17:20:38] <mbuf> You could have a yearly plan, say, by next year, you will have learn to write professional websites using Django (for example)
+[17:21:10] <mbuf> You should then break this goal, into monthly targets, which in turn should be broken down into weekly tasks.
+[17:21:27] o is now known as Guest34218
+[17:21:29] <mbuf> You should then plan your daily tasks accordingly.
+[17:21:36] <mbuf> Divider and conquer algorithm :)
+[17:22:04] <mbuf> Of course, not all will go as per schedule. Demos always work on the developer machines, and fail at the customer site.
+[17:22:18] <Guest34218> Roll call: Onkar Karale
+[17:22:39] <mbuf> With experience, you will get to making a good judgement on how long it will take you to do a task.
+[17:22:53] <mbuf> There are project management styles like Scrum, Kanban that you can follow.
+[17:23:31] <mbuf> But, that is a personal choice. For example, in Emacs there is a scrum-mode available
+[17:23:33] <mbuf> link https://github.com/ianxm/emacs-scrum/blob/master/scrum-template.org.txt
+[17:24:12] <mbuf> If you are working in a project, then the project will have its own release schedule
+[17:24:29] <mbuf> You can then plan your timeline, based on the project that you want to work with as well
+[17:24:48] <mbuf> But, the most important point is to be *conscious* of time, and that the clock is ticking
+[17:25:11] <mbuf> Time lost can never be regained. I am not saying that you should not waste time on social media websites.
+[17:25:22] <mbuf> But, try to use them to a minimum.
+[17:25:40] <mbuf> You are measured on the productivity of your work, and your work will reflect on the same.
+[17:26:16] <mbuf> You can have weekly or bi-weekly reviews of the time that you have spent
+[17:26:25] <mbuf> or as and when you complete a project a big milestone.
+[17:27:28] <mbuf> This is the gist of what I wanted to convey to you all today.
+[17:27:36] <mbuf> We can now have a Q&A session.
+[17:27:46] <moizsajid> !
+[17:27:51] <mbuf> next
+[17:28:05] <moizsajid> Some much time should be spend on Social Media?
+[17:28:10] <moizsajid> *we
+[17:28:29] <moizsajid> How much time should we spend on Social Media?
+[17:28:49] <mbuf> moizsajid: The question should be what do you want from Social Media?
+[17:28:56] <abstatic> !
+[17:29:11] <mbuf> moizsajid: You can waste all your time on that, but, at the end of the day, have you learnt anything new?
+[17:29:18] <mbuf> moizsajid: have you made a difference?
+[17:29:51] <mbuf> moizsajid: BTW, I am not against social media. I do spend time with it too, but, to a minimum. It should not affect your work, basically.
+[17:30:13] <mbuf> moizsajid: you should learn to keep your distractions to a minimum when you work.
+[17:30:15] <mbuf> next
+[17:30:17] <abstatic> While working should we switch off our mobile phones and other distractions (like listening to songs while working ?) for more focus ? H
+[17:30:34] <abstatic> Please ignore the trailing "H", accidental.
+[17:30:55] <priyanka> !
+[17:31:23] <mbuf> abstatic: Phones are useful if you have to receive emergency calls. You could keep them in silent.
+[17:31:37] <indiabhi> !
+[17:31:47] <mbuf> abstatic: But, I have seen more people using it every n minutes, and when you are seriously doing work, it can be a big distraction.
+[17:32:14] <mbuf> abstatic: we are building complex software, and it takes at least ten minutes for the human to recollect what was he/she working before the distraction
+[17:32:49] <mbuf> abstatic: some people like listening to music when working. It depends on the nature of the work. If I am doing critical work, I like a quiet place so the mind can do its work. YMMV.
+[17:33:08] <mbuf> abstatic: it is good to learn to work completely offline (disconnect Internet, use offline docs).
+[17:33:15] <mbuf> next
+[17:33:20] <priyanka> mbuf, as you said we should minimize spending time on social media, so what are some other ways to minimize distractions when we are working?
+[17:34:08] <mbuf> priyanka: Social media and phones are the major causes of distraction that I have noticed
+[17:34:34] <mbuf> priyanka: it is also good to take occasional breaks. You do not want to sit before the computer for long hours. You can use Workrave, for example.
+[17:34:44] <mbuf> link http://www.workrave.org/
+[17:35:05] <priyanka> but i use phones rarely, i mean some other ways?
+[17:35:05] <mbuf> priyanka: television is another big distraction
+[17:35:25] <mbuf> priyanka: if you do not have many distractions, then focus on your work and start clocking time.
+[17:35:35] <mbuf> priyanka: see how well you can improve on whatever task you are doing
+[17:35:40] <moizsajid> +1 for workrave
+[17:35:55] <mbuf> priyanka: if you can implement a feature in 3 hours, see if you can do the same work in 1 1/2 hours.
+[17:35:58] <mbuf> next
+[17:36:04] <priyanka> okay thank you mbuf
+[17:36:07] <indiabhi> I have a very strong desire to contribute to FOSS but I am busy with my internship work during daytime and I can not get time to interact with mentors on mailing list and irc. How should I plan ahead so I could spare time for interactions here as well as mentors elsewhere, and then go on contributing successfully to FOSS projects?
+[17:36:07] <pabitrakumarpati> eyeleo is another one mbuf
+[17:36:15] <mbuf> priyanka: welcome
+[17:36:43] <priyanka> :)
+[17:36:55] <mbuf> pabitrakumarpati: where is the source code for eyeleo?
+[17:37:19] <mbuf> indiabhi: the *nix philosophy is to do one thing and to do it well
+[17:37:43] <abhishekg5> !
+[17:37:51] <mbuf> You should read the book on "Linux and the Unix philosophy" by Mike Gancarz
+[17:37:54] <mbuf> link http://www.amazon.in/Linux-UNIX-Philosophy-Mike-Gancarz/dp/1555582737
+[17:38:13] <indiabhi> mbuf, So what do you say I should completely abandon the idea of contributing to FOSS for sometime?
+[17:38:19] <pabitrakumarpati> mbuf, I don't think it's an open-source software :- http://eyeleo.com/
+[17:38:27] <mbuf> indiabhi: if you think you can spend an hour in the night, without it affecting your health, you can pick your tasks accordingly
+[17:38:34] <mbuf> indiabhi: small drops make a mighty ocean
+[17:38:45] <mbuf> pabitrakumarpati so we will not talk about it here :)
+[17:39:17] <mbuf> indiabhi: the nature of the tasks will determine the team. If you are a maintainer for a project that has many users, then it can take up a lot of your time
+[17:39:18] <pabitrakumarpati> ha ha. OKay :)
+[17:39:39] <mbuf> indiabhi: so, you can still contribute to F/OSS if you little time, but, choose your tasks accordingly
+[17:39:41] <mbuf> next
+[17:39:46] <abhishekg5> A lot of programmers experiment. As in they try frontend, backend, cp etc or other different aspects of development. Many of us don't exactly know what is our field. We just do things. What to try first, Or if something we tried and disliked then what should we try next. A lot of time is wasted in just choosing this. How would you suggest managing this ?
+[17:40:15] <indiabhi> mbuf, thanks a lot for your insights, I would plan accordingly and spare some time at night :)
+[17:40:16] <mbuf> abhishekg5: what is your favorite ice cream?
+[17:40:36] <abhishekg5> mbuf, many
+[17:40:39] <mbuf> abhishekg5: how did you decide that?
+[17:40:59] <abhishekg5> I ate them
+[17:41:26] <indiabhi> and thanks for the book recommendation mbuf , would definitely go through it, you may carry on :)
+[17:41:45] <mbuf> abhishekg5: The same applies to work. You need to try them. The advantage of F/OSS is that if you do not like working on front-end, you can leave the project
+[17:42:38] <abhishekg5> mbuf, Exactly. I know I can. But till how long should I stick to a thing. Managing time in this seems difficult
+[17:43:00] <mbuf> abhishekg5: you take a task for a beginner, estimated for, say a week
+[17:43:16] <mbuf> abhishekg5: if you can get it done, and you enjoy working on it, and the tools, then you are fine
+[17:43:30] <mbuf> abhishekg5: else, you try something else
+[17:43:47] <mbuf> abhishekg5: are you studying/working (if I may ask)?
+[17:44:00] <mbuf> abhishekg5: ideally, these experiments need to be done during college days
+[17:44:07] <abhishekg5> yeah, college student mbuf
+[17:44:14] <mbuf> abhishekg5: so, by the time you graduate you know what you want to do in life
+[17:44:34] <mbuf> next
+[17:44:50] <amey> !
+[17:44:54] <mbuf> I shall also recommend my book on working with free and open source software projects, "i want 2 do project. tell me wat 2 do."
+[17:45:12] <abhishekg5> mbuf, a lot this improves with experience on working things too. I have experienced it. Thanks
+[17:45:12] <mbuf> link http://shakthimaan.com/what-to-do.html
+[17:45:26] <meamitk> !
+[17:45:45] <mbuf> abhishekg5: it takes 10 years to master programming. Read Peter Norvig's essay.
+[17:45:47] <mbuf> link http://norvig.com/21-days.html
+[17:45:48] <mbuf> next
+[17:45:53] <pabitrakumarpati> !
+[17:46:02] <amey> I am still confused about the college thing
+[17:46:12] <amey> I also can not clearly figure out
+[17:46:18] <amey> what to work upon?
+[17:46:31] <mbuf> amey: what is your domain of interest?
+[17:46:53] <amey> Operating systems,Linux,C
+[17:46:54] <mbuf> amey: go through my presentation on "Careers with GNU/Linux"
+[17:46:55] <mbuf> link http://www.shakthimaan.com/downloads/glv/presentations/careers.with.gnu.linux.pdf
+[17:47:21] <amey> OK,I will :)
+[17:47:28] <mbuf> amey: so the job profile that you are looking for is a System Engineer/Kernel developer/Embedded programmer
+[17:47:31] <mbuf> next
+[17:47:35] <meamitk> i read your book and it's really helpful
+[17:47:41] <mbuf> meamitk: thanks!
+[17:47:46] <abhishekg5> mbuf, yes, I read that. It's a good read :)
+[17:47:50] <meamitk> whenever i tried to learn only office thoughts are come in mind
+[17:47:54] <mbuf> abhishekg5: thanks!
+[17:48:01] <mbuf> meamitk: office thoughts?
+[17:48:04] <d1ndra> !
+[17:48:28] <mbuf> You will find other useful presentations in my /downloads section
+[17:48:28] <vharsh> !
+[17:48:30] <mbuf> link http://shakthimaan.com/downloads.html
+[17:48:31] <mbuf> next
+[17:48:38] <pabitrakumarpati> Even if I want to contribute to FOSS, I can't because of my office working hours. And I know, there are lot who are willing to contribute, but the work pressure and timing does not allow them. what will be your suggestion for those who are working?
+[17:49:07] <mbuf> pabitrakumarpati: Why don't you find a job where they appreciate F/OSS work?
+[17:49:16] <mbuf> pabitrakumarpati: and will give you the time to learn?
+[17:49:21] <meamitk> whenever i tried to learn first thought in my mind is how can i use this in office work
+[17:49:39] <mbuf> meamitk: do not confuse learning with office work
+[17:49:59] <mbuf> pabitrakumarpati: you cannot go to a vegetarian restaurant and ask for non-veg
+[17:50:16] <mbuf> meamitk: an ideal job will be to work with F/OSS at work
+[17:50:28] <pabitrakumarpati> does not that demands me to having experience of working for FOSS or any open source project ?
+[17:50:31] <mbuf> meamitk: there are jobs that do exist like that, you have to network in the F/OSS community to find that out
+[17:50:51] <PrashantJ> pabitrakumarpati, exactly my question:)
+[17:50:53] <mbuf> meamitk: if the company where you work do not appreciate the culture around F/OSS, then you need to find another job
+[17:51:23] <pabitrakumarpati> PrashantJ, that's why I told a lot like me :)
+[17:51:24] <mbuf> pabitrakumarpati: there are lot of start-ups, who do not see experience
+[17:51:32] <mbuf> pabitrakumarpati: they only see attitude and potential
+[17:51:52] <mbuf> pabitrakumarpati: if all that you want to work with F/OSS, and a company is working on it, you should be confident to apply and prove yourself
+[17:52:12] <meamitk> mbuf, understood thanks
+[17:52:19] <mbuf> if you are afraid to experiment, then you are in the wrong industry.
+[17:52:35] <pabitrakumarpati> mbuf, yes I know. in start up of course I will learn a lot of things. but i am not sure if I could get time to contribute to FOSS there.
+[17:52:38] <mbuf> or find a service job in one of the many MNCs.
+[17:53:01] <mbuf> pabitrakumarpati: it all depends on your work, and your agreement in the work place.
+[17:53:04] <mbuf> next
+[17:53:08] <d1ndra> mbuf, Thanks for your insight into time management. Also, what kind of job profile would you recommend for someone into ML and Python? And any recommended projects?
+[17:53:10] <abhishekg5> pabitrakumarpati, many of them support F/OSS culture
+[17:53:39] <d1ndra> * F/OSS projects
+[17:53:58] <pabitrakumarpati> thanks mbuf
+[17:54:07] <mbuf> d1ndra: a Data Scientist/Data Analytics/ML Engineer are job profiles that I have seen online
+[17:54:08] <PrashantJ> Thank you mbuf :)
+[17:54:40] <mbuf> d1ndra: Most of the ML folks are using Python. Wait for my blog post. You will find lot of references.
+[17:54:50] <mbuf> pabitrakumarpati: PrashantJ welcome
+[17:54:51] <mbuf> next
+[17:54:55] <vharsh> mbuf, I am a college student, I have to manage a 75% attendance. Teachers expect us to write notes(straight out from books/websites), which could be given to us in print. How can I manage my time if I have 18 hours a day for 5 days a week, considering most of the six hours of classroom go waste. The course goes really slow in the beginning, and really fast in the end to make up, thus promoting the learn by rote.
+[17:55:08] <d1ndra> Alright, thanks mbuf  :)
+[17:55:38] ksaikiranr__ is now known as ksaikiranr
+[17:56:25] <mbuf> vharsh: sorry, you are occupied 18 hours  per day? may I ask what you are studying?
+[17:56:50] <vharsh> Computer Science Engineering, bachelors
+[17:57:02] <abhishekg5> mbuf, he has 18 hours
+[17:57:11] <vharsh> No, I mean I have 18 hours to spare.
+[17:57:17] <mbuf> vharsh: do you know in advance what notes you need to write?
+[17:57:39] <mbuf> vharsh: that is a lot of time to spare!
+[17:57:48] <mbuf> vharsh: whatever you need to do in college, just follow it.
+[17:57:49] <vharsh> Somewhat. I have seniors note book, which I show to teachers to get 15 marks for internals.
+[17:58:00] <mbuf> vharsh: do not fight the system. Use the spare time that you have wisely.
+[17:58:15] <vharsh> Would it be rude to contact the teachers?
+[17:58:36] <mbuf> vharsh: you can take writing notes as a means to improve yourself. If you can write answers in your own words, for example.
+[17:58:53] <vharsh> mbuf, You got me wrong. Teachers dictate notes to us.
+[17:58:59] <buvanesh_kumar> !
+[17:59:17] <vharsh> So an average class is like 4 pages of an average sized notebook.
+[17:59:23] <mbuf> vharsh: just do what the teachers tell you to do in the class. Do not push them with your agenda
+[17:59:43] <vharsh> Ok, I'll try my best.<EOF>
+[17:59:56] <mbuf> vharsh: if you can learn something from class, well and good. Otherwise, whatever you want to learn, you can learn from working with F/OSS projects
+[18:00:21] <mbuf> vharsh: some teachers are lenient. Some are strict.
+[18:00:22] <mbuf> next
+[18:00:25] <mbuf> next
+[18:00:32] <mbuf> Okay, the last question for the day.
+[18:00:47] <buvanesh_kumar> Is it good? concentrating on multiple things in a day?
+[18:00:57] <mbuf> buvanesh_kumar: give me an example
+[18:01:35] <mbuf> vharsh: you could use the note taking exercise to improve your handwriting (if it helps)
+[18:01:54] <mbuf> vharsh: given that you have a lot of spare time, you should not complain :)
+[18:02:11] <buvanesh_kumar> for an example, i want to learn  more about docker, ansible, python and as well as contribute to open source and etc with in 3 months.
+[18:02:21] <vharsh> mbuf, It is depressing if that 6 hours are productive time of the day.
+[18:02:49] <vharsh> Moreover, our teachers are somewhat discouraging.
+[18:03:06] <vharsh> I try to not listen in the class.
+[18:03:07] <mbuf> vharsh: the time that you spend and get work done is productive. Not, the time that you think is the productive time of the day.
+[18:03:20] <mbuf> vharsh: discouraging what?
+[18:03:33] <mbuf> buvanesh_kumar: that is an achievable target.
+[18:03:40] <vharsh> yes.
+[18:03:54] <buvanesh_kumar> can you please explain me mbuf
+[18:03:55] <vharsh> They underestimate us, each time.
+[18:03:57] <mbuf> buvanesh_kumar: Few weeks to learn Python, a month each for Docker and Ansible.
+[18:04:12] <mbuf> buvanesh_kumar: you are looking for a DevOps role
+[18:04:23] <buvanesh_kumar> yes :) mbuf
+[18:04:31] <buvanesh_kumar> you got the point
+[18:04:43] <abhishekg5> vharsh, 80% Indian professors are discouraging in every college here. Don't depend on them much. They do everything but teach
+[18:04:46] <mbuf> vharsh: if you know who you are, and what you are capable of, why does it matter what other people say?
+[18:05:31] <vharsh> mbuf, you are right. I should try to be more resilient.
+[18:05:44] <mbuf> vharsh: you need to read the book by Richard Feynman on "What do you care what other people think?"
+[18:05:50] <mbuf> link https://en.wikipedia.org/wiki/What_Do_You_Care_What_Other_People_Think%3F
+[18:06:12] <buvanesh_kumar> my doubt is in execution of this time. for an example, can i separate time for each topic in a day? or first concentrate on one thing hereafter completion concentrate on another topic
+[18:06:15] <abstatic> vharsh, i was also in the same situation as you some time back. What i did was that I did "just the bare minimum" required to complete the coursework and focused all my energy doing things I liked.
+[18:06:16] <mbuf> vharsh: that is their opinion, and leave it that. The more you worry about what they said, you are wasting your time not doing what you are supposed to be doing
+[18:06:35] <mbuf> vharsh: and they would have won. That is why "time management" is important, and hence this session
+[18:06:49] <mbuf> buvanesh_kumar: 1. Python 2. Ansible 3. Docker
+[18:07:04] <buvanesh_kumar> and more things are there.
+[18:07:06] <mbuf> vharsh: you should not talk back, but, learn to agree to disagree
+[18:07:09] <pabitrakumarpati> buvanesh_kumar, mbuf told about *nix philosophy -- one at a time :)
+[18:07:46] <mbuf> So, I will end the class now. Will be online for sometime.
+[18:07:59] <mbuf> We can have follow-up discussions in the mailing list.
+[18:08:07] <buvanesh_kumar> understood :) pabitrakumarpati mbuf
+[18:08:14] <buvanesh_kumar> thanks mbuf :)
+[18:08:21] <pabitrakumarpati> buvanesh_kumar, :)
+[18:08:47] <vharsh> Thanks mbuf. I'll try to make the best of the 18 hours I have.
+[18:09:17] <mbuf> vharsh: yes, please do.
+[18:09:24] <mbuf> endclass
+[18:09:49] <acetakwas> Roll Call: Tosin Animashaun
+[18:10:02] <abstatic> mbuf what OS and desktop environment do you use  ?
+[18:10:25] <mbuf> abstatic: At this time of the day, Ubuntu and StumpWM
+[18:10:28] <devyani7_> Thanks for this session mbuf :)
+[18:10:37] <trishnag> Thank you mbuf, such a great session :).
+[18:10:49] <mbuf> acetakwas: Hi, were you able to understand the unit test requirements?
+[18:10:50] <PrashantJ> Thank you mbuf :):)
+[18:10:55] <acetakwas> mbuf::  Awesome session. Thanks
+[18:10:58] <sayan> endclass
+[18:10:58] [## Class Ended at Fri Jul 15 18:10:58 2016 ##]

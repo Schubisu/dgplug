@@ -1,0 +1,616 @@
+Jul 03 18:30:34 <kushal>	------SESSION STARTS---------
+Jul 03 18:30:36 *	humpty (~chatzilla@122.175.147.14) has joined #dgplug
+Jul 03 18:30:42 <kushal>	pingall: roll call
+Jul 03 18:30:43 <batul>	humpty, koushik_, acetakwas, amittima, Anupkumar, abhaykrish, zishan, jaba, papiya, deepak_sirone, ramsan, urocksss, titli, CuriousLearner, surabhi, yeshi, bnprk, korak1, heena, rahulmishra, amit001, satarupa, pratik46, zetron, Shrink, harsha, akki2200, annesha, thejamen, iamviknesh, shilpi, nshaikh, unknown21, ramkrsna, Poornima, soumyaC, debjit, siddharth185, Shankho,
+Jul 03 18:30:44 <batul>	ruprela, souradeep, silentSae, leero9, tkkr6895, NP1995, Koushik, swati, romil931, fewcha_, Karthik_B, mnw94, pratik_, lixxz, shashank_, eeshangarg, stguin, anarang, kanika04, devmodem, nmzaheer, elacheche, orriols, hari510, sivteck, vimal, Akinza, stultus, toxboi, bibhas, harshit93, vignesh_, DhritiShikhar_, dev212, harshit933, hari_, kanha, Jackson_waartaa, rahulch1,
+Jul 03 18:30:44 <batul>	ajnr_, ciypro|afk, droy, subho, Armageddon, preludelinux, D4rk, oini, codaholic, kdas_, liara, digisec, marienz, ralsina, @ChanServ, samikshan
+Jul 03 18:30:44 <batul>	roll call
+Jul 03 18:30:48 <sivteck>	Sivaram Balakrishnan
+Jul 03 18:30:49 <zishan>	Sheesh Mohsin
+Jul 03 18:30:49 <bnprk>	Binay Pareek
+Jul 03 18:30:52 <NP1995>	Nishant Pani
+Jul 03 18:30:53 <Anupkumar>	Anup
+Jul 03 18:30:53 <harsha>	Harsha
+Jul 03 18:30:54 <codaholic>	Anjali
+Jul 03 18:30:56 <silentSae>	Amir
+Jul 03 18:30:56 <Shankho>	Shankho Ghosh
+Jul 03 18:30:56 <korak1>	KoraK GHOSH
+Jul 03 18:30:56 <jaba>	Athira S
+Jul 03 18:30:58 <satarupa>	Satarupa Sinha
+Jul 03 18:30:59 <amittima>	Amit kumar
+Jul 03 18:31:02 <pratik46>	Pratik Saraf
+Jul 03 18:31:02 <ruprela>	Dharmesh Ruprela
+Jul 03 18:31:03 <surabhi>	Surabhi
+Jul 03 18:31:03 <akki2200>	Aakash
+Jul 03 18:31:04 <zetron>	Thejazeto Lhousa
+Jul 03 18:31:07 <eeshangarg>	Eeshan Garg
+Jul 03 18:31:09 <lixxz>	Yasharth
+Jul 03 18:31:11 <iamviknesh>	Vikneshwar
+Jul 03 18:31:12 <leero9>	Aditya
+Jul 03 18:31:14 <amit001>	Amit Tripathi
+Jul 03 18:31:17 <shilpi>	shilpi shukla
+Jul 03 18:31:21 <yeshi>	Yeshita Dutta
+Jul 03 18:31:21 <toxboi>	Vipul Agarwal
+Jul 03 18:31:23 *	AMRITAVIDYA\u4cs (~chatzilla@111.93.99.180) has joined #dgplug
+Jul 03 18:31:27 <Poornima>	Poornima Kshirsagar
+Jul 03 18:31:28 <siddharth185>	Siddharth Kulshrestha
+Jul 03 18:31:29 *	AMRITAVIDYA\u4cs is now known as PraveenKarol
+Jul 03 18:31:29 <koushik_>	Koushik Bag
+Jul 03 18:31:34 <kanika04>	kanika narang
+Jul 03 18:31:40 *	nithinr (uid36345@gateway/web/irccloud.com/x-hkkmtnkadtansnsn) has joined #dgplug
+Jul 03 18:31:43 <heena>	Heena Kaushar
+Jul 03 18:31:43 *	qfarjad (~qfarjad@39.32.111.183) has joined #dgplug
+Jul 03 18:31:46 <toxboi>	now do I get free lunch?
+Jul 03 18:31:47 <nmzaheer>	Zaheer
+Jul 03 18:31:50 <toxboi>	or a pint maybe?
+Jul 03 18:31:52 <abhaykrish>	Abhay Krishnan
+Jul 03 18:31:58 <PraveenKarol>	Praveen Karol
+Jul 03 18:32:01 <humpty>	 /msg NickServ humpty 0410
+Jul 03 18:32:02 <papiya>	Papiya Sen
+Jul 03 18:32:13 <Koushik>	Koushik Saha
+Jul 03 18:32:14 *	ChanServ gives channel operator status to kushal
+Jul 03 18:32:14 <qfarjad>	Qazi Farjad
+Jul 03 18:32:22 <titli>	Titli Das
+Jul 03 18:32:27 <humpty>	ashwani
+Jul 03 18:32:27 *	sukanya (~androirc@101.221.130.129) has joined #dgplug
+Jul 03 18:32:30 *	kushal has kicked toxboi from #dgplug (toxboi)
+Jul 03 18:32:30 <orriols>	Orriols
+Jul 03 18:32:45 *	Jupiter (~AMRITAVID@111.93.99.180) has joined #dgplug
+Jul 03 18:32:45 *	kushal gives channel operator status to orriols
+Jul 03 18:32:46 <nithinr>	Nithin Raj
+Jul 03 18:32:47 *	rahulmishra has quit (Ping timeout: 248 seconds)
+Jul 03 18:32:51 *	deepak_sirone has quit (Excess Flood)
+Jul 03 18:32:53 *	kushal gives channel operator status to Armageddon
+Jul 03 18:32:54 *	stultus has quit (Read error: Connection reset by peer)
+Jul 03 18:33:01 <Jupiter>	Amrutha
+Jul 03 18:33:15 *	deepak_sirone (~deepak@117.241.56.200) has joined #dgplug
+Jul 03 18:33:25 <sukanya>	Sukanya Mandal
+Jul 03 18:33:30 *	acetakwas_ (~acetakwas@196.46.246.175) has joined #dgplug
+Jul 03 18:33:40 *	acetakwas_ has quit (Client Quit)
+Jul 03 18:33:43 *	CuriousLearner has quit (Ping timeout: 246 seconds)
+Jul 03 18:34:10 *	ruprela has quit (Quit: Page closed)
+Jul 03 18:34:14 *	devmodem has quit (Quit: Leaving)
+Jul 03 18:34:16 <kushal>	Out of 100  people only 44 gave roll calls 
+Jul 03 18:34:20 <kushal>	still good.
+Jul 03 18:34:24 <DhritiShikhar_>	Dhriti SHikhar
+Jul 03 18:34:36 <kushal>	45 that is now :)
+Jul 03 18:34:51 <deepak_sirone>	kushal, My connection is a bit slow , did my roll call appear?
+Jul 03 18:34:53 *	acetakwas has quit (Ping timeout: 272 seconds)
+Jul 03 18:35:00 *	rahulmishra (~chatzilla@1.187.198.146) has joined #dgplug
+Jul 03 18:35:02 *	SpeedBus (~SpeedBus@unaffiliated/speedbus) has joined #dgplug
+Jul 03 18:35:09 <kushal>	deepak_sirone, I hope so, will check later, 
+Jul 03 18:35:18 <deepak_sirone>	kushal, ok
+Jul 03 18:35:22 <kushal>	SpeedBus, stay after the session, will talk.
+Jul 03 18:35:43 <kushal>	Anyway, so how much people actually read last night?
+Jul 03 18:35:48 *	stultus (~stultus@wikisource/Hrishikesh.kb) has joined #dgplug
+Jul 03 18:35:49 <ramsan>	ramsandesh
+Jul 03 18:35:59 <sivteck>	I read 50 pages
+Jul 03 18:36:17 <silentSae>	I couldn't attend yesterday's session
+Jul 03 18:36:17 *	CuriousLearner (3bb2ceb3@gateway/web/freenode/ip.59.178.206.179) has joined #dgplug
+Jul 03 18:36:21 <silentSae>	will cover up today
+Jul 03 18:36:26 *	mac1733 (~mac1733@208.81.149.194) has joined #dgplug
+Jul 03 18:36:27 <deepak_sirone>	same here
+Jul 03 18:36:31 <SpeedBus>	yep kushal updated kernel rebooted my VPS, forgot to startup ZNC :x
+Jul 03 18:36:37 <DhritiShikhar_>	kushal, I could read only a few pages. I would complete it today.
+Jul 03 18:36:43 *	Prash_542 (319c9406@gateway/web/freenode/ip.49.156.148.6) has joined #dgplug
+Jul 03 18:36:54 <humpty>	kushal, not really the last one but read your the first two logs from the beginning, and also started with command line crash course
+Jul 03 18:36:59 <kushal>	No one has to complete it.
+Jul 03 18:37:04 <kushal>	humpty, good.
+Jul 03 18:37:04 <titli>	not much, 30-35 pages only.<eof>
+Jul 03 18:37:06 *	sukanya has quit (Remote host closed the connection)
+Jul 03 18:37:13 <kushal>	read that book with slow pace.
+Jul 03 18:37:19 <kushal>	You will learn a lot of things.
+Jul 03 18:37:22 *	sukanya (~androirc@101.221.130.129) has joined #dgplug
+Jul 03 18:37:23 <CuriousLearner>	still reading..
+Jul 03 18:37:23 <DhritiShikhar_>	Kushal, Okay.
+Jul 03 18:37:32 <Prash_542>	Did I miss RollCall??
+Jul 03 18:37:32 <kushal>	Anyway coming back to today's stuff.
+Jul 03 18:37:36 Prash_542 pratik46 pratik_ PraveenKarol praveenkumar preludelinux 
+Jul 03 18:37:38 <kushal>	Prash_542, yes.
+Jul 03 18:37:40 <iamviknesh>	sorry was busy :( coudn't read  much , will do this weeked :)
+Jul 03 18:37:42 *	Akinza has quit (Quit: Akinza)
+Jul 03 18:37:43 *	amittima has quit (Quit: Leaving)
+Jul 03 18:37:52 <kushal>	Everyone silent please
+Jul 03 18:37:55 <kushal>	clearqueue
+Jul 03 18:37:57 <kushal>	next
+Jul 03 18:37:58 <batul>	No one is in queue.
+Jul 03 18:38:01 <kushal>	good.
+Jul 03 18:38:03 <kushal>	Now
+Jul 03 18:38:05 *	mahendra (65dd80be@gateway/web/freenode/ip.101.221.128.190) has joined #dgplug
+Jul 03 18:38:24 *	AnjG (~Anuj@123.63.13.117) has joined #dgplug
+Jul 03 18:38:32 <humpty>	!
+Jul 03 18:38:52 <kushal>	Text files: I hope everyone here knows what is a text file? If not, then tell no. 
+Jul 03 18:38:56 *	zhean1874 (~AndChat33@171.35.144.118) has joined #dgplug
+Jul 03 18:38:58 <kushal>	next
+Jul 03 18:38:58 <batul>	humpty please ask your question.
+Jul 03 18:39:04 <humpty>	it was showing me this in the starting.This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+Jul 03 18:39:05 <zhean1874>	!
+Jul 03 18:39:18 <humpty>	and when i tried to identify, it showed me an error
+Jul 03 18:39:21 *	anna_ (~anna@117.193.33.132) has joined #dgplug
+Jul 03 18:39:33 <humpty>	do i need to identify daily?
+Jul 03 18:39:58 *	bnprk has quit (Quit: Bye)
+Jul 03 18:39:59 *	amittima (~amit@182.66.180.42) has joined #dgplug
+Jul 03 18:40:00 *	bidisha (bidisha@115.253.77.48) has joined #dgplug
+Jul 03 18:40:06 <kushal>	humpty, Have you registered it or it is registered by someone else?
+Jul 03 18:40:07 *	PraveenKarol_ (~chatzilla@111.93.99.180) has joined #dgplug
+Jul 03 18:40:08 <unknown21>	humpty, everytime you start it
+Jul 03 18:40:19 <romil931>	!
+Jul 03 18:40:26 <kushal>	humpty, if it is not your nickname then choose a better nickname
+Jul 03 18:40:29 <kushal>	next
+Jul 03 18:40:29 <batul>	zhean1874 please ask your question.. romil931 you are next. Get ready with your question.
+Jul 03 18:40:31 <humpty>	kushal, i registered it myself
+Jul 03 18:40:38 <zhean1874>	sorry for being late.
+Jul 03 18:40:40 *	bnprk (~vinay.par@112.79.38.229) has joined #dgplug
+Jul 03 18:40:44 *	ruprela (~dharmesh@106.76.148.225) has joined #dgplug
+Jul 03 18:40:50 <romil931>	I missed roll call. I informed I would be away for 10 minutes
+Jul 03 18:40:50 *	sree (~sreedevi@117.217.135.97) has joined #dgplug
+Jul 03 18:41:03 <romil931>	EOF
+Jul 03 18:41:09 <humpty>	how to know whether i am registered or not?
+Jul 03 18:41:12 <nmzaheer>	humpty, everytime you come to this channel ou have to identify yourself. That's the way the system works
+Jul 03 18:41:14 <zhean1874>	</eof>
+Jul 03 18:41:32 <nmzaheer>	*you
+Jul 03 18:41:45 *	prajesh (~prawat@114.143.36.238) has joined #dgplug
+Jul 03 18:41:49 *	deepu_tp (~deepu_tp@27.7.52.39) has joined #dgplug
+Jul 03 18:41:57 *	PraveenKarol has quit (Quit: ChatZilla 0.9.90.1 [Firefox 15.0.1/20120907231657])
+Jul 03 18:41:58 *	PraveenKarol_ is now known as PraveenKarol
+Jul 03 18:42:34 <kushal>	zhean1874, no problem.
+Jul 03 18:42:35 <kushal>	next
+Jul 03 18:42:35 <batul>	romil931 please ask your question.
+Jul 03 18:43:10 <romil931>	I missed roll call. I had informed I would be away for 10 minutes. Do I get attendance?
+Jul 03 18:43:25 <romil931>	</eof>
+Jul 03 18:43:30 <humpty>	nmzaheer, got it.
+Jul 03 18:43:51 <ruprela>	!
+Jul 03 18:43:52 *	harshit93 has quit (Ping timeout: 246 seconds)
+Jul 03 18:43:58 <kushal>	next
+Jul 03 18:43:59 <batul>	ruprela please ask your question.
+Jul 03 18:44:02 <ruprela>	is there any way to see how many people are currently online on this channel ?
+Jul 03 18:44:04 <kushal>	romil931, yes yes
+Jul 03 18:44:08 *	acetakwas (~acetakwas@196.46.245.163) has joined #dgplug
+Jul 03 18:44:20 <kushal>	ruprela, yes, look at the list on the right side
+Jul 03 18:44:33 *	sukanya has quit (Ping timeout: 240 seconds)
+Jul 03 18:44:34 <ruprela>	i am using xchat
+Jul 03 18:44:35 <acetakwas>	hi, class started yet?
+Jul 03 18:44:42 <ruprela>	and now list is showing
+Jul 03 18:44:43 <ruprela>	*no
+Jul 03 18:44:52 <kushal>	acetakwas, No, Puja chal raha hai.
+Jul 03 18:44:56 <kushal>	next
+Jul 03 18:44:57 <batul>	No one is in queue.
+Jul 03 18:45:02 *	madangel (uid36493@gateway/web/irccloud.com/x-gxwernykirnvurwh) has joined #dgplug
+Jul 03 18:45:06 <ruprela>	what to do ?
+Jul 03 18:45:16 <nmzaheer>	lol
+Jul 03 18:45:19 <humpty>	rupela, are you using some irc client?
+Jul 03 18:45:26 *	sukanya (~androirc@101.221.130.129) has joined #dgplug
+Jul 03 18:45:31 <kushal>	ruprela, go to view menu, click on the user list
+Jul 03 18:45:33 <humpty>	sorry, its ruprela
+Jul 03 18:45:36 *	urocksss has quit (Ping timeout: 255 seconds)
+Jul 03 18:45:46 <kushal>	So everyone knows text files
+Jul 03 18:45:47 *	droy_ (~droy@14.139.212.228) has joined #dgplug
+Jul 03 18:45:57 <romil931>	yes
+Jul 03 18:45:59 <kushal>	It is almost everything about computers
+Jul 03 18:46:17 <kushal>	It is the easiest way to store data.
+Jul 03 18:46:38 *	debjit has quit (Ping timeout: 248 seconds)
+Jul 03 18:46:47 *	bidisha_ (bidisha@101.56.95.226) has joined #dgplug
+Jul 03 18:46:51 <ruprela>	!
+Jul 03 18:47:04 <kushal>	all our programs are actually text files when we write them.
+Jul 03 18:47:11 *	hari510 has quit (Ping timeout: 248 seconds)
+Jul 03 18:47:15 <kushal>	Later they get compiled into binary files.
+Jul 03 18:47:18 <acetakwas>	kushal, when does it start?
+Jul 03 18:47:32 <kushal>	acetakwas, 6:30pm IST
+Jul 03 18:48:06 <titli>	Hey all, can we let kushal finish?
+Jul 03 18:48:08 *	pratik_ has quit (Read error: Connection reset by peer)
+Jul 03 18:48:08 *	bidisha has quit (Ping timeout: 260 seconds)
+Jul 03 18:48:08 *	pratik46 has quit (Read error: Connection reset by peer)
+Jul 03 18:48:17 *	pratik46 (pratik0406@117.246.88.77) has joined #dgplug
+Jul 03 18:48:19 *	pratik_ (pratik0406@117.246.88.77) has joined #dgplug
+Jul 03 18:48:20 <kushal>	So at the very first step to the programming part, we will have to learn a text editor.
+Jul 03 18:48:22 <acetakwas>	kushal, okay; what is the time now in IST?
+Jul 03 18:48:33 <kushal>	acetakwas, 6:48
+Jul 03 18:48:42 *	chandan_kumar is now known as chandankumar
+Jul 03 18:48:47 *	lutiz (~pearl@59.94.161.29) has joined #dgplug
+Jul 03 18:48:55 <kushal>	acetakwas, sorry wrote that stuff in hindi, will use english next time.
+Jul 03 18:49:05 <titli>	:D
+Jul 03 18:49:09 <kushal>	There are many text editors, people fight over them
+Jul 03 18:49:09 <acetakwas>	kushal, so how come it's not begun yet?
+Jul 03 18:49:12 <SpeedBus>	kushal text editor as nano please haha
+Jul 03 18:49:34 <Jupiter>	Hey everyone Let him complete
+Jul 03 18:49:43 <kushal>	acetakwas, it started.
+Jul 03 18:49:51 <kushal>	acetakwas, that was a sarcasm 
+Jul 03 18:49:56 <acetakwas>	okay
+Jul 03 18:50:00 <acetakwas>	<eof>
+Jul 03 18:50:00 <kushal>	Here we teach only one editor
+Jul 03 18:50:10 *	AndChat|338289 (~AndChat33@171.35.144.118) has joined #dgplug
+Jul 03 18:50:10 <kushal>	others you can learn of your own.
+Jul 03 18:50:15 <kushal>	We teach vim.
+Jul 03 18:50:31 *	mahendra has quit (Ping timeout: 246 seconds)
+Jul 03 18:50:44 *	zhean1874 has quit (Read error: Connection reset by peer)
+Jul 03 18:50:51 <kushal>	You have to install vim package in case you do not have it.
+Jul 03 18:50:57 <kushal>	Mostly you should have it.
+Jul 03 18:51:23 *	annesha_ (~annesha@117.194.120.64) has joined #dgplug
+Jul 03 18:51:26 <kushal>	We have two simple sessions for them
+Jul 03 18:51:27 <ruprela>	how to check whether we have it or not ?
+Jul 03 18:51:36 <kushal>	http://dgplug.org/irclogs/kushal_vi_1stclass.log and http://dgplug.org/irclogs/kushal_vi_2ndclass.log
+Jul 03 18:51:49 <kushal>	ruprela, $ locate vim
+Jul 03 18:51:54 <kushal>	actually
+Jul 03 18:52:03 <kushal>	$ type vim should do.
+Jul 03 18:52:13 <deepak_sirone>	!
+Jul 03 18:52:44 <lutiz>	!
+Jul 03 18:53:15 <kushal>	next
+Jul 03 18:53:15 <batul>	ruprela please ask your question.. deepak_sirone you are next. Get ready with your question.
+Jul 03 18:53:17 <ruprela>	a number of files appeared
+Jul 03 18:53:25 <kushal>	ruprela, yeah my mistake.
+Jul 03 18:53:36 <kushal>	ruprela, type vim
+Jul 03 18:53:38 *	tkkr6895 has quit (Quit: tkkr6895)
+Jul 03 18:53:39 <kushal>	next
+Jul 03 18:53:39 <SpeedBus>	which vim should also do it
+Jul 03 18:53:39 <batul>	deepak_sirone please ask your question.. lutiz you are next. Get ready with your question.
+Jul 03 18:53:46 <deepak_sirone>	kushal, what is the difference between locate and find?
+Jul 03 18:53:47 *	bidisha_ has quit (Ping timeout: 252 seconds)
+Jul 03 18:54:22 <kushal>	deepak_sirone, locate searches in a db which generally contains all file information from your computer.
+Jul 03 18:54:23 <kushal>	next
+Jul 03 18:54:24 <batul>	lutiz please ask your question.
+Jul 03 18:54:31 <deepak_sirone>	eof
+Jul 03 18:54:31 *	annesha has quit (Ping timeout: 272 seconds)
+Jul 03 18:54:33 <lutiz>	can we ask onli 'vim' specific questions today ?
+Jul 03 18:54:40 <lutiz>	*only
+Jul 03 18:54:42 <deepak_sirone>	lutiz, ok
+Jul 03 18:54:46 <kushal>	lutiz, nope.
+Jul 03 18:54:52 <kushal>	lutiz, any questions actually.
+Jul 03 18:54:56 <kushal>	next
+Jul 03 18:54:57 <batul>	No one is in queue.
+Jul 03 18:54:57 <lutiz>	thnaks , kushal
+Jul 03 18:54:57 *	AnjG has quit (Read error: Connection reset by peer)
+Jul 03 18:54:59 <lutiz>	eof
+Jul 03 18:55:02 <ruprela>	!
+Jul 03 18:55:05 <kushal>	next
+Jul 03 18:55:06 <batul>	ruprela please ask your question.
+Jul 03 18:55:08 <lutiz>	!
+Jul 03 18:55:11 <kushal>	next
+Jul 03 18:55:12 <batul>	lutiz please ask your question.
+Jul 03 18:55:21 *	tkkr6895 (~tkkr6895@122.172.202.115) has joined #dgplug
+Jul 03 18:55:32 <lutiz>	i am unable to implement update command in my linux
+Jul 03 18:55:44 <ruprela>	currently I dont have vim,can gedit work as an alternative for todays class ?
+Jul 03 18:55:45 <lutiz>	it simply has stopped working
+Jul 03 18:55:55 *	vipsy (~vipsy@117.197.19.155) has joined #dgplug
+Jul 03 18:56:22 *	tkkr6895 (~tkkr6895@122.172.202.115) has left #dgplug
+Jul 03 18:56:22 <kushal>	ruprela, no
+Jul 03 18:56:27 <lutiz>	does that mean i have to re-install it ?
+Jul 03 18:56:28 <Jupiter>	lutiz, did you type sudo apt-get update
+Jul 03 18:56:30 *	AnjG (~Anuj@103.10.208.2) has joined #dgplug
+Jul 03 18:56:33 <kushal>	ruprela, which linux distribution are you using?
+Jul 03 18:56:52 <kushal>	lutiz, ^^^ same question.
+Jul 03 18:56:57 <lutiz>	jupiter, that's exactly what i do each time
+Jul 03 18:57:04 <annesha_>	!
+Jul 03 18:57:05 <ruprela>	kushal, linux mint
+Jul 03 18:57:10 <sivteck>	ruprela:  sudo apt-get install vim
+Jul 03 18:57:11 *	sree is now known as Mactoc
+Jul 03 18:57:11 *	humpty has quit (Ping timeout: 244 seconds)
+Jul 03 18:57:15 *	sukanya has quit (Remote host closed the connection)
+Jul 03 18:57:21 rahulch1 rahulmishra ralsina ramkrsna ramsan romil931 rtnpro ruprela 
+Jul 03 18:57:27 <kushal>	ruprela, use that command to install vim
+Jul 03 18:57:31 *	sukanya (~androirc@101.221.130.129) has joined #dgplug
+Jul 03 18:57:40 <siddharth185>	!
+Jul 03 18:57:42 *	acetakwas has quit (Ping timeout: 244 seconds)
+Jul 03 18:57:43 <kushal>	next
+Jul 03 18:57:43 <batul>	annesha_ please ask your question.. siddharth185 you are next. Get ready with your question.
+Jul 03 18:58:01 <Mactoc>	ruprella: Run the command sudo apt-get install vim
+Jul 03 18:58:07 <kanika04>	!
+Jul 03 18:58:07 <kushal>	next
+Jul 03 18:58:08 <batul>	siddharth185 please ask your question.. kanika04 you are next. Get ready with your question.
+Jul 03 18:58:08 <annesha_>	there are a lot of packages for vim,which one should i install?
+Jul 03 18:58:14 anarang AndChat|338289 AnjG anna_ annesha_ Anupkumar 
+Jul 03 18:58:24 <kushal>	annesha_, are you on Ubuntu or in Fedora?
+Jul 03 18:58:31 <annesha_>	Ubuntu
+Jul 03 18:58:33 anarang AndChat|338289 AnjG anna_ annesha_ Anupkumar 
+Jul 03 18:58:36 <sivteck>	annesha_:  vim should do
+Jul 03 18:58:41 rahulch1 rahulmishra ralsina ramkrsna ramsan romil931 rtnpro ruprela 
+Jul 03 18:58:43 <kushal>	annesha_, same command as ruprela 
+Jul 03 18:58:43 <siddharth185>	Have you tried githubs new editor called "Atom".what do you about it?
+Jul 03 18:58:55 <annesha_>	Thanks Kushal
+Jul 03 18:58:56 <ruprela>	The following NEW packages will be installed:
+Jul 03 18:58:56 <ruprela>	  vim vim-runtime
+Jul 03 18:58:56 <ruprela>	0 upgraded, 2 newly installed, 0 to remove and 298 not upgraded.
+Jul 03 18:58:56 <ruprela>	E: Could not get lock /var/cache/apt/archives/lock - open (11: Resource temporarily unavailable)
+Jul 03 18:58:56 <ruprela>	E: Unable to lock directory /var/cache/apt/archives/
+Jul 03 18:59:09 <ruprela>	what is this error ?
+Jul 03 18:59:13 <kushal>	siddharth185, that question is completely out of turn for this training.
+Jul 03 18:59:21 <leero9>	close any package manager
+Jul 03 18:59:29 *	acetakwas (~acetakwas@196.46.245.117) has joined #dgplug
+Jul 03 18:59:33 <bibhas>	ruprela, do you have Ubuntu software manager running? or have some other package being installed?
+Jul 03 18:59:36 <leero9>	if open
+Jul 03 18:59:42 <acetakwas>	identify acetakwas pulchritude
+Jul 03 18:59:49 <leero9>	lol
+Jul 03 18:59:53 <bibhas>	tch
+Jul 03 18:59:53 <acetakwas>	lol
+Jul 03 19:00:04 <ramsan>	that error is because some other updates might be happening
+Jul 03 19:00:09 <acetakwas>	not again....my itchy fingers were a bit too fast#
+Jul 03 19:00:25 *	acetakwas has quit (Disconnected by services)
+Jul 03 19:00:31 *	ramkrsna has quit (Quit: Leaving)
+Jul 03 19:00:36 *	humpty (~chatzilla@122.175.147.14) has joined #dgplug
+Jul 03 19:00:39 <CuriousLearner>	acetakwas: ^^ lol
+Jul 03 19:00:50 <leero9>	ruprela working ?
+Jul 03 19:00:54 *	acetakwas (~acetakwas@196.46.245.118) has joined #dgplug
+Jul 03 19:01:29 <ruprela>	!
+Jul 03 19:01:36 *	obhee (7b3f0d75@gateway/web/cgi-irc/kiwiirc.com/ip.123.63.13.117) has joined #dgplug
+Jul 03 19:01:42 <lutiz>	!
+Jul 03 19:01:50 <kushal>	next
+Jul 03 19:01:51 <batul>	kanika04 please ask your question.. ruprela you are next. Get ready with your question.
+Jul 03 19:01:54 <kushal>	next
+Jul 03 19:01:54 <kanika04>	how to install vim in fedora ?
+Jul 03 19:01:55 <batul>	ruprela please ask your question.. lutiz you are next. Get ready with your question.
+Jul 03 19:02:03 *	mahendra (670ad002@gateway/web/freenode/ip.103.10.208.2) has joined #dgplug
+Jul 03 19:02:04 <amit001>	ruprela, see if some app is getting installed, if not use these 2 commands
+Jul 03 19:02:05 <amit001>	sudo rm /var/lib/apt/lists/lock
+Jul 03 19:02:10 <amit001>	sudo rm /var/cache/apt/archives/lock
+Jul 03 19:02:11 <deepak_sirone>	kanika04, sudo yum install vim
+Jul 03 19:02:18 <ruprela>	leero9,nope
+Jul 03 19:02:19 <CuriousLearner>	kanika04: do sudo yum install vim
+Jul 03 19:02:21 <vipsy>	kanika04, yum install vim
+Jul 03 19:02:25 <kushal>	kanika04, yum install vim-enhanced
+Jul 03 19:02:33 <kushal>	kanika04, ^^ as root
+Jul 03 19:02:48 <kanika04>	ok thnks :D
+Jul 03 19:02:50 <leero9>	Did the installation start at all ?
+Jul 03 19:02:55 *	RohanRoy (~RohanRoy@115.252.232.3) has joined #dgplug
+Jul 03 19:02:56 <kushal>	kanika04, thanks.
+Jul 03 19:02:58 <leero9>	ruprela ?
+Jul 03 19:03:00 <kushal>	next
+Jul 03 19:03:01 <batul>	lutiz please ask your question.
+Jul 03 19:03:02 *	RohanRoy has quit (Client Quit)
+Jul 03 19:03:03 <lutiz>	the update command is not working for me...does this mean that i have to re install my linux ??
+Jul 03 19:03:12 <ruprela>	leero9, no
+Jul 03 19:03:14 <kushal>	lutiz, what is the error you are getting?
+Jul 03 19:03:20 <bibhas>	lutiz, "not working for me" is not a problem statement
+Jul 03 19:03:25 *	RohanRoy (~RohanRoy@115.252.232.3) has joined #dgplug
+Jul 03 19:03:30 <kushal>	lutiz, paste the error in paste.fedoraproject.org
+Jul 03 19:03:31 <lutiz>	i do not get any message as such
+Jul 03 19:03:37 <amit001>	ruprela, read my message above
+Jul 03 19:03:41 <kushal>	lutiz, is it in a vm?
+Jul 03 19:03:50 *	swati has quit (Quit: Leaving)
+Jul 03 19:03:50 <lutiz>	it just keeps showing 0%
+Jul 03 19:03:51 <leero9>	just check if its already installed with vim -version
+Jul 03 19:04:09 <kushal>	lutiz, ask in #ubuntu channel may be.
+Jul 03 19:04:15 <bibhas>	lutiz, is it in a vm?
+Jul 03 19:04:16 <lutiz>	nope...i have mint installed alongside windows
+Jul 03 19:04:21 <kushal>	lutiz, ok
+Jul 03 19:04:26 <kushal>	next
+Jul 03 19:04:26 <batul>	No one is in queue.
+Jul 03 19:04:31 <deepu_tp>	ruprela: ls -ltr /etc/alternatives/vi
+Jul 03 19:04:36 <kanika04>	ya sorry. *thanks
+Jul 03 19:04:41 <leero9>	lutiz, what is the command you used ?
+Jul 03 19:04:46 *	Shankho has quit (Quit: For Sale: Parachute. Only used once, never opened, small stain.)
+Jul 03 19:04:47 <deepu_tp>	ubuntu's vi is really vim!
+Jul 03 19:04:58 anarang AndChat|338289 AnjG anna_ annesha_ Anupkumar 
+Jul 03 19:05:04 <kushal>	kanika04, btw, are you anarang's sister?
+Jul 03 19:05:06 <lutiz>	leero9, sudo apt-get update
+Jul 03 19:05:07 <shilpi>	!
+Jul 03 19:05:08 *	tenstormavi (~tenstorma@101.222.235.89) has joined #dgplug
+Jul 03 19:05:10 <kushal>	next
+Jul 03 19:05:11 <batul>	shilpi please ask your question.
+Jul 03 19:05:13 *	shrees (0e63c59f@gateway/web/freenode/ip.14.99.197.159) has joined #dgplug
+Jul 03 19:05:21 <kanika04>	kushal, yes
+Jul 03 19:05:27 <leero9>	you already have vim ?
+Jul 03 19:05:27 <kushal>	kanika04, :)
+Jul 03 19:05:40 <kanika04>	:D
+Jul 03 19:05:41 <shilpi>	how to install vim for fedora ?
+Jul 03 19:05:41 <ruprela>	lrwxrwxrwx 1 root root 17 Jan 24 16:18 /etc/alternatives/vi -> /usr/bin/vim.tiny
+Jul 03 19:05:53 <bibhas>	shilpi, it's been explained above
+Jul 03 19:05:55 <ruprela>	deepu_tp
+Jul 03 19:05:57 <anarang>	ah, kushal  :D :P
+Jul 03 19:05:59 <deepu_tp>	kushal: is vim.tiny == vim ?
+Jul 03 19:06:02 <SpeedBus>	yum install vim
+Jul 03 19:06:03 <SpeedBus>	from what i recall
+Jul 03 19:06:07 <CuriousLearner>	shilpi: do sudo yum install vim-enhanced
+Jul 03 19:06:09 <kushal>	shilpi, already answer to kanika04 
+Jul 03 19:06:11 <romil931>	shilpi sudo yum install vim
+Jul 03 19:06:23 <kushal>	vim-enhanced is the right command in Fedora
+Jul 03 19:06:37 <acetakwas>	amit001, what do those commands do?
+Jul 03 19:06:48 <deepu_tp>	kushal:  ruprela's vi links to /etc/alternatives/vi -> /usr/bin/vim.tiny is that the same?
+Jul 03 19:07:03 <kushal>	deepu_tp, no clue about Ubuntu, sorry :(
+Jul 03 19:07:17 <kushal>	deepu_tp, ruprela ask in #ubuntu please
+Jul 03 19:07:21 <SpeedBus>	deepu_tp start it up and see if it looks like vim, if it does, all good :)
+Jul 03 19:07:22 *	Shankho (~Shankho@27.49.4.122) has joined #dgplug
+Jul 03 19:07:38 <kushal>	SpeedBus, thanks, that was the right answer actually :)
+Jul 03 19:07:49 <amit001>	acetakwas, it deletes the lock, a lock may happen if a an apt-get was halted while executing
+Jul 03 19:07:54 <SpeedBus>	haha no problems, ill get a screenshot which people can have a look at
+Jul 03 19:08:13 *	vmk (dfb0594e@gateway/web/freenode/ip.223.176.89.78) has joined #dgplug
+Jul 03 19:08:18 *	acetakwas_ (~acetakwas@196.46.245.124) has joined #dgplug
+Jul 03 19:08:21 <droy_>	acetakwas , those commands actually remove the logs that are written after rm . rm means remove and it will delete  thing mentioned in the directory
+Jul 03 19:08:27 *	AndChat|76041 (~AndChat76@123.63.13.117) has joined #dgplug
+Jul 03 19:08:40 *	ramsan (~chatzilla@123.63.138.34) has left #dgplug
+Jul 03 19:08:41 <SpeedBus>	here you go, screenshot of Vim : http://i.imgur.com/rgXcTEN.png which you can compare to if needed
+Jul 03 19:08:46 <acetakwas_>	droy_, thanks
+Jul 03 19:09:03 *	pratik_ has quit (Ping timeout: 248 seconds)
+Jul 03 19:09:03 *	pratik46 has quit (Ping timeout: 248 seconds)
+Jul 03 19:09:12 <kushal>	acetakwas_, rm command was already in the commands book before.
+Jul 03 19:09:14 <kushal>	next
+Jul 03 19:09:15 <batul>	No one is in queue.
+Jul 03 19:09:17 *	shashank_ has quit (Quit: Leaving)
+Jul 03 19:09:18 <bibhas>	people be careful when you sudo rm.
+Jul 03 19:09:38 <SpeedBus>	especially when using sudo rm -rf
+Jul 03 19:09:41 <acetakwas_>	kushal, yes
+Jul 03 19:10:19 *	shashank_ (~shashank@118.67.252.66) has joined #dgplug
+Jul 03 19:10:19 <deepu_tp>	SpeedBus: Looks the same I have vim.basic
+Jul 03 19:10:22 <deepu_tp>	Some of the optional features are left out or so I have read just now.
+Jul 03 19:10:28 *	CuriousLearner has quit (Ping timeout: 246 seconds)
+Jul 03 19:10:31 *	obhee (7b3f0d75@gateway/web/cgi-irc/kiwiirc.com/ip.123.63.13.117) has left #dgplug
+Jul 03 19:10:34 *	toxboi (~toxboi@lopsa/member/toxboi) has joined #dgplug
+Jul 03 19:10:52 <SpeedBus>	deepu_tu should be fine, since you just need the text editing ability in it :)
+Jul 03 19:11:01 *	pratik46 (pratik0406@117.235.124.102) has joined #dgplug
+Jul 03 19:11:01 *	77CAAPBU4 (pratik0406@117.235.124.102) has joined #dgplug
+Jul 03 19:11:06 <stguin>	!
+Jul 03 19:11:11 *	acetakwas has quit (Ping timeout: 248 seconds)
+Jul 03 19:11:13 <kushal>	next
+Jul 03 19:11:14 <batul>	stguin please ask your question.
+Jul 03 19:11:14 <bibhas>	lot of people are sitting quiet today
+Jul 03 19:11:16 *	Prash_542 has quit (Quit: Page closed)
+Jul 03 19:11:19 <kushal>	bibhas, yeah
+Jul 03 19:11:22 <iamviknesh>	use i flag when you use rm , so it notifies before deletion , like rm -i
+Jul 03 19:11:35 <SpeedBus>	yeah you can set that in the .bashrc as well
+Jul 03 19:11:38 *	ruprela has quit (Quit: Leaving)
+Jul 03 19:11:44 <SpeedBus>	iirc centos/fedora have that added already
+Jul 03 19:11:47 <SpeedBus>	same for mv as well
+Jul 03 19:11:53 *	abhi_poo (~abhi_poo@114.79.178.187) has joined #dgplug
+Jul 03 19:11:53 <kushal>	SpeedBus, yes, for root accounts
+Jul 03 19:11:54 <acetakwas_>	iamviknesh, +1
+Jul 03 19:12:00 <SpeedBus>	kushal ah
+Jul 03 19:12:12 <kushal>	stguin, you question?
+Jul 03 19:12:14 <stguin>	what it would be i  use vm
+Jul 03 19:12:16 *	ruprela (~dharmesh@106.76.148.225) has joined #dgplug
+Jul 03 19:12:22 <kushal>	stguin, ?
+Jul 03 19:12:30 *	CuriousLearner (3bb2ce1a@gateway/web/freenode/ip.59.178.206.26) has joined #dgplug
+Jul 03 19:12:37 <kushal>	stguin, sorry never understood that, can you ask again please?
+Jul 03 19:12:54 <CuriousLearner>	!
+Jul 03 19:12:55 <stguin>	i mean how can i install vim in vm <eof>
+Jul 03 19:13:03 <Shankho>	!
+Jul 03 19:13:08 <leero9>	!
+Jul 03 19:13:35 <nmzaheer>	stguin, what OS is installed on your vm?
+Jul 03 19:13:45 <SpeedBus>	stguin if it's fedora, sudo yum install vim* else if it's ubuntu based sudo apt-get update && apt-get install vim
+Jul 03 19:13:57 <SpeedBus>	er if ubuntu sudo apt-get update && sudo apt-get install vim
+Jul 03 19:14:01 *	mahendra_ (~mahendra@103.10.208.2) has joined #dgplug
+Jul 03 19:14:08 <kushal>	next
+Jul 03 19:14:09 <batul>	CuriousLearner please ask your question.. Shankho you are next. Get ready with your question.
+Jul 03 19:14:16 <stguin>	fedora
+Jul 03 19:14:21 <SpeedBus>	sudo yum install vim*
+Jul 03 19:14:22 <CuriousLearner>	I've two things to say, 1st today I'm facing net problems and forced to reconnect again and again, that's why I missed attendence too... 1nd, Was just installing vim in fedora, but I got this error : Transaction check error:   file /usr/share/man/man1/vim.1.gz from install of vim-common-2:7.4.179-1.fc20.x86_64 conflicts with file from package vim-minimal-2:7.4.027-2.fc20.x86_64
+Jul 03 19:14:25 *	deepak_sirone has quit (Read error: Connection reset by peer)
+Jul 03 19:14:25 <lutiz>	!
+Jul 03 19:14:32 <nmzaheer>	SpeedBus, why do you need update command?
+Jul 03 19:14:38 <SpeedBus>	just in case he hasnt done it yet :)
+Jul 03 19:14:40 <stguin>	thanks SpeedBus
+Jul 03 19:14:53 <nmzaheer>	:)
+Jul 03 19:14:56 <SpeedBus>	CuriousLearner yum remove vim* and then yum install vim*
+Jul 03 19:14:57 *	urocksss (~androirc@117.228.71.76) has joined #dgplug
+Jul 03 19:15:19 *	mahendra has quit (Quit: Page closed)
+Jul 03 19:15:20 <mnw94>	nmzaheer , the update command updates package lists
+Jul 03 19:15:21 *	urocksss has quit (Client Quit)
+Jul 03 19:15:28 <kushal>	CuriousLearner, first do yum update
+Jul 03 19:15:37 *	deepak_sirone (~deepak@117.241.56.200) has joined #dgplug
+Jul 03 19:15:37 <kushal>	CuriousLearner, that should fix your problems
+Jul 03 19:15:51 <CuriousLearner>	ok, doing.
+Jul 03 19:15:51 <kushal>	next
+Jul 03 19:15:52 <batul>	Shankho please ask your question.. leero9 you are next. Get ready with your question.
+Jul 03 19:16:00 <Shankho>	I can find  a GVim on software center. Is it the same you are talking about?
+Jul 03 19:16:14 *	CuriousLearner_ (3bb2ce1a@gateway/web/freenode/ip.59.178.206.26) has joined #dgplug
+Jul 03 19:16:14 *	CuriousLearner_ has quit (Client Quit)
+Jul 03 19:16:25 *	ruprela has quit (Read error: Connection reset by peer)
+Jul 03 19:16:28 <silentSae>	it's vim with a graphical interface
+Jul 03 19:16:32 <SpeedBus>	GVim is graphical vim iirc
+Jul 03 19:16:34 <SpeedBus>	should be fine
+Jul 03 19:16:42 <iamviknesh>	Shankho: its graphical version of vim
+Jul 03 19:16:43 <kushal>	SpeedBus, actually no
+Jul 03 19:16:52 *	anuragkr (~anurag@182.66.143.171) has joined #dgplug
+Jul 03 19:16:52 <kushal>	Shankho, install only vim
+Jul 03 19:17:04 *	77CAAPBU4 has quit (Quit: Leaving)
+Jul 03 19:17:06 <kushal>	as during training you will learn how to use command line tools
+Jul 03 19:17:14 <Shankho>	from where ? <eof>
+Jul 03 19:17:17 *	pratik_ (pratik0406@117.235.124.102) has joined #dgplug
+Jul 03 19:17:19 <SpeedBus>	start up terminal
+Jul 03 19:17:19 <kushal>	GVim will not help you in that
+Jul 03 19:17:28 <kushal>	Shankho, sudo apt-get install  vim
+Jul 03 19:17:44 *	mahendra_ is now known as m_k_
+Jul 03 19:17:49 *	vmk has quit (Ping timeout: 246 seconds)
+Jul 03 19:17:58 *	shashank_ has quit (Quit: Leaving)
+Jul 03 19:18:09 *	ruprela (~dharmesh@106.78.12.151) has joined #dgplug
+Jul 03 19:18:15 *	titli has quit (Quit: Leaving)
+Jul 03 19:18:17 <kushal>	next
+Jul 03 19:18:18 <batul>	leero9 please ask your question.. lutiz you are next. Get ready with your question.
+Jul 03 19:18:21 <leero9>	I never really understood why most of the courses ask us to learn vim, when we have more easier text editors like gedit, why vim ? <eof>
+Jul 03 19:18:21 *	ruprela has quit (Client Quit)
+Jul 03 19:18:33 <Shankho>	can't type password. Don't know why? Keyboard working fine
+Jul 03 19:18:54 <kushal>	Shankho, sudo does not show your password
+Jul 03 19:18:57 *	ruprela (~dharmesh@106.78.12.151) has joined #dgplug
+Jul 03 19:19:00 <nmzaheer>	Shanko, you won't see the password getting typed.Just type it and hit enter
+Jul 03 19:19:00 <bibhas>	:D
+Jul 03 19:19:08 *	obhee (7b3f0d75@gateway/web/cgi-irc/kiwiirc.com/ip.123.63.13.117) has joined #dgplug
+Jul 03 19:19:11 <acetakwas_>	:|
+Jul 03 19:19:14 *	amittima has quit (Quit: Leaving)
+Jul 03 19:19:16 <Shankho>	okay
+Jul 03 19:19:19 <amit001>	Shankho, :D
+Jul 03 19:19:20 <CuriousLearner>	shanko: in linux it would never show your password, just type and hit enter it'll accept it
+Jul 03 19:19:20 *	heena_ (~heena@223.176.67.224) has joined #dgplug
+Jul 03 19:19:28 *	amittima (~amit@182.66.180.42) has joined #dgplug
+Jul 03 19:19:32 <kushal>	leero9, because when you will have to connect to a server half way around the world, gedit can not help you to edit files there.
+Jul 03 19:19:48 <acetakwas_>	shankho, it must be your first time using the tty
+Jul 03 19:20:07 <kushal>	leero9, also with a proper editor training, you can do things super fast, be it in vim or emacs
+Jul 03 19:20:07 <leero9>	oh ! Not an every day situation then
+Jul 03 19:20:25 <kushal>	leero9, for us it is a everyday situation
+Jul 03 19:20:27 *	alec (7b3f8a22@gateway/web/freenode/ip.123.63.138.34) has joined #dgplug
+Jul 03 19:20:32 *	vmk (b64295d7@gateway/web/freenode/ip.182.66.149.215) has joined #dgplug
+Jul 03 19:20:33 <bibhas>	leero9, it's an everyhour situation for a developer
+Jul 03 19:20:34 <zetron>	leero9: also because of the speed you can attain after you get through the steep learning curve
+Jul 03 19:20:57 <nmzaheer>	!
+Jul 03 19:20:59 <leero9>	I always skipped it for gedit :|
+Jul 03 19:20:59 <kushal>	bibhas, leero9 or every minute depending on your job :)
+Jul 03 19:21:04 <kushal>	nex
+Jul 03 19:21:06 <kushal>	next
+Jul 03 19:21:08 *	titli (~tdas@14.99.155.5) has joined #dgplug
+Jul 03 19:21:09 <batul>	lutiz please ask your question.. nmzaheer you are next. Get ready with your question.
+Jul 03 19:21:10 <Shankho>	acetakwas : Yes was stuck with a vm problem.
+Jul 03 19:21:11 <lutiz>	does intalling and running linux in a vm affect the system otherwise ?
+Jul 03 19:21:15 *	alec has quit (Client Quit)
+Jul 03 19:21:16 <kushal>	lutiz, no
+Jul 03 19:21:17 <kushal>	next
+Jul 03 19:21:18 <batul>	nmzaheer please ask your question.
+Jul 03 19:21:35 <nmzaheer>	In what encoding does files in vim get saved?
+Jul 03 19:21:58 *	heena has quit (Ping timeout: 264 seconds)
+Jul 03 19:22:19 <nmzaheer>	I remember having this problem where Windows had CR+LF and Linux had only LF or something like that.
+Jul 03 19:22:34 <acetakwas_>	Shankho, okay
+Jul 03 19:22:38 <zetron>	nmzaheer: depends on file extension you enter during file creation
+Jul 03 19:22:59 <deepak_sirone>	nmzaheer, what are CR and LF ?
+Jul 03 19:23:11 <deepu_tp>	nmzaheer: Latin-1 (source : http://unix.stackexchange.com/questions/23389/how-can-i-set-vims-default-encoding-to-utf-8)
+Jul 03 19:23:18 <nmzaheer>	CR - Carriage return LF - line feed
+Jul 03 19:23:19 <kushal>	nmzaheer, Depends
+Jul 03 19:23:29 *	obhee has quit (Client Quit)
+Jul 03 19:23:32 *	anarang has quit (Quit: Leaving)
+Jul 03 19:23:38 <deepak_sirone>	nmzaheer, ok
+Jul 03 19:24:20 <kushal>	next
+Jul 03 19:24:21 <batul>	No one is in queue.
+Jul 03 19:24:31 <kushal>	One point for everyone.
+Jul 03 19:24:40 <kushal>	Unless you ask questions, it will not help you.
+Jul 03 19:24:59 <kushal>	You have to learn how to throw away your fear and start asking questions.
+Jul 03 19:25:00 <RohanRoy>	!
+Jul 03 19:25:06 <kushal>	In every part of you life.
+Jul 03 19:25:06 *	AndChat|76041 has quit (Read error: Connection reset by peer)
+Jul 03 19:25:07 <kushal>	next
+Jul 03 19:25:08 <batul>	RohanRoy please ask your question.
+Jul 03 19:25:11 <RohanRoy>	which is good nano or vim or sublime
+Jul 03 19:25:14 *	ruprela has quit (Remote host closed the connection)
+Jul 03 19:25:17 <deepak_sirone>	!
+Jul 03 19:25:29 <kushal>	RohanRoy, sublime is not terminal based text editorl.
+Jul 03 19:25:42 <titli>	!
+Jul 03 19:25:43 <kushal>	RohanRoy, between nano and vim, vim is better.
+Jul 03 19:25:44 <kushal>	next
+Jul 03 19:25:45 <batul>	deepak_sirone please ask your question.. titli you are next. Get ready with your question.
+Jul 03 19:25:47 <RohanRoy>	oh yea sorry
+Jul 03 19:25:53 *	AnjG has quit (Quit: Leaving)
+Jul 03 19:26:04 <RohanRoy>	its emacs
+Jul 03 19:26:15 <deepak_sirone>	CR and LF, what is the difference?
+Jul 03 19:26:38 *	Deccan (7b3f8a22@gateway/web/freenode/ip.123.63.138.34) has joined #dgplug
+Jul 03 19:26:46 <Jupiter>	 !
+Jul 03 19:26:52 <kushal>	deepak_sirone, google.com
+Jul 03 19:26:53 <kushal>	next
+Jul 03 19:26:54 <batul>	titli please ask your question.
+Jul 03 19:26:56 <titli>	why you chose vim from all others?
+Jul 03 19:27:04 <kushal>	titli, because I like it.
+Jul 03 19:27:10 <romil931>	:D
+Jul 03 19:27:11 <nmzaheer>	deepak_sirone, http://stackoverflow.com/questions/3091524/what-are-carriage-return-linefeed-and-form-feed
+Jul 03 19:27:12 <kushal>	Jupiter, ask your question?
+Jul 03 19:27:22 <deepak_sirone>	nmzaheer, thanks
+Jul 03 19:27:48 <Jupiter>	How does <  | << symbols work?
+Jul 03 19:28:00 <kushal>	Jupiter, pipe?
+Jul 03 19:28:01 <annesha_>	!
+Jul 03 19:28:06 *	ruprela (~dkrdharme@106.78.12.151) has joined #dgplug
+Jul 03 19:28:13 *	silentSae has quit (Quit: Leaving)
+Jul 03 19:28:33 <lixxz>	Jupiter, http://ryanstutorials.net/linuxtutorial/piping.php
+Jul 03 19:28:34 *	Karthik_B has quit (Quit: Page closed)
+Jul 03 19:28:40 <Jupiter>	I read about it but didn't  understand what is happening there
+Jul 03 19:28:49 <zetron>	!
+Jul 03 19:28:54 *	obhee (670ad002@gateway/web/cgi-irc/kiwiirc.com/ip.103.10.208.2) has joined #dgplug
+Jul 03 19:29:13 <titli>	Jupiter, pipes are used to redirect one's output as another's input.
+Jul 03 19:29:21 <kushal>	Jupiter, in case you know C/C++ http://www2.cs.uregina.ca/~hamilton/courses/330/notes/unix/pipes/pipes.html
+Jul 03 19:29:26 <vipsy>	Jupiter, > symbols overwrites the file, and >> appends the text to a file
+Jul 03 19:29:38 *	AndChat|76041 (~AndChat76@103.10.208.2) has joined #dgplug
+Jul 03 19:29:44 *	acetakwas_ has quit (Ping timeout: 244 seconds)
+Jul 03 19:29:56 <bibhas>	vipsy, where did you get > and >> ?
+Jul 03 19:30:00 <Jupiter>	okay, thank you
+Jul 03 19:30:06 <kushal>	So everyone try out those two vim logs tonight and tomorrow, classes start at the same time.
+Jul 03 19:30:11 <kushal>	--------SESSION ENDS------------
