@@ -52,4 +52,4 @@ def print_nick_report(text):
 
 if __name__ == "__main__":
     url = "https://dgplug.org/irclogs/2017/"
-    log_links = download_logs(url)
+    log_links = print_all_log_reports(url)
