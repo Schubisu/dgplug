@@ -3,19 +3,27 @@ from bs4 import BeautifulSoup
 import re
 
 
-def download_logs(url):
+def print_all_log_reports(url):
     soup = BeautifulSoup(
         requests.get(url).text,
         'lxml'
     )
-    links = soup.find_all(
+    log_links = soup.find_all(
         'a',
         string=re.compile('Logs.*')
     )
-    return [a['href'] for a in links]
+
+    log_links = [a['href'] for a in log_links]
+
+    for link in log_links:
+        logfile = requests.get(url + link).text
+        print()
+        print('-' * 16)
+        print('Report for log {}'.format(logfile))
+        print_nick_report(logfile)
 
 
-def get_nicks_report(text):
+def print_nick_report(text):
     nicks = set()
     lines = dict()
     words = dict()
@@ -45,9 +53,3 @@ def get_nicks_report(text):
 if __name__ == "__main__":
     url = "https://dgplug.org/irclogs/2017/"
     log_links = download_logs(url)
-    for link in log_links:
-        logfile = requests.get(url + link).text
-        print()
-        print('-' * 16)
-        print('Report for log {}'.format(logfile))
-        get_nicks_report(logfile)
