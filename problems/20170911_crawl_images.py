@@ -4,7 +4,8 @@ from bs4 import BeautifulSoup
 
 
 def save_all_images(url):
-    soup = BeautifulSoup(requests.get(url).text, 'lxml')
+    request = requests.get(url)
+    soup = BeautifulSoup(request.text, 'lxml')
     images = soup.find_all('img')
     if images:
         for image in images:
@@ -13,11 +14,12 @@ def save_all_images(url):
             image_raw = requests.get(image_link).content
             with open(image_filename, 'bw') as outstream:
                 outstream.write(image_raw)
+
+    elif 'image' in request.headers['Content-Type']:
+        image_filename = os.path.basename(url)
+        image_raw = requests.get(url).content
+        with open(image_filename, 'bw') as outstream:
+            outstream.write(image_raw)
+
     else:
-        try:
-            image_filename = os.path.basename(url)
-            image_raw = requests.get(url).content
-            with open(image_filename, 'bw') as outstream:
-                outstream.write(image_raw)
-        except:
-            print("no images found")
+        print('no images found')
