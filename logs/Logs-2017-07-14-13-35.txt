@@ -1,0 +1,676 @@
+----BEGIN CLASS----
+[13:35] <kushal> #startclass
+[13:35] <kushal> Roll call
+[13:35] <_RicharD_> Mayank gupta
+[13:35] <jasonbraganza> Jason Braganza
+[13:35] <skarpy> Akash pathak
+[13:35] <schubisu> Robin Schubert
+[13:35] <ashwanig> Ashwani Kumar Gupta
+[13:35] <ishank_g> Ishank Gupta
+[13:35] <asraisingh> Abhishek Singh
+[13:35] <kvy> Kumar Vipin yadav
+[13:35] <bhavin192> Bhavin Gandhi
+[13:35] <skat-sd> Saikat Dey
+[13:35] <abhinavshirur> Abhinav Shirur
+[13:35] <gauravsitlani> Gaurav Sitlani
+[13:35] <akshayg96> Akshay Gaikwad
+[13:35] <kishore> Kishore Saldanha
+[13:35] <sakshi> Sakshi Saraswat
+[13:35] <mdbk> Onyinye Madubuko
+[13:35] <vivek_> Vivek Anand
+[13:35] <lucifer> Atul kumar
+[13:35] <samridhia> Samridhi Agarwal
+[13:35] <joyhimanshu> Himanshu Awasthi
+[13:35] <ravindra> Ravindra Lakal
+[13:35] <ikshitij> Kshitij
+[13:35] <Padfoot7> Mohd Omama
+[13:35] <vharsh> Harsh Vardhan
+[13:35] <deepika__> Deepika Upadhyay
+[13:35] <omair_kh> Omair Khan
+[13:35] <knrai_> Krishnanand rai
+[13:35] <balaji> Balaji
+[13:35] <NikitaK3> Nikita Kotak
+[13:35] <avik> Avik Mukherjee
+[13:36] <ghishadow> Suraj Ghimire
+[13:36] <rkased> Razy Kased
+[13:36] <soumam007> Soumam Banerjee
+[13:36] <anuGupta> Anu kumari Gupta
+[13:36] <Casper_01[m]> Mayur khomane
+[13:37] <neer1> Nishnata Sarma
+[13:37] <yurii_> yurii pylypchuk
+[13:37] <SpEcHiDeR> Shrimadhav U K
+[13:38] <CHOCOS> neha kandpal
+[13:38] <imack> Mahendra Yadav
+[13:38] <kushal> Who all here does not know about ssh keys or do not have one?
+[13:38] <CHOCOS> me
+[13:38] <RIcharD_> me
+[13:38] <kvy> Me
+[13:38] <lucifer> me
+[13:38] <ashwanig> me
+[13:38] <omair_kh> me
+[13:38] <joyhimanshu> me
+[13:38] <samridhia> me
+[13:39] <jasonbraganza> i understand only a little
+[13:39] <skat-sd> me
+[13:39] <yurii_> me
+[13:39] <asraisingh> me
+[13:39] <avik> i
+[13:39] <mdbk> me
+[13:39] <ishank_g> me
+[13:39] <apoorv> roll call : Apoorv Goel
+[13:39] <apoorv> me
+[13:39] <deepika__> Me
+[13:39] <rkased> me
+[13:39] <sakshi> me
+[13:40] <yurii_> I do not know and do not have
+[13:40] <im_mohsin> Mohsin Mumtaz
+[13:40] <NikitaK3> Me
+[13:40] <knrai_> me
+[13:40] <kushal> Okay
+[13:40] <im_mohsin> little bit i know
+[13:41] <anuGupta> Me
+[13:41] <kushal> So, do the first 4 steps in this https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/  remember not to change the default file location, and give it a good passphrase
+[13:41] <ikshitij> !
+[13:41] <kushal> say done here, when you are done
+[13:42] <SpEcHiDeR> done
+[13:43] <skat-sd> !
+[13:43] <kushal> next
+[13:43] <skat-sd> Pass phrase needs to be a word or short sentence?
+[13:43] <knrai_> done
+[13:43] <kushal> next
+[13:43] <skat-sd> Pass phrase needs to be a word or short sentence?
+[13:43] <kushal> skat-sd, You always press Enter too soon.
+[13:43] <ikshitij> pass
+[13:44] <kushal> skat-sd, better a sentence, that will be difficult for people to guess
+[13:44] <skat-sd> err, sorry, kushal. mostly impulse takes over when batul announces my name, sorry.
+[13:44] <rkased> done
+[13:44] <sakshi> done
+[13:44] <asraisingh> done
+[13:45] <kushal> skat-sd, :)
+[13:45] <samridhia> done
+[13:45] <apoorv> done
+[13:45] <mdbk> done
+[13:45] <rkased> !
+[13:45] <ravindra> done
+[13:45] <joyhimanshu> done
+[13:45] <priyansh> Roll call: Priyansh Sourav
+[13:45] <RIcharD_> done
+[13:45] <ashwanig> done
+[13:45] <kushal> next
+[13:45] <rkased> what is the randomart image for?
+[13:45] <Vamsi3296> Roll call:Vamsi Krishna.
+[13:46] <skat-sd> done
+[13:46] <rkased> and key fingerprint?
+[13:46] <championshuttler> Roll Call : Shivam Singhal
+[13:46] <devendrabhat> Roll Call : Devendra Bhat
+[13:46] <omair_kh> done
+[13:46] <NikitaK3> done
+[13:47] <im_mohsin> !
+[13:47] <deepika__> done
+[13:47] <championshuttler> done
+[13:47] <ikshitij> dond
+[13:47] <ikshitij> done
+[13:47] <avik> done
+[13:47] <kvy_> done
+[13:48] <gauravsitlani> done
+[13:48] <soumam007> done
+[13:48] <soumam007> !
+[13:48] <santoshShaw> Roll Call: Santosh Kumar Shaw
+[13:49] <kushal> rkased, ?
+[13:49] <kushal> rkased, you just use your computer.
+[13:49] <kushal> next
+[13:49] <im_mohsin> kushal, when i do ls and it shows total 16 then it means 16 ssh keys generated with one keygeneration command?
+[13:49] <kushal> rkased, Don't worry about that fancy picture :p
+[13:49] <rkased> !
+[13:50] <rkased> ok, lol
+[13:50] <kushal> im_mohsin, where do you do that ls?
+[13:50] <kushal> next
+[13:50] <soumam007> what did we just do?
+[13:50] <rkased> okay, laughing out loud. haha
+[13:50] <im_mohsin> home directory
+[13:50] <kushal> next
+[13:50] <rkased> nevermind my question
+[13:50] <im_mohsin> sorry kushal root
+[13:50] <kushal> im_mohsin, means you have 16 things in your home directoyr
+[13:50] <kushal> im_mohsin, btw, I hope you are using your normal user account
+[13:50] <kushal> Now everyone, do this
+[13:50] <im_mohsin> Yes kushal
+[13:51] <kushal> ls -la ~/.ssh
+[13:51] <kushal> You should see id_rsa and id_rsa.pub file there
+[13:51] <kushal> also notice the file permission
+[13:51] <skarpy> done, what about adding to ssh-agent?
+[13:51] <kushal> only you can read or write it
+[13:51] <kushal> skarpy, Don't
+[13:51] <kushal> skarpy, we can do that later
+[13:52] <omair_kh> !
+[13:52] <kushal> That id_rsa is the private part of the key you just now created
+[13:52] <kushal> Never upload it to anywhere
+[13:52] <kushal> never give it to anyone
+[13:52] <kushal> DO NOT SHARE IT
+[13:52] <kushal> not on mail or anything
+[13:52] <kushal> The id_rsa.pub is different, we will  only use that one
+[13:53] <rkased> !
+[13:53] <soumam_> kushal can you tell once more :( load shedding
+[13:53] <soumam_> missed last few lines
+[13:54] <kushal> someone pm that to soumam_ please
+[13:54] <kushal> next
+[13:54] <yurii_> !
+[13:54] <apoorv> !
+[13:54] <soumam_> thanks
+[13:54] <omair_kh> never mind got it
+[13:54] <championshuttler> soumam_: pm
+[13:54] <samridhia> !
+[13:54] <kushal> next
+[13:55] <soumam_> thanks to all
+[13:55] <rkased> How can I view the private part of my key I just created?
+[13:55] <kushal> rkased, It is a text file
+[13:55] <rkased> okay
+[13:55] <kushal> rkased, less ~/.ssh/id_rsa
+[13:56] <kushal> rkased, don't use vim, you may destroy the file by mistake
+[13:56] <kushal> next
+[13:56] <rkased> Cool, thanks
+[13:56] <yurii_> it looks like i missed  creating ssh kay
+[13:56] <ashwanig> !
+[13:56] <skarpy> ?
+[13:56] <kushal> yurii_, do the first 4 steps from https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+[13:56] <yurii_> i was disconected
+[13:56] <kushal> next
+[13:56] <yurii_> ok
+[13:56] <apoorv> it says no such file or directory?
+[13:57] <kushal> apoorv, what says?
+[13:57] <apoorv> when i run the command ls -la /.ssh
+[13:57] <apoorv> ls: cannot access '/.shh': No such file or directory
+[13:57] <kushal> apoorv, correct
+[13:57] <jasonbraganza> apoorv ~/.ssh
+[13:57] <kushal> apoorv, read the command I gave.
+[13:57] <kushal> and then type
+[13:58] <kushal> This is why learning to type is so important.
+[13:58] <apoorv> ohh okay
+[13:58] <kushal> You all should spend time in that.
+[13:58] <rkased> !
+[13:58] <kushal> next
+[13:58] <samridhia> After typing that command i can see "total 20" so what does that mean?
+[13:58] <kshitij> apoorv, command is wrong
+[13:58] <kushal> samridhia, can you please show me the command you just now typed?
+[13:59] <samridhia> ls -la ~/.ssh
+[14:00] <apoorv> ya kushal i got it
+[14:00] <samridhia> It is showing both the files you said but also some more files of previous dates. Does that mean i have used ssh key previously also?
+[14:00] <kushal> samridhia, it may shows known_hosts file
+[14:00] <kushal> and a config file
+[14:00] <yurii_> done
+[14:00] <deepika__> !
+[14:01] <kushal> next
+[14:01] <samridhia> yes kushal it is showing known_hosts file
+[14:01] <ashwanig> should I open both the files to see the content?<eom>
+[14:01] <kushal> samikshan, no issues, we will explain that in some time
+[14:01] <kushal> ashwanig, if you want to :)
+[14:01] <kushal> next
+[14:02] <skarpy> !
+[14:02] <ashwanig> kushal, But you said opening in vim will destroy it?
+[14:02] <CHOCOS> !
+[14:02] <kushal> ashwanig, yes, by accident
+[14:02] <kushal> ashwanig, and then I also showed you the less command.
+[14:02] <jasonbraganza> ashwanig use less just to be sure
+[14:02] <kushal> ashwanig, Do you know about the less command?
+[14:02] <ikshitij> kushal: it is showing 3 files in my machine ! known_hosts, id_rsa, id_rsa.pub . Is this ok ?
+[14:02] <kushal> ikshitij, yes
+[14:02] <ashwanig> kushal, no
+[14:03] <rkased> Two part question, one: once I get to view my private key, how do I return to the normal terminal command prompt window. Second: What if I don't use this computer in the future how do I protect my private key from other users from accessing it?
+[14:03] <kushal> ashwanig, time to learn :)
+[14:03] <kushal> rkased, press q
+[14:03] <rkased> NIce
+[14:03] <kushal> rkased, you can not, you are only supposed to do that in your private computer.
+[14:03] <rkased> I didn't want to take any chance
+[14:03] <soumam_> !
+[14:03] <rkased> I see
+[14:03] <kushal> rkased, that is good :)
+[14:03] <ikshitij> ashwanig: http://lym.readthedocs.io/en/latest/
+[14:03] <kushal> ikshitij, :)
+[14:03] <kushal> next
+[14:04] <deepika__> kushal what if the file got damaged ,can we create and replace with a new one ?
+[14:04] <rkased> !
+[14:04] <kushal> deepika__, Yes, but better you take care of the file
+[14:04] <kushal> deepika__, We use these keys to login to remote computers, so you don't have any way to readd the new key, you will be in trouble.
+[14:04] <kushal> next
+[14:04] <skarpy> kushal: https://paste.fedoraproject.org/paste/BcsmVXpN-9jII4IdTY19Gg this are the files showing, what does those mean?
+[14:05] <skarpy> and what are those allocations? 4096,3326 ..
+[14:05] <neer1> !
+[14:05] <kushal> skarpy, This means 2 things.
+[14:05] <samridhia> skarpy, that's what i got as an output
+[14:06] <kushal> skarpy, 1. You will have to learn about ls command
+[14:06] <kushal> 2. You never read what I said for the output of the ls command
+[14:06] <kushal> next
+[14:06] <CHOCOS> got my answer :)
+[14:06] <kushal> skarpy, also you skipped lym book,
+[14:06] <kushal> next
+[14:06] <soumam_> though i have total 32 i cannot seen any mention of known host files :(
+[14:07] <jasonbraganza> soumam_ - don’t worry about it
+[14:08] <championshuttler> !
+[14:09] <Phi_mb> !
+[14:09] <kushal> Do anyone knows what is total?
+[14:10] <soumam__> i dont know, i thought no. of files
+[14:10] <kvy_> I also don't know.
+[14:10] <kushal> total number of 1024 bytes blocks
+[14:10] <kushal> not the total number of files
+[14:10] <rkased> wow
+[14:10] <soumam__> ohk
+[14:11] <kushal> or maybe 512 according to the POSIX standard
+[14:11] <bhavin192> soumam__, may I know what is ohk?
+[14:11] <poojaencoded> Roll:pooja kumari singh
+[14:12] <soumam__> bhavin s/ohk/ok :)
+[14:12] <ashwanig> kushal, So that means number of kilobytes?
+[14:12] <kvy_> !
+[14:12] <bhavin192> ashwanig, No
+[14:12] <kushal> ashwanig, no, blocks in the filesystem
+[14:12] <kushal> next
+[14:12] <rkased> What is the importance and purpose of a ssh key?, Also, what if the computer that the ssh key was created on is damaged or inaccessible?
+[14:12] <kushal> rkased, you have to take a secured backup
+[14:13] <EdIhCePs> !
+[14:13] <soumam__> !
+[14:13] <kushal> Now, you all have github account, you can add your key (the public one) there
+[14:13] <kushal> https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+[14:13] <kushal> and after that start reading about ssh from https://en.wikipedia.org/wiki/Secure_Shell
+[14:13] <Ani> Roll call : aniket uttam
+[14:14] <rkased> !
+[14:17] <Vamsi3296> I think this might also help, https://askubuntu.com/questions/30788/does-ssh-key-need-to-be-named-id-rsa.
+[14:17] <kushal> next
+[14:18] <neer1> I added the ssh key to github account but the password still works how do I use it.<eom>
+[14:18] <kushal> neer1, you will have to update the remote (in the .git/config) file to use the git@... format url
+[14:18] <kushal> neer1, search about it in the github
+[14:18] <kushal> next
+[14:19] <kushal> next
+[14:19] <Phi_mb> 1. What if our private key is compromised, can we change it? 2.If configuring ssh allows me to access remote computer without prompting for passwords, What if someone gets physical access to my system, he can access my remote server? <eom>
+[14:20] <kushal> Phi_mb, 1. yes, create a new key, change the public key every where
+[14:21] <kushal> 2. Yes, that is why I asked to give a long passphrase
+[14:21] <Phi_mb> Ok, thanks.
+[14:21] <kushal> Phi_mb, in future we will talk about disk encryption
+[14:21] <kushal> next
+[14:21] <kvy_> asked
+[14:21] <kushal> next
+[14:22] <Phi_mb> kushal, do you hard disk encryption? Well it would be great. :)
+[14:22] <kushal> Phi_mb, Yes, always the first thing to do
+[14:22] <kushal> next
+[14:22] <soumam__> kushal why did we do that ? was it a password? if it was a password then the for whom was it for ? any particular file ?
+[14:22] <kushal> soumam__, do what?
+[14:22] <soumam__> adding ssh keys
+[14:22] <kushal> soumam__, have you read any of the links provided today?
+[14:23] <kushal> soumam__, start reading the links please
+[14:23] <soumam__> wikipedi going through
+[14:23] <kushal> next
+[14:23] <soumam__> ok
+[14:23] <championshuttler> !
+[14:23] <rkased> In this case, our ssh-agent is github? Also, a random question, does bot name batul have a meaning?
+[14:23] <kushal> rkased, nope, ssh-agent runs on your computer.
+[14:23] <kushal> You are using the key to connect to github.
+[14:24] <omair_kh> !
+[14:24] <kushal> rkased, https://en.wikipedia.org/wiki/Bantul_the_Great
+[14:24] <rkased> Thank you
+[14:24] <kushal> next
+[14:24] <championshuttler> is it totally secure? because as per wikipedia it decrypted by US agency
+[14:25] <ashwanig> !
+[14:25] <kushal> championshuttler, Then you know the answer.
+[14:25] <Phi_mb> championshuttler, nothing is totally safe. You have to cautious. :)
+[14:25] <Phi_mb> s/to/to be
+[14:25] <kushal> championshuttler, It is secured from your college friends.
+[14:25] <championshuttler> kushal: ok :)
+[14:25] <kushal> next
+[14:26] <omair_kh> Can i change the passphrase of my key i just created
+[14:26] <rkased> Phi_mb what does s/to/to be mean?
+[14:26] <Phi_mb> s/to/"to be"
+[14:26] <kushal> omair_kh, Yes
+[14:26] <championshuttler> rkased: its means s/old/new
+[14:26] <omair_kh> how ?
+[14:27] <kushal> omair_kh, https://help.github.com/articles/working-with-ssh-key-passphrases/
+[14:27] <kushal> omair_kh, You know you can search too.
+[14:27] <kushal> You don't have to pay anyone for searching :)
+[14:27] <kushal> next
+[14:27] <ashwanig> By adding the SSH key we are telling github that anything coming from this computer is from the user right? <eom>
+[14:27] <omair_kh> Thanks
+[14:27] <kushal> ashwanig, no, we are using that to authenticate
+[14:28] <kushal> a different way than password
+[14:28] <kushal> username/password
+[14:28] <kushal> ashwanig, read the wikipedia page please
+[14:28] <kushal> next
+[14:28] <Phi_mb> kushal, using ssh will help us to secure our push to github, so that no one can intercept it?  Just confirming if I understood it correctly.
+[14:29] <kushal> Phi_mb, it will simply help you to identify you in a better way.
+[14:29] <kushal> Phi_mb, say I may know your passphrase
+[14:30] <kushal> but I will still need that id_rsa file to do anything in your github
+[14:30] <Phi_mb> Ok, like two way authentication. :)
+[14:30] <kushal> Phi_mb, but for username/password combination
+[14:30] <kushal> that is different
+[14:30] <kushal> Phi_mb, please read the wikipedia page first
+[14:30] <Vamsi3296> !
+[14:31] <kushal> next
+[14:31] <skat-sd> !
+[14:31] <Vamsi3296> What is github_rsa.pub for?
+[14:31] <Phi_mb> Ok, I will continue my doubts, if any still remain after the session after completing the wikipedia page.
+[14:31] <Vamsi3296> if we have id_rsa.pub.<eof>
+[14:31] <kushal> Phi_mb, you can search and also ask
+[14:32] <kushal> Vamsi3296, it the public part of your key
+[14:32] <kushal> Vamsi3296, Phi_mb https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process
+[14:33] <Vamsi3296> if you want to do anything with my github, does github_rsa.pub works?
+[14:33] <Vamsi3296> @kushal
+[14:33] <Vamsi3296> <eof>
+[14:34] <rkased> !
+[14:34] <kushal> Vamsi3296, nope, it is public information.
+[14:34] <kushal> Vamsi3296, what is your github username?
+[14:35] <Vamsi3296> kushal: vamsi3296@github.com
+[14:35] <kushal> Vamsi3296, I can see you have added two keys
+[14:35] <kushal> https://github.com/vamsi3296.keys
+[14:35] <kushal> Vamsi3296, now you know how find any github user's public key
+[14:36] <kushal> https://github.com/kushaldas.keys is mine
+[14:36] <kushal> next
+[14:36] <Vamsi3296> yes.Thank you @kushal
+[14:36] <skat-sd> got my answer
+[14:37] <ikshitij> https://github.com/iKshitiz.keys kushal check mine if that's ok
+[14:38] <kushal> ikshitij, you try to use it, if it works, then it is okay
+[14:38] <kushal> next
+[14:38] <rkased> When I wanted to install xclip using sudo apt-get command, I got a prompt "unable to resolve host", then I was prompted to enter my password. Is there a more efficient way to avoid that unable to resolve host part?
+[14:38] <kushal> rkased, I think  that has something to do with ubuntu
+[14:38] <kushal> rkased, search how to solve it.
+[14:38] <rkased> Okay
+[14:38] <kushal> I don't have that in Fedora
+[14:38] <kushal> next
+[14:38] <kushal> rkased, also means I don't know.
+[14:39] <rkased> haha, thanks
+[14:39] <ikshitij> rkased: better use any text editor ! xclip just copy text to clip board
+[14:39] <kushal> rkased, you can just use less command
+[14:39] <kushal> and then select and copy
+[14:39] <rkased> okay
+[14:40] <Phi_mb> rkased, I think it's something with the permissions. Check using ls-l.
+[14:41] <kushal> next
+[14:41] <rkased> !
+[14:42] <rkased> nevermind
+[14:43] <kushal> next
+[14:44] <rkased> nevermind
+[14:44] <soumam__> !
+[14:45] <kushal> next
+[14:45] <soumam__> will the length of the key (string) vary with different passphrase?or the length remains same?
+[14:46] <kushal> soumam__, try
+[14:46] <kushal> and see yourself
+[14:46] <soumam__> ok :)
+[14:47] <kvy_> !
+[14:47] <ikshitij> soumam__: share with us also :)
+[14:47] <apoorv> !
+[14:48] <soumam__> kushal its saying that will it over write or not ? but i want the previous one to also remain
+[14:48] <kushal> soumam__, copy the previous one to some place first
+[14:49] <kushal> and then try
+[14:49] <kushal> next
+[14:49] <kvy_> $ xclip -sel clip < ~/.ssh/id_rsa.pub
+[14:49] <kvy_> is not working
+[14:49] <kvy_> <eof>
+[14:49] <soumam__> ok
+[14:49] <kvy_> it show bash: /home/vipin/.ssh/id_rsa.pub: No such file or directory
+[14:50] <kushal> kvy_, Have you created the key as in the first step of today's session?
+[14:51] <kvy_> yes
+[14:52] <Phi_mb> kvy_, You haven't added to your agent.  Maybe.
+[14:52] <Vamsi3296> kvy_: try this $xclip -i < !/.ssh/id_rsa.pub
+[14:52] <Vamsi3296> s/!/~
+[14:53] <skarpy> kvy: check this: ls -la ~/.ssh , if you are getting something, the key is generated, next check if you added to ssh agent.
+[14:53] <kvy_> <Vamsi3296> event not found
+[14:53] <kushal> kvy_, ls -la ~/.ssh
+[14:55] <kvy_> it show
+[14:55] <kvy_> total 8
+[14:55] <kvy_> drwx------.  2 vipin vipin 4096 Jan  1  2011 .
+[14:55] <bhavin192> Phi_mb, Are we instructed to add keys to our agent
+[14:55] <kvy_> drwx------. 29 vipin vipin 4096 Jul 14 20:07 ..
+[14:56] <bhavin192> kvy_, wow! thank you for flooding :)
+[14:56] <Phi_mb> bhavin192, I don't know, I missed the starting of the lecture.
+[14:56] <soumam007> ikshitij, https://paste.fedoraproject.org/paste/xTC-fJMjorVjfHsh8VKrWw for you :0
+[14:56] <soumam007> s/:0/:) hehe
+[14:57] <ghishadow> kvy_, remove $ just type `xclip -sel clip < ~/.ssh/id_rsa.pub` it will copy to your clipboard
+[14:57] <bhavin192> Phi_mb, you confused me as well.
+[14:57] <bhavin192> xD
+[14:57] <Phi_mb> :D
+[14:58] <ashwanig> ghishadow, :P
+[14:58] <kushal> kvy_, does not have any keys as I can see
+[14:58] <kushal> next
+[14:58] <kvy_> ghishadow i already removed that symbol ($)
+[14:58] <jasonbraganza> if you’re reading Kushal’s Digital Ocean article - this yt video explains the confusing encryption part well - https://www.youtube.com/watch?v=YEBfamv-_do
+[14:58] <skarpy> bhavin192: no we are not instructed to add to agent. At least i didn't saw it
+[14:58] <kushal> skarpy, correct
+[14:58] <kushal> skarpy, thanks for following
+[14:59] <bhavin192> skarpy, yup, I was trying to imagine how that can confuse someone who is completely new to this
+[15:00] <rkased> !
+[15:00] <kushal> next
+[15:00] <soumam007> kushal keys are always different even if the passphrase is same but length of key remains constant irrespective of the size of passphrase :)
+[15:00] <apoorv> ping
+[15:01] <anuGupta> !
+[15:01] <rkased> I believe some time ago I created an ssh on a different machine, how can I recover it?
+[15:01] <kushal> soumam007, Now you know something
+[15:01] <soumam007> yup
+[15:01] <apoorv> sorry i got disconnected . it my turn over?
+[15:01] <rkased> Also, if I change OS on a computer, the ssh key still remains on the harddrive?
+[15:01] <apoorv> it/is
+[15:01] <apoorv> !
+[15:02] <rkased> apoorv what is the purpose of the forward slash in your comment?
+[15:02] <kushal> apoorv, ask
+[15:02] <kushal> next
+[15:02] <kushal> next
+[15:02] <apoorv> when ssh utilises Asymmetrical Encryption why does is also use Symmetrical Encryption. I mean we can encrypt the data with asymmetrical and send it to client then to generate a shared secret key ? <eof>
+[15:02] <rkased> !
+[15:02] <anuGupta> It seems I have forgotten my passphrase.So I need to create another by deleting the first one?<eof>
+[15:03] <ikshitij> Thanks soumam007 ! Now we can answer someone having same question
+[15:03] <soumam007> yes :P
+[15:03] <skarpy> anuGupta: simply generate a new one. :)
+[15:03] <soumam007> anuGupta, just overwrite it :)
+[15:03] <anuGupta> Ok
+[15:03] <ikshitij> anuGupta: Overwrite old one ! Just repeat the steps !
+[15:03] <kushal> next
+[15:04] <Phi_mb> jasonbraganza, Thanks, that video cleared my doubts. :)
+[15:04] <rkased> Also, if I change OS on a computer, the ssh key still remains on the harddrive? I believe some time ago I created an ssh on a different machine, how can I recover it?
+[15:04] <apoorv> kushal you did not answer my question?
+[15:05] <kushal> apoorv, ssh is not for encrypting data the way you want, we use gpg
+[15:05] <kushal> for that.
+[15:05] <kushal> We will learn about it in future
+[15:05] <kushal> next
+[15:05] <apoorv> okay
+[15:05] <kushal> rkased, copy it from there
+[15:06] <rkased> okay
+[15:07] <soumam007> !
+[15:08] <im_mohsin>  kushal if i do shh-copy-id <github_account_id>, it does the same thing as we did manually to setup ssh key in github?
+[15:08] <kushal> im_mohsin, I don't think so
+[15:08] <kushal> next
+[15:08] <soumam007> if i created all these keys in my host machine ,will my vm also be able to detect these keys?
+[15:08] <kushal> soumam007, no
+[15:08] <soumam007> ok thanks
+[15:09] <rkased> soumam007, what's vm?
+[15:09] <soumam007> rkased, virtual machine
+[15:10] <kushal> next
+[15:10] <kushal> sayan, you want to take over?
+[15:11] <im_mohsin> kushal, i watching a ssh related video and it used a this command setup ssh in remote server
+[15:11] <rkased> !
+[15:11] <im_mohsin> s/this/this to
+[15:13] <kushal> im_mohsin, correct, but you don't have access to github servers.
+[15:13] <kushal> im_mohsin, It is a web service you are using
+[15:15] <sayan> kushal: I don't know where you left off
+[15:15] <sayan> kushal: all the uploading things after done?
+[15:18] <soumam007> sayan we have added our keys to our github a/c
+[15:18] <kushal> sayan, I just talked about ssh
+[15:18] <kushal> next
+[15:18] <rkased> What does gpg mean? You mentioned it earlier.
+[15:19] <sayan> rkased: googled?
+[15:20] <sayan> rkased: it is a key used for encrypting stuffs
+[15:20] <kushal> sayan, no, he just used the force.
+[15:20] <rkased> okay, I wanted to google, but didn't have any key words or additional context.
+[15:20] <rkased> That sounds good, thanks.
+[15:20] <sayan> rkased: what is gpg key
+[15:21] <kushal> rkased, Why my force is not that strong?
+[15:21] <sayan> next
+[15:22] <rkased> I'm not sure what you are asking?
+[15:22] <kushal> rkased, we will explain later.
+[15:22] <rkased> sayan - "GPG key to use for signing commits and tags." https://help.github.com/articles/generating-a-new-gpg-key/
+[15:22] <rkased> okay
+[15:23] <sayan> Now people go to this repo: https://github.com/dgplug/dgplug10
+[15:23] <sayan> and clone the repo using ssh
+[15:23] <sayan> s/ssh/ssh urls/
+[15:25] <jasonbraganza> is slow. happening
+[15:25] <ashwanig> sayan, It asks for password
+[15:25] <rkased> yes
+[15:25] <rkased> should I download the zip after choosing use ssh?
+[15:25] <bhavin192> I get this, The authenticity of host 'github.com (192.30.253.113)' can't be established.
+[15:25] <rkased> !
+[15:25] <sayan> ashwanig: yes, your ssh key password
+[15:26] <sayan> next
+[15:26] <rkased> should I download the zip after choosing use ssh?
+[15:26] <sayan> rkased: no clone
+[15:26] <rkased> okay
+[15:26] <sayan> rkased: did you attend the git class?
+[15:26] <bhavin192> Got it working
+[15:26] <ikshitij> !
+[15:26] <jasonbraganza> done
+[15:26] <sayan> next
+[15:26] <gauravsitlani> done
+[15:27] <ashwanig> done
+[15:27] <championshuttler> done
+[15:27] <rkased> yes I did, I need to remember
+[15:28] <rkased> I will check the logs
+[15:28] <ikshitij> sayan: done but cloning started with a warning"permanently added the RSA host key for IP address "
+[15:28] <ikshitij> What does it mean
+[15:28] <asraisingh> done
+[15:28] <kvy_> done
+[15:29] <balaji> done
+[15:29] <Vamsi3296> done.
+[15:29] <RIcharD_> done
+[15:29] <sayan> ikshitij: it's okay
+[15:30] <ikshitij> sayan: Is it like remembering passphrase for a particular time for this IP address
+[15:30] <Phi_mb> done
+[15:30] <balaji> !
+[15:30] <sayan> ikshitij: yes
+[15:31] <sayan> it's like you are approving this host
+[15:31] <soumam_> https://paste.fedoraproject.org/paste/RaZCDCM1QrpgK0F~yXg6cA      help !
+[15:31] <sayan> this gets added to ~/.ssh/known_host
+[15:31] <sayan> next
+[15:31] <apoorv_> !
+[15:32] <balaji> sayan, How ssh differs from actual cloning?
+[15:32] <soumam_> !
+[15:32] <sayan> ssh is a protocol
+[15:32] <Phi_mb> !
+[15:32] <sayan> using which you connect to the server
+[15:32] <neer1> !
+[15:32] <sayan> like during the git class we used https
+[15:32] <deepika__> done
+[15:32] <apoorv_> done
+[15:32] <deepika__> !
+[15:32] <sayan> but I recommend ssh
+[15:32] <sayan> next
+[15:32] <ikshitij> soumam_: your Github username? Lemme check keys
+[15:33] <sayan> next
+[15:33] <soumam_> ikshitij, https://github/soumam007.keys
+[15:33] <soumam_> https://paste.fedoraproject.org/paste/RaZCDCM1QrpgK0F~yXg6cA      help !
+[15:33] <soumam_> i am not getting it
+[15:34] <sayan> ikshitij: lemme? is that the language from Andromeda
+[15:34] <skarpy> ikshitij: you too?
+[15:34] <ikshitij> Sorry Sayan !
+[15:35] <sayan> soumam_: did you add your ssh keys to Github?
+[15:35] <soumam_> yes sayan
+[15:35] <soumam_> but i overwrote it but not added again
+[15:35] <ashwanig> !
+[15:35] <soumam_> will it be an issue
+[15:35] <soumam_> ?
+[15:35] <Vamsi3296> yes.
+[15:35] <sayan> soumam_: if the public key is not same, yes
+[15:35] <sayan> next
+[15:35] <Phi_mb> Why the link for ssh cloning becomes available only after login? <eom>
+[15:36] <ikshitij> skarpy: what you too ? :)
+[15:36] <avik> !
+[15:36] <soumam_> ok thanks sayan Vamsi3296 :)
+[15:36] <yurii> done
+[15:37] <sayan> next
+[15:37] <neer1> I was authenticated using shell, but it says github doesn't provide shell access, so what kind of client should I use to connect?<eom>
+[15:37] <sayan> Phi_mb: I think it is needed for check if ssh key is added
+[15:37] <sayan> Phi_mb: not sure thought
+[15:37] <sayan> Phi_mb: but how does that matter?
+[15:38] <Phi_mb> Just wondering, why. :)
+[15:38] <sayan> I have told earlier, "No Just wondering questions"
+[15:38] <sayan> next
+[15:38] <deepika__> sayan  how can we push commits using ssh ?
+[15:38] <Phi_mb> sayan, Ok, will be careful next time.
+[15:39] <sayan> neer1: I guess the windows github client it is talk of
+[15:39] <sayan> deepika__: the same way you were earlier doing
+[15:39] <sayan> the complete process is same
+[15:39] <sayan> only the communication protocol changed from https to ssh
+[15:39] <sayan> rest is same
+[15:39] <sayan> can someone tell me why?
+[15:40] <deepika__> sayan and we still need to login in terminal
+[15:40] <deepika__> ?
+[15:40] <sayan> deepika__: you don't login
+[15:40] <anuGupta> !
+[15:41] <sayan> because the Git != Github
+[15:41] <sayan> all the things you learned earlier was Git
+[15:41] <sayan> and to communicate with Github you use https or ssh
+[15:41] <sayan> next
+[15:41] <ashwanig> Why is it only the first time when cloning it asked for the passphrase? <eof>
+[15:41] <deepika__> sayan sorry i forgot to mention GitHub
+[15:42] <sayan> ashwanig: I did not get you, you clone once only
+[15:42] <ashwanig> sayan, I tried cloning other repo. It didn't ask for passphrase
+[15:43] <sayan> ashwanig: oh! ok. the password is cached for sometime
+[15:43] <sayan> you can remove, or configure to lesser time
+[15:43] <sayan> cached = remembers
+[15:43] <sayan> next
+[15:43] <avik> sayan, why do you recommend ssh over https?
+[15:44] <ashwanig> avik, if you use https, you still need to give username password
+[15:44] <skarpy> avik: because more secure, obviously!
+[15:44] <avik> ok!
+[15:44] <skat--sd> ashwanig, there was a dialog box right after entering the passphrase for the first time that you are giving access to use the passphrase for furthur cloning for a limited time.
+[15:45] <ashwanig> skat--sd, Yes, I didn't touch it
+[15:45] <sayan> avik:  :)
+[15:45] <im_mohsin> sayan, i'm getting this error https://pastebin.com/Njti0Wnb
+[15:45] <avik> sayan, :D
+[15:45] <skat--sd> ashwanig, by default, it said it gives access for a limited time :-)
+[15:45] <sayan> you can trusted computers wihout involving passwords
+[15:45] <sayan> next
+[15:46] <ashwanig> skat--sd, got it :)
+[15:46] <anuGupta> I am facing an error destination path already exists and is not an empty directory<eof>
+[15:46] <soumam_> im_mohsin, did you change your passphrase?
+[15:46] <im_mohsin> soumam_, No
+[15:46] <soumam_> then may be you havent added it properly to github check once
+[15:47] <Vamsi3296> im_mohsin: its the public key.Did you change it?
+[15:47] <ashwanig> anuGupta, You have a directory named dgplug10, you should delete it first
+[15:47] <ashwanig> or clone into somewhere else
+[15:47] <anuGupta> Let me delete it then
+[15:48] <neer1> I am done, going to have dinner
+[15:50] <ikshitij> sayan: what to do next ? I mean after cloning repo 'dgplug10' over ssh
+[15:52] <sayan> sorry, had to attend an email
+[15:52] <anuGupta> im_mohsin You are giving it wrong after git clone I guess
+[15:52] <sayan> anuGupta: you already have that directory in the current directory
+[15:52] <sayan> next
+[15:52] <sayan> im_mohsin: you need to raise your hands before asking questions
+[15:53] <im_mohsin> Oops sorry sayan mistake
+[15:54] <skarpy> sayan: https://paste.fedoraproject.org/paste/KMFJ~z3dktkH9wz2f~HAgQ , help a bit.
+[15:55] <sayan> people raise your hands
+[15:55] <sayan> I am very strict about rules
+[15:55] <im_mohsin> !
+[15:55] <skarpy> !
+[15:55] <sayan> next
+[15:55] <sayan> next
+[15:55] <skarpy> https://paste.fedoraproject.org/paste/KMFJ~z3dktkH9wz2f~HAgQ, help
+[15:55] <im_mohsin> sayan, i'm getting this error https://pastebin.com/Njti0Wnb
+[15:55] <sayan> im_mohsin: skarpy which file did you upload to github?
+[15:56] <sayan> you both fpaste cat ~/.ssh/id_rsa.pub
+[15:56] <sayan> and then pass the links of https://www.github.com/<username>.keys
+[15:57] <jasonbraganza> im_mohsin - try this command - git clone git@github.com:dgplug/dgplug10.git
+[15:57] <sayan> Roll Call
+[15:57] <jasonbraganza> Jason Braganza
+[15:57] <ashwanig> Ashwani Kumar Gupta
+[15:57] <apoorv_> Apoorv Goel
+[15:57] <skat--sd> Saikat Dey
+[15:57] <ghishadow> Suraj Ghimire
+[15:57] <deepika__> Deepika Upadhyay
+[15:57] <anuGupta> Anu kumari Gupta
+[15:57] <Phi_mb> Mohit
+[15:57] <joyhimanshu> Himanshu Awasthi
+[15:57] <ravindra> Ravindra Lakal
+[15:57] <soumam_> Soumam Banerjee
+[15:57] <asraisingh> Abhishek Singh
+[15:57] <ishank_g_> Ishank Gupta
+[15:57] <mdbk> Onyinye Madubuko
+[15:57] <abhinavshirur> Abhinav Shirur
+[15:57] <avik> Avik Mukherjee
+[15:57] <kvy_>  kumar vipin yadav
+[15:57] <skarpy> akash pathak
+[15:57] <gauravsitlani> Gaurav Sitlani
+[15:57] <bhavin192> Bhavin Gandhi
+[15:57] <skarpy> sayan: https://paste.fedoraproject.org/paste/LlbyLiqTw8dT~cXJV6rsJA
+[15:57] <akshayg96> Akshay Gaikwad
+----END CLASS----

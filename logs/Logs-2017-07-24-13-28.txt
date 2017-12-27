@@ -1,0 +1,293 @@
+----BEGIN CLASS----
+[13:28] <kushal> #startclass
+[13:28] <ikshitij> avik: you're on F26 ?
+[13:28] <kushal> Roll Call
+[13:28] <san-D[m]> Sandesh Patel
+[13:28] <knrai> Krishnanand Rai
+[13:28] <ikshitij> Kshitij
+[13:28] <anuGupta> Anu kumari Gupta
+[13:28] <bhavin192> Bhavin Gandhi
+[13:28] <NikitaK3> Nikita Kotak
+[13:28] <abhinavshirur> Abhinav Shirur
+[13:28] <ashwanig> Ashwani Kumar Gupta
+[13:28] <skat-sd> Saikat Dey
+[13:28] <ahole[m]> Kshithij Iyer
+[13:28] <balaji> Balaji
+[13:28] <deepika> Deepika Upadhyay
+[13:28] <pr97> Priyanka Sharma
+[13:28] <imack> Mahendra Yadav
+[13:28] <atultherajput> Atul Krishna
+[13:28] <avik> Avik Mukherjee
+[13:28] <priyansh> Priyansh sourav
+[13:28] <akshayg96> Akshay Gaikwad
+[13:28] <aryan1308> aryan tripathi
+[13:28] <ganeshnomula_> Ganesh Nomula
+[13:28] <asraisingh> Abhishek Singh
+[13:28] <santoshShaw> Santosh Kumar Shaw
+[13:28] <poojaencoded> pooja kumari singh
+[13:28] <ravindra> Ravindra Lakal
+[13:28] <SpEcHiDeR> Shrimadhav U K
+[13:28] <mdbk> Onyinye Madubuko
+[13:28] <mriyam> Mriyam Tamuli
+[13:28] <yurii> yurii pylypchuk
+[13:29] <jasonbraganza> Jason Braganza
+[13:29] <technoman> Noel Georgi
+[13:30] <j4v4m4n> about 30+ I guess that's a good number :)
+[13:30] <kushal> :)
+[13:30] <kushal> next
+[13:30] <kushal> j4v4m4n, the stage is yours, you can take questions anytime by typing next.
+[13:30] <mayur01> Roll call : Mayur khomane
+[13:31] <singh123> Roll call : Amarjeet Singh
+[13:31] <j4v4m4n> I'll start with a brief introduction about myself
+[13:32] <j4v4m4n> I'm a Debian Developer and Freelance Free Software consultant based in Kerala
+[13:32] <j4v4m4n> I maintain packages like gitlab, diaspora for debian and in that process I also maintain many nodejs/javascript tools as any web app needs javascript for front end
+[13:33] <championshuttler> Roll Call: Shivam Singhal
+[13:33] <j4v4m4n> I like to mentor new people to start contribuing to Free Software and take sessions in different places.
+[13:34] <j4v4m4n> I'm also an advocate for privacy and part of the teams that run services like poddery.com, diasp.in, git.fosscommunity.in etc
+[13:35] <j4v4m4n> Right now I'm using an app called riot (see riot.im) to connect to IRC
+[13:36] <j4v4m4n> it is built on matrix protocol which is similar to IRC in purpose, ie, for real time chat, but has many nice features like a cbuilt-in bouner which lets you read messages even if you go offline, end to end encryption, voice and video etc
+[13:36] <j4v4m4n> we could start our discussion with matrix and riot
+[13:39] <j4v4m4n> you can read more about it from https://pad.disroot.org/p/matrix_en
+[13:39] <j4v4m4n> and I'd like to take questions from you now
+[13:39] <j4v4m4n> next
+[13:39] <soumam007> !
+[13:40] <j4v4m4n> next
+[13:40] <soumam007> can you tell a bit more about matrix protocol
+[13:40] <ahole[m]> !
+[13:41] <pr97> !
+[13:41] <j4v4m4n> the basic idea is to have decentralized communications
+[13:41] <Vamsi_> Roll call: Vamsi Krishna
+[13:42] <j4v4m4n> if you look at WhatsApp, Telegram etc, all of them are centralized, meaning one company provides all the service
+[13:42] <joyhimanshu> roll call: Himanshu Awasthi
+[13:42] <j4v4m4n> we don't have choice of providers
+[13:42] <j4v4m4n> if you compare the situation with mobile sim cards or email, you can understand the difference
+[13:43] <j4v4m4n> you can get sim card from any company or sign up for email from many different providers
+[13:44] <j4v4m4n> also both client and server is Free Software here
+[13:44] <j4v4m4n> for WhatsApp both are proprietary, for Telegram, client is Free Software
+[13:44] <j4v4m4n> next
+[13:44] <ahole[m]> Isn't riot build on to of matrix if i am not wrong ?
+[13:44] <ahole[m]> a/to/top
+[13:44] <ahole[m]> s/to/top
+[13:44] <championshuttler> !
+[13:45] <j4v4m4n> ahole: yes, riot app uses matrix protocol
+[13:45] <j4v4m4n> you can use any other app as well
+[13:45] <j4v4m4n> for example purple-matrix is a project to add matrix protocol support to pidgin
+[13:46] <j4v4m4n> it already works with basic features, but it still needs more features to be really useable
+[13:46] <j4v4m4n> if any of you are looking to work on a project, I suggest you consider purple matrix
+[13:46] <j4v4m4n> next
+[13:47] <pr97> I didn't understand how we can read messages even if we go offline?
+[13:47] <soumam007> j4v4m4n, thanks
+[13:47] <j4v4m4n> pr97: do you know about services like irccloud.com?
+[13:48] <pr97> j4v4m4n,  no
+[13:48] <j4v4m4n> in IRC, it is called a bouncer
+[13:48] <j4v4m4n> you will connect to IRC from a server that is always online
+[13:48] <j4v4m4n> and then you connect to your bouncer from your desktop/mobile
+[13:49] <abhinavshirur> !
+[13:49] <jasonbraganza> !
+[13:49] <j4v4m4n> so even if your desktop/phone goes offline, your bounser will collect your messages
+[13:49] <j4v4m4n> in matrix server, this is built-in, by default
+[13:49] <theparadoxer02> Roll Call: Mannu Gupta
+[13:49] <j4v4m4n> your matrix server will keep your messages even when you go offline
+[13:50] <j4v4m4n> and when you come back on line, the server will deliver you the messages it collected on behalf of you
+[13:50] <j4v4m4n> next
+[13:50] <championshuttler> why there is [m] at the end of the nicks with riot generally? is it represent matix? but not in your nick
+[13:51] <deepika> !
+[13:51] <championshuttler> s/matix/matrix
+[13:51] <ashwanig> championshuttler, We can change our nick
+[13:51] <j4v4m4n> championshuttler: by default matrix adds a [m] at the end but you can change it
+[13:51] <j4v4m4n> I have changed it, many have not changed I guess
+[13:52] <j4v4m4n> next
+[13:52] <abhinavshirur> A part of championshuttler's question- How did you manage to remove [m] from your username? I had searched for it but didn't find any solution
+[13:52] <SpEcHiDeR> https://gist.github.com/dikiaap/644e7901dde50dc865c3795f8ca5b65c
+[13:53] <j4v4m4n> @SpEcHiDe: thanks! hope that answers the question
+[13:53] <j4v4m4n> next
+[13:53] <jasonbraganza> at the very large risk of putting my foot in my mouth, what role do you have when it comes to riot / matrix j4v4m4n? primarily Advocacy?
+[13:53] <abhinavshirur> thank you :) <eom>
+[13:56] <j4v4m4n> jasonbraganza: I was always looking for a replacement for WhatsApp
+[13:57] <j4v4m4n> I used many other Free Software apps, but all them had some feature or other missing
+[13:57] <j4v4m4n> finally with matrix and riot, it is mostly feature complete
+[13:57] <jasonbraganza> understood. thank you :) <eom>
+[13:57] <j4v4m4n> matrix/riot is not the first apps I promote
+[13:58] <j4v4m4n> I'm part of the team that runs an matrix server at diasp.in
+[13:58] <j4v4m4n> before that we had diaspora and xmpp there and also on poddery.com
+[13:59] <j4v4m4n> next
+[13:59] <deepika> Why you suggest purple matrix?
+[13:59] <deepika> What other projects would you suggest ?
+[14:00] <j4v4m4n> deepika: because pidgin is already popular and many people use it and it has excellent accessibility support
+[14:00] <j4v4m4n> it runs on many architectures
+[14:00] <j4v4m4n> like arm
+[14:01] <j4v4m4n> It will work on raspberry pi or other arm boards like Olinuxino Lime2 by Olimex which I use
+[14:01] <jasonbraganza> Vamsi_ !
+[14:01] <jasonbraganza> sorry!
+[14:01] <jasonbraganza> !
+[14:01] <j4v4m4n> plus the default riot app is built on nodejs and packaging it for debian is going to take quite some time because most nodejs projects has a lot of dependencies
+[14:02] <j4v4m4n> you could choose default riot apps itself and add missign features
+[14:02] <j4v4m4n> riot for dekstop and android/ios
+[14:03] <j4v4m4n> diaspora, gitlab, debian installer etc some of my favorites projects looking for contributors
+[14:03] <j4v4m4n> next
+[14:03] <jasonbraganza> If you could, would you tell us how you manage to keep all these balls in the air? What’s a day in the life of a freelance software developer like? Do customers in India pay for free software development? I’m personally vested in this, because that’s how I see myself in the future.
+[14:04] <j4v4m4n> :)
+[14:04] <j4v4m4n> even though I say Freelance Free Software consutlant, these days most of my paid work is sponsored by Gitlab
+[14:05] <j4v4m4n> I am pretty free to work on it any time, any day
+[14:05] <jasonbraganza> thank you :)
+[14:05] <j4v4m4n> when I finish 8 hours of work, it could be in a single day or over a week or two, I count it as one day of work completed
+[14:06] <jasonbraganza> :)
+[14:06] <j4v4m4n> when 7 days are complete, I send them a weekly report
+[14:06] <j4v4m4n> and when one month is complete I ask them to pay for next month :)
+[14:06] <j4v4m4n> I think last year I completed 4 months of work :)
+[14:06] <jasonbraganza> really nice! :)
+[14:06] <jasonbraganza> and you are able to spend the rest of your time in outreach then?
+[14:07] <j4v4m4n> the rest 8 months of time was spent on community activities, travelling etc
+[14:07] <jasonbraganza> you just answered :) Thank you!
+[14:08] <j4v4m4n> in between I ran some crowd funding campaigns too
+[14:08] <j4v4m4n> for packaging diaspora, grunt, gulp etc
+[14:08] <deepika> !
+[14:08] <j4v4m4n> I keep conducting packaging sessions whenever I get an ooportunity :)
+[14:09] <j4v4m4n> last weekend I was at NIT Calicut and next weekend I will be in Technopark, Trivandrum
+[14:09] <j4v4m4n> if any of you want to learn packaging, I'd be happy to help
+[14:09] <j4v4m4n> next
+[14:09] <deepika> 7:35 PM <j4v4m4n> you could choose default riot apps itself and add missign features
+[14:09] <deepika> ^^Have you tried it 😃
+[14:09] <jasonbraganza> this was super helpful! thank you <eom>
+[14:09] <ahole[m]> !
+[14:10] <cran-cg> !
+[14:10] <j4v4m4n> deepika: did you mean I tried adding features?
+[14:10] <deepika> Yeah !
+[14:10] <j4v4m4n> I use riot app on desktop and mobile
+[14:11] <j4v4m4n> since I'm not a coder, my contributions are mostly for packaging
+[14:11] <deepika> Okay ,thanks :)
+[14:12] <j4v4m4n> I hope to package riot for debian some day, when I can find time after finishing gitlab and diaspora
+[14:12] <singh123> !
+[14:13] <j4v4m4n> or even better mentor new people to do packaging and inspire them to package it :)
+[14:13] <j4v4m4n> I have asked feature requests
+[14:13] <j4v4m4n> and I inspired someone to write a plugin to matrix server (synapse) so we can use the same login as diaspora
+[14:14] <j4v4m4n> and he was just in 9th standard!
+[14:14] <j4v4m4n> he is in 10th now
+[14:14] <j4v4m4n> next
+[14:14] <ahole[m]> What do you mean by packaging? Is it something like rpm or deb?
+[14:15] <j4v4m4n> https://git.fosscommunity.in/necessary129/synapse-diaspora-auth
+[14:15] <j4v4m4n> this code was written by a 9th standard boy - shamil from Kerala in a single day
+[14:15] <j4v4m4n> ahole: yes
+[14:15] <j4v4m4n> I mentor creating deb packages
+[14:16] <j4v4m4n> he also maintains the diaspora service at diasp.in
+[14:16] <j4v4m4n> chat.diasp.in
+[14:17] <j4v4m4n> currently riot is available from a third party repository maintained by riot developers
+[14:17] <j4v4m4n> by packaging, we can add it to official debian repositories
+[14:17] <j4v4m4n> so apt-get install riot will work without any extra steps on a default install
+[14:18] <j4v4m4n> this means the riot package will get all the testing and quality assurance that every other debian package gets
+[14:19] <j4v4m4n> debian is very strict about package quality
+[14:19] <j4v4m4n> even though I packaged gitlab and diaspora, only gitlab was accepted in debian stable release because I could not fix the bug in diaspora in time
+[14:19] <j4v4m4n> next
+[14:19] <cran-cg> My question was asked already but just to confirm, by packaging did you also mean website packaging and bundling tools such as webpack ?<eom>
+[14:20] <mriyam> !
+[14:20] <ahole[m]> !
+[14:22] <j4v4m4n> cran-cg: riot has desktop app, web app, packaging for both, first preference would be for the desktop app
+[14:23] <j4v4m4n> webpack also needs to be packaged, yes. But it is already completed.
+[14:23] <j4v4m4n> every new software that is packaged for debian needs to be reviewed by debian ftp masters, main to ensure it has a Free software license
+[14:24] <j4v4m4n> webpack packaging is complete, but it is waiting for review by ftp masters
+[14:24] <j4v4m4n> you can see the list of dependencies for webpack at https://wiki.debian.org/Javascript/Nodejs/Tasks/webpack
+[14:25] <j4v4m4n> next
+[14:26] <cran-cg> j4v4m4n: Thanks for the information :)
+[14:28] <j4v4m4n> you can also ask about Free Software philosophy, privacy, debian etc
+[14:30] <jasonbraganza> !
+[14:31] <j4v4m4n> next
+[14:31] <mriyam> j4v4m4n: The synapse package by Shamil was created as a pip package. Can you point to the repoitory you created for the package you created for gitlab?
+[14:31] <mriyam> Is that a pip package or a .deb package? <eom>
+[14:31] <ahole[m]> Is there any distro which has riot in its official repository?
+[14:32] <ahole[m]> Ops! sorry for asking out of turn.
+[14:33] <j4v4m4n> mriyam: yes, the synapse auth plugin is a pip package currently, once synapse itself is packaged as deb (someone is working on it), we will convert this to a deb package
+[14:34] <j4v4m4n> https://anonscm.debian.org/cgit/pkg-ruby-extras/gitlab.git/ has the debian packaging files
+[14:34] <sayan> !
+[14:38] <j4v4m4n> all debian packaging code/files are inside debian directory
+[14:39] <j4v4m4n> for rpm, it is compareable to spec file
+[14:39] <j4v4m4n> the gitlab package installs all dependencies, both ruby backend and js front end libries, configures database, web server etc
+[14:39] <j4v4m4n> when you run apt-get install it asks you a few questions like enter the domain name and after the install is complete, you can visit the domain and you will see gitlab running, even with https if you choose letsencrypt
+[14:41] <j4v4m4n> ahole: I think arch has it in its community repo
+[14:41] <j4v4m4n> next
+[14:41] <ahole[m]> already answered.
+[14:41] <j4v4m4n> next
+[14:41] <jasonbraganza> does the Apple App Store allow GPL’ed apps on there? or does the license need to change? curious because the riot app is in there
+[14:42] <sayan> ahole[m]: j4v4m4n: I know Riot is there in Copr
+[14:43] <j4v4m4n> I think Apple store terms are a violation of GPL
+[14:43] <sayan> but don't know how updated it is/ or regularly it is updated
+[14:43] <j4v4m4n> Riot is apache licensed
+[14:43] <jasonbraganza> j4v4m4n - aah should read up on that one then. Thank you :) <eom>
+[14:43] <ahole[m]> !
+[14:44] <avik> ahole[m], sayan, I just got riot through Corp!
+[14:44] <j4v4m4n> you could add a apple store exception to your gpl
+[14:45] <ahole[m]> copr or corp ?
+[14:45] <ahole[m]> avik: sayan ^^^^
+[14:45] <avik> ahole[m], copr sorry!
+[14:46] <j4v4m4n> https://www.fsf.org/news/2010-05-app-store-compliance
+[14:50] <j4v4m4n> http://www.zdnet.com/article/no-gpl-apps-for-apples-app-store/
+[14:50] <j4v4m4n> next
+[14:50] <sayan> in the book, the cathedral and the bazaar it says that people work on innovative ideas, work on problem they face themselves
+[14:51] <sayan> and now in this world of open source people keep building their own projects, technically there is huge number of libraries
+[14:52] <sayan> 4-5 implementations of the same idea, with few +/- ideas
+[14:52] <j4v4m4n> sayan: the large number usually shows the unwillingness to collaborate
+[14:52] <j4v4m4n> and a wrong underestanding of Free Software or Open Source as just dumping your code
+[14:53] <j4v4m4n> its worse in javascript
+[14:53] <j4v4m4n> they have many modules which has just 2-3 lines
+[14:53] <sayan> I know, I do rpm packaging for js packages
+[14:53] <sayan> I sit and cry, and say why do you even wrote this package with one file
+[14:54] <sayan> which is just a function
+[14:54] <sayan> j4v4m4n: but my question is
+[14:54] <j4v4m4n> and even rewrting entire apps, like how close is grunt and gulp or browserify and webpack
+[14:55] <sayan> when I choose a library, I just check if the code is updated regularly or not and how many people use it
+[14:55] <sayan> how much it is beneficial to me
+[14:56] <sayan> between updates I don't generally see the code, what maintainer is adding to the library
+[14:56] <j4v4m4n> python is much much better in this, buut you can't get rid of javascript for web apps
+[14:56] <sayan> I read an article today: https://theoutline.com/post/1953/how-a-vc-funded-company-is-undermining-the-open-source-community
+[14:57] <jasonbraganza> i think i lost you guys. what was the question?
+[14:57] <sayan> where the maintainer is adding advert of his/her company
+[14:58] <sayan> change the core of the package to use the company's engine is which the person got hired
+[14:59] <sayan> so how can I stay away from these things? (given that these are pretty much used libraries)
+[15:00] <sayan> <eom>
+[15:00] <sayan> tldr; how to be updated with the malicious code the maintainer adds to the project?
+[15:00] <j4v4m4n> sayan: I think you just have to watch out for such things, I don't see any short cuts
+[15:01] <j4v4m4n> we have to be vigilant
+[15:01] <j4v4m4n> that is where projects like debian, fedora comes into picture
+[15:02] <j4v4m4n> not just this, many developers would want to do similar things
+[15:02] <j4v4m4n> distributions acts as a buffer between developers and users
+[15:03] <j4v4m4n> for example, systemd wanted to kill all processes of a user when logging out by default, but this behaviour was turned off in debian, fedore etc
+[15:03] <j4v4m4n> many developers want latest features but not much interested in long term support
+[15:03] <j4v4m4n> so distribtions play that role of giving long term support
+[15:04] <j4v4m4n> so try to use packaged apps as much and help packaging new apps
+[15:04] <j4v4m4n> next
+[15:04] <ahole[m]> Already cleared. :)
+[15:06] <sayan> j4v4m4n: but while packaging, I believe packagers rarely see what they code got updated, they just bump the version, build and push
+[15:07] <j4v4m4n> sayan: yes, but someone will notice and report bugs
+[15:07] <j4v4m4n> that is why we have devel branches and stable branches
+[15:08] <j4v4m4n> https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=868298
+[15:08] <j4v4m4n> we do get lots of bugs when we add new packages to debian like above
+[15:09] <j4v4m4n> I invite you all to join #fsci:diasp.in I think it is #fsci in irc.oftc.net
+[15:10] <j4v4m4n> you can see a list of user groups across India at fsci.org.in
+[15:10] <j4v4m4n> it is not complete, I hope you all will add any missing names there
+[15:11] <j4v4m4n> if there is no more questions, we can wind up todays session. Feel free to contact me here or on email praveen at debian.org if you want to contribute to debian or another Free Software project
+[15:11] <sayan> sure
+[15:12] <j4v4m4n> poddery.com/u/praveen is my diaspora page
+[15:14] <kushal> Anything else?
+[15:14] <kushal> Roll Call
+[15:14] <jasonbraganza> Jason Braganza
+[15:14] <santoshShaw> Santosh Kumar Shaw
+[15:15] <bhavin192> Bhavin Gandhi
+[15:15] <deepika> Deepika Upadhyay
+[15:15] <priyansh> Priyansh Sourav
+[15:15] <asraisingh> Abhishek Singh
+[15:15] <atultherajput> Atul Krishna
+[15:15] <anuGupta> Anu kumari Gupta
+[15:15] <skat-sd> Saikat Dey
+[15:15] <ghishadow> Suraj Ghimire
+[15:15] <kvy_> kumar vipin yadav
+[15:15] <abhinavshirur>  Abhinav Shirur
+[15:15] <aryan1308> aryan tripathi
+[15:15] <yurii> yurii pylypchuk
+[15:15] <Casper_01[m]> Mayur khomane
+[15:15] <pr97> Priyanka Sharma
+[15:15] <ganeshnomula_> Ganesh Nomula
+[15:15] <championshuttler> Shivam Singhal
+[15:15] <ravindra> Ravindra Lakal
+[15:16] <samridhia> Samridhi Agarwal
+[15:16] <ashwanig> Ashwani Kumar Gupta
+[15:16] <kushal> From Wednesday, we will also start using Python :)
+----END CLASS----

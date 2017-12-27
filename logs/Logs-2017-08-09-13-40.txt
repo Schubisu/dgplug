@@ -1,0 +1,263 @@
+----BEGIN CLASS----
+[13:40] <kushal> #startclass
+[13:40] <kushal> Roll Call
+[13:40] <pr97> Priyanka Sharma
+[13:40] <vivek_> Vivek Anand
+[13:40] <skarpy> Akash pathak
+[13:40] <championshuttler> Shivam Singhal
+[13:40] <kvy> kumar vipin yadav
+[13:40] <knrai> Krishnanand Rai
+[13:40] <ghishadow> Suraj Ghimire
+[13:40] <ikshitij> Kshitij
+[13:40] <san-D> Sandesh Patel
+[13:40] <sitlanigaurav[m]> Gaurav Sitlani
+[13:41] <priyansh> Priyansh Sourav
+[13:41] <kvy_> !
+[13:41] <deepika> Deepika Upadhyay
+[13:41] <asraisingh> Abhishek Singh
+[13:41] <atul916> Atul kumar
+[13:41] <CHOCOS1> neha kandpal
+[13:41] <schubisu> Robin Schubert
+[13:41] <yurii> yurii pylypchuk
+[13:41] <anuGupta> Anu kumari Gupta
+[13:42] <kushal> next
+[13:42] <kushal> next
+[13:42] <kushal>  Questions people:
+[13:42] <kvy_> I want to know how i read a character in python ?
+[13:42] <kvy_> <eof>
+[13:42] <kushal> Anything on Python you did till now?
+[13:42] <skarpy> !
+[13:43] <kushal> kvy_, input("Enter a character:") ?
+[13:43] <kushal> next
+[13:43] <skarpy> How to represent a list in form of array?
+[13:43] <skarpy> I have some strings in a list, I want to convert it to integer array
+[13:43] <kushal> skarpy, Means?
+[13:43] <ikshitij> kvy_:  var_name = input("Enter Character")
+[13:43] <DEVESH__VERMA> roll call Devesh Verma
+[13:44] <pr97> !
+[13:44] <mdbk> Roll Call: Onyinye Madubuko
+[13:44] <ashwanig> Roll call: Ashwani Kumar Gupta
+[13:44] <kushal> skarpy, Okay, wait
+[13:44] <vivek_> map() is there
+[13:44] <kushal> l = ["123", '345', "777"]
+[13:44] <kushal> skarpy, ^^^ you want to convert each of them into Int lists.
+[13:44] <skarpy> Yes
+[13:45] <kushal> People jump into code, and do this in your notebook and show to skarpy
+[13:45] <ikshitij> ok kushal doing
+[13:46] <kushal> fast fast :)
+[13:46] <kushal> Someone?
+[13:47] <kushal> [int(number) for number in l]
+[13:47] <ashwanig> https://paste.fedoraproject.org/paste/rxB-Idnx22Ps2oS9Bcfaog
+[13:47] <skarpy> I am doing some coding over a bot. And the motor gives output as a{}=[(0,198) (0,187) (0,198]
+[13:47] <ashwanig> skarpy, ^^
+[13:47] <knrai> https://notebooks.azure.com/n/XkWu1lcvRRM/notebooks/summertraining.ipynb
+[13:47] <skarpy> I want to convert those to simple int numbers
+[13:48] <schubisu> skarpy: what about the list comprehension that kushal wrote?
+[13:48] <kvy_> kushal,ikshitij   It work in online compilers but while i code this in a .py file and run it in terminal it show error
+[13:49] <kushal> kvy_, Compilers?
+[13:49] <san-D> https://notebooks.azure.com/n/LtqI6fzgyMc/notebooks/pythonPractice.ipynb
+[13:49] <kushal> knrai, ashwanig nice
+[13:49] <kushal> https://notebooks.azure.com/san-D/libraries/san-D/html/pythonPractice.ipynb this looks weird to anyone?
+[13:49] <kvy_> kushal I mean in notebook.
+[13:50] <san-D> oops sory!
+[13:50] <soumam007> roll call: Soumam Banerjee
+[13:50] <skarpy> kushal also to mention, I am doing code in Python, converted to lua.
+[13:50] <kushal> skarpy, I have no clue about it.
+[13:50] <skarpy> Kushal: its lua coding.
+[13:50] <kushal> skarpy, So now you have answer.
+[13:50] <ashwanig> kushal, Isn't it wrong syntax?
+[13:50] <kushal> ashwanig, yup
+[13:50] <kushal> next
+[13:50] <pr97> How to take inputs on a single line in python?
+[13:51] <avik> kushal, what are we suppose to do?
+[13:51] <avik> sorry for being late!
+[13:51] <san-D> https://notebooks.azure.com/n/LtqI6fzgyMc/notebooks/pythonPractice.ipynb
+[13:51] <kushal> avik, wait and see
+[13:51] <avik> what is the question?
+[13:51] <anuGupta> https://paste.fedoraproject.org/paste/5UnzfsgbnB4UEACtjILmzA
+[13:52] <kushal> avik, convert a list of strings to int.
+[13:52] <san-D> why is it not showing my modified code?
+[13:52] <ashwanig> anuGupta, Your program isn't converting the list of strings into list of integers
+[13:52] <san-D> again
+[13:52] <schubisu> san-D: that doesn't look like python code to me ;) what are you trying to do?
+[13:52] <kushal> Anyone.
+[13:52] <ikshitij> skarpy: discuss after class
+[13:52] <kushal> oops
+[13:52] <kushal> pr97, use the input function call
+[13:52] <ikshitij> I am not getting what exactly you want skarpy
+[13:53] <san-D> https://notebooks.azure.com/n/LtqI6fzgyMc/notebooks/pythonPractice.ipynb
+[13:53] <skarpy> ikshitij: I will explain to you in person. Now to the class.
+[13:53] <ikshitij> pr97: use map ( )
+[13:53] <anuGupta> Ooh so for that map function can be used
+[13:53] <pr97> kushal, sorry, didn't get you
+[13:53] <avik> please, can someone repeat the question to be solved!
+[13:53] <pr97> map() function is not clear to me
+[13:53] <schubisu> san-D: now it's updated. You should avoid variable names like 'list', it is a researved keyword in python
+[13:54] <kushal> pr97, Use the input function call.
+[13:54] <ashwanig> pr97, You can use `elements = input().split()`
+[13:54] <kushal> avik, I just wrote the question to you.
+[13:54] <kushal> next
+[13:54] <championshuttler> !
+[13:54] <avik> never got that!
+[13:54] <avik> sorry!
+[13:54] <pr97> ashwanig,  if you have to take 50 inputs, then?
+[13:55] <avik> ok on it now!
+[13:55] <pr97> okay kushal
+[13:55] <avik> kushal, thanks<eom>
+[13:55] <ashwanig> pr97, 50 inputs in same line?
+[13:55] <pr97> okay ikshitij
+[13:55] <ikshitij> pr97: https://notebooks.azure.com/n/PMlQyZdJoH0/notebooks/summertraining.ipynb
+[13:55] <pr97> ashwanig,  yes
+[13:55] <ikshitij> Last line
+[13:55] <kushal> Okay, people stop for now.
+[13:55] <pr97> okay thank you ikshitij
+[13:57] <anuGupta> ikshitij it's private
+[13:57] <pr97> ikshitij,  yes, not opening
+[13:58] <kushal> What was the last thing fhackdroid discussed on Monday? loops?
+[13:58] <ashwanig> Yes, for loop
+[13:58] <anuGupta> List
+[13:59] <ashwanig> anuGupta, ?
+[13:59] <ikshitij> https://notebooks.azure.com/kshitiz/libraries/dgplug/html/summertraining.ipynb
+[13:59] <kushal> https://pymbook.readthedocs.io/en/latest/datastructure.html  start reading from here.
+[13:59] <ikshitij> List
+[13:59] <avik> https://notebooks.azure.com/technotron/libraries/dgplug/html/summertraining.ipynb
+[13:59] <kushal> There maybe things which you do not understand, feel free to come here and ask.
+[14:00] <kushal> I will be waiting for questions.
+[14:00] <kushal> Along with your questions, please show us the notebook link
+[14:00] <kushal> so that can we can see what have you tried
+[14:00] <skarpy> !
+[14:01] <balaji> !
+[14:03] <kushal> next
+[14:04] <kushal> next
+[14:04] <skarpy> Kushal: how can I have packages in notebook? I am using numpy and scipy in my IDE.
+[14:04] <championshuttler> doubt cleared :)
+[14:04] <kushal> skarpy, no clue, you will have to search.
+[14:05] <skarpy> Kushal: we have to code only on available packages? We can't add new?
+[14:05] <skarpy> Kushal: ok
+[14:05] <kushal> skarpy, Btw, when you say notebook, you mean Azure notebook, not the notebook in your laptop, correct?
+[14:05] <skarpy> Kushal: yes azure notebook :p
+[14:05] <kushal> skarpy, I will ask the people who wrote/manage Azure notebook.
+[14:05] <kvy_> !
+[14:05] <kushal> skarpy, but, generally, you can just pip install
+[14:05] <kushal> skarpy, try !pip install whatever
+[14:05] <kushal> next
+[14:05] <balaji> Is that list is something similar to array?
+[14:06] <kushal> balaji, Yes sir :)
+[14:06] <kushal> sorry for saying sir.
+[14:06] <skarpy> Kushal: pip in azure notebook?????
+[14:06] <kushal> balaji, But, yes.
+[14:06] <kushal> skarpy, look at the syntax I gave.
+[14:06] <skarpy> Kushal: ok
+[14:06] <kushal> skarpy, if you read about how Jupyter works, you will know.
+[14:07] <kvy_> we do not code any function but we can insert or append any data how it's working ?
+[14:07] <ikshitij> skarpy: All useful libraries used for data science is installed already.
+[14:07] <kvy_> <eof>
+[14:07] <skarpy> Kushal: yes I forgot about google :p <eom>
+[14:07] <balaji> okay kushal
+[14:07] <kushal> next
+[14:07] <kvy_> we do not code any function but we can insert or append any data how it's working ?
+[14:07] <kvy_> <eof>
+[14:08] <kushal> kvy_, Because the people who wrote Python programming language, already wrote those for you.
+[14:08] <kushal> kvy_, Just like the for loop.
+[14:08] <kvy_> It's cool
+[14:08] <kushal> kvy_, Yes, it  is :)
+[14:08] <kushal> next
+[14:10] <ikshitij> skarpy: I just installed a packages in my notebook. Check https://notebooks.azure.com/kshitiz/libraries/dgplug/html/summertraining.ipynb
+[14:11] <skarpy> Ikshitij: thank you :)
+[14:12] <kushal> ikshitij, it tells me there is an error :)
+[14:13] <ikshitij> Error in link that I shared ?
+[14:13] <balaji> ikshitij, Yes
+[14:14] <balaji> Make sure that is public
+[14:14] <avik> !
+[14:15] <ikshitij> Ok checking
+[14:15] <ikshitij> !
+[14:15] <kushal> next
+[14:15] <avik> what does end = '  ' actually doing? https://notebooks.azure.com/technotron/libraries/dgplug/html/summertraining.ipynb
+[14:16] <pr97> same doubt as avik
+[14:17] <kushal> avik, try these two
+[14:17] <kushal> for i in range(10):
+[14:17] <kushal>     print(i)
+[14:17] <kushal> and then
+[14:17] <kushal> for i in range(10):
+[14:17] <kushal>     print(i, end=' ')
+[14:17] <kushal> try and see :)
+[14:17] <avik> ok!
+[14:18] <avik> yes, '\n' is not there, right?
+[14:19] <avik> kushal, ? ^^
+[14:19] <kushal> avik, now, try help(print)
+[14:19] <ikshitij> avik: we discussed already about this last class. :)
+[14:19] <kushal> avik, in your terminal :)
+[14:20] <kushal> ikshitij, Some people just don't read the logs or the sessions when they are live.
+[14:20] <avik> ok. saw that
+[14:20] <kushal> next
+[14:20] <kvy_> avik,pr97  I think it help to print output horizontal .
+[14:20] <avik> kushal, sorry for that!
+[14:20] <kushal> avik, You don't have to say sorry.
+[14:20] <ikshitij> In students.py example, what is that sum ( ) function for ? It's not defined anywhere in that particular problem
+[14:20] <pr97> yes kvy_
+[14:21] <kushal> ikshitij, means it is already written :)
+[14:21] <kushal> ikshitij, try help(sum) in your terminal :)
+[14:21] <ikshitij> Ok
+[14:21] <atul916> !
+[14:22] <ikshitij> Got it kushal
+[14:22] <kushal> next
+[14:22] <atul916> how is divmod function being used?
+[14:22] <avik> !
+[14:23] <kushal> atul916, that is an easy way to get answers of  two operations in one function call
+[14:23] <kushal> next
+[14:23] <avik> "flush: whether to forcibly flush the stream." what does this mean?
+[14:24] <kvy_> atul916   I think it return 2 value reminder and another is result of there divide.
+[14:25] <kushal> avik, so you can use print function to any file like object, say a file on the drive.
+[14:25] <ikshitij> avik: print(var_name, end = ' '). It will append space in last. You can add a line break and tab using end = '\n' and end = '\t' at respectively
+[14:26] <kushal> avik, and when you write to a file, it is on the kernel to decide when to write the content to the actual drive, it may just return saying writing is successful, but maybe it is writing only when you are closing the file.
+[14:26] <avik> kushal, can you please explain that a little more?
+[14:26] <kushal> avik, you can try to force that with a flush
+[14:26] <avik> never mind, got it!
+[14:27] <avik> kushal, thanks.
+[14:27] <kushal> avik, also https://stackoverflow.com/questions/10545167/what-does-it-mean-to-flush-file-contents-in-python#10545247
+[14:27] <avik> ikshitij, got that!
+[14:27] <kushal> next
+[14:27] <kushal> okay
+[14:28] <kvy_> atul916   It is use as a,b = divmod(10,2)  now a = 5 and b = 0.
+[14:28] <avik> kushal, is it like fflush in c?
+[14:28] <kushal> avik, you are answering your own questions.
+[14:28] <avik> hehe!
+[14:32] <kushal> anyway, others please ask what ever you want to.
+[14:35] <ikshitij> https://paste.fedoraproject.org/paste/b0CJmSpRBQ0~zBto0p3CZw
+[14:35] <ikshitij> I am getting error in this
+[14:35] <ikshitij> sorry fixed
+[14:35] <kushal> :)
+[14:37] <championshuttler> !
+[14:38] <ikshitij> !
+[14:40] <ikshitij> In dictionaries, if we want to check data for particular key, we use data[key]. What If I want to see key for a particular data.
+[14:40] <kushal> ikshitij, wait
+[14:41] <kushal> to check if a key exists or not, check with if statement
+[14:41] <kushal> if key in data:
+[14:41] <kushal>   print("Yes")
+[14:41] <ikshitij> Like I want to check who use Fedora !
+[14:41] <ikshitij> It should return Kushal
+[14:43] <kushal> ikshitij, so maintain another dictionary where the values from here are the keys, and the values are list of users.
+[14:44] <ikshitij> Ok
+[14:44] <kushal> ikshitij, or you have to loop through all the values.
+[14:45] <ikshitij> Loop through all the key and check the value, if it's equal to required value, return key
+[14:49] <ikshitij> https://paste.fedoraproject.org/paste/PVVp8kyRlBmiONtEc574Aw
+[14:50] <ikshitij> kushal: solved
+[14:50] <kushal> next
+[14:50] <championshuttler> how to print result of loop on same line?
+[14:50] <kushal> mext
+[14:50] <kushal> next
+[14:50] <kushal> championshuttler, end argument in the print function
+[14:50] <kushal> championshuttler, see the discussion with avik a few minutes back
+[14:51] <championshuttler> kushal ok :) will read logs after uploading loosing connection again and again
+[14:52] <kushal> championshuttler, okay
+[14:58] <yurii> I was disconected for 20 minutes, is session going on
+[14:59] <kvy_> yurii ya session is going on
+[14:59] <kushal> next
+[14:59] <ikshitij> championshuttler: use "print(i, end = ' ')" It will print output on the same line adding spaces between them. Pass different parameters for different results
+[15:02] <CHOCOS1> yes yurii
+[15:04] <kushal> Anyway, seems everyone is busy reading./
+[15:04] <championshuttler> ikshitij: thanks :)
+[15:04] <kushal> So, to make people actually talk, I will end the session now, and expect people to stay online and ask doubts to friends here (we will also help).
+[15:04] <kushal> Roll Call
+[15:04] <kushal> I guess people are busy.
+----END CLASS----

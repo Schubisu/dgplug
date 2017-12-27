@@ -1,0 +1,456 @@
+----BEGIN CLASS----
+[14:10] <fhackdroid> #startclass
+[14:11] <skat-sd> !
+[14:11] <fhackdroid> next
+[14:11] <skat-sd> how do we control the 1st number?
+[14:11] <fhackdroid> skat-sd, good question
+[14:11] <fhackdroid> so range actually take three parameters
+[14:12] <fhackdroid> first parameter is the number form which you want to initiate the range
+[14:12] <fhackdroid> second number is the number till which that range should count excluding the number
+[14:13] <fhackdroid> and third is the step
+[14:13] <kushal> sayan, rtnpro fhackdroid we had documentation https://ircbot.readthedocs.io/en/latest/
+[14:13] <kushal> add: fhackdroid
+[14:13] <kushal> masters
+[14:13] <kushal> .masters
+[14:13] <tenida> kushal: Error: "masters" is not a valid command.
+[14:13] <skat-sd> ohh, like this: for i in range(1,10): print(i).  Got it
+[14:13] <fhackdroid> skat-sd,  yes
+[14:13] <skat-sd> thanks, fhackdroid
+[14:14] <fhackdroid> skarpy, not only that but you can try something like range(1, 10, 2)
+[14:14] <jasonbraganza> fhackdroid - in 2s?
+[14:14] <fhackdroid> jasonbraganza, yes
+[14:14] <jasonbraganza> got it
+[14:14] <fhackdroid> try it :)
+[14:14] <skarpy> Fhackdroid: ok
+[14:15] <fhackdroid> hope you guys are clear with range ?
+[14:15] <fhackdroid> yes ?
+[14:15] <RIcharD_> Yes.
+[14:15] <skarpy> yes
+[14:15] <samridhia> yes
+[14:15] <neer> Yes
+[14:15] <atul916> yes
+[14:15] <skat-sd> yes
+[14:15] <fhackdroid> cool so lets do a simple problem ?
+[14:15] <ashwanig> yes
+[14:15] <devesh_V> Yes
+[14:15] <knrai> yes
+[14:15] <pr97> yes
+[14:16] <soumam007> done
+[14:16] <championshuttler> yes
+[14:16] <asraisingh> yes
+[14:17] <san-D> done
+[14:17] <fhackdroid> The problem is called "Scooby Doo" Print numbers from 1 to 100 and for every number which is multiple of 3 print Scooby , for number multiple of 7 print Doo and for 3 and 7 print Scooby Doo
+[14:18] <fhackdroid> is the question clear ? ^
+[14:18] <asraisingh> yes
+[14:19] <fhackdroid> paste your solution on fpaste and post a link here :)
+[14:19] <bhavin192> If the number is 3 then it should print Scooby instead of 3, right?
+[14:20] <fhackdroid> if the number is multiple of 3
+[14:20] <fhackdroid> it should print scooby instead of 3
+[14:20] <bhavin192> fhackdroid, we were using azure notebooks for Python sessions, should we use that?
+[14:20] <kushal> bhavin192, YES
+[14:20] <fhackdroid> bhavin192, anything works :)
+[14:22] <ashwanig> https://paste.fedoraproject.org/paste/aFPVg6lW7WVwfVyKDooUig
+[14:22] <asraisingh> done
+[14:23] <RIcharD_> Done
+[14:23] <asraisingh> https://notebooks.azure.com/n/Sj7eturEzLc/notebooks/summertraining.ipynb
+[14:23] <anuGupta> https://notebooks.azure.com/n/EUkAHEpHLQg/notebooks/summertraining.ipynb
+[14:24] <RIcharD_> https://paste.fedoraproject.org/paste/XV0sizsb9Y8tGR717Xy-uA
+[14:24] <fhackdroid> nice :)
+[14:25] <devesh_verma> https://paste.fedoraproject.org/paste/qY5ddDstmHm6E4t1JbBotQ/deactivate/lMBmNEda6iFIwyLl6tSTKeJ0SIxrspd0jOTOhYEcR2hEhLWJXzG2kKaruPEmS1af
+[14:25] <RIcharD_> fhackdroid, the output looks amazing!
+[14:25] <fhackdroid> RIcharD_, i don't think so you got it right :)
+[14:25] <knrai> https://notebooks.azure.com/n/Eg3NDOBW9To/notebooks/summertraining.ipynb
+[14:25] <RIcharD_> fhackdroid, but it worked :(
+[14:26] <atul916> https://repl.it/KADY/0
+[14:26] <fhackdroid> so can someone review RIcharD_ code : https://paste.fedoraproject.org/paste/XV0sizsb9Y8tGR717Xy-uA
+[14:26] <samridhia> https://paste.fedoraproject.org/paste/9weN6mGftiXv6jwE6Di1LQ
+[14:26] <bhavin192> https://notebooks.azure.com/n/MQB5oeSxQz0/nbconvert/html/summertraining.ipynb
+[14:26] <fhackdroid> RIcharD_, try for number 21 ;)
+[14:26] <RIcharD_> fhackdroid, it just prints scooby :(
+[14:27] <devesh_verma> RIcharD_,  you will never get Scooby Doo
+[14:27] <bhavin192> This one is correct https://notebooks.azure.com/bhavin192/libraries/dgplug/html/summertraining.ipynb
+[14:27] <bhavin192> s/correct/correct link
+[14:27] <fhackdroid> RIcharD_, so there is something wrong with it right ?
+[14:27] <fhackdroid> bhavin192, I figured out :)
+[14:27] <abhinavshirur> https://notebooks.azure.com/abhinavshirur/libraries/dgplug/html/summertraining.ipynb
+[14:28] <soumam007> last 12 min logs anyone ? got disconnected
+[14:29] <sitlanigaurav[m]> check this out : https://paste.fedoraproject.org/paste/e8MiGFiv87AAIEv24l7mwA/
+[14:29] <championshuttler> https://notebooks.azure.com/championshuttler/libraries/dgplug1/html/scoobydoo.ipynb
+[14:30] <devesh_verma> sitlanigaurav[m], you forgot to print the rest of the numbers
+[14:30] <RIcharD_> https://paste.fedoraproject.org/paste/3HevsJs4WBRffPZDTY8YaQ Corrected code here. fhackdroid :)
+[14:30] <balaji> https://notebooks.azure.com/Balaji2198/libraries/python/html/ScoobyDoo.ipynb
+[14:31] <sitlanigaurav[m]> devesh_verma: oh right
+[14:31] <fhackdroid> championshuttler, good try but that is wrong RIcharD_ wanna review his code ?
+[14:31] <anuGupta> RlcharD_  check your range
+[14:31] <atul916> RIcharD_ has not taken the third taken care of the third condition which is if the no. is divisible by both 3 and 7
+[14:31] <fhackdroid> balaji, good work
+[14:31] <jasonbraganza> done. please check - https://notebooks.azure.com/run/jasonbraganza/dgplug?dest=/notebooks/summertraining.ipynb
+[14:32] <RIcharD_> atul916, check the new link. https://paste.fedoraproject.org/paste/3HevsJs4WBRffPZDTY8YaQ
+[14:32] <fhackdroid> RIcharD_, still missing something'
+[14:32] <balaji> fhackdroid, thanks
+[14:32] <jasonbraganza> jasonbraganza - sorry wrong link
+[14:32] <pooja_> !
+[14:32] <fhackdroid> next
+[14:32] <championshuttler> fhackdroid: i updated the code , review it once again please
+[14:32] <abhinavshirur> jasonbraganza, check the range
+[14:32] <pooja_> https://pastebin.com/1TssVgm8 , i got this
+[14:33] <jasonbraganza> https://notebooks.azure.com/jasonbraganza/libraries/dgplug/html/summertraining.ipynb
+[14:33] <devesh_verma> fhackdroid, did balaji not miss Scooby Doo
+[14:33] <san-D> https://notebooks.azure.com/n/NY0abiC5v4M/notebooks/summertraining.ipynb
+[14:33] <fhackdroid> jasonbraganza, check your range
+[14:33] <RIcharD_> fhackdroid, range(0,101)?
+[14:34] <fhackdroid> devesh_verma, right I guess I saw someone elses code
+[14:34] <knrai> https://notebooks.azure.com/n/Eg3NDOBW9To/notebooks/summertraining.ipynb
+[14:34] <fhackdroid> RIcharD_, what is the first number it will take ?
+[14:35] <neer> sprunge.us/XUGL
+[14:35] <RIcharD_> fhackdroid, 0 :/
+[14:35] <sitlanigaurav[m]> fhackdroid: https://paste.fedoraproject.org/paste/a1ePx1QzvpT2UlgY8t0d-A/
+[14:35] <fhackdroid> knrai, nice work
+[14:35] <RIcharD_> fhackdroid, got it. You said to print from 1 to 100
+[14:35] <jasonbraganza> fhackdroid - crap. had not saved the file. fixed
+[14:35] <akshayg96> https://notebooks.azure.com/akshayg96/libraries/dgplug/html/summertraining.ipynb
+[14:36] <anuGupta> Pooja_ check your indentation. The following print statement should be after a few spaces or a tab
+[14:36] <atul916> how about my code?
+[14:36] <balaji> fhackdroid, devesh_verma  kindly check now
+[14:36] <fhackdroid> neer, no need of continue there
+[14:36] <abhinavshirur> akshayg96, not the expected output
+[14:36] <balaji> is thatcorrect?
+[14:37] <san-D> https://notebooks.azure.com/n/NY0abiC5v4M/notebooks/summertraining.ipynb
+[14:37] <fhackdroid> atul916, link ?
+[14:37] <bhavin192> knrai, fhackdroid> if the number is multiple of 3 <fhackdroid> it should print scooby instead of 3
+[14:37] <atul916> i gave the link above
+[14:38] <neer> okay
+[14:38] <atul916> https://repl.it/KADY/0
+[14:38] <ashwanig> soumam007, pm
+[14:38] <pr97> https://paste.fedoraproject.org/paste/~pyrI9URjsqU0YQwfRDMsw
+[14:38] <fhackdroid> sitlanigaurav[m], nope you are missing something check for 21
+[14:38] <abhinavshirur> san-D, range
+[14:39] <devesh_verma> balaji, can you share your URL once again
+[14:39] <skarpy> fhackdroid : its printing scooby and doo all the way :(
+[14:39] <pr97> https://paste.fedoraproject.org/paste/JyUCzTVEE5hJTphdwyXqHQ
+[14:39] <fhackdroid> atul916, nope not right , check for 21
+[14:39] <san-D> abhinavshirur:  corrected
+[14:39] <abhinavshirur> san-D, I liked the condition if first if :D
+[14:39] <fhackdroid> skarpy, think about what are you missing!
+[14:39] <abhinavshirur> * in first if
+[14:39] <asraisingh> fhackdroid: review https://notebooks.azure.com/n/Sj7eturEzLc/notebooks/summertraining.ipynb
+[14:40] <fhackdroid> okay everyone listen up
+[14:40] <sitlanigaurav[m]> fhackdroid: I haven't missed but printed s and d and both again
+[14:40] <RIcharD_> https://paste.fedoraproject.org/paste/8bPkOFgFHHrhAdCLPQ3r-A
+[14:40] <fhackdroid> I want your attention here
+[14:40] <skarpy> fhackdroid: https://notebooks.azure.com/n/A0TVv10zWEg/notebooks/summertraining.ipynb
+[14:40] <fhackdroid> say yes if you guys are paying attention
+[14:40] <ashwanig> yes
+[14:40] <schubisu> es
+[14:40] <abhinavshirur> yes
+[14:40] <schubisu> *yes
+[14:40] <skarpy> Yes
+[14:41] <asraisingh> yes
+[14:41] <soumam007> yes
+[14:41] <RIcharD_> yes
+[14:41] <san-D> Yes
+[14:41] <jasonbraganza> yes
+[14:41] <neer> yes
+[14:41] <anuGupta> Yes
+[14:41] <fhackdroid> okay what I am going to say is not related to python but programming
+[14:41] <fhackdroid> you guys are doing a hit and try
+[14:42] <fhackdroid> if this works or it doesn't
+[14:42] <fhackdroid> that is not how you should think
+[14:42] <fhackdroid> even before you start writing code
+[14:42] <fhackdroid> the solution should be clear in your mind
+[14:42] <fhackdroid> think before you write
+[14:43] <fhackdroid> give a read to the problem
+[14:43] <fhackdroid> there is very important skill which is analyzing
+[14:43] <pr97> https://paste.fedoraproject.org/paste/4DJ1LzYIGbkZ6OyQYTPw6A
+[14:43] <fhackdroid> think about the problem, see what are the condition
+[14:43] <fhackdroid> think about the edge cases
+[14:43] <ikshitij> https://notebooks.azure.com/kshitiz/libraries/dgplug/html/Scooby-Doo.ipynb
+[14:44] <fhackdroid> where it can break
+[14:44] <fhackdroid> learning a technology is like knowing the tool but even before using the tool you should know what you are using the tool for.
+[14:45] <fhackdroid> Else it will be like a spanner in monkey's hand the only thing it can cause is a lot of things to break, Given that monkey is not experimental.
+[14:45] <pr97> https://paste.fedoraproject.org/paste/JyUCzTVEE5hJTphdwyXqHQ
+[14:46] <fhackdroid> are you guys getting what I am trying to say ?
+[14:46] <jasonbraganza> yes fhackdroid
+[14:46] <anuGupta> Yes
+[14:46] <pr97> yes
+[14:46] <championshuttler> yes
+[14:46] <devesh_verma> yes
+[14:46] <ikshitij> yes
+[14:46] <RIcharD_> Yes, fhackdroid
+[14:46] <asraisingh> yes
+[14:46] <schubisu> yes
+[14:46] <skarpy> Yes.
+[14:46] <atul916> sorry got disconnected can anyone give logs of last 8 min
+[14:46] <san-D> yes
+[14:47] <fhackdroid> so lets think logical here
+[14:47] <fhackdroid> how many of you got the solution ?
+[14:47] <jasonbraganza> me
+[14:47] <neer> yes
+[14:47] <championshuttler> atul916: check pm
+[14:47] <championshuttler> me
+[14:47] <ikshitij> me
+[14:48] <abhinavshirur> me
+[14:48] <RIcharD_> Me
+[14:48] <asraisingh> me
+[14:48] <knrai> yes
+[14:48] <fhackdroid> how many of you used the "and" operator ?
+[14:48] <jasonbraganza> i did
+[14:48] <anuGupta> Me
+[14:48] <asraisingh> i
+[14:48] <RIcharD_> I did.
+[14:48] <ikshitij> I used and
+[14:48] <san-D> me
+[14:48] <knrai> me
+[14:48] <pr97> I used
+[14:48] <neer> me
+[14:48] <sitlanigaurav[m]> Me
+[14:48] <neer> and i did
+[14:48] <devesh_verma> I used and
+[14:49] <fhackdroid> lets make it a little more fun
+[14:49] <fhackdroid> do the same but this time you are not allowed to use the and operator
+[14:49] <fhackdroid> is the question clear ?
+[14:49] <jasonbraganza> san-D already had the solution
+[14:49] <balaji> I used
+[14:49] <jasonbraganza> i’d just be copying :)
+[14:50] <RIcharD_> Yes
+[14:50] <knrai> https://notebooks.azure.com/n/Eg3NDOBW9To/notebooks/summertraining.ipynb
+[14:50] <fhackdroid> jasonbraganza, you shouldn't have told that :P
+[14:50] <abhinavshirur> bhavin192 did that iirc :P
+[14:50] <bhavin192> abhinavshirur, :-/
+[14:51] <fhackdroid> okay good work people.
+[14:51] <fhackdroid> so if you see the solution without and
+[14:52] <neer> http://sprunge.us/EfjA
+[14:52] <abhinavshirur> sorry :-/
+[14:52] <fhackdroid> if you see this problem it is a very basic problem
+[14:52] <fhackdroid> but not a lot of you got it in the first go
+[14:53] <ikshitij> fhackdroid: We can use nested if else
+[14:53] <fhackdroid> that happened because you were not thinking clearly
+[14:53] <fhackdroid> this problem actually have a name
+[14:53] <soumam007> https://paste.fedoraproject.org/paste/YI5TngslL089PC1ZEE2MpQ
+[14:53] <fhackdroid> does any of you know that ?
+[14:54] <jasonbraganza> nope
+[14:54] <anuGupta> !
+[14:54] <skarpy> what is that name?
+[14:54] <jasonbraganza> and please don’t say PEBKAC
+[14:55] <championshuttler> jasonbraganza: what is PEBKAC?
+[14:56] <skarpy> championshuttler: google.
+[14:56] <championshuttler> got it :) problem exists between keyboard and chair
+[14:56] <fhackdroid> nobody knows what this problem is called ?
+[14:56] <fhackdroid> cool let me give you something to search for
+[14:56] <fhackdroid> this problem is called the fizz buzz problem
+[14:57] <fhackdroid> this problem is called the fizz buzz problem
+[14:57] <ikshitij> Oooh ! I solved the same on Hackerearth
+[14:58] <soumam007> yeah fhackdroid got it
+[14:58] <soumam007> :) dont know why they give such a typical name
+[14:58] <ikshitij> Fizz Buzz Test
+[14:59] <soumam007> https://stackoverflow.com/questions/9461446/c-programming-the-fizzbuzz-program
+[14:59] <jasonbraganza> fhackdroid - is that what we just did?
+[14:59] <anuGupta> It's working for & too instead of and. Is this correct or not?
+[15:00] <ashwanig> anuGupta, & is bitwise and not logical and
+[15:00] <anuGupta> Yup but it gave the correct answer so asked
+[15:00] <fhackdroid> ikshitij, yes
+[15:00] <fhackdroid> any questions till now ?
+[15:00] <fhackdroid> jasonbraganza, yes that is what you did :)
+[15:00] <jasonbraganza> i always thought FizzBuzz was something complicated :P
+[15:01] <jasonbraganza> !
+[15:01] <fhackdroid> jasonbraganza, well you uncomplicated the complicated
+[15:01] <fhackdroid> next
+[15:01] <jasonbraganza> unrelated to the clas question
+[15:01] <fhackdroid> next
+[15:01] <jasonbraganza> how legal is it to use the youtube-dl module to download music lists? asking because samridhia is using the module as an example and I’m worried for her. should she change her blog post?
+[15:01] <pie3> which distributed services you know about/use/heard ? e.g. SVN is distributed
+[15:01] <anuGupta> It's working for & too instead of and. Is this correct or not?
+[15:02] <anuGupta> Why is it giving correct output<EOF>
+[15:02] <fhackdroid> pie3, class is going on
+[15:02] <ashwanig> anuGupta, You should figure it out why it is working. What is the result of 1&0?
+[15:02] <bhavin192> jasonbraganza, AFAIK it is not legal
+[15:02] <pie3> how to jump into class
+[15:03] <samridhia> jasonbraganza, are there any legal issues with modules too?
+[15:03] <anuGupta> Oh yes thanks ashwanig
+[15:03] <bhavin192> jasonbraganza, she should read more about copyright
+[15:03] <championshuttler> samridhia: legal issues are with dowloading content without permission i think
+[15:03] <fhackdroid> anuGupta, https://stackoverflow.com/questions/22646463/difference-between-and-boolean-vs-bitwise-in-python-why-difference-i
+[15:03] <bhavin192> jasonbraganza, samridhia, let's discuss it after class
+[15:04] <jasonbraganza> samridhia, not the module, but *what* you download I think
+[15:04] <anuGupta> Ok fhackdroid
+[15:04] <samridhia> bhavin192, ok i will now read everything about copyright.
+[15:04] <fhackdroid> hope that answers your question
+[15:05] <ikshitij> jasonbraganza: downloading content from YouTube is illegal, doesn't matter you use x module or y module or you are FBI officer :)
+[15:05] <fhackdroid> okay guys so do you guys know about the data structure called list in python ?
+[15:05] <ashwanig> fhackdroid, Yes
+[15:05] <ikshitij> Yes, I know
+[15:05] <neer> yes
+[15:05] <atul9162> yes
+[15:05] <RIcharD_> No
+[15:05] <championshuttler> no
+[15:05] <asraisingh> yes
+[15:05] <knrai> yes
+[15:05] <anuGupta> Yes
+[15:05] <san-D> yes
+[15:05] <pr97> yes
+[15:06] <fhackdroid> so in your python shell wrote fruits = ["apple", "papaya", "banana"]
+[15:06] <fhackdroid> s/wrote/write
+[15:06] <RIcharD_> *write
+[15:06] <fhackdroid> tell me when done ?
+[15:06] <championshuttler> done
+[15:07] <ikshitij> done
+[15:07] <knrai> done
+[15:07] <RIcharD_> done
+[15:07] <jasonbraganza> done
+[15:07] <skat-sd> done
+[15:07] <devesh_verma> done
+[15:07] <pr97> done
+[15:07] <samridhia> done
+[15:07] <ashwanig> done
+[15:07] <atul9162> done
+[15:07] <balaji> done
+[15:07] <asraisingh> done
+[15:08] <skarpy> Yes
+[15:09] <fhackdroid> try fruits[0]
+[15:10] <devesh_verma> done
+[15:10] <championshuttler> it prints apple :)
+[15:10] <skat-sd> apple
+[15:10] <RIcharD_> apple
+[15:10] <devesh_verma> apple
+[15:10] <knrai> apple
+[15:10] <atul9162> apple
+[15:10] <asraisingh> apple
+[15:11] <fhackdroid> now try len(fruits)
+[15:11] <championshuttler> 3
+[15:11] <skarpy> 3
+[15:11] <atul9162> 3
+[15:11] <RIcharD_>  3
+[15:11] <skat-sd> 3
+[15:11] <asraisingh> 3
+[15:11] <balaji> 3
+[15:11] <ikshitij> 3
+[15:11] <knrai> 3
+[15:12] <soumam007> 3
+[15:12] <pr97> 3
+[15:12] <ashwanig> 3
+[15:12] <devesh_verma> 3
+[15:13] <fhackdroid> awesome now you know how to extract an element form the list and you know how to find the length
+[15:13] <fhackdroid> can you guys try a printing each element in the list ?
+[15:13] <asraisingh> yes
+[15:14] <championshuttler> yes
+[15:14] <soumam007> done
+[15:14] <fhackdroid> any questions regarding the problem ?
+[15:14] <atul9162> done
+[15:14] <championshuttler> done with print(fruits[0])
+[15:14] <ikshitij> done
+[15:15] <fhackdroid> post your solutions here
+[15:15] <jasonbraganza> for i in (fruits):
+[15:15] <jasonbraganza> ...     print (i)
+[15:15] <tenida> jasonbraganza: Error: ".." is not a valid command.
+[15:16] <anuGupta> !
+[15:16] <ashwanig> https://paste.fedoraproject.org/paste/Xz0ZiJMvV3Ci3dXwQnnKzw
+[15:16] <atul9162> print(fruits)
+[15:16] <soumam007> simply fruits will also give the list but in brackets
+[15:16] <ikshitij> https://www.irccloud.com/pastebin/NThyk5k2
+[15:16] <fhackdroid> jasonbraganza, why the brackets around fruits ?
+[15:16] <asraisingh> done
+[15:17] <ashwanig> jasonbraganza, variable name
+[15:17] <ikshitij> for i in range(len(fruits)):
+[15:17] <jasonbraganza> fhackdroid - mistake! sorry
+[15:17] <fhackdroid> atul9162, can you iterate over the list using a for loop and print it
+[15:17] <ikshitij> print (fruits[i])
+[15:17] <atul9162> yes
+[15:17] <atul9162> done
+[15:17] <championshuttler> https://notebooks.azure.com/championshuttler/libraries/dgplug1/html/scoobydoo.ipynb
+[15:17] <asraisingh> https://notebooks.azure.com/n/Sj7eturEzLc/notebooks/summertraining.ipynb
+[15:17] <soumam007> done fhackdroid
+[15:17] <soumam007> :)
+[15:18] <knrai> for i in fruits:
+[15:18] <knrai> print(i)
+[15:18] <fhackdroid> championshuttler, try the same with for loop
+[15:19] <atul9162> https://repl.it/KADY/1
+[15:19] <jasonbraganza> ashwanig - for fruit_salad_ingredient in fruits: print (fruit_salad_ingredient)
+[15:19] <ikshitij> https://notebooks.azure.com/kshitiz/libraries/dgplug/html/summertraining.ipynb last line
+[15:19] <championshuttler> fhackdroid: ok :)
+[15:19] <fhackdroid> ikshitij, good try :)
+[15:20] <fhackdroid> so you guys should look into https://notebooks.azure.com/kshitiz/libraries/dgplug/html/summertraining.ipynb
+[15:20] <fhackdroid> and https://www.irccloud.com/pastebin/NThyk5k2
+[15:21] <fhackdroid> these are two ways to iterate through the list
+[15:21] <skat-sd> https://notebooks.azure.com/skat-sd/libraries/dgplug/html/summertraining.ipynb
+[15:21] <jasonbraganza> understood
+[15:21] <fhackdroid> the second link is more readable than the first one
+[15:22] <atul9162> is anything wrong wih my method?
+[15:22] <fhackdroid> atul9162, nope its perfect
+[15:22] <anuGupta> How to print on the same line?
+[15:23] <atul9162> ok, thanks
+[15:24] <fhackdroid> https://repl.it/KADY/2
+[15:24] <fhackdroid> have a look at this ^
+[15:24] <skat-sd> !
+[15:25] <fhackdroid> readability counts
+[15:25] <fhackdroid> next
+[15:25] <soumam007> same
+[15:25] <skat-sd> how do we print them in the same line?
+[15:25] <ashwanig> anuGupta, http://lmgtfy.com/?q=how+to+print+in+the+same+line+in+python
+[15:26] <championshuttler> ashwanig: :D
+[15:26] <fhackdroid> print(i, end='')
+[15:26] <fhackdroid> skat-sd, ^
+[15:26] <jasonbraganza> anuGupta ^
+[15:26] <skat-sd> yes, thanks
+[15:26] <ikshitij> anuGupta: use 'end = ''"'
+[15:26] <fhackdroid> okay your code is an art
+[15:26] <fhackdroid> take it that way
+[15:27] <fhackdroid> try to use meaningful variable names
+[15:27] <fhackdroid> the more the readability the better it is
+[15:27] <ikshitij> https://notebooks.azure.com/kshitiz/libraries/dgplug/html/summertraining.ipynb anuGupta
+[15:28] <fhackdroid> okay so ready for one more question
+[15:28] <jasonbraganza> shoot
+[15:29] <ikshitij> jasonbraganza: Ready with weapon and Armor ? :P
+[15:30] <championshuttler> ikshitij: he is ready with machine gun :P
+[15:30] <fhackdroid> Given a list basket = ["apple", "banana", "pineapple", "mango"] pick out the fruits whoes name starts with a vowel
+[15:31] <fhackdroid> any questions till now ?
+[15:31] <ikshitij> Print those or store in another list ?
+[15:31] <fhackdroid> print the once starting with a vowel
+[15:32] <fhackdroid> now remember the quality of code matters with this one
+[15:32] <fhackdroid> so think twice before naming your variables
+[15:32] <fhackdroid> any more questions regarding the session ?
+[15:33] <jasonbraganza> fhackdroid - please do more?
+[15:33] <asraisingh> done
+[15:33] <fhackdroid> jasonbraganza, ?
+[15:33] <asraisingh> https://notebooks.azure.com/n/Sj7eturEzLc/notebooks/summertraining.ipynb
+[15:33] <jasonbraganza> fhackdroid sessions :)
+[15:33] <atul9162> https://repl.it/KADY/3
+[15:34] <ikshitij> fhackdroid: https://notebooks.azure.com/kshitiz/libraries/dgplug/html/summertraining.ipynb
+[15:34] <fhackdroid> asraisingh, your code has errors
+[15:34] <ashwanig> https://paste.fedoraproject.org/paste/pe4~ztsUXB2v76MT0VkjwQ
+[15:34] <asraisingh> fhackdroid: error solved.
+[15:35] <fhackdroid> ashwanig, you can improve it , you already used in operator why to shy in using it
+[15:36] <fhackdroid> jasonbraganza, hahah thanks i will take that as a compliment :)
+[15:36] <samridhia> https://notebooks.azure.com/n/ogZH3FMbmNQ/notebooks/summertraining.ipynb
+[15:36] <ikshitij> fhackdroid: check mine https://notebooks.azure.com/kshitiz/libraries/dgplug/html/summertraining.ipynb
+[15:36] <fhackdroid> samridhia, correct but you can improve on readability
+[15:37] <atul9162> what about mine?
+[15:37] <samridhia> fhackdroid, ok working on it.
+[15:37] <fhackdroid> ikshitij, now that is quality , good work :D
+[15:38] <fhackdroid> okay people so it is time for me to wind up :)
+[15:38] <ikshitij> fhackdroid: :)
+[15:38] <knrai> fhackdroid: https://notebooks.azure.com/n/Eg3NDOBW9To/notebooks/summertraining.ipynb
+[15:38] <ashwanig> https://paste.fedoraproject.org/paste/8XFuzcz2JZEQGGtv6SX6uw
+[15:38] <fhackdroid> hope you learnt something new, hope I was able to add value.
+[15:39] <fhackdroid> thanks for bearing with me and my mistakes
+[15:39] <ashwanig> fhackdroid, I did. Thanks for the session :)
+[15:39] <abhinavshirur> thanks for this nice session fhackdroid :)
+[15:39] <RIcharD_> fhackdroid, thanks!
+[15:39] <fhackdroid> Hope you guys keep practicing and keep learning we can discuss few things after the session
+[15:39] <asraisingh> thnaks fhackdroid.
+[15:40] <fhackdroid> so final roll call
+[15:40] <jasonbraganza> Jason Braganza
+[15:40] <ashwanig> Ashwani Kumar Gupta
+[15:40] <asraisingh> Abhishek Singh
+[15:40] <ikshitij> Kshitij
+[15:40] <pr97> Priyanka Sharma
+[15:40] <RIcharD_> Mayank gupta
+[15:40] <samridhia> Samridhi Agarwal
+[15:40] <anuGupta> Anu kumari Gupta
+[15:40] <skat-sd> Saikat Dey
+[15:40] <knrai> Krishnanand Rai
+[15:40] <devesh_V> Devesh Verma
+[15:40] <championshuttler> Shivam Singhal
+[15:40] <abhinavshirur> Abhinav Shirur
+[15:40] <bhavin192> Bhavin Gandhi
+[15:40] <Phi_mb> Mohit
+----END CLASS----

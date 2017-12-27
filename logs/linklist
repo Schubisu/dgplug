@@ -1,0 +1,210 @@
+Logs-2017-06-18-13-41.txt:[13:55] <sayan> ashwanig: yes, https://github.com/sayanchowdhury/theb0t
+Logs-2017-06-18-13-41.txt:[14:54] <kushal> https://dgplug.org/irclogs/mbuf_1stclass.log
+Logs-2017-06-18-13-41.txt:[14:55] <kushal> and also https://dgplug.org/irclogs/mbuf_2ndclass.log
+Logs-2017-06-18-13-41.txt:[14:58] <kushal> apoorv, I found https://github.com/pythonindia/inpycon2017/blob/master/index.html
+Logs-2017-06-18-13-41.txt:[15:08] <kushal> shankarj67, https://github.com/kushaldas/ircbot
+Logs-2017-06-19-13-28.txt:[13:32] <mbuf> I am assuming you have already gone through the previous years' logs - https://dgplug.org/irclogs/mbuf_1stclass.log
+Logs-2017-06-19-13-28.txt:[13:32] <mbuf> The second class is at https://dgplug.org/irclogs/mbuf_2ndclass.log
+Logs-2017-06-19-13-28.txt:[13:37] <mbuf> dhairyya, use it at the right context, https://en.wikipedia.org/wiki/Ellipsis
+Logs-2017-06-19-13-28.txt:[14:18] <mbuf> PHI, talk to me; I am starting to work on project management for F/OSS projects; see https://github.com/dgplug/operation-blue-moon
+Logs-2017-06-19-13-28.txt:[14:25] <mbuf> dhairyya, Project Euler is a good place, https://projecteuler.net/
+Logs-2017-06-20-13-28.txt:[14:00] <tenida> kushal: Why Zsh is Cooler than Your Shell - SlideShare: <https://fr.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692>; What is the difference between bash and zsh ? - Quora: <https://www.quora.com/What-is-the-difference-between-bash-and-zsh>; Z shell - Wikipedia: <https://en.wikipedia.org/wiki/Z_shell>
+Logs-2017-06-20-13-28.txt:[14:04] <kushal> https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line#506628
+Logs-2017-06-20-13-28.txt:[14:06] <kushal> ashwanig, https://en.wikipedia.org/wiki/Man_page
+Logs-2017-06-20-13-28.txt:[14:11] <kushal> santoshShaw, For now read https://en.wikipedia.org/wiki/Symbolic_link
+Logs-2017-06-20-13-28.txt:[14:13] <kushal> https://dgplug.org/irclogs/rishi_1st_class.log
+Logs-2017-06-20-13-28.txt:[14:13] <kushal> https://dgplug.org/irclogs/rishi_2ndclass.log
+Logs-2017-06-20-13-28.txt:[14:13] <kushal> https://dgplug.org/irclogs/rishi_3rdclass.log
+Logs-2017-06-20-13-28.txt:[14:16] <kushal> https://duckduckgo.com/
+Logs-2017-06-20-13-28.txt:[14:21] <kushal> deepika, https://en.wikipedia.org/wiki/Package_manager
+Logs-2017-06-20-13-28.txt:[14:30] <kushal> Corresponding log is at https://dgplug.org/irclogs/kushal_fhs_class.log
+Logs-2017-06-21-13-36.txt:[14:10] <kushal> dhairyya, https://fedoraproject.org/wiki/Features/UsrMove
+Logs-2017-06-21-13-36.txt:[14:24] <sayan> aditya_: read this one: https://stackoverflow.com/a/4205020
+Logs-2017-06-21-13-36.txt:[14:38] <kushal> ganesh_nomula, https://dgplug.org/irclogs/2017/
+Logs-2017-06-21-13-36.txt:[14:41] <kushal> ganesh_nomula, I can see three logs at https://dgplug.org/irclogs/2017/
+Logs-2017-06-21-13-36.txt:[14:43] <kushal> https://unix.stackexchange.com/questions/88423/why-do-hard-links-seem-to-take-the-same-space-as-the-originals
+Logs-2017-06-21-13-36.txt:[14:45] <kushal> ihp, also read https://stackoverflow.com/questions/8337878/do-hard-links-or-soft-links-take-any-space-in-the-filesystem
+Logs-2017-06-21-13-36.txt:[14:45] <kushal> im_mohsin, also read https://en.wikipedia.org/wiki/Hard_link
+Logs-2017-06-22-13-28.txt:[13:40] <kushal> I will keep the session running, but you follow from the log here https://dgplug.org/irclogs/kushal_vi_1stclass.log
+Logs-2017-06-22-13-28.txt:[13:43] <kushal> avik, start following https://dgplug.org/irclogs/kushal_vi_1stclass.log
+Logs-2017-06-22-13-28.txt:[13:55] <kushal> asraisingh, when I searched, I found https://stackoverflow.com/questions/14390519/whats-the-difference-between-b-and-b-in-vim
+Logs-2017-06-22-13-28.txt:[14:03] <kushal> asraisingh, https://www.flickr.com/photos/kent-chen/6825667892/ will give you more details :)
+Logs-2017-06-22-13-28.txt:[14:15] <saikat_> praveenkumar, kushal , here is the pastebin: https://paste.fedoraproject.org/paste/Ktm6fxENOC7xXofrqOul-Q
+Logs-2017-06-22-13-28.txt:[14:23] <kushal> zetathon__, try this https://www.fprintf.net/vimCheatSheet.html
+Logs-2017-06-22-13-28.txt:[15:04] <asraisingh> sayan, I have 2 questions. First one is, are some commands are different but with same function? and Second one is, Commands provided in this log https://dgplug.org/irclogs/kushal_vi_1stclass.log is enough or I have to cover maximum of the commands from cheatsheet (Link: https://www.fprintf.net/vimCheatSheet.html)
+Logs-2017-06-22-13-28.txt:[15:08] <sayan> https://static1.squarespace.com/static/537a9021e4b0dc8ed531ddef/t/579d9923e4fcb5403766d2ef/1469946184827/
+Logs-2017-06-22-13-28.txt:[15:21] <sayan> For next class read: https://dgplug.org/irclogs/kushal_vi_2ndclass.log
+Logs-2017-06-22-13-28.txt:[15:28] <sayan> Again, tomorrow homework is https://dgplug.org/irclogs/kushal_vi_2ndclass.log
+Logs-2017-06-23-13-35.txt:[13:46] <sayan> here is mine: couple of plugins I use: https://da.gd/9iIa
+Logs-2017-06-23-13-35.txt:[14:04] <sayan> deepika: https://stackoverflow.com/questions/774560/in-vim-how-do-i-get-a-file-to-open-at-the-same-line-number-i-closed-it-at-last
+Logs-2017-06-23-13-35.txt:[14:10] <kushal> im_mohsin, look at https://shellshare.net/r/summertraining
+Logs-2017-06-23-13-35.txt:[14:36] <kushal> apoorv, https://kushaldas.in
+Logs-2017-06-23-13-35.txt:[14:37] <kushal> jasonbraganza, Today morning found this post: https://kushaldas.in/posts/kdein-started.html you can see many mistakes in that post.
+Logs-2017-06-23-13-35.txt:[14:54] <kushal> https://en.wikipedia.org/wiki/Planet_(software)
+Logs-2017-06-27-13-28.txt:[13:34] <kushal> https://public.etherpad-mozilla.org/p/studentplanet
+Logs-2017-06-27-13-28.txt:[13:44] <kushal> andodococo, https://public.etherpad-mozilla.org/p/studentplanet
+Logs-2017-06-27-13-28.txt:[13:49] <kushal> https://public.etherpad-mozilla.org/p/studentplanet add your blog feed url there
+Logs-2017-06-27-13-28.txt:[13:53] <kushal> https://en.wikipedia.org/wiki/RSS is the answer.
+Logs-2017-06-27-13-28.txt:[14:07] <kushal> deepika, like my home page https://kushaldas.in and yours is different.
+Logs-2017-06-27-13-28.txt:[14:08] <kushal> im_mohsin, Add your blog to https://public.etherpad-mozilla.org/p/studentplanet
+Logs-2017-06-27-13-28.txt:[14:09] <kushal> ikshitij, For example, https://kushaldas.in/categories/python.xml is only for Python related posts in my blog
+Logs-2017-06-27-13-28.txt:[14:24] <kushal> https://en.wikipedia.org/wiki/Net_neutrality is the wiki page.
+Logs-2017-06-27-13-28.txt:[14:26] <kushal> When you have time, watch this documentary https://www.youtube.com/watch?v=9vz06QO3UkQ
+Logs-2017-06-28-13-28.txt:[13:34] <kushal> https://github.com/dgplug/studentsplanet/blob/master/planet.ini#L57  this is the file
+Logs-2017-06-28-13-28.txt:[13:40] <kushal> Raut, look at the other examples from the https://github.com/dgplug/studentsplanet/blob/master/planet.ini#L57
+Logs-2017-06-28-13-28.txt:[13:50] <kushal> https://en.wikipedia.org/wiki/Markdown is the wiki page.
+Logs-2017-06-28-13-28.txt:[13:56] <kushal> https://blog.ghost.org/markdown/ this is a simple tutorial of Markdown format.
+Logs-2017-06-28-13-28.txt:[14:01] <kushal> https://shellshare.net/r/summertraining
+Logs-2017-06-28-13-28.txt:[14:13] <kushal> People who are using wordpress as blogging platform, there are many markdown plugins, like https://wordpress.org/plugins/jetpack-markdown/
+Logs-2017-06-28-13-28.txt:[14:14] <kushal> There is also https://wordpress.org/plugins/wp-markdown/
+Logs-2017-06-28-13-28.txt:[14:20] <kushal> Kasedr, https://daringfireball.net/projects/markdown/
+Logs-2017-06-28-13-28.txt:[14:41] <kushal> im_mohsin, and then tell me typing that or just typing https://kushaldas.in/posts/updates-on-my-python-community-work-16-17.md is easier?
+Logs-2017-06-28-13-28.txt:[14:45] <pr97> kushal, I installed discount, but here is the error https://paste.fedoraproject.org/paste/2uIGMCtqyzHO5-FPktGxGQ and I am using ubuntu 14.04
+Logs-2017-06-30-13-28.txt:[13:43] <sayan> ikshitij: https://en.wikipedia.org/wiki/Chmod#Symbolic_modes
+Logs-2017-06-30-13-28.txt:[13:51] <sayan> https://paste.fedoraproject.org/paste/p3Vt-6cybg4s4DkgyvrrzA/raw
+Logs-2017-06-30-13-28.txt:[14:06] <sayan> *- https://paste.fedoraproject.org/paste/PHUFGAK8rP6gOh2CFohb4A/raw
+Logs-2017-06-30-13-28.txt:[14:35] <sayan> *- Add this to you vimrc file: https://gist.githubusercontent.com/ashwin/4730888/raw/0a5251a55cda93c1ab46869d4d83e23161a5807c/DisableArrowKeys.vim
+Logs-2017-06-30-13-28.txt:[15:03] <sayan> *- this is the package: https://github.com/VundleVim/Vundle.vim
+Logs-2017-06-30-13-28.txt:[15:13] <sayan> next: this is mine: https://paste.fedoraproject.org/paste/HDjNQkhkbtY4SaZvvXZhXg
+Logs-2017-07-03-13-28.txt:[14:32] <sayan> So, you should be having an out like https://pastebin.com/VvxBYUDM
+Logs-2017-07-03-13-28.txt:[14:37] <sayan> cignatious: do you see the output as: https://pastebin.com/VvxBYUDM
+Logs-2017-07-03-13-28.txt:[15:11] <sayan> vipulgupta2048_: https://www.computerhope.com/jargon/w/wildcard.htm
+Logs-2017-07-03-13-28.txt:[15:12] <sayan> saikat_: https://stackoverflow.com/questions/737673/how-to-read-the-mode-field-of-git-ls-trees-output/8347325#8347325
+Logs-2017-07-04-13-28.txt:[13:33] <sayan> https://paste.fedoraproject.org/paste/vvEi9Satwai2FOprwAh0YQ
+Logs-2017-07-04-13-28.txt:[13:33] <sayan> https://paste.fedoraproject.org/paste/oEE2reA7EqH5eB7KpcDh-Q
+Logs-2017-07-04-13-28.txt:[13:53] <cran-cg> sayan: https://pastebin.com/n8CvmWEG
+Logs-2017-07-04-13-28.txt:[14:17] <saikat_> sayan, see mine once, https://paste.fedoraproject.org/paste/hiF89k41HhnPhYVxDYiV3w
+Logs-2017-07-04-13-28.txt:[14:26] <sayan> https://paste.fedoraproject.org/paste/sjKIB8WYg78Mhpe2jbb5EQ
+Logs-2017-07-04-13-28.txt:[14:28] <sayan> soumam007: did you open https://paste.fedoraproject.org/ ?
+Logs-2017-07-04-13-28.txt:[14:36] <ganeshnomula_> imranjeetsingh_: check this tree link posted by sayan and perform git -log from different branches, you’ll understand what you’re getting. https://paste.fedoraproject.org/paste/sjKIB8WYg78Mhpe2jbb5EQ
+Logs-2017-07-04-13-28.txt:[14:36] <sayan> https://paste.fedoraproject.org/paste/sjKIB8WYg78Mhpe2jbb5EQ
+Logs-2017-07-04-13-28.txt:[15:07] <sayan> - git remote add origin https://github.com/<username>/git-class-dgplug2017.git
+Logs-2017-07-04-13-28.txt:[15:10] <saikat_> sayan, do we do " git remote add origin https://github.com/<username>/git-class-dgplug2017.git" in terminal now?
+Logs-2017-07-04-13-28.txt:[15:12] <sayan> and run git remote add origin https://github.com/<username>/git-class-dgplug2017.git
+Logs-2017-07-04-13-28.txt:[15:14] <sayan> So here you are creating a remote name origin and giving the endpoint https://github.com/fedora-infra/statscache/pull/57
+Logs-2017-07-04-13-28.txt:[15:14] <sayan> https://github.com/<username>/git-class-dgplug2017.git
+Logs-2017-07-04-13-28.txt:[15:19] <sayan> Also, paste your github repo url here: https://etherpad.gnome.org/p/dgplug-github-url
+Logs-2017-07-04-13-28.txt:[15:20] <sayan> yurii: and type this: git remote add origin https://github.com/yuriypylypchuk/git-class-dgplug2017.git
+Logs-2017-07-04-13-28.txt:[15:31] <sayan> - git remote add another-remote https://github.com/<username>/git-class-dgplug2017.git
+Logs-2017-07-04-13-28.txt:[15:33] <yurii> sayan - i got this ----- fatal: Authentication failed for 'https://github.com/yuriypylypchuk/git-class-dgplug2017.git/'
+Logs-2017-07-04-13-28.txt:[15:35] <sayan> yurii: https://github.com/password_reset
+Logs-2017-07-05-13-45.txt:[14:08] <skat_sd> but sayan, then what does cloning do? this page<https://stackoverflow.com/questions/5143119/what-does-this-mean-clone-the-github-repository> says that cloning is also creating a local copy.
+Logs-2017-07-05-13-45.txt:[14:17] <sayan> *- So fire up your browser, open https://github.com/sayanchowdhury/venus
+Logs-2017-07-05-13-45.txt:[14:19] <sayan> https://etherpad.gnome.org/p/dgplug-github-url
+Logs-2017-07-05-13-45.txt:[14:30] <championshuttler> anug : clone this repo https://github.com/sayanchowdhury/venus then paste your repo link in this https://etherpad.gnome.org/p/dgplug-github-url
+Logs-2017-07-05-13-45.txt:[14:31] <sayan> First you need to fork the repo in github: https://github.com/sayanchowdhury/venus
+Logs-2017-07-05-13-45.txt:[14:32] <sayan> git clone https://github.com/iampooja/venus.git
+Logs-2017-07-05-13-45.txt:[14:47] <sayan> And create a PR: https://help.github.com/articles/creating-a-pull-request-from-a-fork/
+Logs-2017-07-05-13-45.txt:[15:22] <sayan> samridhia: https://help.github.com/articles/creating-a-pull-request-from-a-fork/
+Logs-2017-07-05-13-45.txt:[15:28] <skat_sd> sayan, https://paste.fedoraproject.org/paste/ZVXYl7-FyQWCW7HqhonsFw
+Logs-2017-07-07-13-29.txt:[14:12] <kushal> Now, every start following https://dgplug.org/irclogs/2012/rst-primer/  if you are done, type done here, if you have any queries feel to raise your hand.
+Logs-2017-07-07-13-29.txt:[14:36] <sandeepK> kushal, got this error https://pastebin.com/brYsv0yU
+Logs-2017-07-07-13-29.txt:[14:39] <sandeepK> kushal, https://pastebin.com/c86hE85c
+Logs-2017-07-07-13-29.txt:[14:45] <kushal> samridhia, https://eng244.files.wordpress.com/2012/11/footnote1.jpg
+Logs-2017-07-10-13-58.txt:[14:16] <kushal> On 30th June, Gnome project did a tweet.  https://twitter.com/gnome/status/880601488346632194
+Logs-2017-07-10-13-58.txt:[14:16] <kushal> To that there were various different replies, a few of them are like this one https://twitter.com/BrendanClemmer/status/880777686033076224
+Logs-2017-07-10-13-58.txt:[14:17] <kushal> As a reply Miguel De Icaza made this particular tweet: https://twitter.com/migueldeicaza/status/880813770653782017
+Logs-2017-07-10-13-58.txt:[14:29] <kushal> https://en.wikipedia.org/wiki/TX-0 this is the computer.
+Logs-2017-07-10-13-58.txt:[14:56] <kushal> https://en.wikipedia.org/wiki/File:Spacewar!-PDP-1-20070512.jpg
+Logs-2017-07-10-13-58.txt:[15:30] <kushal> All these macros made this scene in real life : https://xkcd.com/1806/
+Logs-2017-07-10-13-58.txt:[15:38] <kushal> rkased, This are the computers https://en.wikipedia.org/wiki/PDP-10
+Logs-2017-07-10-13-58.txt:[15:42] <kushal> Open up https://en.wikipedia.org/wiki/Unix#/media/File:Ken_Thompson_(sitting)_and_Dennis_Ritchie_at_PDP-11_(2876612463).jpg
+Logs-2017-07-10-13-58.txt:[15:45] <kushal> [This](https://en.wikipedia.org/wiki/File:LISP_machine.jpg)
+Logs-2017-07-10-13-58.txt:[16:01] <kushal> The FSF also started sending out bulletins, you can read the first one https://www.gnu.org/bulletins/bull1.txt
+Logs-2017-07-10-13-58.txt:[16:14] <kushal> The first book to read is https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution
+Logs-2017-07-10-13-58.txt:[16:15] <kushal> http://web.archive.org/web/20150103152231/https://static.fsf.org/nosvn/faif-2.0.pdf
+Logs-2017-07-10-13-58.txt:[16:26] <kushal> Here is the source: https://dgplug.org/irclogs/2012/rst-primer/talk.rst
+Logs-2017-07-12-13-29.txt:[15:29] <kushal> avik, https://en.wikipedia.org/wiki/Distribution_(business)
+Logs-2017-07-12-13-29.txt:[15:30] <kushal> avik, For tl;dr https://www.merriam-webster.com/dictionary/distribution
+Logs-2017-07-12-13-29.txt:[15:44] <kushal> https://dgplug.org/irclogs/2014/vanl.log is a log from VanL about Creative Commons.
+Logs-2017-07-14-13-35.txt:[13:41] <kushal> So, do the first 4 steps in this https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/  remember not to change the default file location, and give it a good passphrase
+Logs-2017-07-14-13-35.txt:[13:56] <kushal> yurii_, do the first 4 steps from https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+Logs-2017-07-14-13-35.txt:[14:04] <skarpy> kushal: https://paste.fedoraproject.org/paste/BcsmVXpN-9jII4IdTY19Gg this are the files showing, what does those mean?
+Logs-2017-07-14-13-35.txt:[14:13] <kushal> https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+Logs-2017-07-14-13-35.txt:[14:13] <kushal> and after that start reading about ssh from https://en.wikipedia.org/wiki/Secure_Shell
+Logs-2017-07-14-13-35.txt:[14:24] <kushal> rkased, https://en.wikipedia.org/wiki/Bantul_the_Great
+Logs-2017-07-14-13-35.txt:[14:27] <kushal> omair_kh, https://help.github.com/articles/working-with-ssh-key-passphrases/
+Logs-2017-07-14-13-35.txt:[14:32] <kushal> Vamsi3296, Phi_mb https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process
+Logs-2017-07-14-13-35.txt:[14:35] <kushal> https://github.com/vamsi3296.keys
+Logs-2017-07-14-13-35.txt:[14:36] <kushal> https://github.com/kushaldas.keys is mine
+Logs-2017-07-14-13-35.txt:[15:22] <rkased> sayan - "GPG key to use for signing commits and tags." https://help.github.com/articles/generating-a-new-gpg-key/
+Logs-2017-07-14-13-35.txt:[15:23] <sayan> Now people go to this repo: https://github.com/dgplug/dgplug10
+Logs-2017-07-14-13-35.txt:[15:32] <sayan> like during the git class we used https
+Logs-2017-07-14-13-35.txt:[15:39] <sayan> only the communication protocol changed from https to ssh
+Logs-2017-07-14-13-35.txt:[15:41] <sayan> and to communicate with Github you use https or ssh
+Logs-2017-07-14-13-35.txt:[15:43] <avik> sayan, why do you recommend ssh over https?
+Logs-2017-07-14-13-35.txt:[15:45] <im_mohsin> sayan, i'm getting this error https://pastebin.com/Njti0Wnb
+Logs-2017-07-14-13-35.txt:[15:54] <skarpy> sayan: https://paste.fedoraproject.org/paste/KMFJ~z3dktkH9wz2f~HAgQ , help a bit.
+Logs-2017-07-14-13-35.txt:[15:55] <im_mohsin> sayan, i'm getting this error https://pastebin.com/Njti0Wnb
+Logs-2017-07-14-13-35.txt:[15:56] <sayan> and then pass the links of https://www.github.com/<username>.keys
+Logs-2017-07-14-13-35.txt:[15:57] <skarpy> sayan: https://paste.fedoraproject.org/paste/LlbyLiqTw8dT~cXJV6rsJA
+Logs-2017-07-17-13-27.txt:[13:45] <mbuf> Of course, scrum mode is useful too https://github.com/ianxm/emacs-scrum
+Logs-2017-07-17-13-27.txt:[13:48] <mbuf> Cask: https://github.com/cask/cask
+Logs-2017-07-17-13-27.txt:[13:49] <mbuf> You can browse and read blogs using elfeed (for example), https://github.com/skeeto/elfeed
+Logs-2017-07-17-13-27.txt:[13:51] <mbuf> I have some examples created as well https://github.com/shakthimaan/literate-devops-using-gnu-emacs
+Logs-2017-07-17-13-27.txt:[13:54] <mbuf> You should check out helm for the same https://tuhdo.github.io/helm-intro.html
+Logs-2017-07-17-13-27.txt:[13:56] <mbuf> Gnus has a learning curve https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/gnus-guide-en.org
+Logs-2017-07-17-13-27.txt:[14:03] <mbuf> Emacs magit shortcut reference is available at https://github.com/shakthimaan/emacs-magit-git-magic
+Logs-2017-07-17-13-27.txt:[14:04] <mbuf> I had prepared a quick reference list here https://github.com/shakthimaan/emacs-a-day-keeps-the-vi-zing-away
+Logs-2017-07-17-13-27.txt:[14:04] <mbuf> I had also prepared a book generation template for using with Emacs, Org Mode and LaTeX at https://github.com/shakthimaan/xetex-book-template
+Logs-2017-07-17-13-27.txt:[14:05] <mbuf> My Emacs cask setup is at https://github.com/shakthimaan/cask-dot-emacs
+Logs-2017-07-17-13-27.txt:[14:10] <mbuf> "The Editor of a Lifetime" by Perry Metzger is a good talk as well https://www.youtube.com/watch?v=VADudzQGvU8
+Logs-2017-07-17-13-27.txt:[14:15] <mbuf> The "Emacs for Writers" talk is a good example of how someone who does not know coding but still uses Emacs https://www.youtube.com/watch?v=FtieBc3KptU
+Logs-2017-07-17-13-27.txt:[14:16] <mbuf> The Literate DevOps with Emacs talk by Howard is a must watch https://www.youtube.com/watch?v=dljNabciEGg&t=111s
+Logs-2017-07-17-13-27.txt:[14:18] <mbuf> You will also find useful information from the Emacs wiki https://www.emacswiki.org/
+Logs-2017-07-17-13-27.txt:[14:22] <mbuf> curl https://raw.githubusercontent.com/shakthimaan/shakthimaan-tweets/master/complete.txt | grep -i emacs
+Logs-2017-07-17-13-27.txt:[14:32] <mbuf> Also watch, "My week in Emacs" by Tory S. Anderson for motivation, https://www.youtube.com/watch?v=Q8AqHdZTgNI (~ 12m)
+Logs-2017-07-19-13-27.txt:[15:33] <kushal> I am going to suggest to start using Thunderbird, and along with that https://ssd.eff.org/en/module/how-use-pgp-linux
+Logs-2017-07-19-13-27.txt:[15:35] <kushal> Also read everything from https://ssd.eff.org/
+Logs-2017-07-24-13-28.txt:[14:56] <sayan> I read an article today: https://theoutline.com/post/1953/how-a-vc-funded-company-is-undermining-the-open-source-community
+Logs-2017-07-26-13-27.txt:[13:38] <kushal> https://en.wikipedia.org/wiki/Interpreted_language
+Logs-2017-07-26-13-27.txt:[13:38] <kushal> https://en.wikipedia.org/wiki/Compiled_language
+Logs-2017-07-26-13-27.txt:[13:52] <kushal> To know about indentation in general, https://en.wikipedia.org/wiki/Indent_style
+Logs-2017-07-26-13-27.txt:[14:01] <kushal> You can download and use https://www.jetbrains.com/pycharm/ community edition
+Logs-2017-07-26-13-27.txt:[14:01] <kushal> or https://code.visualstudio.com/
+Logs-2017-07-26-13-27.txt:[14:02] <kushal> If you are low on RAM, https://code.visualstudio.com/ is easier.
+Logs-2017-07-26-13-27.txt:[14:04] <kushal> https://notebooks.azure.com/   but this will require a login to the microsoftonline, if you don't have one, you can make one.
+Logs-2017-07-26-13-27.txt:[14:06] <kushal> Now, I will wait for 5 minutes, if you want please go ahead and create an account in https://notebooks.azure.com/ or use your existing login
+Logs-2017-07-26-13-27.txt:[14:15] <kushal> Like I have https://notebooks.azure.com/kushaldas/libraries/dgplug
+Logs-2017-07-26-13-27.txt:[14:19] <kushal> Everyone should see something like https://kushaldas.in/emptylibrary.png
+Logs-2017-07-26-13-27.txt:[14:23] <kushal> https://kushaldas.in/readynotebook.png  you should see a notebook ready like this.
+Logs-2017-07-26-13-27.txt:[14:31] <kushal> https://notebooks.azure.com/n/dIyIs3s7jHE/notebooks/summertraining.ipynb
+Logs-2017-07-28-13-33.txt:[13:42] <sayan> championshuttler: https://www.python.org/dev/peps/pep-3105/
+Logs-2017-07-28-13-33.txt:[14:30] <sayan> update the links here: https://etherpad.gnome.org/p/dgplug-2018
+Logs-2017-07-28-13-33.txt:[14:31] <kushal> samridhia, https://notebooks.azure.com/anon-9o7bwq/libraries/dgplug2/html/practice.ipynb
+Logs-2017-07-28-13-33.txt:[14:41] <sayan> jasonbraganza: this: https://notebooks.azure.com/jasonbraganza/libraries/dgplug/html/summertraining.ipynb
+Logs-2017-07-28-13-33.txt:[14:45] <balaji> sayan,  https://notebooks.azure.com/n/Wk6T6AksC1c/notebooks/IOprogram.ipynb
+Logs-2017-07-28-13-33.txt:[15:01] <avik> sayan, https://notebooks.azure.com/technotron/libraries/dgplug/html/calculator_ifelse.ipynb
+Logs-2017-07-28-13-33.txt:[15:25] <sayan> https://www.python.org/dev/peps/pep-0008/
+Logs-2017-07-28-13-33.txt:[15:27] <sayan> this talk: https://www.youtube.com/watch?v=0PkRhfRkj1s
+Logs-2017-07-28-13-33.txt:[15:27] <sayan> and this talk: https://www.youtube.com/watch?v=knMg6G9_XCg
+Logs-2017-07-31-13-33.txt:[14:21] <sayan> jasonbraganza: https://github.com/sayanchowdhury/fedimg/blob/feature/modular-ec2/fedimg/services/ec2/ec2imgpublisher.py#L74
+Logs-2017-07-31-13-33.txt:[14:27] <sayan> Update the azure links here: https://etherpad.gnome.org/p/dgplug-2018
+Logs-2017-08-02-13-50.txt:[13:52] <sayan> Note the link to the github repo in this link: https://etherpad.gnome.org/p/dgplug-2018
+Logs-2017-08-02-13-50.txt:[14:12] <sayan> If you see jasonbraganza did 33 commits: https://github.com/jasonbraganza/mjbneue/commits/master
+Logs-2017-08-07-14-10.txt:[14:13] <kushal> sayan, rtnpro fhackdroid we had documentation https://ircbot.readthedocs.io/en/latest/
+Logs-2017-08-09-13-40.txt:[13:49] <kushal> https://notebooks.azure.com/san-D/libraries/san-D/html/pythonPractice.ipynb this looks weird to anyone?
+Logs-2017-08-09-13-40.txt:[13:59] <kushal> https://pymbook.readthedocs.io/en/latest/datastructure.html  start reading from here.
+Logs-2017-08-09-13-40.txt:[14:27] <kushal> avik, also https://stackoverflow.com/questions/10545167/what-does-it-mean-to-flush-file-contents-in-python#10545247
+Logs-2017-08-11-15-26.txt:[15:28] <kushal> https://paste.fedoraproject.org/paste/1AFFhbd6xdXmNJvnMzZeEQ/raw
+Logs-2017-08-11-15-26.txt:[16:11] <kushal> Anyway, for everyone, https://notebooks.azure.com/kushaldas/libraries/dgplug
+Logs-2017-08-11-15-26.txt:[16:36] <kushal> Everyone, next start reading the strings chapter https://pymbook.readthedocs.io/en/latest/strings.html
+Logs-2017-08-14-13-27.txt:[13:36] <kushal> yurii, https://docs.python.org/3/library/stdtypes.html#old-string-formatting
+Logs-2017-08-14-13-27.txt:[13:42] <kushal> https://paste.fedoraproject.org/paste/MIJBk0P3N7wAVkJ7Dnp~fA
+Logs-2017-08-14-13-27.txt:[14:04] <ashwanig> kushal, https://paste.fedoraproject.org/paste/Ou3v59Msl5bkMwZoRmzLmg
+Logs-2017-08-14-13-27.txt:[14:05] <ikshitij> kushal: https://notebooks.azure.com/kshitiz/libraries/dgplug/html/summertraining.ipynb
+Logs-2017-08-14-13-27.txt:[14:07] <ashwanig> kushal, https://paste.fedoraproject.org/paste/f9UiCO6OxKlj5jQrzie2Pw
+Logs-2017-08-14-13-27.txt:[14:08] <asraisingh> kushal: error corrected, https://notebooks.azure.com/n/9vUasNwt1yg/notebooks/summertraining.ipynb
+Logs-2017-08-14-13-27.txt:[14:22] <ikshitij> kushal: Working https://notebooks.azure.com/kshitiz/libraries/dgplug/html/summertraining.ipynb
+Logs-2017-08-14-13-27.txt:[14:26] <ikshitij> kushal: https://notebooks.azure.com/kshitiz/libraries/dgplug/html/summertraining.ipynb Corrected again
+Logs-2017-08-14-13-27.txt:[14:47] <bhavin192> kushal, what do you think about this the `buffer_index` https://notebooks.azure.com/bhavin192/libraries/dgplug/html/summertraining.ipynb
+Logs-2017-08-14-13-27.txt:[14:58] <kushal> anuGupta, if you remember https://pymbook.readthedocs.io/en/latest/ifelse.html#truth-value-testing
+Logs-2017-08-14-13-27.txt:[15:01] <kushal> Take the whole file as a string in triple quotes from https://dgplug.org/irclogs/2017/Logs-2017-06-18-13-41.txt
+Logs-2017-08-21-13-27.txt:[14:38] <mbuf> schubisu, some CL implement tail call optimization https://0branch.com/notes/tco-cl.html
+Logs-2017-08-21-13-27.txt:[14:39] <mbuf> BTW, reddit has popular discussions on emacs https://www.reddit.com/r/emacs/comments/2s9wxw/why_doesnt_emacs_lisp_have_optimized_tail/
+Logs-2017-08-21-13-27.txt:[14:49] <mbuf> jasonbraganza, in the conventional for loop, you iterate each time; see mapping over sequences https://www.gnu.org/software/emacs/manual/html_node/cl/Mapping-over-Sequences.html
+Logs-2017-08-21-13-27.txt:[15:00] <mbuf> This is based on the NYC Emacs meetup presentation done by Harry Schwartz https://harryrschwartz.com/2014/04/08/an-introduction-to-emacs-lisp.html
+Logs-2017-08-21-13-27.txt:[15:02] <mbuf> The PDF of Harry's article https://harryrschwartz.com/assets/documents/articles/an-introduction-to-emacs-lisp.pdf
+Logs-2017-08-21-13-27.txt:[15:04] <mbuf> If you want to learn more, you can read this freely available book https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html
+Logs-2017-08-21-13-27.txt:[15:05] <mbuf> "An Introduction to Programming in Emacs Lisp" by Robert J. Chassell https://www.gnu.org/software/emacs/manual/pdf/eintr.pdf
+Logs-2017-08-21-13-27.txt:[15:18] <mbuf> samridhia, use different modes with parenthesis and you should be fine! Watch this video with John Wiegley https://www.youtube.com/watch?v=QRBcm6jFJ3Q&t=1s

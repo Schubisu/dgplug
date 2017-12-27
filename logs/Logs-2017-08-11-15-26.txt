@@ -1,0 +1,188 @@
+----BEGIN CLASS----
+[15:26] <kushal> #startclass
+[15:26] <kushal> Roll Call
+[15:26] <jasonbraganza> Jason Braganza
+[15:26] <amey> Amey Jain
+[15:26] <poojaencoded> pooja kumari singh
+[15:26] <bhavin192> Bhavin Gandhi
+[15:26] <ashwanig> Ashwani Kumar Gupta
+[15:27] <deepika> Deepika Upadhyay
+[15:27] <ahole[m]> Kshithij Iyer
+[15:27] <san-D> Sandesh Patel
+[15:27] <knrai> Krishnanand Rai
+[15:28] <kushal> Okay.
+[15:28] <kushal> Before we take questions, you can see there was enough time to discuss between all participants, but there were not many questions.
+[15:28] <kushal> https://paste.fedoraproject.org/paste/1AFFhbd6xdXmNJvnMzZeEQ/raw
+[15:28] <kushal> There is a list l.
+[15:29] <kushal> Which has a few English words.
+[15:29] <devesh[m]> Devesh Verma
+[15:30] <kushal> Write some code (using whatever is taught till now) on your notebook, and tell us which two words has highest usages?
+[15:31] <anuGupta> Anu kumari Gupta
+[15:32] <pr97> Priyanka Sharma
+[15:32] <avik> kushal, what do you mean by usages?
+[15:32] <avik> where to tally from?
+[15:33] <kushal> avik, Number of times there in the list.
+[15:33] <avik> ok!
+[15:36] <atul916> !
+[15:40] <kushal> next
+[15:45] <balaji>  Balaji
+[15:47] <anuGupta> https://notebooks.azure.com/n/cL7jv4S75TY/notebooks/summertraining.ipynb
+[15:47] <anuGupta> kushal, is it correct?
+[15:48] <kushal> checking
+[15:48] <anuGupta> Sorry once again my variable names are not correct
+[15:48] <anuGupta> Apologies
+[15:48] <kushal> It is confusing to read.
+[15:49] <kushal> anuGupta, now suggestion: Use a dictionary to have each word as a key, and the number of times you see them is a value.
+[15:49] <san-D> https://notebooks.azure.com/n/huqBE3doFt4/notebooks/pythonPractice.ipynb
+[15:49] <kushal> anuGupta, Use that
+[15:49] <ashwanig> https://paste.fedoraproject.org/paste/eaIGHXgLhYdrHflwHyhIvg
+[15:49] <kushal> san-D, no access
+[15:49] <anuGupta> Ok kushal
+[15:50] <san-D> oops!
+[15:50] <san-D> https://notebooks.azure.com/n/huqBE3doFt4/notebooks/pythonPractice.ipynb
+[15:50] <ashwanig> sorry my azure notebook is not opening for some reason
+[15:50] <ashwanig> san-D, still not accessible, post the library link
+[15:52] <san-D> https://notebooks.azure.com/san-D/libraries/san-D
+[15:53] <san-D> ashwanig: select pythoPractice
+[15:54] <ashwanig> san-D, It is accessible now. I got the same output. Let kushal check :)
+[15:54] <san-D> :)
+[15:55] <kushal> san-D, when you are creating tuples, good idea is to put them inside of ()
+[15:55] <kushal> first = ("". 0)
+[15:55] <kushal> and same
+[15:55] <san-D> kushal: ok
+[15:57] <knrai> https://notebooks.azure.com/n/Hh3H19RDTXs/notebooks/summertraining.ipynb
+[15:58] <ashwanig> knrai, no access
+[15:59] <knrai> https://notebooks.azure.com/anon-4cd7pa/libraries/knrai
+[16:02] <san-D> knrai: good logic :)
+[16:04] <ashwanig> knrai, Just a suggestion, don't you think `s` should have a better name?
+[16:05] <knrai> ashwanig: yup
+[16:06] <ashwanig> !
+[16:07] <kushal> next
+[16:07] <ashwanig> When I am trying `for word, frequency in frequency_table:` I get a ValueError
+[16:08] <ashwanig> it tells me that too many values to unpack. Why is that? <eof>
+[16:11] <kushal> ashwanig, means frequency_table has more than 3 times for each item :)
+[16:11] <kushal> Anyway, for everyone, https://notebooks.azure.com/kushaldas/libraries/dgplug
+[16:11] <kushal> check the summer training notebook
+[16:12] <kushal> This should have a words dict which contains the details
+[16:13] <kushal> tell me if you can not see that
+[16:13] <Phi_mb> #hello everyone :)
+[16:14] <bhavin192> kushal, sorry, I was not able to complete the task as I was travelling. but I was thinking about the logic
+[16:16] <Phi_mb> I am thinking to switch to linux distro other than ubuntu, any suggestions?  I am confused between debian, fedora and out of curiousity RHEL. :)
+[16:21] <anuGupta> !
+[16:22] <avik> https://notebooks.azure.com/technotron/libraries/dgplug/html/summertraining.ipynb
+[16:22] <avik> kushal, ^^
+[16:23] <kushal> Phi_mb, there is a session going on, so ask later.
+[16:23] <kushal> avik, Okay
+[16:23] <kushal> next
+[16:23] <Phi_mb> kushal: oops sorry,
+[16:23] <kushal> People please have a look at my summertraining notebook
+[16:24] <anuGupta> Although it's absurd but if I know the value in a dictionary, can I access somehow the key?
+[16:24] <kushal> anuGupta, you will have to loop though all the key/value combination to do that.
+[16:24] <kushal> anuGupta, Please have a look at the code I wrote
+[16:25] <avik> !
+[16:25] <ashwanig> kushal, understood
+[16:25] <kushal> I am pasting here for later reference
+[16:25] <kushal> words = {}  # Empty dictionary
+[16:25] <kushal> for word in l:
+[16:25] <kushal>     if word in words:
+[16:25] <kushal>         count = words[word]
+[16:25] <kushal>         count += 1
+[16:25] <kushal>         words[word] = count
+[16:25] <kushal>     else:
+[16:25] <kushal>         words[word] = 1
+[16:25] <kushal>         
+[16:25] <kushal> # print(words)
+[16:25] <kushal> list_of_words = [(word[1],word[0]) for word in words.items()]
+[16:25] <kushal> list_of_words.sort(reverse=True)
+[16:25] <kushal> print(list_of_words[0], list_of_words[1])
+[16:25] <kushal> next
+[16:26] <avik> a very stupid question : how can I learn to think simple? the way you did
+[16:26] <ashwanig> kushal, I didn't use `frequency_table.items()` so was getting that error
+[16:26] <kushal> avik, Takes time, and you will have to read a lot of code, and then write some also
+[16:26] <ikshitij> Aah I missed today's session.
+[16:26] <kushal> ashwanig, otherwise you were only getting the key.
+[16:26] <avik> okay! a long road ahead! :D
+[16:26] <kushal> ikshitij, It is still going on.
+[16:26] <kushal> avik, Yes.
+[16:27] <ikshitij> Ok kushal
+[16:27] <ashwanig> !
+[16:27] <kushal> next
+[16:27] <ashwanig> `list_of_words = [(word[1],word[0]) for word in words.items()]` - what is this line doing? <eof>
+[16:28] <kushal> ashwanig, let us split that line.
+[16:28] <kushal> words.items()
+[16:28] <kushal> What does this function do?
+[16:28] <kushal> ashwanig, ^^
+[16:28] <ashwanig> kushal, we get key,value pairs
+[16:28] <kushal> Okay, good.
+[16:28] <kushal> next
+[16:28] <kushal> oops
+[16:29] <kushal> for word in words.items --- what is this?
+[16:29] <kushal> A for loop, where we will get a tuple everytime, containing key, value.
+[16:29] <kushal> ashwanig, ^^ correct?
+[16:29] <ashwanig> iterating each key,value pair at a time in the dictionary word
+[16:29] <kushal> ashwanig, Correct
+[16:29] <ashwanig> yes
+[16:29] <kushal> So, I could add those tuples in a list by this
+[16:30] <kushal> list_of_words = []
+[16:30] <ashwanig> ah, understood :)
+[16:30] <kushal> for word in words.items():
+[16:30] <jasonbraganza> kushal - what is the else doing?
+[16:30] <pie3> how to get list of friends in hexchat?
+[16:30] <kushal>     list_of_words.append(word[1], word[0])
+[16:31] <ashwanig> kushal, got it :)
+[16:31] <kushal> ashwanig, now, I wrote that in a simple way using list comprehension
+[16:31] <kushal> :)
+[16:31] <kushal> jasonbraganza, What was your question?
+[16:32] <jasonbraganza> still trying to grasp the dictionary creation part
+[16:32] <jasonbraganza> i got the for part
+[16:32] <jasonbraganza> i do not understand wgat the else is for?
+[16:32] <jasonbraganza> i mean what the else condition does
+[16:32] <ashwanig> jasonbraganza, when a new word occurs which is not in the dictionary
+[16:33] <kushal> else:
+[16:33] <kushal>         words[word] = 1
+[16:33] <kushal> this one?
+[16:33] <jasonbraganza> yes
+[16:33] <jasonbraganza> oh wait!
+[16:33] <kushal> If the key is not the words, means we are encountering the word for the first time
+[16:33] <jasonbraganza> I got it backwards
+[16:33] <jasonbraganza> the for condition is counting and appending the count
+[16:33] <kushal> so setting the count as 1 for that word.
+[16:33] <jasonbraganza> of occurenses
+[16:33] <jasonbraganza> the else takes care of every new word like ashwanig says
+[16:34] <kushal> jasonbraganza, Yes.
+[16:34] <jasonbraganza> ok. now to figure out the next part.
+[16:35] <jasonbraganza> nope. kushal help
+[16:35] <jasonbraganza> what is this doing? list_of_words = [(word[1],word[0]) for word in words.items()]
+[16:35] <kushal> jasonbraganza, ask
+[16:35] <jasonbraganza> i got the other two lines
+[16:35] <bhavin192> jasonbraganza, I'm not able to understand that too
+[16:35] <kushal> jasonbraganza, I just explained that to ashwanig above.
+[16:35] <jasonbraganza> ver sorry
+[16:35] <jasonbraganza> will read
+[16:35] <kushal> jasonbraganza, read the log please :)
+[16:36] <kushal> Everyone, next start reading the strings chapter https://pymbook.readthedocs.io/en/latest/strings.html
+[16:37] <kushal> the session is continuing
+[16:37] <kushal> I am not closing it.
+[16:37] <kushal> ask questions here.
+[16:39] <jasonbraganza> kushal - I got it and kind of understood it.
+[16:39] <jasonbraganza> but i definitely need practice
+[16:40] <ashwanig> jasonbraganza, if you have any doubts we can discuss it
+[16:41] <jasonbraganza> nope. just a matter of me having to break it down and build it up fluently
+[16:46] <anuGupta> I have a doubt
+[16:47] <kushal> jasonbraganza, you will have to do it 10 times in next 4 months
+[16:47] <kushal> anuGupta, ask
+[16:47] <jasonbraganza> kushal totally agree.
+[16:47] <anuGupta> Can we sort a dictionary ?
+[16:47] <kushal> anuGupta, we just did that
+[16:48] <kushal> anuGupta, But, there are other ways
+[16:48] <anuGupta> You created a tupple before that
+[16:48] <kushal> anuGupta, I will leave that to you :)
+[16:48] <kushal> anuGupta, To think about how sort works tec
+[16:48] <kushal> etc
+[16:48] <anuGupta> Ok kushal
+[16:48] <anuGupta> :)
+[16:52] <bhavin192> Impressive! it sorts the list using first value from the tuple
+[16:55] <bhavin192> and uses next value if there is a tie
+[16:58] <ashwanig> bhavin192, yes
+[17:03] <kushal> Ending the session, please ask if you have any questions
+----END CLASS----

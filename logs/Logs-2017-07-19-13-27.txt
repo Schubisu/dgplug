@@ -1,0 +1,730 @@
+----BEGIN CLASS----
+[13:27] <sayan> #startclass
+[13:27] <sayan> Roll Call
+[13:27] <jasonbraganza> Jason Braganza
+[13:27] <NikitaK3> Nikita Kotak
+[13:27] <devesh_verma> Devesh Verma
+[13:27] <skat_sd> Saikat Dey
+[13:27] <im_mohsin> Mohsin Mumtaz
+[13:27] <knrai> Krishnanand Rai
+[13:27] <ikshitij> Kshitij
+[13:28] <abhinavshirur> Abhinav Shirur
+[13:28] <bhavin192> Bhavin Gandhi
+[13:28] <RIcharD_> Mayank gupta
+[13:28] <priyansh> Priyansh Sourav
+[13:28] <maxking> Abhilash Raj
+[13:28] <shivamA1> Shivam Ahirao
+[13:28] <lucifer> Atul kumar
+[13:28] <sitlanigaurav[m]> Gaurav Sitlani
+[13:28] <akshayg96> Akshay Gaikwad
+[13:28] <ahole[m]> kshithij Iyer
+[13:28] <avik> Avik Mukherjee
+[13:28] <samridhia> Samridhi Agarwal
+[13:28] <messifc> Messi Fc
+[13:28] <BhaveshSGupta> Bhavesh Gupta
+[13:28] <Ani_> Aniket uttam
+[13:28] <yurii> yurii pylypchuk
+[13:28] <ashwanig> Ashwani Kumar Gupta
+[13:28] <balaji> Balaji
+[13:28] <ravindra> Ravindra Lakal
+[13:28] <vivek_> Vivek Anand
+[13:28] <mbtamuli12> Mriyam Tamuli
+[13:28] <joyhimanshujoyhi> Himanshu Awasthi
+[13:28] <kundan> Kundan Kumar
+[13:28] <atultherajput> Atul Krishna
+[13:28] <sakshi> Sakshi Saraswat
+[13:28] <Vamsi3296>   Vamsi Krishna
+[13:28] <poojaencoded> pooja kumari singh
+[13:28] <kvy> kumar vipin yadav
+[13:28] <mayur01> Mayur khomane
+[13:28] <deepika> Deepika Upadhyay
+[13:29] <championshuttler> Shivam Singhal
+[13:29] <imack> Mahendra Yadav
+[13:29] <cran-cg> Chiranjeev Gupta
+[13:29] <hemanth_> hemanth savasere
+[13:29] <sandeepK> Sandeep Choudhary
+[13:30] <sayan> Today, we have puiterwijk who is part of Fedora Infrastructure sysadmin team and also is the Fedora Infrastructure Security Officer. So, you know you are in the right hands to know about gpg.
+[13:31] <sayan> puiterwijk: the channel is yours now :)
+[13:31] <puiterwijk> Hi.
+[13:31] <anuGupta> Anu kumari Gupta
+[13:31] <neer> Roll Call: Nishanta Sarma
+[13:31] <im_mohsin> Hi puiterwijk
+[13:31] <ahole[m]> puiterwijk: Hi
+[13:31] <jasonbraganza> Hello :)
+[13:31] <puiterwijk> So, as Sayan said, I sometimes do some things related to security/crypto.
+[13:31] <sakshi> Hi puiterwijk
+[13:31] <ikshitij> Hello puiterwijk
+[13:31] <shivamA1> Hello puiterwijk ;)
+[13:31] <puiterwijk> As such, Kushal asked me if I could give a quick intro to gpg and how to use it
+[13:31] <neer> puiterwijk Hello
+[13:32] <poojaencoded> Hi puiterwijk
+[13:32] <RIcharD_> Hi! puiterwijk
+[13:32] <realslimshanky_> rollcall - Shashank Kumar
+[13:32] <puiterwijk> Okay, so, just to get a quick feeling: how many people here have a GPG key and have used it before (if you don't know what that is, don't worry)?
+[13:32] <kishore> Roll Call- Kishore Saldanha
+[13:33] <puiterwijk> So, let's reverse: how many people do NOT have a GPG key?
+[13:34] <jasonbraganza> me!
+[13:34] <devesh_verma> me
+[13:34] <ashwanig> me
+[13:34] <puiterwijk> (And/or no idea what that is)
+[13:34] <samridhia> me
+[13:34] <im_mohsin> me
+[13:34] <shivamA1> Me
+[13:34] <Ani> me
+[13:34] <realslimshanky_> me
+[13:34] <mayur01> me
+[13:34] <sakshi> me
+[13:34] <poojaencoded> me
+[13:34] <RIcharD_> Me
+[13:34] <deepika> Me
+[13:34] <cran-cg> me
+[13:34] <yurii> me
+[13:34] <anuGupta> Me
+[13:34] <kundan> Me
+[13:34] <skat_sd> me
+[13:34] <messifc> me
+[13:34] <puiterwijk> Okay, great. At elast that confirms that this thing is on :)
+[13:34] <atultherajput> me
+[13:34] <devesh_verma> no idea what that is
+[13:34] <Cyber_freak> roll call Pradhvan Bisht
+[13:34] <knrai> me
+[13:34] <neer> no idea
+[13:34] <puiterwijk> Okay, so GPG is an abreviation for GnuPG, which itself is an abreviation for GNU Privacy Guard.
+[13:34] <ahole[m]> me
+[13:34] <championshuttler> i dont have key but have idea about it
+[13:35] <puiterwijk> It's basically an implementation of a crypto system you can use to exchange encrypted messages or sign messages
+[13:35] <apoorv> roll call :Apoorv Goel
+[13:35] <sachin> join
+[13:35] <sachin> JOIN
+[13:35] <NikitaK3> me
+[13:35] <puiterwijk> For first, make sure you can run "gpg --version" or "gpg2 --version" and it gives a version number. If not, now's the time to install it
+[13:36] <puiterwijk> The package is called "gnupg" (for v1) ofr "gnupg2" (for v2) in Fedora and Ubuntu
+[13:36] <puiterwijk> Preferably you would use gpg2 by now, but if you only have gpg, that's fine too.
+[13:37] <puiterwijk> I will probably just say "gpg" in the example commands, because I have done an alias gpg=gpg2 because I like typing less. But most commands should be identical between both
+[13:38] <puiterwijk> Is there anyone that doesn't have a version output with "gpg --version"?
+[13:39] <puiterwijk> So, let's first get you all a GPG key, so that we can start showing things by example
+[13:39] <soumam007> roll call : soumam banerjee soryy for being late
+[13:39] <puiterwijk> run this command: "gpg2 --gen-key" to start the key generation wizard
+[13:40] <puiterwijk> It will ask you for your name, email address and comment. Please enter your actual name/email there, and leave comment empty (just press enter). Then hit O and enter when it asks to confirm.
+[13:40] <ashwanig> !
+[13:40] <puiterwijk> If you're using gpg1, it will also ask about key type and size (leave those to default) and expiration (enter 2y and press enter, and confirm))
+[13:40] <puiterwijk> ashwanig: yes?
+[13:41] <ashwanig> sorry by mistake
+[13:41] <puiterwijk> Ah, okay
+[13:41] <saptaks> !
+[13:41] <puiterwijk> After that, it will ask you for a passphrase. Enter a strong passowrd there, and hit Ok
+[13:41] <puiterwijk> (you will need to enter it twice)
+[13:41] <puiterwijk> saptaks: yes?
+[13:41] <poojaencoded> !
+[13:42] <saptaks> can/should I have multiple gpg keys for the same email id?
+[13:42] <Cyber_freak> !
+[13:42] <sayan> next
+[13:42] <sayan> next
+[13:42] <puiterwijk> saptaks: you can have that, yes. But it will most likely confuse you and others that are trying to send you a message. I would suggest holding off with that for now
+[13:43] <adas0496> hello
+[13:43] <puiterwijk> If there's time left, I can explain more about how multi-key works
+[13:43] <adas0496> seems I am late. sorry for interruption
+[13:43] <saptaks> puiterwijk: okay
+[13:43] <puiterwijk> next
+[13:43] <puiterwijk> (oooh, this bot is fancy!)
+[13:43] <Cyber_freak> done saptaks asked my question
+[13:44] <poojaencoded> https://pastebin.com/01bSU1km
+[13:44] <poojaencoded> this is showing <eof>
+[13:45] <puiterwijk> poojaencoded: okay, that's what I said with the gpg1 case: then hit enter to default on keysize, hit enter to default on key type, and then enter 2y enter, y enter
+[13:45] <puiterwijk> (gpg2 takes these values as default)
+[13:45] <poojaencoded> ok puiterwijk
+[13:45] <puiterwijk> next
+[13:45] <puiterwijk> next
+[13:46] <puiterwijk> Okay. So, is anyone still busy generating a key?
+[13:46] <sandeepK> !
+[13:46] <bhavin192> !
+[13:46] <puiterwijk> next
+[13:46] <sandeepK> I got this error
+[13:46] <sandeepK> https://pastebin.com/KVkcrMrS
+[13:46] <CHOCOS1> anyone pm me the logs i am late :(
+[13:46] <ashwanig> !
+[13:46] <puiterwijk> that looks like you didn't enter a passphrase twice?
+[13:47] <puiterwijk> (or hit ctrl-c)
+[13:47] <Cyber_freak> CHOCOS1: the session is still going
+[13:48] <puiterwijk> next
+[13:48] <ahole[m]> !
+[13:48] <sandeepK> puiterwijk it did not asked for any pharse
+[13:48] <bhavin192> I'm getting `Error: The trustdb is corrupted`. Trying to fix it
+[13:48] <shivamA1> !
+[13:48] <ravindra> !
+[13:48] <puiterwijk> sandeepK: hmm, okay. That sounds like you might be using GNOME and the gnome-keyring comes in the middle
+[13:49] <puiterwijk> Maybe you can try in a VM or something that doesn't have GNOME?
+[13:49] <sandeepK> puiterwijk ok
+[13:49] <puiterwijk> bhavin192: if you're using gnupg1, rm ~/.gnupg/trustdb.gpg
+[13:49] <puiterwijk> next
+[13:49] <ashwanig> Should I delete the key if passphrase is forgotten?<eof>
+[13:49] <bhavin192> puiterwijk, got it working :)
+[13:49] <balaji> !
+[13:50] <bhavin192> puiterwijk, I'm using gnupg2
+[13:50] <puiterwijk> ashwanig: I would suggest against deleting the key in that case, since other people might still use it, and you might remember the passphrase later. And if you delete the key, you can't decrypt anything anymore
+[13:50] <puiterwijk> bhavin192: ah, okay
+[13:50] <puiterwijk> next
+[13:50] <ahole[m]> why do we need a gpg key in the first place?
+[13:51] <puiterwijk> ahole[m]: so, a gpg key is the key with which you can sign messages or other people can encrypt messages to you.
+[13:51] <apoorv> !
+[13:51] <sitlanigaurav[m]> bhavin192: try doing it under sudo
+[13:51] <shivamA1> It's showing trustdb is corrupted
+[13:51] <poojaencoded> !
+[13:51] <puiterwijk> Did anyone ever tell you about the CIA of security?
+[13:51] <puiterwijk> shivamA1: then try it with gpg1
+[13:52] <sitlanigaurav[m]> puiterwijk: no
+[13:52] <puiterwijk> Basically, with a GPG key you can encrypt messages between you and the receiver of the message, so that other people that are listening in to you can not see what you're saying
+[13:52] <ahole[m]> puiterwijk: Nope
+[13:52] <sitlanigaurav[m]> puiterwijk: i got the same error but got resolved when i used with sudo
+[13:52] <championshuttler> CHOCOS1: i pm you :)
+[13:52] <championshuttler>        !
+[13:53] <championshuttler> !
+[13:53] <Cyber_freak> championshuttler: already did pm to CHOCOS1
+[13:53] <im_mohsin> Can someone please send me previous log of this session? problem with network
+[13:53] <Cyber_freak> wait im_mohsin
+[13:53] <puiterwijk> Okay, so in security there's three key words: Confidentiallity (can only the intended recipient read the messages), Integrity (did the message not get changed by someone else) and Availability
+[13:53] <championshuttler> im_mohsin: pm me :)
+[13:54] <puiterwijk> If you abreviate those three words, it reads "CIA"
+[13:54] <shivamA1> It's working puiterwijk
+[13:54] <im_mohsin> championshuttler, Got it :)
+[13:54] <puiterwijk> So, with GPG you can encrypt a message, which gives you confidentiallity, and you can sign a message, which provides integrity
+[13:54] <ahole[m]> !
+[13:54] <puiterwijk> next
+[13:54] <knrai> !
+[13:56] <puiterwijk> next
+[13:56] <ravindra> I am getting this error https://paste.fedoraproject.org/paste/T1lCePFnCkbGGZHYN8rYKw tried using sudo too
+[13:56] <puiterwijk> ravindra: is this with gpg2 or gpg?
+[13:57] <ravindra> gpg2
+[13:57] <puiterwijk> Okay, can you try with gpg?
+[13:57] <ravindra> ok
+[13:57] <puiterwijk> next
+[13:57] <balaji> How can I see my generated key?
+[13:58] <championshuttler> ravindra: i think you exit during generation
+[13:58] <puiterwijk> balaji: great question: run gpg(or gpg2) --list-secret-keys
+[13:58] <puiterwijk> Do note: if you generated the key with gpg, use gpg for the rest of the session. If you generated it with gpg2, use that from now on. And if you ran it with sudo, you will have to continue to use sudo from now on
+[13:59] <puiterwijk> (at least for now, I can help look further into all these failures later probably)
+[13:59] <puiterwijk> next
+[13:59] <apoorv> what is the use of asking email  address it asked?
+[13:59] <puiterwijk> apoorv: GPG uses the email address to determine which key to use when people send you a message
+[13:59] <puiterwijk> You can look up a GPG key by email address, e.g.: https://keys.fedoraproject.org/pks/lookup?search=patrick%40puiterwijk.org&op=vindex
+[14:00] <apoorv> okay thank you
+[14:00] <puiterwijk> next
+[14:00] <poojaencoded> puiterwijk, after real name and email id it is asking  for comment
+[14:00] <puiterwijk> poojaencoded: right. Just hit enter there
+[14:00] <puiterwijk> Leave that empty for now
+[14:00] <poojaencoded> ok
+[14:00] <puiterwijk> That's more useful if you have multiple keys
+[14:00] <puiterwijk> next
+[14:00] <championshuttler> is whatsapp using gpg key?
+[14:00] <puiterwijk> championshuttler: no. They have their own system
+[14:01] <puiterwijk> They could use it, but I don't think they are
+[14:01] <puiterwijk> next
+[14:01] <balaji> puiterwijk, It shows sec and ssb in secret keys . Can you explain that ?
+[14:01] <ahole[m]> putty-gen does something  similar right ?
+[14:01] <knrai> what is 'Availability' ?
+[14:02] <puiterwijk> ahole[m]: putty-gen generates an SSH key, which is used for authentication purposes. But yes, it also generates a key, the key is just used differently
+[14:02] <puiterwijk> next
+[14:02] <knrai> what is 'Availability' ?
+[14:02] <puiterwijk> knrai: Availability comes down to that the system should be Available, so people should be able to use it
+[14:03] <puiterwijk> In other words, a server that is powered off is totally secure, but not available :)
+[14:03] <ashwanig> knrai, Where did you find Availability?
+[14:03] <puiterwijk> ashwanig: I just explained the CIA of security
+[14:03] <puiterwijk> (Confidentiallity, Integrity, Availability)
+[14:04] <ashwanig> puiterwijk, Ah okay :)
+[14:04] <puiterwijk> Okay. So I'm going to assume that everyone now has at least a GPG key.
+[14:04] <puiterwijk> Let's move on to how you can use it
+[14:04] <puiterwijk> First, as I already said earlier: please run gpg --list-secret-keys, that should list your key
+[14:05] <puiterwijk> (as I said before: use the same command for "gpg" that you used when generating the key, whether that's gpg, gpg2, or sudo gpg(2))
+[14:06] <puiterwijk> That will print output that contains for example a line like "sec   rsa2048/0x3C0F28BCB48895CF 2017-07-19 [SC] [expires: 2019-07-19]"
+[14:06] <puiterwijk> After that, it will print a line "uid                   [ultimate] DGPlug Testing <dgplug@example.com>"
+[14:06] <shivamA1> puiterwijk: can u repeat the command
+[14:07] <puiterwijk> shivamA1: gpg --list-secret-keys
+[14:07] <shivamA1> Okay ty
+[14:07] <shivamA1> Thank you
+[14:07] <puiterwijk> Those lines contain a lot of information.
+[14:07] <kushal> shivamA1, Kicking you out for typing in sms language.
+[14:07] <anuGupta> !
+[14:07] <puiterwijk> The uid line contains the name and email address
+[14:07] <puiterwijk> next
+[14:08] <anuGupta> Actually I tried using both got and gpg2 .what I found was using gpg created secrings and pubrings
+[14:08] <puiterwijk> anuGupta: correct. That is no problem, just ignore that for now
+[14:08] <anuGupta> I am using gpg2<eof>
+[14:09] <shivamA1> Sorry won't do it again kushal please
+[14:09] <anuGupta> Ok
+[14:09] <puiterwijk> Okay, so, the "uid" line contains your name and email, this is called the User ID (thus uid)
+[14:09] <puiterwijk> The other interesting line for now is the "sec" line
+[14:09] <puiterwijk> That tells you that that's a secret key
+[14:10] <hemanth_> !
+[14:10] <puiterwijk> the next part, rsa2048 is the key type and size: RSA algorithm, 2048 bits
+[14:10] <puiterwijk> The next part, that starts with 0x3C0F... in my case is the key ID. That's a unique identifier for this key
+[14:10] <puiterwijk> The next field is the creation date (I created this today, so it says 2017-07-19)
+[14:11] <puiterwijk> the "SC" part indicates that this is a primary key ("C" for Certify) and that it is used when you sign things ("S" for Sign), and the last part is indicating when this key will expire
+[14:11] <puiterwijk> next
+[14:11] <hemanth_> why is there "[ultimate]" written  before name and email-ID
+[14:12] <puiterwijk> hemanth_: that is an indicator by GPG that this key is marked as "ultimately trusted", which basically means that it's a key you generated yourself
+[14:12] <apoorv> !
+[14:12] <skarpy>  !
+[14:12] <puiterwijk> in GPG, you can mark keys as trusted to a certain level. And ultimate is the top level, which is used for your own keys (since you're pretty sure who you are, hopefully)
+[14:12] <puiterwijk> next
+[14:12] <sitlanigaurav[m]> !
+[14:12] <apoorv> no expire part in mine ?
+[14:13] <hemanth_> thank you puiterwijk
+[14:13] <devesh_verma__> !
+[14:13] <ashwanig> !
+[14:13] <kishore> !
+[14:13] <apoorv> s/there is
+[14:13] <puiterwijk> apoorv: then you probably didn't generate the key just now, or you entered a "0" during creation for expiration. That's fine for now
+[14:13] <im_mohsin> !
+[14:13] <apoorv> okay
+[14:13] <puiterwijk> My personal suggestion is to make keys that last two years and then generate a new one, so you change keys often, and that if you lose the private key it's not a big problem
+[14:13] <puiterwijk> (since people will stop using it)
+[14:14] <puiterwijk> next
+[14:14] <sitlanigaurav[m]> In the SC part , what does it certify?
+[14:14] <anuGupta> !
+[14:14] <avik> !
+[14:14] <sitlanigaurav[m]> And why is it done?
+[14:14] <puiterwijk> sitlanigaurav[m]: that key is used to sign the "uid" part of the key. So, basically, with that key you sign a statement "I am $myname"
+[14:14] <skarpy> !
+[14:14] <puiterwijk> That is done when you generate a key, or add extra uids or other subkeys to the key
+[14:15] <puiterwijk> next
+[14:15] <devesh_verma__> done
+[14:15] <puiterwijk> next
+[14:15] <ashwanig> What does ssb stand for? <eom>
+[14:15] <kishore> What is the typical application for gpg?
+[14:15] <puiterwijk> ashwanig: that's a Secret SuBkey
+[14:16] <ashwanig> What is that?
+[14:16] <puiterwijk> kishore: a lot of people use it for 1. sending emails, or 2. verifying messages from other people
+[14:16] <kishore> ok
+[14:16] <puiterwijk> ashwanig: basically, a second GPG key that's "attached" to the main key.
+[14:16] <puiterwijk> next
+[14:16] <atultherajput> !
+[14:16] <puiterwijk> next
+[14:16] <im_mohsin> After the key expires, i have to use the same command to generate a new or anything else to update?
+[14:17] <maxking> !
+[14:17] <ahole[m]> !
+[14:17] <puiterwijk> im_mohsin: my suggestion would be to generate a new key, but you could edit the key to change the expiration date
+[14:17] <puiterwijk> next
+[14:17] <anuGupta> I am having the expired date the same,that is, today's date <eof>
+[14:17] <puiterwijk> anuGupta: can you paste the "sec" line here?
+[14:17] <skat_sd> !
+[14:17] <anuGupta> Ok
+[14:18] <ahole[m]> How to actually use it to the first two point?
+[14:18] <ahole[m]> kishore: a lot of people use it for 1. sending emails, or 2. verifying messages from other people
+[14:18] <bhavin192> ahole[m], have patience
+[14:19] <puiterwijk> next
+[14:19] <shivamA1> !
+[14:19] <ahole[m]> Apology for speaking out of turn. Got a bit excited.
+[14:19] <puiterwijk> ahole[m]: no worries. Basically, you want an email client that supports it. Either thunderbird (with the enigmail extension) or mutt (text-based) are good choices in my opinion
+[14:19] <puiterwijk> avik: ?
+[14:20] <avik> puiterwijk, will it be possible for you to give an live demo of using the gpg keys?
+[14:20] <kushal> avik, He is giving that only.
+[14:20] <puiterwijk> avik: I was hoping to get time to do that today :)
+[14:20] <puiterwijk> next
+[14:20] <skarpy> In both sec and ssb, we have different key id, which one is to provide? Also my date of expiry is same as date of issue. Why so?
+[14:20] <avik> ok :D
+[14:20] <puiterwijk> skarpy: the sec one. And can you paste the "sec" line here?
+[14:20] <skarpy> puiterwijk: ok
+[14:20] <puiterwijk> next
+[14:21] <atultherajput> I got this https://paste.fedoraproject.org/paste/LM8pn-8hFg-Hj6E6l43S7w . Is this okay?
+[14:21] <anuGupta> paste.fedoraproject.org/paste/MynNRzNwvUqqn~vEUaF8og
+[14:21] <puiterwijk> anuGupta: you do not have an expiration date. You just have two creation dates, one for the primary key and one for the subkey
+[14:21] <puiterwijk> atultherajput: yes. Same as anuGupta
+[14:21] <puiterwijk> skarpy: please check your output against anuGupta's. If it looks the same, same answer applies to you
+[14:21] <puiterwijk> next
+[14:22] <atultherajput> okay :)
+[14:22] <maxking> How does the trust work in case of subkeys? Does it have exact same level of trust as the master key?
+[14:22] <anuGupta> Ok
+[14:22] <puiterwijk> maxking: trust is assigned to the primary key and to the uids, not to subkeys.
+[14:22] <skarpy> puiterwijk: so how should i know when the key will expire? yes its same.
+[14:23] <puiterwijk> skarpy: then your key doesn't expire
+[14:23] <puiterwijk> (that means your gpg2 had a different default)
+[14:23] <skarpy> puiterwijk: cant i generate something which can expire at a certain time?
+[14:23] <puiterwijk> maxking: or even more correct: you trust a "uid", not a key.
+[14:23] <Cyber_freak> !
+[14:23] <puiterwijk> skarpy: you can, but then you need the full generation wizard: gpg2 --full-generate-key
+[14:23] <maxking> puiterwijk: thanks, that makes sense actually.
+[14:23] <shivamA1> !
+[14:23] <puiterwijk> maxking: great! :)
+[14:23] <devesh_verma__> !
+[14:23] <skarpy> puiterwijk: ok, thanks :)
+[14:23] <puiterwijk> next
+[14:24] <ahole[m]> already asked
+[14:24] <puiterwijk> next
+[14:24] <skat_sd> How do I make keys last for a specific time, i.e. set an expiration date(like you said it is good to keep keys for 2 years and then change)? I have the same case as anuGupta and atultherajput .
+[14:24] <puiterwijk> skat_sd: okay, so generate the key with gpg2 --full-generate-key
+[14:24] <puiterwijk> That will ask you what expiration date you want
+[14:24] <puiterwijk> next
+[14:24] <shivamA1> Is it possible to have multiple keys with same email id, here mine is showing 2 keys !
+[14:25] <Cyber_freak> puiterwijk: What is the benefit of the expire feature of the key as we can have key that do not expire also ?
+[14:25] <puiterwijk> Yes, that is possible, but might be confusing. For now, don't worry too much
+[14:25] <puiterwijk> next
+[14:25] <mayur01> !
+[14:26] <puiterwijk> Cyber_freak: so, I suggest all people that start with PGP to use an expiring key. At some point, you are likely to lose access to the private key, and then you can't revoke the key so that other people stop using it. If it expires, everyone will stop using it at expiration date
+[14:27] <Cyber_freak> thanks puiterwijk got it :-)
+[14:27] <puiterwijk> next
+[14:27] <devesh_verma__> is this correct because I was not getting similar output to anuGupta   https://paste.fedoraproject.org/paste/MS9P6w3gSPLT2x02pWU6jA
+[14:27] <puiterwijk> (and yes, there are other ways to revoke it)
+[14:27] <deepika> !
+[14:27] <CHOCOS1> !
+[14:27] <neer> !
+[14:27] <puiterwijk> devesh_verma__: yeah, same reply: your key doesn't have an expiry, abnd can use gpg2 --full-generate-key to generate a new key that expires
+[14:27] <puiterwijk> next
+[14:27] <mayur01> Can I delete my key before expiration? <eom>
+[14:28] <devesh_verma__> !
+[14:29] <puiterwijk> mayur01: if you generated the key just now: yes. Run gpg --delete-secret-keys $keyid
+[14:29] <puiterwijk> next
+[14:29] <deepika> I was having trouble  because of gpg agent in generation though fixed, yet wanted to know what role does it play in key generation
+[14:29] <deepika> <eom>
+[14:29] <mayur01> Ok Thank you.
+[14:29] <puiterwijk> deepika: with gpg1: not much, with gpg2: everything. A major change between gpg1 and gpg2 is that all the crypto operations have moved to the GPG agent, so without an agent, GPG2 can't work
+[14:30] <puiterwijk> (with gpg1 it's just used to store your passphrase temporarily in computer memory so you don't need to re-enter it every single time)
+[14:30] <puiterwijk> next
+[14:30] <CHOCOS1> gpg --list-secret-keys i am not getting any output for this :(
+[14:30] <puiterwijk> CHOCOS1: what command did you run to generate the key?
+[14:31] <CHOCOS1> sorry my mistake got it
+[14:31] <puiterwijk> next
+[14:31] <neer> Even my key doesn't expire,, so should i delete my .gnupg directory and then fully generate key?<eom>
+[14:31] <puiterwijk> neer: for now, yes.
+[14:31] <puiterwijk> next
+[14:31] <devesh_verma__> in anuGupta output theres a big number after [SC] but for me I have a number after rsa2048/ I dont have that in mine. Why is there such difference ?
+[14:32] <deepika> puiterwijk Oh thanks, understood :)
+[14:32] <skat_sd> !
+[14:32] <puiterwijk> devesh_verma__: that's just a different in output. The big number is the full key fingerprint, which is the longer version of what is behind rsa2048
+[14:32] <puiterwijk> (the key ID is the last 16 characters of the fingerprint)
+[14:32] <puiterwijk> next
+[14:33] <skat_sd> this command <gpg2 --full-generate-key> is not working,output:<gpg: invalid option "--full-generate-key">, do i need to delete anything before regenerating key?
+[14:33] <devesh_verma__> puiterwijk so its all same, just the way of showing is different .  am I right ?
+[14:33] <puiterwijk> skat_sd: what does "gpg2 --version" return?
+[14:33] <puiterwijk> devesh_verma__: correct
+[14:34] <puiterwijk> skat_sd: also, try: --full-gen-key
+[14:34] <skat_sd> puiterwijk, it does give out version number.gpg (GnuPG) 2.1.13
+[14:34] <puiterwijk> I think --full-generate-key was added in a later version as a more expressive version
+[14:34] <puiterwijk> skat_sd: okay, try: gpg2 --full-gen-key
+[14:34] <puiterwijk> next
+[14:34] <skat_sd> puiterwijk, yes this one works now
+[14:34] <championshuttler> skat_sd: use gpg2 --full-gen-key
+[14:34] <skat_sd> Thanks
+[14:34] <kvy_> !
+[14:35] <puiterwijk> next
+[14:35] <skat_sd> championshuttler, yes, works
+[14:35] <bhavin192> !
+[14:35] <kvy_> can i edit a key
+[14:35] <kvy_> <eof>
+[14:35] <anuGupta> !
+[14:35] <puiterwijk> kvy_: depends on what you want to edit on the key
+[14:35] <puiterwijk> next
+[14:35] <bhavin192> Can you please share your output of `gpg2 --list-secret-keys`?
+[14:36] <balaji> !
+[14:36] <puiterwijk> bhavin192: sure: https://paste.fedoraproject.org/paste/buB93LIszhr7x0mGF2r71Q
+[14:36] <puiterwijk> next
+[14:36] <anuGupta> Do I need to create the key that expires?right now?<eof>
+[14:36] <kushal> Everyone please stop asking questions for now.
+[14:36] <puiterwijk> anuGupta: nah, you can continue with a non-expiring for now. But I would suggest to do so before using it
+[14:36] <puiterwijk> next
+[14:37] <kushal> You just learned 2 commands still now, let puiterwijk first finish his session
+[14:37] <kushal> puiterwijk, you can skip the questions for now, and go ahead
+[14:37] <puiterwijk> Okay
+[14:37] <puiterwijk> So, let's assume for now you have a key.
+[14:37] <puiterwijk> Now create a text file with some content in it (exampl
+[14:37] <puiterwijk> example: echo hello >foobar
+[14:38] <puiterwijk> Then you can encrypt that message to you: run "gpg -r $your-email --encrypt foobar"
+[14:38] <puiterwijk> Then, for fun, run "cat foobar.gpg". You will see that that is just binary "nonsense"
+[14:40] <vharsh> !
+[14:40] <puiterwijk> That is an encrypted message. It can only be read with the private key belonging to the key you encrypted for
+[14:40] <puiterwijk> If you run "gpg --decrypt foobar.gpg", GPG will decrypt the message for you
+[14:40] <puiterwijk> next
+[14:40] <vharsh> I couldn't figure out the difference between, --list-keys & --list-secret-keys
+[14:40] <vharsh> I searched online somewhat<eof>
+[14:41] <puiterwijk> vharsh: if you run "gpg --keyserver keys.fedoraproject.org --recv-keys 0x8657980D9AB51E50" and tlet that finish, check again :)
+[14:41] <vharsh> puiterwijk, It'll get your keys?
+[14:41] <puiterwijk> Basically, --list-keys list all the GPG keys your computer has seen, where as --list-secret-keys lists only the GPG keys you have a private key for
+[14:41] <puiterwijk> vharsh: yes. Which will only show up in --list-keys and not in --list-secret-keys
+[14:42] <puiterwijk> (because hopefully you don't have my private key :) )
+[14:43] <kushal> Also everyone, please keep all the questions for later, first let puiterwijk finish the session.
+[14:43] <NikitaK3> !
+[14:43] <puiterwijk> Okay, so now let's do some cross-messaging
+[14:43] <puiterwijk> Please run this command: gpg --keyserver keys.fedoraproject.org --recv-keys 0x8657980D9AB51E50
+[14:43] <puiterwijk> That will make your client pull down my GPG keys, so that we can run some tests
+[14:44] <puiterwijk> You can put some text in a file, and run "gpg --armor -r patrick@puiterwijk.org --encrypt $filename" to generate a $filename.asc
+[14:44] <puiterwijk> If someone could do that, and put the contents of the .asc file onto pastebin, we can try it out!
+[14:45] <mbtamuli12> puiterwijk: http://sprunge.us/RYaY
+[14:46] <vharsh> http://dpaste.com/2M97Q53
+[14:46] <puiterwijk> mbtamuli12: hello to you too
+[14:46] <kushal> :)
+[14:47] <puiterwijk> vharsh: hello vharsh as well
+[14:47] <puiterwijk> So, you should now try to decrypt it yourself: run gpg --decrypt $filename.asc
+[14:47] <ashwanig> !
+[14:47] <puiterwijk> Gpg will most likely error out saying that you do not have the private key for the message
+[14:48] <shivam98[m]> !
+[14:49] <puiterwijk> So, that is how you can encrypt a message with GPG and decrypt it
+[14:49] <puiterwijk> Now, anotehr major use case of gpg would be to verify a message.
+[14:49] <ghishadow> https://paste.gnome.org/paqegmiuj/b7q4mi
+[14:49] <ahole[m]> https://paste.fedoraproject.org/paste/f1kxlzLsxS6u5f03-79dTQ/raw
+[14:49] <ahole[m]> getting this error
+[14:50] <puiterwijk> ahole[m]: yep, that's exactly correct, since you do not have my private key :)
+[14:50] <ashwanig> https://paste.fedoraproject.org/paste/m9XLurc522bbS2cLU6S~eA
+[14:50] <bhavin192> ahole[m], gpg --keyserver keys.fedoraproject.org --recv-keys 0x8657980D9AB51E50
+[14:50] <bhavin192> ahole[m], this should be run with gpg2...
+[14:51] <atultherajput> !
+[14:51] <shivam98[m]> https://paste.fedoraproject.org/paste/F2~T70aiwVUvgwZZ6yWBow
+[14:51] <apoorv> !
+[14:51] <NikitaK3> https://paste.fedoraproject.org/paste/l8kwK~U-SeR7vB7Zm31lmw
+[14:51] <puiterwijk> bhavin192: no, he's trying to decrypt a message encrypted for me, which he can't :)
+[14:51] <shivam98[m]> getting error https://paste.fedoraproject.org/paste/F2~T70aiwVUvgwZZ6yWBow
+[14:52] <puiterwijk> shivam98[m]: echo "Hello" > foobar.
+[14:52] <bhavin192> puiterwijk, ah! right
+[14:52] <kushal> Everyone, please read what puiterwijk said a few lines above.
+[14:52] <jasonbraganza> puiterwijk - maybe we move ahead :)
+[14:52] <puiterwijk> So, another major important thing for GPG, is verifying things
+[14:52] <puiterwijk> Open this: https://paste.fedoraproject.org/paste/NxevNeyuriG3o-069ef-ig/raw
+[14:52] <puiterwijk> Put this in a file ("signed.asc"), and run gpg --verify signed.asc
+[14:53] <puiterwijk> That should tell you that that file was signed by me, and that it correctly verified it
+[14:53] <jasonbraganza> yes
+[14:54] <puiterwijk> So, to generate such a file yourself: run this: gpg --clearsign foobar
+[14:54] <ahole[m]> Still the same error https://paste.fedoraproject.org/paste/f1kxlzLsxS6u5f03-79dTQ/raw
+[14:54] <puiterwijk> ahole[m]: that makes totaly sense, and you won't be able to decrypt that ever, since it was encrypted for me :)
+[14:54] <kushal> ahole[m], One day you will learn to read what we are saying.
+[14:55] <puiterwijk> This was to demonstrate exactly what GPG is used for: making sure that only the intended recipient can read the message.
+[14:55] <ahole[m]> kushal: puiterwijk oh yeah!
+[14:55] <puiterwijk> The only way for you to ever decrypt that would be if I send you my private key... which I'm not going to do :)
+[14:55] <devesh_verma__> !
+[14:55] <ahole[m]> kushal: Sorry
+[14:56] <devesh_verma__> puiterwijk does everyone need to create the file ?
+[14:56] <puiterwijk> So, let's see how we are on questions now, since this was basically the core for now
+[14:56] <ahole[m]> puiterwijk: Ha ha ha
+[14:56] <puiterwijk> devesh_verma__: I would suggest trying it out, just to see it once
+[14:56] <apoorv> !
+[14:56] <puiterwijk> next
+[14:57] <puiterwijk> Oh, we're that far back. Okay.
+[14:57] <NikitaK3> done
+[14:57] <puiterwijk> next
+[14:57] <ashwanig> already answered
+[14:57] <puiterwijk> next
+[14:58] <devesh_verma__> puiterwijk how to I use it for a file ?
+[14:58] <puiterwijk> devesh_verma__: what do you mean there?
+[14:58] <puiterwijk> next
+[14:58] <atultherajput> I am getting error while encrypting and decrypting files. https://paste.fedoraproject.org/paste/LITpi5neHdHAa2w8e9B9RA
+[14:58] <kushal> devesh_verma__, Read the whole session log from start again after we finish.
+[14:59] <shivam98[m]> after doing gpg --clearsign foobar
+[14:59] <shivam98[m]> what i suppose to do
+[14:59] <devesh_verma__> puiterwijk yeah correct I am lost now :)
+[14:59] <sitlanigaurav[m]> !
+[14:59] <puiterwijk> atultherajput: that looks like you had an older key that you lost. I would suggest mv ~/.gnupg ~/.gnupg.old and restarting to try
+[15:00] <puiterwijk> shivam98[m]: so, you got a signed message. Put that in a file, and run "gpg --verify $filename". That should show you that you signed that message
+[15:00] <puiterwijk> next
+[15:00] <lucifer> !
+[15:00] <apoorv> when I try to decrypt it is showing this error gpg: decryption failed: No secret key
+[15:00] <atultherajput> okay :)
+[15:00] <apoorv> <eof>
+[15:00] <puiterwijk> apoorv: if the line before that mentioned puiterwijk@gmail.com: that's correct, you don't have my secret key. If it doesn't, look at my response to atultherajput as you also had a prior key
+[15:00] <puiterwijk> next
+[15:00] <devesh_verma__> done
+[15:00] <sitlanigaurav[m]> https://paste.fedoraproject.org/paste/FMQzb7R-cmHdHC~QsOimcQ/
+[15:00] <sitlanigaurav[m]> when i used clearsign, i had overwrited my file, was it meant to happen?
+[15:01] <puiterwijk> sitlanigaurav[m]: if you run it a second time, yes, that's expected. But unless that file was very important to you, that's fine
+[15:01] <puiterwijk> next
+[15:01] <puiterwijk> next
+[15:01] <lucifer> i m getting this error https://paste.fedoraproject.org/paste/QbdtfL-W-JAdDm~7BYDx~w
+[15:02] <puiterwijk> lucifer: you probably created the key with gpg2
+[15:02] <skarpy> !
+[15:02] <puiterwijk> or with sudo gpg. You need to keep using the same command every time
+[15:02] <puiterwijk> next
+[15:02] <lucifer> yeah sorry! that was silly!
+[15:02] <sitlanigaurav[m]> !
+[15:02] <kushal> lucifer, what is i m?
+[15:02] <puiterwijk> next
+[15:03] <championshuttler> !
+[15:03] <kushal> lucifer, Two random characters from the nearest planet?
+[15:03] <sitlanigaurav[m]> so if i need to verify using clearsign i need to send someone that file?
+[15:03] <skarpy> puiterwijk: pass
+[15:03] <puiterwijk> sitlanigaurav[m]: yes. And they will also need your public GPG key
+[15:04] <puiterwijk> sitlanigaurav[m]: if you run "gpg --armor --export >mykey", you get a file to send that contains your public key
+[15:05] <lucifer> sorry kushal ! :(
+[15:05] <puiterwijk> next
+[15:05] <championshuttler> after typing gpg2 --verify $foobar , terminal is in some like process but no response from more than a minute :(
+[15:05] <sitlanigaurav[m]> thanks :)
+[15:06] <puiterwijk> championshuttler: you need to remove the $ :)
+[15:06] <puiterwijk> When I say "$filename", I mean to replace that entire string with the filename, sorry :)
+[15:06] <championshuttler> still same
+[15:06] <puiterwijk> next
+[15:06] <skarpy> !
+[15:06] <puiterwijk> championshuttler: does the file "foobar" exist?
+[15:07] <puiterwijk> next
+[15:07] <skarpy> puiterwijk: but my signature verification failed.
+[15:07] <puiterwijk> skarpy: did you verify it with the same gpg command you've used to generate your key and the signature?
+[15:07] <puiterwijk> (aka, gpg vs gpg2)
+[15:07] <puiterwijk> the other will not have your public key
+[15:07] <skarpy> puiterwijk: yes
+[15:08] <skarpy> puiterwijk: i tried both
+[15:08] <puiterwijk> skarpy: can you fpaste the shell where you signed and verified?
+[15:08] <championshuttler> yes https://paste.fedoraproject.org/paste/aJyTbjoxYyoZGFR760X0Tw
+[15:08] <puiterwijk> championshuttler: ahh. If you --clearsign'ed foobar, you want to --verify foobar.asc
+[15:08] <puiterwijk> skarpy: I think the same problem might be for you as well: did you add the ".asc" to the file to verify?
+[15:09] <skarpy> puiterwijk: yes
+[15:09] <puiterwijk> Okay, can yo uthen fpaste the entire terminal?
+[15:09] <puiterwijk> (or at least the --clearsign and --verify parts?)
+[15:09] <skarpy> puiterwijk: https://paste.fedoraproject.org/paste/RzdTFe01AEU0fllbYzxBKw
+[15:10] <puiterwijk> skarpy: could you fpaste the contents of ap.txt.asc?
+[15:11] <skarpy> puiterwijk: https://paste.fedoraproject.org/paste/euquEE3mbWDP5jSfOerIjQ
+[15:11] <championshuttler> puitewijk: is it fine now? https://paste.fedoraproject.org/paste/5cuw50GJfMVolbSgnAZfsQ
+[15:11] <puiterwijk> skarpy: that is not a --clearsign'ed message, but a message encrypted for me
+[15:12] <puiterwijk> skarpy: so, run "gpg --clearsign ap.txt >ap.txt.asc" and then retry verify
+[15:12] <puiterwijk> championshuttler: yep. That's a success :)
+[15:12] <skat_sd> !
+[15:12] <puiterwijk> next
+[15:12] <skat_sd> Why do we get this warning: gpg: WARNING: This key is not certified with a trusted signature!
+[15:12] <skat_sd> gpg:          There is no indication that the signature belongs to the owner.
+[15:12] <puiterwijk> skat_sd: that is because you never told GPG that you trust that key. For now, you can ignore that
+[15:13] <skat_sd> ok
+[15:13] <skat_sd> thanks
+[15:13] <puiterwijk> Basically, you can sign a key as in saying that you trust it
+[15:13] <puiterwijk> GPG by default works with a "web of trust" model
+[15:13] <skarpy> puiterwijk: success!:)
+[15:14] <puiterwijk> You can sign keys, adn then send those signatures to the keyservers or other people. When you sign a key, you're telling GPG that you trust that key is owned by the person listed in the "uid" field.
+[15:14] <puiterwijk> And the "web" part of "web of trust" comes in because if I trust Kushal's key, and Kushal trust someone else's key, my client knows that it can trust that other key because I trust Kushal
+[15:15] <puiterwijk> For more info on that part, https://en.wikipedia.org/wiki/Web_of_trust
+[15:15] <puiterwijk> So when you sign a key, it will from then on no longer be marked as "WARNING: This key is not certified with a trusted signature"
+[15:15] <kushal> Never sign keys without verifying them first.
+[15:16] <puiterwijk> Yep. They are a statement that you make that you trust that that key is owned by the person mentioned in the uid, and that they control that email address
+[15:16] <devesh_verma__> !
+[15:17] <puiterwijk> Okay, I guess that's the core parts of GPG I wanted to show for today: creating a key, basic encryption, decryption, signing and verification
+[15:17] <puiterwijk> next
+[15:17] <devesh_verma__> puiterwijk I did this and nothing happining its been more than 5mins https://paste.fedoraproject.org/paste/sGpaAK0M26Dl1sHqYIeGJQ
+[15:17] <puiterwijk> devesh_verma__: remove the $
+[15:17] <puiterwijk> So use gpg --armor -r patrick@puiterwijk.org --encrypt foobargpg
+[15:18] <puiterwijk> That means that GPG is just waiting for you to enter contents, because there's no variable $foobargpg
+[15:18] <devesh_verma__> did that it accepted y and then nothing happened
+[15:19] <puiterwijk> Right, because then it's waiting for the contents of your message
+[15:19] <puiterwijk> Did you cancel the run you pasted, removed the $, and retried?
+[15:19] <devesh_verma__> yes
+[15:19] <puiterwijk> So, you can also just type now and then press Ctrl-d
+[15:20] <puiterwijk> Are there any other questions?
+[15:20] <jasonbraganza> !
+[15:20] <mbtamuli12> !
+[15:20] <puiterwijk> next
+[15:20] <jasonbraganza> puiterwijk - resources for dummies? gpg for idiots? like us :P
+[15:21] <puiterwijk> jasonbraganza: I think kushal has some links there
+[15:21] <kushal> jasonbraganza, I will share a few links later.
+[15:21] <puiterwijk> Yep
+[15:21] <jasonbraganza> thank you
+[15:21] <puiterwijk> next
+[15:21] <mbtamuli12> If I did a `gpg --send-keys` sometime ago when I was practicing these commands and I lost my private key, should I be worried that it's still out there, I don't even have the key ID now? It wasn't signed by anyone or I hadn't signed anyone's keys with it.
+[15:21] <kushal> mbtamuli12, How did you loose the private key?
+[15:21] <mbtamuli12> Some time ago means about a year ago. I don't remember when I set it to expire<eom>
+[15:22] <sitlanigaurav[m]> !
+[15:22] <mbtamuli12> kushal: I had formatted my laptop without taking backup.
+[15:22] <puiterwijk> mbtamuli12: you should search on keys.fedoraproject.org for all email addresses you are still using. If it shows them, then yes, you've got some pain
+[15:23] <puiterwijk> If it does show results for your email address, I'm hoping you added an expiration date, or you're going to have to convince everyone trying to encrypt messages to you to use the correct key
+[15:23] <puiterwijk> next
+[15:23] <sitlanigaurav[m]> What to do in case i forget my passphrase?<eom>
+[15:23] <puiterwijk> sitlanigaurav[m]: hope you didn't use your key anywhere or sent it to a keyserver (or that you added an expiration date), and create a new key
+[15:24] <puiterwijk> There is no way to recover a passphrase
+[15:24] <mbtamuli12> !
+[15:24] <puiterwijk> And do NOT run *any* program that says it can find a GPG key passphrase back. That's not possible without brute-forcing, for which there are no powerful enough computers
+[15:24] <puiterwijk> next
+[15:25] <mbtamuli12> pass.
+[15:25] <puiterwijk> next
+[15:25] <sitlanigaurav[m]> i didn't, just was curious to know if someone forgets it.<eom>
+[15:25] <puiterwijk> sitlanigaurav[m]: ah, okay. Make sure you do not forget it :)
+[15:25] <puiterwijk> (or hope that you had set an expiration date)
+[15:26] <neer> !
+[15:26] <puiterwijk> next
+[15:26] <neer> Okay how do i see my public key, and how to send it?
+[15:27] <puiterwijk> neer: gpg --list-keys to see it. Then you can use "gpg --armor --export >mykey" to get your key in a file, which other people can then use with "gpg --import hiskey"
+[15:27] <sitlanigaurav[m]> neer: already answered, just scroll up
+[15:28] <neer> missed it, thanks
+[15:28] <puiterwijk> Note: I'm going to keep this open for about 2 more minutes. After that, I will still stay around, but will also need to focus on other things
+[15:28] <puiterwijk> next
+[15:28] <kushal> puiterwijk, Thank you for this great session :)
+[15:29] <kushal> puiterwijk, I hope people will be able to start using gpg more in daily life.
+[15:29] <deepika> !
+[15:29] <sitlanigaurav[m]> puiterwijk: It was amazing :), thank you!
+[15:29] <bhavin192> puiterwijk, now it's brain storming for us :) :P
+[15:29] <puiterwijk> next
+[15:29] <kushal> Q: Who all here uses a mail client to read/write emails?
+[15:29] <deepika> what difference is created in a file with clearsigned , encrypt, decrypt, verify commands
+[15:29] <apoorv> Me
+[15:30] <kushal> Example: thunderbird.
+[15:30] <poojaencoded> !
+[15:30] <sitlanigaurav[m]> kushal: me
+[15:30] <championshuttler> me thunderbird
+[15:30] <ghishadow> puiterwijk, thanks for great session, learned many things :)
+[15:30] <mbtamuli12> !
+[15:30] <atultherajput> !
+[15:30] <avik> I
+[15:30] <puiterwijk> deepika: clearsign is a message that is signed, but still readably, verify makes sure that the message was signed by a specific person. encrypt makes it so only the recipient can read the file, for which they use decrypt
+[15:30] <ikshitij> Thunderbird
+[15:30] <NikitaK3> Amazing session! Thank you puiterwijk!
+[15:30] <puiterwijk> So clearsign and verify belong together, just like encrypt and decrypt
+[15:31] <deepika> puiterwijk and signed.asc why it gave your id's at first
+[15:31] <puiterwijk> I need to get on other things for a bit, but Kushal can answer some questions. I will stay around for if he doesn't know, or you can always send me a question (just might take a bit for me to reply)
+[15:31] <puiterwijk> deepika: because I had signed that message with my key
+[15:32] <deepika> thanks puiterwijk for this session :)
+[15:32] <kushal> So, who all are not using any mail client? Please say "me" if you are not using a mail client
+[15:32] <deepika> me
+[15:32] <knrai> me
+[15:32] <skat_sd> me
+[15:32] <NikitaK3> me
+[15:32] <anuGupta> me
+[15:32] <ashwanig> me
+[15:32] <cran-cg_> me
+[15:33] <Casper_01[m]> Me
+[15:33] <poojaencoded> me
+[15:33] <balaji> me
+[15:33] <jasonbraganza> me
+[15:33] <bhavin192> me
+[15:33] <_RicharD_> Me
+[15:33] <abhinavshirur> me
+[15:33] <Vamsi3296> me
+[15:33] <ravindra> me
+[15:33] <devesh_verma__> me
+[15:33] <akshayg96> me
+[15:33] <kushal> I am going to suggest to start using Thunderbird, and along with that https://ssd.eff.org/en/module/how-use-pgp-linux
+[15:33] <yurii> me
+[15:34] <kushal> This will teach you how to use things you learned today in the mails
+[15:34] <Ani> me
+[15:35] <ahole[m]> Me
+[15:35] <kushal> Also read everything from https://ssd.eff.org/
+[15:35] <kushal> That is a must read for everyone.
+[15:35] <ahole[m]> !
+[15:35] <maxking> kushal: http://www.claws-mail.org/ is also a very good alternative :)
+[15:35] <kushal> Once, you configured your mail client with your key, start doing clearsigning your mails.
+[15:36] <kushal> maxking, yes, and we can not support everyone together.
+[15:36] <ahole[m]> Why use a mail client as per whatever knowledge I have mail clients are only needed in case of systems that hop between online and offline?
+[15:36] <kushal> I will start a thread in the list about the same.
+[15:36] <kushal> next
+[15:36] <poojaencoded> i am not getting ultimate before my name https://pastebin.com/WX87CHxr
+[15:37] <poojaencoded> why?<eof>
+[15:37] <jasonbraganza> !
+[15:37] <kushal> poojaencoded, I don't know, we will try that in few minutes, let me take the other questions first.
+[15:37] <kushal> next
+[15:37] <mbtamuli12> puiterwijk: https://www.paulfurley.com/gpg-for-humans-protecting-your-primary-key/ In this article, the person advises to create a subkey with Sign capability and do all "every day" tasks with this subkey and protect the primary key which has both Sign and Certify capability by not using it in "every day" tasks. Would you recommend this way?
+[15:38] <kushal> next
+[15:38] <atultherajput> What i am supposed to do with public key which i had distributed to others if i lost my private key?
+[15:38] <poojaencoded> okay kushal
+[15:38] <kushal> atultherajput, nothing you can do.
+[15:38] <kushal> next
+[15:38] <puiterwijk> mbtamuli12: yes, I would recommend it that way, but that was too complicated for here for today
+[15:38] <kushal> next
+[15:38] <jasonbraganza> I have two machines running two different operating system, but using the same email id.
+[15:39] <jasonbraganza> Different gpg keys needed?
+[15:39] <jasonbraganza> <eom>
+[15:39] <mbtamuli12> puiterwijk: I understand. Thanks.
+[15:40] <Ani> !
+[15:41] <kushal> jasonbraganza, you can use the same key
+[15:41] <jasonbraganza> thank you
+[15:42] <kushal> Remember two things
+[15:42] <ikshitij> !
+[15:42] <kushal> Do not loose your private key, nor the passphrase.
+[15:42] <kushal> Do not share your private key.
+[15:43] <kushal> There are various ways of backing up keys, we will learn slowly about those.
+[15:45] <kushal> next
+[15:45] <kang0> How to run Linux in Linux using copy and pasting folders
+[15:45] <Ani> Done
+[15:45] <kushal> next
+[15:45] <ikshitij> As I can see on keys.fedoraproject.org for your email ID, there are list of few people ! Is this a list of trusted People ?
+[15:46] <kushal> ikshitij, those people signed my key.
+[15:46] <kushal> next
+[15:46] <jasonbraganza> Excuse me folks. & Good night :)
+[15:46] <kushal> I am ending the session now, feel free to stay online and ask questions to your friends.
+----END CLASS----

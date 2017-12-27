@@ -1,0 +1,343 @@
+----BEGIN CLASS----
+[13:27] <kushal> #startclass
+[13:27] <kushal> Roll Call
+[13:27] <kvy> kumar vipin yadav
+[13:27] <jasonbraganza> Jason Braganza
+[13:27] <yurii> Yurii Pylypchuk
+[13:27] <RIcharD_> Mayank gpta
+[13:27] <asraisingh> Abhishek Singh
+[13:27] <gauravsitlani> Gaurav Sitlani
+[13:27] <skat-sd> Saikat Dey
+[13:27] <bhavin192> Bhavin Gandhi
+[13:27] <schubisu> Robin Schubert
+[13:27] <san-D> Sandesh Patel
+[13:27] <akshayg96> Akshay Gaikwad
+[13:27] <samridhia> Samridhi Agarwal
+[13:27] <knrai> Krishnanand Rai
+[13:28] <deepika> Deepika Upadhyay
+[13:28] <poojaencoded> pooja kumari singh
+[13:28] <priyansh> Priyansh Sourav
+[13:28] <championshuttler> Shivam Singhal
+[13:28] <ahole[m]> kshithij iyer
+[13:28] <apoorv> Apoorv Goel
+[13:29] <ravindra> Ravindra Lakal
+[13:29] <atultherajput> Atul Krishna
+[13:29] <vivek_> Vivek Anand
+[13:29] <soumam007_> Soumam Banerjee
+[13:29] <pr97> Priyanka Sharma
+[13:30] <abhinavshirur> Abhinav Shirur
+[13:30] <CHOCOS> neha kandpal
+[13:30] <balaji> Balaji
+[13:30] <mdbk> Onyinye Madubuko
+[13:31] <kushal> Before we start today, I want to ask a few questions.
+[13:31] <imack> Mahendra Yadav
+[13:31] <kushal> If anyone here is new to programming in general? Say me.
+[13:31] <jasonbraganza> me
+[13:31] <mdbk> me
+[13:31] <skat-sd> me
+[13:32] <poojaencoded> me
+[13:32] <yurii> me
+[13:32] <kushal> Okay
+[13:33] <kushal> We will start looking into programming language Python, and later we will see how can use that to solve issues in our life.
+[13:33] <kushal> But, we will go slow.
+[13:33] <kushal> And as usual, remember to ask questions.
+[13:34] <kushal> If you don't ask questions, we will not be able to answer you.
+[13:34] <jasonbraganza> understood
+[13:34] <kvy> me
+[13:34] <kushal> I am going to skip many technical terms, which you will learn slowly.
+[13:34] <acetakwas> Roll Call: Tosin Animashaun
+[13:35] <ghishadow> Roll Call: Suraj Ghimire
+[13:35] <kushal> Python has two major revisions of the language, Python2 and Python3
+[13:36] <ashwanig> Roll call: Ashwani Kumar Gupta
+[13:36] <kushal> For our training, we will use Python3
+[13:36] <kushal> Python is an interpreted language, the codebase which implements the python interpreter (which you all have in your computer) is known as CPython.
+[13:37] <kushal> There are other Python implementations, like Pypy, Jython.
+[13:38] <kushal> 2020 is the when the upstream CPython developers will stop supporting Python2 version, means everyone should start porting their Python2 applications to Python3, or they should start any new project in Python3 only.
+[13:38] <kushal> https://en.wikipedia.org/wiki/Interpreted_language
+[13:38] <kushal> https://en.wikipedia.org/wiki/Compiled_language
+[13:38] <kushal> Two links to read
+[13:39] <kushal> For later :)
+[13:39] <gauravsitlani> !
+[13:39] <kushal> next
+[13:39] <gauravsitlani> Why two versions of python ?
+[13:40] <gauravsitlani> What is the reason behind that i mean to ask?
+[13:40] <kushal> gauravsitlani, exactly same reason you can see cars made in 2001, 2015 or even in 2017.
+[13:40] <kushal> gauravsitlani, A company makes a car, release it to the market, and then after a few years releases a new version.
+[13:41] <kushal> gauravsitlani, Now, for Python3, it has many changes which will break Python2 code, that is why it started a fresh.
+[13:41] <CHOCOS> !
+[13:41] <kushal> gauravsitlani, If you search, you will find many articles and videos on the subject.
+[13:41] <kushal> next
+[13:41] <CHOCOS> what do you mean by  interpreted language ?
+[13:42] <balaji> !
+[13:42] <kushal> CHOCOS, I pasted links, read them later to figure that out.
+[13:42] <kushal> next
+[13:42] <CHOCOS> +1
+[13:42] <balaji> What happen to the larger code bases they have in python 2?
+[13:43] <soumam007_> !
+[13:43] <balaji> Is they have to start from Scratch or it can be reused?
+[13:44] <kushal> balaji, they will have to port the code.
+[13:44] <kushal> balaji, they can still use the old code, but there will be no more security updates etc.
+[13:44] <kushal> next
+[13:44] <soumam007_> now they have started changing the syntax upto a few extent. But was it necesarry to make changes in the basics. I mean adding new features is fine but changing the basics will confuse others right?
+[13:45] <kushal> soumam007_, The basics did not change much :)
+[13:45] <kushal> soumam007_, also people sometimes accept changes, sometimes they don't.
+[13:45] <kushal> Now, everyone open terminal
+[13:45] <kushal> type python3
+[13:45] <soumam007_> :) ok
+[13:45] <kushal> press enter
+[13:46] <anuGupta> Roll call: Anu kumari Gupta
+[13:46] <championshuttler> !
+[13:46] <kushal> You should be in a prompt >>>
+[13:46] <jasonbraganza> yes
+[13:46] <kushal> That is the python interpreter prompt,
+[13:46] <kushal> type
+[13:46] <kushal> print("Hello World")
+[13:46] <kushal> press enter
+[13:47] <kushal> print is a function which is printing the text (we call them string) which is defined by double quotes.
+[13:47] <kushal> I mean inside of double quotes.
+[13:48] <kushal> Now, change the text to your name, it should show your name.
+[13:48] <jasonbraganza> yes!
+[13:48] <pr97> yes:)
+[13:48] <kvy_> yes
+[13:49] <mdbk> :)
+[13:50] <kushal> Now, one super big thing, spaces.
+[13:50] <kushal> Press up arrow, and give a space before print, and then press enter.
+[13:50] <kushal> Someone paste the error here.
+[13:51] <jasonbraganza> IndentationError
+[13:51] <kushal> Correct
+[13:51] <kushal> Remember this Error name.
+[13:51] <kushal> This will be the most common error for most of you.
+[13:52] <schubisu> !
+[13:52] <kushal> Python will force you to learn to type cleaner code
+[13:52] <kushal> To know about indentation in general, https://en.wikipedia.org/wiki/Indent_style
+[13:52] <kushal> next
+[13:52] <championshuttler> why it is mandatory to use parenthesis in python3
+[13:53] <ashwanig> championshuttler, Because of the syntax?
+[13:53] <kushal> where?
+[13:53] <championshuttler> earlier in python2.7 it was not <eom>
+[13:53] <kushal> championshuttler, You asked half of the question
+[13:53] <championshuttler> kushal: for print command
+[13:55] <kushal> championshuttle4, Few things.
+[13:55] <kvy_> championshuttler  I think it is a syntax as we use in C.
+[13:55] <kushal> championshuttler, Python is a programming language, print was never a command, but a syntax.
+[13:55] <kushal> I mean statement.
+[13:55] <kushal> Now print is a function.
+[13:55] <kushal> championshuttler, Even in your python2, try print("Hello World")
+[13:56] <kushal> next
+[13:56] <schubisu> kushal: I cannot use arrow keys up and down to browse the previous lines in normal python3 shell, neither ctrl+p. Is there another way other than use IPython?
+[13:56] <championshuttler> kushal : ok :)
+[13:56] <kushal> schubisu, Eh, I thought that is default, maybe I am wrong.
+[13:56] <kushal> schubisu, I will pass a solution after the session.
+[13:56] <jasonbraganza> kushal - it worked in my Fedora
+[13:57] <schubisu> kushal: yes, I'm running anaconda python3, okay, thanks
+[13:57] <kushal> schubisu, Oh
+[13:57] <vivek_> it is working in mine, normal py3
+[13:57] <kushal> We will use http://pymbook.readthedocs.io/en/latest/ this book for our starting purpose.
+[13:58] <kushal> brb
+[13:59] <ahole[m]> Try this on your interpreter: (This is just for newbies)
+[13:59] <kushal> We can start writing code in the interpreter, but in a few hours, you will find that it is easier to write the code in .py file, and then execute that.
+[13:59] <poojaencoded> !
+[14:00] <kushal> Here using a proper editor helps.
+[14:00] <ashwanig> ahole[m], try what?
+[14:00] <ahole[m]> Okay. kushal is back avoid the previous message.
+[14:00] <kushal> Vim/Emacs are super good.
+[14:00] <kushal> But, I know many people like IDE(s).
+[14:00] <kushal> I would suggest either of two options.
+[14:01] <kushal> You can download and use https://www.jetbrains.com/pycharm/ community edition
+[14:01] <pr97_> sorry kushal, but which two options?
+[14:01] <pr97_> i got disconnected:(
+[14:01] <ashwanig> pr97_, Text editors or IDE
+[14:01] <kushal> or https://code.visualstudio.com/
+[14:01] <pr97_> okay thanks ashwanig :)
+[14:02] <RIcharD_> kushal, can't we simply use our terminal?
+[14:02] <kushal> If you are low on RAM, https://code.visualstudio.com/ is easier.
+[14:03] <kushal> RIcharD_, You can, if you want :)
+[14:03] <kushal> No need to download these right now.
+[14:03] <kushal> There is one more solution, which can help us to learn easily.
+[14:04] <kushal> https://notebooks.azure.com/   but this will require a login to the microsoftonline, if you don't have one, you can make one.
+[14:04] <ahole[m]> RIcharD_:  Terminal is only good for small code snippets.
+[14:04] <kushal> The notebooks will on a 4GB ram based containers.
+[14:05] <kushal> There are a lot of restrictions, but can be a good option for learning, as it will be easier to show us the erros.
+[14:05] <kushal> * errors.
+[14:05] <kushal> ahole[m], Not always, we use vim + terminal for all remote developments.
+[14:06] <ahole[m]> kushal: Remote developement of python code?
+[14:06] <anuGupta> Rlchard_ , actually every line is interpreted at each and every line which we sometimes don't want and the other thing is we use text editors to store our programs
+[14:06] <kushal> Now, I will wait for 5 minutes, if you want please go ahead and create an account in https://notebooks.azure.com/ or use your existing login
+[14:07] <kushal> Or you can follow along using your local system.
+[14:07] <RIcharD_> PyCharm only supports python and web development, whereas visual studio code is an IDE for almost every language
+[14:07] <poojaencoded> kushal: I have 2GB ram
+[14:07] <kushal> RIcharD_, wrong statement.
+[14:07] <kushal> next
+[14:07] <kushal> poojaencoded, Download code later.
+[14:08] <kushal> RIcharD_, if you install the plugins, you will be do everything in PyCharm itself.
+[14:08] <kushal> We are going into other direction than Python, let us come back to today's session.
+[14:08] <kushal> When you read with a login, say ready here.
+[14:09] <apoorv> ready
+[14:09] <jasonbraganza> ready
+[14:09] <kushal> I will 3 more minutes
+[14:10] <ravindra> ready
+[14:10] <asraisingh> ready
+[14:10] <championshuttler> ready
+[14:10] <ahole[m]> Poeple you can also try IDEL ide as well. It is good for a start.
+[14:10] <kvy_> ready
+[14:11] <ahole[m]> s/poeple/people
+[14:11] <jasonbraganza> ahole[m] - let me just follow instructions here for now!
+[14:11] <bhavin192> jasonbraganza, you are right!
+[14:12] <RIcharD_> ready
+[14:12] <kushal> I will wait one more minute
+[14:12] <soumam007> kushal done login with azure notebooks but dont have an IDE
+[14:13] <newfreak> ready
+[14:13] <skat-sd> ready
+[14:14] <kushal> Everyone click on library, create a library dgplug
+[14:14] <kushal> so the friendly name and id both are dgplug
+[14:14] <kushal> Make sure to check public library
+[14:15] <kushal> Like I have https://notebooks.azure.com/kushaldas/libraries/dgplug
+[14:15] <kushal> If you have any problem, ask here.
+[14:16] <yurii> i was disconected for last 5 minutes - imissed last task
+[14:16] <asraisingh> !
+[14:16] <kushal> yurii, Everyone click on library, create a library dgplug
+[14:16] <kushal> so the friendly name and id both are dgplug
+[14:16] <kushal> next
+[14:16] <championshuttler> yurii: check pm you
+[14:16] <asraisingh> kushal, dgplug library showing status stopped .
+[14:17] <asraisingh> Is it correct?
+[14:17] <kushal> asraisingh, Yes, click on it to go inside of it.
+[14:18] <asraisingh> ok done
+[14:19] <kushal> Everyone should see something like https://kushaldas.in/emptylibrary.png
+[14:19] <kushal> tell me if you don't see that
+[14:20] <kushal> Click on +New
+[14:20] <kushal> Give name of the notebook as "summertraining"
+[14:20] <poojaencoded> !
+[14:20] <kushal> and select python3.6 as language
+[14:22] <kushal> next
+[14:22] <poojaencoded> we have to give library description also?
+[14:22] <kushal> poojaencoded, nope
+[14:22] <kushal> and after creating the notebook, click on it
+[14:22] <poojaencoded> okay :)
+[14:23] <kushal> https://kushaldas.in/readynotebook.png  you should see a notebook ready like this.
+[14:24] <ikshitij> kushal: done
+[14:24] <samridhia> yes
+[14:25] <ikshitij> skat-sd: pm?
+[14:25] <skat-sd> ikshitij, yes
+[14:26] <kushal> ikshitij, skat-sd please stop talking during the session.
+[14:26] <kushal> Next, type print("Hello World") in that box
+[14:26] <kushal> and then click on the run cell button
+[14:27] <jasonbraganza> wow
+[14:27] <kushal> Or press Ctrl+enter
+[14:27] <kushal> If you press Ctrl+Enter, then it will execute the code, and keep the pointer to the same cell
+[14:28] <kushal> If you press Shift+Enter, then it will execute the code, and open a new cell below.
+[14:28] <samridhia> !
+[14:28] <kushal> After you have done your print function test, now in the same cell add another call, print your name there, and then paste the link to the notebook (from the URL) here.
+[14:28] <kushal> next
+[14:28] <samridhia> what is that "In [ ]"?
+[14:29] <samridhia> i did run cell 2 times so the number inside those brackets exceeded by 1 !
+[14:29] <asraisingh> !
+[14:29] <jasonbraganza> https://notebooks.azure.com/n/B0Cq1C7t1uo/notebooks/summertraining.ipynb
+[14:29] <imack> https://notebooks.azure.com/n/APiSL37pBnQ/notebooks/summertraining.ipynb
+[14:30] <kushal> samridhia, That is show the number of the times (the cell) code has been executed, it will show * it the code is still running
+[14:30] <championshuttler> https://notebooks.azure.com/n/OQPNLcX1k7g/notebooks/summertraining.ipynb
+[14:30] <kushal> People, please also add an userid to your profile
+[14:30] <jasonbraganza> sorry. i think the link is this - https://notebooks.azure.com/run/jasonbraganza/dgplug?dest=/notebooks/summertraining.ipynb
+[14:30] <kushal> that will help to get urls like
+[14:31] <RIcharD_> https://notebooks.azure.com/n/8kPf4XKSfTQ/notebooks/Summertraining.ipynb
+[14:31] <anuGupta> https://notebooks.azure.com/n/Ngls7KJ2ug8/notebooks/summertraining.ipynb
+[14:31] <ikshitij> https://notebooks.azure.com/n/PMIQyZdjoH0/notebooks/summertraining.ipynb
+[14:31] <kushal> https://notebooks.azure.com/n/dIyIs3s7jHE/notebooks/summertraining.ipynb
+[14:31] <kushal> oops
+[14:31] <asraisingh> https://notebooks.azure.com/n/iW86aRc6kz4/notebooks/summertraining.ipynb#
+[14:31] <kushal> I am wrong, the nice url is upto notebooks
+[14:31] <apoorv_> https://notebooks.azure.com/n/xH9uPHgYcbQ/notebooks/summertraining.ipynb
+[14:32] <samridhia> https://notebooks.azure.com/n/ByvVT8ANX4w/notebooks/summertraining.ipynb
+[14:32] <kushal> next
+[14:32] <gauravsitlani> https://notebooks.azure.com/n/a2Hd69J3sAI/notebooks/summertraining.ipynb
+[14:32] <anuGupta> https://notebooks.azure.com/n/Ngls7Kj2ug8/notebooks/summertraining.ipynb   -this one sorry
+[14:32] <asraisingh> solved, thanks
+[14:33] <kushal> anyway
+[14:33] <bhavin192> https://notebooks.azure.com/n/b6ertTltiKg/notebooks/summertraining.ipynb
+[14:33] <championshuttler> jasonbraganza: i thought too because this link is not publicly accessible
+[14:33] <soumam007> https://notebooks.azure.com/n/R8XoVmUdp4E/notebooks/summer%20training.ipynb
+[14:33] <jasonbraganza> my second link?
+[14:33] <kushal> Python is a dynamic language
+[14:33] <kushal> try the following
+[14:33] <kushal> 2 + 4
+[14:33] <kushal> 21 * 2
+[14:33] <avik> https://notebooks.azure.com/n/w50Y87mDsHs/notebooks/summertraining.ipynb
+[14:34] <deepika>  https://notebooks.azure.com/n/EP4LOasPax4/notebooks/summertraining.ipynb
+[14:34] <poojaencoded> https://notebooks.azure.com/n/OVWasR2mXNg/notebooks/summertraining.ipynb
+[14:34] <kushal> print(2 + 4)
+[14:34] <kushal> print(21 * 2)
+[14:34] <kushal> like these
+[14:34] <kushal> You can now do simple arithmetic
+[14:35] <kushal>  / is for division
+[14:36] <kushal> You will have to keep practicing there, it will easier for us to see the errors or output.
+[14:36] <ikshitij> https://notebooks.azure.com/n/PMlQyZdJoH0/notebooks/summertraining.ipynb
+[14:36] <kushal> For tonight, start reading from the beginning to operators chapter in http://pymbook.readthedocs.io/en/latest/
+[14:37] <kushal> If you have questions ask for help here.
+[14:37] <kushal> Any queries till now?
+[14:37] <samridhia> !
+[14:37] <kushal> next
+[14:37] <anuGupta> !
+[14:37] <kushal> next
+[14:38] <anuGupta> Why are we using in notebook?<eof>
+[14:38] <kushal> anuGupta, So that it becomes easier for us to help.
+[14:38] <samridhia> When i did 2+4 as it is without a print statement it gave out[], what that denotes?
+[14:38] <kushal> At least in the starting.
+[14:39] <kushal> Later you can use anything you want.
+[14:39] <kushal> samridhia, let me check
+[14:39] <championshuttler> https://notebooks.azure.com/run/championshuttler/dgplug?dest=/notebooks/summertraining.ipynb
+[14:39] <anuGupta> OK but It's pretty good
+[14:39] <samridhia> https://notebooks.azure.com/n/ByvVT8ANX4w/notebooks/summertraining.ipynb
+[14:39] <soumam007> !
+[14:40] <kushal> samridhia, I can not see that
+[14:40] <kushal> samridhia, I can see out[9]
+[14:40] <samridhia> yes
+[14:40] <kushal> and then next empty cell
+[14:40] <kushal> next
+[14:40] <soumam007> i gave a space before print statement but no errors are shown
+[14:40] <skat-sd> https://notebooks.azure.com/skat-sd/libraries/dgplug
+[14:40] <samridhia> kushal, so why that out[9] and a answer?
+[14:40] <kushal> samridhia, means?
+[14:41] <kushal> You typed something and then pressed shift enter
+[14:41] <ikshitij> samridhia: link ?
+[14:41] <kushal> and it gave you answer and a new cell.
+[14:41] <kushal> soumam007, There are few issues, 1. you created a private notebook, 2. you named it wrong, you gave a space between summertraining
+[14:41] <jasonbraganza> !
+[14:41] <samridhia> kushal, when i am not giving a print statement, so how is it that working and showing correct answer with "out[]"?
+[14:42] <kushal> samridhia, It is actually returning the result of 2 + 3
+[14:42] <kushal> samikshan, write this
+[14:42] <kushal> a = 2 + 3
+[14:42] <kushal> samridhia, ^^
+[14:42] <kushal> next
+[14:43] <jasonbraganza> i’m on the variables and datatypes lesson
+[14:43] <samridhia> ok got it kushal
+[14:43] <kushal> jasonbraganza, Okay
+[14:43] <jasonbraganza> should i just type code blindly to understand what happens?
+[14:44] <soumam007> ok kushal i will create a new one but why isnt it showing the indentation error when i am giving a space, it has nothing to do with the name right?
+[14:44] <jasonbraganza> it’s kind of pseudo english. i kind of understand it.
+[14:44] <kushal> jasonbraganza, you can skip average and temp code
+[14:44] <kushal> soumam007, because notebook is smart enough
+[14:44] <kushal> jasonbraganza, Yup
+[14:44] <kushal> next
+[14:45] <kushal> Roll Call
+[14:45] <jasonbraganza> kushal  it’s the reading input from keyboard that is dazzling me :)
+[14:45] <jasonbraganza> Jason Braganza
+[14:45] <soumam007> ok :)
+[14:45] <imack> Mahendra Yadav
+[14:45] <championshuttler> Shivam Singhal
+[14:45] <bhavin192> Bhavin Gandhi
+[14:45] <mdbk> Onyinye Madubuko
+[14:45] <apoorv_> Apoorv Goel
+[14:45] <deepika> Deepika Upadhyay
+[14:45] <RIcharD_> Mayank gupta
+[14:45] <samridhia> Samridhi Agarwal
+[14:45] <ikshitij> Kshitij
+[14:45] <acetakwas> Tosin Animashaun
+[14:45] <anuGupta> Anu kumari Gupta
+[14:45] <abhinavshirur> Abhinav Shirur
+[14:45] <skat-sd> Saikat Dey
+[14:45] <asraisingh> Abhishek Singh
+[14:45] <akshayg96> Akshay Gaikwad
+[14:45] <soumam007> Soumam Banerjee
+[14:45] <kvy__> kumar vipin yadav
+[14:45] <avik>   Avik Mukherjee
+----END CLASS----

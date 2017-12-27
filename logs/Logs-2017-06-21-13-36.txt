@@ -1,0 +1,573 @@
+----BEGIN CLASS----
+[13:36] <sayan> #startclass
+[13:36] <soumam007> ssach96:
+[13:36] <ihp> bhavin192: I have /dev/null
+[13:36] <ssach96> Your computer's fast wrik003
+[13:36] <sayan> Roll Call
+[13:36] <jasonbraganza> Jason Braganza
+[13:36] <naveejka> Naveej Ahamed
+[13:36] <meamitk> Amit Kokitkar
+[13:36] <pr97> Priyanka Sharma
+[13:36] <lucifer> Atul kumar
+[13:36] <asraisingh> Abhishek Singh
+[13:36] <schubisu> Robin Schubert
+[13:36] <skarpy> Akash pathak
+[13:36] <devesh_verma> Devesh Verma
+[13:36] <prashaant> Prashant K. Sharma
+[13:36] <aditya_> Aditya khowala
+[13:36] <theAtom> deep
+[13:36] <santoshShaw> Santosh Kumar Shaw
+[13:36] <saikat_> Saikat Dey
+[13:36] <deepika> Deepika Upadhyay
+[13:36] <wrik003> Wrik Bhadra
+[13:36] <rj722> Rahul Jha
+[13:36] <shivams334> Shivam Sharma
+[13:36] <nisha_> Nisha Rani
+[13:36] <anuGupta> Anu Kumari Gupta
+[13:36] <rkased> Razy Kased
+[13:36] <sayan> Sayan Chowdhury
+[13:36] <ssach96> Sachin singh
+[13:36] <abhinavshirur> Abhinav Shirur
+[13:36] <ravindra> Ravindra Lakal
+[13:36] <bhavin192> Bhavin Gandhi
+[13:36] <samridhia> Samridhi Agarwal
+[13:36] <singh123> Amarjeet Singh
+[13:36] <cran-cg> Chiranjeev Gupta
+[13:36] <arush> Arush Salil
+[13:36] <sakshi> Sakshi Saraswat
+[13:36] <ihp> Mohit Bansal
+[13:36] <neer> Nishanta Sarma
+[13:36] <dhairyya> Dhairyya Agarwal
+[13:36] <pritam> Pritam Bankar
+[13:36] <shankarj67> Shankar Jha
+[13:36] <soumam007> Soumam Banerjee
+[13:36] <zebak_> Zeba Karin
+[13:36] <dodococo> Deepak Chethan
+[13:36] <balaji> Balaji
+[13:36] <kvy> kumar vipin yadav
+[13:36] <{tHEbIgtHEb}> Bhargav Voleti
+[13:37] <iKshitij> Kshitij
+[13:37] <ani_> Aniet Uttam
+[13:37] <anupamas> Anupama Shipurkar
+[13:37] <yurii> yurii pylypchuk
+[13:37] <akshayg96[m]> Akshay Gaikwad
+[13:37] <poojaencoded> pooja kumari singh
+[13:37] <akshays> Akshay Shipurkar
+[13:37] <sitlanigaurav[m]> Gaurav Sitlani
+[13:37] <sapahia> Rishav
+[13:37] <imranjeetsingh_> Ranjeet kumar
+[13:37] <Cyber_freak> Pradhvan Bisht
+[13:37] <casper01> mayur khomane
+[13:37] <Padfoot7> Mohd Omama
+[13:37] <Vamsi3296> Vamsi Krishna
+[13:38] <ishank_g> Ishank Gupta
+[13:38] <girish946> girish joshi
+[13:38] <bhavin192> wrik003, dhairyya I was talking about file 'null' which is in '/', I was just describing the file with it's path.
+[13:39] <dhairyya> yes it is there bhavin192
+[13:39] <mbtamuli12_> Mriyam Tamuli
+[13:39] <wrik003> bhavin192, ok
+[13:39] <wrik003> bhavin192, what about it?
+[13:39] <apoorv> Apoorv Goel
+[13:39] <mdbk> Onyinye Madubuko
+[13:39] <priyansh> Priyansh sourav
+[13:39] <sayan> So, yesterday the task was to read the FHS document, do you have any query from the last class session?
+[13:39] <bhavin192> wrik003, wanted to verify if it exist for everyone
+[13:40] <dodococo> No
+[13:40] <wrik003> sayan, couldn't go through it properly. didn't have much time.
+[13:40] <wrik003> bhavin192, ok.
+[13:40] <ashwanig[m]> Roll call: Ashwani Kumar Gupta
+[13:41] <sayan> Wow, nobody has queries, I guess this is the first time in years
+[13:41] <skarpy> sayan: a repository is required for mercurial? Is it a must? I can't do the commands on simple directory?
+[13:41] <sayan> That's proves that either people understood everything or nothing
+[13:41] <sayan> skarpy: you need to use the exclamation mark to ask the question
+[13:42] <bhavin192> !
+[13:42] <sayan> next
+[13:42] <iKshitij> skarpy Simple directory means ?
+[13:42] <skarpy> !
+[13:42] <bhavin192> is it good practice to have repos, code files in /opt?
+[13:42] <cran-cg> sayan: I couldn't go through the doc throughly. Will need some more time
+[13:42] <dodococo> iKshitij:  A simple folder
+[13:42] <zetathon> Sumit Sardana
+[13:43] <skarpy> iKshitij: simple folder
+[13:43] <ahole[m]> Kshithij Iyer
+[13:43] <ashwanig[m]> sayan, ai also need some more time. Could not go through the docs
+[13:43] <nayan8459> naveen nayan
+[13:43] <sayan> bhavin192: do you mean the source code of the project?
+[13:43] <bhavin192> sayan, yes
+[13:43] <iKshitij> dodococo: heard this term for the first time :)
+[13:44] <dodococo> iKshitij: Youll get used to it 👍
+[13:44] <sayan> since people could not complete reading the document, please read it now and ask question
+[13:45] <sayan> try out different variety of things, raise questions in your mind
+[13:45] <AndChat-622356> Hi , sorry i am late what topic going on ?
+[13:45] <sayan> bhavin192: nope, we don't
+[13:45] <im_mohsin> sayan, could not read the document
+[13:45] <aditya_> !
+[13:45] <sayan> bhavin192: each of the language have their location
+[13:46] <dodococo> bhavin192: Are you using the root account, if not, I dont think you will be able to modify it by default.
+[13:46] <skarpy> !
+[13:46] <sayan> bhavin192: for example for Python you have /usr/lib/python3.5/site-packages/
+[13:46] <sayan> so when you install the packages the source file goes into that directory
+[13:47] <sayan> if you are using nodejs, it uses something called node_modules
+[13:47] <bhavin192> dodococo, no I'm not using root account.
+[13:47] <bhavin192> sayan, but for our own projects?
+[13:48] <sayan> bhavin192: if you are doing development, you would be using the home(~)
+[13:48] <anuGupta> !
+[13:49] <schubisu> !
+[13:49] <sayan> whereas if you are distributing, you need to write the setup script in a way so that it copies the file to the given location
+[13:49] <sayan> next
+[13:49] <skarpy> Repository as in software repository containing packages, the one with .Repo extensions, not simple directory, are those mercurial commands available for them? I am a bit confused about this, can u please explain?
+[13:50] <bhavin192> sayan, actually I have mounted one 80GB volume in /opt, I will consider mounting it somewhere else.
+[13:50] <rkased> !
+[13:50] <sayan> bhavin192: yes
+[13:51] <rkased> What does cd stand for when using in terminal?
+[13:51] <sayan> skarpy: I did not get your question quite properly
+[13:51] <sayan> rkased: you need to wait for your turn
+[13:51] <sayan> skarpy: and it's you not 'u'
+[13:51] <dhairyya> change directory rkbased
+[13:51] <dodococo> rkased: change directory
+[13:51] <skarpy> sayan: can you please explain mercurial?
+[13:51] <dhairyya> !
+[13:51] <skarpy> Where can I use?
+[13:52] <imranjeetsingh_> !
+[13:52] <sayan> skarpy: not now, we will have a class on version control management
+[13:52] <sayan> skarpy: we will explain git
+[13:52] <dodococo> skarpy: Did you try googling it first ?
+[13:52] <skarpy> dodococo: i googled and got more confused
+[13:52] <ihp> !
+[13:52] <sayan> skarpy: ask after the class
+[13:52] <sayan> next
+[13:52] <sayan> next
+[13:52] <aditya_> difference between fork and exec system call ?
+[13:53] <anuGupta> I am unable to use commands.It shows some or the other errors.If package installation is required then also I am getting error messages<eof>
+[13:53] <skarpy> Ok sayan . <Eof>
+[13:53] <rkased> !
+[13:53] <sayan> rkased: please wait for your turn
+[13:53] <im_mohsin> can someone please send me the yesterdays link for bash command
+[13:54] <zetathon> im_mohsin, <http://tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf>
+[13:54] <sayan> im_mohsin: http://summertraining.readthedocs.io/en/latest/fhs.html
+[13:54] <shivams334> !
+[13:54] <sayan> aditya_: so suppose you have a process, p
+[13:55] <sayan> aditya_: so if you are doing a fork system call, in layman terms, it would be it would make a copy of the process it's forking
+[13:55] <im_mohsin> zetathon, link is not opening
+[13:55] <sayan> aditya_: it would have a different PID (Process ID), and there would not be two process running
+[13:55] <wrik003> im_mohsin, opens fine for me.
+[13:56] <sayan> aditya_: the term fork in computer science means to copy
+[13:56] <zetathon> im_mohsin, try reloading it, I'm currently using it - working fine for me
+[13:56] <BhaveshSGupta> Sorry Late again, Bhavesh Gupta
+[13:56] <dodococo> anuGupta: What type of errors?
+[13:56] <im_mohsin> wrik003, i bookmarked yesterday and now when i open its not opening the pdf and same with link shared by zetathon
+[13:56] <cran-cg> !
+[13:57] <Ravi_luci4> sorry I'm late,
+[13:57] <sayan> aditya_: and the exec call would be used to basically replace the process p
+[13:57] <Ravi_luci4> Roll call: Ravicharan
+[13:57] <Ravi_luci4> <eof>
+[13:57] <anuGupta> Dodococo: failure
+[13:57] <sayan> anuGupta: which commands you cannot use?
+[13:57] <naveejka> !
+[13:57] <anuGupta> hg status
+[13:57] <aditya_> exec is like context switching the running process??
+[13:57] <zetathon> im_mohsin, wait I'll send u one more link
+[13:58] <skarpy> anuGupta: it will not work on simple creating a text file and deleting it inside a folder
+[13:58] <zetathon> im_mohsin, try this one < http://tille.garrels.be/training/bash/ >
+[13:59] <sayan> anuGupta: why are you trying out mercurial? You were not given to read that
+[13:59] <sayan> next
+[13:59] <schubisu> what is the best practice to install anaconda to? I have it in home, but I run into problems when making things available system wide, and it feels not right to always point to the executables in my home directory <eof>
+[13:59] <aditya_> !
+[13:59] <Ravi_luci4> !
+[14:00] <anuGupta> The first link for beginners.I am reading that.
+[14:00] <im_mohsin> Yeah now this works. thank you zetathon, wrik003
+[14:01] <skarpy> anuGupta: leave mercurial part(containing hg commands) for now, git will be discussed in upcoming classes, wait for that.
+[14:01] <jiteshpabla> !
+[14:01] <sayan> schubisu: why are you reading anaconda, was that given in the fhs document that we gave?
+[14:01] <samridhia> !
+[14:02] <sayan> Please ask question from the FHS document or else you can discuss it after the class
+[14:02] <sayan> next
+[14:02] <schubisu> sayan, sorry, it's because I wonder about the location where to store that
+[14:02] <singh123> !
+[14:03] <zetathon> !
+[14:03] <{tHEbIgtHEb}> anuGupta: I think you are going to the next chapter. The chapter on mercurial is after the FHS chapter http://summertraining.readthedocs.io/en/latest/fhs.html. The FHS chapter has links to the log of an older class and the the link to the FHS specification.
+[14:03] <shivams334> ?
+[14:03] <rkased> While reading through the kusha'ls FHS log, I tried to access /dvd after getting in /dev but was unable to. what could be the issue that I'm arriving at?
+[14:03] <anuGupta> I have read the log
+[14:03] <sayan> schubisu: we can discuss it after the class, there are lot of new people who might not now what is anaconda, so they might not follow
+[14:03] <schubisu> sayan, okay, thank you
+[14:04] <sayan> anuGupta: cool, so you can ask question from the log
+[14:04] <anuGupta> Ok
+[14:04] <bhavin192> rkased, you can access /dev/dvd not /dvd
+[14:05] <rkased> When I do that it says, it is not a directory?
+[14:05] <sayan> rkased: yes, you need to access /dev/dvd
+[14:05] <bhavin192> rkased, you may not have /dev/dvd I have /dev/cdrom
+[14:06] <rkased> I see the dvd when I use the ls command in /dev
+[14:06] <sayan> rkased: did you try to do a ls inside /dev and see if dvd exists?
+[14:06] <kushal> rkased, that is a device file.
+[14:06] <rkased> yes I do see dvd and also dvdrw
+[14:07] <ssach96> Sry guys but not full understanding  what we are discussing right now
+[14:07] <sayan> rkased: as kushal said it's a device file
+[14:07] <prashaant> sayan, I do not have "dvd" inside /dev , I have "/dev/disk" and "/dev/dri"
+[14:07] <singh123> Is batul not working?
+[14:07] <rkased> ok
+[14:07] <bhavin192> #hello
+[14:08] <sayan> prashaant: do you have a dvd drive?
+[14:08] <sayan> ssach96: we are dicussing question from http://summertraining.readthedocs.io/en/latest/fhs.html
+[14:08] <sayan> ssach96: have you read the logs?
+[14:08] <sayan> next
+[14:08] <prashaant> sayan, yes
+[14:08] <dhairyya> when /bin contains all the commands needed by all the users than why do we need /usr/bin?<eom>
+[14:08] <balaji> !
+[14:08] <apsknight> !
+[14:08] <ssach96> No my first day
+[14:09] <samridhia> I am also not having "dvd" inside /dev
+[14:09] <kushal> samridhia, It is okay if you don't have.
+[14:09] <zetathon> sayan, what is symbolic link?
+[14:09] <poojaencoded> I also don't have "dvd"
+[14:09] <sayan> prashaant: samridhia: even if you have a dvd drive it's possible you don't have that file
+[14:09] <prashaant> sayan, ok
+[14:10] <sayan> prashaant: samridhia: it could be in there with a different name
+[14:10] <kushal> dhairyya, https://fedoraproject.org/wiki/Features/UsrMove
+[14:10] <dodococo> zetathon: a shortcut
+[14:10] <shivams334> !
+[14:10] <shivams334> What are patch commands?
+[14:10] <dhairyya> zetathon it was there in this log https://dgplug.org/irclogs/rishi_3rdclass.log
+[14:10] <prashaant> sayan, ok will check
+[14:10] <samridhia> i am having dev/dri/
+[14:10] <sayan> next
+[14:10] <imranjeetsingh_> sry the question was from Mercurial , i will ask in that class<eof>
+[14:10] <dhairyya> thanks kushal
+[14:10] <kushal> imranjeetsingh_, What is sry?
+[14:10] <sayan> imranjeetsingh_: what is sry?
+[14:11] <sayan> :p
+[14:11] <sayan> next
+[14:11] <prashaant> sayan, i have "/dev/cdrom"
+[14:11] <ihp> when we as a standard user perform any command using sudo.  In settings, the status for that user changes to administrator, then what is the benefit of using standard one?  <eom>
+[14:11] <sayan> prashaant: that could be the one
+[14:11] <aditya_> !
+[14:12] <ihp> sayan: As this happens with me in Ubuntu.
+[14:12] <dhairyya> ihp if we work in standard mood then we cannot alter any file by mistake
+[14:12] <sayan> ihp: first of all I don't understand what do you mean by settings here, but you question is what is the use of normal user when the user can become admin?
+[14:13] <samridhia> !
+[14:13] <sayan> next
+[14:13] <ihp> sayan: system settings, from where we can graphically add or delete users.
+[14:13] <ihp> sayan: yes, that was the question.
+[14:13] <shivams334> I just want to ask, what are patch commands and how can I use it
+[14:13] <sayan> ihp: cool
+[14:13] <sayan> shivams334: don't ask out of turn
+[14:14] <shankarj67> ls
+[14:14] <kushal> shivams334, Have you googled it?
+[14:14] <shankarj67> sorry
+[14:14] <kushal> or searched any other search engine.
+[14:14] <shivams334> yup
+[14:14] <jiteshpabla> !
+[14:14] <shivams334> I didn't got that
+[14:15] <shivams334> I will go through it again
+[14:15] <ssach96> Is this a beginners session cause the link have things way out of my league i am a teen learning programming languages and you are already disscussing respiratory
+[14:15] <sayan> ihp: so, it could be possible that you have a user on your machine to whom you don't want to give sudo access
+[14:15] <dodococo> ihp: to prevent accidents, you can mess up your installation if you change permissions or delete important files by mistake.
+[14:16] <ihp> dodococo: got the point.
+[14:16] <sayan> next
+[14:16] <ihp> sayan: we refrain that user from installing any packages and any accidents will be prevented.
+[14:16] <cran-cg> So I was going through the 2nd section of the FHS and came accross static files and variable files. When I do sudo apt-get install, my intuition is that since I have been using sudo the file type has to be static
+[14:16] <cran-cg> but I use that package and manipulate data without the admin access, so does it mean that the file system of variable type ? <eof>
+[14:17] <ihp> sayan: dodococo: thanks
+[14:17] <ihp> !
+[14:17] <sayan> ihp: a lot of things, a normal user cannot add malicious code into the computer
+[14:17] <ganesh_nomula> @kushal did any session happen today? and how many sessions will be happening per week?
+[14:17] <sayan> ganesh_nomula: the session is going on
+[14:18] <ganesh_nomula> how do i join the session?
+[14:18] <ganesh_nomula> @sayan
+[14:18] <dodococo> ihp: Your welcome ;D
+[14:18] <devendrabhat> devendra bhat
+[14:18] <abhinavshirur> ganesh_nomula, you are already in the session
+[14:19] <devendrabhat> !
+[14:19] <kushal> next
+[14:19] <naveejka> Too many distractions. Difficult to follow the discussion. can you please enforce etiquette?, thanks <eof>
+[14:19] <sayan> cran-cg: sorry, had a call
+[14:20] <kushal> naveejka, problem with new IRC users, no direct way.
+[14:20] <sayan> cran-cg: where was the package installed?
+[14:20] <kushal> naveejka, Though you gave me an idea. We will fix it in future.
+[14:21] <ganesh_nomula> !
+[14:21] <kushal> next
+[14:21] <cran-cg> sayan /usr
+[14:21] <aditya_> does exec works on context switching method?
+[14:21] <kushal> aditya_, I don't remember what does it mean by context switching method, can you elaborate?
+[14:22] <sayan> cran-cg: that's weird, because if you are doing a apt get install, then you should not be able to edit the pacakge
+[14:22] <sayan> cran-cg: without the root or, the sudo access
+[14:22] <aditya_> context switching means to forcely switching the running process with a high priority process
+[14:23] <singh123> !
+[14:23] <sayan> aditya_: nope
+[14:23] <cran-cg> sayan: Let me check.
+[14:24] <singh123> How can i interact with lost+found ?
+[14:24] <sayan> aditya_: read this one: https://stackoverflow.com/a/4205020
+[14:24] <sayan> next
+[14:24] <aditya_> okay thanks
+[14:24] <prashaant> aditya_, not necessarily a context switch can take place based on many condition of which scheduling high priority process to the CPU is one
+[14:25] <aditya_> ya i just give a particular situation to explain context switch
+[14:25] <sayan> next
+[14:25] <jiteshpabla> Can questions about FHS be asked tomorrow too?
+[14:25] <kushal> jiteshpabla, Yes
+[14:25] <sayan> jiteshpabla: yes
+[14:25] <kushal> Btw, everyone this is the FAQ: http://summertraining.readthedocs.io/en/latest/faq.html
+[14:25] <sayan> jiteshpabla: you also don't need to wait for the session, you can ask after the class.
+[14:25] <kushal> Which I forgot to share before :(
+[14:26] <jiteshpabla> kushal sayan: Ok, thank you
+[14:26] <sayan> jiteshpabla: but if you ask in class other people can also interact
+[14:26] <sayan> next
+[14:26] <samridhia> I was having a doubt with what does recursive create directories and remove directory mean?
+[14:27] <acetakwas> samridhia::  It means the change will be effected on child folders
+[14:27] <kushal> samridhia, think like this /a/b/c/d
+[14:27] <sayan> I did not understand what did you mean by recursive create directories
+[14:27] <acetakwas> "child folders" of the folder you are making a change to.
+[14:27] <kushal> Now if you remove a recursively, it will not only remove a but all the childs
+[14:28] <kushal> sayan, I guess mkdir -p a/b/c/d
+[14:28] <jiteshpabla> sayan: that's great, thanks!
+[14:28] <sayan> kushal: oh ok
+[14:28] <samridhia> kushal: got it
+[14:28] <sayan> next
+[14:28] <singh123> How can i interact with lost+found?
+[14:28] <cran-cg> sayan: Say I used dpkg -L tree. The location shows me /usr/bin /usr/share/
+[14:29] <cran-cg> *console logs
+[14:29] <cran-cg> Am I giving a wrong command sayan?
+[14:29] <ganesh_nomula> !
+[14:29] <dodococo> singh123:  The exact same question https://unix.stackexchange.com/q/18154/236016
+[14:30] <sayan> singh123: if you have stuff in there, you can access it
+[14:30] <sayan> I haven't accessed lost+found myself, afaik it usually needed after a crash recovery
+[14:31] <sayan> cran-cg: I don't know about dpkg -L, that's ubuntu specific
+[14:31] <sayan> cran-cg: let's see this after the class
+[14:31] <sayan> cran-cg: ping me
+[14:31] <sayan> next
+[14:31] <singh123> thanks dodococo,sayan
+[14:31] <sayan> cran-cg: but the basic idea is, you should not be able to access  :)
+[14:31] <sayan> next
+[14:31] <balaji> sayan, Even I am having problem which I can not access anything inside /dev. But When I do ls I can see the folders. Whenever I try to do cd inside that it says dvd(also cdrom) not a directory
+[14:32] <sayan> balaji: that is because it is not a directory
+[14:32] <dodococo> balaji: They are files
+[14:32] <sayan> those are files
+[14:32] <cran-cg> sayan: Thanks :))
+[14:32] <sayan> next
+[14:32] <balaji> then how can go inside that
+[14:32] <apsknight> Why Github is preferred more than Gitlab and Bitbucket ?
+[14:32] <dhairyya> balaji just the way you access files
+[14:33] <ganesh_nomula> !
+[14:33] <apoorv> ?
+[14:33] <dodococo> balaji: mount something there and then try cd
+[14:33] <sayan> apsknight: is Github/Gitlab/Bitbucket related to FHS in any way?
+[14:34] <shankarj67> apsknight, mechanism is same but github is popular now a days.
+[14:34] <sayan> balaji: when you insert the drive you can access them, you can also alternatively mount the drive and access it
+[14:34] <sayan> in that case you can `cd` into it
+[14:34] <balaji> sayan,  dhairyya, dodococo Thanks . Will try that
+[14:34] <sayan> next
+[14:34] <ihp> Then, why should we use standard user cause we might need sudo access many times?  Asking because in the logs they joked to try rm -rf / (which I never won't) to all root users. <eof>
+[14:35] <ganesh_nomula> @kushal this is my first session actually. So, sessions are something where we have to discuss about homeworks?
+[14:35] <sayan> ihp: to do day to day stuffs
+[14:35] <ihp> sayan: Do you use standard user or administrator user?  Just to know personal preference.
+[14:36] <sayan> ihp: the confusion is because you have access to both, consider a server where I don't have the access to root
+[14:36] <sayan> so in that case I am a limited user, I cannot install malicious packages, change config files
+[14:37] <kushal> ganesh_nomula, or learn a new thing if there is any live thing.
+[14:37] <sayan> ihp: the normal user, I rarely even use sudo
+[14:37] <ihp> then how do you install softwares
+[14:38] <ganesh_nomula> @kushal where can i find all the logs?
+[14:38] <kushal> ganesh_nomula, https://dgplug.org/irclogs/2017/
+[14:38] <sayan> ihp: i.e. whenever I use sudo that is for installing softwares
+[14:38] <sayan> next
+[14:38] <devendrabhat> As i joined the session late, can you please tell which all topics have been covered till now, n also links
+[14:38] <sayan> devendrabhat: please the word is *and*
+[14:38] <ihp> sayan: Ok. :)
+[14:38] <kushal> ganesh_nomula, Also only ask when it is your turn.
+[14:38] <ihp> !
+[14:38] <devendrabhat> sorry*
+[14:39] <sayan> devendrabhat: we are discussing http://summertraining.readthedocs.io/en/latest/fhs.html
+[14:39] <sayan> next
+[14:39] <sayan> next
+[14:39] <ihp> I am really confused between hard link, soft links
+[14:39] <ihp> why do we need these two different concepts?
+[14:39] <sayan> ihp: what is your confusion?
+[14:39] <ihp> and what is benefit over copy command?
+[14:40] <ganesh_nomula> @kushal, i couldn’t find day 3 logs will it take time to upload. and sure ill ask when it’s my turn.
+[14:40] <sayan> ihp: well the benefit of the copy command is to copy, I guess
+[14:40] <dodococo> ihp: soft link is the shortcut and the hard link is the replica, if you modify the replica it modifies the original file.
+[14:40] <ganesh_nomula> and how many sessions will be held per week?
+[14:41] <kushal> ganesh_nomula, you are still asking in the middle of the session
+[14:41] <ganesh_nomula> @kushal batul told me to ask
+[14:41] <kushal> ganesh_nomula, I can see three logs at https://dgplug.org/irclogs/2017/
+[14:41] <kushal> ganesh_nomula, Okay, my mistake.
+[14:41] <sayan> dodococo: ihp's question is "Why do they exists"
+[14:41] <ihp> sayan: do hard link occupies space at two place in disk, like copy?
+[14:42] <ganesh_nomula> @kushal that’s okay. Will the sessions be conducted everyday for 3 months?
+[14:42] <kushal> ganesh_nomula, No
+[14:42] <sayan> afaik, hardlink does not occupy space
+[14:43] <dodococo> sayan: the first question he asked was that he was confused, so tried to explain. My bad
+[14:43] <sayan> dodococo: no issues :)
+[14:43] <ihp> sayan: and neither do the soft link, right?
+[14:43] <kushal> ihp, Have you searched about it?
+[14:43] <kushal> https://unix.stackexchange.com/questions/88423/why-do-hard-links-seem-to-take-the-same-space-as-the-originals
+[14:43] <ganesh_nomula> @kushal done thank you so much :D
+[14:44] <sayan> oops, sorry I mean hard links
+[14:44] <sayan> s/hard/soft/
+[14:44] <sayan> :(
+[14:44] <ihp> kushal: tried but got more confused.  BTW, thanks for the link
+[14:44] <im_mohsin> sayan, hardlinks do occupy space right because it will copy all the content in a separate file. Correct me if i'm wrong
+[14:44] <anuGupta> !
+[14:45] <kushal> ihp, also read https://stackoverflow.com/questions/8337878/do-hard-links-or-soft-links-take-any-space-in-the-filesystem
+[14:45] <jasonbraganza> No im_mohsin. not quite. Read kushal’s links
+[14:45] <kushal> im_mohsin, also read https://en.wikipedia.org/wiki/Hard_link
+[14:45] <sayan> im_mohsin: well the think is both take space
+[14:46] <sayan> s/think/thing
+[14:46] <singh123> !
+[14:46] <sayan> next
+[14:46] <sayan> next
+[14:46] <anuGupta> Should we use standard user or administrator user?
+[14:46] <anuGupta> <EOF>
+[14:46] <sayan> anuGupta: normal user
+[14:46] <singh123> cd / means we are superuser?
+[14:47] <sayan> singh123: no, you can do cd / even if you are not superuser
+[14:47] <sayan> next
+[14:47] <dodococo> singh123: No, goes to root directory
+[14:47] <anuGupta> Sayan,ok
+[14:47] <kushal> singh123, no, means you are going to the root directory
+[14:47] <wrik003> singh123, i think it is to go to te root directory.
+[14:47] <wrik003> s/te/the
+[14:48] <sayan> singh123: right, don't confuse between root directory and root user
+[14:48] <singh123> understood sayan
+[14:48] <anuGupta> !
+[14:48] <sayan> next
+[14:48] <ahole[m]> No there is another home dir for root it's /root.
+[14:48] <ahole[m]> anuGupta
+[14:48] <singh123> thanks
+[14:48] <anuGupta> I am unable to access files under directory .<eof>
+[14:49] <dodococo> ahole[m]: I think thats roots home directory
+[14:49] <kushal> anuGupta, ?
+[14:49] <kushal> anuGupta, which directory?
+[14:49] <dhairyya> dodoco you are right
+[14:49] <ahole[m]> dodococo: yes.
+[14:49] <bhavin192> kushal, I think "."
+[14:50] <sayan> btw, can you tell me the difference between cd .. & cd -?
+[14:50] <kushal> bhavin192, But anuGupta has to confirm :)
+[14:50] <anuGupta> Dev
+[14:50] <kushal> anuGupta, ?
+[14:50] <sayan> anuGupta: cd /dev
+[14:50] <kushal> anuGupta, can you please type pwd, and tell us the answer?
+[14:50] <anuGupta> Kushal,Dev
+[14:51] <kushal> anuGupta, There is no Dev
+[14:51] <jasonbraganza> sayan cd.. goes to the parent folder. cd - goes to the last known folder
+[14:51] <sayan> anuGupta: if you are trying to access cd /Dev that won't work
+[14:51] <dhairyya> cd - goes to the last working directory
+[14:51] <anuGupta> No it's working sayan
+[14:51] <sayan> anuGupta: cool
+[14:52] <anuGupta> But what about /dev/sda
+[14:52] <sayan> jasonbraganza: dhairyya yup :)
+[14:52] <sayan> anuGupta: you cannot access those, those are files, you just need to know that within /dev resides device files
+[14:53] <anuGupta> Ok
+[14:53] <im_mohsin> sayan, cd.. goes one level up and cd - shows user path and takes back to home
+[14:53] <kushal> anuGupta, /dev/sda is your main hard drive.
+[14:54] <kushal> im_mohsin, nope
+[14:54] <singh123> !
+[14:54] <kushal> read the answer from jasonbraganza dhairyya
+[14:54] <sayan> :)
+[14:54] <sayan> yes
+[14:54] <sayan> next
+[14:54] <im_mohsin> kushal, what does last known folder means?
+[14:54] <jasonbraganza> im_mohsin easier if you try it
+[14:55] <kushal> jasonbraganza, :)
+[14:55] <singh123> Why there are different colours folder in dev?
+[14:55] <sayan> im_mohsin: the folder from where you changed the directory
+[14:55] <Raut> Hello, its my first session. Up till now i have understood that we are discussing yesterday's homework, what should we prepare for the next session? <eof>
+[14:55] <sayan> singh123: search for why does ls show different colors?
+[14:56] <sayan> Raut: I will tell about the next session
+[14:56] <im_mohsin> sayan, got it.
+[14:56] <Raut> Sayan: Thank you.
+[14:56] <sayan> im_mohsin: cool
+[14:56] <sayan> next
+[14:56] <singh123> Got it, thanks sayan
+[14:56] <anuGupta> Kushal, Ok .Now got it.
+[14:56] <poojaencoded> why i am not able to understand?
+[14:57] <sayan> So, for the next session, re-read the FHS document again
+[14:57] <ganesh_nomula> !
+[14:57] <sayan> poojaencoded: did you read the logs?
+[14:57] <sayan> next
+[14:57] <dhairyya> !
+[14:57] <sayan> next
+[14:57] <poojaencoded> yes
+[14:57] <dhairyya> sayan you mean the logs or the pdf?<eof>
+[14:57] <im_mohsin> jasonbraganza, i tried from home so it was taking me back to home. so thought its just like cd.
+[14:58] <sayan> dhairyya: can you quote the complete line where you saw this one?
+[14:58] <dodococo> im_mohsin: Try from something other than home
+[14:58] <jiteshpabla> I'm leaving the class in between.
+[14:58] <singh123> !
+[14:58] <poojaencoded> i read about first class ,i understood
+[14:58] <ganesh_nomula> @kushal I’m getting an error while updating fedora.
+[14:58] <im_mohsin> dodococo, yeah tried it now :)
+[14:58] <sayan> ganesh_nomula: ask the questions after the class
+[14:58] <dhairyya> sayan you asked us to read the document
+[14:59] <ganesh_nomula> @sayan okay :)
+[14:59] <dhairyya> I meant reread the FHS document
+[14:59] <sayan> dhairyya: oh, sorry, I mean whatever you have here: http://summertraining.readthedocs.io/en/latest/fhs.html
+[14:59] <dhairyya> okay thanks
+[14:59] <sayan> next
+[15:00] <singh123> What is linked file?
+[15:01] <sayan> singh123: a hard link or a soft link file
+[15:01] <singh123> ok got it,thanks
+[15:01] <sayan> kushal: have you passed them the smart questions link to read?
+[15:02] <dodococo> He did sayan
+[15:02] <sayan> Anybody from the class can answer the question ^^
+[15:02] <sayan> But just repeating again, if you haven't read this: read this again: http://www.catb.org/esr/faqs/smart-questions.html
+[15:03] <ashwanig> !
+[15:03] <dhairyya> linked files are similar to shortcuts in windows
+[15:03] <sayan> next
+[15:03] <im_mohsin> !
+[15:03] <ashwanig> In rishi's first class he mentions that if the section number is known then we can do this $ man 2 open
+[15:03] <ashwanig> But how do to know which section number is for which command?
+[15:03] <ashwanig> <eof>
+[15:03] <schubisu> I have to leave early today, sorry
+[15:04] <sayan> ashwanig: so there is special utility for each section numbers
+[15:04] <dodococo> ashwanig: man -f application_name gives the number
+[15:04] <sayan> which goes from 1-8
+[15:04] <ashwanig> sayan, why only 1-8?
+[15:05] <sayan> ashwanig: they all serve a different purpose
+[15:05] <ashwanig> and do I have to remember the section number?
+[15:05] <sayan> ashwanig: http://www.december.com/unix/ref/mansec.html
+[15:05] <sayan> check this
+[15:06] <ashwanig> sayan, Okay
+[15:06] <sayan> ashwanig: now, an example man 3 printf
+[15:07] <sayan> and man 1 printf
+[15:07] <sayan> try this and see the difference
+[15:07] <sayan> next
+[15:07] <sayan> ashwanig: you can also tally with the table
+[15:07] <sayan> next
+[15:07] <sayan> Roll Call
+[15:07] <asraisingh> Abhishek Singh
+[15:07] <santoshShaw> Santosh Kumar Shaw
+[15:07] <cran-cg> Chiranjeev Gupta
+[15:07] <shankarj67> Shankar Jha
+[15:07] <dodococo> Deepak Chethan
+[15:07] <singh123> Amarjeet Singh
+[15:07] <deepika> Deepika Upadhyay
+[15:07] <ashwanig> Ashwani Kumar Gupta
+[15:07] <sitlanigaurav[m]> Gaurav Sitlani
+[15:07] <wrik003> Wrik Bhadra
+[15:07] <HoloIRCUser2> Anu Kumari Gupta
+[15:07] <devesh_verma> Devesh Verma
+[15:07] <dhairyya> Dhairyya Agarwal
+[15:07] <abhinavshirur> Abhinav Shirur
+[15:07] <niranjana> Niranjana Deshpande
+[15:07] <balaji> Balaji
+[15:07] <samridhia> Samridhi Agarwal
+[15:07] <ravindra> Ravindra Lakal
+[15:07] <kvy> kumar vipin yadav
+[15:07] <nsh_srnvsn> Anusha Srinivasan
+[15:07] <saikat_> Saikat Dey
+[15:08] <neer> Nishanta Sarma
+[15:08] <naveejka> Naveej Ahamed
+[15:08] <bhavin192> Bhavin Gandhi
+[15:08] <imranjeetsingh_> Ranjeet kumar
+[15:08] <mbtamuli12_> Mriyam Tamuli
+[15:08] <poojaencoded> pooja kumari singh
+[15:08] <pr97>  Priyanka Sharma
+[15:08] <devendrabhat> Devendra Bhat
+[15:08] <ani_> Aniket uttam
+[15:08] <nisha_> Nisha Rani
+[15:08] <Padfoot7> Mohd Omama
+[15:08] <sakshi__> Sakshi Sangwan
+[15:08] <theAtom> deep
+[15:08] <jasonbraganza> Jason Braganza
+[15:08] <yurii> yurii pylypchuk
+[15:08] <ihp> Mohit
+----END CLASS----

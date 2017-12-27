@@ -1,0 +1,656 @@
+----BEGIN CLASS----
+[13:28] <sayan> #startclass
+[13:28] <sayan> Roll Call
+[13:28] <schubisu> Robin Schubert
+[13:28] <asraisingh> Abhishek Singh
+[13:28] <im_mohsin> Mohsin Mumtaz
+[13:28] <anuGupta> Anu Kumari Gupta
+[13:28] <imranjeetsingh_> Ranjeet kumar
+[13:28] <lucifer> Atul kumar
+[13:28] <championshuttler> Shivam Singhal
+[13:28] <arush_> Arush
+[13:28] <ghishadow> Suraj Ghimire
+[13:28] <abhinavshirur> Abhinav Shirur
+[13:28] <sakshi> Sakshi Saraswat
+[13:28] <poojaencoded> pooja kumari singh
+[13:28] <bhavin192> Bhavin Gandhi
+[13:28] <ravindra> Ravindra Lakal
+[13:28] <ashwanig> Ashwani Kumar Gupta
+[13:28] <harshcrop> Harsh Shah
+[13:28] <deepika> Deepika Upadhyay
+[13:28] <vipulgupta2048_> Vipul Gupta
+[13:28] <akshayg96> Akshay Gaikwad
+[13:28] <santoshShaw> Santosh Kumar Shaw
+[13:28] <saikat_> Saikat Dey
+[13:28] <ikshitij> Kshitij
+[13:28] <skarpy> akash pathak
+[13:28] <pr97> Priyanka Sharma
+[13:29] <Cyber_freak> Pradhvan Bisht
+[13:29] <joyhimanshu> Himanshu Awasthi
+[13:29] <meamitk> Amit Kokitkar
+[13:29] <adas0496> Abhishek Das
+[13:29] <kishore> Kishore Saldanha
+[13:30] <sitlanigaurav[m]> Gaurav Sitlani
+[13:30] <andodococo> Deepak Chethan
+[13:30] <Kas> Razy Kased
+[13:31] <singh123> Is roll call going on?
+[13:31] <sayan> singh123: yes :)
+[13:31] <championshuttler> yes
+[13:31] <singh123> Amarjeet singh
+[13:32] <abhinavshirur> no blooper :P
+[13:32] <_RicharD_> Mayank gupta
+[13:32] <sayan> Any questions from all the sessions we had till date?
+[13:32] <mdbk> Onyinye Madubuko
+[13:33] <im_mohsin> sayan, no :)
+[13:33] <sayan> Remember I will limit the time for Q/A
+[13:33] <sayan> ^^ for today
+[13:33] <ashwanig> !
+[13:33] <singh123> I have one general question.
+[13:33] <sayan> singh123: you can ask
+[13:33] <sayan> singh123: but use !
+[13:34] <sayan> next
+[13:34] <ashwanig> Why home directory of root user is optional?<eof>
+[13:34] <devesh_V> roll call: Devesh Verma
+[13:34] <vivek_> :o
+[13:34] <singh123> Sayan, I have not good internet connection, so in between i got disconnectd.
+[13:34] <vivek_> maybe root lives underground
+[13:35] <sayan> ashwanig: afaik it's not optional
+[13:35] <Pavan> hi sorry i am late , is it class started
+[13:35] <vipulgupta2048_> Optional as in
+[13:35] <sayan> ashwanig: I need to check but.. maybe I know wrong
+[13:35] <Cyber_freak> yes pavan
+[13:35] <ashwanig> kushal, It was mentioned in the FHS document.
+[13:35] <im_mohsin> Pavan, yes
+[13:35] <sayan> ashwanig: Ok, I will check now
+[13:36] <Pavan> my i know todays topic ?
+[13:36] <kushal> may be it will start without any home directory at / (which used to be the home directory of root
+[13:36] <schubisu> my suggestion: as far as I know, a home folder is always optional. root is not a user you should work with permanently, and home is for your personal files, so root should not need that.
+[13:36] <im_mohsin> Pavan, If you any questions from previous topics. Its time to ask now :)
+[13:37] <Pavan> im_mohsin : thanks
+[13:37] <ashwanig> sayan, check section 3.14. Is it an optional reading? That's why it is written optional?
+[13:38] <messifc> rollcoll: Messi Fc
+[13:38] <messifc> Sorry I am facing network issues as I am travelling
+[13:38] <ashwanig> sayan, FHS 3.0
+[13:38] <ikshitij> !
+[13:38] <adas0496> !
+[13:38] <sayan> schubisu: yes, /home/<foobar> is optional
+[13:39] <sayan> you can place it anywhere, and afaik you query from $HOME but it can be empty also
+[13:39] <Kas> !
+[13:39] <sayan> as kushal told it starts from '/'
+[13:40] <ani> roll call: aniket uttam
+[13:40] <Anuja_> roll call: Anuja Agarwal
+[13:40] <sayan> ashwanig: let's see, this is something to learn :)
+[13:40] <messifc> Sorry to disturb, but did I miss something? Like some link to read or something like that? I joined late
+[13:41] <messifc> <eof>
+[13:41] <championshuttler> messifc : ni
+[13:41] <championshuttler> no*
+[13:41] <ashwanig> sayan, Search online also, but didn't find anything useful
+[13:41] <ghishadow>  in old days of linux, / was home directory of root but now it has different folder
+[13:41] <CHOCOS> how do i get started i started today only ?
+[13:41] <sayan> ashwanig: I will look into it, and tell you
+[13:41] <sayan> next
+[13:42] <abhinavshirur> !
+[13:42] <ikshitij> "chmod is the command which changes the file mode bits." What does file mode mean here?
+[13:42] <cignatious> roll call: sharon christa
+[13:42] <Cyber_freak> <messifc> They are discussing Filesystem Hierarchy Standard(FHS)
+[13:42] <ghishadow> real last line of this http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/the-root-directory.html
+[13:43] <sayan> ikshitij: https://en.wikipedia.org/wiki/Chmod#Symbolic_modes
+[13:43] <imranjeetsingh_> CHOCOS, https://www.dgplug.org/irclogs/2017/ read it.
+[13:43] <im_mohsin> ikshitij, it means the mode in which user can a access a file like a read(r), write(w) or execute(x)
+[13:43] <sayan> next
+[13:44] <saptaks> CHOCOS: wait for your turn to ask a question. If you have any question, type "!" and then wait for your turn
+[13:44] <adas0496> I was going through the logs and saw kushal mentioning that Fedora is preffered linux distro for these sessions.
+[13:44] <adas0496> I am a full time Ubuntu user.
+[13:44] <adas0496> Any particular reason for preffering fedora? <eom>
+[13:44] <sayan> adas0496: no issues, you can go with Ubuntu
+[13:44] <ikshitij> im_mohsin: Thank you ! :)
+[13:44] <adas0496> okay
+[13:45] <sayan> adas0496: most of us are Fedora users, so it would be difficult to answer Ubuntu related questions
+[13:45] <sayan> next
+[13:45] <Kas> I've downloaded via and Discount, I should be using von to create a Markdown file than use Discount to convert to HTML?
+[13:45] <Kas> Vim*
+[13:45] <sayan> Kas: out of scope for class now, you need to ask after class
+[13:45] <adas0496> I understand. However linux related issues should be common accross distos.
+[13:46] <sayan> next
+[13:46] <kushal> Kas, yes.
+[13:46] <adas0496> Problem may arise with package installations.
+[13:46] <Kas> I thought we had open questions now
+[13:46] <Kas> Thanks
+[13:46] <abhinavshirur> If someone is solving a doubt on chat, and if that person is going out of track (misunderstanding our question) , is it ok to interrupt? If yes, how?
+[13:46] <sayan> adas0496: not really, if it's common we will try to help
+[13:46] <kushal> abhinavshirur, Just ask at that moment.
+[13:46] <kushal> abhinavshirur, say that you did not understand.
+[13:46] <adas0496> alright
+[13:46] <abhinavshirur> ok :) <eof>
+[13:47] <sayan> abhinavshirur: or like tell "let me rephrase the question for you"
+[13:47] <sayan> next
+[13:47] <sayan> No more questions for now.
+[13:48] <sayan> So today I will be telling on I use vim, the practices I use
+[13:48] <sayan> - how I use it for programming
+[13:49] <sayan> - plugins I use
+[13:49] <sayan> and how I use them
+[13:49] <sayan> so before starting lets start with a example text file
+[13:50] <bhavin192> sayan, or live terminal?
+[13:50] <sayan> bhavin192: no, I will give out instructions and people will type
+[13:51] <bhavin192> sayan, cool :)
+[13:51] <abhinavshirur> the awaited session ;) :P
+[13:51] <sayan> - so people copy this text and copy it to the file foobar.txt
+[13:51] <sayan> https://paste.fedoraproject.org/paste/p3Vt-6cybg4s4DkgyvrrzA/raw
+[13:52] <santoshShaw> Done
+[13:52] <asraisingh> done
+[13:52] <sayan> Read clearly what I write, I will not entertain any typos that you do.
+[13:53] <sayan> Tell me when done
+[13:53] <sitlanigaurav[m]> Done
+[13:53] <ghishadow> done
+[13:53] <adas0496> Done
+[13:53] <imranjeetsingh_> done
+[13:53] <singh123> done
+[13:53] <_RicharD_> Done
+[13:53] <Cyber_freak> done
+[13:53] <SandeepK> done
+[13:53] <messifc> done
+[13:53] <skarpy> done
+[13:53] <arush> Done
+[13:53] <deepika> done
+[13:53] <schubisu> done
+[13:54] <ani> done
+[13:54] <ashwanig> done
+[13:54] <pr97> done
+[13:54] <joyhimanshu> done
+[13:54] <ikshitij> done
+[13:54] <poojaencoded> done
+[13:54] <sakshi> done
+[13:54] <im_mohsin> done
+[13:54] <vipulgupta2048_> done
+[13:54] <lucifer> done
+[13:54] <championshuttler> done
+[13:54] <kvy_> done
+[13:54] <niranjana_> done
+[13:54] <sayan> I would suggest people to maintain a seperate notebook, to note down stuffs
+[13:55] <ravindra> done
+[13:55] <Prerna> done
+[13:55] <kvy_> sayan ok
+[13:55] <championshuttler> done
+[13:55] <im_mohsin> okay
+[13:55] <sayan> Moving forward
+[13:56] <sayan> *- How I open the file? The syntax is vim <filename.txt>
+[13:56] <sayan> when the file opens; the file opens in command mode
+[13:56] <sayan> you press 'i' to go into insert mode
+[13:57] <sayan> you press 'Esc' to come back to command mode
+[13:57] <Prerna> Roll call : Prerna Pandey
+[13:57] <niranjana_> Roll call: Niranjana deshpande
+[13:57] <sayan> To write text, you go to the insert mode and then type text
+[13:58] <sayan> *- Now, one trick that I use, mostly in shell scripts is to automatically open the file in insert mode
+[13:58] <sayan> *- You do that by this command `vim +startinsert <filename>`.
+[13:59] <sayan> *- So people try this: vim +startinsert foobar.txt
+[13:59] <sayan> does that work?
+[13:59] <championshuttler> !
+[13:59] <saikat_> like a charm :-)
+[13:59] <asraisingh> yes
+[13:59] <niranjana_> yes
+[13:59] <ashwanig> sayan, It works
+[13:59] <singh123> yes
+[13:59] <messifc> :yes
+[13:59] <championshuttler> yes
+[13:59] <im_mohsin> yes
+[14:00] <Cyber_freak> yes works
+[14:00] <pr97> yes
+[14:00] <ghishadow> yes
+[14:00] <sakshi> yes
+[14:00] <santoshShaw> Yes it works
+[14:00] <codepoetn> !
+[14:00] <realslimshanky> Yes, awesome!
+[14:00] <sayan> cool
+[14:00] <poojaencoded> yes it works
+[14:00] <ravindra> yes
+[14:00] <anuGupta> Yes
+[14:00] <_RicharD_> Yes works
+[14:00] <kvy> yes
+[14:00] <sitlanigaurav[m]> yes
+[14:00] <ikshitij> Yeah :)
+[14:00] <sayan> *- Now, next if you want to open the file with a certain file number you use the syntax
+[14:00] <Kas> Yes
+[14:00] <Anuja_> yes
+[14:01] <sayan> *- vim +<line_number> <filename>
+[14:01] <sayan> *- so try `vim +35 foobar.txt`
+[14:01] <sayan> *- Check if that works?
+[14:01] <saikat_> Yes!
+[14:01] <ghishadow> works
+[14:01] <singh123> yes
+[14:01] <asraisingh> yes
+[14:01] <sitlanigaurav[m]> yes
+[14:01] <sakshi> yes
+[14:01] <asraisingh> There are is the word
+[14:01] <adas0496> yes
+[14:01] <santoshShaw> Yes
+[14:02] <sayan> awesome :)
+[14:02] <schubisu> well, it has only 13 lines, but yes
+[14:02] <niranjana_> yes
+[14:02] <_RicharD_> Yes
+[14:02] <ani> yes
+[14:02] <ashwanig> Yes
+[14:02] <championshuttler> how to exit from insert to come to command mode ?
+[14:02] <asraisingh> esc
+[14:02] <avik_> !
+[14:02] <ikshitij> championshutler: press Esc
+[14:02] <asraisingh> championshuttler, esc
+[14:02] <saikat_> championshutler, press esc
+[14:03] <championshuttler> it did not work in ubuntu 16.04
+[14:03] <im_mohsin> !
+[14:03] <sayan> schubisu: thanks for noticing
+[14:03] <sayan> schubisu: I will tell the steps to fix that
+[14:03] <im_mohsin> championshuttler, for me too.not working correctly
+[14:03] <sayan> let me go ahead and take questions of people who already asked
+[14:03] <sayan> next
+[14:04] <sayan> next
+[14:04] <codepoetn> why should we type +startinsert when pressing an i is seemingly easier job
+[14:04] <championshuttler> im_mohsin then what to do to go for command mode?
+[14:04] <sayan> codepoetn: as I told this could come useful in shell scripts, automating pressing of 'i'
+[14:04] <sayan> next
+[14:04] <ikshitij> championshutler: It should work.
+[14:04] <avik_> why do we need +startinsert? i mean pressing just 'i' isn't simpler?
+[14:05] <im_mohsin> esc championshuttler
+[14:05] <avik_> never mind
+[14:05] <ravindra> !
+[14:05] <sayan> avik_: I just answered that
+[14:05] <sayan> next
+[14:05] <avik_> yup
+[14:05] <im_mohsin> it is not going to correct line number, sayan
+[14:05] <saikat_> !
+[14:05] <avik_> actually kept the thing written. thanks <eof>
+[14:05] <championshuttler> not working i have to close first terminal then i have to do same process again :(
+[14:06] <sayan> im_mohsin: right! my mistake. as schubisu told
+[14:06] <sayan> *- People please remove the file you have and use this instead
+[14:06] <ashwanig> championshuttler, Have you pressed Ctrl + S?
+[14:06] <sayan> *- https://paste.fedoraproject.org/paste/PHUFGAK8rP6gOh2CFohb4A/raw
+[14:06] <im_mohsin> sayan, realized now that the one line very big in the text right?
+[14:07] <championshuttler> ashwanig no
+[14:07] <sayan> all please save the last link I gave as foobar.txt and delete the last file
+[14:08] <sayan> please tell me when done!
+[14:08] <ashwanig> done
+[14:08] <niranjana_> done
+[14:08] <sitlanigaurav[m]> done
+[14:08] <asraisingh> done
+[14:08] <realslimshanky>  done
+[14:08] <messifc> done
+[14:08] <skarpy> done
+[14:08] <championshuttler> done
+[14:08] <lucifer> done
+[14:08] <santoshShaw>  Done
+[14:08] <im_mohsin> done
+[14:08] <arush> Done
+[14:08] <ikshitij> done
+[14:08] <SandeepK> done
+[14:08] <sayan> The new file maintains the 80 line character limit thus is divided over multiple lines
+[14:08] <Cyber_freak> Done
+[14:08] <sayan> cool
+[14:08] <_RicharD_> Done
+[14:09] <santoshShaw> Now it has 48 lines
+[14:09] <deepika> done
+[14:09] <sayan> santoshShaw: yes
+[14:09] <pr97> done
+[14:09] <saikat_> New file link?
+[14:09] <singh123> done
+[14:09] <abhinavshirur> saikat_, https://paste.fedoraproject.org/paste/PHUFGAK8rP6gOh2CFohb4A/raw
+[14:09] <kvy> done
+[14:09] <sayan> thanks abhinavshirur
+[14:09] <sayan> Moving ahead
+[14:09] <Prerna> done
+[14:09] <ghishadow> done
+[14:10] <schubisu> done
+[14:10] <ravindra> done
+[14:10] <Kasedr> done
+[14:11] <championshuttler> done
+[14:11] <sayan> *- Sometime is you want to open run a few commands, like ls, pwd etc you can do that directly from vim
+[14:11] <sayan> *- Open up vim, and in command mode try:
+[14:11] <sayan> *- :!ls
+[14:11] <sayan> *- :!pwd
+[14:12] <asraisingh> !
+[14:12] <sayan> *- :!cat foobar.txt
+[14:12] <ikshitij> !
+[14:12] <ashwanig> sayan, Works
+[14:13] <sayan> next
+[14:13] <Cyber_freak> works
+[14:13] <sayan> next
+[14:13] <saikat_> sayan, solved
+[14:13] <im_mohsin> !
+[14:14] <sayan> saikat_: cool
+[14:14] <messifc> !
+[14:14] <sayan> next
+[14:14] <asraisingh> sayan, solved and done
+[14:14] <sayan> next
+[14:14] <ikshitij> Can we run installed packages command like gcc, make, python, pip in vim?
+[14:15] <bhavin192> ikshitij, try!
+[14:16] <sayan> ikshitij: try, should work
+[14:16] <sayan> next
+[14:16] <asraisingh> !
+[14:16] <im_mohsin> Can i execute a program in vim? let say i have c program i want to execute as i go. So can i use :!make <programname>
+[14:16] <sayan> next
+[14:16] <ahole[m]> !
+[14:16] <im_mohsin> same question
+[14:16] <messifc> when running ":!cat foobar.txt" I get error ":catch without :try" <eom>
+[14:16] <ashwanig> !
+[14:16] <sayan> im_mohsin: same question as?
+[14:17] <sayan> im_mohsin: but it should work.
+[14:17] <ikshitij> im_mohsin: try :)
+[14:17] <Cyber_freak> python works in vim :!python
+[14:17] <im_mohsin> as ikshitij
+[14:17] <ani> messifc, you miss some thing
+[14:17] <sayan> messifc: no clue
+[14:17] <bhavin192> Cyber_freak, all commands should work
+[14:18] <sayan> I have seen the limitation to this command yet
+[14:18] <Cyber_freak> yes works
+[14:18] <sayan> I usually use this without going on of vim
+[14:18] <sayan> so \o/
+[14:18] <messifc> sayan: sorry my bad. Now it's working fine
+[14:18] <sayan> Okay moving ahead
+[14:21] <sayan> *- These are a few things that I use
+[14:21] <sayan> *- moving ahead with configuration of vim
+[14:22] <sayan> *- So you can create a file in your home directory as .vimrc
+[14:22] <sayan> *- If you already have? ignore (you probably know about configs :-)
+[14:23] <saikat_> !
+[14:23] <Cyber_freak> !
+[14:23] <sayan> People please do this in a different terminal. Basically you need to have to open terminals. one to edit .vimrc
+[14:23] <sayan> another for foobar.txt
+[14:24] <sayan> next
+[14:24] <sayan> next
+[14:24] <asraisingh> sayan, as 'cat' command is taking whole text in command is there is any command to take only some lines from file?
+[14:24] <sayan> asraisingh: head & tail
+[14:24] <sayan> next
+[14:25] <ashwanig> When I typed :!dnf then it shows a list of commands followed  by 'shell returned 1'. What does this mean?<eof>
+[14:25] <sayan> probably dnf returns 1?
+[14:25] <sayan> next
+[14:26] <ahole[m]> Question already answered.
+[14:26] <saikat_> how to setup vimrc?
+[14:26] <saikat_> Should i type vim .vimrc?
+[14:26] <vivek_> saikat_: should work
+[14:26] <sayan> saikat_: yes
+[14:27] <sayan> btw, I told you to create the file .vimrc
+[14:27] <Cyber_freak> question answered
+[14:27] <deepika> !
+[14:27] <sayan> next
+[14:27] <sayan> next
+[14:27] <sayan> Moving ahead
+[14:27] <sayan> *- Open the vimrc with vim
+[14:27] <sayan> *- vim .vimrc
+[14:27] <deepika> is their a way to recover edits to a quitted file?
+[14:28] <saikat_> sayan, doing that opens .vimrc in vim with nothing written. If i do :wq, it means i am also creating the file, right?
+[14:28] <bhavin192> saikat_, yes, you are creating new file.
+[14:29] <avik_> !
+[14:29] <championshuttler> !
+[14:29] <bhavin192> saikat_, first type ! then ask.
+[14:29] <saikat_> bhavin192, i was actually continuing my question
+[14:30] <avik_> what is the file name? .vimrc seems the extension, however a file is opened in vim? HOW?
+[14:30] <avik_> oops!
+[14:30] <sayan> deepika: yes, there is something called *.swp files
+[14:30] <bhavin192> saikat_, oh, ok then :)
+[14:30] <sayan> deepika: but out of scope for this class now
+[14:30] <sayan> deepika: you can asked after the session
+[14:30] <sayan> next
+[14:30] <deepika> okay ,will do ,thanks :)<eof>
+[14:31] <avik_> sayan asked!
+[14:31] <avik_> what is the file name? .vimrc seems the extension, however a file is opened in vim? HOW?
+[14:32] <kushal> avik_, Go out, and shout from the balcony, "HOW? HOW IS IT POSSIBLE?"
+[14:32] <avik_> yup!
+[14:32] <bhavin192> avik_, Linux does not depend on extensions, .vimrc means file name with .vimrc name . makes the file hidden
+[14:33] <avik_> got the caps on by mistake
+[14:33] <im_mohsin> avik_, .vimrc is not the extension. It simply means hidden file
+[14:33] <ashwanig> avik_, It is the filename
+[14:33] <sayan> Thanks for all who answered
+[14:33] <im_mohsin> sayan, anytime :)
+[14:33] <saikat_> !
+[14:33] <championshuttler> !
+[14:33] <avik_> thanks! got it! like android!
+[14:33] <kushal> avik_, no, iOS.
+[14:34] <ikshitij> avik_: heard of dotfile ?
+[14:34] <sayan> Moving ahead
+[14:34] <championshuttler> !
+[14:34] <sayan> *- Disable Arrow keys in vim
+[14:35] <bhavin192> avik_, it should be same on iOS too
+[14:35] <sayan> *- Add this to you vimrc file: https://gist.githubusercontent.com/ashwin/4730888/raw/0a5251a55cda93c1ab46869d4d83e23161a5807c/DisableArrowKeys.vim
+[14:36] <asraisingh> done
+[14:36] <messifc> done
+[14:36] <poojaencoded> done
+[14:36] <im_mohsin> done
+[14:36] <ashwanig> done
+[14:36] <ikshitij> avik_ https://askubuntu.com/questions/94780/what-are-dot-files
+[14:37] <Cyber_freak> done
+[14:37] <sayan> *- Now, go to the terminal which has foobar.txt open, and you would see that the arrow keys are disabled
+[14:37] <avik_> ikshitij, thanks!
+[14:37] <ravindra> appended at the end of existing vimrc
+[14:38] <im_mohsin> sayan, yes
+[14:38] <asraisingh> sayan, yes
+[14:38] <saikat_> Why are we disabling arrow keys? they are easier to navigate than with hjkl.
+[14:38] <ahole[m]> done
+[14:38] <im_mohsin> !
+[14:38] <vivek_> saikat_: they are not
+[14:39] <sayan> saikat_: you fingers should not move away from the home keys
+[14:39] <sayan> next
+[14:39] <sayan> next
+[14:39] <saikat_> sayan, ohh, okay.
+[14:39] <sayan> next
+[14:39] <im_mohsin> There is two set of commands starting from n and i. what is the Difference?
+[14:39] <poojaencoded> !
+[14:40] <Cyber_freak> !
+[14:40] <ashwanig> im_mohsin, https://stackoverflow.com/questions/22849386/difference-between-nnoremap-and-inoremap
+[14:41] <im_mohsin> ashwanig, Thanks :)
+[14:42] <im_mohsin> But if i try to traverse in insert mode. The characters get printed. how to do in insert mode?
+[14:42] <sayan> im_mohsin: http://bfy.tw/Cb83
+[14:43] <ikshitij> https://gist.githubusercontent.com/ashwin/4730888/raw/0a5251a55cda93c1ab46869d4d83e23161a5807c/DisableArrowKeys.vim
+[14:43] <ikshitij> Sorry :(
+[14:43] <sayan> Moving ahead
+[14:43] <bhavin192> sayan, my favorite site xD
+[14:44] <sayan> *- You probably want your code to be autoindented
+[14:44] <sayan> *- so you add this to the file `set autoindent`
+[14:45] <sayan> *- If you want to so line numbers, add:
+[14:45] <sayan> *- `set copyindent`
+[14:46] <sayan> *- While searching, if you want to ignore case, add:
+[14:46] <sayan> *- `set ignorecase`
+[14:46] <saikat_> !
+[14:47] <sayan> Tell me when done
+[14:47] <sayan> next
+[14:47] <sayan> next
+[14:47] <poojaencoded> Sayan:which arrows keys are disable?i didn't understand<eof>
+[14:47] <sayan> next
+[14:47] <saikat_> sayan, how do i move about in insert  mode? arrow keys disabled, hjkl prints alphabets.
+[14:48] <Cyber_freak> Arrows keys still works after adding them to .vmrc
+[14:48] <asraisingh> saikat_, use e,w b
+[14:48] <abhinavshirur> Cyber_freak, you have to exit out of vim first and open again
+[14:48] <skarpy> saikat_: dont work in insert mode
+[14:48] <abhinavshirur> from the file that you are editing
+[14:49] <skarpy> saikat_: press ESC then do, hjkl
+[14:49] <ashwanig> Cyber_freak, Its .vimrc not .vmrc
+[14:49] <sayan> poojaencoded: arrow keys in your keyboard, there is only one set
+[14:49] <saikat_> skarpy, then how to add what sayan said?
+[14:49] <Cyber_freak> sorry typo
+[14:49] <ghishadow> abhinavshirur: or :source % works too
+[14:50] <sayan> saikat_: if you want to move in insert mode, remove inoremap lines
+[14:50] <saikat_> sayan, its a readonly file, will changes be added?
+[14:50] <sayan> saikat_: basically inoremap are for disabling in insert mode.
+[14:50] <sayan> saikat_: no
+[14:50] <abhinavshirur> ghishadow, thanks :)
+[14:50] <asraisingh> saikat_, oh sorry e,w,b is a normal mode command
+[14:51] <saikat_> sayan, then how to add commands that you just said if changes cant be added?
+[14:51] <sayan> saikat_: locate for the .vimrc.swp file, delete it
+[14:53] <saikat_> sayan, yes, there was a swap file. deleted
+[14:53] <ashwanig> !
+[14:53] <sayan> saikat_: should work now
+[14:53] <sayan> next
+[14:53] <avik_> !
+[14:53] <ashwanig> set copyindent does nothing<eof>
+[14:54] <sayan> ashwanig: that is useful when you copy in vim
+[14:54] <sayan> next
+[14:54] <avik_> can I add comment lines in vimrc file?
+[14:54] <avik_> part that will not be executed?
+[14:54] <sayan> avik_: did you google avik_ by any chance?
+[14:54] <sayan> s/avik_//
+[14:55] <avik_> nope
+[14:55] <sayan> avik_: why not?
+[14:55] <deepika> done
+[14:55] <kushal> avik_, It is not a program that can be executed.
+[14:55] <avik_> kushal, then?
+[14:56] <sayan> *- So, we added a couple of set statements, but why are we adding that?
+[14:56] <sayan> *- when you enter vim, you can manually enter these commands in the command mode
+[14:56] <poojaencoded> !
+[14:57] <saikat_> !
+[14:57] <sayan> *- But it's not always possible enter each and every set commands when you enter vim
+[14:57] <avik_> ok! got that!
+[14:57] <sayan> *- So, you write in vimrc, so that vim does it for you at startup
+[14:58] <avik_> great! <eom> :D
+[14:58] <sayan> *- There are other commands also, like setting the tab, whitespaces, etc
+[14:59] <sayan> *- Moving ahead, let me tell you about plugins
+[15:00] <sayan> *- vim has a package manager called Vundle
+[15:00] <sayan> *- where you can specfiy the plugin name in the vimrc file
+[15:03] <sayan> omg, why internet is so slow :-(
+[15:03] <sayan> *- this is the package: https://github.com/VundleVim/Vundle.vim
+[15:05] <sayan> *- You can add packages like this Plugin 'tpope/vim-fugitive' in vimrc file to install vim-fugitive
+[15:05] <Cyber_freak> same issues with internet , super slow
+[15:05] <sayan> I restarted the router works for me now
+[15:05] <sayan> sorry for the delay
+[15:06] <im_mohsin> Should we clone the repo before adding in the .vimrc?
+[15:06] <ghishadow> im_mohsin: read README.md
+[15:07] <saikat_> sayan, now when i open foobar.txt, wherever there is the word 'some" it is highlighted.
+[15:07] <sayan> im_mohsin: see the README
+[15:07] <sayan> saikat_: you might have searched that, type :nohlsearch
+[15:08] <sayan> kushal: can you paste the vim file of yours?
+[15:09] <sayan> people open this ^^
+[15:09] <sayan> You will see kushal has added a bunch of set commands
+[15:10] <sayan> then you have a few autocommands, what does autocommands do?
+[15:10] <sayan> It's a way for vim to tell that do this action when this event happens
+[15:11] <sayan> so lets take an example: autocmd BufRead *.vala set efm=%f:%l.%c-%[%^:]%#:\ %t%[%^:]%#:\ %m
+[15:11] <sayan> so autocmd is the command
+[15:11] <sayan> BufRead is the event
+[15:11] <sayan> *.vala is the filter, (only to apply to vala files)
+[15:11] <sayan> last, set efm=%f:%l.%c-%[%^:]%#:\ %t%[%^:]%#:\ %m is the action to perform
+[15:12] <sayan> kushal vimrc does use plugins as you see, it's a very minimalistic vimrc file
+[15:13] <vivek_> *not
+[15:13] <sayan> vivek_: why not?
+[15:13] <vivek_> sayan: i can't see plugin
+[15:13] <sayan> oh! sorry, yes, does not
+[15:13] <sayan> vivek_: thanks
+[15:13] <vivek_> :)
+[15:13] <poojaencoded> did i miss anything?because i haven't got any message last from 12minutes due to my poor internet connection
+[15:13] <sayan> next: this is mine: https://paste.fedoraproject.org/paste/HDjNQkhkbtY4SaZvvXZhXg
+[15:14] <sayan> poojaencoded: no issues, you can ask someone log in pm
+[15:14] <sitlanigaurav[m]> !
+[15:14] <sayan> next
+[15:14] <sayan> next
+[15:14] <sayan> next
+[15:14] <sayan> next
+[15:14] <im_mohsin> !
+[15:14] <sayan> next
+[15:14] <im_mohsin> SOuld i use your vimrc or kushal's?
+[15:15] <im_mohsin> should
+[15:15] <sitlanigaurav[m]> what is the use of that plugin?<eom>
+[15:15] <poojaencoded> i got my answer
+[15:15] <avik_> !
+[15:15] <sayan> im_mohsin: yes, you can use that
+[15:15] <sayan> sitlanigaurav[m]: which one?
+[15:15] <sitlanigaurav[m]> vundle
+[15:16] <sayan> sitlanigaurav[m]: it's a package manager for vim
+[15:17] <bhavin192> sitlanigaurav[m], it made installation of powerline(plugin) one line
+[15:18] <sayan> sitlanigaurav[m]: you can install, uninstall packages with ease
+[15:18] <sayan> and also manage
+[15:18] <sayan> next
+[15:18] <avik_> "  is what I was asking for? comment lines?
+[15:18] <sayan> avik_: yes
+[15:19] <avik_> oh!
+[15:19] <sitlanigaurav[m]> !
+[15:19] <sayan> next
+[15:19] <poojaencoded> !
+[15:19] <sayan> next
+[15:19] <sitlanigaurav[m]> Can you tell me some examples for the use of plugins?
+[15:20] <sayan> sitlanigaurav[m]: you can go to the different plugins pages, and they usually have a gif in the README
+[15:20] <poojaencoded> i don't know how to send messsage for pm?
+[15:20] <sayan> poojaencoded: it's okay, ask after class. the class is almost to end
+[15:20] <sitlanigaurav[m]> sayan: okay, got it.
+[15:20] <poojaencoded> okay sayan
+[15:20] <ashwanig> !
+[15:21] <sayan> sitlanigaurav[m]: A few things, I use like Ctrl-P for quickly searching files in vim
+[15:21] <rkased> !
+[15:21] <sayan> like SublimeText Ctrl+P
+[15:21] <Cyber_freak> internet is so slow haven't even downloaded vindel
+[15:21] <pr97> poojaencoded,  type this -  /msg  <nickname>  your message
+[15:21] <sayan> sitlanigaurav[m]: then some for syntax highlighting
+[15:22] <sayan> sitlanigaurav[m]: I also use nerdtree for for a directory structure in vim
+[15:22] <sayan> I can browse through the file quickly in vim itself
+[15:22] <sayan> numbers.vim for relative vim numbering
+[15:22] <sayan> so these are few examples
+[15:22] <sayan> next
+[15:22] <sayan> next
+[15:22] <ashwanig> Why do you make vim incompatible with vi?<eof>
+[15:22] <vivek_> sitlanigaurav[m]: you can convert vim to an IDE by using plugins
+[15:23] <rkased> I have a more general question, how does Vundel and Inspire codes compare?
+[15:23] <sitlanigaurav[m]> sayan: thank you :)
+[15:24] <sayan> rkased: I don't know either Vundel or Inspire
+[15:25] <rkased> I meant Vundle
+[15:25] <rkased> , but no worries, I couldn't find much, but did come across a blog.
+[15:25] <sayan> rkased: in that case I don't know about Inspire
+[15:25] <avik_> sayan, yes, following ashwanig , isn't vim and vi synonymous in fedora?
+[15:26] <sayan> ashwanig: check :!help nocompatible
+[15:26] <sayan> next
+[15:26] <sayan> Ending the class here
+[15:26] <sayan> But A few things:
+[15:26] <kvy> kumar vipin yadav
+[15:27] <kvy> sayan what kind of thing
+[15:27] <sayan> kvy: I was just going to type you, read before you start roll call
+[15:27] <sayan> I did not start roll call yet
+[15:28] <kvy>   sorry for that
+[15:28] <sayan> You can base your vimrc on other people's vimrc
+[15:28] <kvy> but it's too late
+[15:28] <sayan> but read before you use the particular command
+[15:29] <sayan> kvy: its just 9 PM
+[15:29] <sayan> Also, installing plugins can make your vim slow, so again before installing check how it affects vim
+[15:30] <sayan> I personally try a plugin for couple of days, if it slow's down my work. I remove it
+[15:30] <sayan> That is where Vundle is readlly helpful
+[15:30] <sayan> next
+[15:30] <im_mohsin> If we delete the pluggin from vimrc. Will it get back uninstall the plugging?
+[15:31] <sayan> im_mohsin: there is a command that you need to run after deleting it from vimrc
+[15:32] <joyhimanshu> sayan: okey got it ^ ^ and thank you for this informative session
+[15:32] <saikat_> sayan, is it a good idea to copy someone else's vimrc configuration without understanding what each command does, or should i add features gradually as i discover?
+[15:32] <im_mohsin> sayan, This: vim +PluginUninstall +qall
+[15:32] <sayan> saikat_: it will delete all I guess
+[15:32] <sayan> oops im_mohsin that was for you ^^
+[15:33] <im_mohsin> Okay
+[15:33] <sayan> saikat_: you can copy, the set time to learn what things are there
+[15:33] <sayan> saikat_: and then move ahead
+[15:33] <sayan> saikat_: I based on kushal vimrc
+[15:33] <asraisingh_> sayan, class ended or running i get disconnected for a minute.
+[15:34] <sayan> People try out Vundle, install a few plugins, remove them, and see how things work for you
+[15:34] <saikat_> sayan, okay, you said kushal's vimrc does not have plugins, while yours have many. will kushal's vimrc be a better sarting  point?
+[15:34] <rkased> Sounds good sayan
+[15:34] <sayan> saikat_: yes, then lookover mine and add what you need
+[15:34] <ikshitij> ok sayan
+[15:34] <sayan> Roll Call
+[15:34] <rkased> Razy Kased
+[15:34] <imranjeetsingh_> Ranjeet kumar
+[15:34] <kvy> kumar vipin yadav
+[15:34] <asraisingh_> Abhishek Singh
+[15:34] <anuGupta> Anu Kumari Gupta
+[15:34] <ghishadow> Suraj Ghimire
+[15:34] <lucifer> Atul kumar
+[15:34] <Cyber_freak> Pradhvan Bisht
+[15:34] <avik_> Avik Mukherjee
+[15:34] <ashwanig> Ashwani Kumar Gupta
+[15:34] <pr97> Priyanka Sharma
+[15:34] <saikat_> Saikat Dey
+[15:34] <ikshitij> Kshitij
+[15:34] <im_mohsin> Mohsin Mumtaz
+[15:34] <joyhimanshu> Himanshu Awasthi
+[15:34] <niranjana_> Niranjana Deshpande
+[15:34] <sakshi> Sakshi Saraswat
+[15:34] <bhavin192> Bhavin Gandhi
+[15:34] <abhinavshirur> Abhinav Shirur
+[15:34] <poojaencoded> pooja kumari singh
+[15:34] <_RicharD_> Mayank gupta
+[15:34] <santoshShaw> Santosh Kumar Shaw
+[15:34] <CHOCOS> Neha kandpal
+[15:34] <akshayg96> Akshay Gaikwad
+[15:35] <vipulgupta2048_> Vipul Gupta
+[15:35] <ravindra> Ravindra Lakal
+[15:35] <sitlanigaurav[m]> Gaurav Sitlani
+[15:35] <adas0496> Abhishek Das
+[15:35] <jasonbraganza> Jason Braganza
+[15:36] <championshuttler> Shivam Singhal
+[15:36] <akash__> Akash pathak(my other nick, skarpy stopped working :(
+----END CLASS----

@@ -1,0 +1,839 @@
+----BEGIN CLASS----
+[13:28] <sayan> #startclass
+[13:28] <rkased> Razy Kased
+[13:28] <sayan> Roll Call
+[13:28] <kvy> kumar vipin yadav
+[13:28] <saikat_> Saikat Dey
+[13:28] <championshuttler> sayan: lol
+[13:28] <andodococo> Deepak Chethan
+[13:28] <ashwanig> Ashwani Kumar Gupta
+[13:28] <hemanth> hemanth
+[13:28] <skarpy> akash pathak
+[13:28] <rkased> Razy Kased
+[13:28] <abhinavshirur> Abhinav Shirur
+[13:28] <realslimshanky> Shashank Kumar
+[13:28] <schubisu> Robin Schubert
+[13:28] <abdulwahababrar> Abdul Wahab Abrar
+[13:28] <championshuttler> Shivam Singhal
+[13:28] <ghishadow> Suraj Ghimire
+[13:28] <_Richard_> Mayank gupta
+[13:28] <messifc> Messi Fc
+[13:28] <aryan1308> Aryan Tripathi
+[13:28] <gauravsitlani> Gaurav Sitlani
+[13:28] <bhavin192> Bhavin Gandhi
+[13:28] <cran-cg> Chiranjeev Gupta
+[13:28] <nsh_srnvsn> Anusha Srinivasan
+[13:28] <fhackdroid> Farhaan Bukhsh
+[13:28] <pr97> Priyanka Sharma
+[13:28] <soumam007> Soumam Banerjee
+[13:28] <imranjeetsingh_> Ranjeet Kumar
+[13:28] <anuGupta> Anu kumari Gupta
+[13:28] <meamitk> Amit Kokitkar
+[13:28] <anupamas> Anupama Shipurkar
+[13:28] <casper01> Mayur khomane
+[13:28] <im_mohsin> Mohsin Mumtaz
+[13:28] <fihae> Syed Mohammad Fiha
+[13:28] <vipulgupta2048_> Vipul Gupta
+[13:28] <gunjan> Gunjan
+[13:28] <deepika> Deepika Upadhyay
+[13:28] <jasonbraganza> Jason Braganza
+[13:28] <joyhimanshu_> Himanshu Awasthi
+[13:28] <asraisingh> Abhishek Singh
+[13:28] <akshayg96> Akshay Gaikwad
+[13:29] <santoshShaw> Santosh Kumar Shaw
+[13:29] <hacker_> pavan yejare
+[13:29] <jiteshpabla> Jitesh Pabla
+[13:29] <Padfoot7> Mohd Omama
+[13:29] <balaji> Balaji
+[13:30] <sayan> *Back to the story mode*
+[13:30] <ravindra> Ravindra Lakal
+[13:30] <sayan> *- *Chapter 3: Understanding VCS: Branches*
+[13:30] <sayan> *- Few months more have passed. Tux visits a local workshop & presents one of his image.
+[13:30] <soumam007> :)
+[13:30] <sayan> *- Two clients love his image but one wants to add a Sepia tone to it and another want Black & White (B&W)
+[13:30] <sayan> *- Tux now needs to change the work flow again, because over time Tux would be getting more and more clients.
+[13:30] <sayan> *- Tux like Newton sat under a tree waiting for a apple to fall, but instead notices the branches of the trees which gave Tux an idea. A revolutionary one!
+[13:31] <NikitaK3> Roll Call: Nikita Kotak
+[13:31] <sayan> *- So Tux comes back home and starts working on the image. But now Tux creates two copies of images & names the directory as sepia & bw.
+[13:31] <sayan> *- Tux who just happened to know linking, linked working directory to the sepia directory
+[13:31] <sayan> *- So in the morning, Tux opens the working directory (which is pointing to sepia directory) opens the sepia directory
+[13:32] <sayan> *- In the evening, Tux changes the link to bw, so Tux can work on bw image over the rest of the time.
+[13:33] <sayan> https://paste.fedoraproject.org/paste/vvEi9Satwai2FOprwAh0YQ
+[13:33] <sayan> *- Next time, Tux get a new client, Tux just needs to create new branch directory & start working.
+[13:33] <sayan> https://paste.fedoraproject.org/paste/oEE2reA7EqH5eB7KpcDh-Q
+[13:33] <ganeshnomula_> Roll Call: Ganesh Nomula
+[13:33] <kishore__> Roll Call:Kishore Saldanha
+[13:34] <yurii> yurii pylypchuk
+[13:34] <sayan> - git branch # Tell which branch you are one (the one with *)
+[13:34] <ahole> Roll call:Kshithij Iyer
+[13:34] <im_mohsin> master branch
+[13:34] <sayan> ^^ okay type this into the foobar directory
+[13:35] <hacker_> * master
+[13:35] <vipulgupta2048_> * master
+[13:35] <ravindra> master
+[13:35] <ahole> *master
+[13:35] <saikat_> !
+[13:35] <sayan> next
+[13:35] <aryan1308> *master
+[13:36] <championshuttler> master
+[13:36] <anuGupta> master
+[13:36] <saikat_> i did git branch and nothing came up, says not a git repo. did git init and git branch and still nothing?
+[13:36] <ikshitij> Roll call Kshitij
+[13:36] <avik> Roll Call: Avik Mukherjee
+[13:36] <deepika> Okay  , that turn was from last day ,got answered
+[13:36] <neer> Roll Call: Nishanta Sarma
+[13:36] <deepika> <eom>
+[13:36] <bhavin192> saikat_, read the instructions carefully
+[13:37] <sayan> saikat_: are you doing that in the foobar directory?
+[13:37] <sakshi> Roll Call: Sakshi Saraswat
+[13:37] <sayan> next
+[13:37] <sayan> hmm, strange batul did not get reset
+[13:37] <deepika> Yeah ,true sayan
+[13:37] <cran-cg> yups sayan this did happen yesterday too
+[13:37] <saikat_> sayan, bhavin192 , thanks, my bad, was not in the directory
+[13:38] <sayan> Also, people when I tell you tell the output, just 2-3 people reply
+[13:38] <Skhk634> Roll call: Shankar Jha
+[13:38] <sayan> It's no meaning that all say the same output
+[13:38] <ashwanig> !
+[13:38] <sayan> Rest of people can tally the output, if it does not match, then raise your hand
+[13:38] <sayan> next
+[13:38] <ashwanig> I tried this with a repo I just created which does not have any commit. Why does it not output anything? <eof>
+[13:38] <ahole> !
+[13:39] <sayan> ashwanig: you need to have one commit atleast
+[13:40] <sayan> next
+[13:40] <ashwanig> sayan, Why so?
+[13:40] <ahole> How to revert back to a snapshot? I was wondering about that for the entire day .
+[13:40] <bhavin192> ahole, search
+[13:40] <im_mohsin> sayan, As saikat_ said when he was in root directory he did git init right. So does it make his entire root a git directory?
+[13:41] <Padfoot7> !
+[13:41] <sayan> ashwanig: I forgot the exact reason, vivek_ do you remember? I remember discussing it with you
+[13:41] <sayan> ahole: git revert
+[13:42] <avik> \me requests someone to pm what has been going on today, please!
+[13:42] <sayan> im_mohsin: yes
+[13:42] <sayan> next
+[13:42] <Padfoot7> sayan, can we ammend commits other than the last commit ?
+[13:42] <im_mohsin> 0
+[13:42] <balaji> !
+[13:42] <soumam007> !
+[13:42] <im_mohsin> sorry mistake :(
+[13:42] <sayan> Padfoot7: I remember someone asking the question last day but nobody pinged after the class
+[13:42] <darkJedi> Roll call: Akshay Iyer
+[13:42] <sayan> next
+[13:43] <sayan> Padfoot7: This is out of the scope
+[13:43] <sayan> next
+[13:43] <soumam007> can saikat_ undo what he did?
+[13:43] <Padfoot7> okay
+[13:43] <saikat_> !
+[13:43] <Vamsi3296> Roll call: Vamsi Krishna.
+[13:43] <sayan> soumam007: yes, delete the .git directory
+[13:43] <sayan> next
+[13:43] <saikat_> sayan, im_mohsin , wait what, if i did a git init and made my root a git directory, how do i revert it?
+[13:43] <soumam007> ok
+[13:43] <sayan> I told the answer just now
+[13:44] <sayan> Moving ahead
+[13:44] <balaji> If I shut down the system without commiting the changes Is the staging area will remain same when I restart?
+[13:44] <saikat_> got it, yes. sayan
+[13:44] <sayan> balaji: yes, it will be there because those are saved in a file
+[13:44] <vivek_> balaji: the concept of "save" still remains same
+[13:45] <balaji> Okay. got it. Thanks
+[13:45] <sayan> and all the stuffs you do in git are saved
+[13:45] <sayan> - git checkout -b sepia # Create a new branch -b=tells to create new branch
+[13:45] <sayan> - vim hellomars.txt # Add the text "Snapshot 4"
+[13:45] <darkJedi> !
+[13:45] <sayan> - git add -u
+[13:45] <sayan> - git commit -m "Snapshot 4"
+[13:46] <sayan> - git branch # Tell which branch you are in?
+[13:46] <sayan> next
+[13:47] <saikat_> *sepia
+[13:47] <sayan> Right
+[13:47] <ghishadow> git branches are just reference or lightweight movable pointer to a commit , so if there are no commit in repositary then are no branches
+[13:48] <ahole> *sepia
+[13:48] <ghishadow> there*
+[13:48] <darkJedi> Suppose I make a wrongful change in my source code and I have to revert back to the previous commit. How should I do it?
+[13:48] <asraisingh> avik, I had sent you today's log from the class start.
+[13:48] <darkJedi> eof
+[13:49] <hemanth> !
+[13:49] <sayan> darkJedi: there are a bunch of ways to do it, git-revert, git-reset. but that's something I won't discuss in this class
+[13:49] <sayan> next
+[13:49] <cran-cg> !
+[13:50] <hemanth> is branching created for versions
+[13:50] <sayan> next
+[13:50] <ahole> !
+[13:50] <sayan> hemanth: versions as in?
+[13:50] <ashwanig> ghishadow, Thanks :)
+[13:50] <hemanth> sayan, like version 1.1 and version 1.2 of same software
+[13:51] <sayan> hemanth: no
+[13:51] <cran-cg> after git add -u , i did git status, I get nothing added to commit
+[13:51] <sayan> cran-cg: fpaste the output
+[13:52] <sayan> hemanth: versions are very much on code level and not git but there are commands to manage the version well
+[13:52] <messifc> sayan: sorry I have to leave urgently.
+[13:52] <sayan> branches are to carry out parrallel development on the same working directory
+[13:52] <asraisingh> !
+[13:53] <hemanth> thanks sayan
+[13:53] <anuGupta> Cran_cg : after git add -u ,you have to git commit -m "snapshot4"
+[13:53] <cran-cg> sayan: https://pastebin.com/n8CvmWEG
+[13:53] <sayan> like in Fedora, we maintain two branch master & develop. The development happens on develop and when we have to release we merge develop into master
+[13:54] <sayan> and master is latest version and is deployed
+[13:54] <bhavin192> cran-cg, you have not added the hellomars.txt to tracked files, we have done it in last session
+[13:54] <sayan> cran-cg: you did not properly follow in last class
+[13:54] <sayan> cran-cg: what do you thing you should do??
+[13:55] <cran-cg> sayan: I made a new txt file.
+[13:55] <cran-cg> Silly mistake
+[13:55] <cran-cg> Understood
+[13:55] <ashwanig> sayan, merging develop into master means replacing the old files in master with their new versions in develop right?
+[13:55] <soumam007> cran-cg, share your mistake
+[13:55] <ashwanig> Sorry I asked out of turn
+[13:56] <deepika> !
+[13:56] <sayan> ashwanig: the proper word would be updating
+[13:56] <sayan> next
+[13:56] <sayan> next
+[13:56] <sayan> next
+[13:56] <ahole> Now currently we are on the sepia branch, how do we jump back to the master branch?
+[13:56] <deepika> if Tux wanted to create subbranch and navigste how would he do that ?
+[13:57] <sayan> deepika: there is nothing as sub-branch
+[13:57] <deepika> s / navigate
+[13:57] <sayan> and I don't understand what do you mean with subbranch
+[13:57] <im_mohsin> ahole, git checkout master
+[13:57] <sayan> ahole: wait!
+[13:57] <SpEcHiDeR> Gaurav: I can see the messages.
+[13:57] <deepika> creating new branch like for b&w
+[13:58] <cran-cg> soumam007: Umm. I was mistakenly made a new repo :(
+[13:58] <cran-cg> Sorry for the confusion
+[13:58] <cran-cg> :(
+[13:58] <sayan> - git log
+[13:58] <deepika> sayan and then change the branch from
+[13:58] <avik> what is happening?
+[13:58] <deepika> b&w to sepia
+[13:58] <championshuttler> what is this going on?
+[13:59] <sayan> People calm down
+[13:59] <avik> why are people getting disconnected?
+[13:59] <sayan> There is nothing to worry,
+[13:59] <ashwanig> championshuttler, Matrix server is having problem
+[13:59] <sayan> - git log
+[13:59] <championshuttler> ashwanig, ok :)
+[13:59] <sayan> Check the commits you have
+[13:59] <sayan> You will be having the Snapshot 4 commit
+[13:59] <sayan> - git checkout master # Simply move around branches
+[13:59] <sayan> - vim helloworld.txt # Add the text "Snapshot 5"
+[14:00] <sayan> - git add -u
+[14:00] <sayan> - git commit -m "Snapshot 5"
+[14:00] <sayan> - git log # Notice anything?
+[14:01] <ahole> There is no changes in git still says snapshot 3.
+[14:01] <im_mohsin> sayan, snapshot 5 after checking out to master?
+[14:01] <abhinavshirur> it shows commits from the current branch?
+[14:01] <ashwanig> sayan, Yes, Snapshot 5 commit got added
+[14:02] <championshuttler> yes a new commit add to the list
+[14:02] <jasonbraganza> sayan - not branch commits visible
+[14:02] <sayan> You will find that the Snapshot 4 is not there
+[14:02] <sayan> That is because Snapshot 4 commit is in sepia branch
+[14:02] <bhavin192> sayan, Snapshot 4 is not there
+[14:02] <sayan> not in master
+[14:03] <sayan> next
+[14:03] <sayan> Moving ahead
+[14:03] <sayan> - git checkout sepia
+[14:03] <sayan> - vim hellomars.txt # Add the text "Snapshot 6"
+[14:03] <sayan> - git add -u
+[14:03] <sayan> - git commit -m "Snapshot 6"
+[14:03] <sayan> - git log # Again, noticed anything?
+[14:04] <ganeshnomula_> !
+[14:04] <santoshShaw>  new commit, "Snapshot 6"
+[14:04] <sayan> next
+[14:04] <saikat_> !
+[14:04] <sayan> next
+[14:04] <jasonbraganza> sayan - Sanpshot 5 missing
+[14:05] <sayan> jasonbraganza: yup, Snapshot 5 is missing
+[14:05] <saikat_> sayan, i cannot write anything in terminal after the git log. the cursor blinks on a word saying END
+[14:05] <ashwanig> Yes
+[14:05] <sayan> and Snapshot 6 is on top of Snapshot 4
+[14:05] <im_mohsin> saikat_, do :q
+[14:05] <sayan> saikat_: press q
+[14:06] <sayan> - git checkout -b bw # What we are doing here?
+[14:06] <ganeshnomula_> sayan: Is it If we’re in sepia branch and try git log, then it shows all the master and branch commits?
+[14:06] <abhinavshirur> creating a new branch bw
+[14:06] <saikat_> sayan,im_moshin, thanks, worked, but this did not happen the first time i did dit log
+[14:06] <vipulgupta2048_> new branch , sayan
+[14:06] <im_mohsin> creating a bw branch
+[14:07] <deepika> got the new branch bw :)
+[14:07] <im_mohsin> saikat_, happens everytime :)
+[14:07] <ikshitij> creating new branch
+[14:07] <sayan> ganeshnomula_: yes, because sepia is created of master
+[14:07] <asraisingh> creating bw branch
+[14:07] <ashwanig> creating a new branch and switching to that branch
+[14:07] <sayan> so if you have a-b-c in master
+[14:07] <sayan> and then you create a new branch out of master branch
+[14:07] <sayan> you will have all the a-b-c commits
+[14:07] <sayan>  
+[14:08] <sayan> See, I told earlier that it's good that 2-3 people give the reply
+[14:08] <sayan> But *nobody* listens
+[14:08] <sayan> Moving ahead
+[14:08] <sayan> - vim hellomars.txt # Add the text "Snapshot 7"
+[14:08] <sayan> - git add -u
+[14:08] <sayan> - git commit -m "Snapshot 7"
+[14:09] <sayan> - git log # What do you notice?
+[14:09] <ganeshnomula_> !
+[14:09] <sayan> next
+[14:10] <ganeshnomula_> sayan: should I’ve to type in git checkout -b bw?
+[14:10] <soumam007> getting a bit confused
+[14:10] <imranjeetsingh_> snapshot 6,7
+[14:10] <joyhimanshu_> snapshot 7 on the top
+[14:10] <vipulgupta2048_> Snapshot 7 after Snapshot 6 with the log of master branch.
+[14:10] <im_mohsin> ganeshnomula_, yes
+[14:10] <jasonbraganza> no snapshots from sepia in here
+[14:11] <cran-cg> sayan: History of last 4 commits including the ones done on sepia branch
+[14:11] <yurii> switchwd to new branch
+[14:11] <aryan1308> sayan: The snapshots of sepia branches are present in this branch
+[14:11] <sayan> ganeshnomula_: yes
+[14:12] <avik_> !
+[14:13] <sayan> jasonbraganza: can you fpaste the output of git log --graph
+[14:13] <cran-cg> !
+[14:13] <jasonbraganza> sorry i goofed
+[14:13] <sayan> lol
+[14:14] <im_mohsin> !
+[14:14] <sayan> anybody else fpaste output of git log --graph
+[14:15] <soumam007> !
+[14:15] <sayan> next
+[14:15] <avik_> why aren't we finding Snapshot 5?
+[14:15] <ganeshnomula_> !
+[14:15] <imranjeetsingh_> !
+[14:15] <cran-cg> https://pastebin.com/DMXF6jvs
+[14:15] <casper01> !
+[14:15] <avik_> I'm a little lost there
+[14:16] <balaji> !
+[14:16] <sayan> cran-cg: cool tahnks
+[14:16] <ikshitij> avik: there's no snapshot 5 :)
+[14:16] <sayan> avik_: in which branch did you do that Snapshot 5?
+[14:17] <avik> haven't we done it?
+[14:17] <saikat_> sayan, see mine once, https://paste.fedoraproject.org/paste/hiF89k41HhnPhYVxDYiV3w
+[14:18] <sayan> avik: I am really not getting you
+[14:18] <avik> okay, I thought since we are moving sequentially, I thought we may have done it also! anyway, its okay! <eom>
+[14:18] <ahole> https://pastebin.com/zmpkuuZV
+[14:18] <sayan> avik: are you reading properly? I don't think you are
+[14:18] <sayan> next
+[14:18] <avik> :(
+[14:19] <cran-cg> My query answered. Thanks :)
+[14:19] <sayan> No more need to paste the code and send the url here
+[14:19] <sayan> next
+[14:19] <im_mohsin> sayan, Had we created a branch from master we would nit have got commits from sepia right?
+[14:19] <saikat_> !
+[14:19] <sayan> im_mohsin: yes, right
+[14:19] <sayan> next
+[14:19] <soumam007> I cannot find the two text files when i open foobar and in master branch! why? but can see both when in sepia?
+[14:19] <_anshul> now I get it
+[14:19] <im_mohsin> thanks, this way my doubts gets cleared :)
+[14:20] <sayan> * okay the next steps that I tell are only for soumam007 *
+[14:20] <sayan> soumam007: can you do this?
+[14:20] <soumam007> ok
+[14:20] <sayan> - git checkout master
+[14:20] <sayan> - git status
+[14:21] <sayan> ^^ fpaste the output of this command
+[14:21] <sayan> -- ls
+[14:21] <soumam007> ok wait a sec
+[14:21] <sayan> ^^ fpaste the output of ls also
+[14:21] <_anshul> only has the initial commits we made on master
+[14:22] <cran-cg> _anshul: Let soumam007 and sayan speak
+[14:22] <soumam007> for status its nothing to commit
+[14:23] <soumam007> ls
+[14:23] <Padfoot7> !
+[14:23] <soumam007> only helloworld.txt
+[14:24] <soumam007> sorry i havent worked with fpaste till now
+[14:25] <sayan> soumam007: go to paste.fedoraproject.org and paste the output of the command
+[14:25] <sayan> and paste the link here
+[14:25] <sayan> I want all of you look and try to look what's wrong with soumam007's repo
+[14:26] <sayan> Rest of you here is how the tree looks:
+[14:26] <sayan> https://paste.fedoraproject.org/paste/sjKIB8WYg78Mhpe2jbb5EQ
+[14:27] <im_mohsin> Yes sayan.
+[14:27] <soumam007> sayan what i am copying from terminal isnt pasting in fedora paste
+[14:27] <soumam007> sorry for such silly questions now
+[14:28] <schubisu> sorry, I have to leave early. Thanks for the session, sayan
+[14:28] <sayan> soumam007: did you open https://paste.fedoraproject.org/ ?
+[14:28] <ashwanig> soumam007, Are you using Ctrl+Shift+C to copy from terminal?
+[14:28] <soumam007> yes
+[14:28] <soumam007> sayan ashwanig
+[14:28] <sayan> soumam007: and paste in paste.fedoraproject.org with Shift + v?
+[14:29] <sayan> lol
+[14:29] <ashwanig> :P
+[14:29] <sayan> Ctrl + v
+[14:29] <soumam007> yeah did the same
+[14:29] <sayan> soumam007: what's happening? you are not able to paste?
+[14:30] <sayan> The text is not coming in the pastebin?
+[14:30] <sayan> soumam007: if you are not able to do that leave
+[14:30] <soumam007> ok, i got it
+[14:30] <sayan> we will figure out later
+[14:30] <soumam007>  i think
+[14:30] <im_mohsin> do we have any command to check the tree structure in terminal?
+[14:30] <_anshul> git log --graph
+[14:31] <soumam007> terminal is in vm
+[14:31] <soumam007> :( i am dumb
+[14:31] <im_mohsin> thanks _anshul
+[14:31] <sayan> im_mohsin: git log --graph --all
+[14:31] <sayan> soumam007: I am moving ahead. come back to bw branch
+[14:31] <soumam007> ok
+[14:32] <sayan> next
+[14:32] <sayan> next
+[14:32] <sayan> next
+[14:32] <casper01> Got my query answered. Thanks <eom>
+[14:32] <sayan> next
+[14:32] <imranjeetsingh_> why i am seeing commits of sepia in bw ?
+[14:32] <balaji> whenever we create a new branch is that is created from the master branch or the current branch we are in?
+[14:32] <jasonbraganza> balaji - branch you’re in
+[14:33] <sayan> imranjeetsingh_: because when you created a new branch bw, you were in sepia
+[14:33] <sayan> imranjeetsingh_: so you checked out a new branch bw out of sepia
+[14:33] <im_mohsin> imranjeetsingh, because you were in sepia when you created bw and all commits in sepia were copied in bw :)
+[14:33] <balaji> jasonbraganza, Thanks
+[14:33] <imranjeetsingh_> ok thanks
+[14:33] <sayan> imranjeetsingh_: so when you checkout a new branch you will have all the commits from the branch you are checking out
+[14:33] <sayan> next
+[14:34] <saikat_> my output is not matching with ahole. Will you see once at https://paste.fedoraproject.org/paste/hiF89k41HhnPhYVxDYiV3w ? i am getting snapshots 7,6,3,2 repeated 3 times.  ahole got snapshots 7,6,5,3,2,1 repeated twice. where is it going wrong? here is ahole's: https://pastebin.com/zmpkuuZV.
+[14:34] <sayan> next
+[14:34] <ganeshnomula_> My question is answered thanks :)
+[14:34] <Padfoot7> can we import changes to "one particular file"  from another branch ?
+[14:35] <im_mohsin> Padfoot7, yes you can do something like merge but thats a topic for other day i guess
+[14:35] <sayan> Padfoot7: the question sounds ambiguous
+[14:35] <sayan> saikat_: ahole did messup
+[14:35] <sayan> :)
+[14:36] <anuGupta> !
+[14:36] <ganeshnomula_> imranjeetsingh_: check this tree link posted by sayan and perform git -log from different branches, you’ll understand what you’re getting. https://paste.fedoraproject.org/paste/sjKIB8WYg78Mhpe2jbb5EQ
+[14:36] <sayan> The commit tree should be like this
+[14:36] <im_mohsin> hahaha.. yeah.. saikat_ check sayan commits
+[14:36] <sayan> https://paste.fedoraproject.org/paste/sjKIB8WYg78Mhpe2jbb5EQ
+[14:36] <saikat_> sayan, ohh, is mine correct? i am getting the idea of branches, but still struggling with the implementation.
+[14:36] <imranjeetsingh_> thanls ganeshnomula_
+[14:37] <sayan> Just travese from the end I have written branch name in brackets and move back
+[14:37] <sayan> tonext
+[14:37] <sayan> next
+[14:37] <sayan> next
+[14:37] <anuGupta> I can see only last 4 commits when I do git log under any of the branches.Why is it?<EOF>
+[14:38] <sayan> anuGupta: is those last four commits Snapshot 99, Snapshot 98, Snapshot 97 and Snapshot 96
+[14:38] <sayan> ?
+[14:38] <anuGupta> No
+[14:39] <hemanth> i think git diff sepia and bw will help
+[14:39] <sayan> anuGupta: you need to explain more.
+[14:39] <anuGupta> Under log of bw I am getting snapshot 7 6 4 3 only
+[14:39] <saikat_> !
+[14:39] <sayan> anuGupta: so when you do git log you see the commits that your screen can adjust
+[14:39] <sayan> anuGupta: and just press enter, and the log will scroll
+[14:40] <sayan> next
+[14:40] <bhavin192> anuGupta, down arrow
+[14:40] <saikat_> sayan, very silly question, but i am not getting how to read and match your tree with the graph in my terminal. Help please
+[14:40] <anuGupta> Oops sorry
+[14:40] <sayan> saikat_: which graph?
+[14:40] <saikat_> git log --graph --all
+[14:41] <sayan> saikat_: ignore
+[14:41] <saikat_> or just git log
+[14:41] <sayan> saikat_: you don't have to
+[14:41] <sayan> the one that in the link is the one I made manually
+[14:41] <joyhimanshu_> !
+[14:41] <sayan> next
+[14:41] <sayan> Moving ahead
+[14:41] <joyhimanshu_> https://paste.fedoraproject.org/paste/f4hc5ECL4rh8n-Ez8FBJ-A can u explain littlebit : sayan
+[14:41] <sayan> *- *Chapter 4: Understanding VCS: Remotes*
+[14:42] <sayan> *- It's been an year now, Tux owns a shop now.
+[14:42] <sayan> *- So, Tux uses cloud services to backup the photos & publish photos.
+[14:42] <sayan> *- Tux has setup some network endpoints, so that when Tux drops the photos into a particular endpoints it backup the photos in the particular cloud.
+[14:42] <sayan> *- Tux's friend Nux is a computer programmer so who did the setup
+[14:42] <sayan> *- The endpoints are origin: which points to Flickr
+[14:42] <sayan> *- flickr: again points to Flickr
+[14:42] <sayan> *- dropbox: points to Dropbox
+[14:43] <sayan> *- 500px: points to 500px
+[14:43] <sayan> *- When Tux runs: tux-shop push 500px sepia, it pushes the sepia photo directory to 500px
+[14:43] <sayan> *- tux-shop push dropbox bw, it pushes the drop directory to dropbox
+[14:43] <sayan> *- Tell me what would tux-shop push origin bw do?
+[14:43] <im_mohsin> drop bw to irigin
+[14:43] <im_mohsin> origin
+[14:43] <jasonbraganza> push the master to flickr?
+[14:44] <bhavin192> Push bw to Flickr
+[14:44] <championshuttler> push to flickr
+[14:44] <jasonbraganza> crap! sorry. not myself tonight
+[14:44] <imranjeetsingh__> push to master
+[14:44] <cran-cg> Flickr
+[14:45] <santoshShaw> push to original repository
+[14:45] <vishami3> push bw to origin
+[14:45] <sayan> So origin is Flickr, and the branch is bw
+[14:45] <skarpy> !
+[14:45] <sayan> so it pushes the branch bw to Flickr
+[14:45] <jasonbraganza> push bw to flickr
+[14:46] <sayan> so basically remotes as the remote endpoint you want to interact with
+[14:46] <sayan> next
+[14:46] <skarpy> how origin is flickr? it can be dropbox.
+[14:46] <sayan> skarpy: "*- The endpoints are origin: which points to Flickr "
+[14:47] <skarpy> sayan: ok so it might point to somewhere else, you didnt define that before, ok got it :) <eom>
+[14:47] <bhavin192> skarpy, he had defined it
+[14:47] <sayan> skarpy: I had defined it
+[14:47] <skarpy> so, if thre
+[14:48] <skarpy> if there is push origin sepia, it goes to 500px?
+[14:48] <saikat_> !
+[14:48] <cran-cg> skarpy: [20:14] <@sayan> *- The endpoints are origin: which points to Flickr
+[14:48] <im_mohsin> !
+[14:48] <sayan> skarpy: no, it pushes sepia to 500px
+[14:48] <sayan> let me discuss it more clearly
+[14:48] <sayan> and then you can ask questions
+[14:48] <skarpy> sayan: ok
+[14:48] <bhavin192> skarpy, *- When Tux runs: tux-shop push 500px sepia, it pushes the sepia photo directory to 500px
+[14:48] <realslimshanky>  /msg NickServ identify QWERTY.123
+[14:48] <sayan> So, every remote has a name and a value
+[14:49] <sayan> realslimshanky: we just say **********
+[14:49] <bhavin192> realslimshanky, nice password xD
+[14:49] <realslimshanky> Sorry! Now I'll have to change my password
+[14:49] <skarpy> lol
+[14:49] <skarpy> bhavin192, gotit, thank you! :)
+[14:49] <championshuttler> lol
+[14:49] <sayan> So, every remote has a name and a value
+[14:49] <skarpy> s/gotit/ got it
+[14:49] <sayan> value is the endpoint
+[14:49] <sayan> and the name is with what you are referring to
+[14:50] <sayan> so suppose in my laptop I do the setup
+[14:50] <sayan> origin: pushes to Flickr
+[14:50] <asraisingh_> its necessary to always push through end point?
+[14:51] <sayan> flickr-remote: pushes to Flickr <here the name is flickr remote & endpoint is a Flickr URL (you will understand more during examples)>
+[14:51] <rkased> Razy Kased
+[14:51] <sayan> rkased: are you joining now?
+[14:51] <rkased> No
+[14:51] <rkased> Sorry
+[14:51] <sayan> 500px-remote: pushes to 500px
+[14:52] <sayan> rkased: then? Why do you write your name in between sessions everyday
+[14:52] <rkased> Today was a mistake
+[14:52] <rkased> I'm trying to follow your explanation of remote and endpoint
+[14:52] <sayan> so in that case I need to do "tux-push flickr-remote bw" to push bw to Flickr
+[14:53] <sayan> see you mention the name and then git would fetch the value and iteract with the URL
+[14:53] <sayan> rkased: no issues :)
+[14:53] <rkased> Excellent
+[14:53] <sayan> Hope that makes things clear, a bit atleast
+[14:53] <sayan> next
+[14:54] <saikat_> is setting up origin important? can we not do   "tux-shop push flickr"?
+[14:54] <jasonbraganza> saikat_ from which branch?
+[14:54] <bhavin192> saikat_, then you will have to specify the URL every time
+[14:55] <sayan> saikat_: you can just do tux-shop push, then it picks up origin & current branch
+[14:55] <sayan> by default
+[14:55] <saikat_> ohh, okay.
+[14:55] <sayan> saikat_: or if you mention the remote name then the branch name is the current branch
+[14:55] <sayan> I follow naming them all
+[14:56] <bhavin192> sayan, he is asking that setting up is important or not
+[14:56] <sayan> better to be explicit
+[14:56] <saikat_> wait, i did not get your last line, please rephrase it?
+[14:56] <sayan> saikat_: origin is there by default in git
+[14:56] <sayan> saikat_: but you can remove it
+[14:56] <jasonbraganza> saikat_ - allways spell things out clearly. then there is less scope for confusion
+[14:57] <saikat_> jasonbraganza, what did i spell wrong?
+[14:57] <sayan> at the end of the you need it just resolves names to values and then does the operation
+[14:57] <jasonbraganza> saikat_ - i meant  specify things clearly
+[14:57] <sayan> saikat_: :) don't worry. All is Well
+[14:58] <saikat_> jasonbraganza, okay, yes.
+[14:58] <sayan> saikat_: I meant you should write all the stuffs like branch name, remote name etc
+[14:58] <sayan> next
+[14:58] <im_mohsin> got answered when you explained now
+[14:58] <bhavin192> !
+[14:58] <sayan> next
+[14:58] <bhavin192> If the origin is already there, then where will it point?
+[14:59] <sayan> bhavin192: will tell after class
+[14:59] <sayan> I don't want bombarded with questions :)
+[14:59] <sayan> Folks, create GitHub account
+[14:59] <skarpy> done
+[15:00] <sayan> Then create a repo git-class-dgplug2017
+[15:00] <asraisingh_> done
+[15:00] <sayan> asraisingh_: done creating the repo? wow
+[15:01] <sayan> :p
+[15:01] <im_mohsin> sayan, what is this "Initialize this repository with a README"? i alway get confused
+[15:01] <sayan> im_mohsin: don't select that
+[15:01] <hacker__> done
+[15:01] <ashwanig> done
+[15:01] <sayan> All follks don't just fill up the title and create
+[15:01] <sayan> don't check any other box
+[15:02] <im_mohsin> done
+[15:02] <avik_> sayan: did the readme file :(
+[15:02] <ahole> done
+[15:03] <sayan> avik_: delete and create again
+[15:03] <santoshShaw> done
+[15:03] <avik> okay, deleted it!
+[15:03] <avik> avik_: delete and create again >> means the whole repo?
+[15:03] <ashwanig> avik, Yes
+[15:03] <championshuttler> yes avik_
+[15:03] <avik_> oaky
+[15:04] <asraisingh_> sayan yes done
+[15:05] <skarpy> next?
+[15:05] <avik_> done!
+[15:05] <ravindra> done
+[15:05] <sayan> Anybody yet not done?
+[15:05] <imranjeetsingh__> done
+[15:06] <ganeshnomula_> sayan: just I have to type the repository name and click create repository right?
+[15:06] <bhavin192> ganeshnomula_, yes
+[15:06] <jasonbraganza> ganeshnomula_ yup
+[15:06] <sayan> ganeshnomula_: yes
+[15:07] <sayan> - git remote add origin https://github.com/<username>/git-class-dgplug2017.git
+[15:07] <yurii> i was disconected so i missed this
+[15:07] <ganeshnomula_> sayan: bhavin192: jasonbraganza: Thank you so much :)
+[15:07] <rkased> 404 page?
+[15:08] <balaji> !
+[15:08] <ashwanig> yurii, Create a github account and then create a repo git-class-dgplug2017
+[15:08] <sayan> yurii: you need to create a Github account, and create a repo git-class-dgplug2017
+[15:08] <imranjeetsingh__> done
+[15:08] <sayan> rkased: 404? where?
+[15:08] <im_mohsin> done
+[15:08] <sayan> next
+[15:08] <balaji> I created the repository then it shows Quick setup. What to do in that?
+[15:09] <ikshitij> done sayan
+[15:09] <bhavin192> rkased, <username> is your GitHub username
+[15:09] <sayan> balaji: back to terminal
+[15:09] <ravindra> done
+[15:09] <sayan> balaji: and check the terminal I gave out
+[15:09] <rkased> Yes, I see now
+[15:09] <rkased> Thanks for the clarification on the 494
+[15:09] <yurii> ashwanig and sayan  --- thank you
+[15:09] <santoshShaw> !
+[15:09] <rkased> *404
+[15:09] <balaji> sayan, okay
+[15:10] <sayan> yurii: tell us when done
+[15:10] <yurii> ok
+[15:10] <santoshShaw> what about writing  "git clone https://github.com/<username>/git-class-dgplug2017.git" ?
+[15:10] <saikat_> sayan, do we do " git remote add origin https://github.com/<username>/git-class-dgplug2017.git" in terminal now?
+[15:10] <sayan> saikat_: yes
+[15:11] <balaji> Is I have do it in a specific repo or anywhere? <eof>
+[15:11] <ashwanig> sayan, done
+[15:11] <balaji> in terminal ?
+[15:11] <im_mohsin> saikat_, yes
+[15:11] <sayan> santoshShaw: you don't have to
+[15:11] <bhavin192> balaji, in your foobar directory, branch doesn't matter
+[15:11] <imranjeetsingh__> balaji, in same directory.
+[15:11] <sayan> Okay people
+[15:11] <sayan> You come back to terminal
+[15:12] <sayan> into the foobar directoru
+[15:12] <sayan> and run git remote add origin https://github.com/<username>/git-class-dgplug2017.git
+[15:12] <im_mohsin> done
+[15:13] <cran-cg> done
+[15:13] <Padfoot7> done
+[15:13] <saikat_> done
+[15:13] <skarpy> ok done
+[15:13] <ravindra> done
+[15:14] <skarpy> i successfully created my first repo :)
+[15:14] <sayan> So here you are creating a remote name origin and giving the endpoint https://github.com/fedora-infra/statscache/pull/57
+[15:14] <sayan> oops sorry
+[15:14] <sayan> wrong url
+[15:14] <sayan> https://github.com/<username>/git-class-dgplug2017.git
+[15:15] <sayan> - check the output of git remote -v
+[15:16] <im_mohsin> push:  https://github.com/<username>/git-class-dgplug2017.git
+[15:16] <jasonbraganza> my repo url for both fetch & pull
+[15:16] <imranjeetsingh__> fetch & push.
+[15:16] <im_mohsin> fetch :  https://github.com/<username>/git-class-dgplug2017.git
+[15:16] <ashwanig> sayan, There are two remotes
+[15:16] <jasonbraganza> s /pull /push
+[15:16] <sayan> im_mohsin: :(
+[15:17] <sayan> im_mohsin: you did not replace username? with your github username?
+[15:17] <im_mohsin> i did.. showed with just an example :P
+[15:17] <sayan> Okay
+[15:17] <sayan> sorry then :)
+[15:17] <sayan> yes
+[15:17] <sayan> now do
+[15:18] <sayan> - git checkout mater
+[15:18] <sayan> - git push origin master
+[15:19] <im_mohsin> done
+[15:19] <sayan> Also, paste your github repo url here: https://etherpad.gnome.org/p/dgplug-github-url
+[15:19] <Padfoot7> done
+[15:19] <saikat_> mater is master, right?
+[15:19] <jasonbraganza> !
+[15:19] <sayan> saikat_: yup
+[15:19] <sayan> next
+[15:19] <yurii> I get this --- https://paste.fedoraproject.org/paste/h-98b9ZtIw5ikQSjDAKkVw
+[15:19] <jasonbraganza> i have 2fa enabled. do i need an app specific password?
+[15:20] <santoshShaw> already asked <eom>
+[15:20] <im_mohsin> !
+[15:20] <sayan> yurii: cool
+[15:20] <sayan> yurii: now, back to your terminal
+[15:20] <sayan> yurii: and type this: git remote add origin https://github.com/yuriypylypchuk/git-class-dgplug2017.git
+[15:20] <bhavin192> jasonbraganza, no, you can create token and use it
+[15:20] <sayan> this would a remote name origin with the URL
+[15:20] <bhavin192> as password
+[15:20] <sayan> jasonbraganza: you need to create a application password
+[15:21] <jasonbraganza> got it. off i go
+[15:21] <bhavin192> jasonbraganza, or setup SSH Key as kushal
+[15:21] <sayan> yurii: then you do git checkout master
+[15:22] <sayan> yurii: then git push origin master
+[15:22] <sayan> you can then read logs what happened in betwwen
+[15:22] <balaji> !
+[15:23] <kushal> jasonbraganza, I use ssh key.
+[15:23] <sayan> kushal: that's for next class
+[15:23] <sayan> next
+[15:23] <jasonbraganza> will do that later kushal
+[15:23] <sayan> next
+[15:23] <im_mohsin> sayan, It does not push commits in other branches?
+[15:23] <sayan> next
+[15:23] <saikat_> !
+[15:23] <kushal> sayan, Okay.
+[15:23] <jasonbraganza> turning off 2fa for now
+[15:23] <sayan> im_mohsin: no, tell me what was the command you used for push?
+[15:24] <balaji> I am not able see my github profile picture in my commit in the repo. How to fix that?
+[15:24] <im_mohsin> git push origin master
+[15:24] <hacker_> !
+[15:24] <sayan> im_mohsin: so you specified the branch name
+[15:24] <sayan> im_mohsin: master
+[15:24] <im_mohsin> yes
+[15:25] <sayan> im_mohsin: git push --all will push all branches
+[15:25] <bhavin192> balaji, you have to set the mail id with `git config`
+[15:25] <sayan> balaji: because your git email & github email is not same
+[15:25] <sayan> next
+[15:25] <saikat_> i also got this after checkout: "Counting objects: 13, done.
+[15:25] <saikat_> "  What am i counting?
+[15:25] <sayan> saikat_: I told yesterday to ignore stuffs
+[15:25] <sayan> you don't need to know each and every stuffs
+[15:26] <ikshitij> sayan: I have to go ! Got some work.
+[15:26] <balaji> sayan,  Is I have to fix the user name also in git?
+[15:26] <sayan> This confuses a lot of other people
+[15:26] <sayan> ikshitij: sure, see you later
+[15:26] <saikat_> sayan, okay, sorry.
+[15:26] <sayan> balaji: we can fix that later after class
+[15:26] <balaji> sure
+[15:26] <sayan> saikat_: also this is for you http://www.catb.org/esr/faqs/smart-questions.html
+[15:27] <sayan> next
+[15:27] <hacker_> in  hellomars.txt it have only 'snapshot 3' at git <eof>
+[15:27] <sayan> hacker_: what's your repo url?
+[15:27] <balaji> !
+[15:27] <hacker_> https://github.com/pavanyejare/git-class-dgplug2017
+[15:27] <sayan> skarpy: check the other repos
+[15:27] <bhavin192> hacker_, :O
+[15:28] <skarpy> sayan: ok, i made a different repo, which will be useful to me later! :p
+[15:28] <sayan> hacker_: the last commit you did in master in hellomars.txt was that of Snapshot 3
+[15:29] <sayan> skarpy: sure, you are going to suffer later, can't help
+[15:29] <sayan> skarpy: but it would be useful to you, so never mind
+[15:29] <bhavin192> sayan, some people are too smart :)
+[15:29] <skarpy> sayan: ok, sorry!
+[15:29] <sayan> next
+[15:29] <skarpy> bhavin192: :(
+[15:29] <balaji> I  am not able to see the branches in github. Is I have to push that to. If yes How to do that?
+[15:30] <sayan> balaji: you haven't pushed them
+[15:30] <balaji> s/to/too
+[15:30] <bhavin192> skarpy, I'm not saying anything to you, seriously :(
+[15:30] <sayan> balaji: check the logs, I told to im_mohsin
+[15:30] <skarpy> bhavin192: ok :p
+[15:31] <im_mohsin> balaji, here git push --all, it pushes all the branches
+[15:31] <sayan> - git remote add another-remote https://github.com/<username>/git-class-dgplug2017.git
+[15:31] <balaji> sayan, Got it Thanks
+[15:32] <sayan> next
+[15:33] <yurii> sayan - i got this ----- fatal: Authentication failed for 'https://github.com/yuriypylypchuk/git-class-dgplug2017.git/'
+[15:33] <im_mohsin> sayan, i have to go now. Thank you for this :)
+[15:33] <championshuttler> yurii: you write wrong password
+[15:33] <sayan> yurii: wrong password
+[15:33] <sayan> im_mohsin: sure :)
+[15:34] <adas0496> kushal
+[15:34] <sayan> Now we added a new remote called another-remote
+[15:34] <sayan> with the same url
+[15:34] <yurii> how can I recieve a password if it looks like do not remember
+[15:34] <sayan> It's like same number stored in your phone with two different names
+[15:35] <championshuttler> yurii: you can reset it after going to github.com
+[15:35] <sayan> yurii: https://github.com/password_reset
+[15:35] <yurii> thank you
+[15:35] <sayan> - git remote -v
+[15:35] <sayan> should show both the remotes now
+[15:36] <ashwanig> yes
+[15:36] <hacker_> yes
+[15:36] <sayan> adas0496: yes? a class is going on
+[15:37] <adas0496> sayan, sorry that was by mistake
+[15:37] <sayan> - git checkout sepia
+[15:37] <sayan> - git push another-remote sepia
+[15:38] <imranjeetsingh__> done
+[15:38] <hacker_> done
+[15:38] <sayan> So now you push via "another-remote"
+[15:38] <sayan> In Github you would see two branches
+[15:38] <sayan> sepia & master
+[15:38] <hacker_> yes
+[15:39] <sayan> Ending the class here
+[15:39] <sayan> Any questions?
+[15:39] <bhavin192> !
+[15:39] <skarpy> !
+[15:39] <asraisingh_> i hv some questions but will ask u later
+[15:39] <ahole> How do you combine the master and other branches ?
+[15:40] <sayan> next
+[15:40] <bhavin192> Is it necessary to git checkout branch-name before pushing it?
+[15:40] <balaji> !
+[15:40] <sayan> bhavin192: no
+[15:40] <sayan> next
+[15:40] <ahole> sorry I spoke out of turn.
+[15:40] <sayan> next
+[15:40] <skarpy> so, if i have x number of remote, are those opening me to branches?
+[15:41] <asraisingh_> sorry sayan.
+[15:41] <sayan> what do mean by opening me to branches
+[15:41] <sayan> asraisingh_: next is ban :)
+[15:41] <asraisingh_> ok.
+[15:41] <ahole> !
+[15:41] <sayan> next
+[15:41] <skarpy> i mean like, master is the main or source, and then we have branches, we can add branches to our repo, by adding remotes?
+[15:42] <balaji> What will happen if we pushed those changes in same origin remote ?
+[15:42] <ahole> How do you combine all the branches to form a new master branch ?
+[15:42] <sayan> balaji: nothing the output will be same
+[15:42] <sayan> as the remote si pointing to same URL
+[15:42] <balaji> So  why we are adding another remote?
+[15:42] <bhavin192> ahole, may be next class
+[15:42] <sayan> skarpy: remote is way of communicating with the remote repo
+[15:43] <sayan> ahole: git merge
+[15:43] <sayan> Okay I see where people got consfused
+[15:43] <sayan> I wanted to demo the name another-remote
+[15:43] <sayan> we could have also done git push origin sepia
+[15:44] <sayan> at the end of the day, git sees that it needed to push sepia to origin remote
+[15:44] <sayan> skarpy: balaji got it?
+[15:44] <sayan> next
+[15:44] <skarpy> ok. so push origin sepia will do the same
+[15:44] <avik_> !
+[15:44] <sayan> next
+[15:44] <skarpy> ok, got it
+[15:45] <balaji> sayan, Got it
+[15:45] <avik_> can we push to other clouds? like flickr or dropbox as yu said?
+[15:45] <_anshul> yes
+[15:45] <avik_> s/yu/you
+[15:45] <skarpy> sayan: it will show under branch of github, i suppose<eom>
+[15:46] <balaji> sayan, As like in example origin and Flickr pointing to same thing correct?
+[15:46] <sayan> avik_: that was a fictional story
+[15:46] <sayan> avik_: to explain
+[15:46] <sayan> balaji: right
+[15:46] <avik_> okay, so its only for VCSs?
+[15:46] <anuGupta> !
+[15:46] <sayan> there are some protocols if the serves on the receiving end is following that
+[15:46] <hemanth> !
+[15:46] <sayan> then you can push
+[15:46] <sayan> next
+[15:47] <sayan> next
+[15:47] <hemanth> getting stuck at another-remote
+[15:47] <anuGupta> Where in the github do I see the branches?
+[15:47] <avik_> sayan: thanks. got it! <eom>
+[15:47] <hemanth> can get a short explanation of what is it <eof>
+[15:47] <sayan> anuGupta: Ctrl + F and then type Branch
+[15:48] <_anshul> <anuGupta> https://github.com/<username>/<repo_name>/branches
+[15:48] <sayan> hemanth: what did you not understand
+[15:48] <sayan> ?
+[15:48] <sayan> another-remote is just another remote name
+[15:49] <sayan> Next session is at 5th July 00:30 AM
+[15:49] <sayan> Roll Call
+[15:49] <balaji> Balaji
+[15:49] <ahole> kshithij Iyer
+[15:49] <_anshul> Anshul Chauhan
+[15:49] <rkased> Razy Kased
+[15:49] <ashwanig> Ashwani Kumar Gupta
+[15:49] <abhinavshirur> Abhinav Shirur
+[15:49] <vipulgupta2048_> Vipul Gupta
+[15:49] <asraisingh_> Abhishek Singh
+[15:49] <championshuttler> Shivam Singhal
+[15:49] <santoshShaw> Santosh Kumar Shaw
+[15:49] <skarpy> Akash pathak
+[15:49] <bhavin192> Bhavin Gandhi
+[15:49] <hemanth> we have here only one remote the dgplug repository
+[15:49] <NikitaK3> Nikita Kotak
+[15:49] <avik_> Avik Mukherjee
+[15:49] <aryan> Aryan tripathi
+[15:49] <kishore__> Kishore Saldanha
+[15:49] <anuGupta> Anu kumari Gupta
+[15:49] <cran-cg> Chiranjeev Gupta
+[15:49] <Casper_01[m]> Mayur khomane
+[15:49] <imranjeetsingh_> Ranjeet kumar
+[15:49] <saikat_> Saikat Dey
+[15:49] <gauravsitlani> Gaurav Sitlani
+[15:49] <_Richard_> Mayank gupta
+[15:49] <ganeshnomula_> Ganesh Nomula
+[15:49] <hemanth> hemanth
+[15:49] <joyhimanshu__> Himanshu Awasthi
+[15:49] <akshayg96> Akshay Gaikwad
+[15:49] <gunjan> Gunjan
+[15:49] <jasonbraganza> Jason Braganza
+[15:50] <ghishadow> Suraj Ghimire
+[15:50] <championshuttler> sayan: means today late night?
+[15:50] <gauravsitlani> sayan, a midnight session huh , should be fun.
+[15:50] <ravindra> Ravindra Lakal
+[15:50] <vipulgupta2048_> Umm.. the time is unclear for the next class.Can you clarify what you meant?
+[15:50] <jiteshpabla> Jitesh Pabla
+[15:50] <bhavin192> vipulgupta2048_, 21:21 <@sayan> Next session is at 5th July 00:30 AM
+----END CLASS----

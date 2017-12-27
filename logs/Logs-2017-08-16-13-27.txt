@@ -1,0 +1,255 @@
+----BEGIN CLASS----
+[13:27] <mbuf> #startclass
+[13:27] <mbuf> roll call, please!
+[13:27] <ikshitij> Kshitij
+[13:27] <asraisingh> Abhishek Singh
+[13:27] <pr97> Priyanka Sharma
+[13:27] <anuGupta> Anu kumari Gupta
+[13:27] <bhavin192> Bhavin Gandhi
+[13:27] <ravindra> Ravindra Lakal
+[13:27] <deepika> Deepika Upadhyay
+[13:28] <yurii> Yurii Pylypchuk
+[13:28] <soumam007> Soumam Banerjee
+[13:29] <mbuf> Today will be a retrospection session
+[13:30] <mbuf> It has been at least two months since the summer training began, and you have been attending classes, guest sessions, doing exercises, reading, watching videos etc.
+[13:30] <mbuf> So, I would like each one of you to answer the following three questions
+[13:30] <san-D> Sandesh Patel
+[13:31] <mbuf> 1. How have you benefited from the summer training till date (or how different are you from the time you joined the training)? 2. What is it that you didn't like or would want to change in the training? 3. What do you want to do next?
+[13:31] <mbuf> We can then take our discussions based on the responses
+[13:31] <mbuf> Feel free to give an honest reply, because it is important for you and for us
+[13:32] <mbuf> You can take your time to formulate the answers
+[13:33] <skarpy> Akash pathak
+[13:33] <priyansh> Priyansh Sourav
+[13:33] <skarpy> Should we write the answers here? @mbuf
+[13:33] <mbuf> skarpy, yes
+[13:34] <knrai_> roll: Krishnanand Rai
+[13:34] <asraisingh> Before joining this training session I only know the basic meaning of FOSS that it is free and anyone can contribute to it. But after joining the session I get to know that what is the history behind FOSS, how FOSS developed. What's the basic requirement to start any open source project. Now I am able to understand the need of the documentation as well as how to write it.
+[13:34] <mbuf> For those who joined late, today is a retrospection session. Please answer the following three questions
+[13:34] <mbuf>  1. How have you benefited from the summer training till date (or how different are you from the time you joined the training)? 2. What is it that you didn't like or would want to change in the training? 3. What do you want to do next?
+[13:35] <knrai> Krishnanand Rai
+[13:35] <mbuf> asraisingh, please mark the answer with the number 1, 2 or 3.
+[13:35] <yurii> 1. Start to learn and (continue to learn) Rst, ssh, gpg, git, gitHub, vim, emacs, python , doing gtypist etc.
+[13:35] <asraisingh> ok , above answer is for 1st question.
+[13:35] <mbuf> asraisingh, okay
+[13:37] <mbuf> yurii, you have note used the above tools before?
+[13:38] <mbuf> s/note/not/
+[13:38] <yurii> Before  I only hear about it but never have used
+[13:38] <samridhia> 1. This summer training has helped me improve a lot, not only in coding but many aspects like How to do a proper conversation, How to write proper mails, How to learn new things from all the session mates and making blogs a regular practice. When i joined the session i was at the basic level of many things like git, GitHub, Vim etc. these were the topics which i always searched for in the internet but never got a well enough documentation to learn the
+[13:38] <samridhia> m properly. Here i learned all those things which i always though will be so hard to learn.
+[13:38] <mbuf> yurii, good
+[13:39] <anuGupta> I had had never such training ever in my life. Even paid trainings are not as good as dgplug summer training. dgplug is far way beyond those. From knowing nothing of what FOSS meant to the time now, it made a drastic change in me. I felt there are lots of things to be done and learn and this community just gave a spark in me. To a complete beginner to open source, know I am learning things which are beyond most of the people's r
+[13:39] <mbuf> samridhia, that is good
+[13:39] <mbuf> anuGupta, that is true; our focus is to trigger the spark in you
+[13:39] <mbuf> anuGupta, even we are learning every day, and we also want you to learn every day
+[13:40] <mbuf> anuGupta, that is our focus and objective
+[13:40] <yurii> 1. Also I  start to write blog (sorry not to much)
+[13:40] <mbuf> yurii, that is a good habit
+[13:41] <anuGupta> I am very much lucky to learn remarkable things from remarkable people.
+[13:41] <yurii> 1.Start to understand how community communicate and  how to contribute
+[13:41] <mbuf> anuGupta, so, how are you putting whatever you have learnt to practice?
+[13:42] <anuGupta> Exploring things and most of all switching to Linux and using it.
+[13:42] <soumam007> I have been benefited immensely from this summer training , I had no idea regarding the philosophy of open sourcing which i learned here.I understood the importance of terminal , package manager. learned to use rst,md, fpasting :) , blogging(though havent done much),python especially, git and githubwhich i was trying to learn since 10 months, and most importantly Fedora 26 and leaving windows :P,i learnt that terminal could be shared. Now this was a
+[13:42] <soumam007> quantitaive analysis but if seen from knowledge point of view what i learnt in this 2 months i havent learn in 2years of my college and one most important thing the guidelines to talk,how to ask questions (i mean each and everything was just very very benificial). I just open the #dgplug i learn something be it within class or not
+[13:43] <mbuf> Learning is a continuous process, and we will continue to read more books, blogs, and other sources of information, while, also watching videos
+[13:44] <mbuf> soumam007, everybody learns at a different pace, so we try to go at a reasonable pace where everyone can follow and catch-up if they miss sessions
+[13:44] <pr97> 1. I have known alot of things from this summer training. I am learning python, and i have taken a step forward for doing some small projects.
+[13:44] <pr97> I have known about Open source software. Before this training, I don't know much about that. This summer training has enhanced my technical communication. I have improved alot from this training that I was before. I wrote blogs, known about git, VCS.
+[13:44] <mbuf> soumam007, the important point to be noted here is that the IRC logs are available, os in future, anyone can refer to it
+[13:44] <mbuf> pr97, good to know!
+[13:45] <soumam007> yes mbuf thats a very good idea so that future generations can benefit from it
+[13:45] <ravindra> 1.Though I have some experience in programming re visiting the concept is important and from communication to python and concepts like gpg ,git and all the other tools required for FOSS contribution boosted my confidence
+[13:45] <mbuf> In a F/OSS culture, there are best practices that are recommended, and hence we encourage everyone to follow that; the tools, workflows are designed after much experimentation and success, and hence the recommendation
+[13:45] <ikshitij> 1. I came to know about various tools like git, ViM, Github. Also, This training also taught me how development works, working with community and communication skills (That's most important working in a community), sharing your work and ideas with the world by writing a blog, importance of documentation.
+[13:46] <mbuf> ravindra, the most important step is the first step; we start with basics because it gives people the confidence and boost's their morale; that is a very important ingredient
+[13:46] <ikshitij> 2. A common platform, Where you can submit your tasks and mentors will give review
+[13:46] <anuGupta> Nothing is which I disliked about dgplug.What I disliked is within me that I am unable to understand certain things. Like you people put in so hard efforts to make us learn but it has been always my fault to grasp it very slowly. I sometimes get disheartened when I don't understand but I believe that someday or the other things would change. There are a lot to learn and I just feel I know so less. Never did I disliked anything a
+[13:46] <ikshitij> 3. I want to work and contribute to the various Open source project, that I use daily. SymPy is one of them
+[13:46] <mbuf> ikshitij, this depends on the project in hand; we don't want to force any tool on the project or the individual
+[13:47] <ikshitij> mbuf: I meant VCS, editor
+[13:47] <mbuf> anuGupta, so what steps have you taken to better understand the concepts which are not clear to you?
+[13:47] <bhavin192> 1. I wanted to talk about this from last few days, I can see lot of change in me, first thing is my English or the way I communicate with others is improved a lot (still trying to talk more politely) I have started using git for almost everything, like even for small scripts or project. More importantly now I write more detailed README files with proper license to the code. Whenever I do something new or find something new I t
+[13:47] <mbuf> ikshitij, this again comes down to individual / project members' taste
+[13:47] <san-D_> 1. Learned how to interact with fellow developers and how to approach project maintainers, online communication etiquette , came to know about mailing lists. Learned how to use tools for development  like git, github, vim, emacs, markdown. Learned importance of licensing , documentation, readability. This training has taught how to make a proper projects.
+[13:48] <deepika> How have you benefited from the summer training till date (or how different are you from the time you joined the training
+[13:48] <deepika> i would have never imagined , i would be able to learn all the skills albeit at the beginner level (still learning though) without dgplug,
+[13:48] <deepika> i got to learn about things that were alien to me in the past , like emacs, touch typing's utility , Free Software Movement, mailing lists , need of community , need of writing code in good format, license , and knowing that people are there to help and guide in journey , i suggest dgplug to every person whose's interested for a start in opensource without second thought ,and learnt a lot referring pym and lym ,
+[13:48] <deepika> thanks for all the time and effort you put in us :)
+[13:48] <ikshitij> mbuf: yes that depends on what project members and mentors taste
+[13:48] <anuGupta> I ask people here and even then I feel I don't understand, then I switch to something else because sometimes it gets very difficult to me honestly.
+[13:49] <mbuf> ikshitij, also, we don't want to end up like another code competition group; we like to give attention to people; that is what makes us different
+[13:49] <mbuf> ikshitij, there are plenty of programming exercises like exercism.io, Project Euler that you can submit assignments and validate the answers
+[13:50] <mbuf> ikshitij, the objective here is to guide along the way; we are not interested in the answers, but, the journey
+[13:50] <schubisu> roll call: Robin Schubert, sorry ;) 1) I'm very happy I stumbled into this summertraining. I'm not new to programming in general, but what I was interested in was how to contribute to open source development to give something back. The direction this course took me had a great influence on my all-day life, I have a much better understanding/awareness of the FOSS world, hacker culture and freedom of
+[13:50] <schubisu> software and internet now. I feel like I haven't learned that much interesting stuff for a long time.
+[13:50] <knrai> 1. Before joining this training I had a quetion how to  start contribute to open source, what are the basics I should learn. now after joining this training I think i learned all those basics and now I can make my own projects and really happy about that
+[13:50] <mbuf> anuGupta, you have to approach different leads to understand a concept - books, online articles, blogs, IRC, forums etc.
+[13:51] <mbuf> anuGupta, for the same topic, different people will give a different perspective, and it will clarify your doubts very well; but, you should continue to pursue to understand
+[13:51] <anuGupta> Yes, True.
+[13:51] <mbuf> anuGupta, that is important; so, don't give up yet!
+[13:51] <anuGupta> Yeah :)
+[13:52] <mbuf> knrai, once you gain good project experience, you can start projects on your own; but, we would like you to also participate in existing F/OSS projects
+[13:52] <ikshitij> mbuf: I meant using GNOME etherpad to submit task like sayan were using
+[13:53] <anuGupta> mbuf, answered:)
+[13:53] <schubisu> 2) What I noticed; the knowledge of the students was on very different levels at the start. Some never tried a linux distro in their life before. I think that I was able to focus on other things, because I knew the technical stuff already. Others may have had a disadvantage or not that much fun while learning much more. So maybe there should be two courses, to bring everyone on a base level first.
+[13:53] <mbuf> ikshitij, I have not seen it, can you provide a link?
+[13:54] <kushal> schubisu, Correct, but that means way too much pressure on people who are running the sessions. And as you can see, we don't have many regular volunteers.
+[13:54] <ikshitij> https://etherpad.gnome.org/p/dgplug-2018
+[13:54] <mbuf> schubisu, in any group of people, the experience will vary; we want everyone to be in the same room for the reason that we will learn from each other; this also falls inline with the PyCon Pune conference where there was a single hall
+[13:55] <mbuf> schubisu, the idea is to bring the beginners to come to speed with the experienced; of course, for the experienced some may be like a refresher course
+[13:56] <soumam007> mbuf after few days if we gather enough knowledge we will like to take that responsibility for the very beginners :)
+[13:56] <mbuf> ikshitij, that is left to the individual, IMO
+[13:57] <mbuf> soumam007, sure; the point is we teach what we know; what we don't know, we learn individually, or collectively as a group by sharing info
+[13:57] <schubisu> kushal, mbuf: sure, I absolutely understand. But it was no refresher for me, there was still so much meta information to learn. It's just very much information and background (which is great) plus the technical stuff (which is crucial) so quite a lot ;)
+[13:58] <mbuf> schubisu, some people use Etherpad for tasks, some might send you e-mail, others might use Scrum/Kanban boards, I use Org mode; so it depends on your mentor or the project and what tool they use
+[13:58] <mbuf> s/schubisu/ikshitij/
+[13:58] <mbuf> what do you think could have been done differently?
+[13:59] <mbuf> anything that annoyed you, felt was not correct, or shouldn't be in the training?
+[13:59] <ikshitij> mbuf: Nothing other than this
+[14:00] <schubisu> mbuf: I think the agenda so far was great
+[14:00] <schubisu> mbuf: as the way it was conducted
+[14:00] <mbuf> ikshitij, schubisu okay
+[14:00] <soumam007> never felt like that day except that day when the class was conducted even in the final match between ind vs pak
+[14:00] <soumam007> thats a national holiday right? :P
+[14:01] <ikshitij> soumam007: :P
+[14:01] <mbuf> soumam007, honestly speaking, when I came to know betting was in place, I stopped watching cricket matches; unless, you want to watch it for pure *entertainment*
+[14:01] <yurii> 2. For me It would be good to have more practical sessions how to use  some stuff - especially ssh, gpg, gitHub
+[14:01] <mbuf> soumam007, might as well spend that time on something useful; but, that is a personal choice
+[14:02] <soumam007> hahaa no no its ok :)
+[14:02] <mbuf> yurii, so the class sessions are to get you started, and then you need to explore on the subject
+[14:02] <mbuf> yurii, for example, reading more on SSH and how it works; or, how to optimize its speed; what configuration options exist
+[14:03] <mbuf> yurii, look at blog posts on how people use SSH
+[14:03] <yurii> mbuf - yes right.
+[14:03] <mbuf> yurii, read the book "SSH: The Secure Shell" The Definite Guide, for example
+[14:04] <mbuf> yurii, so, if that interests you, then you seek out for more information and learn on it; maybe, even look at pending tasks for the SSH project, or look at bugs to fix them
+[14:04] <mbuf> yurii, so, you basically master the tool for your use
+[14:04] <yurii> I mean after we start  we switch to enother topic next time and enother next time.
+[14:05] <mbuf> yurii, that is correct; we address the breadth of topics, and not go in-depth; for this, you need to work in a project or find a mentor
+[14:05] <yurii> but this is ok - we have a lot of sources
+[14:05] <mbuf> yurii, this is more specialisation
+[14:06] <mbuf> yurii, sure, if you need any specific information, you can ask; if we don't know, or if we know someone who might, we can refer you to the person or project
+[14:07] <yurii> I belive that it is the long way to learn
+[14:07] <mbuf> true; Now that the basics or foundation has been laid out to you, what do you want to do next?
+[14:10] <anuGupta> What I want to do is to stay focused and never give up on things that I don't understand. Currently, I am thinking to create a project for me. I just need to engage time in doing, reading, writing and much more stuffs. I hope everything works fine. I wish not going to college anymore but they call our parents if our attendance is low, so sometimes it is too difficult to get time but always wanted to make it a habit of doing thin
+[14:10] <mbuf> or, have you decided on a domain or project that interests you that you want to work with?
+[14:10] <mbuf> anuGupta, did you read my IRC session on time management?
+[14:11] <anuGupta> I wish to make a bot for myself :)
+[14:11] <mbuf> anuGupta, what in its purpose?
+[14:11] <mbuf> s/in/is/
+[14:11] <anuGupta> Yes , I guess.
+[14:11] <anuGupta> Purpose of what?
+[14:11] <mbuf> anuGupta, the bot
+[14:12] <mbuf> anuGupta, what do you intend to learn from making a bot for yourself?
+[14:12] <mbuf> anuGupta, what are the objectives? what is the motivation?
+[14:12] <anuGupta> Taking it as a project.
+[14:12] <anuGupta> And using tools which I have learned so far.
+[14:14] <mbuf> anuGupta, how is the bot going to be different from other bots? how is it going to differentiate itself? re-inventing the wheel is discouraged in F/OSS, unless you have a strong reason to do so
+[14:15] <realslimshanky> anuGupta, it's better if you think of a problem which you want to solve before starting the project imho.
+[14:15] <mbuf> anuGupta, working with existing bot projects, or extending it, can add value to the project and to yourself
+[14:15] <mbuf> anuGupta, of course, that is a personal decision
+[14:15] <realslimshanky> mbuf, I totally agree with you.
+[14:16] <deepika> mbuf: at the beginning ,sayan shared dgplug school website ,iirc ,is it correct ?
+[14:16] <anuGupta> Understood mbuf,realimshanky
+[14:16] <anuGupta> *s/realimshanky/realslimshanky
+[14:17] <mbuf> my suggestion is to have a list of mentors, and projects that they work, put up in the dgplug wiki, and you can contact them for project work;
+[14:17] <realslimshanky> anuGupta, I've made few bots using python and have also given talk on it. If you want you can ping me for help.
+[14:17] <mbuf> or, if you have identified your domain and project of interest, then you can approach the project for tasks
+[14:17] <mbuf> deepika, dgplug school website?
+[14:18] <mbuf> the project members will have their own tools, workflows that you need to adhere to, and hence, reading on the project wiki should help you to know more about it
+[14:18] <mbuf> you can pick up small tasks, and submit patches or changes for review
+[14:19] <anuGupta> realslimshanky, as sayan told of thinking of a problem before making a project, I gave it a thought and came up with an idea I have a problem for which I want the bot to be made.
+[14:19] <mbuf> you can continue to learn from us in this channel, but, there is nothing like real world hands-on experience
+[14:19] <mbuf> anuGupta, have you looked at existing bots to see if they solve the problem for you? you need to justify the same
+[14:20] <anuGupta> Actually no :( will surely go through once the existing ones.
+[14:20] <mbuf> if you have not decided on a project/domain, I'd suggest you think about what you want to work on, and then proceed with your decision
+[14:22] <mbuf> we will continue to have our discussions, posts, guest sessions; and you should slowly but steadily transition to working in a project
+[14:22] <realslimshanky> does irc has a central directory from where one can look at all the bots hosted in irc.
+[14:22] <mbuf> work with a project for at least two years
+[14:22] <realslimshanky> ?
+[14:22] <bhavin192> mbuf, means it can be existing project of our interest or we will create something new which is related to that domain, right?
+[14:22] <mbuf> only then you will get a good understanding of the same
+[14:23] <mbuf> bhavin192, it can be either, but, if you are creating one from scratch, you need to decide how it is going to be a differentiator
+[14:23] <ashwanig> 1. Yes, I think I have benefited from this summer training. I have learnt many new stuff during this trining which include vim, gnupg, git. I also learnt about the history of open source and free software for the first time. I think during this training till now, I have improved my reading habits and I have understood the importance of coding everyday.
+[14:24] <mbuf> bhavin192, you always want to add value to yourself and the project
+[14:24] <yurii> 3. I would like to be involved in  project
+[14:24] <mbuf> bhavin192, it should always be an addendum; sure, there can be two versions of chocolate ice-creams, but, then there is competition :)
+[14:25] <mbuf> yurii, have you decided on your domain of interest or a project that you want to work on?
+[14:25] <yurii> Not sure yet
+[14:25] <mbuf> yurii, find your interest first; and then look at existing F/OSS projects
+[14:25] <bhavin192> mbuf, understood!
+[14:26] <yurii> where can I have a look for existing projects
+[14:26] <mbuf> yurii, your interest should be something that you want to work on, even if the odds are against you; something that you want to work late at night, without sleep;
+[14:26] <mbuf> yurii, something on which you will never give up; something that is your passion
+[14:27] <ashwanig> 2. Not sure 3. Next, I want to contribute to a open source project. But I am not sure how I should decide one.
+[14:27] <mbuf> yurii, openhatch.org is one such site
+[14:27] <soumam007> mbuf at present level i cant think of a project which i have to give two years; what we term as a project may be some webapp; something like an extension which will search the internet to give us the movies/music/books at one search
+[14:27] <mbuf> ashwanig, 3. comes down to choosing your ice-cream
+[14:27] <mbuf> soumam007, who is going to use it?
+[14:27] <yurii> ok
+[14:28] <mbuf> soumam007, think about the users who are going to consume the software as well
+[14:28] <mbuf> *favourite ice-cream
+[14:29] <mbuf> yurii, you can also search for projects in GitHub or GitLab for repositories; most of them have a TODO or HACKING file in it
+[14:29] <mbuf> yurii, the GSoC list of projects has a good number as well
+[14:29] <soumam007> ok you mbuf thats a good aspect but till now i havent develop such skills to help others problem; for that i need to talk with other people understand their problems
+[14:29] <soumam007> s/you/yes
+[14:29] <mbuf> soumam007, it can also be a software that you use daily and you want to improve
+[14:30] <mbuf> soumam007, the important point is you should use the software/hardware first, before you can contribute to it
+[14:30] <mbuf> soumam007, if you do not know how to use the software, you will not be able to test it
+[14:30] <mbuf> soumam007, again, the problem that you want to solve should interest you
+[14:31] <ashwanig> mbuf, I know, but most of them have that huge code base which I feel difficult to understand. And sometimes there is a language requirement which I don't know and so I have to learn that language first to understand the code
+[14:31] <soumam007> yes like someone did youtube downloader for a full playlist thats a good one; and i am interested to contribute to that
+[14:31] <mbuf> soumam007, it should be something that you want to stay awake to solve it; that should be the challenge that you want to work with
+[14:31] <ashwanig> Then I get stuck at that point
+[14:31] <soumam007> yeah mbuf :)
+[14:31] <mbuf> ashwanig, break the tasks into sub-tasks, and attack each one
+[14:32] <mbuf> ashwanig, remember the "Divide and Conquer" algorithm; what you have been through in the last couple of months is the result of that
+[14:32] <mbuf> ashwanig, we have actually broken down a complex learning curve into small steps, and you were all able to follow it
+[14:32] <mbuf> ashwanig, the principle remains the same; yes, you have to learn the languag, yes, you have to understand the code
+[14:33] <mbuf> ashwanig, projects will have beginner tasks which you can pick; bug fixing is a good way to get started with large code bases, because, you will walk through the code and analyse it
+[14:34] <mbuf> ashwanig, the methodology is what we have taught you, and you need to apply that in practice
+[14:34] <ashwanig> mbuf, How should I ask for help from the people who are involved in the project? I mean if I have no idea about what is doing what?
+[14:34] <mbuf> ashwanig, if you get stuck, it is good to reach out and ask for help
+[14:35] <mbuf> ashwanig, find a project member or mentor
+[14:35] <mbuf> ashwanig, write to the mailing list, ask on IRC
+[14:35] <mbuf> ashwanig, you now know how to do all of this
+[14:35] <mbuf> ashwanig, by you, I don't mean "you", but, all the participants in the training
+[14:36] <mbuf> ashwanig, the thought process and what homework you did to analyse the stuck problem is also important
+[14:36] <mbuf> anyways, thanks for all your feedback
+[14:37] <mbuf> We will continue to learn, and have retrospection sessions in future on how each one is doing in future
+[14:37] <soumam007> Thanks for the initiative :)
+[14:37] <mbuf> kushal, do want to add anything?
+[14:37] <ashwanig> mbuf, Thanks :)
+[14:37] <mbuf> think of this session as a pit stop
+[14:38] <deepika> 2: mbuf: for the beginners if some reading material be referred prior to session that may bring lesser difference between beginners and intermediates
+[14:38] <deepika> 3: Not sure , but thinking of mozilla for bug fix , tried to find a bug but didn't understand it well ,
+[14:38] <mbuf> you need to re-fuel and re-juvenate
+[14:39] <mbuf> deepika, sure; that depends on the person taking the session; but, pre-requisites can be mentioned, yes
+[14:39] <mbuf> deepika, we don't want to announce sessions because, we want people to hangout in the channel, make friends, and learn
+[14:39] <mbuf> deepika, we don't want to be very formal though
+[14:40] <mbuf> deepika, the first step is to replicate the bug at your end
+[14:40] <mbuf> deepika, it is called "triaging"; read on that
+[14:40] <mbuf> deepika, you might also want to find someone in Mozilla who understands the code base, to see the thought process
+[14:41] <mbuf> deepika, see the test documentation for the project, and see how to run the tests, and why the tests didn't catch the bug, if you have been able to replicate it
+[14:41] <mbuf> deepika, all this, you have to document, maybe write a blog post, or send it as a comment in the bug, or to the project mailing list
+[14:41] <mbuf> deepika, but, I guess, you get the idea
+[14:42] <mbuf> deepika, you probably need to contact a Mozilla Rep, maybe?
+[14:43] <mbuf> any other feedback that people want to give before I end the class
+[14:44] <deepika> mbuf: sure , i'll read about triaging , okay  , thanks mbuf :)
+[14:44] <mbuf> deepika, one step at a time
+[14:44] <mbuf> deepika, write down the task, then break it down into sub-tasks, and work your way through each sub-task, documenting each and every step
+[14:44] <mbuf> roll call please
+[14:44] <yurii> mbuf - thank you for this session
+[14:45] <anuGupta> Thank you mbuf
+[14:45] <ashwanig> Ashwani Kumar Gupta
+[14:45] <anuGupta> Anu kumari Gupta
+[14:45] <knrai> Krishnanand Rai
+[14:45] <mbuf> yurii, we will try and do this periodically
+[14:45] <bhavin192> Bhavin Gandhi
+[14:45] <pr97> Priyanka Sharma
+[14:45] <asraisingh_> Abhishek Singh
+[14:45] <deepika> Deepika Upadhyay
+[14:45] <san-D> Sandesh Patel
+[14:45] <yurii> Yurii Pylypchuk
+[14:45] <soumam007> Soumam Banerjee
+[14:46] <schubisu> Robin Schubert
+[14:46] <mbuf> thanks all for your time
+----END CLASS----

@@ -1,0 +1,805 @@
+----BEGIN CLASS----
+[13:28] <kushal> #startclass
+[13:28] <abdulwahababrar> Yes, I will but just wanted to know, anything special I missed messifc
+[13:28] <kushal> Roll Call
+[13:28] <santoshShaw> Santosh Kumar Shaw
+[13:28] <messifc> Messi Fc
+[13:28] <abhinavshirur> Abhinav Shirur
+[13:28] <jasonbraganza> Jason Braganza
+[13:28] <devesh_verma> Devesh Verma
+[13:28] <abdulwahababrar> Abdul Wahab Abrar
+[13:28] <skarpy> Akash pathak
+[13:28] <shankarj67> Shankar Jha
+[13:28] <deepika> Deepika Upadhyay
+[13:28] <samridhia> Samridhi Agarwal
+[13:28] <dhairyya> Dhairyya Agarwal
+[13:28] <anuGupta> Anu Kumari Gupta
+[13:28] <saikat_> Saikat Dey
+[13:28] <soumam_> Soumam Banerjee
+[13:28] <shivamA1> Shivam Ahirao
+[13:28] <apoorv> Apoorv Goel
+[13:28] <Cyber_freak> PradhvanBisht
+[13:28] <im_mohsin> Mohsin Mumtaz
+[13:28] <bhavin192> Bhavin Gandhi
+[13:28] <poojaencoded> pooja kumari singh
+[13:28] <naveejka> Naveej Ahamed
+[13:28] <singh123> Amarjeet singh
+[13:28] <schubisu> Robin Schubert
+[13:28] <ghishadow> Suraj Ghimire
+[13:28] <cran-cg> Chiranjeev Gupta
+[13:28] <Raut> sayalee raut
+[13:28] <ashwanig> Ashwani Kumar Gupta
+[13:28] <ahole[m]> Kshithij Iyer
+[13:28] <iKshitij> Kshitij
+[13:28] <akshayg96[m]> Akshay gaikwad
+[13:29] <jiteshpabla> Jitesh pabla
+[13:29] <mukund_> Mukund Banka
+[13:29] <imranjeetsingh_> Ranjeet kumar
+[13:29] <sakshi> Sakshi Saraswat
+[13:29] <neer> Nishanta sarma
+[13:29] <asraisingh> Abhishek Singh
+[13:29] <RatanShreshtha> Ratan Kulshreshtha
+[13:29] <Padfoot7> Mohd Omama
+[13:29] <casper01> Mayur khomane
+[13:29] <meamitk> Amit Kokitkar
+[13:29] <wrik003> Wrik Bhadra
+[13:29] <niranjana> Niranjana Deshpande
+[13:29] <priyansh> Priyansh sourav
+[13:29] <maxking> Abhilash Raj
+[13:30] <kishore> Kishore Saldanha
+[13:30] <geekabhi007> ABHISHEK SHARMA
+[13:30] <kushal> Kushal Das
+[13:30] <anupamas> Anupama Shipurkar
+[13:30] <geekabhi007> ABHISHEK SHARMA
+[13:30] <arush> Arush Salil
+[13:30] <prafiles> Prakhar Shukla
+[13:30] <pr97> Priyanka Sharma
+[13:30] <tridev> Tridev Guha
+[13:31] <Sandeep_K> sandeep kumar choudhary
+[13:31] <Pritam> Pritam Bankar
+[13:31] <soumam007> Soumam Banerjee
+[13:31] <theAtom> deep
+[13:31] <rimshakhan> Rimsha Khan
+[13:32] <balaji> Balaji
+[13:32] <kushal> I hope everyone is done.
+[13:32] <akshays> Akshay Shipurkar
+[13:33] <ishank_g> Ishank Gupta
+[13:33] <zetathon__> Sumit Sardana
+[13:33] <realslimshanky> Shashank Kumar
+[13:33] <kushal> Today we will learn about editors.
+[13:33] <asraisingh> ok
+[13:33] <santoshShaw> vim
+[13:34] <kushal> This is a tool for which people may start a new war, millions of hours already waster to figure out which one is better.
+[13:34] <ahole[m]> Atom
+[13:34] <ahole[m]> nano
+[13:34] <asraisingh> sublime
+[13:34] <dhairyya> emacs and gedit are missing out
+[13:34] <ravindra> Ravindra Lakal
+[13:34] <ghishadow> vim vs emacs :)
+[13:35] <ahole[m]> asraisingh: I guess it's lime in Linux.
+[13:35] <ahole[m]> Sublime is windows
+[13:35] <ahole[m]> <eom>
+[13:35] <kushal> This is better.
+[13:36] <kushal> In our session we will only learn about vim, feel free to learn all the other ones of your own time.
+[13:38] <kushal> Let us all open our terminal
+[13:38] <kushal> Today we all will type along, means it will be a live session
+[13:40] <kushal> Or we don't.
+[13:40] <kushal> I will keep the session running, but you follow from the log here https://dgplug.org/irclogs/kushal_vi_1stclass.log
+[13:40] <zetathon__> Yes, live session
+[13:41] <santoshShaw> ok
+[13:41] <kushal> Search for 23:07:33 and then read from there.
+[13:41] <kushal> If you have any doubt, type ! here, we will take questions
+[13:41] <Raut> Alright
+[13:41] <zetathon__> !
+[13:42] <kushal> next
+[13:42] <avik> !
+[13:42] <kushal> next
+[13:42] <avik> what is going on?
+[13:42] <zetathon__> If we want we can see from here also, like you'll be also posting the live session , right? <eof>
+[13:43] <kushal> avik, vim session.
+[13:43] <avik> kushal, thanks!
+[13:43] <kushal> zetathon__, nope. Not today.
+[13:43] <theAtom> !
+[13:43] <zetathon__> ok
+[13:43] <BhaveshSGupta> Sorry late again, I am actually working in night shift so.. Bhavesh Gupta
+[13:43] <kushal> zetathon__, We will do that in the coming days.
+[13:43] <avik> kushal, what to be done by us?
+[13:43] <avik> any link?
+[13:43] <kushal> avik, start following https://dgplug.org/irclogs/kushal_vi_1stclass.log
+[13:43] <kushal> next
+[13:43] <theAtom> by default vi editor will be present in all linux or we have to install?<eom>
+[13:43] <avik> ok thanks kushal <eof>
+[13:44] <kushal> theAtom, It is generally there.
+[13:44] <theAtom> kushal, okay.
+[13:44] <deepika> !
+[13:44] <kushal> next
+[13:44] <deepika> What happens when we edit in .vimrc
+[13:45] <SpEcHiDeR> !
+[13:45] <neer> !
+[13:45] <kushal> deepika, vimrc is the configuration file for vim. Skip that for now, edit any other file.
+[13:45] <kushal> like
+[13:45] <kushal> vim hello.txt
+[13:45] <skarpy> !
+[13:45] <kushal> next
+[13:45] <Raut> !
+[13:46] <deepika> okay thanks <eof>
+[13:46] <atisayajain> !
+[13:46] <SpEcHiDeR> In my system, there are both vi and vim. vi is a symlink of ex. Is ex used in anywhere?
+[13:46] <apoorv> !
+[13:47] <soumam_> !
+[13:48] <kushal> SpEcHiDe, maybe, I don't know.
+[13:48] <kushal> next
+[13:48] <neer> What is the difference between vi and vim, it looks the same?
+[13:49] <kushal> neer, for most systems yes, but vi used to be the old one, vim is newer.
+[13:49] <kushal> vi enhanced
+[13:49] <kushal> next
+[13:49] <skarpy> So, do we have to refer the whole thing from the log? And this is just going to be a q/a session? <eom>
+[13:50] <poojaencoded> !
+[13:50] <kushal> skarpy, you will have to try the commands from the log, if you have questions, we will take it here.
+[13:50] <kushal> next
+[13:50] <Raut> kushal: Are we suppose to keep on following the log and carry out steps accordingly? When should we stop?
+[13:50] <ashwanig> !
+[13:50] <kushal> Raut, When the logs end.
+[13:50] <kushal> next
+[13:50] <asraisingh> !
+[13:51] <arush> !
+[13:51] <atisayajain> My question has been asked and answered already, thanks.
+[13:51] <kushal> next
+[13:51] <kushal> next
+[13:51] <soumam_> why shall we use this? i mean we can use normal leafpad also to write without using commands?
+[13:52] <apoorv> no doubt
+[13:52] <poojaencoded> ooja@pooja-Inspiron-3521 ~ $ vim hello.txt
+[13:52] <poojaencoded> The program 'vim' can be found in the following packages:
+[13:52] <poojaencoded>  * vim
+[13:52] <poojaencoded>  * vim-gnome
+[13:52] <poojaencoded>  * vim-tiny
+[13:52] <poojaencoded>  * vim-athena
+[13:52] <poojaencoded>  * vim-gtk
+[13:52] <poojaencoded>  * vim-nox
+[13:52] <poojaencoded> Try: sudo apt-get install <selected package>
+[13:52] <santoshShaw> !
+[13:52] <zetathon__> sudo apt-get install vim
+[13:52] <poojaencoded> i have to install the package?
+[13:52] <zetathon__> yup
+[13:52] <dhairyya> !
+[13:52] <poojaencoded> thanks
+[13:52] <kushal> poojaencoded, 2 things, you are talking out of order, also use a pastebin like paste.fedoraproject.org to show so many lines
+[13:52] <kushal> soumam_, correct, but think about a situation where you will have to login to a server and work
+[13:53] <kushal> and also vim is very powerful
+[13:53] <iKshitij> poojaencoded: yes and chhose vim
+[13:53] <kushal> next
+[13:53] <zetathon__> !
+[13:53] <soumam_> ok, kushal !we will learn its power :)
+[13:53] <kushal> poojaencoded, yes, install vim
+[13:53] <kushal> next
+[13:53] <ashwanig> Edit mode turns on with a/d/w keys also. Why is that?
+[13:54] <poojaencoded> done
+[13:54] <kushal> ashwanig, each of those keys have some meaning, you will learn about those slowly.
+[13:54] <kushal> next
+[13:54] <asraisingh> kushal, yesterday i'm playing vim adventure there is B and b command two commands but i am not able to figure out the difference. Please Help!
+[13:54] <arush> My question is not related to vim rather it's bash scripting related from previous day. Can I ask it now? <eof>
+[13:54] <kushal> ashwanig, Keep reading
+[13:55] <ashwanig> kushal, Yes doing that. :)
+[13:55] <kushal> asraisingh, Have you searched the same question?
+[13:55] <kushal> asraisingh, when I searched, I found https://stackoverflow.com/questions/14390519/whats-the-difference-between-b-and-b-in-vim
+[13:55] <asraisingh> yes already did. but not able to understand
+[13:55] <kushal> asraisingh, Point that I also never knew the difference.
+[13:55] <asraisingh> ok, i have a read
+[13:55] <kushal> asraisingh, read the answer from the link I gave
+[13:56] <asraisingh> ok, thanks
+[13:56] <iKshitij> !
+[13:56] <kushal> next
+[13:57] <kushal> next
+[13:57] <santoshShaw> after doing man vim. What is the Ex mode ? which mode is better? <eof>
+[13:57] <asraisingh> !
+[13:57] <kushal> santoshShaw, you will have to all the modes, just try and see.
+[13:57] <saikat_> !
+[13:57] <kushal> next
+[13:58] <santoshShaw> ok
+[13:58] <dhairyya> my question has been answered already
+[13:58] <kushal> next
+[13:58] <zetathon__> kushal, I've something to ask about one python, so when should I ask<eof>
+[13:58] <zetathon__> python project
+[13:58] <kushal> zetathon__, after the session or before the session
+[13:58] <zetathon__> on IRC channel only?
+[13:58] <kushal> next
+[13:58] <iKshitij> kushal: what's difference between :wq and :x command !
+[13:58] <kushal> zetathon__, or in the mailing list
+[13:58] <arush> My question is not related to vim rather it's bash scripting related from previous day. Can I ask it now? <eof>
+[13:58] <zetathon__> ok
+[13:59] <kvy> !
+[13:59] <kushal> iKshitij, noting that I know about, expect :x is one character less to type :)
+[13:59] <kushal> arush, ask
+[14:00] <kushal> next
+[14:00] <asraisingh> kushal, Is working with hjkl is more preferable or with up-down-key-left-right key during editing in vim?
+[14:00] <kushal> asraisingh, most of the vim users use hjkl
+[14:00] <kushal> asdofindia, but again, personal choice
+[14:00] <kushal> next
+[14:00] <saikat_> this error is popping:
+[14:01] <im_mohsin> !
+[14:01] <saikat_> Downloading Packages:
+[14:01] <saikat_> (1/4): gpm-libs-1.20.7-9.fc24.x86_64.rpm                                  38 kB/s |  36 kB     00:00
+[14:01] <saikat_> (2/4): vim-filesystem-8.0.617-1.fc25.x86_64.rpm                           49 kB/s |  34 kB     00:00
+[14:01] <saikat_> (3/4): vim-enhanced-8.0.617-1.fc25.x86_64.rpm                            330 kB/s | 1.3 MB     00:03
+[14:01] <saikat_> (4/4): vim-common-8.0.617-1.fc25.x86_64.rpm                              541 kB/s | 6.6 MB     00:12
+[14:01] <saikat_> ---------------------------------------------------------------------------------------------------------
+[14:01] <saikat_> Total                                                                    503 kB/s | 8.0 MB     00:16
+[14:01] <saikat_> Running transaction check
+[14:01] <saikat_> Transaction check succeeded.
+[14:01] <saikat_> Running transaction test
+[14:01] <saikat_> The downloaded packages were saved in cache until the next successful transaction.
+[14:01] <saikat_> You can remove cached packages by executing 'dnf clean packages'.
+[14:01] <saikat_> Error: Transaction check error:
+[14:01] <saikat_>   file /usr/share/man/man1/vim.1.gz from install of vim-common-2:8.0.617-1.fc25.x86_64 conflicts with file from package vim-minimal-2:7.4.1989-2.fc25.x86_64
+[14:01] <arush> How to store a particular string with special characters, say "$" in an array variable such that when the string is printed its not interpolated?<eof>
+[14:01] <saikat_> Error Summary
+[14:01] <saikat_> -------------
+[14:01] <kushal> saikat_, eh
+[14:02] <kushal> saikat_, please use a pastebin, like paste.fedoraproject.org
+[14:02] <saikat_> ok, was not aware of it
+[14:02] <kushal> saikat_, that is a known error.
+[14:02] <kushal> saikat_, first become root, sudo su -
+[14:02] <kushal> tell when you are ready
+[14:02] <saikat_> I am root
+[14:02] <iKshitij> asraisingh: I used to prefer nav key but when you​ start touch typing you don't want your finger to move to nav key. Hjkl seems easy :)
+[14:02] <kushal> saikat_, then these two command one by one
+[14:03] <kushal> dnf remove vim-minimal
+[14:03] <kushal> dnf install vim sudo -y
+[14:03] <kushal> asraisingh, https://www.flickr.com/photos/kent-chen/6825667892/ will give you more details :)
+[14:03] <kushal> next
+[14:03] <kvy> I do not have any question i just have a little request please send all the link for home work at the end of the session so i will only read those only.
+[14:03] <kushal> kvy, Nope, we will not do that.
+[14:04] <kvy> can i ask why?
+[14:04] <dodococo> !
+[14:04] <kushal> kvy, It is the duty of the participants to read the logs.
+[14:04] <Cyber_freak> !
+[14:04] <kvy> i am reading
+[14:04] <kushal> kvy, otherwise people may prefer to skip, which is okay, but you have to do the work.
+[14:04] <kushal> We can not do more.
+[14:04] <kushal> next
+[14:04] <kvy> but still i confuse here are a lot of links
+[14:04] <im_mohsin> kushal, Can we change the character keys to move left,right,up down?
+[14:04] <ashwanig> !
+[14:04] <kushal> im_mohsin, means?
+[14:05] <saikat_> kushal, getting this error on 1st command: Error: The operation would result in removing the following protected packages: sudo.
+[14:05] <ahole[m]> kvy: what you can do is write a script which filters the URLs alone from the log.
+[14:05] <asraisingh> kushal, oh got it.
+[14:05] <kushal> saikat_, not error, it is asking to press Y or N
+[14:05] <kushal> press y
+[14:05] <kushal> next
+[14:05] <im_mohsin> like instead of having 'h' to move left one character, Can we change?
+[14:05] <dodococo> Whats a visual mode?
+[14:05] <kvy> ahole[m]   no just the homework
+[14:05] <kushal> im_mohsin, I don't know if that is possible
+[14:05] <vipulgupta2048_> ahole[m], sounds interesting will try for sure
+[14:06] <Cyber_freak> Out of context but where are these buffer editors used ? I know in servers we use them because they are light weight.
+[14:06] <saikat_> kushal, it does not say type y/n. pressed y, nothing happens
+[14:06] <im_mohsin> ok. Thanks. i thought it would good to arrange keys in sequence
+[14:06] <kushal> saikat_, dnf remove sudo vim-minimal
+[14:06] <kushal> what does it do?
+[14:07] <kushal> next
+[14:07] <praveenkumar> Cyber_freak: you can use it day to day job also, depend on your preference
+[14:07] <kushal> im_mohsin, Nope, there is a reason for those keys :)
+[14:07] <kushal> dodococo, wait for that answer
+[14:07] <vipulgupta2048_> !
+[14:07] <dodococo> im_mohsin: I think you can edit vimrc to remap your keys
+[14:08] <anupamas> !
+[14:08] <soumam_> ahole[m]: copying the logs in a txt file and just give a search like find in notepad will also do.In command line we can use grep for http
+[14:08] <saikat_> kushal, this error: [root@localhost ~]# dnf remove sudo vim-minimal
+[14:08] <saikat_> Dependencies resolved.
+[14:08] <saikat_> Error: The operation would result in removing the following protected packages: sudo.
+[14:08] <saikat_> [root@localhost ~]# ^C
+[14:08] <saikat_> Will get the pastebin after this session
+[14:08] <dhairyya> stop flooding please. I cannot follow
+[14:08] <ahole[m]> soumam_:  You'll have to run it everyday.
+[14:08] <schubisu> kushal, saikat_ it's the same on my fedora 26 beta VM. I think you can do sudo dnf remove vim-minimal without root, then become root and do the second line
+[14:08] <praveenkumar> dodococo: http://vimdoc.sourceforge.net/htmldoc/visual.html#Visual it will contain document around visual mode.
+[14:09] <kushal> saikat_, you don't have to get the pastebin, just paste in paste.fedoraproject.org
+[14:09] <kushal> saikat_, are you on F25?
+[14:09] <saikat_> yes
+[14:09] <praveenkumar> saikat_: use sudo dnf remove vim-minimal
+[14:09] <praveenkumar> saikat_: you did it wrong
+[14:09] <soumam_> ahole[m], that´s a 2 second job man :)
+[14:09] <iKshitij> saikat_: you are removing sudo! :)
+[14:10] <ahole[m]> soumam_: I guess I am the lazy one.
+[14:10] <kushal> iKshitij, yes, that will happen in this case
+[14:10] <saikat_> praveenkumar, same error with your command
+[14:11] <im_mohsin> dodococo, i look into it :)
+[14:11] <praveenkumar> saikat_: can you use pastebin and put what you tried and also error.
+[14:11] <saikat_> praveenkumar, okay
+[14:11] <vipulgupta2048_> sounam, making a script and executing it would be a good learning curve if not done already
+[14:12] <zetathon__> !
+[14:12] <kushal> dodococo, I will show in few minutes
+[14:12] <kushal> next
+[14:12] <ashwanig> This is regarding the change and delete. How can I press cw? When I press c the edit mode is turned on.<eom>
+[14:12] <kushal> saikat_, and you also wait
+[14:12] <kushal> ashwanig, it should not
+[14:13] <saikat_> kushal, yes.
+[14:13] <abhinavshirur> ashwanig, press escape first
+[14:13] <soumam_>  vipulgupta2048_ yes of course after i will learn python.I will do everything by script :)
+[14:13] <kushal> ashwanig, Ah, you should be in the command mode.
+[14:13] <abhinavshirur> you need to go in the command mode
+[14:13] <kushal> Please stop talking about the other random things.
+[14:13] <ashwanig> kushal, Sorry, my bad.
+[14:13] <abhinavshirur> kushal :P
+[14:13] <kushal> abhinavshirur, Good catch.
+[14:13] <kushal> next
+[14:13] <vipulgupta2048_> How to remove a PPA (repository) completely ? I have read the answers on forum but after doing ppa-purge, sources.list still shows the repositories.
+[14:13] <ahole[m]> kushal: sorry my bad.
+[14:14] <apoorv> !
+[14:14] <sayan> vipulgupta2048_: do you mean remove all PPA repo you have added?
+[14:15] <kushal> vipulgupta2048_, sorry, I don't know about Ubuntu that well, can anyone else reply?
+[14:15] <kushal> next
+[14:15] <saikat_> praveenkumar, kushal , here is the pastebin: https://paste.fedoraproject.org/paste/Ktm6fxENOC7xXofrqOul-Q
+[14:15] <anupamas> i am not able to use "J" and K" keys nor up and down arrows :(
+[14:15] <kushal> anupamas, are you in the command mode?
+[14:15] <jasonbraganza> anupamas hit escape
+[14:15] <pavan> Sorry to late because final year result , which topic going on ?
+[14:15] <rkased> roll call: Razy Kased
+[14:16] <dhairyya> editor pavan
+[14:16] <anupamas> i am able to use h and l but not j and k
+[14:16] <ahole[m]> pavan: text editors mostly vi and vim
+[14:16] <pavan> Dhairyya : thanks
+[14:16] <anupamas> the same goes with the arrows :(
+[14:16] <vipulgupta2048_> sayan, No, Why would I do that. For installing Visual Studio a PPA was installed. I uninstalled vscode but the PPA still was left in the system and showing in sources.list in apt
+[14:16] <schubisu> anupamas, do you have more than one line in the file you edit?
+[14:16] <soumam_> anupamas, may be because you are in the first line. j and k to shift lines
+[14:17] <anupamas> yes schubisu
+[14:17] <dhairyya> you need to have lines spread across the file, anupamas
+[14:17] <samridhia> !
+[14:17] <asraisingh> !
+[14:17] <sayan> vipulgupta2048_: it's possible, you would like to remove all the ppa. This is because it searches the PPA everytime when looking for packages
+[14:17] <sayan> vipulgupta2048_: afaik, PPA are same as repo in Fedora
+[14:18] <sayan> vipulgupta2048_: it's better maxking answers this, he uses Ubuntu
+[14:18] <wrik003> difficult to simultaneously follow the discussion here and also read from the log file!
+[14:18] <sayan> saikat_: are you not able to install vim?
+[14:18] <saikat_> sayan, Yes
+[14:18] <zetathon__> and also difficult to wait for ur turn
+[14:18] <rkased> !
+[14:18] <anupamas> 2 lines to be presise soumam_  schubisu dhairyya
+[14:18] <zetathon__> meanwhile you can't do anything
+[14:19] <kdas_> kushal's network is down
+[14:19] <jasonbraganza> anupamas: do 3-4 more
+[14:19] <bhavin192> zetathon__, it's your
+[14:19] <saikat_> sayan, Last package not installing.
+[14:19] <anupamas> precise*
+[14:19] <sayan> saikat_: login as root and remember don't log out of root until and unless I tell you
+[14:19] <zetathon__> like :u is for undo, then what does :r do?
+[14:19] <sayan> saikat_: I will tell you the steps one by one, okay?
+[14:19] <ahole[m]> saikat_: try man vim and see the first line.
+[14:19] <saikat_> sayan, yes, thank you, i am logged in as root
+[14:20] <samridhia> :r replaces and :u is for undo
+[14:20] <vipulgupta2048_> Yes I know, In the software menu PPA installed by the users are shown separately. I just want to know the best way to remove them (one particularly), maxking
+[14:20] <Cyber_freak> !
+[14:20] <saikat_> sayan, first line says vim - Vi IMproved, a programmers text editor
+[14:20] <zetathon__> samridhia, No its not replace
+[14:20] <singh123> !
+[14:20] <zetathon__> its doing something else only
+[14:20] <theparadoxer02_> !
+[14:20] <ahole[m]> saikat_: you have vim with the alias vi.
+[14:21] <kushal> zetathon__, try that
+[14:21] <samridhia> :r is copy pasting the same stuff again
+[14:21] <anupamas> okay got it
+[14:21] <kushal> next
+[14:21] <zetathon__> like :u is for undo, then what does :r do?
+[14:21] <sayan> saikat_: check pm
+[14:22] <saikat_> ahole[m], so do i need to upgrade it or what? when i try to open txt files, it opens with regular txt editors
+[14:22] <zetathon__> I tried but, I dont know whats heppening
+[14:22] <jasonbraganza> zetathon__ caps lock?
+[14:22] <saikat_> sayan, what is pm?
+[14:22] <zetathon__> kushal, there was one line I typed long before
+[14:22] <wrik003> saikat_, personal message
+[14:22] <kushal> zetathon__, that was out of turn.
+[14:22] <zetathon__> but when I'm doing :r, that line is coming back?
+[14:22] <im_mohsin> !
+[14:23] <sayan> next
+[14:23] <saikat_> wrik003, my bad, sorry
+[14:23] <zetathon__> batul told me to ask
+[14:23] <zetathon__> and I asked
+[14:23] <kushal> zetathon__, try this https://www.fprintf.net/vimCheatSheet.html
+[14:23] <ahole[m]> saikat_:  No! As I have observed that some of the latest releases have vim per installed but you'll have to use
+[14:23] <ahole[m]> Vi filename.extension
+[14:23] <ahole[m]> to use vim.
+[14:23] <apoorv> No doubt
+[14:23] <kushal> next
+[14:23] <kushal> zetathon__, sorry, I have network lag, huge network lag this side
+[14:23] <zetathon__> Also, how to get autocopletion for python in vim?
+[14:23] <samridhia> what's the difference between :e! and u they both do the same work ?
+[14:23] <ashwanig> Till now my favorite has been the change case using ~ :D
+[14:23] <sayan> kushal: I am taking the questions
+[14:23] <zetathon__> autocompletion
+[14:24] <sayan> zetathon__: can you tell your question again?
+[14:24] <zetathon__> sayan, how to get autocompletion for python
+[14:24] <kushal> sayan, go ahead then
+[14:24] <zetathon__> in vim
+[14:24] <kushal> zetathon__, we will see that later.
+[14:24] <wrik003> kushal, the cheat sheet is helpful!
+[14:24] <soumam_> anupamas, is j and k  working? its also not working for me! not even my up/down cursor! only lateral movement is there
+[14:24] <sayan> zetathon__: for that you need to install seperate plugin, let's not do that now
+[14:24] <iKshitij> zetathon__: you need to configure and install plugin!
+[14:25] <ashwanig> wrik003, Which cheat sheet?
+[14:25] <iKshitij> !
+[14:25] <sayan> zetathon__: once you get acquainted with vim, then you can go ahead and install plugins
+[14:25] <kushal> For the record http://summertraining.readthedocs.io/en/latest/vim.html
+[14:25] <sayan> samridhia: can you repeat you questions, I seem to be have lost in logs?
+[14:25] <zetathon__> sayan, I've have worked lill bit on vim before
+[14:25] <bhavin192> ashwanig, https://www.fprintf.net/vimCheatSheet.html
+[14:25] <zetathon__> but could never rectify this issue
+[14:26] <sayan> zetathon__: well, in that case after the case we can talk about that
+[14:26] <samridhia> What's the difference between :e! and u they both work in the same way?
+[14:26] <vipulgupta2048_> !
+[14:26] <zetathon__> sayan, which editor is best for python?
+[14:26] <sayan> zetathon__: which ever suits you
+[14:26] <zetathon__> I've tried lot
+[14:26] <zetathon__> none of them suits me
+[14:27] <zetathon__> nor sublime
+[14:27] <zetathon__> nor IDLE
+[14:27] <zetathon__> nor atom
+[14:27] <zetathon__> I need autocompletion, and none of them supports completely
+[14:27] <kushal> zetathon__, please stop
+[14:27] <sayan> samridhia: both of :e & :u goes to a older state
+[14:27] <ahole[m]> zetathon__: try geany
+[14:27] <maxking> vipulgupta2048_: /etc/apt/sources.list.d/ is the path where all.liats are
+[14:27] <singh123> zetathon , please give chance to others to discuss
+[14:28] <zetathon__> Thanks ahole[m] ;)
+[14:28] <zetathon__> kushal, ok :p
+[14:28] <kushal> zetathon__, next time you will be kicked out
+[14:28] <maxking> *all lists are
+[14:28] <sayan> samridhia: but there is a difference, :u does an undo
+[14:28] <kushal> same goes to all others.
+[14:28] <sayan> samridhia: where are with :e you go to an older state, that could be measured in time
+[14:28] <zetathon__> kushal, this thing will not be repeated. Sorry for that.
+[14:29] <sayan> samridhia: :e 5s will go 5 seconds before
+[14:29] <samridhia> sayan: got it perfectly!
+[14:29] <sayan> or was that :ea, wait I am confused now :(
+[14:30] <samridhia> no it is :e! which takes back to the previous state without saving the new one
+[14:30] <vivek_> :e refreshes
+[14:30] <vivek_> or reload
+[14:30] <messifc>  /msg NickServ identify 123123kksk
+[14:30] <sayan> samridhia: what vivek_ said
+[14:30] <kushal> messifc, Now change the password
+[14:30] <sayan> next
+[14:30] <messifc> oops
+[14:30] <sayan> next
+[14:30] <asraisingh> kushal, I'm not able to use :e. Whenever using :e getting this error with some line number. E37: No write since last change (add ! to override)           7,29          All
+[14:30] <anupamas> soumam_, try increasing lines
+[14:31] <kushal> asraisingh, Out of turn
+[14:31] <Cyber_freak> Is there a auto indent feature in vim like sublime has ?
+[14:31] <kushal> asraisingh, also save the file first.
+[14:31] <asraisingh> kushal, ok
+[14:31] <zetathon__> !
+[14:31] <ihp> Cyber_freak: yes.
+[14:32] <sayan> kushal: no, it's asraisingh turn
+[14:32] <singh123> !
+[14:32] <sayan> next
+[14:32] <Cyber_freak> I read about it but couldn't  understand
+[14:32] <rkased> I know we are talking about editor Vim today, however I had a question about the FHS document, in my /media, I didn't see any other devices except floppy, why is that?
+[14:32] <kushal> sayan, ah, I suddenly saw the message
+[14:32] <samridhia> asraisingh: :e not working for me too same comment
+[14:32] <apoorv28goel> !
+[14:33] <sayan> I am putting the channel on mute. A few things now
+[14:33] <sayan> People should not ask out of turn
+[14:34] <sayan> or else I will remove voice from that person.
+[14:34] <sayan> Returning back to normal model
+[14:35] <sayan> rkased: ping at the end of the class
+[14:35] <sayan> next
+[14:35] <zetathon__> asraisingh, samridhia use :e! and not :e
+[14:35] <singh123> I want to go to the n-th line, there are 2 ways as you told in previous logs.
+[14:35] <kvy> sayan i also think so
+[14:35] <singh123> :n and nG
+[14:35] <im_mohsin> kushal, what is Alt + a?
+[14:35] <sayan> singh123: yes?
+[14:35] <singh123> but nG does not work here
+[14:36] <rkased> !
+[14:37] <sayan> singh123: how did you try the nG command?
+[14:37] <samridhia> zetathon__ according to me :e! and :e both have different work to do.
+[14:37] <singh123> in command mode
+[14:37] <sayan> singh123: did you use that with a :nG?
+[14:38] <singh123> no
+[14:38] <sayan> singh123: in command mode, to go to ling number 5 press 5G where n=5
+[14:38] <ashwanig> !
+[14:38] <sayan> that should work
+[14:38] <sayan> next
+[14:38] <im_mohsin>  kushal, what is Alt + a?
+[14:38] <zetathon__> samridhia, what do you want to do? The thing that is in the log is about :e!, and I dont know what :e do
+[14:38] <zetathon__> does
+[14:39] <apoorv28goel> !
+[14:39] <singh123> sayan it is saying ambigious use of user defined command
+[14:39] <Raut> !
+[14:39] <theparadoxer02_> isn't there any way to render the logs in a more efficient way rather than just text, so that the links,tags and other stuffs are visible
+[14:39] <vivek_> sayan: it's just :n
+[14:39] <samridhia> :e is to edit at current position as its working for me
+[14:39] <vivek_> and G will take to the end of file
+[14:39] <asraisingh> samridhia, zetathon__ , :e! working
+[14:40] <sayan> theparadoxer02_: yes, but we will not work on it
+[14:40] <zetathon__> asraisingh, samridhia :e is only used to re-edit if changes are made to the file outside of vim
+[14:40] <sayan> im_mohsin: next time I am kicking you
+[14:40] <ani> !
+[14:40] <sayan> im_mohsin: you are asking question out of turn
+[14:40] <sayan> next
+[14:41] <theparadoxer02_> sayan, i did not got you
+[14:41] <singh123> !
+[14:41] <sayan> theparadoxer02_: you are asking of the dgplug logs right?
+[14:41] <sayan> theparadoxer02_: it's possible but right now we just render the text file
+[14:41] <sayan> next
+[14:41] <iKshitij> pass ! My question is related to plugin, will ask that after today's session.
+[14:41] <theparadoxer02_> sayan, yes
+[14:41] <sayan> iKshitij: cool
+[14:41] <sayan> next
+[14:42] <vipulgupta2048_> I use nano as a editor , would that be an issue ?
+[14:42] <asraisingh> !
+[14:42] <im_mohsin> i was reading documentation and when batul said next i accidentally sent it. Sorry sayan
+[14:45] <singh123> !
+[14:45] <sayan> vipulgupta2048_: yes, totally works
+[14:45] <sayan> if you are primarily using nano as your text editor
+[14:45] <sayan> next
+[14:47] <sayan> next
+[14:47] <sayan> next
+[14:47] <apoorv28goel> s,i and a-all three make insert mode active?what is the distinction?
+[14:48] <apoorv28goel> Sorry my internet is acting up
+[14:48] <rkased> I'm using Ubuntu 16.04, the $ doesn't work when I try to launch vim with it. It only works just by typing vim, then enter. Why is that?
+[14:48] <abhinavshirur> apoorv28goel, read the log, all 3 of them have different meanings
+[14:49] <apoorv28goel> that ques was not answered in the log
+[14:49] <ashwanig> abhinavshirur, Agree with apoorv28goel
+[14:49] <sayan> apoorv28goel: the are different task/modes
+[14:50] <apoorv28goel> can you a little more ?
+[14:50] <sayan> apoorv28goel: did you try to google?
+[14:50] <jasonbraganza> i inserts at the cursor. a appends. google what s does
+[14:51] <apoorv28goel> nope sorry
+[14:51] <apoorv28goel> <jasonbraganza> thank you
+[14:52] <sayan> apoorv28goel: google, you will find them, there are minor differences, also search for o & O
+[14:52] <sayan> next
+[14:52] <ashwanig> When finding a word using vim, is there any way that the whole word gets highlighted?<eom>
+[14:52] <apoorv28goel> okay
+[14:52] <sayan> ashwanig: yes, you need to configure vim for that
+[14:52] <sayan> ashwanig: vim has a configuration file called vimr
+[14:52] <sayan> vimrc
+[14:53] <anuGupta> s is just deleting the current position
+[14:53] <rkased> My question, I didn't see my answer before you moved to the next questioner?
+[14:53] <messifc>  !
+[14:54] <im_mohsin> anuGupta, no with s you find and replace text. eg: :s/foo/bar/g. G will replace all instance of foo
+[14:54] <jiteshpabla> I have to leave the class in between.
+[14:54] <sayan> rkased: sorry
+[14:54] <rkased> no worries
+[14:55] <ashwanig> sayan, Where is it located?
+[14:55] <anuGupta> Not getting you,im_mohsin
+[14:55] <ashwanig> it == vimrc file
+[14:55] <singh123> !
+[14:55] <bhavin192> ashwanig, in your home directory
+[14:55] <sayan> ashwanig: you need to create in the home dir, please google search
+[14:55] <sayan> rkased: you don't need to type the $
+[14:56] <rkased> sounds good
+[14:56] <im_mohsin> anuGupta, check thiis link: http://vim.wikia.com/wiki/Search_and_replace
+[14:56] <ashwanig> sayan, Ok got it :)
+[14:56] <sayan> next
+[14:56] <wrik003> !
+[14:56] <Raut> sayan: What is the home work for today?
+[14:56] <sayan> Raut: yes, I will tell at the last, it's related to vi itself
+[14:56] <sayan> next
+[14:56] <ani> sayan,  In using 'nG' command it gives error E464: Ambiguous use of user-defined command and  what to do?
+[14:58] <ani> in ' n' command gives error E163: There is only one file to edit , why?
+[14:58] <sayan> ani: hmm, are you typing nG or substituing n with a number?
+[14:59] <sayan> like 5G, 6G etc
+[14:59] <ani> n with number
+[14:59] <ani> yes 5G
+[15:00] <sayan> ani: I have no clue on this; ping me after the class we will discuss
+[15:00] <dhairyya> sayan maybe there are not 5 lines in the file
+[15:00] <ani> ok
+[15:00] <dhairyya> I was getting the same error
+[15:01] <sayan> dhairyya: oh, but that works, you just go to the last line
+[15:01] <vivek_> can i?
+[15:01] <sayan> vivek_: always, don't ask if you know answer
+[15:01] <singh123> I am also getting the same error.
+[15:01] <vivek_> in normal mode, simply 4G will take you to 4th line
+[15:01] <anuGupta> im_mohsin,I tried but its giving error.
+[15:01] <vivek_> but, if you press : before then you are in command mode
+[15:01] <vivek_> if you are in that mode, then you don't need G
+[15:02] <dhairyya> sayan I tried in the command mode
+[15:02] <vivek_> just press :4
+[15:02] <ani> it gives with any value having more line then i type in nG command
+[15:02] <Raut> !
+[15:02] <sayan> next
+[15:02] <naveejka> I have to leave now, thanks for today's session.
+[15:02] <sayan> naveejka: no issues, thank you
+[15:03] <asraisingh> sayan, should I ask question?
+[15:04] <Raut> sayan : I also need to leave, could you tell the home work? Sorry for asking out of turn.
+[15:04] <sayan> Raut: can you check the logs later?
+[15:04] <anuGupta> Oh it's working.thanks im_mohsin
+[15:04] <sayan> it should be in the end
+[15:04] <sayan> next
+[15:04] <asraisingh> sayan, I have 2 questions. First one is, are some commands are different but with same function? and Second one is, Commands provided in this log https://dgplug.org/irclogs/kushal_vi_1stclass.log is enough or I have to cover maximum of the commands from cheatsheet (Link: https://www.fprintf.net/vimCheatSheet.html)
+[15:05] <Raut> sayan : OK. Thanks for the session.
+[15:05] <skarpy> asraisingh: it depends on how flexible you want to be with vim :)
+[15:05] <im_mohsin>  sure. try with :%s and simple :s anuGupta
+[15:05] <im_mohsin> both are different
+[15:05] <anuGupta> Yeah
+[15:06] <ani> thanks im_mohsin, it works
+[15:06] <im_mohsin> ani, welcome :)
+[15:07] <sayan> asraisingh: you can achieve same things multiple ways
+[15:07] <sayan> asraisingh: you need to start using the editor, it's difficult in the beginning but then eases down
+[15:07] <dhairyya> I need to leave. Thanks for the session
+[15:07] <soumam_> !
+[15:08] <sayan> https://static1.squarespace.com/static/537a9021e4b0dc8ed531ddef/t/579d9923e4fcb5403766d2ef/1469946184827/
+[15:08] <ani> !
+[15:08] <asraisingh> sayan, thanks sayan
+[15:08] <sayan> ^^ this explains
+[15:08] <sayan> next
+[15:08] <wrik003_> To copy a word we use <yw>, right? but say my cursor is not at the beginning of the word but somewhere at the middle, then it does not copy the word entirely (when I subsequently paste it) but from the position of the cursor till the end of the word.
+[15:09] <messifc> sayan, my turn didnt come :(
+[15:11] <sayan> wrik003_: nope
+[15:11] <vivek_> wrik003_: yiw
+[15:11] <wrik003_> vivek_, sorry, what is this acronym for?
+[15:11] <vivek_> "i" is for the current word
+[15:11] <vivek_> yiw is the command you need
+[15:11] <vivek_> yank the current word
+[15:11] <shivamA1> thank you so much for today's session, very helpful :)
+[15:11] <wrik003_> sayan, i tried it multiple times
+[15:11] <sayan> wrik003_: yw copies from current location
+[15:11] <deepika> !
+[15:12] <wrik003_> sayan, yes but i think in the logs it was different. i'll check again. <eof>
+[15:12] <sayan> wrik003_: yiw does the full word
+[15:12] <vivek_> wrik003_: what i said is the one you need
+[15:12] <sayan> next
+[15:12] <wrik003_> sayan, vivek_ thanks.
+[15:12] <vivek_> wrik003_: there is also "yaw" go check that one
+[15:12] <wrik003_> vivek_, ok
+[15:12] <sayan> next
+[15:12] <soumam_> sayan we are using a command line text editor because it doesnt uses mouse and saves our time or it has some other advantages too?<eof>
+[15:13] <sayan> soumam_: it's faster that GUI
+[15:13] <vipulgupta2048_> Sayan , Kushal. Thanks for session. But have to go, will read the logs.
+[15:13] <sayan> vipulgupta2048_: no issues :)
+[15:13] <harshcrop> log link plz?
+[15:13] <vivek_> soumam_: it saves time, moving around the file is lot easier
+[15:13] <ashwanig> harshcrop, it's please not plz
+[15:13] <sayan> harshcrop: what does plz mean? pizza?
+[15:13] <singh123> !
+[15:13] <apoorv28goel> sayan:  I need to go. Is there anything else in today's session ? and is there any homework for tomorrow ?
+[15:13] <soumam_> sayan, faster in terms of executing codes?
+[15:13] <rkased> !
+[15:13] <sayan> soumam_: once you remove dependency from mouse you get to be faster
+[15:14] <harshcrop> log link ?
+[15:14] <sayan> because you don't need to move to navigate
+[15:14] <skarpy> !
+[15:14] <soumam_> oh!
+[15:14] <sayan> soumam_: people that why use h,j,k,l to navigate in vim
+[15:14] <wrik003_> harshcrop, https://dgplug.org/irclogs/kushal_vi_1stclass.log
+[15:14] <sayan> next
+[15:14] <abhinavshirur> harshcrop, https://www.dgplug.org/irclogs/kushal_vi_1stclass.log
+[15:14] <ani> in command of ':s' gives error E33: No previous substitute regular expression
+[15:14] <harshcrop> Thank you
+[15:14] <apoorv28goel> !
+[15:15] <sayan> ani: you need to give the replacement args
+[15:15] <vivek_> ani: you have to specify which one search and to replace with what
+[15:15] <vivek_> and replace to what extent etc
+[15:15] <ani> ok
+[15:15] <soumam_> !
+[15:15] <sayan> ani: http://vim.wikia.com/wiki/Search_and_replace
+[15:15] <sayan> ani: you will see it as :s/foo/bar/g
+[15:15] <anuGupta> The line numbers disappears after I open it again.
+[15:15] <sayan> next
+[15:15] <vivek_> :s/<the word to search>/<the word to replace with>/<some cute options>
+[15:15] <deepika> i googled how to indent in vim,got satisfactory result for insert mode but while trying commands like <aB to unindent or >} seems nothing happening except the block getting highlighted ,could you suggest what i am missing ?<eof>
+[15:16] <sayan> anuGupta: are you out of turn?
+[15:16] <anuGupta> Sorry
+[15:16] <sayan> deepika: to indent you can just use > and <
+[15:16] <sayan> next
+[15:17] <sayan> deepika: > indent, < for un-indent
+[15:17] <singh123> sayad can it be live season as last years log?
+[15:17] <sayan> singh123: the vim session?
+[15:17] <deepika> okay,thanks !
+[15:17] <singh123> yes
+[15:18] <sayan> singh123: we can have that, but once you know the basics then it's better
+[15:18] <wrik003_> sayan, yes please. difficult to do both simultaneously.
+[15:18] <singh123> ok got it, thanks
+[15:18] <sayan> wrik003_: both as in?
+[15:18] <sayan> singh123: the thing once you know stuffs then we can do a over view class
+[15:18] <wrik003_> sayan, back and forth - irc & log
+[15:18] <sayan> on the things you need the most
+[15:18] <sayan> wrik003_: ok
+[15:19] <sayan> wrik003_: right
+[15:19] <sayan> next
+[15:19] <wrik003_> sayan, :)
+[15:19] <rkased> How can I cancel my order in the queue question. I just figured out  the answer to my question.
+[15:19] <sayan> rkased: I guess !! but I don't know if it happens now, the older bot used to do that
+[15:19] <sayan> next
+[15:19] <schubisu> sorry, I have to leave, see you all tomorrow ;)
+[15:19] <skarpy> :set mouse=a , for navigating with mouse, if navigation using line numbers is complex, (reference- nG command)
+[15:20] <sayan> see you
+[15:20] <im_mohsin> !
+[15:20] <rkased> !
+[15:20] <sayan> skarpy: is that your question?
+[15:20] <sayan> next
+[15:20] <sayan> next
+[15:20] <apoorv28goel> sayan:  I need to go. Is there anything else in today's session ? and is there any homework for tomorrow ?
+[15:20] <soumam_> like as you said vimrc is a configuration file to change the highlighting,there was also something vimrc.tiny ! what´s config file is that for?i also saw gvimrc which i guess is the config file for the gui version.
+[15:20] <sayan> apoorv28goel: see you
+[15:20] <apoorv28goel> any homework?
+[15:20] <skarpy> sayan: no, it's just something I want to share, becoz having problem was navigating, this ease it up
+[15:21] <sayan> soumam_: I haven't heard about vimrc.tiny
+[15:21] <sayan> For next class read: https://dgplug.org/irclogs/kushal_vi_2ndclass.log
+[15:21] <sayan> next
+[15:21] <im_mohsin> sayan, > and < by default uses 8 spaces. How to change that?
+[15:21] <soumam_> ok no problem i think its updated so they have introduced something else,
+[15:22] <vivek_> im_mohsin: it's probably tab
+[15:22] <messifc> !
+[15:22] <sayan> soumam_: I will look into it
+[15:22] <vivek_> see: how to assign tab to spaces
+[15:22] <vivek_> set tab=4
+[15:22] <im_mohsin> vivek_, tab does not work command mode
+[15:22] <samridhia> sorry have to leave! will read the logs later .
+[15:23] <soumam_> Nice session got to go! Thanks, sayan :)
+[15:23] <sayan> soumam_: http://vim.wikia.com/wiki/Indenting_source_code
+[15:23] <sayan> next
+[15:23] <sayan> next
+[15:23] <rkased> How do I open my newly saved .txt file when I just close out of vim and back at the terminal?
+[15:23] <sayan> next
+[15:23] <messifc> '>' and '<' dont work if i press them once, but when i press them twice. Is it what's supposed to happen?
+[15:23] <sayan> rkased: vim <filename>
+[15:24] <rkased> excellent
+[15:24] <sayan> messifc: does it indent
+[15:24] <sayan> ?
+[15:24] <messifc> yeah.
+[15:25] <sayan> messifc: oh right
+[15:25] <messifc> but it moves the word. What if i want to write another word after giving indentation?
+[15:25] <anuGupta> It is taking time to indent.
+[15:25] <sayan> messifc: you must be indenting a single line
+[15:25] <ashwanig> messifc, I was trying :> and :<
+[15:25] <sayan> messifc: >> << is use to indent a single line
+[15:25] <sayan> rather the current line
+[15:26] <messifc> okay thanx  :)
+[15:26] <bhavin192> messifc, it's thanks
+[15:26] <sayan> messifc: it's thanks
+[15:26] <sayan> please
+[15:26] <sayan> mext
+[15:26] <sayan> next
+[15:27] <sayan> Wow, I won!
+[15:27] <messifc> thanks :)
+[15:27] <abhinavshirur> sayan, xD
+[15:27] <sayan> Okay so I am given tomorrow homework, I will try to have a session for vim, hands-on
+[15:28] <singh123_> Sayan what is tomorrow haome work
+[15:28] <sayan> mostly to discuss what all things you need and advanced classes
+[15:28] <sayan> Again, tomorrow homework is https://dgplug.org/irclogs/kushal_vi_2ndclass.log
+[15:28] <messifc> sayan: thanks for this amazing session :)
+[15:28] <ahole[m]> That's it for today?
+[15:28] <sayan> ahole[m]: tomorrow
+[15:28] <soumam_> sayan, i admit you have extra energy
+[15:28] <ashwanig> sayan, Enjoyed the session. Thank you. :)
+[15:28] <asraisingh> thanks kaushal & sayan.
+[15:28] <wrik003_> sayan, this is better. we can go through the log file beforehand.
+[15:29] <ashwanig> ashwanig, And kushal also
+[15:29] <sayan> wrik003_: an advanced class on how we use :)
+[15:29] <sayan> Roll Call
+[15:29] <soumam_> Thanks, for the session :)
+[15:29] <anupamas> Anupama Shipurkar
+[15:29] <santoshShaw> Santosh Kumar Shaw
+[15:29] <shankarj67> Shankar Jha
+[15:29] <messifc> Messi Fc
+[15:29] <anuGupta> Anu Kumari Gupta
+[15:29] <jasonbraganza> Jason Braganza
+[15:29] <asraisingh> Abhishek Singh
+[15:29] <wrik003_> Wrik Bhadra
+[15:29] <ahole[m]> Kshithij Iyer
+[15:29] <vivek_> Vivek Anand
+[15:29] <skarpy> Akash pathak
+[15:29] <ani> Aniket uttam
+[15:29] <soumam_> Soumam Banerjee
+[15:29] <kvy> kumar vipin yadav
+[15:29] <casper01> Mayur khomane
+[15:29] <abhinavshirur> Abhinav Shirur
+[15:29] <deepika> Deepika Upadhyay
+[15:29] <pr97> Priyanka Sharma
+[15:29] <bhavin192> Bhavin Gandhi
+[15:29] <hellrider_> Ranjeet kumar
+[15:29] <ashwanig> Ashwani Kumar Gupta
+[15:29] <theAtom> deep
+[15:29] <poojaencoded> pooja kumari singh
+[15:29] <ravindra> Ravindra Lakal
+[15:29] <rkased> Razy Kased
+[15:29] <ishank_g> Ishank Gupta
+[15:30] <singh123__> Amarjeet singh
+[15:30] <avik> Avik Mukherjee
+[15:30] <Devesh_Veema> Devesh Verma
+[15:30] <saikat_> Saikat Dey
+[15:30] <neer> Nishanta Sarma
+[15:30] <cran-cg> Chiranjeev Gupta
+----END CLASS----

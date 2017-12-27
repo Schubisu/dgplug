@@ -1,0 +1,357 @@
+----BEGIN CLASS----
+[13:33] <sayan> #startclass
+[13:33] <sayan> Roll Call
+[13:33] <samridhia> Samridhi Agarwal
+[13:33] <ashwanig> Ashwani Kumar Gupta
+[13:33] <mdbk> Onyinye Madubuko
+[13:33] <ikshitij> Kshitij
+[13:33] <pr97> Priyanka Sharma
+[13:33] <ravindra> Ravindra Lakal
+[13:33] <asraisingh> Abhishek Singh
+[13:33] <skat_sd> Saikat Dey
+[13:33] <poojaencoded> pooja kumari singh
+[13:34] <sakshi> Sakshi Saraswat
+[13:34] <priyansh> priyansh: sourav
+[13:34] <anuGupta> Anu kumari Gupta
+[13:34] <bhavin192> Bhavin Gandhi
+[13:34] <akshayg96> Akshay Gaikwad
+[13:34] <soumam> Soumam Banerjee
+[13:34] <balaji> Balaji
+[13:34] <kvy> kumar vipin yadav
+[13:35] <apoorv> Apoorv Goel
+[13:35] <NikitaK3> Nikita Kotak
+[13:35] <sayan> So, people which all questions did solve over the weekend?
+[13:36] <soumam> basics sayan
+[13:36] <sayan> NikitaK3: what questions did you solve over the weekend?
+[13:37] <sayan> soumam: elaborate what basics
+[13:37] <anuGupta> Print Permutation of a string
+[13:37] <sayan> apoorv: what did you solve over the weekend?
+[13:37] <championshuttler> Shivam Singhal
+[13:38] <soumam> using if_else what you told last class, and also experimented with range, and a bit of function
+[13:38] <soumam> couldnt do much
+[13:38] <apoorv> some assignments that were given in college
+[13:38] <sayan> If people don't speak I will consider that you did not solve/or practice anything over the weekend
+[13:38] <ikshitij> sayan: I use python for Hackererth problems
+[13:39] <sayan> apoorv: did not do Python?
+[13:39] <apoorv> i did those assignments were to be done in python
+[13:39] <sayan> Okay
+[13:40] <NikitaK3> sayan, I did a few practise problems on hackerearth
+[13:40] <sayan> NikitaK3: ikshitij links to your profile?
+[13:40] <championshuttler> i solved some problems on hackerearth and some on hackerrank with python
+[13:40] <samridhia> I made a ticTac toe game using if statement.
+[13:40] <pr97> I did problems on hackerearth in C language.
+[13:41] <balaji> Worked on some if else and while loop
+[13:41] <ikshitij> hackerearth.com/@ikshitij
+[13:41] <balaji> And tried pattern too
+[13:41] <_RicharD_> Mayank gupta
+[13:42] <xyz_> roll call: atul kumar
+[13:42] <sayan> pr97: link to hackerearth profile?
+[13:42] <_RicharD_> Random basic programs on python
+[13:42] <skarpy> Roll call: akash pathak
+[13:42] <sayan> people fpaste your code and paste the link here
+[13:42] <pr97> okay sayan
+[13:43] <pr97> https://www.hackerearth.com/@priyanka1038
+[13:43] <ikshitij> sayan: which code ?
+[13:44] <sayan> the code you have written over the weekend
+[13:44] <samridhia> https://paste.fedoraproject.org/paste/d5~UKu1xwcSn88QBbaTZgA
+[13:46] <sayan> ikshitij: NikitaK3: I see that the last problem was solved 5 days back
+[13:46] <bhavin192> done nothing using Python this weekend :(
+[13:46] <sayan> Next moving to blogging
+[13:46] <sayan> How many people are reguarly blogging?
+[13:46] <ikshitij> sayan me
+[13:46] <samridhia> me
+[13:46] <ikshitij> :)
+[13:46] <NikitaK3> me
+[13:47] <soumam> :( could not but i will
+[13:47] <asraisingh> sayan, not a regular but do little bit blogging
+[13:47] <championshuttler> me i wrote a blog once in a week
+[13:47] <sayan> This is sad
+[13:48] <sayan> I am really sad with the people actually writing code, practicing stuffs
+[13:48] <balaji> I wrote one blog this weekend
+[13:48] <ravindra> i will write a blog tonight
+[13:48] <kvy_> Not reguarly but one post's in a week.
+[13:48] <sayan> I follow the students planet regularly and I see a few of the people regularly blogging
+[13:49] <sayan> Okay I am starting with looping
+[13:50] <sayan> Sometimes you need to execute a part of code multiple times
+[13:50] <sayan> so what you do is you loop through the code
+[13:50] <sayan> There are primarily three types
+[13:50] <sayan> - for loop
+[13:50] <sayan> - while loop
+[13:52] <sayan> so first I will be covering while loop
+[13:52] <sayan> the syntax of while loop is
+[13:52] <sayan> while (condition):
+[13:52] <sayan>     lines to execute
+[13:53] <sayan> so this loops keeps on running till the condition is true
+[13:53] <sayan> so if need to print the first 10 numbers
+[13:54] <sayan> counter = 0
+[13:54] <sayan> while counter < 10:
+[13:54] <sayan>     print(counter)
+[13:54] <sayan>     counter = counter + 1
+[13:54] <sayan>  
+[13:54] <sayan> so this is the code to print the first 10 numbers from 1-10
+[13:54] <sayan> sorry 0-9
+[13:55] <sayan> so, first we intialize the value of the counter to 0
+[13:55] <sayan> then if enters the while loop checks the condition
+[13:55] <sayan> counter < 10 which is 0 < 10 which is True
+[13:55] <sayan> so the code enters within the while loop
+[13:55] <sayan> prints coutner
+[13:56] <sayan> next increments the value of counter by 1
+[13:57] <sayan> now the value of the counter is 2
+[13:57] <sayan> so it then checks the value and if true enters the loop
+[13:57] <sayan> and if false exits the loop
+[13:57] <sayan> any question?
+[13:58] <sayan> Okay so no question so moving ahead
+[13:58] <championshuttler> !
+[13:58] <santoshShaw> Roll Call: santosh kumar shaw
+[13:59] <soumam> !
+[13:59] <sayan> next
+[13:59] <championshuttler> so while always run the code again
+[13:59] <sayan> if the condition is true
+[13:59] <sayan> yes
+[14:00] <sayan> next
+[14:00] <soumam> we say python takes less code , but counter++ is not supported .Its fetching error :(
+[14:00] <championshuttler> !
+[14:00] <sayan> soumam: what do you mean by python takes less code
+[14:01] <ikshitij> soumam: use counter+=1
+[14:01] <soumam> in python they say it takes less line to code the same thing but ++ isnt supported
+[14:01] <soumam> ikshitij, ok
+[14:02] <sayan> soumam: yes, it's not there
+[14:02] <sayan> ikshitij: soumam you should use counter = counter + 1
+[14:02] <soumam> ok
+[14:02] <sayan> counter += 1 and counter = counter + 1 is not always equal
+[14:02] <sayan> next
+[14:03] <championshuttler> doubt cleared :)
+[14:03] <pr97> !
+[14:03] <sayan> next
+[14:03] <ikshitij> ok
+[14:03] <apoorv> !
+[14:03] <sayan> next
+[14:03] <kvy_> !
+[14:03] <apoorv> can you explain how  counter += 1 and counter = counter + 1 is not always equal
+[14:03] <ikshitij> !
+[14:03] <pr97> sayan what is the difference between  counter += 1 and  counter = counter + 1 ?
+[14:04] <NikitaK3> !
+[14:04] <sayan> apoorv: pr97: nope, beyond the scope of class
+[14:04] <sayan> next
+[14:04] <sayan> next
+[14:04] <ikshitij> sayan: any example or case where i = i+1 and i+=1 is different
+[14:04] <kvy_> How to stop a stop a program in notebook i enter wrong condition <eof>
+[14:05] <pr97> sayan: okay
+[14:05] <sayan> ikshitij: nope, not now
+[14:05] <sayan> kvy_: I need to check that myself
+[14:05] <sayan> next
+[14:05] <NikitaK3> had the same question as apoorv, pr97.
+[14:06] <avik> kvy_, use the square button
+[14:06] <kvy_> avik i will try it
+[14:06] <soumam007_> !
+[14:06] <avik> ok! :)
+[14:06] <jasonbraganza> SORRY FOR INTERRUPTING! but I’m new and I’m trying to learn the basics here. Request all you more experienced folks to ask comparative and performance questions after class! i don’t care what program is faster. Right now I need ro learn to *write* the darned thing and the questions are slowing the flow
+[14:07] <kushal> slow clap to jasonbraganza
+[14:07] <ikshitij> jasonbraganza: right !
+[14:08] <soumam007_> ok sayan move ahead :)
+[14:08] <sayan> brb
+[14:09] <soumam007_> hello jasonbraganza , so you are liking this? :)
+[14:10] <sayan> back
+[14:10] <sayan> next
+[14:10] <soumam007_> move ahead:)
+[14:10] <sayan> jasonbraganza: well, I did take a long lecture one this but people just don't care to listen
+[14:11] <sayan> s/one/on
+[14:11] <sayan> Okay, I am glad to see that I did a typo, a major one
+[14:11] <sayan> but nobody noticed, or rectified it
+[14:11] <sayan> or raise hand to ask why
+[14:12] <jasonbraganza> i’ll just turn ornery like this next time !
+[14:12] <sayan> This totally tells how much the class reads the log that I type
+[14:13] <sayan> I won't be correcting it, it's on you to figure out
+[14:13] <sayan> Moving ahead
+[14:13] <avik> sayan, the do-while loop?
+[14:14] <avik> sayan, you said three types but mentioned two
+[14:14] <jasonbraganza> sayan - i thought that was a surprise for later
+[14:14] <sayan> sometimes you cannot determine the what would be the condition
+[14:14] <championshuttler> sayan: said 3 types of loops but mentioned 2
+[14:15] <kvy_> sayan I think python do not support do-while.
+[14:15] <sayan> or you probably cannot pass it via the while loop
+[14:15] <sayan> that's when you start the infinite loop
+[14:16] <sayan> and within the loop you mention the condition and check for the condition
+[14:16] <sayan> if the condition is true you tell the code to break out of the loop
+[14:17] <sayan> to break out of the loop, you use `break`
+[14:17] <sayan> while True:
+[14:17] <sayan>     if condition:
+[14:17] <sayan>         break
+[14:17] <sayan> so this is the structure of the code then
+[14:17] <sayan> any questions till here?
+[14:18] <jasonbraganza> !
+[14:18] <sayan> avik: there is no do-while loop in Python
+[14:18] <sayan> so that had to be 2 types
+[14:18] <avik> sayan, ok!
+[14:18] <avik> sorry!
+[14:18] <sayan> there also a known typo I did
+[14:19] <sayan> next
+[14:19] <jasonbraganza> what scenario would I use an infinite loop in? <eom>
+[14:19] <avik> jasonbraganza, say you want that calculator to run for an infinite time.
+[14:20] <avik> user wants to calculate one after another
+[14:20] <soumam007_> condition 2<5
+[14:20] <soumam007_> jasonbraganza:
+[14:20] <jasonbraganza> understood. when you need persistence of some sort. thank you <eom>
+[14:20] <soumam007_> ok i misunderstood
+[14:20] <avik> :D
+[14:21] <sayan> jasonbraganza: https://github.com/sayanchowdhury/fedimg/blob/feature/modular-ec2/fedimg/services/ec2/ec2imgpublisher.py#L74
+[14:21] <sayan> check this code
+[14:21] <jasonbraganza> sayan - will do. thank you <eom>
+[14:21] <sayan> here I retrying the code, but I don't have the condition to exit out of the loop
+[14:21] <sayan> s/I/I am/
+[14:22] <sayan> so I put the condition inside
+[14:22] <jasonbraganza> you’re waiting until the copy is complete?
+[14:22] <sayan> jasonbraganza: yes
+[14:22] <jasonbraganza> now I undertand why variables have to be cleanly named. Thank you <eom>
+[14:23] <sayan> next
+[14:23] <mbtamuli12> jasonbraganza: Similar condition here - https://github.com/fitztrev/weechat-zmq-notifier/blob/master/client/irc-notifier#L49
+[14:23] <abdulwahababrar> sayan, thanks it helps a lot of issues I had!
+[14:24] <mbtamuli12> jasonbraganza: Waiting for messages from a server. If we want the messages to keep coming.
+[14:24] <jasonbraganza> sayan, please continue …
+[14:25] <sayan> Write a program
+[14:26] <sayan> to take the input from the user `start` and `end`. Then print the numbers between start to end (with end included) using while loop
+[14:26] <sayan> and infinite while loop
+[14:27] <sayan> Update the azure links here: https://etherpad.gnome.org/p/dgplug-2018
+[14:27] <abdulwahababrar> Roll Call: Abdul Wahab Abrar
+[14:27] <sayan> Also, if you don't put proper link to your notebook I am not checking it
+[14:28] <sayan> I will be back in 10 mins
+[14:28] <bhavin192> sayan, 2018?
+[14:28] <kvy_> sayan should i make 2 program one with while and another with infinite while loop
+[14:29] <pr97_> I got disconnected, someone please tell what i missed after sayan said-Write a program.
+[14:29] <championshuttler> pr97_ : check pm i sent all messages
+[14:30] <pr97_> thank you championshuttler :)
+[14:38] <sayan> back
+[14:38] <ashwanig> sakshi, Your link doesn't work. It denies access
+[14:39] <ikshitij> ashwanig: your's too
+[14:39] <pr97_> sayan my net is working too slow, the azure notebooks page is still loading:(
+[14:39] <pr97_> I have not written the code yet
+[14:39] <ikshitij> anuGupta: your link is also not working
+[14:40] <sayan> bhavin192: :)
+[14:40] <sayan> bhavin192: can you change the output for In[7]
+[14:40] <apoorv> !
+[14:40] <kvy_> !
+[14:41] <apoorv> need some help here
+[14:41] <bhavin192> sayan, I was checking the calendar for current year
+[14:41] <bhavin192> sayan, doing that
+[14:42] <ikshitij> balaji: access denied
+[14:43] <ikshitij> Check your library is public or not.
+[14:43] <ashwanig> ikshitij, I guess now it is working fine :
+[14:43] <ashwanig> ikshitij, Can you check?
+[14:44] <ikshitij> ashwanig: yes ! I can see now
+[14:44] <ashwanig> ikshitij, Thanks :)
+[14:45] <balaji> ikshitij, Can you check now? is that showing or not ?
+[14:45] <bhavin192> sayan, can you check it now, the In[15]
+[14:45] <apoorv> my code is not running after i accidentlly compiled a infinite loop.
+[14:45] <ashwanig> balaji, Nope
+[14:46] <sakshi> ashwanig : can you please check now
+[14:46] <ashwanig> balaji, Please share the public link
+[14:46] <sayan> okay, anybody still doing?
+[14:46] <kvy_> apoorv you can restart your kernel
+[14:46] <ashwanig> sakshi, Same problem
+[14:46] <apoorv_> Never mind
+[14:47] <balaji> ashwanig, In library information it shows public
+[14:47] <ikshitij> balaji: Nope ! It's still private
+[14:47] <sayan> bhavin192, ikshitij, abhinavshirur, ravindra, akshayg96, avik did solve the problem
+[14:47] <balaji> public library check box is ticked
+[14:47] <sayan> avik: why did you use the extra number variable?
+[14:48] <avik> otherwise i had to increment start
+[14:48] <avik> which I thought was not a goot idea
+[14:48] <ravindra> yes pasted the fpaste link as i am using my local python
+[14:49] <avik> s/goot/good
+[14:49] <sayan> avik: okay
+[14:49] <ikshitij> avik: we had no use of start again in program !
+[14:49] <sayan> avik: but we did not use it again you could have used it
+[14:49] <avik> ikshitij, thats true! my bad :(
+[14:49] <sayan> avik: it's okay
+[14:49] <avik> sayan, ok.
+[14:50] <sayan> any questions?
+[14:50] <kvy_> can't i able to give link in last class.Is there any problem ? <eof>
+[14:51] <sayan> kvy_: did not get you, can you elaborate
+[14:51] <kvy_> and is my program code wrong ?
+[14:51] <kvy_> <eof>
+[14:51] <ashwanig> !
+[14:52] <kvy_> I do not take last session so
+[14:52] <sayan> kvy_: I don't see the link in there
+[14:52] <sayan> next
+[14:52] <balaji> anyone pm me please want to know how to make it public
+[14:52] <apoorv_> Done
+[14:53] <kvy_> sayan But I pasted the link.
+[14:54] <sakshi> !
+[14:54] <bhavin192> balaji, https://notebooks.azure.com/bhavin192/libraries/dgplug/html/summertraining.ipynb use this format
+[14:54] <sayan> next
+[14:54] <sayan> kvy_: I can't see it
+[14:54] <sayan> next
+[14:55] <sayan> next
+[14:55] <ashwanig> Is there any difference between while(i < 10) and while i < 10 ? <eom>
+[14:55] <sakshi> i dont know what is the problem in my link that i pasted
+[14:55] <xyz_> sayan i haven't used the azure nootebook but given another link, please check if the code is okay!
+[14:55] <sakshi> when i am opening the link in my laptop it is opening
+[14:55] <championshuttler> sakshi: follow the format bhavin192 just shared :)
+[14:56] <sakshi> but ashwanig said its not opening
+[14:56] <sakshi> ok champioshuttler
+[14:56] <ikshitij> sakshi: Can't see your code
+[14:56] <sayan> ashwanig: no
+[14:56] <sayan> ashwanig: until you have multiple conditions
+[14:57] <ashwanig> sayan, for that we can use && or `and`
+[14:57] <ashwanig> right?
+[14:57] <sayan> ashwanig: yes
+[14:57] <sayan> xyz_: looks good
+[14:57] <sayan> moving ahead
+[14:58] <ashwanig> sakshi, Your link is not in that format. Check that.
+[14:58] <ashwanig> sayan, Thanks
+[14:58] <sayan> I did not see those people whose links where not correct
+[14:58] <sakshi> ok ashwanig
+[14:58] <ikshitij> ashwanig: && is not supported in python !
+[14:58] <sayan> so at the end bhavin192, ikshitij, abhinavshirur, ravindra, akshayg96, avik, xyz_ are the ones who did it correctly
+[14:59] <sayan> ashwanig: yeah && is not supported in python
+[14:59] <anuGupta> Is it not visible yet?
+[14:59] <ashwanig> Oops sorry. :(
+[15:00] <pr97_> !
+[15:00] <sayan> next
+[15:00] <pr97_> sayan, why we are using infinite while loop?
+[15:00] <ikshitij> ashwanig: I use 'and' in C also. I just define '&&' as 'and' on top of program :)
+[15:01] <sayan> pr97_: I just gave this for the question and practice
+[15:01] <sayan> this can be done using the finite loop also
+[15:01] <pr97_> yes
+[15:01] <pr97_> but why are we using infinite loop then?
+[15:01] <sayan> For next class I want people to build something innovative using whatever you learnt till date
+[15:01] <sayan> pr97_: practice
+[15:01] <ashwanig> ikshitij, I wonder why you do that :D
+[15:02] <pr97_> okay sayan
+[15:02] <sayan> so, that includes git also
+[15:02] <sayan> and github also
+[15:03] <jasonbraganza> sayan - as in hosting what we write in a repo online?
+[15:03] <sayan> jasonbraganza: yes
+[15:03] <jasonbraganza> got it. thank you <eom>
+[15:03] <sayan> Basically whatever you have learnt till that
+[15:04] <ashwanig> jasonbraganza, hosting?
+[15:04] <sayan> That includes a bunch of things so I want to see how much of things you actually remember
+[15:04] <sayan> Roll Call
+[15:04] <jasonbraganza> ashwanig - putting it on github
+[15:04] <jasonbraganza> Jason Braganza
+[15:04] <championshuttler> Shivam Singhal
+[15:04] <ashwanig> Ashwani Kumar Gupta
+[15:04] <balaji> Balaji
+[15:04] <mdbk> Onyinye Madubuk
+[15:04] <apoorv> Apoorv Goel
+[15:04] <abhinavshirur> Abhinav Shirur
+[15:04] <sakshi> Sakshi Saraswat
+[15:04] <pr97_> Priyanka Sharma
+[15:04] <anuGupta> Anu kumari Gupta
+[15:04] <akshayg96> Akshay Gaikwad
+[15:04] <ravindra> Ravindra Lakal
+[15:04] <ikshitij> Kshitij
+[15:04] <kvy_> kumar vipin yadav
+[15:04] <skat_sd> Saikat Dey
+[15:04] <bhavin192> Bhavin Gandhi
+[15:04] <xyz_> atul kumar
+[15:05] <samridhia> Samridhi Agarwal
+[15:05] <knrai> Krishnanand Rai
+[15:05] <san-D> Sandesh Patel
+[15:05] <gauravsitlani> Gaurav Sitlani
+[15:05] <yurii>   yurii pylypchuk
+[15:06] <_RicharD_> Mayankgupta
+[15:06] <gauravsitlani> sayan, when is the next session?
+[15:07] <avik> Avik Mukherjee
+[15:07] <ikshitij> ashwanig: a comman syntax for both, after writing code in python for few days. I switched to C for few problems and there I started typing print instead of printf, and instead of && ! So I defined a few on top just to avoid errors :)
+----END CLASS----

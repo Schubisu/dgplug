@@ -1,0 +1,456 @@
+----BEGIN CLASS----
+[13:27] <mbuf> #startclass
+[13:27] <mbuf> roll call, please
+[13:27] <soumam007> ah! good :)
+[13:27] <jasonbraganza> Jason Braganza
+[13:27] <schubisu> Robin Schubert
+[13:27] <anuGupta> Anu kumari Gupta
+[13:27] <asraisingh> Abhishek Singh
+[13:27] <soumam007> Soumam Banerjee
+[13:27] <san-D> Sandesh Patel
+[13:27] <knrai> Krishnanand Rai
+[13:27] <samridhia> Samridhi Agarwal
+[13:28] <mbuf> Welcome to today's session on "Introduction to Emacs Lisp"
+[13:28] <bhavin192> Bhavin Gandhi
+[13:28] <mbuf> If you already have GNU Emacs, or any other variant (Aquaemacs, Spacemacs, XEmacs, etc.) installed, you can proceed to try out the simple code snippets I am going to discuss with you today. Otherwise, you can always try them out after the session
+[13:29] <mbuf> You do not need to know Emacs Lisp to use the GNU Emacs editor.
+[13:29] <mbuf> But, if that is the editor that you plan to use for your day-to-day activities, you will want to customize it and extend it to your needs
+[13:30] <mbuf> You can copy code snippets from others' Emacs configuration files and use it, and you should still be fine
+[13:30] <mbuf> But, learning to extend it will be extremely helpful as it can be tailored to your needs
+[13:30] <mbuf> You can get readymade garments in a shopping mall, but, the one that is customized to you, and that fits you well will help you in the long run
+[13:31] <mbuf> Hence, it is good to know Emacs Lisp
+[13:31] <mbuf> You can open the editor now and type these code snippets in the scratch buffer itself
+[13:31] <ashwanig[m]> Roll call: Ashwani Kumar Gupta
+[13:31] <mbuf> If you type C-x C-e at the end of each code snippet (called as s-expressions), the result will be shown in the minibuffer
+[13:32] <mbuf> At the end of the session, I will tell you references where you can learn more about Emacs LIsp
+[13:32] <mbuf> *Lisp
+[13:32] <schubisu> !
+[13:32] <mbuf> I hope this session gets you started with the basic syntax and usage, and helps you work and extend the editor to your needs, and improves your productivity
+[13:32] <mbuf> next
+[13:33] <schubisu> mbuf: do I need a special main mode for scratch buffer to evaluate lisp?
+[13:33] <mbuf> schubisu, you can turn on Emacs-Lisp mode
+[13:33] <schubisu> s/main/major/
+[13:34] <mbuf> schubisu, M-x emacs-lisp-mode
+[13:34] <schubisu> mbuf: okay done, thank you
+[13:34] <mbuf> schubisu, C is the Control key and M is the Alt key
+[13:34] <mbuf> sorry, that is for everyone who is new to Emacs
+[13:34] <mbuf> I also use Paredit which handles the parenthesis nicely; but, that can be done as a separate session
+[13:35] <mbuf> or, you can refer lot of tutorials and blog posts on how to use it
+[13:35] <mbuf> so, let's get started! Emacs Lisp is like any other Lisp variant
+[13:35] <mbuf> It support basic atoms
+[13:35] <mbuf> The following is an integer
+[13:35] <mbuf> 42
+[13:36] <mbuf> If you type 42 in the scratch buffer, and hit C-x C-e after the '2', Emacs will show 42 in the minibuffer
+[13:37] <mbuf> Emacs is running a Read-Eval-Print Loop (REPL). So, any s-expression (symbolic expression) that you type will be evaluated by the interpreter, and the result will be shown in the minibuffer
+[13:37] <mbuf> ELisp also has floats. So, the following is a floating point number
+[13:37] <mbuf> 3.0
+[13:38] <mbuf> I am typing all the s-expressions in a separate line so that when you review the log, you can just copy the code in Emacs and test the same
+[13:38] <mbuf> The above number will evaluate to 3.0
+[13:38] <pr97> roll call:
+[13:38] <mbuf> Strings in Emacs Lisp are enclosed within double quotes. For example:
+[13:38] <mbuf> "Hello, World"
+[13:38] <pr97> roll call: Priyanka Sharma
+[13:39] <mbuf> The Lisp language is very simple, and hence it is easy for anyone to pick it up
+[13:40] <mbuf> The syntax is simple and allows you to extend it as well. These are the basic atoms. Everything else is a symbolic expression represented within parenthesis
+[13:40] <mbuf> (+ 1 2 3)
+[13:40] <mbuf> In the above s-expression, + is a function and it takes three arguments 1, 2 and 3
+[13:41] <mbuf> If you evaluate the expression in the *Scratch* buffer, you will get the result 6
+[13:41] <mbuf> The arguments to the function can also be s-expressions
+[13:41] <mbuf> (+ (* 2 3) (/ 8 4))
+[13:42] <mbuf> In the above example, the + function has two arguments. Both the arguments are evaluated (inside the REPL) first, and the result is given to the + function
+[13:43] <mbuf> So, the above expression transforms to (+ 6 2), which results in 8 if you evaluate the same in the *Scratch* buffer using C-x C-e
+[13:43] <mbuf> The idea of using such s-expressions is that you can build code incrementally, test them individually and validate them
+[13:44] <mbuf> writing such code is a pleasure and gives you confidence as well
+[13:44] <mbuf> you can also write small functions and build larger projects using them
+[13:44] <mbuf> it is readable, maintainable too
+[13:45] <mbuf> The following is a list in Emacs Lisp
+[13:45] <mbuf> (1 2 3)
+[13:45] <mbuf> If you try to evaluate the above in the *Scratch* buffer, you will get an error
+[13:45] <mbuf> Debugger entered--Lisp error: (invalid-function 1)
+[13:46] <mbuf> Emacs Lisp thinks that 1 is a function and 2, 3 are arguments to it
+[13:46] <mbuf> In order to treat this as a list, and not let the REPL evaluate it, you need to quote it as follows:
+[13:46] <mbuf> (quote (1 2 3))
+[13:46] <mbuf> If you now evaluate the above expression (C-x C-e), it will return the list (1 2 3)
+[13:47] <mbuf> Here after when I say evaluate the expression, you should understand that you will type the expression in the *Scratch* buffer, go to the end of the expression and type C-x C-e
+[13:47] <soumam007> !
+[13:47] <mbuf> To avoid writing 'quote' in the code, you can also its symbol as follows
+[13:47] <mbuf> '(1 2 3)
+[13:48] <mbuf> The above will also evaluate to the list (1 2 3)
+[13:48] <mbuf> next
+[13:48] <mbuf> You can also use the "list" keyword to create a list
+[13:48] <soumam007> mbuf i am understanding what you are saying but cant execute
+[13:48] <mbuf> (list 1 2 3)
+[13:48] <mbuf> soumam007, do you have a *Scratch* buffer in Emacs?
+[13:48] <soumam007> its written emacs-lisp
+[13:49] <mbuf> soumam007, did you type the s-expression (list 1 2 3) in the buffer?
+[13:49] <schubisu> soumam007: I use , e l to execute
+[13:49] <mbuf> soumam007, move your cursor after the closing parenthesis
+[13:49] <schubisu> soumam007: in spacemacs
+[13:49] <mbuf> soumam007, no spacemacs here, sorry; schubisu thanks!
+[13:49] <soumam007> ok
+[13:50] <soumam007> :(
+[13:50] <mbuf> You can also have nested lists
+[13:50] <mbuf> '(1 2 (3 4 5) (6 (7)))
+[13:50] <mbuf> Lisp is list processing. So, everything is just a list. You have basic atoms, and s-expressions.
+[13:51] <mbuf> Sometimes people jokingly call it Lot of Irritating Silly Parenthesis
+[13:51] <mbuf> or Lost in Stupid Parentheses
+[13:51] <mbuf> If you use Paredit mode, it will manage the parenthesis for you
+[13:52] <mbuf> The following is a list:
+[13:52] <mbuf> '(+ 1 2 3)
+[13:52] <mbuf> Even though you have a + function, since you have quoted the expression, the REPL will not evaluate it
+[13:52] <mbuf> Think of quoting similar to use of backslash in the Bash prompt when you want to escape characters
+[13:53] <mbuf> If you want to get the first element or head of the list, use car:
+[13:53] <mbuf> (car '(1 2 3))
+[13:53] <mbuf> Historically, car stands for Content of Address Register
+[13:54] <mbuf> The above expression will return 1
+[13:54] <mbuf> If you want the tail of the list, use CDR:
+[13:54] <mbuf> (cdr '(1 2 3))
+[13:54] <mbuf> CDR stands for Contents of Decrement Register. The terminology was used in IBM 704 architecture and it continues to remain
+[13:55] <mbuf> so Lisp is old, but, has stood the test of time!
+[13:55] <mbuf> The following evaluates to nil:
+[13:56] <mbuf> '()
+[13:56] <mbuf> ()
+[13:56] <mbuf> False is represented as nil in Emacs Lisp
+[13:56] <mbuf> Everything else is a truthy value
+[13:57] <mbuf> BTW, Emacs Lisp is a strongly typed, dynamic programming language
+[13:57] <mbuf> By strongly typed, it will check for run-time errors. Since, you are writing code on the fly, and evaluating it in the REPL it is dynamically typed
+[13:57] <mbuf> You can also byte-compile the ELisp files for speed
+[13:58] <mbuf> (cdr '(42))
+[13:58] <mbuf> The above expression returns nil
+[13:58] <mbuf> Think of a list created with a nil (or NULL pointer) at the end
+[13:59] <mbuf> So, '(42) has 42 and nil, and when you want the tail of the list, it returns nil
+[13:59] <mbuf> (null nil)
+[13:59] <mbuf> null is a pre-defined function that tells you if its argument is nil
+[14:00] <mbuf> The above returns 't' for true
+[14:00] <mbuf> (null '())
+[14:00] <mbuf> So, does the above expression too
+[14:00] <mbuf> You can construct lists using the 'cons' keyword too:
+[14:00] <mbuf> (cons 1 '())
+[14:00] <mbuf> The above should yield (1)
+[14:01] <mbuf> Of course, you can add an element to an existing list as follows:
+[14:01] <mbuf> (cons 1 '(2 3))
+[14:01] <mbuf> This will return the list (1 2 3)
+[14:01] <mbuf> The above can also be written as:
+[14:01] <mbuf> (cons 1 (cons 2 (cons 3 '())))
+[14:02] <mbuf> The append function can append a list to another, as in the following example:
+[14:02] <mbuf> (append '(1 2) '(3 4))
+[14:02] <mbuf> The result will be (1 2 3 4)
+[14:03] <mbuf> The Emacs Reference manual has a comprehensive list of functions that you can refer
+[14:04] <mbuf> Emacs Lisp has some features from Common Lisp
+[14:04] <schubisu> !
+[14:04] <mbuf> The CL standard is huge compared to Scheme. Scheme standard is small and simple
+[14:04] <mbuf> next
+[14:05] <schubisu> mbuf: I don't know what the cons function does, what am I doing with (cons 1 2)?
+[14:05] <schubisu> the result is 1 . 2
+[14:05] <mbuf> schubisu, you are creating a list with elements 1 and 2
+[14:05] <mbuf> schubisu, that is the dot notation that is used is spacemacs
+[14:06] <jasonbraganza> cons for construct?
+[14:06] <mbuf> schubisu, rather, constructing the list
+[14:06] <mbuf> jasonbraganza, yes
+[14:06] <schubisu> mbuf: but it's different when I use (list 1 2)
+[14:06] <schubisu> mbuf: and I cannot give more than 2 arguments to cons, what is the major difference to list?
+[14:07] <mbuf> schubisu, The result of cons is a pair
+[14:08] <mbuf> schubisu, the dot representation is used if the second argument is not empty
+[14:08] <mbuf> schubisu, list is used to create a list
+[14:08] <mbuf> schubisu, http://www.gnu.org/software/emacs/manual/html_node/elisp/Dotted-Pair-Notation.html
+[14:09] <schubisu> mbuf: ah, I see the hint cons (CAR CDR), okay
+[14:09] <schubisu> thanks mbuf
+[14:09] <mbuf> Okay
+[14:09] <mbuf> If you now evaluate the following in the buffer
+[14:09] <mbuf> some-foo-list
+[14:10] <mbuf> You will get an error (void-variable some-foo-list)
+[14:10] <mbuf> This is because in your REPL session, some-foo-list is not defined!
+[14:10] <mbuf> So, you can assign a value to the variable using the set function
+[14:10] <mbuf> (set 'some-list '(1 2 3))
+[14:11] <mbuf> If you know evaluate some-list in the buffer, it will return the result (1 2 3)
+[14:11] <mbuf> The set and ' in the expression is common, that, there is a simpler syntax for it
+[14:12] <mbuf> (setq some-list '(1 2 3))
+[14:12] <mbuf> Both, evaluate to the same result
+[14:12] <jasonbraganza> and now some-list gives me (1 2 3)
+[14:14] <mbuf> Note here that setq is not a function, it is a macro (will talk about this at the end)
+[14:14] <mbuf> But the concept is the same
+[14:14] <mbuf> jasonbraganza, right!
+[14:15] <mbuf> You can scope the variable assignment using ... parenthesis of course
+[14:15] <mbuf> (let ((a 1)
+[14:15] <mbuf>       (b 5))
+[14:15] <mbuf>   (+ a b))
+[14:16] <mbuf> The let allows you to set local variables
+[14:16] <mbuf> Inside let, you have two assignments for a and b
+[14:16] <mbuf> which are then used to evaluate (+ a b)
+[14:17] <mbuf> If you evaluate the above expression, you will get the result 6
+[14:17] <mbuf> Of course, if you just type the letter a in the buffer and try to evaluate it, you should get an error
+[14:17] <mbuf> (void-variable a)
+[14:17] <mbuf> Because the scope of a is inside the (let (...) (+ a b)) expression
+[14:18] <mbuf> If you have multiple variable assignments that depend on the previous assignment, you can use let*
+[14:18] <mbuf> (let* ((a 3)
+[14:18] <mbuf>        (b (+ a 5)))
+[14:18] <mbuf>   (+ a b))
+[14:18] <mbuf> In the above example, a is 3, then b is assigned 8, and the result of the expression is 11
+[14:19] <mbuf> So far, we have seen basic atoms, lists and using some pre-defined functions
+[14:19] <mbuf> We can now create our own functions using the defun keyword
+[14:19] <mbuf> (defun say-hello ()
+[14:19] <mbuf>   "Hello, World!")
+[14:20] <mbuf> Of course, everything inside parenthesis :)
+[14:20] <mbuf> You use the defun keyword followed by the function-name, parenthesis and the body of the function
+[14:20] <mbuf> The value of the last s-expression is returned as the result
+[14:21] <mbuf> You first have to evaluate the above function definition so that it is loaded into the REPL
+[14:21] <mbuf> Go to the end of "Hello, World!") <- keep cursor here, and press C-x C-e
+[14:22] <jasonbraganza> say-hello
+[14:22] <mbuf> In the minibuffer, you will see the message say-hello
+[14:22] <mbuf> So, the function is now available in the REPL. In order to call it, or apply it, you have to use:
+[14:22] <mbuf> (say-hello)
+[14:22] <mbuf> You will see the "Hello, World!" message printed in the minibuffer
+[14:22] <jasonbraganza> yes!
+[14:23] <mbuf> say-hello is just like + or any other function
+[14:23] <mbuf> Let us define a function that takes an argument
+[14:23] <mbuf> (defun square (x)
+[14:23] <mbuf>   (* x x))
+[14:23] <mbuf> Again, you have C-x C-e at the end of the function to evaluate it
+[14:23] <mbuf> You can now, apply the function using:
+[14:23] <mbuf> (square 2)
+[14:23] <mbuf> And you will get the result 4
+[14:24] <mbuf> But, what happens if you pass a string to the function?
+[14:24] <mbuf> (square "Weird!")
+[14:24] <mbuf> You get a run-time error, (wrong-type-argument number-or-marker-p "Weird!")
+[14:24] <jasonbraganza> with two weirds! :)
+[14:25] <mbuf> The number 0 evaluates to 0
+[14:25] <mbuf> "" evaluates to ""
+[14:25] <mbuf> t evaluates to t
+[14:25] <mbuf> All these are truthy values
+[14:25] <jasonbraganza> t for true?
+[14:26] <mbuf> Only the following evaluate to false or nill
+[14:26] <mbuf> nil
+[14:26] <mbuf> ()
+[14:26] <mbuf> jasonbraganza, yes
+[14:26] <mbuf> You can have boolean expressions such as the following:
+[14:26] <mbuf> (and t "" 0 7)
+[14:26] <mbuf> Since, all of them are truthy values, the result will be true. But, which value should and return?
+[14:27] <jasonbraganza> 7
+[14:27] <mbuf> It will return the last truthy value which is 7
+[14:27] <mbuf> (or nil "foo" '() "bar")
+[14:27] <mbuf> In the above 'or' example, the expression evaluates to true, but, which truthy value should it return?
+[14:27] <mbuf> It will return the first truthy value
+[14:27] <jasonbraganza> first?
+[14:27] <mbuf> jasonbraganza, yes
+[14:27] <mbuf> (not nil)
+[14:27] <mbuf> The above expression evaluates to true
+[14:28] <mbuf> Let us now look at some conditional expressions
+[14:28] <mbuf> The following is a when example:
+[14:28] <mbuf> (when (= (+ 2 2) 4)
+[14:28] <mbuf>   "Passed sanity check!")
+[14:28] <mbuf> When the condition is true, evaluate its body
+[14:29] <mbuf> The if statement has a condition, s-expression for success immediately following the if condition, and then the else statement
+[14:29] <mbuf> (defun evens-or-odds (n)
+[14:29] <mbuf>   (if (= 0 (% n 2))
+[14:29] <mbuf>       "Even!"
+[14:29] <mbuf>     "Odd!"))
+[14:30] <mbuf> Of course, first load the function to the REPL by using C-x C-e
+[14:30] <mbuf> You can then test it with the following:
+[14:30] <mbuf> (evens-or-odds 4)
+[14:30] <mbuf> (evens-or-odds 3)
+[14:30] <mbuf> The output will be "Even!" and "Odd!" respectively
+[14:31] <mbuf> Similar to a multips switch case statement, you can use the *cond* keyword
+[14:31] <mbuf> (defun pick-a-word (n)
+[14:31] <mbuf>   (cond
+[14:31] <mbuf>    ((= n 1) "One")
+[14:31] <mbuf>    ((= n 2) "Two")
+[14:31] <mbuf>    ((= n 3) "Three")
+[14:31] <mbuf>    (t "42")))
+[14:32] <mbuf> After each cond is an s-expression, and each is tested in order
+[14:32] <mbuf> (pick-a-word 2)
+[14:32] <mbuf> The above will return "Two"
+[14:32] <mbuf> (pick-a-word 100)
+[14:32] <mbuf> Gives the universal answer 42
+[14:33] <mbuf> That is all there is to the language; the rest are all concepts
+[14:33] <mbuf> I can define a recursive function, factorial, for example as follows:
+[14:33] <mbuf> (defun factorial (n)
+[14:33] <mbuf>   (if (< n 1)
+[14:33] <mbuf>       1
+[14:33] <mbuf>     (* n (factorial (- n 1)))))
+[14:33] <schubisu> !
+[14:33] <mbuf> next
+[14:33] <schubisu> how would I loop over a list?
+[14:34] <mbuf> schubisu, in general no
+[14:35] <mbuf> schubisu, recursion is one way to operate on lists, or use map functions
+[14:35] <mbuf> schubisu, recursion is based on mathematical induction and hence is proven
+[14:36] <mbuf> schubisu, you have a base case or the terminating case, and then you have the induction step
+[14:36] <mbuf> schubisu, Lisp is based on lambda calculus, and hence recursion is heavily used
+[14:36] <mbuf> (factorial 5)
+[14:36] <mbuf> will yield 120
+[14:37] <jasonbraganza> mbuf - i get 120 (#o170, #x78, ?x)
+[14:37] <jasonbraganza> what are those squiggly characters?
+[14:37] <jasonbraganza> i am doing something wrong?
+[14:37] <bhavin192> jasonbraganza, octal and hexadecimal values of 120
+[14:38] <jasonbraganza> dammit! XD
+[14:38] <jasonbraganza> bhavin192 - thank you
+[14:38] <mbuf> schubisu, some CL implement tail call optimization https://0branch.com/notes/tco-cl.html
+[14:38] <bhavin192> jasonbraganza, but don't know about last one
+[14:39] <mbuf> BTW, reddit has popular discussions on emacs https://www.reddit.com/r/emacs/comments/2s9wxw/why_doesnt_emacs_lisp_have_optimized_tail/
+[14:39] <mbuf> Let us continue, few more sections left
+[14:39] <mbuf> Sometimes, you do not want to name a function, and just want to use it in a body of a function
+[14:39] <mbuf> So, you can use anonymous functions for the same
+[14:39] <mbuf> (lambda (x) (* x x x))
+[14:40] <mbuf> The above is a definition of a function that takes one argument and cubes it
+[14:41] <mbuf> Emacs has a pretty-symbols-mode where lambda can be replaced with λ
+[14:41] <mbuf> Your code is pretty
+[14:42] <mbuf> How can we evaluate or apply the above function? You need to pass an argument to it. The basic form is (function argument)
+[14:42] <mbuf> ((lambda (x) (* x x x)) 5)
+[14:42] <mbuf> So, the above s-expression passes 5 as an argument to the function and returns 125
+[14:42] <mbuf> You can also call a function using funcall
+[14:43] <mbuf> (funcall '+ 1 2)
+[14:43] <mbuf> The above evaluates to 3
+[14:43] <mbuf> If you were to apply the funcall to our lambda function, it will be:
+[14:43] <mbuf> (funcall (lambda (x) (* x x x)) 5)
+[14:43] <mbuf> The result is the same!
+[14:44] <mbuf> You can also use the fset keyword to assign a lambda function to a name
+[14:44] <mbuf> (fset 'cube (lambda (x) (* x x x)))
+[14:44] <mbuf> (cube 4)
+[14:44] <mbuf> Evaluating both of the above expressions should give you 64
+[14:44] <mbuf> Everything here in Lisp is just atoms and s-expressions (data and code)
+[14:45] <mbuf> The code has data too, and hence everything is just data!
+[14:45] <mbuf> You can pass functions as arguments. Such functions are called as higher-order functions
+[14:45] <mbuf> (defun transform-unless-zero (fn n)
+[14:45] <mbuf>   (if (= n 0)
+[14:45] <mbuf>       0
+[14:45] <mbuf>     (funcall fn n)))
+[14:46] <mbuf> You pass a function and argument to transform-unless-zero. If the number is zero, you return zero
+[14:46] <mbuf> Otherwise, you call the passed function argument with n
+[14:46] <mbuf> (transform-unless-zero (lambda (n) (+ 1 n)) 0)
+[14:46] <mbuf> The above gives 0
+[14:46] <mbuf> (transform-unless-zero (lambda (n) (+ 1 n)) 7)
+[14:46] <mbuf> The above yields 8
+[14:47] <mbuf> Here is an example of operating on lists
+[14:47] <mbuf> (mapcar (lambda (n) (+ 1 n)) '(1 2 3 4))
+[14:47] <mbuf> The idea of using functions like filter, map, reductions is that you can parallelize the operations on multi-core systems
+[14:47] <mbuf> If you byte-compile Lisp code, it is fast!
+[14:48] <jasonbraganza> !
+[14:48] <mbuf> next
+[14:48] <jasonbraganza> what did we just do if not loop over the list?
+[14:48] <jasonbraganza> <eom>
+[14:48] <mbuf> jasonbraganza, it is not looping in the tradition sense because you can parallelize the above operation
+[14:49] <jasonbraganza> aaaah. got you. thank you.
+[14:49] <mbuf> jasonbraganza, in the conventional for loop, you iterate each time; see mapping over sequences https://www.gnu.org/software/emacs/manual/html_node/cl/Mapping-over-Sequences.html
+[14:50] <mbuf> So, you are incrementing the value in each list by 1 in the above mapcar function
+[14:50] <mbuf> Consider the following sequence of s-expressions:
+[14:50] <mbuf> (setq our-list '(1 2 3 4))
+[14:50] <mbuf> (mapcar (lambda (n) (+ 1 n)) '(1 2 3 4))
+[14:50] <mbuf> our-list
+[14:50] <mbuf> You are assinging a list to our-list
+[14:50] <mbuf> You are then incrementing each value in the list
+[14:51] <jasonbraganza> yes
+[14:51] <mbuf> If you evaluate each one, and finally check the value of our-list it will be (1 2 3 4)
+[14:51] <jasonbraganza> yes, was going to ask that
+[14:51] <mbuf> Even if you tried the following:
+[14:51] <mbuf> (setq our-list '(1 2 3 4))
+[14:51] <mbuf> (mapcar (lambda (n) (+ 1 n)) our-list)
+[14:51] <mbuf> our-list
+[14:52] <jasonbraganza> so i need to store my results intentionally
+[14:52] <mbuf> The mapcar returns only a new list. It does not modify our-list!
+[14:52] <mbuf> You can write programs in CL where you modify data in a function. In general, it is good to write immutable functions
+[14:52] <mbuf> Because, you then get referential transparency - whatever input you give, the output will be the same
+[14:53] <mbuf> So, you can separate pure code with I/O code
+[14:53] <mbuf> It is also easy to read and maintain such code. Keep side-effect (IO, network, database, etc.) separate.
+[14:54] <mbuf> *code separate
+[14:54] <mbuf> (mapcar 'upcase '("a" "b" "c"))
+[14:54] <mbuf> The above returns the list ("A" "B" "C")
+[14:54] <mbuf> You are calling the 'upcase function on each element in the list
+[14:55] <mbuf> You are encouraged to refer the Emacs Lisp reference manual to learn more on available functions
+[14:55] <mbuf> You should be able to refer that inside Emacs itself
+[14:55] <mbuf> The last section is macros
+[14:55] <mbuf> We went through the REPL section where the code is read, evaluated, result is printed and the REPL loops back and waits for more input
+[14:56] <mbuf> So, before evaluating, you can write macros that will emit Lisp code and do transformations before it is given to the REPL
+[14:56] <mbuf> For example:
+[14:56] <mbuf> (defmacro inc (var)
+[14:56] <mbuf>   (list 'setq var (list '1+ var)))
+[14:56] <mbuf> Using the defmacro keyword you are defining inc which takes an argument
+[14:57] <mbuf> Suppose I have:
+[14:57] <mbuf> (setq x 5)
+[14:57] <mbuf> (inc x)
+[14:57] <mbuf> I am assigning x to 5, and then calling (inc x)
+[14:57] <mbuf> inc is a macro, and x is now var
+[14:57] <mbuf> So, the macro will expand to:
+[14:58] <mbuf> a list that contains setq x and a list where x is incremented by 1
+[14:58] <mbuf> (setq x (1+ x))
+[14:58] <mbuf> This code is generated by the macro and then fed to the REPL, and x now becomes 6
+[14:58] <mbuf> So, you can write Lisp code (macros) to generate more Lisp code
+[14:59] <jasonbraganza> trippy!
+[14:59] <mbuf> This is a powerful feature of Lisp dialects
+[14:59] <mbuf> Of course, if you can use a function, use a function. Keep macros to a minimum.
+[14:59] <mbuf> This ends the basic introduction to Emacs Lisp.
+[15:00] <mbuf> This is based on the NYC Emacs meetup presentation done by Harry Schwartz https://harryrschwartz.com/2014/04/08/an-introduction-to-emacs-lisp.html
+[15:00] <schubisu> !
+[15:00] <mbuf> You can watch the video, and also the PDF for reference
+[15:00] <mbuf> next
+[15:00] <schubisu> mbuf: why do we have to quote the '1? I'm not understanding that macro right now
+[15:00] <mbuf> Whether you customize your Emacs, or write more ELisp code, I hope you find this useful
+[15:01] <mbuf> schubisu, because you want the 1+ to be available in the output of the macro expansion as is
+[15:01] <mbuf> schubisu, it should not be evaluated when the macro expands
+[15:02] <mbuf> The PDF of Harry's article https://harryrschwartz.com/assets/documents/articles/an-introduction-to-emacs-lisp.pdf
+[15:02] <mbuf> The following is a nice illustration or paredit-mode http://danmidwood.com/content/2014/11/21/animated-paredit.html
+[15:03] <schubisu> mbuf: thanks, that was indeed helpful already. lisp code is still hard to read and not yet intuitive for me, requires a lot of experience I guess. Are there any formatting conventions? It becomes quite messy very quickly ;)
+[15:04] <mbuf> schubisu, use Emacs-Lisp and Paredit mode, and you should be fine
+[15:04] <mbuf> If you want to learn more, you can read this freely available book https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html
+[15:05] <mbuf> "An Introduction to Programming in Emacs Lisp" by Robert J. Chassell https://www.gnu.org/software/emacs/manual/pdf/eintr.pdf
+[15:05] <mbuf> schubisu, start with Emacs customizations
+[15:06] <mbuf> schubisu, and slowly you will be able to grasp how it works
+[15:06] <mbuf> schubisu, because our minds are already stuffed with imperative, OOPS style, we have to unlearn to think functionally
+[15:06] <mbuf> schubisu, but, people who start programming actually find thinking and writing functionally quite easy
+[15:07] <mbuf> schubisu, you have to just break a large Lisp function to pieces, and understand each segment
+[15:07] <mbuf> The Writing GNU Emacs Extensions book is also useful, http://shop.oreilly.com/product/9781565922617.do
+[15:08] <mbuf> You can also join #emacs IRC channel for help and questions
+[15:08] <mbuf> The help-gnu-emacs mailing list is also active
+[15:08] <schubisu> mbuf: true, I was raised as on OOP ;) can you still explain the (list '1+ var) part of your macro? Is + a function here?
+[15:08] <schubisu> or maybe you can give the steps to what this will evaluate?
+[15:08] <mbuf> schubisu, let us break this down so it is easy for you to understand
+[15:08] <mbuf> schubisu, exactly!
+[15:09] <mbuf> schubisu, what does (1+ 2) evaluate to?
+[15:09] <schubisu> mbuf: 3. Okay, I didn't expect that
+[15:09] <mbuf> The s-expression evaluation happens like this, Read Lisp code, evaluate, print and wait again for more Lisp code
+[15:10] <mbuf> schubisu, 1+ is a function
+[15:10] <schubisu> ah, okay
+[15:10] <schubisu> that was my missing piece to the puzzle ;)
+[15:10] <mbuf> schubisu, when you have a macro, the steps are like, Read Lisp code, expand macro code, evaluate, print and wait again for more Lisp code
+[15:10] <mbuf> schubisu, so the macro should write Lisp code, not evaluate the 1+
+[15:11] <mbuf> schubisu, hence we escape it or backquote it or call it whatever you want in this case so that it does not evaluate it
+[15:11] <mbuf> schubisu, so the macro step will write the Lisp code (setq x (1+ x))
+[15:11] <mbuf> schubisu, during evaluation, 5 is passed as x, and the expression is evaluated and 6 is printed
+[15:12] <mbuf> So, dynamically you can generate Lisp code on the fly using macros
+[15:12] <mbuf> I hope this was useful. Please revise this content, and practice the code snippets
+[15:12] <mbuf> Feel free to ask here if you need any help
+[15:12] <schubisu> mbuf: okay I get it. What about evaluating a list with lisp code manually outside a macro?
+[15:12] <jasonbraganza> this is the closest to natural language I’ve seen
+[15:13] <mbuf> jasonbraganza, exactly!
+[15:13] <schubisu> you're kidding XD
+[15:13] <mbuf> schubisu, same with parenthesis
+[15:13] <schubisu> It reminds me of Turing machines
+[15:13] <mbuf> schubisu, (function arguments)
+[15:13] <samridhia> i got confused with parenthesis!
+[15:13] <yurii> mbuf , thank you for session
+[15:14] <jasonbraganza> schubisu - lexically :) I got words. I can use them to write Ulysses or short poems or whatevere I choose
+[15:14] <mbuf> schubisu, Common Lisp is Turing Complete
+[15:15] <mbuf> samridhia, please review the session, go through Harry's notes for reference, or even watch the video
+[15:15] <yurii> !
+[15:15] <schubisu> jasonbraganza: I get what you mean, you can build up on very few basics
+[15:15] <mbuf> My suggestion is to start with customization, and then you can build on top of that
+[15:15] <mbuf> next
+[15:15] <yurii> how can I invoke *scrath* buffwr in emacs
+[15:15] <mbuf> yurii, are you using GNU Emacs?
+[15:16] <yurii> *buffer*
+[15:16] <mbuf> yurii, it is the default buffer you get when you open GNU Emacs
+[15:16] <samridhia> mbuf, yup i will i liked it though, It is simple language except the parenthesis part which i will practice.
+[15:18] <mbuf> samridhia, use different modes with parenthesis and you should be fine! Watch this video with John Wiegley https://www.youtube.com/watch?v=QRBcm6jFJ3Q&t=1s
+[15:18] <mbuf> samridhia, (~ 1h) on Emacs Lisp development tips. You will find more online
+[15:18] <samridhia> mbuf, ok thanks!
+[15:18] <mbuf> Let us end the session.
+[15:18] <mbuf> roll call, please
+[15:18] <samridhia> Samridhi Agarwal
+[15:18] <bhavin192> Bhavin Gandhi
+[15:18] <san-D> Sandesh Patel
+[15:19] <knrai> Krishnanand Rai
+[15:19] <championshuttler> Shivam Singhal
+[15:19] <ashwanig> Ashwani Kumar Gupta
+[15:19] <mbuf> Apart from customization, you can also use ELisp for scripting tasks.
+[15:19] <schubisu> Robin Schubert
+[15:19] <yurii> Yurii Pylypchuk
+[15:20] <jasonbraganza> Jason Braganza
+----END CLASS----

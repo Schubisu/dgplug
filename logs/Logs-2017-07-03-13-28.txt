@@ -1,0 +1,809 @@
+----BEGIN CLASS----
+[13:28] <sayan> #startclass
+[13:28] <vipulgupta2048_> realslimshanky, aahh nice thanks
+[13:28] <soumam007> s/bu/but
+[13:28] <sayan> Roll Call
+[13:28] <saikat_> Saikat Dey
+[13:28] <meamitk> Amit Kokitkar
+[13:28] <im_mohsin> Mohsin Mumtaz
+[13:28] <anwesha> Anwesha Das
+[13:28] <kvy> kumar vipin yadav
+[13:28] <santoshShaw> Santosh Kumar Shaw
+[13:28] <hemanth> hemanth savasere
+[13:28] <bhavin192> Bhavin Gandhi
+[13:28] <ganesh_nomula> Ganesh Nomula
+[13:28] <vipulgupta2048_> Vipul Gupta
+[13:28] <kushal> Kushal Das
+[13:28] <niranjana> Niranjana Deshpande
+[13:28] <ashwanig> Ashwani Kumar Gupta
+[13:28] <aryan1308> aryan tripathi
+[13:28] <soumam007> Soumam Banerjee
+[13:28] <ikshitij> Kshitij
+[13:28] <casper01> Mayur khomane
+[13:28] <deepika> Deepika Upadhyay
+[13:28] <mdbk> Onyinye Madubuko
+[13:28] <schubisu> Robin Schubert
+[13:28] <__anshul__> Anshul Chauhan
+[13:28] <cran-cg> Chiranjeev Gupta
+[13:28] <navneet> Navneet Sharma
+[13:28] <vsiddhar> Vipul Siddharth
+[13:28] <yurii> Yurii Pylypchuk
+[13:28] <CHOCOS> Neha Kandpal
+[13:28] <anuGupta> Anu Kumari Gupta
+[13:28] <vishami3> Shashank Shekhar
+[13:28] <poojaencoded> pooja kumari singh
+[13:28] <lucifer> Atul kumar
+[13:28] <ani_> Aniket uttam
+[13:28] <nsh_srnvsn> Anusha Srinivasan
+[13:28] <abhinavshirur> Abhinav Shirur
+[13:28] <singh123> Amarjeet singh
+[13:28] <Cyber_freak> Pradhvan Bisht
+[13:28] <samridhia> Samridhi Agarwal
+[13:28] <anupamas> Anupama Shipurkar
+[13:28] <jasonbraganza> Jason Braganza
+[13:28] <Adarsh> Adarsh
+[13:28] <vsnehil> Snehil Verma
+[13:28] <ahole[m]> Kshithij Iyer
+[13:28] <rahuldecoded> Rahul Bhattacharjee
+[13:28] <Guest38399> Nikita Kotak
+[13:28] <joyhimanshu> Himanshu Awasthi
+[13:28] <championshuttler> Shivam Singhal
+[13:28] <skarpy> Akash pathak
+[13:28] <vishal_vvr> vishal vijayraghavan
+[13:29] <realslimshanky> Shashank Kumar
+[13:29] <sitlanigaurav[m]> Gaurav Sitlani
+[13:29] <ghishadow> Suraj Ghimire
+[13:29] <akshayg96> Akshay Gaikwad
+[13:29] <jasonbraganza> kushal - should I pose my github merge query after today’s class?
+[13:29] <sayan> jasonbraganza: yes
+[13:29] <kushal> jasonbraganza, Yes
+[13:29] <sayan> Guest38399: change your nick?
+[13:29] <imranjeetsingh_> Ranjeet kumar]
+[13:29] <jasonbraganza> Thank you.
+[13:30] <sayan> Seems like a lot of people have joined today :)
+[13:30] <im_y[m]> Yash Agarwal
+[13:30] <thebigj> Jaysinh Shukla
+[13:30] <abhinavshirur> sayan, yes ;)
+[13:30] <asraisingh> Roll Call: Abhishek Singh
+[13:30] <sayan> Before we start of with the class, an important announcement
+[13:30] <balaji> Balaji
+[13:30] <Cyber_freak> Hi thebigj
+[13:30] <sayan> People who will do top posting in mailing list will be removed from the mailing list
+[13:30] <realslimshanky> sayan, git pull ;)
+[13:31] <sayan> So, keep that in mind.
+[13:31] <Padfoot7> Roll Call: Mohd Omama
+[13:31] <sayan> Any queries from last session? I will just take questions for next 5 mins
+[13:31] <__anshul__> who will do top posting in mailing list ?
+[13:31] <__anshul__> "top posting"?
+[13:32] <ashwanig> __anshul__, Read this http://summertraining.readthedocs.io/en/latest/communication.html#mailing-list
+[13:32] <sayan> __anshul__: read what ashwanig shared
+[13:32] <andodococo> Roll call: Deepak Chethan
+[13:32] <avik_> __anshul__: it is the time when people reply to a mail, above the main mail
+[13:32] <vipulgupta2048_> !
+[13:32] <sayan> next
+[13:33] <devesh_V> Roll call: Devesh Verma
+[13:33] <__anshul__> okay
+[13:33] <deepika> !
+[13:33] <sayan> next
+[13:33] <deepika> is their any way to recover a quit with discard changes file in vim like restore session from 2 hours prior /does *.swp files contain those files too in vim or does it just contain those files that we quitted ?
+[13:33] <vipulgupta2048_> sayan,I tried implementing markdown in various platforms but it seems it is different in other places ( the syntax). Is it not standard ?
+[13:34] <__anshul__> vim, has swapfiles, see if you've enabled it
+[13:34] <vipulgupta2048_> Example would be wordpress, some elements didn't work
+[13:34] <sayan> vipulgupta2048_: there is no clear standard for Markdown, but the basic elements remain the same
+[13:35] <sayan> deepika: you can recover as long as there is *.swp file
+[13:35] <im_mohsin> vipulgupta2048_, I wrote a blog post using Markdown and it worked completely fine to me
+[13:35] <vipulgupta2048_> sayan, So I can refer to the cheat-sheet for each one , I think that would be better
+[13:35] <sayan> deepika: when you open a file it's opens a swp file, you can recover from it
+[13:35] <vipulgupta2048_> im_moshin, did every element worked the way it should ?
+[13:35] <sayan> whatever is in there
+[13:36] <__anshul__> @deepika http://vimdoc.sourceforge.net/htmldoc/recover.html
+[13:36] <im_mohsin> vipulgupta2048_, it worked correctly and i'm using wordpress
+[13:36] <sayan> vipulgupta2048_: http://commonmark.org/
+[13:36] <ravindra> Roll call: Ravindra Lakal
+[13:36] <sayan> Okay starting the class on git
+[13:36] <asraisingh> ok
+[13:37] <deepika> sayan okay ,thank you :) ,sorry wasn't able to discuss that day  !<eof>
+[13:37] <sayan> *- One fine day, you plan to start a project of yours.
+[13:37] <sayan> *- But maintaining and building a project is nevertheless a daunting task
+[13:38] <Prerna> Roll call : Prerna Pandey
+[13:38] <sayan> *- You dream that your project would be a big & successful project.
+[13:38] <sayan> *- A community of people are be using your project.
+[13:38] <Anuja> Roll call: Anuja Agarwal
+[13:38] <sayan> *- But, you are just a developer and at the end of the day a human.
+[13:38] <theAtom> Roll Call: deep
+[13:38] <sayan> *- You are ought to make mistakes, forget corner cases, make bunch of typos.
+[13:39] <sayan> *- and all the other issues that you never even thought of.
+[13:39] <sayan> *- But, that's when the community comes to rescue. They start filing up issues.
+[13:39] <sayan> *- You solve them one by one. But. slowly, slowly, slowly.
+[13:39] <sayan> *- Your issues counter has reached 1000.
+[13:40] <sayan> *- Would you be celebrating this milestone? If I were you. I would be tensed.
+[13:40] <pr97> roll call:Priyanka Sharma
+[13:40] <sayan> *- There so much work years to spend just to fix those pending issues.
+[13:40] <sayan> *- You wished you had a helping hand and the community who were just filing the issues
+[13:41] <sayan> *- with comments "How can we help?" could just come and help you out.
+[13:41] <sayan> *- And with a tensed mind, you mistakenly forcefully delete an important chunk of code.
+[13:41] <sayan> *- *And your nightmare dream sequence breaks*
+[13:42] <sayan> *- Sweating profusely, You thank your god for the blessing in disguise.
+[13:42] <sayan> *- You take an oath for each of your project you will be using a Version Control System a.k.a VCS
+[13:43] <sayan>  
+[13:43] <sayan> *end of prologue*
+[13:43] <sayan> Any questions till here?
+[13:43] <avik_> !
+[13:43] <vipulgupta2048_> Good prologue.
+[13:43] <sayan> next
+[13:44] <avik_> why do you keep typing *-
+[13:44] <sayan> avik_: to distinguish from rest of the messages :)
+[13:44] <Rk> Roll call - Razy Kased
+[13:44] <avik_> great idea! ok! <eom>
+[13:44] <soumam007__> wow
+[13:45] <sayan> moving ahead then
+[13:45] <sayan> *- *Chapter 1: Understanding VCS: Commits*
+[13:45] <poojaencoded> awesome prologue sayan
+[13:45] <cignatious> roll call: Sharon
+[13:45] <sayan> *- Next day morning you start reading VCS, scratching your head to get around with all the terms
+[13:46] <Vamsi3296> Roll call - Vamsi Krishna
+[13:46] <sayan> *- The first one that you hit is commits, so what is commit (or snapshot?)
+[13:47] <sayan> *- So you thought of writing a series analogy stories to learn the concepts better :)
+[13:47] <sayan> *- You create a new character, Tux
+[13:47] <sayan> *- Tux wants to be photographer, who has just bought a new DSLR.
+[13:48] <sayan> *- Tux plan to be the next travel photographer, who would take the best picture from the top of Mt. Everest
+[13:49] <sayan> *- But Tux is a newbie, so Tux starts watching for YouTube tutorials for learning to post process the images.
+[13:49] <sayan> *- Tux creates a directory named *working* to put all un-processed images. <<-- mind *working* is to be focused here
+[13:50] <sayan> *- Then, fires up DarkTable to process the images.
+[13:50] <sayan> *- Every time after a set of similar operations (like crop & rotate, shadows & highlights, etc), Tux creates a copy of the *working* directory and names it `snapshot-{n}`
+[13:51] <sayan> *- After a couple of operations, Tux stands having "snapshot-1", "snapshot-2", "snapshot-3", .... , "snapshot-100" directories.
+[13:52] <sayan> *- This directories is history of how Tux developed the image over time. At any point, Tux can go back to a given snapshot and build again on top of it.
+[13:52] <fhackdroid> Roll call : Farhaan Bukhsh
+[13:52] <sayan> Any questions till here?
+[13:52] <im_mohsin> No
+[13:52] <poojaencoded> no
+[13:52] <asraisingh> no
+[13:52] <singh123> No
+[13:52] <Vamsi3296> no
+[13:52] <Anuja> No
+[13:52] <sakshi> no
+[13:52] <Guest38399> no
+[13:52] <ani_> no
+[13:52] <santoshShaw> no
+[13:53] <samridhia> no
+[13:53] <hemanth> no
+[13:53] <Padfoot7> no
+[13:53] <cignatious> no
+[13:53] <casper01> no
+[13:53] <jasonbraganza> no
+[13:53] <navneet> no
+[13:53] <sitlanigaurav[m]> no
+[13:53] <anwesha> no
+[13:53] <ikshitij> no
+[13:53] <deepika> no
+[13:53] <cran-cg> No
+[13:53] <anupamas> no
+[13:53] <vsnehil> No
+[13:53] <sayan> Okay thank you :)
+[13:53] <joyhimanshu> no
+[13:53] <soumam007__> no
+[13:53] <sayan> Moving ahead
+[13:54] <ahole[m]> no
+[13:54] <sayan> *- *Chapter 2: Understanding VCS: Staging Area*
+[13:54] <championshuttler> no
+[13:55] <sayan> *- It's been a month now, Tux have learned a lot on post-processing images.
+[13:55] <sayan> *- Tux now mixes and matches multiple images file to create a snapshot directory.
+[13:56] <sayan> *- One day, Tux while processing the images, goes into experimental mode.
+[13:56] <sayan> *- and only after a while realized that the changes should be going into two
+[13:57] <sayan> *- different snapshot directories (`snapshot-139` & `snapshot-140`).
+[13:57] <sayan> *- Smart Tux quickly thought of an idea, creates a new staging directory.
+[13:58] <sayan> *- A staging directory works as an intermediate between the working directory
+[13:58] <sayan> *- and the snapshot directory.
+[13:58] <devendrabhat> #attendance Devendra Bhat
+[13:58] <sayan> *- So, Tux now works on working directory, and one Tux is happy with the changes
+[13:59] <sayan> *- Tux moves all changed files into staging directory, and then creates a copy of the staging directory as new snapshot directory
+[13:59] <sayan> Any question till here?
+[13:59] <jasonbraganza> none
+[13:59] <championshuttler> no
+[14:00] <asraisingh> !
+[14:00] <sayan> Cool
+[14:00] <anupamas> no
+[14:00] <soumam007__> !
+[14:00] <sayan> next
+[14:00] <sayan> next
+[14:00] <vsnehil> no
+[14:00] <asraisingh> is the staging directory is the copy of snap directory
+[14:00] <asraisingh> ?
+[14:00] <balaji> !
+[14:00] <avik_> nope
+[14:00] <soumam007__> how many directories are existing distinctly?
+[14:00] <soumam007__> 2 or 3?
+[14:01] <saikat_> !
+[14:01] <asraisingh> sayan, or staging directory is an hypothetical directory?
+[14:01] <navneet> !
+[14:02] <sayan> asraisingh: soumam007_: you working on the working directory, once done with changes move the changes to staging, and the finally create snapshot from staging
+[14:02] <cignatious> 3 i guess
+[14:02] <im_mohsin> sayan, power cut here. did i miss a lot. I'm getting any messages
+[14:02] <sayan> asraisingh: 3 for now
+[14:02] <asraisingh> sayan, got it
+[14:02] <championshuttler> !
+[14:02] <sayan> asraisingh: yes, hypothetical, should be more clear when we do hands-on next
+[14:02] <sayan> next
+[14:02] <sayan> next
+[14:03] <sayan> next
+[14:03] <balaji> Is staging area overwrites the existing one or it will create a new one?
+[14:03] <saikat_> Is this staging area basically like a clipboard/buffer area?
+[14:03] <navneet> Does staging area occupy extra space or memory
+[14:03] <soumam007__> ok
+[14:04] <sayan> batul: new one, you move your changes in there
+[14:04] <soumam007__> but why not from working to snapshot directly?
+[14:04] <championshuttler> is snapshot final directory?
+[14:05] <sayan> saikat_: an area before the final snapshot/or commit creation
+[14:05] <sayan> next
+[14:05] <sayan> next
+[14:05] <championshuttler>  is snapshot final directory?
+[14:06] <im_mohsin> soumam007__, There are times when you don't want to commit little changes to directly. Staging act as intermediary where you club all the small commits and then send it from as a one commit
+[14:06] <sayan> championshuttler: yes, directory is a hypothetical VCS theory, you will understand more during hands-on
+[14:07] <sayan> im_mohsin: I did not answer soumam007__ because soumam007__ was out of turn
+[14:07] <sayan> Moving ahead
+[14:07] <sayan> People fire up your terminal
+[14:07] <sayan> Tell me when done
+[14:07] <jasonbraganza> done
+[14:07] <anupamas> done
+[14:07] <jiteshpabla> done
+[14:07] <hemanth> done
+[14:07] <Vamsi3296> done
+[14:07] <samridhia> done
+[14:07] <sakshi> done
+[14:07] <joyhimanshu> done
+[14:07] <messifc> done
+[14:07] <schubisu> done
+[14:07] <Padfoot7> done
+[14:07] <im_mohsin> ok sayan
+[14:07] <championshuttler> done
+[14:07] <yurii> done
+[14:07] <casper01> done
+[14:07] <asraisingh> done
+[14:07] <ashwanig> done
+[14:07] <ani_> done
+[14:07] <vishami3> done
+[14:07] <balaji> done
+[14:07] <sayan> - mkdir foobar
+[14:08] <shivanim> done
+[14:08] <vsnehil> done
+[14:08] <sayan> - cd foobar
+[14:08] <cignatious> done
+[14:08] <sayan> - vim helloworld.txt  # write "Snapshot 1" inside the file
+[14:08] <aryan_> done
+[14:08] <soumam007__> sayan, it was a continuation of my question :(
+[14:08] <Vamsi3296> cd
+[14:08] <santoshShaw> done
+[14:08] <ahole[m]> done
+[14:08] <im_mohsin> done
+[14:08] <navneet> done
+[14:08] <soumam007__> im_mohsin, thats a good idea
+[14:08] <ashwanig> done
+[14:08] <deepika> done
+[14:08] <ravindra_> done
+[14:09] <sakshi> done
+[14:09] <lucifer> done
+[14:09] <anupamas> done
+[14:09] <cran-cg> done
+[14:09] <shivanim> done
+[14:09] <thebigj> done
+[14:09] <navneet> done
+[14:09] <sayan> soumam007__: Ok
+[14:09] <vsnehil> Done
+[14:09] <Pavan> done
+[14:09] <Vamsi3296> donw
+[14:09] <soumam007__> done
+[14:09] <Vamsi3296> done
+[14:09] <joyhimanshu> done
+[14:09] <sayan> - git add helloworld.txt # puts the file into staging area
+[14:09] <cignatious> done
+[14:10] <theAtom> done
+[14:10] <santoshShaw> done
+[14:10] <sayan> - git commit -m "This is Snapshot 1"
+[14:10] <kvy_> done
+[14:10] <saikat_> error:fatal: Not a git repository (or any of the parent directories): .git
+[14:10] <sayan> People stop writing done now
+[14:10] <bhavin192> sayan, git init
+[14:10] <bhavin192> is missing
+[14:10] <__anshul> do "git init"
+[14:10] <sayan> I missed `git init`
+[14:11] <jatanmalde> Done
+[14:11] <santoshShaw> username and password is not set
+[14:11] <santoshShaw> cant commit
+[14:11] <sayan> *- Before git add helloworld.txt
+[14:11] <sayan> *- Do git init
+[14:12] <sayan> *- People who have not setup username & email
+[14:12] <ashwanig> santoshShaw, https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+[14:13] <sayan> *- Do this git config --global user.name "<Name>"
+[14:13] <sayan> *- git config --global user.email "<email>"
+[14:13] <CHOCOS> !
+[14:13] <sayan> next
+[14:13] <cignatious> !
+[14:14] <CHOCOS> lost the connection in between , what are we supposed to do before git add helloworld.txt ? <eof>
+[14:14] <balaji> !
+[14:14] <sayan> CHOCOS: ask someone in PM to pass the log
+[14:14] <sayan> next
+[14:14] <saikat_> !
+[14:14] <cignatious> I finished the set up still it is showing fatal: Not a git repository
+[14:14] <cignatious> what is the erroe?
+[14:15] <poojaencoded> !
+[14:15] <vivek_> cignatious: do : git init
+[14:15] <cignatious> sorry error
+[14:15] <sayan> cignatious: did you do `git init`?
+[14:15] <cignatious> thank you
+[14:15] <sayan> cignatious: it's not a git repo, that's why the error
+[14:15] <sayan> next
+[14:15] <sayan> next
+[14:15] <balaji> Is user name and email id should be same as our github user name and mail id?
+[14:15] <saikat_> sayan, will you please reframe the format to set user name? "git config --global user.email "<email>""___Which part to change here?
+[14:16] <saikat_> just the email in the triangle brackets?
+[14:16] <ashwanig> saikat_, Yes, without the quotes
+[14:16] <vipulgupta2048_> saikat_ ,yes
+[14:16] <sayan> git config --global user.name "Sayan Chowdhury"
+[14:16] <cignatious> sayan: yes i figured it
+[14:16] <vivek_> balaji: not necessary
+[14:16] <sayan> git config --global user.email "gmail@yudocaa.in"
+[14:17] <sayan> balaji: saikat_: This is how it should be
+[14:17] <sayan> Remember there is Git != Github
+[14:17] <ahole[m]> git config --global user.email "hcakoff@gmail.com"
+[14:18] <sayan> cignatious: cool :)
+[14:18] <sayan> next
+[14:18] <poojaencoded> sayan: after git add helloworld.txt?
+[14:18] <vipulgupta2048_> !
+[14:18] <sayan> poojaencoded: - git commit -m "Snapshot 1"
+[14:18] <poojaencoded> okay
+[14:18] <sayan> poojaencoded: without the first hyphen
+[14:18] <sayan> next
+[14:18] <vipulgupta2048_> Why did we do, what we just did ?  Like to just sum up, if you were going to explain that,ignore
+[14:19] <sayan> vipulgupta2048_: yes, I will explain each and every step in detail
+[14:19] <sayan> Moving ahead then
+[14:19] <sayan>  
+[14:19] <sayan>  
+[14:19] <sayan> *- So, you create a project directory called foobar
+[14:19] <ani_> !
+[14:20] <sayan> *- After that you initialize git into it, when you do git init it creates a .git directory inside foobar
+[14:20] <sayan> *- You can check using ls -l
+[14:20] <__anshul> ls -al
+[14:21] <sayan> *- This directory contains all the information by Git
+[14:21] <__anshul> .git is hidden
+[14:21] <tenida> __anshul: Error: "git" is not a valid command.
+[14:21] <sayan> oops, yes I missed -a
+[14:21] <sayan> the correct command is ls -al
+[14:21] <ahole[m]> ls -la
+[14:21] <sayan> thanks
+[14:22] <vivek_> tenida: install git
+[14:22] <tenida> vivek_: Error: "install" is not a valid command.
+[14:22] <saikat_> there is some .git. Why can i not see the name?
+[14:22] <vivek_> oh
+[14:22] <bhavin192> vivek_, tenida is bot
+[14:22] <vivek_> i understood
+[14:22] <ikshitij> saikat_: that's dotfile
+[14:23] <ani_> saikat type ls -al
+[14:23] <vipulgupta2048_> ls
+[14:23] <saikat_> ani, did ls-al
+[14:23] <vipulgupta2048_> with space between ls -al
+[14:23] <bhavin192> ls-al command not found
+[14:23] <__anshul> the "-a" helps in shows hidden files
+[14:24] <vishami3> tenida : you need to install git not type `install git`
+[14:24] <tenida> vishami3: Error: ":" is not a valid command.
+[14:24] <bhavin192> saikat_, it should be ls -al
+[14:24] <saikat_> bhavin192, yes did ls -al in the console, typo here.
+[14:24] <sayan> vipulgupta2048_: bhavin192: __anshul: can you stop helping saikat_?
+[14:24] <__anshul> okay
+[14:24] <bhavin192> sayan, ok
+[14:25] <vipulgupta2048_> ok
+[14:25] <sayan> becase seems like saikat_ did raise hand before asking the question
+[14:25] <sayan> s/did/did not/
+[14:25] <saikat_> sayan, sorry
+[14:25] <bhavin192> right
+[14:26] <sayan> *- Next when you do, git add helloworld.txt, it sends the changes to the staging area
+[14:26] <sayan> *- and finall git commit -m "Snapshot 1" is where you create the snapsot/commit
+[14:26] <Vamsi3296> ls .git
+[14:26] <Vamsi3296> im sorry.
+[14:27] <bhavin192> Vamsi3296, instant messaging?
+[14:27] <sayan> *- You specify the message with -m argument
+[14:27] <sayan> bhavin192: yes, apologizing to instant messaging :)
+[14:28] <Vamsi3296> No,This iterm is messing with me.
+[14:28] <sayan> So, moving ahead
+[14:28] <sayan> - vim helloworld.txt # Add "Snapshot 2" to the file
+[14:29] <sayan> - git status
+[14:29] <sayan> What do you see? Can some one write what does git status show?
+[14:30] <__anshul> modified:   file.txt
+[14:30] <saikat_> modified:   helloworld.txt
+[14:30] <Vamsi3296> changes not staged for commit.
+[14:30] <singh123> modified helloworld.txt
+[14:30] <__anshul> no changes added to commit
+[14:30] <im_mohsin> untracked file sayan
+[14:30] <Shruti9520> modified helloworld.txt
+[14:30] <asraisingh> modified: helloworld.txt
+[14:30] <ani_> modified helloworld.txt
+[14:30] <hacker_> no changes added to commit (use "git add" and/or "git commit -a")
+[14:30] <santoshShaw> 	modified:   helloworld.txt
+[14:31] <anuGupta> nothing added to commit but untracked files present
+[14:31] <Vamsi3296> and modified: helloworld.txt.
+[14:31] <cran-cg> https://pastebin.com/VvxBYUDM
+[14:31] <poojaencoded> modified:  hello.text
+[14:31] <asraisingh> changes not staged for comit
+[14:31] <sayan> Hmm
+[14:31] <sayan> Okay
+[14:31] <ikshitij> modified:  helloworld.txt
+[14:32] <yurii>  no changes added to commit (use "git add" and/or "git commit -a")
+[14:32] <cignatious> !
+[14:32] <sayan> So, you should be having an out like https://pastebin.com/VvxBYUDM
+[14:32] <asraisingh> yes
+[14:33] <joyhimanshu> yes
+[14:33] <sayan> __anshul: poojaencoded: why are you having other filenames?
+[14:33] <sayan> im_mohsin: untracked file?
+[14:33] <sayan> next
+[14:33] <sayan> next
+[14:33] <__anshul> I named it different, no worries
+[14:33] <cignatious> changes not staged for commit
+[14:33] <vipulgupta2048_> !
+[14:34] <cignatious> why is it so?
+[14:34] <poojaencoded> i gave my file name hello.txt that's why
+[14:34] <sayan> __anshul: It is worries for other people who are learning for the first time
+[14:34] <__anshul> okay sayan I'll keep that in mind here onwards
+[14:34] <sayan> the difference in output can confuse people
+[14:34] <anuGupta> !
+[14:35] <sayan> cignatious: You will understand that after the next step that I tell
+[14:35] <poojaencoded> i created with vim hello.txt.sorry
+[14:35] <sayan> cignatious: so, basically these changes are not yet in the staging area
+[14:35] <im_mohsin> sayan, this: nothing added to commit but untracked files present (use "git add" to track)
+[14:35] <anuGupta> It is giving list of untracked files and not like one in pastebin
+[14:35] <cignatious> I did it again and now i am getting it as no changes added to commit
+[14:36] <sayan> im_mohsin: you probably did not follow all the steps
+[14:36] <cignatious> am I doing it right?
+[14:36] <sayan> anuGupta: you missed a bunch of steps
+[14:36] <im_mohsin> sayan, maybe because internet is not working properly
+[14:36] <sayan> im_mohsin: anuGupta: ask someone in PM for the logs
+[14:36] <avik_> !
+[14:36] <im_mohsin> ok
+[14:37] <sayan> cignatious: do you see the output as: https://pastebin.com/VvxBYUDM
+[14:37] <sayan> next
+[14:37] <Shruti9520> <im_moshin> You can use git add --all
+[14:37] <cignatious> no
+[14:37] <vipulgupta2048_> Under untracked files it shows this to ".helloworld.txt.swp". What is this file?
+[14:37] <sayan> vipulgupta2048_: you vim session is probably still open, we explained this in last class
+[14:38] <sayan> cignatious: can you past the output in pastebin, on what do you see?
+[14:38] <im_mohsin> Shruti9520, thanks :)
+[14:38] <cignatious> ok
+[14:38] <sayan> anuGupta: Also wait before you ask you question
+[14:38] <vishami3> <vipulgupta2048_> You must have not saved it, i think
+[14:38] <sayan> anuGupta: wait for your turn
+[14:39] <sayan> next
+[14:39] <santoshShaw> !
+[14:39] <sayan> next
+[14:39] <sayan> next
+[14:39] <fhackdroid> cignatious, just a word of caution to copy from terminal you have to use ctrl+shift+c
+[14:39] <santoshShaw> what does "-m" signifies in the git commit -m "hello" ? <eom>
+[14:39] <vipulgupta2048_> sayan, will recheck.
+[14:39] <sayan> santoshShaw: check the log, I explained
+[14:39] <anuGupta> Ok sayan <EOF>
+[14:40] <meamitk> santoshShaw It is commit message
+[14:40] <ikshitij> those who are getting "untracked files", you should add a file first using "git add file.ext"
+[14:40] <vishami3> <santoshShaw> message that'll explain the changes
+[14:40] <cignatious> fhackdroid: i know
+[14:41] <santoshShaw> vishami3: meamitk : sayan, thanks
+[14:41] <sayan> Moving ahead
+[14:41] <sayan> - git diff
+[14:41] <Shruti9520>  santoshShaw: after writing -m , you give any message to your commit. You can write anything within quotes
+[14:42] <sayan> *- With this command you can check the diff, basically the changes you've done but not in stage
+[14:42] <sayan> - git add -u
+[14:42] <im_mohsin> !
+[14:43] <sayan> *- ^^ this moves the changes to the staging area
+[14:43] <saikat_> !
+[14:43] <sayan> *- git status
+[14:43] <soumam007__> ikshitij, though i am not getting so but why are they getting that message?
+[14:44] <andodococo> soumam007__: What r u getting ?
+[14:44] <sayan> *- Now you would see a different output, as these files are added staging area before the commit
+[14:44] <soumam007__> andodococo, "changes not staged for commit"
+[14:45] <soumam007__> and no message
+[14:45] <soumam007__> language please
+[14:45] <bhavin192> andodococo, r? u?
+[14:45] <vishami3> !
+[14:46] <ani_> !
+[14:46] <sayan> next
+[14:46] <im_mohsin> sayan, git diff compare changes in the working directory and staging area?
+[14:46] <sayan> im_mohsin: yes
+[14:46] <sayan> next
+[14:46] <saikat_> What is the meaning of the symbols  - and + and a &b in "--- a/helloworld.txt
+[14:46] <saikat_> +++ b/helloworld.txt
+[14:46] <saikat_> " after doing git diff?
+[14:46] <saikat_> <EOM>
+[14:47] <__anshul> saikat that means you added some stuff to the said file
+[14:47] <sayan> saikat_: - means removed, + means added = this is in code portion
+[14:48] <__anshul> !
+[14:48] <saikat_> sayan, and the a & B act as bullet points?
+[14:48] <sayan> saikat_: and --- a/helloworld.txt +++ b/helloworld.txt  means you are comparing a/helloworld.txt with b/helloworld.txt
+[14:48] <sayan> next
+[14:48] <vishami3> what does -u means ?
+[14:49] <sayan> vishami3: update, moves all the changes from working to staging
+[14:49] <sayan> vishami3: and you don't have to add file one by one
+[14:49] <sayan> next
+[14:49] <sayan> next
+[14:49] <vishami3> okay
+[14:50] <__anshul> as I answered some queries here, is that acceptable or should I just not interrupt?
+[14:50] <cran-cg> !
+[14:50] <balaji>  !
+[14:50] <santoshShaw> vishami3: The -u tells Git to remember the parameters, so that next time we can simply run git push and Git will know what to do. Link: https://try.github.io/levels/1/challenges/11
+[14:50] <sayan> __anshul: it's okay to answer
+[14:51] <soumam007__> !
+[14:51] <bhavin192> santoshShaw, it's totally different
+[14:51] <vishami3> thanks <santoshShaw>
+[14:51] <sayan> santoshShaw: no, we are not discussing git push now
+[14:51] <sayan> next
+[14:51] <sayan> next
+[14:51] <cran-cg> sayan: Why aren't we doing git add . ?
+[14:52] <sayan> cran-cg: that adds all the files which are untracked also
+[14:52] <cran-cg> Plus isn't git push - u different from git add -u <eof>
+[14:52] <soumam007__> "@@ -1 +1,3 @@" what does this mean?
+[14:52] <sayan> cran-cg: yes, it is totally different
+[14:52] <vipulgupta2048_> !
+[14:53] <cran-cg> !
+[14:53] <sayan> cran-cg: you want to carefully add the untracked files
+[14:53] <cran-cg> And the -u flag is different for both the commands right ?
+[14:53] <bhavin192> cran-cg, yes
+[14:54] <cran-cg> Understood ! Thanks bhavin192 and sayan :))
+[14:54] <vishami3> i think every sub-command has there own flags that's why *push -u* is different from *add -u*
+[14:54] <sayan> soumam007__: tell you the numbers of lines added & removed and line numbers
+[14:54] <sayan> vishami3: yes
+[14:54] <sayan> Moving ahead
+[14:54] <sayan> - git diff --staged
+[14:55] <vipulgupta2048_> My question,sayan ?
+[14:55] <sayan> vipulgupta2048_: yes, you will get your chance but we cannot take all the questions at once
+[14:55] <sayan> then probably we never going to end the class
+[14:56] <vipulgupta2048_> Ok no issues.
+[14:56] <sayan> *- If you do git diff --staged, you see all the changes in the staging area
+[14:56] <sayan> *- So it's good to check once before you make the final commit
+[14:57] <sayan> - git commit -m "Snapshot 2"
+[14:57] <sayan> *- You now create your next commit
+[14:57] <sayan> - vim hellomars.txt # Add the text "Snapshot 3"
+[14:57] <sayan> - git status
+[14:58] <Prerna> nothing to commit
+[14:58] <sayan> *- Now, you will see hellomars.txt in the untracked files, because the file is a git directory
+[14:58] <ani_> !
+[14:58] <sayan> *- But the changes of the file are not getting tracked by git yet
+[14:59] <sayan> *- To add the file hellomars.txt for git to track what command show we use?
+[14:59] <sayan> Think and answer
+[14:59] <jasonbraganza> git add -u
+[14:59] <asraisingh> git add
+[14:59] <saikat_> git add <file>
+[14:59] <cran-cg> git add -u
+[14:59] <ikshitij> git add filename
+[14:59] <avik_> git add hellomars.txt
+[15:00] <championshutler> git add hellomars.txt
+[15:00] <__anshul> soumam007__git add <filename>
+[15:00] <vipulgupta2048_>  git add filename
+[15:00] <joyhimanshu> git add  hellomars.txt
+[15:00] <anuGupta> git add hellomars.txt
+[15:00] <vishami3> git add hellomars.txt
+[15:00] <__anshul> oops
+[15:00] <cran-cg> git add hellomars.txt
+[15:00] <sitlanigaurav[m]> git add -u
+[15:00] <singh123> git add hellomars.txt
+[15:00] <realslimshanky> git add hellomars.txt
+[15:00] <ahole[m]> git add -u
+[15:00] <santoshShaw> git add hellomars.txt
+[15:00] <sayan> right! it's git add hellomars.txt, can somebody tell me why not git add -u?
+[15:00] <realslimshanky> or git add . or git add *
+[15:00] <balaji> git add hellomars.txt
+[15:01] <__anshul> because "git add -u" is for files who are already staged once
+[15:01] <jasonbraganza> sayan because you want be aware of what you’re adding?
+[15:01] <realslimshanky> sayan, because it only checks the added file for updates
+[15:01] <vishami3> *git add -u* will not look for changes in *untracked8 files
+[15:01] <SpEcHiDeR> I think git add -u will add all untracked files.
+[15:01] <vipulgupta2048_> Because git add -u will add all files to track in the folder. when dealing with more than one file.
+[15:01] <bhavin192> because -u updates the files which are already tracked
+[15:01] <avik_> sayan: we are adding, not updating
+[15:01] <championshutler> that will add all untracked files i think
+[15:02] <Vamsi3296> ls
+[15:02] <sayan> Okay, here is why?
+[15:02] <joyhimanshu> git add  -u  update all changes
+[15:02] <samridhia> git add hellomars.txt
+[15:02] <sayan> as the documentation says for `-u` = all tracked files in the entire working tree are updated
+[15:02] <sayan> it's does not touch the untracked files
+[15:03] <sayan> git add -u moves the diff of the tracked files to staging, and ignore all the untracked files you add
+[15:03] <jasonbraganza> sayan understood
+[15:03] <im_mohsin> so sayan for already existing file in staging area and now if we add a line to this file then we use git add -u? Correct?
+[15:04] <sayan> So, you should explicitly use git add <filename> to tell git track the file from next time and directly move the changes to stage
+[15:04] <sitlanigaurav[m]> sayan: got it
+[15:04] <__anshul> im_mohsin correct
+[15:04] <jasonbraganza> !
+[15:04] <SpEcHiDeR> sayan: OK. :thumbs-up
+[15:04] <sayan> im_mohsin: yes :)
+[15:04] <sayan> next
+[15:04] <sayan> next
+[15:04] <im_mohsin> __anshul, thank you. I get confused with parameter
+[15:05] <vipulgupta2048_> sayan,Doubt resolved
+[15:05] <sayan> next
+[15:05] <ani_> git add -u not working
+[15:06] <sayan> realslimshanky: you should never use dot (.) or asterisk (*) until and unless you know what you are doing
+[15:06] <sayan> ani_: context?
+[15:06] <sayan> next
+[15:06] <realslimshanky> sayan, got it :)
+[15:06] <jasonbraganza> git add accepts wild cards? <eom>
+[15:06] <sayan> jasonbraganza: yes
+[15:06] <jasonbraganza> Thank you
+[15:06] <vipulgupta2048_> !
+[15:06] <sayan> next
+[15:07] <vipulgupta2048_> Wild cards ? or should i just google that
+[15:07] <__anshul> ani_ error message?
+[15:07] <sayan> Yeah google :)
+[15:07] <sayan> you probably will find a wiki page for it
+[15:07] <sayan> - git add hellomars.txt
+[15:07] <ani_> sorry it work
+[15:07] <sayan> *- So add the hellomars.txt file
+[15:07] <sayan> - git commit -m "Snapshot 3"
+[15:08] <sayan> *- And then we commit
+[15:08] <ani_> !
+[15:08] <sayan> next
+[15:08] <sayan> Any questions till here?
+[15:09] <realslimshanky> No
+[15:09] <Vamsi3296> nope.
+[15:09] <im_mohsin> No
+[15:09] <avik_> no
+[15:09] <saikat_> !
+[15:09] <ani_> it was producing error nothing to commit, working directory clean
+[15:09] <sitlanigaurav[m]> no
+[15:09] <vipulgupta2048_> Wild card is used for adding more than one files for git add
+[15:09] <balaji> !
+[15:10] <realslimshanky> vipulgupta2048_, yeah, like dot  ( . ) and asterisk ( * )
+[15:10] <sayan> ani_: did you create the hellomars.txt file?
+[15:10] <cran-cg> vipulgupta2048_: not exactly
+[15:10] <meamitk> ani_ it is not an error
+[15:10] <ani_> no
+[15:10] <ani_> ok thanks
+[15:10] <vipulgupta2048_> realslimshanky, will look that up, thanks.
+[15:10] <sayan> realslimshanky: dot is not a wildcard
+[15:10] <vipulgupta2048_> cran-cg, then ?
+[15:11] <ashwanig> !
+[15:11] <sayan> vipulgupta2048_: https://www.computerhope.com/jargon/w/wildcard.htm
+[15:11] <soumam007__> !
+[15:11] <sayan> next
+[15:11] <saikat_> What is this create mode number in "create mode 100644 hellomars.txt"?
+[15:11] <sayan> saikat_: ah! nice question
+[15:12] <sayan> There is actually a good answer in SO
+[15:12] <realslimshanky> !
+[15:12] <sayan> next
+[15:12] <vishami3> <saikat_> i think it is similar to taking a snapshot for that commit file
+[15:12] <balaji> Can we able edit the commit messeges?
+[15:12] <ashwanig> Got the answer<eom>
+[15:12] <sayan> saikat_: https://stackoverflow.com/questions/737673/how-to-read-the-mode-field-of-git-ls-trees-output/8347325#8347325
+[15:12] <sayan> balaji: yes, you can. git commit --amend -m "New message"
+[15:12] <sayan> next
+[15:13] <sayan> next
+[15:13] <soumam007__> why we will add (.) ?Is it that . .. you are talking about that are hidden and present in all directories?
+[15:13] <sayan> soumam007__: no, this is completely different thing
+[15:13] <balaji> sayan,  But how can we specify which commit messege we have to edit ?
+[15:14] <soumam007__> ok please elaborate if possible
+[15:14] <sayan> balaji: you cannot do that by specifying like a commit id
+[15:14] <poojaencoded> !
+[15:14] <sayan> balaji: but there is a way which is out of scope of this class
+[15:15] <sayan> soumam007__: yes, when you do git add . it moves all the files from untracked & tracked to stage
+[15:15] <sayan> next
+[15:15] <balaji> sayan, Okay we will discuss after the class
+[15:15] <sayan> next
+[15:15] <realslimshanky> sayan, it's for adding hidden files ( which begin with . ) also along with others right? What is it called?
+[15:15] <poojaencoded> sayan,not got "create mode 100644 hellomars.txt"?
+[15:15] <soumam007__> ok and what for git add * ?
+[15:15] <sayan> soumam007__: same
+[15:15] <soumam007__> ok :)
+[15:16] <poojaencoded> what is this and why is this?<eof>
+[15:16] <sayan> poojaencoded: it's okay, if you don't get it now
+[15:16] <realslimshanky> soumam007_, adding all the files except hidden ( starting with . ) files.
+[15:16] <poojaencoded> okay
+[15:16] <__anshul> poojaencoded you would have got this when you committed
+[15:17] <cran-cg> soumam007__: https://stackoverflow.com/questions/16969768/what-does-git-add-git-add-single-dot-command-do . Files present in currentdirectory and subdirectory
+[15:17] <poojaencoded> _anshul:thanks
+[15:17] <soumam007__> realslimshanky, cran-cg i will look into it thanks :)
+[15:17] <sayan> soumam007__: right git add * does not add the hidden files
+[15:17] <sayan> where as git add . does
+[15:18] <soumam007__> ok there is the difference
+[15:18] <sayan> but at the end of the day you should not use both
+[15:18] <sayan> realslimshanky: I don't know if it is called anything
+[15:18] <sayan> next
+[15:18] <soumam007__> sayan, so that we can distinguish right?
+[15:19] <realslimshanky> sayan, okay.
+[15:19] <saikat_> !
+[15:19] <sayan> soumam007__: no, you will mess up if you use that
+[15:19] <sayan> soumam007__: you will end up changes that you don't want to add
+[15:19] <soumam007__> oh
+[15:19] <sayan> next
+[15:19] <saikat_> sayan, SO says "1000000110110100 (100664): Regular non-executable group-writeable file."    Why is it not executable? I am executing it in git.
+[15:20] <__anshul> soumam007__ then later you have to sit down and unstage unnecessary files
+[15:20] <__anshul> for example the local files an IDE generates which are not needed in project repo
+[15:20] <rkased> roll call: Razy Kased
+[15:21] <sayan> saikat_: you are not executing it with Git
+[15:21] <sayan> rkased: ? Why the roll call out of sudden?
+[15:21] <soumam007__> __anshul, yeah thats an issue
+[15:21] <rkased> I've been having login issues sorry
+[15:21] <saikat_> sayan, ohh, i am just commiting a change, right?
+[15:22] <sayan> saikat_: I will discuss this after class
+[15:22] <__anshul> soumam007__, I am guessing sayan will you later about ignoring
+[15:22] <saikat_> sayan, ok, thanks
+[15:22] <Cyber_freak> Missed the class. Internet issues :-(
+[15:22] <sayan> I am ending the class here.
+[15:22] <im_mohsin> ok sayan :)
+[15:22] <sayan> I would like to tell a few things
+[15:23] <soumam007__> __anshul, didnot get you please rephrase if possible
+[15:23] <soumam007__> :)
+[15:23] <sayan> You cannot become a pro in the very first day
+[15:23] <sayan> So, learn to ignore things
+[15:23] <__anshul> in DMs may be <soumam007__> ;)
+[15:23] <rkased> okay
+[15:23] <vishami3> okay sayan
+[15:23] <sayan> You don't need to learn each an everything on the very first day
+[15:24] <sayan> Stick to the basics, you can build on top of basics
+[15:24] <rkased> sayan, I always feel if I don't I need doing enough. However, your advice helps put things into perspective
+[15:24] <Farhaan[m]> soumam007 anshul depends on your gitignore which sayan will tell you later
+[15:25] <__anshul> <Farhaan[m]> , correct
+[15:25] <sayan> and people those who know stuff, take care in mind there are people who don't know stuff and are learning
+[15:25] <sayan> So, stop throwing random words, it's becomes difficult for those who are just trying to follow and learn
+[15:26] <Farhaan[m]> sayan agreed
+[15:27] <sayan> I did not know a lot of things like +++ a/... --- b/, then 100664, until I had been using git for 2-3 years
+[15:27] <poojaencoded> sayan,you are right it is difficult for us
+[15:27] <anuGupta> relatable ;)
+[15:27] <sayan> And those you are new, try to be often on IRC and ask question. Just doing join in for the class
+[15:27] <sayan> And devote more time than just reading logs
+[15:28] <sayan> ask for books from people
+[15:28] <im_mohsin> sayan, 100% true. I faced issues initially where i wanted to know every stuff the point i start but its a very bad learning habit
+[15:29] <sayan> That's all what I want to say, from next time in class I would just tell you too stop if things would be tough for other people
+[15:29] <sayan> and I want people to follow that
+[15:29] <jasonbraganza> understood sayan
+[15:29] <sayan> You can ask those questoins after the class
+[15:29] <realslimshanky> sayan, nice :)
+[15:29] <vishami3> sure
+[15:29] <sayan> Telling this because things are going to be difficult in next class, so I want cooperation from all of you
+[15:30] <sayan> Roll Call
+[15:30] <santoshShaw> Santosh Kumar Shaw
+[15:30] <jasonbraganza> Jason Braganza
+[15:30] <bhavin192> Bhavin Gandhi
+[15:30] <anupamas> Anupama Shipurkar
+[15:30] <meamitk> right sayan
+[15:30] <rkased> Razy Kased
+[15:30] <ghishadow> Suraj Ghimire
+[15:30] <vipulgupta2048_> Vipul Gupta
+[15:30] <schubisu> Robin Schubert
+[15:30] <__anshul> Anshul Chauhan
+[15:30] <Vamsi3296> Vamsi Krishna
+[15:30] <anuGupta> Anu Kumari Gupta
+[15:30] <saikat_> Saikat Dey
+[15:30] <asraisingh_> Abhishek Singh
+[15:30] <lucifer_> Atul kumar
+[15:30] <theAtom> deep
+[15:30] <im_mohsin> Mohsin Mumtaz
+[15:30] <cran-cg> Chiranjeev Gupta
+[15:30] <balaji> Balaji
+[15:30] <deepika> Deepika Upadhyay
+[15:30] <pr97> Priyanka Sharma
+[15:30] <ikshitij> Kshitij
+[15:30] <singh123> Amarjeet singh
+[15:30] <Anuja> Anuja Agarwal
+[15:30] <meamitk> Amit Kokitkar
+[15:30] <joyhimanshu> Himanshu Awasthi
+[15:30] <vsiddhar> Vipul Siddharth
+[15:30] <poojaencoded> pooja kumari singh
+[15:30] <Pavan> pavan yejare
+[15:30] <vishami3> Shashank Shekhar
+[15:30] <ashwanig> Ashwani Kumar Gupta
+[15:30] <Guest38399> Nikita Kotak
+[15:30] <shivanim> Shivani Mehendarge
+[15:30] <akshayg96> Akshay Gaikwad
+[15:30] <ani_> Aniket uttam
+[15:30] <avik_> Avik Mukherjee
+[15:30] <casper01> Mayur khomane
+[15:30] <realslimshanky> Shashank Kumar
+[15:30] <yurii> yurii pylypchuk
+[15:30] <mdbk> Onyinye Madubuko
+[15:30] <samridhia> Samridhi Agarwal
+[15:30] <devendra> devendra bhat
+[15:30] <aryan_> Aryan tripati
+[15:30] <niranjana1234> Niranjana Deshpande
+[15:30] <ahole[m]> kshithij Iyer
+[15:30] <soumam007__> sayan, sorry on their behalf . Farhaan[m] , __anshul i got the hint. future classes will make my concepts more clear
+[15:31] <sitlanigaurav[m]> Gaurav Sitlani
+[15:31] <messifc> Messi Fc
+[15:31] <soumam007__> Soumam Banerjee
+[15:32] <deepika> !
+[15:32] <jiteshpabla> Jitesh Pabla
+[15:32] <ravindra_> Ravindra Lakal
+----END CLASS----

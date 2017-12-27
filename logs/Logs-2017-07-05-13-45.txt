@@ -1,0 +1,604 @@
+----BEGIN CLASS----
+[13:45] <sayan> #startclass
+[13:45] <sayan> Roll Call
+[13:46] <jasonbraganza> Jason Braganza
+[13:46] <rkased> Razy Kased
+[13:46] <ghishado1> Suraj Ghimire
+[13:46] <skat_sd> Saikat Dey
+[13:46] <mdbk> Onyinye Madubuko
+[13:46] <vivek_> Vivek Anand
+[13:46] <shankarj67> Shankar Jha
+[13:46] <ashwanig> Ashwani Kumar Gupta
+[13:46] <anuGupta> Anu kumari Gupta
+[13:46] <abhinavshirur> Abhinav Shirur
+[13:46] <deepika> Deepika Upadhyay
+[13:46] <akshayg96> Akshay Gaikwad
+[13:46] <soumam007> Soumam Banerjee
+[13:46] <Padfoot7> Mohd Omama
+[13:46] <CHOCOS1> neha kandpal
+[13:46] <ahole[m]> Kshithij Iyer
+[13:46] <ganeshnomula_> Ganesh Nomula
+[13:46] <bhavin192> Bhavin Gandhi
+[13:46] <im_mohsin> Mohsin Mumtaz
+[13:46] <samridhia> Samridhi Agarwal
+[13:46] <championshuttler> Shivam Singhal
+[13:46] <gauravsitlani> Gaurav Sitlani
+[13:46] <_Richard_> Mayank gupta
+[13:46] <avp_> Aviral Bajpai
+[13:46] <lucifer> Atul kumar
+[13:46] <jiteshpabla> Jitesh Pabla
+[13:46] <balaji> Balaji
+[13:46] <sakshi> Sakshi Saraswat
+[13:46] <kvy> kumar vipin yadav
+[13:46] <skarpy> akash pathak
+[13:46] <yurii> yurii pylypchuk
+[13:46] <ravindra> Ravindra Lakal
+[13:46] <apoorv> Apoorv Goel
+[13:46] <Cyber_freak> Pradhvanbisht
+[13:46] <schubisu> Robin Schubert
+[13:47] <Vamsi3296> Vamsi Krishna
+[13:47] <poojaencoded> pooja kumari singh
+[13:47] <sayan> schubisu: btw, I used weechat on a remote server. so, difficult to copy logs :p
+[13:47] <_anshul> Anshul Chauhan
+[13:47] <devendrabhat> devendra bhat
+[13:47] <ikshitij> Kshitij
+[13:47] <sayan> Questions? from last class in next 10 minutes
+[13:47] <fhackdroid> Farhaan Bukhsh
+[13:47] <schubisu> sayan, ah, I see. jasonbraganza posted a log, thanks anyway
+[13:48] <singh123> Amarjeet singh
+[13:48] <avik> Avik Mukherjee
+[13:48] <soumam007> !
+[13:48] <asraisingh> Abhishek Singh
+[13:48] <kishore> Kishore Saldanha
+[13:48] <asraisingh> bhavin192, done. Thanks made vim default and all done
+[13:48] <sayan> asraisingh: cool :)
+[13:48] <sayan> next
+[13:48] <soumam007> sayan, i am confused that if i did git push another-remote master ! will it work?
+[13:49] <messifc> Messi Fc
+[13:49] <bhavin192> asraisingh, great :)
+[13:49] <sayan> soumam007: yes
+[13:49] <sayan> soumam007: why would it mot work?
+[13:49] <soumam007> but it was created from sepia branch right sayan?
+[13:50] <sayan> soumam007: so?
+[13:50] <ashwanig> soumam007, Remotes are different from branches
+[13:50] <ahole[m]> !
+[13:50] <sayan> ashwanig: yes, Remotes and branches are not related
+[13:50] <sayan> next
+[13:51] <ahole[m]> what is today's topic ??
+[13:51] <sayan> ahole[m]: I don't know
+[13:51] <priyansh> roll call : Priyansh
+[13:51] <ahole[m]> sayan: You are not conducting the session today ?
+[13:51] <bhavin192> ahole[m], just get involved in the discussion
+[13:51] <soumam007> does it affects in pushing if created branches? that was my question? since you said its like a phone no. saved in 2 diff names so it shouldnt matter right
+[13:52] <soumam007> ?
+[13:52] <aryan> Roll call: aryan tripathi
+[13:52] <soumam007> *created in different branches
+[13:53] <ashwanig> soumam007, It does not matter from which branch a remote is created
+[13:53] <Lucky___> roll call: Divyansh
+[13:53] <ghishado1> sayan: check ~/.weechat/logs/ folder in that remote server and all logs are saved there i think
+[13:53] <joyhimanshu> Roll call:Himanshu Awasthi
+[13:53] <soumam007> ok that was doubt ashwanig
+[13:53] <soumam007> thanks
+[13:53] <sayan> ghishado1: yes, I know that
+[13:53] <sayan> ghishado1: and yes, it is saved there only
+[13:54] <sayan> ghishado1: but I need to copy getting of the tmux session, I don't know how to scroll and copy with tmux
+[13:54] <adas0496> Abhishek Das
+[13:54] <sayan> soumam007: it does not matter
+[13:55] <sayan> soumam007: but there are few complications you will hit
+[13:55] <sayan> soumam007: here is the thing, use, try stuff out
+[13:55] <fhackdroid> sayan, ctrl+[
+[13:55] <fhackdroid> and then vim bindings
+[13:55] <soumam007> sayan, ok yeah trying ,created 4 repos today :)
+[13:55] <ahole[m]> Is there any other open source vcs other than git?
+[13:56] <sayan> soumam007: so here is the thing, as vivek and me told yesterday, we learnt git by doing crimes in git
+[13:56] <sayan> next
+[13:56] <sayan> fhackdroid: thanks
+[13:56] <fhackdroid> sayan, :)
+[13:57] <fhackdroid> sayan, I love the tux story for git :) brilliant way of conveying concepts
+[13:58] <_anshul> indeed
+[13:58] <sayan> Now I will set the channel to mute
+[13:58] <sayan> *- When you contribute to a project, you have the main repository where you don't have the access. So you cannot push to the main repository
+[13:58] <sayan> *- So, how do you contribute?
+[13:59] <sayan> *- You fork the project, a copy of the main project is created in Github.
+[14:00] <sayan> *- Then you pull the project from the Github to you local system.
+[14:00] <sayan> *- You start working on the issue/feature/bug in a different branch, preferably issue-<issuenumber> as branchname.
+[14:00] <sayan> ^^ that's what I follow
+[14:00] <sayan> Questions?
+[14:01] <pavan> sorry i am late which topic going on
+[14:01] <im_mohsin> !
+[14:01] <skat_sd> !
+[14:01] <asraisingh> !
+[14:01] <sayan> next
+[14:01] <im_mohsin> when forking you get access to only to a specific branch?
+[14:02] <schubisu> !
+[14:02] <Padfoot7> !
+[14:02] <ani> roll call : Aniket uttam
+[14:02] <im_mohsin> Or all branches besides main branch?
+[14:02] <sayan> im_mohsin: when you are fork you will create a copy of the project in your account
+[14:02] <rkased> !
+[14:02] <sayan> im_mohsin: it's under own command now
+[14:02] <im_mohsin> ok. so any changes will only affect my copy of project?
+[14:03] <sayan> im_mohsin: basically, you can read everything in the main repo, not write
+[14:03] <sayan> im_mohsin: any changes in main repo will not be copied to your repo
+[14:03] <im_mohsin> okay got it
+[14:03] <vivek_> *at the point of forking
+[14:03] <sayan> vivek_: at the point of forking?
+[14:03] <hemanth_> !
+[14:04] <vivek_> sayan: ah, sorry
+[14:04] <vivek_> i read it wrong
+[14:04] <sayan> it's like you have a directory.
+[14:04] <sayan> and you create a copy of the directory
+[14:05] <sayan> when you copy every file gets copied
+[14:05] <_anshul> !
+[14:05] <sayan> but the changes in the main directory are reflected after that
+[14:05] <sayan> next
+[14:05] <skat_sd> is this forking same as "clone the repository" option we get while downloading a repo from git?
+[14:05] <sayan> skat_sd: no
+[14:05] <yurii> !
+[14:06] <sayan> skat_sd: forking is creating a copy of the repository
+[14:06] <sayan> skat_sd: cloning is creating a local copy in your system
+[14:06] <sayan> skat_sd: it downsloads the repo from the server
+[14:06] <sayan> next
+[14:06] <asraisingh> sayan, what it there is already an branch and the branch has issue? Should we have to use the case like bw under sepia?
+[14:06] <hemanth_> roll call hemanth
+[14:07] <asraisingh> sayan, and branches are only made when there is an issu?
+[14:07] <mdbk> !
+[14:07] <asraisingh> sayan, sorry s/iss/issue
+[14:07] <sayan> asraisingh: I did not get you
+[14:07] <sayan> next
+[14:08] <sayan> vivek_: can you take this question?^^
+[14:08] <skat_sd> but sayan, then what does cloning do? this page<https://stackoverflow.com/questions/5143119/what-does-this-mean-clone-the-github-repository> says that cloning is also creating a local copy.
+[14:08] <sayan> skat_sd: local copy, as in in your system/laptop/computer
+[14:08] <im_mohsin>  skat_sd yes creating a local copy in your system
+[14:09] <asraisingh> sayan, ok. I will elaborate you the condition after the class.
+[14:09] <sayan> asraisingh: sure
+[14:09] <sayan> next
+[14:09] <im_mohsin> and fork creates a copy in your github
+[14:09] <Padfoot7> sayan: Is it necessary to work on the issue in a different branch ?
+[14:09] <sayan> Padfoot7: it is not necessary, but not recommended also
+[14:09] <sayan> Padfoot7: it's better to work on a different branch
+[14:10] <skarpy> !
+[14:10] <sayan> Padfoot7: there are project, for which it is compulsory though
+[14:10] <sayan> s/project/projects
+[14:10] <sayan> like for example CPython
+[14:10] <bhavin192> asraisingh, I got your question, I think yes you have to create a new branch from the branch from which you want to fix the issue
+[14:10] <sayan> next
+[14:10] <rkased> how to you deal with progress from the main branch once you've forked a specific branch. e.g. Say my pace is slower than the main branch pace and I want to incorporate the latest updates as well as not lose the progress I've made on my own so far.
+[14:10] <Padfoot7> okay, thanks
+[14:11] <sayan> rkased: you pull the changes from the main branch and push the changes to your branch
+[14:11] <sayan> rkased: and that's why you work on a branch
+[14:11] <rkased> cool!
+[14:11] <rkased> thanks
+[14:11] <hemanth_> which branch should we fork for contribution, can i get some example
+[14:11] <sayan> so that you don't have to worry about your changes to come in between
+[14:11] <ahole[m]> !
+[14:11] <skat_sd> !!
+[14:11] <skat_sd> oops
+[14:11] <skat_sd> !
+[14:11] <sayan> hemanth_: out of turn you are
+[14:11] <sayan> next
+[14:11] <hemanth_> oops sorry
+[14:11] <asraisingh> bhavin192, thanks again.
+[14:11] <ashwanig> hemanth_, You fork the repo not the branch
+[14:12] <sayan> hemanth_: you don't fork a branch, you fork a repo
+[14:12] <sayan> next
+[14:12] <_anshul> how to make sense of their project, which may now has 1000s line of code and many files
+[14:13] <sayan> _anshul: laters
+[14:13] <sayan> next
+[14:13] <sayan> next
+[14:13] <mdbk> sayan: Based on your example issue-<issuenumber>, are you fixing the bug/issue on that particular line number?
+[14:13] <yurii> whan you fork do you change the name of project
+[14:14] <ashwanig> yurii, No,
+[14:14] <sayan> mdbk: I will explain that
+[14:14] <bhavin192> mdbk, no, it's the issue number
+[14:14] <sayan> yurii: no, no needed
+[14:15] <sayan> shall I move to the demo?
+[14:15] <mdbk> Okay
+[14:15] <yurii> ok
+[14:15] <sayan> or continue with question?
+[14:15] <mohsin> yeah move please
+[14:15] <jasonbraganza> move on
+[14:15] <ashwanig> yes move to demo
+[14:15] <poojaencoded> move to the demo
+[14:15] <ikshitij> move to demo Sayan
+[14:15] <messifc> Sorry I have to leave.
+[14:16] <asraisingh> sayan, Can I share some terminal configuration which is helpful to others also?
+[14:16] <skat_sd> sayan, will you just answer this: difference between fork and clone? I did search on SO, and both seem to be the same thing. Both creates local copy on a system. Please enlighten?
+[14:16] <ahole[m]> Yeah! a demo would clear things up a bit.
+[14:16] <_anshul> can I answer this
+[14:16] <sayan> asraisingh: nope
+[14:16] <sayan> skat_sd: laters
+[14:16] <asraisingh> sayan, ok
+[14:17] <sayan> *- So fire up your browser, open https://github.com/sayanchowdhury/venus
+[14:18] <sayan> *- In the top right corner, you should see a fork option.
+[14:18] <sayan> *- Click on fork
+[14:19] <sayan> And paste the fork url here
+[14:19] <sayan> https://etherpad.gnome.org/p/dgplug-github-url
+[14:19] <mohsin> https://github.com/mohmum/venus
+[14:19] <Padfoot7> https://github.com/mohdomama/venus
+[14:19] <shankarj67> https://github.com/shankarj67/venus
+[14:19] <mohsin> sorry
+[14:19] <singh123> https://github.com/paplu123/venus
+[14:20] <soumam007> not here man
+[14:20] <sayan> I will kick anybody after this paste it here
+[14:20] <sayan> s/this/this who/
+[14:20] <asraisingh> sayan, url not working.
+[14:20] <poojaencoded> https://github.com/iampooja/venus
+[14:21] <ashwanig> asraisingh, It's working for me
+[14:21] <bhavin192> asraisingh, what do you mean by not working?
+[14:21] <asraisingh> bhavin192, unable to connect.
+[14:21] <hemanth_> asraisingh, hey it takes some time to load
+[14:21] <sayan> asraisingh: connect what?
+[14:21] <sayan> etherpad? it takes time
+[14:21] <sayan> patience is the key
+[14:22] <asraisingh> sayan, internet. Even internet is working.
+[14:22] <bhavin192> asraisingh, it's Internet capital I
+[14:22] <sayan> Anybody who is still fighting?
+[14:22] <ahole[m]> sayan:  I guess there are way too many users on etherpad so I guess it's slow.
+[14:23] <sayan> ahole[m]: no, it does not happen
+[14:23] <sayan> Okay moving ahead
+[14:23] <ravindra> https://github.com/ravindra-lakal/venus
+[14:25] <sayan> Now everybody, hit the terminals and type git clone <repo_url> // repo_url = the forked repo url
+[14:25] <pooja__> sayan after pasting what?
+[14:26] <ikshitij> !
+[14:26] <skat_sd> !
+[14:26] <bhavin192> clone it in a different directory than `foobar`
+[14:26] <skat_sd> from the foobar directory?
+[14:26] <sayan> thanks bhavin192
+[14:26] <mohsin> done
+[14:26] <sayan> This is a completely new repo/project
+[14:27] <sayan> so do this in the home folder
+[14:27] <ganeshnomula_> !
+[14:27] <sayan> this should be seperate from the foobar one
+[14:27] <sayan> next
+[14:27] <sayan> pooja__: did not get you
+[14:27] <sayan> next
+[14:27] <sayan> next
+[14:27] <sayan> next
+[14:28] <ikshitij> Got it ! Pass
+[14:28] <sayan> nexxt
+[14:28] <sayan> next
+[14:28] <pooja__> after pasting fork url what to do?
+[14:28] <sayan> pooja__: press enter
+[14:28] <ganeshnomula_> sayan: So now we have to make a new directory, for that do we have to do git init  and all again?
+[14:28] <yurii> !
+[14:28] <sayan> ganeshnomula_: no you donot have to do a git init
+[14:28] <championshuttler> pooja_ : press enter and it will come to your local directory
+[14:28] <sayan> just clone the repo
+[14:29] <skat_sd> sayan, do we do it in the home or in any folder in home?
+[14:29] <anuG> i got disconnected.Someone please help me what to do.
+[14:29] <sayan> skat_sd: any folder should work
+[14:29] <ahole[m]> !
+[14:29] <bhavin192> skat_sd, directory other than `foobar`
+[14:29] <sayan> skat_sd: basically this is a completely new project
+[14:29] <sayan> next
+[14:29] <mohsin> anuG, which part you missed?
+[14:29] <skat_sd> sayan, so no specific name for everyone to follow here, right?
+[14:30] <sayan> anuG: git clone <cloned repo url>
+[14:30] <yurii> i first cloned from foobar
+[14:30] <championshuttler> anug : clone this repo https://github.com/sayanchowdhury/venus then paste your repo link in this https://etherpad.gnome.org/p/dgplug-github-url
+[14:30] <bhavin192> championshuttler, wait wait
+[14:31] <sayan> First you need to fork the repo in github: https://github.com/sayanchowdhury/venus
+[14:31] <sayan> and then then copy the new forked repo url
+[14:31] <sayan> and type
+[14:31] <sayan> git clone <forked repo url>
+[14:32] <sayan> forexample
+[14:32] <sayan> pooja would do
+[14:32] <sayan> git clone https://github.com/iampooja/venus.git
+[14:32] <sayan> yurii: is that clear?
+[14:33] <sayan> If you are not able to find the url
+[14:33] <sayan> Look for the Clone or download button in green
+[14:33] <sayan> Click the button, a dropdown will appear
+[14:33] <avik> !
+[14:33] <sayan> and then click Use HTTPS:
+[14:33] <sayan> copy the url
+[14:33] <yurii> sayan --it is clear. I mean first I did git clone from foobar directory and then you told from home
+[14:33] <pooja__> sayan i didn't get you
+[14:34] <sayan> and then do git clone <forked repo url>
+[14:34] <sayan> pooja__: what did you not get?
+[14:34] <sayan> next
+[14:34] <sayan> next
+[14:34] <avik> why do we clone by terminal and not downloading the zip from browser?
+[14:34] <ahole[m]> Can you do a git clone on any repo even the ones which you have not yet forked ? And did you accept the fork  requests or anyone can fork any repo ?
+[14:35] <sayan> avik: try it yourself? it will download a zip for for you
+[14:35] <pooja__> after pasting url nothing is happen
+[14:35] <mohsin> ahole[m], we can clone any repo
+[14:35] <ikshitij> ahole[m]: Yes, you can ! It's like downloading a file
+[14:35] <bhavin192> ahole[m], anyone can fork too
+[14:35] <avik_> sayan: yes, then unzip it?
+[14:35] <sayan> pooja__: I cannot help with copy+paste issues
+[14:35] <sayan> avik_: yes, but it will not be a git repo
+[14:36] <avik_> ok got it
+[14:36] <sayan> avik_: rather a project folder
+[14:36] <sayan> next
+[14:36] <ikshitij> pooja__: use "git clone <url>
+[14:36] <sayan> ahole[m]: any repo it works
+[14:36] <pooja__> and after that ikshitij?
+[14:36] <skarpy> pooja__: "git clone https://github.com/iampooja/venus" will do
+[14:36] <bhavin192> avik_, it will be without .git directory
+[14:36] <sayan> ahole[m]: but at the end of the day you need to clone the repo to push your changes and create PR
+[14:37] <ikshitij> pooja__: wait :)
+[14:37] <avik_> !
+[14:37] <sayan> next
+[14:37] <avik_> if cloning from any place workd, then why forking?
+[14:37] <avik_> *works
+[14:38] <sayan> avik_: think
+[14:38] <sayan> I am not going to tell
+[14:38] <skarpy> avik_: to see them inside our repo list.
+[14:38] <skarpy> sayan:oops sorry sayan
+[14:38] <sayan> I have already told that earlier
+[14:38] <sayan> skarpy: no, that's not the reason
+[14:38] <ikshitij> avik_: avik git add filename ! Do you want to do that again and again?
+[14:38] <championshuttler> avik_ to make pull request to that project :)
+[14:39] <ikshitij> skarpy: wrong !
+[14:39] <skarpy> sayan: cloning will not add them in repo list of github, but forking will. cloning is locally saving. right?
+[14:39] <avik> oooo ok!
+[14:40] <avik> skarpy, yes, but eventually, after completion of task, you will upload. then its same
+[14:40] <sayan> okay now people who are not fighting with cloning, create a commit that would add a new file hellovenus.txt (remember to do it in a new branch)
+[14:40] <ikshitij> avik_: skarpy : clone is just plain download and forking is dealing with git standard (in simple language) :p
+[14:40] <skarpy> ikshitij: yes :D
+[14:41] <bhavin192> ikshitij, I think it's not like that
+[14:41] <sayan> ikshitij: no, wrong
+[14:41] <avik> ikshitij,  :D got it!
+[14:41] <ikshitij> bhavin192: I was too informal :p
+[14:41] <apoorv>  sayan: can you please give the command for that as I have missed the previous sessions?
+[14:41] <sayan> apoorv: nope, this is a task
+[14:41] <mohsin> sayan, should we create a new branch for venus?
+[14:42] <apoorv> sayan : okay
+[14:42] <sayan> bhavin192: can you help out apoorv in PM?
+[14:42] <sayan> mohsin: yup
+[14:42] <bhavin192> sayan, sure
+[14:42] <yurii> !
+[14:42] <sayan> next
+[14:43] <ikshitij> !
+[14:43] <sayan> next
+[14:43] <asraisingh> sayan, done.
+[14:43] <ashwanig> sayan, done
+[14:44] <ikshitij> "add a new file hellovenus.txt" add where ?
+[14:44] <asraisingh> ikshitij, in new branch
+[14:44] <sayan> ikshitij: venus
+[14:45] <ikshitij> ok
+[14:45] <sayan> next
+[14:45] <sayan> Who all are still doing?
+[14:45] <avik> anything to write in the file? or just create a blank file hellovenus.txt?
+[14:45] <sayan> avik: your wish
+[14:46] <avik> okay
+[14:46] <mohsin> i committed hellovenus.txt in separate branch sayan
+[14:46] <gauravsitlani> !
+[14:46] <sayan> mohsin: cool
+[14:46] <sayan> next
+[14:46] <ikshitij> Done !
+[14:46] <gauravsitlani> after adding the file hellovenus.txt should we push it?
+[14:47] <sayan> gauravsitlani: yes, that's the next step
+[14:47] <sayan> now people push the branch
+[14:47] <sayan> I repeat, people push the branch to our repo
+[14:47] <sayan> And create a PR: https://help.github.com/articles/creating-a-pull-request-from-a-fork/
+[14:48] <mohsin> sayan, push the branch to origin like git push origin <branch-name>?
+[14:48] <soumam007> please sayan last 2 line elaborate
+[14:48] <soumam007> !
+[14:48] <sayan> next
+[14:48] <soumam007> do we need to create remote
+[14:48] <soumam007> ?
+[14:49] <sayan> soumam007: how can you check which all remotes are already there?
+[14:49] <soumam007> git remote -v
+[14:49] <sayan> soumam007: yes, type that and see what is that output?
+[14:50] <soumam007> origin created by you already
+[14:50] <soumam007> :)
+[14:50] <ashwanig> sayan, done
+[14:50] <sayan> Folks, if you do git remote -v
+[14:50] <sayan> you will see the origin remote
+[14:51] <sayan> now when you clone the repo, the origin is automatically create by git to communicate with the remote repo
+[14:52] <skarpy> we have to push branch venus, right?
+[14:52] <asraisingh> skarpy, new branch which we have created.
+[14:53] <ashwanig> skarpy, Yes, the new branch you created
+[14:53] <sayan> skarpy: yes
+[14:53] <skarpy> done
+[14:54] <hemanth_> !
+[14:54] <soumam007> !
+[14:54] <sayan> next
+[14:54] <sayan> next
+[14:54] <hemanth_> should we push the master or remote branch our repository
+[14:54] <championshuttler> done :)
+[14:55] <ikshitij> done
+[14:55] <asraisingh> done
+[14:55] <soumam007> Even after pushing ´new´ branch why cant i see my hellovenus.txt in remote repo
+[14:55] <soumam007> ?
+[14:55] <yurii> !
+[14:55] <hemanth_> sorry remote/venus branch
+[14:55] <ashwanig> soumam007, you are in master branch. Change the branch
+[14:55] <sayan> hemanth_: venus
+[14:55] <mohsin> hemanth_, you push the branch you created now
+[14:55] <sayan> soumam007: no clue, wish I had a wand
+[14:55] <sayan> the harry potter one
+[14:56] <hemanth_> ok thanks
+[14:56] <soumam007> -_-
+[14:56] <cran-cg_> soumam007 on the extreme left 4th row from above you see a branch option on Github, change that to your branch
+[14:56] <soumam007> cran-cg_, ashwanig yes i got your point
+[14:56] <soumam007> :) thanks
+[14:57] <sayan> soumam007: you did not check yesterday?
+[14:57] <soumam007> yes i did i forgot today in the github portion
+[14:58] <soumam007> i checked only in the terminal today
+[14:58] <soumam007> go ahead
+[14:58] <sayan> soumam007: ok
+[14:58] <sayan> I am going to office, I will be back
+[14:58] <hemanth_> hey I am getting scared as it is showing my branch in sayan's repo also
+[14:59] <skarpy> pull request gone, now sayan, you have to accept request to make change to the main repo?
+[14:59] <hemanth_> so what to do next
+[15:00] <ahole[m]> Take a break, till sayan  comes back.
+[15:01] <akshayg96> skarpy, yes
+[15:01] <asraisingh> ahole[m], have a kitkat.
+[15:01] <cran-cg_> So anyone still struggling, can ask
+[15:01] <samridhia> !
+[15:02] <cran-cg_> samridhia I guess sayan is away, ask anyhow
+[15:02] <championshuttler> samridhia you can ask questions
+[15:02] <ikshitij> what's output of git remote -v in your system ?
+[15:02] <abhinavshirur> sorry, I messed up with the title the first time. So I closed the PR and sent a new one
+[15:02] <jasonbraganza> samridhia, only sayan controls batul :) ask cran-cg_ directly :)
+[15:02] <samridhia> I am still not getting where to push branch
+[15:02] <akshayg96> abhinavshirur, :D
+[15:03] <jasonbraganza> samridhia what are you typing in your terminal?
+[15:03] <asraisingh> ikshitij, origin	https://github.com/asraisingh/venus (fetch)
+[15:03] <asraisingh> origin	https://github.com/asraisingh/venus (push)
+[15:03] <championshuttler> samridha: to the repo you forked to your profile
+[15:03] <samridhia> git push origin venus
+[15:03] <ikshitij> jasonbraganza: do you know, we should use 'add', 'added', or 'adding' ?
+[15:03] <mohsin> samridhia, git push origin <your-branch-name>
+[15:03] <abhinavshirur> akshayg96, I am a super noob :P
+[15:03] <mdbk> cran-cg: having challenge with the pull request
+[15:03] <cran-cg_> ikshitij: https://pastebin.com/zNUt2XqL
+[15:03] <jasonbraganza> ikshitij - whatever the project’s convention says. Right now anything goes :)
+[15:04] <samridhia> mohsin, getting an error as 'origin' does not appear to be a git repo
+[15:04] <hemanth_> mdbk, what's the challenge
+[15:04] <mdbk> can't make a pull request
+[15:04] <bhavin192> mdbk, why?
+[15:05] <jasonbraganza> samridhia - git branch - what does that tell you?
+[15:05] <skarpy> ikshitij check whatsapp
+[15:05] <mohsin> samridhia, what do you get when do git remote -v?
+[15:05] <samridhia> moshin, nothing! i am not getting any output
+[15:05] <skarpy> mdbk https://help.github.com/articles/creating-a-pull-request-from-a-fork/
+[15:05] <ikshitij> jasonbraganza: according to git documentation, you should use present tense (imperative) only
+[15:06] <jasonbraganza> ikshitij - so adding :)
+[15:06] <cran-cg_> mdbk: Sorry had to recieve a call
+[15:06] <samridhia> jacsonbraganza, * venus
+[15:06] <mdbk> confused on the base and compare
+[15:07] <jasonbraganza> samridhia try git push -u origin venus
+[15:07] <mohsin> samridhia, that is weird. you have to get something like this: https://pastebin.com/3bmDQdQU
+[15:07] <pooja__> i am still not what to do after git clone<url>?
+[15:07] <bhavin192> jasonbraganza, it should not make any difference
+[15:07] <cran-cg_> mdbk: compare is like diff, and you compare it with sayan's main repo, so base is sayan's main repo cause you want your changes to be reflected there
+[15:08] <mohsin> pooja__, create a new branch after cloning
+[15:08] <ikshitij> jasonbraganza: yes I have seen people(Contributors) using 1st form only !  For example: 'add'
+[15:09] <samridhia> jasonbraganza, same error as origin does not appear in repo
+[15:09] <bhavin192> samridhia, have you cloned the repo?
+[15:09] <samridhia> yes bhavin192
+[15:09] <ikshitij> pooja__: Make a clone, (2). Create new branch (3). Add hellovenus.txt (4) push to origin (5). Create PR
+[15:10] <mohsin> samridhia, can you send us the error message
+[15:10] <jasonbraganza> samridhia - paste the full error at https://paste.fedoraproject.org
+[15:10] <bhavin192> then your repo should have origin
+[15:10] <jasonbraganza> and send us the link
+[15:11] <jasonbraganza> samridhia - also what bhavin192 said
+[15:11] <cran-cg_> mdbk: You there with me ? Did I confuse you more ?
+[15:11] <samridhia> https://paste.fedoraproject.org/paste/qV5-KM-yaMJWOaZGm3ne7A
+[15:11] <mdbk> cran-cg: still confused
+[15:11] <samridhia> jasonbraganza,  yes i cloned after that i create a branch in the home folder is that a error?
+[15:12] <mdbk> the base has master and compare has master as well
+[15:12] <cran-cg_> mdbk: please say it then :))
+[15:13] <mdbk> The pull request will be from sayan's repo right?
+[15:13] <bhavin192>  samridhia don't know the reason why your repo does not have origin
+[15:13] <jasonbraganza> bhavin192 - samridhia’s problem seems to be above my pay grade. want to help? samridhia, the only thing I can think of is to do it all again
+[15:13] <skat_sd> i am getting this: fatal: 'origin' does not appear to be a git repository. how to make the origin?
+[15:13] <cran-cg_> mdbk: Compare sayan's base with your cloned repo's new branch, not your cloned repo's master branch
+[15:13] <bhavin192> jasonbraganza, no it's easy to fix
+[15:13] <bhavin192> jasonbraganza, think about it
+[15:14] <soumam007> samridhia, did you clone by terminal or by clicking?
+[15:14] <samridhia> jasonbraganza,  i tried doing again but destination path 'venus' already exists and is not an empty directory.
+[15:14] <samridhia> soumam007, by terminal after forking it
+[15:14] <bhavin192> samridhia, you are in venus directory, right?
+[15:14] <cran-cg_> mdbk: It's like you are requesting sayan to add your changes to his repo.
+[15:15] <samridhia> no bhavin192
+[15:15] <bhavin192> samridhia, and cloned *your* GitHub fork
+[15:15] <jasonbraganza> samridhia  - pm?
+[15:15] <cran-cg_> samridhia: https://stackoverflow.com/questions/32238616/git-push-fatal-origin-does-not-appear-to-be-a-git-repository-fatal-could-n/32238628
+[15:15] <bhavin192> samridhia, then how it git will know what to do
+[15:15] <ikshitij> skat_sd: git remote set-url origin <url>
+[15:16] <sayan> yes, back
+[15:16] <soumam007> samridhia, open .git> refs> remotes in the venus folder just by clicking you will get if origin is present or not
+[15:16] <samridhia> bhavin192, so i have to make a folder venus and then clone ?
+[15:16] <bhavin192> samridhia, no
+[15:16] <cran-cg_> mdbk: Did it help?
+[15:16] <ikshitij> samridhia: folder will be created automatically
+[15:16] <mdbk> cran-cg: Thanks alot
+[15:16] <sayan> So who are are still facing issues?
+[15:17] <samridhia> soumam007,  .git in which folder?
+[15:17] <bhavin192> samridhia, then cd into it
+[15:17] <skat_sd> i ikshitij is the origin the one we pasted in the fedora paste?
+[15:17] <mdbk> Have done that
+[15:17] <mohsin> bhavin192, i think samridhia  did not fork sayan repo
+[15:17] <soumam007> venus folder samridhia which you have cloned
+[15:17] <ikshitij> samridhia: you are cloning a repo, that is folder itself
+[15:18] <sayan> After I remote the mute, I want to know who are still stuck? Rest donot answer
+[15:18] <sayan> Yes, so who all are still stuck
+[15:18] <skat_sd> me
+[15:18] <samridhia> Just got the correct way
+[15:18] <ganeshnomula_> Me
+[15:19] <sayan> ganeshnomula_: what issues are you facing?
+[15:19] <ganeshnomula_> Ref name error
+[15:19] <anuG> me
+[15:19] <sayan> ganeshnomula_: paste the error in a pastebin
+[15:20] <sayan> anuG: what error are you facing?
+[15:20] <sayan> skat_sd: same for you
+[15:20] <anuG> doing
+[15:21] <samridhia> I am not getting how to PR
+[15:21] <sayan> samridhia: are you following the link I shared?
+[15:21] <samridhia> which link sayan ?
+[15:22] <sayan> samridhia: creating PR from a fork
+[15:22] <sayan> samridhia: https://help.github.com/articles/creating-a-pull-request-from-a-fork/
+[15:23] <sayan> waiting for the anuG, ganeshnomula_ and skat_sd
+[15:23] <samridhia> got it sayan
+[15:23] <yurii> i was disconected i missed last steps ,  i have this issues -- https://paste.fedoraproject.org/paste/W-~kd8kSgeBsPK5s2tLIDw
+[15:24] <akshayg96> yurii, Go to venus folder first
+[15:25] <sayan> yurii: you are not inside a git repo, you need to go inside the venus repo
+[15:26] <ganeshnomula_> sayan: solved it :)
+[15:27] <ganeshnomula_> sayan I got that error again, thought I solved. http://imgur.com/a/dM9wf
+[15:27] <yurii> how can I get inside a git repo ?
+[15:27] <sayan> yurii: cd venus
+[15:28] <mohsin> sayan, is that for today? i guess i have to go and i dont wanna miss anything
+[15:28] <skat_sd> sayan, https://paste.fedoraproject.org/paste/ZVXYl7-FyQWCW7HqhonsFw
+[15:29] <bhavin192> skat_sd, try to solve it
+[15:29] <sayan> ganeshnomula_: seems like you did not understand the branches and remote :(
+[15:30] <bhavin192> skat_sd, oh! sorry :(
+[15:30] <sayan> skat_sd: did you create new repo?
+[15:30] <sayan> mohsin: yes
+[15:30] <samridhia> In my case during PR nothing to compare is comin!
+[15:31] <sayan> mohsin: PR was the last thing
+[15:31] <samridhia> comin\coming
+[15:31] <sayan> Anyways, I don't want to keep other people waiting
+[15:31] <sayan> People who did the PR, this is the basic way of doing stuff
+[15:31] <sayan> I repeat again, you need practice to understand git
+[15:32] <bhavin192> skat_sd, untracked files have 'venus' O.o
+[15:32] <sayan> understand the underlying concept and working of the VCS
+[15:32] <sayan> The link I shared in the  midnight session yesterday helps
+[15:32] <gauravsitlani> !
+[15:32] <sayan> And try to do more and more practice
+[15:32] <sayan> You will fail, google and read the docs
+[15:33] <skat_sd> bhavin192, i just did it using the GUI of the website.
+[15:33] <sayan> do know why that particular thing is happening
+[15:33] <sayan> Next session tomorrow same timing
+[15:33] <jasonbraganza> sayan - that's how i’ve been doing it all evening! :)
+[15:33] <sayan> as in 1900 IST
+[15:33] <ganeshnomula_> sayan: I will read it and try again and will get back to you. I’ll do good this time :)
+[15:33] <sayan> jasonbraganza: \o/
+[15:33] <gauravsitlani> that blog right ? http://tom.preston-werner.com/2009/05/19/the-git-parable.html
+[15:34] <sayan> ganeshnomula_: right! that's what you need to do
+[15:34] <sayan> gauravsitlani: yes
+[15:34] <sayan> Roll Call
+[15:34] <shankarj67> Shankar Jha
+[15:34] <hemanth_> hemanth
+[15:34] <mohsin> Mohsin Mumtaz
+[15:34] <avik> Avik Mukherjee
+[15:34] <jasonbraganza> Jason Braganza
+[15:34] <ghishadow> Suraj Ghimire
+[15:34] <deepika> Deepika Upadhyay
+[15:34] <ashwanig> Ashwani Kumar Gupta
+[15:34] <skarpy> akash pathak
+[15:34] <skat_sd> Saikat Dey
+[15:34] <anuG> Anu Kumari Gupta
+[15:34] <CHOCOS1> neha kandpal
+[15:34] <ikshitij> Kshitij
+[15:34] <asraisingh> Abhishek Singh
+[15:34] <_Richard_> Mayank gupt
+[15:34] <mdbk> Onyinye Madubuko
+[15:34] <akshayg96> Akshay Gaikwad
+[15:34] <devendrabhat> Devendra Bhat
+[15:34] <ravindra> Ravindra Lakal
+[15:34] <cran-cg_> Chiranjeev Gupta
+[15:34] <gauravsitlani> Gaurav Sitlani
+[15:34] <ganeshnomula_> Ganesh Nomula
+[15:34] <Tanya-Jain_> Tanya Jain
+[15:34] <samridhia> Samridhi Agarwal
+[15:34] <ahole[m]> Kshithij Iyer
+[15:34] <bhavin192> Bhavin Gandhi
+[15:35] <abhinavshirur> Abhinav Shirur
+[15:35] <balaji> Balaji
+[15:35] <sayan> I thought to teach more, but probably I would give 15 days of practice to people before going there
+----END CLASS----

@@ -1,0 +1,551 @@
+----BEGIN CLASS----
+[13:27] <kushal> #startclass
+[13:28] <kushal> Roll Call
+[13:28] <messifc> Messi Fc
+[13:28] <ashwanig> Ashwani Kumar Gupta
+[13:28] <knrai> Krishnanand Rai
+[13:28] <saikat> Saikat Dey
+[13:28] <atultherajput> Atul Krishna
+[13:28] <jasonbraganza> Jason Braganza
+[13:28] <pr97> Priyanka Sharma
+[13:28] <mbtamuli12> Mriyam Tamuli
+[13:28] <santoshShaw> Santosh Kumar Shaw
+[13:28] <anuGupta> Anu kumari Gupta
+[13:28] <yurii> yurii pylypchuk
+[13:28] <RIcharD_> Mayank gupta
+[13:28] <deepika> Deepika Upadhyay
+[13:28] <asraisingh> Abhishek Singh
+[13:28] <aryan> aryan tripathi
+[13:28] <harshit_> harshit jaiswal
+[13:28] <vaibhavlohani> Vaibhav Lohani
+[13:28] <priyansh> Priyansh Sourav
+[13:28] <abhinavshirur> Abhinav Shirur
+[13:28] <NikitaK3> Nikita Kotak
+[13:28] <apoorv> Apoorv Goel
+[13:28] <skarpy> Akash pathak
+[13:28] <sitlanigaurav[m]> Gaurav Sitlani
+[13:29] <ahole[m]> kshithij Iyer
+[13:29] <cran-cg> Chiranjeev Gupta
+[13:29] <ghishadow> Suraj Ghimire
+[13:29] <championshuttler> Shivam Singhal
+[13:29] <balaji> Balaji
+[13:29] <Ani_> Aniket uttam
+[13:29] <bhavin192> Bhavin Gandhi
+[13:29] <akshayg96> Akshay Gaikwad
+[13:30] <Vamsi3296> Vamsi Krishna
+[13:30] <devesh_V> Roll call Devesh Verma
+[13:30] <adas0496> Abhishek Das
+[13:32] <prokbird> Hi kushal, can i join this summer training?
+[13:32] <Phi_mb> #hello
+[13:33] <kushal> wait
+[13:33] <kushal> So welcome siddhesh to #dgplug
+[13:34] <kushal> He is a regular member anyway :)
+[13:34] <jasonbraganza> Hi siddhesh!
+[13:34] <kushal> But, he is also the upstream developer of glibc.
+[13:34] <kushal> I am not going to tell you what is glibc, but passing the mike to siddhesh.
+[13:34] <soumam007_> Soumam Banerjee
+[13:34] <kushal> siddhesh, stage is yours :)
+[13:34] <prokbird> kushal, please give permission
+[13:34] <cran-cg> Hello siddhesh
+[13:34] <siddhesh> thank you kushal :)
+[13:34] <siddhesh> hello everybody!
+[13:34] <im_mohsin> Hi siddhesh :)
+[13:35] <Phi_mb> Hello. :)
+[13:35] <RIcharD_> Hello siddhesh
+[13:35] <santoshShaw> Hello siddhesh:
+[13:35] <ahole[m]> Hello siddhesh
+[13:35] <deepika> Hi Siddhesh
+[13:35] <championshuttler> Hello siddesh
+[13:35] <skarpy> Hi
+[13:35] <pr97> Hello siddhesh
+[13:35] <siddhesh> So I am now going to spend the next hour or so boring you about my life and how I ended up being maintainer for glibc.
+[13:35] <vaibhavlohani> Hi siddhesh
+[13:35] <asraisingh> Hello siddhesh
+[13:35] <kushal> next
+[13:35] <kushal> siddhesh, Questions queue is also clear.
+[13:35] <championshuttler> prokbird: no need to ask you can join and attend the session but first read previous logs, link is https://www.dgplug.org/irclogs/
+[13:36] <siddhesh> I obviously won't write for the whole hour, I'll quickly recount how I ended up as a maintainer and then hopefully y'all will have questions
+[13:36] <bhavin192> siddhesh, I always wanted to know that, from the day I met you :)
+[13:36] <siddhesh> One of my major interests has been to try and grow more systems programmers in India
+[13:36] <siddhesh> So I hope it inspires some poor soul to spend their nights and days hacking away at assembly and C.
+[13:37] <siddhesh> Hopefully some of you may have read up on what glibc is, but if not, it is the library that provides C programming language runtime support.
+[13:37] <siddhesh> Or in simpler terms, it is the library that has everything from printf and scanf to gethostbyname and strlen to sin and cos and so on.
+[13:38] <siddhesh> Unless you're programming in golang (and even there you'll have exceptions) you're using glibc.
+[13:38] <siddhesh> In the 2012-2015 time frame I was among the most prolific committers to the project.  That has reduced a bit now since my new (now old) job.
+[13:39] <siddhesh> I do more release management and reviews now than actual patches, but I do write patches now and then :)
+[13:39] <siddhesh> I still work on glibc today at Linaro, but it is specificaly for the aarch64 architecture (i.e. 64-bit ARM) for an upcoming Qualcomm server chip.
+[13:39] <siddhesh> I also lead a toolchain team that does code optimizations for the aarch64 architecture, especially the upcoming server chip.
+[13:40] <siddhesh> that is, massage assembly code so that it runs faster on these chips
+[13:40] <siddhesh> Before I go into flashback mode, tech questions are OK, just that it's not the focus of my session.
+[13:41] <siddhesh> Anyway, so a lot of people I meet today assume that I am the quintessential geek, raised from an IIT or NIT, making toy compilers and programming computers with ones and zeros.
+[13:41] <siddhesh> But that is far from the truth. In fact my background is that of an ultra-typical middle/lower-middle class kid with an average education and opportunity.
+[13:42] <siddhesh> I am the usual IIT-fail (practically everyone in my time was, even those who chose medicine in the end!) but instead of falling back to engineering, I fell further, into a B.Sc.
+[13:42] <pr97_> Sorry, but i got disconnected, please someone pm me what i missed in the last 5 minutes :(
+[13:42] <championshuttler> pr97: ok wait
+[13:42] <poojaencoded> Roll call:poojaencoded
+[13:42] <siddhesh> But the B.Sc. was a blessing in disguise, because that's how I discovered Free Software
+[13:43] <siddhesh> and the idea that there's an OS other than Windows
+[13:43] <siddhesh> I was introduced to Linux by my teacher in B.Sc., Abhijit Rao (@quasiabhi) who was the stereotypical FSF geek, including the beard
+[13:43] <ravindra> Roll call Ravindra Lakal
+[13:43] <siddhesh> he later went on to become one of the legendary hackers that wrote cleartrip
+[13:44] <siddhesh> Anyway, I spent 3 days and nights (bunking college of course) just to install Debian woody. Trying to figure everything out by myself was quite an adventure.
+[13:44] <siddhesh> "By myself" because I am a stubborn ass and I don't look up until I give up (which I rarely do) and that means I don't even ask questions during that time.
+[13:45] <poojaencoded> sorry,i was also disconnected,please someone pm me from starting
+[13:45] <CHOCOS> me too :(
+[13:45] <siddhesh> That's not the best way to solve problems of course, and I am working on that.  But there are aspects of the stubbornness that have helped me.
+[13:45] <siddhesh> I did succeed in installing Linux and using it and over the years, eliminated Windows from my family computer.
+[13:46] <siddhesh> i.e., my mom and my sister both would use Linux.
+[13:46] <siddhesh> The only blocker was a dialer program for Sify broadband because my mom (or my sis) could not use the terminal to login.
+[13:46] <siddhesh> So I wrote one using reverse engineered specs on the internet.  It is called antidialer.
+[13:46] <siddhesh> That was my first FOSS project, something I wrote myself and published
+[13:47] <siddhesh> https://sourceforge.net/projects/antidialer/
+[13:47] <siddhesh> I enjoyed writing this, but I was still a reluctant programmer, learning only enough programming to solve my problems and then promptly forgetting.
+[13:48] <siddhesh> in a sense, I have not changed that aspect of me either, just ask kushal how long it took me to 'accept' python as an interesting programming language :)
+[13:48] <siddhesh> all it took was a use case for it in the end, but it did take long :)
+[13:49] <siddhesh> So I wasn't really immersed in technology in any sense, just using it to solve my problems.
+[13:49] <ahole[m]> !
+[13:49] <fxkundan> How did you get over that reluctant programmer thing
+[13:49] <siddhesh> I was sold on the idea of Free software and the geek cred that using Linux had
+[13:49] <siddhesh> next
+[13:50] <ahole[m]> What was the use case that convinced you to learn python ?
+[13:50] <siddhesh> fxkundan, I haven't, I still am very selfish about my use of computers.
+[13:50] <fxkundan> !
+[13:50] <siddhesh> ahole[m], I wrote it to do the microbenchmark framework in python
+[13:50] <jasonbraganza> !
+[13:50] <siddhesh> my first version was in perl and then when I wrote it in python it just seemed nicer
+[13:51] <siddhesh> I was especially sold by the list comprehension and lambdas.  It is still my favourite bit of the language.
+[13:51] <siddhesh> next
+[13:51] <ashwanig> !
+[13:51] <fxkundan> My question was already answered
+[13:51] <siddhesh> next
+[13:51] <jasonbraganza> when were the antidialer days? just trying to build up a timeframe
+[13:51] <ahole[m]> Sorry for the annoying question what is a mircobenchmark framework?
+[13:52] <siddhesh> jasonbraganza, I think around 2006, a bit before I graduated from MCA
+[13:52] <jasonbraganza> thank you. think i saw it on a pcquest cd :) <eom>
+[13:52] <siddhesh> ahole[m], it's a framework I wrote to test performance of functions in glibc
+[13:53] <siddhesh> jasonbraganza, oh wow, I never knew it was used by people :P
+[13:53] <siddhesh> next
+[13:53] <ashwanig> Sometimes I think of an idea for solving problems, then I think it's unrealistic and give up - How can I correct this mindset? <eof>
+[13:53] <ashwanig> *my problems
+[13:54] <siddhesh> ashwanig, it's the give up bit.  Large problems always look unsolvable, it's their nature.
+[13:54] <siddhesh> the idea is to keep trying to break it down.
+[13:54] <siddhesh> and try to make incremental progress
+[13:54] <santoshShaw> !
+[13:54] <ashwanig> siddhesh, Thanks
+[13:55] <Cyber_freak> !
+[13:55] <siddhesh> ashwanig, and it really is the 'giving up' bit that is key.  If the problem is important enough to you, you won't give up.  So find a way to make the problem important to you.
+[13:55] <siddhesh> that's how antidialer worked for me.  It was *my* problem.
+[13:55] <siddhesh> next
+[13:55] <santoshShaw> Do we need to understand the whole glibc library to start contributing <eof>
+[13:56] <siddhesh> santoshShaw, nope.  Like I said, find something that bothers you and then break it down so that you target a specific part of glibc
+[13:56] <santoshShaw> glibc is so huge
+[13:56] <siddhesh> santoshShaw, I won't claim to understand all of glibc, and I don't think anybody in the glibc community would either.
+[13:57] <Cyber_freak> How did you keep yourself motivated? I mean it's tough to work on something even if you love doing it.
+[13:57] <siddhesh> for glibc or any large project, it is a piece at a time.  And they're well written enough that you can follow the trail
+[13:57] <siddhesh> next
+[13:57] <santoshShaw> Ok siddhesh:  I got my mentor as you
+[13:57] <kushal> Cyber_freak, ask only when it is your turn.
+[13:58] <Cyber_freak> really sorry kushal
+[13:58] <siddhesh> Cyber_freak, it doesn't and there are often times when I am distracted and watching cat videos
+[13:58] <Cyber_freak> won't happen again
+[13:58] <siddhesh> but every so often I get a problem that bothers me enough
+[13:58] <siddhesh> or a learning opportunity (or obsession) that grips me long enough
+[13:58] <asraisingh> !
+[13:58] <siddhesh> next
+[13:58] <asraisingh> siddhesh, If I am trying to solving a problem by then how I get to know about the function and libraries available?
+[13:59] <siddhesh> asraisingh, every library has a programming reference if that's what you're looking for.
+[13:59] <siddhesh> asraisingh, for glibc there are the man pages
+[14:00] <asraisingh> siddhesh, ok
+[14:00] <asraisingh> thanks
+[14:00] <siddhesh> all the functions in section 3 are C library functions (AFAIR) and those in 2 are syscalls, but they're also interposed by glibc
+[14:00] <siddhesh> next
+[14:00] <siddhesh> ok then, back to my script :D
+[14:00] <siddhesh> So I wasn't really even as clued into tech as y'all are
+[14:00] <siddhesh> I still remember the first (of only two) LUG Mumbai meetup that I went to, where Philip Tellis talked about the cvs versioning system.
+[14:01] <siddhesh> I understood *nothing*.
+[14:01] <siddhesh> Philip Tellis turns up again in the story, so stay tuned :)
+[14:01] <siddhesh> I graduated from my B.Sc. and stood 2nd in my college, but did very badly in one paper - Systems Software :D
+[14:01] <siddhesh> for those who are not in college, systems software is where we learn compilers, linkers and loaders
+[14:01] <siddhesh> stuff I work on on a daily basis today :P
+[14:02] <ahole[m]> "did very badly in one paper - Systems Software" okay this sounds more like me.
+[14:02] <siddhesh> I didn't care though because my career path was well planned - MCA, get an IT job, become a Lead in 2 years and a Project Manager in 3-4 years and settle abroad
+[14:02] <siddhesh> Sounds familiar? That's because this was probably the most common career path plan back then :)
+[14:02] <siddhesh> Sure enough, I got into MCA and again found that programming was simple enough and nobody really cared about it
+[14:02] <siddhesh> All that everyone cared about was 'Leadership Skills'.
+[14:03] <siddhesh> I got into TCS (I can hear people who didn't read my bio gasping!) right out of campus and spent a great 2.5 years there.
+[14:03] <siddhesh> That's right, my 2.5 years in TCS were quite good :)
+[14:03] <siddhesh> I worked with a financial client and there was a lot of activity there, which meant I did some very involved work with C++, SQL, C, Lex, Yacc and heaven knows what else.
+[14:03] <siddhesh> My exposure to Linux helped; I was at home on their HP-UX environment.
+[14:03] <asraisingh> siddhesh, compilers is in my coming semester, means I have to give more time to it.
+[14:03] <siddhesh> I didn't actually grok a lot of the stuff, but I understood enough to solve my problems.
+[14:04] <siddhesh> I was top of heap there and it very quickly went into my head that I might be among the best programmers around.
+[14:04] <siddhesh> I met my target of becoming a Lead in 2 years - I was made Module Lead of a sub-project.
+[14:04] <siddhesh> Due to that and some changes in personal life, I ended up having evenings free.
+[14:04] <siddhesh> I also started feeling a bit unchallenged technically.
+[14:04] <siddhesh> Then came Philip Tellis again.
+[14:04] <siddhesh> Philip is this quintessential geek of the 90s.
+[14:04] <siddhesh> Brilliant programmer, always focused and extremely helpful.
+[14:05] <siddhesh> He was one of the earliest employees at Yahoo! India, has had a couple of startups in the US and now works for Akamai.
+[14:05] <siddhesh> He also co-wrote an instant messenger called Ayttm but had to stop working on it after joining Yahoo.
+[14:05] <siddhesh> Conflict of interest - ayttm reversed engineered (the EULA forbids it) the yahoo messaging protocol.
+[14:05] <siddhesh> ayttm: http://ayttm.sourceforge.net
+[14:05] <siddhesh> In 2017 he asked on the LUG mumbai list if someone wanted to volunteer to port ayttm (a messaging client) to gtkv2.
+[14:05] <siddhesh> 'How hard could it be?' I thought, and volunteered.
+[14:05] <siddhesh> And then spent the next couple of weeks just trying to build ayttm using Philip's instructions!
+[14:06] <siddhesh> My stubbornness eventually won and I steadily made progress and finished the port to gtk.
+[14:06] <siddhesh> I continued and rewrote the IRC plugin, the MSN plugin, the yahoo plugin, redoing the UI and so on.
+[14:06] <siddhesh> I spent every free moment there, nights, weekends, every minute.
+[14:06] <siddhesh> I learned practically everything there was to about C programming there, but there was a bigger lesson there.
+[14:06] <siddhesh> I learned that I was a terrible programmer.  I knew nothing.
+[14:06] <siddhesh> That was an incredible wakeup call - learning just how bad a programmer I was.
+[14:07] <siddhesh> One funny incident that reinforced this was when I found one old issue about a segfault in the ayttm issue list.
+[14:07] <siddhesh> (I can't find the link to it unfortunately)
+[14:07] <siddhesh> Philip had asked for a backtrace and the reporter had not responded.
+[14:07] <siddhesh> I realized that the reporter was me from about a year ago!
+[14:07] <siddhesh> I had not responded to Philip's request because I didn't know what a backtrace was and was too ashamed to ask!
+[14:07] <siddhesh> Anyway, that anecdote aside, ayttm is also how I got a call for a job in Red Hat - for a technical support engineer.
+[14:08] <siddhesh> My mother had taken that call from HR and told him off saying that her son was not interested in support, only development.
+[14:08] <siddhesh> (My mother was a technical recruiter too, so she obviously 'knew' the value of development jobs over support jobs!)
+[14:08] <siddhesh> It took another call from a guy who would end up being my manager (Mustafa) to convince me to interview for the job.
+[14:08] <siddhesh> I finaly made it into the tech support team at RH and moved to Pune for the job.
+[14:08] <siddhesh> That pretty much changed my life, because while TCS work was more challenging, I was learning the breadth and depth of the OS here.
+[14:09] <siddhesh> I was *learning* here while I was solving problems at TCS, not necessarily learning anything new in technology.
+[14:09] <siddhesh> I basically discovered the fun in learning here
+[14:09] <siddhesh> I was still not content, because I wanted to be a devel guy at RH.
+[14:09] <siddhesh> It was a bit ironic because I kinda hated RH before, being a Debian freak.  (trivia: my IRC nick then was debiansid)
+[14:09] <siddhesh> But when I joined I saw what an open org RH was and the work culture there was very good
+[14:10] <siddhesh> I wanted to be one of the devs that made an impact.  The only way I could do that was by plugging away at work.
+[14:10] <siddhesh> This was easy because my natural stubbornness helped.
+[14:10] <siddhesh> I was a desktop support engineer, so I would troubleshoot X, gnome, KDE, etc.
+[14:10] <siddhesh> But since I was among the few people in the tech support team who could read code, I would get quite a few tickets that needed code reading.
+[14:10] <siddhesh> Also segfaults - those became my speciality in the end.
+[14:11] <siddhesh> I could have done a high level analysis and sent the tickets to L3 engineers, which was the process defined.
+[14:11] <siddhesh> But I would spend nights and weekends trying to debug problems and come up with patches.
+[14:11] <siddhesh> Some would say that I was investing too much in a company that cared only about its bottom lines, but I would argue that I was investing in my career.
+[14:11] <siddhesh> and luckily for me, I could find the time.
+[14:11] <siddhesh> Thanks to all of the patches I wrote I found a place in L3 engineering soon.
+[14:12] <siddhesh> I ended up in the Toolchain group mainly because I had done quite a bit of problem analysis in that area.
+[14:12] <siddhesh> Mind you, problem analysis - I never really wrote an original patch.
+[14:12] <siddhesh> Or rather, I failed to write one every single time I tried :)
+[14:12] <siddhesh> One good thing about being in tech support and looking at all those core dumps was that I became very good at reading code.
+[14:13] <siddhesh> Even today, it is the one skill I cherish.
+[14:13] <siddhesh> The other skill was a deep understanding of how programs run on a machine - I learned that in tech support too
+[14:13] <siddhesh> imagine trying to figure out what is happening on someone else's computer based on just a core dump and some logs!
+[14:13] <siddhesh> In fact, it almost became an obsession, understanding how any program executed on the machine.
+[14:14] <siddhesh> This obsession was far harder than the earlier ones - it took over 6 months of constant rejections before my first patch to glibc finally landed upstream.
+[14:14] <siddhesh> Rejections were fun too - Andreas Schwab was the glibc maintainer in RH at that time and he would respond with one liners.
+[14:14] <siddhesh> "You've got it the other way around", he would say.
+[14:14] <siddhesh> I would then have to sit for a couple of days to try and figure out what he meant :P
+[14:14] <siddhesh> Tremendous learning, but I almost gave up, given that I was making faster progress in other areas, like qpid and base os.
+[14:15] <siddhesh> I was one of two people in RH who understood the internals of ksh, so I could have easily made the base os engineering team.
+[14:15] <siddhesh> But I was obsessed with toolchains and I knew at that time gcc was beyond me
+[14:15] <siddhesh> so was glibc, but it seemed closer than gcc :)
+[14:15] <siddhesh> The first glibc patch was a huge confidence booster though, and it encouraged me to continue trying harder.
+[14:16] <siddhesh> In the meantime, another interesting (and lucky for me) turn of events happened - Ulrich Drepper, then maintainer of glibc, left RH and ended his contributions to glibc.
+[14:16] <siddhesh> For those who don't know, Uli was the major contributor to glibc for decades and his attitude repelled a lot of contributors, almost killing the community.
+[14:17] <siddhesh> After his exit, a community started forming around it with the original author of glibc (Roland McGrath), Carlos O'Donell, Joseph Myers and a few others rebooting the project.
+[14:17] <siddhesh> This also left a gap in the RH toolchain team and they were looking for a glibc engineer to fill the gap.
+[14:17] <siddhesh> Jeff Law (those who don't know, he is the demi-god of the gcc community) was holding fort with glibc while they looked for a replacement.
+[14:18] <siddhesh> I had become quite hands-on with the code base and was helping Jeff in whatever limited capacity I could from L3.
+[14:18] <siddhesh> However when I saw the opening, I dropped him an email and asked him if I qualified.
+[14:18] <siddhesh> He said "why not!" and I applied, thinking that the worst that could happen was that I would get rejected.
+[14:18] <siddhesh> Nisha (my wife) was instrumental in that thought, including the one where I made the move to RH.
+[14:18] <siddhesh> I studied compilers furiously for the interview and ended up getting that job.
+[14:19] <siddhesh> I also realized during the interview that I actually *just knew* a lot of things from having worked on them and solving problems
+[14:19] <siddhesh> the reading I did wasn't very helpful, just aided my knowledge
+[14:19] <siddhesh> Anyway, because of my cheap Indian salary, they could afford to hire another glibc engineer - Carlos O'Donell.
+[14:19] <siddhesh> That started the best 2.5 years of my career.
+[14:20] <siddhesh> Carlos and I became a sort of dream team (and great friends now, even after leaving RH) where we helped rebuild the glibc community.
+[14:20] <siddhesh> Actually Carlos did most of the community building work with Joseph Myers and Roland, but hey, I think I can sneak in some credit ;)
+[14:20] <siddhesh> The entire toolchain team at RH was just incredible, each with their own specialty.  That is where I learned a lot, just listening to all the conversations.
+[14:20] <siddhesh> From concurrency discussions with Torvald Riegel to TLS stuff with Alex Oliva
+[14:21] <siddhesh> In fact, back in 2013 we were at a conference in Mountain View and Torvald and Alex argued about something (I can't remember what) the whole week!
+[14:21] <siddhesh> and I remember that being a very enlightening week for me because I learned a lot from their arguments.
+[14:22] <siddhesh> Throughout the 2.5 years at RH I realized that one thing was constant:
+[14:22] <siddhesh> every time I learned something new, there was something else waiting to be discovered
+[14:22] <siddhesh> so the more I knew, the less I knew.
+[14:22] <siddhesh> The more I learn about these increasingly complicated machines, the more I realize how much I don't know.
+[14:23] <siddhesh> I guess the takeaway from this is that it's easy to look at me or any other maintainer and think that we can do no wrong.
+[14:23] <siddhesh> But we do, all the time.
+[14:23] <siddhesh> The difference is that we fix our mistakes and learn from them.
+[14:23] <siddhesh> And of course the fact that we have just managed to fail more than others :)
+[14:24] <siddhesh> So right now my struggle is with gcc, the unknown frontier
+[14:24] <ahole[m]> !
+[14:24] <siddhesh> I'm continuously failing there, but only those who know I'm working on it can see that unfortunately
+[14:25] <siddhesh> anyway, that was my story, so I'm open for questions, tech, non-tech, all types of questions are OK!
+[14:25] <siddhesh> next
+[14:25] <ahole[m]> Now you have shifted to gcc from glibc?
+[14:25] <CYber_freak_> !
+[14:26] <siddhesh> not shifted really, just added an interest.  There are optimizations I can hand-write in glibc, but then there are optimizations that gcc would do for me.  I am trying to explore how I can make gcc do that.
+[14:26] <santoshShaw> !
+[14:26] <siddhesh> and miserably failing right now, but some day I'll succeed :P
+[14:27] <siddhesh> next
+[14:28] <ahole[m]> siddhesh: Failing is not really a factor. Even I start looking for projects where I can contribute in terms of code and eventually end up doing nothing at all.
+[14:28] <mriyam> !
+[14:28] <CYber_freak_> What advice would you give to someone starting out pretty late , final year student :-P with an average programming skills but with the whole idea of open source , thanks to those meetup groups.
+[14:28] <ahole[m]> siddhesh:  I guess you are in a better position.
+[14:28] <jasonbraganza> !
+[14:28] <siddhesh> ahole[m], I think that has to do with the 'scratch your itch' bit.  It's all good trying to find a project to contribute to, but you won't end up doing much if you don't have skin in the game.
+[14:29] <siddhesh> antidialer was an itch for me that I scratched.
+[14:29] <siddhesh> ayttm was a work item that philip tossed and I grabbed.
+[14:29] <siddhesh> and then once I grabbed it, I had to work on it - that's where obsession took over.
+[14:30] <siddhesh> we toss these kinds of problems in all the time
+[14:30] <siddhesh> like the pthread docs problem I keep mentioning to everyone who then promptly starts avoiding me :)
+[14:30] <siddhesh> they key is to grab these opportunities because without them you'll be stuck waiting for that itch to scratch.
+[14:30] <siddhesh> next
+[14:31] <santoshShaw> have you created/added any new library in glibc?<eof>
+[14:31] <santoshShaw> What about pthread docs?<eof>
+[14:32] <siddhesh> no new libraries (because they're an ABI event that we would usually keep to a minimum).  but I have added a couple of new features - microbenchmarks to measure function performance and lately, tunables to tweak settings in glibc.
+[14:32] <CYber_freak_> !
+[14:32] <siddhesh> to mention a couple - I've worked on a bunch of other subsystems over time from math (multiple precision math performance) to malloc and nscd.
+[14:33] <santoshShaw> siddhesh: what is nscd?
+[14:33] <siddhesh> the pthread docs are mostly non-existent.  There's a glibc manual online that should have a description of all the pthread functions but it doesn't
+[14:33] <siddhesh> We need volunteers to write documentation for it based on their reading of the glibc pthread implementation.
+[14:34] <siddhesh> nscd is name server caching daemon.  google will help you understand better what it is :)
+[14:34] <siddhesh> next
+[14:34] <mriyam> "Mind you, problem analysis - I never really wrote an original patch." What did this mean?
+[14:34] <siddhesh> oh, it meant that I had looked at tickets, found out what was wrong but did not know how to fix it.
+[14:35] <mriyam> So what did you do then?
+[14:35] <mriyam> To help with the ticket.
+[14:35] <ashwanig> !
+[14:35] <siddhesh> I had accomplished the bit about udnerstanding the problem, but with a complex code base such as glibc, it is often hard to come up with a fix given the various tradeoffs one may have to make.
+[14:35] <siddhesh> I wrote up a detailed description of what I found and how I found it.  And then left it to engineering to decide what to do.
+[14:36] <siddhesh> https://sourceware.org/bugzilla/show_bug.cgi?id=1190
+[14:36] <siddhesh> here's an example of how even a one line change in glibc could have huge implications.
+[14:36] <siddhesh> It was one of the earliest fixes I had posted and had to give up because the problem was way beyond my scope of knowledge then.
+[14:37] <siddhesh> next
+[14:37] <jasonbraganza> What advice would you give to a even late starter a 38 year old who’s just started learning programming basics and wants to use software programming as his next career change? :P
+[14:37] <siddhesh> heh, don't lose hope, you're not *that* old :)
+[14:37] <siddhesh> at 35 I am among the younger gcc/glibc programmers
+[14:37] <jasonbraganza> :)
+[14:38] <jasonbraganza> the journey you described - 10-12 years?
+[14:38] <siddhesh> age is really just a number when it comes to programming. If anything, you're much better placed to understand subtleties of programming complex systems
+[14:38] <siddhesh> I started my career in 2006, but I started hacking on glibc in 2011 or so
+[14:38] <siddhesh> so about 6-7 years
+[14:39] <siddhesh> 6-7 years for toolchains that is
+[14:39] <siddhesh> next
+[14:39] <jasonbraganza> thank you :)
+[14:39] <CYber_freak_> Same question :-) as jasonbraganza but I am a final year student and learning to write code efficiently and grasping programming fundamentals.
+[14:39] <poojaencoded> !
+[14:39] <CYber_freak_> so I guess you already answered it :-)
+[14:40] <siddhesh> I am of a slightly different belief there; I'd say write code to solve your problems first and then look at how you can improve it to make it efficient, beautiful, etc.
+[14:40] <siddhesh> over time, the beauty and efficiency will come in naturally, but if you make that a focus too early you'll lose sight of the goal.
+[14:40] <mriyam> !
+[14:41] <siddhesh> programming, hacking, etc. is an interest, not a goal.  Goals are what you could use programming to achieve.
+[14:41] <siddhesh> next
+[14:41] <CYber_freak_> thank you : -)
+[14:41] <ashwanig> Can you share some tips on reading code or some difficulties you faced while learning to read code? <eof>
+[14:42] <siddhesh> Oh the biggest difficulty usually is trying to figure out where to start
+[14:42] <im_mohsin> !
+[14:42] <siddhesh> however it's a bit easier with open source because there's usually a pattern in how code is configured and built.
+[14:42] <deepika> !
+[14:42] <siddhesh> as for trying to figure out where to start, the problem you're trying to solve should tell you that.
+[14:43] <siddhesh> Look for the offending function/file and then start backtracking from there to main()
+[14:43] <siddhesh> or whatever the equivalent of entry point in your programming language
+[14:43] <siddhesh> it's a slow and often frustrating grind but eventually in some years you'll find yourself understanding patterns of almost completely alien code before you've read a couple of files.
+[14:44] <siddhesh> it'll take years though :)
+[14:44] <ashwanig> should I use debugger while reading code?
+[14:44] <siddhesh> next
+[14:44] <poojaencoded> what advice  would you give to a final year student who little bit about programming and haven't contribute anything  for open source and don't know more about it
+[14:44] <siddhesh> ashwanig, oh yes, extensively, if that's how it works for you
+[14:44] <ashwanig> siddhesh, okay, thanks :)
+[14:45] <poojaencoded> but want to learn python and want to contribute
+[14:45] <siddhesh> poojaencoded, hang out on these channels and mailing lists, go to meetups and workshops, look out for maintainers looking for volunteers to work on their project.
+[14:45] <vaibhavlohani> !
+[14:45] <kishore> !
+[14:46] <siddhesh> if you have a maintainer asking for help, half of your battle is won because (s)he will have an interest in making sure you succeed.
+[14:46] <siddhesh> next
+[14:46] <mriyam> "It was one of the earliest fixes I had posted and had to give up because the problem was way beyond my scope of knowledge then."
+[14:46] <mriyam> Did you give up on that issue? When do you know when to give up?
+[14:46] <siddhesh> I gave up because I did not understand even a single line of the discussion that happened on the mailing list in response to my patch :)
+[14:47] <siddhesh> I had other tickets to get to because of which I had to put it on the backburner
+[14:47] <siddhesh> and then when I finally got to the point of understanding what was required to fix it, I realized that it is not worth the effort.
+[14:48] <siddhesh> next
+[14:48] <mriyam> Thanks for answering questions that may have sounded silly. <eom>
+[14:48] <im_mohsin> siddhesh, There are lots of resources to learn anything and its overwhelming for newbies. What is your single most valuable piece of advice on learning something new like a pattern you followed to master something?(Not just related to Technology)
+[14:48] <vaishali_> !
+[14:49] <mbuf> !
+[14:49] <siddhesh> im_mohsin, With respect to technology, solving bugs.  The analogue in life in general is finding something that bothers you enough that you want to invest yourself in fixing it.
+[14:49] <siddhesh> If you're not the kind that can read the OS Tanenbaum book from end to end, then your approach should be to pick problems to solve.
+[14:50] <siddhesh> that automatically reduces the surface of the technology (or problem statement) you have to cover
+[14:50] <siddhesh> next
+[14:50] <deepika> What would you suggest ,to learn things on the go with the problem or to first get some understanding of related concepts a bit ,does it effect hacking and the productivity as you tried both in two phases of your life ?
+[14:51] <im_mohsin> siddhesh, thanks :)
+[14:51] <siddhesh> deepika, the former helps in most cases, but there are times when you need to keep the computer aside and do some serious reading.
+[14:51] <siddhesh> In fact I have a story about that :)
+[14:52] <siddhesh> back in 2012-13, I did my first big project, which was to try and speed up the slow path of all of the math functions.
+[14:52] <siddhesh> However, I had no clue how those functions are written and if you look at their implementation (I've added some comments in some functions now but...) they're ugly and arcane
+[14:52] <asraisingh> !
+[14:52] <siddhesh> because they were written by mathematicians in IBM
+[14:53] <siddhesh> and they were written with the IBM powerpc processors
+[14:53] <siddhesh> so I had to get an ACM subscription and hunt for a paper by Schmuel and Gal upon which the pow function implementation was based
+[14:53] <siddhesh> and then read up on how math functions are written in general
+[14:54] <siddhesh> (i.e. argument range reduction, table lookup, etc.)
+[14:54] <siddhesh> that was a very frustrating 1-2 months of my life because I was used to problem solving, not just reading like that
+[14:54] <siddhesh> but at the same time I was doing math again, which helped tide through it.
+[14:55] <siddhesh> Similar situation last month, when I have had to read about some CPU hardware prefetcher before I could even touch any code
+[14:55] <siddhesh> throughout that 1-2 months I felt like I was going to be kicked out of my job because I had not written any code
+[14:56] <siddhesh> but the end result was good - I improved pow 8 times and some other functions by similar factors
+[14:56] <jasonbraganza> hoo boy!
+[14:56] <siddhesh> it wasn't enough though because those paths were about 1000x slower :P
+[14:57] <siddhesh> so yeah, both approaches are valid, you have to decide which one to take and often you'll take to wrong path and then return to take the correct one.
+[14:57] <siddhesh> next
+[14:57] <vaibhavlohani> How would you compare system level programming with application level programming ?
+[14:57] <deepika> siddhesh: :)
+[14:57] <siddhesh> vaibhavlohani, there are different problems to solve in both layers
+[14:58] <siddhesh> at the application level, you assume that the computer is a sane and ideal computing machine and focus on the business problem
+[14:58] <siddhesh> you assume that the compiler produces ideal code, the runtimes are perfectly tuned, memory systems work well, etc.
+[14:58] <siddhesh> With system programming the problem statement is the computer itself
+[14:59] <siddhesh> i.e. how do I eek out the last bit of performance form this CPU+caches+memory+disk combination?
+[14:59] <siddhesh> how do I get this new device working?
+[14:59] <siddhesh> how do I isolate environment X from environment Y?
+[15:00] <siddhesh> so basically application programming looks up at businesses and systems programming looks down at the computer.
+[15:00] <siddhesh> This also brings another interesting distinction between them
+[15:01] <siddhesh> the problem domain for application programs can be made limited (except for things like SAP) and due to that the complexity can be layered more efficiently
+[15:01] <siddhesh> with systems however, you're often making huge amounts of tradeoffs at every level and despite the tradeoffs, trying to equally good (or equally bad, depending on your mood that day) to all applications that use your services.
+[15:01] <siddhesh> next
+[15:02] <kishore> How much time does it take to learn debugging ? Is there a quick way to learn debugging ?
+[15:02] <vaibhavlohani> Thanks siddhesh .
+[15:02] <siddhesh> kishore, years :)
+[15:02] <siddhesh> and you never quite 'learn' it :)
+[15:02] <kishore> ;)
+[15:02] <kishore> Alright, thanks
+[15:02] <siddhesh> kishore, for a less snarky answer - debugging is less about the tools and more about imagination
+[15:03] <siddhesh> kishore, you can learn tools in days or weeks, but you will have to keep debugging different kinds of problems to actually arrive at different strategies to tackle problems
+[15:03] <siddhesh> and developing that can take years
+[15:04] <siddhesh> the 'good debugging skills' problem is similar to the 'good programming skills' problem, they're both never realy possible :)
+[15:04] <siddhesh> trivia: some of the best debuggers are usually good security experts, because security experts are basically people who are good at finding bugs
+[15:04] <siddhesh> next
+[15:05] <vaishali_> Siddhesh, not sure if this is a relevant question for a glibc maintainer but i'm just going ahead with this as you mentioned your love for system programming. :) Have you tried Rust? If yes then, what are your views on it [specifically it's memory management] as someone who has years of experience with system level stuff?
+[15:05] <siddhesh> vaishali_, I haven't actually tried rust for reasons I mentioned earlier - I have never had a use for it.
+[15:06] <siddhesh> I've heard good things about it though
+[15:06] <siddhesh> in general I don't love or hate any programming languages.  I am comfortable with some and I like some constructs in some programming languages
+[15:06] <siddhesh> but that doesn't translate to any kind of unconditional love
+[15:06] <siddhesh> it's mostly the case of the right tool for the job
+[15:07] <siddhesh> I've done ARM assembly programming though and I can tell you I find it cleaner than x86 assembly.
+[15:07] <siddhesh> but if I had an x86 problem to solve, I wouldn't think twice before diving into it
+[15:08] <siddhesh> next
+[15:08] <mbuf> siddhesh, is there anything that you don't like about F/OSS?
+[15:08] <vaishali_> siddhesh, Ok. Sounds reasonable. Thanks!
+[15:08] <siddhesh> mbuf, haha, bait!
+[15:09] <siddhesh> mbuf, I am not very fond of copyright assignments
+[15:09] <mbuf> siddhesh, we have to live with it though
+[15:09] <mbuf> siddhesh, :)
+[15:10] <siddhesh> mbuf, I think we can live without it; it's something that michael kerrisk convinced me of a couple of years ago
+[15:10] <vaibhavlohani> !
+[15:10] <siddhesh> i.e. court cases have been won and gpl has been enforced in courts without needing copyright assignment
+[15:11] <mbuf> siddhesh, mostly for another day's discussion; but, enforcing copyright has helped
+[15:11] <mbuf> <eom>
+[15:11] <siddhesh> It's arguably easier for the FSF, but it's just a personal disagreement I grudgingly live with because of my interest in the project
+[15:11] <mbuf> siddhesh, okay
+[15:11] <siddhesh> mbuf, yeah, it's a long discussion :)
+[15:11] <siddhesh> next
+[15:11] <asraisingh> siddhesh, answered. Thanks
+[15:11] <siddhesh> ok
+[15:11] <siddhesh> next
+[15:11] <mbuf> later
+[15:12] <vaibhavlohani> As you mentioned you sometimes spent days or even weeks in figuring out problems, how did you deal with deadlines?
+[15:12] <siddhesh> vaibhavlohani, working nights and weekends helped :)
+[15:13] <siddhesh> in many cases for work related stuff I would pass problems on to L3 (which relaxes my deadlines) and then continue working on it whenever I had time
+[15:13] <siddhesh> this was especially the case for many of the ksh problems because there was only one other guy who would pick at them and he would often be busy with something else :)
+[15:14] <siddhesh> vaibhavlohani, but yeah, sleeping 3 hours a day, spending weekends hacking, etc. was how I dealt with it
+[15:14] <siddhesh> I don't recommend it, but given the limitations of the system there's not much else that can be done
+[15:14] <siddhesh> and TBH, I should have invested all this time when I was in college, when I was busy goofing off
+[15:15] <siddhesh> next
+[15:15] <vaibhavlohani> When time is less, do you prefer getting things done on time or getting them done the right way ?
+[15:16] <siddhesh> vaibhavlohani, I usually try to find a middle ground and if there is none then first on time and then a second iteration to get it right.
+[15:16] <siddhesh> you miss deadlines and you lose the confidence of your manager/customer, so that's the first thing to manage
+[15:17] <vaibhavlohani> siddhesh, thanks :)
+[15:17] <siddhesh> you're welcome
+[15:17] <siddhesh> any more questions?
+[15:18] <kushal> siddhesh, queue is empty :)
+[15:18] <siddhesh> good, so I guess we are done here :)
+[15:18] <kushal> siddhesh, Thank you :)
+[15:18] <cran-cg>  !
+[15:18] <siddhesh> ah, the latecomer!
+[15:18] <kushal> siddhesh, you have the last one :)
+[15:18] <siddhesh> next
+[15:18] <siddhesh> next
+[15:18] <kushal> siddhesh, he does not know how type !
+[15:18] <cran-cg> !
+[15:18] <kushal> siddhesh, not your or batul's fault.
+[15:18] <siddhesh> cran-cg, looks like you put a space before !
+[15:18] <siddhesh> next
+[15:19] <kushal> * how to
+[15:19] <poojaencoded> !
+[15:19] <cran-cg> How and where should we contact you for further guidance ?
+[15:20] <bhavin192> cran-cg, he is active here
+[15:20] <kushal> cran-cg, there is an IRC channel #dgplug
+[15:20] <siddhesh> siddhesh AT gotplt DOT org if you want to email me
+[15:20] <siddhesh> and I'm usually here on #dgplug
+[15:20] <siddhesh> or @siddhesh_p on twitter in case you want to see cat videos I retweet :P
+[15:20] <siddhesh> next
+[15:20] <poojaencoded> siddhesh,firstly i started  java,it is awesome language.But while solving problems i got error and stuck in there packages and leave it ,then i switched to python and again while solving  problems and got error and get demotivated and i quit,nowadays i am doing nothing with programming languages :(
+[15:21] <cran-cg> Thanks siddhesh kushal and bhavin192 :)
+[15:21] <poojaencoded> what to do ?
+[15:21] <siddhesh> poojaencoded, that is normal and that's how I used to deal with things in college.
+[15:21] <poojaencoded> :(
+[15:21] <siddhesh> poojaencoded, but that was because I was not personally invested in solving those problems
+[15:22] <siddhesh> so imagine if your job was to fix it and you'd lose your job if you could not come up with something
+[15:22] <poojaencoded> and only one month left for placement in my college
+[15:22] <siddhesh> that becomes a motivator.  I have an intrinsic motivator that says "Oh you can't understand this?  Oh you're so stupid!"
+[15:22] <siddhesh> and then I have to go and try to prove it wrong :P
+[15:23] <siddhesh> poojaencoded, placements have nothing to do with this.  you need to find your motivator
+[15:24] <siddhesh> poojaencoded, I was trying to think of a motivation for you but TBH I don't know.  You'll have to find your own.
+[15:24] <poojaencoded> TBH?
+[15:24] <siddhesh> To Be Honest
+[15:25] <kushal> To be honest.
+[15:25] <jasonbraganza> to be honest
+[15:25] <poojaencoded> okay
+[15:25] <gauravsitlani> poojaencoded, i have seen people getting placed who don't even know much coding ( not demoralizing you ), don't worry about it.
+[15:25] <siddhesh> poojaencoded, keep plugging at it.  Catch hold of one project and try to complete at least one task.  That euphoria will hopefully take you through the next one.
+[15:26] <jasonbraganza> “I did not understand even a single line of the discussion” - so I’m not the only one, siddhesh :)
+[15:26] <ikshitij> gauravsitlani: true that !
+[15:26] <siddhesh> jasonbraganza, oh yeah, bouncers are usually all over the place.
+[15:26] <poojaencoded> i am not worried about my placements,because i want to do higher studies
+[15:26] <siddhesh> I recently discovered that something that I was talking about went bouncer to someone who has about 20 years of experience in toolchain
+[15:27] <siddhesh> it just happened to be something I knew and he didn't
+[15:27] <ikshitij> siddhesh: the 'motivator' word, Sometime it could be you yourself ! Right ?
+[15:27] <siddhesh> ikshitij, yeah it could, but I've found the "you can do it" bit often only works in movies ;)
+[15:28] <siddhesh> but yeah, it does work for some
+[15:28] <siddhesh> OK, any other last minute questions?
+[15:28] <ikshitij> siddhesh: :)
+[15:29] <kushal> siddhesh, We can end now
+[15:29] <kushal> Roll Call
+[15:29] <jasonbraganza> Jason Braganza
+[15:29] <im_mohsin> Mohsin Mumtaz
+[15:29] <Vamsi3296> Vamsi Krishna
+[15:29] <siddhesh> yeah, other questions (if any) can be done offline
+[15:29] <ashwanig> Ashwani Kumar Gupta
+[15:29] <ikshitij> Kshitij
+[15:29] <ghishadow> Suraj Ghimire
+[15:29] <kvy__> kumar vipin yadav
+[15:29] <priyansh> Priyansh Sourav
+[15:29] <vaibhavlohani> Vaibhav Lohani
+[15:29] <deepika> Deepika Upadhyay
+[15:29] <skat-sd> Saikat Dey
+[15:29] <Cyber_freak> Pradhvan Bisht
+[15:29] <Phi_mb> Mohit
+[15:29] <RIcharD_> Mayank gupta
+[15:29] <joyhimanshu> Himanshu Awasthi
+[15:29] <asraisingh> Abhishek Singh
+[15:29] <abhinavshirur> Abhinav Shirur
+[15:29] <atultherajput> Atul Krishna
+[15:29] <mdbk> Onyinye Madubuko
+[15:29] <cran-cg> Chiranjeev Gupta
+[15:29] <aryan1308> aryan tripathi
+[15:29] <knrai> Krishnanand Rai
+[15:29] <Ani_> Aniket Uttam
+[15:29] <sitlanigaurav[m]> Gaurav Sitlani
+[15:29] <ahole[m]> kshithij Iyer
+[15:29] <championshuttler> Shivam Singhal
+[15:29] <mriyam> Mriyam Tamuli
+[15:29] <ravindra> Ravindra Lakal
+[15:30] <poojaencoded> i am worried because i don't know anything and not doing programming regularly and quit everytime while getting error
+[15:30] <poojaencoded> pooja kumari singh
+[15:30] <CHOCOS> neha kandpal
+[15:30] <ahole[m]> poojaencoded: That's the start of learning.
+[15:30] <bhavin192> Bhavin Gandhi
+[15:30] <yurii> yurii pylypchuk
+[15:30] <bootstrap>  Mehboob Zaman
+----END CLASS----

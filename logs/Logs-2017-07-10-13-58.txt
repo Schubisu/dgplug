@@ -1,0 +1,698 @@
+----BEGIN CLASS----
+[13:58] <kushal> #startclass
+[13:58] <schubisu> Robin Schubert
+[13:58] <kushal> Roll Call
+[13:58] <skat-sd> Saikat Dey
+[13:58] <_RicharD> Mayank gupta
+[13:58] <anuGupta> Anu kumari Gupta
+[13:58] <pavan> pavan yejare
+[13:58] <Phi_mb> Mohit
+[13:58] <ghishadow> Suraj Ghimire
+[13:58] <ashwanig> Ashwani Kumar Gupta
+[13:58] <messifc> Messi fC
+[13:58] <balaji> Balaji
+[13:58] <schubisu> Robin Schubert
+[13:58] <Padfoot7> Mohd Omama
+[13:58] <abhinavshirur> Abhinav Shirur
+[13:58] <ikshitij> Kshitij
+[13:58] <CHOCOS1> neha kandpal
+[13:58] <lucifer> Atul kumar
+[13:58] <akshayg96> Akshay Gaikwad
+[13:59] <NikitaK3> Nikita Kotak
+[13:59] <deepika> Deepika Upadhyay
+[13:59] <championshuttler> Shivam Singhal
+[13:59] <yurii> yurii pylypchuk
+[13:59] <cignatious> sharon
+[13:59] <casper01> Mayur khomane
+[13:59] <samridhia> Samridhi Agarwal
+[13:59] <skarpy> Akash pathak
+[13:59] <ani_> Aniket uttam
+[13:59] <rkased> Razy Kased
+[13:59] <gauravsitlani> Gaurav Sitlani
+[13:59] <kvy> kumar vipin yadav
+[13:59] <Vamsi3296> Vamsi Krishna
+[13:59] <poojaencoded> pooja kumari singh
+[13:59] <jasonbraganza> Jason Braganza
+[13:59] <im_mohsin> Mohsin Mumtaz
+[13:59] <bhavin192> Bhavin Gandhi
+[14:00] <Cyber_freak> pradhvan bisht
+[14:00] <kushal> Any question related to the rst session last week?
+[14:00] <kushal> .clearqueue
+[14:00] <tenida> kushal: Error: "clearqueue" is not a valid command.
+[14:01] <kushal> clearqueue
+[14:01] <avik> avik mukherjee
+[14:01] <ashwanig> !
+[14:01] <soumam007> Soumam Banerjee
+[14:01] <kushal> next
+[14:02] <ashwanig> Why '-' is used both for section and subsection?<eof>
+[14:02] <kushal> ashwanig, It can be used in any place, but based on where did you use it first time.
+[14:02] <Anuja> Roll call-Anuja Agarwal
+[14:02] <ashwanig> kushal, ok understood
+[14:02] <kushal> ashwanig, if you first time use it for section, you can keep using it for section in the file.
+[14:03] <theparadoxer02_> Roll call - Mannu Gupta
+[14:03] <ahole[m]> kshithij iyer
+[14:03] <kushal> Any other question?
+[14:04] <ashwanig> And some section symbols were hendering to h7, h8 tags in html
+[14:04] <ashwanig> Why was that?<eof>
+[14:04] <ashwanig> s/hendering/rendering
+[14:04] <kushal> ashwanig, Read about HTML tags :)
+[14:04] <ikshitij> !
+[14:04] <kushal> next
+[14:04] <avik_> !
+[14:05] <skarpy> !
+[14:05] <kushal> next
+[14:05] <ikshitij> In table, Few cells got grey background and fee remains as it is. Why ?
+[14:05] <avik_> other than emphasise, can we do bold or underline?
+[14:06] <joyhimanshu> rollcall: Himanshu Awasthi
+[14:06] <kushal> ikshitij, that depends on the HTML CSS
+[14:06] <atultherajput> Atul Krishna
+[14:07] <anuGupta> !
+[14:07] <kushal> avik_, Have you read the restructuredtext reference document?
+[14:07] <avik_> kushal, the slides you game?
+[14:07] <im_mohsin> !
+[14:07] <avik_> *gave?
+[14:07] <kushal> avik, No
+[14:08] <avik_> kushal, can you please tell me what else to read?
+[14:08] <kushal> avik_, Let me ask a different question, have you read the whole document/presentation?
+[14:08] <kushal> avik_, and the links given in that?
+[14:08] <avik_> yes
+[14:08] <avik_> ooo, the links at the end, no
+[14:08] <kushal> Are you sure?
+[14:09] <kushal> avik_, Then first read that
+[14:09] <kushal> http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
+[14:09] <kushal> next
+[14:09] <skarpy> got the answer. :) <eof>
+[14:09] <avik_> ok
+[14:09] <skat-sd> avik: this:  http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
+[14:09] <kushal> next
+[14:10] <kushal> next
+[14:10] <im_mohsin> question already answered
+[14:10] <anuGupta> How to implement doctest blocks?<eof>
+[14:10] <kushal> anuGupta, implement means?
+[14:10] <kushal> On Friday I also said that we will look into doctest later when we learn Python.
+[14:10] <anuGupta> How does it works?
+[14:11] <anuGupta> Ok
+[14:11] <soumam_> sorry my net connection got disconnected
+[14:11] <kushal> next
+[14:13] <adas0496> Sorry, I missed the beginning. Can someone please tell me the topic?
+[14:13] <im_mohsin> adas0496, kushal answering question from last class
+[14:13] <skarpy> adas0496 follow.
+[14:14] <adas0496> im_mohsin: skarpy: okay. thanks.
+[14:16] <kushal> On 30th June, Gnome project did a tweet.  https://twitter.com/gnome/status/880601488346632194
+[14:16] <kushal> To that there were various different replies, a few of them are like this one https://twitter.com/BrendanClemmer/status/880777686033076224
+[14:17] <kushal> As a reply Miguel De Icaza made this particular tweet: https://twitter.com/migueldeicaza/status/880813770653782017
+[14:18] <kushal> Please have a look at the reply.
+[14:19] <kushal> Tell me what do you think about the comment from Miguel?
+[14:19] <ravindra> Roll call Ravindra Lakal
+[14:19] <realslimshanky> rollcall: Shashank Kumar
+[14:20] <avik_> kushal, what does "ship software" mean?
+[14:21] <gauravsitlani> I feel its right that people stood for the community.
+[14:21] <adas0496> Abhishek Das
+[14:21] <adas0496> I didn't know that Gnome and FSF are political movements
+[14:22] <kushal> adas0496, Okay.
+[14:22] <Phi_mb> Like any political movement, free and open source software are meant for good.
+[14:22] <jasonbraganza> Miguel was right. We code and work as a community. Seems only fair we stand for other’s rightts
+[14:22] <gauravsitlani> I'm thinking if Aaron Swartz was alive, he would have really supported that statement.
+[14:22] <poojaencoded> i am not in twitter
+[14:22] <Phi_mb> And we should take a stand for those who contribute to these movements.
+[14:22] <jiteshpabla> I couldn't really understand the tweet
+[14:22] <gauravsitlani> And done much more.<eom>
+[14:22] <kushal> jiteshpabla, Okay.
+[14:23] <ahole[m]> i think gnome is right cause community is made of people, so what good is a community if it can't stand for people.
+[14:23] <adas0496> To effectively realize the goals of FS movement, however, political support is necessary
+[14:23] <kushal> avik, search about what does it mean by shipping software.
+[14:23] <ravindra> Free software is a movement by the people and for the people and Gnome is a free software so there is nothing wrong if they care for such issues
+[14:23] <im_mohsin> jasonbraganza, yes absolutely
+[14:23] <Cyber_freak> I think he(miguel) is right  as in the immigration ban gnome is showing support and open source community is all about different people helping and building communites that function as a whole.
+[14:24] <samridhia> I think it should be choice of Gnome and if they are doing it for community's welfare then people should not be against it.
+[14:24] <arush> Roll Call: Arush
+[14:24] <ikshitij> kushal: I think, that's right! A community doesn't only mean for working together but also supporting each other !
+[14:26] <kushal> Okay.
+[14:26] <bhavin192> I think, supporting some people from community during their hard time is not a bad thing
+[14:27] <cignatious> we come together without checking the religion and origin of other people and that is what matters; contributing and collaborating and achieving goals together
+[14:27] <skarpy> bhavin192: hard time?
+[14:27] <kushal> To know about the history of hacking and Free Software movement, we have to go back to 1955-1956, to the Massachusetts Institute of Technology (MIT).
+[14:27] <kushal> TX-0 (pronounced tixo) was an early, fully transistorized computer and contained a then-huge 64K of 18-bit words of magnetic core memory.
+[14:28] <im_mohsin> samridhia, i feel standing for ones right is not a choice. They did it for showing that contribution and collaboration of every member is only way forward for a inclusive community
+[14:28] <kushal> t was located on the second floor of building 26, at the Research Laboratory of Electronics (RLE), at MIT
+[14:28] <ikshitij> avik_ shipping "anything" means delivering it to someone (customer) ! (As per my knowledge)
+[14:28] <kushal> (which later spun off to become the MIT Artificial Intelligence Lab).
+[14:28] <kushal> Before this computer, they had access to IBM computers (which were very restrictive in nature).
+[14:29] <kushal> https://en.wikipedia.org/wiki/TX-0 this is the computer.
+[14:29] <soumam_> !
+[14:30] <kushal> People who did not have official access to this computer started figuring out better ways to get access.
+[14:30] <kushal> next
+[14:30] <soumam_> kushal,  restrictive in the sense?
+[14:30] <soumam_> ok proceed
+[14:30] <soumam_> :)
+[14:31] <kushal> soumam007__, like they did not have any access to the source code of the operating system.
+[14:31] <soumam_> ok
+[14:32] <kushal> Many people who booked time to access the computer may have skipped sleep at nights to gain access (think of access times like 3 AM),
+[14:32] <kushal> and an enthusiastic group of people (mostly from the Tech Model Railroad Club) would try to access the computer in that free time.
+[14:32] <kushal> Working on this computer became a way of life.
+[14:32] <kushal> Groups of people started staying back whole nights on the computer, and they made sure no time was wasted.
+[14:33] <kushal> Is this clear till now?
+[14:33] <yurii> yes
+[14:33] <Cyber_freak> yes
+[14:33] <championshuttler> yes
+[14:33] <ashwanig> yes
+[14:34] <Padfoot7> yes
+[14:34] <joyhimanshu> yes
+[14:34] <skarpy> yes
+[14:34] <kvy_> yes
+[14:34] <avik> yes
+[14:34] <NikitaK3> yes
+[14:34] <ahole[m]> yer
+[14:34] <schubisu> yes
+[14:34] <ravindra> Yes
+[14:34] <anuGupta> Yes
+[14:34] <ahole[m]> sorry yes
+[14:34] <deepika> Yes
+[14:34] <kvy> yes
+[14:34] <samridhia>  yes
+[14:34] <ikshitij> Yes
+[14:34] <im_mohsin> kushal, what people actually doing with there access?
+[14:35] <kushal> im_mohsin, Writing code to improve different tools, things which were not possible before.
+[14:35] <kushal> This brings to these people who are known as hackers in this early days of computing.
+[14:35] <kushal> That also brings us to anther big term.
+[14:35] <kushal> Hacker Ethic
+[14:35] <kushal> From Steven Levy’s book:
+[14:36] <kushal> >Access to computers—and anything which might teach you something about the way the world works—should be unlimited and total. Always yield to the Hands-On Imperative!
+[14:36] <rkased> yes
+[14:36] <kushal> This boils down to the idea of a world, where you can fix things. If a hacker thinks something is wrong, they can open it up, and fix it.
+[14:36] <kushal> You can build exciting things on top of existing knowledge. And, to
+[14:36] <kushal> do so, hackers believed that …
+[14:36] <kushal> > All information should be free.
+[14:37] <kushal> The only way this was possible by exchanging information in a free manner. There was to be no boundary around information.
+[14:37] <kushal> Now, MIT has a big history many amusing hacks by its students.
+[14:38] <kushal> If you want to know about the history of famous hacks in MIT, have a look at http://hacks.mit.edu/
+[14:39] <ghishadow> i was literally reading about this before class, what a coincidence :)
+[14:40] <kushal> Next
+[14:40] <soumam_> kushal cant understand the website
+[14:40] <kushal> soumam007__, which website?
+[14:41] <jasonbraganza> soumam_ - i'll explain after class
+[14:41] <soumam_> the ink you just shared
+[14:41] <soumam_> hacks.mit.edu
+[14:41] <soumam_> s/ink/link
+[14:41] <soumam_> ok jasonbraganza
+[14:42] <kushal> ### The PDP-1 days
+[14:42] <kushal> In 1961, a new computer from DEC was delivered to MIT, the PDP-1.
+[14:42] <kushal> The
+[14:42] <kushal> price for this computer was much lower compared to the TX-0.
+[14:43] <kushal> $12000 iirc
+[14:43] <skarpy> dollars?
+[14:43] <kushal> $ is dollars
+[14:43] <kushal> It was installed in the room right next to the TX-0.
+[14:44] <kushal> The hackers did not like the existing tooling (assembler) for PDP-1, and so over a weekend, a few people got together and converted the TX-0 assembler for use with the new computer.
+[14:45] <kushal> They started working from Friday, by Monday morning, they had it ready.
+[14:45] <kushal> Between themselves they worked 240+ hours on that.
+[14:45] <kushal> It was said, that were a similar effort made by the computer industry, it would have taken months of effort
+[14:46] <kushal> Because of all the open information available, the hackers of MIT managed to showcase the value of the hacker ethic.
+[14:46] <kushal> * all of the
+[14:46] <ihp_> Amazing. :o
+[14:46] <kushal> The source code of various programs was kept in drawers in the lab, for any one to access.
+[14:46] <kushal> People used to pick up work done by others, then improve the code, and put the new improved tapes right back in the drawer.
+[14:47] <im_mohsin> 240+ hours of works. That's possibly the huge commitment by these hackers :o
+[14:47] <kushal> This way everyone got the chance to learn from work of others and their improvements.
+[14:47] <ihp_> kushal, And that
+[14:48] <kushal> Now think about some problem you worked on, kept the tape in the drawer, went home, when you came back next day morning, someone magically improved the code, and you have new version there.
+[14:48] <ihp_> 's how we humans develops.
+[14:48] <ihp_> kushal: sorry sent by mistake.
+[14:49] <kushal> ### The Chess Story
+[14:49] <kushal> After making a connection between the PDP-1 and the TX-0, he hackers invited Prof. John McCarthy to sit in front of it, and play a game of chess.
+[14:49] <kushal> The information was transferred to the TX-0 one bit at a time, where they had also invited another professor to sit. Both of them were told, they were playing against the computer.
+[14:49] <kushal> :)
+[14:50] <kushal> Only after playing the
+[14:50] <kushal> first few moves, McCarthy tried to find out the reason behind slow output, and then discovered the other professor in the TX-0 room (after following the cable connecting the computers).
+[14:52] <kushal> ### Spacewar!
+[14:52] <kushal> Steve Russell was one of the hackers who had used the TX-0 before and was then working on the PDP-1 system.
+[14:52] <kushal> He had the idea of making an application (a game) which would use the display system and some futuristic sci-fi story of two spaceships battling each other.
+[14:53] <kushal> But, to do so, he would require better sine-cosine routines (think about functions) for the display to work.
+[14:54] <kushal> Kotok (who worked on the assembler), went to visit the DEC folks in a nearby city, and someone there provided him with the source code for the sine-cosine routines.
+[14:55] <kushal> ^^^ Now take some time to think about this, people just went to ask the folks from the company, and they shared the code to solve the problem.
+[14:55] <kushal> After many intense six-eight hour sessions, in February 1962, they had the initial game ready.
+[14:56] <kushal> 2 ships firing torpedoes at each other. But, as usual, the hackers at the lab thought of various improvements they could make, and the game got many new features over time.
+[14:56] <kushal> People would stand in line to play the game (whenever the system was free).
+[14:56] <kushal> https://en.wikipedia.org/wiki/File:Spacewar!-PDP-1-20070512.jpg
+[14:56] <kushal> ^^ that is the picture of an original display.
+[14:57] <soumam_> firing how? no display nothing?
+[14:57] <kushal> soumam007__, Have you opened the photo link?
+[14:58] <kushal> If you have any questions, this is a good time to raise those.
+[14:58] <ihp_> Is that a oscilloscope screen in the picture? <eom>
+[14:59] <soumam_> sorry kushal my irc is getting disconnected frequently i missed the photo link
+[14:59] <im_mohsin> kushal, the DEC guys gave the routine without any resistance?
+[14:59] <vishami3>  soumam https://en.wikipedia.org/wiki/Spacewar!#Gameplay
+[14:59] <kushal> im_mohsin, Nope, they were happy to help.
+[15:00] <avik> ihp_,  some first generation CRT dispaly
+[15:00] <kushal> im_mohsin, They even provided hardware parts to people  at times.
+[15:00] <ahole[m]> How was pdp-1 different from tx-0?
+[15:01] <kushal> ahole[m], read the wikipedia page for both the computer :))
+[15:01] <skat-sd> kushal, the 1st Version control system came in 1982. How did these guys make a stable os for the pdp-1 in 3 days without it?
+[15:01] <gauravsitlani_> i just saw the pic of Vint Cerf playing that game.
+[15:01] <ahole[m]> kushal: okay.
+[15:01] <kushal> skat-sd, They made an assembler, using code in paper.
+[15:02] <kushal> http://www.masswerk.at/spacewar/  this is the game inside our browser, feel free play as much as you want after the session.
+[15:02] <kushal> Now, let us jump into 1970
+[15:02] <im_mohsin> that was really good kushal and spacewar went on to become the classic game of the century :)
+[15:02] <siddhesh> im_mohsin, software was not sold commercially back then
+[15:03] <siddhesh> they were basically experiments people would do and share with each other
+[15:03] <soumam_> hahah they were too brilliant
+[15:03] <kushal> A freshman (math) student from Harvard, Richard M. Stallman heard about the AI computer lab at MIT.
+[15:03] <kushal> He visited the place and found out how open the lab was (compared to Harvard’s computer labs).
+[15:03] <kushal> MIT was famous for the open culture.
+[15:04] <kushal> He also managed to get a job there to write a PDP-11 simulator to run on the lab’s PDP-10.
+[15:04] <kushal> From the very next week, he started visiting the place regularly and working on open terminals.
+[15:04] <kushal>  He was introduced to hackers from the lab.
+[15:05] <kushal> He also liked the idea where hackers would do anything to keep access to the terminals open.
+[15:05] <kushal> That included picking the locks of
+[15:05] <kushal> the doors, removing ceiling tiles, or climbing walls.
+[15:05] <kushal> brb, (another meeting in another channel), please continue discussing
+[15:05] <ikshitij> siddhesh: then who started this trend of selling source code or software ?
+[15:05] <kushal> Even though
+[15:05] <kushal> there were many Academics in the AI Lab, the hacker ethic was accepted as a norm.
+[15:06] <kushal> Okay, I have couple of minutes
+[15:06] <kushal> Stallman started visiting the lab routinely every weekend.
+[15:06] <kushal> A group of hackers used to go out together for dinner (mostly Chinese), and they used to come back and hack through the night.
+[15:06] <jiteshpabla> So, was the hacker ethic still limited to MIT?
+[15:06] <kushal> And sometimes at 3 AM
+[15:06] <kushal> they used to again go out for more Chinese food :)
+[15:06] <kushal> Many of the hackers used to stay up all night including Stallman.
+[15:06] <siddhesh> ikshitij, I don't know TBH, it probably started with hardware companies bundling OSes with their machines without source code
+[15:07] <siddhesh> ikshitij, but then software as a sole business was something microsoft created and perfected
+[15:07] <kushal> With who all here stays up late night and hack on things.
+[15:07] <im_mohsin> siddhesh, i dont think software were not sold commercially back then. They were and licensing was not mostly to protect there creation
+[15:07] <kushal> During the 1970s, computer usage in the labs changed slowly. Many other users (of the other Operating Systems) slowly started adding security features to their systems, which included having password controlled access.
+[15:07] <kushal> The MIT computer science department did install such a system in 1977.
+[15:08] <kushal> Stallman managed to get access to the source code and wrote another program which would then decrypt the password.
+[15:08] <kushal> He mailed the users with a message to change their password to a “carriage return” (just pressing the enter key).
+[15:08] <kushal> All most one-fifth of the staff agreed to this, and they had empty passwords.
+[15:09] <kushal> Stallman joined MIT as a Physics grad student. He spent months in the Lab (he had no apartment at the time).
+[15:09] <siddhesh> im_mohsin, yes, but holding back source code wasn't the norm originally, because the source code was essentially paper tapes and punch cards :)
+[15:09] <kushal> By October 1975, he left his grad classes, and started working in the AI Lab full time.
+[15:09] <kushal> The lab was filled with plenty of such individuals, who never finished their academic degrees.
+[15:09] <siddhesh> s/wasn't the norm/was not possible/
+[15:09] <kushal> The homegrown operating system for the Lab's PDP-10 was called the Incompatible Time Sharing system (ITS).
+[15:10] <kushal> The name was pun on the lab’s original operating system, the Compatible Time Sharing System (CTSS).
+[15:10] <kushal>  ITS was written and maintained by the folks in the Lab (from PDP-6 days).
+[15:11] <kushal> You can see that they did not miss any chance to have fun, if possible, even in names (which continued through out the history of hacks).
+[15:11] <kushal> brb (meeting chat in the other channel).
+[15:14] <gauravsitlani_> How did that culture affect Academics?
+[15:14] <gauravsitlani_> Did people tend to drop out from their courses?
+[15:15] <ahole[m]> gauravsitlani_: yes, it did affect their academics and in some cases people never completed their degrees.
+[15:15] <siddhesh> gauravsitlani_, it coincides with the hippie movement of the 60s and 70s, so the campus was essentially full of the 'free thinkers'
+[15:15] <kushal> gauravsitlani_, Many did not.
+[15:15] <kushal> gauravsitlani_, Which is still a case for many we know, even in India.
+[15:16] <ikshitij> kushal: what type of language they were using ?
+[15:16] <siddhesh> also it would be incorrect to correlate non-completion of degrees with hacker culture. That is more of an American thing, where society is far more pragmatic than any other place like India or even parts of Europe
+[15:16] <im_mohsin> kushal, can you point somecases here in India?
+[15:16] <kushal> im_mohsin, later after the session.
+[15:16] <im_mohsin> sure
+[15:17] <siddhesh> for example, you will see far fewer such stories of dropoutsin EU despite some stellar hackers there (like Linus Torvalds!)
+[15:17] <jiteshpabla> siddhesh: true
+[15:18] <gauravsitlani_> siddhesh, those kinds of things should be encouraged in colleges.
+[15:19] <jasonbraganza> ikshitij - assembly for the most part. (directly coding to the machine with the intructions given by the vendor)
+[15:20] <deepika> kushal How did it spread out of MIT,to even bigger hacker culture ?
+[15:20] <bhavin192> ikshitij, you can see the source code of spacewar
+[15:20] <jiteshpabla> The society was much more relaxed and forgiving back then for this to happen
+[15:20] <siddhesh> there were a number of programming languages by the 70s I think: lisp, C, fortran
+[15:21] <jasonbraganza> siddhesh - was thinking early 60s :) sorry!
+[15:21] <siddhesh> jasonbraganza, paper tapes, punch cards and a keyboard with 1s and 0s maybe :P
+[15:22] <jasonbraganza> yup :)
+[15:22] <siddhesh> no but in all seriousness you're right, other than paper tapes and punch cards you basically had to write an assembler in machine language and then load that assembler to assemble whatever program you wrote in assembly
+[15:22] <bhavin192> siddhesh, keyboard with two switches xD
+[15:24] <jasonbraganza> bhavin192 - you saw the spacewar code right? that’s assembler :)
+[15:24] <gauravsitlani_> I feel communities are amazing as they help to create such culture which inculcates our desire to explore more.
+[15:24] <siddhesh> gauravsitlani_, our problem here in India is very different and is increasingly becoming the problem in the US - taking up courses for the jobs and not for their interest
+[15:25] <siddhesh> but that is a different topic, so lets not digress :)
+[15:25] <kushal> Back.
+[15:25] <ahole[m]> The issue in gauravsitlani_ India is that
+[15:25] <ahole[m]> In India degree is everything.
+[15:26] <kushal> Richard M. Stallman is also known as RMS,  so for the rest of the session, I will use either of the terms.
+[15:26] <im_mohsin> siddhesh, i agree. In India we are having narrow approach to free thinking
+[15:26] <gauravsitlani_> siddhesh: sure that will point to a different direction now.
+[15:26] <kushal> Next
+[15:26] <kushal> ### TECO and the Birth of Emacs
+[15:27] <kushal> Text Editor and COrrector was the primary editor in the AI Lab. One had to give long edit commands ending with a “end of command string” sequence.
+[15:27] <kushal> That meant one could not see the text while editing it.
+[15:27] <kushal>  It was upgraded from the PDP-6 days, and with a special hack it used to show both the original text, and a place to enter command strings in a split screen.
+[15:27] <kushal> Richard Stallman found a hack called “Ctrl-R” for TECO,
+[15:27] <kushal> where by pressing those two keys, one could use the editor on a keystroke to keystroke basis.
+[15:27] <kushal> But, it used to take only the first 5 rows on the top of the screen.
+[15:28] <kushal> Stallman hacked it to use the whole screen, and (more importantly) anyone could now save their macros to some set of fixed keystrokes.
+[15:28] <kushal> This created a new revolution; that of using macros.
+[15:28] <kushal> Everyone started creating their own macro packages, and their own keystrokes.
+[15:30] <kushal> All these macros made this scene in real life : https://xkcd.com/1806/
+[15:30] <kushal> This also brought the issue of too much customization, since one hacker could not sit in front of another hacker's terminal and use it.
+[15:31] <kushal> ^^ the exact comics above :)
+[15:31] <jasonbraganza> XD
+[15:31] <gauravsitlani_> It's hilarious :D
+[15:31] <kushal> Guy Steele, another hacker in the lab decided to do something to solve this issue.
+[15:32] <kushal> He started creating a chart of macro commands along with 4 different macro packages.
+[15:33] <kushal> This project got the attention of Stallman, and he started looking into it with more attention.
+[15:33] <kushal> Finally, this gave birth to a new project, named *Emacs*, for editing macros.
+[15:33] <kushal> People slowly started adopting this new editor.
+[15:33] <kushal> But, there was a good chance that people would write  or develop some special features, which others would want to use.
+[15:33] <rkased> !
+[15:34] <kushal> And so, in the Emacs documentation,
+[15:34] <kushal> Stallman added a contract (he looked at it as a social contract)
+[15:34] <kushal> saying Emacs “was distributed on a basis of communal sharing, which means
+[15:34] <kushal> that all improvements must be given back to me to be incorporated and
+[15:34] <kushal> distributed.”
+[15:34] <kushal> next
+[15:34] <rkased> Curious, who was funding all of these efforts, in addition to any additional time the researchers/hackers committed
+[15:34] <kushal> rkased, The Lab.
+[15:34] <rkased> Okay.
+[15:34] <kushal> rkased, People used to work for the Lab too, they had their formal office work/research.
+[15:35] <kushal> Plus all of these fun activities.
+[15:35] <rkased> Cool.
+[15:35] <jasonbraganza> stallman was what we would now call the in house devops guy
+[15:35] <kushal> his allowed Stallman to add useful features (from the users) to Emacs, and share the improved work.
+[15:35] <kushal> jasonbraganza, hahaha
+[15:35] <im_mohsin> what are macro packages?
+[15:35] <skat-sd> so, basically that was the birth of pull request
+[15:36] <kushal> im_mohsin, some piece of code which will do something (by pressing some keys together).
+[15:36] <im_mohsin> okay
+[15:36] <rkased> !
+[15:36] <kushal> next
+[15:37] <rkased> When you say they built an application or macros or something. How is it built? I'm not clear how these commands where understood and communicated to the computer?
+[15:37] <rkased> I apologize for my novice computer language question.
+[15:38] <kushal> rkased, This are the computers https://en.wikipedia.org/wiki/PDP-10
+[15:39] <kushal> rkased, Using paper tapes as siddhesh said before.
+[15:39] <rkased> Got it.
+[15:39] <kushal> rkased, and for teco or emacs, directly using the display.
+[15:40] <kushal> Now, there are also many stories from this time
+[15:40] <kushal> ### The Story of Pretty Printing
+[15:40] <kushal> Steele also had the idea to add a feature that would reformat source code, so that it would more readable.
+[15:40] <kushal> One morning he sat down at the terminal, with Stallman looking over his shoulder, and they both  worked on this feature for the next 10 hours. Stallman telling, and Steele typing.
+[15:40] <kushal> At the end they made it; within a 100 lines.
+[15:41] <kushal> Later while describing how focused the session was, Steele said the following.
+[15:41] <kushal> >My first thought afterward was [that] it was a great experience,
+[15:41] <kushal> very intense, and that I never wanted to do it again in my life.
+[15:41] <kushal> When he came out of the lab, it was already late night, he had no clue about the time he spent there working in full focused mode :)
+[15:42] <kushal> Now, a little bit of sidestory. The Unix story
+[15:42] <kushal> The Unix operating system grew in popularity during 1970s.
+[15:42] <kushal> Open up https://en.wikipedia.org/wiki/Unix#/media/File:Ken_Thompson_(sitting)_and_Dennis_Ritchie_at_PDP-11_(2876612463).jpg
+[15:42] <kushal> This is a famous picture of Ken Thompson and Dennis Ritchie working on a
+[15:42] <kushal> PDP-11 computer (this is most probably taken during the time they
+[15:42] <kushal> wrote Unix in C programming language).
+[15:43] <kushal> People had to purchase licenses from AT&T to use Unix.
+[15:43] <kushal> Around 1975, Berkeley university also started working on their own Unix operating system, known as BSD. But, to get a copy of the BSD tape, one had to produce a copy of AT&T license, as BSD had code from AT&T Unix.
+[15:43] <kushal> Okay, again break for questions.
+[15:43] <kushal> ANy question?
+[15:44] <poojaencoded> no
+[15:44] <kushal> Continuing then
+[15:44] <kushal> ## Lisp machines
+[15:44] <gauravsitlani_> Did they have full code of UNIX , the guys at berkley?
+[15:44] <kushal> gauravsitlani_, Yes I think.
+[15:44] <kushal> Now if we look back what else was happening in the AI world during those days, one major project was Lisp machines.
+[15:44] <kushal> Richard Greenblatt and Thomas Knight started building computers which could run lisp instructions at the hardware level, known as MIT Lisp Machines.
+[15:45] <kushal> [This](https://en.wikipedia.org/wiki/File:LISP_machine.jpg)
+[15:45] <kushal> is an early version of one such lisp machine.
+[15:45] <kushal> By 1980, two companies sprung from the Lisp machine work in the AI Lab.
+[15:46] <kushal> Symbolics had external funding, and also managed to get 14 hackers from the lab to work on their version of the Lisp machine. On the other side was LISP Machines, Inc. (LMI), which had Greenblatt leading the team, comprising of the rest of the hackers from the AI Lab (except RMS).
+[15:46] <kushal> Both the groups worked at the AI Lab, and had licensed
+[15:46] <kushal> the Lisp Machine operating system code from MIT.
+[15:46] <kushal> According to the license, they had to return any improvement of the code back to the MIT (so that MIT could use the code).
+[15:46] <kushal> Even though license did not mention anything about the redistribution of those changes, they allowed it as an gentleman’s agreement, as everyone benefited from the work.
+[15:46] <kushal> But, on March 16, 1982,
+[15:46] <kushal> Symbolics decided to stop sharing code, electing to enforce the letter of the license.
+[15:47] <kushal> The AI LAB had to choose to honor the Symbolics license and could not share the code if they were to get newer updates.
+[15:47] <kushal> The hope was to destroy LMI as a competitor.
+[15:48] <kushal> RMS was angry.
+[15:48] <kushal> This made RMS vengefully, choose a side (LMI).
+[15:48] <kushal> He started reading the changes made by Symbolics, and re-implementing them (in a completely different way) into MIT Lisp Machine Operating system.
+[15:48] <kushal> The executives from Symbolics (did not believe) installed a *spy* program on Stallman’s terminal to find evidence against him.
+[15:49] <kushal> When (in early 1983) these were presented to the AI Lab administrators, Stallman successfully showcased how his work was different, and any similarity in the code was from before the fork of the source code.
+[15:49] <kushal> The Lab administrators allowed him to continue his work.
+[15:49] <kushal> Stallman also started reading only the documentation from Symbolics (without reading the source code), and implementing the features into the MIT Lisp Machine.
+[15:49] <kushal> LMI thus had access to the changes made by RMS, benefitting from the work, just like all other users of the MIT Lisp Machines in the Lab.
+[15:50] <kushal> In RMS’s own words…
+[15:50] <kushal> >I was going to punish Symbolics if it was the last thing I did.
+[15:50] <kushal> This also brought changes within personal relationships. The same hackers who used to go out for dinner together, started going out in different groups.
+[15:50] <kushal> The estrangement went up to such levels where some old friends even started avoiding RMS (or lying to him) about such trips.
+[15:51] <kushal> Stallman stood his ground and kept adding similar features to the MIT Lisp Machine (also providing the same to LMI).
+[15:51] <kushal> Symbolics had a group of legendary hackers working on their system, but on the other side RMS ***worked alone*** on these features.
+[15:51] <kushal> This made him special, even to the people from the Symbolics group.
+[15:51] <kushal> Levy’s book has a comment from Bill Gosper.
+[15:52] <kushal> >I can see something Stallman wrote, and I might decide it was bad (probably not, but somebody could convince me it was bad), and I would still say, “But wait a minute – Stallman doesn’t have anybody to argue with all night over there. He’s working alone! It’s incredible anyone could do this alone!”
+[15:52] <kushal> RMS became the legend in everyone's mind.
+[15:54] <kushal> ### Changing the World
+[15:54] <kushal> But, while RMS was fighting this war, the world of computers was also changing very fast
+[15:54] <kushal> There were many personal computers released and their software came without any source code, and under NDAs (Non disclosure agreements), and EULAs (End User License Agreements).
+[15:54] <kushal> and there was also the famous story of the printer :)
+[15:54] <kushal> In 1980, the then 27 year old RMS was waiting for a 50 page print job to be done.
+[15:54] <kushal> This was supposed to be printed on a printer made & gifted by Xerox Palo Alto Research Facility.
+[15:55] <kushal> But, it was stuck, and not for the first time. Like many other problems, Stallman wanted to fix this issue, but he could not find any corresponding source code for the system.
+[15:55] <kushal> Later he figured out that some researcher in the Carnegie Mellon university had access to the source code.
+[15:55] <kushal> A few months later, when he visited the university, he met the researcher and asked for a copy of the source, which the researcher refused.
+[15:56] <kushal> One reason was a nondisclosure agreement (NDA) he(the researcher) signed with Xerox.
+[15:56] <kushal> This was RMS's first encounter with an NDA. To him this was the path to betray
+[15:56] <kushal> all users, making them victims of proprietary software.
+[15:57] <kushal> He felt him and other users became victim of this NDA.
+[15:57] <kushal> Which was complete against of all the hacker ethic.
+[15:57] <kushal> On September 27, 1983, Stallman sent out an announcement over Usenet
+[15:57] <kushal> newsgroup net.unix-wizards about a new *New UNIX implementation*.
+[15:57] <kushal> >Starting this Thanksgiving I am going to write a complete
+[15:57] <kushal> Unix-compatible software system called GNU (for Gnu’s
+[15:57] <kushal> Not Unix), and give it away free to everyone who can use
+[15:57] <kushal> it. Contributions of time, money, programs and equipment
+[15:57] <kushal> are greatly needed.
+[15:57] <kushal> He also added a note about himself.
+[15:57] <kushal> >I am Richard Stallman, inventor of the original much-imitated EMACS
+[15:57] <kushal> editor, now at the Artificial Intelligence Lab at MIT. I have worked
+[15:57] <kushal> extensively on compilers, editors, debuggers, command interpreters,
+[15:57] <kushal> the Incompatible Timesharing System and the Lisp Machine operating
+[15:57] <kushal> system. I pioneered terminal-independent display support in ITS. In
+[15:57] <kushal> addition I have implemented one crashproof file system and two window
+[15:57] <kushal> systems for Lisp machines.
+[15:58] <kang9> What's gluster kushal
+[15:58] <kang9> Do people still use usenet
+[15:58] <kang9> Do you guys use it
+[15:58] <kang9> Have its client?
+[15:58] <kushal> kang9, please ask after the session.
+[15:59] <kushal> In January, 1984, Stallman resigned from the MIT staff, so that he could work on GNU without any legal hurdles. His friends helped him to have his own office in the lab, he did consulting work to earn money.
+[15:59] <kushal> In 1985 he released GNU Emacs,
+[15:59] <kushal> and followed it up with *The GNU Manifesto* (soon after the original
+[15:59] <kushal> announcement).
+[15:59] <kushal> As the popularity of GNU Emacs in the Unix community slowly started rising, Stallman founded the Free Software Foundation (FSF) with help from friends.
+[16:00] <kushal> He became the president, and other friends  joined the board of directors.
+[16:00] <kushal> Robert Chassell (who worked at LMI) was one of the board members, and helped as Treasurer of the foundation. He also wrote really great documentation,
+[16:00] <kushal> and later wrote the manual for Emacs Lisp.
+[16:00] <kushal> Sad news is that he passed away a few days ago :(
+[16:01] <kushal> The FSF also started sending out bulletins, you can read the first one https://www.gnu.org/bulletins/bull1.txt
+[16:01] <kushal> Free as in Freedom became the center of focus.
+[16:01] <kushal> Now, I will talk a bit about the time line of how different software (we still use them) came upl.
+[16:01] <kushal> * up
+[16:02] <kushal> In 1985, along with a release of Emacs, RMS also introduced a
+[16:02] <kushal> General Public License for Emacs. Which he later hacked more on, and gave
+[16:02] <kushal> birth to The GNU General Public License (GPL). The 1.0 version of the
+[16:02] <kushal> license was released in 1989.
+[16:02] <kushal> Anwesha will take a session to explain software licenses and copyrights.
+[16:02] <kushal> By January 1987, GNU *ls*, *grep*, *make*, *ld* were already out in the world.
+[16:02] <kushal> Someone wrote the first copy of the free *tar* utility.
+[16:03] <kushal> *cron*, *at* and *m4* commands were also getting ready. *awk* was in its final testing stage, and people were still writing the *diff* command.
+[16:03] <Cyber_freak> sorry some urgent work came up, have to leave in the middle of the session.
+[16:03] <kushal> *gdb* was already written in 1986 (running only on Vax,  Suns).
+[16:03] <kushal> GNU *cc* was also getting ready (it could generate good Vax code,
+[16:03] <kushal> and also good 68000 and 68020 code). They expected to
+[16:03] <kushal> release the complete system by 1987 itself.
+[16:03] <kushal> GNU Chess, Bison, and the X Window System were also ready
+[16:03] <kushal> MIT Scheme was ready to be used (but without any
+[16:03] <kushal> documentation).
+[16:03] <kushal> LMI provided office space, computer resources, and a mailing address for the foundation.
+[16:03] <kushal> By February 1988, Berkeley Unix started releasing parts of their Unix as Free Software.
+[16:04] <kushal> They also started using GNU *make*, *awk*, *sh* from the
+[16:04] <kushal> GNU project. They also had planned to release *csh* (from BSD) as free
+[16:04] <kushal> software.
+[16:04] <kushal> Brian Fox started implementing the Bourne-again Shell (Bash),
+[16:04] <kushal> and it was completed by June of the same year. GNU Make was also
+[16:04] <kushal> marked as ready for release.
+[16:04] <kushal> Ronald McGrath also almost finished a complete set of the ANSI C library. GNU *malloc*, *regexp*, and the *termcap* library were already ready.
+[16:05] <kushal> siddhesh, now works on this ^^^ c library :)
+[16:05] <kushal> Furthermore, Michael Tiemann
+[16:05] <kushal> wrote the GNU C++ compiler as an extension of GCC, along with GDB+, to
+[16:05] <kushal> debug C++ code. Tiemann was a graduate student at Stanford University,
+[16:05] <kushal> keeping a close watch on GNU development.
+[16:05] <kushal> In 1990, along with
+[16:05] <kushal> John Gilmore and David Henkel-Wallace, Tiemann started a new software
+[16:05] <kushal> consulting company called Cygnus (Cygnus, Your GNU Support). By the
+[16:05] <kushal> end of first year, they had contracts worth $725,000. They were
+[16:05] <kushal> marked as the first for-profit corporation providing commercial
+[16:05] <kushal> support exclusively for free software.
+[16:05] <kushal> NeXT, Inc. also started using GNU Emacs, GCC, GAS and GDB in their operating system, thus becoming the first computer manufacturer to do so.
+[16:06] <kushal> By mid 1990, FSF was shipping Emacs Lisp reference manual, it was 550 pages, and cost $50.
+[16:06] <kushal> The GNU project had everything working, but without a perfect operating system.
+[16:06] <kushal> In 1991, a Finish student, Linus Torvalds, wrote a mail about his
+[16:06] <kushal> hobby project, a kernel for an operating system (for 386 clones). He
+[16:06] <kushal> had already ported Bash to it. For the 0.1 (the first one) release, it used its
+[16:06] <kushal> own license. In December 1992, he released the 0.99 version of Linux
+[16:06] <kushal> kernel using the GNU GPL license.
+[16:06] <siddhesh> and since we are on the topic of roland, he retired this week after 30 years: https://lwn.net/Articles/727383/
+[16:07] <kushal> ^^ now imagine :)
+[16:07] <kushal> The kernel, along with many other GNU projects created a perfect storm;
+[16:07] <kushal> a complete operating system to be used by the Free Software followers. The void
+[16:07] <kushal> of a working kernel in the GNU project was filled up by the Linux
+[16:07] <kushal> kernel. This is why RMS calls the operating system GNU/Linux
+[16:07] <kushal> rather than the term many people use, Linux.
+[16:07] <kushal> Remember the term, GNU/Linux.
+[16:07] <kushal> If you see the dgplug summer training announcement, you will see the same.
+[16:08] <kushal> By 1993, there were over 100 developers working on this new
+[16:08] <kushal> kernel. Slackware, the first distribution (still in use)
+[16:08] <kushal> came out. The Debian project also started later that
+[16:08] <kushal> same year.
+[16:08] <kushal> In 1994, Mark Ewing started the Red Hat Linux distribution. It soon merged
+[16:08] <kushal> with Bob Young’s ACC Corporation, and the new company was named Red
+[16:08] <kushal> Hat Software. In August 11, 1999, Red Hat went public, and later in
+[16:08] <kushal> November it aquired Cygnus. Michael Tiemann became the CTO of the
+[16:08] <kushal> company. Currently he is serving as vice president of open source
+[16:08] <kushal> affairs.
+[16:08] <bkero> 'eh? GNU had HURD
+[16:08] <bkero> Hurd*
+[16:08] <kushal> bkero, They had, but Linux was a better fit.
+[16:09] <bkero> Better fit than the kernel born and raised in the GNU project? :)
+[16:09] <kushal> and also got better developer attention.
+[16:09] <jasonbraganza> bkero - wasn’t quite ready at the time. too unstable
+[16:09] <kushal> Meanwhile in Palo Alto, California, in 1998, a group of free software
+[16:09] <kushal> folks met, and came up with the term “Open Source” as it was a better
+[16:09] <kushal> fit (in their eyes) for companies who were scared to install and
+[16:09] <kushal> use free software. Later, in February, 1998, Bruce Perens and Eric
+[16:09] <kushal> S. Raymond founded Open Source Initiative (OSI).
+[16:09] <kushal> ^^ that is the Open Source term you all know.
+[16:10] <kushal> But, everything started with Free Software movement, which is about the freedom of users.
+[16:10] <kushal> In every possible way.
+[16:10] <kushal> This brings back to the tweet from Miguel, we happen to work on software to help people with their freedom.
+[16:10] <kushal> The hacker ethic still prevails.
+[16:11] <jasonbraganza> olé!
+[16:11] <siddhesh> bkero, GNu still has hurd, just that it is not well supported
+[16:11] <kushal> That made us to do this training.
+[16:11] <jiteshpabla> wow
+[16:11] <gauravsitlani_> Amazing
+[16:12] <sayan> bkero | 'eh? GNU had HURD <-- GNU still has it
+[16:12] <sayan> :p
+[16:12] <kushal> That made us to write software, made to share whatever we know, learn from each other.
+[16:12] <siddhesh> glibc has a hurd port which is broken now and then.  It's a nice toy project if anybody is interested in playing with it
+[16:12] <rkased> Your words played in my head like a movie. I was able to visualize that summary of history.
+[16:12] <rkased> Thank you
+[16:12] <kushal> rkased, Wait, it is not finished yet :)
+[16:12] <kushal> Now, a lot of history i learned is from a book
+[16:13] <kang9> Free software is possible; why Free hardware doesn't exist yet?
+[16:13] <siddhesh> the breaking point for hurd was the 'micro-kernel' debate actually
+[16:13] <kushal> kang9, It does, search youself.
+[16:13] <kushal> * yourself
+[16:13] <siddhesh> it aspired to be the modern OS kernel and was designed as a true microkernel
+[16:14] <kushal> The first book to read is https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution
+[16:14] <siddhesh> by the time it became somewhat stable, linux had already become popular enough that nobody cared about hurd anymore
+[16:14] <kushal> Next book is available on a free license,  "Free as in Freedom".
+[16:15] <kushal> http://web.archive.org/web/20150103152231/https://static.fsf.org/nosvn/faif-2.0.pdf
+[16:15] <SpEcHiDeR> https://h-node.org/
+[16:15] <kushal> Please read these two books with your own pace.
+[16:15] <kushal> But, remember to read both.
+[16:15] <kushal> The history is important. Learn about it.
+[16:15] <kushal> Now, we are open to questions, type ! as usual.
+[16:15] <kushal> next
+[16:15] <ghishadow> siddhesh, the debate between Linus Torvalds vs Andrew S. Tanenbaum on microkernel vs monolithic kernel ?
+[16:16] <rkased> !
+[16:16] <kushal> next
+[16:16] <kushal> ghishadow, Please follow rules.
+[16:16] <rkased>  What would you say are some similar efforts going on today?
+[16:16] <siddhesh> ghishadow, kind of.  Not directly related though
+[16:16] <kushal> Btw, there is also a documentary called "Revolution OS".
+[16:16] <kushal> rkased, efforts on?
+[16:17] <jasonbraganza> rkased - the DGPLUG Summer Training!
+[16:17] <rkased> Yes
+[16:17] <kushal> jasonbraganza, :)
+[16:17] <siddhesh> ghishadow, the thought then was that microkernels are the future and that linux was a good stopgap, but not good enough
+[16:17] <joyhimanshu> jasonbraganza : true
+[16:17] <kushal> next
+[16:17] <kushal> Any one else, any more questions?
+[16:18] <ravindra> !
+[16:18] <kushal> I know this was long, but it had to happen in one go.
+[16:18] <kushal> next
+[16:18] <soumam007_> It's a long long journey :)
+[16:18] <ravindra> Why there is no GNU BSD ?
+[16:19] <rkased> !
+[16:19] <kushal> ravindra, Because they use different License, but they are also part of the Free Software world.
+[16:19] <kushal> ravindra, As I said above, they use the same technologies.
+[16:19] <kushal> next
+[16:20] <soumam007_> My eyes got heavy reading so much; i guess how much work they had done and still doing ;)
+[16:20] <kushal> soumam007_, It is not *they*, it is us.
+[16:20] <jasonbraganza> ravindra - Thr BSDs descend from Berkely and their ditributions of Unix. GNU results from the efforts of RMS and team at the FSF.
+[16:20] <soumam007_> Kushal :) hehe
+[16:21] <rkased> Free as in freedom is mentioned, how about free as in free in money?
+[16:21] <jasonbraganza> ravindra - different people, different places, is all
+[16:21] <siddhesh> ravindra, the FSF story concludes in the GNU/Linux ecosystem while the BSD story concludes with the Mac
+[16:21] <kushal> rkased, It is not, depends on cases.
+[16:21] <siddhesh> gross oversimplification of course :)
+[16:22] <anwesha> It feels nice to feel that we are a part of a revolution
+[16:22] <siddhesh> ravindra, but the stories are heavily intertwined.  You must be using a lot of tools from the BSD ecosystem already, like openssh
+[16:22] <kushal> next
+[16:22] <kushal> Any other question anyone?
+[16:23] <balaji> No
+[16:23] <kushal> I don't think we should do the license session today.
+[16:23] <kushal> It will be on Wednesday.
+[16:23] <siddhesh> rkased, the free in FSF is definitely not as in money.  It is something that gets confused quite often
+[16:23] <soumam007_> If gnu Linux is free why red hat charges?
+[16:23] <soumam007_> I am not sure enough though
+[16:23] <siddhesh> soumam007_, support, updates and maintenance
+[16:23] <kushal> soumam007_, Red Hat charges for the support.
+[16:23] <jasonbraganza> soumam007_ - if you can install and configure stuff on your own, Red Hat is free!
+[16:23] <siddhesh> soumam007_, and trademarks
+[16:24] <kushal> You get updates and help from support.
+[16:24] <siddhesh> jasonbraganza, not RHEL, you're still infringing on the trademark license
+[16:24] <siddhesh> you can use centos though
+[16:24] <kushal> CentOS is the answer.
+[16:24] <jasonbraganza> siddhesh - yes, but that is why they coopted CentOS no?
+[16:24] <soumam007_> Kushal not for the os? And utilities?
+[16:24] <kushal> soumam007_, Nope.
+[16:25] <kushal> The word "Free" is for freedom, not as in free beer.
+[16:25] <skarpy> Kushal :)
+[16:25] <siddhesh> jasonbraganza, RH did not make centos if that's what you mean.  centos happened by itself and then recently RH merely hired all the engineers that were working on centos and declared that they will aid its development
+[16:25] <kushal> Before we close the session, here is one trick from the last session.
+[16:25] <soumam007_> Was it necessary to open so much distribution of Linux? I can  get the point of doing so
+[16:26] <jasonbraganza> siddhesh - i meant your part after the hiring :)
+[16:26] <soumam007_> *cant
+[16:26] <kushal> The rst presentation you all read is actually written in rst itself.
+[16:26] <kushal> Here is the source: https://dgplug.org/irclogs/2012/rst-primer/talk.rst
+[16:26] <kushal> I used rst2s5 command to create the presentation.
+[16:26] <siddhesh> jasonbraganza, yeah
+[16:26] <kushal> Have fun with that.
+[16:26] <kushal> Roll Call
+[16:26] <anuGupta> Wow
+[16:26] <gauravsitlani_> kushal, nice!
+[16:26] <rkased> Razy Kased
+[16:26] <kushal> Kushal Das
+[16:26] <siddhesh> jasonbraganza, also google for OEL to get more background on why RH may have done that :)
+[16:26] <messifc> Messi Fc
+[16:26] <jasonbraganza> Jason Braganza
+[16:26] <gauravsitlani_> Gaurav Sitlani
+[16:26] <abhinavshirur> Abhinav Shirur
+[16:26] <ashwanig> Ashwani Kumar Gupta
+[16:27] <deepika> Deepika Upadhyay
+[16:27] <ravindra> Ravindra Lakal
+[16:27] <anuGupta> Anu kumari Gupta
+[16:27] <balaji> Balaji
+[16:27] <cignatious> Sharon
+[16:27] <bhavin192> Bhavin Gandhi
+[16:27] <ihp_> Mohit
+[16:27] <siddhesh> Siddhesh Poyarekar
+[16:27] <joyhimanshu> Himanshu Awasthi
+[16:27] <mdbk> Onyinye Madubuko
+[16:27] <jiteshpabla> Jitesh Pabla
+[16:27] <soumam007_> Soumam Banerjee
+[16:27] <NikitaK3> Nikita Kotak
+[16:27] <ghishadow> Suraj Ghimire
+[16:27] <ahole[m]> Kshithij Iyer
+[16:27] <akshayg96> Akshay Gaikwad
+[16:27] <poojaencoded> pooja kumari singh
+[16:27] <jasonbraganza> siddhesh - it was in the news, i followed it at the time :)
+[16:27] <jasonbraganza> Jason Braganza
+[16:27] <championshuttler> Shivam Singhal
+[16:27] <gauravsitlani_> siddhesh, it was nice to hear from you.
+[16:28] <siddhesh> gauravsitlani_, likewise :)
+[16:28] <skarpy> Akash pathak
+[16:28] <_RicharD> Mayank gupta
+[16:28] <pr97> Priyanka Sharma
+[16:28] <messifc> somebody please provide logs from [21:51:05] :(
+[16:28] <skat-sd> Saikat Dey
+[16:28] <lucifer_> atul kumar
+----END CLASS----
