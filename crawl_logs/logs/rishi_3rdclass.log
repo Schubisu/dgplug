@@ -1,0 +1,661 @@
+Jul 02 23:08:45 <rishi>	<--------CLASS STARTS----------->
+Jul 02 23:08:55 <rishi>	Can we have a roll call to start with?
+Jul 02 23:09:01 <rangeen>	ya
+Jul 02 23:09:04 <deepak>	deepak kumar
+Jul 02 23:09:10 <ria>	ria das
+Jul 02 23:09:10 <amrita>	amrita mukherjee
+Jul 02 23:09:15 <ecntrk>	Debmalya Sinha
+Jul 02 23:09:16 <Debashree>	debashree banerjee
+Jul 02 23:09:18 <sunny_slls>	sunnysharma
+Jul 02 23:09:19 <techno_freak>	ria, note down the roll call and pass it to kushal
+Jul 02 23:09:20 <arpita>	arpita kapoor
+Jul 02 23:09:21 <Pramit>	pramit roychowdhury
+Jul 02 23:09:22 <rangeen>	rangeen basu roy chowdhury
+Jul 02 23:09:36 <bose_aritra>	aritra bose
+Jul 02 23:09:43 <ria>	techno_freak, better you do that
+Jul 02 23:09:43 <ria>	techno_freak, we dont talk
+Jul 02 23:09:45 <ria>	:)
+Jul 02 23:09:50 <tuxmaniac>	Aanjhan Ranganathan
+Jul 02 23:09:53 <techno_freak>	ria, ok, he is anways logging all this
+Jul 02 23:10:00 <techno_freak>	Parthan
+Jul 02 23:10:05 <makghosh>	Arindam Ghosh
+Jul 02 23:10:06 <rishi>	techno_freak, ria: I have turned on logging.
+Jul 02 23:10:17 <techno_freak>	ok....
+Jul 02 23:10:20 <rishi>	Anybody else?
+Jul 02 23:10:22 <ecntrk>	rishi: good job mate
+Jul 02 23:10:28 <Kishan>	kishan goyal
+Jul 02 23:10:29 <techno_freak>	-------- BELL RINGS ---------------
+Jul 02 23:10:46 <rishi>	So here we go. This is our third class on basic shell.
+Jul 02 23:11:09 *	Pramit_ (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 02 23:11:22 <rishi>	Like in the last class, we will assume that you know how to use man, apropos, whatis and info to browse documentation on your system.
+Jul 02 23:11:42 <rishi>	Those who don't have a Unix system at hand can use the Internet to get the documentation.
+Jul 02 23:11:54 *	ria has quit (Read error: 54 (Connection reset by peer))
+Jul 02 23:12:07 <rishi>	We have already covered: cd, pwd, basename, dirname, cp, ls and touch.
+Jul 02 23:12:15 <sunny_slls>	!
+Jul 02 23:12:23 *	ria (n=ria@219.64.76.23) has joined #dgplug
+Jul 02 23:12:40 <rishi>	So I will assume that you already know them, or have atleast consulted the documentation before asking about them again.
+Jul 02 23:12:43 <rishi>	sunny_slls: Ask.
+Jul 02 23:12:56 <sunny_slls>	rishi, what is the url for documentation
+Jul 02 23:13:25 <rishi>	sunny_slls: Use Google, Yahoo! or any search engine to find out.
+Jul 02 23:13:31 *	susenj_ (n=chatzill@59.178.164.224) has joined #dgplug
+Jul 02 23:14:15 <rishi>	So today we will start with: mv, ln, mkdir and rm.
+Jul 02 23:14:26 <rishi>	If time permits we will take up some more commands.
+Jul 02 23:15:13 <rishi>	So just have a look at the documentation for mv, ln, mkdir and rm before we take them up one by one.
+Jul 02 23:15:18 *	rishi waits
+Jul 02 23:16:03 <sunny_slls>	!
+Jul 02 23:17:01 <sunny_slls>	rishi, i am unable to understand what documentation you are talking about.......
+Jul 02 23:17:20 <rishi>	sunny_slls: Did you attend the any of the previous two classes?
+Jul 02 23:17:29 <sunny_slls>	rishi, sorry no
+Jul 02 23:17:31 *	chiks (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 02 23:17:49 <rishi>	sunny_slls: Given any command (eg., mv) you can do:
+Jul 02 23:17:52 <rishi>	$ man mv
+Jul 02 23:17:55 <rishi>	$ whatis mv
+Jul 02 23:18:00 <rishi>	$ info mv
+Jul 02 23:18:17 <rishi>	...to access the documentation for the command that is already installed on your system.
+Jul 02 23:19:09 <sunny_slls>	rishi, man means that it will tell you about the respective command
+Jul 02 23:19:42 <rishi>	sunny_slls: Do you have a Unix system right now?
+Jul 02 23:20:13 <sunny_slls>	rishi, yes but i can't access internet on it
+Jul 02 23:20:33 <techno_freak>	sunny_slls, please attend this class, look at old logs and learn from them
+Jul 02 23:20:34 <rishi>	All those who have a Unix system during the course of the class, please try out the command before asking any question. That way we will save a lot of time.
+Jul 02 23:20:42 <techno_freak>	rishi, you may continue with never commands
+Jul 02 23:20:51 *	rishi nods
+Jul 02 23:21:18 <rishi>	'mv' as you may have guesses is for moving files around.
+Jul 02 23:21:30 <rishi>	This is similar to cp, which stood for copy.
+Jul 02 23:21:59 <rishi>	If cp did copy/paste, mv does cut/paste.
+Jul 02 23:22:22 <rishi>	So to move ~/foo to the /tmp directory, you will do:
+Jul 02 23:22:29 <rishi>	$ mv ~/foo /tmp
+Jul 02 23:22:54 <rishi>	...and then you will have /tmp/foo instead of ~/foo.
+Jul 02 23:23:22 <rishi>	Since directories are merely special files, the same applies for directories as well:
+Jul 02 23:23:30 <rishi>	$ mv ~/dir1 /tmp
+Jul 02 23:23:49 <rishi>	...will move the directory ~/dir1 to /tmp and give you /tmp/dir1.
+Jul 02 23:23:56 <rishi>	~/dir1 will no longer be there.
+Jul 02 23:23:58 <rishi>	Any questions?
+Jul 02 23:24:43 *	chiks has quit (Read error: 104 (Connection reset by peer))
+Jul 02 23:25:04 *	rishi is waiting
+Jul 02 23:25:34 <deepak>	!
+Jul 02 23:25:44 *	khushi (n=khushbu@59.180.132.90) has joined #dgplug
+Jul 02 23:25:46 <rishi>	deepak: Ask.
+Jul 02 23:26:49 <deepak>	rishi:if the directory you are moving contains some subdirectories then also it can be moved
+Jul 02 23:27:16 <rishi>	deepak: Yes, the directory and everything within it will move.
+Jul 02 23:27:49 <Kishan>	!
+Jul 02 23:27:56 <rishi>	Kishan: Ask.
+Jul 02 23:28:03 *	rangeen_ (i=sherry@220.226.24.34) has joined #dgplug
+Jul 02 23:28:05 <ecntrk>	!
+Jul 02 23:28:10 <rishi>	ecntrk: Wait.
+Jul 02 23:28:12 <Kishan>	can we move more than one directories at once?
+Jul 02 23:28:20 *	rangeen has quit (Nick collision from services.)
+Jul 02 23:28:38 *	rangeen_ is now known as rangeen
+Jul 02 23:28:44 <rishi>	Kishan: Yes.
+Jul 02 23:28:54 <rishi>	$ mv ~/dir1 ~/dir2 /tmp
+Jul 02 23:29:03 <rishi>	... will move _both_ dir1 and dir2.
+Jul 02 23:29:14 <Kishan>	ok thanks...
+Jul 02 23:29:18 <rishi>	ecntrk: Ask.
+Jul 02 23:29:22 <ecntrk>	Suppose a directory has 100 files and we want95 of them moved... How this can be done without redundantly specifying all the filenames?
+Jul 02 23:29:22 <bose_aritra>	!
+Jul 02 23:29:36 <ecntrk>	<eof>
+Jul 02 23:30:00 *	Pramit has quit (Read error: 110 (Connection timed out))
+Jul 02 23:30:00 <techno_freak>	(move 100 files and delete the unwanted 5?)
+Jul 02 23:30:06 *	chiks (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 02 23:30:07 <ecntrk>	Like in GUI mode.. we select all then deselect 5...<eof>
+Jul 02 23:30:20 <rishi>	ecntrk: That is what techno_freak said.
+Jul 02 23:30:41 <rishi>	mv the entire thing, and then restore those five which were not needed to be moved.
+Jul 02 23:30:43 <ecntrk>	techno_freak: no we want those five remaining in the parent dir
+Jul 02 23:30:47 <ecntrk>	<eof>
+Jul 02 23:30:51 <rishi>	mv the entire thing, and then restore those five which were not needed to be moved.
+Jul 02 23:30:58 <rishi>	bose_aritra: Wait.
+Jul 02 23:31:05 <techno_freak>	(s/delete/move back/)
+Jul 02 23:31:31 <rishi>	$ mv * /destination
+Jul 02 23:31:34 <ecntrk>	if the file number is biger.. like 20.. then we have to again redundantly specify those names..<eof.
+Jul 02 23:32:09 <rishi>	ecntrk: If the filenames have a particular format then you can use regular expressions or wildcards.
+Jul 02 23:32:21 <ecntrk>	I see..thnx..<eof>
+Jul 02 23:32:25 <rishi>	Say you have 500 .html files and 20 .txt files.
+Jul 02 23:32:31 <ecntrk>	*thanks..
+Jul 02 23:32:40 <rishi>	ecntrk: Problem solved?
+Jul 02 23:32:51 <ecntrk>	yes... Thanks...<eof>
+Jul 02 23:32:52 <rishi>	bose_aritra: Ask.
+Jul 02 23:32:55 <bose_aritra>	if i want to move dir1 to more than one place, can it be done?
+Jul 02 23:32:58 <bose_aritra>	if so, how?<eof>
+Jul 02 23:33:20 *	susenj__ (n=chatzill@59.178.187.187) has joined #dgplug
+Jul 02 23:33:32 <rishi>	bose_aritra: Nope.
+Jul 02 23:33:49 <rishi>	bose_aritra: If you look closely at the man page you will notice:
+Jul 02 23:34:01 <rishi>	"...or move SOURCE(s) to DIRECTORY.".
+Jul 02 23:34:35 <rishi>	bose_aritra: Consider we are moving multiple sources:
+Jul 02 23:34:52 <rishi>	$ mv ~/src1 ~/src2 /tmp
+Jul 02 23:35:02 *	indradg_ (n=indradg@59.93.211.190) has joined #dgplug
+Jul 02 23:35:18 <rishi>	...and in the imaginary case of moving to multiple destinations:
+Jul 02 23:35:30 <rishi>	$ mv ~/src /dest1 /dest2
+Jul 02 23:35:54 <rishi>	It becomes complicated to parse which one is destination and which one is source (not that it can not be done).
+Jul 02 23:35:55 <bose_aritra>	ok
+Jul 02 23:36:43 <sunny_slls>	!
+Jul 02 23:36:46 <rishi>	bose_aritra: Satisfied? Or is there some lingering doubt?
+Jul 02 23:37:06 <bose_aritra>	no its done
+Jul 02 23:37:10 <rishi>	Lets make the question from sunny_slls the last question on mv for the moment.
+Jul 02 23:37:13 <rishi>	sunny_slls: Ask.
+Jul 02 23:37:22 <sunny_slls>	what is biger file?
+Jul 02 23:37:37 *	Pramit_ has quit ("ChatZilla 0.9.83 [Firefox 3.0/2008052906]")
+Jul 02 23:37:53 <rishi>	sunny_slls: A file which is bigger in size than some other file.
+Jul 02 23:38:50 <sunny_slls>	rishi, means a biger file is specified separately to move.........why?
+Jul 02 23:39:07 *	Atanu_bera has quit ("ChatZilla 0.9.83 [Firefox 3.0/2008052906]")
+Jul 02 23:39:24 <rishi>	sunny_slls: Where did you read that?
+Jul 02 23:39:51 <sunny_slls>	rishi, ecntrk asked you
+Jul 02 23:40:04 <sunny_slls>	rishi, previously
+Jul 02 23:40:33 <rishi>	sunny_slls: He mentioned a bigger number of files, which is different from bigger file.
+Jul 02 23:40:44 <rishi>	Ok. Lets move on.
+Jul 02 23:40:56 <rishi>	Some of the useful options that can be used with mv are: -b, -f, -i and -u.
+Jul 02 23:40:57 <sunny_slls>	rishi, thanks
+Jul 02 23:41:34 <rishi>	The first three deal with how to handle a scenario where a similarly named file exists in the destination directory.
+Jul 02 23:41:48 *	techno_freak has quit ("time to sleep")
+Jul 02 23:42:01 <rishi>	So say you have ~/foo and /tmp/foo and you have done:
+Jul 02 23:42:10 <rishi>	$ mv ~/foo /tmp
+Jul 02 23:42:51 <rishi>	If you used -b, then mv will save the older /tmp/foo as /tmp/foo~ before overwiriting with the one that came from ~/foo.
+Jul 02 23:43:05 <rishi>	So you will end up with /tmp/foo and /tmp/foo~
+Jul 02 23:43:41 <rishi>	If  you had used -i, then it will ask you before overwriting. It will be a simple yes or no and no backups will be used.
+Jul 02 23:44:24 <rishi>	And -f is almost opposite to -i, since it will silently overwrite and never prompt.
+Jul 02 23:44:59 <rishi>	The -u or update option is a bit more intelligent.
+Jul 02 23:45:17 *	tux_440volt has quit ("Leaving")
+Jul 02 23:45:22 *	pushkal (n=chatzill@117.197.16.25) has joined #dgplug
+Jul 02 23:45:43 *	susenj_ has quit (Read error: 110 (Connection timed out))
+Jul 02 23:46:02 <rishi>	It is similar to -f, but it will only overwrite an existing file, if the source file is newer (modification time) is newer than the existing destination entry.
+Jul 02 23:46:05 <rishi>	Any questions?
+Jul 02 23:46:42 <ria>	!
+Jul 02 23:46:55 <rishi>	ria: Ask.
+Jul 02 23:46:56 <sunny_slls>	!
+Jul 02 23:47:02 <ria>	what will happen if we write no in the -i option?
+Jul 02 23:47:15 <ria>	and if yes then?
+Jul 02 23:47:19 <ria>	<eof>
+Jul 02 23:47:47 <rishi>	'no' will not overwrite, 'yes' will overwrite.
+Jul 02 23:48:06 <ria>	what will happen if we write no?
+Jul 02 23:48:13 <ria>	will there be no action?
+Jul 02 23:48:40 *	chacha_chaudhry has quit (Read error: 104 (Connection reset by peer))
+Jul 02 23:49:01 <rishi>	Anymore queries?
+Jul 02 23:49:51 <ria>	i asked what if no?
+Jul 02 23:49:56 <sunny_slls>	rishi, explain once more the difference between -f and -u
+Jul 02 23:49:58 <ria>	rishi, ^^^
+Jul 02 23:50:04 <rishi>	sunny_slls: Wait a moment.
+Jul 02 23:50:23 <ria>	rishi, will the file be not moved then?
+Jul 02 23:50:24 *	Debashree has quit (Read error: 104 (Connection reset by peer))
+Jul 02 23:50:29 <rishi>	ria: If you say 'no' it will not overwrite the destination file and the source file will be skipped and not moved.
+Jul 02 23:50:39 <rishi>	ria: No it will not be moved.
+Jul 02 23:50:44 <ria>	rishi, ok
+Jul 02 23:50:47 <ria>	<eof>
+Jul 02 23:50:51 <rishi>	sunny_slls: Ok.
+Jul 02 23:51:03 <rishi>	Imagine the source is older than the destination.
+Jul 02 23:51:20 <rishi>	So -f will blindly overwrite the newer destination with the older source.
+Jul 02 23:51:33 <rishi>	sunny_slls: -u will not do that and retain the newer destination.
+Jul 02 23:51:48 <rishi>	Only if the source was newer it would have overwritten it.
+Jul 02 23:51:50 <rishi>	sunny_slls: Clear?
+Jul 02 23:51:53 *	Debashree (n=Debashre@61.2.165.216) has joined #dgplug
+Jul 02 23:52:09 <sunny_slls>	rishi, yes
+Jul 02 23:52:20 <rishi>	Ok. Can we go ahead?
+Jul 02 23:52:28 *	rishi hopes people are awake
+Jul 02 23:52:33 <susenj__>	yes
+Jul 02 23:52:41 <Kishan>	yes
+Jul 02 23:52:44 <sunny_slls>	rishi,yes
+Jul 02 23:52:50 <rishi>	Nice. :-)
+Jul 02 23:52:55 <rishi>	So what was our next command?
+Jul 02 23:53:05 <ria>	yes :)
+Jul 02 23:53:08 <rishi>	Can we take mkdir?
+Jul 02 23:53:35 <susenj__>	ok,but ln is next
+Jul 02 23:53:43 <deepak>	yes
+Jul 02 23:54:20 <rishi>	susenj__: Lets take up mkdir, and we will come back to ln after it.
+Jul 02 23:54:56 <susenj__>	rishi:ok
+Jul 02 23:55:05 <rishi>	susenj__: mkdir is smaller and simpler.
+Jul 02 23:55:21 <rishi>	As the name suggests, mkdir makes directories.
+Jul 02 23:55:21 *	rangeen has quit (Read error: 113 (No route to host))
+Jul 02 23:55:43 <rishi>	$ mkdir ~/foo
+Jul 02 23:55:49 *	amrita_ (n=amrita@117.201.97.3) has joined #dgplug
+Jul 02 23:56:04 <rishi>	... will create directory (not a regular file) in your home directory.
+Jul 02 23:56:24 <rishi>	I hope you remember '~' and '$HOME' denotes the home directory.
+Jul 02 23:56:28 *	amrita has quit (Nick collision from services.)
+Jul 02 23:56:35 *	amrita_ is now known as amrita
+Jul 02 23:57:02 *	rangeen (i=sherry@220.226.72.62) has joined #dgplug
+Jul 02 23:58:01 <rishi>	Now the interesting options are: - or --mode and -p or --parents.
+Jul 02 23:58:03 *	amrita_ (n=amrita@117.201.97.3) has joined #dgplug
+Jul 02 23:58:19 *	amrita_ has quit (Client Quit)
+Jul 02 23:58:38 *	susenj__ is now known as susenj
+Jul 02 23:58:41 <rishi>	-m or --mode is used to set the permissions of the new directory that will be created.
+Jul 02 23:58:45 <rishi>	So instead of doing:
+Jul 02 23:58:52 <rishi>	$ mkdir ~/foo
+Jul 02 23:59:01 <rishi>	$ chmod 700 ~/foo
+Jul 02 23:59:05 <rishi>	... you can do:
+Jul 02 23:59:15 <rishi>	$ mkdir -m 700 ~/foo
+Jul 02 23:59:48 *	Soumya (n=Soumya@59.164.98.244) has joined #dgplug
+Jul 03 00:00:31 <rishi>	To understand -p or --parents assume you want to create: ~/newdir/newdir1.
+Jul 03 00:00:48 <rishi>	... where both newdir and newdir1 does not exist.
+Jul 03 00:00:57 <rishi>	So if one tries to do:
+Jul 03 00:01:05 <rishi>	$ mkdir ~/newdir/newdir1
+Jul 03 00:01:36 <rishi>	... mkdir will throw an error and not create any directory.
+Jul 03 00:01:43 <rishi>	So you can either do:
+Jul 03 00:01:48 <rishi>	$ mkdir ~/newdir
+Jul 03 00:01:51 <rishi>	$ mkdir ~/newdir/newdir1
+Jul 03 00:01:56 <rishi>	... or you can do:
+Jul 03 00:02:04 <rishi>	$ mkdir -p ~/newdir/newdir1
+Jul 03 00:03:57 *	stephaniewhiting has quit ("ChatZilla 0.9.82.1 [Firefox 2.0.0.14/2008040413]")
+Jul 03 00:04:12 *	stephaniewhiting (n=chatzill@65.89.170.203) has joined #dgplug
+Jul 03 00:05:07 <sunny_slls>	!
+Jul 03 00:06:34 *	makghosh has quit (Read error: 110 (Connection timed out))
+Jul 03 00:07:55 *	susenj (n=chatzill@59.178.187.187) has left #dgplug
+Jul 03 00:08:04 <sunny_slls>	!
+Jul 03 00:08:35 *	susenj (n=chatzill@59.178.187.187) has joined #dgplug
+Jul 03 00:10:16 <ria>	rishi, are you there?
+Jul 03 00:10:38 <ria>	i think he is offline
+Jul 03 00:10:41 *	khushi__ (n=khushbu@59.180.138.160) has joined #dgplug
+Jul 03 00:10:46 <ecntrk>	yah.. me too.
+Jul 03 00:10:49 <sunny_slls>	rishi, hey are you there
+Jul 03 00:11:28 <ria>	wait for him to come
+Jul 03 00:11:34 <rishi>	Any problems regarding mkdir?
+Jul 03 00:11:45 <rishi>	sunny_slls: Ask.
+Jul 03 00:11:51 <rishi>	sunny_slls: Ask.
+Jul 03 00:11:56 <rishi>	sunny_slls: Ask.
+Jul 03 00:12:02 <rishi>	ria: Yes. Waiting for sunny_slls to actually ask something.
+Jul 03 00:12:05 <rishi>	sunny_slls: No, I am in paradise. :-)
+Jul 03 00:12:12 <ria>	rishi, ok
+Jul 03 00:12:19 <ria>	:)
+Jul 03 00:12:29 <rishi>	ria: Wait for whom to come.
+Jul 03 00:12:35 *	amrita_ (n=amrita@117.201.96.109) has joined #dgplug
+Jul 03 00:12:37 <sunny_slls>	why error is created
+Jul 03 00:12:50 <ria>	rishi, actually for you :)
+Jul 03 00:12:53 *	amrita has quit (Nick collision from services.)
+Jul 03 00:12:59 *	amrita_ is now known as amrita
+Jul 03 00:13:50 <sunny_slls>	rishi, why there is an error while creating two directories
+Jul 03 00:13:59 *	khushi__ has quit (Client Quit)
+Jul 03 00:14:02 *	khushi__ (n=khushbu@59.180.138.160) has joined #dgplug
+Jul 03 00:14:18 <rishi>	sunny_slls: Can I see your command?
+Jul 03 00:15:26 <sunny_slls>	$ mkdir ~/newdir/newdir1
+Jul 03 00:15:50 <sunny_slls>	rishi, why it will throw error
+Jul 03 00:16:26 <susenj>	because they are not existing,right rishi?
+Jul 03 00:17:12 <sunny_slls>	so why
+Jul 03 00:17:13 <rishi>	susenj: Because ~/newdir is missing, so its a bit strange to create a child directory inside it.
+Jul 03 00:17:23 <rishi>	sunny_slls: That is why -p is there.
+Jul 03 00:17:44 <susenj>	yes,the same i wanted to tell....<eof>
+Jul 03 00:18:49 *	amrita_ (n=amrita@117.201.96.109) has joined #dgplug
+Jul 03 00:19:08 *	amrita_ has quit (Client Quit)
+Jul 03 00:19:44 *	rsa_md5 has quit ("Leaving")
+Jul 03 00:19:52 *	rangeen has quit ("Ah La La and Tata")
+Jul 03 00:19:56 <rishi>	susenj: Are you asking _why_ -p was necessary as a separate option?
+Jul 03 00:19:59 <sunny_slls>	rishi,  ~/newdir  and then  ~/newdir/newdir1-----does this mean that we are creating a new directory and then directory1
+Jul 03 00:20:15 *	Debashree has quit (Read error: 104 (Connection reset by peer))
+Jul 03 00:20:21 <susenj>	no no i understood<eof>
+Jul 03 00:20:59 <rishi>	sunny_slls: Yes.
+Jul 03 00:21:15 <sunny_slls>	rishi, thanks
+Jul 03 00:21:18 <arpita>	!
+Jul 03 00:21:27 *	indradg_ is now known as indradg
+Jul 03 00:21:28 <arpita>	what is the job of -p??
+Jul 03 00:21:31 *	Debashree (n=Debashre@61.2.165.19) has joined #dgplug
+Jul 03 00:21:39 <deepak>	!
+Jul 03 00:21:50 <rishi>	arpita: Ask.
+Jul 03 00:21:54 <rishi>	deepak: Wait a minute.
+Jul 03 00:22:05 <arpita>	job of -p?
+Jul 03 00:22:23 <rishi>	arpita: Did you get disconnected? I just explained it.
+Jul 03 00:23:17 <rishi>	arpita: Ping?
+Jul 03 00:23:39 <arpita>	yes please repeat if possible
+Jul 03 00:24:22 <rishi>	See the scrollback and ask. Till then I will take deepak's question.
+Jul 03 00:24:24 <rishi>	deepak: Ask.
+Jul 03 00:24:39 <deepak>	rishi:which one will be created first newdir or newdir1 in /newdir/newdir1?
+Jul 03 00:25:02 <rishi>	deepak: Obviously newdir, because if the parent does not exist how can you have the child?
+Jul 03 00:25:16 <sunny_slls>	dir will be created first , isn't rishi?
+Jul 03 00:25:26 <deepak>	ok <eof>
+Jul 03 00:25:32 <rishi>	sunny_slls: Don't speak out of turn.
+Jul 03 00:25:33 *	chacha_chaudhry (n=dev@gnu-india/supporter/rakeshpandit) has joined #dgplug
+Jul 03 00:25:47 <rishi>	For those, like arpita, who missed the -p option:
+Jul 03 00:25:49 <rishi>	<rishi> To understand -p or --parents assume you want to create: ~/newdir/newdir1.
+Jul 03 00:25:49 <rishi>	 ... where both newdir and newdir1 does not exist.
+Jul 03 00:25:49 <rishi>	 So if one tries to do:
+Jul 03 00:25:49 <rishi>	 $ mkdir ~/newdir/newdir1
+Jul 03 00:25:49 <rishi>	 ... mkdir will throw an error and not create any directory.
+Jul 03 00:25:50 <sunny_slls>	rishi, sorry
+Jul 03 00:25:51 <rishi>	 So you can either do:
+Jul 03 00:25:55 <rishi>	 $ mkdir ~/newdir
+Jul 03 00:25:57 <rishi>	 $ mkdir ~/newdir/newdir1
+Jul 03 00:25:59 <rishi>	 ... or you can do:
+Jul 03 00:26:01 <rishi>	 $ mkdir -p ~/newdir/newdir1
+Jul 03 00:26:15 <rishi>	deepak: Clear?
+Jul 03 00:26:29 <ria>	can we move ahead?
+Jul 03 00:26:30 <deepak>	rishi:yes
+Jul 03 00:26:38 <arpita>	!
+Jul 03 00:27:11 <arpita>	if we give names of directories that already exist in this command will it show erroe?
+Jul 03 00:27:14 <arpita>	error?
+Jul 03 00:28:06 <rishi>	arpita: Give an example command / case.
+Jul 03 00:28:25 *	khushi has quit (Read error: 110 (Connection timed out))
+Jul 03 00:28:42 *	khushi__ is now known as khushi
+Jul 03 00:29:57 <arpita>	i mean if mkdir/newdir/newdir1 in this case newdir and newdir1 already exist it will show error?/
+Jul 03 00:30:02 *	amrita_ (n=amrita@117.201.96.109) has joined #dgplug
+Jul 03 00:30:10 *	amrita_ has quit (Client Quit)
+Jul 03 00:30:31 <rishi>	arpita: Without -p you will get an error, with -p you won't.
+Jul 03 00:30:43 <rishi>	arpita: Do you have access to Unix right now?
+Jul 03 00:30:50 *	chiks has quit ("ChatZilla 0.9.83 [Firefox 2.0.0.14/2008040413]")
+Jul 03 00:30:50 <arpita>	yes
+Jul 03 00:31:27 <rishi>	arpita: So why don't you try out the commands before asking? :-)
+Jul 03 00:31:35 *	rishi wants to move on to ln
+Jul 03 00:33:01 <arpita>	got it
+Jul 03 00:33:04 <arpita>	thanks
+Jul 03 00:33:35 <rishi>	So everyone fire up the documentation of ln.
+Jul 03 00:33:44 <ria>	ok
+Jul 03 00:34:23 <ria>	rishi, please make me clear about the hard link and the soft link
+Jul 03 00:34:31 <ria>	i am very confused with it
+Jul 03 00:34:35 <ria>	<eof>
+Jul 03 00:35:30 <rishi>	ria: We will come to that.
+Jul 03 00:35:49 <ria>	ok
+Jul 03 00:35:56 <rishi>	So ln is used to create links.
+Jul 03 00:36:06 <rishi>	Links are of two types: hard and symbolic (or soft).
+Jul 03 00:36:46 <rishi>	A hard link for a file is basically a synonym or duplicate tag for a file.
+Jul 03 00:37:35 <rishi>	If you read about inodes in a Unix filesystem, you will see that each file (or directory) in a filesystem has an entry.
+Jul 03 00:38:05 <rishi>	Each entry is an inode, and its index is an integer.
+Jul 03 00:38:08 *	chiks (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 03 00:38:17 <rishi>	So if we create a hard link:
+Jul 03 00:38:26 <rishi>	$ ln foo bar
+Jul 03 00:38:43 *	makghosh (n=Joy@117.99.58.9) has joined #dgplug
+Jul 03 00:39:01 <rishi>	... where foo was an existing file (or directory) and bar is the new hard link that was created, foo and bar will have the same inode number.
+Jul 03 00:39:18 <rishi>	You can see the inode numbers of foo and bar as:
+Jul 03 00:39:22 <rishi>	$ ls -i foo bar
+Jul 03 00:40:01 <rishi>	You can also use the 'cp' command to create links.
+Jul 03 00:40:11 <rishi>	$ cp -l foo bar
+Jul 03 00:40:16 <rishi>	... will do the same thing as:
+Jul 03 00:40:20 <rishi>	$ ln foo bar
+Jul 03 00:40:56 <rishi>	However there is a difference.
+Jul 03 00:41:35 <rishi>	The ln command will throw an error if the destination hard link already exists, but 'cp -l ...' will silently ignore it.
+Jul 03 00:42:12 <rishi>	Other than hard links, there are symbolic or soft links.
+Jul 03 00:42:40 <rishi>	Soft links are separate files, and unline hard links do not share the same inode.
+Jul 03 00:42:46 <rishi>	So if you do:
+Jul 03 00:42:51 <rishi>	$ ln -s foo baz
+Jul 03 00:43:12 <rishi>	... you will end up with a symbolic link baz which points to foo.
+Jul 03 00:43:24 <rishi>	You could have done the same with:
+Jul 03 00:43:32 <sunny_slls>	!
+Jul 03 00:43:33 <rishi>	$ cp -s foo baz
+Jul 03 00:43:41 <rishi>	If you do:
+Jul 03 00:43:47 <rishi>	$ ls -i foo bar baz
+Jul 03 00:44:09 <rishi>	... you will find foo/bar have the same inode index, while baz is different.
+Jul 03 00:44:14 <rishi>	sunny_slls: Ask.
+Jul 03 00:44:38 *	Soumya_ (n=Soumya@59.164.98.244) has joined #dgplug
+Jul 03 00:44:44 <ria>	!
+Jul 03 00:45:31 <sunny_slls>	what's inode
+Jul 03 00:47:50 *	Debashree has quit (Read error: 104 (Connection reset by peer))
+Jul 03 00:47:52 *	amrita_ (n=amrita@117.201.96.109) has joined #dgplug
+Jul 03 00:47:58 *	amrita_ has quit (Client Quit)
+Jul 03 00:48:39 <rishi>	sunny_slls: http://en.wikipedia.org/wiki/Inode
+Jul 03 00:48:55 <rishi>	One more: http://www.cyberciti.biz/tips/understanding-unixlinux-filesystem-inodes.html
+Jul 03 00:49:16 <rishi>	Simply put, an inode is the entry of a file in a filesystem.
+Jul 03 00:52:20 <rishi>	ria: Ask.
+Jul 03 00:52:22 *	Debashree (n=Debashre@61.0.133.55) has joined #dgplug
+Jul 03 00:52:35 <ria>	rishi, other than the inode what is the difference between hard and soft link?
+Jul 03 00:53:06 <ria>	rishi, and what will happen when we delete any of the files in both cases?
+Jul 03 00:53:16 <ria>	rishi, why do we need both?
+Jul 03 00:54:28 <rishi>	ria: If you use hard links, the file will not be deleted until all the synonyms are removed.
+Jul 03 00:54:56 <rishi>	Because the synonyms are basically one file only.
+Jul 03 00:54:58 <sunny_slls>	!
+Jul 03 00:55:24 <ria>	rishi, deleting which file?
+Jul 03 00:55:35 <ria>	rishi, first one or the 2nd one?
+Jul 03 00:55:55 <rishi>	ria: 1st and 2nd are same for hard links. Only the names are different.
+Jul 03 00:56:03 <rishi>	Same inode == same file.
+Jul 03 00:56:20 <rishi>	Its just like different names for the same person.
+Jul 03 00:57:08 <khushi>	two pointers for same variable
+Jul 03 00:57:16 <ria>	rishi, ok
+Jul 03 00:57:33 <ria>	rishi, so deleting anyone will act in the same way right?
+Jul 03 00:57:42 <rishi>	Yes.
+Jul 03 00:57:45 <ria>	rishi, and what about soft links?
+Jul 03 00:57:55 <rishi>	But if you remove the target to which a soft link was pointing to, the original file will get deleted independent of the soft link.
+Jul 03 00:58:06 <arpita>	so to remove such a file remove command will have to be used with any 1 of the synonyms or both?
+Jul 03 00:58:07 <rishi>	So you end up with a broken soft link.
+Jul 03 00:58:28 <rishi>	arpita: Are you talking about hard or soft links?
+Jul 03 00:58:34 <rishi>	If one does:
+Jul 03 00:58:35 <arpita>	hard link
+Jul 03 00:58:37 <rishi>	$ ln foo bar
+Jul 03 00:58:45 <rishi>	... then until you do:
+Jul 03 00:58:51 <rishi>	$ rm foo bar
+Jul 03 00:58:53 <ria>	rishi, so we will have the 2nd file in soft link?
+Jul 03 00:59:03 <rishi>	... the file will exist as one name or the other or both.
+Jul 03 00:59:33 <ria>	i mean 1st will be deleted but 2nd not
+Jul 03 00:59:34 <rishi>	ria: Yes, the soft link is a separate file. So you can separately delete the target and the link.
+Jul 03 00:59:43 <ria>	ok
+Jul 03 00:59:49 *	ecntrk has quit (Read error: 104 (Connection reset by peer))
+Jul 03 00:59:58 <ria>	rishi, and in hard link deleting one will delete both?
+Jul 03 01:00:49 <rishi>	<rishi> $ ln foo bar
+Jul 03 01:00:50 <rishi>	 ... then until you do:
+Jul 03 01:00:50 <rishi>	 $ rm foo bar
+Jul 03 01:00:57 <rishi>	<rishi> ... the file will exist as one name or the other or both.
+Jul 03 01:01:45 <rishi>	ria, arpita: Clear?
+Jul 03 01:01:53 <ria>	ok
+Jul 03 01:02:13 <arpita>	in rm foo bar are we removing the 2 files of the same name or just deleting the link between them?
+Jul 03 01:02:16 <rishi>	You can use ls -l to see which file a soft link is pointing to.
+Jul 03 01:02:22 <ria>	ln foo bar ... is it a hard link?
+Jul 03 01:02:37 <rishi>	ria: Hard link. See documentation.
+Jul 03 01:02:40 <ria>	and if we use rm foo , then?
+Jul 03 01:02:48 *	Soumya has quit (Read error: 110 (Connection timed out))
+Jul 03 01:03:00 <rishi>	arpita: A hard link is not really a "link", its more of an alias or synonym.
+Jul 03 01:03:16 <arpita>	o.k
+Jul 03 01:03:23 <rishi>	If you delete one, you just remove the alias. The entire file stays with the other alias.
+Jul 03 01:04:48 <rishi>	arpita, ria: Clearer now?
+Jul 03 01:04:55 <ria>	ok
+Jul 03 01:04:58 <ria>	<eof>
+Jul 03 01:05:04 <arpita>	yes
+Jul 03 01:05:11 *	rishi looks at the clock
+Jul 03 01:05:26 *	kushal looks at rishi 
+Jul 03 01:05:27 <ria>	1:07 am
+Jul 03 01:05:48 <rishi>	2 hours
+Jul 03 01:06:15 <rishi>	I wonder how many are still awake.
+Jul 03 01:06:21 <kushal>	Roll call
+Jul 03 01:06:21 <rishi>	We are left with rm now.
+Jul 03 01:06:32 <rishi>	Want to do it now, or in the next class.
+Jul 03 01:06:33 <rishi>	?
+Jul 03 01:06:33 <deepak>	deepak kumar
+Jul 03 01:06:35 <kushal>	emergency rollcall 
+Jul 03 01:06:43 <deepak>	deepak kumar
+Jul 03 01:06:45 *	Soumya_ has quit (Read error: 110 (Connection timed out))
+Jul 03 01:06:46 <arpita>	arpita kapoor
+Jul 03 01:06:46 <bose_aritra>	aritra bose
+Jul 03 01:06:50 <kushal>	rishi, rest are sleeping 
+Jul 03 01:06:56 <khushi>	Khushbu Mohta
+Jul 03 01:07:00 <amrita>	amrita mukherjee
+Jul 03 01:07:00 <Kishan>	kishan goyal
+Jul 03 01:07:17 <sunny_slls>	sunny sharma
+Jul 03 01:07:18 <rishi>	Seven awake.
+Jul 03 01:07:22 *	bose_aritra is a night crawler
+Jul 03 01:07:24 <rishi>	Eight now.
+Jul 03 01:07:44 <rishi>	So do you want to do rm now?
+Jul 03 01:07:46 <kushal>	hehe
+Jul 03 01:07:56 <bose_aritra>	rishi, its seven
+Jul 03 01:07:57 <deepak>	rishi:finish rm without any taking queries
+Jul 03 01:08:06 <ria>	ria das
+Jul 03 01:08:09 <rishi>	Ok. Lets get to rm.
+Jul 03 01:08:18 <rishi>	Everybody:
+Jul 03 01:08:21 <rishi>	$ man rm
+Jul 03 01:08:24 <rishi>	$ info rm
+Jul 03 01:08:26 <ria>	sorry for late reply
+Jul 03 01:08:26 <Prakhar>	Prakhar Agarwal
+Jul 03 01:08:27 <rishi>	$ whatis rm
+Jul 03 01:09:19 <rishi>	So if I have a file /tmp/fubar , how will I delete it?
+Jul 03 01:09:26 <rishi>	Who can answer?
+Jul 03 01:09:35 *	Debashree has quit (Read error: 54 (Connection reset by peer))
+Jul 03 01:09:41 <kushal>	lol
+Jul 03 01:10:06 *	rishi is waiting
+Jul 03 01:10:11 <arpita>	rm fubar
+Jul 03 01:10:18 <arpita>	rm tmp
+Jul 03 01:10:30 <arpita>	sorry just a wild guess
+Jul 03 01:10:46 <bose_aritra>	rm /tmp/fubar
+Jul 03 01:10:54 <rishi>	arpita: No wild guesses when you have a Unix system right now.
+Jul 03 01:11:02 <bose_aritra>	not sure of?
+Jul 03 01:11:03 <rishi>	bose_aritra: Correct.
+Jul 03 01:11:08 <deepak>	rishi:rm -r /tmp/fubar
+Jul 03 01:11:09 <bose_aritra>	checking if wirking
+Jul 03 01:11:21 <bose_aritra>	*working
+Jul 03 01:11:25 <Prakhar>	!
+Jul 03 01:11:30 <rishi>	deepak: Even better.
+Jul 03 01:11:36 <rishi>	Prakhar: Ask.
+Jul 03 01:11:43 <arpita>	got it
+Jul 03 01:11:58 <Prakhar>	do we require -r if there's only single file to be deleted
+Jul 03 01:12:02 *	stephaniewhiting has quit ("ChatZilla 0.9.82.1 [Firefox 2.0.0.14/2008040413]")
+Jul 03 01:12:09 <Prakhar>	i doubt!
+Jul 03 01:12:21 <Prakhar>	<eof>
+Jul 03 01:12:24 <bose_aritra>	^^^^^^ same question
+Jul 03 01:12:28 <bose_aritra>	??
+Jul 03 01:12:31 <bose_aritra>	<eof>
+Jul 03 01:13:16 <rishi>	bose_aritra, Prakhar: Depends on what you mean by a single file since a directory is also a single file. I think you meant a 'regular file', in which case -r is not needed.
+Jul 03 01:13:16 *	Debashree (n=Debashre@61.2.164.244) has joined #dgplug
+Jul 03 01:13:43 <Prakhar>	yeah, i meant a single regular file
+Jul 03 01:13:46 <Prakhar>	thanks
+Jul 03 01:13:52 <bose_aritra>	got it
+Jul 03 01:13:53 <rishi>	But it would not do any harm to give it. Since the question did mention regular file or directory providing it is safer.
+Jul 03 01:14:13 <Debashree>	debashree banerjee
+Jul 03 01:14:26 <susenj>	neeraj kumar
+Jul 03 01:14:38 <susenj>	sorry replying late
+Jul 03 01:14:55 <rishi>	Ok.
+Jul 03 01:15:28 <amrita>	rm -i /tmp/fubar
+Jul 03 01:15:39 <khushi>	rm --preserve-root /tmp/fubar
+Jul 03 01:16:02 <rishi>	khushi: Ok.
+Jul 03 01:16:09 *	kushal goes to check man page 
+Jul 03 01:16:16 <rishi>	amrita: You will need to provide yes / no after that.
+Jul 03 01:16:42 <amrita>	only for removing more than three files
+Jul 03 01:16:54 *	indradg_ (n=indradg@59.93.242.105) has joined #dgplug
+Jul 03 01:17:23 <rishi>	One word of caution: "take a deep breath and count from one to ten before doing: $ rm -rf *"
+Jul 03 01:17:37 <Prakhar>	:)
+Jul 03 01:17:52 <rishi>	amrita: -i and -I are different.
+Jul 03 01:18:03 <amrita>	ria, otherwise rm -f
+Jul 03 01:18:09 <amrita>	oops
+Jul 03 01:18:21 <indradg_>	rishi, teaching the young uns to commit suicide??
+Jul 03 01:18:28 <Prakhar>	!
+Jul 03 01:18:29 <rishi>	Ok. So you must have noticed that most of the options are same for cp, mv, rm, etc..
+Jul 03 01:18:30 <amrita>	rishi, i meant I
+Jul 03 01:18:50 <rishi>	eg., although -f, -i are interesting, I think we have already covered them.
+Jul 03 01:19:01 <rishi>	indradg_: Name please.
+Jul 03 01:19:20 <rishi>	amrita: Ok.
+Jul 03 01:19:40 <rishi>	Lets take a look at -r or -R or --recursive.
+Jul 03 01:19:59 <rishi>	We already know its used to delete directories recursively.
+Jul 03 01:20:05 <Prakhar>	!
+Jul 03 01:20:13 <rishi>	Now here is an excercise:
+Jul 03 01:20:41 *	t4num0y_cs3 (n=Neo@117.194.0.9) has joined #dgplug
+Jul 03 01:20:53 <Prakhar>	rishi, !
+Jul 03 01:21:03 <rishi>	Prakhar: Ask.
+Jul 03 01:21:08 <Prakhar>	"rm -rf *" and "rm-rf /" refers to same thing?
+Jul 03 01:21:35 <rishi>	Prakhar: No.
+Jul 03 01:21:52 <rishi>	* is a relative path and / an absolute path.
+Jul 03 01:21:59 <Prakhar>	ok
+Jul 03 01:22:04 <Prakhar>	<eof>
+Jul 03 01:22:12 <rishi>	"rm -rf /" is not dangerous if you are not crazy enough to work as the root user.
+Jul 03 01:22:33 <kushal>	rishi, which many of them do 
+Jul 03 01:22:40 <bose_aritra>	:)
+Jul 03 01:22:55 <Prakhar>	:)
+Jul 03 01:22:56 <susenj>	like me but not now onwards
+Jul 03 01:22:57 <rishi>	But rm -rf * is dangerous because you start off in your home directory, which if blanked will cause a lot of pain.
+Jul 03 01:23:12 <rishi>	For all those who are working as root, please do:
+Jul 03 01:23:16 <Prakhar>	ok, i get your point
+Jul 03 01:23:18 <rishi>	# rm -rf /*
+Jul 03 01:23:30 <rishi>	... to learn your lesson.
+Jul 03 01:23:48 <kushal>	rishi, nice point ,I should try that 
+Jul 03 01:24:02 <rishi>	Now here is an excercise:
+Jul 03 01:24:08 <rishi>	$ mkdir foo
+Jul 03 01:24:14 <rishi>	$ touch foo/bar
+Jul 03 01:24:30 <rishi>	ls -ld foo
+Jul 03 01:24:44 <rishi>	$ ls -l foo
+Jul 03 01:24:51 <rishi>	$ chmod 100 foo
+Jul 03 01:25:01 <rishi>	$ ls -l foo
+Jul 03 01:25:12 <rishi>	Any doubts till now? Please try it out.
+Jul 03 01:25:39 <rishi>	Now here is the question:
+Jul 03 01:25:48 <rishi>	What will happen if I do:
+Jul 03 01:25:59 <rishi>	(i) $ ls foo
+Jul 03 01:26:04 <rishi>	(ii) rm -rf foo
+Jul 03 01:26:15 <rishi>	... try to explain why this is so?
+Jul 03 01:26:27 *	rishi waits for an answer
+Jul 03 01:27:23 *	chiks has quit ("ChatZilla 0.9.83 [Firefox 3.0/2008052906]")
+Jul 03 01:27:36 <rishi>	Please try on the computer for those who are on Unix now.
+Jul 03 01:27:59 <bose_aritra>	permission denied
+Jul 03 01:28:15 <deepak>	rishi:[root@localhost ~]# ls foo
+Jul 03 01:28:16 <deepak>	bar
+Jul 03 01:28:16 <deepak>	  
+Jul 03 01:28:19 <rishi>	bose_aritra: For (i) or (ii) ?
+Jul 03 01:28:38 <bose_aritra>	for both
+Jul 03 01:28:44 *	bose_aritra checking again
+Jul 03 01:28:45 <susenj>	Permission denied
+Jul 03 01:28:46 <deepak>	rishi:'bar' means what
+Jul 03 01:28:51 <ria>	ls foo will give bar
+Jul 03 01:29:19 <arpita>	!
+Jul 03 01:29:32 <arpita>	ls -l foo is showing permission denied
+Jul 03 01:29:33 <ria>	2 will remove foo and its contents
+Jul 03 01:29:52 <bose_aritra>	[aritra@desktop ~]$ ls -l foo
+Jul 03 01:29:53 <bose_aritra>	total 4
+Jul 03 01:29:53 <bose_aritra>	-rw-rw-r-- 1 aritra aritra 0 2008-07-03 01:29 bar
+Jul 03 01:29:54 <rishi>	arpita: Correct
+Jul 03 01:30:06 <rishi>	ria: Wrong
+Jul 03 01:30:28 <rishi>	susenj: (i) or (ii) ?
+Jul 03 01:30:34 *	sunny_slls has quit ("Leaving")
+Jul 03 01:30:43 <rishi>	deepak: bar is a file
+Jul 03 01:30:44 <susenj>	both
+Jul 03 01:30:49 <rishi>	susenj: Correct
+Jul 03 01:31:01 <rishi>	Now why are they giving a permission denied?
+Jul 03 01:31:02 <ria>	after rm -rf i cannot see foo
+Jul 03 01:31:16 <bose_aritra>	rishi, !
+Jul 03 01:31:22 <rishi>	ria: Did you do the chmod?
+Jul 03 01:31:30 <rishi>	bose_aritra: Speak.
+Jul 03 01:31:32 <arpita>	i and ii both show permission denied
+Jul 03 01:31:35 <ria>	no
+Jul 03 01:31:35 <bose_aritra>	[aritra@desktop ~]$ mkdir foo
+Jul 03 01:31:35 <bose_aritra>	[aritra@desktop ~]$ touch foo/bar
+Jul 03 01:31:35 <bose_aritra>	[aritra@desktop ~]$ ls -ld foo
+Jul 03 01:31:35 <bose_aritra>	drwxrwxr-x 2 aritra aritra 4096 2008-07-03 01:29 foo
+Jul 03 01:31:35 <bose_aritra>	[aritra@desktop ~]$ ls -l foo
+Jul 03 01:31:36 <bose_aritra>	total 4
+Jul 03 01:31:38 <rishi>	arpita: Correct.
+Jul 03 01:31:38 <bose_aritra>	-rw-rw-r-- 1 aritra aritra 0 2008-07-03 01:29 bar
+Jul 03 01:31:39 <deepak>	rishi:since x permission is not there
+Jul 03 01:31:40 <bose_aritra>	[aritra@desktop ~]$ chmod 100 foo
+Jul 03 01:31:42 <bose_aritra>	[aritra@desktop ~]$ ls -l foo
+Jul 03 01:31:44 <bose_aritra>	ls: cannot open directory foo: Permission denied
+Jul 03 01:31:46 <bose_aritra>	[aritra@desktop ~]$ ls foo
+Jul 03 01:31:46 <susenj>	chmod 100 means foo is executable
+Jul 03 01:31:48 <bose_aritra>	ls: cannot open directory foo: Permission denied
+Jul 03 01:31:50 <bose_aritra>	[aritra@desktop ~]$ rm -rf foo
+Jul 03 01:31:54 <bose_aritra>	rm: cannot remove `foo': Permission denied
+Jul 03 01:31:57 <bose_aritra>	rishi, am getting this
+Jul 03 01:31:58 <kushal>	bose_aritra, EVER HEARD OF http://rafb.net/paste ?
+Jul 03 01:32:05 <bose_aritra>	<eof>
+Jul 03 01:32:15 <ria>	neither i got permission denied
+Jul 03 01:32:19 <bose_aritra>	kushal, sorry for flooding.
+Jul 03 01:32:28 <rishi>	bose_aritra: Correct.
+Jul 03 01:32:30 <deepak>	rishi:x is needed to enter into as well as delete it
+Jul 03 01:32:43 <rishi>	Now I want the reason for the permission denied. Guesses will do,
+Jul 03 01:32:55 <rishi>	deepak: The x bit is still on.
+Jul 03 01:32:57 <susenj>	chmod 100 means"to make the file executable"
+Jul 03 01:33:07 <susenj>	if i am not wron
+Jul 03 01:33:09 <rishi>	100 means --x------
+Jul 03 01:33:11 <susenj>	*wrong
+Jul 03 01:33:17 <susenj>	yes
+Jul 03 01:33:25 *	indradg has quit (Connection timed out)
+Jul 03 01:33:27 <ria>	ls -ld foo shows me x
+Jul 03 01:33:28 <rishi>	susenj: Correct.
+Jul 03 01:33:38 <ria>	but not foo
+Jul 03 01:33:44 <rishi>	We only removed the read/write.
+Jul 03 01:33:49 <ria>	its not executable
+Jul 03 01:34:02 <susenj>	so how can one see the contents of an executable
+Jul 03 01:34:06 <susenj>	??
+Jul 03 01:34:13 <rishi>	ria: What? It has x and its not executable?
+Jul 03 01:34:13 <susenj>	its ridiculous
+Jul 03 01:34:25 <rishi>	susenj: Why? Do:
+Jul 03 01:34:33 <ria>	i am saying about ls -l
+Jul 03 01:34:34 <rishi>	$ cat /bin/ls
+Jul 03 01:34:40 <deepak>	rishi:x is missing here
+Jul 03 01:34:45 <ria>	ls -l foo does not have x
+Jul 03 01:34:47 <rishi>	deepak: It can't be.
+Jul 03 01:34:49 <susenj>	ls foo will not show anything
+Jul 03 01:34:51 <ria>	so not executable
+Jul 03 01:34:52 <Prakhar>	rishi, i'm not getting permission denied
+Jul 03 01:35:00 <ria>	ls -ld is executable
+Jul 03 01:35:04 <susenj>	that's why permission denied
+Jul 03 01:35:09 <rishi>	Ok. Today's class is over.
+Jul 03 01:35:22 <ria>	rishi, others part in both does not have read write permissions
+Jul 03 01:35:34 <susenj>	am i right a little bit,rishi?
+Jul 03 01:36:23 <rishi>	susenj: No. It will not show anything and permission denied are the same thing. That is not the reason.
+Jul 03 01:36:31 <Prakhar>	rishi, please help.
+Jul 03 01:36:45 <rishi>	ria: Yes, so? Keep guessing.
+Jul 03 01:36:46 *	coolpyro_rishi has quit (Read error: 104 (Connection reset by peer))
+Jul 03 01:36:47 *	t4num0y_cs3 (n=Neo@117.194.0.9) has left #dgplug ("Leaving")
+Jul 03 01:36:57 *	coolpyro_rishi (n=chatzill@202.63.119.36) has joined #dgplug
+Jul 03 01:37:10 <rishi>	See without read permission you can not list the contents of a directory.
+Jul 03 01:37:15 <ria>	rishi, after doing rm -rf i cannot find the folder though
+Jul 03 01:37:23 <rishi>	That is why (i) gives a permission denied.
+Jul 03 01:37:25 <khushi>	mkdir foo
+Jul 03 01:37:40 *	sunny_slls (i=Sunny@117.99.4.204) has joined #dgplug
+Jul 03 01:38:00 <deepak>	rishi:ls -ld foo is not giving permission denied why?
+Jul 03 01:38:00 <ria>	neither i got permission denied
+Jul 03 01:38:16 <rishi>	When we do rm -rf foo, rm tries to read the contents of foo to delete them. It can't read the contents because foo does not have the read bit set.
+Jul 03 01:38:20 *	sunny_slls has quit (Client Quit)
+Jul 03 01:38:30 <rishi>	That explains (ii).
+Jul 03 01:38:50 <rishi>	<--------CLASS ENDS----------->

@@ -1,0 +1,648 @@
+----BEGIN CLASS----
+[13:28] <kushal> #startclass
+[13:28] <vishami3> Hey Everyone
+[13:28] <ahole[m]> --Session begins--
+[13:28] <kushal> Roll Call
+[13:29] <akshays> Akshay Shipurkar
+[13:29] <meamitk> Amit Kokitkar
+[13:29] <wrik003> Wrik Bhadra
+[13:29] <theAtom> deep
+[13:29] <abhinavshirur> Abhinav Shirur
+[13:29] <apsknight> Aman Pratap Singh
+[13:29] <pr97> Priyanka Sharma
+[13:29] <aditya> Aditya khowala
+[13:29] <devesh_verma> Devesh Verma
+[13:29] <deepika> Deepika Upadhyay
+[13:29] <asraisingh> Abhishek Singh
+[13:29] <anuGupta> Anu Kumari Gupta
+[13:29] <dhairyya> Dhairyya Agarwal
+[13:29] <imranjeetsingh_> Ranjeet kumar
+[13:29] <harshcrop> Harsh Shah
+[13:29] <lucifer> atul kumar
+[13:29] <sakshi> sakshi saraswat
+[13:29] <Akanksha> Akanksha Bhardwaj
+[13:29] <rgoyal> Rishika Goyal
+[13:29] <singh123_> Amarjeet Singh
+[13:29] <skat_sd_> Saikat Dey
+[13:29] <santoshShaw> Santosh Kumar Shaw
+[13:29] <Zams> Zameer Haque
+[13:29] <ahole[m]> Kshithij Iyer
+[13:29] <devendrabhat> Devendra Bhat
+[13:29] <geekabhi007> Abhishek sharma
+[13:29] <ghishadow> Suraj Ghimire
+[13:29] <cran-cg> Chiranjeev Gupta
+[13:29] <messifc> Messi Fc
+[13:29] <shivanim> Shivani Mehendarge
+[13:29] <anupamas> Anupama Shipurkar
+[13:29] <dodococo> Deepak Chethan
+[13:29] <schubisu> Robin Schubert
+[13:29] <casper01> Mayur Khomane
+[13:29] <zebak_> Zeba Karin
+[13:29] <yash_37> Yash Tamakuwala
+[13:29] <SRvSaha> Saurav Saha
+[13:29] <_RicharD_> Mayank gupta
+[13:29] <cignatious> Sharon Christa
+[13:29] <ravindra> Ravindra Lakal
+[13:29] <bhavin192> Bhavin Gandhi
+[13:29] <sangram_k> Sangram Kakade
+[13:29] <priyansh> Priyansh sourav
+[13:29] <proishan11_> Ishan Singh
+[13:29] <balaji> Balaji
+[13:29] <nisha__> Nisha Rani
+[13:29] <shankarj67> Shankar Jha
+[13:29] <mdbk> Onyinye Madubuko
+[13:29] <ihp> Mohit
+[13:30] <prashaant> Prashant K. Sharma
+[13:30] <sitlanigaurav[m]> Gaurav Sitlani
+[13:30] <CuriousLearner> Sanyam khurana
+[13:30] <apoorv28goel> Apoorv Goel
+[13:30] <kushal> Kushal Das
+[13:30] <sayan> Sayan Chowdhury
+[13:30] <kushal> I think we can now start.
+[13:30] <iKshitij> Kshitij
+[13:30] <geekodour08> Hrishikesh Barman
+[13:30] <vishami3> Shashank Shekhar
+[13:31] <kushal> Yesterday we asked people to install gtypist and then practice, if you have done so, type yes, or else no.
+[13:31] <jiteshpabla> Jitesh Pabla
+[13:31] <pr97> yes
+[13:31] <schubisu> yes
+[13:31] <abhinavshirur> yes
+[13:31] <deepika> yes
+[13:31] <ghishadow> yes
+[13:31] <jiteshpabla> yes
+[13:31] <wrik003> yes
+[13:31] <_RicharD_> Yes
+[13:31] <dhairyya> yes
+[13:31] <anupamas> yes
+[13:31] <cran-cg> yes
+[13:31] <geekodour08> no
+[13:31] <priyansh> Yes
+[13:31] <ravindra> yes
+[13:31] <devendrabhat> no
+[13:31] <Akanksha> no
+[13:31] <vishami3> no
+[13:31] <mdbk> yes
+[13:31] <singh123_> Yes
+[13:31] <dodococo> yes
+[13:31] <aditya> no
+[13:31] <casper01> no
+[13:31] <asraisingh> Yes
+[13:31] <sangram_k> no
+[13:31] <lucifer> no
+[13:31] <apoorv28goel> no
+[13:31] <Zams> no
+[13:31] <apsknight> Yes
+[13:31] <saikat_> no
+[13:31] <shankarj67> yes
+[13:31] <imranjeetsingh_> yes
+[13:31] <akshayg96[m]> yes
+[13:31] <ahole[m]> Yes
+[13:31] <balaji> Yes
+[13:31] <geekabhi007> no
+[13:31] <akshays> yes
+[13:31] <sitlanigaurav[m]> Yes
+[13:31] <nisha__> no
+[13:31] <devesh_verma> Yes
+[13:31] <bhavin192> yes
+[13:31] <harrypotter0> no
+[13:31] <harshcrop> no
+[13:31] <messifc> no
+[13:31] <shivanim> yes
+[13:31] <proishan11_> no
+[13:31] <harrypotter0> <harrypotter0>
+[13:31] <mohsin> Yes
+[13:32] <harrypotter0> Akash Kandpal
+[13:32] <santoshShaw> yes
+[13:32] <iKshitij> Yes
+[13:32] <theAtom> yes
+[13:32] <ihp> yes
+[13:32] <im_mohsin> yes
+[13:32] <harrypotter0> 1st day
+[13:32] <jasonbraganza> Jason Braganza
+[13:32] <kushal> People who ever missed it, please install and start practicing from today :)
+[13:32] <jasonbraganza> yes
+[13:32] <kushal> Touch typing will be an important part of your life :)
+[13:32] <cignatious> no
+[13:32] <vishami3> Sure Sir
+[13:33] <singh123_> gtypist
+[13:33] <jiteshpabla> !
+[13:33] <soumam007> Soumam Banerjee
+[13:33] <skat_sd_> Okay. I thought it was an app. Later found it to be a commandline thing.
+[13:33] <kushal> vishami3, no sir or madam on Internet.
+[13:33] <kushal> vishami3, Read the logs from the first two days
+[13:33] <im_mohsin> i get problem in my left hand typing "S" always.
+[13:33] <Shruti9620> Hi
+[13:33] <rgoyal> yes
+[13:33] <jiteshpabla> Would you recommend a mechanical keyboard?
+[13:33] <kushal> skat_sd_, it is still a command line application.
+[13:34] <ihp> im_mohsin: Practice will make things right. :)
+[13:34] <kushal> jiteshpabla, please ask these questions after the sessioln.
+[13:34] <vishami3> ok
+[13:34] <prashaant> im_mohsin, only practice could help ,
+[13:34] <kushal> * session
+[13:34] <jiteshpabla> ok
+[13:34] <kushal> Now, we also asked you to read the the document about how to ask questions, do you have any query about it?
+[13:35] <dodococo> No
+[13:35] <harshcrop> no
+[13:35] <singh123_> No
+[13:35] <im_mohsin> Yes, prashaant practicing it
+[13:35] <santoshShaw> No
+[13:35] <kushal> You don't have to type no
+[13:35] <sangram_k> No
+[13:35] <shankarj67> no
+[13:35] <niranjana> Yes
+[13:35] <schubisu> yes
+[13:35] <ashwanig> Yes
+[13:35] <skarpy> Sorry,  I am a bit late.
+[13:35] <niranjana> Sorry I'm late!
+[13:35] <skarpy> Akash pathak
+[13:35] <kushal> You are supposed to be type ! if you have query
+[13:35] <niranjana> Roll call: Niranjana Deshpande
+[13:35] <Shruti9620> Sorry for being late
+[13:35] <Shruti9620> no
+[13:36] <_RicharD_> No
+[13:36] <pr97> no
+[13:36] <ashwanig> Roll call: Ashwani Kumar Gupta
+[13:36] <ashwanig> no
+[13:36] <nisha__> no
+[13:36] <kushal> Any questions from that document?
+[13:37] <kushal> I guess no questions.
+[13:37] <kushal> Which is kind of strange.
+[13:37] <dodococo> No
+[13:37] <kushal> Anyway.
+[13:38] <lucifer> is it that we have to type ! and wait for our turn but how will we know it s our turn??<eof>
+[13:38] <prashaant> lucifer, batul will call your name
+[13:38] <messifc> lucifer: you will see
+[13:39] <kushal> lucifer, type ! and then see :)
+[13:39] <wrik003> lucifer, batul the bot will inform about it
+[13:39] <lucifer> !
+[13:39] <kushal> next
+[13:39] <kushal> next
+[13:39] <kushal> lucifer, This way.[
+[13:39] <lucifer> ok gotit<eof>
+[13:39] <kushal> Oops, typo.
+[13:39] <Zams> !
+[13:40] <kushal> next
+[13:40] <Zams> So what are we learning today?
+[13:40] <Zams> <eof>
+[13:40] <kushal> Zams, we will only know by the end of the day.
+[13:41] <Zams> ok <eof>
+[13:41] <mesayan> !
+[13:41] <kushal> next
+[13:41] <mesayan> why are we typing <eof>
+[13:41] <dodococo> !
+[13:41] <ihp> What we learn depends only on us?  The question should be "What would be taught today?" :)
+[13:41] <prashaant> mesayan, read the logs
+[13:41] <kushal> mesayan, read the log from day 1, you will get to know.
+[13:41] <kushal> next
+[13:41] <dodococo> Can we ask any questions, or is there a topic ?
+[13:41] <anuGupta> !
+[13:42] <kushal> dodococo, questions on yesterday's how to ask question document.
+[13:42] <kushal> next
+[13:42] <ravindra> !
+[13:42] <anuGupta> Will Fedora 24 do?<EOF>
+[13:42] <iKshitij> ** 210 nicks online **
+[13:42] <prashaant> anuGupta, yes
+[13:43] <geekabhi007> !
+[13:43] <kushal> anuGupta, for now yes.
+[13:43] <kushal> next
+[13:43] <santoshShaw> !
+[13:43] <ravindra> How to save the logs ? <eof>
+[13:43] <harshcrop> !
+[13:44] <prashaant> ravindra, visit https://dgplug.org/irclogs/2017/
+[13:44] <kushal> next
+[13:44] <geekabhi007> which linux distro best ? I 'm using ubuntu17.04 is it okay for this session ?<eof>
+[13:44] <Shruti9620> !
+[13:44] <kushal> geekabhi007, Best depends on your personal choice.
+[13:44] <kushal> next
+[13:44] <kushal> next
+[13:44] <santoshShaw> Which is better to use , github desktop app or the terminal based git tool? <EOF>
+[13:44] <harshcrop> can i use mac os for this?
+[13:45] <geekabhi007> !
+[13:45] <kushal> santoshShaw, Not part of of today's session.
+[13:45] <kushal> harshcrop, for few things yes, mostly no.
+[13:45] <kushal> next
+[13:45] <BhaveshSGupta> Hey Sorry I am late
+[13:45] <kushal> next
+[13:45] <Shruti9620> I am using ubuntu 14.04. Is it okay?
+[13:45] <ahole[m]> !
+[13:45] <prashaant> Shruti9620, yes its okay
+[13:45] <ihp> harshcrop: you can use virtual machine on your mac.
+[13:45] <kushal> next
+[13:46] <harshcrop> okay
+[13:46] <geekabhi007> can you tell me difference between  ubuntu and fedora ? <eof>
+[13:46] <geekodour08> !
+[13:46] <prashaant> Shruti9620, things you will learn works for most linux distro
+[13:46] <sangram_k> Google It
+[13:46] <ahole[m]> Is there any drag and drop IDE for Python 3x?
+[13:46] <kushal> geekabhi007, Have you read the how to ask a question in smart way document we gave yesterday?
+[13:46] <sangram_k>  geekabhi007: Google IT
+[13:46] <kushal> ahole[m], not today's topic.
+[13:46] <geekodour08>  when are we going to learn about using encryption? and will all the classes will be in this q/a format?
+[13:46] <kushal> sangram_k, Should be "google it"
+[13:46] <ahole[m]> Okay
+[13:47] <ahole[m]> <eom>
+[13:47] <kushal> geekodour08, depends.
+[13:47] <kushal> next
+[13:47] <geekodour08> sorry i just pasted and my irc client just sent it.
+[13:47] <kushal> Who all do not know anything about linux commands (bash commands)? If you are new to Linux, then also you can say yes.
+[13:47] <devesh_verma> Yes
+[13:47] <anupamas> yes
+[13:47] <shankarj67> yes
+[13:47] <lucifer> yes
+[13:47] <skat_sd_> yes
+[13:47] <wrik003> yes
+[13:47] <balaji> Yes
+[13:47] <asraisingh_> No
+[13:48] <Shruti9620> No
+[13:48] <im_mohsin> No
+[13:48] <shantam> yes
+[13:48] <vishami3> no
+[13:48] <sangram_k> No
+[13:48] <pavan> No
+[13:48] <bhavin192> No
+[13:48] <kushal> stop
+[13:48] <yurii> know a little bit
+[13:48] <kushal> please
+[13:48] <prashaant> yes
+[13:48] <mesayan> no
+[13:48] <pr97> yes
+[13:48] <LaBananaSplit> no
+[13:48] <apoorv28goel> no
+[13:48] <kvy> yes
+[13:48] <apoorv> yes
+[13:48] <mdbk> yes
+[13:48] <theAtom> yes
+[13:48] <devendrabhat> no
+[13:48] <fihae> yes
+[13:48] <akshays> yes
+[13:49] <messifc> kushal: you may want to type 'STOP'
+[13:49] <nisha__> no
+[13:49] <Akanksha> no
+[13:49] <anuGupta> Yes
+[13:49] <singh123_> NO
+[13:49] <avik> Hi, what is todays topic??
+[13:50] <iKshitij> avik: you are not late :)
+[13:50] <kushal> For the people who are completely new to linux or command line, you can start from http://summertraining.readthedocs.io/en/latest/shell.html
+[13:50] <cran-cg> avik: Use ! first if you want to ask any query
+[13:50] <avik> iKshitij, thanks
+[13:51] <avik> crang-cg, sorry. Forgot!
+[13:51] <joyhimanshu> hey
+[13:51] <kushal> For the experienced folks: you can look into bash scripting from http://tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf
+[13:52] <kushal> At least who ever is new, please try those commands in http://summertraining.readthedocs.io/en/latest/shell.html now.
+[13:52] <asraisingh_> kushal: ok
+[13:52] <kushal> And type ! if you have any query.
+[13:52] <arush> !
+[13:52] <kvy> !
+[13:52] <geekodour08> !
+[13:52] <RJ722> !
+[13:53] <kushal> next
+[13:53] <kvy> last day you advise us to use gtypist that was downloaded completly but not coming in my application list  what would i do ? <eof>
+[13:53] <kushal> kvy, please wait for you turn.
+[13:53] <kushal> kvy, also have you googled for "how to use gtypist" once?
+[13:53] <kushal> next
+[13:53] <kushal> next
+[13:53] <kvy> no yet
+[13:54] <kushal> kvy, Then please do so.
+[13:54] <arush> For experienced people shouldn't be http://tldp.org/LDP/abs/html/ be a better place to start? <eof>
+[13:54] <kushal> kvy, It is a command line application, you will have to use it inside a terminal/console.
+[13:54] <deepika> !
+[13:54] <shivamA1> sorry i am late, connection is poor since i am travelling
+[13:54] <geekodour08> I've tried learning bash before(about 2-3 times) everytime, I forget how to write bash scripts. I don't use them in my daily life. what can be a good usecase?
+[13:54] <kushal> arush, if you know basics, then yes.
+[13:54] <kushal> shivamA1, no problem.
+[13:54] <Zams> !
+[13:54] <kvy> kushal : ok thanks
+[13:55] <joyhimanshu> !
+[13:55] <kushal> geekabhi007, knowing the basics is good to start, later we will start how can we use python to do similar things.
+[13:55] <kushal> But you will bash in most servers.
+[13:55] <kushal> next
+[13:55] <RJ722> Can we use zsh for the sessions?
+[13:56] <vishami3> !
+[13:56] <ashwanig> !
+[13:56] <ahole[m]> !
+[13:56] <kushal> RJ722, if you know how to use it, why not?
+[13:56] <kushal> next
+[13:56] <deepika> how do we execute .sh files in linux ?<eof>
+[13:56] <geekabhi007> ok
+[13:56] <prashaant> RJ722, yes you can do all the things in zsh which you can do in bash
+[13:56] <kushal> deepika, That is answered in the bash guide link I provided above.
+[13:56] <kushal> next
+[13:56] <Zams> Do we have to read the bash guide cover to cover  ? <eof>
+[13:56] <prashaant> deepika, write "bash filenam.sh"
+[13:57] <kushal> Zams, Nope, read it with the pace or way you like.
+[13:57] <kushal> next
+[13:57] <joyhimanshu> sir today is my first day so where i get previous logs
+[13:57] <vishami3> Does shell commands are same as bash commands..How to differentiate these two..?
+[13:57] <prashaant> joyhimanshu, https://dgplug.org/irclogs/2017/
+[13:57] <kushal> joyhimanshu, also do not call anyone sir on internet
+[13:57] <kushal> next
+[13:57] <vishami3>  Does shell commands are same as bash commands..How to differentiate these two..?
+[13:57] <im_mohsin> kvy, After you have downloaded the gtypists. You can find install guide in "INSTALL" file in the folder
+[13:57] <joyhimanshu> sure Kushal
+[13:58] <kushal> vishami3, Bash is a type of shell (think like this for now).
+[13:58] <kushal> next
+[13:58] <ashwanig> What is the main difference between various shells like zsh, bash etc? Why do people use different shells?<eom>
+[13:58] <nisha__> !
+[13:58] <kushal> ashwanig, the same reason people use different cars.
+[13:58] <vishami3> kushal: ok
+[13:58] <kushal> ashwanig, personal choice based on feature, documentation, familiarity etc
+[13:58] <kushal> next
+[13:58] <ahole[m]> How to decide which shell to use based on requirements?
+[13:58] <kushal> ahole[m], start with bash.
+[13:58] <theparadoxer02_> !
+[13:59] <kushal> It there almost everywhere.
+[13:59] <kushal> next
+[13:59] <nisha__> what is zsh
+[13:59] <shivamA1> can anyone please resend the bash guide link.
+[13:59] <prashaant> shivamA1, http://tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf
+[13:59] <arush> deepika, there are two ways through which you can do that. A. By `bash filename.sh` B. Include "#!/bin/env bash" or "#!/bin/bash" in your script as the first line, make your script executable by "sudo chmod +x filename.sh" and execute it ./filename.sh
+[13:59] <shivamA1> thank you prashaant
+[13:59] <bhavin192> shivamA1, http://summertraining.readthedocs.io/en/latest/shell.html
+[13:59] <kushal> arush, you don't have to explain it in full now.
+[13:59] <shivamA1> bhavin192 thanks
+[13:59] <kushal> nisha__, It is another kind of shell.
+[14:00] <wrik003> nisha__, a shell program. Z Shell.
+[14:00] <kushal> nisha__, also type the same question in google, and see what happens next :)
+[14:00] <kushal> .google what is zsh
+[14:00] <tenida> kushal: Why Zsh is Cooler than Your Shell - SlideShare: <https://fr.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692>; What is the difference between bash and zsh ? - Quora: <https://www.quora.com/What-is-the-difference-between-bash-and-zsh>; Z shell - Wikipedia: <https://en.wikipedia.org/wiki/Z_shell>
+[14:00] <nisha__> thanks
+[14:00] <kushal> next
+[14:00] <theparadoxer02_> I am not able to regain my previous nick
+[14:01] <prashaant> theparadoxer02_, that should be least of your concern
+[14:01] <kushal> theoaradoxer02, Have you registered it?
+[14:02] <shantam> stop
+[14:02] <theparadoxer02_> Yeah
+[14:02] <kushal> next
+[14:02] <theparadoxer02_> But it is showing it is already in use
+[14:02] <kushal> For the new folks, if you have any queries related to the shell commands, please do ask.
+[14:02] <aditya> !
+[14:03] <kushal> theoaradoxer02, search for nickserv release a nick
+[14:03] <kushal> next
+[14:03] <theparadoxer02_> And added underscore in my nick in the end
+[14:03] <aditya> how does the tree command works?
+[14:03] <bhavin192> !
+[14:03] <kushal> aditya, it finds out details recursively and prints
+[14:03] <kushal> next
+[14:03] <bhavin192> What is difference in gnome-terminal and bash?
+[14:03] <prashaant> aditya, try "man tree" in your terminal
+[14:03] <aditya> okay
+[14:04] <jiteshpabla> !
+[14:04] <ashwanig> !
+[14:04] <kushal> https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line#506628
+[14:04] <kushal> bhavin192, ^^^
+[14:04] <kushal> next
+[14:04] <dodococo> !
+[14:04] <kushal> next
+[14:04] <jiteshpabla> Is there an equivalent of IRC logs for mailing lists?
+[14:04] <ashwanig> What is the difference between man and --help option for various commands?
+[14:05] <ashwanig> <eom>
+[14:05] <kushal> jiteshpabla, yes, that is called archive, mail-archive.com/users@lists.dgplug.org
+[14:05] <kushal> ashwanig, good question.
+[14:05] <kushal> ashwanig, --help shows any help message for the given command, and man tries to open something known as man page for that command.
+[14:05] <kushal> The man page many more details (generally).
+[14:06] <ihp> man command is a kind of documentation.
+[14:06] <ashwanig> kushal, But I have seen mostly they are similar
+[14:06] <kushal> ashwanig, https://en.wikipedia.org/wiki/Man_page
+[14:06] <asraisingh_> !
+[14:06] <Shruti9620> !
+[14:06] <kushal> ashwanig, it depends
+[14:06] <kushal> next
+[14:06] <dodococo> There is find, locate and few other commands to search files. Do they have any speciality ?
+[14:06] <joyhimanshu> !
+[14:06] <kushal> dodococo, yes, for different use cases, you will have to read the man pages for them, and also use them to see the difference.
+[14:06] <kushal> next
+[14:07] <asraisingh_> Should I choose project according to the language I know or learn the language after getting the project?<eof>
+[14:07] <rkased> Can somone remind me the time we start class today?
+[14:07] <kushal> asraisingh_, answered other day, find in the logs
+[14:07] <kushal> next
+[14:07] <kushal> next
+[14:07] <shankarj67> !
+[14:07] <Shruti9620> After typing "tree" on my terminal. It says- "The program 'tree' is currently not installed. You can install it by typing: sudo apt-get install tree". Why do we need to install it?
+[14:07] <joyhimanshu> is there is any difference between commands used in Zsh and bash
+[14:07] <prashaant> rkased, 7 PM IST
+[14:07] <rkased> Thanks
+[14:07] <prashaant> joyhimanshu, no
+[14:07] <poojaencoded> I missed  first day of this training
+[14:07] <ashwanig> Shruti9620, You should type pstree
+[14:07] <kushal> Shruti9620, in you Ubuntu install it is not there by default, so you will have to run the command given to install it.
+[14:08] <joyhimanshu> so why they are different
+[14:08] <santoshShaw> !
+[14:08] <kushal> joyhimanshu, google first
+[14:08] <kushal> and then come back and ask us.
+[14:08] <kushal> next
+[14:08] <joyhimanshu> ok
+[14:08] <shankarj67> what is the difference between shell and command line?
+[14:08] <prashaant> shankarj67, https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line#506628
+[14:09] <kushal> shankarj67, Are you following what is going on in the channel?
+[14:09] <kushal> next
+[14:09] <santoshShaw> Can you explain the symlink command? <EOF>
+[14:09] <rkased> Class is started now, I'm EST, that's now?
+[14:09] <kushal> rkased, nope, 13:30UTC
+[14:09] <prashaant> santoshShaw, type "man symlink"
+[14:10] <rkased> Okay, cool. THanks again for putting this together everyone
+[14:10] <santoshShaw> prashaant can't understand
+[14:10] <Guest87754> hey I dont know what's happening, are there any video sessions? I have missed all the sessions until now and just saw all the mails are in spam.
+[14:10] <prashaant> santoshShaw, open terminal and type "man symlink"
+[14:10] <kushal> santoshShaw, wait
+[14:10] <shankarj67> kushal, sorry somehow I didn't see that topic because of my slow internet connection.
+[14:10] <kushal> prashaant, wrong suggestion for now.
+[14:11] <santoshShaw> prashaant: can't understand from the man page buddy
+[14:11] <prashaant> kushal, sorry
+[14:11] <ahole[m]> Try man man
+[14:11] <kushal> santoshShaw, For now read https://en.wikipedia.org/wiki/Symbolic_link
+[14:11] <ashwanig> ahole[m], :P
+[14:11] <ahole[m]> You'll understand how man pages work.
+[14:11] <kushal> santoshShaw, and then learn about ln command
+[14:12] <santoshShaw> kushal:  ok thank you
+[14:13] <kushal> for later reading we also have the following logs
+[14:13] <kushal> https://dgplug.org/irclogs/rishi_1st_class.log
+[14:13] <kushal> https://dgplug.org/irclogs/rishi_2ndclass.log
+[14:13] <kushal> https://dgplug.org/irclogs/rishi_3rdclass.log
+[14:14] <ganesh_nomula> Hey, I live in CDT time zone. are there any videos of previous sessions? @kushal
+[14:14] <vipulgupta2048_> !
+[14:14] <ganesh_nomula> or it's just reading logs?
+[14:14] <prashaant> ganesh_nomula, there are logs https://dgplug.org/irclogs/2017/
+[14:14] <kushal> ganesh_nomula, Nope, only text logs.
+[14:15] <kushal> Is Davesh Kumar here?
+[14:15] <kushal> nex5t
+[14:15] <kushal> oops
+[14:15] <kushal> next
+[14:15] <vipulgupta2048_> Is there any way to directly Google from terminal ? (i.e without installing any specific package)
+[14:16] <kushal> vipulgupta2048_, there must be many tools
+[14:16] <kushal> I search in web
+[14:16] <kushal> also mostly in duckduckgo
+[14:16] <vishami3> <vipulgupta2048_> i use googler for this..search it
+[14:16] <kushal> https://duckduckgo.com/
+[14:16] <vipulgupta2048_> Yep, I Googled and found many ways to do it.
+[14:16] <iKshitij> kushal: Davesh or Devesh ?
+[14:16] <kushal> Devesh
+[14:16] <kushal> iKshitij, thanks.
+[14:16] <ganesh_nomula> thanks @kushal and @batul. for the homeworks do we need to submit them or just we have to practice? don't mind asking all these question, I haven't attended any classes until now. sorry.
+[14:17] <geetika> I just joined now..wts the topic?
+[14:17] <kushal> ganesh_nomula, Just practice, and ask any doubt here or in the mailing list.
+[14:17] <vipulgupta2048_> but every way has a package that need to be downloaded .
+[14:17] <dev__> yes kushal i am here
+[14:17] <kushal> geetika, We are discussing shell commands.
+[14:17] <kushal> dev__, You did a top posting in the mailing list, please read about mailing list guidelines as provided in day 1.
+[14:18] <kushal> dev__, Learn how to reply to the mailing list properly.
+[14:18] <deepika> !
+[14:18] <iKshitij> kushal: there is MOOC available on edx for introduction to Unix/Linux by Linux foundations. Should I suggest that ?
+[14:18] <kushal> dev__, The training is learn from mistakes.
+[14:18] <ndakota> Hello all
+[14:18] <vipulgupta2048_> kushal,is there any command or script for the same ?
+[14:18] <dev__> ok kushal
+[14:18] <kushal> iKshitij, people's choice, I am just telling what we follow for now.
+[14:19] <kushal> vipulgupta2048_, those commands are part of such packages, you will have to install them anyway.
+[14:19] <kushal> next
+[14:19] <deepika> which packages should we install as a beginner ?<eof>
+[14:19] <ashwanig> iKshitij, That is also mostly text based, you are getting the resources here anyway
+[14:19] <dodococo> !
+[14:19] <vipulgupta2048_> Good point there, thanks.
+[14:20] <kushal> deepika, package for?
+[14:20] <iKshitij> ashwanig: yes but that course also give you how things work ! Architecture basically ! Will discuss on that topic post session :)
+[14:20] <kushal> deepika, Do you have any modern linux distro installed?
+[14:20] <ashwanig> iKshitij, Sure :)
+[14:20] <kushal> We asked people to install gtypist yesterday, and learn touch typing from that.
+[14:21] <deepika> yes , i am not clear with concept of packages here
+[14:21] <deepika> yes
+[14:21] <kushal> deepika, Packages are a way for the distributions to distribute different applications.
+[14:21] <kushal> deepika, https://en.wikipedia.org/wiki/Package_manager
+[14:21] <santoshShaw> !
+[14:21] <kushal> next
+[14:22] <dodococo> which is better for coding between vim and emacs ? I just want to know your personal preference.<eom>
+[14:22] <deepika> oh okay ! thanks will go through it !
+[14:22] <kushal> dodococo, future topic, we use vim here in the session.
+[14:22] <kushal> next
+[14:22] <santoshShaw> Old IRC logs uses the YUM command. Should you continue using yum or change to dnf instead?<EOF>
+[14:23] <iKshitij> deepika: After class you can discuss all these with us here ! I think you have bag full of questions :)
+[14:23] <kushal> sandeepkr, in the current Fedora versions we have dnf
+[14:23] <vishami3> dnf is recommended from fedora 23 santoshShaw
+[14:23] <ihp> dodococo: this link might come handy for you. https://vim-adventures.com/
+[14:23] <kushal> next
+[14:23] <iKshitij> santoshShaw: dnf !
+[14:23] <lucifer> !
+[14:23] <ahole[m]> kushal: current fedora ?
+[14:24] <deepika> yeah ,iKshitij,thanks
+[14:24] <kushal> ahole[m], Yes, Fedora 24/25
+[14:24] <kushal> next
+[14:25] <lucifer> what is yum commands and dnf??<eof>
+[14:25] <im_mohsin> !
+[14:25] <kushal> lucifer, ask the same question to google first
+[14:25] <kushal> next
+[14:25] <im_mohsin> kushal, Can you please after every class put the list of link we need to look for before next sesssion?
+[14:26] <kushal> Can I please what?
+[14:26] <vishami3> dnf is the new package manager for fedora lucifer
+[14:26] <devendrabhat> !
+[14:26] <kushal> im_mohsin, ?
+[14:26] <im_mohsin> make a list at the end of the class and share it at once
+[14:26] <kushal> next
+[14:26] <lucifer> ok thanks
+[14:26] <punarvasu510> im_mohsin, yeah. That'd be helpful
+[14:26] <im_mohsin> because in harder to check many links in the logs
+[14:26] <kushal> im_mohsin, Nope, not my job, participants must attend or read the log, and figure those out.
+[14:27] <devendrabhat> i tried to run gtypist
+[14:27] <devendrabhat> but there is a error
+[14:27] <kushal> im_mohsin,  Then you must attend the sessions in real life.
+[14:27] <devesh_verma> !
+[14:27] <kushal> devendrabhat, What error? also you should have typed ! and wait for your turn.
+[14:27] <devendrabhat> gtypist: line 44: line too long for screen:
+[14:27] <devendrabhat>  :By the time you have completed this series, you will be able to type the entire
+[14:27] <im_mohsin> okay. Got it kushal
+[14:27] <iKshitij> lucifer: yum is package manager ! In short and simple (for now) It is a command line tool used for installing and uninstalling packages (software)
+[14:28] <kushal> iKshitij, please do not explain things to everyone, people must learn to search first
+[14:28] <devendrabhat> kushal ya it was my turn
+[14:28] <devendrabhat> it said ask your question
+[14:28] <kushal> devendrabhat, Okay, sorry for that.
+[14:28] <kushal> next
+[14:28] <devesh_verma> How can we attend sessions in real life ? I really want to attend since I got to know about Dgplug from fhackdroid_
+[14:28] <kushal> devesh_verma, You are attending one right now.
+[14:28] <kushal> This is as real as it can be.
+[14:28] <devesh_verma> Oh I tought of workshop
+[14:29] <devesh_verma> great then :)
+[14:29] <ahole[m]> devesh_verma: are you expecting something like a classroom lecture ?
+[14:29] <kushal> One more reading item: http://summertraining.readthedocs.io/en/latest/fhs.html
+[14:30] <dhairyya> nice one ahole[m]
+[14:30] <kushal> Corresponding log is at https://dgplug.org/irclogs/kushal_fhs_class.log
+[14:30] <anuGupta> Use of $ hg status says command not found .why is it so?
+[14:30] <kushal>  anuGupta Because you don't have it installed.
+[14:30] <devesh_verma> ahole[m], no. Just wanted to know if dgplug do some  workshops too.
+[14:30] <kushal> So, everyone please start reading about the bash commands, and also the FHS guidelines.
+[14:31] <shivanim> ok
+[14:31] <ahole[m]> devesh_verma: they are just logistically hard to conduct!
+[14:31] <kushal> next
+[14:31] <devesh_verma> ahole[m], I am enjoying this one :)
+[14:31] <kushal> Any more questions on those bash commands?
+[14:31] <kushal> Or else; Roll Call
+[14:32] <anuGupta> From where are these commands installed?
+[14:32] <naveejka> Naveej Ahamed
+[14:32] <messifc> Messi Fc
+[14:32] <pavan> Pavan
+[14:32] <prashaant_> Prashant K. Sharma
+[14:32] <schubisu> im_mohsin, you can also download the log and do something like grep 'kushal.*http' <logfile> to extract the links. Don't want to discourage live participation though ;)
+[14:32] <yurii> yurii pylypchuk
+[14:32] <kvy> kumar vipin yadav
+[14:32] <aditya> Aditya khowala
+[14:32] <dhairyya> Dhairyya Agarwal
+[14:32] <harshcrop> Harsh Shah
+[14:32] <wrik003> Wrik Bhadra
+[14:32] <jiteshpabla> Jitesh Pabla
+[14:32] <shankarj67> Shankar Jha
+[14:32] <santoshShaw> Santosh Kumar Shaw
+[14:32] <devendrabhat> Devendra Bhat
+[14:32] <devesh_verma> Devesh Verma
+[14:32] <imack> Mahendra Yadav
+[14:32] <ahole[m]> Kshithij Iyer
+[14:32] <schubisu> Robin Schubert
+[14:32] <Shruti9520> Shruti Singh
+[14:32] <ghishadow> Suraj Ghimire
+[14:32] <PrashantJ> Prashant Jamkhande
+[14:32] <mbtamuli12_> Mriyam Tamuli
+[14:32] <pr97> Priyanka Sharma
+[14:32] <geekodour08> Hrishikesh Barman
+[14:32] <sitlanigaurav[m]> Gaurav Sitlani
+[14:32] <nisha__> Nisha Rani
+[14:32] <poojaencoded> pooja kumari singh
+[14:32] <im_mohsin> Mohsin Mumtaz
+[14:32] <vishami3> Shashank Shekhar
+[14:32] <casper01> Mayur khomane
+[14:32] <sakshi> sakshi saraswat
+[14:32] <deepika> Deepika Upadhyay
+[14:32] <zebak> Zeba Karin
+[14:32] <Padfoot7> Mohd Omama
+[14:32] <cran-cg> Chiranjeev Gupta
+[14:32] <ashwanig> Ashwani Kumar Gupta
+[14:32] <RJ722> Rahul JHa
+[14:32] <fihae> Syed Mohammad Fiha
+[14:32] <ksaikiranr> K Sai Kiran
+[14:32] <nsh_srnvsn> Anusha Srinivasan
+[14:32] <asraisingh_> Abhishek Singh
+[14:32] <proishan11_> Ishan Singh
+[14:32] <skat_sd_> Saikat Dey
+[14:32] <priyansh> Priyansh sourav
+[14:32] <lucifer> atul kumar
+[14:32] <sachanapoorv> apoorv sachan
+[14:32] <anuGupta> Anu Kumari Gupta
+[14:32] <rgoyal> Rishika Goyal
+[14:32] <apoorv28goel> Apoorv Goel
+[14:32] <bhavin192> Bhavin Gandhi
+[14:32] <abhinavshirur> Abhinav Shirur
+[14:32] <imranjeetsingh_> Ranjeet kumar
+[14:32] <niranjana> Niranjana Deshpande
+[14:32] <shivanim> Shivani Mehendarge
+[14:32] <ravindra> Ravindra Lakal
+[14:33] <dodococo> Deepak Chethan
+[14:33] <theAtom> deep
+[14:33] <Syed_> Syed Abrar
+[14:33] <balaji> Balaji
+[14:33] <_RicharD_> Mayank gupta
+[14:33] <anupamas> Anupama Shipurkar
+[14:33] <singh123> Amarjeet Singh
+[14:33] <akshays> Akshay Shipurkar
+[14:33] <akshayg96[m]> Akshay Gaikwad
+[14:33] <mbtamuli12_> Just a suggestion. After introductions, there should be a session on google search.
+[14:33] <rimshakhan> Rimsha Khan
+[14:33] <XtraOrdinaryIdio> Manoj Mohan
+[14:33] <soumam007> Soumam Banerjee
+[14:34] <kushal> mbtamuli12_, Nope, that is why give a document to read.
+----END CLASS----

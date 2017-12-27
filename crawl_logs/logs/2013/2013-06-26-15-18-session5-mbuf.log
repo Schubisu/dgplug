@@ -1,0 +1,396 @@
+[15:42:11] [## Class Started at Wed Jun 26 15:42:11 2013 ##]
+[15:42:11] <kushal> startclass
+[15:42:12] <suman> kushal, ohh
+[15:42:23] <suman> thanks
+[15:42:27] <kushal> -----------SESSION STARTS---------------------
+[15:42:29] <kushal> ROLL CALL
+[15:42:31] <shantanu> shantanu sarkar
+[15:42:31] <pratikkumar> Pratik Kumar
+[15:42:32] <tutum> Pritha Ganguly
+[15:42:32] <prikotiyal> Priyanka Kotiyal
+[15:42:33] <pankhu_> Pankhudi Jain
+[15:42:33] <J_Caselles> Josep Caselles
+[15:42:33] <wiki> vivek sinha
+[15:42:34] <bidisha> Bidisha Mukherjee
+[15:42:35] <puspita> puspita ghosh
+[15:42:43] <zishan> Sheesh Mohsin
+[15:42:44] <tanv> tanvi dutta
+[15:42:44] <wjcrane> William Crane
+[15:42:44] <piotrektt> Piotr Bednarek
+[15:42:44] <ravi_pro> ravi kumbhkar
+[15:42:44] <tenstormavi> Avinash Kumar Dasoundhi
+[15:42:45] <m0rin09m`> Shungoh Kaetsu
+[15:42:45] <nilanjit> Nilanjit Mitra
+[15:42:45] <satarupa> Satarupa Sinha
+[15:42:45] <siddhant> siddhant sengar
+[15:42:48] <suman> suman roy
+[15:42:51] <rashmi> Rashmi
+[15:42:52] <amresh> Amresh Kumar
+[15:42:52] <rahulch> Rahul Chowdhury
+[15:42:53] <aanchal_> Aanchal
+[15:42:58] <elita15> elita lobo
+[15:43:01] <iam_sudip> Sudip Maji
+[15:43:04] <anisha23> Anisha Agrawal
+[15:43:06] <korak> korak ghosh
+[15:43:07] <ashis> Ashis Mohta
+[15:43:19] <sonam_> sonam
+[15:43:24] <Sudip> sudip gorai
+[15:43:32] <dot|not> dot|not,
+[15:43:47] <redramires> Ramon
+[15:43:47] <Devyani> Devyani
+[15:43:49] <shalini> Shalini Roy
+[15:44:09] <bpcse> Biswajit Pain
+[15:44:10] <avik> avik ghosh
+[15:44:21] <kushal> mbuf, go ahead
+[15:44:37] <mbuf> hello and welcome
+[15:44:44] Devyani is now known as devyani
+[15:44:49] <Armageddon> Elijah
+[15:44:52] <Christina> Christina Beemer
+[15:45:20] <mbuf> this will be a review session, where I would like to discuss on communication and project guidelines when working with free/open source software
+[15:45:33] <puja_> Puja Gupta
+[15:45:42] <mac1733> Terry Mackin
+[15:45:45] <anurag> anurag kumar
+[15:45:48] <purva> purva
+[15:45:49] devyani is now known as Devyani
+[15:45:54] <mbuf> I assume that you have gone through the previous year's logs on this, and the presentation available at http://shakthimaan.com/downloads.html#i-want-2-do-project-tell-me-wat-2-do
+[15:46:39] * Armageddon nods
+[15:47:01] <mbuf> this presentation has been used by newbies who want to get started in Google Summer of Code program, and of course I use it for the Fedora project as well
+[15:47:12] <mbuf> my friends in Wikipedia also use it
+[15:47:45] <mbuf> the first impression is always the best impression, and it is important for you to present yourself well
+[15:48:04] <mbuf> not just physically, but, also in your communication and work
+[15:48:29] <mbuf> hence the above deck of slides address most of the essential etiquette that you need to learn to follow
+[15:49:02] manishjain is now known as PleaseSTART
+[15:49:24] <mbuf> one needs to use the right tools with the right people at the right time
+[15:49:39] <mbuf> and paying attention to detail is important; every byte counts
+[15:50:27] <mbuf> today's world is full of distractions, and it is extremely important to concentrate on your work
+[15:51:07] <mbuf> the mailing list guidelines give you an idea of the common mistakes people make;
+[15:51:21] <mbuf> please double check what you have written, before you send any e-mail
+[15:52:23] <mbuf> there are lot of characteristics that are part of the free/open source software culture, and it is important for you to understand what they are and why they exist
+[15:52:40] <mbuf> asking the question "why" is crucial
+[15:53:10] <mbuf> things evolve, and it is important for you to keep yourself up-to-date
+[15:53:25] <mbuf> while technical skills are important, so are social skills too
+[15:53:59] <mbuf> each one of you have an online presence; just type your name in a search engine (Google, for example), and see what web links show up
+[15:54:45] <mbuf> in the F/OSS culture, the work that you do should reflect about you
+[15:55:00] Ritu_ is now known as PleaseSTART
+[15:55:01] <mbuf> the search results is a simple test
+[15:55:30] <mbuf> if you don't have a blog, create one, and share what you learn; there are people who will follow you and you can learn from others
+[15:55:41] <mbuf> this is part of the culture - knowledge sharing
+[15:56:10] <mbuf> a collection of blogs is a Planet; depending on your interest you can subscribe to various Planet feeds and read useful updates
+[15:56:20] <mbuf> reading habits are a must
+[15:56:51] <mbuf> there are other communication tools like IRC (what you use), wiki (project documentation), mailing list, forums etc.
+[15:57:00] <mbuf> learn to use these tools
+[15:57:23] <mbuf> use the right tool, for the right job, with the right people, at the right time
+[15:57:58] <mbuf> never do things because other people are doing it; you need to justify yourself and convince yourself as to what benefit you gain from it
+[15:58:09] <mbuf> *you will gain from doing it
+[15:58:30] <mbuf> hence the need to ask "why", retrospect, and reason
+[15:59:08] <mbuf> you should work on small tasks, get things reviewed and approved before proceeding to bigger tasks
+[15:59:33] <mbuf> small drops make a mighty ocean
+[15:59:40] <mbuf> we believe that if you fail early, and fail fast, we will be able to correct small mistakes
+[16:00:27] <mbuf> without having to near the end of a project or deadline, and have differences between what was demoed and what was expected from you
+[16:00:33] <mbuf> commit early, commit often
+[16:00:52] Spam is now known as Guest34481
+[16:00:53] <mbuf> that is why learning to use revision control tools like Git or Hg (mercurial) are important
+[16:01:11] <mbuf> always think about problems and solutions, not programming languages
+[16:01:48] <mbuf> don't work on a project because you think that the programming language is widely used
+[16:01:53] <mbuf> or that it will give you a job
+[16:02:13] <mbuf> see which language can help you best solve the problem
+[16:03:16] <mbuf> record where you spend time on a daily basis; there are tools like Hamster applet
+[16:03:52] <mbuf> unless you measure, you cannot analyse; if you do not analyse, you wouldn't be able to assess how you are doing
+[16:04:19] <mbuf> time is important; time wasted is lost; unfortunately, there is no undo button here
+[16:05:18] <mbuf> so, apart from improving your technical skills, please work on your communication and project skills
+[16:05:31] <mbuf> atleast I consider them both important for an individual
+[16:06:13] <mbuf> these are some of the important points on this subject; since this is a review session, I would like to open the floor for questions (one at a time!)
+[16:06:32] <piotrektt> !
+[16:06:41] <mbuf> piotrektt: shoot
+[16:06:41] <Christina> !
+[16:06:47] <shantanu> !
+[16:07:16] <mbuf> piotrektt: ask your question
+[16:07:25] <ravi_pro> !
+[16:07:28] <piotrektt> where to look for interesting projects for a begginer. f.e let's say i want to program,
+[16:07:43] <piotrektt> where to look for a place to start
+[16:08:10] <mbuf> piotrektt: the first thing is to decide on what your area of interest/domain is, which is?
+[16:08:18] <piotrektt> python
+[16:09:11] <dot|not> piotrektt, that's not really a good choice.
+[16:09:12] <piotrektt> or rather programming / solving problems :)
+[16:09:12] <mbuf> piotrektt: that is a language; by domain I meant embedded, systems/network administration, web development, systems
+[16:09:13] <dot|not> That's a programming language.
+[16:09:14] <mbuf> piotrektt: and there are lots more
+[16:09:33] <ravi_pro> mbuf, what is important ei
+[16:09:35] <mbuf> piotrektt: that is why I said think about problems, and solutions and not programming languages
+[16:09:52] <mbuf> ravi_pro: you need to wait till I tell you to ask your question
+[16:10:02] <kushal> ravi_pro, wait for your tunr or else you will be kicked out
+[16:10:07] <ravi_pro> mbuf, sorry
+[16:10:10] <kushal> s/tunr/turn/
+[16:10:11] <batul> What kushal meant to say was: ravi_pro, wait for your turn or else you will be kicked out
+[16:10:28] <piotrektt> mbuf, you pointed me in right direction. thx. i will ponder on the area of my interest
+[16:10:36] <kushal> thanks
+[16:11:01] <mbuf> Christina: shoot!
+[16:11:03] <Christina> What do you mean by analyse yourself. you mentioned Hamster applet and what does working on project skills really mean
+[16:11:20] rahulch_ is now known as rahulch
+[16:11:45] <mbuf> Christina: I would like each one of you to first record data on where you spend your time, daily
+[16:12:09] <korak_> mbuf,what is today's lesson?
+[16:12:11] <mbuf> Christina: for example, if you spent 2 hours on FaceBook, then, you can add a category 'Browsing' and mention 2 hours
+[16:12:18] <iowa_kirk>                                                                     !
+[16:12:27] <Armageddon> !
+[16:13:00] <mbuf> Christina: if you spent 15 minutes for lunch, please record it
+[16:13:01] <elita15> !
+[16:13:10] <mbuf> Christina: end of the week, see where you spent time; similarily, end of the month and year, you will be able to see where you spend time
+[16:13:27] <mbuf> Christina: the reason for this is to measure where time gets wasted, and where one needs to focus their time
+[16:13:41] <puja_> ja re h hm...kch hua to col krna
+[16:13:44] <Christina> Alright
+[16:13:49] <mbuf> Christina: today's generation get easily distracted with phone, FaceBook, that productivity levels are down
+[16:14:41] * kushal keeps a note to kick puja_ next time he sees that nick 
+[16:15:07] <dot|not> !
+[16:15:25] <Christina> And what about project skills
+[16:15:35] <mbuf> Christina: watch "Quantified Awesome Update - Where Did the Time Go" by Sacha Chua http://www.youtube.com/watch?v=R_htVMW3CSA
+[16:15:46] <mbuf> Christina: so there is a methodology of working on free/open source projects
+[16:16:20] <mbuf> Christina: things like commit early, commit often; fail early, fail fast
+[16:16:38] <mbuf> Christina: use of revision control system, project documentation using wiki
+[16:16:56] <mbuf> Christina: these you will learn as and when you decide to work on a project
+[16:17:05] <mbuf> Christina: but, good to know about them up front
+[16:17:13] <korak> !
+[16:17:52] <mbuf> Christina: there is a good book
+[16:18:14] * mbuf finds the link
+[16:18:33] <Christina> ok so where will I get some more information about maintaining project skills
+[16:18:42] <mbuf> Christina: \ "Linux and the Unix Philosophy" by Mike Gancarz http://www.amazon.com/Linux-Unix-Philosophy-Mike-Gancarz/dp/1555582737
+[16:18:52] <mbuf> Christina: this book is good
+[16:18:57] <Christina> mbuf, thank you :)
+[16:19:29] <sankha87> !
+[16:19:42] <mbuf> Christina: there are other reading material too! http://oreilly.com/openbook/freedom/
+[16:19:55] <mbuf> Christina: http://www.catb.org/esr/writings/homesteading/
+[16:20:04] <mbuf> Christina: http://www.catb.org/esr/faqs/hacker-howto.html
+[16:20:31] <mbuf> Christina: the above is the correct definition of Hacker; what the media projects isn't correct; don't be fooled by what the media or Hollywood says
+[16:20:40] <mbuf> shantanu: ask your question
+[16:21:22] <mbuf> ravi_pro: ask your question too
+[16:21:31] <shantanu> mbuf, you told us to work on small tasks. which type of tasks we should pick to work on?
+[16:21:58] <mbuf> shantanu: when you pick a task, divide them into smaller sub-tasks
+[16:21:59] <ravi_pro> mbuf,what are the use of Git as you mention above?
+[16:22:37] <mbuf> shantanu: and work on each sub-task; which task you choose depends on the project you choose
+[16:22:45] <mbuf> shantanu: the project depends on your area of interest
+[16:23:06] <mbuf> ravi_pro: it is meant to keep track of your work - code, documentation
+[16:23:17] <mbuf> ravi_pro: so you can revert, redo, undo changes as you like
+[16:23:49] <mbuf> ravi_pro: please read http://git-scm.com/
+[16:23:52] <mbuf> iowa_kirk: shoot
+[16:23:54] <iowa_kirk> do you have a recommendation(s) for some software development blogs for aspiring developers?
+[16:23:54] <mbuf> Armageddon: shoot
+[16:23:55] <shantanu> mbuf, where will i get the projects related to my area of interest?
+[16:23:59] <ravi_pro> mbuf,Is there any project for coding>
+[16:24:27] <mbuf> iowa_kirk: good question; you might find some answers on stackoverflow.com
+[16:24:36] <mbuf> iowa_kirk: but, software development is a very broad area
+[16:24:56] <mbuf> iowa_kirk: do you have anything particular in mind?
+[16:24:58] <Armageddon> mbuf, I have 2 questions actually, the first is what if I cherish my privacy and don't want to share my daily tasks online ? The second is, is there a way to learn a language while helping with a project ? I mean you can't join a project without knowing the language and you can't fully learn a language without working on a project. How do you reconcile ?
+[16:25:12] <mbuf> shantanu: you can Google around, or you can ask people on IRC
+[16:25:31] <mbuf> shantanu: you might also want to check out https://openhatch.org/
+[16:26:15] <mbuf> Armageddon: you don't have to update your status daily; but, atleast once a week is fine
+[16:26:20] <shantanu> mbuf, ok, thank you
+[16:26:34] <mbuf> Armageddon: you don't need to share any sensitive information; just project related info
+[16:26:50] <iowa_kirk> sure, I understand the broad topic.  I just wanted a suggestion to begin looking and finding those areas of preference.  stackoverflow  (which I have ran across many times) is exactly what i was looking for.
+[16:27:05] <mbuf> Armageddon: on your second question, not all projects involve development work
+[16:27:11] <Armageddon> mbuf, you mentioned logging out time and doing what for how long, that's sensitive enough for me.
+[16:27:34] <mbuf> Armageddon: localization work involves just learning the tools needed to translate English text to other languages
+[16:27:44] <Armageddon> on the second part, I was strictly talking about coding.
+[16:27:49] <mbuf> Armageddon: Fedora, for example, has lot of sub-projects, and not all are just coding
+[16:27:59] <Armageddon> I already am involved with a lot of projects
+[16:28:56] <mbuf> Armageddon: learning a language takes years, but, what you need to focus on is getting the domain knowledge in the subject
+[16:29:00] <tutum> !
+[16:29:08] * mbuf for info http://fedoraproject.org/wiki/Projects 
+[16:29:23] <mbuf> Armageddon: give me a project that you are currently working with
+[16:29:48] <Armageddon> Gentoo project and Tomahawk
+[16:29:48] <korak> !
+[16:29:54] <mbuf> Armageddon: yes, keep that data with you; it is for your analysis, not for others
+[16:30:10] <Armageddon> I translate tomahawk to arabic and I am a Gentoo contributor and package maintainer
+[16:30:44] <mbuf> Armageddon: nice; so as a package maintainer, you will want to increase your domain knowledge on how to package software for different languauges
+[16:30:48] <korak> !
+[16:31:08] <mbuf> Armageddon: or you can be an expert on debugging portability issues for packages across various architectures
+[16:31:24] <Armageddon> mbuf, right, but I'm talking about strictly about learning a language. Let's say point A is not knowing a language and point B is knowing it and helping with projects
+[16:31:26] <mbuf> Armageddon: you should become the person to solve such problems; but, you have to decide what is your focus
+[16:31:32] <Armageddon> how does one go from A to B ?
+[16:32:02] <mbuf> Armageddon: there are good tutorials and books on learning the language; so, one will need to spend some time working on it
+[16:32:25] <mbuf> Armageddon: but, more than that one needs to focus on the programming paradigm - procedural / object-oriented / functional
+[16:32:48] <mbuf> Armageddon: as long as you learn these paradigms, picking any language in that paradigm will be easy - just a different syntax
+[16:32:59] <Armageddon> mbuf, I'm already familiar with all of those, the problem is taking the useless academia knowledge and getting somewhere with it
+[16:33:03] <Armageddon> that's the big issue
+[16:33:48] <mbuf> Armageddon: mastering will take years; worth a read http://norvig.com/21-days.html
+[16:34:23] <mbuf> elita15 shoot
+[16:34:25] <mbuf> dot|not: shoot
+[16:34:26] <Armageddon> mbuf, that's pretty helpful, thanks.
+[16:34:37] <elita15> i am interested in  developing my programming skills in java as well as networking  ,  i just am a beginner though, where should i start from so that i can start doing projects ?
+[16:34:53] <mbuf> elita15 forget Java; focus on networking
+[16:35:07] <mbuf> elita15 again networking is a vast area; you need to streamline it to what in networking that you like
+[16:35:24] <J_Caselles> !
+[16:35:36] <dot|not> mbuf, no question, just a note: "today's generation get easily distracted with phone, FaceBook, that productivity levels are down" - that's a bit generalizing and insulting. Just my 2 cents.
+[16:35:51] <elita15> can you please tell me where to begin.i am currently learning ccna and mcitp.
+[16:35:58] <mbuf> elita15 pick one area of interest in networking, look at F/OSS projects in that area, check the TODO list for the project and work on it
+[16:36:06] <puspita> !
+[16:36:18] <mbuf> dot|not: truth is always bitter :)
+[16:36:19] <elita15> can you please suggest a few books?
+[16:36:46] <mbuf> elita15 I assume mcitp is some certification?
+[16:37:17] <dot|not> mbuf, if you say so .. well, then I'm a facebook-addicted, lazy member of today's youth.
+[16:37:45] <mbuf> dot|not: atleast you are honest
+[16:37:48] <elita15> yes, it is microsoft engineer certification but i am interested in learning networking through linux
+[16:37:54] * J_Caselles points a valium to dot|not
+[16:38:27] <mbuf> elita15 you need to see the various topics in networking and decide what in networking you are interested in
+[16:39:06] <mbuf> elita15 do some reading on it first
+[16:39:07] <dot|not> mbuf: Would you mind having a private chat about this at some time in the future? I would not like to continue disturbing your lesson.
+[16:39:08] <mbuf> dot|not: sure, feel free to drop me an e-mail
+[16:39:13] <mbuf> dot|not: don't take it personal though
+[16:39:13] <dot|not> Thanks. <EOF>
+[16:39:41] <mbuf> sankha87: shoot
+[16:39:44] <mbuf> tutum: shoot
+[16:39:49] <dot|not> I don't, I'm just curious. (And now I'll be silent finally. ^^)
+[16:39:50] <tutum> mbuf,I am a newbie in free/open source software.I just started using linux machine about a week ago.I am interested in doing projects in the same.I do not have any project experiences in the past.When do i know that am ready to work on a project?
+[16:40:32] <sankha87> my domain of interest is semantic web, where should i start ? give me some hints .
+[16:40:32] <mbuf> tutum: when and did you know you were ready to read and write?
+[16:40:45] <tutum> and how do i approach someone to be my mentor?
+[16:40:46] <elita15> okay,  what about java projects? can you please suggest a few websites  for developing coding and debugging  skills ?
+[16:40:48] <tutum> <eom>
+[16:40:49] <mbuf> sankha87: what in semantic web?
+[16:40:56] <elita15> <eof>
+[16:41:11] <mbuf> elita15 as I mentioned don't think about Java or any other programming language
+[16:41:21] <tutum> mbuf,when i started writing.
+[16:41:27] <mbuf> elita15 think about problems, algorithms and solutions
+[16:41:34] <sankha87> some project like disaster management website
+[16:41:34] <tutum> mbuf:and reading
+[16:42:11] <mbuf> elita15 experience is the best teacher; you need to work hard on projects and gain experience
+[16:42:56] <mbuf> sankha87: if you focus on disaster management system and problems in it that you want to solve, you won't worry about programming language
+[16:43:03] <mbuf> sankha87: look at http://sahanafoundation.org/
+[16:43:30] <mbuf> tutum: you need to write about yourself, your skills, interests etc.
+[16:43:38] <dell_> !
+[16:43:50] <mbuf> tutum: I use few questions from the Mentoring section at https://fedoraproject.org/wiki/User:Shakthimaan
+[16:43:53] <elita15> mbuf, okay thanks but i am not aware of any sites where i can start doing projects with my limited knowledge.
+[16:43:54] <mbuf> dell_: shoot
+[16:44:28] <mbuf> elita15 I mentioned openhatch.org earlier
+[16:44:33] <dell_> actually i only know C language so what kind of new thing i have to do for getting into a project work?
+[16:44:50] <puspita> !
+[16:44:51] <J_Caselles> !
+[16:44:51] <mbuf> dell_: as I mentioned earlier don't think about programming languages
+[16:45:15] <mbuf> dell_: you need to decide on your area of interest first, then choose the language that best helps solve the problem
+[16:45:24] <mbuf> dell_: if you don't know the language, learn it
+[16:45:27] <tutum> okay,thanks mbuf..:)
+[16:45:29] <elita15> mbuf, sorry, i forgot about it. thanks again
+[16:45:30] <mbuf> puspita: shoot
+[16:45:32] <mbuf> J_Caselles: shoot
+[16:45:36] <mbuf> elita15 no problem
+[16:45:41] <puspita> I'm interested in coding. where do i get a forum to get problem and solve them and improve my programming skills?
+[16:45:53] <mbuf> puspita: you are already in one
+[16:46:15] <mbuf> puspita: but, we cannot decide which is your favorite ice cream or your domain of interest is
+[16:46:21] <mbuf> puspita: you will have to let us know
+[16:46:27] <dell_> is C language is enough for project work? if no tell me the other option please.
+[16:46:41] <mbuf> puspita: we cannot force things; nobody can force things on anybody
+[16:46:45] <sankha87> mbuf, where can i find the problems that are inside disaster management system ?
+[16:46:57] <puspita> mbuf: my interest is on application programs
+[16:46:57] <mbuf> dell_: what I am saying is that your approach is wrong;
+[16:47:30] <J_Caselles> but if you want to participate in an android project, for instance, you have to learn java for sure. You mean the language shouldn't be the goal, but the mean, right?
+[16:47:32] <mbuf> sankha87: you might need to read on it online, (re)search
+[16:47:46] <mbuf> sankha87: have an IRC discussion with Sahana team and see what they might want
+[16:47:51] <mbuf> sankha87: see how you can help them
+[16:48:03] <mbuf> puspita: that is very general; you have to be specific
+[16:48:31] <mbuf> J_Caselles: you can write applications for Android without learning Java
+[16:49:01] <mbuf> J_Caselles: yes, the language is the means, not the goal
+[16:49:06] <sankha87> you mean i need to go through some papers related to that domain?
+[16:49:12] <mbuf> sankha87: that is one approach; you can also talk to people who work in that domain
+[16:49:13] <puspita> mbuf: seems like i need to do a bit more digging on my interest before I get back. thank you
+[16:49:42] <mbuf> sankha87: check out forums; check out existing F/OSS projects and see what they are doing, and what they need
+[16:49:46] <mbuf> sankha87: this is called doing "homework"
+[16:49:49] <mbuf> puspita: correct!
+[16:50:08] <J_Caselles> mbuf and "wanting to program android apps" is a good aproach?
+[16:50:09] <mbuf> sankha87: you need to seek out for information; when you find them, you can note them, or blog about it
+[16:50:58] <mbuf> sankha87: if people read your blog, they might have suggestions
+[16:51:08] <mbuf> J_Caselles: it depends on the context; if you want to show that you are capable of writing Android applications, then yes
+[16:51:08] <sankha87> where can i discuss with them ?
+[16:51:10] <pratikkumar> !
+[16:51:28] <mbuf> sankha87: please check the project specific tools - Wiki, IRC, mailing list, forums etc.
+[16:51:40] <mbuf> pratikkumar: shoot!
+[16:51:46] <pratikkumar> i have interest  in cracking,hacking.so for this which projects would be a good start?
+[16:52:02] Guest34481 is now known as zisham
+[16:52:09] zisham is now known as zishan
+[16:52:27] <J_Caselles> mbuf "show that you are capable" in order to be hired?
+[16:52:31] <mbuf> pratikkumar: the real meaning of Hacking is at http://www.catb.org/esr/faqs/hacker-howto.html; please don't get fooled by what the media says
+[16:52:51] <mbuf> pratikkumar: hackers push technology to the forefront and want to solve challenging problems
+[16:53:06] <mbuf> pratikkumar: crackers break into systems, networks; we don't do that stuff
+[16:53:34] <pratikkumar> mbuf, yes
+[16:53:49] <mbuf> J_Caselles: that, IMO, is not a good approach, because, if there is no Android tomorrow, on paper, your profile isn't worth it
+[16:54:08] <mbuf> J_Caselles: but, if you showed you have problem solving capabilities, then, you will survive
+[16:54:30] <pratikkumar> !
+[16:54:54] <mbuf> J_Caselles: that is why I said, think about problems, not languages or platforms; a good engineer will be able to work in any language or platform
+[16:54:56] <mbuf> pratikkumar: shoot
+[16:54:58] <pratikkumar> is cracking illegal? can i have a hope of future in it?
+[16:55:13] <J_Caselles> mbuf: ok, I got it. many thanks
+[16:55:37] <ravi_pro> !
+[16:55:41] <dot|not> pratikkumar, are you serious?
+[16:55:49] <mbuf> pratikkumar: yes it is illegal; and we are not interested in it
+[16:56:02] <mbuf> pratikkumar: we want to help society and do constructive work
+[16:56:21] <mbuf> pratikkumar: even today, in engineering circles, hacking is producing good code
+[16:56:30] <mbuf> pratikkumar: sadly the media has abused the word for ages
+[16:56:39] <mbuf> pratikkumar: again, don't be fooled by it
+[16:56:52] <pratikkumar> mbuf, ok
+[16:57:01] <pratikkumar> is c or python language enough to start any project?
+[16:57:19] <mbuf> pratikkumar: please read my previous replies on this; that is a wrong approach
+[16:57:37] <pratikkumar> mbuf, ok
+[16:57:55] * mbuf on time management issue, I'd encourage everyone to read "7 Habits of Highly Effective People" https://www.stephencovey.com/7habits/7habits.php 
+[16:58:13] * mbuf my contact info is at shakthimaan.com
+[16:58:32] <mbuf> are there any new questions?
+[16:59:14] <elita15> !
+[16:59:18] <mbuf> elita15 yes
+[16:59:53] <elita15> when do we start blogging, considering that we are begineers?
+[17:00:31] <mbuf> elita15 you can start now
+[17:00:37] * J_Caselles is amazed and grateful with all this bibliography
+[17:00:51] <J_Caselles> !
+[17:01:02] <mbuf> J_Caselles: yes
+[17:01:24] <mbuf> elita15 nobody knows everything in this world, so we are a beginner in something or the other
+[17:01:40] <J_Caselles> Any suggestion on blog client, or writting it from scratch?
+[17:01:46] <mbuf> elita15 but, we should aim to be a jack of all trades, and master of one
+[17:02:25] <mbuf> J_Caselles: I like to separate data from presentation (good design principle), and use static site generator (Hakyll)
+[17:02:37] <elita15> can you please explain how can we achieve the same?
+[17:02:44] <mbuf> J_Caselles: there are many others available like Jekyll; search online
+[17:03:02] <mbuf> J_Caselles: try everything, and decide which you like, and use it
+[17:03:57] <J_Caselles> I'll give jekill a try, didn't know about it, thanks
+[17:04:00] <mbuf> elita15 that again depends on your area of interest, and it comes with years of hard work, dedication, and experience; there is no fast food solution
+[17:04:25] <mbuf> J_Caselles: one needs to spend time doing productive things like this, so learning happens
+[17:05:24] <mbuf> failure is also learning; the more one fails, the better the learning experience; and hopefully you will not make the mistake again
+[17:05:43] <mbuf> if there are no more questions, we can end the class
+[17:06:05] <kushal> pingall: ROLL CALL
+[17:06:10] <mbuf> you can write to the dgplug mailing list if you have any specific queries
+[17:06:10] <tenstormavi> Avinash Kumar Dasoundhi
+[17:06:12] <tutum> Pritha Ganguly
+[17:06:12] <mbuf> thank you
+[17:06:14] <J_Caselles> Josep Caselles
+[17:06:18] <supriya_> supriya saha
+[17:06:18] <suman> suman
+[17:06:19] <zishan> Sheesh Mohsin
+[17:06:19] <ravi_pro> ravi kumbhkar
+[17:06:20] <piotrektt> Piotr Bednarek
+[17:06:20] <siddhant> siddhant sengar
+[17:06:20] <puspita> puspita ghosh
+[17:06:22] <rashmi> Rashmi
+[17:06:22] <prikotiyal> Priyanka Kotiyal
+[17:06:23] <pankhu_> pankhudi jain
+[17:06:23] <anurag> anurag kumar
+[17:06:24] <pratikkumar> Pratik Kumar
+[17:06:24] <sonam_> sonam
+[17:06:25] <purva> purva
+[17:06:25] <elita15> elita lobo
+[17:06:26] <rahulch> Rahul Chowdhury
+[17:06:26] <sankha87> sankhadeep pujaru
+[17:06:27] <tanv> tanvi dutta
+[17:06:28] <mapyth> Mayank Jha
+[17:06:28] <satarupa> satarupa sinha
+[17:06:29] <Armageddon> Elijah
+[17:06:29] <wjcrane> William Crane
+[17:06:29] <fewcha_> Sanjiban Bairagya
+[17:06:29] <Sudip> Sudip Gorai
+[17:06:29] <nilanjit> Nilanjit Mitra
+[17:06:31] <anisha23> Anisha Agrawal
+[17:06:31] <rahulmishra> Rahul Mishra
+[17:06:32] <amresh> Amresh
+[17:06:33] <m0rin09m`> Shungoh Kaetsu
+[17:06:34] <umesh> Umesh Agarwal
+[17:06:34] <redramires> Ramon
+[17:06:43] <shalini> Shalini Roy
+[17:06:44] <PleaseSTART> manish jain
+[17:06:49] <amitshree> Amit Kumar
+[17:06:50] <iam_sudip> Iam_sudip
+[17:06:52] <bidisha> Bidisha Mukherjee
+[17:07:09] <dot|not> dot|not,
+[17:07:46] <kushal> ekan0ra endclass
+[17:07:46] [## Class Ended at Wed Jun 26 17:07:46 2013 ##]

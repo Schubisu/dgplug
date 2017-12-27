@@ -1,0 +1,386 @@
+Jun 28 17:03:14 <kushal>	ok starting today's session
+Jun 28 17:03:20 <kushal>	Roll Call please 
+Jun 28 17:03:31 <sayan>	Sayan Chowdhury
+Jun 28 17:03:51 <pranay_09>	Pranay Agarwal
+Jun 28 17:04:20 <koustava_>	koustava goswami
+Jun 28 17:04:23 <praveenkumar>	praveenkumar
+Jun 28 17:04:29 <kushal>	ok
+Jun 28 17:04:51 <kushal>	read the mail in the list and fill the page accordingly 
+Jun 28 17:05:02 <kushal>	only praveenkumar here already did it
+Jun 28 17:05:35 <koustava_>	kushal<!
+Jun 28 17:06:22 <kushal>	koustava_, yes
+Jun 28 17:06:29 <koustava_>	*/nick koustava* without *
+Jun 28 17:06:39 <koustava_>	which list?
+Jun 28 17:06:47 <kushal>	dgplug mailing list 
+Jun 28 17:07:00 *	agarwalashish05 (73f2d6f9@gateway/web/freenode/ip.115.242.214.249) has joined #dgplug
+Jun 28 17:07:09 <kushal>	agarwalashish05, you are late 
+Jun 28 17:07:19 <agarwalashish05>	sorry had power cut
+Jun 28 17:07:25 <kushal>	ok
+Jun 28 17:07:41 <kushal>	agarwalashish05, also filled the page 
+Jun 28 17:08:13 <kushal>	last time I gave you the logs for vi
+Jun 28 17:08:25 <kushal>	who finished reading and testing them ?
+Jun 28 17:09:15 *	rohit1988 (3b5dce75@gateway/web/freenode/ip.59.93.206.117) has joined #dgplug
+Jun 28 17:09:17 <agarwalashish05>	read some of them but not all
+Jun 28 17:09:17 <koustava_>	kushal,I have already filled that up
+Jun 28 17:09:42 <praveenkumar>	kushal, i think its shell and vim both.
+Jun 28 17:09:55 <kushal>	koustava_, no you did not , check your mails
+Jun 28 17:10:07 <kushal>	praveenkumar, yes, but for shell saturday night was the time
+Jun 28 17:10:18 <praveenkumar>	kushal, yeah
+Jun 28 17:10:25 <kushal>	agarwalashish05, if you don't finish on time then you will be late 
+Jun 28 17:10:34 <agarwalashish05>	i will do it by taday
+Jun 28 17:10:39 <agarwalashish05>	today
+Jun 28 17:11:00 <rohit1988>	hi!kushal
+Jun 28 17:11:43 <kushal>	rohit1988, you are late 
+Jun 28 17:12:14 <rohit1988>	i know! sorry
+Jun 28 17:12:14 <kushal>	I also asked people to read http://dgplug.org/irclogs/kushal_fhs_class.log 
+Jun 28 17:12:18 <kushal>	anyone did ?
+Jun 28 17:12:34 <kushal>	any questions on vim ?
+Jun 28 17:12:47 <koustava_>	kushal,I have read
+Jun 28 17:12:53 <kushal>	any question 
+Jun 28 17:13:28 <praveenkumar>	kushal, me too these are basics and all doubts already cleared in logs itself
+Jun 28 17:13:29 <koustava_>	kushal,in root there nothing is appearing after ls -
+Jun 28 17:13:48 <kushal>	you people are supposed to type ! and wait before talking
+Jun 28 17:14:16 <kushal>	koustava_, can not understand , please say it again
+Jun 28 17:14:41 <praveenkumar>	koustava_, their is no option for 'ls -' i think its 'cd -' .
+Jun 28 17:15:13 <koustava_>	kushal,when I having cd /root
+Jun 28 17:15:27 <koustava_>	kushal,then trying to have ls -
+Jun 28 17:15:39 <koustava_>	kushal,nothing is showing
+Jun 28 17:15:44 <kushal>	koustava_,  first of all you can not do cd /root unless you are root
+Jun 28 17:16:02 <kushal>	also the command is cd - to back to the previous directory 
+Jun 28 17:16:05 <kushal>	not ls -
+Jun 28 17:16:08 <koustava_>	kushal,I am in root
+Jun 28 17:16:22 <kushal>	koustava_, you are using root account ?
+Jun 28 17:16:28 <koustava_>	kushal,yes
+Jun 28 17:16:32 <kushal>	I mean you are logged in as root ?
+Jun 28 17:16:37 <kushal>	koustava_, that is very bad
+Jun 28 17:16:53 <kushal>	create a simple user account 
+Jun 28 17:16:55 <kushal>	and use that 
+Jun 28 17:17:12 <kushal>	you are not supposed to use root account for the normal usage
+Jun 28 17:17:19 <kushal>	s/normal/regular
+Jun 28 17:17:25 <koustava_>	kushal,no I was writing the command only in root
+Jun 28 17:17:46 <kushal>	what do you mean by "writing the command only in root"
+Jun 28 17:17:48 <kushal>	?
+Jun 28 17:17:55 <koustava_>	kushal,I always use normal account
+Jun 28 17:18:23 <koustava_>	kushal,when I was working in /tmp
+Jun 28 17:18:35 <koustava_>	kushalm,then coming to root
+Jun 28 17:18:44 <kushal>	 /root ?
+Jun 28 17:18:50 <koustava_>	kushal,some problem is there
+Jun 28 17:19:01 <kushal>	you can not access that folder unless you are the root user 
+Jun 28 17:19:21 <kushal>	from your regular user account you can not read /root
+Jun 28 17:19:21 <koustava_>	kushal,I am now a root user
+Jun 28 17:19:31 <kushal>	koustava_, how you become a root user ?
+Jun 28 17:19:45 <praveenkumar>	koustava_, i think after open the terminal he become superuser and then execute commands .
+Jun 28 17:20:00 <praveenkumar>	kushal, ^^
+Jun 28 17:20:01 <koustava_>	kushal,su -
+Jun 28 17:20:08 <koustava_>	kushal,password
+Jun 28 17:20:10 <kushal>	koustava_, then you are already in /root
+Jun 28 17:20:30 <koustava_>	kushal,yes that is I am talking
+Jun 28 17:20:41 <kushal>	then what is the problem ?
+Jun 28 17:20:50 <koustava_>	[root@koustava ~]# cd /root
+Jun 28 17:20:51 <koustava_>	[root@koustava ~]# ls /root
+Jun 28 17:20:53 <koustava_>	anaconda-ks.cfg  fedora.repo  install.log  install.log.syslog
+Jun 28 17:20:54 <koustava_>	[root@koustava ~]#
+Jun 28 17:21:02 <koustava_>	kushal,whats that????
+Jun 28 17:21:13 <kushal>	koustava_, what ls command does ?
+Jun 28 17:21:39 <koustava_>	it gives us the total list
+Jun 28 17:21:47 <kushal>	list of what ?
+Jun 28 17:22:00 <koustava_>	the files that are saved
+Jun 28 17:22:10 <kushal>	then what they are showing here ?
+Jun 28 17:22:10 <koustava_>	in that directory
+Jun 28 17:22:30 <koustava_>	anaconda-ks.cfg....
+Jun 28 17:22:35 <koustava_>	what is that?
+Jun 28 17:22:36 <kushal>	what are they ?
+Jun 28 17:22:50 <kushal>	koustava_, you only answered it few seconds back 
+Jun 28 17:23:05 <koustava_>	got it
+Jun 28 17:23:15 <kushal>	koustava_, what you got ?
+Jun 28 17:23:30 <koustava_>	those are the files which are sved
+Jun 28 17:23:34 <kushal>	yes
+Jun 28 17:23:39 <kushal>	now get out of root user 
+Jun 28 17:23:52 <kushal>	and use the regular account to work
+Jun 28 17:23:54 <koustava_>	ok
+Jun 28 17:24:16 <kushal>	also if you are pasting more than 3 lines please use fpaste.org and paste the url/link here 
+Jun 28 17:24:20 <kushal>	not the whole log
+Jun 28 17:24:26 <kushal>	any other question 
+Jun 28 17:24:29 *	Rana_amit (Rana@121.245.37.34) has joined #dgplug
+Jun 28 17:24:36 <kushal>	Rana_amit, you are late
+Jun 28 17:25:09 <Rana_amit>	sorry, actually my internet device was not working properly
+Jun 28 17:25:32 <kushal>	Rana_amit, what is your full name ?
+Jun 28 17:25:55 <Rana_amit>	Rana Amit Kumar Navin
+Jun 28 17:26:25 <Rana_amit>	kushal, it is too long actually
+Jun 28 17:26:37 <kushal>	np
+Jun 28 17:26:57 <kushal>	later everyone fill up the wiki page as asked in the mail to the list 
+Jun 28 17:27:25 <kushal>	sayan, also filled up
+Jun 28 17:27:34 <agarwalashish05>	i have done it kushal
+Jun 28 17:27:42 <Rana_amit>	yeah i have made the account
+Jun 28 17:27:44 <kushal>	agarwalashish05, I already said that here :)
+Jun 28 17:27:56 <kushal>	so everyone is ok with vi ?
+Jun 28 17:28:01 <sayan>	edit,and saved
+Jun 28 17:28:05 <pranay_09>	kushal: yes
+Jun 28 17:28:09 <Rana_amit>	yes kushal
+Jun 28 17:28:14 <praveenkumar>	kushal, yep
+Jun 28 17:28:14 <rohit1988>	yes
+Jun 28 17:28:26 <kushal>	koustava_, ?
+Jun 28 17:28:34 <koustava_>	yes
+Jun 28 17:28:34 <kushal>	agarwalashish05, ?
+Jun 28 17:28:44 <agarwalashish05>	yes
+Jun 28 17:28:56 <kushal>	ok
+Jun 28 17:28:57 <koustava_>	kushal,the mailing list showing
+Jun 28 17:28:59 <koustava_>	n attempt was made to subscribe your address to the mailing list
+Jun 28 17:29:00 <koustava_>	users@lists.dgplug.org.  You are already subscribed to this mailing list.
+Jun 28 17:29:26 <kushal>	koustava_, you are not supposed to subscribe again but read the mails in your mailbox
+Jun 28 17:29:47 <kushal>	today we will see the very basics of compilation of a C code
+Jun 28 17:29:49 <kushal>	brb
+Jun 28 17:34:09 <kushal>	back
+Jun 28 17:34:38 <kushal>	let us create a directory named code in our home folder
+Jun 28 17:34:42 <kushal>	what is the command for that 
+Jun 28 17:34:53 <kushal>	any new comer should answer this
+Jun 28 17:35:31 <koustava_>	#!/usr/bin/
+Jun 28 17:35:41 <kushal>	eeks
+Jun 28 17:36:03 <praveenkumar>	kushal, can i?
+Jun 28 17:36:12 <kushal>	praveenkumar, go ahead 
+Jun 28 17:36:17 <praveenkumar>	kushal, mkdir ~/code
+Jun 28 17:36:22 <kushal>	ok
+Jun 28 17:36:29 <kushal>	then go inside that directory
+Jun 28 17:36:35 <koustava_>	kishal,oops
+Jun 28 17:37:13 <kushal>	koustava_, please use tabs if you can not type properly 
+Jun 28 17:37:30 <sayan>	cd /code
+Jun 28 17:37:40 <kushal>	sayan, cd ~/code
+Jun 28 17:38:00 <kushal>	open a file called hello.c in vi
+Jun 28 17:38:01 <agarwalashish05>	!
+Jun 28 17:38:04 <kushal>	agarwalashish05, yes
+Jun 28 17:38:21 <agarwalashish05>	kushal why are we using ~ symbol
+Jun 28 17:38:36 <kushal>	agarwalashish05, that means user's home directory
+Jun 28 17:38:45 <agarwalashish05>	ok
+Jun 28 17:38:58 <kushal>	so mkdir ~/bench will create a directory bench under your home
+Jun 28 17:39:53 <kushal>	write http://fpaste.org/NVKK/ code in that file
+Jun 28 17:39:58 <kushal>	and then save and exit 
+Jun 28 17:40:03 <kushal>	tell me when you are done
+Jun 28 17:40:26 *	pranay_09 has quit ()
+Jun 28 17:41:44 *	wyuka (~wyuka@117.254.84.218) has joined #dgplug
+Jun 28 17:41:53 <kushal>	wyuka, you are very late
+Jun 28 17:42:21 <wyuka>	kushal: i know.it was an emergency.i was in the hospital.sorry for the delay
+Jun 28 17:42:28 <kushal>	wyuka, ok
+Jun 28 17:42:40 <agarwalashish05>	done kushal
+Jun 28 17:42:42 <sayan>	kushal,done
+Jun 28 17:42:52 <praveenkumar>	kushal, done
+Jun 28 17:42:55 <Rana_amit>	done kushal
+Jun 28 17:43:04 <rohit1988>	done
+Jun 28 17:43:11 <koustava_>	done
+Jun 28 17:43:14 <agarwalashish05>	!
+Jun 28 17:44:14 <kushal>	agarwalashish05, yes
+Jun 28 17:45:06 <agarwalashish05>	kushal can we use gedit instead of vi
+Jun 28 17:45:10 <kushal>	no
+Jun 28 17:45:29 <agarwalashish05>	its much more easy to use
+Jun 28 17:45:34 <kushal>	agarwalashish05, in most places you will not get a GUI 
+Jun 28 17:45:41 <kushal>	agarwalashish05, wrong again 
+Jun 28 17:45:58 <agarwalashish05>	ok!
+Jun 28 17:46:19 <kushal>	now you can compile the code using the following command
+Jun 28 17:46:23 <kushal>	gcc hello.c
+Jun 28 17:46:39 <kushal>	this will create an executable file called a.out in the same directory 
+Jun 28 17:46:46 <kushal>	or may show errors if you have any 
+Jun 28 17:46:53 <kushal>	tell me what you are getting 
+Jun 28 17:46:55 <kushal>	if any error
+Jun 28 17:47:23 <koustava_>	done
+Jun 28 17:47:49 <agarwalashish05>	no error
+Jun 28 17:47:51 <Rana_amit>	done
+Jun 28 17:48:01 <praveenkumar>	done
+Jun 28 17:48:04 <kushal>	now run that executable 
+Jun 28 17:48:08 <kushal>	./a.out 
+Jun 28 17:48:21 <kushal>	./ represents the current directory 
+Jun 28 17:49:05 <agarwalashish05>	!
+Jun 28 17:49:05 <koustava_>	done
+Jun 28 17:49:10 <kushal>	agarwalashish05, yes
+Jun 28 17:49:17 <kushal>	koustava_, is it working ?
+Jun 28 17:49:23 <koustava_>	yes
+Jun 28 17:49:25 <rohit1988>	!
+Jun 28 17:49:35 <agarwalashish05>	kushal always the executable file will be named a.out acn we do it of our choice
+Jun 28 17:49:52 <koustava_>	kushal,showing   http://fpaste.org/NVKK/[koustava@koustava ~]$
+Jun 28 17:50:19 <kushal>	agarwalashish05, we can change it , I will tell that after this
+Jun 28 17:50:23 <kushal>	rohit1988, yes
+Jun 28 17:50:45 <kushal>	koustava_, you pasted wrong link
+Jun 28 17:51:09 <rohit1988>	when i am typing gcc hello.c it is showing command not found
+Jun 28 17:51:16 *	wyuka has quit (Read error: Connection reset by peer)
+Jun 28 17:51:22 <kushal>	ah 
+Jun 28 17:51:35 <kushal>	that means you don't have development tools installed 
+Jun 28 17:51:36 <koustava_>	kushal,what was the link?
+Jun 28 17:51:37 *	Titli (3b5dd475@gateway/web/freenode/ip.59.93.212.117) has joined #dgplug
+Jun 28 17:51:41 <kushal>	rohit1988, become root 
+Jun 28 17:51:52 <kushal>	koustava_, you only pasted 
+Jun 28 17:52:37 <koustava_>	!
+Jun 28 17:52:55 <kushal>	koustava_, yes
+Jun 28 17:53:32 <koustava_>	I said you the output
+Jun 28 17:53:46 <kushal>	can not be 
+Jun 28 17:53:47 *	sayan has quit (Ping timeout: 248 seconds)
+Jun 28 17:53:57 <kushal>	it can not be the output
+Jun 28 17:55:14 <kushal>	anyone just tell koustava_ what is the output 
+Jun 28 17:55:29 <praveenkumar>	hello world !
+Jun 28 17:55:29 <agarwalashish05>	the output is hello world
+Jun 28 17:55:44 <rohit1988>	its still showing command not found
+Jun 28 17:55:46 *	sayan (Sayan@110.227.156.23) has joined #dgplug
+Jun 28 17:56:00 <kushal>	rohit1988, wait let me give you the command to install
+Jun 28 17:56:08 <sayan>	kushal,i got disconnected
+Jun 28 17:56:11 <Titli>	kushal: The class had already ended up , am I right?
+Jun 28 17:56:32 <rohit1988>	ok
+Jun 28 17:56:39 <kushal>	Titli, no, it is going on 
+Jun 28 17:57:08 <Titli>	kushal: sorry for disturbing.
+Jun 28 17:57:14 <kushal>	rohit1988, yum groupinstall
+Jun 28 17:57:17 <kushal>	 "Development Libraries"
+Jun 28 17:57:21 <kushal>	rohit1988, yum groupinstall "Development Libraries"
+Jun 28 17:57:24 <kushal>	Titli, np
+Jun 28 17:57:28 <kushal>	sayan, np 
+Jun 28 17:57:45 <kushal>	every got the output ?
+Jun 28 17:57:49 <kushal>	yes/no please
+Jun 28 17:57:55 <praveenkumar>	kushal, yes
+Jun 28 17:58:05 <koustava_>	kushal,yes now
+Jun 28 17:58:22 <kushal>	gcc hello.c -o hello 
+Jun 28 17:58:37 <agarwalashish05>	yes
+Jun 28 17:58:40 <kushal>	^^ this command will create the executable with name hello 
+Jun 28 17:58:48 <kushal>	you can actually give any name you want
+Jun 28 17:58:54 <kushal>	try and run 
+Jun 28 17:59:12 <praveenkumar>	done
+Jun 28 18:00:14 <agarwalashish05>	done
+Jun 28 18:00:42 <koustava_>	done
+Jun 28 18:01:07 <rohit1988>	its showing *waiting  for package manager lock...
+Jun 28 18:01:22 <kushal>	ah
+Jun 28 18:02:04 <praveenkumar>	rohit1988, do "pkill -9 yum"
+Jun 28 18:02:04 <kushal>	rohit1988, System->Preferences-> Software Updates
+Jun 28 18:02:13 <kushal>	rohit1988, try pkil first
+Jun 28 18:02:18 <kushal>	not yum
+Jun 28 18:02:19 <rohit1988>	ok
+Jun 28 18:02:25 <kushal>	pkill -9 packagekitd
+Jun 28 18:02:27 <kushal>	pkill -9 packagekit
+Jun 28 18:02:29 <kushal>	both
+Jun 28 18:02:42 <agarwalashish05>	rohit you can also try yum -y install gcc-c++
+Jun 28 18:02:59 <kushal>	agarwalashish05, that will miss many libraries
+Jun 28 18:03:04 *	wyuka (~wyuka@117.254.236.173) has joined #dgplug
+Jun 28 18:03:08 <kushal>	few basic things
+Jun 28 18:03:18 <kushal>	here we don't have any conio,h
+Jun 28 18:03:22 <kushal>	so no getch()
+Jun 28 18:03:35 <kushal>	main always returns an interger 
+Jun 28 18:03:56 <kushal>	if the program executed without any error then it is 0 
+Jun 28 18:04:03 <kushal>	or the proper error number
+Jun 28 18:04:21 <kushal>	to use math functions you have to write <math.h> 
+Jun 28 18:04:30 *	kishan (~kishan@110.227.88.153) has joined #dgplug
+Jun 28 18:04:38 <kushal>	and you have to link it using -lm flags
+Jun 28 18:06:07 <wyuka>	kushal: what does lm mean?
+Jun 28 18:06:23 <kushal>	for now everyone please to write few lab assignments you generally write in college
+Jun 28 18:06:36 <praveenkumar>	wyuka, -l option for include library.
+Jun 28 18:06:40 *	sayan_ (Sayan@117.99.50.51) has joined #dgplug
+Jun 28 18:06:45 <agarwalashish05>	!
+Jun 28 18:06:49 <kushal>	wyuka, it is -l and then the libraries you want to link with 
+Jun 28 18:06:59 <kushal>	like -l gtk-2.0
+Jun 28 18:07:03 <kushal>	agarwalashish05, yes
+Jun 28 18:07:05 <agarwalashish05>	kushal didnot understood -lm option
+Jun 28 18:07:07 <koustava_>	!
+Jun 28 18:07:13 <kushal>	koustava_, yes
+Jun 28 18:07:18 <wyuka>	kushal: so we need to know the name of the library?
+Jun 28 18:07:35 <koustava_>	what is rhat lab assignment?
+Jun 28 18:07:35 *	sayan has quit (Ping timeout: 240 seconds)
+Jun 28 18:07:42 <koustava_>	*that?
+Jun 28 18:07:46 *	samxan (~tirtha@117.254.236.173) has joined #dgplug
+Jun 28 18:08:18 <kushal>	koustava_, any one
+Jun 28 18:08:21 <kushal>	wyuka, yes
+Jun 28 18:08:52 <agarwalashish05>	kushal i didnot understood -lm option
+Jun 28 18:08:52 <kushal>	agarwalashish05, when we use any library in our code we have to tell libraries we are using 
+Jun 28 18:09:04 <kushal>	-l is the option for that
+Jun 28 18:09:09 <kushal>	m means math library 
+Jun 28 18:09:21 <kushal>	samxan, welcome 
+Jun 28 18:09:26 <kushal>	samxan, you are name please 
+Jun 28 18:09:29 <agarwalashish05>	kushal please present an example
+Jun 28 18:09:36 <kushal>	agarwalashish05, wait
+Jun 28 18:09:43 <wyuka>	I am Samikshan Bairagya
+Jun 28 18:09:59 <wyuka>	just in second year, NIT Durgspur
+Jun 28 18:10:07 <wyuka>	*Durgapur
+Jun 28 18:10:25 <wyuka>	CSE Department
+Jun 28 18:11:19 <koustava_>	!
+Jun 28 18:11:48 <kushal>	what is going on 
+Jun 28 18:11:57 <kushal>	why wyuka is writing that ?
+Jun 28 18:12:03 <kushal>	samxan, who are you then ?
+Jun 28 18:12:10 *	bamachrn (~bamachrn@27.248.215.188) has joined #dgplug
+Jun 28 18:12:41 <samxan>	samxan: sorry, i and wyuka are working from the same machine
+Jun 28 18:12:50 <kushal>	koustava_, yes
+Jun 28 18:12:59 <samxan>	i am at his home
+Jun 28 18:13:06 <kushal>	samxan, ok, but from next session please get a different system 
+Jun 28 18:13:06 <samxan>	and came to learn about this workshop
+Jun 28 18:13:19 <samxan>	kushal: ok
+Jun 28 18:13:38 <koustava_>	kushal,what about that lab assignment>??
+Jun 28 18:13:40 <bamachrn>	kushal, !
+Jun 28 18:13:48 <kushal>	koustava_, any code you can write
+Jun 28 18:13:50 <kushal>	bamachrn, yes
+Jun 28 18:14:06 <bamachrn>	kushal, sory for the late what is going on
+Jun 28 18:14:18 <bamachrn>	<eof>
+Jun 28 18:14:59 <kushal>	basic C
+Jun 28 18:15:10 <bamachrn>	ok
+Jun 28 18:17:25 <agarwalashish05>	kushal you didn't gave an example
+Jun 28 18:17:58 *	rtnpro (~rtnpro@218.248.80.53) has joined #dgplug
+Jun 28 18:18:05 <kushal>	agarwalashish05, yes, I am looking for an easy example 
+Jun 28 18:18:11 <agarwalashish05>	ok
+Jun 28 18:19:12 <koustava_>	kushal,I have to left the server nnow,,as here is power cut
+Jun 28 18:19:38 <kushal>	ok
+Jun 28 18:19:55 *	koustava_ has quit (Remote host closed the connection)
+Jun 28 18:20:33 <wyuka>	kushal: can link my own libraries too using -l?
+Jun 28 18:20:42 <kushal>	yes
+Jun 28 18:21:20 <wyuka>	kushal: ok
+Jun 28 18:25:00 <kushal>	wyuka, showing same example only 
+Jun 28 18:25:22 <wyuka>	kushal: means?
+Jun 28 18:25:47 *	samxan has quit (Quit: Leaving.)
+Jun 28 18:25:54 <kushal>	here is another example 
+Jun 28 18:25:55 <kushal>	http://pastebin.com/yTG5SWBG
+Jun 28 18:26:28 *	samxan (3b5dc8b4@gateway/web/freenode/ip.59.93.200.180) has joined #dgplug
+Jun 28 18:26:51 *	Rana_amit has quit (Read error: Connection reset by peer)
+Jun 28 18:27:02 <samxan>	sorry, got disconnected
+Jun 28 18:27:09 *	Rana_amit (Rana@2002:79f5:2522::79f5:2522) has joined #dgplug
+Jun 28 18:28:06 *	wyuka has quit (Quit: Leaving)
+Jun 28 18:28:22 *	wyuka (~wyuka@117.254.236.173) has joined #dgplug
+Jun 28 18:29:58 <kushal>	try this code 
+Jun 28 18:29:59 <kushal>	http://fpaste.org/VZ2s/
+Jun 28 18:30:04 <kushal>	save it as xml.c
+Jun 28 18:31:22 <kushal>	rohit1988, btw, you should tell your roommate that he does not know how to install linux on an engineering student's box
+Jun 28 18:31:44 <kushal>	try to compile that file
+Jun 28 18:32:49 <kushal>	anyone ?
+Jun 28 18:33:11 <rohit1988>	i am using vmware
+Jun 28 18:33:20 <rohit1988>	now
+Jun 28 18:33:54 <kushal>	ok
+Jun 28 18:34:03 <kushal>	anyone
+Jun 28 18:34:13 <kushal>	any issue in compilation of that code ?
+Jun 28 18:34:55 *	praveenkumar has quit (Read error: Connection reset by peer)
+Jun 28 18:35:11 <kushal>	agarwalashish05, bamachrn praveenkumar Rana_amit rohit1988 samxan sayan_ wyuka  ?
+Jun 28 18:35:11 <agarwalashish05>	showing error
+Jun 28 18:35:28 <kushal>	agarwalashish05, paste the full error here 
+Jun 28 18:35:41 <kushal>	#include <stdio.h>
+Jun 28 18:35:41 <kushal>	#include <libxml/parser.h>
+Jun 28 18:35:41 <kushal>	int main()
+Jun 28 18:35:41 <kushal>	{
+Jun 28 18:35:41 <kushal>	        xmlDocPtr doc;
+Jun 28 18:35:41 <kushal>	        return (0);
+Jun 28 18:35:41 <kushal>	}
+Jun 28 18:35:45 <kushal>	^^ this is the code
+Jun 28 18:35:53 *	mbuf has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+Jun 28 18:36:07 <wyuka>	libxml/parser.h: No such file or directory
+Jun 28 18:36:13 <agarwalashish05>	libxml/parser.c no such file or directory
+Jun 28 18:36:33 <agarwalashish05>	i am using vmware cannot paste full error code
+Jun 28 18:36:46 <kushal>	now try to compile 
+Jun 28 18:36:47 <kushal>	gcc xml.c -lxml2 -lz -lm -I/usr/include/libxml2
+Jun 28 18:37:04 *	sayan_ has quit (Ping timeout: 260 seconds)
+Jun 28 18:37:17 <kushal>	gcc xml.c -lxml2 -I/usr/include/libxml2  will also do
+Jun 28 18:37:25 *	praveenkumar (~daredevil@117.96.5.127) has joined #dgplug
+Jun 28 18:37:44 <wyuka>	kushal: it compiled
+Jun 28 18:38:19 *	sayan (Sayan@117.99.62.239) has joined #dgplug
+Jun 28 18:38:53 <agarwalashish05>	its showing error
+Jun 28 18:39:02 <kushal>	so here we are telling to use xml2 library and with -I/usr/include/libxml2 we are telling where to look for header files
+Jun 28 18:39:05 <kushal>	agarwalashish05, what error
+Jun 28 18:39:19 <kushal>	agarwalashish05, mostly I guess you don't have libxml2 installed 
+Jun 28 18:39:27 <kushal>	install that and libxml2-devel
+Jun 28 18:40:12 <Rana_amit>	no kushal
+Jun 28 18:40:32 <agarwalashish05>	how to install that
+Jun 28 18:41:00 <praveenkumar>	agarwalashish05, using 'yum install libxml2-devel'
+Jun 28 18:41:25 <kushal>	Rana_amit, what error 
+Jun 28 18:41:53 <Rana_amit>	sorry have compiled kushal
+Jun 28 18:42:58 <bamachrn>	kushal, working fine
+Jun 28 18:43:03 <kushal>	ok
+Jun 28 18:43:12 <praveenkumar>	kushal, done
+Jun 28 18:43:24 <Rana_amit>	yeah done kushal
+Jun 28 18:43:40 <kushal>	ok
+Jun 28 18:43:55 <kushal>	so now just try to write few codes in C and try to compile 
+Jun 28 18:44:05 <kushal>	if you search you can get many examples
+J

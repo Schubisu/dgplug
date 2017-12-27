@@ -1,0 +1,312 @@
+[15:05:08] [## Class Started at Mon Aug  8 15:05:08 2016 ##]
+[15:05:08] <kushal> startclass
+[15:05:12] <kushal> Roll Call
+[15:05:13] <lambainsaan_> Rhitik Bhatt
+[15:05:17] <hemanth> hemanth
+[15:05:17] <akshays_> Akshay Shipurkar
+[15:05:23] <rahuldecoded> Rahul Bhattacharjee
+[15:05:23] <sandeepk> sandeep kumar choudhary
+[15:05:31] <tabrez> Tabrez khan
+[15:05:34] <mspreddy> mspreddy
+[15:05:35] <abhishekg5> Abhishek GUpta
+[15:05:35] <moon45> Mamoon Manzoor
+[15:05:50] <surendhar> surendhar
+[15:05:52] <jogender> jogender kota
+[15:05:52] <aman_> Aman Kumar
+[15:06:04] <rohan_h> Rohan Hazra
+[15:06:54] <kushal> Okay
+[15:06:56] <buvanesh_kumar> Buvanesh Kumar
+[15:07:02] <kushal> Seems like we lost a few names :)
+[15:07:16] <kushal> Anyway, anyone remembers what was the last session we had?
+[15:07:17] <hydro> Anushil Kumar
+[15:07:43] <rahuldecoded> You had given us a task
+[15:07:51] <buvanesh_kumar> security topic i think
+[15:08:53] <lambainsaan_> We did a practice exercise on what nick was mentioned the most by each nick.
+[15:08:59] <abhishekg5> kushal: 'Who talked to whom how many times on channel' this task
+[15:09:14] <kushal> abhishekg5, Okay
+[15:09:17] <kushal> good
+[15:09:32] <kushal> What was the last chapter we discussed from the book?
+[15:10:03] <thisisashwani> Ashwani Pandey
+[15:10:05] <indiabhi> roll call Abhishek Rai
+[15:11:28] <kushal> strings?
+[15:11:37] <kushal> Did we discuss functions?
+[15:11:38] <thisisashwani> kushal: it would be great if i can know the book we are following, i haven't been here for the past 2-3 weeks. :)
+[15:11:48] <abhishekg5> Strings I believe. Can someone else confirm this ?
+[15:11:53] <kushal> thisisashwani, now it is your fault not to follow the logs.
+[15:12:02] <buvanesh_kumar> http://pymbook.readthedocs.io/en/latest/
+[15:12:04] <kushal> thisisashwani, we published the logs.
+[15:12:28] <iKshitij> Roll Call : Kshitij
+[15:12:42] <PrashantJ> roll call: Prashant Jamkhande
+[15:12:57] <abstatic_> Roll Call: Abhishek Shrivastava
+[15:13:08] <lambainsaan_> No kushal we did not discuss functions.
+[15:13:13] <thisisashwani> kushal: i am going through the logs only right now, but if i can get the link for book right now, it would be easy for me today!
+[15:13:20] <aniketh_> Roll Call: Aniketh Girish
+[15:13:33] skarale is now known as skarale_leaving
+[15:13:34] <iKshitij> kushal I don't remember you discussed functions !
+[15:13:40] <thisisashwani> kushal, buvanesh_kumar: thanks! :)
+[15:13:41] <Ananthu> Roll call: An\antha krishnan PTA
+[15:13:48] <PrashantJ> Functions we wrote. But have not discussed.
+[15:13:55] <kushal> Okay
+[15:13:59] <kushal> so that is
+[15:14:57] <kushal> https://shellshare.net/r/summertraining
+[15:16:08] <kushal> So there are times when we need to do similar action in different parts of our code.
+[15:16:14] <kushal> We do this using functions.
+[15:16:40] <kushal> Let us see the shell, if you have question as here by typin !
+[15:16:44] <kushal> * typing
+[15:17:30] <tgtanya> Sorry but I joined late, could you paste the link to shell again?
+[15:17:39] <priyanka> roll call: Priyanka Sharma
+[15:17:45] <Krishna> Roll Call : Krishna Biradar
+[15:17:50] <buvanesh_kumar> tgtanya, https://shellshare.net/r/summertraining
+[15:17:52] <thisisashwani> tgtanya: https://shellshare.net/r/summertraining
+[15:18:32] <ChaKu_> hey guys I apologize but I am a bit out of the loop here. What is today's training for?
+[15:19:10] <kushal> As you can see we start the definition with def
+[15:19:17] <kushal> and then the function name
+[15:19:28] <kushal> in this case functionname is the name :)
+[15:19:38] <kushal> It does not take any argument/parameter
+[15:19:56] <kushal> and inside the function, I am just printing Hello
+[15:20:16] <kushal> So let me call the function
+[15:20:32] <ak_d> roll call: Akhilesh Dhaundiyal
+[15:20:34] <abhishekg5> ChaKu_: We are doing python functions right now. https://shellshare.net/r/summertraining
+[15:20:51] <code_geek> roll call: Shantanu Acharya
+[15:20:59] <Anupama> roll call: Anupama Mandal
+[15:21:02] <ChaKu_> Cool!
+[15:21:10] <ChaKu_> roll call: Chaitanya Kukde
+[15:21:17] <kushal> Is there any questions still now?
+[15:22:59] <buvanesh_kumar> fine
+[15:23:11] <Ananthu> no
+[15:23:27] <iKshitij> No
+[15:24:29] <Aizen> !
+[15:24:34] <kushal> next
+[15:24:37] <kushal> next
+[15:24:51] <Aizen> instead of return we can write print also in add function() ?
+[15:25:04] <kushal> Aizen, yes, let me show you the difference
+[15:26:39] <SpEcBOT2> SpEcHiDe: Roll Call: Shrimadhav U K
+[15:26:39] <kushal> Means we use return statement to actually return something from a function which we may use later
+[15:26:48] <kushal> Aizen, is that useful?
+[15:26:50] <Aizen> ok
+[15:26:54] <Aizen> yuip :)
+[15:27:09] <kushal> So remember that part.
+[15:27:18] <kushal> When to print, and when to return things from a function.
+[15:27:26] <tgtanya> !
+[15:27:27] <Aizen> that means both have the same  functionality
+[15:27:36] <kushal> Aizen, no
+[15:27:42] <Aizen> ?
+[15:27:47] <kushal> Aizen, add2 adds a and b, and then prints it
+[15:27:53] <Aizen> yes ..
+[15:27:54] <kushal> but we don't get back the result
+[15:28:16] <kushal> means there is no way for program to find out the answer, so that it can not be used later.
+[15:28:21] <kushal> which is true for add
+[15:28:24] <kushal> next
+[15:28:33] <Aizen> ok ..
+[15:28:36] <abhishekg5> Aizen: if you want the value in another variable, you'll have to use return not print
+[15:28:49] <tgtanya> is there any value stored in y at present?
+[15:28:57] <sandeepk> Aizen: when we use return we can save that value in any variable but in case of print we cannot do so
+[15:29:17] <sandeepk> tgtanya: no
+[15:29:22] <kushal> tgtanya, No :)
+[15:29:22] <mbtamuli12_> Roll Call: Mriyam Tamuli
+[15:29:38] <kushal> tgtanya, can you see it?
+[15:29:52] <tgtanya> So the print command does not return a 1 or 0 depending on success?
+[15:30:09] <kushal> tgtanya, print function shows the the value on the STDOUT
+[15:30:15] <kushal> it does not return anything.
+[15:30:26] <tgtanya> okay
+[15:30:27] <kushal> tgtanya, you will have to write a return statement for return
+[15:30:56] <aniketh_> !
+[15:31:00] <kushal> tgtanya, now tell me what will be returned if I call cheat(212, 3223)
+[15:31:01] <kushal> ?
+[15:31:03] <kushal> next
+[15:31:06] <SRvSaha> Roll Call : Saurav Saha
+[15:31:28] <madhurii> Roll call Madhuri Muley
+[15:31:41] <SRvSaha> Sorry for being late, cause the last time I saw the topic of the channel, it was mentioned that the session is at 7pm
+[15:31:43] <aniketh_> Why did type(y) showed error of "nonetype" even though its not a string ?
+[15:31:55] <kushal> SRvSaha, yes, and I don't know why, I am sorry for it.
+[15:31:57] <akash47> roll call : Akash Mishra
+[15:32:09] <tgtanya> kushal: 1
+[15:32:15] <kushal> tgtanya, Yes, correct.
+[15:32:23] <kushal> aniketh_, it never showed error.
+[15:32:32] <kushal> aniketh_, it showed the correct type of y
+[15:32:34] <kushal> which is None
+[15:32:56] <Aizen> Kushal: 1
+[15:33:04] <Ananthu> https://www.irccloud.com/pastebin/C0fCt6S5/
+[15:33:18] <Ananthu> that is the error that I got
+[15:33:37] <aniketh_> kushal, sorry I read as an error my mistake.
+[15:34:17] <sandeepk> Ananthu: indentation problem in your code
+[15:34:27] <kushal> sandeepk, correct.
+[15:34:35] <kushal> next
+[15:34:35] <hydro> indentation
+[15:34:38] <sandeepk> kushal: :-)
+[15:35:03] <kushal> Can I continue?
+[15:35:08] <abhishekg5> yes
+[15:35:10] <sandeepk> Ananthu: give four space and don't mix spaces and tab.
+[15:35:28] <kushal> Okay
+[15:35:32] <kushal> default value.
+[15:35:33] <Ananthu> !
+[15:35:45] <kushal> Many times we want to have a default value for an argument.
+[15:36:07] <kushal> Means if it is not passed to the function call, we will have a default value.
+[15:36:13] <kushal> Let us do it now.
+[15:37:42] <kushal> Now any questions on that example?
+[15:38:02] <kushal> For the people joining late, https://shellshare.net/r/summertraining
+[15:38:19] <buvanesh_kumar> !
+[15:38:30] <Ananthu> !
+[15:38:30] <kushal> next
+[15:38:38] <Ananthu> what is the difference between tab and space
+[15:38:40] <buvanesh_kumar> How it adds two values
+[15:38:57] <buvanesh_kumar> we didn't mention +
+[15:39:10] <buvanesh_kumar> or any additional statements
+[15:39:15] <kushal> buvanesh_kumar, we did
+[15:39:22] <snarwade> buvanesh_kumar, check code properly
+[15:39:23] <kushal> >>> def add3(a, b=10):
+[15:39:23] <kushal> ...     return a + b
+[15:39:33] <kushal> buvanesh_kumar, ^^ see, a + there.
+[15:39:45] <buvanesh_kumar> oh from the top. got it thanks
+[15:39:49] <iKshitij> Kushal that means if we will pass value of b then it will replace previous value (10)
+[15:40:14] <kushal> Yes
+[15:40:18] <iKshitij> If we won't ! It will b as defined in function !
+[15:40:47] <kushal> yes
+[15:40:58] <aniketh_> !
+[15:41:02] <deep123k> roll call : deepanshu kapoor
+[15:42:03] <sandeepk> Ananthu: have look on this --> http://www.secnetix.de/olli/Python/block_indentation.hawk
+[15:42:10] <kushal> next
+[15:42:24] <buvanesh_kumar> asked. got answer. thanks
+[15:42:25] <kushal> next
+[15:42:26] <kushal> next
+[15:42:52] <aniketh_> can we set the value for b=10 permanently for the function
+[15:43:01] <avik> Roll Call: Avik Mukherjee
+[15:43:33] hell_o is now known as acetakwas
+[15:43:37] <kushal> aniketh_, means?
+[15:44:02] <kushal> aniketh_, like this?
+[15:44:05] <kushal> aniketh_, add10?
+[15:44:18] <poonam> Roll call : Poonam Jadhav
+[15:45:09] <aniketh_> Kushal, Yes.
+[15:45:20] <kushal> :)
+[15:45:22] <kushal> next
+[15:46:01] <aniketh_> but it should not accept any values while in function call
+[15:46:05] <kushal> Now everyone, write me a function which is return True if the argument to the function can be divided by 2, or else return False.
+[15:46:24] <kushal> def by_two(number):
+[15:46:31] <buvanesh_kumar> Now if i define a value for a and call the function. it will add the a and b values ?
+[15:46:36] <Ananthu> batul I understood. Thank you.
+[15:46:37] <kushal> ^^ do not show me here, just tell done here.
+[15:46:49] <kushal> buvanesh_kumar, try and see
+[15:47:02] <avik> !
+[15:47:08] <iKshitij> kushal I think he is asking we can set value of b permanently for the function ? like Here when we are passing a value of b to function. It's replace value of b !
+[15:47:40] <iKshitij> But what if we want to set b = 10 permanently !
+[15:48:15] <kushal> in the first line write, b = 10 :)
+[15:48:32] <kushal> without smiley
+[15:48:35] <kushal> next
+[15:48:39] <avik> did you discussed the last problem? I joined late :( can i find it in the log later?
+[15:48:44] <abhishekg5> haha
+[15:48:49] <aniketh_> !
+[15:48:50] <kushal> avik, No
+[15:49:03] <kushal> avik, we started fresh from the function chapter.
+[15:49:05] <kushal> next
+[15:49:11] <aniketh_> kushal, inside the function right ?
+[15:49:14] <avik> oh ok
+[15:49:16] <kushal> aniketh_, yes
+[15:49:31] <buvanesh_kumar> I am getting anonymous error
+[15:49:32] <aniketh_> kushal , okay
+[15:49:42] <buvanesh_kumar> can you please see that => https://paste.fedoraproject.org/404352/
+[15:50:26] <abhishekg5> buvanesh_kumar: give the argument
+[15:50:28] <PrashantJ> buvanesh_kumar, Please pass argument to add10
+[15:50:32] <kushal> buvanesh_kumar, yes, you have to call the function with the argument
+[15:50:34] <kushal> add10(a)
+[15:50:46] <rahuldecoded> >>>print(add10())
+[15:51:03] <kushal> rahuldecoded, wrong
+[15:51:09] <rahuldecoded> Sorry
+[15:51:09] <buvanesh_kumar> gave argument. now works. thanks kushal abhishekg5 PrashantJ
+[15:51:10] <kushal> you are not passing the value of a
+[15:51:22] <abhishekg5> cool
+[15:51:29] <rahuldecoded> >>>print(add10(0)). Typo!
+[15:51:31] <Aizen> !
+[15:52:44] <kushal> next
+[15:52:47] <Aizen> http://paste.fedoraproject.org/404353/70664276/
+[15:52:56] <Aizen> can you please help me with this ?
+[15:53:16] <sandeepk> kushal: function body of def by_two(number) https://da.gd/vzW5P
+[15:53:34] <aman_> done tp://paste.fedoraproject.org/404355/64352147/
+[15:53:42] <PrashantJ> Aizen, its 'False' and 'True'
+[15:53:48] <aman_> http://paste.fedoraproject.org/404355/64352147/
+[15:53:50] <rahuldecoded> Aizen true not TRUE
+[15:53:54] <kushal> sandeepk, aman_ this is exactly why I asked not to paste :(
+[15:53:59] <Aizen> need to write True and false in '' ?
+[15:54:04] <kushal> Why can not people read what I am writing :(
+[15:54:05] <snarwade> Aizen, use % instead of /
+[15:54:09] <PrashantJ> Aizen, no
+[15:54:28] <aniketh_> kushal , is this right ? https://paste.fedoraproject.org/404358/14706643/
+[15:54:31] <PrashantJ> Aizen, 'True' without quotes
+[15:54:31] <abhishekg5> Aizen: it's not TRUE. It's True. Same with False
+[15:54:45] <Aizen> ok
+[15:54:46] <sandeepk> kushal: oops sorry :), in excitement i do that :(
+[15:54:51] <snarwade> Aizen, give quotes to true or false
+[15:55:21] <kushal> snarwade, ?
+[15:55:42] <snarwade> kushal, he havnt given quotes to string
+[15:55:51] <PrashantJ> aniketh_, use return statement not 'print'
+[15:56:04] <kushal> snarwade, that is supposed to be bool
+[15:56:06] <kushal> not string
+[15:56:18] <kushal> Aizen, also the logic is wrong
+[15:56:28] <snarwade> kushal, oh sorry, right
+[15:56:36] <abhishekg5> Aizen: yes. use modulo %
+[15:56:50] <aniketh_> PrashantJ, okay. No other problems right ?
+[15:56:52] <pksadiq> my 2Â¢: http://paste.debian.net/787429/
+[15:57:41] <PrashantJ> aniketh_,Please try. We are here.:)
+[15:58:09] <Anupama> done
+[15:58:18] <PrashantJ> aniketh_, use == instead of =
+[15:58:18] <aniketh_> PrashantJ, Thanks
+[15:58:46] <poonam> http://paste.fedoraproject.org/404361/70664679/
+[15:59:10] <kushal> poonam, No.
+[15:59:16] <kushal> poonam, issues in that code
+[15:59:23] <kushal> 1. You gave a different name
+[15:59:32] <kushal> 2. y is string
+[15:59:54] <poonam> okay kushal
+[15:59:55] <buvanesh_kumar> poonam, why true don't have ( ), ?
+[15:59:56] <kushal> 3. You are giving () brackets in the if statement,
+[16:00:13] <kushal> 4. You are printing without ()
+[16:00:25] <kushal> you are supposed to return
+[16:01:07] <aniketh_> PrashantJ, http://paste.fedoraproject.org/404362/66481514/     hope this is right ?
+[16:01:25] shridhar is now known as shridhar`brb
+[16:01:31] <PrashantJ> aniketh_, True and False without quotes
+[16:01:45] <snarwade> kushal, https://paste.fedoraproject.org/404363/47066488/
+[16:02:13] <kushal> snarwade, wrong, that is not the name I told
+[16:02:17] <kushal> People stop.
+[16:02:24] <kushal> Please learn to read the problem first.
+[16:02:31] <kushal> it is not difficult.
+[16:02:37] <kushal> But it will surely help in life.
+[16:03:56] <buvanesh_kumar> but snarwade solution working for me. how it's wrong ?
+[16:04:14] <snarwade> buvanesh_kumar, function name is by_two
+[16:04:41] <snarwade> thanks kushal
+[16:04:42] <kushal> buvanesh_kumar, as I said, please learn to read.
+[16:05:21] <buvanesh_kumar> snarwade, i used your method => https://paste.fedoraproject.org/404366/
+[16:06:18] <buvanesh_kumar> ok thanks kushal
+[16:07:09] shridhar`brb is now known as shridhar
+[16:07:10] <kushal> So, please try to read the chapter http://pymbook.readthedocs.io/en/latest/functions.html tonight.
+[16:07:24] <kushal> Tomorrow we will try solve various things by writing functions
+[16:07:36] <kushal> Feel free to ask questions here.
+[16:07:39] <kushal> Roll Call
+[16:07:45] <PrashantJ> Prashant Jamkhande
+[16:07:45] <abhishekg5> Abhishek Gupta
+[16:07:49] <sandeepk> sandeep kumar choudhary
+[16:07:50] <ak_d> Akhilesh Dhaundiyal
+[16:07:51] <hydro> Anushil Kumar
+[16:07:54] <tabrez> Tabrez khan
+[16:08:04] <moon45> Mamoon Manzoot
+[16:08:07] <rohan_h> Rohan Hazra
+[16:08:10] <Anupama> Anupama Mandal
+[16:08:15] <mbtamuli12_> Mriyam Tamuli
+[16:08:16] <moizsajid> Moiz Sajid
+[16:08:19] <jogender> jogerder kota
+[16:08:21] <deep123k> Deepanshu Kapoor
+[16:08:29] <ChaKu_> Chaitanya Kukde
+[16:08:29] <buvanesh_kumar> Buvanesh Kumar
+[16:08:40] <akash47> Akash Mishra
+[16:08:45] <poonam> poonam jadhav
+[16:08:50] <priya_> Priyanka Ambre
+[16:08:52] <akash55> Akash Ganbote
+[16:08:56] <iKshitij> Kshitij
+[16:08:57] <avik> Avik Mukherjee
+[16:09:04] <priyanka> Priyanka Sharma
+[16:09:04] <SpEcBOT2> SpEcHiDe: Shrimadhav U K
+[16:09:06] <yash_b> yash bhadrwaj
+[16:09:07] <madhurii>  Madhuri Muley
+[16:09:16] <aniketh_> Aniketh Girish
+[16:09:17] <yash_b> yash bhardwaj
+[16:09:34] <vharsh> Harsh Vardhan
+[16:09:36] <code_geek> Shantanu Acharya
+[16:09:51] <kushal> endclass
+[16:09:51] [## Class Ended at Mon Aug  8 16:09:51 2016 ##]

@@ -1,0 +1,375 @@
+[15:31.16] <mbuf> ok; let us begin;
+[15:31.19] *** hardy_heron (n=narendra@59.178.165.67) has left <type 'buffer'>
+[15:31.25] <mbuf> Welcome one and all!
+[15:31.53] <mbuf> Today we will have an informal introduction of each participant
+[15:32.12] *** fedorauser (n=koyel@117.201.97.54) has joined #dgplug
+[15:32.39] <mbuf> When I ask you to introduce, please tell your name, where you are from, your interests, your skill-sets, and are your expectations;
+[15:33.01] *** hardy_heron (n=narendra@59.178.165.67) has joined #dgplug
+[15:33.11] <mbuf> If you would like to talk in the main channel or ask a questions, please just type !
+[15:33.15] *** yevlempy (n=yevlempy@219.64.176.10) has joined #dgplug
+[15:33.29] <spechard> !
+[15:33.38] <mbuf> spechard: yes, shoot!
+[15:33.46] <spechard> ok, thanks mbuf
+[15:33.53] <spechard> my name is StÃ©phane PÃ©chard
+[15:34.10] <spechard> i'm french, i live in Rennes, a town in west france
+[15:34.11] *** fedorauser (n=koyel@117.201.97.54) Quit (Client Quit)
+[15:34.19] *** j-noise (n=levis@59.88.71.62) Quit ("Leaving.")
+[15:34.24] <spechard> i have a phd in applied computer science
+[15:34.32] *** rtnpro (n=rtnpro@124.124.176.72) has joined #dgplug
+[15:34.36] <spechard> my subject was about video quality
+[15:34.47] *** kopecks89 (n=koyel@117.201.97.54) has joined #dgplug
+[15:34.54] <spechard> i'm interested in computer science and open source software
+[15:35.04] <rtnpro> Hi all
+[15:35.06] <spechard> i use daily a debian and kde
+[15:35.13] <mbuf> rtnpro: hold;
+[15:35.16] <rtnpro> Did the class start?
+[15:35.34] <spechard> i'm used to code in C, C++, python, matlab and latex
+[15:35.45] <spechard> but i think i can be better at this
+[15:36.06] <spechard> i would to know better stuff like Qt in order to participate to KDE for example
+[15:36.34] <spechard> i expect these courses to bring me some more knowledge about FOSS programming
+[15:36.43] <spechard> and to integrate a nice community :-)
+[15:37.06] <spechard> oh, and also, i'm looking for a job, so if you're hiring ;-)
+[15:37.10] *** partha1 (n=partha@59.93.197.151) Quit (Read error: 110 (Connection timed out))
+[15:37.14] <spechard> mbuf: anything i forgot ?
+[15:37.16] *** krishna (n=krishna@59.177.75.103) has joined #dgplug
+[15:37.38] <mbuf> spechard: no; just want to remind that if you are done, just say EOD
+[15:37.47] <mbuf> spechard: do you wish to add anything?
+[15:37.59] <spechard> no, that's ok for me <EOF>
+[15:38.07] <mbuf> s/EOD/EOF
+[15:38.12] <mbuf> spechard: thanks! welcome aboard!
+[15:39.00] *** Meejan (n=Meejan@124.124.159.147) has joined #dgplug
+[15:39.11] <Meejan> Hello
+[15:39.14] <mbuf> priya: you were here earlier, can you please introduce yourself?
+[15:39.22] <mbuf> Meejan: don't type in the channel, yet;
+[15:39.41] <priya> i am priya,i am from delhi, i know java,C
+[15:40.04] <susenj> hi mbuf! i am neeraj kumar from Patna, currently pursuing MCA from JNU, New Delhi and interested in area of networking.
+[15:40.06] <Meejan> mbuf, ok.
+[15:40.10] <susenj>  i usually love to code in C and C++.
+[15:40.11] <mbuf> susenj: hold; don't speak yet
+[15:40.14] <susenj> eof
+[15:40.28] <priya> i came to know about foss and linux recently  only
+[15:40.34] <priya> eof
+[15:40.59] <mbuf> priya: ok, welcome! do you have any specific areas or domain of interest?
+[15:41.11] *** partha2 (i=partha2@59.88.132.216) has joined #dgplug
+[15:42.06] <priya> i am 2nd year btech student, and interested in web and desktop applications
+[15:42.15] <mbuf> priya: ok; thanks!
+[15:42.47] <mbuf> i am calling IRC nicks in random order to introduce yourself;
+[15:42.58] <mbuf> next can be susenj!
+[15:43.18] <susenj> i am neeraj kumar from Patna
+[15:43.31] <susenj> currently pursuing MCA from JNU
+[15:43.51] <susenj> my interests are in Data structures and networking
+[15:44.33] <susenj> last year also i joined this but i discontinued after a month for some reasons
+[15:44.51] <susenj> but i used to read the logs whenever i get time
+[15:44.56] *** aveek (n=aveek@117.198.37.124) has joined #dgplug
+[15:45.17] <susenj> i am using linux since my graduation
+[15:45.25] <susenj> EOF
+[15:45.37] <mbuf> susenj: what are your expectations this year?
+[15:46.50] <susenj> in fact, i wish to do an open source project this year ...
+[15:46.54] <mbuf> susenj: ok
+[15:47.00] <mbuf> susenj: thanks, welcome aboard, again!
+[15:47.16] <susenj> this year is my placement time!
+[15:47.21] <susenj> eof
+[15:47.25] <mbuf> susenj: ok, good luck;
+[15:47.51] <susenj> mbuf:thanks!
+[15:47.51] * mbuf pings akuscifi007 (next)
+[15:48.04] <akuscifi007> my name is Ankur Jain
+[15:48.19] <akuscifi007> i am from Ghaziabad , NCR , India
+[15:48.38] <akuscifi007> i am interested in system and network administration
+[15:49.22] <akuscifi007> i have got some basic knowledge of C C++ VB
+[15:50.31] <akuscifi007> This summer i expect to get some hold over Web designing using Linux, apache , my SQL, PHP,Perl,Python
+[15:52.05] <mbuf> akuscifi007: you there?
+[15:53.00] <mbuf> akuscifi007: welcome aboard!
+[15:53.59] * mbuf pings Meejan (next)
+[15:54.33] <Meejan> I am Meejanur Rahaman from Durgapur
+[15:55.04] <Meejan> Dr. B C roy EngG. College , 2nd year student
+[15:55.44] <Meejan> I know some basics of C, C++
+[15:56.10] <Meejan> I am using Fedora for last 3 months
+[15:56.49] <Meejan> got acquainted with it by rtnpro and kishan
+[15:57.08] *** root_ (n=root@122.162.83.136) has joined #dgplug
+[15:57.34] <Meejan> I have done some translation works in Sahana, Josm,Songbird
+[15:57.39] <Meejan> eof
+[15:57.44] <mbuf> Meejan: nice; welcome!
+[15:57.49] *** root_ (n=root@122.162.83.136) Quit (Client Quit)
+[15:58.02] * mbuf pings chandana (next)
+[15:58.04] *** root_ (n=root@122.162.83.136) has joined #dgplug
+[15:58.16] *** root_ (n=root@122.162.83.136) has left <type 'buffer'>
+[15:58.35] *** root_ (n=root@122.162.83.136) has joined #dgplug
+[15:59.03] <mbuf> chandana: please introduce yourself
+[16:00.23] <mbuf> chandana: ok, we will come back to you
+[16:00.31] * mbuf pings kopecks89 (next)
+[16:00.41] <kopecks89> hello everyone
+[16:00.50] <root_> .
+[16:00.56] <kopecks89> im koyel banerjee from durgapur,west bengal ,india
+[16:01.11] <kopecks89> im a 3rd yr student in dr.b.c.roy engg college
+[16:01.28] <kopecks89> i have learnt c,c++,html,dhtml
+[16:01.47] <kopecks89> currently pursuing a course in javascript and my sql
+[16:01.56] <kopecks89> also i have learnt some php stuffs
+[16:02.23] <kopecks89> and am interested in web solutions and would like to try my luck at the linux administration
+[16:02.50] <kopecks89> my friend rtnpro introduced me to this arena and i find it very challenging and interesting
+[16:02.54] <kopecks89> thats all
+[16:02.56] <kopecks89> eof
+[16:03.00] <mbuf> kopecks89: thanks! welcome!
+[16:03.07] * mbuf pings yevlempy (next)
+[16:03.40] <yevlempy> my name is Harsh verma.
+[16:04.25] *** root_ (n=root@122.162.83.136) Quit (Connection reset by peer)
+[16:04.45] <yevlempy> I am doing my Btech from bcrec durgapur,am in 3rd year IT deptt.
+[16:05.21] <yevlempy> I have basics of c,c++,python,Html.
+[16:06.02] <yevlempy> I am interested in web designing and stuff.
+[16:06.33] <yevlempy> I am using linux,Fedora since last one year.
+[16:07.24] <yevlempy> I work for fedora as a fedora ambassdor.
+[16:07.37] <yevlempy> thats all
+[16:07.42] <yevlempy> eof
+[16:07.44] <mbuf> yevlempy: thanks! and welcome aboard!
+[16:08.16] * mbuf pings priti (next)
+[16:08.47] <priti> My name is Priti Jha
+[16:09.06] <priti> I have done my MBA from NIT Durgapur
+[16:09.12] *** akuscifi (n=akuscifi@122.162.83.136) has joined #dgplug
+[16:09.30] <priti> My specialisation is in marketing
+[16:10.17] *** akuscifi007 (n=root@122.162.81.228) Quit (Read error: 110 (Connection timed out))
+[16:10.30] <priti> I am presently working in the capacity of a Community Manager at DeepRoot Linux, Bangalore
+[16:11.06] <priti> I am new to the concepts of FOSS but I am finding it amazing
+[16:12.52] <priti> My work here is to increase our involvement and contribution to the various Free Softawre communities
+[16:13.18] *** parthachowdhury (n=partha@59.93.205.154) has joined #dgplug
+[16:15.06] <priti> We have a commitment towards the community and we are working to assure that through our various non-profit initiatives.
+[16:15.20] *** chandana (n=chandana@124.124.190.96) Quit (Read error: 110 (Connection timed out))
+[16:15.21] <priti> Thats all
+[16:15.26] <priti> EOd
+[16:15.29] <mbuf> priti: good to know! welcome!
+[16:15.29] <priti> EOD
+[16:15.35] <priti> Thank you
+[16:15.43] * mbuf pings Shrink (next)
+[16:15.52] *** akuscifi (n=akuscifi@122.162.83.136) Quit ("Leaving")
+[16:16.08] <Shrink> mbuf, yes
+[16:16.24] *** chandana (n=chandana@124.124.163.65) has joined #dgplug
+[16:16.25] <mbuf> Shrink: please introduce yourself
+[16:16.33] *** akuscifi007 (n=akuscifi@122.162.83.136) has joined #dgplug
+[16:16.44] <chandana> ping
+[16:16.59] <mbuf> chandana: hold; I shall give you a turn next
+[16:17.03] <Shrink> I am Shreyank Gupta, Associate Software Engineer at Red Hat
+[16:17.31] *** priya (n=priya@59.180.142.81) Quit (Read error: 104 (Connection reset by peer))
+[16:17.34] *** partha2 (i=partha2@59.88.132.216) Quit (None)
+[16:17.41] <Shrink> I love working on Web Development
+[16:18.01] <Shrink> and like using Ruby on Rails for it
+[16:18.15] <mbuf> Shrink: I have lot of work for you :)
+[16:18.23] <Shrink> I use python for programming and know a bit of Django as well
+[16:18.30] <Shrink> mbuf, ok :)
+[16:19.48] <Shrink> I have been using Linux from 2nd year of my graduation at NIT Durgapur
+[16:20.03] <Shrink> and I graduated this May
+[16:20.10] <Shrink> Thats all. :)
+[16:20.38] <mbuf> Shrink: congratulations on your graduation! and welcome!
+[16:20.44] * rtnpro apologizes on behalf of kishan who couldn't attend today's session due to network problems
+[16:21.02] *** Kkhushi (n=khushbu@59.180.142.76) has joined #dgplug
+[16:21.02] <Shrink> Thanks! :D
+[16:21.04] <mbuf> rtnpro: you don't need to apologize for anything; we always have the chat logs
+[16:21.26] * mbuf pings chandana (next, again)
+[16:21.41] <chandana> I am chandana boral ,I am from jamshedpur .I am  a B-Tech student ,completed 2nd yr. i  know c,c++,python learning java
+[16:22.20] <chandana> i love coding in python
+[16:23.31] <chandana> i am using linux scince last 6 months
+[16:23.46] <chandana> eof
+[16:23.55] <mbuf> chandana: thanks! welcome aboard!
+[16:24.11] * mbuf pings mishti (next)
+[16:26.04] <mbuf> i shall come back to mishti later;
+[16:26.08] * mbuf pings mintos (next)
+[16:26.52] *** zer0c00l (n=zer0c00l@117.199.137.2) has joined #dgplug
+[16:27.19] <mbuf> I shall come back to mintos later;
+[16:27.28] * mbuf pings hardy_heron (next)
+[16:27.54] <hardy_heron> hi mbuf
+[16:28.00] *** mitsy (i=3b5e71e1@gateway/web/freenode/x-fc94ba993c548dfe) has joined #dgplug
+[16:28.00] <mbuf> hardy_heron: please introduce yourself
+[16:28.07] <hardy_heron> i am narendra kumar from new delhi
+[16:28.12] *** Kkhushi1 (n=khushbu@59.180.143.180) has joined #dgplug
+[16:28.20] <hardy_heron> Right now i m pursuing MCA from JNU
+[16:28.28] <mitsy> hello, this is mitali jha from Allahabad
+[16:28.33] *** Kkhushi (n=khushbu@59.180.142.76) Quit (Nick collision from services.)
+[16:28.42] <mbuf> mitsy: wait for your turn;
+[16:28.46] <hardy_heron> Last year i also attended this summer course
+[16:28.46] *** Kkhushi1 is now known as Kkhushi
+[16:28.52] <hardy_heron> and i found it very useful
+[16:29.05] <hardy_heron> i m aware of c,c++,java
+[16:29.34] <hardy_heron> and this time i want to get some knowledge about desktop applications
+[16:29.42] <hardy_heron> and python programming
+[16:29.44] <hardy_heron> eof
+[16:29.52] <mbuf> hardy_heron: thanks! welcome!
+[16:30.15] * mbuf pings parthachowdhury (next)
+[16:30.24] <parthachowdhury> hi everybody
+[16:30.35] <parthachowdhury> i am partha chowdhury
+[16:30.43] <parthachowdhury> b.tech passout this year
+[16:30.44] *** sa1111 (i=3b5c7b91@gateway/web/freenode/x-5f3ace9c7731710b) has joined #dgplug
+[16:30.57] * Shrink will be off for today
+[16:31.03] <parthachowdhury> lokking to work on open source project
+[16:31.10] <parthachowdhury> *looking
+[16:31.14] <parthachowdhury> eof
+[16:31.17] <mbuf> Shrink: no problem;
+[16:31.24] <mbuf> parthachowdhury: thanks! welcome!
+[16:31.31] <parthachowdhury> ty
+[16:31.42] * mbuf pings aveek (next)
+[16:31.54] <aveek> i am Aveek sen
+[16:31.56] *** viggy_prabhu (n=viggy@support.deeproot.co.in) has left <type 'buffer'>
+[16:32.05] <aveek> from Ranchi, India
+[16:32.37] <aveek> currently pursuing my BTech from NIT Agartala, 2nd year ECE
+[16:33.01] <aveek> i know basics of c, C++, Java & Shell scripting
+[16:33.19] <aveek> eof
+[16:33.26] <mbuf> aveek: thanks! welcome!
+[16:33.44] * mbuf pings krishna (next)
+[16:33.55] <krishna> hi mbuf ! i m krishna from delhipursuing MCA from JNU.
+[16:34.28] <krishna> it's my first time to attend this summer course
+[16:35.01] <krishna> i know some basics of c,c++
+[16:35.27] <krishna> i want to learn about open-source
+[16:35.33] <krishna> eof
+[16:35.46] <mbuf> krishna: thanks! welcome!
+[16:35.54] * mbuf pings mitsy (next)
+[16:36.01] *** mitsy (i=3b5e71e1@gateway/web/freenode/x-fc94ba993c548dfe) Quit (Ping timeout: 180 seconds)
+[16:36.09] <mbuf> oops!
+[16:36.17] <mbuf> we will get back to mitsy later;
+[16:36.25] * mbuf pings zer0c00l (next)
+[16:36.36] <zer0c00l> yes, I am Arun
+[16:36.52] <zer0c00l> Completed my B.E computer science and engineering
+[16:37.11] <zer0c00l> I know basics of c and python
+[16:37.25] <zer0c00l> eof
+[16:37.34] <mbuf> zer0c00l: thanks! welcome!
+[16:37.39] <aveek> sorry, will be leaving..electricity cut
+[16:37.45] <mbuf> aveek: no problem;
+[16:38.04] * mbuf pings debayan (next)
+[16:38.38] <zer0c00l> Powercut :(
+[16:38.38] <debayan> I am Debayan Banerjee. I am from Dhanbad/Durgapur/Bangalore. I complete my B. Tech in I.T. a few months back.
+[16:39.07] <debayan> I am currently a hacker a DeepRoot Linux, Bangalore. I know some C, Python, Perl.
+[16:39.35] <debayan> I would be happy to learn whatever I can. I think this is a great initiative.
+[16:39.37] <debayan> EOD
+[16:39.38] *** sa1111 (i=3b5c7b91@gateway/web/freenode/x-5f3ace9c7731710b) Quit ("Page closed")
+[16:39.43] <mbuf> debayan: thanks! welcome!
+[16:39.51] * mbuf pings rtnpro (next)
+[16:40.12] <rtnpro> Hi all
+[16:41.07] <rtnpro> I am Ratnadeep Debnath from Guwahati, Assam, presently a 3rd year CSE student at Dr. B C Roy Engg College, Durgapur
+[16:41.36] <rtnpro> I have been using linux starting from Fedora 8 through 11
+[16:41.46] <rtnpro> It all began Jan, 08
+[16:42.17] <rtnpro> I have been studying C, Python, Shell Programming, System Programming using C
+[16:42.33] <rtnpro> Lately I have been studying blueZ and GTK
+[16:43.25] <rtnpro> I like toying around with my system a lot, run into problems, and like fixing them
+[16:43.44] <rtnpro> EOF
+[16:43.47] <mbuf> rtnpro: thanks, and welcome!
+[16:43.52] * mbuf pings tuxmaniac (next)
+[16:44.13] <parthachowdhury> stats
+[16:44.17] <parthachowdhury> sorry
+[16:45.08] *** suddhasatta (i=75c74008@gateway/web/freenode/x-2ab8ac5fd0f5fc29) has joined #dgplug
+[16:45.24] <mbuf> he is probably away, anyways, he will be around; anyone else who is left to introduce themselves?
+[16:46.31] <mbuf> ok, I think everyone in this channel has introduced themselves;
+[16:46.50] <mbuf> those who were unable to stay online can hang in the channel and/or discuss on the mailing list;
+[16:47.22] <mbuf> I am Shakthi, and I work in a start-up called Qvantel, in Hyderabad, India;
+[16:47.32] *** suddhasatta (i=75c74008@gateway/web/freenode/x-2ab8ac5fd0f5fc29) Quit (Client Quit)
+[16:47.33] <mbuf> I hack on anything Free Software (/Hardware)
+[16:47.47] <mbuf> I would now like to state few things;
+[16:48.35] <mbuf> 1. I don't care if your English is good or bad. Feel free to ask questions. But, you should make an effort to do some homework before you ask questions.
+[16:49.13] <mbuf> 2. We will go through i-want-2-do-project. tell-me-wat-2-do on Saturday, but, one important thing is SMS language should never be used here or in mailing list or in any communication
+[16:49.24] <mbuf> except when you use it for SMS.
+[16:49.29] <debayan> Sorry, have to take my leave for today. See you people later.
+[16:49.33] *** debayan (n=debayan@support.deeproot.co.in) Quit ("Leaving")
+[16:50.01] <mbuf> 3. Some of you may be slow in typing, or your Internet connectivity might be slow. That is fine
+[16:50.23] <mbuf> 4. When we decide to work on projects, I would like people to work as a team (atleast two in a team)
+[16:50.49] <mbuf> From our introductions, we see that we have people from different backgrounds, lifestyles, cultures and varied experiences;
+[16:51.01] <mbuf> so a team should constitute of experienced as well as newbie folks;
+[16:51.32] <mbuf> some of you may or may not have registered your IRC nicknames with irc.freenode.net. I suggest you please do so, so we know that it is in fact you who is logged into IRC
+[16:52.24] <parthachowdhury> after we register our nick
+[16:52.37] <parthachowdhury> do we have to logout and login again ?
+[16:52.47] <mbuf> 5. please feel free to hang in this channel whenver you are online;
+[16:53.14] <mbuf> parthachowdhury: when IRC chat session is underway, and you need to ask a question just type !
+[16:53.29] <parthachowdhury> oh ! sorry
+[16:53.31] <mbuf> parthachowdhury: and the moderator or person who is typing, will ask you to type, if possible
+[16:53.45] <parthachowdhury> got it :)
+[16:53.47] <mbuf> parthachowdhury: only when I leave the channel open for all discussions, should anyone ask
+[16:54.31] <mbuf> parthachowdhury: good; to answer your question, you only register your nickname with password once
+[16:54.39] <mbuf> parthachowdhury: but, everytime you login, you identify yourself with the password
+[16:55.08] <mbuf> and here is the documentation on how to do it: http://freenode.net/faq.shtml#nicksetup
+[16:56.05] <mbuf> as we start working with projects, you can acquire the necessary skills along the way; we can work out deadlines based on that;
+[16:56.36] <mbuf> if anyone has any questions, please ask, before I end the introductory session
+[16:56.47] <spechard> !
+[16:56.52] <mbuf> *or if anyone wants to ask any question(s)
+[16:56.55] <mbuf> spechard: shoot
+[16:57.04] <spechard> i heard about the project session tonight
+[16:57.10] <spechard> can you say a few about it?
+[16:57.18] <spechard> +wors
+[16:57.18] *** Kkhushi1 (n=khushbu@59.180.151.209) has joined #dgplug
+[16:57.21] <spechard> +words
+[16:57.33] *** krishna (n=krishna@59.177.75.103) Quit (Read error: 104 (Connection reset by peer))
+[16:57.44] <mbuf> spechard: yes, kushal will be discussiong about it; i have put some of my *wanted* list here: http://wiki.dgplug.org/index.php/SummerTraining09#List_of_projects.2Ftasks
+[16:58.09] <mbuf> you are welcome to choose one among them, or if you have your own ideas that you would like to work, you are most welcome!
+[16:58.17] <spechard> !
+[16:58.23] <kopecks89> hello mbuf,i just wanted to ask what sort of homework are expected of us?
+[16:58.24] <mbuf> spechard: shoot, again!
+[16:58.29] <spechard> do we edit the wiki to choose the project?
+[16:58.30] <mbuf> kopecks89: wait!
+[16:58.37] <kopecks89> yes
+[16:58.45] <spechard> thanks <EOF>
+[16:58.52] *** krishna (n=krishna@59.177.75.103) has joined #dgplug
+[16:58.53] <mbuf> spechard: you could ask kushal about it; for login access; he is maintaining it;
+[16:59.05] <mbuf> spechard: i think that is best;
+[16:59.40] *** susenj (n=neeraj@59.177.75.103) Quit (Excess Flood)
+[16:59.51] <mbuf> kopecks89: coming to your query, homework means not school/college homework
+[17:00.13] <mbuf> kopecks89: it means one has to do some basic search online, or research through books or online material before asking questions
+[17:00.38] <mbuf> kopecks89: it could be looking at forums, mailing list archives, or just simple use of a search engine; please read this article fully: http://www.catb.org/~esr/faqs/smart-questions.html#before
+[17:00.44] <mbuf> kopecks89: EOF
+[17:00.47] *** susenj (n=neeraj@59.177.75.103) has joined #dgplug
+[17:00.51] <mbuf> any other questions?
+[17:00.51] *** kopecks89 (n=koyel@117.201.97.54) Quit (Read error: 104 (Connection reset by peer))
+[17:01.41] <mbuf> we are a very informal group, which means there is nothing like teacher-student; sometimes you as a newbie might know something that you would like to share
+[17:01.44] *** kopecks89 (n=koyel@117.201.98.200) has joined #dgplug
+[17:01.47] <mbuf> and you are welcome to conduct sessions in this channel;
+[17:02.16] <rtnpro> mbuf, !
+[17:02.27] <mbuf> important thing in the community is that we value *technical competence* and not who you are, how much money you earn, or what is your designation, or how much years of experience you have;
+[17:02.30] <mbuf> rtnpro: shoot!
+[17:02.56] <rtnpro> mbuf, I just went through the list of projects
+[17:03.10] <mbuf> you can go through the following presentation before coming to IRC on Saturday: http://shakthimaan.com/downloads/glv/presentations/i-want-2-do-project-tell-me-wat-2-do-fedora.pdf
+[17:03.31] <rtnpro> mbuf, about Fedora complete repository setup (offline)
+[17:03.50] <rtnpro> mbuf, what we are expected to do in that
+[17:03.50] <mbuf> and I don't want anyone staying late in browsing centers to attend the IRC session; you can check the archives during the day;
+[17:04.36] <mbuf> rtnpro: i just put some ideas there; maybe some of the solutions already exist (that I am unaware of); I need to be able to take complete Fedora repo and deploy in a school/college that does not have Internet connection
+[17:04.52] <rtnpro> mbuf, I am already maintaining an offline Fedora 10 i386 repo in my HDD
+[17:05.11] <mbuf> rtnpro: maybe from a USB hard-disk; and what is the size of the repo? how do you deploy it?
+[17:05.37] <aveek> !
+[17:05.50] <rtnpro> mbuf, its close to 25 GB, and I run it via an FTP server
+[17:05.54] <parthachowdhury> !
+[17:06.03] <mbuf> aveek: if you want to add something to this discussion, you can comment, but, if you have a new question, then wait;
+[17:06.21] <parthachowdhury> ok
+[17:06.29] <mbuf> rtnpro: have you tried it on a LAN where new installations can use it as a repo?
+[17:06.47] <rtnpro> mbuf, yes
+[17:06.48] <aveek> in my college i am also deploying it after reaching on 5th
+[17:07.03] <zer0c00l> mbuf, i tried , i did that thing in my college
+[17:07.08] <mbuf> rtnpro: aveek good; do you have an online HOWTO or some document on it?
+[17:07.14] <mbuf> zer0c00l: cool
+[17:07.35] <rtnpro> mbuf, I blogged about it once
+[17:07.37] <aveek> pardon? document that it is to be put up?
+[17:07.57] <mbuf> aveek: document or HOWTO on how to deploy it and use it;
+[17:08.09] <aveek> no
+[17:08.22] <mbuf> I think I need to add a column that states "Status" in the list of tasks;
+[17:08.38] <mbuf> aveek: always when you complete a task, one should immediately write a quick document and upload it or blog it;
+[17:08.42] <rtnpro> mbuf, I made some changes from the traditional repo style
+[17:08.58] <mbuf> rtnpro: please e-mail the same HOWTO to dgplug for review;
+[17:08.59] *** priti (n=priti@support.deeproot.co.in) Quit ("Leaving")
+[17:09.09] <rtnpro> mbuf, ok
+[17:09.11] <mbuf> rtnpro: thanks!
+[17:09.15] <mbuf> aveek: you had a question?
+[17:09.22] <aveek> i am yet to deploy it..just received a HDD from Rangeen some 15 days back
+[17:09.31] <aveek> no ..this itself
+[17:09.45] <mbuf> aveek: ok, good; I will bring my HDD when I come to Agartala and make a copy in my USB HDD;
+[17:09.58] <mbuf> parthachowdhury: you had a question?
+[17:10.37] *** Kkhushi (n=khushbu@59.180.143.180) Quit (Read error: 110 (Connection timed out))
+[17:11.05] <parthachowdhury> i just wanted to say
+[17:11.21] <parthachowdhury> it can be done with createrepo and kickstart
+[17:11.42] <parthachowdhury> for a fedora repo with updates
+[17:11.56] <mbuf> parthachowdhury: I don't want to create one; if someone has a complete repo snapshot, I just want to copy it and deploy it;
+[17:12.34] <mbuf> parthachowdhury: not everyone is in broadband, and so, we need to be able to share the complete repos in external disks;
+[17:12.56] <parthachowdhury> then a machine can be setup as a file server with cron to rsync
+[17:12.59] <mbuf> updates can be obtained as servicepacks
+[17:13.16] <mbuf> parthachowdhury: think of a repo that is not connected to the Internet
+[17:14.12] <mbuf> parthachowdhury: people have large HDDs, so storing is not a problem;
+[17:14.16] <parthachowdhury> then one has to manually add a repo file and loopmount it
+[17:14.25] <rtnpro> mbuf, the offline repo can be updated on a regular basis
+[17:14.33] <rtnpro> might be weekly
+[17:14.34] <mbuf> parthachowdhury: rtnpro ok
+[17:14.50] <mbuf> we will discuss this later;
+[17:14.53] <zer0c00l> mbuf, editing  baseurl in /etc/yum.repos.d/fedora.repo
+[17:14.54] <mbuf> any other questions?
+[17:14.56] <rtnpro> ok
+[17:14.58] <zer0c00l> will dp
+[17:15.00] <zer0c00l> *do
+[17:15.14] <zer0c00l> ok
+[17:15.31] <mbuf> good; so we end the Introduction session now; EOF

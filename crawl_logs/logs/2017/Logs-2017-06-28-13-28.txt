@@ -1,0 +1,592 @@
+----BEGIN CLASS----
+[13:28] <kushal> #startclass
+[13:28] <devesh_V> Devesh Verma
+[13:28] <devesh_V> Sorry
+[13:28] <kushal> devesh_V, yes?
+[13:28] <theparadoxer02_> Mannu Gupta
+[13:28] <soumam007> Soumam Banerjee
+[13:28] <ani_> Aniket Uttam
+[13:28] <apoorv28goel> Apoorv Goel
+[13:28] <Phi> Mohit
+[13:28] <championshutler> Shivam Singhal
+[13:28] <realslimshanky> Shashank Kumar
+[13:28] <jiteshpabla> Jitesh Pabla
+[13:28] <ashwanig> Nobody asked for roll call guys
+[13:28] <abhinavshirur> blooper
+[13:28] <cran-cg> Chiranjeev Gupta
+[13:29] <asraisingh> everyone stop
+[13:29] <ikshitij> cran-cg: please write a blog on how you convinced your juniors for this summer training :) will talk on this topic post session !
+[13:29] <asraisingh> its not rollcall
+[13:29] <cran-cg> Damn again
+[13:29] <priyansh> Lol
+[13:29] <devesh_V> Yeah that's why I said sorry
+[13:29] <jiteshpabla> haha
+[13:29] <abhinavshirur> always a clever move by kushal :P
+[13:29] <realslimshanky> Damn people :D
+[13:29] <kushal> Maybe this one http://4.bp.blogspot.com/_aKhQQUX4eVM/TU9ZTkYFM_I/AAAAAAAAArs/6uBg7SaP8W8/s640/Leading-Sheep-Astray.jpg
+[13:29] <apoorv28goel> -.-
+[13:30] <cran-cg> ikshitij: Thanks ! Will add that too :))
+[13:30] <messifc> kushal: :D
+[13:30] <kushal> One starts, and then others follow without using any amount brain.
+[13:30] <akshayg96> :D
+[13:30] <kushal> Roll Call[
+[13:30] <asraisingh> Abhishek Singh
+[13:30] <pr97> Priyanka Sharma
+[13:31] <devesh_V> :D
+[13:31] <jasonbraganza> Jason Braganza
+[13:31] <wrik003> Wrik Bhadra
+[13:31] <balaji> Balaji
+[13:31] <niranjana> Niranjana Deshpande
+[13:31] <bhavin192> Bhavin Gandhi
+[13:31] <akshayg96> Akshay Gaikwad
+[13:31] <ashwanig> Ashwani Kumar Gupta
+[13:31] <rkased_> Razy Kased
+[13:31] <abhinavshirur> Abhinav Shirur
+[13:31] <cran-cg> Chiranjeev Gupta
+[13:31] <imranjeetsingh_> Ranjeet kumar
+[13:31] <deepika> Deepika Upadhyay
+[13:31] <lucifer> Atul kumar
+[13:31] <realslimshanky> Shashank Kumar
+[13:31] <meamitk> Amit Kokitkar
+[13:31] <devesh_V> Devesh Verma
+[13:31] <ani_> Aniket Uttam
+[13:31] <ghishadow> Suraj Ghimire
+[13:31] <samridhia> Samridhi Agarwal
+[13:31] <singh123> Amarjeet singh
+[13:31] <yurii> Yurii Pylypchuk
+[13:31] <jiteshpabla> Jitesh Pabla
+[13:31] <Skhk634> Shankar Jha
+[13:31] <skat_sd> Saikat Dey
+[13:31] <soumam007> Soumam Banerjee
+[13:31] <navneet> Navneet Sharma
+[13:31] <Phi> Mohit
+[13:31] <nsh_srnvsn> Anusha Srinivasan
+[13:31] <neer> Nishanta Sarma
+[13:31] <anupamas> Anupama Shipurkar
+[13:31] <schubisu> Robin Schubert
+[13:31] <ChaKu_Web> Chaitanya Kukde
+[13:31] <championshutler> Shivam Singhal
+[13:31] <gsitlani_> Gaurav Sitlani
+[13:31] <apoorv28goel> Apoorv Goel
+[13:31] <sapahia> Rishav
+[13:31] <messifc> Messi Fc
+[13:31] <priyansh> Priyansh sourav
+[13:31] <ahole[m]> Kshithij Iyer
+[13:31] <Prerna> Prerna Pandey
+[13:32] <kushal> Okay
+[13:32] <kushal> I hope you all watched the documentary.
+[13:33] <avik> Avik Mukherjee
+[13:33] <kushal> Think about the whole issue when you have time, maybe take some time out and then think.
+[13:33] <messifc> !!
+[13:33] <SandeepK> sandeep kumar choudhary
+[13:33] <rkased_> !
+[13:33] <messifc> !
+[13:33] <theparadoxer02_> Mannu Gupta
+[13:33] <asraisingh> kushal, watching.
+[13:33] <kushal> messifc, typing ! twice will not give you extra credits.
+[13:33] <kushal> next
+[13:33] <kushal> next
+[13:33] <kushal> next
+[13:33] <messifc> why most of our entries are missing from the student planet?
+[13:33] <messifc> kushal: sorry by mistake
+[13:33] <kushal> messifc, depends on when you wrote it.
+[13:34] <anuGupta> Anu Kumari Gupta
+[13:34] <kushal> https://github.com/dgplug/studentsplanet/blob/master/planet.ini#L57  this is the file
+[13:34] <rkased_> My url was posted to the assignment page yesterday and is not on the dgplug planet page?
+[13:34] <mdbk> Onyinye Madubuko
+[13:34] <kushal> ^^ if your entry is not there, then it will not show up.
+[13:34] <messifc> kushal: thanks, got it
+[13:34] <kushal> rkased_, may be you did not follow the rules, and wrote wrong.
+[13:35] <rkased_> It was verified that it was correct
+[13:35] <kushal> rkased_, check the url I just now gave.
+[13:35] <jasonbraganza> kushal: probably some wrong circumstances with rkased_ . we validated his feed. it was fine
+[13:36] <gsitlani_> !
+[13:36] <kushal> rkased_, what is the url?
+[13:36] <kushal> next
+[13:36] <gsitlani_> Even mine's not there, i had posted just after the class.
+[13:36] <kushal> gsitlani_, means not on time.
+[13:37] <rkased_>  [https://georoot.wordpress.com/feed/]
+[13:37] <kushal> rkased_, it is there
+[13:38] <jasonbraganza> rkased_ itâs there
+[13:38] <ashwanig> !
+[13:38] <rkased_> But it's not on the dgplug planet page
+[13:38] <Phi> Mine too is not on the planet.  Published after the class.  Url: https://phi2infinity.blogspot.in/feeds/posts/default
+[13:38] <kushal> rkased_, go to http://students.planet.dgplug.org/  and search for your name.
+[13:38] <rkased_> Okay
+[13:38] <Phi> Okay, found it
+[13:38] <kushal> For the new ones,  Niranjana Deshpande wrote wrong
+[13:38] <kushal> Chiranjeev Gupta wrote wrong
+[13:39] <kushal>  Devesh Verma missed the / at the end
+[13:39] <kushal> Sayalee Raut pointed to a blog post instead of the feed URL.
+[13:39] <rkased_> Thank you
+[13:39] <kushal> If you do not understand what is a feed, please ask now.
+[13:39] <kushal> Asking is okay.
+[13:39] <Raut> kushal : OK
+[13:40] <kushal> Raut, look at the other examples from the https://github.com/dgplug/studentsplanet/blob/master/planet.ini#L57
+[13:40] <kushal> Raut, and then fix the URL
+[13:40] <Raut> kushal : Yes.
+[13:40] <devesh_V> !
+[13:40] <kushal> next
+[13:40] <ashwanig> I have been practicing on gtypist. Should I touch type everytime I type? Because when I have to type faster I can't touch type. Also I am having a tendency to forget which key is home position for which finger. So I am making errors everytime I start again after a break.<eof>
+[13:41] <kushal> ashwanig, you will get it with time.
+[13:41] <kushal> ashwanig, no worries, just keep doing touch typing whenever you are using computers.
+[13:41] <niranjana> kushal , sorry, have modified my entry <eof>
+[13:41] <kushal> next
+[13:41] <devesh_V> Where can I correct my URL
+[13:42] <kushal> devesh_V, the same place where you wrote it?
+[13:42] <devesh_V> Yes
+[13:42] <kushal> devesh_V, correct it there.
+[13:42] <devesh_V> Okay:)
+[13:42] <kushal> cran-cg, / at the end
+[13:42] <kushal> same for devesh_V
+[13:42] <kushal> cran-cg, yup
+[13:43] <cran-cg> kushal: sorry
+[13:43] <kushal> cran-cg, no problem, now fixed
+[13:43] <kushal> Anyway, coming back.
+[13:43] <cran-cg> Thanks :)
+[13:43] <kushal> Before we do anything new.
+[13:43] <kushal> We started this training, and just into things.
+[13:44] <kushal> But, we are yet to discuss why.
+[13:44] <kushal> Why do we care?
+[13:44] <kushal> Why should one learn these things?
+[13:44] <kushal> What is upstream?
+[13:44] <kushal> Why contribution matters?
+[13:44] <Raut> !
+[13:44] <kushal> We are going to have a session on these points, we will learn a bit about the history, and also why are we doing this.
+[13:45] <kushal> next
+[13:45] <asraisingh> ashwanig, there is some physical symbols on the keys J and F which helps to decide you j and k during touch typing
+[13:45] <Raut> kushal:Actually, I corrected it, can you please check if it is right now?
+[13:45] <kushal> Raut, yup, it is correct.
+[13:45] <Raut> kushal : Thanks.
+[13:46] <kushal> asraisingh, Please stop talking randomly.
+[13:46] <kushal> Who all here do not know about Markdown? If you don't know what is markdown, then type "me", otherwise do not type anything.
+[13:47] <imranjeetsingh_> me
+[13:47] <vkate> Me
+[13:47] <wrik003> me
+[13:47] <lucifer> me
+[13:47] <avik> me
+[13:47] <asraisingh> me
+[13:47] <apoorv28goel> me
+[13:47] <PushkarK> me
+[13:47] <anupamas> me
+[13:47] <nsh_srnvsn> me
+[13:47] <samridhia> me
+[13:47] <pr97> Me
+[13:47] <skat_sd> me
+[13:47] <messifc> me
+[13:47] <jiteshpabla> me
+[13:47] <Skhk634> me
+[13:47] <niranjana> me
+[13:47] <sapahia> me
+[13:47] <neer> me
+[13:47] <abhinavshirur> me
+[13:47] <Phi> me
+[13:47] <yurii> me
+[13:47] <kvy> me
+[13:47] <balaji> me
+[13:47] <deepika> me
+[13:48] <anuGupta> Me
+[13:48] <jiteshpabla> sorry, not me, i'm sorry
+[13:48] <singh123> me
+[13:48] <Sahil> me
+[13:48] <joyhimanshu> rollcall:Himanshu Awasthi
+[13:48] <mdbk> me
+[13:48] <Raut> me
+[13:48] <kishore> me
+[13:48] <ahole[m]> Me
+[13:48] <although> me
+[13:48] <Rkased__> Question?
+[13:49] <sitlanigaurav[m]> me
+[13:49] <kushal> Install the *discount* package from your distro's package manager.
+[13:49] <SandeepK> Rkased Who all here do not know about Markdown? If you don't know what is markdown, then type "me", otherwise do not type anything.
+[13:49] <kushal> sudo dnf install or sudo apt-get install
+[13:49] <kushal> The name is discount
+[13:50] <kushal> Markdown is plain text format which can be converted into HTML in an easy way.
+[13:50] <kushal> https://en.wikipedia.org/wiki/Markdown is the wiki page.
+[13:51] <ani> ME
+[13:51] <kushal> Now, before reading the wikipedia page, read this blog post: http://www.aaronsw.com/weblog/001189
+[13:52] <Kasedr> That documentary you recommended was a great watch. I never new that much details in his situation
+[13:53] <kushal> People, please read the blog post entry, and think if you know about the author.
+[13:53] <kushal> Don't have to type, just think.
+[13:53] <soumam007> kushal, sudo apt-get install discount?
+[13:53] <kushal> soumam007, try that.
+[13:53] <wrik003> soumam007, yes
+[13:54] <Kasedr> Aaron Schwartz
+[13:54] <messifc> soumam007: if using fedora, do 'sudo dnf install discount'
+[13:54] <soumam007> messifc, its ubuntu
+[13:55] <soumam007> its showing error,unable to lock administration directory
+[13:55] <soumam007> is another process using it?
+[13:55] <kushal> soumam007, Most probably yes.
+[13:56] <soumam007> kushal,  i didnot understand its the error in the terminal written
+[13:56] <kushal> https://blog.ghost.org/markdown/ this is a simple tutorial of Markdown format.
+[13:56] <kushal> You can write a file (say hello.md), and then use it to convert into markdown
+[13:56] <kushal> ooops
+[13:57] <kushal> extra o :(
+[13:57] <kushal> convert to HTML
+[13:57] <ahole[m]> !
+[13:58] <kushal> I will also do the same, wait for 2 minutes
+[13:58] <kushal> next
+[13:58] <ahole[m]> Apart from readme files and weblogs, where else can we use markdown?
+[13:59] <kushal> ahole[m], any kind of documentation.
+[13:59] <kushal> ahole[m], You may write a book.
+[13:59] <soumam007> its syntax are easier as compared to html
+[14:00] <sapahia> !
+[14:00] <kushal> next
+[14:00] <sitlanigaurav[m]> !
+[14:00] <sapahia> aren't markdown is used in stackoverflow too?
+[14:00] <sapahia> <eom>
+[14:00] <kushal> sapahia, I don't use that site enough to comment, can anyone else confirm?
+[14:00] <kushal> next
+[14:01] <sitlanigaurav[m]> Can we use it to create web pages after converting to HTML ?<eom>
+[14:01] <kushal> sitlanigaurav[m], HTML files are web pages.
+[14:01] <Kasedr> Yea its smooth
+[14:01] <cran-cg> sapahia: Yes
+[14:01] <ashwanig> sapahia, Yes
+[14:01] <kushal> So, I will trying the same here
+[14:01] <kushal> https://shellshare.net/r/summertraining
+[14:02] <vipulgupta2048_> roll call: Vipul Gupta
+[14:06] <poojaencoded> pooja kumari singh
+[14:06] <kushal> That is good enough
+[14:06] <although> !
+[14:07] <kushal> next
+[14:07] <although> is anyway to set title with it?
+[14:07] <soumam007> !
+[14:08] <kushal> although, I don't know :)
+[14:08] <kushal> Read the man page maybe.
+[14:08] <kushal> next
+[14:08] <soumam007> is discount responsible for that conversion?Is it a md to html parser?
+[14:08] <kushal> soumam007, Yes.
+[14:09] <wrik003> !
+[14:09] <kushal> next
+[14:09] <wrik003> discount- doesn't show the options
+[14:09] <kushal> wrik003, which version of discount is that?
+[14:09] <wrik003> kushal, let me check
+[14:09] <kushal> wrik003, try just mkd2html
+[14:10] <avik> !
+[14:10] <wrik003> kushal, ok. how do i check the version?
+[14:10] <wrik003> kushal, discount --version or ... -v doesn't work
+[14:10] <kushal> wrik003, I don't know apt that well :)
+[14:10] <ahole[m]> discount --version
+[14:11] <wrik003> kushal, ok
+[14:11] <imranjeetsingh_> ahole[m], nope.
+[14:11] <ihp_> How do we access man pages for discount
+[14:11] <ihp_> ?
+[14:12] <ikshitij> use command and you will get package suggestions automatically ;)
+[14:12] <kushal>  http://www.pell.portland.or.us/~orc/Code/discount/ this is the tool.
+[14:12] <wrik003> kushal, doing it just with "mkd2html" works. thanks! :)
+[14:12] <bhavin192> ihp_, search about it
+[14:13] <Kasedr> !
+[14:13] <imranjeetsingh_> !
+[14:13] <mdbk> wril003, markdown -V
+[14:13] <kushal> People who are using wordpress as blogging platform, there are many markdown plugins, like https://wordpress.org/plugins/jetpack-markdown/
+[14:14] <kushal> If you enable it, then you can just blog in markdown format, which will be easier for your writing
+[14:14] <kushal> next
+[14:14] <wrik003> mdbk, thanks
+[14:14] <kushal> Ah, it says not maintained
+[14:14] <avik> just was asking that, does wordpess also use markdown in real time :)
+[14:14] <kushal> There is also https://wordpress.org/plugins/wp-markdown/
+[14:15] <kushal> next
+[14:15] <Kasedr> I believe website such as Reddit and Stackexchange use Markdown correct?
+[14:15] <although> !
+[14:15] <kushal> Kasedr, I don't use both.
+[14:15] <samridhia> !
+[14:16] <kushal> next
+[14:16] <Kasedr> Okay
+[14:16] <imranjeetsingh_> what is discount?
+[14:16] <samridhia> The discount- command is not working for me ls
+[14:16] <ikshitij> Markdown also supports writing in html :)
+[14:16] <joyhimanshu> yeah! mkd2html working in ubuntu
+[14:17] <kushal> imranjeetsingh_, Have you read the links I pasted above?
+[14:17] <kushal> next
+[14:17] <although> how to know that website is using markdown or not?
+[14:17] <kushal> although, which website?
+[14:17] <kushal> next
+[14:17] <imranjeetsingh_> Kasedr, i think all websites that have comment section might be using markdown.
+[14:17] <samridhia> The discount- command not working for me and not even mkd2html ?
+[14:18] <although> any website ?
+[14:18] <kushal> although, you can not.
+[14:18] <kushal> samikshan, Have you installed the discount package?
+[14:18] <kushal> oops
+[14:18] <Kasedr> !
+[14:18] <kushal> samridhia, ^^^
+[14:18] <samridhia> yes i installed
+[14:18] <kushal> samridhia, Which distribution are you using?
+[14:18] <although> mkd2html working in ubuntu 16.04
+[14:18] <kushal> samridhia, Show us the error.
+[14:19] <kushal> next
+[14:19] <im_mohsin> Sorry late today, can i please know the topic for today?
+[14:19] <Kasedr> How was Markdown created as in the structure for web pages to understand its syntax?
+[14:19] <samridhia> kushal: the command not found is the error
+[14:19] <kushal> im_mohsin, We are discussing about Markdown right now.
+[14:19] <kushal> samridhia, Which distribution are you using?
+[14:19] <im_mohsin> Any link kushal that i can read meanwhile?
+[14:19] <ahole[m]> markdown im_mohsin
+[14:20] <although> mohsin https://en.wikipedia.org/wiki/Markdown
+[14:20] <kushal> Kasedr, https://daringfireball.net/projects/markdown/
+[14:20] <kushal> read that page
+[14:20] <Kasedr> Thank you
+[14:20] <samridhia> kushal: distribution as in fedora?
+[14:20] <akshayg96> !
+[14:20] <ikshitij> samridhia: I think asking questions with error logs will be better. We will understand problem easily :)
+[14:20] <kushal> samridhia, Fedora or Ubuntu or Debian
+[14:20] <im_mohsin> although, Thank you
+[14:20] <kushal> next
+[14:20] <samridhia> Fedora
+[14:20] <akshayg96> what is use of discount-makepage command?
+[14:21] <kushal> samridhia, Which version of Fedora? Also show us the output of your install command.
+[14:21] <akshayg96> <eom>
+[14:21] <bhavin192> akshayg96, man discount-makepage
+[14:21] <kushal> bhavin192, :)
+[14:22] <kushal> samridhia, Are you typing anything?
+[14:22] <bhavin192> akshayg96, http://lmgtfy.com/?q=what+is+use+of+discount-makepage+command%3F
+[14:23] <kushal> next
+[14:23] <wrik003> samridhia, just type "mkd2html hello.md"
+[14:23] <wrik003> and see if it works
+[14:23] <ihp_> !
+[14:24] <kushal> next
+[14:24] <ihp_> My ubuntu distro says no manual entry for discount
+[14:24] <samridhia> bash: mkd2html: command not found...
+[14:24] <skat_sd> !
+[14:24] <kushal> samridhia, Will you please answer my questions?
+[14:24] <samridhia> wrik003 still the same error
+[14:25] <kushal> next
+[14:25] <skat_sd> How do i start editing in discount using the commandline?
+[14:25] <kvy> !
+[14:25] <kushal> skat_sd, discount is a command to convert from markdown to HTML
+[14:25] <samridhia> kushal : yes sorry i wasn't able to figure out this command
+[14:25] <skat_sd> i made a directory, what next?
+[14:25] <neer> !
+[14:25] <kushal> skat_sd, You write a file in vim (or any editor).
+[14:25] <kushal> next
+[14:26] <im_mohsin> !
+[14:26] <kvy> discount- command in not working ?
+[14:26] <kvy> <eof>
+[14:26] <kushal> samridhia, Which command?
+[14:26] <ahole[m]> !
+[14:26] <kushal> samridhia, Have you read my question?
+[14:26] <kushal> samridhia, Which version of Fedora? Also show us the output of your install command.
+[14:26] <kushal> samridhia, You said you installed it, can you please copy paste the output of that install part in paste.fedoraproject.org?
+[14:26] <samridhia> Installed:
+[14:26] <samridhia>   discount.x86_64 2.1.8-3.fc24       libmarkdown.x86_64 2.1.8-3.fc24
+[14:26] <singh123> !
+[14:27] <ikshitij> skat_sd: make a markdown file and convert it into html using available commands from discount package :) ref: http://blog.ghost.org/markdown
+[14:27] <rkased> !
+[14:27] <kushal> samridhia, Please use a pastebin from next time.
+[14:27] <kushal> samridhia, Show us the output of rpm -ql discount
+[14:27] <bhavin192> kvy_, have you installed the discount package
+[14:27] <bhavin192> ?
+[14:28] <kvy_> bhavin192 yes i have installed
+[14:28] <samridhia> /usr/bin/discount-makepage
+[14:28] <samridhia> /usr/bin/discount-mkd2html
+[14:28] <samridhia> /usr/bin/discount-theme
+[14:28] <samridhia> /usr/bin/markdown
+[14:28] <samridhia> /usr/share/man/man1/discount-makepage.1.gz
+[14:28] <samridhia> /usr/share/man/man1/discount-mkd2html.1.gz
+[14:28] <samridhia> /usr/share/man/man1/discount-theme.1.gz
+[14:28] <samridhia> /usr/share/man/man1/markdown.1.gz
+[14:28] <samridhia> /usr/share/man/man7/markdown.7.gz
+[14:28] <samridhia> /usr/share/man/man7/mkd-extensions.7.gz
+[14:28] <samridhia> kushal: what is pastebin!
+[14:28] <kushal> samridhia, :(
+[14:28] <messifc> samridhia: plz stop :(
+[14:28] <vipulgupta2048> Google pastebin
+[14:28] <kushal> messifc, and you also stop typing plz.
+[14:28] <bhavin192> samridhia, wow!, thanks you for flooding :(
+[14:28] <ihp_> samridhia, Just open the link Kushal has sent.
+[14:28] <kushal> samridhia, I just now gave you the link  paste.fedoraproject.org
+[14:29] <samridhia> yes okay
+[14:29] <kushal> samridhia, Open that, and then paste, and give us the URL
+[14:29] <bhavin192> kvy_, which distro?
+[14:29] <kushal> samridhia, In your case it already says that there is a discount-mkd2html command
+[14:29] <skat_sd> ikshitij, mkd2html command not found
+[14:29] <kushal> use that.
+[14:29] <kushal> skat_sd, Which distribution?
+[14:29] <kvy_> bhavin192 fedora 25
+[14:29] <ikshitij> skat_sd: then you have to install discount packages :)
+[14:30] <kushal> kvy_, discount-mkd2html is the command
+[14:30] <skat_sd> kushal, got it, did not type discount before mkd2html
+[14:30] <kushal> skat_sd, nope, if you are in fedora then that is the right command, for debian/ubuntu, it is different
+[14:30] <kvy_> kushal ok i will try this too
+[14:31] <kushal> next
+[14:31] <kushal> next
+[14:31] <kushal> next
+[14:31] <im_mohsin> kushal, i got the gist of Markdown. Since i didint attend from beginning can i know what do we have to do now?
+[14:31] <skat_sd> kushal, what is the complete command?
+[14:31] <neer> I am using ubuntu 16.04, discount aint working but If i do mardown filename.md that works
+[14:31] <soumam007> skat_sd, its varying from system to system i wrote discount it wasnt working but when i used only mkd2html helo.md it worked
+[14:31] <kushal> im_mohsin, just read the channel
+[14:31] <ahole[m]> Which would be the best possible text editor/IDE with auto complete and error highlighting for markdown? Because if we are writing books in markdown we might need something to help us writing way too much of markdown code. <eom>
+[14:31] <kushal> neer, Okay
+[14:31] <skat_sd> ikshitij, how do i see the converted file?
+[14:31] <neer> markdown filename.md>filename.html<eof>
+[14:32] <im_mohsin> For that i have to wait for log to uploaded
+[14:32] <kushal> ahole[m], That means you want a good editor, as markdown is plain text, any editor can do. Which one you prefer?
+[14:32] <rkased> !
+[14:32] <kushal> ahole[m], I use vim, code, or pycharm, or focuswriter
+[14:32] <kushal> Based on what I am writing.
+[14:32] <kushal> next
+[14:33] <jasonbraganza> ahole[m] - the syntax is pretty compact. you can easily hold it in your head - https://daringfireball.net/projects/markdown/syntax
+[14:33] <kushal> next
+[14:34] <im_mohsin> !
+[14:34] <kushal> next
+[14:34] <ikshitij> skat_sd: use *ls* command to see file in that directory ! it should be like this --> hello.md hello.html .
+[14:34] <im_mohsin> kushal, Do i need to download any editor?
+[14:35] <kushal> im_mohsin, for?
+[14:35] <im_mohsin> MarkDown
+[14:35] <asraisingh> im_mohsin, you  can use vim.
+[14:35] <kushal> im_mohsin, We use vim here (mostly).
+[14:36] <rkased> While reading more on Markdown, it is mentioned there is no clearly defined standard, which standard/version are we working on?
+[14:36] <skat_sd> ikshitij, mkd2html command not working
+[14:36] <jasonbraganza> The John Gruber / Aaron Schwartz original
+[14:36] <kushal> rkased, depends on the tooling
+[14:36] <rkased> Okay, thank you
+[14:37] <rkased> okay, thank you
+[14:37] <kushal> rkased, for now we are using what jasonbraganza said.
+[14:37] <maxking> Although, there are some markdown editors that show you in realtime how the HTML would look like. Might be helpful sometimes.
+[14:37] <im_mohsin> kushal, i have a doubt after reading wiki page. Markdown is mostly converted to HTML for building website?
+[14:37] <kushal> im_mohsin, yes
+[14:37] <soumam007> !
+[14:38] <kushal> im_mohsin, or to write a book
+[14:38] <kushal> next
+[14:38] <soumam007> can we do everything in md what we can do in html?
+[14:38] <im_mohsin> Why is it? I understand it is plaintext but that is a overload right?
+[14:38] <kushal> soumam007, nope, you can still write complex HTML by hand.
+[14:39] <ikshitij> skat_sd: " kushal> kvy_, discount-mkd2html is the command"
+[14:39] <maxking> soumam007: no! There is a lot of things you cannot do, like adding classes to elements and stuff. But that is because mardkown is meant only to write.
+[14:39] <skat_sd> ikshitij, solved, i was putting an extra space before the -
+[14:39] <kushal> im_mohsin, What is an overload?
+[14:39] <skat_sd> ikshitij, yes, used that command now, works, thanks
+[14:40] <im_mohsin> kushal, Extra work
+[14:40] <rkased> !
+[14:40] <kushal> im_mohsin, understood, but which one?
+[14:40] <kushal> im_mohsin, let me show you an example.
+[14:40] <im_mohsin> Ok
+[14:41] <kushal> im_mohsin, Look at this blog post
+[14:41] <kushal> im_mohsin, view source
+[14:41] <soumam007> kushal, maxking , ok so thats for casual purpose of writing docs
+[14:41] <kushal> im_mohsin, and then tell me typing that or just typing https://kushaldas.in/posts/updates-on-my-python-community-work-16-17.md is easier?
+[14:42] <kushal> soumam007, Not casual, for serious work too
+[14:42] <maxking> soumam007: casual is not the term I would use, but essentially markdown is for "content" more than "styles"
+[14:42] <soumam007> ok
+[14:42] <maxking> Although, you can pretty easily style markdown and there are some really good looking blogs/websites based on markdown
+[14:42] <kushal> im_mohsin, tell us?
+[14:43] <soumam007> maxking, name some
+[14:43] <im_mohsin> kushal, Typing that mean the blog where you have used markdown?
+[14:43] <jasonbraganza> soumam007: https://janusworx.com :P
+[14:43] <kushal> im_mohsin, typing the html by hand, or the markdown I actually wrote?
+[14:43] <kushal> You said overload, but did not tell us which one is the overload.
+[14:43] <im_mohsin> Obviously, markdown seem simpler
+[14:43] <maxking> jasonbraganza: That looks really nice!
+[14:44] <pr97> !
+[14:44] <maxking> soumam007: Nothing on top of my head
+[14:44] <kushal> soumam007, Ghost
+[14:44] <kushal> soumam007, Hugo
+[14:44] <kushal> soumam007, shonku
+[14:44] <kushal> next
+[14:44] <soumam007> seems there are many
+[14:45] <kushal> soumam007, yes, many.
+[14:45] <kushal> soumam007, wordpress.
+[14:45] <rkased> Is there a way to check my place in queue within the dgplug questions line?
+[14:45] <kushal> rkased, Nope, but that can be a good idea to implement
+[14:45] <kushal> rkased, we will add that.
+[14:45] <kushal> next
+[14:45] <im_mohsin> kushal, So markdown is only for light weight task like writing blogs and things alike?
+[14:45] <pr97> kushal, I installed discount, but here is the error https://paste.fedoraproject.org/paste/2uIGMCtqyzHO5-FPktGxGQ and I am using ubuntu 14.04
+[14:45] <rkased> I would be interested on how you set  that up if possible. Thank you
+[14:46] <kushal> im_mohsin, writing blog or books, or documents or emails are very heavy weight work.
+[14:46] <im_mohsin> Oh Yeah :)
+[14:46] <kushal> pr97, the command mkd2html
+[14:46] <soumam007> rkased, got a practical idea of queue of data structures today :)
+[14:46] <kushal> rkased, You will have to write some go code.
+[14:47] <kushal> next
+[14:47] <rkased> I'm down for that.
+[14:47] <sayan> rkased: down for what?
+[14:47] <pr97> kushal, after mkd2html command?
+[14:47] <kushal> pr97, I will not tell you.
+[14:47] <rkased> Writing go code.
+[14:47] <rkased> :)
+[14:47] <pr97> okay, thanks kushal
+[14:47] <kushal> pr97, After 1 hour you are asking this.
+[14:48] <although> https://shellshare.net/r/summertraining see this @pr97
+[14:48] <ikshitij> kushal: :)
+[14:48] <ahole[m]> This won't work now.
+[14:49] <pr97> okay thanks although
+[14:49] <im_mohsin> !
+[14:50] <sayan> next
+[14:50] <kushal> next
+[14:50] <im_mohsin> kushal, what is mkd2html and discount? i'm a bit curious. can't wait for the log to come out :)
+[14:50] <bhavin192> im_mohsin, just search about it.
+[14:50] <kushal> im_mohsin, They are tools to make us (the trainers) frustrated.
+[14:51] <CuriousLearner> kushal: +1
+[14:52] <im_mohsin> hahaha :D
+[14:52] <kushal> Our next session will be on Friday.
+[14:52] <soumam007> im_mohsin discount is the parser to convert and mkd2html is the command
+[14:52] <im_mohsin> soumam007, convert markdown to html?
+[14:52] <soumam007> yes :)
+[14:52] <although> yes mohisin :)
+[14:53] <soumam007> CuriousLearner, what is +1? i often see it
+[14:53] <vipulgupta2048> !
+[14:53] <Raut> kushal : Ok
+[14:53] <im_mohsin> soumam007, although thanks :)
+[14:53] <kushal> next
+[14:53] <cran-cg> CuriousLearner: Its a thumbs up
+[14:53] <vipulgupta2048> So now on the idea would be to write your content using markdown and integrating it with the HTML code to boost productivity, right ?
+[14:53] <soumam007> cran-cg, oh niceway
+[14:54] <kushal> Tonight first learn about markdown, and then write a blog post explaining it.
+[14:54] <soumam007> +1
+[14:54] <soumam007> to you
+[14:54] <asraisingh> kushal, +1
+[14:54] <skat_sd> soumam007, see, you learn fast!
+[14:54] <im_mohsin> kushal, Sure
+[14:54] <kushal> Now, everyone stop doing +1 in the session.
+[14:54] <sayan> People stop using +1 in this channel
+[14:54] <kushal> Roll Call
+[14:54] <rkased> lol
+[14:54] <niranjana> Niranjana Deshpande
+[14:54] <avik> Avik Mukherjee
+[14:54] <wrik003> Wrik Bhadra
+[14:54] <ashwanig> Ashwani Kumar Gupta
+[14:54] <rkased> Razy Kased
+[14:54] <skat_sd> Saikat Dey
+[14:54] <meamitk> Amit Kokitkar
+[14:54] <asraisingh> Abhishek Singh
+[14:54] <sapahia> Rishav
+[14:54] <abhinavshirur> Abhinav Shirur
+[14:54] <balaji> Balaji
+[14:54] <pr97> Priyanka Sharma
+[14:54] <ihp_> Mohit
+[14:54] <schubisu> Robin Schubert
+[14:54] <anupamas> Anupama Shipurkar
+[14:54] <akshayg96> Akshay Gaikwad
+[14:54] <soumam007> Soumam Banerjee
+[14:54] <vipulgupta2048> Vipul Gupta
+[14:54] <Raut> Sayalee Raut
+[14:54] <cran-cg> Chiranjeev Gupta
+[14:54] <nsh_srnvsn> Anusha Srinivasan
+[14:54] <championshutler> Shivam Singhal
+[14:54] <ani> Aniket uttam
+[14:54] <jasonbraganza> Jason Braganza
+[14:54] <samridhia> Samridhi Agarwal
+[14:54] <sakshi> Sakshi Saraswat
+[14:54] <poojaencoded> pooja kumari singh
+[14:54] <lucifer> Atul kumar
+[14:54] <im_mohsin> Mohsin Mumtaz
+[14:54] <jiteshpabla> Jitesh Pabla
+[14:54] <neer> Nishanta Sarma
+[14:54] <deepika> Deepika Upadhyay
+[14:54] <ahole[m]> kshihij iyer
+[14:54] <apoorv> Apoorv Goel
+[14:55] <mdbk> Onyinye Madubuko
+[14:55] <joyhimanshu> Himanshu Awasthi
+[14:55] <bhavin192> Bhavin Gandhi
+[14:55] <sitlanigaurav[m]> Gaurav Sitlani
+[14:55] <yurii> Yurii Pylypchuk
+[14:55] <messifc> Messi Fc
+[14:55] <priyansh> Priyansh sourav
+[14:55] <vharsh> Harsh Vardhan
+[14:55] <rabajaj> Rahul Bajaj
+[14:55] <kushal> We will give more reading material over mailing lsit.
+[14:55] <imranjeetsingh_> Ranjeet kumar
+[14:55] <kushal> s/lsit/list.
+[14:55] <devesh_V> Devesh Verma
+----END CLASS----

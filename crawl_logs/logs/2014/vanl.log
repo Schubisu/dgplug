@@ -1,0 +1,448 @@
+Jul 23 18:36:00 <kushal>        -------SESSION STARTS----------
+Jul 23 18:36:19 <kushal>        roll call 
+Jul 23 18:36:23 <silentSae>     amir
+Jul 23 18:36:23 <nmzaheer>      Zaheer
+Jul 23 18:36:24 <CuriousLearner>        Sanyam Khurana
+Jul 23 18:36:25 <lixxz> Yasharth
+Jul 23 18:36:25 <thejaman>      Thejazeto
+Jul 23 18:36:27 <sivteck>       Sivaram Balakrishnan
+Jul 23 18:36:28 <qfarjad>       Qazi Farjad
+Jul 23 18:36:29 <abhiram_rk>    Abhiram Ravikumar
+Jul 23 18:36:29 <amit001>       Amit Tripathi
+Jul 23 18:36:29 <Prash_542>     Prashant Surya
+Jul 23 18:36:31 <sagarkrkv93>   vidya sagar
+Jul 23 18:36:32 <iamviknesh>    Vikneshwar
+Jul 23 18:36:35 <vipsy> Vipul Bansal
+Jul 23 18:36:36 <kanika04>      kanika narang
+Jul 23 18:36:42 <rahulmishra>   Rahul Mishra
+Jul 23 18:36:50 <papiya_>       Papiya Sen
+Jul 23 18:36:52 <bnprk> Binay Pareek
+Jul 23 18:36:59 <bnprk> Binay Pareek
+Jul 23 18:37:05 <senju> vikash patil
+Jul 23 18:37:08 <dharmit>       dharmit shah
+Jul 23 18:37:10 <eeshangarg>    Eeshan Garg
+Jul 23 18:37:15 <leero9>        Aditya Nalluri
+Jul 23 18:37:16 <m4_15> mahendra yadav
+Jul 23 18:37:51 *       zishan (sheeshmohs@gateway/shell/waartaa/x-xhmaevlbfgvasgvd) has left #dgplug
+Jul 23 18:37:57 <kushal>        ok, I think we can continue 
+Jul 23 18:38:02 <stguin>        Satam Guin
+Jul 23 18:38:04 <devyani>       Devyani K
+Jul 23 18:38:13 <kushal>        VanL, welcome to dgplug 
+Jul 23 18:38:20 <zishan>        Sheesh Mohsin
+Jul 23 18:38:22 <VanL>  Thank you
+Jul 23 18:38:26 <snyp>  soumik rakshjt
+Jul 23 18:38:31 <snyp>  erm.. rakshit
+Jul 23 18:38:39 <gajanan>       gajanan chakkarwar
+Jul 23 18:38:39 <Sparking_>     Bhargav Patel
+Jul 23 18:38:44 <titli> Titli Das
+Jul 23 18:38:57 *       Sparking_ is now known as Sparking
+Jul 23 18:39:06 <kushal>        VanL, the floor is yours, when someone has a question, they will type ! and when you want to answer just type next here 
+Jul 23 18:39:09 vaishal VanL vasu2779 vik123 vikumar vipsy vk_ 
+Jul 23 18:39:18 <kushal>        VanL, type next once to test :)
+Jul 23 18:39:21 <VanL>  Sounds good.
+Jul 23 18:39:25 <VanL>  next
+Jul 23 18:39:43 <kushal>        masters
+Jul 23 18:39:53 <kushal>        master
+Jul 23 18:40:07 <VanL>  next
+Jul 23 18:40:22 *       m4_15 is now known as magzter
+Jul 23 18:40:26 <kushal>        VanL, oops I think it crashed :(
+Jul 23 18:40:31 <kushal>        give me a minute
+Jul 23 18:40:34 <VanL>  np
+Jul 23 18:43:39 <kushal>        masters
+Jul 23 18:43:40 <batul> My current masters are: kushal
+Jul 23 18:43:43 vaishal VanL vasu2779 vik123 vikumar vipsy vk_ vulpix1 
+Jul 23 18:43:45 <kushal>        add: VanL 
+Jul 23 18:43:46 <batul> VanL is a master now.
+Jul 23 18:43:51 <kushal>        VanL, try now
+Jul 23 18:43:55 <VanL>  next
+Jul 23 18:43:55 <batul> No one is in queue.
+Jul 23 18:43:58 <kushal>        cool
+Jul 23 18:44:03 <gnovi> great batul is back
+Jul 23 18:44:09 <kushal>        VanL, sorry for the delay
+Jul 23 18:44:20 <kushal>        clearqueue
+Jul 23 18:44:20 <batul> Queue is cleared.
+Jul 23 18:44:22 <kushal>        !
+Jul 23 18:44:25 <kushal>        next
+Jul 23 18:44:26 <batul> kushal please ask your question.
+Jul 23 18:44:31 <Gleeinhari>    hari chandana
+Jul 23 18:44:35 <kushal>        VanL, stage is yours.
+Jul 23 18:44:39 <arpit> !
+Jul 23 18:44:52 <VanL>  So, let me tell you a little about myself.
+Jul 23 18:45:05 <VanL>  I spent a number of years working as an engineer building distributed systems.
+Jul 23 18:45:24 <VanL>  After some time at a startup (doing QE/product security) and IBM (doing consulting), I worked at a hosting company called Verio (later NTT/Verio).
+Jul 23 18:45:45 <VanL>  It was during the time at the startup, btw, that I fell in love with Python
+Jul 23 18:46:09 <VanL>  I had been coding in a number of different languages, but Python was the one that made programming fun.
+Jul 23 18:46:30 <VanL>  So at Verio, my focus was on distributed execution and live workload migration - before the use of virtualized servers
+Jul 23 18:46:42 <VanL>  It was more difficult to do then. :)
+Jul 23 18:46:56 <VanL>  After that I went to law school and became a lawyer specializing in intellectual property law.
+Jul 23 18:47:04 <VanL>  I focused on two things.
+Jul 23 18:47:13 <VanL>  First, patent defense, or as I think of it, âcrushing patent trolls.â
+Jul 23 18:47:23 <VanL>  Second, the law around open source.
+Jul 23 18:47:34 <VanL>  That touches a lot of things.
+Jul 23 18:47:44 <VanL>  Trademarks and copyrights as you might expect.
+Jul 23 18:47:58 <VanL>  But also tax law (for nonprofits) and corporate law (for foundations).
+Jul 23 18:47:58 *       kushal gives channel operator status to VanL
+Jul 23 18:48:34 <VanL>  I also at that time became very involved in the Python Software Foundation, helping it in a number of respects.
+Jul 23 18:48:57 <VanL>  At this point, I have the honor of working with kushal on the board of directors of the PSF.
+Jul 23 18:49:31 <VanL>  I also still code, because it is fun. My current hobbies are machine learning and ZeroVM.
+Jul 23 18:50:07 <VanL>  So I figured that I can open up for questions. I am happy to speak to any of these things.
+Jul 23 18:50:29 <JacksonIsaac>  !
+Jul 23 18:50:34 <VanL>  next
+Jul 23 18:50:34 <batul> arpit please ask your question.. JacksonIsaac you are next. Get ready with your question.
+Jul 23 18:50:59 <arpit> What will we learn more today
+Jul 23 18:51:30 <VanL>  Hi arpit. I don't quite understand your question.
+Jul 23 18:51:39 <kushal>        arpit, please wait and see. 
+Jul 23 18:51:54 <RakRock_>      !
+Jul 23 18:51:56 <abhiram_rk>    !
+Jul 23 18:51:57 <VanL>  next
+Jul 23 18:51:58 <batul> JacksonIsaac please ask your question.. RakRock_ you are next. Get ready with your question.
+Jul 23 18:52:22 <qfarjad>       !
+Jul 23 18:52:31 <NP1995>        !
+Jul 23 18:52:53 <VanL>  Hi JacksonIsaac. Do you have a question?
+Jul 23 18:52:58 <JacksonIsaac>  Why are license and copyright important in Open Source projects? Also why are there so many different licenses out there (some seem to be same, MIT and something else I don't remember the name) ? And what if I upload a project without license, will it cause any trouble ?
+Jul 23 18:53:00 <JacksonIsaac>  <eof>
+Jul 23 18:53:00 <kushal>        VanL, let me ask you one thing, can you please explain what is an Open Source software?
+Jul 23 18:53:37 <VanL>  Good questions. Let me address kushal's question, then JacksonIsaac
+Jul 23 18:53:48 <JacksonIsaac>  VanL: okay :)
+Jul 23 18:53:48 <VanL>  Open source is a number of different things.
+Jul 23 18:54:43 <VanL>  You can think of it as a community. You can think of it as a methodology for cooperating on code. And you can think of it as a legal framework for trading intellectual property.
+Jul 23 18:55:32 <VanL>  So that is the first thing: If you want to understand open source, you must look at all three of the code, the community, and the law. Miss one of those and you will get the answer wrong.
+Jul 23 18:55:56 <VanL>  Community is around you. Code you know. So let me talk about the law a little bit.
+Jul 23 18:56:03 *       cool06 is now known as cooldharma06_
+Jul 23 18:56:19 <VanL>  Under almost every country's law, code is copyrighted the instant you write it down.
+Jul 23 18:56:50 <VanL>  This is meant to protect you. You don't need to register it with the government. Just write it down and it is yours.
+Jul 23 18:57:18 <VanL>  (now, if you are working for an employer, it may be your employers... but that is another rathole. :)
+Jul 23 18:57:49 <VanL>  Copyrighted code, by default, has very few rights associated with it for anyone but the copyright holder.
+Jul 23 18:58:30 <VanL>  Other people can read copyrighted stuff, but that's it. No copying, using, modifying, distributing, etc.
+Jul 23 18:58:56 <VanL>  Can't even really run it on a computer (because the computer makes copies for you).
+Jul 23 18:59:38 <VanL>  The idea is that this gives you the power to control your code (called "your expression") and to charge other people money for it
+Jul 23 19:00:02 <VanL>  According to the theory, they give you money, and you give them the right to run your code.
+Jul 23 19:00:13 <VanL>  This is the way that proprietary software works.
+Jul 23 19:00:24 <VanL>  But what if you want to collaborate with someone?
+Jul 23 19:00:55 <VanL>  Then you need to give them the permission to use your code in the collaboration (and to get the same right from them).
+Jul 23 19:01:03 <VanL>  This is a license.
+Jul 23 19:01:45 <VanL>  So that is why I say that open source is a licensing scheme that allows people to trade and collaborate in intellectual property.
+Jul 23 19:02:18 <VanL>  The legal framework that gives permission enables the code to develop and be worked on by a community.
+Jul 23 19:02:31 <VanL>  See - law, code, commmunity, tied together.
+Jul 23 19:02:41 <VanL>  Now to JacksonIssac's question.
+Jul 23 19:02:47 <VanL>  Why all the licenses?
+Jul 23 19:03:33 <VanL>  There are lots of different ways in which you can decide to collaborate. The licenses are agreements that give force to different structures of cooperation.
+Jul 23 19:03:58 <VanL>  In general, they fit into a few different categories.
+Jul 23 19:04:18 *       alok__ (7b3f0d75@gateway/web/freenode/ip.123.63.13.117) has left #dgplug
+Jul 23 19:04:40 <VanL>  1. Public domain/CC0/No rights reserved: Do whatever you want with this. You can call it your own, build on it. I have no claim on this code.
+Jul 23 19:05:19 <VanL>  2. Academic: Do what you want with this code, but don't sue me if it doesn't do what you want. (MIT, ISE, BSD licenses)
+Jul 23 19:05:35 <pingou>        ! "You can call it your own"?
+Jul 23 19:06:03 <gnovi> !
+Jul 23 19:06:08 <lixxz> !
+Jul 23 19:06:22 <VanL>  3. Permissive: Do what you want, but you must respect any trademarks associated with it, and you must sometimes grant patent rights too.
+Jul 23 19:06:54 <VanL>  pingou: Yup. Maybe not morally. But legally, yes. When something is in the public domain, you can do anything with it.
+Jul 23 19:07:17 <anwesha>       !
+Jul 23 19:07:17 <VanL>  (Oh, and examples of permissive are Apache, Mozilla)
+Jul 23 19:07:23 <pingou>        VanL: CC0 as well?
+Jul 23 19:07:42 <nmzaheer>      !
+Jul 23 19:07:50 <kushal>        !
+Jul 23 19:07:50 <RakRock_>      !
+Jul 23 19:08:10 <JacksonIsaac>  VanL: is this why in Mozilla codebase the contributors are not included as copyright holders ?
+Jul 23 19:08:10 <VanL>  4. Reciprocal: You can use this code, but you must guarantee that others have the same right to use your code. This right can be scoped in different ways.
+Jul 23 19:08:51 <VanL>  It can be scoped to just the part provided to you (like LGPL) or to the combination (GPL).
+Jul 23 19:08:58 <VanL>  Those are the main categories.
+Jul 23 19:09:39 <VanL>  JacksonIssac, probably because it is too hard to keep track of all of them. Doesn't mean that the copyright holders aren't there. Now to the quesitons that have popped up.
+Jul 23 19:09:41 <VanL>  next
+Jul 23 19:09:41 <batul> RakRock_ please ask your question.. abhiram_rk you are next. Get ready with your question.
+Jul 23 19:09:56 *       vj_ is now known as Guest70897
+Jul 23 19:10:05 *       shalini1 is now known as shiminsh
+Jul 23 19:10:43 <RakRock_>      Hi Vanl, Say I write a piece of code today to address a problem, Someone had also thought about the same probelm and wrote a code the same day. Now who owns the rights for that code ?
+Jul 23 19:11:05 <VanL>  You both own your individual copies.
+Jul 23 19:11:25 <RakRock_>      What if both code happens to be the same :)
+Jul 23 19:11:30 <amit001>       !
+Jul 23 19:12:04 <VanL>  That's the simple answer. You can come up with a though and write it down, and another person can come up with the same thought and right it down, and those are two independently copyrighted works, even though they have the same expression.
+Jul 23 19:12:16 <VanL>  Now in the real world, its not usually so clean.
+Jul 23 19:12:53 <VanL>  When you see two things that are exactly the same, or very similar, you assume copying because it is improbable that two expressions would be alike.
+Jul 23 19:13:01 <VanL>  But it has been known to happen.
+Jul 23 19:13:21 <VanL>  It also frequently happens that there is some common root that inspired two people the same way.
+Jul 23 19:13:50 <VanL>  You can also get into whether something is actually copyrightable. For example,
+Jul 23 19:14:01 <VanL>  print("hello world")
+Jul 23 19:14:46 <VanL>  That thing I just wrote was not copyrightable. There are only so many ways to express the hello world program.
+Jul 23 19:15:39 <VanL>  So the idea and expression "merge" - courts have decided that you can't give people control over the basics of language (any language) so that others are cut off from expressing themselves at all.
+Jul 23 19:16:03 <VanL>  But that is a low bar.
+Jul 23 19:16:07 <VanL>  next
+Jul 23 19:16:08 <batul> abhiram_rk please ask your question.. qfarjad you are next. Get ready with your question.
+Jul 23 19:16:15 <abhiram_rk>    As students how should we licence our projects/apps/codes that we write as part of the learning process? Should everything be open-sourced?
+Jul 23 19:16:33 <leero9>        !
+Jul 23 19:16:44 <VanL>  Great question. Its really up to you.
+Jul 23 19:16:46 <VanL>  BUT:
+Jul 23 19:17:06 <iamsudip>      By
+Jul 23 19:17:27 <VanL>  I believe that you would get more out of it if you did it in public. There is a rigor to performing your code - putting it up for others to see - that helps you think and learn.
+Jul 23 19:17:50 <abhiram_rk>    Okay, but then how do we get to make money?
+Jul 23 19:18:27 <VanL>  Aaah, this is about where it is up to you. You need to have *some* license attached for other people to use it.
+Jul 23 19:18:37 <VanL>  But what that license says can vary.
+Jul 23 19:18:49 <abhiram_rk>    So to monetize the code we need licences?
+Jul 23 19:18:55 <VanL>  You can write a license that says "To use this code, pay me money."
+Jul 23 19:19:05 <VanL>  That is *one* way of monetizing the code.
+Jul 23 19:19:06 *       abhiram_rk smiles.
+Jul 23 19:19:24 <VanL>  Another way of monetizing the code is to look for what is scarce.
+Jul 23 19:19:56 <abhiram_rk>    Scarce as in the demand in the market?
+Jul 23 19:20:18 <VanL>  For example, the brand can be scarce. That is how Red Hat monetizes their code. You can have Red Hat's code, but you can't call it Red Hat without paying them money
+Jul 23 19:20:31 <VanL>  Another thing that is scarce is knowledge.
+Jul 23 19:21:20 <VanL>  You can say "Here is the code. The important thing is not the code, though, it is how to apply the code to your situation. Pay me money and I will use the code in the best way possible."
+Jul 23 19:21:31 <VanL>  That's another way to monetize.
+Jul 23 19:21:52 <abhiram_rk>    VanL: Interesting! <eof>
+Jul 23 19:22:06 <VanL>  There are services businesses, expertise businesses, configuration businesses. Lots of ways to monetize.
+Jul 23 19:22:47 <VanL>  It is just a question of what you choose to make scarce - and whether that scarcity is natural (only so many people have this knowledge) or artificial (i.e., via license).
+Jul 23 19:22:51 <VanL>  next
+Jul 23 19:22:51 <batul> qfarjad please ask your question.. NP1995 you are next. Get ready with your question.
+Jul 23 19:23:06 <qfarjad>       As I understand, most countries have different patent laws, and some countries may not even allow software patents.
+Jul 23 19:23:25 <qfarjad>       How iare things managed in this scenario ? <eof>
+Jul 23 19:23:30 <VanL>  That is correct, although there is more commonality than difference.
+Jul 23 19:23:50 <VanL>  Most times these things are handled via treaties
+Jul 23 19:24:24 <VanL>  there are broadly-subscribed treaties that say (essentially): I will respect your country's patents if you respect mine."
+Jul 23 19:25:22 <VanL>  The mechanics vary. Usually you need to make a special application in a country to get the benefit of the patent laws. You can "claim priority" to an initial patent filed somewhere else.
+Jul 23 19:25:47 <VanL>  That means that you get credit for the idea existing at a certain date based on your efforts in another country
+Jul 23 19:26:16 <VanL>  but then the new country gets to try to poke holes in the idea and see whether they agree it is a new and "nonobvious" thing.
+Jul 23 19:26:45 <VanL>  Sometimes there are higher level efforts at cooperation, such as the EPO (European Patent Office)/
+Jul 23 19:27:14 <VanL>  That is a cross-European office that does the investigations into proposed patents that all the EU countries agree to respect.
+Jul 23 19:27:34 <VanL>  next
+Jul 23 19:27:35 <batul> NP1995 please ask your question.. gnovi you are next. Get ready with your question.
+Jul 23 19:27:36 <NP1995>        I had the exact  question as JacksonIssac.It is answered.
+Jul 23 19:27:42 <VanL>  next
+Jul 23 19:27:42 <batul> gnovi please ask your question.. lixxz you are next. Get ready with your question.
+Jul 23 19:27:45 <gnovi> What is the difference between an Open source Software and a Free software? Do they differ in licenses? <eof>
+Jul 23 19:28:19 <VanL>  That is a deep question.
+Jul 23 19:28:56 <VanL>  Free software and open source are different philosophies that lead to similar types of licenses.
+Jul 23 19:29:32 <VanL>  Free software is motivated by a moral sense that code is knowledge, and knowledge should be shared. To do otherwise is immoral.
+Jul 23 19:30:09 <VanL>  Hence, it is better to make code available under licenses that allow others to share your knowledge and to build on it.
+Jul 23 19:30:21 <VanL>  This is the foundation of the FSF's four freedoms.
+Jul 23 19:30:32 <VanL>  Those freedoms are given expression in the licenses.
+Jul 23 19:30:51 <VanL>  Open source is a more pragmatic approach to software.
+Jul 23 19:31:29 <VanL>  It tends to emphasize the cooperative aspect of development and argues that collaboration leads to better, fairer results.
+Jul 23 19:31:53 <VanL>  And that cooperating can in many cases be more economically efficient.
+Jul 23 19:32:24 <VanL>  So, pragmatism and efficiency dictate that code should be available under licenses that allow people to cooperate
+Jul 23 19:32:41 <VanL>  As a practical matter, all Free Software is Open Source
+Jul 23 19:32:52 <VanL>  (Oh, one other thing: These are defined terms.
+Jul 23 19:33:08 <VanL>  Free Software is a term administered by the Free Software Foundation.
+Jul 23 19:33:22 <VanL>  Open Source is a term administered by the Open Source Initiative.
+Jul 23 19:33:46 <gnovi> In the same way can I say Opensource Software is also a Free Software?
+Jul 23 19:34:54 <VanL>  There are some licenses that are recognized by the OSI as open source that are not recognized/endorsed by the FSF as free
+Jul 23 19:35:13 <VanL>  so there is a little distinction, you can have open source that is not free software.
+Jul 23 19:35:21 <VanL>  But thats hard to do and rare.
+Jul 23 19:35:33 <VanL>  So, think of them as synonyms.
+Jul 23 19:35:59 <VanL>  But using one term or another says more about your philosophical approach than the actual license.
+Jul 23 19:36:18 <gnovi> VanL, thanks a lot. that cleared my confusion. :)
+Jul 23 19:36:37 <VanL>  If you want to be inclusive, the general term is "Free and Open Source Software," or FOSS
+Jul 23 19:36:50 <VanL>  next
+Jul 23 19:36:51 <batul> lixxz please ask your question.. anwesha you are next. Get ready with your question.
+Jul 23 19:36:53 <lixxz> Say i wrote some code and some other guy say "X" stole it and claims it to be his/her code(ex- i am building a website but before i publish it someone else stole it and published the website),what proof do i have against him/her ?
+Jul 23 19:37:57 <CuriousLearner_x>      !
+Jul 23 19:38:03 <VanL>  Generally, those questions are addressed by looking for 1) opportunity, and 2) substantial similarity.
+Jul 23 19:38:55 <VanL>  You would need to show that 1) you had the code first. 2) There was opportunity for the other person to get to it. 3) That there is substantial similarity between your stuff and the other person's stuff.
+Jul 23 19:39:11 <VanL>  In practice, you can sometimes infer 2) from 3).
+Jul 23 19:39:18 <VanL>  next
+Jul 23 19:39:18 <batul> anwesha please ask your question.. nmzaheer you are next. Get ready with your question.
+Jul 23 19:39:29 <lixxz> got it thanks
+Jul 23 19:39:33 <anwesha>       I have four questions
+Jul 23 19:39:38 <anwesha>       1. Does the open source licensing vioalate the very idea of copyright?
+Jul 23 19:39:38 <anwesha>       2. Computer software and programmes can be copyrighted in India [u/s 2(ffc)] and it is patentable in US. Therefore if a computer software and programme is patentable in US or copyrighted in India does it hold true for the whole world? If so under which law or treaty?
+Jul 23 19:39:38 <anwesha>       3. What are the licenses in case of close souce software?
+Jul 23 19:39:38 <anwesha>       4.Can we say that the free software is the genus and open source is the spicies?
+Jul 23 19:40:53 <VanL>  1. No. Open source licensing *requires* copyright to work. You cannot separate the two. The only thing open source licensing occasionally violates are people's expectations.
+Jul 23 19:42:04 <VanL>  2. You should start with the knowledge that code is different. It is the only medium where something can be copyrighted, patented, and a trade secret simultaneously.
+Jul 23 19:42:21 *       umeshs_ is now known as umeshs
+Jul 23 19:42:40 <VanL>  All of these are different types of non-overlapping protection. The existence (or non-existence) of one of them doesn't affect the others.
+Jul 23 19:43:19 <VanL>  So, copyright - that is the Berne convention. It is a copyright treaty that is almost universal (I can't think of a country that isn't a signatory).
+Jul 23 19:44:03 <VanL>  Patent - just because something is patented one place doesn't mean it is patented another. Patents are explicitly for one country only. Outside that country they have no effect.
+Jul 23 19:44:09 <titli> !
+Jul 23 19:44:36 <VanL>  Now as I said earlier, there are some patent treaties that allow some bilateral respect for other countries patents
+Jul 23 19:45:00 <VanL>  but that never allows the US patent system to override India's patent laws.
+Jul 23 19:45:16 <VanL>  (within India, I mean).
+Jul 23 19:45:32 <VanL>  3. There are too many to say. Millions. Every one is unique.
+Jul 23 19:46:41 <VanL>  4. I don't think that is a correct expression. They are too overlapping for a genus/species relationship. See my answer about Free vs Open Source reflecting the philosophy.
+Jul 23 19:46:43 <VanL>  next
+Jul 23 19:46:43 <batul> nmzaheer please ask your question.. RakRock_ you are next. Get ready with your question.
+Jul 23 19:46:47 <nmzaheer>      Can you elaborate on Contributor License Agreement?What is the rationale behind it and does the developer have any stake in the project after signing the agreement?
+Jul 23 19:47:54 <VanL>  Ok, there are two things that are similar here: Copyright Assignment Agreement (CAA) and Copyright License Agreement (CLA).
+Jul 23 19:48:03 <bhoom> !
+Jul 23 19:48:10 <gnovi> !
+Jul 23 19:48:26 <VanL>  CAA, you are giving ownership to the other person. You have no stake in the code going forward except for what they give you.
+Jul 23 19:48:53 <VanL>  CLA, you are making clear that you are providing the code to the other person under a specified license. You retain ownership.
+Jul 23 19:49:19 <VanL>  So you can use your own code in any other circumstance without asking permission - its still yours.
+Jul 23 19:49:41 <nmzaheer>      ok but why is there a need for such things?
+Jul 23 19:49:49 <nmzaheer>      can you give an example
+Jul 23 19:50:03 <VanL>  CLAs can also serve other functions, like patent grants, and making sure that the person contributing the code has the authority to do so.
+Jul 23 19:50:44 <VanL>  CLAs are most useful when you have corporate employees participating in a project. Under most countries' laws, the employer actually owns the employee's work
+Jul 23 19:51:02 <thejaman>      !
+Jul 23 19:51:35 <VanL>  So if the employee contributes to a project without authorization, that employee is wrongfully taking the employer's property, and the project may be liable for copyright infringement for distributing the code.
+Jul 23 19:52:03 <VanL>  So you want to make sure that someone with authority says "It is ok for this employee to contribute code"
+Jul 23 19:52:20 <VanL>  That is the primary function of CLAs
+Jul 23 19:52:54 <nmzaheer>      ok cool. got it...thanks <eof>
+Jul 23 19:53:01 <VanL>  next
+Jul 23 19:53:02 <batul> RakRock_ please ask your question.. kushal you are next. Get ready with your question.
+Jul 23 19:54:37 <kushal>        RakRock_, RakRock ?
+Jul 23 19:55:06 <kushal>        VanL, skipping him 
+Jul 23 19:55:13 <kushal>        next
+Jul 23 19:55:13 <VanL>  next
+Jul 23 19:55:14 <batul> kushal please ask your question.. amit001 you are next. Get ready with your question.
+Jul 23 19:55:14 <batul> amit001 please ask your question.. leero9 you are next. Get ready with your question.
+Jul 23 19:55:18 <kushal>        ah
+Jul 23 19:55:20 VanL vasu2779 vik123 vikumar vinod_ vivek- vulpix1 
+Jul 23 19:55:23 <kushal>        VanL, In many blogs/personal site footers we see copyright messages with some year, should it be from the first year we started writing blog to current year or just the current year?
+Jul 23 19:56:02 <amit001>       VanL, How to get license for code? Only writing MIT, GPL etc will do the work?
+Jul 23 19:56:38 <VanL>  kushal: The reason for the many dates is because the blog is an aggregation of lots of different little works
+Jul 23 19:57:11 <VanL>  You write something in 2007, that is (c) 2007. Again 2008. Then you redo the design in 2009, thats copyrighted too. Etc.
+Jul 23 19:57:21 <VanL>  Hence, copyright 2007-2014
+Jul 23 19:58:08 <VanL>  But the formalisms aren't actually necessary unless you have "registered" the copyright
+Jul 23 19:58:32 <kushal>        VanL, ok, should it be country specific? (the registration) ?
+Jul 23 19:58:54 <VanL>  there are certain rules about how you declare that some work is covered by a registered copyright. And yes to your followup.
+Jul 23 19:59:31 <kushal>        VanL, ok, thanks.
+Jul 23 19:59:41 <VanL>  amit001: You should include a copy of the license in your code at the base of the project, that is best practice.
+Jul 23 20:00:28 <amit001>       VanL, How to get the license?
+Jul 23 20:00:50 <amit001>       is there any authorities that gives the license for a code?
+Jul 23 20:00:51 <nmzaheer>      !
+Jul 23 20:00:51 <VanL>  Then make reference to that at the top: "This file is licensed under the BSD license. See the LICENSE and AUTHORS file"
+Jul 23 20:01:31 <VanL>  If you want a copy if the license, go to opensource.org and they have canonical copies of them.
+Jul 23 20:01:47 <VanL>  next
+Jul 23 20:01:47 <batul> leero9 please ask your question.. CuriousLearner_x you are next. Get ready with your question.
+Jul 23 20:02:09 <leero9>        What if some one copies your software and tries to get their own individual copyright by saying they got the same idea and  who will check if the code is duplicated or not ?
+Jul 23 20:02:11 <amit001>       VanL, Thank You
+Jul 23 20:03:32 <VanL>  If it is copied, and you want to dispute it, then you need to go to the legal system. Under most systems there are ways for the court to force people to show the code so that it can be examined to see if it was copied.
+Jul 23 20:03:54 <VanL>  next
+Jul 23 20:03:54 <batul> CuriousLearner_x please ask your question.. titli you are next. Get ready with your question.
+Jul 23 20:04:08 <leero9>        I mean the the one who copyrighted it first is completely unaware
+Jul 23 20:04:18 <CuriousLearner>        Hi VanL How to copyright a blog, or we should have some license like CC to it?
+Jul 23 20:04:27 <leero9>        That his code is copied
+Jul 23 20:04:40 <VanL>  leero9: Then it may go undetected.
+Jul 23 20:05:00 <leero9>        ok
+Jul 23 20:05:07 <VanL>  CuriousLearner: Your blog is copyrighted the second you commit it to paper... err... electrons.
+Jul 23 20:05:45 <VanL>  If you wish, you can declare this fact ("This blog copyright CuriousLearner. All rights reserved.")
+Jul 23 20:05:46 <RohanRoy>      !
+Jul 23 20:06:03 <silentSae>     !
+Jul 23 20:06:03 <CuriousLearner>        So, if someone tries to steal the content and tries to put on his own blog, how should I cope up with this? VanL
+Jul 23 20:06:25 <VanL>  Similarly, if you wish to allow others to quote, reuse, etc, then you need a license (like a CC license) that allows such a thing.
+Jul 23 20:06:51 *       gajanan is now known as gajanan-brb
+Jul 23 20:07:20 <VanL>  If someone takes the content of your blog without permission, and against the terms of any license that you have put up, then you have a claim against that person and can take that person to court.
+Jul 23 20:07:49 <VanL>  As a practical matter, it is better to try to negotiate, or to reach out to the ISP, or things like that. It tends to be cheaper/more effective.
+Jul 23 20:07:58 <amit001>       CuriousLearner, there is something like DMCA that takes care of such copyrights infringements
+Jul 23 20:08:06 <CuriousLearner>        But mostly, people are from other country, how to file a complaint then?
+Jul 23 20:08:28 <VanL>  Expensively. :)
+Jul 23 20:08:31 <amit001>       http://www.dmca.com/
+Jul 23 20:08:41 <nmzaheer>      lol
+Jul 23 20:08:50 <CuriousLearner>        amit001, yes heard about it, but they offer only 1 free takedown per year, rest it's expensive paying for whole year.
+Jul 23 20:08:51 <VanL>  +1 amit001 (if the hosting company is US based)
+Jul 23 20:09:09 <VanL>  You can submit a DMCA request without the dmca.com
+Jul 23 20:10:30 <VanL>  A DMCA request is just a declaration that includes certain information. 1) an assertion that you are the copyright owner or the copyright owner's representative, 2) that you have discovered a work that infringes, including the URL, 3) and a takedown request.
+Jul 23 20:10:50 <VanL>  There are a few formalities, but you could probably find those by googling,
+Jul 23 20:11:00 <VanL>  and send to abuse@hosting-isp.com
+Jul 23 20:11:12 <VanL>  or dmca@
+Jul 23 20:11:22 <VanL>  next
+Jul 23 20:11:22 <batul> titli please ask your question.. bhoom you are next. Get ready with your question.
+Jul 23 20:11:25 <CuriousLearner>        Ok, Thank You so much VanL :)
+Jul 23 20:11:38 <titli> Got my answer, thanks.
+Jul 23 20:12:05 <VanL>  next
+Jul 23 20:12:06 <batul> bhoom please ask your question.. gnovi you are next. Get ready with your question.
+Jul 23 20:12:07 <bhoom> Hi VanL
+Jul 23 20:12:19 <bhoom> I had two questions, both slightly related
+Jul 23 20:12:55 <bhoom> 1. I have seen people and spin-bots pick up content from blogs, reword it n use it for their use
+Jul 23 20:13:18 <bhoom> the point is, I know it is my copyrighted property but I cannot prove it. What then?
+Jul 23 20:13:59 <bhoom> 2. In the case of a patent, it generally expires after a period of about 5 years. Does the same apply even for open source licenses?
+Jul 23 20:14:10 <VanL>  This is probably copyright infringement. But one thing that I have learned as a lawyer is that when lawyers get involved, everyone loses.
+Jul 23 20:14:18 <VanL>  Except the lawyers, of course. ;)
+Jul 23 20:14:35 <bhoom> It could get expensive, but is there a way around it?
+Jul 23 20:15:18 <VanL>  You can submit DMCA requests, but I think it would be more generally effective to promote your own blog - make sure that your blog is the authoritative source in Google etc.
+Jul 23 20:15:32 <VanL>  2. Patents are generally 20 years, not 5
+Jul 23 20:15:41 <VanL>  (at least in the US, and in most other places)
+Jul 23 20:15:51 *       satarupa_ is now known as satarupa
+Jul 23 20:16:17 <VanL>  Some open source licenses include patent licenses (like Apache, Mozilla, GPLv3)
+Jul 23 20:16:21 <bhoom> The period varies for different countries so far as my knowledge goes
+Jul 23 20:16:22 <JacksonIsaac>  !
+Jul 23 20:16:53 <VanL>  bhoom: Yes, it does, but it is usually around 20 years for "utility" patents, the ones we care about for code.
+Jul 23 20:17:07 <VanL>  Give or take a few
+Jul 23 20:17:31 <VanL>  alright, 3 more questions, then I need to go.
+Jul 23 20:17:31 <VanL>  next
+Jul 23 20:17:32 <batul> gnovi please ask your question.. thejaman you are next. Get ready with your question.
+Jul 23 20:17:34 *       Sparking_ is now known as Sparking
+Jul 23 20:17:35 <gnovi> Could you please tell us more about GPL and Creative Commons ?
+Jul 23 20:17:45 <bhoom> Thank you VanL :)
+Jul 23 20:18:17 <VanL>  The GPL is a reciprocal license, meaning that it requires you to pass on the same rights to others that you received
+Jul 23 20:18:59 <VanL>  The way in which it accomplishes this is by hooking into "distribution," which is one of the reserved rights under copyright.
+Jul 23 20:19:55 <VanL>  When you distribute GPL'd code, you must do so under the GPL, including a copy of the GPL license text, and including source.
+Jul 23 20:20:42 <VanL>  (There are different ways that count as "distributing source," but they get to the same thing - making the source code available downstream to those that receive the binaries from you)
+Jul 23 20:22:08 <VanL>  The rule for the GPL is "the source follows the binary." Unlike many people's expectation, there isn't any requirement to contribute "back," meaning from the person you got it from. Only "forward," to the person you give the binaries to.
+Jul 23 20:23:09 <VanL>  Although the person getting it from you has almost unlimited rights to do with it what they want - the only major restriction being that they too must pass forward the source code under the GPL when they distribute themselves.
+Jul 23 20:23:22 <VanL>  As for CC, that is actually a family of licenses, not a single one.
+Jul 23 20:23:44 <VanL>  They do for text what various open source licenses do for code
+Jul 23 20:24:05 <VanL>  There are analogues in the CC license family for most types of open source licenses.
+Jul 23 20:24:12 <VanL>  next
+Jul 23 20:24:13 <batul> thejaman please ask your question.. nmzaheer you are next. Get ready with your question.
+Jul 23 20:24:15 <thejaman>      "...something patented in one place doesn't mean it is patented another" - does that mean that a software patented in a country(say US) can have those very rights abused in another country? (With an exception of countries under mutual agreement) How do we go about dealing with that?
+Jul 23 20:24:17 <gnovi> ok. So every modification will have the same license.
+Jul 23 20:24:47 <gnovi> <eof>
+Jul 23 20:26:36 <VanL>  yes
+Jul 23 20:26:57 <VanL>  but you shouldn't say that "the rights are abused" in the other country.
+Jul 23 20:27:13 <VanL>  The rights don't exist in the other country to be abused.
+Jul 23 20:27:46 <VanL>  In order to have those rights, you need to apply for and get a patent in every country where you wish to have patent rights.
+Jul 23 20:28:00 <VanL>  Patent rights are not a natural right
+Jul 23 20:28:30 <VanL>  They are a temporary, government-granted right to exclude, on the theory that doing so incentivizes innovation.
+Jul 23 20:28:48 <VanL>  Because innovators have time to develop/market/exploit their invention.
+Jul 23 20:29:33 <VanL>  But if you want that government-granted right, you need to ask the government for it - in each and every jurisdiction.
+Jul 23 20:29:37 <VanL>  next
+Jul 23 20:29:37 <batul> nmzaheer please ask your question.. RohanRoy you are next. Get ready with your question.
+Jul 23 20:29:59 <thejaman>      VanL, Thank you. Appreciate it :)
+Jul 23 20:30:02 <nmzaheer>      Can a company buy out a open source project and make it proprietary?
+Jul 23 20:30:35 <VanL>  Depends.
+Jul 23 20:31:27 <VanL>  What you are asking is effectively, "can a company gain copyright on the whole of a project?"
+Jul 23 20:31:44 <nmzaheer>      yes. something like that
+Jul 23 20:31:48 <VanL>  And the answer is yes, although it may be very difficult if there are lots of contributors
+Jul 23 20:32:04 <VanL>  So, lets look at various scenarios:
+Jul 23 20:32:42 <VanL>  1. Open source project that requires copyright assignment: Yes they could, pretty easily, they just need the one copyight holder to agree.
+Jul 23 20:33:18 <VanL>  2. OSS project, just a few copyright holders: Possible, but all need to agree and transfer copyright.
+Jul 23 20:33:45 <VanL>  3. OSS project, many copyright holders: Possible, but really hard to the point of being improbable.
+Jul 23 20:33:50 <VanL>  That many people won't agree,
+Jul 23 20:34:11 <VanL>  On the other hand, you can "take something proprietary" in a different way.
+Jul 23 20:34:28 <VanL>  Lets say there is an OSS project "widgetmaker."
+Jul 23 20:34:37 <VanL>  With 2-3 main contributors.
+Jul 23 20:35:04 <VanL>  widgetmaker 1.0 is OSS, and it pretty much will always be.
+Jul 23 20:35:41 <VanL>  But if a company hires the main contributors and releases widgetmaker 2.0 as proprietary, then they can do that
+Jul 23 20:36:08 <VanL>  (Note that the GPL and other reciprocal licenses were designed to prevent this sort of proprietarization).
+Jul 23 20:36:23 <nmzaheer>      in case 1 is there any kind of obligation for the copyright holder to get consensus from the contributors?
+Jul 23 20:37:02 <VanL>  Nope. That consensus was given when the contributors granted their individual copyrights to the new copyright holder.
+Jul 23 20:37:28 <nmzaheer>      ok cool. thanks <eof>
+Jul 23 20:37:31 <VanL>  All right everyone.
+Jul 23 20:37:37 <VanL>  Sorry I couldn't get to all the questions.
+Jul 23 20:37:38 <kushal>        VanL, thanks a lot for the session. We have learned many things today.
+Jul 23 20:38:05 <sivteck>       VanL: Thank You for your time :)
+Jul 23 20:38:17 <lixxz> let the thanks"
+Jul 23 20:38:26 <kushal>        VanL, it was a great session. 
+Jul 23 20:38:26 <lixxz> sorry
+Jul 23 20:38:27 <nmzaheer>      Thank you VanL
+Jul 23 20:38:31 <lixxz> VanL thanks
+Jul 23 20:38:38 <amit001>       Thanks VanL
+Jul 23 20:38:39 <EatSleepCode>  VanL Thanks
+Jul 23 20:38:40 <mnw94> Thank You VanL
+Jul 23 20:38:40 <bnprk> thanks VanL
+Jul 23 20:38:50 <Sparking>      VanL thanks
+Jul 23 20:38:52 <gnovi> VanL, Thanks a lot for the great learning experience.
+Jul 23 20:38:57 <koushik>       thanks VanL
+Jul 23 20:38:59 <RakRock_>      Vanl, Thanks a lot
+Jul 23 20:39:01 <kanika04>      thanks VanL
+Jul 23 20:39:03 <RohanRoy>      thanks VanL, it was great :0
+Jul 23 20:39:03 <Poornima_>     VanL, thanks alot got to know may new things :-)
+Jul 23 20:39:19 <silentSae>     VanL, thanks. That was a really nice and informative session :)
+Jul 23 20:39:24 <CuriousLearner>        Thanks VanL :D
+Jul 23 20:39:31 <sagarkrkv93>   VanL, Thanks it was a very informative session :)
+Jul 23 20:40:01 <devyani>       thankyou VanL, the session was very informative :)
+Jul 23 20:40:08 <cooldharma06_> learned lot of new things. thanks VanL and dgplug team
+Jul 23 20:40:15 <rtnpro>        Thanks, VanL :)
+Jul 23 20:40:31 <chandankumar_> Thank VanL :)
+Jul 23 20:40:44 <chandankumar_> *Thanks VanL :)
+Jul 23 20:41:00 <anwesha>       VanL Thank you
+Jul 23 20:41:29 <zishan>        Thanks, VanL
+Jul 23 20:41:51 <invincible>    thank you very much VanL and kushal. session was awesome.
+Jul 23 20:41:56 <JacksonIsaac>  Thank you VanL, learnt a lot from you :)
+Jul 23 20:42:28 <gnovi> kushal, thanks a million for this wonderful opportunity.
+Jul 23 20:43:06 <magzter>        thanks VanL
+Jul 23 20:43:42 <leero9>        Thank You VanL, another serious step towards open source for us :)
+Jul 23 20:44:18 <kushal>        http://www.amazon.in/Intellectual-Property-Open-Source-Protecting-ebook/dp/B0043D2E3Q/ref=sr_1_1?ie=UTF8&qid=1406128379&sr=8-1&keywords=Intellectual+Property+and+Open+Source 
+Jul 23 20:44:26 <kushal>        you can buy this book to learn more
+Jul 23 20:44:55 <iamsudip>      Thank you VanL for the session. Thanks kushal for arranging the session.
+Jul 23 20:45:15 <CuriousLearner>        Thanks Kushal and VanL :)
+Jul 23 20:45:15 <kushal>        ------SESSION ENDS---------
+

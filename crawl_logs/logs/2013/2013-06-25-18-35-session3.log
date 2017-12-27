@@ -1,0 +1,499 @@
+[18:36:23] [## Class Started at Tue Jun 25 18:36:23 2013 ##]
+[18:36:23] <sayan> startclass
+[18:36:37] <mac1733> Terry Mackin
+[18:37:23] <kushal> cool
+[18:37:46] <kushal> who all never read the links given yesterday ?
+[18:37:58] <gr8atuin> I didn't
+[18:38:07] <gr8atuin> But don't delay on my account
+[18:38:32] <kushal> anyone else ?
+[18:39:14] <nilanjit> I studied. but not all of them.
+[18:39:31] <elita15> elita lobo
+[18:39:46] <kushal> questions ?
+[18:39:51] <shantanu> !
+[18:39:54] <zishan> !
+[18:39:59] <kushal> shantanu, ask
+[18:40:03] <Zubin> !
+[18:40:07] <prikotiyal> !
+[18:40:11] <tenstormavi> !
+[18:40:18] <tutum> !
+[18:40:19] <shantanu> kushal, please explain me about grep.
+[18:40:31] <lakshya> !
+[18:40:36] <shantanu> <EOF>
+[18:40:37] <purva> !
+[18:40:55] <fewcha> shantanu: do you know about the 'man' command?
+[18:41:01] <kushal> shantanu, http://www.uccs.edu/~ahitchco/grep/
+[18:41:07] <Christina> !
+[18:41:14] <kushal> Zubin, zishan ask
+[18:41:28] <shantanu> fewcha, yes, it is used to see manuals
+[18:41:47] <pratikkumar> !
+[18:41:51] <fewcha> shantanu: yes then doing 'man grep' on the terminal would be the best :)
+[18:42:18] <kushal> shantanu, I also passed you a link to read
+[18:42:32] <kushal> prikotiyal, tenstormavi tutum ask
+[18:42:37] <tenstormavi> what is the function of env?
+[18:42:37] <shantanu> kushal, got it.
+[18:42:42] <shantanu> thank you
+[18:42:43] <Zubin> no need kushal  my doubt was cleared.
+[18:42:50] <tutum> kushal,if there is only one user in my system,then are 'su' and 'sudo' commands the same, as both allow the user to work as a superuser?
+[18:42:59] <tutum> <EOF>
+[18:43:07] <dot_not> tutum: man sudo and man su should explain ..
+[18:43:11] <dot_not> .. the difference to you.
+[18:43:11] <prikotiyal> kushal, i am not able to get  the use of | or pipe clearly
+[18:43:12] <batul> dot_not: Error: "." is not a valid command.
+[18:43:14] <tenstormavi> <EOF>
+[18:43:17] <prikotiyal> <EOF>
+[18:43:41] <kushal> tutum, su command is used to become superuser
+[18:43:57] <elita15> !
+[18:44:01] <zishan> !
+[18:44:02] <kushal> tutum, for sudo read https://en.wikipedia.org/wiki/Sudo
+[18:44:26] <PleaseSTART> !
+[18:45:16] <kushal> prikotiyal, http://www.guru99.com/linux-pipe-grep.html
+[18:45:27] <kushal> lakshya, purva pratikkumar ask
+[18:45:31] <lakshya> understood the usage of pushd and popd bt cant clearly understand the outputs
+[18:45:36] <kushal> Christina, ask
+[18:45:45] <prikotiyal> kushal, thank you
+[18:45:48] <purva> i didn't understand the concept of cat and popd
+[18:45:50] <pratikkumar> kushal,i did not understand about New Item command
+[18:45:52] <Christina> What is super user and why is it required
+[18:45:54] <tutum> kushal,thank you
+[18:45:58] <purva> <EOF>
+[18:46:09] <Christina> <EOF>
+[18:46:09] <kushal> Christina, google.com is your best friend
+[18:46:24] <kushal> purva, what you never understood about cat command ?
+[18:46:31] <Christina> kushal, Ok :)
+[18:46:40] <satarupa> !
+[18:46:47] <kushal> pratikkumar, what is a New Item command ?
+[18:47:01] <kushal> elita15, zishan PleaseSTART ask
+[18:47:03] <PleaseSTART> my question has already asked by prikotiyal. thank you. :)
+[18:47:13] <dot_not> kushal, New Item is a PowerShell-thing afaik.
+[18:47:14] <tanvi> !
+[18:47:15] <PleaseSTART> <EOF>
+[18:47:16] <purva> what is the use of this command?
+[18:47:16] <lakshya> kushal,i understood the usage of pushd and popd bt cant clearly understand the outputs
+[18:47:17] <kushal> satarupa, ask
+[18:47:23] <prikotiyal> pratikkumar: New Item is used in windows
+[18:47:25] <kushal> dot_not, thanks
+[18:47:30] <satarupa> what is the difference between cp and cp-r
+[18:47:35] <kushal> pratikkumar, read only linux stuff
+[18:47:42] <dot_not> satarupa, man cp will help.
+[18:47:46] <zishan> i have same confusion as of shantanu and prikotiyal , so it is cleared <EOF>
+[18:47:56] <dot_not> satarupa, tip: "r" stands for recursive.
+[18:47:57] <kushal> satarupa, read the man page of cp command
+[18:48:00] <prikotiyal> pratikkumar: help is used instead of that in linux
+[18:48:41] <PleaseSTART> !
+[18:48:44] <lakshya> !
+[18:48:50] <nilanjit> pratikkumer, in linux we use touch command instead of New Item
+[18:49:02] <kushal> purva, say you wrote a song inside a file, now you want to show it to someone, then you use cat /path/to/thefile to view the contents of the file
+[18:49:05] <rahulch> Rahul Chowdhury
+[18:49:05] <satarupa> ok than you dot_not and kushal
+[18:49:17] <kushal> rahulch, just woke up ?
+[18:49:27] <kushal> tanvi, ask
+[18:49:29] <purva> kushal,ok
+[18:49:30] <Zubin> Christina, super user give you full access to your computer so that when you change or edit something you wont be restricted to any action.
+[18:49:35] <siddhant> !
+[18:49:39] <rahulch> kushal, no, my link was down as usual.
+[18:49:46] <praveenkumar> lakshya: what you didn't get from output? pushd is used to add path and change it. you can check the output of pwd to clear understand
+[18:49:51] <tanvi> what is cp -recurse?
+[18:49:54] <pratikkumar> ok,i got it,thank you,prikotiyal,kushal
+[18:49:56] <kushal> Zubin, let her learn by herself, don't answer everything
+[18:50:28] <kushal> tanvi, man cp
+[18:50:39] <sankha87_> !
+[18:50:44] <lakshya> thank you kushal,i understood the usage of pushd and popd bt cant clearly understand the outputsravenkumar
+[18:50:53] <Zubin> kushal, Ok,
+[18:51:03] <prikotiyal> prikotiyal: i am sorry for that.yes it is touch
+[18:51:13] <Christina> zubin, thank you
+[18:51:24] <prikotiyal> pratikkumar:i am sory fot that.yes it is touch
+[18:51:26] <lakshya> thank you praveenkumar
+[18:51:42] <elita15> sorry for the delay ,what is wildcard matching?
+[18:52:12] <kushal> PleaseSTART, lakshya ask
+[18:52:19] <elita15> <eof>
+[18:52:29] <kushal> elita15, google :)
+[18:52:30] <PleaseSTART> what is the differnce between dir and dir -R?
+[18:52:32] <lakshya> doubt cleared ,kushal
+[18:52:33] <PleaseSTART> <EOF>
+[18:52:43] <kushal> PleaseSTART, stop reading windows commands
+[18:53:00] <kushal> siddhant, ask
+[18:53:04] <siddhant> what is the purpoae of the use of | symbol in pipes and ridirection topic? unable to understand by book
+[18:53:04] <kushal> sankha87, ask
+[18:53:11] <PleaseSTART> try to learn both things. so i am asking.
+[18:53:13] <sankha87_> !cd and pushd operation are same ?
+[18:53:19] <pratikkumar> prikotiyal,its ok
+[18:53:26] <sankha87_> <EOF>
+[18:53:34] <dot_not> siddhant, it's about directing the output. Search for "linux pipe".
+[18:54:00] <kushal> sankha87, No
+[18:54:09] <PleaseSTART> !
+[18:54:16] <kushal> PleaseSTART, ask
+[18:54:25] <siddhant> dot_not,ok thanks :)
+[18:54:45] <PleaseSTART> if i want to open a jpg file in terminal, can it be opened?
+[18:55:15] <dot_not> PleaseSTART, yes, with an appropriate program - there are cli image viewers.
+[18:55:20] <kushal> PleaseSTART, what do you mean by open ? jpg files should be viewed in the image viewer
+[18:55:56] <PleaseSTART> i want to see that file in terminal. will it be possible?
+[18:55:57] <bidisha> !
+[18:56:12] * praveenkumar point sankha87 -> http://en.wikipedia.org/wiki/Pushd_and_popd
+[18:56:42] <dot_not> PleaseSTART, as I said, you can view the image with an appropriate program.
+[18:57:20] <sankha87_> only difference between pushd and cd is pushd remember the directory where  it  was previously, isnt it?
+[18:57:55] <PleaseSTART> i am telling that as the text document can be shown in terminal, will it be possible for any picture file?dot_net
+[18:57:59] <kushal> bidisha, ask
+[18:58:13] <kushal> PleaseSTART, he answered, yes
+[18:58:27] <bidisha> can only text files be viewed in the terminal?
+[18:58:56] <sankha87_> !
+[18:59:13] <bidisha> <EOF>
+[18:59:27] <kushal> bidisha, terminal is for text files, but with proper applications you can view movies and images in ascii mode :)
+[18:59:40] <PleaseSTART> ok thank you.. kushal , dot_net
+[18:59:41] <dot_not> PleaseSTART, if you would use "cat" on an image you'd get a lot of seemingly nonsense.
+[18:59:52] <bidisha> kushal, thank you:>
+[19:00:22] <PleaseSTART> <EOF>
+[19:00:27] <Ravi_pro> !
+[19:00:42] <kushal> btw, there is easier application to use to search inside text files/code, it is pss
+[19:00:47] <J_Caselles> !
+[19:00:55] <kushal> in Fedora you can install it as # yum install pss -y
+[19:01:00] <kushal> sankha87, ask
+[19:01:12] <sankha87_>  only difference between pushd and cd is pushd remember the directory where  it  was previously, isnt it?
+[19:01:50] <sankha87_> <EOF>
+[19:02:03] <rahulmishra> !
+[19:02:19] <kushal> sankha87, not only, they are two different commands
+[19:02:27] <kushal> Ravi_pro, ask
+[19:02:37] <Ravi_pro> what are the applications  to view movies in terminal?
+[19:02:51] <Ravi_pro> <EOF>
+[19:02:57] <dot_not> Ravi_pro, mplayer is a good example of a video player for cli.
+[19:02:57] <dot_not> BUT!
+[19:03:05] <dot_not> Your movies will still be in a separate window.
+[19:03:11] <sankha87_> !
+[19:03:18] <praveenkumar> sankha87_: pushd create the stack and keep the track of it when you do popd then it will remove the item from that stack.
+[19:03:22] <Ravi_pro> kushal, thanks
+[19:03:22] <dot_not> There are some applications that can convert movies to ascii "on the flow".
+[19:03:29] <kushal> Ravi_pro, mplayer -vo aa <video file>
+[19:03:53] <PleaseSTART> !
+[19:03:53] <kushal> J_Caselles, ask
+[19:04:29] <J_Caselles> cat somepic.jpg > somepic2.jpg would copy that pic?
+[19:04:30] <gr8atuin> !
+[19:05:08] <J_Caselles> is meaninful the output of cat on a pic?
+[19:05:31] <kushal> J_Caselles, you should not trust binary files with cat :)
+[19:05:36] <arin> !
+[19:05:39] <kushal> rahulmishra, ask
+[19:05:54] <kushal> sankha87, PleaseSTART gr8atuin ask
+[19:06:14] <PleaseSTART> how to download a pdf file using terminal? is it secure?
+[19:06:30] <kushal> PleaseSTART, google about wget command
+[19:06:31] <gr8atuin> Since the topic was brought up, can you give an example or two for practical usage of pushd/popd?
+[19:06:35] <PleaseSTART> or any file.
+[19:06:43] <zishan> PleaseSTART, you can use wget or axel
+[19:06:51] <rahulmishra> kushal, what is yum?
+[19:07:00] <dot_not> rahulmishra, google it. ;)
+[19:07:20] <rahulmishra> dot_not, okay.
+[19:07:29] <praveenkumar> rahulmishra: or do "man yum"
+[19:07:36] <Devyani> kushal,sorry am late. Server down. Devyani here.
+[19:07:37] <kushal> gr8atuin, say you need to move to temporary directory, do some work and come back to the main directory again
+[19:07:48] <PleaseSTART> <EOF>
+[19:07:52] <kushal> Devyani, you are saying freenode server is down ?
+[19:07:59] <kushal> arin, ask
+[19:08:08] <kushal> s/is/are/
+[19:08:09] <batul> What kushal meant to say was: Devyani, you are saying freenode server are down ?
+[19:08:17] <arin> in the command "mkdir -p i/like/icecream" what is the function of -p?
+[19:08:19] <gr8atuin> kushal, so you're saying they are used to remember trivial information?
+[19:08:23] <arin> <EOF>
+[19:08:32] <rahulmishra> praveenkumar, what if i am in Ubuntu?
+[19:08:48] <praveenkumar> rahulmishra: then do google and dot_not said
+[19:08:52] <kushal> gr8atuin, yes, but you will find that they are not so trival :)
+[19:08:57] <praveenkumar> s/and/as
+[19:09:05] <zishan> arin, the function of -p is to make multiple directries at the same time
+[19:09:09] <rahulmishra> praveenkumar, :)
+[19:09:10] <shantanu> rahulmishra, in Ubuntu it is apt-get
+[19:09:50] <rahulmishra> shantanu, okay.
+[19:09:59] <Devyani> kushal, no my net connection. :)
+[19:10:10] <arin> OKAY
+[19:10:20] <arin> sorry okay
+[19:10:47] <anurag> kushal, why is every one answering here? I am getting confused whose answer is whose.
+[19:11:07] <kushal> anurag, keep an close eye then :)
+[19:11:08] <sankha87_> apt-get in ubuntu == yum in fedora ? what is ascii mode in terminal ?  <EOF>
+[19:11:29] <kushal> sankha87, there is a new website called google.com
+[19:11:33] <kushal> use it
+[19:12:19] <Christina> !
+[19:12:35] <kushal> Christina, ask
+[19:12:39] <zishan> sankha87, ascii mode in terminal is simply called text mode
+[19:12:49] <PleaseSTART> !
+[19:13:09] <zishan> sankha87, terminal only supports text mode
+[19:13:18] <Christina> zishan just said -p is used to make multiple directories but that can be done using mkdir a/b/c/d and so on
+[19:13:52] <zishan> chandankumar, i have tried the same but can't do that
+[19:13:56] <Christina> What difference does adding -p make
+[19:14:01] <Christina> <EOF>
+[19:14:06] <kushal> Christina, for your example all a b c should be already there
+[19:14:19] <kushal> Christina, first try mkdir x/y/z
+[19:14:32] <kushal> and then mkdir -p x/y/z
+[19:14:48] <arin> Christina you mean it can be used without -p?
+[19:15:05] <Christina> kushal, understood :) thanks
+[19:15:30] <zishan> Christina, arin , it can't be used without -p
+[19:15:34] <Christina> arin, no not at all was trying to figure out the difference
+[19:15:54] <zishan> Christina, just try out what kushal said
+[19:15:57] <sankha87_> i got it , for playing ascii  modwe video in ubuntu , -> mplayer -vo aa x.avi  , x.avi is the file name
+[19:16:00] <PleaseSTART> when we delete information from pendrive then in case f  inux it goes to trash, but it windows it is completely deleted. I want to know where this information goes? *of linux can
+[19:16:03] <arin> Christina yes doubt cleared
+[19:16:06] <zishan> Christina, you will get your answer
+[19:16:33] <kushal> PleaseSTART, when you use rm , it just deletes :)
+[19:16:41] <PleaseSTART> can we retrieve it from terminal?
+[19:16:52] <kushal> PleaseSTART, no
+[19:17:00] <dot_not> (At least not easily.)
+[19:17:15] <PleaseSTART> is there any backup option?
+[19:17:28] <dot_not> Not included with the rm command.
+[19:17:35] <dot_not> man rm will give you a few hints.
+[19:17:41] <dot_not> On how to avoid unwanted loss.
+[19:17:46] <praveenkumar> Better us rm carefully
+[19:18:08] <kushal> PleaseSTART, ^^
+[19:18:24] <praveenkumar> s/us/use
+[19:18:30] <PleaseSTART> <EOF>
+[19:18:47] <Zubin> praveenkumar, +1.
+[19:19:06] <J_Caselles> !
+[19:21:03] <elita15> !
+[19:21:17] <kushal> J_Caselles, elita15 ask
+[19:22:16] <kushal> Btw, tomorrow 9pm mbuf will take a revision session
+[19:22:21] <elita15> how do we create users using the  terminal?
+[19:22:48] <elita15> <eof>
+[19:22:49] <J_Caselles> cat < text.txt is the same as cat text.txt, right? all the examples on the book regarding < are redundant; could you point us some case "<" would be useful?
+[19:22:56] <kushal> elita15, type the exact sam words in google.com
+[19:23:28] <kushal> J_Caselles, let me think a nice example
+[19:23:53] <anurag> !
+[19:24:58] <kushal> J_Caselles, I will find a better example later on
+[19:25:03] <Christina> !
+[19:25:08] <kushal> J_Caselles, nothing coming in mind right away
+[19:25:14] <J_Caselles> no worries ;) <EOF>
+[19:25:15] <kushal> anurag, Christina ask
+[19:25:34] <anurag> what is mbuf ?
+[19:25:47] <Christina> cd.. and cd . . are different ? cd.. doesn't work
+[19:25:48] <kushal> fancy
+[19:26:00] <kushal> Christina, so that means it is wrong
+[19:26:07] <Christina> <EOF>
+[19:26:10] <kushal> anurag, mbuf is a person
+[19:26:11] <zishan> chandankumar, yes it is different
+[19:26:19] <zishan> Christina, yes it is different
+[19:26:46] <zishan> Christina, cd.. is for windows and cd .. is for linux
+[19:26:53] <Christina> I guess in windows it doesn't make a difference
+[19:27:01] <Zubin> Christina, Knock knock we are using linux remmember?
+[19:27:04] fewcha_ is now known as fewcha
+[19:27:07] <Christina> zishan, ok
+[19:27:41] <Christina> Zubin, well i know i was just exploring
+[19:27:43] <lakshya> !
+[19:27:46] <Christina> :)
+[19:27:53] <kushal> lakshya, ask
+[19:28:24] <Zubin> Christina, in windows cd is used to change directory in forward direction and cd.. is used go traverse in backward direction. But here rules are different.
+[19:28:27] <lakshya> how can we copy a file belonging to one directory into anotherdirectory
+[19:28:40] <Zubin> *to
+[19:28:42] <kushal> Zubin, that answer is wrong
+[19:28:59] <PleaseSTART> !
+[19:29:13] <kushal> lakshya, cp /path/to/file /path/to/new/diectory
+[19:29:13] <Christina> kushal, please answer
+[19:29:42] <kushal> Christina, after cd there should be a space and then the directory where you want to go
+[19:30:02] <kushal> PleaseSTART, ask
+[19:30:04] <piotrektt_tmp> !
+[19:30:14] <Zubin> but kushal, when we use cd it changes the directory for us in windows but cd.. brings us back to our original directory in windows.
+[19:30:25] <dot_not> Zubin, we are not learning Windows.
+[19:30:34] <kushal> Zubin, ^^^^^^
+[19:30:56] <kushal> piotrektt_tmp, ask
+[19:31:16] <PleaseSTART> in the pdf part that u have given to us last day, i want to know how can we find our mentors?
+[19:31:19] <Zubin> dot_not, agree with you. But then why am I wrong?
+[19:31:25] <piotrektt_tmp> as i am bit late. is there anything to read for nex classes? ( i need to go soon)
+[19:31:34] <J_Caselles> !
+[19:31:41] <dot_not> piotrektt_tmp, not yet.
+[19:31:54] <piotrektt_tmp> <EOF>
+[19:32:22] <kushal> Zubin, what is forward direction ?
+[19:32:38] <kushal> it is not a car
+[19:32:49] <kushal> J_Caselles, ask '
+[19:32:58] <Christina> !
+[19:33:15] <lakshya> kushal, thnx
+[19:33:35] <kushal> lakshya, buy a dictionary
+[19:33:40] <J_Caselles> It is commonly used, to write a public blog about your daily work/progress?
+[19:33:43] <kushal> Christina, ask
+[19:34:12] <kushal> J_Caselles, yes, many people do that and we also ask our students to do so
+[19:34:15] <PleaseSTART> <EOF>
+[19:34:15] <lakshya> kushal why so?
+[19:34:27] <kushal> lakshya, "thanks" is the correct spelling
+[19:34:39] <Christina> nasir@ubuntu:~$ cd tmp       nasir@ubuntu:~/tmp$ cd stuff          nasir@ubuntu:~/tmp/stuff$ cd          now how to go back to tmp directory
+[19:34:40] <J_Caselles> nice thanks
+[19:34:47] <Zubin> what I meant is suppose  we need to go to location c:/user/zubin/downloads/wake/up/lol in windows we need to use cd user/zubin/downloads/wake/up/lol.
+[19:34:48] <lakshya> kushal ohh :D
+[19:34:54] <Christina> somehow cd . . is not working
+[19:35:00] <Christina> <EOF>
+[19:35:08] <kushal> Zubin, stop discussing windows stuff or else I will just kick you out
+[19:35:16] <zishan> Christina, its not cd . . is cd ..
+[19:35:26] <Zubin> ok ok ok.
+[19:35:27] <kushal> Christina, yes, the command is cd .. not cd  . .
+[19:36:06] <amresh> . and .. have some meaning, please try to find out
+[19:36:07] <batul> amresh: Error: "and" is not a valid command.
+[19:36:36] <Christina> Kushal, It  worked thank you :)
+[19:37:02] <kushal> any other question ?
+[19:37:15] <anurag> !
+[19:37:45] <kushal> anurag, ask
+[19:37:48] <PleaseSTART> kushal :answerto my last question?
+[19:38:08] <anurag> why does batul comments on *valid command* always ?
+[19:38:10] <kushal> PleaseSTART, you have to talk to people to find a mentor
+[19:38:27] <dot_not> anurag: Because commands to him start with a point.
+[19:38:28] <PleaseSTART> how?
+[19:38:33] <kushal> anurag, anything starting with . is a command to him
+[19:38:42] <anurag> cool.
+[19:38:44] <praveenkumar> anurag: batul is a bot and it's programmed that way.
+[19:39:01] <praveenkumar> .ls
+[19:39:02] <batul> praveenkumar: Error: "ls" is not a valid command.
+[19:39:02] <kushal> PleaseSTART, IRC, mailing list, email, phone, direct talking by using vocal chords
+[19:39:05] <anurag> i like batul  ;)
+[19:39:14] <kushal> .google linux
+[19:39:15] <batul> kushal: Error: We broke The Google!
+[19:39:23] <kushal> ah, I need to fix it
+[19:39:25] <PleaseSTART> ok. Thank you. :)
+[19:40:02] <Christina> !
+[19:40:07] <Zubin> anurag, .i love batul otherwise he wont understand it.
+[19:40:18] <Zubin> *it
+[19:40:40] <Zubin> *like
+[19:40:58] <rahulmishra> .batul, who are you?
+[19:41:00] <batul> rahulmishra: Error: "batul," is not a valid command.
+[19:41:19] <kushal> so tomorrow there will be two sessions
+[19:41:30] <kushal> one at 7pm and another at 9pm
+[19:41:50] <Zubin> rahulmishra, it means its fine i guess :-)
+[19:42:35] <Christina> !
+[19:42:44] <sankha87_> .batul
+[19:42:46] <batul> sankha87_: Error: "batul" is not a valid command.
+[19:42:46] <kushal> Christina, ask
+[19:42:49] <Christina> how to save todays log using xchat
+[19:42:57] <dot_not> !
+[19:43:09] <kushal> dot_not, go ahead
+[19:43:17] rahulch_ is now known as rahulch
+[19:43:24] <dot_not> Is there any special reason for tomorrow's class being split in two parts? <EOF>
+[19:43:30] <Zubin> kushal, I may come late tomorrow for the first session. Office Transport problem.
+[19:43:48] <Christina> how to save todays log using xchat
+[19:43:49] <kushal> Christina, Settings->Preferences->Logging tick to enable, then everything will be logged
+[19:43:59] <elita15> !
+[19:44:01] <kushal> if you did that earlier then it is already saved
+[19:44:05] <kushal> elita15, ask
+[19:44:14] <kushal> dot_not, two different sessions
+[19:44:34] <kushal> for tomorrow's session http://www.dgplug.org/irclogs/kushal_fhs_class.log
+[19:44:51] <elita15> how do we check using terminal if a particular plugin is installed or not?
+[19:44:52] <puspita> !
+[19:45:11] <kushal> we will review FHS at 7pm session
+[19:45:11] <kushal> plus there will be more
+[19:45:13] <kushal> elita15, plugin of ?
+[19:45:17] <kushal> puspita, ask
+[19:45:33] <elita15> vim
+[19:45:33] <puspita> how do we retrieve the saved logs later.
+[19:45:38] <puspita> <eof>
+[19:45:58] <kushal> puspita, they are under ~/.xchat/xchatlogs/ directory
+[19:46:08] <kushal> elita15, don't know
+[19:46:09] <puspita> ok thanks :)
+[19:46:16] <kushal> elita15_, google
+[19:46:41] <J_Caselles> !
+[19:47:02] <Christina> kushal, Thank you i hope i haven't irritated you with my questions
+[19:47:11] <kushal> Christina, nope
+[19:47:14] <kushal> J_Caselles, ask
+[19:47:18] <dot_not> !
+[19:47:22] <kushal> dot_not, ask
+[19:47:23] <elita15> kushal, i tried but couldn't find. can we create share folders on ubuntu?
+[19:47:31] <kushal> elita15, yes
+[19:47:45] <kushal> elita15, search and read about NFS
+[19:47:52] <J_Caselles> exact diference between Free Open Source and just Open Source?
+[19:48:05] <dot_not> FHS will be the topic of the first class. What will be the topic of the second class?
+[19:48:15] <J_Caselles> free Software and Open Software
+[19:48:31] <kushal> dot_not, second session will be a review session by mbuf, he will talk with the students
+[19:48:48] <kushal> J_Caselles, great questions
+[19:48:52] <dot_not> Thanks. Oh, and <EOF>
+[19:48:57] <kushal> J_Caselles, wait
+[19:48:58] <dot_not> kushal, may I answer it?
+[19:49:04] <kushal> dot_not, go ahead
+[19:49:41] <dot_not> The difference between "Free Software" and "Open Source Software" is, generally, that you are allowed to use Free Software without charge.
+[19:49:50] <dot_not> But you are not allowed to alter or modify it.
+[19:50:09] <dot_not> Whereas open source software generally means that you may modify it as you wish.
+[19:50:43] <dot_not> This is not the easiest topic because "Free Software" like the FSF (Free Software Foundation) sees it is MUCH different to what the general public sees as free software.
+[19:50:50] <dot_not> You should definitely read into it via Google.
+[19:50:54] <J_Caselles> ok
+[19:50:54] <dot_not> It's a very interesting topic.
+[19:51:17] <kushal> J_Caselles, http://en.wikipedia.org/wiki/Free_and_open-source_software
+[19:51:27] <J_Caselles> it was regarding "Open source guys are comfortable with mixing proprietary as well as open source code; Free Software is different from Open Source"
+[19:51:31] <kushal> read the links for Free software and OSS from there
+[19:51:32] <Christina> !
+[19:51:37] <kushal> Christina, ask
+[19:52:16] <Christina> i couldn't find ~/.xchat/xchatlogs/directory
+[19:52:38] <kushal> Christina, how you tried to find it ?
+[19:52:45] <Christina> yes
+[19:52:59] <kushal> Christina, how you tried to find it ?
+[19:53:05] <shantanu> may i answer?
+[19:53:16] <Christina> yes kushal
+[19:53:35] <kushal> Christina, yes is not the answer of how ?
+[19:53:41] <tenstormavi> Christina, May be the folder is hidden, just try ctrl+h. May be you find it.
+[19:54:06] <kushal> Christina, yes/no is binary answer, they can be used to a question where I am asking how ?
+[19:54:25] <kushal> Christina, how you tried to find that directory ?
+[19:54:54] <Christina> Oh i am sorry went to where i installed xchat and looked for all the files
+[19:55:17] <Christina> well i hope i am not wrong
+[19:55:28] <kushal> Christina, I gave you the exact path to look
+[19:55:37] <kushal> go to terminal and ls on that directory
+[19:55:47] <kushal> then you can use less on the particular file
+[19:55:55] <Christina> Using windows
+[19:56:10] <kushal> Christina, heh, no meaning of these sessions then
+[19:56:25] <Christina> :( what
+[19:56:40] <kushal> Christina, we are teaching about Linux, not windows
+[19:56:50] <Zubin> Christina, or goto >setting>preferences>logging> click open data folder.
+[19:57:09] <elita15> !
+[19:57:14] <kushal> elita15, ask
+[19:57:19] <Christina> kushal i know i use linux on vmware so didn't install on it
+[19:57:40] <PleaseSTART> Christina please follow Zubin for your query.
+[19:57:42] <kushal> Christina, you are supposed to use Linux for the training, not windows
+[19:57:56] <kushal> PleaseSTART, Zubin both of you stop
+[19:58:02] <kushal> the issue is different
+[19:58:18] <PleaseSTART> :P
+[19:58:23] <PleaseSTART> Ok..
+[19:58:24] <Zubin> what did I do?
+[19:58:29] <Christina> Thank you kushal and yes i will be using Linux only but on vmware will it do
+[19:58:42] <elita15> besides using the command " sudo apt-get install vim vim-gtk" do we require any other command to install pluggins?
+[19:58:43] <kushal> Christina, yes, it will do
+[19:59:03] <kushal> Christina, you can install xchat inside there in linux
+[19:59:50] <elita15> <eof>
+[19:59:52] <kushal> elita15, I generally install plugins manually
+[19:59:57] <kushal> ROLL CALL
+[20:00:05] <shantanu> shantanu sarkar
+[20:00:06] <puspita> puspita ghosh
+[20:00:08] <anurag> anurag kumar
+[20:00:09] <zishan> Sheesh Mohsin
+[20:00:10] <lakshya> lakshya
+[20:00:10] <Zubin> Bodhiswattwa Tewari.
+[20:00:16] <tutum> Pritha Ganguly
+[20:00:17] <sonam> sonam
+[20:00:18] <tenstormavi> Avinash Kumar Dasoundhi
+[20:00:21] <purva> purva
+[20:00:23] <PleaseSTART> manish
+[20:00:24] <puja_> Puja Gupta
+[20:00:24] <satarupa> Satarupa Sinha
+[20:00:25] <elita15> elita lobo
+[20:00:27] <rashmi> Rashmi
+[20:00:28] <irenebmy> Irene
+[20:00:29] <amresh> amresh
+[20:00:31] <m0rin09m`> Shungoh Kaetsu
+[20:00:31] <arin> Arin Ghosh
+[20:00:32] <suman> suman roy
+[20:00:34] <bidisha> Bidisha Mukherjee
+[20:00:34] <J_Caselles> Josep Caselles
+[20:00:37] <siddhant> siddhant sengar
+[20:00:38] <prikotiyal> Priyanka Kotiyal
+[20:00:39] <umesh_> Umesh Agarwal
+[20:00:39] <anisha23> Anisha Agrawal
+[20:00:41] <ashis> ashis mohta'
+[20:00:42] <rahulmishra> Rahul Mishra
+[20:00:46] <supriya> supriya saha
+[20:00:58] <Christina> Christina Beemer
+[20:01:02] <sankha87_> sankhadeep pujaru
+[20:01:04] <iam_sudip> iam sudip
+[20:01:05] <tanvi> tanvi dutta
+[20:01:14] <dot_not> dot_not,
+[20:01:14] <kushal> people who never asked any question, can you understand what we are discussing ?
+[20:01:16] <korak> korak ghosh
+[20:01:19] <elita15> kushal, i get errors most of the times when i try to install  directly from software center, why is it so?
+[20:01:23] <divs_> Devyani.
+[20:01:25] <Sudip> Sudip Gorai
+[20:01:34] <iam_sudip> yes
+[20:01:37] <shalini> shalini roy
+[20:01:42] <amresh> yes
+[20:01:43] <kushal> elita15, http://www.vim.org/scripts/
+[20:01:51] <pratikkumar> Pratik Kumar
+[20:01:56] <m0rin09m`> yes
+[20:02:02] <kushal> rashmi, iam_sudip amitshree m0rin09m` umesh_ ?
+[20:02:15] <kushal> irenebmy, ?
+[20:02:21] <umesh_> kushal, yes
+[20:02:32] <irenebmy> yes
+[20:02:38] <suman> kushal,yes
+[20:02:59] <kushal> good
+[20:03:03] <amitshree> kushal, yes
+[20:03:04] <kushal> ---------------SESSION OVER--------------
+[20:03:11] <sayan> endclass
+[20:03:11] [## Class Ended at Tue Jun 25 20:03:11 2013 ##]

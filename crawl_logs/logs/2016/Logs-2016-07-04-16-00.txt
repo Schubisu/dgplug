@@ -1,0 +1,379 @@
+[16:00:56] [## Class Started at Mon Jul  4 16:00:56 2016 ##]
+[16:00:56] <praveenkumar> #startclass
+[16:01:21] <praveenkumar> roll call please
+[16:01:22] <moizsajid> Moiz Sajid
+[16:01:22] <tabrez> tabrez khan
+[16:01:23] <lambainsaan_> Rhitik Bhatt
+[16:01:23] <avik> Avik Mukherjee
+[16:01:23] <madhurii> Madhuri Muley
+[16:01:23] <arthar360> Atharva Deshmukh
+[16:01:24] <deep123k> Deepanshu Kapoor
+[16:01:24] <surajd> Suraj Deshmukh
+[16:01:24] <rahuldecoded> Rahul Bhattacharjee
+[16:01:25] <ak_d> Akhilesh Dhaundiyal
+[16:01:25] <real56> Varsha R
+[16:01:26] <pyadav_> Pooja Yadav
+[16:01:26] <Richard99> Mayank Gupta
+[16:01:27] <vharsh> Harsh Vardhan
+[16:01:27] <code_geek> Shantanu Acharya
+[16:01:30] <jogi96> Jogender Kota
+[16:01:30] <pragnavi> pragnavi
+[16:01:32] <nishapoyarekar> Nisha Poyarekar
+[16:01:33] <abstatic> Abhishek Shrivastava
+[16:01:33] <SRvSaha> Saurav Saha
+[16:01:33] <trishnag> Trishna Guha
+[16:01:33] <D1mz> Aditya Bayana
+[16:01:34] <Anandprakash> Anandprakash Tandale
+[16:01:34] <vbhjain> Vaibhav Jain
+[16:01:35] <gobinda> Gobinda Akhuli
+[16:01:35] <suniva> Suniva Priyadarshini
+[16:01:35] <PrashantJ> Prashant Jamkhande
+[16:01:36] <sandy__> sandeep kumar choudhary
+[16:01:37] <yASH> Yashwanth M
+[16:01:38] <pabitra> Pabitra Pati
+[16:01:39] <riskarsh> Utkarsh Shukla
+[16:01:41] <priyanka> Priyanka Sharma
+[16:01:45] <moon45> Mamoon manzoor
+[16:01:46] <jargonmonk> Aniket Khisti
+[16:01:49] <cosmologist10> shweta suman
+[16:01:51] <sandeepmaity09> Sandeep Maity
+[16:01:51] <akshays> Akshay Shipurkar
+[16:01:51] <iKshitij> Kshitij
+[16:01:54] <Krishna> Krishna Biradar
+[16:01:55] <satya4ever> Satyajit Bulage
+[16:02:04] <abhishekg5> Abhishek Gupta
+[16:02:05] <rohan_h> Rohan Hazra
+[16:02:10] <SpEcHiDe> Shrimadhav U K
+[16:02:31] <smdeep> Sudeep Mukherjee
+[16:02:34] <snarwade> Suraj Narwade
+[16:02:40] <thisisashwani> Ashwani Pandey
+[16:02:47] <kashyap638> abhishek kashyap
+[16:02:56] <anushil05> Anushil Kumar
+[16:03:06] <gkadam> Ganesh Kadam
+[16:03:07] <shalaka> shalaka shastri
+[16:03:13] <abk1> Abheek
+[16:03:18] <shauryak_3> Shaurya Kalia
+[16:03:18] <mahesh5> Mahesh Gahlot
+[16:03:53] <praveenkumar> So Today we are going to refresh our linux commands session and learn some new commands.
+[16:03:55] <sverma> Sudhir Verma
+[16:04:02] <akorep_> Akshay T S
+[16:04:03] <aman_> Aman kumar
+[16:04:03] <Knight-12> Tuhina Chatterjee
+[16:04:44] <praveenkumar> So most of you folks are using commands daily basis like 'ls', 'mkdir', 'mv', 'cp' etc right?
+[16:04:54] <SpEcHiDe> yes
+[16:05:01] <moizsajid> yes
+[16:05:02] <onu_> Anupama Mandal
+[16:05:02] <praveenkumar> How many of you didn't use above commands yet?
+[16:05:02] <SRvSaha> yes
+[16:05:23] <Richard99> yes
+[16:05:37] <chirath> Chirath R
+[16:05:37] <akahat>  Amol Kahat
+[16:05:47] <D1mz> yes
+[16:05:51] <chirath> yes
+[16:05:52] <praveenkumar> So before we start our today session everyone open linux terminal so that we all check output of a executed command.
+[16:06:17] <Richard99> done
+[16:06:23] <pyadav_> Done
+[16:06:30] <SpEcHiDe> done
+[16:06:33] <kashyap638> done
+[16:06:44] <praveenkumar> Now folks who didn't use any commands yet can try to execute simple one like ls, mv, cp etc. and just see how useful it is.
+[16:06:50] <iKshitij> done !
+[16:07:19] <shalaka> done
+[16:07:22] <SpEcHiDe> done
+[16:07:31] <real56> done
+[16:07:47] <praveenkumar> Now I will ask questions and then you folks give answer if you think someone already answered then please don't repeat.
+[16:08:15] <praveenkumar> 1. how do you check about system and linux kernel version?
+[16:08:21] <SpEcHiDe> uname -a
+[16:08:28] <vbhjain> uname -r
+[16:08:29] <pabitra> !
+[16:08:35] <pabitra> uname -a
+[16:08:42] <smdeep> lsb_release -a
+[16:08:48] <D1mz> pls don't repeat
+[16:08:55] <praveenkumar> Good, now everyone execute that command and try to check output (uname -a)
+[16:08:55] <vbhjain> sorry *uname -a
+[16:08:56] <D1mz> sorry please
+[16:09:10] <praveenkumar> Don't repeat answer.
+[16:09:17] <SpEcHiDe> smdeep: bash: lsb_release: command not found
+[16:09:19] <Richard99> unme -a
+[16:09:28] <Richard99> uname -a
+[16:09:39] <praveenkumar> Richard99: ^^ read above.
+[16:09:44] <kashyap638> uname-a
+[16:09:50] <SRvSaha> SpEcHiDe: lsb_release -a
+[16:10:37] <praveenkumar> lsb_release -a doesn't show kernel version but only show release information.
+[16:10:49] <SpEcHiDe> SRvSaha:  https://www.irccloud.com/pastebin/a2K1Hjb7/output
+[16:10:59] <Onkar> Onkar Karale
+[16:11:06] <praveenkumar> I will give 2 mins everyone to try that out.
+[16:11:12] <SpEcHiDe> !
+[16:11:22] <theanalyst> SpEcHiDe, this package needs to be installed
+[16:11:36] <SpEcHiDe> theanalyst: ok. sorry.
+[16:12:19] <praveenkumar> 2. How do you check about mounted filesystems.
+[16:12:21] <Buvanesh> roll call: Buvanesh Kumar
+[16:12:27] <D1mz> lsblk
+[16:12:28] <Buvanesh> mount
+[16:12:31] <madhurii> df -h
+[16:12:35] <Buvanesh> blkid
+[16:12:37] <SpEcHiDe> mount
+[16:13:21] <praveenkumar> mount will show you all the mounted devices, everyone please try
+[16:13:39] <arthar360> lsblk
+[16:13:52] <praveenkumar> df will show you system disk space.
+[16:14:11] <pabitra> !
+[16:14:12] <praveenkumar> lsblk only list out block devices.
+[16:14:17] <praveenkumar> next
+[16:14:21] <pabitra> cleared
+[16:14:51] <SpEcHiDe> cleared
+[16:15:06] <mhalano> Roll call: Marcos H. Alano. Sorry for being late
+[16:15:09] <akshays> !
+[16:15:12] <praveenkumar> Alright everyone please try once and check.
+[16:15:15] <praveenkumar> next
+[16:15:20] <praveenkumar> next
+[16:15:24] <praveenkumar> next
+[16:15:35] <akshays> i did not understand the output of mount
+[16:16:40] <praveenkumar> akshays: sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime,seclabel) => means sysfs mounted on /sys with type sysfs and permissions are (rw,nosuid,nodev,noexec,relatime,seclabel)
+[16:16:43] <akshays> i could understand lsblk
+[16:16:54] <akshays> df -h
+[16:16:55] <abk1> use mount -h
+[16:17:24] <SpEcHiDe> abk1: invalid option
+[16:17:39] <praveenkumar> 3. How do you know how long your system is up?
+[16:17:44] <arthar360> uptime
+[16:17:47] <D1mz> uptime
+[16:17:49] <avik> uptime
+[16:17:49] <jogi96> uptime
+[16:17:55] <smdeep> uptime
+[16:18:11] <praveenkumar> Again if you have same answer then no need to put here.
+[16:18:14] <arthar360> SpEcHiDe, mount -h will show the help
+[16:18:14] <LambaInsaan> top
+[16:18:14] <avik> w also works
+[16:18:16] <shashank-loki> uptime
+[16:18:34] <abk1> uptime
+[16:18:44] <praveenkumar> Everyone try 'uptime' and check how long your system is up.
+[16:18:45] <avik> praveenkumar, difference between uptime and w
+[16:18:45] <cosmologist10> uptime
+[16:18:52] <Richard99> !
+[16:19:23] <amey> Sorry I am late
+[16:19:28] <praveenkumar> avik: w => it will show who is logged on and what they are doing.
+[16:19:30] <praveenkumar> next
+[16:19:44] <Richard99> on command top there is a section showing zombie. What is that about ?
+[16:19:49] <avik> ok thank you
+[16:20:16] <praveenkumar> Richard99: we will come back on that.
+[16:20:28] <praveenkumar> Right now everyone try uptime.
+[16:20:41] <arthar360> Richard99, In a parent-child process, then the parent dies but the child still runs (for no reason), it becomes a zombie
+[16:21:14] <arthar360> s/then/if
+[16:21:16] <tabrez> arthar360 +1
+[16:21:32] <Richard99> okay
+[16:21:55] <code_geek> clear
+[16:21:55] <amey> Can someone cover me on today's topic?
+[16:21:59] <code_geek> sorry
+[16:22:16] <code_geek> typed that by mistake
+[16:22:38] <praveenkumar> 4. How do you get all environment variable for a specific prompt you are in.
+[16:22:44] <arthar360> set
+[16:22:56] <sandeepmaity09> env
+[16:22:58] <smdeep> env
+[16:22:59] <arthar360> printenv
+[16:23:03] <Anandprakash> env
+[16:23:24] <kashyap638> env
+[16:23:51] <praveenkumar> Everyone try printenv and check available environment variables.
+[16:24:15] <iKshitij> !
+[16:24:20] <praveenkumar> next
+[16:25:01] <SRvSaha> !
+[16:25:02] <iKshitij> What is available enviroment. I am not getting a few parameters
+[16:25:34] <iKshitij> [available environment variable]
+[16:25:46] <praveenkumar> iKshitij: https://wiki.archlinux.org/index.php/Environment_variables
+[16:25:49] <praveenkumar> next
+[16:25:53] <SRvSaha> What is the difference between env and printenv?
+[16:26:16] <praveenkumar> SRvSaha: try to do man env and then man printenv, you will understand difference.
+[16:26:53] <SRvSaha> Going through man pages :/
+[16:27:08] <praveenkumar> 5. How do you print value of a environment variable?
+[16:27:32] <snarwade> echo $<env_variable>
+[16:27:34] <vharsh> echo $variablename
+[16:27:35] <sandeepmaity09> echo $variablename
+[16:27:57] <vbhjain> SRvSaha, printenv shows global variables specific to the system but env shows you all variables including local ones
+[16:28:32] <SRvSaha> vbhjain: Thanks
+[16:28:32] <praveenkumar> yes, everyone try to execute echo $HOME or echo $variable_name where variable_name should be present in your shell environment.
+[16:28:53] <vbhjain> echo $HOME
+[16:29:00] <vbhjain> sorry
+[16:30:10] <praveenkumar> 6. How do you find out which is your current shell (some might using bash, zsh or sh etc..)?
+[16:30:21] <arthar360> echo $0
+[16:30:22] <SpEcHiDe> echo $SHELL
+[16:30:24] <pabitra> echo $SHELL
+[16:30:44] <amey> echo %SHELL
+[16:30:46] <cosmologist10> echo $SHELL
+[16:31:14] <tgadsing_> echo $shell
+[16:31:50] <praveenkumar> Yes everyone try echo $SHELL and you will find out.
+[16:32:09] <abhishekg5> tgadsing_, shell should be in caps
+[16:32:18] <arthar360> praveenkumar, echo $SHELL is unreliable, I can explain if you say
+[16:32:45] <tgadsing_> not necessary, abhishekg5.
+[16:32:53] <praveenkumar> Go ahead put a link which all of us can refer later.
+[16:32:59] <praveenkumar> arthar360: ^^
+[16:33:11] <arthar360> praveenkumar, Ok
+[16:33:39] <arthar360> abhishekg5, tgadsing caps is important
+[16:33:53] <PrashantJ> !
+[16:33:56] <amey> tgadsing_ echo $shell doesn't works
+[16:33:57] <abhishekg5> arthar360, exactly
+[16:34:04] <praveenkumar> next
+[16:34:13] <PrashantJ> edifference between echo $shell and echo $SHELL?
+[16:34:22] <SpEcHiDe> arthar360: why is echo $SHELL unreliable?
+[16:34:32] <tgadsing_> I tried the command with small caps and it worked.
+[16:34:37] <PrashantJ> praveenkumar, ^^^
+[16:34:48] <D1mz> amey use SHELL not shell
+[16:34:58] <arthar360> SpEcHiDe, As praveenkumar said, I will explain it later
+[16:35:13] <iKshitij> This is two different o/p(s) !! echo $shell - bash || echo $SHELL - /bin/bash
+[16:35:23] <rahuldecoded> $SHELL: bin/bash
+[16:35:25] <rahuldecoded> $shell: bash
+[16:36:04] <Hero> Got it. /bin/bash
+[16:36:05] <amey> thanks Dlmz
+[16:36:06] <akshays> rahuldecoded +1
+[16:36:12] <tgadsing_> rahuldecoded,right.
+[16:36:30] <PrashantJ> rahuldecoded, okay thanks:)
+[16:36:35] <pabitra> arthar360, I guess praveenkumar said you to explain now and put a link later so that we can refer it later as well
+[16:37:10] <praveenkumar> arthar360: Public demand go ahead :)
+[16:38:03] <SRvSaha> rahuldecoded: srvsaha@XcidCruX:~$ echo $shell gives No Output here . KUBUNTU 15.10
+[16:38:33] <sanket> Ideally, echo $SHELL shouldn't work
+[16:38:48] <sanket> s/SHELL/shell
+[16:38:56] <praveenkumar> sanket: why it shouldn't work?
+[16:39:24] <sanket> praveenkumar: because $shell isn't defined by default?
+[16:39:25] <akash_> SRvSaha:  Try, echo $SHELL
+[16:39:35] <riskarsh> SRvSaha: try echo $0
+[16:39:52] <praveenkumar> sanket: for some distro yes.
+[16:40:12] <SRvSaha> akash_: Yes $echo $SHELL is working fine. Just because rahuldecoded metioned about it, so I have added
+[16:40:18] <praveenkumar> 6. How do you check if a service is running or not?
+[16:40:34] <arthar360> service service_name status
+[16:40:56] <praveenkumar> arthar360: which distro are you using?
+[16:41:11] <sanket> interesting, rahuldecoded what distro?
+[16:41:27] <rahuldecoded> f23
+[16:41:32] <arthar360> praveenkumar, RHEL 6
+[16:41:57] <vbhjain> systemctl isrunning service_name for redhat
+[16:42:04] <arthar360> systemctl status service_name
+[16:42:05] <smdeep> systemctl status servicename
+[16:42:10] <praveenkumar> arthar360: ah then in your case you are right.
+[16:42:34] <praveenkumar> yes so who are using latest distro use 'systemctl status service_name'
+[16:43:17] <vharsh> sudo systemctl xyz status
+[16:43:18] <sandeepmaity09> service service_name status
+[16:43:24] <vharsh>  sudo systemctl xyz status
+[16:43:25] <avik> .0.
+[16:43:31] <avik> oops
+[16:43:34] <avik> sorry
+[16:43:48] <praveenkumar> To get the service status you don't need to be sudo.
+[16:44:02] <vharsh> ok
+[16:44:05] <SRvSaha> !
+[16:44:07] <LambaInsaan> !
+[16:44:19] <praveenkumar> You need sudo access when try to start/restart/stop a service.
+[16:44:21] <praveenkumar> next
+[16:44:27] <SRvSaha> So we need to know the name of the process beforehand, the exact name of the process
+[16:45:11] <akshays> â service_name.service
+[16:45:11] <akshays>    Loaded: not-found (Reason: No such file or directory)
+[16:45:11] <akshays>    Active: inactive (dead)
+[16:45:29] <praveenkumar> SRvSaha: yes if you want to know all the available service then systemctl list-units -t service
+[16:45:38] <praveenkumar> next
+[16:45:45] <LambaInsaan> Answered!
+[16:45:54] <praveenkumar> alright
+[16:46:34] <praveenkumar> 7. How do you check process in real time (with CPU/MEM usages)?
+[16:46:39] <akorep_> systemctl does not work for me.
+[16:46:43] <vharsh> top
+[16:46:55] <sandeepmaity09> top
+[16:46:56] <praveenkumar> akorep_: which distro are you using?
+[16:47:21] <akorep_> ubuntu 14.04 LTS
+[16:47:31] <praveenkumar> yes everyone execute 'top' and and check how it is working.
+[16:47:47] <sandeepmaity09> akorep_ , use service --status-all
+[16:47:49] <akshays> yes
+[16:48:15] <akorep_> praveenkumar, thanks!
+[16:48:21] <praveenkumar> akorep_: then systemd might be not present in your system so back to service.
+[16:48:48] <arthar360> Dear all, Why is echo $SHELL is unreliable: https://arthar360.wordpress.com  (My first blog btw ;-)  )
+[16:48:53] <abhishekg5> akorep_, systemd was introduced in ubuntu after 15.04
+[16:49:47] <arthar360> service command in ubuntu has annoyed me many times because it doesnt always work
+[16:50:09] <sandeepmaity09> arther360 +1
+[16:50:22] <akorep_> Well, this is the first time I'm using anything related to Linux, so I have no idea of what these commands are or how they work.
+[16:50:59] <praveenkumar> akorep_: most of folks are using linux first time so we are here to learn how things works in linux and it's fine.
+[16:51:24] <tgadsing_> arther360 +1
+[16:51:30] <praveenkumar> 8. how do check a process id?
+[16:51:37] <arthar360> ps aux
+[16:51:39] <PrashantJ> ps -a
+[16:51:39] <smdeep> arthar360: try zsh instead of sh
+[16:51:46] <madhurii> ps -a
+[16:51:53] <SRvSaha> ps -e
+[16:51:57] <iyogeshjoshi> ps aux| grep <process_name>
+[16:52:33] <iKshitij_> ps -a
+[16:52:51] <cosmologist10> ps -a
+[16:52:52] <praveenkumar> try ps aux because it will also give you user information about the process and you can grep whatever process for process id.
+[16:53:23] <akorep>  Thanks. I felt like I was pretty much the only one who hasn't used Linux at all.
+[16:53:46] <praveenkumar> ps -a will show you process id but you will not understand from output about the user who executed a specific process.
+[16:54:15] <shauryak_3> praveenkumar, +1
+[16:54:19] <arthar360> smdeep, Done, doesnt make any difference to which shell you change to
+[16:54:20] <Anandprakash> ps -ef
+[16:54:48] <iKshitij_> clear
+[16:54:55] <smdeep> arthar360: ok
+[16:54:58] <praveenkumar> For more options better to read man ps and you will find lot of different options.
+[16:55:02] <iKshitij_> sorry ! {typo}
+[16:55:29] <praveenkumar> 9. How do you check logs if a service failed to execute?
+[16:55:43] <arthar360> journalctl -xn
+[16:55:45] <arthar360> journalctl -xe
+[16:56:18] <vbhjain> journalctl
+[16:56:30] <akorep> journalctl is also not working for me.
+[16:56:48] <praveenkumar> I always prefer journalctl -u <service_name> so that I can only iterate over specific service logs not all of them.
+[16:57:03] <praveenkumar> akorep: because you are using older version of ubuntu
+[16:57:12] <arthar360> akorep, SInce you are in Ubuntu, you will need to see the logs in /var/log
+[16:57:26] <praveenkumar> akorep: when you have time then update it to latest or install fedora-24
+[16:57:33] <shashank-loki> journalctl is not working.
+[16:57:43] <iKshitij_> sorry ! {typo}
+[16:57:56] <akorep> Is there an alternate command to journalctl like the one with systemctl?
+[16:58:23] <praveenkumar> shashank-loki: Again may be because your distro not have support for journalctl (older version of distro don't have it)
+[16:58:29] <amey> I think we need to cat the logs from /var/logs
+[16:58:34] <SRvSaha> praveenkumar: I am also using KDE. I tried installing Fedora 23 but it hangs while booting. Is there any issued with Nvidia graphics driver?
+[16:58:39] <amey> in older versions
+[16:58:42] <praveenkumar> akorep: you have to check with /var/logs then.
+[16:59:04] <deep_13> uname -a
+[16:59:09] <deep_13> sorry
+[16:59:18] <smdeep> SRvSaha: better to use Fedora 24
+[16:59:47] <praveenkumar> SRvSaha: I don't know because never had a laptop with graphics card but there are lot of thread about graphics driver issue which mostly solved so better to check on google.
+[16:59:48] <vharsh> smdeep, Is F24 stable? I had a tough time using F23 in December2015
+[17:00:01] <praveenkumar> vharsh: yes it is stable recently released
+[17:00:03] <smdeep> vharsh: Fedora 24 is one of the best
+[17:00:10] <smdeep> I liked it more than 22 and 23
+[17:00:26] <iKshitij_> SRvSaha try troubleshoot !
+[17:00:27] <vharsh> Any radical changes except inclusion of gcc6 ?
+[17:00:34] * vharsh finding chagelogs
+[17:00:47] <iKshitij_> SRvSaha It will ignore graphics issue
+[17:00:58] <praveenkumar> vharsh: we are going offtopic, let me ask last question and then you folks can carry on with discussion
+[17:01:12] <vharsh> praveenkumar, sorry
+[17:01:27] <praveenkumar> 10. how do you kill a process with ID?
+[17:01:34] <arthar360> kill -9 PID
+[17:01:35] <sandeepmaity09> kill %id
+[17:01:36] <vharsh> kill -9 <pid>
+[17:01:42] <tabrez> kill pid
+[17:01:49] <tgadsing_> kill pid
+[17:01:50] <praveenkumar> -9 is used for force kill so use that carefully.
+[17:01:53] <vharsh> ^ sends a sigterm, ie force
+[17:02:38] <praveenkumar> 11. how do you kill if you know process name instead of ID?
+[17:02:49] <vharsh> killall processname
+[17:02:52] <arthar360> killall process_name
+[17:02:53] <smdeep> pkill [rpcessname
+[17:03:13] <SpEcHiDe> xkill
+[17:03:49] <praveenkumar> now all of you check man for killall, pkill and xkill and you will understand which to use.
+[17:04:21] <arthar360> SpEcHiDe, xkill is used to kill the X server applications by clicking on it
+[17:05:31] <praveenkumar> That's all I had to referesh some linux commands which we can use everyday to make our life easy.
+[17:05:39] <praveenkumar> Any questions?
+[17:06:04] <pabitra> !
+[17:06:07] <praveenkumar> next
+[17:06:25] <pabitra> how to kill a parent process?? I gues we need to use pkill there
+[17:06:36] <pabitra> s/gues/guess
+[17:06:53] <praveenkumar> pabitra: you can get parent process ID and then can use kill <process_id>
+[17:07:17] <pabitra> ok
+[17:07:31] <praveenkumar> pabitra: try ps auxwf it will show parent-child processes.
+[17:08:00] <pabitra> thanks praveenkumar
+[17:08:42] <praveenkumar> Alright now if someone still want to practise linux command then check http://cli.learncodethehardway.org/book/
+[17:08:56] <aman_> !
+[17:09:00] <praveenkumar> next
+[17:09:18] <aman_> Can u explain about service command
+[17:09:22] <aman_> You
+[17:09:38] <PrashantJ> ping
+[17:09:38] <PrashantJ> sorry
+[17:09:42] <SRvSaha> smdeep: I am just asking is there any such compatibility issue of Nvidia driver? Cause I have been facing the problem in Ubuntu as well. So I had to switch to Kubuntu finding no other alternative :(
+[17:09:42] <SRvSaha> praveenkumar: Ok, I'll research on that . Thanks. :)
+[17:10:02] <praveenkumar> aman_: https://www.freedesktop.org/wiki/Software/systemd/ check that out, you will find required information.
+[17:10:12] <praveenkumar> roll call please
+[17:10:14] <akshays> Akshay Shipurkar
+[17:10:20] <Richard99> Mayank Gupta
+[17:10:21] <aman_> Thanks :)
+[17:10:22] <pyadav_> Pooja Yadav
+[17:10:23] <tgadsing_> Tejas Gadsing
+[17:10:25] <LambaInsaan> Rhitik Bhatt
+[17:10:25] <praveenkumar> #endclass
+[17:10:25] [## Class Ended at Mon Jul  4 17:10:25 2016 ##]

@@ -1,0 +1,257 @@
+Jun 25 23:04:26 <kushal>	-- Session starts --
+Jun 25 23:04:42 <kushal>	Welcome you all once again 
+Jun 25 23:04:43 <rtnpro>	kushal, yes
+Jun 25 23:04:49 <kushal>	Thanks for joining us here 
+Jun 25 23:05:13 <kushal>	may I ask you to tell your name and where are you from in one line everyone ?
+Jun 25 23:05:37 <anki1>	Ankit Sharma , Ghaziabad (U.P) , India
+Jun 25 23:05:57 <parthachowdhury>	Partha Chowdhury, Baranagar,Kolkata
+Jun 25 23:06:09 <Meejan_>	Meejanur Rahaman, Dugapur, West Bengal
+Jun 25 23:06:12 <akuscifi007>	Ankur jain , Ghaziabad , INDIA
+Jun 25 23:06:15 <zer0c00l>	Arun, Tirunelveli (T.N), india
+Jun 25 23:06:34 <rtnpro>	Ratnadeep Debnath, Durgapur, West Bengal
+Jun 25 23:07:07 *	enthudrives has quit ("Page closed")
+Jun 25 23:07:09 <kushal>	thanks
+Jun 25 23:07:23 <kushal>	very low attendance it seems 
+Jun 25 23:07:28 <priya>	Priya,Delhi,India
+Jun 25 23:07:30 <kushal>	anyway , few things
+Jun 25 23:07:39 <kushal>	Please attend all sessions 
+Jun 25 23:08:33 <kushal>	always ask if you have any  doubt 
+Jun 25 23:08:38 <kushal>	use the mailing list 
+Jun 25 23:08:50 <kushal>	and IMPORTANT -- read last year's logs 
+Jun 25 23:08:59 <kushal>	any questions ?
+Jun 25 23:09:18 <anki1>	no
+Jun 25 23:09:27 <priya>	no
+Jun 25 23:09:42 <akuscifi007>	no
+Jun 25 23:09:45 <kushal>	ok, going ahead
+Jun 25 23:10:02 <kushal>	This year we changed the format of the training 
+Jun 25 23:10:25 <kushal>	less direct sessions, more pressure on project works
+Jun 25 23:10:36 <anki1>	i like this !
+Jun 25 23:11:39 <rtnpro>	kushal, nice idea
+Jun 25 23:11:48 <kushal>	as we found out most of the students don't like to code at all, we are trying to get some developers here 
+Jun 25 23:11:48 *	priya has quit ("Ex-Chat")
+Jun 25 23:12:19 <Meejan_>	kushal, I have seen the project list
+Jun 25 23:12:35 *	priya (n=priya@59.180.145.48) has joined #dgplug
+Jun 25 23:12:36 <Meejan_>	kushal, I am a newbie in linux
+Jun 25 23:13:02 <kushal>	Meejan_, please type ! , and speak when the moderator asks you 
+Jun 25 23:13:18 <parthachowdhury>	!
+Jun 25 23:13:20 <Meejan_>	kushal, sorry.
+Jun 25 23:13:23 <kushal>	parthachowdhury, yes 
+Jun 25 23:13:46 <parthachowdhury>	can we have one java based project ?
+Jun 25 23:14:02 <parthachowdhury>	or python
+Jun 25 23:14:02 <kushal>	parthachowdhury, yes, we can sure give you some ideas 
+Jun 25 23:14:12 <parthachowdhury>	entirely in python
+Jun 25 23:14:15 <kushal>	parthachowdhury, language choice is yours
+Jun 25 23:14:46 <parthachowdhury>	then what should i choose ?
+Jun 25 23:14:58 <parthachowdhury>	from free software perspective ?
+Jun 25 23:14:59 *	aveek has quit (Read error: 110 (Connection timed out))
+Jun 25 23:15:08 <kushal>	parthachowdhury, depends on what kind of problem you want to solve ? 
+Jun 25 23:15:19 <parthachowdhury>	as java is not wholly free i think
+Jun 25 23:15:34 <kushal>	parthachowdhury, it is this days 
+Jun 25 23:15:38 <rtnpro>	kushal, I liked the idea "Fedora complete repository setup (offline) "
+Jun 25 23:15:50 <kushal>	rtnpro, please type ! if you need to talk 
+Jun 25 23:15:52 *	akuscifi007 has quit (Read error: 104 (Connection reset by peer))
+Jun 25 23:15:56 <parthachowdhury>	but in fedora wiki
+Jun 25 23:16:01 <rtnpro>	kushal, sorry
+Jun 25 23:16:08 *	akuscifi007 (n=akuscifi@122.162.83.180) has joined #dgplug
+Jun 25 23:16:10 <kushal>	parthachowdhury, we can talk on that later
+Jun 25 23:16:10 <parthachowdhury>	it is said some classpath related part a
+Jun 25 23:16:15 <parthachowdhury>	ok
+Jun 25 23:16:24 <kushal>	so coming back 
+Jun 25 23:17:15 <kushal>	we have couple of ideas 
+Jun 25 23:17:23 <kushal>	written in the wiki, will add some more 
+Jun 25 23:17:37 <kushal>	plus one can choose any other project to work on 
+Jun 25 23:17:51 *	aveek1 (n=aveek@117.198.36.49) has joined #dgplug
+Jun 25 23:17:54 <kushal>	but you have to work on a project 
+Jun 25 23:18:54 <kushal>	better if you can make two people team for the projects 
+Jun 25 23:19:06 <kushal>	language choice is yours (mostly)
+Jun 25 23:20:39 *	aveek1 (n=aveek@117.198.36.49) has left #dgplug
+Jun 25 23:20:50 <kushal>	please go through that list in the wiki http://wiki.dgplug.org/index.php/SummerTraining09#List_of_projects.2Ftasks
+Jun 25 23:21:03 *	aveek1 (n=aveek@117.198.36.49) has joined #dgplug
+Jun 25 23:21:17 <parthachowdhury>	!
+Jun 25 23:21:23 <zer0c00l>	!
+Jun 25 23:21:25 <kushal>	parthachowdhury, yes please
+Jun 25 23:21:41 <parthachowdhury>	how many project can one choose ?
+Jun 25 23:22:19 <parthachowdhury>	i see that
+Jun 25 23:22:30 <parthachowdhury>	many prject on system adm.
+Jun 25 23:22:31 <kushal>	parthachowdhury, I guess you will be able to work on one at a time as a newbie, if one can work on 10 projects , he/she is very much welcome 
+Jun 25 23:22:55 <kushal>	parthachowdhury, please type <eof> when you are done 
+Jun 25 23:22:56 <rtnpro>	!
+Jun 25 23:23:02 <kushal>	zer0c00l, yes
+Jun 25 23:23:07 <zer0c00l>	i would like to add my comment on the project "Beautify IRC logs " Fedora-classroom people use some kindof python script to make irc logs color full
+Jun 25 23:23:24 <zer0c00l>	do we need rework?
+Jun 25 23:23:28 <zer0c00l>	<eof>
+Jun 25 23:23:54 <kushal>	zer0c00l, I guess they do that for wiki markup only , one can easily work on for html or pdf 
+Jun 25 23:24:03 <kushal>	multiple output 
+Jun 25 23:24:15 <kushal>	you can take their script to start with 
+Jun 25 23:24:29 <kushal>	zer0c00l, talk with mbuf to get more details on this 
+Jun 25 23:24:33 <kushal>	rtnpro, yes
+Jun 25 23:25:07 <aveek1>	!
+Jun 25 23:25:10 <rtnpro>	I would like to work on Fedora complete repository setup (offline) , anyone willing to team up
+Jun 25 23:25:29 <aveek1>	rtnpro: +1
+Jun 25 23:25:42 <zer0c00l>	rtnpro, +1
+Jun 25 23:25:44 <spechard>	!
+Jun 25 23:25:47 <parthachowdhury>	+1
+Jun 25 23:25:50 *	anki11 (n=ankit@117.197.51.167) has joined #dgplug
+Jun 25 23:25:52 <kushal>	ok all
+Jun 25 23:25:53 <rtnpro>	aveek1, way to go man :D
+Jun 25 23:26:00 <kushal>	+1 actually does not mean anything 
+Jun 25 23:26:19 <kushal>	please don't use +1 in everything in the world
+Jun 25 23:26:37 <zer0c00l>	kushal, why?
+Jun 25 23:26:37 <parthachowdhury>	ok..sorry
+Jun 25 23:26:40 <kushal>	aveek1, yes 
+Jun 25 23:26:47 <akuscifi007>	!
+Jun 25 23:26:47 <kushal>	zer0c00l, +1 
+Jun 25 23:26:57 <zer0c00l>	sorry
+Jun 25 23:27:07 <kushal>	zer0c00l, now tell me what you get that from that '+1' ?
+Jun 25 23:27:18 <zer0c00l>	kushal, its meaning less
+Jun 25 23:27:25 <aveek1>	kushal: when are the groups finalised.this session itself.right?
+Jun 25 23:27:58 <kushal>	aveek1, no
+Jun 25 23:28:00 <zer0c00l>	kushal, sorry for that i didnt get you at the first time
+Jun 25 23:28:06 <kushal>	zer0c00l, np 
+Jun 25 23:28:07 *	rtnpro still waiting for a response from someone
+Jun 25 23:28:21 <kushal>	aveek1, you can take your time , say 1 week 
+Jun 25 23:28:30 <kushal>	spechard, please 
+Jun 25 23:28:59 <spechard>	same question as aveek1 actually, wanted to propose to make a team on the project i'd like to do
+Jun 25 23:29:05 <spechard>	i would like to work on 'Movie collection catalog', I planned to do this in Qt ( http://www.qtsoftware.com/downloads ), anyone want to join me?
+Jun 25 23:29:11 <parthachowdhury>	rtnpro: i will team up with you
+Jun 25 23:29:25 <spechard>	please respond in private messages <EOF>
+Jun 25 23:29:28 <rtnpro>	parthachowdhury, you are welcome
+Jun 25 23:29:32 <rtnpro>	:)
+Jun 25 23:29:38 <parthachowdhury>	:)
+Jun 25 23:29:39 <kushal>	spechard, about that project 
+Jun 25 23:30:11 <kushal>	it will basically go through your collection on hard disk , get details from IMDB or other sites , keep them in a db 
+Jun 25 23:30:20 <kushal>	will give features to search 
+Jun 25 23:30:28 <kushal>	may have cover images 
+Jun 25 23:30:49 <kushal>	btw, piracy is bad :p
+Jun 25 23:30:55 <zer0c00l>	kushal, lol
+Jun 25 23:30:56 <spechard>	seems ok for me, Qt is ok?
+Jun 25 23:31:14 <kushal>	spechard, yes very much , I love Qt 
+Jun 25 23:31:27 *	priya has quit (Read error: 110 (Connection timed out))
+Jun 25 23:31:30 <parthachowdhury>	!
+Jun 25 23:31:31 <spechard>	cool, love it too!
+Jun 25 23:31:31 *	akuscifi007 has quit (Read error: 104 (Connection reset by peer))
+Jun 25 23:31:36 <kushal>	parthachowdhury, ?
+Jun 25 23:31:46 <parthachowdhury>	what is kernel SMS ?
+Jun 25 23:32:07 *	akuscifi007 (n=akuscifi@122.162.83.180) has joined #dgplug
+Jun 25 23:32:20 <kushal>	parthachowdhury, I don't know, ask mbuf for details 
+Jun 25 23:32:44 <parthachowdhury>	searching now, seems complicated !
+Jun 25 23:32:45 <kushal>	about the desktop wallpaper project
+Jun 25 23:33:23 <anki11>	Anyone willing to do hospital management or tax calculation ?
+Jun 25 23:33:33 <akuscifi007>	!
+Jun 25 23:33:44 <parthachowdhury>	those are hot projects !
+Jun 25 23:33:51 <akuscifi007>	what about web development using LAMP .
+Jun 25 23:33:58 <anki11>	yeah
+Jun 25 23:34:01 <akuscifi007>	a mega site
+Jun 25 23:34:03 <anki11>	go for it
+Jun 25 23:34:03 <parthachowdhury>	adds value to one's experience
+Jun 25 23:34:10 <anki11>	i m there
+Jun 25 23:34:18 <kushal>	A gnome app (gtk or pygtk) which can download free wallpapers from gnome-looks or flickr or http://www.deviantart.com/ and make it work 
+Jun 25 23:34:25 <parthachowdhury>	hospital management for me
+Jun 25 23:34:37 <anki11>	good
+Jun 25 23:34:40 <kushal>	akuscifi007, don't talk unless you are told to 
+Jun 25 23:35:08 <akuscifi007>	kushal , ok
+Jun 25 23:35:25 <anki11>	!
+Jun 25 23:35:29 <zer0c00l>	!
+Jun 25 23:35:36 <kushal>	anki11, yes
+Jun 25 23:35:56 <anki11>	is it necessary to use RoR . can we use LAMP ?
+Jun 25 23:36:19 <spechard>	!
+Jun 25 23:36:34 <kushal>	anki11, talk with mbuf for details on that 
+Jun 25 23:36:38 <kushal>	zer0c00l, yes
+Jun 25 23:36:46 <zer0c00l>	kushal, my question is same as anki11
+Jun 25 23:36:51 <zer0c00l>	eof
+Jun 25 23:36:57 <kushal>	spechard, yes
+Jun 25 23:36:59 <spechard>	when is the end of the projects? <EOF>
+Jun 25 23:37:24 <zer0c00l>	!
+Jun 25 23:37:36 <kushal>	spechard, end of july to mid august , 
+Jun 25 23:37:46 <kushal>	spechard, but that is not end of project 
+Jun 25 23:38:02 <kushal>	spechard, if you are doing a good work, you should continue on that 
+Jun 25 23:38:07 <spechard>	suer
+Jun 25 23:38:09 <spechard>	sure
+Jun 25 23:38:17 <kushal>	spechard, like for that movie app, we have many users waiting 
+Jun 25 23:38:26 <kushal>	zer0c00l, yes
+Jun 25 23:38:29 <zer0c00l>	Tell us about Thunderbird/Firefox profile porter  and what is PEM in "Firefox extension for pem "
+Jun 25 23:39:17 <kushal>	zer0c00l, ok
+Jun 25 23:39:34 <kushal>	zer0c00l, about Thunderbird or firefox profiler 
+Jun 25 23:40:28 <kushal>	zer0c00l, we use these apps regularly with many kind of customized things, like add-ons, password details 
+Jun 25 23:40:49 *	munichlinux has quit (Read error: 110 (Connection timed out))
+Jun 25 23:41:24 <kushal>	when we go to a new system, then it becomes difficult to fix that app to look/work like same again 
+Jun 25 23:42:21 *	anki1 has quit (Read error: 110 (Connection timed out))
+Jun 25 23:42:39 <kushal>	so, our app will copy all details, when the user uses that data in another system, it should get all things as same as the primary machine 
+Jun 25 23:42:40 <aveek1>	!
+Jun 25 23:42:44 <kushal>	aveek1, yes
+Jun 25 23:43:03 <aveek1>	could it be something outside the list mentioned?
+Jun 25 23:43:20 <kushal>	aveek1, yes 
+Jun 25 23:43:26 <spechard>	!
+Jun 25 23:43:34 <kushal>	spechard, yes
+Jun 25 23:43:45 <spechard>	is there a place where we could publicly manage the project?
+Jun 25 23:43:58 <kushal>	spechard, yes, coming for those details 
+Jun 25 23:44:07 <spechard>	thanks <EOF>
+Jun 25 23:44:15 <aveek1>	!
+Jun 25 23:44:21 <kushal>	aveek1, 
+Jun 25 23:44:42 <aveek1>	would someone me mentoring us? i am new to it & need guidance
+Jun 25 23:45:07 <kushal>	aveek1, yes, we will get mentors 
+Jun 25 23:45:17 <kushal>	but mentors will not write code for you 
+Jun 25 23:45:41 <aveek1>	yes..i understand that..mbuf also had a doc on it
+Jun 25 23:46:25 <kushal>	ok
+Jun 25 23:47:14 <kushal>	now, 
+Jun 25 23:47:29 <kushal>	you can choose any site to host your project details 
+Jun 25 23:47:39 <kushal>	like sf.net 
+Jun 25 23:47:55 <kushal>	but I would like to ask you to use http://fedorahosted.org 
+Jun 25 23:48:12 <anki11>	okay
+Jun 25 23:48:34 <kushal>	to use that you need to create an account in https://admin.fedoraproject.org/accounts/
+Jun 25 23:49:18 <kushal>	after you create your account there, you will automatically get 150MB disk space in fedorapeople.org also 
+Jun 25 23:49:29 <kushal>	you can use that for any foss related work 
+Jun 25 23:49:56 <kushal>	and do always use a source code management tool for code
+Jun 25 23:50:01 <kushal>	like svn for git 
+Jun 25 23:50:27 <kushal>	^^ you have to say that in your application in fedorahosted.org 
+Jun 25 23:50:50 <kushal>	we will have sessions o next week by mbuf iircn
+Jun 25 23:50:56 <kushal>	s/o/on
+Jun 25 23:51:17 <kushal>	s/iircn/iirc
+Jun 25 23:52:01 <kushal>	btw, subtitle download will download subtitle for any given movie
+Jun 25 23:52:38 <aveek1>	! suggestion
+Jun 25 23:53:02 <kushal>	aveek1, wait for a minute 
+Jun 25 23:53:30 <kushal>	pem is the personal expense manager -- http://pjp.dgplug.org/tools/
+Jun 25 23:53:40 <kushal>	it is a command line based tool 
+Jun 25 23:54:00 <kushal>	we need a firefox extension for that 
+Jun 25 23:54:03 <kushal>	aveek1, yes
+Jun 25 23:55:17 <aveek1>	in the movie cataloging project, we could also include a better youtube downloader
+Jun 25 23:55:17 *	akuscifi007 has quit (Read error: 54 (Connection reset by peer))
+Jun 25 23:55:25 <aveek1>	the ones there take a lot of time
+Jun 25 23:55:42 *	akuscifi007 (n=akuscifi@122.162.83.180) has joined #dgplug
+Jun 25 23:55:53 <aveek1>	if a script with time dalay is used to get it from the temp folder it will be much quicker
+Jun 25 23:56:03 <kushal>	aveek1, they are two different projects I guess
+Jun 25 23:56:03 <aveek1>	*delay
+Jun 25 23:56:11 <aveek1>	yes
+Jun 25 23:56:28 <kushal>	aveek1, you can use clive to download from youtube or google video , it is too good
+Jun 25 23:56:51 <kushal>	aveek1, and it is as fast as your connection 
+Jun 25 23:58:01 *	mavu_ (i=3bb2b523@gateway/web/freenode/x-108604140dd9d9dc) has joined #dgplug
+Jun 25 23:58:26 <aveek1>	thanks... i copy-paste from the temp folder after the video is streamed
+Jun 25 23:59:13 <zer0c00l>	!http://code.google.com/p/cclive/
+Jun 25 23:59:58 <aveek1>	zer0c00l: thanks
+Jun 26 00:00:56 <kushal>	zer0c00l, cclive and clive are two different apps
+Jun 26 00:01:07 <zer0c00l>	oh
+Jun 26 00:01:33 <zer0c00l>	http://code.google.com/p/clive/
+Jun 26 00:01:35 <aveek1>	cclive is a command line video extraction utility similar to clive but with lower requirements. ..from its page
+Jun 26 00:01:36 <zer0c00l>	:)
+Jun 26 00:01:43 <zer0c00l>	yes
+Jun 26 00:01:50 <kushal>	any one is having any other question or queries ?
+Jun 26 00:02:29 <zer0c00l>	!
+Jun 26 00:02:29 *	akuscifi007 has quit (Read error: 54 (Connection reset by peer))
+Jun 26 00:02:35 <kushal>	zer0c00l, yes
+Jun 26 00:02:44 *	akuscifi007 (n=akuscifi@122.162.83.180) has joined #dgplug
+Jun 26 00:03:03 <zer0c00l>	kushal, i think there is lack of good download managers..Why dont we write one ?
+Jun 26 00:03:23 <kushal>	zer0c00l, no one is stopping now to write one 
+Jun 26 00:03:34 <zer0c00l>	:P
+Jun 26 00:03:39 <kushal>	zer0c00l, go ahead and write one 
+Jun 26 00:03:44 <zer0c00l>	kushal, sure
+Jun 26 00:03:50 <kushal>	ok
+Jun 26 00:04:02 <kushal>	any thing else , any questions ?
+Jun 26 00:04:10 <yevlempy>	!
+Jun 26 00:04:13 <kushal>	yevlempy, yes
+Jun 26 00:04:19 *	priti_ (n=priti@support.deeproot.co.in) has joined #dgplug
+Jun 26 00:04:52 <yevlempy>	kushal there is one project on web development tax one.
+Jun 26 00:05:06 <kushal>	yevlempy, talk with mbuf on that 
+Jun 26 00:05:19 <yevlempy>	ok.
+Jun 26 00:06:15 <kushal>	if no more question, I am closing this session 
+Jun 26 00:06:44 *	zer0c00l has quit ("goodnight")
+Jun 26 00:06:53 <kushal>	--session stopped --

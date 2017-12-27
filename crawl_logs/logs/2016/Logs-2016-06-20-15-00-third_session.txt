@@ -1,0 +1,832 @@
+[15:00:25] [## Class Started at Tue Jun 21 15:00:25 2016 ##]
+[15:00:25] <sayan> startclass
+[15:00:33] <sayan> Roll Call
+[15:00:34] <code_geek> Shantanu Acharya
+[15:00:35] <arthar360> Atharva Deshmukh
+[15:00:38] <LambaInsaan> Rhitik BHatt
+[15:00:39] <ShaswataD> Shaswata Dutta
+[15:00:39] <abstatic> Abhishek Shrivastava
+[15:00:39] <PrashantJ> Prashant Jamkhande
+[15:00:41] <amey> Amey Jain
+[15:00:41] <satya4ever> Satyajit Bulage
+[15:00:41] <gumil> Agung Gumilang
+[15:00:42] <vbhjain> vaibhav jain
+[15:00:42] <rajalokan> Alok Kumar
+[15:00:43] <ksaikiranr> K Sai Kiran
+[15:00:43] <pabitrakumarpati> Pabitra Pati
+[15:00:43] <sandy_> sandeep kumar choudhary
+[15:00:44] <suniva> Suniva Priyadarshini
+[15:00:44] <prashaant> Prashant Sharma
+[15:00:44] <ketank> Ketan Kumar
+[15:00:45] <mahesh5> Mahesh Gahlot
+[15:00:45] <nishapoyarekar> Nisha Poyarekar
+[15:00:45] <akshays> Akshay Shipurkar
+[15:00:45] <isaagar> Sagar Ippalpalli
+[15:00:45] <thisisashwani> Ashwani Pandey
+[15:00:46] <fhackdroid> Farhaan Bukhsh
+[15:00:47] <JoelIsSPL> Joel Estibeiro
+[15:00:48] <ak_d> Akhilesh Dhaundiyal
+[15:00:48] <cosmologist10> shweta suman
+[15:00:48] <tejasgadsing> tejas gadsing
+[15:00:48] <CuriousLearner> Sanyam Khurana
+[15:00:49] <akash47> Akash Mishra
+[15:00:49] <maushmi> msaushmi
+[15:00:49] <kunalk> Kunal Kumar
+[15:00:50] <gobinda_> Gobinda Akhuli
+[15:00:50] <shobhitupadhyay> shobhit upadhyay
+[15:00:50] <yASH> Yashwanth M
+[15:00:50] <trishnag> Trishna Guha
+[15:00:51] <juggernaut451> Ashutosh Kumar Singh
+[15:00:53] <rahuldecoded_> Rahul Bhattacharjee
+[15:00:55] <shanky_> G Shashank Rao
+[15:00:56] <chshbh> Avinash Madhukar
+[15:01:00] <Anandprakash> Anandprakash Tandale
+[15:01:03] <sandeepmaity09> Sandeep Maity
+[15:01:04] <Sparker0i> Aaditya Menon
+[15:01:07] <real56> Varsha R
+[15:01:07] <snarwade> Suraj Narwade
+[15:01:12] <abhishekg5> Abhishek Gupta
+[15:01:20] <thisisashwani> Sparker0i: you can google for that
+[15:01:21] <dweep> Deepanshu Kapoor
+[15:01:26] <smdeep> Sudeep Mukherjee
+[15:01:27] <Krishna> Krishna Biradar
+[15:01:30] <gkadam> Ganesh Kadam
+[15:01:40] <ananthakrishnan> Ananthakrishnan H
+[15:01:43] <sdas> Subhradip Das
+[15:01:51] <anushil051> Anushil KUmar
+[15:01:57] <abk1> Abheek
+[15:01:58] <rohan_h> Rohan Hazra
+[15:02:32] <rangzen> Tenzin Kunkyab
+[15:02:33] <srinidhir> Srinidhi R
+[15:02:41] <d1ndra> Indranil Dutta
+[15:02:50] <fhackdroid> vivek_, o/ you are here :)
+[15:02:59] <moizsajid_> Moiz Sajid
+[15:03:06] <yoda_> Piyush
+[15:03:12] <indiabhi> Abhishek rai
+[15:03:14] <D1mz> Aditya Bayana
+[15:03:41] <abhishekg5> chandankumar, ping
+[15:03:47] <sayan> Any questions from yesterday's assginment?
+[15:03:54] <mhalano> Marcos H. Alano
+[15:04:00] <aman935> Aman Singh
+[15:04:24] <vbhjain> !
+[15:04:34] <avik> Avik Mukherjee
+[15:04:43] <mhalano> !
+[15:04:49] <sayan> next
+[15:04:56] <sayan> next
+[15:05:01] <vbhjain> sayan,what is the PEP ?
+[15:05:18] * sayan forgot to clear batul's queue
+[15:05:27] <vbhjain> sayan,what is the PEP ?
+[15:05:41] <sayan> vbhjain: PEP is a style guide for Python
+[15:05:55] <sandeepmaity09> !
+[15:06:04] <sayan> on how you should be writing your code!
+[15:06:11] <sayan> vbhjain: https://www.python.org/dev/peps/pep-0008/
+[15:06:13] <sayan> next
+[15:06:15] <mhalano> It's for yesterday assignment. What is a polite way to ask to join a project? In slides I just could see not polite ways.
+[15:06:44] <ananthakrishnan> sayan, could you please tell about yesterdays assignment once more?
+[15:07:06] <CuriousLearner> ananthakrishnan, please wait for your turn
+[15:07:13] <vbhjain> sayan,ok
+[15:07:34] <sayan> ananthakrishnan: you are joining today right? to ask question you need to use !
+[15:07:39] <prashaant> !
+[15:07:46] <sayan> and wait until your turn
+[15:07:53] <ananthakrishnan> !
+[15:08:30] <sayan> mhalano: you can write an email preferably an introuduction email telling about yourself and expertise
+[15:08:38] <indiabhi> !
+[15:09:07] <mhalano> sayan, but what is the language we could use
+[15:09:19] <sayan> mhalano: English!?
+[15:09:31] <hemanth_savasere> sorry I'm late Rollcall : Hemanth
+[15:09:36] <sayan> next
+[15:09:36] <mhalano> I read a, IMHO, a polite way and a unpolite way but seems both are unpolite
+[15:09:42] <sandeepmaity09> sayan, What is Python's BDFL ?
+[15:09:52] <sneo> RollCall: Sarah Masud
+[15:09:54] <arthar360> next
+[15:10:01] <arthar360> .link
+[15:10:02] <Richard99> Roll Call : Mayank Gupta
+[15:10:15] <shalaka> RollCall: Shalaka
+[15:10:18] <anushil051> !
+[15:10:18] <D1nz> Roll Call: Dinesh
+[15:10:31] <sayan> mhalano: https://fedoraproject.org/wiki/Introduce_yourself_to_the_marketing_group
+[15:10:33] <skarale> snehal karale
+[15:10:41] <ritesh> Roll call : Ritesh Mukim
+[15:10:52] <sayan> sandeepmaity09: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life
+[15:11:09] <yASH> Sandeepmaity09: Benevolent dictator for life usually Guido the creator is referred as that you can google it
+[15:11:30] <sandeepmaity09> ohk, got it
+[15:11:34] <sayan> I repeat before asking question do your own research
+[15:11:58] <sayan> use search engines and try to find the answer on your own
+[15:12:02] <jargonmonk> Roll Call: Aniket Khisti
+[15:12:05] <ananthakrishnan> sayan, could you please tell about yesterdays assignment once more?
+[15:12:14] <sayan> next
+[15:12:18] <prashaant> sayan: How the previous assignment is going to be of any help to a python novice , it was about someone (I respect that person) doing great stuff in python, but again how does that helps someone who hasn't wrote a single line in python , like many in this class ? I just want to say that  assignment could've been after teaching some python
+[15:12:19] <vbhjain> !
+[15:12:31] <LambaInsaan> Anandprakash, https://dgplug.org/irclogs/2013/2013-07-17-ncoghlan.log
+[15:12:36] <Sparker0i> What will be today's session about?
+[15:12:48] <hemanth_savasere> !
+[15:12:57] <LambaInsaan> Sorry  ananthakrishnan
+[15:12:59] <avik> prashaant, +1
+[15:13:19] <vharsh> prashaant, +1
+[15:13:27] <rahuldecoded_> prashaant that was a guest session.
+[15:13:57] <sayan> prashaant: agree, but that was a guest session from someone in the Python community
+[15:14:19] <sayan> prashaant: questions were not restricted to Python
+[15:14:36] <sayan> next
+[15:14:37] <rahuldecoded_> sayan +1
+[15:14:44] <indiabhi> ncoghlan meantions about two of his talks, Do we have to watch both of them as well? I watched one which was related to contributing to CPython but not the other one
+[15:14:54] <indiabhi> how difficult is it to contribute to cpython for an intermediate python developer?
+[15:14:54] <Anandprakash> Thanks LambaInsaan
+[15:14:56] <abhishekg5> prashaant, slowly you'll get the knack of it. It's 3rd day of training
+[15:15:16] <shalaka> !
+[15:15:30] <ananthakrishnan> could you please tell about yesterdays assignment once more?
+[15:15:55] <gkadam> ananthakrishnan, https://dgplug.org/irclogs/2013/2013-07-17-ncoghlan.log
+[15:15:56] <sayan> ananthakrishnan: we gave to read this log - https://dgplug.org/irclogs/2013/2013-07-17-ncoghlan.log
+[15:16:07] <ananthakrishnan> ok
+[15:16:17] <sayan> ananthakrishnan: you can see the logs of the earlier class here - https://dgplug.org/irclogs/2016/
+[15:16:19] <sayan> next
+[15:16:26] <anushil051> what is GET call
+[15:16:32] <anushil051> sry
+[15:16:46] <rahul_bajaj> ananthakrishnan, it would be great if you used - ! to ask a question.
+[15:17:02] <LambaInsaan> anushil051, It's sorry.
+[15:17:02] <prashaant> sayan: okay I just thought of it keeping beginners in mind.I thought someone could get intimated by reading that (If h/she hasn't written some code), but thank you for your response
+[15:17:13] <pabitrakumarpati> ananthakrishnan, there are so many replies to your query... Instead of asking again and again, you need to scroll up and see...
+[15:17:14] <vbhjain> !
+[15:17:28] <mhalano> !
+[15:17:33] <indiabhi> ncoghlan meantions about two of his talks, Do we have to watch both of them as well? I watched one which was related to contributing to CPython but not the other one
+[15:17:39] <indiabhi> how difficult is it to contribute to cpython for an intermediate python developer?
+[15:18:14] <rahul_bajaj> indiabhi, please use ! to ask questions.
+[15:18:26] <shashank> !
+[15:18:33] <indiabhi> yeah i did, it was my turn apparantely :/
+[15:18:37] <trishnag> rahul_bajaj: He did :)
+[15:18:46] <sayan> rahul_bajaj: indiabhi's turn :)
+[15:19:01] <rahul_bajaj> indiabhi, i am sorry dint see that :)
+[15:19:33] <sayan> indiabhi: good you watched the talks :) Not neccessary now but you can have a look at non-technicals talks
+[15:19:53] <sayan> indiabhi: not that difficult to contribute to CPython, just like any other project
+[15:19:55] <sayan> next
+[15:20:00] <indiabhi> okay :)
+[15:20:02] <anushil051> what is GET call ?
+[15:20:34] <sayan> anushil051: GET call is something related to APIs which would be advanced for the beginners here
+[15:21:00] <sayan> so let's skip it. Btw, you can google it
+[15:21:01] <sayan> next
+[15:21:10] <vbhjain> sayan , I'm providing the part of conversation in which I have the problem :
+[15:21:11] <vbhjain> <sayan> ncoghlan, you told about pythonmentors.com, are there mentored bugs in Python? how do we identify them?<ncoghlan> sayan: we try to mark bugs that we think are good starting points with "easy" in the tracker
+[15:21:11] <vbhjain> .<ncoghlan> but the standard library is so bug, it's hard to use that flag appropriately
+[15:21:11] <vbhjain> ?   which flag <ncoghlan> is taking about?
+[15:21:12] <CuriousLearner> anushil051, still if you want to learn about it, you can refer here: http://www.restapitutorial.com/lessons/httpmethods.html and ask after class if you've any doubt
+[15:22:00] <pabitrakumarpati> !
+[15:22:08] <sayan> CuriousLearner: +!
+[15:22:10] sk_ is now known as ksaikiranr
+[15:22:49] <sayan> vbhjain: issues in open source projects are tagged/flagged so that people who can pick up issues
+[15:22:58] <sayan> a new comer will pick up easy issues
+[15:23:13] <CuriousLearner> vbhjain, each bug is tagged with a flag so that it's easy to know which part is affected and how difficult it is to fix the bug. Most of the bug trackers have 'beginner' tags or similar
+[15:23:14] <sayan> next
+[15:23:17] <hemanth_savasere> Can anyone tell me what is the mailing atticates followed in open source and is it different from those used in professional industry ?
+[15:23:17] <chirath> !
+[15:23:25] <vbhjain> sayan,ok
+[15:23:38] <gkadam> anushil05, also you can read http://www.rfc-base.org/txt/rfc-2616.txt
+[15:23:46] <snarwade> hemanth_savasere, etiquettes*
+[15:23:53] <hemanth_savasere> sorry
+[15:23:56] <sayan> hemanth_savasere: depends, some company set their own ettiquetes.
+[15:24:09] <chshbh> hemanth_savasere : one of them is, grammar need not be correct, but check for spellings.
+[15:24:28] <sayan> but the open source one are kind of the good ones so you can follow them too in professional life
+[15:24:29] <vbhjain> !
+[15:24:34] <sayan> I myself follow that
+[15:24:37] <sayan> next
+[15:24:40] <shalaka> what will be todays session about on python or question answer seesion only ?
+[15:25:09] <kushal> Btw, we do have http://rfc.dgplug.org
+[15:25:09] <vbhjain> sayan, upto how much degree python scripting is important for system 1.administrators ? and for 2.system developers ?
+[15:25:21] <sayan> shalaka: yes, today we will be start with basic linux commands
+[15:25:32] <shalaka> thanks
+[15:25:50] <abstatic> +1 vbhjain
+[15:26:30] <sayan> vbhjain: sky is the limit, the more you know the better
+[15:26:38] <rahuldecoded_> kushal what's that in your link?
+[15:26:49] <kushal> rahuldecoded_, google for rfc
+[15:26:51] <vbhjain> sayan,ok
+[15:27:05] <CuriousLearner> sayan, +1
+[15:27:06] <sayan> It also depends on which project you are interested not all administrators and sys devs learn same level of Python
+[15:27:32] <sayan> some may work in other, so they might go deeper in that language
+[15:27:33] <sayan> next
+[15:27:57] <sayan> next
+[15:27:59] <mhalano> Same question as before, mas with references. I found this line on yesterday assignment: âI like to be a project member in your team. please send me the detailsâ. How this could be an unpolite? Maybe say the same as a question, like "I like to be a project member in your team. Could you send me the details?"?
+[15:28:11] <mhalano> s/mas/but
+[15:28:46] <hemanth_savasere>  mhalano +1
+[15:28:46] <kushal> mhalano, People first need to spend time with a project.
+[15:28:47] ananthakrishnan is now known as anonymous619916
+[15:29:06] <vbhjain> !
+[15:29:22] <kushal> Any amount of help is nice, but first one should spend time with the project to call himself/herself a member.
+[15:29:22] <anushil051> !
+[15:29:31] <sayan> next
+[15:29:35] <sayan> next
+[15:29:40] <pabitrakumarpati> pythonmentors.com/core-mentorship@python.org
+[15:29:45] <tabrez> kushal +1
+[15:29:59] <pabitrakumarpati> these links are project for python i guess
+[15:30:09] <pabitrakumarpati> but how could they help beginner
+[15:30:29] <mayurparik> server not found!
+[15:30:30] <buvanesh_kumar> Buvanesh Kumar
+[15:30:50] <pabitrakumarpati> are any survey kinda thing lies here
+[15:31:21] <kushal> pabitrakumarpati, No. You will learn more in the later part of the training.
+[15:31:37] <anonymous619916> meanwhile malayalis https://usercontent.irccloud-cdn.com/file/W3gHuENS/1118.jpg
+[15:31:48] <kashyap638> !
+[15:32:00] <pabitrakumarpati> @kushal, so can i say i need nt to worry on this for now ??
+[15:32:01] <arthar360> pabitrakumarpati, kinda = kind of?
+[15:32:11] <sayan> pabitrakumarpati: Python has this program as core-mentorship. As a complete befineer it's not useful but check that after we have the Python sessions
+[15:32:23] <kushal> pabitrakumarpati, Yes, no need to worry.
+[15:32:24] <sayan> then it will make sense
+[15:32:29] <sayan> next
+[15:32:30] <pabitrakumarpati> arthar360, yes... sorry for using short hand... :(
+[15:32:32] <chirath> Already answered :)
+[15:32:39] <sayan> chirath: cool :)
+[15:32:41] <avik> !
+[15:32:42] <sayan> next
+[15:32:47] <vbhjain> sayan,Why <ncoghlan> said that python is easy to learn and difficult to master ? if it is the case then how much a novice should work ,to be tuned with the training going on?
+[15:33:08] <Anandprakash> !
+[15:33:09] <pabitrakumarpati> oh ok... thanks kushal sayan
+[15:33:20] <PrashantJ> vbhjain, +1
+[15:33:32] <sayan> vbhjain: it's takes an afternoon to learn Python if you have prior knowledge in a programming language
+[15:34:02] <shanky_> vbhjain, +1
+[15:34:06] <sayan> But this is true for any language that it takes 10 years to learn a skill
+[15:34:20] <sayan> vbhjain: we will learn it later today
+[15:34:21] <sayan> next
+[15:34:24] <sayan> next
+[15:34:30] <sayan> next
+[15:34:31] <anushil051> kushal:what is in that link and what is rfc i didn't get it??'
+[15:35:05] <pksadiq> anonymous619916: à´®à´²à´¯à´¾à´³à´¿? à´¨à´²àµà´²à´¤àµ âº
+[15:35:11] <sayan> anushil051: compare RFC as protocols/rules for now.
+[15:35:13] <kashyap638> kushal : where i get the log of previous class
+[15:35:14] <sayan> next
+[15:35:17] <avik> just ou of curiosity>>>> cnuguys login as boyh admin and normal(like us)? kushal is not in admin list thats why! :)
+[15:35:21] <pabitrakumarpati> pksadiq, what are these symbols ??
+[15:35:25] <anushil051> ok
+[15:35:41] <vharsh> pksadiq, :)
+[15:35:45] <avik> oops lot of mistakes :(
+[15:35:47] <anushil051> do we have to see that link
+[15:35:54] <pksadiq> pabitrakumarpati: Sorry, that's malayalam
+[15:35:55] <rahuldecoded_> kashyap638 https://dgplug.org/irclogs/2016/
+[15:36:10] <sayan> pksadiq: should not be discussed while class is going on
+[15:36:16] <kushal> anushil051, https://en.wikipedia.org/wiki/Request_for_Comments
+[15:36:16] <pksadiq> sorry
+[15:36:34] <sayan> next
+[15:36:35] <kashyap638> thanks rahuldecoded
+[15:36:39] <Anandprakash> If I have many py files  and I want to know which program is entry point, what is the way/approach should I follow?
+[15:36:44] <kushal> avik, sorry, could not understand your question.
+[15:37:02] <sayan> kushal: avik: I guess that was a mistake
+[15:37:19] <avik> okay leave it
+[15:37:52] <vbhjain> !
+[15:37:54] <sayan> Anandprakash: usually you get to know that from the documentation or the setup.py
+[15:38:00] <sayan> going in detail is out of scope
+[15:38:05] <Richard99> !
+[15:38:09] <sayan> next
+[15:38:10] <Anandprakash> okay,thanks
+[15:38:14] <vbhjain> sayan, what is the purpose of python -m antigravity told by <ncoghlan>
+[15:38:21] <pabitrakumarpati> Anandprakash, I guess if you are making a pri=oject then __init__.py will be your entry point
+[15:38:23] <Sparker0i> !
+[15:38:24] <rahuldecoded_> Anandprakash i think you should study the codes first. You will get to know about it. No one can guess with the file name
+[15:38:31] anonymous619916 is now known as ananthakrishnan
+[15:38:33] <prashaant> vbhjain: just for fun
+[15:38:38] <vharsh> easter egg
+[15:39:00] <sayan> vharsh: yep easter egg, calling a module antigravity
+[15:39:08] <sayan> oops vbhjain ^^
+[15:39:13] <Anandprakash> yes,Thanks
+[15:39:19] <vharsh> just like chrome's dragon game instead of showing you a boring message, "sorry you are not connected"
+[15:39:20] <sayan> reserve this question when we teach python modules
+[15:39:48] <sayan> next
+[15:39:50] <Richard99> is today the 3rd class about what we are going to learn ?
+[15:39:51] <akshays> vharsh +1
+[15:39:51] <sayan> next
+[15:40:12] <Sparker0i> Will there be a session on IRC , ie. how to talk on IRC etc.
+[15:40:13] <gkadam> Richard99, yes
+[15:40:29] <Richard99> gkadam thank you
+[15:40:41] <sayan> let's stop the Q/A here.
+[15:41:29] <sayan> Sparker0i: did you read the communication guidelines? that's what you need to follow
+[15:41:52] <gkadam> Sparker0i, http://summertraining.readthedocs.io/en/latest/communication.html
+[15:42:01] <Sparker0i> where is the link for that?
+[15:42:17] <sayan> Next assignment is http://norvig.com/21-days.html
+[15:42:19] <Sparker0i> thanks
+[15:42:57] <Richard99> !
+[15:43:18] <sayan> This article tell that how you learning a Programming language takes 10 years
+[15:43:24] <sayan> and it's an incremental process
+[15:43:27] <pabitrakumarpati> sayan, is it tomorrow's assignment ??
+[15:43:52] <sayan> pabitrakumarpati: yes
+[15:43:56] <gkadam> !
+[15:44:21] <sandeepmaity09> !
+[15:44:27] <sayan> If you want to be a programmer  then the best way to sit on a laptop and code
+[15:44:29] <shanky_> !
+[15:44:41] <aman935> +m
+[15:44:47] <hemanth_savasere> !
+[15:44:48] <sayan> you learn it by doing. The more you do the better you get
+[15:44:50] <sayan> next
+[15:44:54] <sayan> next
+[15:44:57] <gkadam> sayan, http://norvig.com/21-days.html is giving 503 Service Temporarily Unavailable
+[15:45:10] <rahul_bajaj> gkadam, +1
+[15:45:14] <abstatic> gkadam, refresh and try again
+[15:45:22] <buvanesh_kumar> working fine gkadam
+[15:45:22] <sayan> gkadam: works forme
+[15:45:24] <yASH> No it's working
+[15:45:24] <vharsh> gkadam, our traffic :p
+[15:45:32] <gkadam> abstatic, sayan yes. thanks!
+[15:45:39] <sayan> next
+[15:45:41] <sayan> next
+[15:45:41] <sandeepmaity09> What to do with the link given by Kushal ?
+[15:45:50] <shanky_> what is an easter egg
+[15:45:54] <prabhatsharma> !
+[15:46:14] <sandy_> shanky_: google it
+[15:46:30] <sayan> better let me take the class and then once I tell to ask questions ask
+[15:46:46] <arthar360> sayan :'D
+[15:46:48] <sandeepmaity09> ohk, sayan
+[15:46:51] <pabitrakumarpati> +1 sa
+[15:46:53] <Richard99> okay
+[15:46:57] <pabitrakumarpati> +1 sayan
+[15:47:03] <Sparker0i> okay sir
+[15:47:09] <abstatic> +1 sayan
+[15:47:11] <ShaswataD> !
+[15:47:55] <sayan> so the last point that I discussed was that you learn things by doing
+[15:48:06] <sayan> The more you code the better you get at it
+[15:48:37] <sayan> You need to spend at least 10years/10000hours to be good at it
+[15:49:06] <sayan> Spend time reading code. By reading code of good developers you learn the best practices
+[15:49:50] <sayan> Talk/Discuss to other developers over IRC/Mailing Lists etc
+[15:50:21] <sayan> Open source is a lot about collaboration.
+[15:50:57] <sayan> So, collaborate with other developers. This will help you working in a team
+[15:51:33] <sayan> Like ncoghlan told about PEP. Read about the standard practices
+[15:52:00] <sayan> Languages/Projects have their own set of guidelines. Learn to follow them
+[15:52:44] <sayan> and try to learn more programming languages
+[15:53:01] <sayan> Make a habit to read techinal books
+[15:53:15] <sayan> Set deadlines to finish off a book
+[15:53:36] <sayan> Maybe a week, fortnight, monthly
+[15:53:53] <sayan> Apply those concepts while you program
+[15:54:27] <sayan> You can know more by reading the assignment - http://norvig.com/21-days.html
+[15:54:34] <avik> !
+[15:54:37] <sayan> Questions
+[15:54:41] <chshbh> !
+[15:54:42] <ShaswataD> !
+[15:54:44] <abstatic> !
+[15:54:45] <sayan> next
+[15:54:46] <ritesh> !
+[15:54:48] <sayan> next
+[15:54:51] <sayan> next
+[15:54:53] <pabitrakumarpati> sayan, reading just goes in waste if you don't practice them and apply
+[15:54:53] <anushil051> technical book any you can suggest for now
+[15:54:55] <ShaswataD> Similar to Fedora as a FOSS development OS, what type(make, platform) of hardware would best serve FOSS development without causing much trouble with compatibility and driver issues?
+[15:54:56] <Sparker0i> !
+[15:55:16] <sayan> pabitrakumarpati: yeah right
+[15:55:19] <prashaant> anushil051, +1
+[15:55:25] <shobhitupadhyay> !
+[15:55:31] <abstatic> anushil051, +1
+[15:55:36] <code_geek> anushil051, +1
+[15:55:38] <prabhatsharma_> !
+[15:55:41] <thisisashwani> i am currently reading the book "the little schemer"
+[15:55:48] <pabitrakumarpati> sayan, so there is no point in completeing the book withing given deadline... that's what I think
+[15:55:54] <snarwade> ShaswataD, thinkpad series
+[15:56:04] <thisisashwani> anushil051: you can try that
+[15:56:16] <sayan> anushil051: patience, not now
+[15:56:44] <Sparker0i> ShaswataD, Fedora + Lenovo (Definitely not ASUS)
+[15:56:47] <sayan> just grasp the basic concepts, then we will give :)
+[15:56:49] <indiabhi> !
+[15:56:51] <Anandprakash> !
+[15:56:52] <sayan> next
+[15:57:04] <sayan> next
+[15:57:05] <avik> will a beginer like me understand a language just by reading technical books?
+[15:57:17] <chshbh> sayan, for a beginner, concentrating on one language should be preferred over learning couple of language as per the blog?
+[15:57:21] <Richard99> Sparker0i +1
+[15:57:22] <abhishekcs10> !
+[15:57:25] <sayan> avik: no, practice by doing is the key
+[15:57:32] * ShaswataD says thanks to Sparker0i and snarwade
+[15:57:49] <sayan> by reading you pick up the best practices but you need to apply
+[15:57:50] <acetakwas> avik::  Yes, by also following the examples in "the book."
+[15:57:59] <sayan> chshbh: one for now
+[15:57:59] <pabitrakumarpati> sayan, yes that's what I was trying to point what avik asked..
+[15:58:10] <tabrez> !
+[15:58:11] <kushal> avik, and before programming, there are many things to be learn.
+[15:58:14] <kushal> next
+[15:58:24] <sayan> chshbh: programming constructs you need to learn
+[15:58:27] <sayan> next
+[15:58:37] <abstatic> i had the same question as anushil051 , regarding technical books , which ones to read ?
+[15:58:43] <abk1> !
+[15:58:52] <sayan> abstatic: already answered :)
+[15:58:55] <sayan> next
+[15:58:57] <ritesh> Technical books refers to ????
+[15:58:57] <buvanesh_kumar> !
+[15:59:03] <hemanth_savasere> !
+[15:59:35] <vbhjain> !
+[15:59:36] <ananthakrishnan> !
+[15:59:37] <sayan> ritesh: books related to programming, computer science etc
+[15:59:40] <sayan> next
+[15:59:43] <sayan> next
+[15:59:44] <Sparker0i> Is it really good to learn programming languages that have applications which are poles apart? (For example, C# to develop Windows Apps , Java for Android apps and ObjectiveC for macOS)?
+[15:59:45] <shobhitupadhyay> which technical book we read?and how create interest to read it habitually?
+[15:59:45] <prashaant> ritesh, technical books == related to computer programming , programming languages , algorithms , data structure etc.
+[16:00:03] <prabhatsharma_> What does +1 means?
+[16:00:10] <avik>  thanks. kushal would you like to elabote a little bit? if you dont mind!
+[16:00:12] <prashaant> shobhitupadhyay, will be told later in the training
+[16:00:23] <rahuldecoded_> ritesh in short magazine for geeks
+[16:00:23] <JoelIsSPL> !
+[16:00:25] <ritesh> OK. Thanks prashaant sayan
+[16:00:30] <Richard99> prabhatsharma_ its just a sign for support
+[16:00:32] <prashaant> prashaant, +1 = showing agreement
+[16:00:35] <ritesh> Ok
+[16:00:38] <sayan> Sparker0i: nobody stops you. all depends on interest
+[16:00:43] <kushal> avik, The other things you will learn here before we teach you programming.
+[16:00:47] <kushal> next
+[16:00:56] <kushal> avik, The other things you will learn here before we teach you programming.
+[16:00:59] <Sparker0i> +1
+[16:01:04] <Sparker0i> +1 sayan
+[16:01:05] <kushal> next
+[16:01:09] <indiabhi> Just to confirm is the session on programming language or basic linux command?
+[16:01:17] <sayan> next
+[16:01:19] <avik> thank you so much
+[16:01:21] <kushal> indiabhi, It is still an open discussion.
+[16:01:22] <kushal> next
+[16:01:25] <abhishekcs10> sayan, please elaborate what set of programming languages do make a person full stack developer...?
+[16:01:38] <kushal> abhishekcs10, you should discuss these after sessions.
+[16:01:48] <kushal> abhishekcs10, and also please ask that to google.com
+[16:01:49] <kushal> next
+[16:01:52] <tabrez> sayan, what is mode +m and -m means?
+[16:01:54] <sayan> abhishekcs10: out of scope let's discuss after session
+[16:01:58] <Anandprakash> As I have good knowledge of basic python, I have been reading effective python, according to you, is it good book to read ?
+[16:02:05] <rahuldecoded_> indiabhi enjoy the session mate.
+[16:02:08] <sayan> tabrez: IRC admin commands
+[16:02:09] <kushal> tabrez, with +m rest of the people here can not speak/type.
+[16:02:15] <abhishekcs10> ok
+[16:02:17] <kushal> -m means back to normal.
+[16:02:18] <kushal> next
+[16:02:21] <abk1> does mathematics skill boost up coding skills??
+[16:02:31] <kushal> abk1, not always.
+[16:02:42] <tabrez> thanks kushal sayan
+[16:02:56] <abk1> ok thanks :)
+[16:03:04] <kushal> abk1, Most great programmers I know in Python world are from different backgrounds than science/engineering
+[16:03:06] <kushal> next
+[16:03:12] <buvanesh_kumar> So there is no way to expert in one language within 2 or 3 months ? I want to expert in Python language as much as possible
+[16:03:23] <JoelIsSPL> Does the C++ I've learnt in the 12th class
+[16:03:36] <prashaant> buvanesh_kumar, read the link given by sayan
+[16:03:40] <kushal> sayan, Have you shared the norvig article link?
+[16:03:44] <kushal> Yes you did.
+[16:03:49] <buvanesh_kumar> yes it shows 10 years :(
+[16:03:58] <kushal> buvanesh_kumar, That is what it takes.
+[16:04:02] <tabrez> sayan,the link is not opening
+[16:04:12] <abstatic> tabrez, try refreshing
+[16:04:14] <prashaant> anyone who want to be an expert please refer : http://norvig.com/21-days.html
+[16:04:15] <sayan> kushal: yes
+[16:04:19] <kushal> buvanesh_kumar, Sachin never became sachin in 2-3 months.
+[16:04:22] <buvanesh_kumar> so we need lot of patience to learn programming
+[16:04:29] <abstatic> kushal, +1
+[16:04:29] <buvanesh_kumar> yes
+[16:04:31] <kushal> buvanesh_kumar, Yes.
+[16:04:34] <buvanesh_kumar> +1
+[16:04:35] <Richard99> kushal +1
+[16:04:52] <abhishekcs10> kushal +1
+[16:04:56] <kushal> next
+[16:04:58] <kushal> next
+[16:04:58] <hemanth_savasere> so I have heard a lot about competitve coding I just wanted to know your suggestions on pursuing it as is it useful in context of norvig
+[16:05:03] <tabrez> abstatic, thanks ,now opening
+[16:05:10] <acetakwas> You people don't have to say "+1" every time.
+[16:05:12] <vbhjain> kushal, following the technical book is really very fascinating thing but all the times examples given in those books don't work well because of some sort of system dependency or any thing else ,so how to spend time in these circumstances you think?sayan, following the technical book is really very fascinating thing but all the times examples given in those books don't work well because of some sort of system dependency or any thing else ,so how to spend
+[16:05:13] <vbhjain>  time in these circumstances you think?
+[16:05:20] <kushal> hemanth_savasere, depends on person to person. I prefer to do actual upstream programming.
+[16:05:43] <kushal> vbhjain, start with simple books
+[16:06:02] <kushal> vbhjain, It happens to us also.
+[16:06:19] <vbhjain> kushal,ok
+[16:06:21] <prashaant> vbhjain, generally every error you are going to face by reading a technical book , you will find answers on google + stackoverflow
+[16:06:39] <kushal> next
+[16:06:43] <kushal> next
+[16:06:44] <ananthakrishnan> can you suggest a good language for a beginner like me?
+[16:06:52] <kushal> ananthakrishnan, Python :)
+[16:06:53] <prashaant> ananthakrishnan, python
+[16:06:55] <kushal> haha
+[16:07:06] <JoelIsSPL> My question has already been answered. Thank you.
+[16:07:13] <Anandprakash> !
+[16:07:14] <rahul_bajaj> kushal, ;p
+[16:07:19] <hemanth_savasere> !
+[16:07:34] <kushal> next
+[16:07:36] <kushal> next
+[16:07:46] <Anandprakash> As I have good knowledge of python, I am reading a book effective python, is it good?
+[16:07:49] <JoelIsSPL> !
+[16:07:53] <hemanth_savasere> is there any scope for competitve oing
+[16:08:07] <prashaant> hemanth_savasere, question not clear
+[16:08:07] <pabitrakumarpati> !
+[16:08:16] <PrashantJ> !
+[16:08:21] <pabitrakumarpati> !
+[16:08:22] <Anandprakash> !
+[16:08:28] <kushal> Anandprakash, It is a nice book iirc.
+[16:08:29] <kushal> next
+[16:08:30] <kushal> next
+[16:08:33] <pabitrakumarpati> what is upstream programming??
+[16:08:34] <JoelIsSPL> Will the C++ I've learnt in 12th class help me in mastering Python?
+[16:08:43] <hemanth_savasere> !
+[16:08:46] <Anandprakash> Thanks Kushal
+[16:08:56] <vharsh> pabitrakumarpati, kushal gave us a link earlier
+[16:08:59] <grepRoot> hemanth_savasere: Sure.
+[16:09:04] <kushal> pabitrakumarpati, Program for open source projects which can be used by many people around the world. Also please do learn how to use google.com
+[16:09:06] <kushal> next
+[16:09:12] <kushal> next
+[16:09:19] <kushal> JoelIsSPL, may be.
+[16:09:31] <pabitrakumarpati> and what you refer by "simple books"
+[16:09:36] <abhishekg5_> JoelIsSPL, yes. You can relate one language with other
+[16:09:37] <kushal> I never learned any computer programming during school days.
+[16:09:45] <kushal> pabitrakumarpati, The ones whose examples work.
+[16:09:46] <kushal> next
+[16:09:49] <Anandprakash> What are the best practices to write the REST in python?
+[16:09:55] <prashant0493_> Why did you say 'learn as many languages as you can'? Briefly. Mastering on few won't help?
+[16:09:55] <prashant0493_> Sorry missed turn due to connection problem
+[16:10:02] <kushal> Anandprakash, wrong question for this class.
+[16:10:03] <kushal> next
+[16:10:05] <buvanesh_kumar> !
+[16:10:12] <kushal> next
+[16:10:16] <LambaInsaan> JoelIsSPL, C++ background helped me.
+[16:10:18] <JoelIsSPL> kushal, abhishekg5_ Thank you.
+[16:10:22] <kushal> After this no more questions.
+[16:10:47] <kushal> next
+[16:10:49] <pragnavi> !
+[16:10:52] <kushal> next
+[16:10:53] <JoelIsSPL> LambaInsaan Good to know!
+[16:11:01] <kushal> pragnavi, ask please.
+[16:11:11] <buvanesh_kumar> Is learning programming requires mathematics knowledge? we need to expert in maths in order to succeed in programming career?
+[16:11:32] <pragnavi> due to connection problem i missed some par of this session can i get it?
+[16:11:50] <kushal> pragnavi, after the class
+[16:11:54] <rahul_bajaj> pragnavi, you can reffer the logs after the session.
+[16:11:56] <kushal> buvanesh_kumar, mostly no.
+[16:11:58] <kushal> next
+[16:12:00] <abhishekg5_> buvanesh_kumar, scroll up. Your question has been already answered
+[16:12:05] <kushal> Okay 2 minutes break.
+[16:12:35] abhishekg5_ is now known as abhishekg5
+[16:12:51] <prashaant_> buvanesh_kumar, mathematics aptitude will definitely help , NOTE: mathematics is not just about solving equations
+[16:12:53] <pragnavi> @kushal-sorry and thank you
+[16:13:22] <Rnarwade> kal nagoba gate madhi ghusla hota
+[16:13:32] <Rnarwade> sorry
+[16:13:44] <buvanesh_kumar> +1 prashaant kushal abhishekcs10
+[16:14:10] <thisisashwani> buvanesh_kumar: read this : http://blog.hackerrank.com/the-immutability-of-math-and-how-almost-everything-else-will-pass/
+[16:14:11] <rahul_bajaj> Rnarwade, lol
+[16:14:36] <hemanth_savasere> here it comes for copetitve coding
+[16:15:04] <buvanesh_kumar> thanks thisisashwani
+[16:15:37] prashaant_ is now known as prashaant
+[16:16:21] <kushal> Okay.
+[16:16:29] <kushal> Time to learn technical things.
+[16:16:41] <kushal> In linux we have something called a shell/terminal.
+[16:16:53] <madhuri> !
+[16:17:00] <kushal> This is the place where we can type in commands,.
+[16:17:01] <kushal> next
+[16:17:11] <madhuri> which language are used to code in ceph
+[16:17:29] <kushal> madhuri, Do you know google.com?
+[16:17:42] <madhuri> yes i known
+[16:17:57] <anushil051> google it
+[16:18:18] <kushal> madhuri, ^^
+[16:18:32] <kushal> madhuri, You will be stunned to see that the answer is in the first link.
+[16:18:45] <kushal> madhuri, Which is https://en.wikipedia.org/wiki/Ceph_(software)
+[16:18:56] <kushal> Back to the terminal
+[16:19:06] <madhuri> thanks kushal
+[16:19:19] anushil051 is now known as anushil_
+[16:19:19] <kushal> To use your computer efficiently, you will find that terminal is the best way.
+[16:19:22] <prashaant> kushal , just a suggestion mute everyone else , while you teach
+[16:19:31] <abstatic> yes
+[16:19:34] <kushal> We can do many things faster there than clicking on any window.
+[16:19:45] <ak_d> prashaant +1
+[16:19:56] <chshbh> +1
+[16:20:35] <kushal> ak_d, chshbh Stop doing +1, you are becoming that noise.
+[16:22:05] <kushal> In general it is a bad idea of doing +1s.
+[16:22:31] <kushal> I hope everyone has linux with them right now.
+[16:22:40] <pabitrakumarpati> yes
+[16:22:40] <chirath> yup :)
+[16:22:42] <amey> yes
+[16:22:44] <ksaikiranr> yes.
+[16:22:45] <tabrez> yes
+[16:22:45] <mayurparik> yes
+[16:22:45] <Rnarwade> yes
+[16:22:47] <hemanth_savasere> yes'
+[16:22:50] <ketank> yes
+[16:22:50] <cosmologist10> yes
+[16:22:53] <gobinda_> yes
+[16:22:54] <rahuldecoded_> yes
+[16:22:54] <pragnavi> yes
+[16:22:56] <akshays> yes
+[16:22:57] <madhuri> yes
+[16:22:57] <mhalano> yes
+[16:23:13] <kushal> Finally, inner peace.
+[16:23:54] <kushal> http://summertraining.readthedocs.io/en/latest/shell.html
+[16:24:15] <kushal> ^^ start following/doing the examples given in that link
+[16:24:24] <kushal> If you have questions, come and ask here,
+[16:24:31] <kushal> Remember the session is going on.
+[16:25:30] <hemanth_savasere> !
+[16:25:53] <kushal> next
+[16:25:53] <pksadiq> kushal: Please warn for using rm -rf in the documentation (newbies might make mistakes)
+[16:26:12] <hemanth_savasere> difference between shell and terminal
+[16:26:28] <kushal> pksadiq, that is something people has to do at least once in life to learn and remember.
+[16:26:47] <kushal> If people can not read and type, it is not something we can fix.
+[16:26:51] <pksadiq> âº
+[16:27:09] <kushal> hemanth_savasere, for now think both are same.
+[16:27:20] <avik> !
+[16:27:34] <hemanth_savasere> ok kushal
+[16:28:02] <kushal> next
+[16:28:06] <avik> cd /tmp>>>>> No such file or directory
+[16:28:32] <abhishekg5> avik, make sure you are in your home currently
+[16:28:38] <kushal> avik, where did you find whose >>>>>>> ?
+[16:28:45] <kushal> avik, The command is
+[16:28:47] <kushal> cd /tmp
+[16:28:56] <kushal> After /tmp you press enter.
+[16:29:09] <avik> >>>>>> means output
+[16:29:21] <prashaant> abhishekg5, did you put space between "cd" and "/tmp"
+[16:29:22] <kushal> Oh, okay.
+[16:29:36] <ksaikiranr> !
+[16:29:54] <kushal> avik, I just tired in your computer it works.
+[16:29:54] <abk1> !
+[16:29:57] <kushal> next
+[16:30:19] <ksaikiranr> i have another partiton in my ubuntu, how cani use cd to change to that?
+[16:30:24] <abhishekg5> prashaant, it's avik's question
+[16:30:26] <ksaikiranr> can i*
+[16:30:35] <prashaant> abhishekg5, sorry
+[16:30:48] <kushal> ksaikiranr, those partitions are actually mounted as directories in linux, means you can actually cd into them.
+[16:30:49] <kushal> next
+[16:30:52] <abk1> output of tree command :   bash: tree: command not found
+[16:31:07] <riskarsh> !
+[16:31:09] <kushal> abk1, Which distro?
+[16:31:26] <prashaant> !
+[16:31:39] <abk1> i havent got the time to change today. OS kali linux rolling
+[16:31:42] <pabitrakumarpati> !
+[16:31:50] <kushal> abk1, So install tree command in the kali linux.
+[16:31:56] <abk1> ok .
+[16:31:56] <kushal> I guess it uses apt
+[16:32:00] <kushal> next
+[16:32:02] <abk1> yes it does
+[16:32:03] <riskarsh> Already answered
+[16:32:07] <kushal> next
+[16:32:11] <prashaant> kushal: if zsh is superset of bash (loosely speaking) why not tree command working in zsh also .
+[16:32:15] <ksaikiranr> Thanks kushal
+[16:32:20] <pabitrakumarpati> rm -rf dir1/dir2/dir3
+[16:32:27] <pabitrakumarpati> this is not working in myy case
+[16:32:28] <prashaant> output: command not found (using ubuntu 14.04)
+[16:32:30] <kushal> prashaant, The command itself not installed in the comuter.
+[16:32:34] <pabitrakumarpati> directory are nt being deleted
+[16:32:45] <pabitrakumarpati> not*
+[16:32:48] <rahul_bajaj> pabitrakumarpati, you need to create dir1,dir2
+[16:32:59] <kushal> pabitrakumarpati, do a ls -l and show us the command output.
+[16:33:00] <pabitrakumarpati> yes I did by mkdirdir1/dir2/dir3
+[16:33:01] <prashaant> kushal: thank you I thought it was default command
+[16:33:19] <kushal> prashaant, It seems it is not, I will have to update the docs to reflect that.
+[16:33:26] <rahul_bajaj> pabitrakumarpati, do ls, can you see dir1,di2 ?
+[16:33:39] <code_geek> space between mkdir and dir1/dir2
+[16:33:46] <code_geek> pabitrakumarpati,
+[16:33:47] <shobhitupadhyay> tree command say to install?
+[16:33:49] <prashaant> kushal: thank you
+[16:33:55] <tabrez> prashaant, install it sudo apt-get install tree
+[16:33:59] <kushal> everyone stop talking.
+[16:34:02] <pabitrakumarpati>  mkdir -p demo1/dem2/demo9
+[16:34:05] <prashaant> tabrez, thank you
+[16:34:16] <kushal> pabitrakumarpati, now think
+[16:34:20] <pabitrakumarpati> then I did rm -rf dir1/dir2/dir3
+[16:34:26] <pabitrakumarpati> sorry
+[16:34:37] <pabitrakumarpati> rm -rf demo1/dem2/demo9
+[16:35:02] <riskarsh> pabitrakumarpati: type man rm.
+[16:35:08] <mhalano> TODO: Create some document about commands, flags, parameters, etc. to show the basic syntax of commands
+[16:35:34] <kushal> pabitrakumarpati, and then?
+[16:36:03] <pabitrakumarpati> then while im trying to cd /demo1/dem2/demo9 I can go in to the directories
+[16:36:58] <kushal> pabitrakumarpati, can you please show me the output of ls -l
+[16:37:00] <kushal> ls -l
+[16:37:02] <yoda_> mhalano:nice idea
+[16:37:13] <avik> !
+[16:37:19] <pabitrakumarpati> total 4
+[16:37:20] <pabitrakumarpati> drwxr-xr-x 3 root root 4096 Jun 21 19:58 demo1
+[16:37:32] <anushil_> kushal:do we have to go to next
+[16:38:05] <rahuldecoded_> when my pwd is /home why cant't I use mkdir
+[16:38:06] <warlord77> hi i got late today can someone give me the irc logs for todays class?
+[16:38:06] <kushal> pabitrakumarpati, yes, it is correct, you just deleted the demo9 directory
+[16:38:11] <ritesh> shell commands completed
+[16:38:18] <JoelIsSPL> Can somebody send me the link to the command list. I got disconnected.
+[16:38:37] <abk1> http://summertraining.readthedocs.io/en/latest/shell.html
+[16:38:38] <abstatic> JoelIsSPL, here you go  http://summertraining.readthedocs.io/en/latest/shell.html
+[16:38:40] <kushal> No we will not give you the logs while the session is going on.
+[16:38:44] <JoelIsSPL> Thanks
+[16:39:02] <kushal> STOP talking, or I will start removing you from this channel.
+[16:39:32] <kushal> pabitrakumarpati, coming back to your question, demo1 is supposed to be there.
+[16:39:34] <kushal> next
+[16:39:39] <kushal> next
+[16:39:43] <pabitrakumarpati> oh... I thought it will delete all the three folders... sorry
+[16:39:44] <avik> i can not create a file  It says: Permission denied
+[16:39:48] <rahul_bajaj> rahuldecoded, you cannot create directories there, you need root access there.
+[16:39:59] <prashaant> rahuldecoded_, because you don't have permission to do anything in /home
+[16:40:02] <mayurparik>  !
+[16:40:06] <yoda_> avik: use sudo
+[16:40:11] <CuriousLearner> warlord77, class is going on
+[16:40:24] <avik> sudo ?
+[16:40:55] <kushal> avik, hi, can you please paste the command and the output here.
+[16:41:03] <kushal> We need to know what exactly you tried.
+[16:41:24] <kushal> Everyone should remember to do this while asking for help, please read the docs on
+[16:41:27] <kushal> .link question
+[16:41:53] <kushal> Oh, it is again not giving me the link :)
+[16:42:01] <kushal> avik, can you type something here?
+[16:42:15] <avik> [avik@test1 home]$ mkdir code             mkdir: cannot create directory code: Permission denied
+[16:42:44] <kushal> avik, yes, you are in the /home directory.
+[16:42:52] <kushal> avik, do a pwd to verify this.
+[16:43:07] <avik> yup i am
+[16:43:40] <kushal> avik, so follow the command in http://summertraining.readthedocs.io/en/latest/shell.html#cd-command to go back to your home directory.
+[16:43:55] <avik> okay sorry
+[16:43:58] <kushal> avik, and try the command again.
+[16:44:04] <kushal> avik, no need to say sorry.
+[16:44:04] <kushal> next
+[16:44:16] <kushal> Good/
+[16:44:30] <kushal> anushil_, I remember you asked a question.
+[16:44:55] <warlord77> kushal, i joined late can u give an abstract of today's class
+[16:45:16] <anushil_> kushal:hg status not working
+[16:45:51] <shauryak_3> \quit
+[16:46:50] <kushal> anushil05, where did you find hg status on the page link I gave you?
+[16:47:00] <kushal> warlord77, We learning about linux basics.
+[16:47:11] <mayurparik> !
+[16:47:12] <anushil_> i clicked nest do we have to go next or not??
+[16:47:33] <kushal> anushil_, no you don't, but feel free to click on anything you want :)
+[16:47:34] <kushal> next
+[16:47:40] <mayurparik> abort: no repository found in '/home/mayur' (.hg not found)!
+[16:48:07] <anushil_> ok thanx you will tell us when to do next ???
+[16:48:23] <kushal> anushil_, what is thanx?
+[16:48:37] <sdas> anushil_,that is mercurial related..I think they will teach it later
+[16:49:02] <rahuldecoded> cd .. redirect us to root directory and cd ~ redirect us to current user directory? Am I right?
+[16:49:03] <rahul_bajaj> !
+[16:49:14] <amey> mayurparik that will be taught later
+[16:49:21] <vharsh> rahul_bajaj, both do the same
+[16:49:39] <anushil_> ok
+[16:49:42] <vharsh> to the home dir, use the pwd command to verify
+[16:49:43] <prashant0493_> !
+[16:49:52] <kushal> next
+[16:50:28] <prashant0493_> For Ubuntu I need to install mercurial and tree. Does fedora have them pre-installed?
+[16:50:35] <rahul_bajaj> kushal, if i am the home directory and i want to see see the tree of some other directory, is it possible to do that ?
+[16:51:16] <rahul_bajaj> or i have to go to that directory then only i can use the command tree?
+[16:51:22] <amey> rahul_bajaj you need to type tree <yourDirectory>
+[16:51:23] <kushal> rahul_bajaj, http://summertraining.readthedocs.io/en/latest/shell.html#ls-command
+[16:51:36] <yASH> I think newbies can try this https://www.codecademy.com/learn/learn-the-command-line.     along with kushal's documentation I found it really helpful when I started using command line the course is around 40 minutes it's a total hands-on session
+[16:52:15] <kushal> next
+[16:52:17] <prashant0493_> For Ubuntu I need to install mercurial and tree. Does fedora have them pre-installed?
+[16:52:18] <poonam> !
+[16:52:23] <kushal> prashant0493_, no.
+[16:52:24] <kushal> next
+[16:52:58] <kushal> Anyway.
+[16:53:01] <kushal> Coming back.
+[16:53:47] <kushal> After you are doing the few basic commands as given, tonight spend the time reading the log, and the book from http://summertraining.readthedocs.io/en/latest/fhs.html
+[16:53:53] <kushal> That is your home task.
+[16:54:17] <kushal> We will take questions on this tomorrow, and then we will learn more commands.
+[16:54:27] <poonam> hg status is not working ,asking for installating mercurial if i say y it is showing error
+[16:54:40] <abstatic> !
+[16:54:48] <kushal> poonam, read the things I said few minutes back on this channel.
+[16:54:50] <kushal> next
+[16:55:04] <abstatic> will we learn mercurial in this training as version control system ?
+[16:55:20] <poonam> ok
+[16:55:22] <kushal> abk1, Yes.
+[16:55:28] <kushal> abstatic, ^^^
+[16:55:43] <kushal> Okay, Roll Call for session ending.
+[16:55:45] <LambaInsaan> Rhitik Bhatt
+[16:55:50] <gumil> Agung Gumilang
+[16:55:50] <rohan_> Rohan Hazra
+[16:55:50] <amey> Amey Jain
+[16:55:51] <prashant0493_> Prashant Jamkhande
+[16:55:51] <JatinBeohar> jatin beohar
+[16:55:51] <sdas> Subhradip Das
+[16:55:52] <abstatic> Abhishek Shrivastava
+[16:55:52] <akshays> Akshay Shipurkar
+[16:55:53] <JoelIsSPL> Joel Estibeiro
+[16:55:53] <ShaswataD> Shaswata Dutta
+[16:55:53] <smdeep> Sudeep Mukherjee
+[16:55:54] <chshbh> Avinash Madhukar
+[16:55:55] <Rnarwade> Rushiprasad Narwade
+[16:55:55] <madhuri> Madhuri Muley
+[16:55:55] <mayurparik> Mayur Parik
+[16:55:56] <akash47> Akash Mishra
+[16:55:57] <rangzen> Tenzin Kunkyab
+[16:55:57] <ankushg07> Ankush Goyal
+[16:55:58] <pabitrakumarpati> Pabitra Pati
+[16:55:59] <neha_> neha shinde
+[16:55:59] <warlord77> sahil joseph
+[16:55:59] <Richard99> Amayank Gupta
+[16:56:00] <pragnavi> Pragnavi
+[16:56:00] <tgtanya> Tanya Goel
+[16:56:02] <suniva> Suniva Priyadarshini
+[16:56:03] <shams> tabrez khan
+[16:56:03] <dep123k> Deepanshu Kapoor
+[16:56:04] <indiabhi> Abhishek Rai
+[16:56:05] <D1mz> Aditya Bayana
+[16:56:05] <nishapoyarekar> Nisha Poyarekar
+[16:56:06] <chirath> Chirath R
+[16:56:06] <D1nz> Dinesh
+[16:56:06] <rahuldecoded> Rahul Bhattacharjee
+[16:56:07] <shanky_> G Shashank Rao
+[16:56:08] <shalaka> shalaka
+[16:56:08] <sandeepmaity09> Sandeep Maity
+[16:56:08] <avik> Avik Mukherjee
+[16:56:08] <sneo> Sarah Masud
+[16:56:09] <sandyndy> sandeep kumar choudhary
+[16:56:09] <poonam> poonam
+[16:56:09] <vbhjain> Vaibhav jain
+[16:56:10] <yASH> Yashwanth M
+[16:56:10] <mhalano> Marcos H. Alano
+[16:56:10] <ak_d> Akhilesh Dhaundiyal
+[16:56:12] <rahul_bajaj> Rahul Bajaj
+[16:56:13] <kunalk> Kunal Kumar
+[16:56:13] <ketank>  ketan kumar
+[16:56:13] <Richard99> Mayank Gupta
+[16:56:16] <acetakwas> Tosin Damilare James Animashaun
+[16:56:18] <shobhitupadhyay> shobhit upadhyay
+[16:56:19] <real56> Varsha R
+[16:56:21] <vharsh> Harsh Vardhan
+[16:56:23] <gobinda_> gobinda akhuli
+[16:56:23] <anushil_> Anushil Kumar
+[16:56:23] <abk1> Abheek
+[16:56:24] <tejasgadsing> tejas gadsing
+[16:56:28] <rajalokan> Alok Kumar
+[16:56:29] <thisisashwani> Ashwani Pandey
+[16:56:32] <akshay_CV> akshay cv
+[16:56:35] <code_geek> Shantanu Acharya
+[16:56:37] <riskarsh> Utkarsh Shukla
+[16:56:49] <Anandprakash> Anandprakash Tandale
+[16:56:54] <cosmologist10_> shweta  suman
+[16:57:12] <hemanth> hemanth savasere
+[16:57:24] <prashant0493_> hi
+[16:57:25] <kushal> endclass
+[16:57:25] [## Class Ended at Tue Jun 21 16:57:25 2016 ##]

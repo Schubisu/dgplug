@@ -1,0 +1,243 @@
+[15:43:32] [## Class Started at Fri Jul 29 15:43:32 2016 ##]
+[15:43:32] <kushal> startclass
+[15:43:38] <kushal> Roll Call
+[15:43:41] <ak_d> Akhilesh Dhaundiyal
+[15:43:45] <vshelar> Vivek Shelar
+[15:43:45] <vharsh> Harsh Vardhan
+[15:43:46] <PrashantJ> Prashant Jamkhande
+[15:43:48] <chshbh> Avinash Madhukar
+[15:43:48] <priyanka> Priyanka Sharma
+[15:43:58] <vbhjain> Vaibhav jain
+[15:44:01] <jogender> Jogender Kota
+[15:44:03] <avik> Avik Mukherjee
+[15:44:05] <yajushi> Yajushi Srivastava
+[15:44:07] <himavarshini> Himavarshini
+[15:44:08] <anushil05> Anushil Kumar
+[15:44:10] <LambaInsaan> Rhitik Bhatt
+[15:44:16] <moon45> Mamoon Manzoor
+[15:44:18] <poonam> Poonam Jadhav
+[15:44:24] <aman-> Aman Kumar
+[15:45:02] <Anupama> Anupama Mandal
+[15:45:39] <iKshitij> Kshitij
+[15:45:46] <rohan_h> Rohan Hazra
+[15:45:55] <abhishekg5> Abhishek Gupta
+[15:45:56] <kushal> See how the number of active participants are coming down.
+[15:46:04] <kushal> Only interested people will stay back.
+[15:46:15] <kushal> https://paste.fedoraproject.org/397290/raw/  This is your problem
+[15:46:16] <priya_> Priyanka Ambre
+[15:46:19] <gunjan> gunjan
+[15:47:19] <code_geek> Shantanu Acharya
+[15:47:40] <chshbh> kushal, do we need to make program?
+[15:47:50] <shobhitupadhyay> shobhit upadhyay
+[15:47:52] <snarwade> Suraj Narwade
+[15:48:05] <madhurii> Madhuri Muley
+[15:48:11] <sarathchandrika> Sarath Chandrika
+[15:48:49] <kushal> chshbh, if you can read all the logs, and find this out, you are most welcome :)
+[15:49:36] <chshbh> kushal, no but making it 100% automated is not easy :/
+[15:50:11] <kushal> chshbh, feel free to copy and paste the logs into 4 different string variables.
+[15:50:16] <kushal> and then you can code :)
+[15:50:34] <chshbh> kushal, okay :D
+[15:50:44] <kushal> Q: How do you find if x is talking to y or talking about y?
+[15:50:53] <kushal> Can anyone answer me that?
+[15:51:18] <sidhant> Sidhant Gupta
+[15:51:26] <Onkar> Roll call : Onkar Karale
+[15:51:48] <LambaInsaan> kushal, whenever someone mentions someone in the given list of nicks it means two people are talking.
+[15:51:57] <abhishekg5> I think first we'll need list of all the names of people here on channel
+[15:52:12] <meamitk> Roll Call Amit Kokitkar
+[15:52:15] <acetakwas> Roll call: Tosin Animashaun
+[15:53:07] <sandeepmaity09> Sandeep Maity
+[15:53:19] <kushal> LambaInsaan, correct :)
+[15:53:42] <LambaInsaan> :)
+[15:53:55] <rohan_h> kushal, i will store the logs in a file and read line by line.. If two nicks are there on a line, they are talking. First nick is talking to second nick.
+[15:54:04] <kushal> LambaInsaan, but see, others are not saying anything.
+[15:54:10] <kushal> rohan_h, yes
+[15:54:35] <rahuldecoded_> Roll call : Rahul Bhattacharjee
+[15:55:15] <LambaInsaan> kushal, Haha. :p
+[15:55:49] <rl56> Roll call:Varsha R
+[15:56:22] <mahesh5> Roll call:Mahesh
+[15:56:39] <avik> but kushal check this line:
+[15:56:41] <avik> kushal, rohan_h, batul is a bot
+[15:56:41] <avik> here I talked to kushal and rohan_h about batul
+[15:56:42] <priyanka> kushal, but if x says that "y is curious to learn things"  then it means that x is talking "about" y although x mentioned y's name.
+[15:57:01] <kushal> priyanka, count that in.
+[15:57:14] <kushal> avik, yes, you talked to two people once
+[15:57:23] <kushal> so the count to both person will go up :)
+[15:57:52] <chshbh> avik, its about mentioning a nick, rather than talking to/about the nick. :)
+[15:57:54] <priyanka> okay kushal.
+[15:58:57] <abhishekg5> kushal: maybe regex can be used. We'll need to check if there is a nick(from a list of all the nicks) after <x>, means, x is talking. But this won't include the cases where people address nicks anywhere except <>
+[15:59:07] <rhnvrm> Roll call: rohan verma
+[15:59:28] <pksadiq> kushal: but I think priyanka actually said something too much complicated than you thought,
+[15:59:28] <pksadiq> like the one I said above, I didn't actually talked to priyanka, tho her name is there ;)
+[16:00:04] <avik> yes but how to exclude batul? it makes me talking to it also?
+[16:00:09] <avik> kushal, ^^
+[16:00:32] <jogender> kushal do we have to include batul also?
+[16:00:32] <abhishekg5> Checking each word from each nicks from lengthy logs can be a bad algo
+[16:01:02] <poonam> so if y is in between the line it means x is talking about y but if y is next to x it means x is talking with y
+[16:01:35] <abhishekg5> avik: 1(batul's) case can be neglected
+[16:01:50] <shobhitupadhyay> we use another nick name to address third one..but actually i not talking to that nick
+[16:02:10] <avik> batul is just an example! abhishekg5
+[16:02:39] <rahuldecoded_> For a particular nick(A), I will count the occurrence of nick(B), whenever nick(A) mentioned nick(B)
+[16:02:42] <rhnvrm> kushal, we can have a dict of usernames mapped to dict of usernames to count {kushal:{avik:53, gkdam: 55},...}
+[16:02:56] <LambaInsaan> Only mentions count in or something in between messages also counts in? Some IRC clients use ',' as separator and some use ':' as a separator. I am confused with this problem.
+[16:03:09] <LambaInsaan> rhnvrm, I was thinking the same!
+[16:05:08] <rhnvrm> guys i missed the logs, do we have to code this problem?
+[16:05:57] <abhishekg5> rhnvrm: yeah. Eventually.
+[16:06:08] <kushal> abhishekg5, skip regex :)
+[16:06:56] <kushal> jogender, avik batul is a valid nick
+[16:07:13] <kushal> chshbh, count the mentions as talking
+[16:07:28] <avik> ok :)
+[16:07:55] <mbtamuli12_> Roll Call: Mriyam Tamuli
+[16:08:03] <mbtamuli12_> Doing the task.
+[16:10:13] <jargonmonk> Roll Call:Aniket
+[16:14:04] <PrashantJ> Someone please explain what editing is required with logs in gedit? If I want to iterate line by line?
+[16:14:27] <rahuldecoded_> kushal, can I do that, this weekend? I have to go through the logs. I could not attend due to my Exam.
+[16:14:31] <PrashantJ> I am trying to edit in gedit and paste to python interpreter
+[16:15:42] <PrashantJ> I want to use >>> lines.split("\n")
+[16:18:24] <kushal> rahuldecoded_, okay
+[16:18:30] <kushal> rest should try to do this now
+[16:19:51] <avik> kushal, do we need a list of all the names present?
+[16:20:02] <kushal> avik, yes,
+[16:20:13] <kushal> means first you have to find out who all spoke in the logs
+[16:20:25] <avik> and where will we get that?
+[16:20:25] <kushal> and make a list (or better) a dict of those nicks
+[16:20:32] <kushal> avik, in the logs,
+[16:20:39] <kushal> avik, you will have to write code for that
+[16:20:42] <kushal> So
+[16:20:55] <kushal> For any problem, first try to split it into smaller problems
+[16:21:09] <kushal> 1. First get the logs in 4 strings.
+[16:21:18] <kushal> log1, log2, log3, log4
+[16:21:20] <kushal> and then
+[16:21:47] <kushal> 2. For each log, find who spoke the line, get all the names as keys in a dict.
+[16:22:14] <iKshitij> kushal could you please clarify the question.
+[16:22:25] <kushal> 3. For each log, find who spoke the line, and which all nicks are present in the line, increment the count.
+[16:22:42] <kushal> Who can help iKshitij here so that he can understand the problem better?
+[16:22:50] pksadiq` is now known as pksadiq
+[16:23:18] <abhishekg5> iKshitij: What part of question you didn't understand ?
+[16:23:30] <kushal> abhishekg5, thanks.
+[16:23:43] <iKshitij> kushal: continue ! Got it in your explanation !
+[16:24:12] <iKshitij> Thank you abhishekg5
+[16:24:33] <avik> :) thank you kushal for the algorithm :)
+[16:25:01] <PrashantJ> kushal, https://paste.fedoraproject.org/397302/ Please have a look at this.
+[16:25:44] <kushal> PrashantJ, yours copy paste is wrong.
+[16:26:00] <kushal> You are supposed to copy from the file, so that you can get \n for new lines
+[16:26:30] <PrashantJ> Ohh okay kushal thanks:)
+[16:29:21] <moizsajid> !
+[16:30:57] <kushal> next
+[16:31:00] <kushal> next
+[16:32:27] <moizsajid> Can you please tell me what task are we doing?
+[16:33:26] <abhishekg5> moizsajid: https://paste.fedoraproject.org/397290/raw/
+[16:33:53] <aman-> !
+[16:33:58] <abhishekg5> moizsajid: ^ Try solving this problem
+[16:33:59] <code_geek> kushal, we have to find the count for each log separately or all four combined
+[16:34:03] <code_geek> sorry
+[16:34:05] <code_geek> !
+[16:34:12] <moizsajid> abhishekg5: Thanks!
+[16:34:27] <kushal> code_geek, all :)
+[16:34:38] <kushal> next
+[16:34:41] <kushal> next
+[16:34:47] <code_geek> okay, thanks
+[16:34:49] <kushal> Do not type ! today, just ask :)
+[16:34:56] <aman-> if i want to read from file where to store the file
+[16:35:12] <aman-> it is showing no such file or directory
+[16:36:51] <mbtamuli12_> kushal, Why did batul mention this nick, 'mbtamuli12' although I am not currently using that nick and no "!" was given by from that nick.
+[16:37:05] <mbtamuli12_> "mbtamuli12 please ask your question.. moizsajid you are next. Get ready with your question."
+[16:38:04] <SRvSaha> Roll Call : SRvSaha
+[16:38:08] <abhishekg5> aman-: first download the 4 log files and save it in your working directory. Make the .py file in the same directory where other txt files are saved.
+[16:38:33] <darkside_> It should be in the same directory where your file cointaing the sourse code..
+[16:38:34] <kushal> Btw, here is one resume https://www.zeemee.com/aasimsani
+[16:38:50] <aman-> abhishekg5, thanks
+[16:38:57] <moizsajid> mbtamuli12: There might be a bug :)
+[16:39:31] <akash47> mbtamuli12_, previous class queue.
+[16:46:31] <abhishekg5> kushal: Multiple talents. But what is the job he's looking for through the resume ? Mountaineering ? Programming ? Musician ?
+[16:47:25] <kushal> abhishekg5, college admission :)
+[16:47:32] <Aazad> !
+[16:47:59] <avik> what?????
+[16:48:06] <avik> :O
+[16:48:15] <shobhitupadhyay> very attractive and different resume.
+[16:48:27] <Aazad> guys , today session get over ???
+[16:48:49] <avik> Aazad, not yet
+[16:49:40] <Aazad> what is today's topic ?
+[16:50:21] <rhnvrm> to download all log files into a folder you can use wget -r https://dgplug.org/irclogs/2016/ --no-parent
+[16:50:34] <jargonmonk> Aazad: https://paste.fedoraproject.org/397290/raw/
+[16:51:22] <abstatic> jargonmonk, is that an assignment ?
+[16:52:29] <abhishekg5> kushal: Okay, good one then :)
+[16:53:55] <jargonmonk> abstatic: yes.
+[16:55:33] <Aazad> kushal : at what , session will start ?
+[16:56:33] <PrashantJ> Aazad, It already has started
+[16:56:48] <PrashantJ> Aazad, https://paste.fedoraproject.org/397290/raw/
+[16:56:57] <PrashantJ> ^^ solve this problem for the day
+[17:01:17] <Aazad> PrashantJ : this is the link where i was in last time
+[17:04:57] <pabitra> can I know what i missed ?
+[17:06:35] <avik> kushal,
+[17:07:45] <chshbh> kushal, if we would be using list instead of dictionary, we will require 2 lists right? one to maintain nick other to maintain the counter/ occurences
+[17:08:13] <vbhjain> please help, how can I know whether a word is nick of someone or not?
+[17:08:19] <pabitra> kushal, do we need to find in 4 logs or one would work ?
+[17:08:53] <avik> in dic[name]=dic.get[name,confusion]   confusion==0 or confusion==NULL ? for string(name2)?
+[17:10:12] <avik> sayan? kushal? fhackdroid? anybody? ^^
+[17:13:26] <sayan> avik: did not get you
+[17:13:35] <akash47> avik, python has None instead of NULL
+[17:14:04] <sayan> avik: get is a method so you need to use () instead of []
+[17:14:32] <kushal>  avik there is no NULL in Python
+[17:14:39] <kushal> chshbh, yes
+[17:15:14] <pabitra> kushal, one query
+[17:15:28] <avik> Sayan while creating a dic.  what should be the default value for Valule part if it is suppose to be a string? 0?
+[17:15:40] <avik> kushal, ^^
+[17:15:46] <pabitra> there are few lines as well where no on'e name is mentioned, that should be ignored right??
+[17:16:08] <kushal> avik, dict
+[17:16:15] <kushal> avik, integer 0
+[17:16:19] <kushal> pabitra, yes
+[17:16:21] <vbhjain> kushal ,  how can I know whether a word is nick of someone or not in the line ?
+[17:16:36] <kushal> vbhjain, write code to find that out :)
+[17:16:37] <avik> ok thank you kushal
+[17:16:50] <kushal> Who wants to tell vbhjain how to find if a word is a nick or not?
+[17:17:13] <pabitra> so like the above converstaion you mentioned vbhjain's name so that would be counted as one conversation
+[17:17:20] <pabitra> i will help vbhjain kushal
+[17:18:00] <chshbh> vbhjain, precompute them and store in list and then match it maybe
+[17:19:18] <rohan_h> avik, string=" " . This means null. Right?
+[17:19:28] <shauryak_3> vbhjain, you can also straight away store the names during the roll call in a list
+[17:19:34] <rohan_h> In Python only ^
+[17:20:01] <avik> should mean that :)
+[17:20:07] <avik> rohan_h, ^^
+[17:20:54] <pabitra> anyone please clear me on the above question
+[17:21:05] <kushal> pabitra, yes
+[17:21:30] <kushal> Everyone should create a github repo for this, name the repo as dgplugproblems :)
+[17:23:51] <pabitra> but kushal sometimes in a converstaion not necessarily the nick's name is mentioned at first (like in this one) I mentioned your name after 'but'
+[17:24:11] <pabitra> or do we need to search the whole line for nick names
+[17:24:27] <rohan_h> Yes pabitra
+[17:25:32] <pabitra> rohan_h, yes for  ?
+[17:26:26] <shauryak_3> pabitra, i guess if we are looking for conversations as whole then obviously we will have to search the whole line .
+[17:27:40] <rohan_h> There will be two functions to enter both names, now we will scan line by line.. If both are there, first nick is talking to second. It will have a counter, which will be increased by one. I can't code because i don't have my laptop now.
+[17:28:31] <rohan_h> But if there are multiple nicks in a line, it will not work.
+[17:33:50] <pabitra> kushal, one more doubt ?
+[17:34:18] <LambaInsaan> Done!
+[17:36:08] <pabitra> LambaInsaan, can you tell me if we are doing this by putting the all 4 logs into single string?
+[17:36:31] <rohan_h> pabitra use file
+[17:36:48] <LambaInsaan> I am using different string for each log.
+[17:36:53] <LambaInsaan> pabitra, ^
+[17:36:56] <code_geek> kushal: check this: https://paste.fedoraproject.org/397339/  is it correct?
+[17:37:21] <code_geek> here log1, log2, log3, log4 are the logs of 4 days
+[17:41:19] <vharsh> topic
+[17:41:28] <vharsh> oops
+[17:45:51] <abhi2016> @code_geek is it running?
+[17:46:37] <code_geek> yes abhi2016 , wait, I'll show you the output.
+[17:48:05] <code_geek> abhi2016, https://paste.fedoraproject.org/397349/
+[17:48:45] <code_geek> I ran the program in ubuntu terminal, that's why the output comes in the form of tuples
+[17:49:47] <code_geek> If I run it in any online IDE like geeksforgeeks, it says the output is too large. It works in online IDEs only when i take the log of 1 day
+[17:50:09] <abhi2016> @code_geek congrats
+[17:50:26] <code_geek> thanks abhi2016 :)
+[17:51:47] <avik> kushal are you there?
+[17:58:03] <code_geek> kushal, is the session over?
+[18:05:56] <kushal> I am here
+[18:06:04] <kushal> code_geek, I should close it formally
+[18:07:07] <shauryak_3> kushal, do we need to show the result/program here or directly on github repo?
+[18:07:24] <kushal> add to the repo
+[18:07:37] <LambaInsaan> kushal, which repo?
+[18:07:46] rahuldecoded is now known as Guest79404
+[18:07:54] <kushal> LambaInsaan, you create one in github
+[18:07:58] <kushal> dgplugproblems
+[18:08:12] trishnag is now known as trishnag|afk
+[18:08:14] <LambaInsaan> kushal, alright!
+[18:08:45] <shauryak_3> kushal, okay thanks.
+[18:09:06] <SRvSaha> code_geek: Done with the code ?
+[18:09:42] <kushal> endclass
+[18:09:42] [## Class Ended at Fri Jul 29 18:09:42 2016 ##]

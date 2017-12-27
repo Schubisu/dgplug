@@ -1,0 +1,272 @@
+Jul 15 19:31:00 *	kushal has changed the topic to: Welcome to Linux User's Group of Durgapur | Mailing list at  http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | Finish your assignments | 7:30pm - Kushal - some special assignments | 7:30pm Kushal on Python | 10:30pm - pjp (more on make and gcc) | C book http://www.dgplug.org/files/C-Book.pdf | <--SESSION STARTED-->
+Jul 15 19:31:04 <kushal>	Roll Call
+Jul 15 19:31:26 <Kkhushi>	Khushbu Mohta
+Jul 15 19:31:28 <rtnpro>	Ratnadeep Debnath
+Jul 15 19:31:29 <KishanGoyal>	kishan goyal
+Jul 15 19:31:47 <kushal>	So, where we left last day ? lists ?
+Jul 15 19:32:32 <KishanGoyal>	yes.
+Jul 15 19:32:35 <kushal>	ok
+Jul 15 19:32:38 <kushal>	moving on 
+Jul 15 19:32:52 <kushal>	Today it is lowest attendance 
+Jul 15 19:32:54 <kushal>	:D
+Jul 15 19:32:55 <rtnpro>	go ahead
+Jul 15 19:33:11 <kushal>	What is a data structure ?
+Jul 15 19:33:29 <arpita>	arpita kapoor
+Jul 15 19:33:41 <kushal>	basically a way to represent some data , and defined methods to manipulate those data
+Jul 15 19:33:43 *	Debashree (n=Debashre@61.2.164.203) has joined #dgplug
+Jul 15 19:34:16 <kushal>	So, we are going to learn about two data structure and then how to implement them using python 
+Jul 15 19:34:24 <kushal>	Stack
+Jul 15 19:34:28 <Debashree>	debashree banerjee
+Jul 15 19:34:31 <bose_aritra>	aritra bose
+Jul 15 19:34:39 <kushal>	^^ you all know about stack of books
+Jul 15 19:34:44 <kushal>	or stack of DVDs
+Jul 15 19:34:54 <kushal>	it is same here  also 
+Jul 15 19:35:15 *	Soumya (n=chatzill@117.192.4.244) has joined #dgplug
+Jul 15 19:35:23 <kushal>	stack is data structure where data comes in from one, and goes out from that same side
+Jul 15 19:35:25 <kushal>	like
+Jul 15 19:35:30 <kushal>	if we have 
+Jul 15 19:35:37 <kushal>	[1,2,3]as alist 
+Jul 15 19:36:31 <kushal>	then if we add another data in stack (which is known as push)
+Jul 15 19:36:43 <kushal>	a = [1,2,3]
+Jul 15 19:36:48 <kushal>	a.append(5)
+Jul 15 19:36:55 <kushal>	now a becomes
+Jul 15 19:36:59 <kushal>	[1,2,3,5]
+Jul 15 19:37:03 *	Prakhar (n=prakhar@122.163.69.147) has joined #dgplug
+Jul 15 19:37:25 <kushal>	so if we take out the data from it , which value should go out first ?  5
+Jul 15 19:37:34 <kushal>	^^ this operation is known as pop
+Jul 15 19:37:39 <kushal>	a.pop()
+Jul 15 19:37:50 <kushal>	which will return 5 out of a
+Jul 15 19:38:01 <kushal>	^^ now try this with different data as you wish 
+Jul 15 19:38:57 <rtnpro>	done
+Jul 15 19:39:07 <KishanGoyal>	ya...done
+Jul 15 19:39:20 <KishanGoyal>	working fine
+Jul 15 19:39:30 <kushal>	try with strings , and other data 
+Jul 15 19:39:44 <rtnpro>	ok
+Jul 15 19:39:46 <kushal>	see in stack , things come in last , goes out first 
+Jul 15 19:39:50 <kushal>	so we call it 
+Jul 15 19:40:02 <kushal>	LIFO -- Last In First out
+Jul 15 19:41:40 <rtnpro>	kushal, it works fine with strings, chars, sub-lists
+Jul 15 19:41:53 <kushal>	the next data structure is Queue : as in movie ticket queue 
+Jul 15 19:41:55 <kushal>	:)
+Jul 15 19:42:05 <kushal>	who comes first goes out first 
+Jul 15 19:42:06 <KishanGoyal>	!
+Jul 15 19:42:16 <kushal>	so we call it First In First out
+Jul 15 19:42:29 <kushal>	KishanGoyal, yes
+Jul 15 19:42:36 *	amrita (n=amrita@117.201.96.203) has joined #dgplug
+Jul 15 19:42:42 <KishanGoyal>	kushal: with sublists how to remove a part of the sublist??
+Jul 15 19:43:01 <kushal>	KishanGoyal, get the sublist first then remove part of it 
+Jul 15 19:43:12 <kushal>	KishanGoyal, like a[2].pop()
+Jul 15 19:43:18 <kushal>	where a[2] is itself a list 
+Jul 15 19:43:30 <KishanGoyal>	ok..got it..
+Jul 15 19:43:32 *	Prakhar (n=prakhar@122.163.69.147) has left #dgplug ("Leaving")
+Jul 15 19:43:59 <KishanGoyal>	it cant be done like a.pop(2,1)..or something like that?
+Jul 15 19:44:03 <amrita>	amrita mukherjee
+Jul 15 19:44:20 *	sunny_slls (i=Sunny@117.99.3.229) has joined #dgplug
+Jul 15 19:44:27 <kushal>	KishanGoyal, no
+Jul 15 19:44:31 <kushal>	for queue 
+Jul 15 19:44:41 <kushal>	there are two operations, insert and delete 
+Jul 15 19:45:05 <kushal>	insert happens at the end of the queue only, and deletion happens at the beginning 
+Jul 15 19:45:09 <kushal>	so you can use
+Jul 15 19:45:17 <kushal>	a.append(12)
+Jul 15 19:45:21 <kushal>	^^ to insert 
+Jul 15 19:45:44 <kushal>	and to delete a.pop(0)     --- by 0 we mean pop the Zero'th element 
+Jul 15 19:46:14 <sunny_slls>	sunny sharma
+Jul 15 19:46:35 <kushal>	any question?
+Jul 15 19:46:43 <arpita>	!
+Jul 15 19:47:18 <kushal>	arpita, yes please 
+Jul 15 19:49:08 <arpita>	kushal, in stack pop() function will not be given any arguments but in case of queue we give the position as argument to  the pop() function?
+Jul 15 19:49:15 <kushal>	yes
+Jul 15 19:49:29 <kushal>	arpita, in no argument is given , it pops the last value 
+Jul 15 19:49:32 <kushal>	arpita, try and see
+Jul 15 19:49:52 <arpita>	kushal, yes got it
+Jul 15 19:50:00 <kushal>	ok :)
+Jul 15 19:50:26 <arpita>	kushal, then we can give args to pop function in stack as well to pop from specific position??
+Jul 15 19:50:41 <rtnpro>	kushal, !
+Jul 15 19:50:43 <rtnpro>	kushal, !
+Jul 15 19:51:07 <kushal>	arpita, yes, but then it will not be a stack 
+Jul 15 19:51:09 <kushal>	rtnpro, yes 
+Jul 15 19:51:14 <rtnpro>	kushal, the type of data structure depends on how we operate upon the list?
+Jul 15 19:51:49 <arpita>	kushal, then if we pop 1st element in queue it will also not follow the rule of queue
+Jul 15 19:52:01 <rtnpro>	kushal, or are there more differences between them?<eof>
+Jul 15 19:52:09 *	amrita_ (n=amrita@117.201.96.203) has joined #dgplug
+Jul 15 19:52:11 <kushal>	arpita, correct 
+Jul 15 19:52:38 <rtnpro>	arpita, I didn't get what you said
+Jul 15 19:52:39 *	amrita_ has quit (Client Quit)
+Jul 15 19:52:51 <rtnpro>	kushal, ?
+Jul 15 19:52:58 *	amrita has quit ("Leaving")
+Jul 15 19:53:20 *	amrita (n=amrita@117.201.96.203) has joined #dgplug
+Jul 15 19:53:22 <kushal>	rtnpro, on anyway , if you don't follow how you should act on data, data structure will be different 
+Jul 15 19:53:42 <rtnpro>	kushal, ok...got it
+Jul 15 19:54:48 <sunny_slls>	kushal, !
+Jul 15 19:55:28 <kushal>	sunny_slls, yes
+Jul 15 19:55:45 <sunny_slls>	kushal, suppose if we wanna delete two elements at a time in stack?
+Jul 15 19:56:25 <kushal>	sunny_slls, then it will not be a stack 
+Jul 15 19:56:53 <kushal>	sunny_slls, on every data structure , how you can access or modify data is definied 
+Jul 15 19:57:06 <sunny_slls>	kushal, means we can pop elements one by one
+Jul 15 19:57:13 <kushal>	sunny_slls, so, if you do so, that will be a new data structure 
+Jul 15 19:57:18 <kushal>	sunny_slls, yes
+Jul 15 19:57:42 <sunny_slls>	kushal, is it same for queue?
+Jul 15 19:58:13 <kushal>	yes
+Jul 15 19:58:28 <kushal>	all read what is stack and queue in wikipedia 
+Jul 15 19:58:30 <sunny_slls>	kushal, got it
+Jul 15 20:00:19 <sunny_slls>	kushal, i am still lacking in the programming.....in stack , queue and linked list
+Jul 15 20:01:08 <kushal>	even I do
+Jul 15 20:01:13 <kushal>	sunny_slls, try them in python 
+Jul 15 20:01:21 <kushal>	it is very easy to implement 
+Jul 15 20:02:02 <sunny_slls>	kushal, in am talking in c
+Jul 15 20:02:40 <kushal>	ok
+Jul 15 20:02:41 <kushal>	I know 
+Jul 15 20:03:29 <sunny_slls>	kushal, i went to many people but they are not ready to teach me
+Jul 15 20:04:03 <sunny_slls>	sunny_slls, i am not clear with the algorithm but i am ok with the concept
+Jul 15 20:04:21 <kushal>	sunny_slls, no one teaches
+Jul 15 20:04:22 *	amrita_ (n=amrita@117.201.97.216) has joined #dgplug
+Jul 15 20:04:27 <kushal>	sunny_slls, you have to learn by yourself 
+Jul 15 20:04:29 <sunny_slls>	kushal, , i am not clear with the algorithm but i am ok with the concept
+Jul 15 20:04:32 <kushal>	any moving on 
+Jul 15 20:04:44 <kushal>	concept == algorithm 
+Jul 15 20:04:58 *	amrita has quit (Nick collision from services.)
+Jul 15 20:05:04 <kushal>	List comprehension 
+Jul 15 20:05:04 *	amrita_ is now known as amrita
+Jul 15 20:05:05 <kushal>	List comprehensions provide a concise way to create lists.
+Jul 15 20:05:11 *	arpita has quit ("Leaving")
+Jul 15 20:05:17 <kushal>	Each list comprehension consists of an expression followed by a for clause, then zero or more for or if clauses. The result will be a list resulting from evaluating the expression in the context of the for and if clauses which follow it.
+Jul 15 20:05:23 *	arpita (n=arpita@117.201.96.82) has joined #dgplug
+Jul 15 20:07:05 <kushal>	like we have a list of numbers
+Jul 15 20:07:10 <kushal>	[2,3,4,5]
+Jul 15 20:07:22 *	amrita has quit (Client Quit)
+Jul 15 20:07:35 <kushal>	now we want to create another list which will be square of these numbers
+Jul 15 20:07:36 <sunny_slls>	kushal, !
+Jul 15 20:07:39 *	amrita (n=amrita@117.201.97.216) has joined #dgplug
+Jul 15 20:07:48 <kushal>	to do so using list comprehension 
+Jul 15 20:08:10 <kushal>	a = [2,3,4,5]
+Jul 15 20:08:15 <kushal>	[x ** x for x in a]
+Jul 15 20:09:26 <kushal>	^^ try other examples 
+Jul 15 20:09:31 <kushal>	sunny_slls, yes
+Jul 15 20:09:49 <sunny_slls>	can you show me an example of a sublist....
+Jul 15 20:10:04 <sunny_slls>	popping of an element
+Jul 15 20:10:05 <kushal>	sunny_slls, no, you try and figure it out
+Jul 15 20:10:06 <rtnpro>	kushal, !
+Jul 15 20:10:10 <kushal>	rtnpro, yes
+Jul 15 20:10:24 <rtnpro>	but it shows [4, 27, 256, 3125]
+Jul 15 20:10:41 <Kkhushi>	it shows x raise to the power x
+Jul 15 20:10:47 <kushal>	yes
+Jul 15 20:10:52 <kushal>	I gave wrong example
+Jul 15 20:10:55 <rtnpro>	ok
+Jul 15 20:11:01 <kushal>	rtnpro, now fix it :)
+Jul 15 20:11:55 <rtnpro>	kushal, done...[x*x for x in a]
+Jul 15 20:12:34 <kushal>	cool 
+Jul 15 20:12:35 <Kkhushi>	also, [x ** 2 for x in a]
+Jul 15 20:13:14 <kushal>	Kkhushi, correct 
+Jul 15 20:13:24 <kushal>	now
+Jul 15 20:13:33 <kushal>	you can put condition there
+Jul 15 20:14:38 <kushal>	like make a list out of numbers which are bigger than 50
+Jul 15 20:14:56 <kushal>	[12,233,50,34,90,100]
+Jul 15 20:15:31 <kushal>	a = [12,233,50,34,90,100]
+Jul 15 20:15:38 <sunny_slls>	kushal, when we give [x ** x for x in a] then it multiplication increases with position,first cubing then raise to the power 4.......
+Jul 15 20:16:12 *	amrita_ (n=amrita@117.201.97.145) has joined #dgplug
+Jul 15 20:17:10 *	munichlinux has quit ("Bye")
+Jul 15 20:17:15 *	Prakhar (n=prakhar@122.163.69.53) has joined #dgplug
+Jul 15 20:17:21 *	amrita_ has quit (Read error: 104 (Connection reset by peer))
+Jul 15 20:17:31 <kushal>	[x for x in a if x > 50]
+Jul 15 20:18:23 <kushal>	now you people show me some nice examples of thsi 
+Jul 15 20:18:24 <kushal>	this
+Jul 15 20:19:43 *	amrita_ (n=amrita@117.201.97.38) has joined #dgplug
+Jul 15 20:20:05 <kushal>	I am waiting 
+Jul 15 20:21:36 *	Soumya_ (n=chatzill@117.192.7.35) has joined #dgplug
+Jul 15 20:21:48 <KishanGoyal>	http://rafb.net/p/VH7G9L24.html
+Jul 15 20:22:57 <rtnpro>	http://pastebin.com/m428c7c06
+Jul 15 20:24:25 *	amrita__ (n=amrita@117.201.98.70) has joined #dgplug
+Jul 15 20:24:36 <kushal>	checking 
+Jul 15 20:25:22 <rtnpro>	does anyone know how to check the kernel version in the terminal?
+Jul 15 20:25:43 <kushal>	rtnpro, from where you copied it ?
+Jul 15 20:25:51 <kushal>	rtnpro, uname -r 
+Jul 15 20:26:12 <sunny_slls>	kushal, no
+Jul 15 20:26:31 <rtnpro>	kushal, I didn't copy it...I created it
+Jul 15 20:26:47 *	Debashree_ (n=Debashre@61.2.164.207) has joined #dgplug
+Jul 15 20:26:47 <kushal>	rtnpro, with comments!!
+Jul 15 20:26:54 <kushal>	sunny_slls, what no ?
+Jul 15 20:27:06 <rtnpro>	kushal, I gave that comment myself
+Jul 15 20:27:14 <sunny_slls>	 how to check the kernel version in the terminal?
+Jul 15 20:27:30 <Soumya_>	sunny_slls: uname -r
+Jul 15 20:27:54 <kushal>	sunny_slls, can't you see ?
+Jul 15 20:28:00 <sunny_slls>	Soumya, thanks
+Jul 15 20:28:02 <kushal>	or read by any chance 
+Jul 15 20:28:20 <rtnpro>	kushal, thanks
+Jul 15 20:28:31 *	arpita_ (n=arpita@117.201.97.253) has joined #dgplug
+Jul 15 20:28:49 <kushal>	ok, 
+Jul 15 20:29:06 <kushal>	there is another very common data structure in python is tuple 
+Jul 15 20:29:25 <kushal>	it is almost like list but it stays in between ()
+Jul 15 20:29:36 <kushal>	and it is immutable , that means you can change it 
+Jul 15 20:29:42 <kushal>	or add/delete it 
+Jul 15 20:30:48 <Kkhushi>	immutable == cannot change
+Jul 15 20:31:10 *	amrita__ has quit (Read error: 104 (Connection reset by peer))
+Jul 15 20:31:10 *	Soumya has quit (Read error: 110 (Connection timed out))
+Jul 15 20:32:05 *	amrita__ (n=amrita@117.201.98.103) has joined #dgplug
+Jul 15 20:33:45 *	amrita has quit (Read error: 110 (Connection timed out))
+Jul 15 20:33:57 <kushal>	Kkhushi, correct 
+Jul 15 20:34:43 <rtnpro>	kushal, !
+Jul 15 20:34:57 <kushal>	rtnpro, yes 
+Jul 15 20:35:34 <rtnpro>	kushal, how can it be immutable and " that means you can change it or add/delete it" at the same time
+Jul 15 20:35:54 <kushal>	rtnpro, sorry my typo 
+Jul 15 20:35:56 <kushal>	can not 
+Jul 15 20:36:07 <rtnpro>	kushal, ok
+Jul 15 20:36:07 *	amrita_ has quit (Read error: 104 (Connection reset by peer))
+Jul 15 20:40:10 <sunny_slls>	kushal, please continue
+Jul 15 20:40:34 *	amrita (n=amrita@117.201.97.233) has joined #dgplug
+Jul 15 20:41:18 <kushal>	no more questions ?
+Jul 15 20:41:44 <kushal>	 Sets are another type of data structure with no duplicate items. We can also mathematical set operations on sets.
+Jul 15 20:41:44 *	arpita has quit (Read error: 110 (Connection timed out))
+Jul 15 20:41:50 <kushal>	a = set('abcthabcjwethddda')
+Jul 15 20:41:55 *	Debashree has quit (Nick collision from services.)
+Jul 15 20:41:57 <kushal>	set(['a', 'c', 'b', 'e', 'd', 'h', 'j', 't', 'w'])
+Jul 15 20:42:15 <kushal>	read this page http://kushal.fedorapeople.org/book/pythonforyouandme-DataStructure-sets.html
+Jul 15 20:42:31 *	arpita (n=arpita@117.201.97.253) has joined #dgplug
+Jul 15 20:42:42 *	Debashree_ is now known as Debashree
+Jul 15 20:43:15 <kushal>	I am stopping today 
+Jul 15 20:43:19 <kushal>	any questions ?
+Jul 15 20:43:47 <rtnpro>	nop...not now
+Jul 15 20:43:58 <KishanGoyal>	no.
+Jul 15 20:44:40 <Prakhar>	nopes :)
+Jul 15 20:44:59 <rtnpro>	kushal, why don't you make pastebin.com a standard for pasting codes during our course?
+Jul 15 20:45:16 <rtnpro>	kushal, the codes last there for a long time
+Jul 15 20:45:32 <kushal>	pastebin.com is not good, 
+Jul 15 20:45:42 <sunny_slls>	kushal, !
+Jul 15 20:45:46 <kushal>	sunny_slls, yes
+Jul 15 20:45:51 <rtnpro>	kushal, why
+Jul 15 20:45:56 <Debashree>	kushal, !
+Jul 15 20:46:12 *	amrita_ (n=amrita@117.201.97.106) has joined #dgplug
+Jul 15 20:46:27 <KishanGoyal>	ya kushal we could use pastebin...
+Jul 15 20:46:40 <kushal>	rtnpro, closed one
+Jul 15 20:46:45 <kushal>	rtnpro, commercial 
+Jul 15 20:46:56 <kushal>	Debashree, yes
+Jul 15 20:47:03 *	amrita has quit (Read error: 104 (Connection reset by peer))
+Jul 15 20:47:07 <Debashree>	kushal, please explain tuple.
+Jul 15 20:47:44 <kushal>	Debashree, it is another data structure 
+Jul 15 20:47:45 <sunny_slls>	http://pastebin.com/d7a7250c2
+Jul 15 20:48:03 <kushal>	Debashree, where we can not change/add/delete any data 
+Jul 15 20:48:49 <kushal>	Debashree, like (1,2)
+Jul 15 20:49:10 <kushal>	Debashree, it is cool when you know no need to change the data 
+Jul 15 20:49:14 <Debashree>	kushal, then it is used for permanent storage
+Jul 15 20:49:20 <kushal>	but you can iterate over it 
+Jul 15 20:49:35 <kushal>	Debashree, not permanent 
+Jul 15 20:49:59 <sunny_slls>	hey the wordings in data structure are too small to be visible
+Jul 15 20:50:11 <sunny_slls>	http://pastebin.com/d7a7250c2
+Jul 15 20:50:31 <Debashree>	kushal, ok.
+Jul 15 20:50:36 <kushal>	sunny_slls, means ?
+Jul 15 20:51:08 <kushal>	sunny_slls, why are you pasting the same link  again and again 
+Jul 15 20:51:33 <sunny_slls>	i didn't understand.......
+Jul 15 20:51:54 <arpita_>	a.add(p) is adding p in the middle of the list
+Jul 15 20:52:03 <sunny_slls>	kushal, why it is giving that type of answer?
+Jul 15 20:52:10 <arpita_>	kushal,  a.add(p) is adding p in the middle of the list
+Jul 15 20:52:12 <arpita_>	why so>
+Jul 15 20:52:30 <kushal>	sunny_slls, read what I said about set
+Jul 15 20:52:33 <kushal>	arpita, what is a
+Jul 15 20:52:33 <kushal>	?
+Jul 15 20:53:06 <arpita>	a is the list created using set command
+Jul 15 20:53:26 <kushal>	amrita_, that is not a list then, it is a set 
+Jul 15 20:53:37 *	amritaa (n=amrita@117.201.97.234) has joined #dgplug
+Jul 15 20:53:39 <arpita_>	kushal, yes
+Jul 15 20:53:40 <kushal>	arpita, readt the set doc in python manual 
+Jul 15 20:53:43 <kushal>	please
+Jul 15 20:53:51 <kushal>	I have to run 
+Jul 15 20:54:06 <kushal>	<--SESSION OVER-->

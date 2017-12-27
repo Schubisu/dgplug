@@ -1,0 +1,437 @@
+[13:50:49] [## Class Started at Tue Jul  9 13:50:49 2013 ##]
+[13:50:49] <kushal> startclass
+[13:50:52] <rashmi> ok thanks
+[13:51:01] <kushal> ----------SESSION STARTS------------
+[13:51:09] <bidisha> Thank you
+[13:51:19] <kushal> ROLL CALL
+[13:51:21] <tutum> Pritha Ganguly
+[13:51:22] <siddhant> siddhant sengar
+[13:51:22] <prikotiyal> Priyanka Kotiyal
+[13:51:23] <rahulch> Rahul Chowdhury
+[13:51:24] <amresh> amresh kumar
+[13:51:24] <dell> manish jain
+[13:51:25] <anisha23> Anisha Agrawal
+[13:51:25] <tenstormavi> Avinash Kumar Dasoundhi
+[13:51:26] <Christi123> Christina Beemer
+[13:51:27] <J_Caselles> Josep Caselles
+[13:51:30] <elita15> elita lobo
+[13:51:30] <puja12> puja Gupta
+[13:51:31] <Sudip> Sudip Gorai
+[13:51:32] <m0rin09m`> Shungoh Kaetsu
+[13:51:33] <sonam> sonam
+[13:51:34] <iam_sudip> iam_sudip
+[13:51:35] <kavis> kavis khandelwal
+[13:51:36] <nilanjit> Nilanjit Mitra
+[13:51:36] <supriya> supriya saha
+[13:51:36] <bidisha> Bidisha Mukherjee
+[13:51:50] <puspita> puspita ghosh
+[13:51:53] <aanchal> Aanchal
+[13:51:54] <zishan> Sheesh Mohsin
+[13:52:09] <shalini> kushal,ok but what is wrong in my email.
+[13:52:19] <kushal> shalini, your email does not seem be a reply
+[13:52:37] <kushal> shalini, It seems to be a new email with that subject line
+[13:53:03] <kushal> prikotiyal, why you submitted same hometask twice ?
+[13:53:25] <prikotiyal> kushal, sorry
+[13:53:25] <kushal> prikotiyal, please answer
+[13:54:17] <shantanu> Shantanu Sarkar
+[13:54:20] <kushal> prikotiyal, please follow the instructions properly, in future we will start kicking out people from session for not following the instructions
+[13:54:27] <kushal> shantanu, sleeping ?
+[13:54:36] <ravi_pro_> ravi kumbhlkar
+[13:54:40] <shantanu> kushal, sorry i was away.
+[13:54:43] <rashmi> Rashmi
+[13:54:50] <kushal> same goes to rashmi
+[13:54:50] <prikotiyal> kushal, i apologize.I wont repeat it further
+[13:54:56] <rashmi> sorry
+[13:55:02] <shalini> Shalini Roy
+[13:55:02] <shalini> kushal, ok thanks
+[13:55:03] <ravi_pro_> kushal, sorry my net was deconnected
+[13:55:03] <shalini> kushal, i will reply .
+[13:55:40] <kushal> prikotiyal, also do you know that after full stop we give a space to start a new English sentence ?
+[13:56:15] <prikotiyal> kushal, yes. sorry again
+[13:56:19] <dot|not> dot|not,
+[13:56:37] <kushal> now 15  minutes Q&A (at max)
+[13:56:42] <kushal> questions anyone ?
+[13:56:59] <rashmi> !
+[13:57:26] <Christi123> !
+[13:57:27] <kushal> rashmi, ask
+[13:57:57] <J_Caselles> !
+[13:58:15] <rashmi> output of 'india' and 'india\'s  best' is different
+[13:58:45] <shalini> !
+[13:58:52] <kushal> rashmi, is that a question ?
+[13:59:14] <kushal> Christi123, ask
+[13:59:16] <Christi123> kushal # is comment, So in the begining of sha-bang there is a # what does that imply ?
+[13:59:22] <Christi123> <EOF>
+[14:00:04] <kushal> Christi123, sha-bang is a special case for the shell, using that we tell the shell to use a particular interpreter for that file, it is not part of python
+[14:00:08] <kushal> J_Caselles, ask
+[14:00:25] <dot|not> !
+[14:00:29] <kushal> shalini, ask
+[14:01:01] <J_Caselles> I understand tuple concept, but don't trully folow when you explain that the swapping proces has to do with this.
+[14:01:01] <anisha23> !
+[14:01:07] <shalini> kushal,i haven't got the mail from mailing list that's why i have sent new email.
+[14:01:50] <kushal> J_Caselles, ok explaining the next lines
+[14:01:58] <kushal> shalini, ah
+[14:02:09] <kushal> shalini, I will tell you after session
+[14:02:16] <kushal> J_Caselles here
+[14:02:27] <J_Caselles> yes
+[14:02:32] <kushal> (10, 20) -- is tuple with two values, correct ?
+[14:02:37] <J_Caselles> yes
+[14:02:39] <shalini> kushal, ok thanks.
+[14:02:44] <kushal> a = 10
+[14:02:46] <kushal> b = 20
+[14:02:52] <kushal> (a, b)
+[14:03:05] <kushal> J_Caselles, you can understand the above statement ?
+[14:03:08] <kushal> a, b
+[14:03:11] <J_Caselles> sure
+[14:03:13] <kushal> try this one too
+[14:03:49] <kushal> so in that right hand of the assignment, we write b, a
+[14:03:58] <kushal> so it becomes ( 20, 10)
+[14:04:18] <J_Caselles> ok!
+[14:04:19] <kushal> and then in the left hand it gets assigned to (tuple unpacking) a, b
+[14:04:24] <kushal> which is (a, b)
+[14:04:28] <kushal> J_Caselles, is it ok now ?
+[14:04:54] <J_Caselles> yes. then tuple unpacking means assignment of the multiples variables, right?
+[14:04:59] <kushal> yes
+[14:05:03] <kushal> using tuple
+[14:05:07] <J_Caselles> ok, nice, thanks <eof>
+[14:05:07] <kushal> dot|not, ask
+[14:05:58] <kushal> anisha, ask
+[14:06:16] <anisha23> number = float(raw_input("")) here why do we have to specify the datatype?
+[14:06:20] <kushal> any other question ?
+[14:06:27] <dot|not> I was just wondering why you are always talking of Shabang. I learned it as "Shebang". Googled it and found out that both variants are legitimate. Question solved. Thank you. <EOF>
+[14:06:35] <kushal> dot|not, ok
+[14:06:45] <anisha23> <eof>
+[14:07:07] <kushal> anisha, we are not specifying the data type, we are doing type casting
+[14:07:17] <kushal> raw_input returns string
+[14:07:24] <kushal> we need to convert it to float
+[14:07:36] <kushal> anisha23, does this answer your question ?
+[14:07:44] <anisha23> yes, thanks :)
+[14:09:01] <nilanjit> !
+[14:09:14] <kushal> nilanjit, ask
+[14:09:23] <nilanjit> Having problem in git push
+[14:10:29] <kushal> nilanjit, buy a guitar and sing a song, YMCA if possible
+[14:10:46] <kushal> next question please
+[14:10:51] <kushal> a proper question
+[14:10:55] <Christi123> !
+[14:10:55] <nilanjit> This is the error i am getting http://www.fpaste.org/23940/33784411/ <eof>
+[14:11:27] <kushal> nilanjit, answer is also given in that paste
+[14:11:30] <kushal> Christi123, ask
+[14:11:37] <Christi123> kushal can we import any module. Is the visibility of modules public
+[14:11:54] <nilanjit> even git pull is giving an error
+[14:12:14] <kushal> Christi123, there is no private module
+[14:12:22] <Christi123> <eof>
+[14:12:26] <kushal> nilanjit, we will look at git issues after session
+[14:12:34] <kushal> nilanjit, ask help from your friends later on
+[14:12:35] <dot|not> nilanjit: "Giving an error" is no valid description. You should wait until the lass is over. Someone will probably find time to help you.
+[14:12:43] <dot|not> Args. Sorry kushal.
+[14:12:53] <kushal> dot|not, no problem
+[14:13:17] <kushal> any more python question ?
+[14:14:16] <kushal> I forgot till what chapter I asked you all to read yesterday ? anyone ?
+[14:14:22] <J_Caselles> 3rd
+[14:14:26] <iam_sudip> 3rd.
+[14:14:26] <kushal> ok
+[14:14:26] <rahulch> 3
+[14:14:28] <dell> 3rd
+[14:14:33] <puspita> 3rd
+[14:14:36] <nilanjit> kushal, okay, thank you, it is taking huge time to paste for slow internet. <eof>
+[14:15:17] <kushal> you all read 4th chapter later on
+[14:15:23] <kushal> now moving to 5th chapter
+[14:15:28] <kushal> conditional statements
+[14:15:41] <kushal> these will help us to evaluate a condition
+[14:15:47] <kushal> if condition:
+[14:15:52] <kushal>     statement1
+[14:15:58] <kushal>     statement2
+[14:16:22] <kushal> all indented lines will be evaluated if the condition is true
+[14:16:28] <kushal> s/true/True/
+[14:16:29] <batul> What kushal meant to say was: all indented lines will be evaluated if the condition is True
+[14:16:53] <kushal> same goes to else
+[14:17:03] <kushal> we can also have elif statements
+[14:17:31] <kushal> a = 10
+[14:17:33] <kushal> b = 20
+[14:18:00] korak_ is now known as korak
+[14:18:01] <kushal> write a program in the interpreter to print "hello" if a is greater than b or else print "zero"
+[14:18:12] <kushal> ^^ everyone do it and then show us using pastebins
+[14:18:46] <rahulch_> kushal, can you please repeat your question ? my internet was down
+[14:19:10] <kushal> rahulch_, I wrote it after you came to this channel, nothing to repeat
+[14:19:31] <rahulch_> ok got it
+[14:20:16] <tutum> kushal, http://fpaste.org/23945/37337899/
+[14:20:32] <kushal> tutum, good
+[14:20:35] <Armageddon> http://is.gd/K7VQ19
+[14:20:53] <kushal> tutum, can you please explain what you are doing in the code to others ?
+[14:21:18] <kushal> Armageddon, wrong link
+[14:21:19] <puspita> http://www.fpaste.org/23946/33790881/
+[14:21:27] <Armageddon> kushal, no, it needed time to upload
+[14:21:29] <Armageddon> :p
+[14:21:52] <shantanu> kushal, http://fpaste.org/23947/73379115/
+[14:21:57] <kushal> puspita, you never wrote it in the interpreter as I asked
+[14:22:08] <anisha23> http://fpaste.org/23948/73379126/
+[14:22:09] <puspita> kushal ohh sorry
+[14:22:22] <Armageddon> kushal, does my link work ?
+[14:22:29] <tutum> okay. I assigned variable a to a value 10 and b to a value 20 and gave the condition that if a is greater than b then the program should print "Hello"
+[14:22:44] <J_Caselles> http://paste.fedoraproject.org/23950/
+[14:22:45] <tutum> else if a is less than or equal to b then zero would print out
+[14:22:46] <kushal> Armageddon, no, that points to an image
+[14:22:52] <Armageddon> kushal, http://is.gd/rV4bK3
+[14:23:03] <anurag> http://fpaste.org/23951/37918813/
+[14:23:06] <Armageddon> better
+[14:23:14] <puspita> kushal: http://www.fpaste.org/23953/73379201/
+[14:23:14] <tutum> as a is less than b in this case, zero was printed.
+[14:23:36] <dell_> kushal: http://www.fpaste.org/23954/
+[14:23:42] <kushal> it is correct for everyone else
+[14:23:45] <Christi123> kushal, fpaste.org/23952/73379194/
+[14:24:00] <kushal> Armageddon, please pass pastebin links as text is smaller than an image
+[14:24:03] <tenstormavi> kushal, http://fpaste.org/23958/
+[14:24:04] <prikotiyal> http://www.fpaste.org/23956/79229137/
+[14:24:10] <rashmi> kushal,http://fpaste.org/23955/33792221/
+[14:24:25] <siddhant> http://fpaste.org/23959/
+[14:24:34] <kushal> I not checking these
+[14:24:36] * J_Caselles needs to forget about using xterm. Needs copy/paste urgently
+[14:24:39] <prikotiyal> kushal, http://www.fpaste.org/23956/79229137/
+[14:24:57] <supriya> http://www.fpaste.org/23961/37930113/
+[14:24:59] <kushal> you can check yourselves later
+[14:25:07] <sonam> kushal, http://www.fpaste.org/23962/13733793/
+[14:25:27] <nilanjit> http://www.fpaste.org/23963/33793291/
+[14:25:42] <kushal> next chapter is looping
+[14:25:51] <rahulch_> http://fpaste.org/23964/33793611/
+[14:26:02] <kushal> please read that chapter and ask any question you have (read it now)
+[14:26:06] <kushal> during the session
+[14:27:09] <puspita> !
+[14:27:14] <ravi_pro_> kushal,http://fpaste.org/23966/37941513/
+[14:27:31] <kushal> puspita, ask
+[14:27:31] <m0rin09m`> kushal: http://pastebin.com/vwk9XVbb
+[14:27:41] <puspita> kushal: how do we specify the boundary of while loop?
+[14:28:00] <kushal> puspita, like while n < 10: ?
+[14:28:34] <puspita> yes like when n < 10: then how many statements will it execute?
+[14:28:58] <puspita> if there are other statements after the while loop how do we distinguish?
+[14:29:28] <J_Caselles> with the indentation
+[14:29:39] <puspita> ok.
+[14:29:42] <kushal> puspita, ^^
+[14:30:00] <kushal> remember, indentation is the key here
+[14:30:17] <puspita> kushal got it thanks.  J_Caselles thanks
+[14:32:05] <dell> !
+[14:32:48] <kushal> dell, ask
+[14:33:23] <dell> i power series example u wrote term < 0.0001, is their any inbuilt function available such as pow in C?
+[14:33:35] <dell> s/i/in
+[14:33:46] <dell> s/u/you
+[14:33:51] <dot|not> ^ Captain Cryptography strikes again.
+[14:34:04] <dot|not> And yes, there is such a function.
+[14:34:40] <kushal> dell, yes, that example is wrong iirc
+[14:35:59] <dell> kushal: tell us the function if we will have to compare an accurate value. so.
+[14:36:44] <Christi123> !
+[14:37:45] <kushal> dell, what about pow ?
+[14:37:49] <kushal> Christi123, ask
+[14:38:06] <Christi123> In lists what is a[-1] does the index of elements in descending order start from -1
+[14:38:19] <kushal> Christi123, counting from the end
+[14:38:34] <dell> kushal: pow is used in C
+[14:38:42] <kushal> heh
+[14:39:03] <Christi123> ok and what is the meaning of a[0:-1]
+[14:39:12] <Christi123> <EOF>
+[14:39:23] <kushal> dell, and see if it works in Python or not ?
+[14:39:35] <puspita> Christi123 +1
+[14:39:43] <dell> ok. i will
+[14:39:47] <dell> <EOF>
+[14:39:51] <kushal> Christi123, from the first element to the element just before the last one
+[14:40:05] rahulch_ is now known as rahulch
+[14:41:24] <Christi123> kushal, if it is considering the first element  like a[0] why isn't it considering the last element a[-1]. What would be the expression if i had to print all the elements ?
+[14:42:25] <kushal> Christi123, to print, use a for loop
+[14:42:33] praveenkumar_ is now known as praveenkumar
+[14:42:52] <kushal> >>> a = [1, 2, 3]
+[14:42:52] <kushal> >>> print a[-1]
+[14:42:52] <kushal> 3
+[14:42:58] <kushal> Christi123, ^^
+[14:43:59] <Christi123> kushal, Thank you :)
+[14:47:11] <J_Caselles> !
+[14:49:55] <kushal> J_Caselles, ask
+[14:51:05] <kushal> J_Caselles, ?
+[14:51:27] <kushal> anyone else if you have any question please ask
+[14:51:27] <J_Caselles> print has the exact same format as printf of C? or there's anything different?
+[14:51:41] <kushal> format string options are same
+[14:51:57] <J_Caselles> thanks <eof>
+[14:54:29] <puspita> !
+[14:54:33] <kushal> puspita, ask
+[14:55:06] <puspita> kushal what does this specify range(1,15,3)
+[14:55:22] <kushal> puspita, type in the python interpreter and see :)
+[14:56:37] <kushal> puspita, remember to write <eof>
+[14:56:48] <puspita> kushal: these  values are predefined.
+[14:56:59] <kushal> puspita, which values ?
+[14:57:12] <puspita> kushal: range values
+[14:58:08] <kushal> puspita, no, you are deciding them when you call that range function
+[14:58:24] <kushal> in your example it starts from 1 , before 15
+[14:58:30] <kushal> and increases by 3
+[14:58:30] <elita15> !
+[14:58:33] <kushal> elita15, ask
+[14:58:45] <puspita> kushal: ok thanks <eof>
+[14:59:21] <ravi_pro> !
+[14:59:39] <kushal> ravi_pro, ask
+[14:59:51] <elita15> what does  a[0:1:4] mean?
+[14:59:53] <ravi_pro> kushal, if the range(13,1,3)
+[15:00:07] <ravi_pro> kushal, will it be possible?
+[15:00:10] <ravi_pro> <eof>
+[15:00:12] <elita15> <eof>
+[15:00:26] <kushal> ravi_pro, you yourself should be able to answer that question
+[15:01:19] <kushal> elita15, where you found that ?
+[15:01:31] <ravi_pro> kushal, but i it is ginving only "[]" as output
+[15:02:18] <kushal> ravi_pro, isn't it supposed to be ? you are starting from 14 and adding 3 everytime till you are less than 1
+[15:02:27] <iam_sudip> rahulch: 13+1=14 so it is greater than 1
+[15:02:39] <kushal> starting from 13
+[15:02:42] <kushal> iam_sudip, thanks
+[15:03:07] <ravi_pro> kushal, but i want to decrese the number by 3 from 13 to 1
+[15:03:16] <kushal> ravi_pro, guess guess :)
+[15:03:17] <iam_sudip> use range(13,1-3) it will get you to your desired output.
+[15:03:23] <rahulch> iam_sudip, what ?
+[15:03:25] <iam_sudip> oh sorry.
+[15:03:27] <elita15> kushal, i found a[0: :2]  on pdf , so i tried a[0:1:4] and got output [1]  where  a = [ 1 , 342, 2233423, 'India', 'Fedora']
+[15:03:51] <ravi_pro> iam_sudip, thanks
+[15:03:54] <kushal> iam_sudip, you missed a comma
+[15:04:01] <puspita> range(13,1,-3) will give you the desired o/p
+[15:04:06] <kushal> elita15, a[0:1:4] doe snot make any sense
+[15:04:09] <iam_sudip> kushal: I just didn't want to say the answer. I typed it before you asked him to guess.
+[15:04:14] <kushal> puspita, correct
+[15:04:19] <kushal> iam_sudip, no problem :)(
+[15:04:53] <puspita> kushal :)
+[15:05:44] <elita15> !
+[15:05:48] <kushal> elita15, ask
+[15:06:39] <elita15> kushal, i did not understand why do we use two colen here in this  a[0: :2] ? what does it mean?
+[15:06:48] <iam_sudip> elita15: starting point and ending point both are same as a[0], so it is giving 1. step 4 does not make any sense.
+[15:07:41] <kushal> elita15, means we want all values between first and 3rd element including first
+[15:07:47] <kushal> that is called slicing
+[15:09:27] <ravi_pro> !
+[15:10:14] <kushal> ravi_pro, ask
+[15:10:14] <fewcha> elita15: it means, it will take the 1st, 3rd, 5th elements and so on
+[15:10:16] <ravi_pro> kushal, a[::2]:
+[15:10:33] <ravi_pro> kushal, doesnot make me any sence
+[15:10:36] <ravi_pro> <eof>
+[15:10:40] <kushal> ravi_pro, are you sure about the last colon ?
+[15:11:05] <ravi_pro> kushal, yes
+[15:11:16] <kushal> ravi_pro, why it does not make any sense to you ?
+[15:11:20] <iam_sudip> read this like: a[start,end,step]
+[15:11:34] <kushal> ravi_pro, ^^^
+[15:11:54] <kushal> who ever finishes the chapter please say done here
+[15:12:02] <ravi_pro> kushal, in the middle of the [] why tho colon an after "2"
+[15:12:04] <rahulch> done
+[15:12:17] <kushal> ravi_pro, iam_sudip answered that question
+[15:12:19] <iam_sudip> sorry a[start:end:step]
+[15:12:40] <elita15> kushal, it takes the first , third and fifth element. can you please explain the output? is it considering  every 3rd element?
+[15:12:43] <kushal> ravi_pro, read the page 31
+[15:13:01] <kushal> elita15, no, between 1st and 3rd excluding the 3rd
+[15:13:07] <ravi_pro> iam_sudip, means it will start from a[0] to a[n] with the difference of 2
+[15:13:22] <kushal> ravi_pro, yes, where n is the length -1 of the list
+[15:13:59] <iam_sudip> ravi_pro: yes. Read carefully where the example has given in the book, just below the example.
+[15:14:06] <J_Caselles> done
+[15:14:06] <ravi_pro> kushal, iam_sudip, thanks i got it
+[15:14:11] <puspita> done
+[15:14:32] <kushal> rahulch, J_Caselles puspita any question ?
+[15:14:51] <rahulch> kushal, no :)
+[15:14:54] <anurag> done
+[15:14:54] <J_Caselles> no
+[15:15:04] <elita15> kushal ,  please check this output http://fpaste.org/23990/37338225/
+[15:15:16] <tutum> done
+[15:15:32] <kushal> elita15, checked and ?
+[15:15:54] <J_Caselles> well, I need to refresh my math's skills, cause I'm lost with the power series. But this has nothing to do with python :P
+[15:16:08] <kushal> J_Caselles, hehe
+[15:16:16] <puspita> kushal: have doubts with the game of stick problem
+[15:16:35] <kushal> J_Caselles, I promise there will not me much math issues in future during the sessions
+[15:16:37] <kushal> puspita, ask
+[15:16:43] <kirk_iowa> done
+[15:16:43] <puspita> if sticks == 1:
+[15:16:44] <puspita> print "You took the last stick, you loose"
+[15:16:49] <elita15> kushal, i still dont understand why fifth element is considered.
+[15:16:55] <elita15> <eof>
+[15:17:10] <puspita> can't understand why choosing 1 is loosing <epf>
+[15:17:12] <J_Caselles> fortunately, I can still manage multiplication tables ;)
+[15:17:35] <kushal> elita15, which one ? you pasted too many things in one go
+[15:18:38] <kushal> puspita, because you are choosing the last stick that is why you are loosing. That is the rule of the game, just like if to score a goal in football you have to send the ball into any net
+[15:18:38] <iam_sudip> kushal: I think the program is wrong the e**x program. Pardon me kushal. I don't get it yet.
+[15:18:53] <kushal> iam_sudip, what is that ?
+[15:19:26] <kushal> iam_sudip, one series program is wrong
+[15:19:30] <elita15> sorry kushal, the  thirteenth line. and second line it is correct
+[15:19:30] <kushal> I forgot which one
+[15:19:31] <iam_sudip> sorry I talked in between conversation.
+[15:19:32] <puspita> kushal: ok thanks
+[15:20:08] <kushal> elita15, yes, they are
+[15:20:34] <kushal> can someone please explain elita15 why the 2nd and 13th line is correct in http://fpaste.org/23990/37338225/ ?
+[15:20:52] <anurag> elita15: its the 4th element. a start with 0 and not 1.
+[15:22:10] <anurag> ^^ (the 13th line)
+[15:23:07] <kushal> any other question ?
+[15:24:40] <elita15> kushal, thanks i understood the concept of slicing.
+[15:24:50] <anisha23> done
+[15:27:00] <supriya> done
+[15:27:31] <iam_sudip> kushal: [OT] the example of cricket bat is great. it's showing you are Indian writer.[page 23]
+[15:29:21] <amresh> done
+[15:30:00] <kushal> pingall: who all are still reading the chapter ? Please say yes here, so that we wait for you
+[15:30:00] <kirk_iowa> iam_sudip: [ot] great, i have to learn That crazy game? :)
+[15:30:15] <kushal> kirk_iowa, hehe
+[15:30:19] <shantanu> done
+[15:30:32] <ravi_pro> done
+[15:30:36] <sonam> done
+[15:30:36] <prikotiyal> done
+[15:30:38] <tenstormavi> done
+[15:30:42] <dell> done
+[15:30:48] <aanchal> done
+[15:30:52] <elita15> done
+[15:30:53] <rashmi> done
+[15:31:06] <m0rin09m`> done
+[15:31:19] <avik> done
+[15:31:38] <iam_sudip> Done.
+[15:31:41] <siddhant> done
+[15:32:09] <kushal> one should not say done unless they really are, there is no problem if one goes slow
+[15:33:01] <kushal> everyone done or anyone still reading ?
+[15:33:05] <kushal> no body said yes
+[15:33:07] <kushal> :(
+[15:33:31] <bidisha> done
+[15:33:33] <ravi_pro> kushal,yes
+[15:33:55] <kushal> ravi_pro, eh, you said done, now you are saying yes to mark that you are still reading
+[15:34:10] <Sudip> done
+[15:34:58] <kushal> I don't remember, how to find the type of an object ? is it explained in the book till what you read ?
+[15:35:24] <kushal> anyone ^^
+[15:35:27] <rahulch> no
+[15:35:28] <shalini> done
+[15:35:33] <kushal> one can use a function called type
+[15:35:39] <kushal> type(list)
+[15:35:42] <kushal> type(str)
+[15:35:46] <kushal> type(int)
+[15:36:24] <iam_sudip> type(variable) it will show us.
+[15:37:13] fewcha_ is now known as fewcha
+[15:37:29] <ravi_pro> kushal, i said yes, means i have done
+[15:37:48] <kushal> ravi_pro, and I asked different thing to which the answer was yes
+[15:38:14] <ravi_pro> kushal, sorry for that
+[15:38:25] <kushal> ravi_pro, no problem
+[15:38:40] <kushal> to get help on any object or type
+[15:38:42] <kushal> do
+[15:38:46] <kushal> help(obj)
+[15:39:07] <kushal> help(type) -- actually
+[15:40:03] <kushal> I think I am sleepy and typing stupid things :(
+[15:40:26] <puspita> !
+[15:40:31] <kushal> puspita, ask
+[15:40:49] <kushal> press q to exit from the help docs
+[15:41:07] <puspita> after typing help(int) it has given me all about it. but i can't understand how to exit from there?
+[15:41:22] <puspita> kushal : ohh i just got the answer. thanks
+[15:41:23] <kushal> puspita, I answered before you asked :)
+[15:41:35] <puspita> kushal : you did :)
+[15:42:00] <kushal> anyway read chapter7 and chapter8 for tomorrow's session
+[15:42:06] <kushal> ROLL CALL
+[15:42:11] <tenstormavi> Avinash Kumar Dasoundhi
+[15:42:12] <puspita> Puspita Ghosh
+[15:42:13] <rahulch> Rahul Chowdhury
+[15:42:14] <amresh> amresh kumar
+[15:42:14] <anurag> anurag kumar
+[15:42:16] <supriya> supriya saha
+[15:42:17] <aanchal> Aanchal
+[15:42:17] <elita15> elita lobo
+[15:42:18] <anisha23> Anisha Agrawal
+[15:42:19] <sonam> sonam banerjee
+[15:42:22] <kirk_iowa> kirk gunderson
+[15:42:22] <bidisha> Bidisha Mukherjee
+[15:42:23] <ravi_pro_> ravi kumbhkar
+[15:42:24] <m0rin09m`> Shungoh Kaetsu
+[15:42:28] <kavis> kavis khandelwal
+[15:42:28] <J_Caselles> Josep Caselles
+[15:42:29] <rashmi> Rashmi
+[15:42:29] <dell> manish
+[15:42:40] <tutum> Pritha Ganguly
+[15:42:46] <iam_sudip> iam_sudip
+[15:42:53] <avik> avik ghosh
+[15:43:24] <prikotiyal> Priyanka Kotiyal
+[15:43:30] <kushal> -----------SESSION ENDS---------------
+[15:43:32] <shalini> Shalini Roy
+[15:43:35] <kushal> endclass
+[15:43:35] [## Class Ended at Tue Jul  9 15:43:35 2013 ##]

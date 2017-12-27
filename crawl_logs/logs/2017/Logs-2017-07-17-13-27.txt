@@ -1,0 +1,225 @@
+----BEGIN CLASS----
+[13:27] <mbuf> #startclass
+[13:27] <mbuf> roll call please
+[13:27] <im_mohsin> Mohsin Mumtaz
+[13:27] <ashwanig> Ashwani Kumar Gupta
+[13:27] <Ani_> Aniket uttam
+[13:27] <deepika> Deepika Upadhyay
+[13:27] <asraisingh> Abhishek Singh
+[13:27] <skat-sd> Saikat Dey
+[13:27] <jiteshpabla_> Jitesh Pabla
+[13:27] <abhinavshirur> Abhinav Shirur
+[13:28] <bhavin192> Bhavin Gandhi
+[13:28] <messifc> Messi Fc
+[13:28] <sitlanigaurav[m]> Gaurav Sitlani
+[13:28] <akshayg96> Akshay Gaikwad
+[13:28] <kvy> kumar vipin yadav
+[13:28] <sakshi> Sakshi Saraswat
+[13:28] <anuGupta> Anu kumari Gupta
+[13:28] <samridhia> Samridhi agarwal
+[13:28] <vharsh> Harsh Vardhan
+[13:28] <ghishadow> Suraj Ghimire
+[13:28] <fxkundan> kundan kumar
+[13:28] <sandeepK> Sandeep Choudhary
+[13:28] <soumam007> Soumam Banerjee
+[13:28] <jasonbraganza> Jason Braganza
+[13:28] <balaji> Balaji
+[13:29] <kushal> Kushal Das
+[13:29] <avik> Avik Mukherjee
+[13:29] <joyhimanshuhu> Himanshu Awasthi
+[13:29] <pr97> Priyanka Sharma
+[13:29] <NikitaK3> Nikita Kotak
+[13:29] <championshuttler> Shivam Singhal
+[13:29] <mbuf> I am Shakthi Kannan (@shakthimaan), and I will be introducing you to GNU Emacs today
+[13:30] <mbuf> This is not going to be a tutorial
+[13:30] <sayan> Sayan Chowdhury
+[13:30] <knrai> krishnanand rai
+[13:30] <mbuf> Everyone will have their own pace of working with such a setup, and hence, I want to give you an overview of Emacs
+[13:31] <Phi_mb> Roll Call: Mohit
+[13:31] <mbuf> Emacs is a text editor but it can be extended and customized to your needs
+[13:31] <mbuf> It is primarily written in Lisp and C
+[13:31] <mbuf> It is one of the oldest text editors. A lot of great software has been written using it
+[13:31] <Vamsi3296> Roll call: Vamsi Krishna.
+[13:32] <mbuf> A lot of GNU software developers use GNU Emacs
+[13:32] <mbuf> Linus Torvalds also uses a variant of Emacs
+[13:32] <mbuf> One of the GitHub founders actually used Emacs as well
+[13:32] <_RicharD_> Roll call : Mayank gupta
+[13:33] <ahole[m]> Kshithij Iyer
+[13:33] <mbuf> There are many variants available today such as GNU Emacs, XEmacs, Aqua Emacs, Spacemacs etc.
+[13:33] <priyansh> Priyansh Sourav
+[13:33] <mbuf> Your distribution should already have GNU Emacs packaged for you to use it
+[13:34] <mbuf> Primarily Emacs is a stateless editor, compared to other editors where you have different modes
+[13:34] <mbuf> So, you have two important keys Control and Meta (Alt) that you will use when editing
+[13:34] <lucifer> Atul kumar
+[13:35] <mbuf> Emacs existed even before X window came, and hence, most of the shortcuts were borrowed from it
+[13:35] <mbuf> For example, Control-a takes you to the beginning of the line
+[13:35] <mbuf> But, the same shortcut will also work in your terminal. So, if you know the shortcuts in Emacs and you can use it in your terminal sessions as well
+[13:36] <mbuf> The outer border in Emacs is actually called a frame. Inside a frame, you can have many windows.
+[13:36] <mbuf> This is in contrast to the terminology that most you are familiar with that each application is in a window.
+[13:37] <mbuf> So, you can have a single frame with multiple windows (or buffers). For example, one window can have IRC chat, another window for coding, another window for the terminal etc.
+[13:37] <mbuf> Emacs does have major and minor modes, but, that is mostly for the user to know what shortcuts are available to you
+[13:37] <mbuf> After you have installed Emacs using your distribution package manager, you open it and start with the built-in tutorial
+[13:38] <mbuf> You use C-h t
+[13:38] <neer1> Roll call: Nishanta Sarma
+[13:39] <mbuf> I also used the book, "Learning GNU Emacs" http://shop.oreilly.com/product/9780596006488.do
+[13:39] <mbuf> You can use Emacs from the X window, or from the terminal
+[13:39] <mbuf> You can also start it as a server that runs in the background, and you can open multiple emacsclient frames to connect to it
+[13:39] <mbuf> It is quite customizable and extensible
+[13:40] <mbuf> Similar to the *nix philosophy, everything in Emacs is a buffer - whether you open a file, or a shell, or connect to IRC, or even browse!
+[13:40] <mbuf> It has built-in directory folder management interface called dired.
+[13:41] <mbuf> I had written an "Introduction to GNU Emacs" series in Open Source For You magazine (12 articles) which you can also use to learn GNU Emacs
+[13:41] <mbuf> http://shakthimaan.com/tags/emacs.html
+[13:41] <mbuf> Once, you have got the basic editing, navigation going, you can then explore the different extensions (plugins) that you can use
+[13:42] <santoshShaw> Roll Call: Santosh Kumar Shaw
+[13:42] <mbuf> If you are a developer or do some coding, you can of course install the necessary syntax highlighting, and extensions available for your language
+[13:42] <mbuf> Emacs also has a built-in shell eshell, but, you can also use other shells like ansi-term
+[13:43] <mbuf> If everything is inside one frame, then you don't have distractions, and you are focussed on what you are doing
+[13:43] <ravindra> Roll call Ravindra Lakal
+[13:43] <mbuf> If you have states, then your mind has to switch between what you are doing and which state the editor is in
+[13:43] <mbuf> You do not need to know Emacs Lisp to use the editor
+[13:44] <mbuf> If you want to do heavy customization, then it is good to know the same
+[13:44] <mbuf> The "Writing GNU Emacs Extensions" book is good to learn to extend your editor http://shop.oreilly.com/product/9781565922617.do
+[13:44] <mbuf> One very popular feature of Emacs is Org-mode
+[13:45] <mbuf> I use it for project management, planning day-to-day, monthly activities etc. This documentation is a good reference http://doc.norang.ca/org-mode.html
+[13:45] <mbuf> Of course, scrum mode is useful too https://github.com/ianxm/emacs-scrum
+[13:46] <mbuf> All your configurations go into ~/.emacs, but, different people have different setups
+[13:47] <mbuf> I primarily use Cask, which helps to just list the packages that I want, and setup only the customization
+[13:47] <mbuf> We setup repositories to pull plugins from to install software
+[13:48] <mbuf> and keep the configuration minimal. If there are any enhancements, you can push to the upstream plugin or library
+[13:48] <mbuf> Cask: https://github.com/cask/cask
+[13:48] <mbuf> Some people use use-package, but, it depends on your taste
+[13:49] <mbuf> You can also IRC chat inside Emacs, using ERC
+[13:49] <mbuf> You can browse and read blogs using elfeed (for example), https://github.com/skeeto/elfeed
+[13:49] <mbuf> There is a built-in calendar, calculator that you can use
+[13:50] <mbuf> With Org-babel, you can execute commands and display the output in the buffer (file) itself so that you can execute scripts
+[13:50] <mbuf> The following documentation is an example for "Literate DevOps Using Emacs" http://www.howardism.org/Technical/Emacs/literate-devops.html
+[13:51] <mbuf> I have some examples created as well https://github.com/shakthimaan/literate-devops-using-gnu-emacs
+[13:51] <mbuf> You can also store and read .gpg files from GNU Emacs to store your passwords safely
+[13:52] <mbuf> Just like opening a file, you can open a socket connection to a VM (on host) or remote
+[13:52] <mbuf> For example, /ssh:user@host:/etc/hosts
+[13:52] <mbuf> So, you have one interface, and from where you operate on different buffers
+[13:53] <mbuf> There is also an rcirc Emacs client available if you want to try
+[13:54] <mbuf> Magit allows you to use Git inside Emacs, and it is super-fast; you can also selectively work on thunks
+[13:54] <mbuf> For development, your usual auto-completion, project keyword search, function definition all work
+[13:54] <mbuf> You should check out helm for the same https://tuhdo.github.io/helm-intro.html
+[13:55] <mbuf> You can also check e-mails inside GNU Emacs, you will need to set it up of course
+[13:56] <mbuf> Gnus has a learning curve https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/gnus-guide-en.org
+[13:56] <mbuf> You can also use mu4e
+[13:56] <mbuf> Some people prefer to download the e-mails using POP, or IMAP to a local server like dovecot, and then use Emacs just to read the e-mail
+[13:57] <mbuf> Some also use postfix server, and then use an e-mail indexer
+[13:57] <mbuf> You need to try out different setups for the same depending on what you need
+[13:58] <mbuf> If you find using Control and Meta difficult with the keyboard shortcuts, you can re-map the same as well
+[13:58] <mbuf> This is one of the reasons I switched from QWERTY to Dvorak
+[13:59] <mbuf> If you really want a full-fledged IDE, you can use Emacs Code Browser (ECB)
+[13:59] <mbuf> http://ecb.sourceforge.net/
+[14:00] <mbuf> There is built-in support for Emacs documentation and reference manuals, so everything is well contained
+[14:00] <mbuf> I have barely scratched the surface, but, I wanted to give you an overview of what is available to you
+[14:00] <mbuf> But, only if you use it daily will get a good grip of the same, and there is no looking back after that
+[14:01] <mbuf> The shortcuts have significant meaning so you don't need to memorize
+[14:01] <mbuf> For example, Control-d is to delete a character
+[14:02] <mbuf> But, Meta-d is to remove a word or remove the letters from the cursor to the end of the word
+[14:02] <mbuf> Once, you get the pattern, you will see that the shortcuts across plugins have meaning
+[14:03] <mbuf> Emacs magit shortcut reference is available at https://github.com/shakthimaan/emacs-magit-git-magic
+[14:04] <mbuf> There is some notes on the same here http://shakthimaan.com/posts/2013/02/25/introduction-to-magit/news.html
+[14:04] <mbuf> I had prepared a quick reference list here https://github.com/shakthimaan/emacs-a-day-keeps-the-vi-zing-away
+[14:04] <mbuf> But, you can prepare one or customize to your needs
+[14:04] <mbuf> I had also prepared a book generation template for using with Emacs, Org Mode and LaTeX at https://github.com/shakthimaan/xetex-book-template
+[14:05] <mbuf> My Emacs cask setup is at https://github.com/shakthimaan/cask-dot-emacs
+[14:06] <mbuf> I hope that you will give Emacs a try, and learn from it as much as I have learnt over the years
+[14:06] <mbuf> I will now open the floor for Q&A
+[14:06] <jasonbraganza> !
+[14:06] <mbuf> next
+[14:06] <jasonbraganza> does the org in org-mode and org-babel mean something?
+[14:07] <jasonbraganza> eom
+[14:07] <mbuf> Org = Organizing
+[14:07] <jasonbraganza> thank you
+[14:07] <mbuf> This is probably a simple tutorial http://orgmode.org/worg/org-tutorials/orgtutorial_dto.html
+[14:08] <mbuf> There are quite a few videos on Emacs available online that can watch to get started as well
+[14:08] <mbuf> http://emacsrocks.com/ has some good episodes
+[14:08] <mbuf> Otherwise, you can simply search in YouTube for emacs videos
+[14:09] <mbuf> The NYC Emacs group has some good video recordings http://emacsnyc.org/
+[14:10] <bhavin192> !
+[14:10] <Phi_mb> !
+[14:10] <mbuf> "The Editor of a Lifetime" by Perry Metzger is a good talk as well https://www.youtube.com/watch?v=VADudzQGvU8
+[14:10] <mbuf> next
+[14:10] <mbuf> next
+[14:10] <bhavin192> emacs is like everything in one, this is contradictory to UNIX philosophy (Write programs that do one thing and do it well.), isn't it?
+[14:11] <mbuf> bhavin192, you can run mulitple emacs servers, BTW
+[14:11] <Phi_mb> since after the vim session, we are advised to use vim daily, so should i drop it and start learning this new tool?
+[14:11] <mbuf> bhavin192, it just gives you a single view, because, that is what your mind needs
+[14:12] <mbuf> Phi_mb, vanilla or chocolate?
+[14:12] <Phi_mb> mbuf, You learned vim before emacs? Just to know. :)
+[14:12] <mbuf> Phi_mb, try both, and pick the one you like
+[14:12] <Phi_mb> mbuf, I remember that flavour class. :)
+[14:12] <mbuf> Phi_mb, I don't think I learnt anything in vim, or I spent much time with it, honestly
+[14:13] <mbuf> Phi_mb, just know how to open, insert, delete and exit
+[14:13] <mbuf> Phi_mb, so, I wouldn't say that I know vim that much
+[14:13] <Phi_mb> mbuf, Ok thanks for sharing. :)
+[14:13] <mbuf> If there is sufficient interest, then we can have a separate session on Emacs Lisp
+[14:14] <mbuf> for those who are serious in using it for their day-to-day work
+[14:14] <Phi_mb> mbuf, I think I'm interested. :)
+[14:14] <mbuf> There are some videos from Emacs NYC group here http://emacsnyc.org/videos.html
+[14:15] <mbuf> The "Emacs for Writers" talk is a good example of how someone who does not know coding but still uses Emacs https://www.youtube.com/watch?v=FtieBc3KptU
+[14:15] <mbuf> You can maintain finance accounts using ledger inside of Emacs too
+[14:16] <mbuf> PDF and image rendering is also possible inside Emacs, so you can view blogs or read reference manuals
+[14:16] <mbuf> The Literate DevOps with Emacs talk by Howard is a must watch https://www.youtube.com/watch?v=dljNabciEGg&t=111s
+[14:17] <mbuf> Sacha Chua has good blog posts on Emacs which you can refer http://sachachua.com/blog/
+[14:17] <mbuf> You can also subscribe to her weekly Emacs news for interesting plugins, code snippets and tech videos
+[14:18] <mbuf> You will also find useful information from the Emacs wiki https://www.emacswiki.org/
+[14:18] <mbuf> I have given you a lot of links today, so take your time going through them
+[14:20] <jasonbraganza> mbuf - this was a headrush! thank you!
+[14:20] <mbuf> jasonbraganza, wait there is more
+[14:20] <jasonbraganza> :)
+[14:22] <mbuf> If I have missed out on any, you can try
+[14:22] <mbuf> curl https://raw.githubusercontent.com/shakthimaan/shakthimaan-tweets/master/complete.txt | grep -i emacs
+[14:22] <mbuf> next
+[14:23] <jasonbraganza> mbuf holy moly!
+[14:23] <mbuf> Please go through today's log again, patiently and the links and videos
+[14:24] <mbuf> I have just given you a brain dump. We can have separate sessions on Org-mode, or other major modes if required
+[14:25] <mbuf> Any last minute questions?
+[14:25] <ahole[m]> Why use emacs instead of vim?
+[14:26] <mbuf> ahole[m], I use Emacs, which might be thought of as a thermonuclear word processor  Neal Stephenson (In the Beginning Was the Command Line)
+[14:26] <ahole[m]> I have had a little experience with both vim and emacs. I find vim and nano are a bit easy to use and learn when compared to emacs.
+[14:26] <mbuf> ahole[m], it is your choice
+[14:27] <mbuf> ahole[m], I shall leave you with the quotes on Emacs at http://shakthimaan.com/posts/2016/04/04/introduction-to-gnu-emacs/news.html
+[14:27] <mbuf> EMACS could not have been reached by a process of careful design, because such processes arrive only at goals which are visible at the outset, and whose desirability is established on the bottom line at the outset. Neither I nor anyone else visualized an extensible editor until I had made one, nor appreciated its value until he had experienced it. EMACS exists because I felt free to make individually useful small improvements on a path whose end was not in
+[14:27] <mbuf> sight.  Richard Stallman
+[14:28] <ahole[m]> The quotes are truly inspiring.
+[14:28] <mbuf> ahole[m], you should try it to experience it
+[14:28] <mbuf> Roll call please
+[14:28] <ahole[m]> Kshithij Iyer
+[14:28] <championshuttler> Shivam Singhal
+[14:28] <abhinavshirur> Abhinav Shirur
+[14:28] <ashwanig> Ashwani Kumar Gupta
+[14:28] <deepika> Deepika Upadhyay
+[14:28] <samridhia> Samridhi Agarwal
+[14:28] <balaji> Balaji
+[14:28] <kushal> kushal das
+[14:28] <asraisingh> Abhishek Singh
+[14:28] <bhavin192> Bhavin Gandhi
+[14:28] <jasonbraganza> Jason Braganza
+[14:28] <Vamsi3296> Vamsi Krishna.
+[14:28] <mdbk> Onyinye Madubuko
+[14:29] <skat-sd> Saikat Dey
+[14:29] <cran-cg> Chiranjeev Gupta
+[14:29] <akshayg96> Akshay Gaikwad
+[14:29] <pr97> Priyanka Sharma
+[14:29] <sayan> Sayan Chowdhury
+[14:29] <knrai> Krishnanand Rai
+[14:29] <kvy> kumar vipin yadav
+[14:29] <NikitaK3> Nikita Kotak
+[14:29] <anuGupta> Anu kumari Gupta
+[14:29] <messifc> Messi Fc
+[14:29] <fxkundan> kundan kumar
+[14:30] <priyansh> priyansh Sourav
+[14:30] <santoshShaw>  Santosh Kumar Shaw
+[14:30] <codexdelta> aswin devarajan
+[14:30] <sitlanigaurav[m]> Gaurav Sitlani
+[14:30] <Phi_mb> Mohit
+[14:31] <_RicharD_> Mayank gupta
+[14:31] <ghishadow> Suraj Ghimire
+[14:31] <joyhimanshuhu> Himanshu Awasthi
+[14:31] <soumam007> Soumam Banerjee
+[14:32] <mbuf> Also watch, "My week in Emacs" by Tory S. Anderson for motivation, https://www.youtube.com/watch?v=Q8AqHdZTgNI (~ 12m)
+[14:32] <mbuf> Thanks all for your time!
+----END CLASS----

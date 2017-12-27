@@ -1,0 +1,779 @@
+Jul 05 18:59:58 <stephdg>	----Ok Lets Start---
+Jul 05 19:00:09 <stephdg>	Todays class is on Mediawiki formatting
+Jul 05 19:00:12 <stephdg>	Roll Call
+Jul 05 19:00:26 <Manali>	Manali Nandan
+Jul 05 19:00:27 <sarbartha>	Sarbartha Sengupta
+Jul 05 19:00:32 <rtnpro>	Ratnadeep Debnath
+Jul 05 19:00:34 <Manali>	Manash Pal
+Jul 05 19:00:38 <kopecks>	koyel banerjee
+Jul 05 19:00:40 <rohitkg>	Rohit Kumar Gupta
+Jul 05 19:00:45 <kishan>	Kishan Goyal
+Jul 05 19:00:45 <yevlempy>	Harsh verma
+Jul 05 19:00:48 <djthequest>	Dibyanshu jaiswal
+Jul 05 19:00:49 <sudipta>	Sudipta Dhara
+Jul 05 19:01:13 <dipanjan>	Dipanjan Chakraborty
+Jul 05 19:01:42 <no_mind>	Vivek Khurana :p
+Jul 05 19:01:42 <stephdg>	Does everyone have the link to the presentation for tonights class?
+Jul 05 19:01:51 <dipanjan>	yes
+Jul 05 19:01:57 <Manali>	yes
+Jul 05 19:01:57 <rohitkg>	yes
+Jul 05 19:02:04 <djthequest>	yes
+Jul 05 19:02:05 <yevlempy>	yes.
+Jul 05 19:02:05 <sudipta>	yes
+Jul 05 19:02:07 <kishan>	ya
+Jul 05 19:02:13 <zer0c00l>	yes
+Jul 05 19:02:15 <sarbartha>	http://www.burntomlette.in/index.php?title=Mediawiki_training
+Jul 05 19:02:27 <stephdg>	If anyone has questions you use '!'
+Jul 05 19:02:34 *	kushal (n=kdas@fedora/kushal) has joined #dgplug
+Jul 05 19:02:35 <stephdg>	zer0c00l: if you are attending the class please state your name
+Jul 05 19:02:50 <zer0c00l>	stephdg: Arun SAG
+Jul 05 19:03:02 <Meejan>	Meejanur Rahaman
+Jul 05 19:03:54 <kushal>	stephdg, roll call over ?
+Jul 05 19:04:09 <stephdg>	kushal: yes
+Jul 05 19:04:28 <kushal>	stephdg, ok, go ahead
+Jul 05 19:04:50 <stephdg>	There are many different types of Wiki software, today we are only going to look at mediawiki.
+Jul 05 19:05:28 <stephdg>	Ok, we are going to start with the presentation
+Jul 05 19:05:44 <stephdg>	The first section deals with setting up your User account and User page
+Jul 05 19:06:20 <stephdg>	Please open the URL http://training.burntomlette.in
+Jul 05 19:07:03 <stephdg>	We are going to use this test wiki to learn about Mediawiki formatting
+Jul 05 19:07:23 *	indranil (n=indranil@pdpc/supporter/student/indranil) has joined #dgplug
+Jul 05 19:08:15 <stephdg>	Everybody should be on the first page of the mediawiki presentation
+Jul 05 19:08:21 <stephdg>	http://www.burntomlette.in/index.php?title=Mediawiki_training
+Jul 05 19:08:57 <stephdg>	Now as you can see the instructions to set up your user page are already given there, and we are going to follow these instructions to set up a User Account on the training site
+Jul 05 19:09:35 *	zer0c00l_ (n=zer0c00l@117.199.139.163) has joined #dgplug
+Jul 05 19:09:39 <stephdg>	Go ahead and set up your account using the tab on the top right of the browser that says log in
+Jul 05 19:09:47 *	rahulsen002 (i=75c204e5@gateway/web/freenode/x-48ce03fb2a4efa99) has joined #dgplug
+Jul 05 19:10:47 <stephdg>	Once you have created your user account everyone can go to http://training.burntomlette.in/index.php?title=Special:ListUsers and you should be able to see your user account as well as the other accounts that are being created
+Jul 05 19:11:00 <rahulsen002>	rahul sen present
+Jul 05 19:11:11 <stephdg>	Right now I can see dipanjan and rohitkg have already created their accounts
+Jul 05 19:11:43 <stephdg>	rahulsen002: http://training.burntomlette.in go here and set up a user account
+Jul 05 19:12:02 <rahulsen002>	ok ma'am
+Jul 05 19:12:09 <stephdg>	and you should be following this http://www.burntomlette.in/index.php?title=Mediawiki_training for the instructions rahulsen002
+Jul 05 19:12:21 *	kopecks89 (n=koyel@117.201.96.155) has joined #dgplug
+Jul 05 19:13:02 <stephdg>	Once you are done setting up your user accounts please tell me
+Jul 05 19:13:16 <rohitkg>	done
+Jul 05 19:13:20 <sarbartha>	I have created the account
+Jul 05 19:13:29 <dipanjan>	done
+Jul 05 19:13:40 <yevlempy>	done.
+Jul 05 19:13:46 <rahulsen002>	done
+Jul 05 19:14:03 <zer0c00l_>	done , username:sagarun
+Jul 05 19:14:07 <rtnpro>	stephdg, I am already logged in
+Jul 05 19:14:33 <stephdg>	Ok, the next step would be to click on your user name and set up your User Page
+Jul 05 19:14:35 <Manali>	Manali done
+Jul 05 19:14:40 <Manali>	Manash done
+Jul 05 19:14:49 <stephdg>	There you should put your name, and your email address
+Jul 05 19:15:14 <kopecks89>	done
+Jul 05 19:15:41 <sudipta>	done
+Jul 05 19:16:19 <stephdg>	Is anybody having any problems so far? If not we will move on to section 2
+Jul 05 19:16:24 <rahulsen002>	done
+Jul 05 19:16:32 <rahulsen002>	ok no problem
+Jul 05 19:16:41 *	kopecks has quit (Read error: 104 (Connection reset by peer))
+Jul 05 19:16:47 <zer0c00l_>	!
+Jul 05 19:16:58 <yevlempy>	done.
+Jul 05 19:17:01 <stephdg>	zer0c00l_: yes, what is your question?
+Jul 05 19:17:10 <zer0c00l_>	created the account, logged in. but can't see my name in http://training.burntomlette.in/index.php?title=Special:ListUsers
+Jul 05 19:17:26 <stephdg>	zer0c00l_: what user ID did you use?
+Jul 05 19:17:54 <zer0c00l_>	sorry , i created an account in http://www.burntomlette.in/index.php?title=Main_Page
+Jul 05 19:18:14 <stephdg>	that would be why your user id is not showing on that page
+Jul 05 19:18:33 <stephdg>	http://training.burntomlette.in zer0c00l_ go here and re-set it up
+Jul 05 19:18:51 <stephdg>	zer0c00l_: now I see your User ID
+Jul 05 19:19:00 <zer0c00l_>	stephdg, done
+Jul 05 19:19:34 <stephdg>	Ok, everyone click on the link at the bottom of the first page of the presentation and we will go on to Section 2
+Jul 05 19:19:48 <stephdg>	The next section is about Formatting your User page
+Jul 05 19:20:01 <dipanjan>	stephdg, done
+Jul 05 19:20:50 <stephdg>	There are a few different ways you can format the text on your page
+Jul 05 19:20:51 <rohitkg>	stephdg, done
+Jul 05 19:21:15 <sarbartha>	stephdg, done
+Jul 05 19:21:16 *	chandana (n=chandana@124.124.155.17) has joined #dgplug
+Jul 05 19:21:43 <zer0c00l_>	stephdg, done
+Jul 05 19:21:44 <rahulsen002>	done
+Jul 05 19:21:54 <kopecks89>	done
+Jul 05 19:22:00 <Manali>	both of us ....... done
+Jul 05 19:22:02 <stephdg>	Lets put some text in your pages, lets put the name of your University, your College, and your High School on three different lines in your page
+Jul 05 19:22:46 *	hemant_ (i=75c2e64b@gateway/web/freenode/x-87435d9d905d6eba) has joined #dgplug
+Jul 05 19:23:29 <stephdg>	hemant_: please open http://training.burntomlette.in/ and http://www.burntomlette.in/index.php?title=Mediawiki_training
+Jul 05 19:24:06 <kishan>	done
+Jul 05 19:24:10 <stephdg>	Next, I want you to write the names of 4 papers you had to study in the last semester
+Jul 05 19:24:22 <stephdg>	each paper on a seperate line
+Jul 05 19:25:19 <hemant_>	page opened
+Jul 05 19:25:42 *	zer0c00l has quit (Read error: 113 (No route to host))
+Jul 05 19:26:13 <stephdg>	Now we are going to learn how to make text bold
+Jul 05 19:26:14 <hemant_>	last semester we studied:
+Jul 05 19:26:23 <stephdg>	hemant_: please put that in your User page
+Jul 05 19:26:33 <hemant_>	communication and networking
+Jul 05 19:26:37 <stephdg>	and before you ask questions you need to send a '!'
+Jul 05 19:27:10 <Manali>	DONE
+Jul 05 19:27:33 <zer0c00l_>	Done
+Jul 05 19:27:34 <stephdg>	Manali: all upper case is equal to shouting, and is not acceptable
+Jul 05 19:28:03 <stephdg>	Now on the first line of the schools, put 3 single quotes like -> ''' on each end of the line
+Jul 05 19:28:04 <Manali>	sorry... it was unintensional
+Jul 05 19:28:11 <stephdg>	and refresh your pages
+Jul 05 19:28:17 <stephdg>	and save your page first, then refresh
+Jul 05 19:28:52 <stephdg>	Manali: ok
+Jul 05 19:28:53 <rtnpro>	stephdg, user page created
+Jul 05 19:29:00 *	ssaha (n=shinjan@117.194.231.214) has joined #dgplug
+Jul 05 19:29:44 <Manali>	done
+Jul 05 19:29:51 <sarbartha>	done
+Jul 05 19:29:59 <rohitkg>	done
+Jul 05 19:30:01 <kishan>	done
+Jul 05 19:30:18 <stephdg>	Now, we are going to learn how to make text italicized
+Jul 05 19:30:46 <djthequest>	done
+Jul 05 19:30:47 <stephdg>	The line where you put your college name, put 2 single quotes like -> '' on the end of each line
+Jul 05 19:30:57 <stephdg>	on the end of that line
+Jul 05 19:31:02 *	dipanjan_ (i=75c260e0@gateway/web/freenode/x-9326418716cc4085) has joined #dgplug
+Jul 05 19:31:12 <dipanjan_>	sorry, opera had crashed
+Jul 05 19:31:43 <stephdg>	ssaha: please open http://training.burntomlette.in/ and http://www.burntomlette.in/index.php?title=Mediawiki_training
+Jul 05 19:32:03 <Manali>	done
+Jul 05 19:32:05 <dipanjan_>	!
+Jul 05 19:32:14 *	dipanjan has quit (Ping timeout: 180 seconds)
+Jul 05 19:32:37 *	dipanjan_ (i=75c260e0@gateway/web/freenode/x-9326418716cc4085) has left #dgplug
+Jul 05 19:32:38 <stephdg>	dipanjan_: what is your question?
+Jul 05 19:32:46 <sudipta>	done
+Jul 05 19:32:53 <rohitkg>	done
+Jul 05 19:33:07 <yevlempy>	stephdg, done.
+Jul 05 19:33:10 <stephdg>	Does anybody have any questions?
+Jul 05 19:33:13 *	dipanjan (i=75c260e0@gateway/web/freenode/x-97d6373d63ed4b7d) has joined #dgplug
+Jul 05 19:33:17 <kishan>	no
+Jul 05 19:33:21 <Meejan>	no
+Jul 05 19:33:21 <stephdg>	dipanjan: what is your question?
+Jul 05 19:33:49 <dipanjan>	why are the subjects appearing in a strange bos? http://training.burntomlette.in/index.php?title=User:Dipanjan
+Jul 05 19:34:14 <stephdg>	dipanjan: that will be fixed in a moment
+Jul 05 19:34:16 <rtnpro>	nope
+Jul 05 19:34:58 <stephdg>	now we are going to learn how to make your text both italicized and bold
+Jul 05 19:35:11 <stephdg>	dipanjan: follow the class and you will see why it is like that
+Jul 05 19:35:38 <stephdg>	now for the University line put 5 single quotes like -> ''''' on both sides of the text
+Jul 05 19:35:44 <dipanjan>	stephdg, I must have missed a bit, my browser had crashed
+Jul 05 19:36:13 <stephdg>	dipanjan: follow the class and you can go over the log later
+Jul 05 19:36:22 <dipanjan>	ok
+Jul 05 19:36:27 <Manali>	both of us... done
+Jul 05 19:36:38 <ssaha>	i have created an account in training.burntomlette
+Jul 05 19:36:48 <sudipta>	done
+Jul 05 19:36:55 <Meejan>	done
+Jul 05 19:36:57 <kopecks89>	done
+Jul 05 19:36:58 <kishan>	done
+Jul 05 19:37:04 <rtnpro>	done
+Jul 05 19:37:07 <dipanjan>	done bold+italicised
+Jul 05 19:37:08 <stephdg>	Spaces at the beginning of a line has a specific meaning to mediawiki formatting
+Jul 05 19:37:37 <stephdg>	so, if you are not looking for surprising results or unless you specifically intend it do *not* put extra spaces in front of a line
+Jul 05 19:37:37 <rahulsen002>	done
+Jul 05 19:37:41 <zer0c00l_>	done
+Jul 05 19:37:52 <sarbartha>	done
+Jul 05 19:37:55 <stephdg>	anybody has any questions?
+Jul 05 19:37:55 <rohitkg>	done
+Jul 05 19:38:08 <stephdg>	about bold and italicizing text?
+Jul 05 19:38:10 <dipanjan>	i fixed the boxes.
+Jul 05 19:38:47 <stephdg>	ok, now on to learning how to input bullets
+Jul 05 19:38:53 <hemant_>	! i hav written the subjects , do i need to do something else
+Jul 05 19:38:57 <djthequest>	!
+Jul 05 19:39:20 <stephdg>	hemant_: follow the instructions given, if you have a question raise '!' first, and wait for me to ask you for your question
+Jul 05 19:39:27 <stephdg>	djthequest: yes?
+Jul 05 19:39:55 <djthequest>	the text in user page appear in one line
+Jul 05 19:40:23 <stephdg>	djthequest: please paste me the link to your page
+Jul 05 19:40:54 <djthequest>	http://www.burntomlette.in/index.php?title=User:Dibyanshu
+Jul 05 19:41:48 <stephdg>	For everyone who has come in late the training excercises are to be done here: http://training.burntomlette.in/
+Jul 05 19:41:54 <ssaha>	i have entered my details
+Jul 05 19:42:47 <stephdg>	A empty line is needed between each line of text or else it will all be in one paragrah
+Jul 05 19:42:50 <stephdg>	paragraph*
+Jul 05 19:43:01 <stephdg>	djthequest: see above ^^
+Jul 05 19:43:17 <stephdg>	Anybody else have any questions?
+Jul 05 19:43:18 <djthequest>	stephdg: eof
+Jul 05 19:43:28 <kishan>	no
+Jul 05 19:43:28 <ssaha>	done
+Jul 05 19:43:32 <Meejan>	no
+Jul 05 19:43:46 <stephdg>	Ok, now we will learn how to make bulletized lists
+Jul 05 19:43:47 <hemant_>	!
+Jul 05 19:43:50 <stephdg>	hemant_: yes?
+Jul 05 19:44:13 <hemant_>	i have entered my details now what shall  i do
+Jul 05 19:44:24 <stephdg>	hemant_: follow the class and you will see
+Jul 05 19:44:37 <ssaha>	i have entered my details as said
+Jul 05 19:45:17 <stephdg>	hemant_: you are supposed to be using the http://training.burntomlette.in
+Jul 05 19:46:10 <stephdg>	Now, everyone put a * followed by a space in front of the three lines that consist of your college, university, and high school
+Jul 05 19:46:15 <stephdg>	save and refresh your page
+Jul 05 19:46:53 <ssaha>	done
+Jul 05 19:47:02 <stephdg>	You will see that the * creates bullets in front of those lines
+Jul 05 19:47:09 <ssaha>	yes
+Jul 05 19:47:10 <dipanjan>	done
+Jul 05 19:47:11 <sudipta>	done
+Jul 05 19:47:13 <rohitkg>	done
+Jul 05 19:47:15 <rahulsen002>	done
+Jul 05 19:47:18 <yevlempy>	yup.
+Jul 05 19:47:28 <Manali>	both...done
+Jul 05 19:47:30 <Meejan>	yes
+Jul 05 19:47:32 <sarbartha>	done
+Jul 05 19:47:33 <stephdg>	Now, we will learn how to do a numbered list
+Jul 05 19:47:37 <chandana>	yes
+Jul 05 19:47:53 <kopecks89>	done
+Jul 05 19:47:59 <rtnpro>	done
+Jul 05 19:48:00 <stephdg>	Put a # (hash sign) followed by a space in front of each of the lines that contain the subjects
+Jul 05 19:48:15 <rtnpro>	done
+Jul 05 19:48:31 <sudipta>	done
+Jul 05 19:48:33 <djthequest>	done
+Jul 05 19:48:44 <kishan>	done
+Jul 05 19:48:46 <Meejan>	done
+Jul 05 19:48:59 <sarbartha>	!
+Jul 05 19:49:02 <ssaha>	each one is showing 1
+Jul 05 19:49:03 <stephdg>	sarbartha: yes?
+Jul 05 19:49:16 <dipanjan>	done
+Jul 05 19:49:22 <rahulsen002>	same problem as ssaha
+Jul 05 19:49:24 <sarbartha>	all subjects are numbered a 1.<subject name>
+Jul 05 19:49:29 <rohitkg>	same problem here
+Jul 05 19:49:30 <ssaha>	yes
+Jul 05 19:49:33 <Manali>	same prob
+Jul 05 19:49:35 <ssaha>	dats the problem
+Jul 05 19:49:57 <stephdg>	ssaha: use proper english, sms is not acceptable
+Jul 05 19:50:09 <dipanjan>	that's because they didn't remove the lines in between th eother lines
+Jul 05 19:50:11 <ssaha>	i am sorry
+Jul 05 19:50:18 <sarbartha>	problem solved
+Jul 05 19:50:23 <dipanjan>	the other*
+Jul 05 19:50:41 <stephdg>	sarbartha: Describe the solution
+Jul 05 19:50:41 <kopecks89>	!
+Jul 05 19:50:47 <stephdg>	kopecks89: yes?
+Jul 05 19:50:50 <kopecks89>	i  am getting the # in the output,stepdg
+Jul 05 19:51:01 <sarbartha>	remove the blank line between the subjects
+Jul 05 19:51:01 <ssaha>	ok
+Jul 05 19:51:03 <ssaha>	done
+Jul 05 19:51:06 <rahulsen002>	done stephdg
+Jul 05 19:51:09 <stephdg>	dipanjan: very good work
+Jul 05 19:51:13 <Manali>	both...done
+Jul 05 19:51:13 <ssaha>	solved the problem
+Jul 05 19:51:21 <dipanjan>	stephdg: thanks
+Jul 05 19:51:33 <zer0c00l_>	done
+Jul 05 19:51:57 <stephdg>	kopecks89: please remove all the spaces before the #'s
+Jul 05 19:52:22 <rohitkg>	done
+Jul 05 19:52:43 *	zer0c00l_ is now known as zer0c00l
+Jul 05 19:52:44 <kopecks89>	yes.it worked
+Jul 05 19:52:48 <stephdg>	Pay attention everyone!
+Jul 05 19:52:50 <stephdg>	[19:37] <stephdg> Spaces at the beginning of a line has a specific meaning to mediawiki formatting
+Jul 05 19:52:51 <stephdg>	[19:37] <stephdg> so, if you are not looking for surprising results or unless you specifically intend it do *not* put extra spaces in front of a line
+Jul 05 19:53:04 <stephdg>	kopecks89: remember that ^^
+Jul 05 19:53:19 <stephdg>	If nobody has any questions we will move on to creating tables
+Jul 05 19:53:24 <djthequest>	!
+Jul 05 19:53:39 <yevlempy>	stephdg, !
+Jul 05 19:53:49 <stephdg>	djthequest: yes?
+Jul 05 19:53:55 <stephdg>	yevlempy: yes?
+Jul 05 19:54:17 <djthequest>	can we have any other symbol for the bullets?
+Jul 05 19:54:25 <yevlempy>	stephdg, i did not get the last step.
+Jul 05 19:54:48 <stephdg>	djthequest: read Mediawiki help manual
+Jul 05 19:54:50 <stephdg>	online
+Jul 05 19:55:11 <djthequest>	ok.
+Jul 05 19:55:19 <stephdg>	yevlempy: You needed to put 4 subjects you studied last semester under the schools, and put the # 's before those
+Jul 05 19:55:35 <zer0c00l>	!
+Jul 05 19:55:43 <stephdg>	zer0c00l: yes?
+Jul 05 19:55:45 <zer0c00l>	stephdg, wikipedia uses media wiki?
+Jul 05 19:56:07 <yevlempy>	stephdg, yes but 1 is coming everywhere.
+Jul 05 19:56:13 <stephdg>	zer0c00l: yes
+Jul 05 19:56:18 <stephdg>	and the name is Mediawiki
+Jul 05 19:56:43 <rtnpro>	yevlempy, don't keep empty lines between lines while numbering
+Jul 05 19:56:57 <stephdg>	yevlempy: http://training.burntomlette.in/index.php?title=User:Dipanjan look here and see
+Jul 05 19:57:09 <stephdg>	You can go to each others pages and look at the code by clicking on the edit option
+Jul 05 19:57:26 <yevlempy>	stephdg, i get it.
+Jul 05 19:57:33 <yevlempy>	rtnpro, thanks.
+Jul 05 19:57:38 <rtnpro>	yevlempy, if you do so, it means, starting a new sequence in each line, hence each line reads 1
+Jul 05 19:57:48 <rtnpro>	yevlempy, welcome :)
+Jul 05 19:57:49 <stephdg>	Ok, Now if there are no more questions we will go on to learning how to create tables
+Jul 05 19:58:14 <stephdg>	rtnpro: if you have inputs to add you should first ask permission
+Jul 05 19:58:41 <rtnpro>	stephdg, ok
+Jul 05 19:59:04 <stephdg>	Ok, there are different ways to format tables, with borders, without borders, with background color, no background color, as well as you can change the font color
+Jul 05 20:00:01 <stephdg>	you should be following the instructions in the presentation, http://burntomlette.in/index.php?title=Mediawiki_formatting#Creating_Tables
+Jul 05 20:00:51 <stephdg>	{|  needs to be on the first line when creating a table
+Jul 05 20:01:22 <stephdg>	and |+ needs to follow
+Jul 05 20:01:49 <stephdg>	Then you will see the ! is preceding the name, user id, and email subjects, the ! creates a column header
+Jul 05 20:02:25 <stephdg>	|- is needed to define the new row
+Jul 05 20:02:32 *	Manali1 (n=Administ@59.93.243.242) has joined #dgplug
+Jul 05 20:02:58 <stephdg>	if you know html it can be thought of being equivalent to <tr
+Jul 05 20:03:02 <stephdg>	<tr>
+Jul 05 20:03:06 <Manali1>	sorry ..got disconnected.......
+Jul 05 20:03:26 <Manali1>	!
+Jul 05 20:03:31 <stephdg>	Manali1: yes?
+Jul 05 20:03:34 <djthequest>	!
+Jul 05 20:03:35 <yevlempy>	stephdg, !
+Jul 05 20:03:36 *	Manali has quit (Read error: 104 (Connection reset by peer))
+Jul 05 20:03:37 <stephdg>	djthequest: yes?
+Jul 05 20:03:40 <stephdg>	yevlempy: yes?
+Jul 05 20:03:50 <Manali1>	we missed from the start of creation of tables
+Jul 05 20:04:01 <djthequest>	how is column width decided?
+Jul 05 20:04:04 <stephdg>	Manali1: follow this link http://burntomlette.in/index.php?title=Mediawiki_formatting#Creating_Tables
+Jul 05 20:04:15 <yevlempy>	stephdg, can we use html codes in formatting mediawiki.
+Jul 05 20:04:16 <stephdg>	djthequest: by default by the size of the text
+Jul 05 20:04:43 <rahulsen002>	done
+Jul 05 20:04:45 <stephdg>	yevlempy: this is a out of scope question I will answer later
+Jul 05 20:04:59 <djthequest>	is alignment  optional?
+Jul 05 20:05:06 <yevlempy>	stephdg, ok.
+Jul 05 20:05:08 <stephdg>	djthequest: follow the class
+Jul 05 20:05:32 <stephdg>	ok, everyone start a table with the headers of name, subject, and marks
+Jul 05 20:06:04 <stephdg>	and you need to add 2 rows of entries
+Jul 05 20:06:14 <stephdg>	to have 3 columns
+Jul 05 20:07:07 <stephdg>	when creating column entries this -> ||  is used to signify the end of one column and the beginning of another
+Jul 05 20:07:20 <stephdg>	there is no pipe needed at the end of final column
+Jul 05 20:07:55 <sarbartha>	done
+Jul 05 20:07:57 <stephdg>	also when you are done creating the table you need to use |} to signify the end of the table
+Jul 05 20:08:15 <rtnpro>	done
+Jul 05 20:08:38 <kopecks89>	done
+Jul 05 20:08:52 <rahulsen002>	done ma'am
+Jul 05 20:09:04 <zer0c00l>	done
+Jul 05 20:09:14 <chandana>	done
+Jul 05 20:09:14 <stephdg>	Everyone look at this page http://training.burntomlette.in/index.php?title=User:Sarbartha
+Jul 05 20:09:21 <stephdg>	once you are done with your page
+Jul 05 20:09:32 <rohitkg>	done
+Jul 05 20:09:37 <stephdg>	we will use sarbartha's page as an example
+Jul 05 20:09:49 <stephdg>	to illustrate column width
+Jul 05 20:09:54 <dipanjan>	done
+Jul 05 20:10:13 <Manali1>	both.. done
+Jul 05 20:10:30 <yevlempy>	done.
+Jul 05 20:10:38 <rahulsen002>	both done
+Jul 05 20:11:16 <stephdg>	Has everyone been able to create a table?
+Jul 05 20:11:24 <ssaha>	done
+Jul 05 20:11:25 <Manali1>	yes
+Jul 05 20:11:26 <yevlempy>	yes.
+Jul 05 20:11:29 <kopecks89>	yes
+Jul 05 20:11:30 <dipanjan>	yes
+Jul 05 20:11:32 <djthequest>	yes
+Jul 05 20:11:33 <rohitkg>	yes
+Jul 05 20:11:36 <chandana>	yes
+Jul 05 20:11:37 <rtnpro>	yes
+Jul 05 20:11:44 <sarbartha>	yes
+Jul 05 20:11:44 <zer0c00l>	yes
+Jul 05 20:11:44 <rahulsen002>	yes
+Jul 05 20:11:48 <sudipta>	done
+Jul 05 20:11:50 <stephdg>	everyone look at http://training.burntomlette.in/index.php?title=User:Sarbartha
+Jul 05 20:11:51 <kishan>	yes
+Jul 05 20:11:54 <sudipta>	yes
+Jul 05 20:12:10 <Meejan>	yes
+Jul 05 20:12:34 <stephdg>	sarbartha: increase the length of the second row second column entry to at least 15 characters and let me know when complete
+Jul 05 20:13:45 <stephdg>	since sarbartha doesn't seem to be online, I will be editing his page
+Jul 05 20:14:18 <stephdg>	now please refresh the page and look again
+Jul 05 20:14:41 <stephdg>	the page to refresh is http://training.burntomlette.in/index.php?title=User:Sarbartha which you should already have open by now
+Jul 05 20:15:01 <ssaha>	yes
+Jul 05 20:15:04 <stephdg>	Has everyone had a chance to see the difference?
+Jul 05 20:15:04 <sarbartha>	sry network prob
+Jul 05 20:15:05 <rahulsen002>	yes opened
+Jul 05 20:15:10 <dipanjan>	yes
+Jul 05 20:15:15 <kopecks89>	yes
+Jul 05 20:15:20 <rahulsen002>	yes
+Jul 05 20:15:26 <Manali1>	yes
+Jul 05 20:15:33 <rohitkg>	yes
+Jul 05 20:15:37 <djthequest>	yes
+Jul 05 20:15:38 <sarbartha>	yes
+Jul 05 20:15:42 <sudipta>	yes opened
+Jul 05 20:15:50 <stephdg>	Ok, if there are no questions we will now go on to learning how to put borders around the table and change the font
+Jul 05 20:15:51 <kishan>	ya
+Jul 05 20:15:56 <stephdg>	the font color
+Jul 05 20:16:15 <rahulsen002>	how to increase that by 15 chars?
+Jul 05 20:16:32 <rahulsen002>	i mean characters...sorry!
+Jul 05 20:16:36 <stephdg>	rahulsen002: for questions you need to raise '!' then ask
+Jul 05 20:16:41 <stephdg>	what is the difference?
+Jul 05 20:16:42 <rtnpro>	stephdg, !
+Jul 05 20:16:44 <rahulsen002>	oh sorry
+Jul 05 20:16:47 <rahulsen002>	!
+Jul 05 20:16:47 <stephdg>	rtnpro: yes?
+Jul 05 20:16:55 <stephdg>	rahulsen002: yes?
+Jul 05 20:16:59 <rahulsen002>	how to increase that by 15 chars?
+Jul 05 20:17:10 <stephdg>	rahulsen002: how have you been editing your page so far?
+Jul 05 20:17:20 <rtnpro>	stephdg, the column size = max( column size of any row) ?
+Jul 05 20:17:40 <rahulsen002>	I have been following your instructions and the link given
+Jul 05 20:17:40 <stephdg>	rtnpro: yes
+Jul 05 20:17:42 <ssaha>	!
+Jul 05 20:17:46 <stephdg>	ssaha: yes?
+Jul 05 20:17:56 <rtnpro>	stephdg, ok
+Jul 05 20:18:07 <ssaha>	why we are not giving the alignment for each column?
+Jul 05 20:18:21 <stephdg>	ssaha: we are getting the default alignment
+Jul 05 20:18:33 <stephdg>	which is left aligned
+Jul 05 20:18:55 <ssaha>	then we are only aligning the first column?
+Jul 05 20:19:16 <stephdg>	ssaha: we have not gotten to the alignment portion
+Jul 05 20:19:23 <ssaha>	ok
+Jul 05 20:19:57 <stephdg>	ok, now, to align your tables you would use align="center"|
+Jul 05 20:20:11 <stephdg>	or you could use align="right"|
+Jul 05 20:20:28 <stephdg>	everyone edit your tables so the center column is center aligned
+Jul 05 20:20:57 <rohitkg>	done
+Jul 05 20:21:03 <zer0c00l>	done
+Jul 05 20:21:14 <dipanjan>	done
+Jul 05 20:21:25 <ssaha>	done
+Jul 05 20:21:26 <sudipta>	done
+Jul 05 20:21:28 <djthequest>	done
+Jul 05 20:21:30 <kishan>	done
+Jul 05 20:21:36 <yevlempy>	done.
+Jul 05 20:21:38 <rahulsen002>	done
+Jul 05 20:21:46 <Meejan>	done
+Jul 05 20:22:05 <stephdg>	Ok, now we are going to learn how to change the background and font color of our tables
+Jul 05 20:22:17 <dipanjan>	!
+Jul 05 20:22:19 <rtnpro>	done
+Jul 05 20:22:20 <stephdg>	here is a link that will tell you the font colors: http://qed.princeton.edu/index.php/MediaWiki:Color_Names
+Jul 05 20:22:22 <stephdg>	dipanjan: yes?
+Jul 05 20:22:29 <Manali1>	done... both
+Jul 05 20:22:42 <kopecks89>	done
+Jul 05 20:22:53 <stephdg>	border="1"; style="background:powderblue; color:navy" <- This line would follow {|
+Jul 05 20:23:01 <dipanjan>	can we specify the aignments for all entries in a column, or do we need to do it individually?
+Jul 05 20:23:11 <sarbartha>	done
+Jul 05 20:23:14 <stephdg>	dipanjan: you would need to do it individually
+Jul 05 20:23:23 <dipanjan>	ok
+Jul 05 20:23:33 <stephdg>	Now everyone choose 2 different colors and edit your tables
+Jul 05 20:24:19 <kopecks89>	i didn't get you please.
+Jul 05 20:24:45 <stephdg>	kopecks89: what didn't you understand?
+Jul 05 20:24:46 <sudipta>	done
+Jul 05 20:25:00 <Meejan>	done
+Jul 05 20:25:13 <kopecks89>	i meant is the two different colors one powderblue and the other navy blue?
+Jul 05 20:25:17 <rohitkg>	done
+Jul 05 20:25:37 <kopecks89>	!
+Jul 05 20:25:49 <stephdg>	kopecks89: yes, the first one is for the background color and the second color is the font color
+Jul 05 20:25:51 <stephdg>	kopecks89: yes?
+Jul 05 20:25:56 <kopecks89>	how about if we want to put different colors in different rows?
+Jul 05 20:26:26 <rahulsen002>	done
+Jul 05 20:26:31 <dipanjan>	done
+Jul 05 20:26:32 <sarbartha>	done
+Jul 05 20:26:41 <stephdg>	kopecks89: that is an exercise for you to find out
+Jul 05 20:26:47 <kopecks89>	ok
+Jul 05 20:27:09 <rtnpro>	done
+Jul 05 20:27:15 <rahulsen002>	!
+Jul 05 20:27:27 <stephdg>	kopecks89: if you really can't figure it out, please ask me later on IRC
+Jul 05 20:27:30 <stephdg>	rahulsen002: yes?
+Jul 05 20:28:13 <stephdg>	do not forget to include border="1" to put a border around your tables
+Jul 05 20:28:16 <Manali1>	!
+Jul 05 20:28:21 <rahulsen002>	how would i know about different colors? eg. powderblue color was not known to me...........is there any list for all the colors available?
+Jul 05 20:28:35 <ssaha>	done
+Jul 05 20:28:39 <stephdg>	rahulsen002: http://qed.princeton.edu/index.php/MediaWiki:Color_Names
+Jul 05 20:28:48 <stephdg>	Manali1: yes?
+Jul 05 20:29:09 <kishan>	!
+Jul 05 20:29:13 <dipanjan>	!
+Jul 05 20:29:14 <rahulsen002>	solved...thank you
+Jul 05 20:29:18 <Manali1>	the output doesn't seem to match with that in the study material
+Jul 05 20:29:20 <stephdg>	kishan: yes?
+Jul 05 20:29:24 <stephdg>	dipanjan: yes?
+Jul 05 20:29:27 <stephdg>	in what ways Manali1?
+Jul 05 20:29:34 <kishan>	stephdg: not getting border : http://training.burntomlette.in/index.php?title=User:Kishan
+Jul 05 20:29:46 <dipanjan>	i don't see the border despite the border="1" parameter
+Jul 05 20:29:47 <kopecks89>	!
+Jul 05 20:30:00 <Manali1>	the table has borders over there for each cell of the table
+Jul 05 20:30:25 <sarbartha>	I have got correct output
+Jul 05 20:30:54 <rohitkg>	me too
+Jul 05 20:31:06 <kopecks89>	!
+Jul 05 20:31:13 <stephdg>	kopecks89: yes?
+Jul 05 20:31:16 <rohitkg>	i think we need to provide a space before border
+Jul 05 20:31:17 <kopecks89>	yes i have changed the colors but somehow the header had shrunk!http://www.burntomlette.in/index.php?title=User:Kopecks89
+Jul 05 20:32:07 <kishan>	stephdg: ?
+Jul 05 20:32:54 <ssaha>	i think we need to put a space after "1"
+Jul 05 20:32:56 <kishan>	stephdg: ok... got it. <eof>
+Jul 05 20:32:58 <Manali1>	!
+Jul 05 20:33:02 <stephdg>	Manali1: yes?
+Jul 05 20:33:05 <ssaha>	i got it correct that way
+Jul 05 20:33:10 <kopecks89>	!
+Jul 05 20:33:14 <djthequest>	stephdg: can i answer kopecks89
+Jul 05 20:33:20 <stephdg>	djthequest: yes
+Jul 05 20:33:36 <Manali1>	i think removing the semicolon after border removes the problem
+Jul 05 20:34:05 <djthequest>	kopecks89: you have ended the table using |} after your row header
+Jul 05 20:34:18 <ssaha>	giving a space before the semicolon also solves the problem
+Jul 05 20:34:25 <rahulsen002>	manali thanks
+Jul 05 20:34:28 <kopecks89>	o.i get it
+Jul 05 20:34:29 <kishan>	yes Manali1, it does
+Jul 05 20:34:32 <rahulsen002>	problem solved
+Jul 05 20:34:33 <dipanjan>	done. ssaha thanks
+Jul 05 20:35:14 <stephdg>	Ok, we all seem to have figured out the tables, we will move on to Uploading screenshots
+Jul 05 20:35:20 <Manali1>	manash should get the thanks, rahul
+Jul 05 20:35:21 <stephdg>	or any pictures for that matter
+Jul 05 20:35:40 <rahulsen002>	thanks manash
+Jul 05 20:35:43 <stephdg>	try to use a small picture because some of you are on slow links
+Jul 05 20:36:11 <dipanjan>	stephdg, i didn/t get the pictures part
+Jul 05 20:36:12 <stephdg>	Each of you should see a toolbox option on the left hand side of the browser
+Jul 05 20:36:30 <stephdg>	dipanjan: we are going to explore the file upload feature
+Jul 05 20:36:36 <dipanjan>	ok
+Jul 05 20:36:42 <stephdg>	specifically images so that we can put pictures up on the wiki
+Jul 05 20:36:42 <rahulsen002>	ok
+Jul 05 20:36:54 <stephdg>	does everye see the upload file option?
+Jul 05 20:37:01 <kishan>	yes
+Jul 05 20:37:02 <ssaha>	yes
+Jul 05 20:37:10 *	vincentvikram (n=vincent@59.92.207.253) has joined #dgplug
+Jul 05 20:37:13 <stephdg>	Click on the link, and when you get to the upload option choose a small photo
+Jul 05 20:37:16 <rtnpro>	yes
+Jul 05 20:37:28 <sarbartha>	yes
+Jul 05 20:37:29 <stephdg>	or you may also use a small screenshot
+Jul 05 20:37:33 <rohitkg>	yes
+Jul 05 20:37:39 <dipanjan>	stephdg, the file link option?
+Jul 05 20:37:40 <stephdg>	I'm assuming you all know how to take a screenshot
+Jul 05 20:37:56 <stephdg>	dipanjan: do you see the file upload link on the navigation panel on the left side?
+Jul 05 20:38:07 *	runa_b (n=runa@122.169.67.243) has joined #dgplug
+Jul 05 20:38:12 <stephdg>	under the toolbox?
+Jul 05 20:38:16 <dipanjan>	yes. i got it
+Jul 05 20:38:33 <rohitkg>	i got it too
+Jul 05 20:38:38 <kishan>	done
+Jul 05 20:38:40 <rohitkg>	done uploading
+Jul 05 20:39:29 <stephdg>	ok, now we are going to learn how to insert the uploaded file into your wiki
+Jul 05 20:39:36 <stephdg>	your mediawiki page*
+Jul 05 20:39:51 <stephdg>	Make sure you are uploading a file that is permitted
+Jul 05 20:40:07 <ssaha>	done uploading
+Jul 05 20:40:11 <dipanjan>	done
+Jul 05 20:40:16 <stephdg>	if the file has an extension which is not listed in the wiki's configuration your upload will fail
+Jul 05 20:40:20 <Manali1>	done uploading
+Jul 05 20:40:42 <djthequest>	!
+Jul 05 20:40:43 <stephdg>	ok, now take the last portion of the link that is shown when the photo is uploaded, starting with "image"
+Jul 05 20:40:51 <stephdg>	djthequest: yes?
+Jul 05 20:41:11 <stephdg>	then put the link in http://en.wikipedia.org/wiki/Special:Search?go=Go&search=Image=upload1
+Jul 05 20:41:19 <djthequest>	idont get a browse option in upload file box
+Jul 05 20:41:24 <stephdg>	then put the link in [[ Image=upload1 ]]
+Jul 05 20:41:34 <stephdg>	no spaces before and after the [[
+Jul 05 20:42:02 <stephdg>	djthequest: browse is for selecting a file for uploading from your local hard drive
+Jul 05 20:43:08 <djthequest>	got it
+Jul 05 20:43:25 <ssaha>	!
+Jul 05 20:43:34 <stephdg>	ssaha: yes?
+Jul 05 20:43:47 <sarbartha>	done
+Jul 05 20:43:51 <ssaha>	do i need to put any quotation marks?
+Jul 05 20:43:53 <stephdg>	has everyone inserted your uploads into your user page?
+Jul 05 20:43:58 <sarbartha>	yes
+Jul 05 20:43:58 <Manali1>	no
+Jul 05 20:43:59 <ssaha>	it is not working
+Jul 05 20:44:02 <stephdg>	ssaha: no just [[ ]]
+Jul 05 20:44:06 <Manali1>	sorry couldnt follow
+Jul 05 20:44:16 <dipanjan>	no
+Jul 05 20:44:22 <dipanjan>	couldn't get it
+Jul 05 20:44:28 <stephdg>	For local links within the wiki you only need to put [[ ]]
+Jul 05 20:44:29 <Manali1>	take the last portion of the link that is shown when the photo is uploaded, starting with "image"....... didnt understand this part
+Jul 05 20:44:46 <stephdg>	Manali1: what is the link to your uploaded file?
+Jul 05 20:45:04 <rtnpro>	not yet, slow connection
+Jul 05 20:45:20 <sarbartha>	dipanjan: put [[Image: <filename>]]
+Jul 05 20:45:46 <stephdg>	Manali1: look at this http://training.burntomlette.in/index.php?title=User:Sarbartha and see if you can figure it out
+Jul 05 20:45:52 <ssaha>	ok done
+Jul 05 20:46:00 <zer0c00l>	!
+Jul 05 20:46:18 <rahulsen002>	done
+Jul 05 20:46:18 <stephdg>	zer0c00l: yes?
+Jul 05 20:46:27 <zer0c00l>	stephdg, i used [[ File:Uploadedfilename ]] it works
+Jul 05 20:46:40 <zer0c00l>	http://training.burntomlette.in/index.php?title=User:Zer0c00l
+Jul 05 20:46:42 <zer0c00l>	eof
+Jul 05 20:46:50 <rohitkg>	mine is working
+Jul 05 20:46:50 <dipanjan>	ok done
+Jul 05 20:47:13 <stephdg>	zer0c00l: yes it will, what is the question
+Jul 05 20:47:36 <stephdg>	now to put borders around your uploaded file add |border after the file name
+Jul 05 20:47:47 *	sunny_slls (n=sunny@125.20.11.34) has joined #dgplug
+Jul 05 20:48:18 <zer0c00l>	what is the difference between [[ Image: imagename]] and [[ File:Filename]]
+Jul 05 20:48:21 <Manali1>	done... complete...both
+Jul 05 20:48:39 <rohitkg>	done
+Jul 05 20:48:46 <stephdg>	zer0c00l: for the purpose of the present markup none
+Jul 05 20:49:00 <rahulsen002>	done
+Jul 05 20:49:10 <stephdg>	you can even do http://en.wikipedia.org/wiki/Special:Search?go=Go&search=Media:<filename>
+Jul 05 20:49:13 <kishan>	done
+Jul 05 20:49:13 <stephdg>	you can even do [[Media: <filename>]]
+Jul 05 20:49:24 <zer0c00l>	stephdg, ok
+Jul 05 20:49:28 <stephdg>	Now, on to Mediawiki User Categories
+Jul 05 20:49:34 <dipanjan>	!
+Jul 05 20:49:37 <stephdg>	dipanjan: yes?
+Jul 05 20:50:12 <dipanjan>	i don't see any dfference after i put on the border. is it faint?
+Jul 05 20:50:33 <stephdg>	yes dipanjan it is a very faint grey color
+Jul 05 20:50:36 <dipanjan>	http://training.burntomlette.in/index.php?title=User:Dipanjan
+Jul 05 20:50:49 <dipanjan>	ok. thanks
+Jul 05 20:51:49 <stephdg>	Ok, there are 3 different classes of users on Mediawiki
+Jul 05 20:52:06 <stephdg>	everyone go to section 3 of the presentation
+Jul 05 20:52:14 <stephdg>	   1.  Bureaucrat
+Jul 05 20:52:16 <stephdg>	   2. Sysops
+Jul 05 20:52:17 <stephdg>	   3. Normal User
+Jul 05 20:52:20 <rahulsen002>	present in section 3
+Jul 05 20:52:29 <stephdg>	Each has different privileges and rights
+Jul 05 20:54:27 <stephdg>	The Bureacrats have all user rights
+Jul 05 20:55:17 <stephdg>	Sysops are basically admins that can do everything the bureacrats can do except edit all user rights
+Jul 05 20:56:02 <stephdg>	the Normal User can create pages, edit pages, discuss, move, and upload files
+Jul 05 20:57:02 <stephdg>	sysops can manage the users except creating new sysops or upgrading themselves to bureacrats
+Jul 05 20:57:18 <stephdg>	they can permanently delete a page
+Jul 05 20:57:24 <stephdg>	they basically work as managers
+Jul 05 20:57:54 <stephdg>	Only sysops and bureacrats can protect pages
+Jul 05 20:57:55 <rtnpro>	stephdg, !
+Jul 05 20:58:02 <stephdg>	rtnpro: yes?
+Jul 05 20:58:32 <rohitkg>	!
+Jul 05 20:58:32 <ssaha>	!
+Jul 05 20:58:36 <stephdg>	rohitkg: yes?
+Jul 05 20:58:38 <stephdg>	ssaha: yes?
+Jul 05 20:58:49 <rtnpro>	stephdg, not able to insert image, http://training.burntomlette.in/index.php?title=User:Rtnpro
+Jul 05 20:58:53 <rohitkg>	protect pages from what and by whom?
+Jul 05 20:59:05 <ssaha>	'protecting pages':does it mean protecting from editing?
+Jul 05 20:59:23 <ssaha>	oo...sorry
+Jul 05 20:59:39 <ssaha>	'protecting pages':  does it mean protecting from editing?
+Jul 05 20:59:58 <stephdg>	rtnpro: you uploaded that photo?
+Jul 05 21:00:05 <stephdg>	I do not see an uploaded file from you
+Jul 05 21:00:34 <stephdg>	http://training.burntomlette.in/index.php?title=Special:ListFiles we can see all the files that have been uploaded
+Jul 05 21:00:48 <rtnpro>	stephdg, no, slow connection, couldn't upload
+Jul 05 21:00:57 <stephdg>	rohitkg ssaha Yes, protecting from editing and deletion
+Jul 05 21:01:06 <stephdg>	rtnpro: that would be why you can not insert the photo
+Jul 05 21:01:23 <rtnpro>	stephdg, ok
+Jul 05 21:01:43 <djthequest>	!
+Jul 05 21:01:47 <stephdg>	djthequest: yes?
+Jul 05 21:02:03 <djthequest>	currently we are normal users?
+Jul 05 21:02:07 <stephdg>	djthequest: yes
+Jul 05 21:02:31 <djthequest>	eof
+Jul 05 21:02:41 <stephdg>	The reason normal users are not allowed to protect pages is because it goes against the collaborative editing philosophy of a Wiki
+Jul 05 21:03:05 <stephdg>	but for reasons of preventing wiki vandalism protection becomes necessary for certain pages sometimes
+Jul 05 21:04:08 <stephdg>	next we will look into version control
+Jul 05 21:04:48 <stephdg>	version control allows you to go through and see the different edits made on a page over time
+Jul 05 21:05:13 <stephdg>	and gives you the ability to revert a page back to its previous state
+Jul 05 21:05:21 <stephdg>	we are going to do a small experiment
+Jul 05 21:05:32 <stephdg>	everyone go to your pages and delete everything except your name and email address
+Jul 05 21:06:05 <dipanjan>	done
+Jul 05 21:06:07 <stephdg>	and save it
+Jul 05 21:06:21 <rohitkg>	done
+Jul 05 21:06:24 <ssaha>	done
+Jul 05 21:06:35 <stephdg>	and once that is done go to the history link that is shown at the top of your page
+Jul 05 21:06:47 <sarbartha>	done
+Jul 05 21:06:49 <rtnpro>	!
+Jul 05 21:06:54 <stephdg>	rtnpro: yes?
+Jul 05 21:06:54 <djthequest>	done
+Jul 05 21:07:08 <yevlempy>	done
+Jul 05 21:07:08 <zer0c00l>	done
+Jul 05 21:07:20 <kishan>	done
+Jul 05 21:07:30 <yevlempy>	done
+Jul 05 21:07:35 <Meejan>	done
+Jul 05 21:08:00 <rtnpro>	stephdg, Can I insert images uploaded by other users?
+Jul 05 21:08:05 *	subhodip (n=Subhodip@fedora/subhodip) has joined #dgplug
+Jul 05 21:08:07 <rahulsen002>	done
+Jul 05 21:08:28 <stephdg>	rtnpro: any user is able to use any file uploaded by other users
+Jul 05 21:08:37 <stephdg>	http://training.burntomlette.in/index.php?title=Special:ListFiles
+Jul 05 21:08:42 <stephdg>	rtnpro: ^^
+Jul 05 21:08:55 <stephdg>	Now when you are looking at your history you should be able to see what changes were made
+Jul 05 21:09:26 <stephdg>	look at rollback
+Jul 05 21:09:29 <rtnpro>	stephdg, ok
+Jul 05 21:09:33 *	vincentvikram has quit ("Leaving.")
+Jul 05 21:09:57 <stephdg>	on the history page
+Jul 05 21:10:06 <stephdg>	see the option of 'rollback'
+Jul 05 21:10:08 <stephdg>	click it
+Jul 05 21:10:22 <stephdg>	clicking it will revert your page back to its previous glory
+Jul 05 21:10:27 <stephdg>	:)
+Jul 05 21:10:41 <stephdg>	and not only that, but you can jump between any version
+Jul 05 21:10:42 <rohitkg>	done
+Jul 05 21:10:49 <stephdg>	that is left as an exercise for you to try
+Jul 05 21:11:09 <dipanjan>	i didn't find rollback. i clicked on undo
+Jul 05 21:11:19 <yevlempy>	me too.
+Jul 05 21:11:25 *	zer0c00l too
+Jul 05 21:11:32 <sarbartha>	me too
+Jul 05 21:11:41 <ssaha>	me too
+Jul 05 21:11:44 <kishan>	same here
+Jul 05 21:11:58 <rahulsen002>	wow!!done!
+Jul 05 21:11:59 <rtnpro>	me too
+Jul 05 21:12:05 <Manali1>	glory restored
+Jul 05 21:12:05 <rahulsen002>	by undo option
+Jul 05 21:12:20 <rtnpro>	There is "undo" option
+Jul 05 21:12:41 <kishan>	oh!
+Jul 05 21:13:07 <kishan>	got it
+Jul 05 21:13:09 <kopecks89>	yups done
+Jul 05 21:13:13 <Manali1>	we selected a certain record in history, and compared the versions, and then clicked clicked on edit
+Jul 05 21:13:27 <djthequest>	done
+Jul 05 21:13:49 *	ssaha has quit (Read error: 104 (Connection reset by peer))
+Jul 05 21:14:01 <zer0c00l>	done :)
+Jul 05 21:14:08 <rohitkg>	!
+Jul 05 21:14:12 <Manali1>	!
+Jul 05 21:14:15 <stephdg>	one of the important etiquette of using wiki's is using the discussion page
+Jul 05 21:14:18 <stephdg>	rohitkg: yes?
+Jul 05 21:14:19 <stephdg>	Manali1: yes?
+Jul 05 21:14:36 *	ssaha1 (n=shinjan@117.194.233.161) has joined #dgplug
+Jul 05 21:14:44 <rohitkg>	while restoring a previous distant version it says The edit could not be undone due to conflicting intermediate edits.
+Jul 05 21:14:51 <Manali1>	was our procedure correct ? as we cited above ?
+Jul 05 21:15:20 *	ssaha1 (n=shinjan@117.194.233.161) has left #dgplug
+Jul 05 21:15:24 <stephdg>	rohitkg: delete everything and try it again
+Jul 05 21:15:26 <stephdg>	Manali1: yes
+Jul 05 21:15:27 <rtnpro>	stephdg, !
+Jul 05 21:15:28 *	ssaha1 (n=shinjan@117.194.233.161) has joined #dgplug
+Jul 05 21:15:32 <stephdg>	rtnpro: yes?
+Jul 05 21:16:15 <rtnpro>	stephdg, I am getting "The edit could not be undone due to conflicting intermediate edits." when trying to undo my most recent change
+Jul 05 21:16:22 <stephdg>	one second
+Jul 05 21:16:49 <rohitkg>	http://training.burntomlette.in/index.php?title=User:Rohit
+Jul 05 21:17:01 <rohitkg>	can u please check in here
+Jul 05 21:18:07 <rohitkg>	for the 1st and 9th version
+Jul 05 21:18:09 <stephdg>	You need to figure out what version you are trying to jump to
+Jul 05 21:18:27 <rtnpro>	stephdg, ?
+Jul 05 21:18:56 <stephdg>	you can not jump from the first step to the last step with intermediate edits
+Jul 05 21:19:07 <stephdg>	so undo is always with reference to the immediate steps
+Jul 05 21:19:09 <rtnpro>	ok
+Jul 05 21:19:24 <stephdg>	so ensure that the last 2 edits are the ones that are selected and re-try
+Jul 05 21:19:53 <stephdg>	you can however, compare, edit and save back to an older version
+Jul 05 21:20:05 <rohitkg>	ok, got it
+Jul 05 21:20:25 <stephdg>	rtnpro: did you get it?
+Jul 05 21:20:35 <stephdg>	However if you do it carelessy you might end up deleting content
+Jul 05 21:20:40 <rtnpro>	stephdg, got it :)
+Jul 05 21:20:48 <stephdg>	which can again be fixed by using the history
+Jul 05 21:21:01 <stephdg>	any questions so far?
+Jul 05 21:21:07 <rahulsen002>	no
+Jul 05 21:21:12 <kishan>	no
+Jul 05 21:21:12 <sudipta>	no
+Jul 05 21:21:13 <Manali1>	no
+Jul 05 21:21:19 <djthequest>	no
+Jul 05 21:21:20 <kopecks89>	no
+Jul 05 21:21:20 <Meejan>	no
+Jul 05 21:21:25 <yevlempy>	no
+Jul 05 21:21:28 <rtnpro>	hmm
+Jul 05 21:21:54 <stephdg>	rtnpro: ??
+Jul 05 21:22:12 <rtnpro>	stephdg, nothing
+Jul 05 21:22:15 <stephdg>	ok
+Jul 05 21:22:33 <stephdg>	so finally, we are nearly at the end of the class
+Jul 05 21:22:55 <stephdg>	Mediawiki is one of the most popular wiki software
+Jul 05 21:23:10 <stephdg>	Wikipedia is a heavily customized Mediawiki
+Jul 05 21:23:39 <zer0c00l>	!
+Jul 05 21:23:39 <stephdg>	the Fedora Project (fedoraproject.org) documentation uses Mediawiki
+Jul 05 21:23:42 <stephdg>	zer0c00l: yes?
+Jul 05 21:23:48 <stephdg>	as does dgplug
+Jul 05 21:24:06 <zer0c00l>	whats the purpose of discussion page?
+Jul 05 21:24:14 <zer0c00l>	discuss about edits?
+Jul 05 21:24:15 <stephdg>	so in order to contribute to Fedora documentation Mediawiki formatting skills is a tool of choice
+Jul 05 21:24:15 <zer0c00l>	eof
+Jul 05 21:24:32 <stephdg>	zer0c00l: lets take an example
+Jul 05 21:24:45 <Manali1>	!
+Jul 05 21:25:22 <stephdg>	you come to a particular projects wiki, you see certain changes may make the documentation even more user friendly
+Jul 05 21:25:29 <stephdg>	Manali1: hold on one second
+Jul 05 21:25:54 <stephdg>	zer0c00l: since its a wiki you can probably create a login and edit it yourself
+Jul 05 21:26:29 <zer0c00l>	stephdg, yes
+Jul 05 21:26:35 <stephdg>	however, if you have never done any editing on the particular wiki before the etiquette calls for putting up your suggestions and comments on the discussion page
+Jul 05 21:26:38 <stephdg>	Manali1: yes?
+Jul 05 21:26:45 <Manali1>	is Mediawiki the only software for formatting wiki?
+Jul 05 21:27:08 <stephdg>	zer0c00l: the discussion page is for discussing the page
+Jul 05 21:27:25 <stephdg>	zer0c00l: its edits, structure, content, etc
+Jul 05 21:27:44 <zer0c00l>	stephdg, ok, got it.
+Jul 05 21:27:56 <stephdg>	Manali1: Mediawiki is *NOT* software for formatting wiki, Mediawiki is *one* of many wiki software
+Jul 05 21:28:10 <ssaha1>	i have a question regarding tables...
+Jul 05 21:28:18 <stephdg>	usually each wiki software has a slightly different markup
+Jul 05 21:28:33 <stephdg>	Manali1: we are discussing only mediawiki
+Jul 05 21:28:48 <Manali1>	ok..thanks
+Jul 05 21:29:28 <ssaha1>	!
+Jul 05 21:29:56 <stephdg>	ssaha1: one second please
+Jul 05 21:30:25 <stephdg>	there are softwares like Twiki, wikiwiki, dokuwiki, Moinmoin
+Jul 05 21:30:34 <stephdg>	and many others
+Jul 05 21:30:39 <stephdg>	ssaha1: yes?
+Jul 05 21:30:45 <ssaha1>	in the edit page of wikipedia for tables class="wikitable" is used...what is the use of it?
+Jul 05 21:31:29 <stephdg>	ssaha1: [21:23] <stephdg> Wikipedia is a heavily customized Mediawiki
+Jul 05 21:31:42 <stephdg>	it uses custom styles, themes, CSS, etc
+Jul 05 21:32:28 <ssaha1>	can those be used in burntomlette also?or those are only for wikipedia?
+Jul 05 21:33:47 <stephdg>	hold on
+Jul 05 21:35:08 <stephdg>	ssaha1: it comes from here: http://meta.wikimedia.org/wiki/MediaWiki:Common.css
+Jul 05 21:35:35 <stephdg>	ssaha1: yes CSS files can be used if you know what you are doing
+Jul 05 21:36:01 <stephdg>	and provided the CSS file is under a suitable license that allows you to do that
+Jul 05 21:36:26 <stephdg>	Any further questions?
+Jul 05 21:36:34 <ssaha1>	ok...got it
+Jul 05 21:36:42 <djthequest>	!
+Jul 05 21:36:46 <stephdg>	djthequest: yes?
+Jul 05 21:37:00 <djthequest>	what is RSS file updates?
+Jul 05 21:37:17 <djthequest>	sorry feed updates
+Jul 05 21:37:54 <stephdg>	That allows you to use a RSS akgregator to read the any updates (read edits) to the pages you are watching
+Jul 05 21:37:57 <stephdg>	djthequest: ^^
+Jul 05 21:38:13 <djthequest>	got it
+Jul 05 21:38:16 <stephdg>	basically it tells you whenever there is change in content djthequest
+Jul 05 21:38:26 <stephdg>	Anything else anyone?
+Jul 05 21:38:44 <Manali1>	?
+Jul 05 21:38:50 <stephdg>	Manali1: yes?
+Jul 05 21:38:56 <kishan>	no
+Jul 05 21:38:56 <djthequest>	content of our file or any file stephdg
+Jul 05 21:39:17 <Manali1>	the RSS feed for update isnt clear to me
+Jul 05 21:39:24 <stephdg>	djthequest: content of any file you choose to "watch"
+Jul 05 21:39:38 <djthequest>	ok.
+Jul 05 21:39:43 <stephdg>	Manali1: what par tis not clear to you?
+Jul 05 21:40:12 <stephdg>	is*
+Jul 05 21:40:15 <stephdg>	part is*
+Jul 05 21:40:21 <Manali1>	stephdg: That allows you to use a RSS akgregator to read the any updates (read edits) to the pages you are watching..... this part
+Jul 05 21:41:14 <stephdg>	Manali1: do you understand what RSS is?
+Jul 05 21:41:28 <Manali1>	no
+Jul 05 21:42:05 <stephdg>	RSS is really simple sydication
+Jul 05 21:42:14 <stephdg>	Manali1: http://en.wikipedia.org/wiki/RSS
+Jul 05 21:42:40 <stephdg>	its basic purpose is to keep us updated whenever there is any update to any content we are following on the web
+Jul 05 21:42:54 <Manali1>	thank u, i need to go through it....
+Jul 05 21:42:57 <Manali1>	ok
+Jul 05 21:43:10 <stephdg>	Any further questions??
+Jul 05 21:43:23 <zer0c00l>	no
+Jul 05 21:43:28 <djthequest>	!
+Jul 05 21:43:31 <stephdg>	djthequest: yes?
+Jul 05 21:43:58 <djthequest>	you mean update made by any user for a particular page.
+Jul 05 21:44:09 <stephdg>	yes that you choose to follow
+Jul 05 21:44:25 <djthequest>	eof
+Jul 05 21:45:00 <stephdg>	djthequest, Manali1 its conceptually like setting your mobile to receive SMS updates for cricket scores
+Jul 05 21:45:21 <Manali1>	hmm..ok
+Jul 05 21:45:25 <djthequest>	ok.
+Jul 05 21:45:57 <stephdg>	Ok, class is over, if you have further questions you can ping me on IRC later
+Jul 05 21:46:06 <stephdg>	----End of Session-------

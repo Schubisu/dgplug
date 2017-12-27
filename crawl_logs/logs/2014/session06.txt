@@ -1,0 +1,949 @@
+18:43 < rtnpro> let's have a roll call, folks :)
+18:43 < titli> sayan, it was a misunderstanding.
+18:44 < rtnpro> sayan, ^^
+18:44 < CuriousLearner> Sanyam Khurana
+18:44 < DhritiShikhar_> Dhriti Shikhar
+18:44 < nmzaheer> Zaheer
+18:44 < zishan> Sheesh Mohsin
+18:44 < qfarjad> ahahaha
+18:44 < bnprk> Binay Pareek
+18:44 < koushik> Koushik Bag
+18:44 < sayan> rtnpro, ok
+18:44 < ruprela> Dharmesh Ruprela
+18:44 < satarupa> Satarupa Sinha
+18:44 < silentSae> Amir
+18:44 < nithinr> Nithin Raj
+18:44 < prajesh> prajesh rawat
+18:44 < papiya> Papiya Sen
+18:44 < deepu_tp> Deepu
+18:44 < sivteck> Sivaram Balakrishnan
+18:44 < heena> Heena Kaushar
+18:44 < kanika04> kanika narang
+18:44 < titli> stop it friends.
+18:44 < Prash_542> Prashant Surya
+18:44 < jaba> Athira S
+18:44 < ace139> Soumyo Dey
+18:44 < sukanya> Sukanya Mandal
+18:44 < surabhi> Surabhi
+18:44 < rahulmishra> Rahul Mishra
+18:44 < amit001> Amit Tripathi
+18:44 < yeshi> Yeshita Dutta
+18:44 < harsha> Harsha
+18:44 < amittima> Amit kumar
+18:44 < shiminsh> Kumari Shalini
+18:44 < umeshs> Umesh
+18:44 < girib> Giri Bhatnagar
+18:44 < nmzaheer> titli, now it is roll call
+18:44 < qfarjad> Qazi Farjad
+18:44 < dev212_> Dhanya N
+18:44 < m_k_> Mahendra Yadav
+18:44 < acetakwas> hello
+18:44 < ramsan> ramsandesh
+18:44 < codaholic> Anjali
+18:45 < Mactoc> sayan:Should we do roll call now?
+18:45 < droy_> Rishabh roy
+18:45 < acetakwas> Tosin Animashaun
+18:45 < sayan> Mactoc, yes
+18:45 < Mactoc> Sreedevi
+18:45 < acetakwas> "just in time"
+18:45 < sayan> acetakwas, :)
+18:45 < titli> Titli
+18:45 < shilpi> shilpi shukla
+18:45 < Amalesh> Aswin kumar
+18:46 < sayan> seems the roll call is over
+18:46 < sayan> hello everybody, let us start with introducing ourselves
+18:47 -!- vulpix is now known as Guest49093
+18:47 < NP1995> Nishant Pani
+18:47 < lutiz> !
+18:47 < sayan> i am Sayan Chowdhury. I am a Python developer and a long time open source contributor
+18:48 < CuriousLearner> Hi, I'm Sanyam from Delhi. Pursuing B.Tech from GGSIPU (III Year), interesting in web development and programming stuff, always striving to learn more and explore about Computers :)
+18:48 < sayan> i start my open source journey with this training itself in 2010 :)
+18:48 < thejamen> Thejazeto
+18:48 < CuriousLearner> sayan: Great :)
+18:48 < sayan> rtnpro, your turn :)
+18:48 < lutiz> this is Pallavi
+18:48 < acetakwas> Do we need to introduce ourselves again, even after doing so in a previous class?
+18:49 < rtnpro> Hey, I am Ratnadeep. I am FOSS enthusiast and contributor
+18:49 < lixxz> acetakwas, he meant him and rtnpro
+18:49 < rtnpro> I am also the creator and maintainer of https://waartaa.com, an open source IRC client as a service
+18:49 < sayan> we are following the classes, so we know you all :)
+18:49 * CuriousLearner feeling trolled
+18:50 < rtnpro> you people might want to give it a try :D
+18:50 < titli> Hi, I am Titli , from Kolkata, 2nd year MCA from Heritage Institute of Technology, willing to learn python and open source.
+18:50 < droy_> Hi, I am Rishabh persuing B.tech CSE from KIIT bhubaneswara, i am a python devoloper and contributor to opensource devoloper .
+18:51 < rtnpro> so, the topic for today's class is to get started with Vim: A command line text editor
+18:51 < rtnpro> folks, please stop introducing yourselves again :P
+18:51 < rtnpro> we know you ;)
+18:51 < rtnpro> so, shall I resume?
+18:51 < titli> rtnpro, I can't open your link.
+18:51 < CuriousLearner> Yes :)
+18:52 < prajesh> yes , we should start without wasting anymore time.
+18:52 < rtnpro> titli, try this https://www.waartaa.com/
+18:52 < novice-coder12> i agree.
+18:52 < rtnpro> ok, ok
+18:52 < deepu_tp> Waartaa uses meteor. Sweet!
+18:52 < rtnpro> as I was saying, we are going to try our hands on Vim
+18:53 < rtnpro> If you speak about command line based text editors, the most famous are Vim and Emacs
+18:53 < rtnpro> We're not going to talk about Emacs here now, but if you want, you can give it a shot
+18:54 < rtnpro> Vim stands for "Vi Improved"
+18:54 < rtnpro> for the rest of our discussion, we'll be using 'vim' and not 'vi'
+18:55 < rtnpro> Let's start with installing vim if you haven't already done so
+18:55 < rtnpro> In Fedora or Red Hat based distros, you can install it via: $sudo yum install vim
+18:56 < rtnpro> if it's not already installed
+18:56 < rtnpro> if you haven't got sudo configured, you can do: su -c "yum install vim"
+18:56 < CuriousLearner> !
+18:56 < novice-coder12> !
+18:57 < m_k_> !
+18:57 < sayan> next
+18:57 < batul> annesha_ please ask your question.. zetron you are next. Get ready with your question.
+18:57 < m_k_> eof
+18:57 < Amalesh> for ubuntu users try this command $sudo apt-get install vim
+18:57 < Amalesh> installed a few secs bck
+18:57 < sayan> next
+18:57 < batul> zetron please ask your question.. annesha_ you are next. Get ready with your question.
+18:58 < sayan> next
+18:58 < batul> annesha_ please ask your question.. zetron you are next. Get ready with your question.
+18:58 < sayan> next
+18:58 < batul> zetron please ask your question.. titli you are next. Get ready with your question.
+18:58 < rtnpro> Amalesh, thanks
+18:58 < sayan> next
+18:58 < batul> titli please ask your question.. acetakwas you are next. Get ready with your question.
+18:58 < CuriousLearner> !
+18:58 < sayan> next
+18:58 < batul> acetakwas please ask your question.. acetakwas you are next. Get ready with your question.
+18:58 < rachidasen> raghib
+18:58 < sayan> next
+18:58 < batul> acetakwas please ask your question.. silentSae you are next. Get ready with your question.
+18:58 < Amalesh> rtnpro :)
+18:59 < rtnpro> why no one is asking?
+18:59 < sayan> next
+18:59 < batul> silentSae please ask your question.. umeshs you are next. Get ready with your question.
+18:59 < sayan> next
+18:59 < batul> umeshs please ask your question.. lutiz you are next. Get ready with your question.
+18:59 -!- Gajanan is now known as Gajanan-brb
+18:59 < sayan> next
+18:59 < batul> lutiz please ask your question.. CuriousLearner you are next. Get ready with your question.
+18:59 * rtnpro saw many raise their hands
+18:59 < sayan> next
+18:59 < batul> CuriousLearner please ask your question.. novice-coder12 you are next. Get ready with your question.
+18:59 < CuriousLearner> What does "c" stands for here? and what it means by sudo not configured? <eof>
+19:00 < lixxz> CuriousLearner, man sudo
+19:00 < titli> sayan, batul wasn't got cleared yesterday.
+19:00 < rtnpro> CuriousLearner, -c, --command <command> pass a single command to the shell with -c
+19:00 < sayan> CuriousLearner, you need to configure you sudo, google it
+19:00 < acetakwas> why is batul asking us to ask questions
+19:00 < titli> *haven't got
+19:00 < sayan> s/you/your
+19:00 < sayan> next
+19:00 < batul> novice-coder12 please ask your question.. m_k_ you are next. Get ready with your question.
+19:00 < novice-coder12> How can we check that its already installed? I mean through which command?
+19:00 < Mactoc> Ubuntu users after installing vim, run sudo apt-get update
+19:00 < sayan> titli, ok
+19:00 < rtnpro> CuriousLearner, just do 'su -h' and you'll know
+19:01 < sayan> next
+19:01 < batul> m_k_ please ask your question.. CuriousLearner you are next. Get ready with your question.
+19:01 < CuriousLearner> ok.
+19:01 < rtnpro> novice-coder12, just type vim and hit enter, and you will know
+19:01 -!- umeshs_ is now known as umeshs
+19:01 < rtnpro> Mactoc, thanks +1
+19:01 < sayan> next
+19:01 < batul> CuriousLearner please ask your question.
+19:01 < sayan> next
+19:01 < batul> No one is in queue.
+19:02 < sayan> rtnpro, proceed
+19:02 < CuriousLearner> already done with my question <eof>
+19:02 < m_k_> how to configure sudo
+19:02 < Mactoc> rtnpro :)
+19:02 < ace139> m_k_ , google it.
+19:02 < sayan> m_k_, http://lmgtfy.com/?q=how+to+configure+sudo
+19:03 < m_k_> ok
+19:03 < rtnpro> let's proceed then
+19:03 <@Armageddon> next
+19:03 < acetakwas> !
+19:03 <@Armageddon> next
+19:04 <@Armageddon> next
+19:04 < sivteck> masters
+19:04 < batul> My current masters are: kushal,sayan,mbuf,rtnpro,chandankumar,praveenkumar,chandan_kumar
+19:04 <@Armageddon> :o
+19:04 <@Armageddon> previous
+19:04 < rtnpro> acetakwas, tell
+19:04 <@Armageddon> rtnpro: do next
+19:04 < acetakwas> sorry, what do you mean by configure sudo?
+19:04 < rtnpro> next
+19:04 < batul> acetakwas please ask your question.
+19:05 < rtnpro> ok, we'll proceed then
+19:05 <@Armageddon> acetakwas: I don't understand the question
+19:05 < rtnpro> acetakwas, we'll take up discussion on sudo in some other session
+19:06 < acetakwas> people are talking about "configuring sudo"; but I've never of such
+19:06 < acetakwas> rtnpro, okay
+19:06 -!- amir_ is now known as Guest55419
+19:06 < rtnpro> acetakwas, you can install vim via: su -c "yum install vim" if you are on RedHat based distro or using: sudo apt-get install vim (if you are on Ubuntu)
+19:07 < rtnpro> so, let's try to create a file using vim
+19:07 < Mactoc> acetakwas, This link sayan has given may help http://lmgtfy.com/?q=how+to+configure+sudo
+19:07 < rtnpro> all you need to do is: vim new_file_name.txt
+19:08 < rtnpro> so, if new_file_name.txt is present in the current directory, it will open the file for editing
+19:08 < rtnpro> else, it will open a new file for creation
+19:09 < rtnpro> let me know when you are done
+19:09 * amit001 done
+19:09 < silentSae> done
+19:09 < kanika04> done
+19:09 < DhritiShikhar_> done
+19:09 < umeshs> done
+19:10 < ace139> Done, creating a new file.
+19:10 < titli> done
+19:10 < Mactoc> done :)
+19:10 < Prash_542> Done
+19:10 < sj13> Done
+19:10 < bnprk> done
+19:10 < surabhi> done
+19:10 < nmzaheer> done
+19:10 < koushik> Done
+19:10 < deepu_tp> done
+19:10 < CuriousLearner> done
+19:10 < nithinr> done
+19:10 < rtnpro> ok
+19:11 < Amalesh> done
+19:11 < harsha> done
+19:11 < rtnpro> so, if someone of you might have tried to enter some random characters, you might notice that you are not able to type it
+19:11 < Mactoc> rtnpro:yes
+19:11 < qfarjad> done
+19:12 < ace139> Yes, Error : No Previous Regular Expression
+19:12 < yeshi> done
+19:12 < amit001> rtnpro, kushal gave us the last years log and we already tried our hands on vim. so you can go a bit faster and if someone faces some problem he/she can ask
+19:13 < amit001> just a suggestion
+19:13 < eeshangarg> has the session started?
+19:13 < CuriousLearner> eeshangarg: Yes.
+19:13 < acetakwas> eeshangarg, yes
+19:13 -!- Gajanan-brb is now known as Gajanan
+19:13 < rtnpro> amit001, ok, thanks for pointing it out
+19:14 < Mactoc> eeshangarg, yes
+19:14 < sayan> amit001, oh!
+19:14 < CuriousLearner> Yeah, we all have studied basic commands but though not able to remember all :)
+19:14 < sayan> then we can have a question and answer session from the logs
+19:15 < ace139> rtnpro, many are very new to this . Don't know about others but i will be having much difficulty with amit001 's suggestion
+19:15 < novice-coder12> Not everybody went through the logs,though!
+19:15 < novice-coder12> If someone agree?
+19:15 < rtnpro> ace139, +1
+19:15 < umeshs> ace139, +1
+19:15 < sivteck> ace139: -1
+19:16 < bnprk> novice-coder12 +1
+19:16 < sj13> It wouldn't hurt to go through it again even if someone went through the logs since most of us are new to it and the learning curve is pretty steep.
+19:16 < CuriousLearner> I can say go with ace139, but it shoud've been done as part of homework :)
+19:17 < sayan> novice-coder12, it was homework and you should have gone through it
+19:17 <@Armageddon> ladies and gentlemen, you are getting side tracked and losing a lot of time on useless suggestions
+19:17 < acetakwas> novice-coder12: +1
+19:17 < titli> CuriousLearner, +1.
+19:17 < sayan> novice-coder12, that's an excuse
+19:17 <@Armageddon> rtnpro: is here for a reason, he's giving a lesson and I suggest you give him the opportunity to make the decision that he sees fit
+19:17 < lixxz> Armageddon, +1
+19:17 < CuriousLearner> No problem, mentors please decide ASAP, let's not waste time here deciding.
+19:18 < Mactoc> Armageddon, +1
+19:18 < CuriousLearner> Armageddon: +1
+19:18 < sj13> Armageddon, +1
+19:18 < kanika04> armageddon +1
+19:18 < ace139> Armageddon, +1
+19:18 <@Armageddon> I don't need to be +1'ed
+19:18 < nmzaheer> guys stop it with your +1s
+19:18 <@Armageddon> this is still being side tracked
+19:18 < sayan> anyways since everybody is new and it's tough. so i'll be taking the class
+19:18 < titli> Can we resume?
+19:18 < novice-coder12> @sayan My bad! I will go through it.
+19:19 < chandankumar> if anybody has questions please ask after the sayan's class.
+19:19 < lixxz> please continue
+19:19 < sayan> i presume everybody have opened a new file
+19:20 < umeshs> sayan, yes
+19:20 < silentSae> yes
+19:20 < sayan> Press i to go to "Insert Mode"
+19:21 < silentSae> done
+19:21 < Mactoc> Done
+19:21 < ace139> Now its letting us type random characters.
+19:21 < sayan> this is basically the editing mode, you can type things in the file
+19:21 < Amalesh> Done ,typed a few lines
+19:22 < sayan> type few english words
+19:22 < sayan> then to save the file type :w
+19:22 < kanika04> i guess we have to press esc first
+19:22 < amit001> press escape and then :w
+19:23 < sayan> kanika04, thanks, yes
+19:23 < Mactoc> Yes, We have to press escape key to enter into command mode
+19:23 < sayan> everybody press Esc then :w
+19:23 < ace139> done
+19:23 < umeshs> Done
+19:23 < Mactoc> done
+19:23 < silentSae> done
+19:24 < harsha> done
+19:24 < bnprk> done
+19:24 < CuriousLearner> Suggestion : Please don't try to assure each step, let the mentor continue, and keep following his instruction, if you have question post a "!" or else comment "done" only if mentor says :)
+19:24 < Prash_542> Done.
+19:25 < sayan> good
+19:25 < sayan> so now you just saved a few lines in a file :)
+19:27 < sayan> write a few lines in the file so that i can teach you movements
+19:28 < sayan> type done when done
+19:28 < silentSae> done
+19:28 < kanika04> done
+19:28 < mnw94> done
+19:28 < CuriousLearner> done
+19:28 < shrees> done
+19:28 < Prash_542> done
+19:28 < umeshs> done
+19:28 < Amalesh> done
+19:28 < bnprk> done
+19:28 < sivteck> done
+19:28 < titli> done
+19:29 < DhritiShikhar_> done
+19:29 < koushik> Done
+19:29 < amittima> done
+19:29 < sj13> Done
+19:29 < Mactoc> Done
+19:29 < papiya> done
+19:29 < nithinr> done
+19:29 < ace139> I just lost connection and now reconnected, what was done now ?
+19:29 < sayan> Ok, so i am proceeding now
+19:29 < ace139> I did upto Esc then :w
+19:29 < shilpi> done
+19:29 < nmzaheer> done
+19:29 < yeshi> done
+19:30 < sayan> In vim, we use
+19:30 < DhritiShikhar_> ace129, write a few lines in your file
+19:30 < sayan> h = 1 char left
+19:30 < DhritiShikhar_> ace139*
+19:30 < thejamen> ace139, just type anything in the file you created (in the editing mode)
+19:30 < sayan> j = 1 char down
+19:30 < sayan> k = 1 char up
+19:30 < sayan> l = 1 char right
+19:30 < Mactoc> ace139, Type i to get insert mode
+19:31 <@Armageddon> Guys, you can take it to pm to explain to someone what has happened
+19:31 <@Armageddon> there is no need to disrupt the whole class and the mentor in the middle of class about it
+19:32 < ace139> Armageddon, sorry for the trouble.
+19:32 < sayan> you can also use the arrow keys for movement
+19:33 < nmzaheer> !
+19:33 < Mactoc> Armageddon, Ok
+19:33 < sayan> is it working for all?
+19:33 < sivteck> yes
+19:33 < sayan> next
+19:33 < batul> nmzaheer please ask your question.
+19:33 < Prash_542> Yes
+19:33 < CuriousLearner> Yes.
+19:33 < nithinr> yes
+19:33 < silentSae> yes
+19:33 < thejamen> Yep
+19:33 < kanika04> yes
+19:33 < nmzaheer> What is the reason behind using h,j,k,l when we have arrow keys?
+19:33 < papiya> yes
+19:34 -!- acetakwas_ is now known as acetakwas
+19:34 < bnprk> yes
+19:34 < umeshs> yes
+19:34 < DhritiShikhar_> yes
+19:34 < harsha> yes
+19:34 < thejamen> nmzaheer, speed
+19:34 < prajesh> yes
+19:34 < sj13> Yes
+19:34 < shrees> yep
+19:34 < Mactoc> sayan, yes
+19:35 < sayan> nmzaheer, if you are good at typing you will never want to move to arrow keys, this increases speed
+19:35 < deepu_tp> nmzaheer: hjkl are center row keys
+19:35 <@Armageddon> !
+19:35 < nmzaheer> sayan: ok
+19:35 < acetakwas> got disconnected since "i for insert"; could someone please breeze through what was taught so far?
+19:35 < sayan> nmzaheer, even if you try in general you will see a significant increase in speed
+19:35 <@Armageddon> acetakwas: take it to pm with someone you know
+19:36 < jaba> yes
+19:36 < dev212_> yes
+19:36 < sayan> next
+19:36 < batul> Armageddon please ask your question.
+19:36 < nmzaheer> <eof>
+19:36 <@Armageddon> sayan: it's a question in general for the class, not specifically to you, does anyone know why hjkl were used ?
+19:37 < Amalesh> Armageddon : no
+19:37 < deepu_tp> Armageddon: on a qwerty keyboard hjkl are center row keys
+19:37 < acetakwas> Armageddon, thanks
+19:37 <@Armageddon> vi was originally coded on the ADM-3A Terminal, the layout of the keyboard had the arrows on hjkl. You can see the layout here https://en.wikipedia.org/wiki/ADM-3A#mediaviewer/File:KB_Terminal_ADM3A.svg
+19:38 < deepu_tp> Armageddon: Wow. Did not know that. Thanks!
+19:38 < CuriousLearner> Armageddon: Informative, thanks :)
+19:38 < acetakwas> titli, umeshs ;)
+19:38 < titli> CuriousLearner, +1.
+19:38 < sayan> Armageddon, did not know that. thanks :)
+19:39 < deepu_tp> Armageddon: But then one must then ask why the arrow keys were put on hjkl
+19:39 < harsha> Armageddon, thanks..
+19:39 < sayan> Let's come back to the class
+19:40 < sayan> remember this two characters, these two really comes handy
+19:41 < sayan> Go to the middle of any line, and press 0
+19:41 < sayan> you'll see that your cursor moves to the beginning of the line
+19:41 < shrees> yes
+19:41 < ace139> yes
+19:41 < umeshs> yes
+19:41 < Amalesh> I am able to use hjkl only in command mode, but arrow keys comes handy both in command mode and insert mode
+19:41 < sayan> press $ to go to the end of the line
+19:42 < shrees> yes done
+19:42 < koushik> yes
+19:42 < ace139> yes
+19:42 < Amalesh> yes
+19:42 < titli> done.
+19:43 < umeshs> yes
+19:43 < mnw94> yes
+19:43 <@Armageddon> Amalesh: it is always faster to hit ESC and use hjkl then to move your whole hand to use the arrows. Try it and let me know.
+19:44 <@Armageddon> s/then/than/ <--- if you don't understand this, sayan will explain it to you ;)
+19:44 < ace139> Armageddon, yes its faster.
+19:46 < titli> sayan, I don't understand that.
+19:46 < sayan> now to append some text from the current cursor position , press a
+19:46 < titli> 's/then/than'
+19:47 < titli> sorry to interrupt.
+19:47 <@Armageddon> titli: you will with due time.
+19:47 < Amalesh> Armageddon : having used arrow keys for years in notepad, will take some time to get used to hjkl.You are right its actually faster:)
+19:47 < sayan> titli, i'll take questions at the end
+19:47 < sayan> to replace the current character with something
+19:47 < sayan> press r and then the new character
+19:48 < kanika04> !
+19:48 < ace139> !
+19:50 < sayan> next
+19:50 < batul> kanika04 please ask your question.. ace139 you are next. Get ready with your question.
+19:50 < sayan> next
+19:50 < batul> ace139 please ask your question.
+19:50 < kanika04> difference between a and i ?
+19:50 < amit001> a == append i== insert
+19:50 < kanika04> we can append something using 1 also
+19:50 <@Armageddon> amit001: that doesn't answer the difference
+19:50 < kanika04> *i
+19:51 < ace139> sayan, pressing r then the character not working.
+19:51 < Mactoc> kanika04, append some text from the current cursor position
+19:51 <@Armageddon> kanika04: i will put the cursor before the character you selected, a will put it after
+19:51 < iamviknesh> kanika04: append takes your cursor to end of the line , insert takes you cursor to start of the line
+19:51 < amit001> Armageddon, oh!
+19:51 < Mactoc> ace139, press Esc key to enter command mode
+19:51 <@Armageddon> iamviknesh: no it won't
+19:51 < sayan> ace139, are you in command mode?
+19:51 < kanika04> ok thnks Armageddon
+19:51 < ace139> sayan, yes
+19:51 < sayan> ace139, press escape to go to command mode
+19:51 < kanika04> :D
+19:52 < ace139> sayan, already in.
+19:52 < kanika04> *thanks
+19:52 < iamviknesh> Armageddon: does shift + a dont take you to end ??
+19:52 <@Armageddon> iamviknesh: she never asked about A
+19:52 <@Armageddon> iamviknesh: she asked about i and a
+19:52 < sayan> ace139, now press r, placing the cursor on a character
+19:52 <@Armageddon> or I hope kanika04 is a she
+19:53 < kanika04> yes Armageddon
+19:53 < kanika04> kanika narang
+19:53 < ace139> sayan, yes it is working. thanks.
+19:53 <@Armageddon> iamviknesh: don't get ahead of class, you will confuse people
+19:53 < ace139> eof
+19:54 < iamviknesh> Armageddon: ok sorry for that :(
+19:55 < acetakwas> !
+19:55 <@Armageddon> acetakwas: ask your question
+19:56 < acetakwas> please are is the ':' mandatory before all these command letters: h,j,k,l,i,a...
+19:56 <@Armageddon> no
+19:56 < sayan> to delete a character, press x
+19:56 < acetakwas> Armageddon, so they 'i' means the same as ':i' and 'q' the same as ':q'
+19:57 < acetakwas> right?
+19:57 < ace139> sayan, does :w is the command to enter command mode ?
+19:57 <@Armageddon> acetakwas: q is not the same as :q, not even close
+19:57 < amit001> acetakwas, no
+19:57 <@Armageddon> acetakwas: unless sayan specifies that it's a : command then it isn't
+19:57 < Mactoc> ace139, no, esc key is the command to enter command mode.
+19:58 < ace139> then what does :w actually does ?
+19:59 <@Armageddon> ace139: go back to the beginning of the lesson and read it again
+19:59 < chandankumar> :w --> it is used to write contents to the file.
+19:59 < acetakwas> okay, <eof>
+20:00 < ace139> chandankumar, thanks.
+20:01 < sayan> anybody have any questions?
+20:02 < CuriousLearner> !
+20:02 < sayan> next
+20:02 < batul> acetakwas please ask your question.. CuriousLearner you are next. Get ready with your question.
+20:02 < sayan> next
+20:02 < batul> CuriousLearner please ask your question.
+20:03 < acetakwas> actually arrow keys work fine for me; I don't have to press ESC key before using them
+20:03 < CuriousLearner> Isn't it that :w saves file?
+20:03 <@Armageddon> CuriousLearner: correct
+20:03 < DhritiShikhar_> CuriousLearner, correct
+20:03 <@Armageddon> CuriousLearner: specifically, it saves changes to the file
+20:03 <@Armageddon> as in it saves the current state of the buffer into the file
+20:04 < CuriousLearner> ok, thanks :)
+20:04 < sayan> CuriousLearner, yes it save file
+20:04 < sayan> I am ending the class here, kushal will be coming in at 8:30pm
+20:04 <@Armageddon> acetakwas: why would they not work fine for you
+20:04 < sayan> he will be continuing the session
+20:04 < Amalesh> I am leaving have a meeting
+20:05 < sivteck> acetakwas: using hjkl is `funner`
+20:05 <@Armageddon> sivteck: more practical and faster
+20:05 < acetakwas> sivteck, but not faster
+20:05 <@Armageddon> acetakwas: it is
+20:05 < sivteck> acetakwas: if you know typing
+20:05 <@Armageddon> I use vim every day all day
+20:06 <@Armageddon> I have been for at least the past 8 years
+20:06 < acetakwas> Armageddon, I have to go all the way to the ESC key before using hjkl, is that faster?
+20:06 <@Armageddon> acetakwas: you have 5 fingers right ?
+20:06 < acetakwas> yes; I'm human
+20:06 <@Armageddon> do you use all 5 of just two ?
+20:06 < acetakwas> When proper typing says to use all
+20:06 < acetakwas> *well
+20:07 <@Armageddon> use your pinkie
+20:07 <@Armageddon> ESC is right there
+20:07 <@Armageddon> what you might not also know about vim is that all of these are configurable and that some people remap the ESC key to the caps lock key
+20:07 <@Armageddon> would that make it closer to you ?
+20:08 < acetakwas> well, maybe
+20:08 < acetakwas> will explore it
+20:08 < Mactoc> Armageddon,
+20:08 < amit001> on a lighter note ,Armageddon arrows are faster if you are a gamer
+20:08 <@Armageddon> amit001: do I look like a gamer to you ?
+20:09 * sivteck tries to look at Armageddon through the computer screen
+20:09 < CuriousLearner> ^^ lol
+20:09 <@Armageddon> amit001: besides, gaming is not a subject here ;)
+20:09 < acetakwas> amit001, lol; true though +1
+20:09 < lixxz> if anyone likes they can use inbuilt tutor just type "vimtutor"(without quotes) in terminal
+20:09 < azharh> Haha
+20:09 <@Armageddon> Mactoc: yes ?
+20:09 < Mactoc> Armageddon, sorry, how to do that configuring thing?
+20:09 < amit001> sivteck, ++1
+20:09 < acetakwas> sivteck, lol
+20:09 < acetakwas> sivteck, how do you do that?
+20:10 -!- dev212 was kicked from #dgplug by Armageddon [dev212]
+20:10 <@Armageddon> Mactoc: first of all you need to do :mkvimrc
+20:10 <@Armageddon> it will create a .vimrc file in your $HOME directory
+20:10 < amit001> acetakwas, just try to use hjkl for 1 or 2 hours you will definitely see the difference .
+20:10 < acetakwas> <eof>
+20:11 < acetakwas> amit001, okay I will; I'm open to change, just curious
+20:11 < Mactoc> Armageddon, Ok
+20:12 <@Armageddon> Mactoc: I guess some people remap the whole key in XWindow
+20:12 < amit001> also "vimtutor" is very helpful. You will get a good start.
+20:12 < lixxz> indeed
+20:13 < lixxz> you can experiment the commands there itself
+20:13 < lixxz> it's not just text
+20:13 < acetakwas> lixxz, +1 for 'vimtutor'
+20:13 < Mactoc> Armageddon, .vimrc is a hidden file or something?
+20:14 <@Armageddon> Mactoc: all . files in linux are hidden
+20:14 <@Armageddon> any file that starts with a . is a hidden file
+20:14 < Mactoc> Armageddon, Ok :)
+20:14 <@Armageddon> so you can make a file a hidden one by prepending a . to it
+20:14 <@Armageddon> and by the way, unlike windows
+20:14 <@Armageddon> linux doesn't care about extensions
+20:14 <@Armageddon> so you don't need to do hello.txt, hello will suffice
+20:15 < CuriousLearner> and then how to see that hidden file when we want to Armageddon ?
+20:15 < sj13> Armageddon, then how does it distinguish between different files?
+20:15 < sivteck> Mactoc: you can see the list of files including hidden files using `list -al` , CuriousLearner
+20:15 < Mactoc> Armageddon, you mean vim hello is enough?
+20:15 < sivteck> sorry ls -al
+20:15 < chandankumar> Please follow this link, to explore more on Vim, http://vim.wikia.com/wiki/Vim_Tips_Wiki
+20:16 < sivteck> Mactoc: you can see the list of files including hidden files using `ls -al` , CuriousLearner
+20:16 <@Armageddon> Mactoc: I mean everywhere in linux
+20:16 <@Armageddon> CuriousLearner: ls -ltra
+20:16 <@Armageddon> CuriousLearner: ls -a should suffice
+20:16 <@Armageddon> sj13: linux doesn't distinguish between them
+20:17 < CuriousLearner> ok, thanks, and if we are present in one directory where we have files with different extension but same name, which one vim will open?
+20:17 < sj13> Then how does it to what to use to open a specific file?
+20:17 <@Armageddon> sj13: applications will try to guess the file type by extension like .py is a python one
+20:17 <@Armageddon> but it doesn't matter
+20:17 <@Armageddon> you can write a bash script without a .sh and still run it fine ;)
+20:18 -!- Gajanan is now known as Gajanan-brb
+20:18 < CuriousLearner> Armageddon: if we are present in one directory where we have files with different extension but same name, which one vim will open?
+20:18 <@Armageddon> sj13: you tell it, you will always use vim to open files you know are not binaries ;)
+20:18 < sivteck> CuriousLearner: you have to use the full name of the file including the extensions while opening the file using vim
+20:18 <@Armageddon> CuriousLearner: all of them
+20:18 < kushal> ah back
+20:18 < Mactoc> sivteck, Armageddon : Thanks
+20:18 < Mactoc> Armageddon, What should we do in .vimrc file to configure as you said before, Is it a long process?
+20:18 < kushal> clearqueue
+20:18 <@Armageddon> CuriousLearner: actually none
+20:19 <@Armageddon> Mactoc: it's not, we'll talk about it later
+20:19 < kushal> My vimrc
+20:19 < kushal> http://kushaldas.in/details/vimrc
+20:19 < CuriousLearner> all of them or none ? :confused: Armageddon
+20:19 <@Armageddon> Mactoc: I don't think it's possible
+20:19 < kushal> Download and save it as .vimrc
+20:19 <@Armageddon> kushal: did you remap your ESC to CAPS ?
+20:19 < Mactoc> kushal, Ok
+20:19 < kushal> actually ~/.vimrc
+20:19 < kushal> Armageddon, no
+20:19 <@Armageddon> CuriousLearner: if you do vim file when you have file.txt and file.py it will actually open a new empty one called file ;)
+20:19 <@Armageddon> kushal: that's what he was asking
+20:20 < kushal> Armageddon, or file. :)
+20:20 < kushal> which I do all the time :(
+20:20 < CuriousLearner> ok, so what would be the extension of the new file, as we have .txt already? Armageddon
+20:20 <@Armageddon> Mactoc: I'm thinking it's not vim specific, they remap esc to caps in XWindow
+20:20 <@Armageddon> kushal: use zsh my friend, it will list them for you ;)
+20:20 <@Armageddon> CuriousLearner: it will be NONE
+20:20 <@Armageddon> CuriousLearner: it will not have an extension
+20:20 < kushal> CuriousLearner, no proper extension
+20:21 <@Armageddon> CuriousLearner: as I said, Linux doesn't care about extensions, they are there as guidelines for you
+20:21 < CuriousLearner> so if we do a :w in order to save that file, how will system respond?
+20:21 < Mactoc> Armageddon, I just want to know in general, not only case of esc to cap
+20:21 <@Armageddon> CuriousLearner: it will save
+20:21 < kushal> Learn vim very very well :)
+20:21 <@Armageddon> Mactoc: :h remap
+20:21 <@Armageddon> CuriousLearner: do touch file
+20:21 <@Armageddon> touch file <---- this command in the terminal
+20:22 <@Armageddon> it will create a file called file
+20:22 <@Armageddon> no extension
+20:22 <@Armageddon> double check with ls -ltra
+20:22 < CuriousLearner> ok, will do it :)
+20:23 <@Armageddon> alright guys, let's stop the chat
+20:23 <@Armageddon> I'll be continuing class with vim
+20:23 < umeshs> ok
+20:23 < kushal> masters
+20:23 < batul> My current masters are: kushal,sayan,mbuf,rtnpro,chandankumar,praveenkumar,chandan_kumar
+20:23 < kushal> add: Armageddon
+20:23 < batul> Armageddon is a master now.
+20:23 < kushal> masters
+20:23 < batul> My current masters are: kushal,sayan,mbuf,rtnpro,chandankumar,praveenkumar,chandan_kumar,Armageddon
+20:23 <@Armageddon> so do we all have vim open ?
+20:24 < titli> !
+20:24 < ace139> vim opened.
+20:24 < umeshs> yes
+20:24 -!- Gajanan-brb is now known as Gajanan
+20:24 < kanika04> yes
+20:24 < sivteck> yes
+20:24 < CuriousLearner> Yes.
+20:24 <@Armageddon> next
+20:24 < batul> titli please ask your question.
+20:24 < raghib> yes
+20:24 < RohanRoy> yes
+20:25 < titli> I it doesn't care about extensions then how it distinguishes what type of file it is?
+20:25 <@Armageddon> it doesn't need to
+20:25 <@Armageddon> it needs to know if it's executable or not
+20:25 <@Armageddon> if it is, then that's a different story
+20:25 <@Armageddon> let's stick to vim for now
+20:25 <@Armageddon> we can chat later
+20:25 < titli> ok, through .out?
+20:25 < titli> ok.
+20:26 <@Armageddon> so we learned with sayan the basic movements and how to go into insert mode and type
+20:26 <@Armageddon> we also learned the 0 and the $
+20:28 <@Armageddon> so let's learn some more useful keybindings of vim that you will find very useful when coding
+20:28 -!- Gajanan is now known as Gajanan-brb
+20:28 <@Armageddon> I need you to navigate your cursor to the middle of a line you wrote
+20:28 <@Armageddon> Then, I would like you to try the I keybinding, it's shift + i
+20:29 <@Armageddon> can anyone tell me what it does ? It does two things at the same time
+20:29 <@Armageddon> two things we learned today combined, which keybindings ?
+20:29 < ace139> getting into insert mode and beggining of the line.
+20:29 < kanika04> takes u to the insert mode
+20:29 < kanika04> nd beggining of the line
+20:29 < sivteck> it takes us to the first character of the sentence and insert mode
+20:29 < kanika04> *and
+20:29 <@Armageddon> so in other words, it's 0 and then i, correct ?
+20:29 < sj13> Yes
+20:29 < kanika04> yes
+20:30 <@Armageddon> following that logic, if you hit ESC and then try the A keybinding what will that do ?
+20:30 < tdas_> !
+20:30 <@Armageddon> next
+20:30 < batul> tdas_ please ask your question.
+20:30 < silentSae> It will append at the end of the line
+20:30 <@Armageddon> silentSae: correct
+20:31 <@Armageddon> so it's just like the $ followed by an a
+20:31 < ace139> Armageddon, couldnt get this one.
+20:31 <@Armageddon> I and A, remember those, they will help you tremendously
+20:31 < tdas_> sorry to interrupt, I have some connection problems someone please tell me what Armageddon is telling about in pm.
+20:31 <@Armageddon> ace139: A will put the cursor at the end of the line in insert mode
+20:31 <@Armageddon> tdas_: ^
+20:32 <@Armageddon> did we all understand the I and A ?
+20:32 < sivteck> !
+20:32 <@Armageddon> next
+20:32 < batul> sivteck please ask your question.
+20:32 < sivteck> Armageddon: '0' takes us to the first character even if it is a space but 'I' takes the cursor to the first non space character.
+20:33 < sj13> !
+20:33 <@Armageddon> sivteck: actually, it depends on the vimrc configuration, you can ignore that
+20:33 < sivteck> Armageddon: ah, ok
+20:33 <@Armageddon> next
+20:33 < batul> sj13 please ask your question.
+20:33 < sj13> Is it case-sensitive?
+20:33 <@Armageddon> sj13: what is ?
+20:34 < sj13> the keybindings
+20:34 <@Armageddon> yes
+20:34 <@Armageddon> A is different than a, it has a different behaviour
+20:34 < sj13> <eof>
+20:34 <@Armageddon> now one of the most important commands in vim, the / command
+20:34 <@Armageddon> ESC to make sure you are in normal mode or view mode
+20:35 <@Armageddon> then hit / and type a word you want to search for in your text
+20:35 <@Armageddon> then hit enter, tell me when done
+20:36 < raghib> yeah it ket us to the first word
+20:36 < Mactoc> done
+20:36 < silentSae> Done
+20:36 <@Armageddon> if anyone is having problems with it, please !
+20:36 < ace139> Clear
+20:36 < RohanRoy> done
+20:36 < kanika04> done
+20:36 < sivteck> done
+20:36 <@Armageddon> now n will take you to the next instance of that word
+20:36 < CuriousLearner> done
+20:36 < Mactoc> !
+20:37 <@Armageddon> and N will take you to the previous one
+20:37 <@Armageddon> if there are no more instances at the end or the beginning, it will start over from the beginning of the buffer
+20:37 <@Armageddon> please try n and N
+20:37 <@Armageddon> topic
+20:37 <@Armageddon> next
+20:37 < batul> Mactoc please ask your question.
+20:38 < Mactoc> Can we search characters with this ?
+20:38 < sj13> !
+20:38 <@Armageddon> Mactoc: you can but ? searches backwards
+20:38 <@Armageddon> Mactoc: / searches forwards
+20:39 < kanika04> !
+20:39 < nmzaheer> Armageddon: i think ? was just a question mark
+20:39 <@Armageddon> it will always search from the current position, forwards or backwards
+20:39 <@Armageddon> Mactoc: was it ?
+20:39 <@Armageddon> nmzaheer: if it was, then I misunderstood the question because you can also search with the ? character
+20:39 <@Armageddon> next
+20:40 < batul> sj13 please ask your question.. kanika04 you are next. Get ready with your question.
+20:40 < Mactoc> Armageddon, No, I got it
+20:40 < sj13> Does it search for the first instance of the word from where the cursor is placed currently?
+20:40 <@Armageddon> sj13: that is correct
+20:40 <@Armageddon> next
+20:40 < batul> kanika04 please ask your question.
+20:40 < kanika04> n and / means the same ?
+20:40 < sj13> Ok. <eof>
+20:40 < nmzaheer> !
+20:40 <@Armageddon> kanika04: no
+20:40 -!- amir_ is now known as Guest1045
+20:41 <@Armageddon> after you've searched with /
+20:41 < kanika04> they both have the same function.
+20:41 < azharh> !
+20:41 <@Armageddon> you can use n and N to find the next or previous occurrence
+20:41 < kanika04> okay
+20:41 < tdas_> !
+20:41 <@Armageddon> next
+20:41 < batul> nmzaheer please ask your question.. azharh you are next. Get ready with your question.
+20:41 < nmzaheer> How to unhilight it?
+20:42 <@Armageddon> nmzaheer: that's an interesting question, you will need to disable search highlight and enable it again
+20:43 <@Armageddon> you can do :set hlsearch!
+20:43 <@Armageddon> next
+20:43 < batul> azharh please ask your question.. tdas_ you are next. Get ready with your question.
+20:43 < azharh> If the cursor is on an instance of the search term it points to the next one, is this a vim thing or configurable?
+20:43 < ruprela> !!
+20:43 < ruprela> !
+20:43 <@Armageddon> azharh: that is a vim thing by default, but most things are configurable in vim, so the behavior can actually be reconfigured if you prefer
+20:43 < raghib> !
+20:44 < nmzaheer> !
+20:44 <@Armageddon> reconfiguration is not always easy though but it is possible
+20:44 <@Armageddon> next
+20:44 < batul> tdas_ please ask your question.. ruprela you are next. Get ready with your question.
+20:44 < azharh> Eof
+20:44 < nmzaheer> <eof>
+20:44 < tdas_> got my answer. <eof>
+20:44 <@Armageddon> next
+20:44 < batul> ruprela please ask your question.. raghib you are next. Get ready with your question.
+20:44 <@Armageddon> next
+20:44 < batul> raghib please ask your question.. nmzaheer you are next. Get ready with your question.
+20:44 < raghib> :set hlsearch! highlighted the search how to unhighlight
+20:44 < ruprela> when will be the logs of todays class uploaded
+20:44 <@Armageddon> raghib: same way
+20:45 <@Armageddon> ruprela: you have to ask on the mailing list
+20:45 <@Armageddon> next
+20:45 < batul> nmzaheer please ask your question.
+20:45 < nmzaheer> Can we access command history under the command mode?
+20:45 <@Armageddon> yes, by using the arrows or :history
+20:45 <@Armageddon> next
+20:45 < batul> No one is in queue.
+20:45 < tdas_> nmzaheer, yes we can, try uparrow.
+20:46 < nmzaheer> cool <eof>
+20:46 <@Armageddon> let's continue
+20:46 < raghib> !
+20:46 <@Armageddon> next
+20:46 < batul> raghib please ask your question.
+20:46 < raghib> its not unhighlighting the searched word :set
+20:47 <@Armageddon> what do you mean ?
+20:47 <@Armageddon> were you searching for :set ?
+20:47 <@Armageddon> I'll continue, raghib you can ask after class
+20:48 -!- Gajanan-brb is now known as Gajanan
+20:48 < Mactoc> !
+20:48 <@Armageddon> so we learned the basics so far of navigation, editing and search
+20:48 <@Armageddon> there is one small piece that I found to be very useful
+20:48 <@Armageddon> search and replace
+20:48 <@Armageddon> put your cursor on a line and find a word on that line that you like to replace
+20:49 <@Armageddon> now do :s/the_word/new_word/
+20:49 <@Armageddon> this should replace "the_word" with "new_word"
+20:49 < ace139> replaced (y)
+20:49 < umeshs> raghib use :set hlsearch!
+20:49 <@Armageddon> everyone had success ?
+20:49 < sivteck> yes
+20:49 < CuriousLearner> No.
+20:49 < ace139> yes
+20:50 < kanika04> yes
+20:50 < silentSae> Yes
+20:50 < tdas_> no
+20:50 < azharh> Yes
+20:50 < CuriousLearner> tried :s/in/on/ didn't worked.
+20:50 <@Armageddon> good, a lot said yes, so it isn't me
+20:50 < Mactoc> done
+20:50 <@Armageddon> CuriousLearner: do you have the word "in" in that sentence where the cursor is ?
+20:50 < nmzaheer> CuriousLearner: did you keep the cursor on the line that has "in"
+20:51 < nmzaheer> !
+20:51 < ruprela> !
+20:51 <@Armageddon> next
+20:51 < batul> Mactoc please ask your question.. nmzaheer you are next. Get ready with your question.
+20:51 < CuriousLearner> oh, got it, my bad, curson wasn't placed on the line. Done now :)
+20:51 < CuriousLearner> cursor*
+20:52 <@Armageddon> tdas_: make sure you didn't do the same mistake ^
+20:52 <@Armageddon> next
+20:52 < batul> nmzaheer please ask your question.. ruprela you are next. Get ready with your question.
+20:52 < nmzaheer> search and replace does it with respect to line or sentence?
+20:52 <@Armageddon> nmzaheer: line
+20:52 <@Armageddon> you can also do it on the whole file
+20:52 < nmzaheer> ok <eof>
+20:52 <@Armageddon> you can do it in interactive mode
+20:52 <@Armageddon> next
+20:52 < batul> ruprela please ask your question.
+20:53 < lixxz> !
+20:53 <@Armageddon> next
+20:53 < batul> lixxz please ask your question.
+20:53 < lixxz> what is i want to replace all the words?
+20:53 < ruprela> can some pls tell what was the homework for todays class ?
+20:53 < lixxz> if*
+20:53 <@Armageddon> ruprela: there was none yet
+20:53 < CuriousLearner> ruprela: nothing till now
+20:53 < ruprela> ok
+20:53 <@Armageddon> lixxz: if you want to replace the whole buffer, you can do :%s/word/new_word/g
+20:53 < tdas_> Armageddon, yeah, rectified.
+20:54 <@Armageddon> or even better
+20:54 <@Armageddon> :%s/word/new_word/gcI
+20:54 < lixxz> worked
+20:54 < ace139> Armageddon, what you mean by replacing the whole buffer ?
+20:54 <@Armageddon> it will ask you to verify each instance and you can say, y for yes, n for no or a for all
+20:54 < lixxz> difference between gcI and g?
+20:54 <@Armageddon> lixxz: I just explained it in the line right above your question
+20:55 < lixxz> got it
+20:55 < kanika04> !
+20:55 < CuriousLearner> !
+20:55 <@Armageddon> ace139: when you open vim which sayan failed to explain maybe is that it opens up a buffer
+20:55 <@Armageddon> you're not working directly with the file, you're working with a copy of it
+20:55 <@Armageddon> and until it is saved, nothing is engraved in stone ;)
+20:55 < nmzaheer> !
+20:55 <@Armageddon> next
+20:55 < batul> kanika04 please ask your question.. CuriousLearner you are next. Get ready with your question.
+20:55 < ace139> Armageddon, (y)
+20:56 <@Armageddon> ace139: you can open multiple files in vim at the same time and you can move between buffers with :bnext and :bprevious
+20:56 <@Armageddon> next
+20:56 < batul> CuriousLearner please ask your question.. nmzaheer you are next. Get ready with your question.
+20:56 < CuriousLearner> This command : :%s/word/new_word/g replaces all instances and doesn't care if that word is in between a word, like if I'm replacing "in" with "on" then it would replace the word appending to appendong, how to rectify this thing?
+20:56 < kanika04> when we do :%s/word/new_word/gcI. there are several options like l , ^E AND ^Y . what do they mean ?
+20:56 <@Armageddon> CuriousLearner: add spaces before and after ;)
+20:57 < CuriousLearner> ok, thanks Armageddon :)
+20:57 <@Armageddon> kanika04: you'll have to try them, I don't know all of them
+20:57 < kanika04> okay Armageddon
+20:57 <@Armageddon> next
+20:57 < batul> nmzaheer please ask your question.
+20:57 < nmzaheer> What is the use of % in the command?
+20:58 <@Armageddon> nmzaheer: globality
+20:58 < nmzaheer> ok <eof>
+20:58 <@Armageddon> it means all the buffer
+20:58 <@Armageddon> next
+20:58 < batul> No one is in queue.
+20:58 < nmzaheer> but i thought g meant all the buffer?
+20:58 <@Armageddon> do you know how to open a new file for edit in vim ?
+20:59 <@Armageddon> nmzaheer: g is a part of the regular expression
+21:00 <@Armageddon> it meant global, correct
+21:00 <@Armageddon> nmzaheer: if you try it without % it will find the next instance but it will not replace it
+21:00 < shrees> !
+21:00 < acetakwas> ok
+21:01 <@Armageddon> nmzaheer: try it ;)
+21:01 <@Armageddon> never take my word for it, always try it yourself
+21:01 <@Armageddon> next
+21:01 < batul> shrees please ask your question.
+21:01 < shrees> I didn't get %s/word/new_word/gcl
+21:01 < acetakwas> ok
+21:01 <@Armageddon> it starts with a : and ends with a big i
+21:01 <@Armageddon> I
+21:01 <@Armageddon> for interactive
+21:02 <@Armageddon> it does a search and replace on the whole buffer
+21:02 < lixxz> and it will ask you for each and every word
+21:02 <@Armageddon> in vim you can open a file in a new buffer with the :e <filename> command (without the <>
+21:02 < silentSae> !
+21:02 < nmzaheer> Armageddon: got it. thanks
+21:03 <@Armageddon> you can try it, you can move between buffers with :bn and :bp
+21:03 <@Armageddon> you can also see all buffers with :buffers
+21:03 < tdas_> !
+21:03 <@Armageddon> next
+21:03 < batul> silentSae please ask your question.. tdas_ you are next. Get ready with your question.
+21:03 <@Armageddon> if the file does not exist, it will create an empty buffer with that name
+21:03 < silentSae> %s/old/new/gc and %s/old/new/gcl. What is the difference?
+21:04 <@Armageddon> silentSae: it's an I not l I
+21:04 <@Armageddon> I for interactive
+21:04 < nmzaheer> !
+21:04 < silentSae> Sorry, my bad
+21:04 <@Armageddon> silentSae: try it and let me know, I explained it three times
+21:04 <@Armageddon> next
+21:04 < batul> tdas_ please ask your question.. nmzaheer you are next. Get ready with your question.
+21:04 < tdas_> can we use this search and replace for a phrase in stead of a word?
+21:04 <@Armageddon> next
+21:04 < batul> nmzaheer please ask your question.
+21:04 < nmzaheer> When we do a :w does it save the buffer or write it to the file?
+21:04 <@Armageddon> tdas_: yes
+21:04 <@Armageddon> nmzaheer: it writes the current buffer to the file
+21:05 <@Armageddon> in other words, saves it
+21:05 < lixxz> to the original file?
+21:05 <@Armageddon> correct
+21:05 < nmzaheer> done <eof>
+21:05 <@Armageddon> if you did a booboo and don't want to save, you can :q!
+21:06 <@Armageddon> and you will exit with no changes to the file
+21:06 < urocksss> !
+21:06 <@Armageddon> next
+21:06 < batul> urocksss please ask your question.
+21:07 < sj13> !
+21:07 <@Armageddon> next
+21:07 < batul> No one is in queue.
+21:07 < tdas_> Armageddon, how?
+21:07 < urocksss> What does :w do append or replace if it replaces then how to append
+21:07 <@Armageddon> tdas_: that way
+21:07 <@Armageddon> urocksss: there is no appending to a file in vim, you can only save
+21:08 < lixxz> !
+21:08 <@Armageddon> you open the file, make the changes and then save
+21:08 <@Armageddon> next
+21:08 < batul> lixxz please ask your question.
+21:08 < urocksss> Ok <eof>
+21:08 < sj13> !
+21:08 < lixxz> i opened same file in two terminals and i did some editing on the first file in one terminal and different editing in other terminal
+21:08 < tdas_> Armageddon, I have tried :s/used to/used for, but it didn't work.
+21:08 < lixxz> then which one will go to orignal file?
+21:09 <@Armageddon> tdas_: you forgot a / at the end AND you probably didn't have it on the line you want to change
+21:09 < lixxz> original*
+21:09 <@Armageddon> lixxz: the one you save last, it's OS theory not vim
+21:09 < lixxz> okay just though it would be something different
+21:09 <@Armageddon> lixxz: besides, vim is not that stupid
+21:09 <@Armageddon> it will tell you that you already have it opened ;)
+21:09 < tdas_> Armageddon, missed /, thanks
+21:10 <@Armageddon> lixxz: if you don't believe me, try it ;)
+21:10 < lixxz> good to hear :)
+21:10 <@Armageddon> next
+21:10 < batul> sj13 please ask your question.
+21:10 < sj13> After using :buffers, there was a '%a' displayed. What does that mean?
+21:10 <@Armageddon> sj13: so there are usually 2 buffers that are marked
+21:10 <@Armageddon> the current one, and the last one you were in
+21:11 <@Armageddon> those come later in more advanced uses for toggling between buffers
+21:11 <@Armageddon> because you have only one open, it will put both the active and the % previous on the same one
+21:11 <@Armageddon> there is no previous one ;)
+21:11 <@Armageddon> next
+21:11 < batul> No one is in queue.
+21:11 < sj13> Okay. <EOF>
+21:11 <@Armageddon> no more questions ?
+21:12 <@Armageddon> I'll give you an advice, as long as I'm a guest speaker today, I'll take the opportunity
+21:12 <@Armageddon> try learning vim, use it as much as you can and you will thank me in the future
+21:12 < fass> hemanth shivasubramaniam is mass.
+21:12 <@Armageddon> I said it previously and I'll say it again, I use it every day for everything
+21:13 < lixxz> !
+21:13 <@Armageddon> it makes my life so much easier
+21:13 <@Armageddon> practice !
+21:13 <@Armageddon> next
+21:13 < batul> lixxz please ask your question.
+21:13 < lixxz> nothing happened to the original file :/
+21:13 <@Armageddon> what do you mean nothing happened to the original file ?
+21:13 <@Armageddon> I know multiple languages but mind reading is not one of htem
+21:13 < nmzaheer> lol
+21:14 <@Armageddon> s/htem/them/ <--- now you can understand this ;)
+21:14 < lixxz> i did as u said and saved it on both terminals and then opened again
+21:14 < lixxz> oh wait got it
+21:14 <@Armageddon> are you sure you have the right file ?
+21:14 <@Armageddon> either you did something wrong, or computers stopped working the way they should :P
+21:15 < lixxz> nah i was using vimtutor
+21:15 <@Armageddon> vimtutor will make a copy of the file
+21:15 < lixxz> it always creates a buffer so
+21:15 < lixxz> yep got that
+21:15 <@Armageddon> it's a temporary file that will get lost after a while
+21:15 <@Armageddon> any other questions ?
+21:16 <@Armageddon> kushal: class is all yours my friend
+21:16 < sivteck> Armageddon: thank you, really a good session!
+21:16 < kushal> So everyone practice vim so much like your life depends on you.
+21:16 < kushal> Actually it will in future :)
+21:16 < Mactoc> Armageddon, Thanks, session was really informative :)
+21:16 < kushal> http://dgplug.org/irclogs/kushal_vi_04072008.log http://dgplug.org/irclogs/kushal_vi_05072008.log
+21:17 < kushal> ^^^^ read these two logs
+21:17 < kushal> remember to google in case you are confused.
+21:17 < umeshs> Thanks kushal for logs
+21:17 < kushal> Next week I will not be online mostly, but the classes are planned.
+21:17 < kushal> So it will go on at 6:30pm as usual.
+21:18 < kanika04> when is the next class ?
+21:18 < kanika04> monday ?
+21:18 < kushal> kanika04, Yes.

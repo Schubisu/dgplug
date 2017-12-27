@@ -1,0 +1,458 @@
+[15:00:06] [## Class Started at Wed Jul 20 15:00:06 2016 ##]
+[15:00:06] <kushal> startclass
+[15:00:08] vharsh_ is now known as vharsh
+[15:00:12] <kushal> Roll Call
+[15:00:14] <vharsh> Harsh Vardhan
+[15:00:14] <meamitk> Amit Kokitkar
+[15:00:15] <priyanka> Priyanka Sharma
+[15:00:17] <rahul_bajaj> Rahul Bajaj
+[15:00:17] <vbhjain> Vaibhav Jain
+[15:00:17] <abstatic> Abhishek Shrivastava
+[15:00:20] <ak_d> Akhilesh Dhaundiyal
+[15:00:23] <shobhitupadhyay> shobhit upadhyay
+[15:00:25] <avik> Avik Mukherjee
+[15:00:25] <rohan_h> Rohan Hazra
+[15:00:26] <real56> Varsha R
+[15:00:26] <kalyan> kalyan
+[15:00:27] <akshay_CV> Akshay CV
+[15:00:27] <mahesh5> Mahesh Gahlot
+[15:00:27] <poonam> Poonam Jadhav
+[15:00:27] <Anupama> Anupama Mandal
+[15:00:27] <chshbh> Avinash Madhukar
+[15:00:30] <riskarsh> Utkarsh Shukla
+[15:00:31] <jogender_> Jogender Kota
+[15:00:31] <goutham__> goutham
+[15:00:32] <PrashantJ> Prashant Jamkhande
+[15:00:34] <aman_> Aman Kumar
+[15:00:35] <deep123k> Deepanshu Kapoor
+[15:00:36] <Krishna> Krishna Biradar
+[15:00:44] <amrtanair> Amrita Nair
+[15:00:49] <moon45> Mamoon Manzoor
+[15:00:50] <moizsajid> Moiz Sajid
+[15:00:54] <CuriousLearner_> Sanyam Khurana
+[15:00:57] <pragnavi> pragnavi
+[15:01:19] <gobinda> Gobinda Akhuli
+[15:01:19] <sandy_> sandeep kumar choudhary
+[15:01:23] <chandu> chandu
+[15:01:26] <bhanu> bhanu teja
+[15:01:29] <ksaikiranr> K Sai Kiran
+[15:01:30] <sairam>   sairam
+[15:01:38] <kiran_> kiran
+[15:01:39] <sarathchandrika> sarath chandrika
+[15:01:49] <mounica> mounica
+[15:01:54] <akhilesh> Akhilesh
+[15:02:04] <chaitanya>  chaitanya gupta
+[15:02:17] <sriniketh> Sriniketh
+[15:02:23] <smdeep> Sudeep Mukherjee
+[15:02:27] <akash47_> Akash Mishra
+[15:02:33] <Madhumathi> madhumathi
+[15:02:38] <revathy> Revathy Narayankutty
+[15:02:49] <manoj_> Manoj
+[15:03:05] <venki> Venkitaraman
+[15:03:14] <dhritishikhar> Dhriti Shikhar
+[15:03:17] <kushal> I will take 2 minutes, can not find a server :(
+[15:03:22] <rahuldecoded> Rahul Bhattacharjee
+[15:03:34] <himavarshini> himavarshini
+[15:03:41] <indiabhi> Abhishek Rai
+[15:03:52] <madhurii> Madhuri Muley
+[15:03:58] <sindhu_> sindhu
+[15:04:25] <LAL> ABHISHEK LAL
+[15:04:27] <gkadam> ganesh kadam
+[15:04:53] <Hgupta> Harshit Gupta
+[15:04:54] <kushal> Okay, who all are complete new to Python (or any other programming)?
+[15:05:10] <avik> i am
+[15:05:14] <LAL> IAM
+[15:05:16] <revathy> I am
+[15:05:17] <sarathchandrika>  I am new
+[15:05:17] <manoj_> I am new to pyhton
+[15:05:18] <madhurii> i am
+[15:05:25] <mounica> I am
+[15:05:27] <shobhitupadhyay> I AM
+[15:05:31] <akshay_CV> i am
+[15:05:33] <chandu> i am
+[15:05:34] <ananthakrishnan> I am
+[15:05:37] <Krishna> me too
+[15:05:41] <kalyan> i am
+[15:05:48] <anushil5> .
+[15:05:49] <venki> i am new
+[15:05:50] <vbhjain> I am
+[15:05:55] <sandy_> i am
+[15:05:58] <moon45> I am
+[15:05:59] <sriniketh> I am
+[15:06:00] himavarshini_ is now known as himavarshini
+[15:06:01] <poonam> I am new
+[15:06:01] <kiran_> i am
+[15:06:04] <sairam> iam
+[15:06:05] <chaitanya> i am
+[15:06:09] <priyanka_> i am
+[15:06:13] <bhanu> i am new
+[15:06:43] <aman_> I am new
+[15:06:49] <akshays> roll call: Akshay Shipurkar
+[15:07:08] <sandeepmaity09> Sorry I'm late, Roll Call: Sandeep Maity
+[15:07:32] <kushal> Okay.
+[15:07:44] <kushal> So for the people who already know Python or parts of Python
+[15:07:54] <kushal> The programming sessions may look a bit slow at first/
+[15:08:01] <kushal> Because we will go slow.
+[15:08:22] <kushal> We will give enough time for everyone to practice.
+[15:08:38] <vharsh> kushal, We might pick up something new in the way :)
+[15:09:18] <buvanesh_kumar> I am new
+[15:09:22] <vharsh> kushal, most of us are new :)
+[15:09:27] <buvanesh_kumar> roll call: Buvanesh kumar
+[15:09:33] <rohit_> iam also new
+[15:09:45] <akhilesh> i am new
+[15:09:50] <ananthakrishnan> roll call:ananthakrishnan
+[15:10:33] <rahuldecoded> i am new
+[15:11:08] <rohit_> roll call:Rohit jaysankar
+[15:12:38] <meamitk> i am
+[15:14:01] <kushal> Okay
+[15:14:29] <kushal> I was taking time to check the setup once more.
+[15:14:30] <kushal> Now.
+[15:14:47] <kushal> So we will start with Python today
+[15:14:52] <kushal> I will do demo on shellshare
+[15:14:54] <acetakwas> Roll call: Tosin Animashaun
+[15:15:06] <kushal> and we will discus or take questions here.
+[15:15:15] <shauryak_3> Roll call : Shaurya Kalia
+[15:15:22] <goutham__> discuss
+[15:15:23] <kushal> Python is a dynamic and interpreted language.
+[15:15:38] <kushal> goutham__, thanks
+[15:15:50] <kushal> Means we can simply type the code in an interpreter.
+[15:16:01] <kushal> Which is python3 in our case.
+[15:16:07] <kushal> https://shellshare.net/r/summertraining
+[15:16:12] <kushal> I will type there
+[15:16:19] <kushal> and I will come here
+[15:16:56] <code_geek_> Roll Call: Shantanu Acharya
+[15:17:22] <amey> Roll call:Amey Jain
+[15:17:28] <code_geek_> Sorry, I am late. I just came back from college, can someone catch me up?
+[15:17:38] <kushal> code_geek_, https://shellshare.net/r/summertraining
+[15:17:49] <code_geek_> okay, kushal
+[15:17:56] <kushal> >>> in the line means the interpreter is waiting for the next input
+[15:18:54] <kushal> That was a typo :(
+[15:19:00] <kushal> When I wrote a = 1
+[15:19:35] <iyogeshjoshi> roll call:Yogesh
+[15:19:44] <kushal> python created a variable a (though in details it works little bit differently) and store 1 in it.
+[15:20:02] <kushal> So now a is 20
+[15:20:16] <kushal> Now is a is 25
+[15:20:19] <jargonmonk> Roll call : Aniket
+[15:20:27] <kushal> We can actually print this on the screen
+[15:20:52] <kushal> Here print() is a function all, a is the function argument.
+[15:21:21] <kushal> I hope this is okay
+[15:21:37] <akahat> Roll call : Amol Kahat
+[15:21:48] <moizsajid> yes
+[15:21:51] <Krishna> kushal: yes
+[15:21:58] <akshays> yes
+[15:21:58] <Madhumathi> yes
+[15:22:06] <kushal> * is for multiplication
+[15:22:10] <pabitrapati> Roll Call - Pabitra Pati
+[15:22:10] <akhilesh> yes
+[15:22:12] <chaitanya> yes
+[15:22:24] <kushal>  / for division
+[15:22:33] <kushal> Is this okay?
+[15:22:41] <kushal> Don't answer
+[15:22:43] <kushal> wait
+[15:22:45] <kushal> :)
+[15:22:52] <aman_> Okay
+[15:23:01] <gobinda_> ok
+[15:23:16] <kushal> Now you can you find the answer if you multiply 324532532453245234532432453237 with 789
+[15:23:25] <kushal> try it out.
+[15:23:34] <kushal> If you have a problem, then type ! here
+[15:24:00] <madhurii> Okay
+[15:24:05] <akshays> 256056168105610490046089205603993
+[15:24:20] <kushal> akshays, you don't have to give us the answer.
+[15:24:22] <pabitra> can anybody please pm me what i missed
+[15:24:30] <akshays> ohh sorry !
+[15:24:59] <pksadiq> /msg pabitra <kushal> Now you can you find the answer if you multiply
+[15:24:59] <pksadiq>          324532532453245234532432453237 with 789
+[15:25:05] <kushal> pksadiq, ?
+[15:25:10] <pksadiq> oops. sorry
+[15:25:14] <kushal> pksadiq, also /query first
+[15:25:15] <kushal> :)
+[15:25:24] <abstatic> !
+[15:25:26] <kushal> next
+[15:25:38] <abstatic> what if we want to do integer division ? (i am new to python 3)
+[15:25:54] <kushal> abstatic, convert the answer to int
+[15:26:08] <abstatic> kushal, okay.
+[15:26:15] <kushal> For everyone else: if you see closely 30 / 2 returns 15.0
+[15:26:17] <rohan_h> abstatic, If you want to truncate decimal, use //
+[15:26:31] <anushil051> .
+[15:26:32] <kalyan> what if want answer to be in float?
+[15:26:33] <abhishekg5> roll call: Abhishek Gupta
+[15:26:50] <kushal> rohan_h, that is floor division
+[15:27:00] <avik> !
+[15:27:01] <kushal> now the numbers with a . in it are known as floats
+[15:27:02] <kushal> like
+[15:27:04] <kushal> 1.0
+[15:27:09] <kushal> 1.3245
+[15:27:12] <kushal> 56.7
+[15:27:14] <goutham__> if i divide any two numbers,can i have a chance to get the result in reduced fraction form?
+[15:27:16] <kushal> 8.0
+[15:27:18] <rohan_h> kushal, okay :)
+[15:27:33] <kushal> next
+[15:27:53] <avik> do we not have to give the datatypes with variables? eg. int a=1 ?
+[15:28:09] <rahuldecoded> avik no
+[15:28:17] <kushal> For some strange reason pabitrapati gave a roll call in the Fedora Cloud channel.
+[15:28:29] <kushal> avik, No, as it is a dynamic language, we don't have to.
+[15:28:45] <kushal> Check the shellshare
+[15:29:03] <kushal> a was integer first
+[15:29:07] <kushal> and became float
+[15:29:25] <kushal> we can find the type of a variable by using type function
+[15:29:44] <moizsajid> The type() function might be helpful for this
+[15:29:54] <avik> got it :)
+[15:30:32] <chshbh> avik, its like the variable is a name binding the value and it automatically casts the type unto itslef as per the value
+[15:30:38] <moizsajid> kushal: Ignore what I said
+[15:30:42] <amey> !
+[15:30:44] <kushal> next
+[15:31:17] <amey> Does it makes difference that type(a) command gives type 'int' rather than class 'int'
+[15:31:19] <amey> ?
+[15:31:58] <rahuldecoded> !
+[15:31:59] <rahuldecoded> !!
+[15:32:25] <kushal> amey, In Python3 it will tell you class
+[15:32:46] <avik> !
+[15:32:51] <kushal> amey, does it only say int in your case?
+[15:32:53] <kushal> next
+[15:33:11] <amey> no it says <type 'int'>
+[15:33:20] <amey> I am python 2.7
+[15:33:34] <amey> Should I download version 3?
+[15:33:36] <rahul_bajaj> amey, which distro ?
+[15:33:39] <kushal> amey, so you have to use Python3 for this session.
+[15:33:41] <rahul_bajaj> amey yes
+[15:33:46] <kushal> amey, we discussed this on Monday.
+[15:33:50] <kushal> next
+[15:33:52] <avik> then how to get the only the int result of 15/2 ?
+[15:34:20] <amey> OK, I will ask beforehand from now on. Thanks.
+[15:34:31] <deep123k> 15//2 avik
+[15:34:37] <rahul_bajaj> avik, type int(15/2)
+[15:35:08] <rahul_bajaj> deep123k, that will also do :)
+[15:35:49] <sandy_> !
+[15:35:49] <iKshitij> !
+[15:36:54] <iKshitij> What of we want--- >> a=5  >>b=2  a/b >>2.5
+[15:37:06] <iKshitij> of is if
+[15:37:14] <kushal> wait everyone.
+[15:37:28] <kushal> There is something called, type conversion.
+[15:37:36] <kushal> Where we can convert one type to another.
+[15:37:41] <kushal> like (look at shellshare)
+[15:38:14] <kushal> int() and float()
+[15:38:24] <kushal> Now we also have to have to work with text all the time.
+[15:38:30] <kushal> We call them strings
+[15:38:36] <kushal> type is str
+[15:38:48] <kushal> Can be defined inside a '' or ""
+[15:38:50] <kushal> like
+[15:38:58] <buvanesh_kumar> !
+[15:39:26] <kushal> Ooops typing error
+[15:39:43] <kushal> You can see I started with ' and when tried to end with " it gave error
+[15:39:59] <kushal> next
+[15:40:04] <sandy_> what is difference between print(a) and typing a and than pressing enter both shows a's value.
+[15:40:17] <sandy_> or they are same
+[15:40:31] <buvanesh_kumar> What is the difference between ' ' and " ". I already googled it. But unable to understand.
+[15:40:43] <kushal> sandy_, just typing a and pressing enter is only for the interpreter, but for the real program, we will always have to print
+[15:40:49] <kushal> sandy_, look closely now
+[15:41:04] <kushal> sandy_, can you see the difference?
+[15:41:14] <sandy_> in print there is no ''
+[15:41:19] <kushal> sandy_, Yes
+[15:41:37] <kushal> sandy_, and when I typed name and pressed enter, you can guess the type by seeing those ';
+[15:41:40] <kushal> sandy_, and when I typed name and pressed enter, you can guess the type by seeing those ''
+[15:41:49] <kushal> buvanesh_kumar, why are you asking in the middle?
+[15:42:02] <pabitra> buvanesh_kumar, there is no difference between '' and "". they are used to represent a string in python.
+[15:42:09] <pabitra> you can use any of them
+[15:42:34] <kushal> next
+[15:42:38] <sandy_> kushal: got it, thank's :-)
+[15:42:56] <kushal> pabitra, please do not answer people who are asking out of turn.
+[15:42:58] <kushal> next
+[15:43:04] <kushal> buvanesh_kumar, this is your turn.
+[15:43:05] <pabitra> oh okay.
+[15:43:26] <buvanesh_kumar> Got answer :). actually i typed it and get my question ready , i am planned to enter it when my role come, but typo error. pressed Enter
+[15:43:35] <buvanesh_kumar> Thanks kushal :)
+[15:43:52] <kushal> buvanesh_kumar, Okay
+[15:43:54] <kushal> next
+[15:44:00] <buvanesh_kumar> +1 kushal pabitra
+[15:44:17] <kushal> We can also do like
+[15:44:21] <kushal> (watch shellshare)
+[15:44:24] <manoj_> can u say how to use "IF-ELSE" in python
+[15:44:57] <kushal> manoj_, no
+[15:44:59] <chshbh> manoj_, https://shellshare.net/r/summertraining
+[15:46:44] <kushal> I hope this is okay.
+[15:47:08] <madhurii> kushal, yes
+[15:47:50] <manoj_> yes
+[15:47:58] <manoj_> thank uu
+[15:48:10] <kushal> manoj_, the spelling is you.
+[15:48:10] <venki> !
+[15:48:14] <kushal> next
+[15:48:50] <venki> is there loops such as for,while in python
+[15:49:04] <avik> venki, yes
+[15:49:28] <venki> is it similar to c
+[15:50:02] <avik> syntax is different. theory is same
+[15:50:17] <venki> ok got it!!
+[15:50:20] <kushal> venki, are you new in this session?
+[15:50:27] <meamitk> venki it is better give time to kushal to teach :)
+[15:50:27] <goutham__> !
+[15:50:30] <kushal> venki, if yes, then we have rules for asking questions.
+[15:50:42] <sandeepmaity09> meamitk +1
+[15:50:49] <kushal> venki, you type ! (as goutham__ did above) and wait for your turn.
+[15:50:58] <kushal> And ask only when batul says so.
+[15:51:00] <chandu> is '....' and "......" both are same in string case?
+[15:51:17] <kushal> chandu, read the above few lines to venki
+[15:51:34] <kushal> So, back to code
+[15:51:38] <venki> yes
+[15:51:42] <avik> oops, sorry kushal i answered questions, out of turn:(
+[15:51:58] <kushal> using relational operators we can write condition statements.
+[15:52:04] <kushal> Which can check for a condition.
+[15:52:38] <kushal> Let us check if a number is greater than 10 or not
+[15:53:16] <kushal> if condition:       <--- remember that colon at the end
+[15:53:22] <chandu> !
+[15:53:43] <kushal> next line starts with ...  means it is waiting for the rest of the if statement.
+[15:53:49] <kushal> I gave 4 spaces.
+[15:54:01] <kushal> then I am going to print a line
+[15:54:07] sindhu__ is now known as sindhu_
+[15:54:20] <manoj_> !
+[15:54:34] <kushal> Next line it is still waiting if there are more lines for the if block.
+[15:54:40] <kushal> but we don't have any
+[15:54:49] <kushal> so we can end the if block and giving a blank line.
+[15:55:11] <kushal> and as the condition is true, it printed the statement (line).
+[15:55:13] <kushal> next
+[15:55:18] <Anupama> !
+[15:55:26] <goutham__> can we change the font of text in strings
+[15:55:46] <kiran_> !
+[15:55:50] <kushal> goutham__, yes, just change the font of the terminal, python does not know what font you are using.
+[15:55:52] <kushal> next
+[15:55:58] <chandu> is '....' and "......" both are same in string case?
+[15:56:07] <kushal> chandu, yes, they are same
+[15:56:14] <kushal> chandu, look at the shellshare
+[15:56:21] <chandu> ok thank you
+[15:56:49] <kiran_> print(result
+[15:56:58] <kushal> next
+[15:57:08] <kushal> kiran_, type in the terminal not on IRC :)
+[15:57:19] <manoj_> what is the use "white spaces" in python,i could not under stand that
+[15:58:12] <kushal> manoj_, very good question.
+[15:58:25] <kushal> manish, whitespaces are used for indentation.
+[15:58:33] <kushal> by using those, we mark blocks of code.
+[15:58:43] <mounica> !
+[15:58:59] <iKshitij> !
+[15:59:04] <kushal> like in that if statement, all the lines to be executed when the statement is true, has to be properly indented with 4 spaces.
+[15:59:11] <kushal> look at the shellshare
+[15:59:36] <kushal> as I started randomly after giving one space, it is giving me error.
+[15:59:37] <kushal> next
+[15:59:41] <Anupama> The indentation acts as block?
+[15:59:46] <mounica> can we use more than one statement in if condition?
+[15:59:48] <Anupama> ^ this was the question. cleared
+[15:59:48] <kushal> Anupama, yes.
+[15:59:56] <kushal> mounica, yes, I will do that now
+[16:01:15] <kushal> see, none of it worked as a is not greater than b
+[16:01:43] <kushal> ah, a is a string now
+[16:01:44] <kushal> :(
+[16:01:55] <lambainsaan> !
+[16:02:28] <kushal> worked
+[16:02:29] <kushal> next
+[16:02:34] <kushal> next
+[16:02:39] <kiran_> can we add two strings
+[16:02:40] <kushal> mounica, also you asked out of turn
+[16:02:42] <kushal> I missed that
+[16:02:48] <kushal> kiran_, yes, try +
+[16:03:06] <kushal> next
+[16:03:09] <kushal> next
+[16:03:30] <lambainsaan> kushal: Shell share link please.
+[16:03:42] <PrashantJ> lambainsaan, https://shellshare.net/r/summertraining
+[16:03:43] <buvanesh_kumar> https://shellshare.net/r/summertraining lambainsaan
+[16:04:53] <kushal> next
+[16:05:37] <manoj_> !
+[16:05:50] <goutham__> !
+[16:06:36] <kushal> next
+[16:07:18] <manoj_> what is the use of"bool" operator
+[16:07:46] <avik> boolean
+[16:07:54] sandeepmaity09_ is now known as sandeepmaity09
+[16:08:12] <kushal> next
+[16:08:19] <goutham__> in c without initialization of a variable shows some garbage value,does it also shows in phyton
+[16:08:39] <kushal> goutham__, generally no
+[16:08:51] <kushal> goutham__, because you will always provide a value
+[16:09:01] <meamitk> manoj,  may this link help you https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/Boolean_Expressions
+[16:09:06] <kushal> There is a special value for not having anything.
+[16:09:12] <kushal> None
+[16:09:42] <akshays> !
+[16:09:54] <kushal> next
+[16:09:58] <manoj_> thank you meamitk
+[16:10:13] <akshays> how can you define something without a value ?
+[16:11:06] <akshays> i mean we use variable = something
+[16:11:11] <meamitk> akshays, a = ""
+[16:11:28] <kushal> meamitk, that is empty string.
+[16:12:28] <meamitk> oh noted
+[16:12:36] jeyy is now known as jwngsar
+[16:13:17] <kushal> next
+[16:14:08] <akhilesh> !
+[16:14:26] <kushal> next
+[16:14:49] <akhilesh> how to indicate comments in python?
+[16:15:01] <kushal> akhilesh, good question
+[16:15:02] <kushal> use #
+[16:15:40] <akhilesh> kushal_thank you
+[16:15:56] <kushal> akhilesh, check the shellshare
+[16:16:09] <kushal> To get out of the interpreter, press ctrl + d
+[16:16:32] <kushal> Now for actual programs, we will write them in a file, and execute them.
+[16:16:39] <kushal> I am going to demo it in the shell share
+[16:16:46] <kushal> so have a look
+[16:18:17] <kushal> Done, any questions on the last few steps I did?
+[16:18:51] <pksadiq> kushal: PS1 might help. Sorry for reminding again.
+[16:19:02] <kushal> pksadiq, oh correct
+[16:19:16] <kushal> pksadiq, problem is, I can not find the server I was using before :(
+[16:19:27] <kushal> pksadiq, not sure which one was that :(
+[16:20:17] <pksadiq> the current PS1 randomly breaks at some '-'. Don't know why. this hurts readability
+[16:20:57] <kushal> Okay.
+[16:21:07] <kushal> pksadiq, will do that before next session.
+[16:21:14] <kushal> Anyway, any other question?
+[16:21:32] <pksadiq> for now: export PS1="\w $ "
+[16:21:52] <madhurii> kushal, No
+[16:23:14] <kushal> So.
+[16:23:16] rahuldecoded is now known as Guest76062
+[16:23:34] <kushal> Read till the end of if else chapter from http://pymbook.readthedocs.io/en/latest/index.html
+[16:23:46] <kushal> Practice, and ask doubts here.
+[16:24:00] <tabrez> kushal, sorry i got late
+[16:24:00] <kushal> Remember: I will make some updates to the book tonight/tomorrow morning.
+[16:24:09] <kushal> So do not download the PDF, read online :)
+[16:24:10] <buvanesh_kumar> !
+[16:24:13] <kushal> tabrez, no problem.
+[16:24:16] <kushal> next
+[16:24:33] <madhurii> kushal,okay
+[16:24:48] <buvanesh_kumar> can i ask question, if i have any doubts in that book?
+[16:25:08] <kushal> buvanesh_kumar, I already said that
+[16:25:15] <kushal> You can ask your doubts in the channel.
+[16:25:23] <kushal> We will close the session here.
+[16:25:30] <kushal> Please blog more (everyone).
+[16:25:53] <avik> !
+[16:26:03] <meamitk> Kushal, ok
+[16:26:17] <kushal> next
+[16:26:22] <avik> kushal, how did you run the file ?
+[16:26:27] <abstatic> kushal, thanks for an informatice session :)
+[16:26:33] <tabrez> kushal,most of the times i am not able to be on time so please update the logs so that i can read from there. thanks.
+[16:26:36] <abstatic> s/informatice/informative
+[16:26:39] <kushal> avik, have you read the bash guide we provided?
+[16:26:41] <buvanesh_kumar> thanks kushal
+[16:26:56] <kushal> tabrez, we did, no session was there on Monday or on Tuesday.
+[16:26:59] <kushal> Roll Call
+[16:27:04] <abhishekg5> Abhishek Gupta
+[16:27:05] <avik> no, not completed sorry
+[16:27:05] <ak_d> Akhilesh Dhaundiyal
+[16:27:05] <abstatic> Abhishek Shrivastava
+[16:27:05] <vharsh> Harsh Vardhan
+[16:27:08] <shauryak_3> Shaurya Kalia
+[16:27:08] <chshbh> Avinash Madhukar
+[16:27:09] <madhurii> Madhuri Muley
+[16:27:09] <tabrez> tabrez khan
+[16:27:10] <buvanesh_kumar> Buvanesh Kumar
+[16:27:12] <priyanka_> Priyanka Sharma
+[16:27:12] <riskarsh> Utkarsh shukla
+[16:27:12] <sandy_> sandeep kumar choudhary
+[16:27:13] <mahesh5> Mahesh Gahlot
+[16:27:14] <rohan_h> Rohan Hazra
+[16:27:14] <shobhitupadhyay> shobhit upadhyay
+[16:27:15] <avik> Avik Mukherjee
+[16:27:15] <real56> Varsha R
+[16:27:17] <PrashantJ> Prashant Jamkhande
+[16:27:18] <meamitk> Amit Kokitkar
+[16:27:20] <jogender_> Jogender Kota
+[16:27:21] <smdeep> Sudeep Mukherjee
+[16:27:23] <vshelar> Vivek Shelar
+[16:27:23] <akshay_CV> akshay cv
+[16:27:26] <moon45> Mamoon Manzoor
+[16:27:27] <Anupama> Anupama Mandal
+[16:27:27] <gkadam> ganesh kadam
+[16:27:29] <Yash_b> Yash Bharadwaj
+[16:27:30] <suniva> Suniva Priyadarshini
+[16:27:45] <Hgupta> Harshit Gupta
+[16:27:56] <kushal> endclass
+[16:27:56] [## Class Ended at Wed Jul 20 16:27:56 2016 ##]

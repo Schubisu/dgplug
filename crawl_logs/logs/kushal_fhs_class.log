@@ -1,0 +1,586 @@
+Jul 01 22:40:44 <kushal>	<--CLASS STARTED-->
+Jul 01 22:40:57 *	kushal has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | DOWNLOAD THIS http://www.shakthimaan.com/downloads/glv/presentations/i-want-2-do-project-tell-me-wat-2-do.pdf | 10:30pm rishi on shell commands (POSTPONED TO TOMORROW) Now FHS -- Kushal from 10:40pm | Download http://www.pathname.com/fhs/pub/fhs-2.3.pdf | <--CLASS STARTED -->
+Jul 01 22:41:01 <kushal>	Roll call
+Jul 01 22:41:08 <amrita>	amrita mukherjee
+Jul 01 22:41:12 *	ecntrk_ (n=root@117.194.1.27) has joined #dgplug
+Jul 01 22:41:13 <arpita>	arpita kapoor
+Jul 01 22:41:17 <susenj>	Neeraj Kumar
+Jul 01 22:41:24 <ecntrk_>	Debmalya Sinha
+Jul 01 22:41:30 *	Soumya (n=Soumya@117.192.5.26) has joined #dgplug
+Jul 01 22:41:34 <aritra>	Aritra Bose
+Jul 01 22:41:47 <ria>	ria das
+Jul 01 22:41:48 <Subhodip_>	subhodip biswas
+Jul 01 22:42:00 <kushal>	Subhodip_, !!
+Jul 01 22:42:04 <Kishan_>	kishan goyal
+Jul 01 22:42:05 <deepak>	deepak kumar
+Jul 01 22:42:07 <PraMS>	pramit roychowdhury
+Jul 01 22:42:12 <Atanu_bera>	Atanu Bera
+Jul 01 22:42:29 <Subhodip_>	kushal, just wanted to attend a class
+Jul 01 22:42:30 <chiks>	chikan banerjee
+Jul 01 22:42:32 <Debashree>	debashree banerjee
+Jul 01 22:42:34 <kushal>	Subhodip_, :)
+Jul 01 22:42:43 <pushkal>	Pushkal Srivastava
+Jul 01 22:43:16 <kushal>	ok, tonight we are doing to discuss about FHS -- Filesystem Hierarchy Standard
+Jul 01 22:43:32 <kushal>	many times you saw your Linux system's folders 
+Jul 01 22:43:43 <kushal>	they look different than Windows systems
+Jul 01 22:44:16 <kushal>	Our tonight's discussion will help you to understand this structure 
+Jul 01 22:44:30 <kushal>	please type ! when you feel to ask anything 
+Jul 01 22:44:35 <kushal>	so
+Jul 01 22:44:44 *	Subhodip has quit (Read error: 110 (Connection timed out))
+Jul 01 22:44:49 <kushal>	The main directory is /    
+Jul 01 22:44:56 <mavu>	kushal: i missed the roll call
+Jul 01 22:45:05 <mavu>	Satya komaragiri
+Jul 01 22:45:16 <kushal>	which we call "root directory" or root folder 
+Jul 01 22:45:25 <kushal>	or root filesystem 
+Jul 01 22:45:45 <kushal>	This is the main part of the file sytem 
+Jul 01 22:45:47 *	rtnpro (n=rtnpro@121.241.211.243) has joined #dgplug
+Jul 01 22:45:49 <kushal>	* system
+Jul 01 22:46:01 <kushal>	We need that for booting the system 
+Jul 01 22:46:49 <kushal>	sometimes for changing or reconfiguring the system
+Jul 01 22:46:58 <kushal>	everyone please open a terminal 
+Jul 01 22:47:08 <kushal>	now do cd /
+Jul 01 22:47:09 *	techno_freak has quit ("Leaving")
+Jul 01 22:47:22 <kushal>	and see what is there ?
+Jul 01 22:48:05 <kushal>	you will find some folders there 
+Jul 01 22:48:10 <rtnpro>	Ratnadeep
+Jul 01 22:48:23 <rtnpro>	Ratnadeep Debnath
+Jul 01 22:48:36 <kushal>	Now we are going through these folders to know more about them 
+Jul 01 22:48:48 <kushal>	first is /bin 
+Jul 01 22:49:02 <ria>	!
+Jul 01 22:49:09 <kushal>	This folder contains all commands to be used by all users
+Jul 01 22:49:11 <kushal>	ria, yes 
+Jul 01 22:49:18 <ria>	kushal, you did not say to ls
+Jul 01 22:49:28 <ria>	and said you will see some folders thre
+Jul 01 22:49:33 <ria>	*there
+Jul 01 22:49:42 <kushal>	ria, please scroll back and see what I wrote 
+Jul 01 22:49:43 <ria>	you just said cd /
+Jul 01 22:49:56 <susenj>	!
+Jul 01 22:49:58 <ria>	kushal, i still dont find
+Jul 01 22:50:04 <aritra>	!
+Jul 01 22:50:07 <kushal>	ria, please read what I wrote and then speak 
+Jul 01 22:50:15 <kushal>	susenj, yes please 
+Jul 01 22:50:17 <susenj>	is there a space between cd &/?
+Jul 01 22:50:20 <ria>	<kushal> now do cd /
+Jul 01 22:50:31 <kushal>	ria, <kushal> and see what is there ? 
+Jul 01 22:50:33 <ria>	* techno_freak has quit ("Leaving")
+Jul 01 22:50:33 <ria>	<kushal> and see what is there ?
+Jul 01 22:50:33 <ria>	<kushal> you will find some folders there
+Jul 01 22:50:46 <kushal>	ria, DON"T FOLLD THE CHANNEL 
+Jul 01 22:50:53 <kushal>	FLOOD 
+Jul 01 22:51:08 <kushal>	susenj, you learned the cd command last day 
+Jul 01 22:51:16 <kushal>	susenj, use your brain 
+Jul 01 22:51:32 *	rangeen (i=sherry@220.226.76.24) has joined #dgplug
+Jul 01 22:51:37 <ecntrk_>	!
+Jul 01 22:51:42 <kushal>	ria, and btw, we are not doing spoon feeding to the kids here
+Jul 01 22:51:48 <kushal>	aritra, yes
+Jul 01 22:51:50 <aritra>	[aritra@desktop ~]$ cd /
+Jul 01 22:51:50 <aritra>	[aritra@desktop /]$
+Jul 01 22:51:58 <kushal>	yes ?
+Jul 01 22:52:08 <kushal>	aritra, what is your question ?
+Jul 01 22:52:09 <aritra>	am getting this<eof>
+Jul 01 22:52:13 <kushal>	aritra, yes 
+Jul 01 22:52:21 <Prakhar>	kushal, i'm in. sorry for interruption. carry on.
+Jul 01 22:52:30 <aritra>	you said about folders,
+Jul 01 22:52:36 <kushal>	aritra, then i asked you to see what is there in there 
+Jul 01 22:52:39 <arpita>	I am getting the same thing as aritra
+Jul 01 22:52:46 <aritra>	am not getting those?<eof>
+Jul 01 22:52:46 <kushal>	aritra, aritra, yes, USE YOUR BRAIN 
+Jul 01 22:52:58 *	amrita_ (n=amrita@117.201.97.97) has joined #dgplug
+Jul 01 22:52:58 <kushal>	aritra, have you tried? I can not see that 
+Jul 01 22:53:09 <kushal>	ecntrk_, yes
+Jul 01 22:53:11 <ecntrk_>	you told to do cd / again? I got into bin and then again returned into root...
+Jul 01 22:53:14 <ria>	kushal, i dont see folders by just doing cd /
+Jul 01 22:53:15 <ria>	kushal, someone even pmed me and said cant see folders
+Jul 01 22:53:16 <ria>	sorry to interrupt
+Jul 01 22:53:18 <ria>	<eof>
+Jul 01 22:53:30 <ria>	kushal, but many did not understand
+Jul 01 22:53:31 <aritra>	[aritra@desktop /]$ ls
+Jul 01 22:53:31 <aritra>	bin   dev  home  lost+found  misc  net  proc  sbin     srv  tmp  var
+Jul 01 22:53:31 <aritra>	boot  etc  lib   media       mnt   opt  root  selinux  sys  usr
+Jul 01 22:53:32 <ria>	sorry again
+Jul 01 22:53:32 <kushal>	ria, aritra aritra USE YOUR BRAIN 
+Jul 01 22:53:33 <arpita>	I also cannot see any folders
+Jul 01 22:53:45 <ria>	kushal, i know that
+Jul 01 22:53:51 <kushal>	aritra, don't FLOOD 
+Jul 01 22:53:51 <aritra>	kushal, am i right now?
+Jul 01 22:54:00 <ria>	kushal, i am saying for others
+Jul 01 22:54:05 <kushal>	ria, so either SHUT UP or leave
+Jul 01 22:54:06 <Subhodip_>	!  Stop guys <eof>
+Jul 01 22:54:14 <kushal>	ria, let others speak , they have IRC 
+Jul 01 22:54:15 <arpita>	Kishan_, that is obtained on doing ls...means these are the files inside directory cd???
+Jul 01 22:54:19 <ecntrk_>	!
+Jul 01 22:54:23 <ecntrk_>	[root@debmalya ~]# cd /
+Jul 01 22:54:24 <ecntrk_>	[root@debmalya /]# ls
+Jul 01 22:54:24 <ecntrk_>	bin   dev  home  lost+found  mnt  proc  sbin     srv  tmp  var
+Jul 01 22:54:24 <ecntrk_>	boot  etc  lib   media       opt  root  selinux  sys  usr
+Jul 01 22:54:24 <ecntrk_>	[root@debmalya /]# cd bin
+Jul 01 22:54:24 <ecntrk_>	[root@debmalya bin]# c
+Jul 01 22:54:30 <kushal>	ecntrk_, DON"T FLOOD 
+Jul 01 22:54:36 *	amrita has quit (Nick collision from services.)
+Jul 01 22:54:40 <ecntrk_>	sorry kushal..<eof>
+Jul 01 22:54:42 *	amrita_ is now known as amrita
+Jul 01 22:54:56 <arpita>	kushal, ,  that is obtained on doing ls...means these are the files inside directory cd???
+Jul 01 22:55:03 <kushal>	aritra, No
+Jul 01 22:55:22 <kushal>	aritra, do a man cd, and read the document 
+Jul 01 22:55:28 <kushal>	aritra, sorry
+Jul 01 22:55:31 <kushal>	arpita, ^^^^
+Jul 01 22:55:47 <kushal>	arpita, when you do "cd /"  what is the folder name there 
+Jul 01 22:55:48 <kushal>	?
+Jul 01 22:56:28 <arpita>	amrita, inside bin i have done cd /
+Jul 01 22:56:42 <arpita>	kushal, inside bin i have done cd /
+Jul 01 22:57:16 <kushal>	arpita, wherever , but when you do a "cd /"  which folder you are supposed to be in ?
+Jul 01 22:57:21 <kushal>	after the command ?
+Jul 01 22:57:47 *	makghosh_ (n=Joy@117.201.97.205) has joined #dgplug
+Jul 01 22:57:53 <kushal>	aritra, did you attend the class on cd command ?
+Jul 01 22:58:00 <arpita>	kushal, in root??
+Jul 01 22:58:08 <kushal>	aritra, yes, root == /
+Jul 01 22:58:13 <kushal>	arpita, ^^
+Jul 01 22:58:19 <Debashree>	kushal, home?
+Jul 01 22:58:28 <aritra>	no root
+Jul 01 22:58:46 <kushal>	arpita, so after that when do a 'ls' , ls is showing files in which directory ?
+Jul 01 22:59:00 <arpita>	kushal, root
+Jul 01 22:59:21 <kushal>	arpita, so all these folders are in which directory ?
+Jul 01 22:59:51 <arpita>	kushal, root directory
+Jul 01 22:59:54 <kushal>	cool 
+Jul 01 22:59:59 <kushal>	any more question ?
+Jul 01 23:00:21 <kushal>	ok moving ahead
+Jul 01 23:00:32 <kushal>	so let us move into folder /bin 
+Jul 01 23:00:40 <kushal>	and see what files are ther 
+Jul 01 23:00:41 <kushal>	there 
+Jul 01 23:01:33 <kushal>	these are commands which all users in the system will require 
+Jul 01 23:01:44 <kushal>	like cat , ls
+Jul 01 23:01:49 <kushal>	mv rm
+Jul 01 23:02:23 <kushal>	next folder is /boot 
+Jul 01 23:03:00 <kushal>	inside it everything is required by the boot process
+Jul 01 23:03:06 *	a (n=a@117.201.97.137) has joined #dgplug
+Jul 01 23:03:13 <kushal>	it also includes some configuration files
+Jul 01 23:03:21 <kushal>	a, may we know your full name ?
+Jul 01 23:04:34 <kushal>	any questions ?
+Jul 01 23:04:43 *	kushal gives channel operator status to tuxmaniac
+Jul 01 23:04:47 *	kushal gives channel operator status to Soumya
+Jul 01 23:05:03 <arpita>	!
+Jul 01 23:05:10 <kushal>	arpita, yes please 
+Jul 01 23:05:18 *	kushal has kicked a from #dgplug (kushal)
+Jul 01 23:05:37 <arpita>	kushal, this means root and all folders in root have same configuration files??
+Jul 01 23:05:37 *	rtnpro has quit (Read error: 104 (Connection reset by peer))
+Jul 01 23:06:22 <kushal>	aritra, when I said configuration files, I mean files required for applications like GRUB which we need for booting the system 
+Jul 01 23:06:32 <susenj>	!
+Jul 01 23:06:45 <kushal>	susenj, yes please 
+Jul 01 23:06:47 <susenj>	if any of these config. files lost,the booting process will fail??
+Jul 01 23:07:09 <ecntrk_>	!
+Jul 01 23:07:25 <kushal>	susenj, yes 
+Jul 01 23:07:47 <kushal>	ecntrk_, yes please 
+Jul 01 23:08:06 <kushal>	susenj, so, don't touch there unless you know very specific what you are doing 
+Jul 01 23:08:08 <ecntrk_>	in my terminal... Lost+found folder is in opposite order than the other two...
+Jul 01 23:08:18 <rangeen>	kushal:-> where are the config files for HAL
+Jul 01 23:08:27 <susenj>	ok,kushal<eof>
+Jul 01 23:08:30 <kushal>	rangeen, google.com 
+Jul 01 23:08:44 <kushal>	ecntrk_, yes , we will talk about it lated 
+Jul 01 23:08:53 <deepak>	!
+Jul 01 23:09:02 <kushal>	ecntrk_, btw, what do you mean by opposite order ?
+Jul 01 23:09:06 <kushal>	deepak, yes please 
+Jul 01 23:09:33 <ecntrk_>	config-2.6.25-14.fc9.i686      lost+found
+Jul 01 23:09:33 <ecntrk_>	efi                            System.map-2.6.25-14.fc9.i686
+Jul 01 23:09:33 <ecntrk_>	grub                           vmlinuz-2.6.25-14.fc9.i686
+Jul 01 23:09:39 *	amrita has quit ("Leaving")
+Jul 01 23:09:46 <ecntrk_>	I mean ... you can see kushalda..
+Jul 01 23:09:47 *	amrita (n=amrita@117.201.97.97) has joined #dgplug
+Jul 01 23:09:53 <deepak>	kushal:when we do 'ls' then we files and folders in different colours
+Jul 01 23:10:02 <kushal>	ecntrk_, do you ever heard the site "http://rafb.net/paste" ?
+Jul 01 23:10:09 <deepak>	kushal:when we do 'ls' then we see files and folders in different colours
+Jul 01 23:10:09 <ecntrk_>	the description and filenames are in opposite order..
+Jul 01 23:10:12 <ecntrk_>	<eof>
+Jul 01 23:10:22 <kushal>	deepak, yes
+Jul 01 23:10:36 <kushal>	ecntrk_, no description , all of them are files or folders 
+Jul 01 23:10:48 <deepak>	kushal:please tell me about the colour coding standard used by linux
+Jul 01 23:10:54 <ecntrk_>	ok... <eof>
+Jul 01 23:10:56 <kushal>	ecntrk_, do a ls  -l 
+Jul 01 23:11:04 <kushal>	deepak, is that a part of FHS ?
+Jul 01 23:11:14 <ecntrk_>	yah.. I'll..<eof>
+Jul 01 23:11:26 <kushal>	next 
+Jul 01 23:11:38 <kushal>	  /dev 
+Jul 01 23:11:43 <kushal>	a very special folder 
+Jul 01 23:12:00 <kushal>	all devices in your system  can be found there 
+Jul 01 23:12:37 <kushal>	as you heard before , all devices stay there as files only 
+Jul 01 23:13:03 <kushal>	so you can see your dvd drive as a file called "dvd"
+Jul 01 23:13:04 *	Debashree_ (n=Debashre@61.2.164.16) has joined #dgplug
+Jul 01 23:13:24 <PraMS>	!
+Jul 01 23:13:38 <kushal>	hard disk as sda. sda1 sda2 sda3 are like different partitions 
+Jul 01 23:13:41 *	Subhodip_ has quit ("Angry eleeeeeeephaaaaaaaaaant")
+Jul 01 23:13:43 <kushal>	PraMS, yes please 
+Jul 01 23:13:50 <arpita>	!
+Jul 01 23:13:56 <ria>	!
+Jul 01 23:13:58 *	Subhodip (n=Subhodip@125.20.11.34) has joined #dgplug
+Jul 01 23:14:00 <PraMS>	devices mean device driver?
+Jul 01 23:14:10 <kushal>	PraMS, no, device == Device 
+Jul 01 23:14:23 <kushal>	PraMS, the hardware devices 
+Jul 01 23:14:39 <PraMS>	ok
+Jul 01 23:14:45 <kushal>	PraMS, your linux OS can see them as device files in that folder 
+Jul 01 23:14:55 <kushal>	aritra, yes
+Jul 01 23:14:58 *	Debashree has quit (Nick collision from services.)
+Jul 01 23:15:05 <ecntrk_>	!
+Jul 01 23:15:23 <kushal>	oops
+Jul 01 23:15:25 <kushal>	arpita, yes 
+Jul 01 23:16:14 *	Debashree_ is now known as Debashree
+Jul 01 23:16:27 <kushal>	ria, yes
+Jul 01 23:16:32 <arpita>	kushal, i can see the same files as were visible in /bin or in /boot...no dvd file visible
+Jul 01 23:16:48 <kushal>	arpita, i am talking about /dev 
+Jul 01 23:16:49 <ria>	kushal, what is actually meant by devices?
+Jul 01 23:17:12 <ria>	kushal, hard devices?
+Jul 01 23:17:12 <kushal>	ria, hardware devices, like your hard disk, DVD writer , ram, 
+Jul 01 23:17:26 <arpita>	Kishan_, yes inside /dev i can see same files as in /boot
+Jul 01 23:17:26 <kushal>	ecntrk_, yes 
+Jul 01 23:17:37 <ecntrk_>	why there is s many rams?
+Jul 01 23:17:41 <arpita>	kushal, yes inside /dev i can see same files as in /boot
+Jul 01 23:17:44 <ecntrk_>	ram 0 , ram 1....
+Jul 01 23:17:48 <kushal>	aritra, how ?
+Jul 01 23:17:50 <ecntrk_>	ram31.
+Jul 01 23:17:55 <ria>	kushal, what information about ram does it have?
+Jul 01 23:17:59 <ria>	<eof>
+Jul 01 23:18:13 <ecntrk_>	same as ria..<eof>
+Jul 01 23:18:17 <kushal>	ria, not information , but the actual device it self
+Jul 01 23:18:38 <PraMS>	!
+Jul 01 23:18:47 <ria>	kushal, what does that mean?
+Jul 01 23:18:51 <ria>	<eof>
+Jul 01 23:18:57 <kushal>	ria, so it is like you want to read something from your harddisk, you can read it from /dev/sda 
+Jul 01 23:19:10 <ria>	kushal, that i know
+Jul 01 23:19:17 <arpita>	kushal, on doing cd dev and then doing ls i can see the device files
+Jul 01 23:19:17 <kushal>	ria, means using those files you can access the hardware
+Jul 01 23:19:20 <ria>	kushal, i am talking about ram
+Jul 01 23:19:22 <aritra>	!
+Jul 01 23:19:30 <kushal>	arpita, ok
+Jul 01 23:19:36 <ria>	kushal, i know about the /dev/sda part
+Jul 01 23:19:46 <kushal>	ria, same as hard disk that is yor ram, 
+Jul 01 23:19:46 <ria>	kushal, but the ram part is not clear
+Jul 01 23:20:00 <kushal>	ria, so the kernel is accessing those devices as required 
+Jul 01 23:20:10 <ecntrk_>	but whay there are soo many rams? ram0, ram1..
+Jul 01 23:20:10 <ria>	in /dev/sda we see files and folders
+Jul 01 23:20:28 <ria>	but in ram?
+Jul 01 23:20:37 <ecntrk_>	*why  *so
+Jul 01 23:20:41 <ecntrk_>	<eof>
+Jul 01 23:20:47 *	rangeen_ (i=sherry@220.226.39.14) has joined #dgplug
+Jul 01 23:20:56 <kushal>	ecntrk_, there is something call RAMFS , a file structure for ram
+Jul 01 23:21:06 <deepak>	!
+Jul 01 23:21:07 <kushal>	ecntrk_, that is why you can see so many rams
+Jul 01 23:21:19 <kushal>	ecntrk_, which is beyond our current scope 
+Jul 01 23:21:24 <kushal>	PraMS, yes
+Jul 01 23:21:42 <kushal>	deepak, yes 
+Jul 01 23:21:49 <kushal>	aritra, 
+Jul 01 23:21:49 <ecntrk_>	ok<eof>
+Jul 01 23:21:53 <aritra>	what are tty 's under /dev
+Jul 01 23:21:54 <PraMS>	ok ,understood. carry on pl.
+Jul 01 23:22:07 <aritra>	<eof>
+Jul 01 23:22:12 <deepak>	kushal:please take queries at the end
+Jul 01 23:22:44 <kushal>	tty are terminal devices, and we can have many terminals in a running system  
+Jul 01 23:23:00 <kushal>	deepak, today I want to take questions in between 
+Jul 01 23:23:11 <deepak>	kushal:ok
+Jul 01 23:23:12 <aritra>	so many, why?
+Jul 01 23:23:39 <kushal>	aritra, you can have many terminals basically 
+Jul 01 23:24:03 <aritra>	got it
+Jul 01 23:24:07 <kushal>	nex /etc
+Jul 01 23:24:09 <kushal>	next 
+Jul 01 23:24:33 <kushal>	 /etc folder contains all  configuration files 
+Jul 01 23:24:46 <kushal>	and only configuration files 
+Jul 01 23:24:55 <kushal>	no binary or other files goes there
+Jul 01 23:25:23 <kushal>	and generally these files are static , no need to change unless you are changing some configuration 
+Jul 01 23:25:40 <kushal>	some really interesting files are there 
+Jul 01 23:25:58 <kushal>	which we will see in details later other time 
+Jul 01 23:26:10 <kushal>	next is /home 
+Jul 01 23:26:28 <ecntrk_>	!
+Jul 01 23:26:36 <kushal>	from the name you can understand it is the home directory where all users home folders generally located
+Jul 01 23:26:49 <kushal>	so if you do 'cd' and then pwd
+Jul 01 23:27:02 <kushal>	you can something like '/home/username' 
+Jul 01 23:27:24 <kushal>	and if cd /home , and the ls , then you can see folders for all users
+Jul 01 23:27:28 <kushal>	ecntrk_, yes please 
+Jul 01 23:27:53 <ecntrk_>	what rc _> somefilename
+Jul 01 23:27:55 <ecntrk_>	means?
+Jul 01 23:28:10 <ecntrk_>	I mean.. what the operator _> means?
+Jul 01 23:28:14 <ecntrk_>	->
+Jul 01 23:28:15 <ria>	!
+Jul 01 23:28:20 <ecntrk_>	actually..<eof>
+Jul 01 23:28:55 <kushal>	ecntrk_, where ?
+Jul 01 23:28:59 <kushal>	rangeen, yes 
+Jul 01 23:29:06 <ecntrk_>	whan i do ls -l...
+Jul 01 23:29:12 <kushal>	ecntrk_, where ?
+Jul 01 23:29:12 <ria>	is lost+found an user? can you explain about lost+found?
+Jul 01 23:29:15 <ecntrk_>	some files are showing like that..
+Jul 01 23:29:24 *	Nandy_ (n=Nandy@59.178.191.98) has joined #dgplug
+Jul 01 23:29:29 <kushal>	ria, we will talk about it later 
+Jul 01 23:29:30 <ecntrk_>	rc -> rc.d/rc
+Jul 01 23:29:55 <ria>	kushal, but ls after /home gives lost+found
+Jul 01 23:29:58 *	Nandy_ (n=Nandy@59.178.191.98) has left #dgplug ("Konversation terminated!")
+Jul 01 23:30:36 <ecntrk_>	you got me, kushalda?<eof>
+Jul 01 23:30:41 <kushal>	ecntrk_, those rc folders, which are required by the init program (which is actually 1st main process to run in your system)
+Jul 01 23:30:59 <kushal>	ecntrk_, you can read about init system 
+Jul 01 23:31:07 <ecntrk_>	No.. I know that.. but what the operator "->" means?
+Jul 01 23:31:09 *	suse_nj (n=chatzill@59.178.191.98) has joined #dgplug
+Jul 01 23:31:10 <ecntrk_>	<eof>
+Jul 01 23:31:10 <kushal>	ria, about that lost + found 
+Jul 01 23:31:18 <ria>	ya
+Jul 01 23:32:35 <kushal>	that is a special folder from the os, to keep some files which may get deleted in the process sometime (specially booked for the system) 
+Jul 01 23:32:38 <kushal>	iirc 
+Jul 01 23:33:00 <kushal>	ria, as your /home is in a different partition you can see it 
+Jul 01 23:33:19 <kushal>	ria, but others are having it in their system in /home 
+Jul 01 23:33:34 *	Debashree has quit (Read error: 104 (Connection reset by peer))
+Jul 01 23:33:47 <kushal>	next
+Jul 01 23:33:50 <kushal>	 /lib 
+Jul 01 23:34:01 <ria>	!
+Jul 01 23:34:04 <kushal>	the name suggests that this folder contains all libraries 
+Jul 01 23:34:15 <kushal>	ria, yes 
+Jul 01 23:34:39 <ria>	kushal, do we need to change the access permissions to access lost + found?
+Jul 01 23:34:44 *	Soumya_ (n=Soumya@117.192.2.185) has joined #dgplug
+Jul 01 23:34:50 *	kushal goes to get some water 
+Jul 01 23:35:22 <suse_nj>	lost+found can be opened as root?
+Jul 01 23:35:23 <ria>	kushal, i mean rwx permissions?
+Jul 01 23:35:40 <kushal>	back
+Jul 01 23:35:48 <kushal>	ria, you shouldn't 
+Jul 01 23:36:09 <ria>	kushal, actually what is its use?
+Jul 01 23:36:12 <kushal>	ria, it is meant to be used by the os or root 
+Jul 01 23:36:22 <kushal>	that is a special folder from the os, to keep some files which may get deleted in the process sometime (specially booked for the system) 
+Jul 01 23:36:25 <kushal>	iirc 
+Jul 01 23:36:29 *	rangeen has quit (Nick collision from services.)
+Jul 01 23:36:30 *	Debashree (n=Debashre@61.2.165.46) has joined #dgplug
+Jul 01 23:36:38 <ria>	kushal, ok
+Jul 01 23:36:41 <ria>	<eof>
+Jul 01 23:36:52 *	rangeen_ is now known as rangeen
+Jul 01 23:37:00 <kushal>	so, if you do a ls inside /lib you can find different libraries 
+Jul 01 23:37:22 *	Soumya has quit (Nick collision from services.)
+Jul 01 23:37:26 *	PraMS is now known as Pramit
+Jul 01 23:37:27 *	Soumya_ is now known as Soumya
+Jul 01 23:37:28 <kushal>	like I am having libc-2.8.so 
+Jul 01 23:37:56 <Pramit>	!
+Jul 01 23:38:02 <kushal>	there is a folder called modules under which all kernel modules being kept 
+Jul 01 23:38:06 <kushal>	Pramit, yes
+Jul 01 23:38:14 <kushal>	brb
+Jul 01 23:38:15 Already marked back.
+Jul 01 23:38:16 <Pramit>	.so mean?
+Jul 01 23:38:29 <tuxmaniac>	Pramit: shared object
+Jul 01 23:38:42 <Pramit>	thanks
+Jul 01 23:38:43 <tuxmaniac>	its equialent to your DLL in windows
+Jul 01 23:38:53 <kushal>	Pramit, pjp gave link last day iirc 
+Jul 01 23:39:05 *	Debashree_ (n=Debashre@61.2.165.46) has joined #dgplug
+Jul 01 23:39:36 <kushal>	tuxmaniac, thank you :)
+Jul 01 23:39:41 <kushal>	next is /media 
+Jul 01 23:40:06 <kushal>	this folder mounts all removable media, like your CDs or DVDs or USB pen drive 
+Jul 01 23:40:35 <kushal>	so whenever you put a pen drive in your system, you can see it as a folder in /media 
+Jul 01 23:41:41 <kushal>	next /mnt , where we mount any other filesystem , like your windows partition or a network file system  
+Jul 01 23:42:24 <Prakhar>	!
+Jul 01 23:42:42 <kushal>	Prakhar, yes 
+Jul 01 23:43:06 <Prakhar>	do we have to manually mount the partitions, or they are done automatically on boot?
+Jul 01 23:43:19 <Pramit>	!
+Jul 01 23:43:20 *	Debashree_ has quit (Client Quit)
+Jul 01 23:43:25 <kushal>	Prakhar, depends on how they are configured 
+Jul 01 23:43:26 <Prakhar>	because, I had to do it manually.
+Jul 01 23:43:33 <Prakhar>	ok
+Jul 01 23:43:48 <kushal>	Prakhar, you can write them in /etc/fstab file if you know how to 
+Jul 01 23:43:51 <kushal>	Pramit, 
+Jul 01 23:43:55 <Pramit>	in case of automount (f9) where they r mounted?
+Jul 01 23:44:29 <Prakhar>	<eof>
+Jul 01 23:44:32 <kushal>	Pramit, what is "r" ?
+Jul 01 23:44:33 *	susenj has quit (Read error: 110 (Connection timed out))
+Jul 01 23:44:43 <kushal>	Pramit, and they == ?
+Jul 01 23:44:49 <Pramit>	sorry. are
+Jul 01 23:45:10 <kushal>	Pramit, like automount of your windows partition ?
+Jul 01 23:45:17 <kushal>	Pramit, in fedora , /media 
+Jul 01 23:45:26 <Prakhar>	!
+Jul 01 23:45:37 <kushal>	Prakhar, yes 
+Jul 01 23:46:00 <arpita>	!
+Jul 01 23:46:06 <kushal>	aritra, yes please 
+Jul 01 23:46:22 <Prakhar>	yes, i was about to say this. /media is used for mounting partitions in fedora. then why is it told to do it explicitly in /mnt if they are not detected automatically?
+Jul 01 23:46:38 <Pramit>	manually i can mount a drive in /mnt but in automount they are mounted in /media?
+Jul 01 23:47:04 <Prakhar>	Pramit, thanks for re-phrasing it.
+Jul 01 23:47:12 <kushal>	Prakhar, yes 
+Jul 01 23:47:18 <aritra>	kushal, why are you making me arpita
+Jul 01 23:47:28 <aritra>	?
+Jul 01 23:47:31 <kushal>	aritra, ssorry for that 
+Jul 01 23:47:34 <kushal>	typo
+Jul 01 23:47:37 <kushal>	arpita, yes 
+Jul 01 23:47:39 <aritra>	:)
+Jul 01 23:47:53 <kushal>	Prakhar, you can actually mount anywhere you want 
+Jul 01 23:48:19 <Prakhar>	it doesn't make any difference?
+Jul 01 23:48:23 <Pramit>	!
+Jul 01 23:48:36 <kushal>	Prakhar, is that a sentence or a question ?
+Jul 01 23:48:49 <Prakhar>	question please.
+Jul 01 23:48:55 <arpita>	on doing ls inside mnt no file names are being shown
+Jul 01 23:49:10 <kushal>	aritra, yes, as by default nothing is mounted there 
+Jul 01 23:49:27 <amrita>	kushal, !
+Jul 01 23:49:44 <kushal>	Prakhar, no from users pint of view, but may be some applications depends on the standard 
+Jul 01 23:49:49 <kushal>	Pramit, yes
+Jul 01 23:50:05 <kushal>	arpita, ^^ see the above 
+Jul 01 23:50:06 <Pramit>	i can use automounted drives in root.but can not write in user. why?
+Jul 01 23:50:11 <Prakhar>	ok, <eof>
+Jul 01 23:50:29 <kushal>	Pramit, do a ls -l , you should understand 
+Jul 01 23:50:33 <kushal>	amrita, yes 
+Jul 01 23:50:35 <amrita>	kushal, can't understand the function of mnt
+Jul 01 23:51:16 <kushal>	amrita, like you are in a lan , and some server is sharing some files using Samba or windows file sharing 
+Jul 01 23:51:30 <kushal>	amrita, and you want to access them as local file or folder
+Jul 01 23:51:30 <arpita>	kushal, ls -l is showing total 0 as output
+Jul 01 23:51:39 *	rsa_md5 (n=droopy@117.194.2.15) has left #dgplug ("Leaving")
+Jul 01 23:51:54 <kushal>	amrita, then you can mount it in /mnt 
+Jul 01 23:52:02 <kushal>	arpita, yes, that is what I said above 
+Jul 01 23:52:39 <kushal>	anything else ?
+Jul 01 23:53:21 <kushal>	 /opt folder, where we can keep addition software , which actually comes from old UNIX days 
+Jul 01 23:53:29 <kushal>	 and then /root 
+Jul 01 23:53:49 <kushal>	  /root is the home folder of the *root* user 
+Jul 01 23:53:51 <arpita>	kushal, what does thios output total 0 mean?
+Jul 01 23:54:11 <kushal>	this is different than root folder which is  "/"
+Jul 01 23:54:26 <kushal>	arpita, means Zero , means No folder or file 
+Jul 01 23:54:48 *	coolpyro_rishi (n=chatzill@202.63.119.36) has joined #dgplug
+Jul 01 23:55:02 <amrita>	kushal, !
+Jul 01 23:55:11 <kushal>	like all your user accounts have home folder in /home 
+Jul 01 23:55:23 <kushal>	root account is having home folder as /root 
+Jul 01 23:55:26 <kushal>	amrita, yes please
+Jul 01 23:55:47 <amrita>	kushal, additional software? give example please
+Jul 01 23:56:31 <kushal>	amrita, like software from any other software vendor, may be like apache tomcat 
+Jul 01 23:57:28 <kushal>	 next folder is /sbin where we keep special commands for the system admin 
+Jul 01 23:57:44 <kushal>	these are only accessible for the root user
+Jul 01 23:58:04 <kushal>	it contains commands like reboot , fdisk , 
+Jul 01 23:58:49 <kushal>	next is /srv 
+Jul 01 23:59:18 <kushal>	this folder is used by the services specific data from the syste, 
+Jul 01 23:59:20 <kushal>	system 
+Jul 02 00:00:02 <kushal>	you can know more about different services in the sys admin class
+Jul 02 00:00:14 <Pramit>	!
+Jul 02 00:00:26 <kushal>	Pramit, yes
+Jul 02 00:00:39 <Pramit>	what is mean by  "services specific data"
+Jul 02 00:01:11 <Pramit>	?
+Jul 02 00:01:14 <kushal>	Pramit, you can only understand that if you know what is a service 
+Jul 02 00:01:24 <kushal>	beyond our scope for now 
+Jul 02 00:01:34 <kushal>	next is /tmp 
+Jul 02 00:01:47 <kushal>	where all applications keep temporary files 
+Jul 02 00:02:26 <kushal>	It is recommended that while rebooting the system all files in the /tmp should be deleted 
+Jul 02 00:02:41 <kushal>	but that depends on the OS
+Jul 02 00:02:56 <kushal>	next is another very big place called /usr
+Jul 02 00:03:19 *	amrita has quit ("Leaving")
+Jul 02 00:03:37 <kushal>	 /usr is readonly data, that means no writing there 
+Jul 02 00:03:58 <kushal>	it contains folders like
+Jul 02 00:04:10 <kushal>	 bin -- where many common user commands can be found
+Jul 02 00:04:32 <kushal>	include -- where we can find all C include files 
+Jul 02 00:04:59 <Pramit>	!
+Jul 02 00:05:02 <kushal>	lib --- which contains libraries which to be used by particular applications
+Jul 02 00:05:26 <kushal>	sbin -- non essential sys admin commands
+Jul 02 00:05:51 <kushal>	Pramit, yes
+Jul 02 00:05:56 <Pramit>	readonly means readonly for root also?
+Jul 02 00:06:26 *	suse_nj is now known as susenj
+Jul 02 00:06:55 <kushal>	Pramit, read only means, where no one should write
+Jul 02 00:07:16 <kushal>	even root should not write anything there (though root can do anything there )
+Jul 02 00:08:22 <kushal>	not /usr/share is architecture independent data, that means data kept here does not depend on your i386 or i686 or PPC arcitecture 
+Jul 02 00:08:35 <kushal>	architecture 
+Jul 02 00:08:53 <kushal>	so we can find man files there in /usr/share/man 
+Jul 02 00:09:06 <kushal>	and some other folders 
+Jul 02 00:09:28 <kushal>	there is a folder called /usr/local 
+Jul 02 00:09:43 <kushal>	which contains almost same folder structure as root
+Jul 02 00:09:46 <Pramit>	"even root should not write anything there (though root can do anything there )" i can not understand this line.
+Jul 02 00:10:10 <kushal>	Pramit, root can do anything in any place in the system 
+Jul 02 00:10:47 <kushal>	Pramit, in /usr root user also should not write anything unless it is installing/removing any application 
+Jul 02 00:11:20 <Pramit>	ok<eof>
+Jul 02 00:11:40 *	amrita (n=amrita@117.201.96.183) has joined #dgplug
+Jul 02 00:12:02 <kushal>	so if we install a software from source generally it goes to /usr/local as it is meant to be used by the system admin 
+Jul 02 00:12:29 <kushal>	next is /var which contains variable data files 
+Jul 02 00:12:48 <kushal>	variables means which get changed 
+Jul 02 00:13:22 <kushal>	like in /var/log folder all applications keep their log, which changes through out when the system is running 
+Jul 02 00:13:46 <kushal>	/var/tmp is again another temporary folder 
+Jul 02 00:14:20 <kushal>	 /var/cache keeps application specific cached informations
+Jul 02 00:14:25 <kushal>	 /var/cache keeps application specific cached information 
+Jul 02 00:14:49 <kushal>	like for fedora systems, yum keeps its cache in /var/cache/yum 
+Jul 02 00:15:05 <ecntrk_>	!
+Jul 02 00:15:20 <kushal>	ecntrk_, yes please 
+Jul 02 00:15:22 <ecntrk_>	is cache is related to swap memory?
+Jul 02 00:15:27 <kushal>	ecntrk_, no
+Jul 02 00:15:37 <ecntrk_>	like not physical cache.. i guess..
+Jul 02 00:15:41 *	Pramit has quit ("ChatZilla 0.9.83 [Firefox 3.0/2008052906]")
+Jul 02 00:15:54 <ecntrk_>	is it then only HD space?<eof>
+Jul 02 00:16:26 <kushal>	ecntrk_, no, cache for applications, like yum search a rpm first in cache, if found then it installs from there or else it downloads it and then install 
+Jul 02 00:16:43 <kushal>	* searches 
+Jul 02 00:17:42 <ecntrk_>	no..i'm telling.. is it the hard disk space?<eof>
+Jul 02 00:17:49 <kushal>	means ?
+Jul 02 00:18:00 <ecntrk_>	where do cache reside?
+Jul 02 00:18:12 <kushal>	ecntrk_, /var/cache is a folder in hard disk in the root partition 
+Jul 02 00:18:22 <ecntrk_>	in HD or in RAM or in real Cache?
+Jul 02 00:18:24 <kushal>	under root var, under var cache 
+Jul 02 00:18:29 <ecntrk_>	oh.. I got that..<eof>
+Jul 02 00:18:38 <kushal>	ok
+Jul 02 00:18:42 <kushal>	questions please 
+Jul 02 00:18:47 <ecntrk_>	!
+Jul 02 00:18:51 <kushal>	ecntrk_, please
+Jul 02 00:18:57 <Prakhar>	!
+Jul 02 00:18:59 <ecntrk_>	what about selinux...
+Jul 02 00:19:00 <ecntrk_>	?
+Jul 02 00:19:06 <ecntrk_>	<eof>
+Jul 02 00:19:36 <kushal>	ecntrk_, that is not a part of the FHS yer 
+Jul 02 00:19:41 <kushal>	* yet
+Jul 02 00:19:41 *	Subhodip has quit (Read error: 104 (Connection reset by peer))
+Jul 02 00:19:57 *	Subhodip (n=Subhodip@125.20.11.34) has joined #dgplug
+Jul 02 00:20:00 <ria>	!
+Jul 02 00:20:01 <ecntrk_>	actually I got a folder under / as selinux..
+Jul 02 00:20:05 <ecntrk_>	<eof>
+Jul 02 00:20:28 <kushal>	ecntrk_, yes we do have , but that is not part of the standard, please refer to the pdf in topic 
+Jul 02 00:20:31 <kushal>	ria, yes 
+Jul 02 00:20:40 <ria>	kushal, are these partitions same for all distros?
+Jul 02 00:20:45 <ria>	<eof>
+Jul 02 00:21:22 <Subhodip>	i guess almost simmilar if not same
+Jul 02 00:21:52 <kushal>	ria, what we discussed still now is the Filesystem Standard , so all major GNU/linux distributions follow this structure 
+Jul 02 00:22:20 <kushal>	ria, to know more read the pdf and http://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
+Jul 02 00:23:24 <kushal>	anymore questions /
+Jul 02 00:23:24 <kushal>	?
+Jul 02 00:23:43 <ria>	kushal, already read the pdf earlier
+Jul 02 00:23:58 <kushal>	ria, ok, then you are supposed know it 
+Jul 02 00:24:18 <Prakhar>	!
+Jul 02 00:24:24 <kushal>	Prakhar, yes 
+Jul 02 00:24:33 <Prakhar>	what about /proc
+Jul 02 00:24:56 <kushal>	oh I missed it 
+Jul 02 00:25:03 <Prakhar>	:)
+Jul 02 00:25:39 <kushal>	 /proc is a special system all together 
+Jul 02 00:25:46 <kushal>	it is a virtual system 
+Jul 02 00:26:06 <kushal>	it gives runtime process informations 
+Jul 02 00:26:07 <kushal>	it gives runtime process informations
+Jul 02 00:26:09 <kushal>	it gives runtime process information
+Jul 02 00:26:12 <kushal>	typo 
+Jul 02 00:26:35 <kushal>	like to know your cpu do a cat /proc/cpuinfo 
+Jul 02 00:27:09 <kushal>	to know about current memory status read the file /proc/meminfo 
+Jul 02 00:27:28 <Prakhar>	!
+Jul 02 00:28:04 <arpita>	!
+Jul 02 00:28:09 <kushal>	Prakhar, yes
+Jul 02 00:28:13 <Prakhar>	so, we can say that System Monitor uses /proc ?
+Jul 02 00:28:23 <kushal>	Prakhar, correct :)
+Jul 02 00:28:26 <Prakhar>	cool
+Jul 02 00:28:30 <kushal>	Prakhar, even commands like free :p
+Jul 02 00:28:30 <Prakhar>	<eof>
+Jul 02 00:28:35 <Prakhar>	ok
+Jul 02 00:28:47 <kushal>	Prakhar, so that means you can write your own system monitor 
+Jul 02 00:28:51 <kushal>	aritra, yes 
+Jul 02 00:29:02 <Prakhar>	yeah, i was about to say that :)
+Jul 02 00:29:02 <Prakhar>	thanks
+Jul 02 00:29:16 <kushal>	oh
+Jul 02 00:29:20 <kushal>	arpita, yes please
+Jul 02 00:29:39 *	kushal is doing real bad TAB Completions 
+Jul 02 00:30:17 <kushal>	any other questions ?
+Jul 02 00:30:19 <kushal>	anyone ?
+Jul 02 00:30:31 <Prakhar>	none from me.
+Jul 02 00:30:35 <deepak>	!
+Jul 02 00:31:10 <kushal>	deepak, yes 
+Jul 02 00:31:20 <deepak>	kushal:please tell about colour coding of files and folders in linux
+Jul 02 00:31:48 <kushal>	deepak, still not part of FHS 
+Jul 02 00:31:51 <ecntrk_>	!
+Jul 02 00:31:54 <kushal>	ecntrk_, yes 
+Jul 02 00:32:03 <ecntrk_>	good books on /proc
+Jul 02 00:32:21 <kushal>	ecntrk_, google :)
+Jul 02 00:32:27 <Prakhar>	:)
+Jul 02 00:32:33 <deepak>	kushal:do take this  question at end
+Jul 02 00:32:43 <ecntrk_>	yes.. I alws stfw.. bt. u suggest some...
+Jul 02 00:32:47 <ecntrk_>	<eof>
+Jul 02 00:33:04 <kushal>	deepak, depends on the system or color scheme you are using , no such specific 
+Jul 02 00:33:32 <ecntrk_>	*you
+Jul 02 00:33:34 <kushal>	ecntrk_, please write in *English* 
+Jul 02 00:33:39 <ecntrk_>	sorry<eof>
+Jul 02 00:33:42 <kushal>	ecntrk_, please write in *English* 
+Jul 02 00:33:44 <deepak>	kushal:from where i can change the scheme?
+Jul 02 00:34:04 <kushal>	deepak, see which ever Konsole or terminal preferences 
+Jul 02 00:34:12 <ecntrk_>	I always STFW.. but you suggest some...<eof>
+Jul 02 00:34:46 <kushal>	ecntrk_, no idea, I just google when ever I require about to any particular file under /proc 
+Jul 02 00:34:58 <kushal>	ecntrk_, good things are not in book :p
+Jul 02 00:35:10 <ecntrk_>	ok.. so getting back to STFW..:)<eof>
+Jul 02 00:35:14 *	stephaniewhiting (n=chatzill@65.89.170.203) has joined #dgplug
+Jul 02 00:35:44 <kushal>	ecntrk_, we prefer RTFM :)
+Jul 02 00:35:54 <kushal>	ok
+Jul 02 00:35:57 <kushal>	then 
+Jul 02 00:36:06 <kushal>	<-- CLASS OVER -->

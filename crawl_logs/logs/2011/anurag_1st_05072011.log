@@ -1,0 +1,696 @@
+Jul 05 18:31:12 <kushal>	roll call 
+Jul 05 18:31:18 <sayan>	Sayan Chowdhury
+Jul 05 18:31:19 *	oini (~oini@117.194.8.99) has joined #dgplug
+Jul 05 18:31:22 *	wakil (73fa18ab@gateway/web/freenode/ip.115.250.24.171) has joined #dgplug
+Jul 05 18:31:28 <sktn07>	sukanta bakuli
+Jul 05 18:31:28 *	sourav_ (~sourav@110.227.165.146) has left #dgplug
+Jul 05 18:31:29 <Kaushik_dexter>	Kaushik gandhi
+Jul 05 18:31:31 <enthudrives>	Suganthi
+Jul 05 18:31:38 *	rajat (75c20475@gateway/web/freenode/ip.117.194.4.117) has joined #dgplug
+Jul 05 18:31:38 <rohitdgpcool>	Kondapaturi Rohit
+Jul 05 18:31:39 *	rtnpro (~rtnpro@117.227.8.25) has joined #dgplug
+Jul 05 18:31:46 <oini>	Oindrila Gupta
+Jul 05 18:31:54 <shashank__>	Shashank Vivek
+Jul 05 18:31:55 <biraj>	Biraj KArmakar
+Jul 05 18:32:28 <rajat>	Rajat Somani
+Jul 05 18:32:29 <koustava>	Koustava Goswami
+Jul 05 18:32:38 <kushal>	rest of the people ?
+Jul 05 18:32:55 <souv_>	Soubarna Biswas
+Jul 05 18:32:55 *	Randhir (dfb08029@gateway/web/freenode/ip.223.176.128.41) has joined #dgplug
+Jul 05 18:32:58 <sourav>	Sourav chatterjee
+Jul 05 18:33:18 <Randhir>	Randhir
+Jul 05 18:33:35 <kushal>	devmodem, you can start 
+Jul 05 18:33:39 <wakil>	md wakil
+Jul 05 18:33:48 <Randhir>	Randhir Kumar
+Jul 05 18:34:13 *	kaushik (~kaushik@110.227.219.149) has joined #dgplug
+Jul 05 18:35:03 <devmodem>	# Session 1 starts
+Jul 05 18:35:47 *	wyuka_ (~tirtha@117.254.80.63) has joined #dgplug
+Jul 05 18:36:13 *	wyuka has quit (Ping timeout: 258 seconds)
+Jul 05 18:36:16 <devmodem>	Over the next few sessions, we'll be learning the basics of working with a Linux based operating system.
+Jul 05 18:36:22 *	Biswas_ has quit (Ping timeout: 252 seconds)
+Jul 05 18:36:50 <devmodem>	``Basics of Linux and the command line''
+Jul 05 18:37:12 *	souv_ has quit (Ping timeout: 252 seconds)
+Jul 05 18:37:13 <devmodem>	Let me take a quick survey among ths students.
+Jul 05 18:37:14 *	Biswas has quit (Ping timeout: 252 seconds)
+Jul 05 18:37:19 *	souv__ (7563a170@gateway/web/freenode/ip.117.99.161.112) has joined #dgplug
+Jul 05 18:37:29 *	Biswas_ (Biswas@117.194.193.118) has joined #dgplug
+Jul 05 18:37:47 <devmodem>	Q: How many of you actively use the command line interface for doing their tasks. Either windows/linux, doesn't matter.
+Jul 05 18:38:07 <enthudrives>	I do
+Jul 05 18:38:11 <sayan>	i do
+Jul 05 18:38:14 <biraj>	I do
+Jul 05 18:38:15 <koustava>	I do
+Jul 05 18:38:23 <rohitdgpcool>	Not Often
+Jul 05 18:38:40 <sktn07>	some while i do
+Jul 05 18:38:43 <souv__>	I do
+Jul 05 18:38:45 <rajat>	sometimes
+Jul 05 18:38:45 <oini>	sometimes
+Jul 05 18:38:48 <kaushik>	i do (only in linux)
+Jul 05 18:39:09 <devmodem>	Great!
+Jul 05 18:39:15 <shashank__>	sometimes
+Jul 05 18:39:27 <wakil>	sometimes
+Jul 05 18:39:44 <devmodem>	To get started, everyone please start the terminal window.
+Jul 05 18:40:43 *	Biswas__ has quit (Ping timeout: 240 seconds)
+Jul 05 18:40:56 <devmodem>	everyone would be greeted with the bash prompt. Something like  [username@computer ~] $
+Jul 05 18:41:06 <rohitdgpcool>	Yes
+Jul 05 18:41:24 <kushal>	everyone yes ?
+Jul 05 18:41:29 <koustava>	yes
+Jul 05 18:41:32 <sayan>	yes
+Jul 05 18:41:32 *	biraj_ (~Biraj@110.227.187.175) has joined #dgplug
+Jul 05 18:41:33 <kaushik>	yes
+Jul 05 18:41:40 *	mkumar (6ee39e26@gateway/web/freenode/ip.110.227.158.38) has joined #dgplug
+Jul 05 18:41:40 <enthudrives>	yes
+Jul 05 18:41:44 <biraj>	yes
+Jul 05 18:41:44 <souv__>	yes
+Jul 05 18:41:44 <shashank__>	yes
+Jul 05 18:41:44 <devmodem>	those who were on windows yesterday, what about you all?
+Jul 05 18:41:54 <sourav>	yes
+Jul 05 18:42:00 <Randhir>	Yes
+Jul 05 18:42:02 <wakil>	yes
+Jul 05 18:42:10 *	shashi (3188a4f6@gateway/web/freenode/ip.49.136.164.246) has joined #dgplug
+Jul 05 18:42:30 <devmodem>	Great! so let's continue.
+Jul 05 18:42:33 *	Biswas (Biswas@117.194.193.118) has joined #dgplug
+Jul 05 18:42:41 *	oini has quit (Read error: Connection reset by peer)
+Jul 05 18:42:53 <devmodem>	the prompt is commonly known as `bash prompt'
+Jul 05 18:42:55 *	Biswas_ has quit (Ping timeout: 240 seconds)
+Jul 05 18:43:23 <devmodem>	the first command for today is: ls
+Jul 05 18:43:25 *	Biswas_ (Biswas@117.194.193.118) has joined #dgplug
+Jul 05 18:43:32 <devmodem>	at the prompt, please type ls.
+Jul 05 18:43:49 <sayan>	devmodem, done
+Jul 05 18:43:57 <sourav>	done
+Jul 05 18:43:58 <koustava>	devmodem, done
+Jul 05 18:44:08 *	mkumar_ (~Mrityunja@110.227.158.38) has joined #dgplug
+Jul 05 18:44:10 <kaushik>	done
+Jul 05 18:44:22 <souv__>	devmodem, done
+Jul 05 18:44:22 <devmodem>	ls is used for `listing contents of a directory' -- everyone should get a listing of the files and directories.
+Jul 05 18:44:22 <wakil>	done
+Jul 05 18:44:27 <biraj_>	done
+Jul 05 18:44:31 <shashank__>	devmodem,done
+Jul 05 18:44:34 <mkumar>	devmodem , done
+Jul 05 18:44:59 <Randhir>	devmodem, done
+Jul 05 18:45:14 *	rajat_ (75c20475@gateway/web/freenode/ip.117.194.4.117) has joined #dgplug
+Jul 05 18:45:16 *	rajat has quit (Ping timeout: 252 seconds)
+Jul 05 18:45:22 <rohitdgpcool>	!
+Jul 05 18:45:25 *	mkumar has quit (Client Quit)
+Jul 05 18:45:29 <devmodem>	yes rohitdgpcool
+Jul 05 18:45:49 *	oini (~oini@117.194.8.99) has joined #dgplug
+Jul 05 18:46:00 <rohitdgpcool>	Why are the not arranged as we can see in dos prompt when we do DIR command
+Jul 05 18:46:16 <devmodem>	rohitdgpcool: do you mean, arranged in alphabetic order?
+Jul 05 18:46:41 <rohitdgpcool>	No type wise, first directories and then files
+Jul 05 18:47:11 <devmodem>	rohitdgpcool: you can change the sorting order by giving options. but we shall see that later.
+Jul 05 18:47:24 <rohitdgpcool>	Thank You
+Jul 05 18:47:34 <devmodem>	next topic is, creating new directories.
+Jul 05 18:47:56 <devmodem>	please type the following command in your terminals.
+Jul 05 18:48:22 <devmodem>	mkdir myproject
+Jul 05 18:48:35 <devmodem>	<replace myproject with any name you want>
+Jul 05 18:48:36 *	wyuka_ has quit (Remote host closed the connection)
+Jul 05 18:48:45 *	Biswas__ (~Biswas@117.194.193.118) has joined #dgplug
+Jul 05 18:48:49 <biraj>	done
+Jul 05 18:49:05 <sayan>	devmodem, done
+Jul 05 18:49:05 <kaushik>	done
+Jul 05 18:49:10 <koustava>	devmodem, done
+Jul 05 18:49:10 <rohitdgpcool>	done
+Jul 05 18:49:10 <sktn07>	done
+Jul 05 18:49:11 <sourav>	done
+Jul 05 18:49:15 <devmodem>	this would create a new empty directory for you -- in the current directory, whereever you are working.
+Jul 05 18:49:32 <shashank__>	devmodem,done
+Jul 05 18:49:34 <souv__>	done
+Jul 05 18:49:41 <oini>	done
+Jul 05 18:49:43 <devmodem>	you can see this new directory upon typing "ls" command again
+Jul 05 18:49:44 *	chandan_kumar (~chandan@223.179.130.97) has joined #dgplug
+Jul 05 18:49:53 <wakil>	done
+Jul 05 18:49:55 <biraj>	done
+Jul 05 18:49:58 <devmodem>	please type "ls" and verify.
+Jul 05 18:50:06 <rohitdgpcool>	done
+Jul 05 18:50:07 <sourav>	done
+Jul 05 18:50:07 *	Biswas has quit (Ping timeout: 240 seconds)
+Jul 05 18:50:09 <biraj>	devmodem, done
+Jul 05 18:50:10 <koustava>	devmodem, done
+Jul 05 18:50:18 <oini>	done
+Jul 05 18:50:18 <Randhir>	Done
+Jul 05 18:50:25 <enthudrives>	done
+Jul 05 18:50:25 <sktn07>	yes i can see new directory
+Jul 05 18:50:30 <kaushik>	devmodem: done
+Jul 05 18:50:30 <shashank__>	devmodem,done
+Jul 05 18:50:31 <souv__>	devmodem, done
+Jul 05 18:50:40 <devmodem>	ok, great!
+Jul 05 18:50:45 <chandan_kumar>	Chandan Kumar
+Jul 05 18:51:14 <devmodem>	chandan_kumar: a little late you are for the class.
+Jul 05 18:51:25 <mkumar_>	done
+Jul 05 18:51:27 <devmodem>	chandan_kumar: but you can start trying out the examples for here onwards.
+Jul 05 18:51:40 <chandan_kumar>	devmodem, sorry.
+Jul 05 18:51:58 *	wyuka (~tirtha@117.254.225.115) has joined #dgplug
+Jul 05 18:51:58 *	wyuka has quit (Changing host)
+Jul 05 18:51:59 *	wyuka (~tirtha@kde/developer/chatterjee) has joined #dgplug
+Jul 05 18:52:12 <devmodem>	next we'll see how to change directories. i hope many of you are already familiar with the command called "cd"
+Jul 05 18:52:19 *	Biswas (Biswas@117.194.205.219) has joined #dgplug
+Jul 05 18:52:21 <sayan>	yes
+Jul 05 18:52:21 <oini>	yes
+Jul 05 18:52:26 <rajat_>	yes
+Jul 05 18:52:27 <sktn07>	yes
+Jul 05 18:52:28 <biraj>	yes
+Jul 05 18:52:32 <koustava>	yes
+Jul 05 18:52:33 <souv__>	yes
+Jul 05 18:52:35 <enthudrives>	yes
+Jul 05 18:52:37 <rohitdgpcool>	yes
+Jul 05 18:52:41 *	rtnpro has quit (Read error: Connection reset by peer)
+Jul 05 18:52:43 <chandan_kumar>	yes
+Jul 05 18:52:50 <devmodem>	great! cd lets you "change directory"
+Jul 05 18:52:53 <shashank__>	no
+Jul 05 18:52:54 *	Biswas has quit (Client Quit)
+Jul 05 18:52:56 <mkumar_>	yes
+Jul 05 18:52:57 <wakil>	yes
+Jul 05 18:53:05 <devmodem>	the syntax is:  cd <directory name>
+Jul 05 18:53:09 *	Biswas (Biswas@117.194.205.219) has joined #dgplug
+Jul 05 18:53:12 <devmodem>	so in this case, we would execute
+Jul 05 18:53:15 <devmodem>	cd myproject
+Jul 05 18:53:28 <devmodem>	everyone, run this command.
+Jul 05 18:53:32 <oini>	done
+Jul 05 18:53:35 <sourav>	done
+Jul 05 18:53:36 *	Biswas__ has quit (Ping timeout: 252 seconds)
+Jul 05 18:53:37 <kaushik>	devmodem:  done
+Jul 05 18:53:38 <sayan>	devmodem, done
+Jul 05 18:53:42 <rohitdgpcool>	done
+Jul 05 18:53:45 <enthudrives>	done
+Jul 05 18:53:46 <chandan_kumar>	done
+Jul 05 18:53:46 <shashank__>	done
+Jul 05 18:53:50 <biraj_>	done
+Jul 05 18:53:55 <souv__>	devmodem: done
+Jul 05 18:53:56 <mkumar_>	done
+Jul 05 18:53:57 <sktn07>	done
+Jul 05 18:54:00 <wakil>	done
+Jul 05 18:54:01 <devmodem>	chandan_kumar: did it work for you?
+Jul 05 18:54:01 <koustava>	devmodem, done
+Jul 05 18:54:20 <chandan_kumar>	devmodem, yes
+Jul 05 18:54:35 <devmodem>	ok great then!
+Jul 05 18:54:46 <devmodem>	now since we have changed into an empty directory
+Jul 05 18:54:48 *	Randhir has quit (Ping timeout: 252 seconds)
+Jul 05 18:55:08 *	Biswas__ (Biswas@117.194.205.219) has joined #dgplug
+Jul 05 18:55:08 <devmodem>	if you execute "ls" command here, it should now show any entries.
+Jul 05 18:55:20 <rohitdgpcool>	empty
+Jul 05 18:55:22 <sktn07>	devmodem, done
+Jul 05 18:55:24 <devmodem>	everyone: run ls command and veify.
+Jul 05 18:55:26 *	raumalid (0e634e70@gateway/web/freenode/ip.14.99.78.112) has joined #dgplug
+Jul 05 18:55:30 <sayan>	devmodem, yes
+Jul 05 18:55:33 <oini>	done
+Jul 05 18:55:34 <sourav>	done
+Jul 05 18:55:35 <biraj>	empty
+Jul 05 18:55:40 <devmodem>	correction, i meant if you execute "ls" command here, it should now show any entries.
+Jul 05 18:55:44 <koustava>	devmodem, done
+Jul 05 18:55:47 <devmodem>	correction, i meant if you execute "ls" command here, it should not show any entries.
+Jul 05 18:55:51 <chandan_kumar>	empty
+Jul 05 18:56:04 <devmodem>	cool!
+Jul 05 18:56:05 <souv__>	empty
+Jul 05 18:56:07 *	tuhin_ (6ee3f1b7@gateway/web/freenode/ip.110.227.241.183) has joined #dgplug
+Jul 05 18:56:08 *	Biswas_ has quit (Ping timeout: 258 seconds)
+Jul 05 18:56:10 <mkumar_>	empty
+Jul 05 18:56:33 <devmodem>	next is, how to go back to the previous directory. i'm sure lot of you are familiar with this too.
+Jul 05 18:56:44 <devmodem>	cd ..
+Jul 05 18:56:50 <mkumar_>	no
+Jul 05 18:57:02 <kaushik>	devmodem: yes
+Jul 05 18:57:02 <devmodem>	mkumar_: okay, now you know it :)
+Jul 05 18:57:09 <biraj>	yes
+Jul 05 18:57:15 <koustava>	devmodem, yes
+Jul 05 18:57:25 <wakil>	yes
+Jul 05 18:57:32 <sktn07>	yes, done
+Jul 05 18:57:34 <mkumar_>	yes
+Jul 05 18:57:38 <oini>	yes
+Jul 05 18:57:42 <sourav>	yes,done
+Jul 05 18:57:46 <chandan_kumar>	yes
+Jul 05 18:57:52 <souv__>	yes, done
+Jul 05 18:57:57 <enthudrives>	yes
+Jul 05 18:58:06 <rohitdgpcool>	cd.. is not working
+Jul 05 18:58:22 <devmodem>	rohitdgpcool: see the command carefully.
+Jul 05 18:58:31 <devmodem>	there is a space after cd.
+Jul 05 18:58:38 <rohitdgpcool>	okay
+Jul 05 18:58:47 <devmodem>	so its: cd  ..
+Jul 05 18:59:00 <rohitdgpcool>	but i tried cd then too its going back to the previous
+Jul 05 18:59:29 <devmodem>	rohitdgpcool: yes, because cd takes you to your home directory by default.
+Jul 05 18:59:37 <devmodem>	rohitdgpcool: i'm coming to that part.
+Jul 05 18:59:39 <kaushik>	devmodem: !
+Jul 05 18:59:43 <rohitdgpcool>	okay thank you
+Jul 05 18:59:56 *	raumalid has quit (Ping timeout: 252 seconds)
+Jul 05 19:00:19 <devmodem>	yes kaushik
+Jul 05 19:00:28 <kaushik>	devmodem: will cd\  also doing the same thing ?
+Jul 05 19:01:00 <kaushik>	devmodem: i mean to say will cd\  also do the same thing
+Jul 05 19:01:25 <devmodem>	kaushik: it won't. there is no such thing as cd\ in linux.
+Jul 05 19:01:47 <devmodem>	the only command that's common between windows and linux is "cd".
+Jul 05 19:02:15 <kaushik>	i know but my mistake i typed it worked
+Jul 05 19:02:26 <sayan>	devmodem, !
+Jul 05 19:03:09 <devmodem>	kaushik: it hasn't worked. it will give an error after you type the next command.
+Jul 05 19:03:33 <devmodem>	everyone, please note down your questions somewhere, we'll be taking them at the end.
+Jul 05 19:03:50 <devmodem>	please raise your hands only if you are stuck and the examples aren't working.
+Jul 05 19:04:32 <rohitdgpcool>	okay
+Jul 05 19:04:54 <devmodem>	cool then
+Jul 05 19:05:17 <devmodem>	the next command we're going to see is "cal"
+Jul 05 19:05:34 <devmodem>	please type "cal" on the terminal and let us know what you see
+Jul 05 19:05:45 <kaushik>	devmodem: calender
+Jul 05 19:05:46 *	Biswas_ (Biswas@117.194.205.219) has joined #dgplug
+Jul 05 19:06:00 <sourav>	done,calender
+Jul 05 19:06:04 <biraj>	calender
+Jul 05 19:06:04 <sayan>	devmodem, calender
+Jul 05 19:06:05 <oini>	today's date
+Jul 05 19:06:07 <mkumar_>	devmodem : calender
+Jul 05 19:06:10 <chandan_kumar>	calender
+Jul 05 19:06:11 <enthudrives>	devmodem: calendar of the current month
+Jul 05 19:06:13 <shashank__>	devmodem,calender
+Jul 05 19:06:13 <wakil>	calender
+Jul 05 19:06:14 <kaushik>	devmodem: more specifically present months cal
+Jul 05 19:06:14 <koustava>	devmodem, calender
+Jul 05 19:06:15 *	Randhir (dfb08029@gateway/web/freenode/ip.223.176.128.41) has joined #dgplug
+Jul 05 19:06:26 <souv__>	devmodem: calender with today's date highlighted
+Jul 05 19:06:39 <devmodem>	great!
+Jul 05 19:06:49 <Randhir>	Done
+Jul 05 19:06:59 <rohitdgpcool>	yes
+Jul 05 19:07:28 <devmodem>	we'll see a variation of the cal command
+Jul 05 19:07:29 <tuhin_>	devmodem: done
+Jul 05 19:07:39 <devmodem>	what do you see tuhin_ ?
+Jul 05 19:08:04 <tuhin_>	a calender
+Jul 05 19:08:12 <devmodem>	great
+Jul 05 19:08:23 <devmodem>	please type: cal -y
+Jul 05 19:08:33 *	sktn07 has quit (Ping timeout: 264 seconds)
+Jul 05 19:08:36 *	Biswas__ has quit (Ping timeout: 255 seconds)
+Jul 05 19:08:52 <kaushik>	devmodem:  it shows calender for current year
+Jul 05 19:08:52 *	Biswas__ (Biswas@117.194.204.92) has joined #dgplug
+Jul 05 19:08:55 <biraj>	year wise calender
+Jul 05 19:09:02 <enthudrives>	calendar of the year
+Jul 05 19:09:04 <oini>	the whole year's calender
+Jul 05 19:09:09 <koustava>	devmodem, its giving the calender of the recent whole year
+Jul 05 19:09:13 <rohitdgpcool>	yes
+Jul 05 19:09:16 <sayan>	devmodem, displays the calender for the whole year
+Jul 05 19:09:19 <chandan_kumar>	devmodem, 2011 calender is showing.
+Jul 05 19:09:27 <mkumar_>	devmodem : shows calender of this year
+Jul 05 19:09:29 <souv__>	devmodem: full calender of this year
+Jul 05 19:09:30 <wakil>	whole year calender is showing
+Jul 05 19:09:33 <tuhin_>	this year calender
+Jul 05 19:09:38 <shashank__>	devmodem,calender of current year
+Jul 05 19:09:41 <sourav>	done, shows year wise calrnder highlited todays date
+Jul 05 19:09:48 <devmodem>	great!
+Jul 05 19:09:50 *	rajat_ has quit (Ping timeout: 252 seconds)
+Jul 05 19:09:57 *	Biswas has quit (Ping timeout: 258 seconds)
+Jul 05 19:10:00 *	Biswas_ has quit (Ping timeout: 244 seconds)
+Jul 05 19:10:00 *	rajat (75c20475@gateway/web/freenode/ip.117.194.4.117) has joined #dgplug
+Jul 05 19:10:15 <devmodem>	Let's see another variation of the cal command.
+Jul 05 19:10:50 <devmodem>	You can display calendar for any chosen month & year by running:  cal 12 2012
+Jul 05 19:11:05 <devmodem>	where, 12 = month number  and 2012 is the year.
+Jul 05 19:11:29 <sayan>	devmodem, done
+Jul 05 19:11:30 <oini>	done
+Jul 05 19:11:32 <koustava>	devmodem, yes it is giving
+Jul 05 19:11:39 <souv__>	devmodem: done
+Jul 05 19:11:45 <enthudrives>	done
+Jul 05 19:11:50 <rohitdgpcool>	yes
+Jul 05 19:11:51 <mkumar_>	devmodem: done
+Jul 05 19:11:52 <biraj>	done
+Jul 05 19:11:56 <wakil>	done
+Jul 05 19:11:59 <sourav>	done
+Jul 05 19:12:03 <chandan_kumar>	done
+Jul 05 19:12:12 <tuhin_>	done
+Jul 05 19:12:12 <Randhir>	done
+Jul 05 19:12:12 <shashank__>	done
+Jul 05 19:12:43 <devmodem>	great.
+Jul 05 19:13:31 <devmodem>	next: the date command. to display current date and time of the system, please run: date
+Jul 05 19:13:45 <oini>	done
+Jul 05 19:13:49 <biraj>	done
+Jul 05 19:13:57 <sayan>	devmodem, done
+Jul 05 19:14:12 <mkumar_>	done
+Jul 05 19:14:14 <wakil>	done
+Jul 05 19:14:15 <tuhin_>	done
+Jul 05 19:14:16 *	Biswas_ (Biswas@117.194.204.92) has joined #dgplug
+Jul 05 19:14:18 <shashank__>	done
+Jul 05 19:14:19 <sourav>	done,
+Jul 05 19:14:20 <koustava>	devmodem, done
+Jul 05 19:14:30 <chandan_kumar>	it is showing today,s date with current time.
+Jul 05 19:14:31 *	sktn07 (~sukanta@117.99.61.19) has joined #dgplug
+Jul 05 19:14:33 <rohitdgpcool>	yes
+Jul 05 19:14:35 *	sktn07 has quit (Client Quit)
+Jul 05 19:14:43 <souv__>	devmodem: yes, it is showing today's day, date and time
+Jul 05 19:15:00 <devmodem>	cool!
+Jul 05 19:15:08 *	sktn07 (~sukanta@117.99.61.19) has joined #dgplug
+Jul 05 19:15:21 <Randhir>	Done
+Jul 05 19:15:49 <chandan_kumar>	*today's
+Jul 05 19:16:23 <devmodem>	I hope everyone is taking notes of the commands somewhere in their notebooks.
+Jul 05 19:16:34 <oini>	yes
+Jul 05 19:16:35 <sourav>	yes
+Jul 05 19:16:37 <biraj>	yes
+Jul 05 19:16:38 <mkumar_>	yes
+Jul 05 19:16:39 <chandan_kumar>	yes
+Jul 05 19:16:43 <enthudrives>	yes
+Jul 05 19:16:44 <sayan>	devmodem, yes
+Jul 05 19:16:45 <wakil>	yes
+Jul 05 19:16:47 <sktn07>	yes
+Jul 05 19:16:50 <shashank__>	yes
+Jul 05 19:16:51 <koustava>	devmodem, yes
+Jul 05 19:16:53 <souv__>	yes
+Jul 05 19:16:53 <devmodem>	I expect students to atleast make a list of the command examples, and try them out in their leisure time.
+Jul 05 19:16:55 <tuhin_>	yew
+Jul 05 19:16:57 <tuhin_>	*yes
+Jul 05 19:17:19 <devmodem>	great then. let's move forward.
+Jul 05 19:17:24 *	Biswas__ has quit (Ping timeout: 276 seconds)
+Jul 05 19:17:39 *	rtnpro (~rtnpro@117.198.59.98) has joined #dgplug
+Jul 05 19:17:50 *	Biswas (Biswas@117.194.204.92) has joined #dgplug
+Jul 05 19:18:20 <devmodem>	to display how much RAM is available on your system, please type the command: free
+Jul 05 19:18:40 <chandan_kumar>	done
+Jul 05 19:18:47 <oini>	done
+Jul 05 19:18:50 <biraj>	devmodem, done
+Jul 05 19:18:56 <enthudrives>	done
+Jul 05 19:18:58 <koustava>	devmodem, done it is giving total information
+Jul 05 19:19:11 <wakil>	done
+Jul 05 19:19:16 <sourav>	done,it shows memory
+Jul 05 19:19:18 <sktn07>	devmodem, done
+Jul 05 19:19:18 <mkumar_>	devmodem, done
+Jul 05 19:19:20 *	sayan has quit (Remote host closed the connection)
+Jul 05 19:19:22 <shashank__>	done
+Jul 05 19:19:27 <devmodem>	the entry named Mem: mentions the available RAM
+Jul 05 19:19:29 <kaushik>	devmodem: done
+Jul 05 19:19:39 <souv__>	devmodem: yes, it is showing all memory details
+Jul 05 19:20:05 <devmodem>	note that, the numbers in it represent the RAM in total bytes.
+Jul 05 19:20:16 <Randhir>	done,it shows about memory details
+Jul 05 19:20:31 *	sayan (~Sayan@110.227.241.183) has joined #dgplug
+Jul 05 19:20:42 <devmodem>	let's see a variation of the above command, where we can display it in MB and GB units.
+Jul 05 19:21:02 <devmodem>	please type:   free  -m
+Jul 05 19:21:10 <sayan>	devmodem, i got dc which command are talking about.
+Jul 05 19:21:20 <devmodem>	sayan: the command: free
+Jul 05 19:21:31 <sayan>	devmodem, ok
+Jul 05 19:21:48 <chandan_kumar>	devmodem, done
+Jul 05 19:21:50 <devmodem>	sayan: currently we're taking a look at its variation:   free  -m
+Jul 05 19:21:53 <wakil>	done
+Jul 05 19:21:55 <sourav>	yes, it shows the details in mb
+Jul 05 19:21:57 <enthudrives>	yes. done.
+Jul 05 19:21:57 <sktn07>	done...it giving all in mb
+Jul 05 19:21:58 <koustava>	devmodem, done yes giving in mb
+Jul 05 19:21:59 <shashank__>	done
+Jul 05 19:22:02 <devmodem>	the "-m" option displays it in MB
+Jul 05 19:22:07 <mkumar_>	devmodem, it is showing in MB
+Jul 05 19:22:11 <oini>	done
+Jul 05 19:22:15 <sayan>	devmodem, done
+Jul 05 19:22:30 <Randhir>	done
+Jul 05 19:22:30 <souv__>	devmodem: done
+Jul 05 19:22:35 <biraj>	done
+Jul 05 19:22:47 <devmodem>	similarly, "-g" and "-k" options will display it in GB and KB respectively.
+Jul 05 19:22:51 <tuhin_>	done
+Jul 05 19:23:07 <devmodem>	try out "free -g" and "free -k" and let know here.
+Jul 05 19:23:15 <chandan_kumar>	done
+Jul 05 19:23:26 <oini>	 done
+Jul 05 19:23:32 <sourav>	done
+Jul 05 19:23:32 <biraj>	!
+Jul 05 19:23:38 <mkumar_>	done
+Jul 05 19:23:44 <devmodem>	yes biraj
+Jul 05 19:23:50 <wakil>	done
+Jul 05 19:23:57 <sktn07>	done
+Jul 05 19:23:59 <biraj>	free -g & free -k same?
+Jul 05 19:24:02 <souv__>	done
+Jul 05 19:24:11 <shashank__>	done
+Jul 05 19:24:14 <kaushik>	!
+Jul 05 19:24:29 <devmodem>	biraj: no biraj. free -g displays it in GB and free -k in KB.
+Jul 05 19:24:32 <devmodem>	yes kaushik
+Jul 05 19:24:41 <kaushik>	please see this http://pastebin.com/Hvwx8vky
+Jul 05 19:25:12 <kaushik>	why my memory is showing diff in -g and -k
+Jul 05 19:25:39 <devmodem>	kaushik: the -g option is trimming out the decimals from the output.
+Jul 05 19:25:54 <devmodem>	it is doing so because
+Jul 05 19:26:25 <devmodem>	normally the people who use -g option, would have a few hundered of GB ram on their servers.
+Jul 05 19:26:34 <kaushik>	devmodem: ok it is flooring the float value
+Jul 05 19:26:38 <devmodem>	displaying decimals would be pointless i assume.
+Jul 05 19:26:43 <devmodem>	yes kaushik.
+Jul 05 19:26:54 <kaushik>	ok
+Jul 05 19:27:09 <sktn07>	!
+Jul 05 19:27:13 <devmodem>	yes sktn07
+Jul 05 19:28:03 <sktn07>	is there any commands to get that exact in gb...i meam in floating point
+Jul 05 19:28:39 <devmodem>	sktn07: you can use "free -m" option and get it in MB, fairly close approximation.
+Jul 05 19:29:24 <devmodem>	i mean, we as programmers would instantly know that  2048 MB is 2GB, right?
+Jul 05 19:29:47 <devmodem>	anyway, let's move forward.
+Jul 05 19:30:00 <sktn07>	that by mean to see the exact ...have to do free -k?
+Jul 05 19:30:22 <devmodem>	sktn07: for exactly exact you need to do  free -b
+Jul 05 19:30:38 <sktn07>	ok :)
+Jul 05 19:30:42 <devmodem>	that would show the complete number of bytes :)
+Jul 05 19:31:02 <devmodem>	the next command we're seeing today is echo.
+Jul 05 19:31:04 *	sagarchaks (~sagar@59.93.244.45) has joined #dgplug
+Jul 05 19:31:29 <devmodem>	echo command can be used to echo any string back to the terminal.
+Jul 05 19:31:39 <devmodem>	please type:  echo "hello world"
+Jul 05 19:31:56 <oini>	done
+Jul 05 19:32:00 <shashank__>	done
+Jul 05 19:32:05 <biraj>	done
+Jul 05 19:32:08 <wakil>	done
+Jul 05 19:32:09 <koustava>	devmodem, done
+Jul 05 19:32:09 <sayan>	devmodem, done
+Jul 05 19:32:14 <enthudrives>	echo "done"
+Jul 05 19:32:16 <mkumar_>	done
+Jul 05 19:32:22 <chandan_kumar>	it prints hello world.
+Jul 05 19:32:23 <sourav>	done,it shows hello world
+Jul 05 19:32:25 <sktn07>	done
+Jul 05 19:32:26 <tuhin_>	done
+Jul 05 19:32:49 <souv__>	done
+Jul 05 19:33:02 <Randhir>	Done
+Jul 05 19:33:22 <devmodem>	echo command, though simple to use, is very useful to display any message to the user on the command line.
+Jul 05 19:34:17 <sayan>	devmodem, ok
+Jul 05 19:34:24 <koustava>	devmodem, ok
+Jul 05 19:34:35 <wakil>	ok
+Jul 05 19:34:41 <mkumar_>	devmodem, ok
+Jul 05 19:34:44 <devmodem>	next command for today is: uptime
+Jul 05 19:34:57 <devmodem>	please run the command, and let me know what you think its printing.
+Jul 05 19:35:35 <rohitdgpcool>	it denotes the time the user is on the computer  i guess
+Jul 05 19:35:43 <rohitdgpcool>	and the no of users
+Jul 05 19:36:04 <devmodem>	yes
+Jul 05 19:36:06 <chandan_kumar>	it 's current time,up timing,no.of users load average is showing.
+Jul 05 19:36:06 <kaushik>	devmodem: it shows how long the system has been running and user info
+Jul 05 19:36:18 <sayan>	how long the system's been running
+Jul 05 19:36:22 <devmodem>	yes, correct.
+Jul 05 19:36:39 <oini>	current time, how long the computer is running and number of users
+Jul 05 19:36:40 <devmodem>	as the name suggests, it lets us know for how long the system has been up and running for.
+Jul 05 19:37:01 <devmodem>	the last part of uptime's output denotes load average.
+Jul 05 19:37:01 <oini>	!
+Jul 05 19:37:02 <chandan_kumar>	devmodem, !
+Jul 05 19:37:07 <devmodem>	yes oini
+Jul 05 19:37:12 <mkumar_>	devmodem, current time, system usage duration, number of users
+Jul 05 19:37:16 <oini>	what is load average?
+Jul 05 19:37:34 <devmodem>	oini: i'm coming to that part.
+Jul 05 19:37:35 <kaushik>	devmodem:  !
+Jul 05 19:37:40 <souv__>	it is showing the current time and how long the system is running
+Jul 05 19:37:45 <devmodem>	yes chandan_kumar
+Jul 05 19:37:47 <oini>	devmodem: thank you
+Jul 05 19:37:48 <chandan_kumar>	that question is asked by oini.
+Jul 05 19:37:54 <devmodem>	okay!
+Jul 05 19:37:58 <devmodem>	and you kaushik?
+Jul 05 19:38:13 <Randhir>	Done
+Jul 05 19:38:23 <kaushik>	devmodem: why it is showing 4 users
+Jul 05 19:38:32 <sayan>	devmodem, !
+Jul 05 19:38:50 <devmodem>	kaushik: it counts all the places from you are logged in, and adds them up.
+Jul 05 19:39:03 <devmodem>	kaushik: that includes your GUI login, each open terminal etc.
+Jul 05 19:39:15 <devmodem>	kaushik: we'll come to this part later, as usual :)
+Jul 05 19:39:19 <devmodem>	yes sayan
+Jul 05 19:39:28 <kaushik>	what is kaushik 0,kaushik pts/0 ..pts/1..
+Jul 05 19:39:44 <devmodem>	kaushik: we shall come to that part in later sessions.
+Jul 05 19:39:50 <kaushik>	okkk
+Jul 05 19:40:05 <sayan>	devmodem, same doubt of kaushik
+Jul 05 19:40:11 <devmodem>	okay!
+Jul 05 19:40:26 <devmodem>	we shall be covering the users and logins part in later sessions.
+Jul 05 19:40:35 <devmodem>	for now, let's see what is load average.
+Jul 05 19:40:58 <sourav>	ok
+Jul 05 19:41:02 *	rohitdgpcool has quit (Ping timeout: 252 seconds)
+Jul 05 19:41:34 <devmodem>	whenever your system starts performing some CPU intensive task
+Jul 05 19:41:57 <devmodem>	the operating systems reports this to the linux kernel.
+Jul 05 19:42:23 <devmodem>	the linux kernel keeps track of these values, and we can view them using "uptime" command
+Jul 05 19:42:28 *	Randhir has quit (Ping timeout: 252 seconds)
+Jul 05 19:42:47 <devmodem>	the three values correspond to the system load averages for the past 1, 5, and 15 minutes.
+Jul 05 19:43:20 <biraj>	!
+Jul 05 19:43:24 <devmodem>	some examples of CPU intensive tasks are, video encoding, encrypting a large file etc.
+Jul 05 19:43:36 *	wyuka has quit (Quit: Konversation terminated!)
+Jul 05 19:44:23 <devmodem>	CPU can also get heavily loaded due to incorrectly written and buggy programs etc.
+Jul 05 19:44:27 *	biraj_ has quit (Quit: Leaving)
+Jul 05 19:44:35 <devmodem>	to diagnose such issues, uptime command is very handy.
+Jul 05 19:44:41 <devmodem>	yes biraj
+Jul 05 19:45:07 *	biraj_ (~Biraj@110.227.187.175) has joined #dgplug
+Jul 05 19:45:14 <biraj>	I got maswer.
+Jul 05 19:45:26 <biraj>	*answer
+Jul 05 19:45:27 <devmodem>	what is a maswer biraj?
+Jul 05 19:45:30 <devmodem>	oh okay.
+Jul 05 19:45:39 <devmodem>	biraj: what's the answer?
+Jul 05 19:46:13 <biraj>	some examples of CPU intensive tasks are, video encoding, encrypting a large file etc.
+Jul 05 19:46:22 <devmodem>	yes
+Jul 05 19:46:26 <rajat>	!
+Jul 05 19:46:42 <devmodem>	okay, so that ends our first sessions on command line interface.
+Jul 05 19:47:00 <devmodem>	now, you may ask questions by typing !
+Jul 05 19:47:05 <devmodem>	yes rajat
+Jul 05 19:47:09 <sayan>	devmodem, !
+Jul 05 19:47:19 <rajat>	do windows to have any commands like uptime?
+Jul 05 19:47:27 <koustava>	devmodem, !
+Jul 05 19:47:53 <devmodem>	rajat: i am not sure if it has.
+Jul 05 19:47:57 <devmodem>	yes sayan
+Jul 05 19:48:43 <chandan_kumar>	devmodem, !
+Jul 05 19:48:43 <sayan>	devmodem, you said cd \ would give error
+Jul 05 19:48:50 <sayan>	but it gave me this output
+Jul 05 19:49:07 <sayan>	http://www.fpaste.org/D2yy/
+Jul 05 19:49:50 <devmodem>	sayan: yes, what i assumed was you'd have typed a command after > symbol. but you didn't :)
+Jul 05 19:50:10 <chandan_kumar>	i also got the same output.
+Jul 05 19:50:14 <kaushik>	sayan: devmodem is correct actually it produces error and because of error we come back to home
+Jul 05 19:50:33 <devmodem>	sayan: what happens is, in linux shells, "\" is used to denote a continuing line after the current one.
+Jul 05 19:50:34 <sayan>	devmodem, oh,yes
+Jul 05 19:50:40 <sayan>	devmodem, ok
+Jul 05 19:50:47 <kaushik>	sayan: in whichever folder you are you will come back to home
+Jul 05 19:50:49 *	Randhir (dfb08029@gateway/web/freenode/ip.223.176.128.41) has joined #dgplug
+Jul 05 19:51:05 <sayan>	devmodem, kaushik ,ok
+Jul 05 19:51:24 <devmodem>	everyone, unlike windows which uses \ for the main directory -- all unix type OSes use / (the forward slash char) for the root directory.
+Jul 05 19:51:40 <sayan>	devmodem, how to we calculate load average?
+Jul 05 19:51:49 <devmodem>	so please do not type \ by habit.
+Jul 05 19:52:10 <devmodem>	sayan: wait, let me take other people's turns
+Jul 05 19:52:25 <kaushik>	devmodem: !
+Jul 05 19:52:27 <devmodem>	koustava: continue.
+Jul 05 19:52:45 <sayan>	<eof>
+Jul 05 19:53:08 *	stephdg has quit (Ping timeout: 252 seconds)
+Jul 05 19:53:10 <devmodem>	chandan_kumar: your turn.
+Jul 05 19:53:15 <chandan_kumar>	devmodem, what is buggy programs?
+Jul 05 19:53:31 <koustava>	devmodem, same question that Sayan asked about load average?
+Jul 05 19:53:45 <devmodem>	chandan_kumar: a program where, let's say you do:   x = y / 0;
+Jul 05 19:53:55 <koustava>	devmodem, how to calculate load average?
+Jul 05 19:54:17 <devmodem>	chandan_kumar: or something that goes into an infinite for loop -- there can be many examples.
+Jul 05 19:54:48 <chandan_kumar>	<eof>
+Jul 05 19:55:02 <koustava>	<eof>
+Jul 05 19:55:22 <devmodem>	okay, how does the uptime command know about load average.
+Jul 05 19:56:10 <devmodem>	the linux kernel maintains a file where it pre calculates the load average, and keeps updating it in real time.
+Jul 05 19:56:39 <devmodem>	you can see the value of that file by typing the following command.
+Jul 05 19:57:03 <devmodem>	cat  /proc/loadavg
+Jul 05 19:57:18 <devmodem>	and compare it with the output of uptime command.
+Jul 05 19:57:36 <enthudrives>	done. they are almost the same
+Jul 05 19:57:45 <devmodem>	i have not studied the exact algorithm that the linux kernel uses to come up with these values.
+Jul 05 19:57:51 <koustava>	devmodem, !
+Jul 05 19:57:54 <sayan>	devmodem, ok
+Jul 05 19:58:03 <devmodem>	but you can safely assume that the kernel updates this file in real time.
+Jul 05 19:58:10 <devmodem>	koustava: yes
+Jul 05 19:58:27 <chandan_kumar>	done,but it slightly differs in load average value.
+Jul 05 19:58:34 <koustava>	devmodem, the values and the outputs of the two commands are not same here
+Jul 05 19:59:13 <devmodem>	koustava: are they excessively different or slightly different?
+Jul 05 19:59:15 <koustava>	in uptime it is giving less value than cat /proc/loadavg
+Jul 05 19:59:28 <sayan>	koustava, chandan_kumar ,uptime is a function of time hence it will change with time
+Jul 05 19:59:30 <koustava>	excessively different
+Jul 05 19:59:53 <devmodem>	koustava: please show me in pastebin link.
+Jul 05 20:00:05 <koustava>	devmodem, ok
+Jul 05 20:00:08 <devmodem>	sayan: that is correct.
+Jul 05 20:00:16 <chandan_kumar>	devmodem, !
+Jul 05 20:00:18 <devmodem>	yes chandan_kumar
+Jul 05 20:00:33 <chandan_kumar>	what does cat /proc meant?
+Jul 05 20:00:50 <devmodem>	chandan_kumar: we shall come to that part in later sessions.
+Jul 05 20:01:02 <koustava>	sayan, but i think the values which are coming there is a big different between this less time
+Jul 05 20:01:24 <chandan_kumar>	<eof>
+Jul 05 20:01:24 <koustava>	devmodem, http://fpaste.org/XeOw/
+Jul 05 20:02:38 <devmodem>	koustava: what was the time gap between uptime command and cat /proc/loadavg command?
+Jul 05 20:02:56 <sktn07>	!
+Jul 05 20:03:02 <koustava>	max 15-16 minutes
+Jul 05 20:03:15 <kaushik>	koustava: i think there was a good gap for this difference
+Jul 05 20:03:35 <devmodem>	koustava: so you see, read sayan's comment.
+Jul 05 20:03:52 <devmodem>	koustava: the kernel updates that file in real time.
+Jul 05 20:04:22 <chandan_kumar>	it is showing same.when i tested the command "uptime" and "cat /proc/loadavg" at that time.
+Jul 05 20:04:27 <devmodem>	it values can theoretically change several times in 1 second.
+Jul 05 20:04:28 <koustava>	devmodem, but there can be such big difference in real times between 15 to 16 minutes?
+Jul 05 20:04:57 <koustava>	devmodem, ok I got the answer
+Jul 05 20:05:04 *	kishan (6ee3fa66@gateway/web/freenode/ip.110.227.250.102) has joined #dgplug
+Jul 05 20:05:07 <chandan_kumar>	devmodem, yes
+Jul 05 20:05:10 <devmodem>	koustava: yes there can be.
+Jul 05 20:05:15 <devmodem>	sktn07: yes
+Jul 05 20:05:40 <sktn07>	see link http://fpaste.org/7pgL/   what is 2/274 2478 in the last?
+Jul 05 20:05:47 <koustava>	devmodem, what is the value given 1/275 when the command typed cat /proc/loadavg
+Jul 05 20:07:26 <koustava>	devmodem, <eof>
+Jul 05 20:07:28 <devmodem>	please read this: http://www.centos.org/docs/5/html/5.2/Deployment_Guide/s2-proc-loadavg.html
+Jul 05 20:08:08 <sktn07>	ok
+Jul 05 20:08:13 *	stephdg (~quassel@123.236.113.240) has joined #dgplug
+Jul 05 20:08:14 <koustava>	devmodem, ok
+Jul 05 20:08:32 <sayan>	devmodem, ok
+Jul 05 20:08:48 <biraj>	ok
+Jul 05 20:09:03 *	praveenkumar (~daredevil@fedora/praveenkumar) has joined #dgplug
+Jul 05 20:09:06 <chandan_kumar>	devmodem, ok.
+Jul 05 20:09:20 <sktn07>	ok  solved <eof>
+Jul 05 20:09:27 <sourav>	ok
+Jul 05 20:09:42 <souv__>	ok
+Jul 05 20:09:57 *	rohitdgpcool (~rohitdgpc@202.90.106.143) has joined #dgplug
+Jul 05 20:09:59 <Randhir>	ok
+Jul 05 20:09:59 <sayan>	devmodem, ok,understood
+Jul 05 20:10:10 <devmodem>	so, to summarize, today we covered the commands - ls, mkdir, cd, cal, date, uptime and echo.
+Jul 05 20:10:28 <koustava>	devmodem, ok got it
+Jul 05 20:10:57 <devmodem>	in the next sessions we shall be covering some more commands and become familiar with the command line interface.
+Jul 05 20:10:58 <rohitdgpcool>	sorry but i missed  15mins of the class
+Jul 05 20:11:05 <devmodem>	# end of session 1.
+Jul 05 20:11:18 <rohitdgpcool>	can anyone help me with info log
+Jul 05 20:11:19 <devmodem>	the channel is free to discuss among yourselves.
+Jul 05 20:11:26 <chandan_kumar>	i also missed some portion of the class.
+Jul 05 20:11:47 <kaushik>	rohitdgpcool: i will upload it and give the link
+Jul 05 20:12:03 <rohitdgpcool>	yes thank u
+Jul 05 20:12:06 <enthudrives>	The next session is at 9:30?
+Jul 05 20:12:18 <chandan_kumar>	sayan, what does "ls" command meant?
+Jul 05 20:12:31 <devmodem>	kushal: when's the next session?
+Jul 05 20:12:45 <kushal>	9:30 by mbuf
+Jul 05 20:12:52 <kushal>	but he will be mostly talking today 
+Jul 05 20:12:52 <rohitdgpcool>	chandan :it means "listing components of the directory
+Jul 05 20:12:57 <kushal>	not a direct class
+Jul 05 20:12:58 *	shashank__ has quit (Quit: Page closed)
+Jul 05 20:13:02 <kushal>	people do stay online 
+Jul 05 20:13:11 <kushal>	ask any questions if any 
+Jul 05 20:13:18 <chandan_kumar>	sayan, ok
+Jul 05 20:13:23 <sayan>	list directory contents
+Jul 05 20:13:28 <kaushik>	participants i think we should create a url and upload all the sessions logs whoever cathches the whole session will do it what u say
+Jul 05 20:13:29 <biraj>	!
+Jul 05 20:13:45 <oini>	kushal, okay
+Jul 05 20:13:48 <mkumar_>	ok
+Jul 05 20:13:51 <chandan_kumar>	kaushik, yes,it works.
+Jul 05 20:13:52 <sayan>	kushal, ok
+Jul 05 20:13:56 <rohitdgpcool>	Kushal, i just wanted o ask that in cd .. even if we give more than 1 space the command is accepted
+Jul 05 20:14:00 <oini>	kaushik, yes, okay
+Jul 05 20:14:12 <kushal>	rohitdgpcool, yes
+Jul 05 20:14:18 <biraj>	next session will be held in today
+Jul 05 20:14:19 <kushal>	Book to read for C http://publications.gbdirect.co.uk/c_book/
+Jul 05 20:14:22 *	Randhir has quit (Ping timeout: 252 seconds)
+Jul 05 20:14:25 <kaushik>	ok than i am creating one link for us
+Jul 05 20:14:36 <devmodem>	rohitdgpcool: yes, a minimum of 1 space is required for the shall the identify the correct parameters of cd command.
+Jul 05 20:14:50 <devmodem>	correction, i meant "for the shell"
+Jul 05 20:15:05 <rohitdgpcool>	so what is cd\
+Jul 05 20:15:22 <devmodem>	cd\ is incorrect usage.
+Jul 05 20:15:32 <biraj>	kushal, next session will be held in today
+Jul 05 20:15:47 <tuhin_>	kushal: ok
+Jul 05 20:15:58 <devmodem>	rohitdgpcool: \ character must only be used when you want to spread the command's parameters to the next line.
+Jul 05 20:16:22 *	enthudrives has quit (Quit: Page closed)
+Jul 05 20:16:22 *	shashank__ (6ee39e39@gateway/web/freenode/ip.110.227.158.57) has joined #dgplug
+Jul 05 20:17:16 <rohitdgpcool>	Sorry but i could'nt understand what u meant by "spread the command's parameter
+Jul 05 20:17:26 <mkumar_>	kaushik, yes, good idea
+Jul 05 20:17:37 <chandan_kumar>	kushal, please introduce devmodem.
+Jul 05 20:17:37 <devmodem>	rohitdgpcool: let me explain.
+Jul 05 20:18:44 <devmodem>	rohitdgpcool: let's consider the command echo.
+Jul 05 20:19:22 <rohitdgpcool>	okay
+Jul 05 20:19:23 <devmodem>	to print the string "devmodem" on the terminal, what would you type?
+Jul 05 20:19:36 <rohitdgpcool>	echo "devmodem"
+Jul 05 20:19:43 <devmodem>	great
+Jul 05 20:20:13 <devmodem>	now, for some reason, you have a long command
+Jul 05 20:20:30 <devmodem>	and it does now fit in a single line in your monitor
+Jul 05 20:20:38 <devmodem>	then you can split the commands into two lines
+Jul 05 20:20:46 <devmodem>	so in that case you would type something like
+Jul 05 20:20:58 <devmodem>	echo \
+Jul 05 20:21:11 <devmodem>	> "devmodem"
+Jul 05 20:21:16 <devmodem>	and ENTER
+Jul 05 20:21:29 <devmodem>	what does that print?
+Jul 05 20:21:31 *	rom (0e607e20@gateway/web/freenode/ip.14.96.126.32) has joined #dgplug
+Jul 05 20:21:33 <rohitdgpcool>	Yes I understood thank you very much
+Jul 05 20:21:43 <sktn07>	devmodem, you do not tell : what is users and login part (of commands)?
+Jul 05 20:22:10 <devmodem>	sktn07: i did not get you?
+Jul 05 20:22:25 <sktn07>	* of uptime commands
+Jul 05 20:22:37 *	rom has quit (Client Quit)
+Jul 05 20:23:14 <oini>	sktn07: devmodem said that he will discuss it in the later sessions
+Jul 05 20:23:52 <devmodem>	yes, the users and login, pts/0 etc etc will be covered in later sessions.
+Jul 05 20:24:14 <sktn07>	ok thank you :)
+Jul 05 20:24:49 <biraj>	devmodem, timing of the next sessions
+Jul 05 20:25:27 <devmodem>	kushal: please schedule.
+Jul 05 20:26:09 <rohitdgpcool>	devmodem:what else commands did u teach other than mkdir,cd,ls,date,cal,uptime,echo,free, because i lost last 15 mins of the class
+Jul 05 20:26:14 <chandan_kumar>	kushal, please introduce devmodem.
+Jul 05 20:26:19 *	saurabharaiyer (~saurabhar@223.176.182.55) has joined #dgplug
+Jul 05 20:26:42 <devmodem>	rohitdgpcool: that was it.
+Jul 05 20:26:59 <devmodem>	oops, i forgot to introduce
+Jul 05 20:27:04 <rohitdgpcool>	okay then thank you, will you take the 9:30 class
+Jul 05 20:27:18 <devmodem>	I am Anurag Patel.
+Jul 05 20:27:44 <devmodem>	I'm a sysadmin and web apps developer by profession.
+Jul 05 20:28:19 <devmodem>	I'm also a visiting faculty at Mumbai University and take the same subject there.
+Jul 05 20:28:56 <devmodem>	And my first linux distro was Red Hat 6 :-P
+Jul 05 20:29:58 <devmodem>	<eof>
+Jul 05 20:30:39 <sayan>	devmodem, thanks
+Jul 05 20:30:44 <chandan_kumar>	devmodem, Thanks!
+Jul 05 20:31:05 <koustava>	devmodem, thanks
+Jul 05 20:31:18 <souv__>	devmodem, thanks
+Jul 05 20:31:22 <sktn07>	devmodem: thank you very much
+Jul 05 20:31:46 <oini>	devmodem, thank you!
+Jul 05 20:32:04 *	shashank__ has quit (Quit: Page closed)
+Jul 05 20:32:20 *	tuhin_ has quit (Ping timeout: 252 seconds)
+Jul 05 20:32:33 <biraj>	thank you
+Jul 05 20:33:07 <devmodem>	you'll are welcome!

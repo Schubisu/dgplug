@@ -1,0 +1,444 @@
+Jul 06 19:30:24 *	kushal has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at  http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | 7:00pm -  Python - Kushal | 10:30pm Rishi on Shell | <--CLASS STARTED--> |
+Jul 06 19:30:27 <kushal>	roll call
+Jul 06 19:30:36 <amrita>	amrita mukherjee
+Jul 06 19:30:38 <bose_aritra>	Aritra Bose
+Jul 06 19:30:41 <rtnpro>	Ratnadeep Debnath
+Jul 06 19:30:42 <mavu>	satya komaragiri
+Jul 06 19:30:47 <Kishan>	kishan goyal
+Jul 06 19:31:03 <Debashree>	debashree banerjee
+Jul 06 19:31:15 <sunny_slls>	sunny_slls, sunny sharma
+Jul 06 19:31:26 <sunny_slls>	sunnysharma
+Jul 06 19:31:34 <kushal>	ok
+Jul 06 19:31:36 <arpita>	arpita kapoor
+Jul 06 19:31:56 <kushal>	first , any questions on last session  ?
+Jul 06 19:32:22 <susenj>	Neeraj kumar
+Jul 06 19:32:28 <kushal>	ok, moving ahead
+Jul 06 19:33:04 *	ria (n=ria@121.245.9.45) has joined #dgplug
+Jul 06 19:33:24 <rtnpro>	kushal, !
+Jul 06 19:33:31 <kushal>	rtnpro, yes 
+Jul 06 19:34:01 <rtnpro>	kushal, I have some doubts regarding tags...I faced those while writing for the wiki
+Jul 06 19:34:11 <rtnpro>	kushal, can you help me after the class
+Jul 06 19:34:20 <kushal>	rtnpro, they are not part of my python session 
+Jul 06 19:34:22 <kushal>	rtnpro, ok
+Jul 06 19:34:35 <kushal>	So, about control flow in python
+Jul 06 19:34:53 <ria>	kushal, i missed the roll call
+Jul 06 19:35:01 <kushal>	You already know we can use if,else in C 
+Jul 06 19:35:11 <kushal>	ria, yes
+Jul 06 19:35:20 <kushal>	It is same in python also 
+Jul 06 19:35:20 <ria>	kushal, Ria Das
+Jul 06 19:35:38 <kushal>	the syntax is
+Jul 06 19:35:45 <kushal>	if condition:
+Jul 06 19:35:50 <kushal>	    statement
+Jul 06 19:35:52 <kushal>	else:
+Jul 06 19:35:56 <kushal>	    statement 
+Jul 06 19:36:11 <kushal>	look ^^ at the : and the spaces before statements 
+Jul 06 19:36:28 <kushal>	in Python we create blocks of code using spaces
+Jul 06 19:36:36 <kushal>	in C we use {}
+Jul 06 19:36:47 <kushal>	so, let us see in an example
+Jul 06 19:36:50 <kushal>	n = 10
+Jul 06 19:36:55 <kushal>	if n < 100:
+Jul 06 19:37:02 <kushal>	    print "Lesser than"
+Jul 06 19:37:03 <kushal>	else:
+Jul 06 19:37:12 <kushal>	    print "Greater than"
+Jul 06 19:37:16 <kushal>	try ^^ 
+Jul 06 19:37:57 <kushal>	ask if you have any questions 
+Jul 06 19:38:18 <sunny_slls>	!
+Jul 06 19:38:25 <kushal>	sunny_slls, yes
+Jul 06 19:39:08 <arpita>	!
+Jul 06 19:39:14 <susenj>	!
+Jul 06 19:39:22 <rtnpro>	done
+Jul 06 19:39:27 <rtnpro>	kushal, !
+Jul 06 19:39:28 <kushal>	arpita, 
+Jul 06 19:39:31 <sunny_slls>	the spaces we use in place of {} are not understood
+Jul 06 19:39:44 <kushal>	in C we use {}
+Jul 06 19:39:46 <kushal>	like 
+Jul 06 19:39:52 <kushal>	if (n < 100)
+Jul 06 19:39:53 <arpita>	how to mark the closing of the if statement??
+Jul 06 19:39:54 <kushal>	{
+Jul 06 19:39:57 *	amrita_ (n=amrita@117.201.96.83) has joined #dgplug
+Jul 06 19:40:02 <kushal>	 printf();
+Jul 06 19:40:03 <kushal>	}
+Jul 06 19:40:17 <kushal>	here we use spaces to create blocks
+Jul 06 19:40:22 <Kishan>	!
+Jul 06 19:40:24 <kushal>	so after an if statement
+Jul 06 19:40:30 <kushal>	if n < 100:
+Jul 06 19:40:35 *	amrita has quit (Nick collision from services.)
+Jul 06 19:40:41 *	amrita_ is now known as amrita
+Jul 06 19:40:55 <rtnpro>	kushal, !
+Jul 06 19:41:08 <kushal>	^^ if I start with four spaces, all lines with 4 spaces will be part of that if condition 
+Jul 06 19:41:38 <kushal>	the next statement which will start from the beginning will be out of if statement 
+Jul 06 19:41:46 <rtnpro>	kushal, !
+Jul 06 19:41:53 <kushal>	rtnpro, later
+Jul 06 19:41:59 <kushal>	arpita, ^^ 
+Jul 06 19:42:02 <kushal>	susenj, yes
+Jul 06 19:42:06 <sunny_slls>	means each and every line should have same no. of spaces
+Jul 06 19:42:10 <susenj>	kushal...it's working...but tell me whether the colon(:) shows the end of a condition only?
+Jul 06 19:42:11 <kushal>	sunny_slls, correct 
+Jul 06 19:42:35 <rtnpro>	kushal, I have a q. regarding this topic
+Jul 06 19:42:43 <kushal>	susenj, no, every time we create such blocks like in function , conditions, classes , everywhere you have to use :
+Jul 06 19:42:52 <kushal>	rtnpro, wait for your turn 
+Jul 06 19:43:00 <kushal>	Kishan, yes 
+Jul 06 19:43:17 <Kishan>	kushal, ..nothing ..its clear
+Jul 06 19:43:27 <kushal>	Kishan, ok
+Jul 06 19:43:30 <kushal>	rtnpro, yes 
+Jul 06 19:43:34 <rtnpro>	kushal, Is a white space sufficient or it is a number of spaces equivalent to tab
+Jul 06 19:44:19 <kushal>	rtnpro, tab is also a kind of white space 
+Jul 06 19:44:30 <rtnpro>	or we decide the no. of spaces but for a block as sunny_slls  said it should be constant?
+Jul 06 19:44:31 <kushal>	rtnpro, better use 4whitespaces 
+Jul 06 19:44:38 <rtnpro>	ok
+Jul 06 19:44:43 <rtnpro>	kushal, thanks
+Jul 06 19:44:49 <kushal>	rtnpro, it depends on your style 
+Jul 06 19:44:59 <rtnpro>	ok
+Jul 06 19:45:05 <susenj>	!
+Jul 06 19:45:10 <sunny_slls>	kushal, !
+Jul 06 19:45:35 <kushal>	http://tv.dgplug.org/devel-inside.html here you find a video on if-else (for broadband users)
+Jul 06 19:45:41 <kushal>	susenj, yes
+Jul 06 19:45:47 <susenj>	kushal,but pressing tab doesn't provide spaces  rather showing a message
+Jul 06 19:46:02 <susenj>	Display all 168 possibilities? (y or n)
+Jul 06 19:46:05 <susenj>	<eof>
+Jul 06 19:46:19 <sunny_slls>	amrita, tell me quickly that what was the last topic told in python
+Jul 06 19:46:37 <rtnpro>	susenj, in python it does create space
+Jul 06 19:46:53 <kushal>	sunny_slls, talk in pm '
+Jul 06 19:47:03 <kushal>	susenj, in the python interpreter ?
+Jul 06 19:47:03 <rtnpro>	susenj, but not in the terminal...it gives options
+Jul 06 19:47:13 <kushal>	sunny_slls, better use 4 blank spaces 
+Jul 06 19:47:16 <susenj>	rtnpro,i have tried tab on python prompt and got that message
+Jul 06 19:47:47 <kushal>	susenj, use 4 blank spaces
+Jul 06 19:47:53 <kushal>	susenj, understood 
+Jul 06 19:48:00 <susenj>	kushal,okay
+Jul 06 19:48:13 <susenj>	i used 3 spaces this time
+Jul 06 19:48:16 <susenj>	<eof>
+Jul 06 19:48:36 <kushal>	susenj, use 4 , which much standard 
+Jul 06 19:49:02 <susenj>	ok.kushal,i will...from now onwards
+Jul 06 19:50:49 <kushal>	ok
+Jul 06 19:50:52 <kushal>	anything else ?
+Jul 06 19:51:06 <Kishan>	no
+Jul 06 19:51:20 <rtnpro>	no,
+Jul 06 19:51:33 <kushal>	ok
+Jul 06 19:52:08 <kushal>	please try to write some more examples from your brain to use if else
+Jul 06 19:52:12 <kushal>	and give us the link 
+Jul 06 19:52:16 <kushal>	5 minutes 
+Jul 06 19:52:24 *	karunakar (n=karunaka@59.161.24.203) has joined #dgplug
+Jul 06 19:53:07 <kushal>	put them in rafb and show us 
+Jul 06 19:53:11 <kushal>	karunakar, welcome :)
+Jul 06 19:54:27 *	rangeen (i=sherry@61.2.163.11) has joined #dgplug
+Jul 06 19:54:51 <sunny_slls>	!
+Jul 06 19:55:02 <kushal>	sunny_slls, yes please
+Jul 06 19:55:11 <sunny_slls>	rafb means
+Jul 06 19:55:38 <kushal>	sunny_slls, http://rafb.net/paste
+Jul 06 19:55:47 <kushal>	sunny_slls, thats why you should attend the sessions 
+Jul 06 19:56:13 <sunny_slls>	kushal, i told you the problems
+Jul 06 19:56:31 <kushal>	sunny_slls, not mine, you have to solve them 
+Jul 06 19:56:54 <sunny_slls>	kushal, ok
+Jul 06 19:57:40 <susenj>	http://rafb.net/p/05f2zg74.html
+Jul 06 19:58:37 <kushal>	susenj, ok, nice one 
+Jul 06 19:58:45 <kushal>	1 more minute 
+Jul 06 19:59:01 <susenj>	kushal,thanks  :)
+Jul 06 19:59:54 <kushal>	ok, moving on 
+Jul 06 19:59:58 <kushal>	Looping 
+Jul 06 20:00:19 <kushal>	you all know how loops are required to solve problems
+Jul 06 20:00:23 *	pushkal (n=chatzill@117.197.18.101) has joined #dgplug
+Jul 06 20:00:36 <kushal>	So, first we are going to look into while loop
+Jul 06 20:00:39 <kushal>	syntax is
+Jul 06 20:00:44 <kushal>	while condition:
+Jul 06 20:00:49 <kushal>	    statement1
+Jul 06 20:00:55 <kushal>	    statement2
+Jul 06 20:01:25 <kushal>	so, if I want to write a while loop to print 0 to 10
+Jul 06 20:01:28 <kushal>	n = 0
+Jul 06 20:01:40 <kushal>	while n < 11:
+Jul 06 20:01:45 <kushal>	    print n
+Jul 06 20:01:53 <kushal>	    n += 1
+Jul 06 20:01:54 *	munichlinux has quit (Remote closed the connection)
+Jul 06 20:02:28 <kushal>	questions on ^^  ?
+Jul 06 20:02:58 <rtnpro>	kushal, http://rafb.net/p/oCvi9H25.html
+Jul 06 20:03:07 <Kishan>	http://rafb.net/p/6VWjgD70.html
+Jul 06 20:03:43 <arpita>	!,kushal, output is coming only the value 10
+Jul 06 20:03:47 <rtnpro>	kushal, can I access your book on python offline?
+Jul 06 20:03:58 <rtnpro>	kushal, !
+Jul 06 20:04:03 <arpita>	kushal, sorry got the value from 1 to 10 now
+Jul 06 20:04:53 <kushal>	ok
+Jul 06 20:04:54 *	Soumya (n=Soumya@117.192.0.223) has joined #dgplug
+Jul 06 20:05:27 *	sankarshan (n=sankarsh@fedora/sankarshan) has joined #dgplug
+Jul 06 20:05:35 <rtnpro>	kushal, can you give me the url of your book on Python?
+Jul 06 20:05:53 <kushal>	rtnpro, not now
+Jul 06 20:05:57 <kushal>	rtnpro, after the class 
+Jul 06 20:06:07 <kushal>	s/class/session 
+Jul 06 20:06:46 <sunny_slls>	!
+Jul 06 20:06:50 <kushal>	sunny_slls, yes 
+Jul 06 20:07:14 <sunny_slls>	i am doing in windows how will i do?
+Jul 06 20:07:39 <kushal>	sunny_slls, you have to type the while statements
+Jul 06 20:07:52 <kushal>	sunny_slls, language is same in all OS 
+Jul 06 20:08:16 <kushal>	any other questions ?
+Jul 06 20:08:23 <sunny_slls>	where to type?
+Jul 06 20:08:39 *	Prakhar (n=prakhar@122.163.69.208) has joined #dgplug
+Jul 06 20:08:40 <kushal>	sunny_slls, in the python interpreter 
+Jul 06 20:08:55 <sunny_slls>	ok
+Jul 06 20:09:06 <kushal>	Now I hope you all know Fibonacci Series
+Jul 06 20:09:15 <kushal>	anyone who does not know ^^  ?
+Jul 06 20:09:19 <rtnpro>	yes
+Jul 06 20:09:49 *	techno_freak has quit (Read error: 110 (Connection timed out))
+Jul 06 20:09:52 <kushal>	rtnpro, you don't know Fibonacci Series ?
+Jul 06 20:09:59 *	pushkal_ (n=chatzill@117.197.17.216) has joined #dgplug
+Jul 06 20:10:11 <kushal>	In this series we get the next number by adding the previous two numbers. So the series looks like 1,1,2,3,5,8,13 ...
+Jul 06 20:10:16 *	pushkal has quit (Nick collision from services.)
+Jul 06 20:10:26 *	pushkal_ is now known as pushkal
+Jul 06 20:10:28 *	pushkal is now known as pushkal1
+Jul 06 20:10:32 <rtnpro>	I said yes I know
+Jul 06 20:10:36 <kushal>	rtnpro, oh, ok 
+Jul 06 20:10:44 <rtnpro>	he he...
+Jul 06 20:10:46 *	techno_freak (n=parthan@unaffiliated/teknofreak) has joined #dgplug
+Jul 06 20:10:51 <kushal>	rtnpro, but my question was who does not know
+Jul 06 20:10:58 *	Prakhar (n=prakhar@122.163.69.208) has left #dgplug ("Leaving")
+Jul 06 20:11:08 *	Prakhar (n=prakhar@122.163.69.208) has joined #dgplug
+Jul 06 20:11:30 <kushal>	anyway , write code to print Fibonacci series upto 100 
+Jul 06 20:11:49 <kushal>	I mean print the values in the series less than 100
+Jul 06 20:11:49 *	pushkal1 has quit (Client Quit)
+Jul 06 20:11:56 <kushal>	no need to give us pasted link
+Jul 06 20:12:12 <rtnpro>	kushal, that will require looping?
+Jul 06 20:12:17 <kushal>	tell yes here or say no if you are in some problem 
+Jul 06 20:12:21 <kushal>	rtnpro, don't know
+Jul 06 20:12:29 <kushal>	rtnpro, you just said you know 
+Jul 06 20:12:34 <sunny_slls>	yup
+Jul 06 20:12:56 <kushal>	sunny_slls, means ? i asked yes/no 
+Jul 06 20:13:05 <susenj>	!
+Jul 06 20:13:17 <sunny_slls>	sorry printing mistake
+Jul 06 20:13:17 <rtnpro>	kushal, it requires looping or recursion
+Jul 06 20:13:27 <kushal>	rtnpro, you should know the logic 
+Jul 06 20:13:35 <rtnpro>	kushal,  whats the looping syntax for python?
+Jul 06 20:13:52 <mavu>	how do you have function calls?
+Jul 06 20:13:56 <rangeen>	is it a,b=b,a+b
+Jul 06 20:14:03 <kushal>	rtnpro, where were you for the last 10 minutes ?
+Jul 06 20:14:09 <kushal>	people please ask and speak 
+Jul 06 20:14:15 <mavu>	sorry
+Jul 06 20:14:23 <rtnpro>	Sorry I missed that
+Jul 06 20:14:27 <rtnpro>	I got it
+Jul 06 20:14:29 <kushal>	rtnpro, I know I already explained that here 
+Jul 06 20:14:48 <susenj>	!
+Jul 06 20:14:49 <kushal>	mavu, no need of function , just write simple call
+Jul 06 20:14:53 <kushal>	s/call/code
+Jul 06 20:14:58 <kushal>	susenj, yes please 
+Jul 06 20:15:02 <susenj>	ï»¿"break" is allowed in python??
+Jul 06 20:15:13 <susenj>	<eof>
+Jul 06 20:15:14 <kushal>	susenj, yes 
+Jul 06 20:15:24 <susenj>	ok.thanks<eof>
+Jul 06 20:15:29 <kushal>	use the while loop as i showed above 
+Jul 06 20:15:37 <kushal>	Tell yes here when don e
+Jul 06 20:15:41 <kushal>	* done
+Jul 06 20:18:23 *	amrita_ (n=amrita@117.201.96.83) has joined #dgplug
+Jul 06 20:18:32 *	amrita_ has quit (Client Quit)
+Jul 06 20:18:56 <kushal>	I will wait for another 2 minutes only 
+Jul 06 20:20:16 <mavu>	done
+Jul 06 20:20:23 <arpita>	http://rafb.net/p/lj2wyJ29.html
+Jul 06 20:20:33 <kushal>	arpita, I said  no links here :p
+Jul 06 20:20:38 <rangeen>	done
+Jul 06 20:20:58 <arpita>	kushal, o.k
+Jul 06 20:21:11 <susenj>	kushal,done
+Jul 06 20:21:12 <kushal>	arpita, and less than 100, and the series starts from 1 
+Jul 06 20:21:21 <kushal>	rangeen, susenj ok
+Jul 06 20:21:45 <kushal>	http://rafb.net/p/lj2wyJ29.html
+Jul 06 20:21:49 <kushal>	^^ see above 
+Jul 06 20:22:15 <kushal>	now to print output in the same line, you can put a comma after the print statement 
+Jul 06 20:22:27 <kushal>	print b,  
+Jul 06 20:22:27 <rtnpro>	kushal, done
+Jul 06 20:22:29 *	Debashree_ (n=Debashre@61.2.164.190) has joined #dgplug
+Jul 06 20:22:29 <kushal>	so try 
+Jul 06 20:22:36 *	sankarshan has quit (Read error: 145 (Connection timed out))
+Jul 06 20:23:11 *	Debashree has quit (Nick collision from services.)
+Jul 06 20:23:23 *	Debashree_ is now known as Debashree
+Jul 06 20:23:35 <mavu>	done
+Jul 06 20:24:14 <kushal>	ok
+Jul 06 20:24:48 <rangeen>	kushal:->!
+Jul 06 20:24:53 <kushal>	rangeen, yes
+Jul 06 20:25:08 <rangeen>	that is too big a program.unnecessary
+Jul 06 20:25:16 <Kishan>	http://rafb.net/p/A6w80G46.html
+Jul 06 20:25:25 <kushal>	http://rafb.net/p/oXh8um98.html
+Jul 06 20:25:35 <kushal>	rangeen, ^^ 
+Jul 06 20:25:47 <kushal>	sorry fellows, I pasted wrong link
+Jul 06 20:25:55 <kushal>	see the above link 
+Jul 06 20:26:00 <rangeen>	kushal:-> ya,did that
+Jul 06 20:26:57 <rtnpro>	kushal, do I need to paste the code?
+Jul 06 20:27:06 <kushal>	rtnpro, no 
+Jul 06 20:27:14 <rtnpro>	ok
+Jul 06 20:27:52 *	Subhodip (n=subhodip@125.20.11.34) has joined #dgplug
+Jul 06 20:28:10 <sunny_slls>	!
+Jul 06 20:28:35 <kushal>	sunny_slls, yes
+Jul 06 20:28:53 <sunny_slls>	i have done with it but how to save and paste url
+Jul 06 20:29:34 <kushal>	sunny_slls, just copy  the code in that site and click "paste" button, then give us the link 
+Jul 06 20:29:40 *	rangeen has quit ("Ah La La and Tata")
+Jul 06 20:30:56 <kushal>	ok
+Jul 06 20:31:02 <kushal>	moving on 
+Jul 06 20:31:47 <kushal>	A new big word "Data Structure"
+Jul 06 20:32:14 <kushal>	it is way to store data, and access/modify that data  
+Jul 06 20:32:34 <kushal>	There are different kinds of Data Structure 
+Jul 06 20:32:44 <kushal>	we will learn one of them today 
+Jul 06 20:32:53 <kushal>	Its a python thing called list 
+Jul 06 20:33:11 <kushal>	Lists can be written as a list of comma-separated values (items) between square brackets. 
+Jul 06 20:33:29 <kushal>	like a = [1, 2, 3455, "dhe", 233]
+Jul 06 20:33:30 <kushal>	a
+Jul 06 20:33:38 <kushal>	try type(a)
+Jul 06 20:33:49 <kushal>	lists are sequence too 
+Jul 06 20:33:56 <kushal>	that means you can slice them 
+Jul 06 20:34:09 <kushal>	a[0:4]
+Jul 06 20:34:12 <kushal>	a[4]
+Jul 06 20:34:24 <kushal>	you can even change values in a list 
+Jul 06 20:34:25 <kushal>	like 
+Jul 06 20:34:32 <kushal>	a[2] = 345
+Jul 06 20:34:38 <kushal>	try try 
+Jul 06 20:34:54 <kushal>	to see length of a list , use len() function \
+Jul 06 20:35:42 <kushal>	ask questions if any
+Jul 06 20:36:14 <Kishan>	!
+Jul 06 20:36:15 *	Soumya_ (n=Soumya@117.192.0.231) has joined #dgplug
+Jul 06 20:36:17 <susenj>	!
+Jul 06 20:36:20 <amrita>	!
+Jul 06 20:36:40 <kushal>	Kishan, yes
+Jul 06 20:36:42 *	Soumya_ has quit (Connection reset by peer)
+Jul 06 20:36:45 <Kishan>	can we add or substract lists?
+Jul 06 20:37:04 *	mobilesuit has quit ("Leaving")
+Jul 06 20:37:12 <kushal>	Kishan, we can concat two lists 
+Jul 06 20:37:26 <kushal>	or even more number of lists
+Jul 06 20:37:28 <kushal>	susenj, yes
+Jul 06 20:37:33 <susenj>	this list is quite different from a linked list?
+Jul 06 20:38:28 <mavu>	!
+Jul 06 20:38:39 <kushal>	susenj, not much, but here everything is ready, you just have to use it 
+Jul 06 20:38:53 <kushal>	susenj, plus it has many useful methods
+Jul 06 20:39:03 <kushal>	susenj, which we will see later 
+Jul 06 20:39:07 <kushal>	amrita, yes
+Jul 06 20:39:13 <susenj>	kushal,okay<eof>
+Jul 06 20:39:21 *	mobilesuit (n=freedom@59.93.200.67) has joined #dgplug
+Jul 06 20:39:25 <amrita>	on doing type(a) it is showing type 'list'
+Jul 06 20:39:30 <kushal>	amrita, yes
+Jul 06 20:39:59 <amrita>	kushal, that will be the output?
+Jul 06 20:40:15 <kushal>	amrita, yes, as we are learning lists here 
+Jul 06 20:40:27 <kushal>	mavu, shoot 
+Jul 06 20:40:54 <sunny_slls>	!
+Jul 06 20:41:46 <sunny_slls>	i can't understand please show an example
+Jul 06 20:42:06 <kushal>	sunny_slls, please wait , if asked then only speak 
+Jul 06 20:42:18 <kushal>	sunny_slls, btw, I typed example only 
+Jul 06 20:42:22 *	mavu_ (n=satya@59.178.190.176) has joined #dgplug
+Jul 06 20:42:26 <kushal>	mavu_, shoot
+Jul 06 20:42:44 <mavu_>	sorry got dc.. hmm.. i tried >>> a = [1,2,3,4,5,6,7,8]
+Jul 06 20:42:45 <mavu_>	>>> type(a)
+Jul 06 20:42:45 <mavu_>	<type 'list'>
+Jul 06 20:42:45 <mavu_>	 are there no arrays?
+Jul 06 20:43:06 <kushal>	mavu_, no 
+Jul 06 20:43:17 <kushal>	mavu_, and use rafb :p
+Jul 06 20:43:22 <mavu_>	okay <EOF>
+Jul 06 20:43:31 <mavu_>	sorry my bad.. again
+Jul 06 20:43:34 <kushal>	mavu_, but this list works for array :)
+Jul 06 20:43:52 <kushal>	sunny_slls, shoot 
+Jul 06 20:44:07 <kushal>	amrita, arpita Debashree understood ?
+Jul 06 20:44:41 <Debashree>	kushal, yes
+Jul 06 20:45:02 <arpita>	kushal, yes
+Jul 06 20:45:05 <kushal>	good 
+Jul 06 20:46:07 <amrita>	yes
+Jul 06 20:46:15 *	rtnpro_ (n=rtnpro@117.99.16.70) has joined #dgplug
+Jul 06 20:46:49 <kushal>	here in python syntax of for loop little bit different 
+Jul 06 20:46:54 <kushal>	it works on a list 
+Jul 06 20:46:59 <kushal>	so one example 
+Jul 06 20:47:10 <kushal>	a = [1, 3, 5, 7]
+Jul 06 20:47:15 <kushal>	for  x in a:
+Jul 06 20:47:19 <kushal>	    print x
+Jul 06 20:47:23 <kushal>	^^ try that 
+Jul 06 20:47:31 <kushal>	take some different list and try 
+Jul 06 20:48:25 <amrita>	done
+Jul 06 20:48:59 <rtnpro_>	yes donw
+Jul 06 20:49:04 <arpita>	!
+Jul 06 20:49:29 *	Soumya has quit (Read error: 110 (Connection timed out))
+Jul 06 20:49:42 <kushal>	arpita, yes 
+Jul 06 20:49:55 <kushal>	I almost slept :(
+Jul 06 20:50:10 <arpita>	kushal, what if we want to print only selected values of this list using for command??
+Jul 06 20:50:37 <kushal>	arpita, like only vales greater than 100
+Jul 06 20:50:53 <kushal>	a = [1, 345, 34, 209, 677,12,34]
+Jul 06 20:50:57 <kushal>	for x in a:
+Jul 06 20:51:04 <kushal>	    if x > 100:
+Jul 06 20:51:08 <kushal>	        print x
+Jul 06 20:51:12 <kushal>	arpita, ^^ 
+Jul 06 20:51:26 <rtnpro_>	kushal, can we use here for x in a[0:4]:
+Jul 06 20:51:38 <rtnpro_>	kushal, !
+Jul 06 20:51:45 <kushal>	rtnpro_, to get 0 to 3rd column , yes
+Jul 06 20:51:58 <rtnpro_>	ok
+Jul 06 20:52:10 <kushal>	there is function called range
+Jul 06 20:52:16 <kushal>	range(0,10):
+Jul 06 20:52:27 <kushal>	range(0,10)
+Jul 06 20:52:35 <kushal>	so you can do 
+Jul 06 20:52:45 <kushal>	for i in range(0,10):
+Jul 06 20:52:48 <kushal>	    print i
+Jul 06 20:53:40 <rtnpro_>	done
+Jul 06 20:55:01 <amrita>	!
+Jul 06 20:55:02 <sunny_slls>	!
+Jul 06 20:55:05 <sunny_slls>	!
+Jul 06 20:55:38 *	rtnpro has quit (Read error: 104 (Connection reset by peer))
+Jul 06 20:56:00 <kushal>	amrita, 
+Jul 06 20:56:21 <amrita>	there is no need of writing print i
+Jul 06 20:56:34 <amrita>	without it getting the output
+Jul 06 20:56:49 *	mobilesuit (n=freedom@59.93.200.67) has left #dgplug ("Leaving")
+Jul 06 20:57:11 <rtnpro_>	amrita, but in my case there was syntax error
+Jul 06 20:57:11 <kushal>	amrita, range function returns a list , but to print the values of the list , you have to print them 
+Jul 06 20:57:20 <amrita>	range(0,10) and then on pressing enter output is there
+Jul 06 20:57:23 <rtnpro_>	kushal, !
+Jul 06 20:57:23 <kushal>	sunny_slls, shoot 
+Jul 06 20:57:35 <sunny_slls>	same case\
+Jul 06 20:57:38 <kushal>	amrita, is it same with the code I wrote above ?
+Jul 06 20:57:48 <kushal>	sunny_slls, which same case ?
+Jul 06 20:58:02 <amrita>	kushal, i have written different
+Jul 06 20:58:07 <amrita>	kushal, let me check
+Jul 06 20:58:19 <sunny_slls>	why are we writing range two times?
+Jul 06 20:58:22 <kushal>	rtnpro_, 
+Jul 06 20:58:25 *	mavu has quit (Read error: 110 (Connection timed out))
+Jul 06 20:58:37 <kushal>	sunny_slls, I just wrote, no reason 
+Jul 06 20:58:59 <mavu_>	!
+Jul 06 20:59:10 <amrita>	kushal, !
+Jul 06 20:59:18 <kushal>	mavu_, yes
+Jul 06 20:59:24 <rtnpro_>	kushal, I had the same query as amrita's but in my case there was syntax error?
+Jul 06 20:59:36 <mavu_>	when i try without print i it gives me an error saying expected an indented block
+Jul 06 20:59:47 <kushal>	rtnpro_, please paste and give us link
+Jul 06 20:59:49 <amrita>	!
+Jul 06 21:00:06 <kushal>	mavu_, yes, as it is expecting some statement inside if block 
+Jul 06 21:00:09 *	NIK (n=a@117.201.96.183) has joined #dgplug
+Jul 06 21:00:13 <rtnpro_>	kushal, I think printing is mandatory when I use for x in a:
+Jul 06 21:00:14 <kushal>	amrita, yes please 
+Jul 06 21:00:18 <rtnpro_>	kushal, is it so?'
+Jul 06 21:00:30 <kushal>	rtnpro_, no, you can do anything inside that loop
+Jul 06 21:00:32 <kushal>	like
+Jul 06 21:00:37 <kushal>	for x in a:
+Jul 06 21:00:37 <amrita>	kushal, i have done range(0,10) without the colon
+Jul 06 21:00:50 <kushal>	    b  = 90
+Jul 06 21:01:03 <kushal>	amrita, yes, you called the function 
+Jul 06 21:01:05 <amrita>	kushal, then there is no error
+Jul 06 21:01:23 <kushal>	amrita, yes, that colon was typo
+Jul 06 21:01:28 <amrita>	kushal, without writing print i
+Jul 06 21:01:37 <amrita>	kushal, i got output
+Jul 06 21:01:48 <rtnpro_>	kushal, http://rafb.net/p/ZJzY5z11.html
+Jul 06 21:01:49 <kushal>	amrita,  is it same with the code I wrote ?
+Jul 06 21:01:57 <techno_freak>	amrita, if you do it in interactive prompt you will
+Jul 06 21:02:11 <kushal>	amrita, that will return you a list
+Jul 06 21:02:15 *	Prakhar_Geek (n=prakhar@122.163.69.208) has joined #dgplug
+Jul 06 21:02:19 <amrita>	kushal, yes
+Jul 06 21:02:21 <rtnpro_>	kushal, I got it..I didn't give :
+Jul 06 21:02:29 <kushal>	amrita, No
+Jul 06 21:02:35 <kushal>	amrita, see
+Jul 06 21:02:38 <rtnpro_>	Its clear now
+Jul 06 21:02:47 <amrita>	kushal, i am getting the list
+Jul 06 21:03:20 *	Prakhar has quit (Read error: 104 (Connection reset by peer))
+Jul 06 21:03:22 <kushal>	amrita, in the code ?
+Jul 06 21:03:50 <amrita>	kushal, of which code are you talking about
+Jul 06 21:03:56 <amrita>	kushal, i am confused
+Jul 06 21:03:58 <kushal>	amrita, see http://rafb.net/p/AMYRHB75.html  , first range returns a list 
+Jul 06 21:04:11 <kushal>	amrita, the example of for loop 
+Jul 06 21:04:15 <kushal>	using range
+Jul 06 21:04:19 <amrita>	ok
+Jul 06 21:04:39 <rtnpro_>	kushal, see this http://rafb.net/p/eJ5d5v78.html
+Jul 06 21:04:49 <rtnpro_>	kushal, !
+Jul 06 21:04:57 <kushal>	ok
+Jul 06 21:05:24 <amrita>	kushal, yes i got the correct output,thanks
+Jul 06 21:05:30 *	Prakhar_Geek has quit (Client Quit)
+Jul 06 21:05:40 <kushal>	rtnpro_, you are supposed to write something inside that for loop 
+Jul 06 21:05:47 <kushal>	rtnpro_, you never wrote anything 
+Jul 06 21:05:51 *	Prakhar (n=prakhar@122.163.69.208) has joined #dgplug
+Jul 06 21:06:05 <rtnpro_>	kushal, I tried keeping it blank
+Jul 06 21:06:13 <rtnpro_>	kushal, ok ...got it
+Jul 06 21:06:17 <kushal>	rtnpro_, then it is correct 
+Jul 06 21:07:35 <kushal>	Now people please write some example codes using for and while loop 
+Jul 06 21:07:39 *	mobilesuit (n=freedom@59.93.200.67) has joined #dgplug
+Jul 06 21:08:09 <kushal>	We will see you codes later some other day
+Jul 06 21:08:25 <kushal>	<--CLASS OVER-->

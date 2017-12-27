@@ -1,0 +1,310 @@
+[16:38:19] [## Class Started at Thu Jul 28 16:38:19 2016 ##]
+[16:38:19] <kushal> startclass
+[16:38:23] <kushal> Roll Call
+[16:38:24] <akshays> Akshay Shipurkar
+[16:38:29] <SpEcHiDe> Shrimadhav U K
+[16:38:30] <smdeep> Sudeep Mukherjee
+[16:38:31] <riskarsh> Utkarsh Shukla
+[16:38:31] <ksaikiranr> K Sai Kiran
+[16:38:31] <PrashantJ> Prashant Jamkhande
+[16:38:32] <avik> Avik Mukherjee
+[16:38:34] <vbhjain> vaibhav jain
+[16:38:34] <D1mz> Aditya Bayana
+[16:38:36] <jargonmonk>  Aniket Khisti
+[16:38:38] <suniva> Suniva Priyadarshini
+[16:38:39] <akash47> Akash Mishra
+[16:38:40] <yash_b> yash bhardwaj
+[16:38:41] <jogender> Jogender Kota
+[16:38:44] <chshbh> Avinash Madhukar
+[16:38:55] <sanchitkum> Sanchit Kumar
+[16:38:55] <Anupama> Anupama Mandal
+[16:38:55] <akshay_> Akshay
+[16:38:55] <anushil05> Anushil Kumar
+[16:38:56] <abstatic> Abhishek Shrivastava
+[16:39:04] <moon45> Mamoon Manzoor
+[16:39:05] <anjali_> Anjali pardeshi
+[16:39:19] <tabrez> Tabrez khan
+[16:39:20] <mahesh5> Mahesh
+[16:39:23] <shauryak_3> Shaurya Kalia
+[16:39:45] <sandeepmaity09> Sandeep Maity
+[16:39:48] <aman_> Aman Kumar
+[16:39:51] <Onkar> Onkar Karale
+[16:39:56] <fhackdroid> sources to learn about security !
+[16:39:57] <rl56> Varsha R
+[16:40:05] <mbtamuli12> Mriyam Tamuli
+[16:40:06] <huzaifas> fhackdroid:  what answer did siddhesh give?
+[16:40:08] <iKshitij> Kshitij
+[16:40:20] <vhelar> Vivek Shelar
+[16:40:20] <sandeepk> sandeep kumar choudary
+[16:40:31] <vharsh> Harsh Vardhan
+[16:40:37] <kushal> huzaifas, Okay, you can start now :)
+[16:40:39] <kushal> clearqueue
+[16:40:41] <moizsajid> Moiz Sajid
+[16:40:41] <gobinda_> Gobinda Akhuli
+[16:40:43] <siddhesh> huzaifas, to learn to read and debug someone else's code
+[16:40:56] <huzaifas> siddhesh:  you cant learn about security doing that
+[16:40:58] <shobhitupadhyay> shobhit upadhyay
+[16:41:01] <huzaifas> believe me
+[16:41:04] <gunjan> gunjan
+[16:41:15] <fhackdroid> I was typing but then siddhesh replied :P
+[16:41:33] <siddhesh> huzaifas, no, but it is among the most important skills
+[16:41:36] <huzaifas> so before i start todays session, i want to answer one question which was asked frequently in the last session
+[16:41:36] <vibhcool> Vibhor ver.a
+[16:41:52] <huzaifas> and the question is what is a good password waller
+[16:41:54] <huzaifas> wallet
+[16:42:05] <pabitra> Pabitra Pati
+[16:42:16] <huzaifas> i dont use, a gui, but upon investigation it seems keepass is a good option
+[16:42:22] <huzaifas> its secure, available for desktop and mobile
+[16:42:35] <huzaifas> and doesnt have a lot of flaws :)
+[16:42:52] <kushal> huzaifas, have you used pass?
+[16:43:12] <huzaifas> but remember, all crypto is vulnerable to brute force, so stronger your wallet password, less likely it is to fall to brute force
+[16:43:20] <kushal> https://www.passwordstore.org/
+[16:43:22] <huzaifas> kushal:  nope, i use a gpg protected text file
+[16:43:30] <kushal> huzaifas, it is the same :)
+[16:43:46] <huzaifas> so the above being said, any other question from the previous session, before i start this one?
+[16:44:07] <vibhcool> !
+[16:44:31] <kushal> next
+[16:44:48] * fhackdroid still waiting for his answers
+[16:45:02] <vibhcool> How can a website or a network be hacked except techniques like brute force to search password
+[16:45:34] * mbtamuli12 thinks it's nice that pass exists for Arch too. Thanks kushal
+[16:45:47] * akshays also has same question as fhackdroid 
+[16:47:21] <vibhcool> huzaifas: And except sql injection?
+[16:47:24] <kushal> huzaifas, please continue with the session.
+[16:47:46] <huzaifas> vibhcool:  apart from sql injection there are several other flaws a web site can be vulnerable to, direct command injection (commands directly run on the underlying OS), database objection injections, insecure file handling,
+[16:48:26] <huzaifas> bypassing auth , predictable session cookies, insecure file uploads (upload files which look like images, but they are actually code)
+[16:48:47] <huzaifas> vibhcool:  owasp will give you a good reference to the various techniques and mitigations
+[16:49:12] <madhurii> Roll call: Madhuri Muely
+[16:49:20] <huzaifas> but sql injection remains the most common, mainly because most websites use sql, developers dont know how to sanitize inputs and there are automated tools which can do sql injection
+[16:49:25] <huzaifas> sp blind sql injection
+[16:49:34] <huzaifas> vibhcool:  did this answer your question?
+[16:49:35] <huzaifas> next
+[16:50:26] <huzaifas> fhackdroid:  i can tell you, how i learned about security after we finish and if we have time, and i did not learn by reading code, a lot of open source code out there are ship wrecks
+[16:50:29] <vibhcool> huzaifas: So why are we more concerned about passwords?
+[16:50:46] <huzaifas> some of them are impossible to read, openssl/nss etc
+[16:51:14] <huzaifas> vibhcool:  its the easiest to attack and something we can control
+[16:51:57] <poonam> Roll call : poonam jadhav
+[16:52:04] <huzaifas> so next thing which i wanted to discuss yesterday was installation of software
+[16:52:11] * fhackdroid waiting for that :)
+[16:52:12] <huzaifas> we will use fedora as an example here
+[16:52:57] <huzaifas> Most linux distributions have a standard/secure way to install new software, sp packaged for it
+[16:53:06] <huzaifas> A good practice is to install only packages via the fedora repo,
+[16:53:14] <huzaifas> the fedora repo has a gpg key, which is a good way to ensure that the packages are indeed coming from the repo
+[16:53:48] <huzaifas> the packages are themselves signed with a gpg key, and the public key is available on the internet, so you can always check if the packages are coming from a valid repo etc
+[16:53:56] <huzaifas> fedora has a very good practice of package review where the package is thoroughly reviewed before its allowed to enter the repo
+[16:54:09] <vibhcool> huzaifas: thank you :)
+[16:54:20] <huzaifas> however imo there are many loop holes and they need to be fixed
+[16:54:27] <huzaifas> a lot of other distros i know dont have a good review process
+[16:54:56] <huzaifas> though all distrubutions suffer from weaknesses like any trusted person can introduce a back door intentionally
+[16:55:23] <huzaifas> For packages that are not available in the fedora repo, mainly because it cant be packaged
+[16:55:30] <huzaifas> like media players etc, rpmfusion is a good source
+[16:55:41] <huzaifas> never install software from unknown/untrusted sources
+[16:55:50] <huzaifas> installing binary blobs is bad
+[16:56:12] <huzaifas> some binary blobs are just repackged as rpms, but they arent build from source, good example is skype, flash-plugin etc
+[16:56:25] <huzaifas> you dont know what it contains or what it can do to your system
+[16:56:32] <huzaifas>  sometimes there is no alternative but to use it, if that is the case, make sure its properly protected
+[16:56:54] <huzaifas> various ways to "protect" , use a sandbox, use a vm etc
+[16:57:10] <huzaifas> good example is flash
+[16:57:16] <huzaifas> there are several good alternatives to flash example HTML5
+[16:57:24] <huzaifas> but since flash is highly proliferated into the web, sometimes you need to install it
+[16:57:31] <huzaifas>  some browsers give good protection against plugins
+[16:57:49] <huzaifas> chromium is able to sandbox flash so that a flash exploit will not cause a "lot" of harm to your system
+[16:58:28] <huzaifas> java is another good example, java exploits are often common and are sold in exploit packs
+[16:58:46] <huzaifas> a lot of browsers allow you to have a whitelist for java
+[16:59:26] <huzaifas> meaning list of sites, fqdns which will can use java only, any other site containing a java applet, will not render, so if you need java for some internal company website, whitelist it, everything else will not be able to use it
+[16:59:30] <huzaifas> one less thing to worry about
+[16:59:41] <huzaifas> next firewalls
+[16:59:53] <huzaifas> These are a mechanism so allow or disallow people to access specific network ports on your machine
+[17:00:00] <huzaifas> firewalls are a very big topic on its own
+[17:00:06] <huzaifas> often default firewalls are good enough
+[17:00:10] <huzaifas> in fedora for example
+[17:00:15] <huzaifas> DONT disable them
+[17:00:40] <huzaifas> if something services dont worry, figure out a way to open the port (understand what you are doing first), rather than disable the whole firewall
+[17:00:57] <huzaifas> iptables are often used in most distros
+[17:01:22] <huzaifas> fedora has firewalld as well, which allow you to change firewalls rules, without reloading kernel modules etc, quite flexible
+[17:01:46] <huzaifas> next other security features - selinux
+[17:02:00] <huzaifas> a lot of distributions ship with selinux now
+[17:02:25] <huzaifas> selinux implements mandatory access control
+[17:02:49] <huzaifas> but not all daemons are protected by selinux, so if something run unconfined, than there is nothing selinux can do
+[17:03:03] <huzaifas> most common daemons which are attacked, like httpd, sshd, ftpd etc are nicely protected
+[17:03:16] <huzaifas> again if thing dont work , dont disable it, try to figure out, or ask someone what is wrong
+[17:03:46] <huzaifas> i have seen a lot of cases where selinux stoped attacks of systems
+[17:03:53] <huzaifas> i have seen security flaws which are blocked by selinux
+[17:04:25] <huzaifas> some more misc advice
+[17:04:35] <huzaifas> wireless access:
+[17:04:51] <huzaifas> i dont trust any wireless access point, public ones are the worst
+[17:05:08] <huzaifas> so when you connect at starbucks, at the airport or anywhere else, you are easily vulnerable to mitm
+[17:05:35] <huzaifas> even if you dont transmit your passwords on wireless, various backgrounds app do that, for example gmail sync etc
+[17:06:04] <huzaifas> one good solution is to buy a vpn end point solution, some vpn on the internet where you pay some amount a year and you get to connect via their vpn concentrator
+[17:06:26] <huzaifas> this creates an enc tunnel through will all traffic will pass
+[17:06:32] <huzaifas> not easy to break
+[17:06:45] <huzaifas> use two factor when ever possible
+[17:07:08] <huzaifas> and last but not least if you dont understand something ask
+[17:07:14] <huzaifas> any questions before i proceed?
+[17:07:44] <vibhcool> !
+[17:07:49] <sandeepmaity09> !
+[17:08:09] <vbhjain> !
+[17:08:12] <anushil05> !
+[17:08:14] <huzaifas> next
+[17:08:41] <vibhcool> google transmits its own passwords, can other apps access other app's passwords
+[17:08:43] <vibhcool> ?
+[17:09:17] <huzaifas> vibhcool:  are you asking, if two android apps are running on your phone, can one of them access the data from the other app?
+[17:09:30] <vibhcool> Yes sir
+[17:09:38] <iKshitij> !
+[17:09:51] <vibhcool> Also on ios
+[17:09:59] <huzaifas> vibhcool:  nope, android makes sure that does not happen, like most modern protected mode operating system, ios also
+[17:10:29] <vibhcool> ok :)
+[17:10:35] <huzaifas> so unless there is some native code backdoor, that should not happen
+[17:10:38] <huzaifas> next
+[17:10:52] <sandeepmaity09> What is enc tunnel ?
+[17:11:15] <huzaifas> ah sorry for the acronym, i meant "encrypted tunnel"
+[17:11:34] <huzaifas> something which vpns do, create a end to end tunnel, in which data is encrypted, not vulnerable to mitm attacks, like access points etc
+[17:11:58] <sandeepmaity09> ohk got it.
+[17:12:01] <huzaifas> all data passes through the tunnel, as long as the end points are strong/trusted, no one can read the packets
+[17:12:02] <sandeepmaity09> Thanks
+[17:12:08] <huzaifas> next
+[17:12:11] <vbhjain> huzaifas , how the daemons are attacked ?  like httpd or any other ?
+[17:12:45] <yash_b> !
+[17:12:50] <huzaifas> vbhjain:  so typical attack scenario, i find a weakness in your website, maybe a Remote file include flaw or a local file include flaw, common in php
+[17:12:59] <huzaifas> using that i can get control of the OS
+[17:13:21] <huzaifas> now if selinux is running, it makes sure, that you only have access to resources which httpd_t can have access to
+[17:13:36] <huzaifas> so even if the httpd server is compromised, user can read/steal data from the home dir etc
+[17:14:03] <huzaifas> i once found a web site, which allows you to run arbitary local commands via something like
+[17:14:12] <huzaifas> http://www.example.com?id=/bin/ls
+[17:14:28] <huzaifas> this used to print output of /bin/ls inside a frame on the website
+[17:15:10] <vbhjain> huzaifas , thanks
+[17:15:16] <huzaifas> how i can create a program , upload that via some mechanism and do http://www.example.com?id=/home/foo/myapp
+[17:15:25] <huzaifas> this myapp creates a reverse tunnel and its game over :)
+[17:15:28] <huzaifas> next
+[17:15:52] <anushil05> 1)mitm is ?
+[17:15:52] <anushil05> 2) And what do you mean by two factor
+[17:15:52] <anushil05> 3)but can we install some extension in the app so that we can access all the data from that app or software
+[17:16:26] <abhishekg5> man in the middle
+[17:16:27] <sandeepmaity09> mitm=man in the middle
+[17:16:30] <huzaifas> mitm = man in the middle attacker , someone who sits between you and the website and is able to passively or actively snif/change packets
+[17:17:29] <huzaifas> 2. two factor = 2 things are required to authenticate, good example otp, like freeotp, google-authenticator, gemalto/yubikeys, banks use sms etc to authentiate transactions
+[17:18:34] <huzaifas> 3. anushil05 when you install the malicious app, it tells you what access it needs, if install an app, which actives the flash light on your mobile, but it asks for access to your messages, contacts and gallery, you know something is wrong :)
+[17:18:36] <huzaifas> next
+[17:19:53] <iKshitij> My question is not from today's topic. But related to security ! It was in mind..
+[17:20:15] <iKshitij> https://www.irccloud.com/pastebin/8lWF0Uhz
+[17:21:24] <huzaifas> iKshitij:  do websites which authenticate with your gmail account, ask you for your gmail password?
+[17:21:55] <vhelar> Mostly No
+[17:21:59] <iKshitij> Nope ! Google ask for confirmation ! That's it
+[17:22:00] <huzaifas> exactly
+[17:22:28] <huzaifas> the authentication mechanism is based on the factor that you have a existing gmail/google session and those session details are used for auth
+[17:22:36] <huzaifas> never enter gmail password on a site which is not gmail
+[17:22:41] <iKshitij> I want to know if they can access other data apart from what listed during authorisation !
+[17:23:03] <huzaifas> google servers ensure that only those permissions are given which are confimed by the user
+[17:23:15] <iKshitij> Got it ! Thank you
+[17:23:29] <huzaifas> iKshitij:  i dont believe so, they clealy state what data is going to be shared
+[17:23:31] <huzaifas> next
+[17:23:34] <yash_b> i got my answer , thanks :)
+[17:23:43] <huzaifas> 1 +1 free !
+[17:24:03] <huzaifas> so last thing i want to discuss today is related to certificates
+[17:24:13] <huzaifas> http is a plain text protocol
+[17:24:24] <huzaifas> https wraps http packets using SSL/TLS
+[17:24:48] <huzaifas> when strong protocols are used, httpd should be secure against most modern mitm attacks
+[17:25:11] <huzaifas> however this leads to a problem, how do you know that when you type https://www.gmail.com you are indeed going to gmail and not some other machine?
+[17:25:35] <huzaifas> it is quite possible that your dns is compromised and gmail.com now points to yourattacker.com
+[17:26:00] <huzaifas> yourattacker.com has a similar website to gmail, you enter your password there, check if https is enabled and your password is stolen
+[17:26:11] <huzaifas> this was solved by the use of certificates
+[17:26:52] <huzaifas> certificates are https public keys, along with extra information like fqdn, expiry etc, which are digitally signed by a trusted third party called certificate authority or CA
+[17:27:07] <huzaifas> your browser should contain a list of trusted CAs
+[17:27:34] <huzaifas> so next time you visit https://www.facebook.com in firefox or chrome, notice the address bar turns partly green
+[17:28:12] <huzaifas> this is because your browser is able to verify that the public key of facebook is signed by a certificate authority it trusts, so facebook.com is indeed pointing to facebook.com and not anywhere else
+[17:28:33] <huzaifas> the reason why i wanted to discuss this, was that many people dont understand what certificates are and therefore choose to ignore them :)
+[17:28:44] <huzaifas> any more questions before i end this session?
+[17:29:24] <huzaifas> fhackdroid:  so to answer your question, http://phrack.org was the thing which got me interested in security, 8 years back :0
+[17:29:25] <huzaifas> :)
+[17:29:54] <huzaifas> i bought a few books, but figured out that most of information is outdated, i read some code, but that confused me more
+[17:30:19] <huzaifas> at that point of time, i decided to read up about security flaws and how to exploit them, then i compared this with the code i had read earlier and that made more sense to me then
+[17:30:36] <vbhjain> !
+[17:30:39] <huzaifas> next
+[17:30:43] <vbhjain> huzaifas,is the above example a phishing attack?
+[17:31:17] <huzaifas> vbhjain:  kind of, but doing a dns mitm is much more advance
+[17:31:30] <huzaifas> and can get much more things done
+[17:31:40] <huzaifas> of-course the certificate model called PKI
+[17:31:44] <abstatic> !
+[17:31:55] <huzaifas> public key infrastructure has its own loop holes
+[17:31:56] <huzaifas> next
+[17:32:07] <abstatic> how can i know if my security has been compromised ?
+[17:32:18] <huzaifas> abstatic:  security of what :)
+[17:32:20] <abstatic> OS-level or browser level
+[17:32:35] <abstatic> like if my computer is a part of bot net or something ?
+[17:32:51] <huzaifas> abstatic:  check your logs on regular basis, if they are too noisy find a way of extracting useful information from it, they tell you a lot
+[17:32:59] <huzaifas> secondly
+[17:33:00] <fhackdroid> huzaifas, got it :) thanks
+[17:33:05] <yash_b> !
+[17:33:07] <huzaifas> keep an eye open for anything unusual
+[17:33:35] <huzaifas> an additional user which you did not create, an application you did not install, sudden peaks in cpu/mem usage for no reason etc
+[17:33:47] <huzaifas> they help you a lot in figuring out if something is going on in your machine
+[17:33:59] <fhackdroid> huzaifas, site has master Yoda :)
+[17:34:03] <huzaifas> similar for browsers, keep your eyes open, is the generaal answer
+[17:34:08] <huzaifas> next
+[17:34:10] <abstatic> huzaifas, I see. Thanks :)
+[17:34:12] <yash_b> when an app asks for a permit to to access other apps data its primarily us who grant the permission . what if they try to access other apps data without the permit , will that other app deny that intrusion .
+[17:34:12] <anushil05> !
+[17:34:25] <sandeepmaity09> !
+[17:34:34] <huzaifas> yash_b:  i belive the OS wont allow such an access
+[17:34:40] <huzaifas> next
+[17:34:49] <anushil05> Some videos from where we can learn about security and breaking it
+[17:35:00] <huzaifas> ah i like securitytube.com
+[17:35:02] <anushil05> How the things work
+[17:35:02] <yash_b> so by allowing that permition we tell the os to allow the permition
+[17:35:25] <huzaifas> yash_b:  roughly yes
+[17:35:35] <huzaifas> next
+[17:36:09] <yash_b> can this thing(permit to access other apps data) not be exploited in any way .
+[17:36:14] <huzaifas> ok , this is the last question for today, anything else, i can take next time
+[17:36:24] <huzaifas> yash_b:  maybe you can find a way ? :)
+[17:36:26] <yash_b> i mean do have something handy in mind
+[17:36:27] <sandeepmaity09> This question is Off-topic. But If i want to access the internet as being anonymous . which is better a open vpn or the tor browser ?
+[17:37:10] <huzaifas> sandeepmaity09:  so openvpn = confidentiality+integrity, tor = anonymity two different things :)
+[17:37:31] <huzaifas> you can be safe and not anonymous , and you can be both :)
+[17:37:36] <mbtamuli12> !
+[17:37:47] <huzaifas> mbtamuli12:  next time, i am tried of typing now :)
+[17:37:59] <mbtamuli12> Sure! :)
+[17:38:03] <huzaifas> maybe we can do another session next week, if people are interested
+[17:38:09] <huzaifas> kushal:  EOF
+[17:38:17] <mbtamuli12> I can see that. Lots of typos
+[17:38:19] <sandeepmaity09> ohk . got it :-)
+[17:38:41] <sandeepmaity09> thanks huzaifas
+[17:38:57] <mbtamuli12> Thanks for this session.
+[17:38:59] <smdeep> huzaifas: Thanks for a wonderful session. We would love to have more!
+[17:39:00] <iKshitij> Thanks huzaifas
+[17:39:08] <vbhjain> huzaifus, there are many sites which people think are for songs download but they upload songs file with its content modified (generally malicious) how can we ensure that the songs we are downloading are not morphed ?
+[17:39:08] <abhishekg5> Informative session. Thanks huzaifas
+[17:39:09] <PrashantJ> huzaifas, Thank you:)
+[17:39:20] <aman_> such a useful lecture, Thanks @huzaifas
+[17:39:25] <anushil05> We will wait to learn more
+[17:39:39] HoloIRCUser is now known as jogender
+[17:39:39] <tabrez> huzaifas,Thanks for the session
+[17:40:18] <huzaifas> seeya later all !
+[17:40:19] <sandeepmaity09> huzaifas, Thanks a lot for the informative session :-)
+[17:40:25] <jargonmonk> thanks for the session.
+[17:40:30] <kushal> Roll call
+[17:40:33] <vhelar> Thank you ,huzaifas :)
+[17:40:38] <tabrez> Tabrez khan
+[17:40:39] <abhishekg5> Abhishek Gupta
+[17:40:40] <vbhjain> Vaibhav Jain
+[17:40:41] <vibhcool> Vibhor verma
+[17:40:44] <jogender> Jogender Kota
+[17:40:45] <suniva> Suniva Priyadarshini
+[17:40:46] <avik> Avik Mukherjee
+[17:40:46] <vhelar>  Vivek Shelar
+[17:40:47] <sandeepmaity09> Sandeep Maity
+[17:40:47] <smdeep> Sudeep Mukherjee
+[17:40:49] <jargonmonk> Aniket Khisti
+[17:40:49] <deep123k> Deepanshu kapoor
+[17:40:50] <rl56> Varsha R
+[17:40:50] <akash47> Akash Mishra
+[17:40:51] <poonam> poonam jadhav
+[17:40:54] <Anupama> Anupama Mandal
+[17:40:54] <anjali_> Anjali Pardeshi
+[17:41:00] <pabitra> Pabitra PAti
+[17:41:04] <HoloIRCUser3> Mamoon Manzoor
+[17:41:08] <vharsh> Harsh Vardhan
+[17:41:10] <PrashantJ> Prashant Jamkhande
+[17:41:15] <sandeepk>  sandeep kumar choudhary
+[17:41:19] <abstatic> Abhishek Shrivastava
+[17:41:32] <LambaInsaan> Rhitik Bhatt
+[17:41:52] <kushal> endclass
+[17:41:52] [## Class Ended at Thu Jul 28 17:41:52 2016 ##]

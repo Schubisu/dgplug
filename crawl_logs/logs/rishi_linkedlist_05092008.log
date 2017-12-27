@@ -1,0 +1,423 @@
+<rishi_> If we forget about the computer in front of us, then a linked list is like a long roll of paper.
+<rishi_> A long roll of paper on which we can keep jotting down points one after the other without knowing how many points will be there at the end.
+<rishi_> Like this:
+<rishi_> + "potato"
+<rishi_> + "onion"
+<rishi_> + "garlic"
+<rishi_> + "roses"
+<rishi_> + "jasmine"
+<rishi_> And every time I write down something with (eg., + "rose"), I unroll the paper a bit to accomodate the new entry.
+* mavu (n=mavu@59.178.188.219) has joined #dgplug
+<rishi_> I keep unrolling the paper till the roll runs out.
+* amrita has quit (Nick collision from services.)
+<rishi_> So if we open our eyes and look at the computer in front of us, we can find some similarities between our roll of paper and the computer.
+* amrita_ is now known as amrita
+<rishi_> The primary memory (or RAM) is the equivalent of the paper roll.
+<rishi_> And instead of jotting down things on a paper, we store data in the primary memory (we will use memory as a synonym).
+<rishi_> So the deal is to store data.
+* mavu__ (n=mavu@59.178.169.8) has joined #dgplug
+<rishi_> Doubts?
+<mavu__> please forgive my UPS quirks
+<kishan> no
+* amrita has quit (Read error: 104 (Connection reset by peer))
+<rishi_> mavu__: Happens.
+* chacha_chaudhry (n=rpmbuild@gnu-india/supporter/rakeshpandit) has joined #dgplug
+<rishi_> Ok.
+<rtnpro> no
+<rishi_> Before moving further ahead, lets have a brief look at something else.
+* amrita (n=amrita@117.201.96.153) has joined #dgplug
+<rishi_> What if we were jotting down points on a torn sheet of paper instead of a paper roll?
+<rishi_> A torn sheet of paper is limited in length and unlike a paper roll can not be unrolled to get fresh paper.
+<rishi_> So if the sheet has space for 10 lines, you can only add 10 lines. Not 11, not 12, not 100.
+<rishi_> This torn sheet of paper is basically an array.
+* Debashree_ (n=Debashre@117.201.97.235) has joined #dgplug
+* karunakar has quit ("Leaving")
+<rishi_> Just like the size of an array is pre-determined before it is used, the length of the sheet is fixed.
+<rishi_> So the advantage of using the paper roll (or linked list) over a torn sheet (or array) is that you need not be bothered about how many points (or data elements) you need to store beforehand.
+<rishi_> Doubts?
+<rtnpro> none till now
+<Debashree> no
+<kishan> no.
+<amrita> no
+<rishi_> Nice.
+<arpita> no
+<rishi_> So the crucial part in using a paper roll is unrolling the roll to make space for new points.
+<rishi_> In terms of a computer, it is what we call allocating a new node.
+<rishi_> So as I wrote earlier, points in a paper roll will look like:
+<rishi_> + "roses"
+<rishi_> + "garlic"
+* mavu_ has quit (Read error: 110 (Connection timed out))
+<rishi_> + "potato"
+<rishi_> So if "rose" is the data, the "+" represents the node containing the data.
+<rishi_> And every time we add a new point we add a new "+" or allocate memory for a new node.
+<rishi_> Doubts?
+<kishan> none.
+* Soumya (n=Soumya@117.192.10.125) has joined #dgplug
+<kamalx> no
+* amrita_ (n=amrita@117.201.97.232) has joined #dgplug
+<rishi_> So let show you the C code for writing new '+'s or allocating memory for new nodes.
+<rishi_> struct node
+<rishi_> {
+<rishi_>   char data;
+<rishi_>   struct node * next;
+<rishi_> };
+<rishi_> ...
+<rishi_> ...
+<rishi_>   struct node * newnode;
+<rishi_>   newnode = (struct node *) malloc (sizeof (struct node));
+<rishi_>   if (newnode == NULL)
+* rtnpro has quit ("http://www.mibbit.com ajax IRC Client")
+<rishi_>     error (EXIT_FAILURE, 0, "malloc: out of memory");
+<rishi_>   newnode->data = 'r';
+<rishi_>   newnode->next = NULL;
+<rishi_> The malloc function does the magic of allocating some memory for us. It unrolls the paper.
+<rishi_> To make this memory usable as a linked list node, we type the address of the memory and store it in a pointer (variable storing addresses) to a 'struct node'.
+<rishi_> Just have a look at 'struct node'.
+<rishi_> It has space to store some data. For simplicity I have used a character as data. So instead of storing "potato", "rose" and "garlic" we will store 'p', 'r' and 'g'.
+<rishi_> Any doubts with this code snippet?
+<kishan> not yet.
+* mavu has quit (Read error: 110 (Connection timed out))
+<mavu__> nope
+<rishi_> So we have our first entry in the linked list.
+<harsh> no
+<rishi_> We usually remember the first entry (or '+') for future use.
+<arpita> rishi_, the error function's parameters please explain
+* Debashree_ has quit ("Leaving")
+<rishi_> arpita: $ man 3 error
+<rishi_> It basically prints out a error message and exits the program and returns the first argument as its exit code.
+* rtnpro (i=756308a0@gateway/web/ajax/mibbit.com/x-145b36576fbf4f1f) has joined #dgplug
+<rishi_> Ok. So let me elaborate the earlier code a bit more:
+<rishi_> struct node
+<rishi_> {
+<rishi_>   char data;
+<rishi_>   struct node *next;
+<rishi_> };
+<rishi_> struct node *list = NULL;
+<rishi_> struct node *
+<rishi_> new_node (struct node *list, const char data)
+<rishi_> {
+<rishi_>   struct node *newnode;
+<rishi_>   newnode = (struct node *) malloc (sizeof (struct node));
+<rishi_>   if (newnode == NULL)
+<rishi_>     error (EXIT_FAILURE, 0, "malloc: out of memory");
+<rishi_>   newnode->data = data;
+<rishi_>   newnode->next = NULL;
+<rishi_>   if (list == NULL)
+<rishi_>     return newnode;
+<rishi_>   /* some more code */
+<rishi_>   ...
+<rishi_>   ...
+<rishi_>   return list;
+<rishi_> }
+<rishi_> Now I have encapsulated the earlier code into a function.
+<rishi_> The function is still incomplete, so don't start compiling it yet.
+* chacha_chaudhry has quit (Read error: 110 (Connection timed out))
+* munichlinux has quit (Read error: 110 (Connection timed out))
+* amrita has quit (Read error: 110 (Connection timed out))
+* amrita_ is now known as amrita
+<rishi_> kushal: Shall we use pastebin for code samples?
+<rishi_> If we use pastebin, they will not be a part of the logs.
+<kushal> rishi_, on te, I will put them on log later
+<kushal> rishi_, I will do the manual work, no problem 
+<kushal> rishi_, go ahead
+<rishi_> http://fpaste.org/paste/5767
+----------------
+#include <error.h>
+#include <stdlib.h>
+
+struct node
+{
+  char data;
+  struct node *next;
+};
+
+struct node *
+new_node (struct node *list, const char data)
+{
+  struct node *newnode;
+
+  newnode = (struct node *) malloc (sizeof (struct node));
+  if (newnode == NULL)
+    error (EXIT_FAILURE, 0, "malloc: out of memory");
+
+  newnode->data = data;
+  newnode->next = list;
+
+  return newnode;
+}
+
+int
+main (void)
+{
+  struct node *list = NULL;
+
+  list = newnode (list, 'r');
+  return 0;
+}
+--------------------------
+
+<rishi_> Everybody please have a look.
+<rishi_> There is a slight difference between this code and our paper unrolling.
+<rishi_> Instead of adding new elements at the back of the list, we are adding them in front.
+<rishi_> Doubts?
+* rishi_ is waiting
+<rtnpro> its giving some errors
+<rishi_> It might.
+<rishi_> I am writing them impromptu.
+<rishi_> It is more important for you to be able to read and understand the code.
+<kishan> yupp...some errors...
+<kishan> seems fine..
+<rishi_> Since the idea is for you to be able to write it yourself.
+<rishi_> Copy pasting into a editor and compiling doesn't serve the purpose. :-)
+<rtnpro> rishi_: !
+<rishi_> rtnpro: Ask.
+<rtnpro> what do you mean by <struct node *list=NULL>
+<rtnpro> rishi_: Is NULL the value of the pointer list?
+<rishi_> rtnpro: Which line are you referring to?
+<rtnpro> rishi_: line 28
+<rishi_> rtnpro: Initially the list is empty.
+<rishi_> ie., no paper has been rolled out from the paper roll.
+* Soumya has quit (Read error: 110 (Connection timed out))
+<rishi_> So we represent that in the computer with a pointer pointing to NULL (ie., nowhere).
+* Soumya (n=Soumya@117.192.6.210) has joined #dgplug
+<rishi_> rtnpro: Am I clear?
+* rishi_ is waiting
+<rtnpro> yes
+* amrita has quit (Remote closed the connection)
+<rtnpro> What did you do by this program?
+<rtnpro> It will create a list having a single node only, isn't it?
+<rishi_> rtnpro: Yes.
+* Debashree has quit ("Leaving")
+<rishi_> http://fpaste.org/paste/5768 is more interesting now.
+-----------------------
+#include <error.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+struct node
+{
+  char data;
+  struct node *next;
+};
+
+struct node *
+new_node (struct node *list, const char data)
+{
+  struct node *newnode;
+
+  newnode = (struct node *) malloc (sizeof (struct node));
+  if (newnode == NULL)
+    error (EXIT_FAILURE, 0, "malloc: out of memory");
+
+  newnode->data = data;
+  newnode->next = list;
+
+  return newnode;
+}
+
+void
+traverse_list (struct node *list)
+{
+  struct node *cur;
+
+  for (cur = list; cur != NULL; cur = cur->next)
+    putchar (cur->data);
+
+  putchar ('\n');
+  return;
+}
+
+int
+main (void)
+{
+  struct node *list = NULL;
+
+  list = new_node (list, 'r');
+  list = new_node (list, 'g');
+  list = new_node (list, 'j');
+
+  traverse_list (list);
+  return 0;
+}
+-----------------------
+<rtnpro> rishi_: got it
+<rishi_> Bascially our list looks like this:
+<rishi_> list ----> ('j', <address of next node>) ----> ('g', <address of next node>) ----> ('r', NULL) ---->
+* Soumya_ (n=Soumya@117.192.6.210) has joined #dgplug
+* Soumya__ (n=Soumya@117.192.6.210) has joined #dgplug
+<rishi_> Please note that each node does not only contain the data part.
+<rishi_> The address of the next node is also noted.
+* mavu__ is now known as mavu
+<rishi_> This has some advantages.
+<rishi_> Since we are noting the address, there is no need for consecutive nodes to be in contiguous memory locations.
+* abc (n=Soumya@117.192.6.210) has joined #dgplug
+<rishi_> So unlike our paper roll which is one long strip, our list is more flexible.
+<rishi_> It is scattered all over the memory with each node knowing the location of its successor.
+<rishi_> This is an advantage over arrays as well.
+<rishi_> Since arrays are one single chunk of memory, it might become difficult to get one very big chunk to be allocated to an array. However it is far likely that you will have empty spaces scattered here and there.
+<rishi_> Questions?
+* Soumya has quit (Remote closed the connection)
+* abc has quit (Remote closed the connection)
+* Soumya_ has quit (Read error: 104 (Connection reset by peer))
+* Soumya__ has quit (Read error: 104 (Connection reset by peer))
+<rtnpro> rishi: won't searching the next nodes take time in case of linked lists
+<rtnpro> rishi_: since it is scattered
+<rishi_> rtnpro: Depends on what you mean by the term searching.
+<rishi_> rtnpro: But yes, linked lists are inherently associated with algorithms of complexity O(n).
+<rishi_> Arrays on the other hand can be accessed in O(1) given we know the index of the element.
+<rtnpro> rtnpro: searching means to find a partcular data
+<rtnpro> rishi_: !
+<rishi_> rtnpro: Yes, that will take O(n).
+<rishi_> rtnpro: Assuming that you don't know the address of the node having the data.
+<rishi_> rtnpro: Ask.
+<rishi_> rtnpro: Ask.
+<rtnpro> arrays are linear arrangement of data and a continuous allocation of bits
+<rtnpro> but linked lists are not continuous
+<rtnpro> aren't then operating on arrays faster?
+<rtnpro> since in arrays you get all the data in one place
+<rishi_> rtnpro: "operating" is a vague term
+<rishi_> rtnpro: Inserting and deleting something in the middle of an array is costly.
+<rishi_> It is cheaper for a linked list.
+<rishi_> But yes, if you are looking for random access nothing beats an array.
+<rtnpro> ok...and rams are expensive...got it
+<rtnpro> rishi_: thanks
+<rishi_> Any more?
+* rishi_ thinks everyone understood
+<rtnpro> no
+<rtnpro> you can continue
+<kishan> i thnk so...
+<rishi_> Essentially this enough to understand the basic concept of a linked list.
+<rishi_> Since every node has a link to its successor, we use the adjective 'linked'.
+<rishi_> Often the node in a linked list is termed as a self-referential structure.
+<rishi_> 'self-referential' since it has a pointer to an object of the same type (ie., another struct node).
+<rishi_> So can you write the code to insert a new element into a list.
+<rishi_> ?
+<rishi_> Say you are given the address of a node and a data, and you have to insert a new node containing the data after the given node.
+<rtnpro> yes...we can try
+<rishi_> rtnpro: Ok.
+<rishi_> Let us know when you have made some progress.
+<rishi_> Others?
+<mavu> yeah
+<kishan> trying..
+<kamalx> yes trying
+<rishi_> mavu: Not you. :-)
+<rishi_> mavu: I have something slightly more interesting for you.
+<mavu> :) and that is..
+* Soumya (n=Soumya@117.192.6.210) has joined #dgplug
+<mavu> everyone quiet or is it my xchat again?
+<kushal> hehe same question here
+<mavu> ah :D  good we gave each other the answer
+* ria (n=ria@59.161.115.199) has joined #dgplug
+<kushal> rishi_, you there ?
+<rishi_> kushal: Yes.
+<rishi_> rtnpro: Done?
+<harsh> trying
+<rishi_> mavu: Can you write a linked list in C which is not bound to a specific data type?
+<kishan> me too
+<rtnpro> a bit more
+<rishi_> kishan: Trying?
+<mavu> hmm... can try :)
+<kishan> yes
+<rishi_> mavu: Nice.
+<rishi_> kishan: How far?
+<mavu> all basic types of the type can be user defined too?
+* arpita has quit (Read error: 110 (Connection timed out))
+<kushal> ria, oh. ok
+<kishan> http://fpaste.org/paste/5769
+<kushal> s/ria/rishi_
+<rishi_> mavu: Yes.
+<rishi_> kishan: That is not a linked list.
+<rishi_> kushal: ?
+<kushal> kishan, that looks like a single wagon 
+<kamalx> http://fpaste.org/paste/5770
+<kushal> kishan, we are looking for the train
+<kishan> a part...
+<kushal> ria, nothing 
+<rishi_> kishan: Here is the prototype of the function:
+<kishan> eh...still writing...
+<rishi_> struct node * insert_node (struct node *node, char data);
+<rishi_> It should return the address of the node it inserted.
+<rishi_> kushal: :-)
+<kushal> eh
+<kushal> rishi_, that was for you :p
+<rishi_> kamalx: You are close.
+<rishi_> kamalx: Lines 7-8 are a bit messed up.
+<kamalx> rishi_: guess i missed the return?
+<kushal> kamalx, and next value for the last node
+<rishi_> No need for the return. Your function returns void anyway.
+<kamalx> yeah ok
+<rishi_> kamalx: newnode->next = last->next;
+<rishi_> kamalx: ^^^^ needs to be somewhere.
+<kamalx> oh right :)
+* rishi_ waits
+<kamalx> oh no.. i got confused.. `newNode` is the one just created. and `last` was the one passed to this function to append after
+<kamalx> so shouldn't i update the pointer of last->next to the address of this new node?
+<rishi_> kamalx: Yes.
+<kamalx> and the next in this new node should be NULL then?
+<rishi_> kamalx: It should be the successor of 'last'.
+<kamalx> yes. isn't this also the last node appended in the list. or can it be anywhere in between.. ah. now i got it.. :P
+<rishi_> kamalx: Nice.
+<mavu> i guess i have an idea how to do
+<rishi_> mavu: How?
+<rishi_> What about the others?
+<rishi_> Has everyone fallen asleep?
+<mavu> rishi_, ah sorry was not following the conversation here.. was talking about the program you asked me to do
+* sunny_slls (n=sunny@125.20.11.34) has joined #dgplug
+<rishi_> mavu: Me too. :-)
+<mavu> i was doing it with type def
+<mavu> declare whatever structure you want and typedef to 'datatype' then write a normal linked list program where the data is of the type datatype
+<kushal> or type of void * ?
+<rishi_> mavu: I like kushal's approach.
+<kamalx> rishi_: http://fpaste.org/paste/5771
+<rtnpro> http://mibbit.com/pb/PTqE6p
+<rishi_> mavu: But thinking of it now, I think you have an interesting idea.
+<rtnpro> rishi_: here's the link
+<rishi_> void * will take away all the type checking.
+<kushal> rtnpro, btw , try some better pastebins liek rafb or fpaste 
+<mavu> can you please explain how should i allocate memory if i have type void? will there be 2 mallocs? one for the flexible data size and the other for node?
+<kushal> s/liek/like
+<rtnpro> ok
+<rtnpro> rishi_: !
+<rishi_> mavu: You can ask the user to pass you a void* pointer and length of the data.
+<rishi_> mavu: Something like write(2).
+<rishi_> rtnpro: Ask.
+* Subhodip has quit ("Pants on Fire .. Angry elephant chasing ...ar ki ki hote pare ??")
+<rtnpro> did you check my code?
+<kamalx> rishi_: !
+<rishi_> mavu: If you are trying the typedef approach it should work if we are writing a library providing a linked list.
+<rtnpro> its not running
+<rishi_> kamalx: Your code looks fine.
+<rishi_> But there is one problem.
+<rishi_> kamalx: It might crash in some cases.
+<rishi_> rtnpro: Your implementation looks wrong.
+<rtnpro> rishi_: where?
+<rishi_> struct node * insert_node (struct node *node, char data);
+<rishi_> rtnpro: See ^^^^^^^^^^^^ the prototype does not match.
+<rishi_> kamalx: Everytime you dereference pointers passed to you by some unknown party, do a NULL check.
+<kamalx> ok
+<mavu> !
+<rtnpro> can't I keep return type void for the ins function?
+* kishan has quit ("http://www.mibbit.com ajax IRC Client")
+<rishi_> rtnpro: Better not to, but even then the rest is a mess.
+* Soumya has quit ("Leaving")
+<kamalx> rishi_: so the whole thing should be in a 'if(last!=NULL) { ... }' block?
+<rishi_> kamalx: You can do something more interesting.
+<rishi_> Assume that if last == NULL, then you are going to add the node at the beginning of the list.
+<kamalx> ah.. yes :)
+* mib_baxhw9 (i=75630007@gateway/web/ajax/mibbit.com/x-c045dc6f80be4384) has joined #dgplug
+<mib_baxhw9> sorry...got disconnected
+<mavu> !
+* mib_baxhw9 is now known as kishan
+<rishi_> mavu: Yes?
+<mavu> ! um i am trying the void* approach as the typedef one had occurred to me and implementation is almost identical to the normal one.. but i do not get how to implement cases where the type itself is a user defined type.. like  if i have a struct with a char and an int, how do i implement a linked list of that struct with void*? i do not get how to say take the first byte for char and the rest 2 of the data that i send as int
+<rishi_> Just allocate a block of memory and let node->data point to it.
+<kushal> I guess node -> data = (void *) &mystruct_value
+<rishi_> node->data is also void*.
+<mavu>  ah so it will automatically divide? thanks :)
+<rtnpro> rishi_:  http://mibbit.com/pb/uvmhjo
+<rishi_> I think we will stop here today.
+<rtnpro> rishi_: could you see why still I am getting segmentation fault
+<kushal> rtnpro, use gdb and find
+<kushal> rtnpro, pjp taught how to use it 
+<kushal> rishi_, I also think it is good time to stop for tonight 
+<rishi_> I think we will stop here today. Most people seem to have gone to sleep.

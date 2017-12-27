@@ -1,0 +1,332 @@
+[17:00:23] [## Class Started at Wed Aug 31 17:00:23 2016 ##]
+[17:00:23] <kushal> startclass
+[17:00:27] <kushal> Roll Call
+[17:00:29] <Prashant> Prashant Jamkhande
+[17:00:34] <yASH_> Yashwanth M
+[17:00:34] <ace139> Soumyo Dey
+[17:00:34] <smdeep_> Sudeep Mukherjee
+[17:00:35] <rohan_h> Rohan Hazra
+[17:00:35] <gunjan> Gunjan
+[17:00:37] <code_geek> Shantanu Acharya
+[17:00:39] <shams> Tabrez khan
+[17:00:39] <chshbh> Avinash Madhukar
+[17:00:40] <yajushi> Yajushi Srivastava
+[17:00:43] <SRvSaha> Saurav Saha
+[17:00:44] <avik> Avik Mukherjee
+[17:00:49] <Anupama_> Anupama Mandal
+[17:00:50] <anjali__> Anjali Pardeshi
+[17:00:58] <deep123k> Deepanshu Kapoor
+[17:01:37] <Onkar> Onkar Karale
+[17:01:43] <amey> Amey Jain
+[17:01:43] <gobinda> Gobinda Akhuli
+[17:01:54] <akash47> Akash Mishra
+[17:02:00] <sneo> Sarah Masud
+[17:02:10] <trishnag> Trishna Guha
+[17:02:27] <kushal> Anyone else?
+[17:02:46] <kushal> jflory7, stage is yours, go ahead.
+[17:02:52] <kushal> We will here to help (if any).
+[17:02:53] <rahuldecoded> Rahul Bhattacharjee
+[17:03:02] <jflory7> Thanks, kushal!
+[17:03:11] <jflory7> I'll start with a brief introduction.
+[17:03:54] <dhanesh95> Dhanesh Sabane
+[17:04:09] <abstatic> Abhishek Shrivastava
+[17:04:13] <jflory7> My name is Justin W. Flory. I'm a second-year undergraduate student at the Rochester Institute of Technology in Rochester, NY, USA. I spend most of my time in open source as a contributor to a few open source projects, but most of my time is spent on the Fedora Project.
+[17:04:21] <anushil05_> Anushil Kumar
+[17:04:41] <HoloIRCUser> Jogender Kota
+[17:04:52] <suniva> Suniva Priyadarshini
+[17:05:14] <jflory7> In Fedora, I am the leading member of the Community Operations (CommOps) team, the editor-in-chief of the Fedora Magazine, a Marketing team member, an Ambassador of North America, a leading member of the Diversity Team, and a few other things. My role in CommOps has me familiar with various areas in Fedora.
+[17:06:08] <jflory7> I first began contributing to Fedora in October 2015. I had done smaller contributions before then like bug reporting or some testing, but only minor things. My first significant contribution (for me) was writing an article for the Fedora Magazine in September 2015.
+[17:06:32] <jflory7> From there, I began to become gradually more involved and interested in the other areas of the project and started helping in ways where I was thought I was able.
+[17:07:17] <pabitra> Roll call : Pabitra Pati
+[17:07:22] <vibhcool> Vibhor Verma
+[17:07:29] <fhackdroid> Roll Call : Farhaan Bukhsh
+[17:07:36] <jflory7> For today's session, I split it into four topics that I wanted to share with everyone. I think I can take questions at the end of the four topics I had prepared (if the bot will allow that).
+[17:07:38] <lambainsaan_> Roll call: Rhitik Bhatt
+[17:07:56] <jflory7> My first topic I wanted to share was getting involved with open source (generally) as a student.
+[17:08:07] <jflory7> Because when you're first getting started, it can be tough and a little confusing sometimes. :)
+[17:09:15] <jflory7> As students getting involved with FOSS, there are a few challenges that we might have to face. A lot of this can be with making the first steps into a new project. There are countless open source projects of various sizes and they all can do things a little bit differently from others, so the process changes from project to project.
+[17:10:03] HoloIRCUser3 is now known as subho
+[17:10:16] <jflory7> One of the most obvious challenges with getting involved is your personal experience level. Especially when getting started, it can be easy to look at a large project or well-known project and see all of the work being spent there. There's very smart and active people working on these projects, and many times their contributions are quite impressive!
+[17:11:04] <jflory7> And one of the many concerns I've seen other students here face (including me at first) is wondering how someone with beginning / moderate experience or knowledge can get involved in comparison to some of these contributions from active contributors.
+[17:11:43] <jflory7> (For examples, I will mention Fedora a lot because that is what I have the most experience with, but a lot of this can also apply to other projects.)
+[17:12:35] <jflory7> If it's a large project, like Fedora, it can be intimidating to think where to start when there's so many things to do and areas to get involved with. But if you think of it all as one big project, it can be very intimidating and difficult for you to make that first step.
+[17:13:12] <jflory7> My advice is to break a bigger project into smaller pieces. Start small and look for something you can help with. A healthy open source project usually will have things like easyfix bugs that are good ones to start off with if it's your first time contributing.
+[17:13:29] <jflory7> Try to keep an eye out for those if you're getting started.
+[17:14:12] <jflory7> Another challenge you might face as a student or beginner to open source is something called imposter syndrome. For me, this was something I had identified with before I knew what it was.
+[17:14:31] <jflory7> For a definition, I'll pull straight from Wikipedia first: " Term referring to high-achieving individuals marked by an inability to internalize their accomplishments and a persistent fear of being exposed as a "fraud" "
+[17:14:51] <jflory7> There is also a great Opensource.com article on this too that I recommend reading later: https://opensource.com/business/15/9/tips-avoiding-impostor-syndrome
+[17:15:09] <mahesh5> Roll Call:Mahesh
+[17:15:35] <jflory7> Imposter syndrome can be a common feeling as you get involved with open source, especially if comparing yourself to some of those very active and smart contributors that might encounter as you get involved.
+[17:15:45] <shauryak_3> roll call : shaurya kalia
+[17:16:12] <jflory7> But you should also remember you are a student - comparing yourself or your contributions to a professional or someone with years of experience isn't fair to yourself! It's not apple-to-apples. :)
+[17:16:44] <jflory7> Your contributions as you get involved with open source worthy and valuable to an open source project regardless of how deep, how many, or how much time you spend on the project.
+[17:18:00] <jflory7> Even if it's a couple of hours in the week, that's saving others those couple of hours and it's adding something into the project. I always think of a contribution as a contribution - I personally don't try to rate the worth of contributions to other contributions.
+[17:18:31] <jflory7> Those are some of the challenges that I think is useful to know and understand as you become more involved with FOSS - if you know the challenges you are up against, it makes it easier to handle them as they come. :)
+[17:18:43] <jflory7> There are also benefits to contributing to open source as a student as well.
+[17:19:46] <jflory7> Contributing to FOSS is a great way for you to take knowledge and info you have learned from classes and begin applying it to real-world projects and gain experience. It's one thing to take you to the next level as a student. If you are contributing to a project in the real world, that is unique experience that is helpful for you for future career outlooks as well.
+[17:20:39] <Lord_Regent> Hello!
+[17:20:44] <jflory7> It's also a great networking opportunity. In open source, you will meet many incredible and smart people. In my own time in Fedora, I've met many contributors and had various mentors for helping me get involved. I've made new friends and met people who I normally would never have had the opportunity to before.
+[17:21:37] <jflory7> There are also opportunities for leadership in open source projects. Whether it's just one task, one bug, or even a role, you might find that sometimes all it takes is someone willing to say, "I'll do this!" to have leadership on something.
+[17:21:50] guest761 is now known as yash
+[17:22:18] <yash> roll call :Yash Bhardwaj
+[17:22:20] yash is now known as Guest24927
+[17:22:30] <jflory7> It might be challenging or difficult at first, but it's a great way for you to understand working in team environments, how to work effectively even if you're remote, and how to break down a task and work on finding solutions for complex problems.
+[17:22:42] <jflory7> Lastly, what about our role as students??
+[17:22:50] <jflory7> it's important for younger people to become more involved with open source communities.
+[17:23:08] <jflory7> As students and younger community members, we add unique perspective and ideas to open source projects.
+[17:24:24] <jflory7> It's important to a healthy community for an open source project and any open source project worth contributing to should be welcoming and accepting to students who are willing to spend time working on the project and helping solve those problems, whether they're bugs, tasks, or other things. In short, there is absolutely a role for students getting involved with open source!
+[17:24:59] <jflory7> I can take a 3-4 questions now if there are any, and then I will share some insight to the Fedora Magazine. :)
+[17:25:42] <kushal> Questions anyone?
+[17:26:19] <deep123k> !
+[17:26:24] <pabitra> !
+[17:26:54] <jflory7> kushal: Do I type next for the first question?
+[17:27:02] <kushal> yes
+[17:27:04] <jflory7> next
+[17:27:06] <deep123k> What according to you is better project to get started with contribution?
+[17:28:17] <jflory7> deep123k: For a first project, you should try to find a project that has ways for you to contribute with your current skills and knowledge. If technical contributions, obviously a language you are familiar with. You should also contribute to a project you are personally interested or passionate about - it should be something you *want* to contribute to. Community is also important, but I have points on that later. :)
+[17:28:35] <jflory7> next
+[17:28:52] <HoloIRCUser3> !
+[17:28:55] <pabitra> I faced this while trying to contribute. Since I am new, my questions might appear silly to the mentors. But since I am the one who is coming altogether from a new world, how can I get those code and understand them so quickly. IN those situations, it becomes difficult to convey what issues I am having
+[17:29:00] <deep123k> Thanks jflory7
+[17:29:09] <jflory7> deep123k: No problem :)
+[17:29:15] <pabitra> and getting them resolved
+[17:29:49] <pabitra> as they have an eye of knowing those and I have an eye of a new born wondering what all are these
+[17:30:57] <pabitra> This becomes most difficult situations and you get stucked at the same place. And at last feel hopeless.
+[17:31:12] <pabitra> How to face such situations
+[17:31:18] <jflory7> pabitra: I think communication is important if you're having problems getting the support or help on a problem you are stuck on. If possible, you should try to find someone who understands your perspective as a student and would be willing to help mentor a little bit. Also, in many FOSS projects I spend time with, asking questions is encouraged and welcome, even if they might be silly. However, that's definitely not the case in all projects...
+[17:32:03] <jflory7> So, for facing these issues, I advise to think about the issue you are having and make sure you are explaining it right. Maybe try sharing the problem with a friend or someone else to see if it makes sense the way you are explaining.
+[17:32:23] <jflory7> And then try to get help from someone who might understand the problem and can help.
+[17:32:28] <jflory7> Hope that answers the question. :)
+[17:32:31] <pabitra> Communication obviously is important. I agree. But, the perspective you and they look at your problem differs
+[17:32:56] <sayan> jflory7: can I add something here?
+[17:33:03] <jflory7> sayan: Sure :)
+[17:33:16] <rahuldecoded> !
+[17:33:35] <sayan> pabitra: yes, In the beginning it's tough, so in that case you can come here and ask the question and how to frame
+[17:33:42] <sayan> or how to go forward with it
+[17:33:58] <jflory7> (And after rahuldecoded's question, to not keep everyone up too late, can probably move on to the next topic and save more questions for later.)
+[17:34:22] <sayan> Once you do it 3-4 times, you will automatically understand how to ask your question
+[17:34:30] <sayan> </eom>
+[17:34:35] <pabitra> thanks sayan and jflory7
+[17:34:42] <jflory7> sayan++
+[17:34:59] <jflory7> next
+[17:35:00] <rahuldecoded> Was fedora is your first project that you have contributed to?
+[17:35:09] <HoloIRCUser3> At times when you keep contributing to similar projects how do you make sure you are still learning something new?
+[17:35:13] <rahuldecoded> Sorry.
+[17:35:19] <jflory7> rahuldecoded: No worries :)
+[17:37:18] <jflory7> HoloIRCUser: The way I feel about it, I am always learning! The more time I spend in a project, the more I learn from others in the community, new problems to solve will arise, and my experience is always growing and shaping as time goes on. However, I also know others who work on various open source projects, but contribute small bits to different projects. So how you can contribute can vary on personal preference, but I personally prefer finding a
+[17:37:18] <jflory7> project I'm passionate about and sticking with it.
+[17:37:50] <jflory7> I think if you keep your mind open, you will always keep learning more.
+[17:37:52] <jflory7> <eom>
+[17:38:54] <jflory7> HoloIRCUser3: Hope that answers your question. :)
+[17:39:12] <jflory7> [11:35:00] <rahuldecoded> Was fedora is your first project that you have contributed to?
+[17:39:26] <HoloIRCUser3> jflory7: thats some different perspective of looking at. Thanks
+[17:40:23] <jflory7> Fedora wasn't my first open source project, but my second. Before then, I contributed (and still contributing) as a community moderator and wiki team member for SpigotMC, an open source Minecraft server software. It was from using Linux / Fedora for Spigot that I become more familiar with the Fedora community.
+[17:40:29] <jflory7> <eom>
+[17:41:01] <rahuldecoded> Thanks
+[17:41:04] <jflory7> Yep!
+[17:41:15] <jflory7> Okay, and now I'd like to talk a bit about the Fedora Magazine. :)
+[17:41:53] <jflory7> The Fedora Magazine was one of my first major things to contribute to in Fedora, and it's a great way for anyone to share their knowledge and expertise with the greater community.
+[17:42:04] <jflory7> There are a few targets / goals that we have on the Magazine:
+[17:42:23] <jflory7> (1) Writing how-to guides about using Fedora or software available in Fedora for doing cool things or making life easier
+[17:42:37] <jflory7> (2) Interviews with people using Fedora for various uses or purposes
+[17:43:17] <jflory7> (Some of my favorites are an interview with a student who made a laser light show with Fedora and made a radioactive black box to teach what FOSS is all about!)
+[17:43:22] <jflory7> https://fedoramagazine.org/creating-laser-light-show-with-fedora/
+[17:43:26] <jflory7> https://fedoramagazine.org/open-source-black-boxes-radioactivity/
+[17:43:53] <jflory7> (3) Official source for announcements and news about the Fedora Project (release announcements, project news, etc.)
+[17:44:09] <jflory7> We mostly focus on those three things, but we do deviate time-to-time if there's an interesting pitch or article idea.
+[17:44:33] <jflory7> My first experience writing an article was fairly simple and straightforward.
+[17:45:30] <jflory7> At the time I wrote my first article, I wasn't heavily involved with Fedora, but I was very familiar with the Spigot project. I was/am running many Minecraft servers on Fedora / CentOS as well. So I wrote my first pitch on how to create a Minecraft server using Fedora and Spigot.
+[17:45:46] <jflory7> My pitch was approved, and then I went on to write the draft with knowledge and info I was already very familiar with.
+[17:45:51] <ChaKu> Roll Call: Chaitanya Kukde
+[17:46:29] <jflory7> In short, it's easy to write on a topic that you are familiar with and/or very interested in. Writing for a place like the Fedora Magazine shares it with a much broader audience and community than a normal blog post would.
+[17:47:32] <jflory7> When it comes to technical guides that I see, I always try to encourage people to consider sharing their expertise and knowledge with the Magazine if it fits. That way, it helps share this knowledge with others who may find it useful, and it also puts your name out there as a writer and an "expert" on whatever you are writing about! :)
+[17:47:51] <jflory7> For writing an article, we help provide guides for people who are just getting started.
+[17:49:06] <jflory7> The first step to any new article on the Fedora Magazine is a pitch. A pitch is a quick explanation of what you want to write about, followed by a rough outline of how the article will flow. This is helpful to the Magazine editorial team as it helps us clearly see what you're writing about (and making sure it fits for the Magazine, and saving time/frustration if it isn't something we can publish), and it helps you, the writer, to organize your ideas and
+[17:49:06] <jflory7> write with focus.
+[17:49:25] <jflory7> An explanation and example of a pitch for the Fedora Magazine is found here: https://fedoramagazine.org/writing-a-new-pitch/
+[17:50:22] <jflory7> After getting your pitch approved, you then move on to writing the draft. This will be the full content of your article. Once you finish the draft, you change the status to "pending review" and drop a line on our mailing list, magazine@lists.fedoraproject.org, letting us know it's pending review and ready to be published.
+[17:50:49] <jflory7> A full overview about the entire process and more tips is found on this page. I highly recommend checking this out if writing an article for the Magazine is something that interests you! :)
+[17:50:50] <jflory7> https://fedoramagazine.org/writing-an-article-for-the-fedora-magazine/
+[17:51:51] <jflory7> The Magazine team meets weekly on Thursdays, 21:00 UTC, when we review new pitches / set up our publishing schedule / discuss other topics about the Magazine. We recently moved to our own IRC channel this week, #fedora-magazine, where you can find the team as well.
+[17:52:06] <jflory7> We're always happy to help and guide new writers through the process.
+[17:52:53] <jflory7> The Magazine is one example of a non-technical area of contribution to Fedora. Even if you are a developer or a code master, it is helpful to write and share your knowledge with others. :)
+[17:53:16] <jflory7> This bridges me to my third topic, about non-technical contributions in open source projects.
+[17:53:53] <jflory7> The first question to answer is what are the role of non-technical areas in an open source project?
+[17:54:19] <jflory7> In smaller projects, this may not be as obvious or clear about what areas there are, and it might not be something focused on as much.
+[17:54:36] <jflory7> For larger projects, non-technical areas or sub-projects may be more obvious or visible.
+[17:54:53] <jflory7> But their role is important in either type of project.
+[17:55:59] <jflory7> To help add some context to what a non-technical contribution is, consider these things. Documentation, design / artwork, translations / globalization, marketing, community operations...
+[17:56:20] <jflory7> All of these things are interconnected with each other for making a better project.
+[17:57:51] <jflory7> *Every* open source project, regardless of size, needs good documentation so people can understand how to use the code and what they can do with your project. Design and artwork is important to the project because it helps give your project a brand and an identity - it's difficult to stand out in the big world of FOSS, and a strong design team is helpful for giving the project identity. For bigger projects, it can also include creating resources for
+[17:57:51] <jflory7> people to promote the project, like brochures or flyers.
+[17:59:22] <jflory7> For marketing, they help get the word out about the project and focus on outreach, so people understand *what* the project is and *how* it helps solve problems or make life easier. Translations are critical so people across the world can understand the project and read it in their native language. Community operations are important to focus on the community and make sure that it is functioning well, welcoming and easy to get involved for newcomers.
+[17:59:30] <jflory7> All of these things play into each other.
+[17:59:52] <jflory7> To cast them aside or ignore them in an open source project is a mistake because they all contribute as meaningfully as the code itself.
+[18:00:23] <jflory7> Even if you aren't contributing to non-technical areas in an open source project, you should always consider and remember them because they play into the work you are doing.
+[18:01:00] <jflory7> If you don't think you have anything to offer these fields as a developer, you may surprised what you find - I've seen many more times where a developer was able to help on something either just information or ideas too.
+[18:01:37] <jflory7> In short... non-technical contributions play into a healthy open source project as much as the technical contributions. They are all connected and dependent on each other for the success of the project.
+[18:02:02] <jflory7> And on the topic of a healthy open source project, this bridges me to my last and final topic, about open source communities in general.
+[18:02:10] <jflory7> What is a community?
+[18:02:18] <jflory7> For me, in open source, I think of community as a group of people working together to achieve a common goal or purpose.
+[18:03:01] <jflory7> Communites can be full of different people from places all over the world. Everyone has their own unique idea and perspective to add in. The longer you stay involved with FOSS, the more obvious and clear this becomes, both with brainstorming, agreements, and also disagreements.
+[18:03:26] <jflory7> The community around a project is just as important as the project itself. A community should be welcoming, friendly, and inclusive to old and new contributors alike.
+[18:04:16] <jflory7> In the Humanitarian Free and Open Source Software Development course at RIT, one of the projects has students find an open source project and evaluate the community. It's a good exercise and has good advice and tips if you have some time to spend. :) https://hfoss16f-ritjoe.rhcloud.com/static/hw/commarch.txt
+[18:04:37] <jflory7> But a community isn't something you just observe either - it's also something you are an active participant in too.
+[18:05:30] <jflory7> Even if you're just beginning, you are a member of the open source community you are contributing to.
+[18:06:50] <jflory7> When you're beginning, you are more on the receiving end of this. You should focus on finding a community that is supportive of your efforts to get involved and makes you feel welcome as a contributor. There are many, many wonderful and amazing people in open source. There are also a handful of people who aren't. Spend your time with people who don't bring you down and make your open source adventure awful.
+[18:07:12] <jflory7> At the end of the day, contributing to open source should always be something you are wanting to do - if it's no longer enjoyable, something isn't right.
+[18:08:31] <jflory7> And on the flip side, as you become more involved, you will be in the position to be a supportive member of an open source community. Remember how you feel now as a student getting involved, remember your successes and especially your failures. When you become more experienced, as I'm sure you all will, don't forget about the challenges you faced to become a contributor. When a newcomer comes along, be a supportive and considerate member of the
+[18:08:32] <jflory7> community you are involved with.
+[18:09:14] <jflory7> When you jump from newcomer to intermediate to advanced contributor, make sure you are helping create a community you are proud of and happy to be involved with.
+[18:09:26] <jflory7> <eom>
+[18:09:38] <kushal> Any questions for jflory7 ?
+[18:09:57] <jflory7> Those are the four big topics I wanted to share. I'd be happy to take any and all questions, if you all aren't nodding off yet :)
+[18:10:36] <avik> !
+[18:10:42] <jflory7> next
+[18:10:45] <jflory7> next
+[18:11:12] <avik> how long have you being working in FOSS?
+[18:11:21] HoloIRCUser5 is now known as Anupama_
+[18:12:11] <jflory7> avik: I first experienced FOSS around October 2013 with the Spigot project. I started most actively contributing around September/October 2015 with Fedora.
+[18:12:59] <avik> wow, quite a success in a short span of time. Congratulations :)
+[18:13:10] <jogender> !
+[18:13:13] * avik is amazed 
+[18:13:41] <jflory7> avik: Thanks - I hope my experience as a student helps show everything that you can all do too :)
+[18:13:43] <jflory7> next
+[18:14:19] <avik> :D obviously.
+[18:15:11] <jogender> jflory7, : there are so many organisations, and as you said that contribute to such organisations which are friendly and welcoming, so how will a we come to know which organisation to choose?
+[18:16:36] <jflory7> jogender: I actually think the Community Architecture assignment from the HFOSS course at RIT is one way to answer that objectively. Although it might seem weird to run tools and answer questions about a project before you begin contributing, that assignment is useful for walking yourself through some of the questions.
+[18:17:08] <jflory7> More subjectively, though, sometimes it is something you experience over time. Usually, if a project has a negative or unwelcoming community, it's /usually/ easy to see pretty fast
+[18:17:48] <jflory7> Ultimately, it should be a project you are enjoying contributing to, even if there are some tricky challenges. As long as the challenges are problems, bugs, or tasks, and not people. :)
+[18:17:51] <jflory7> Reference: https://hfoss16f-ritjoe.rhcloud.com/static/hw/commarch.txt
+[18:18:06] <jflory7> <eom>
+[18:18:23] <jogender> jflory7, : thanks :)
+[18:18:30] <jflory7> Yep, gladly :)
+[18:18:54] <jflory7> Any other questions?
+[18:19:09] <PrashantJ> !
+[18:19:11] <jflory7> next
+[18:19:29] <PrashantJ> jflory7, Should we start contributing to a project which has just started and being developed from scratch?
+[18:19:38] <PrashantJ> as a beginner
+[18:20:05] <PrashantJ> <eom>
+[18:21:00] * PrashantJ is considering some small project to start off
+[18:21:36] <jflory7> PrashantJ: Hmm, good question. It definitely depends. I think if you're new to contributing, it's important to perhaps start with an established project. That *can* mean new, but not necessarily always. Smaller / beginning projects by a few people might be difficult to contribute to because of lack of resources or time from the core developer team. I think perhaps starting with a project that at least has clear ways for you to contribute is most
+[18:21:36] <jflory7> rewarding to you. What defines a clear way to contribute? I think that will be a question for you to answer about a project. :)
+[18:21:59] <jflory7> <eom>
+[18:22:18] <kushal> Is there any other question?
+[18:22:24] <ChaKu> !
+[18:22:25] <PrashantJ> thank you jflory7 :)
+[18:22:34] <jflory7> Of course! :)
+[18:22:36] <jflory7> next
+[18:24:16] <ChaKu> jflory7, how do I get involved with large scale, established projects which may seem like forever to get into, even a component of such projects is pretty involved and uses convoluted code and logic
+[18:25:35] <ChaKu> For example, many of the projects in Fedora Infra are pretty complex to understand and to get into them requires a lot of insight into how the company/entity around them actually functions
+[18:25:51] <ChaKu> <eom>
+[18:27:50] <jflory7> ChaKu: Great question! For big projects, it's *definitely* a lot to take in all at once! It's important to take a big project and break it down into something smaller that you can take bit by bit. From a *general* perspective, established FOSS projects usually have ways to help guide you into areas of interest. I know Fedora, Mozilla, and GNOME have these sites for helping show you places you can contribute:
+[18:27:57] <jflory7> http://whatcanidoforfedora.org/
+[18:28:03] <jflory7> http://whatcanidoformozilla.org/
+[18:28:11] <jflory7> Looks like GNOME's may have dropped off...
+[18:28:17] <jflory7> For something specific like Fedora Infra...
+[18:29:49] <kushal> jflory7, btw, you can end the session when ever you want.
+[18:30:42] <jflory7> It can definitely be a lot to take in with all of the apps and projects in Fedora's infrastructure. Fortunately, for the Infra team, they actually have a program specifically for newcomers called the Apprentice program. All it takes to become an apprentice is to attend a meeting for Infra saying you want to contribute as an apprentice (or contacting kevin / nirik if the meeting time doesn't work for you). In this program, you get hands-on experience
+[18:30:42] <jflory7> with some tools in Infra and can reach out to people for help and advice on a project. The team is very friendly and welcoming too, so I definitely recommend checking it out if Fedora Infra interests you.
+[18:30:49] <jflory7> https://fedoraproject.org/wiki/Infrastructure_Apprentice
+[18:31:41] <jflory7> kushal: I don't know how long they normally last - I still have free time, but I know it's super late for you all. I'd be okay with ending the session formally now so people can head off to sleep, but I hang out in this channel, so I welcome pings / queries any time :)
+[18:32:19] <fhackdroid> jflory7, most of the people here sleep less :P
+[18:32:34] <smdeep_> jflory7: we are wide awake
+[18:32:40] <smdeep_> :)
+[18:32:41] <sayan> fhackdroid: that includes jflory7 too :)
+[18:32:46] <kushal> jflory7, then you can continue
+[18:32:57] <jflory7> Sounds good. :)
+[18:33:03] <vibhcool> jflory7: nights are of programmers
+[18:33:07] <jflory7> ChaKu: Hope that answers your question!
+[18:33:19] <jflory7> sayan: lolol :P
+[18:33:29] <jflory7> vibhcool: :)
+[18:33:32] <jflory7> Any other questions?
+[18:33:40] <fhackdroid> sayan, agreed :P
+[18:33:56] <vibhcool> !
+[18:33:59] <jflory7> next
+[18:35:08] HoloIRCUser is now known as jogender
+[18:35:10] <ChaKu> jflory7, it does. Great session btw. Thanks :)
+[18:35:21] <jflory7> ChaKu: You're very welcome :)
+[18:35:25] <vibhcool> jflory7: when we see a project, it has many other programming languages than we know, can you suggest how shall we see the project if we want to contribute
+[18:35:55] <vibhcool> If that project interests us
+[18:36:28] <vibhcool> s/that/those
+[18:39:08] <jflory7> vibhcool: If the project is interesting to you and there's some languages you know, that's a good base to start off with. If you're finding areas you can contribute to with what you know already, then that's enough to get started. If the project is one you're very interested in, perhaps the challenge of trying to become more familiar with a new language is something you could try to do in the context of the project. As long as you start small and slowly
+[18:39:08] <jflory7> work your way up, it should be doable - just expect to be patient if you do end up trying to start from square 1 with learning a new language. :)
+[18:39:40] <jflory7> For example, I've picked up a very little bit of Python so far from doing things in Fedora.
+[18:39:53] <jflory7> It might also be a good idea to look deeper into the area you *can* contribute to now too.
+[18:40:14] <jflory7> See if there's some ideas that people want or other areas you could possibly help with. It never hurts to ask. :)
+[18:40:15] <jflory7> <eom>
+[18:40:20] <dhanesh95> !
+[18:40:31] <jflory7> vibhcool: Hope that helps!
+[18:41:20] <vibhcool> jflory7: Thank you :)
+[18:41:25] <jflory7> No problem :)
+[18:41:26] <jflory7> next
+[18:42:01] <dhanesh95> jflory7: Juggling school and Fedora contributions, how do you keep yourself motivated to be consistent?
+[18:43:31] <sandeepk> adding to dhanesh95  question did you fix days for the contribution or do whenever you like to
+[18:45:00] <jflory7> dhanesh95: Time management is definitely key. Studies should always come first. Being consistent is important, and that starts by making sure you're contributing at a rate that *is* manageable to you. Going the opposite end of imposter syndrome, there is also something called burnout. If you're going too hard too often, it is possible to lose the energy and motivation of contributing. So making sure you are contributing enough for you to balance with
+[18:45:00] <jflory7> other things is definitely important.
+[18:45:21] <jflory7> For myself, tooling is helpful very, very helpful for me. A calendar and a task management tool are critical for me.
+[18:45:40] <jflory7> I always say, "If it's not in my calendar, I'm not there" :P
+[18:45:53] <jflory7> I personally use Google Calendar and TaskWarrior for these, but there are plenty of other tools out there too.
+[18:45:53] <dhanesh95> We at CommOps always joke around saying jflory7 has robots who work for him.. He is the driving force at CommOps.. jflory7 if you have some energy pool hidden somewhere, could we get a sip? :P
+[18:46:08] <jflory7> Heheh, you weren't supposed to ask about the energy pool! ;)
+[18:46:21] <jflory7> Also, going back to burnoutâ
+[18:46:51] <kushal> That is a difficult problem to solve.
+[18:47:09] <jflory7> It's definitely something to be aware of and make sure you aren't heading down the route if you begin actively contributing. Keeping yourself mentally healthy is critical so you're at your best, not just for your open source life, but your personal life too.
+[18:47:10] <jflory7> https://opensource.com/business/15/12/avoid-burnout-live-happy
+[18:47:23] <jflory7> kushal++
+[18:48:01] <dhanesh95> Thanks jflory7 !
+[18:48:13] <kushal> Just to add, I know many who works 14-16 hours a day.
+[18:48:25] <jflory7> dhanesh95: Gladly, good question to ask.
+[18:49:51] <jflory7> Any more questions?
+[18:51:01] <jflory7> If nothing else, we can go ahead and close out the session.
+[18:51:06] <jflory7> But you can always reach out to me. :)
+[18:51:19] <abhishekg5_> jflory7: Where can we find you ?
+[18:51:57] <jflory7> You can find me here in this channel, many Fedora channels, and also via email. jflory7@fedoraproject.org is a sure-fire way to get me too.
+[18:52:21] <jflory7> I welcome IRC pings and queries as well. I'm always happy to help offer advice and tips to anyone who needs some pointers. :)
+[18:52:35] <Anupama> jflory7: No question. Just saying, you motivated everyone over here. :)
+[18:52:45] <avik> Anupama, +1
+[18:52:50] <navneet> !
+[18:52:58] <jflory7> Anupama: Then mission accomplished! ;)
+[18:52:59] <jflory7> nexy
+[18:53:00] <jflory7> next
+[18:53:17] <navneet> can we reach out to you other then IRC
+[18:53:58] <navneet> I'm contributing to some opensource projects but it is always difficult to manage
+[18:54:53] <navneet> Some times it months I have not contributed. How to keep our selves going ?
+[18:55:05] <jflory7> navneet: Sure, any where you find me works well for me. I'm also very active on Telegram (@jflory7) and Twitter (@jflory7).
+[18:56:15] LambaInsaan__ is now known as LambaInsaan
+[18:56:16] <navneet> jflory: How you motivate your juniors or people around you to code and program
+[18:56:50] <Anupama> jflory7: definately :)
+[18:57:12] <kushal> jflory7, if you want, we can end now
+[18:57:19] <jflory7> navneet: That is definitely a challenging question to answer... for getting started, I really think it has everything to do with the project you get started with. For me, what made me want to contribute to Fedora wasn't even just the operating system, but it was the community around Fedora. As a whole, the community is welcoming, friendly, and empowering. When I started contributing, I felt like my time was making a difference and that it meant
+[18:57:19] <jflory7> something. I saw how people treated each other and how friendly they were to each other. Back then and to this day, the real reason that keeps me involved with FOSS and Fedora is community.
+[18:57:57] <jflory7> I am a strong believer that passion is everything â you need to find something that really fires you up, that you enjoy, where it works well for you, and then pursue that. :)
+[18:59:03] <jflory7> navneet: Motivating others around you in open source is critical. It's easy to criticize, but sometimes harder to remember to compliment and show appreciation. Those positive interactions are important and help keep motivation and energy high for everyone.
+[18:59:13] <jflory7> I actually really like one of the things in Fedora's Code of Conduct:
+[18:59:47] <jflory7> Hmm, it's not written the same way now, but the idea is to always be excellent to one another.
+[19:00:04] <jflory7> I always try to let that me what governs my actions and behavior in Fedora and even open source in general.
+[19:00:10] <jflory7> <eom>
+[19:01:12] <jflory7> kushal: Okay, yeah, I think now is a good time. :)
+[19:01:20] <jflory7> navneet: Hope that helps answer your question!
+[19:01:30] <navneet> That's awesome
+[19:01:44] <navneet> and pretty good insight
+[19:02:16] <jflory7> Great, glad I could help. :)
+[19:02:38] <kushal> jflory7, Thanks a lot for the session :)
+[19:02:40] <kushal> Roll Call
+[19:02:49] <abstatic> Abhishek Shrivastava
+[19:02:51] <tabrez> Tabrez khan
+[19:02:51] <jflory7> Also, special thanks to kushal for inviting me to give today's session. It's a privilege to be able to participate and give a session. :)
+[19:02:52] * sandeepk jflory7  going through your blog have great post :)
+[19:02:52] <ChaKu> Chaitanya Kukde
+[19:02:56] <gunjan> gunjan
+[19:02:58] <sandeepk> sandeep kumar choudhary
+[19:03:00] <yASH_> Yashwanth M
+[19:03:02] <navneet> Navneet Sharma
+[19:03:08] <iKshitij> Kshitij
+[19:03:12] <jogender> Jogender  kota
+[19:03:24] <Anupama> Anupama Mandal
+[19:03:29] <rohan> Rohan Hazra
+[19:03:40] <HoloIRCUser2> Mamoon manzoor
+[19:03:41] <deep123k> Deepanshu Kapoor
+[19:03:42] <jflory7> sandeepk: Ah, yeah, hope you find some of it helpful! For others' reference => https://blog.justinwflory.com/
+[19:03:43] <kushal> endclass
+[19:03:43] [## Class Ended at Wed Aug 31 19:03:43 2016 ##]

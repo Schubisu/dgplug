@@ -1,0 +1,365 @@
+Jul 20 19:40:03 <kushal>	<--SESSION STARTED-->
+Jul 20 19:40:08 <kushal>	Roll Call 
+Jul 20 19:40:30 <ria>	Ria Das
+Jul 20 19:40:33 <amrita>	amrita mukherjee
+Jul 20 19:40:51 <kishanGoyal>	kishan goyal
+Jul 20 19:41:19 *	Debashree (n=Debashre@117.201.96.217) has joined #dgplug
+Jul 20 19:41:25 <arpita>	arpita kapoor
+Jul 20 19:41:45 <sunny_slls>	Sunny Sharma
+Jul 20 19:41:52 <Debashree>	debashree banerjee
+Jul 20 19:42:20 <kushal>	ok, moving ahead 
+Jul 20 19:42:47 <kushal>	Answer for the last day's problem 
+Jul 20 19:42:59 <ria>	kushal, let me paste
+Jul 20 19:43:09 <kushal>	people who could not solve it, please paste upto what ever you did 
+Jul 20 19:43:28 <bose_aritra>	aritra bose
+Jul 20 19:44:37 *	Debashree_ (n=Debashre@117.201.97.34) has joined #dgplug
+Jul 20 19:44:48 <kushal>	links please 
+Jul 20 19:44:49 <ria>	kushal, http://rafb.net/p/kViANW81.html
+Jul 20 19:45:14 <ria>	kushal, i corrected the small mistake just after you leaved
+Jul 20 19:45:31 <ria>	*left
+Jul 20 19:45:45 *	mether (n=sundaram@nat/redhat-in/x-b31369098a8860a7) has joined #dgplug
+Jul 20 19:46:00 <kushal>	ria, let me check the code 
+Jul 20 19:46:04 <kushal>	others ?
+Jul 20 19:46:07 <ria>	kushal, ya sure
+Jul 20 19:46:13 <ria>	kushal, its working
+Jul 20 19:46:38 <kushal>	ria, almost 
+Jul 20 19:46:46 <kushal>	ria, try with TCS.NS
+Jul 20 19:46:48 <kushal>	:p
+Jul 20 19:46:51 <ria>	ok
+Jul 20 19:47:13 <ria>	kushal, working
+Jul 20 19:47:17 <ria>	with tcs
+Jul 20 19:47:18 <ria>	:)
+Jul 20 19:47:24 <kushal>	ria, nope
+Jul 20 19:47:29 <kushal>	ria, check the webpage 
+Jul 20 19:47:36 <kushal>	ria, the last trade value 
+Jul 20 19:47:49 <kushal>	ria, and what your code is showing 
+Jul 20 19:47:49 <ria>	ya i think the total number is not given
+Jul 20 19:47:53 <kushal>	ria, yes
+Jul 20 19:48:01 <ria>	the decimal
+Jul 20 19:48:10 <kushal>	ria, that means you need a better way to fetch the data 
+Jul 20 19:48:20 <ria>	kushal, i can print untill < is encountered
+Jul 20 19:48:29 <ria>	i think that will work
+Jul 20 19:48:30 <kushal>	ria, that you decide :p
+Jul 20 19:48:35 <ria>	ya
+Jul 20 19:48:36 <ria>	ok
+Jul 20 19:48:48 <ria>	kushal, but that way it will work i think
+Jul 20 19:48:50 <kushal>	amrita, arpita Debashree_ kishanGoyal sunny_slls bose_aritra ?
+Jul 20 19:49:05 <kushal>	ria, don't think so, try and see :)
+Jul 20 19:49:28 <kushal>	amrita, arpita Debashree_ kishanGoyal sunny_slls bose_aritra are you people here ?
+Jul 20 19:49:32 <amrita>	kushal, i showed you that day the part which i completed
+Jul 20 19:49:39 <ria>	kushal, the decimal point does not make much difference, though not exact :)
+Jul 20 19:49:44 <kushal>	amrita, ok
+Jul 20 19:49:45 <ria>	kushal, ok will try
+Jul 20 19:49:54 <kishanGoyal>	kushal: i missed last class...im trying now..
+Jul 20 19:50:05 <amrita>	kushal, after that i got dc and couldn't understand the rest
+Jul 20 19:50:06 <Debashree_>	kushal, i can't understand the last part
+Jul 20 19:50:08 <arpita>	kushal, i am not very clear with all this am trying
+Jul 20 19:50:50 <kushal>	Debashree, tell me which part ?
+Jul 20 19:51:06 <amrita>	kushal, !
+Jul 20 19:51:11 <kushal>	amrita, yes
+Jul 20 19:51:14 <arpita>	kushal, last two lines
+Jul 20 19:51:18 <Debashree_>	kushal, how the calculation is being done.
+Jul 20 19:51:25 <kushal>	arpita, which last two lines ?
+Jul 20 19:51:30 <amrita>	kushal, you told us to show the last trade value
+Jul 20 19:51:30 <kushal>	Debashree, calculation ?
+Jul 20 19:51:34 <kushal>	amrita, yes
+Jul 20 19:51:47 <amrita>	kushal, after link.read()
+Jul 20 19:51:57 <Debashree_>	kushal, means how 52 is coming?
+Jul 20 19:52:14 <amrita>	kushal, how to fetch the actal value?
+Jul 20 19:52:16 <kushal>	Debashree, that is something ria figured out, 
+Jul 20 19:52:29 <kushal>	amrita, that is the problem you should solve :p
+Jul 20 19:52:35 <Debashree_>	kushal, yes how did she do it?
+Jul 20 19:52:43 <ria>	Debashree, you can find a better way
+Jul 20 19:52:43 <arpita>	kushal, can't get last three lines of ria's program
+Jul 20 19:53:00 <kushal>	ria, can you explain all how you did that 
+Jul 20 19:53:03 <arpita>	kushal, last two i mean
+Jul 20 19:53:19 <Debashree_>	ria, please explain
+Jul 20 19:53:25 <kushal>	http://rafb.net/p/kViANW81.html
+Jul 20 19:53:45 <ria>	arpita, did you understand what will be the output if we print data?
+Jul 20 19:53:50 <ria>	Debashree, ^^^
+Jul 20 19:54:27 <ria>	arpita, Debashree ?
+Jul 20 19:54:32 <Debashree_>	ria, it will only give the latest values?
+Jul 20 19:54:32 <arpita>	ria, yes it prints all details
+Jul 20 19:54:48 <ria>	data gives the page source
+Jul 20 19:55:11 <ria>	the CSS and HTML all this of the page
+Jul 20 19:55:17 <ria>	you go to the site
+Jul 20 19:55:33 <ria>	and enter a company name and get the site
+Jul 20 19:55:41 <ria>	wait
+Jul 20 19:55:58 <ria>	i did WIT
+Jul 20 19:56:20 <ria>	now go to view
+Jul 20 19:56:32 <amrita>	kushal, can you give the site regarding modules?
+Jul 20 19:56:41 <ria>	and click on view page source
+Jul 20 19:56:48 <kushal>	amrita, docs.python.org 
+Jul 20 19:56:53 <ria>	http://finance.yahoo.com/q?s=WIT
+Jul 20 19:57:11 <ria>	go here and do view->view page source
+Jul 20 19:57:21 <ria>	Debashree, arpita done?
+Jul 20 19:57:28 <arpita>	yes
+Jul 20 19:57:36 <ria>	ok
+Jul 20 19:57:41 <arpita>	what is it exactly showing in view page source???
+Jul 20 19:57:59 <ria>	thats the CSS, i mean how the page is designed
+Jul 20 19:58:08 <arpita>	o.k
+Jul 20 19:58:19 <ria>	see if you print data in your program you will get this
+Jul 20 19:58:23 <ria>	the page source
+Jul 20 19:58:25 <ria>	ok?
+Jul 20 19:58:30 <kushal>	arpita, every web page you see is written in a language called HTML, so what you see is the HTML source 
+Jul 20 19:58:47 <arpita>	ria,o.k
+Jul 20 19:58:56 <ria>	now you come down
+Jul 20 19:59:06 <ria>	you will find last trade
+Jul 20 19:59:22 <ria>	use '/'
+Jul 20 19:59:36 <ria>	and then type last trade to directly go there
+Jul 20 19:59:40 <ria>	arpita, ok?
+Jul 20 19:59:58 <ria>	i mean press '/'
+Jul 20 20:00:11 <ria>	did you get last trade?
+Jul 20 20:00:14 <ria>	arpita, ?
+Jul 20 20:00:30 <kishanGoyal>	yes...got it
+Jul 20 20:00:33 <amrita>	ria, !
+Jul 20 20:00:43 <ria>	amrita, ask
+Jul 20 20:01:06 <ria>	arpita, should i proceed?
+Jul 20 20:01:06 <amrita>	ria, on going to the link we are able to see the last trade value
+Jul 20 20:01:12 <sunny_slls>	ria,!
+Jul 20 20:01:13 <ria>	ya
+Jul 20 20:01:23 <arpita>	ria,i can't see the value
+Jul 20 20:01:39 <ria>	arpita, no need to see the value
+Jul 20 20:01:43 <ria>	sunny_slls, wait
+Jul 20 20:01:43 <amrita>	so view->view page source means?
+Jul 20 20:01:58 <sunny_slls>	!
+Jul 20 20:01:58 *	Debashree has quit (Read error: 110 (Connection timed out))
+Jul 20 20:02:03 <ria>	above you will view
+Jul 20 20:02:06 <kushal>	amrita, means to show the HTML source code, like you see the .c file to show C source code 
+Jul 20 20:02:06 <arpita>	ria, i got the place where last trade is written and there details of page desgn portion of last trade is given
+Jul 20 20:02:07 <ria>	sunny_slls, yes
+Jul 20 20:02:20 <ria>	arpita, ya ok fine
+Jul 20 20:02:40 <ria>	ok now arpita see the program
+Jul 20 20:02:44 <sunny_slls>	i did not understand the last trade
+Jul 20 20:02:55 <kushal>	sunny_slls, that is what I asked to fetch from the page 
+Jul 20 20:02:56 <ria>	you were absent last class
+Jul 20 20:03:13 <ria>	kushal, please explain him the question first
+Jul 20 20:03:13 *	makghosh (n=joy@117.201.97.71) has joined #dgplug
+Jul 20 20:03:15 <sunny_slls>	yes
+Jul 20 20:03:19 <kushal>	sunny_slls, try to present in the sessions or else you will not understand many things 
+Jul 20 20:03:28 <ria>	arpita, in the program
+Jul 20 20:03:56 <ria>	10th line will find 'last trade'
+Jul 20 20:04:02 <ria>	which you did manually now
+Jul 20 20:04:15 <ria>	as data means the page source
+Jul 20 20:04:16 <sunny_slls>	kushal, ok
+Jul 20 20:04:24 <ria>	arpita, up to this ok?
+Jul 20 20:04:27 <ria>	clear?
+Jul 20 20:04:38 <arpita>	ria, just by writing data='last trade' we have value of last trade in data??
+Jul 20 20:04:49 <ria>	no no
+Jul 20 20:04:58 <ria>	i am not talking about the value
+Jul 20 20:04:58 <sunny_slls>	but please explain the question?
+Jul 20 20:05:15 <ria>	x = data.find('Last Trade:')
+Jul 20 20:05:26 <ria>	when you do this
+Jul 20 20:05:36 <ria>	the string last trade is found
+Jul 20 20:05:44 <ria>	from the page source
+Jul 20 20:06:00 <arpita>	ria, o.k only the string last trade is found on doing so not the value?
+Jul 20 20:06:08 <kushal>	sunny_slls, from finance.yahoo.com you have to fetch the last trade value for any given company 
+Jul 20 20:06:16 <ria>	ya arpita
+Jul 20 20:06:22 <sunny_slls>	kushal, !
+Jul 20 20:06:27 <ria>	so x is the position of last trade
+Jul 20 20:06:36 <ria>	a numerical value
+Jul 20 20:06:51 <kushal>	sunny_slls, yes 
+Jul 20 20:06:53 <ria>	you can do help(str)
+Jul 20 20:07:09 <ria>	to see what find does
+Jul 20 20:07:14 <ria>	arpita, ok?
+Jul 20 20:07:26 <ria>	now see
+Jul 20 20:07:30 <sunny_slls>	kushal,how we can find the last trade value?
+Jul 20 20:07:35 <arpita>	ria, yes
+Jul 20 20:07:38 <kushal>	sunny_slls, that is the problem 
+Jul 20 20:07:45 <ria>	go the page source
+Jul 20 20:07:58 <kushal>	sunny_slls, you are supposed to solve it, now ria is telling how she did that
+Jul 20 20:08:13 <ria>	now you see
+Jul 20 20:08:23 *	bose_aritra has quit (Read error: 110 (Connection timed out))
+Jul 20 20:08:30 <ria>	after last trade string you will find the value
+Jul 20 20:08:35 <ria>	in page source
+Jul 20 20:08:53 <ria>	in between them there are lot of other things
+Jul 20 20:09:00 <ria>	i mean the HTML code
+Jul 20 20:09:03 <amrita>	kushal, not that module page
+Jul 20 20:09:16 <ria>	arpita, did you get that?
+Jul 20 20:09:36 <kushal>	amrita, there you can find it, open your eyes :)
+Jul 20 20:09:49 <kishanGoyal>	got it...
+Jul 20 20:10:04 <arpita>	ria,last trade value then some html code then it is written 10.81
+Jul 20 20:10:05 <ria>	arpita, did you get 10.81?
+Jul 20 20:10:11 <ria>	ya
+Jul 20 20:10:17 <arpita>	ria,yes got it
+Jul 20 20:10:25 <kishanGoyal>	10.81..yes...
+Jul 20 20:10:26 <ria>	i have counted the number how far it is
+Jul 20 20:10:31 <ria>	ya kishanGoyal :)
+Jul 20 20:10:42 <ria>	a rough count though
+Jul 20 20:11:03 <ria>	i mistakenly counted wrong
+Jul 20 20:11:07 <sunny_slls>	kushal,!
+Jul 20 20:11:16 <ria>	anyways the number is 52
+Jul 20 20:11:31 <kushal>	sunny_slls, yes
+Jul 20 20:11:37 <sunny_slls>	not understood
+Jul 20 20:11:42 <ria>	i mean 52 letters in between
+Jul 20 20:11:46 <ria>	arpita, ok?
+Jul 20 20:12:14 <arpita>	ria,o.k
+Jul 20 20:12:16 <kushal>	sunny_slls, that is the problem you are supposed to solve 
+Jul 20 20:12:29 <ria>	now see the program
+Jul 20 20:12:49 <ria>	12th line
+Jul 20 20:13:04 <ria>	xx = x + 52
+Jul 20 20:13:10 *	Prakhar (n=prakhar@122.163.71.100) has joined #dgplug
+Jul 20 20:13:13 <arpita>	ria,no. of characters in between is coming to 62
+Jul 20 20:13:17 <ria>	x was the position of last trade
+Jul 20 20:13:18 <sunny_slls>	but i can't understand anything..
+Jul 20 20:13:44 <kushal>	sunny_slls, good, so be in session or else next sessions you will not understand anything 
+Jul 20 20:13:46 <ria>	arpita, i did less counting i printed and i made changes
+Jul 20 20:13:58 <ria>	arpita, check that later
+Jul 20 20:14:11 <ria>	when you print you will understand
+Jul 20 20:14:19 <arpita>	ria,o.k
+Jul 20 20:14:30 <arpita>	are blank spaces counted??
+Jul 20 20:14:37 <ria>	ya
+Jul 20 20:14:41 <kushal>	arpita, yes 
+Jul 20 20:14:51 *	makghosh_ (n=joy@117.201.97.74) has joined #dgplug
+Jul 20 20:14:53 <arpita>	o.k
+Jul 20 20:15:03 <kushal>	now http://rafb.net/p/PiYp1o33.html is how I solved it 
+Jul 20 20:15:16 <kushal>	first found the place for "Last Trade:" 
+Jul 20 20:15:23 *	Debashree_ has quit (Read error: 110 (Connection timed out))
+Jul 20 20:15:24 <ria>	so x was the last trade position
+Jul 20 20:15:31 <ria>	kushal, just wait a minute
+Jul 20 20:15:35 <arpita>	ria,cannot understand last line of the program
+Jul 20 20:15:46 <kushal>	then took from next 53rd char to 72th one (72 is a random number) 
+Jul 20 20:15:48 <kushal>	ria, ok
+Jul 20 20:16:13 *	amrita_ (n=amrita@117.201.97.188) has joined #dgplug
+Jul 20 20:16:23 <ria>	arpita, see xx is the position of 10.81
+Jul 20 20:16:23 *	Kkhushi (n=khushbu@59.180.138.187) has joined #dgplug
+Jul 20 20:16:30 <ria>	i mean it is for 1
+Jul 20 20:16:42 <ria>	position of 1
+Jul 20 20:16:49 <Prakhar>	kushal: me and Kkhushi did it. she'll be here in a while
+Jul 20 20:16:55 <ria>	arpita, understood?
+Jul 20 20:17:02 <kushal>	Prakhar, ok
+Jul 20 20:17:12 <Kkhushi>	khushbu mohta
+Jul 20 20:17:12 <Prakhar>	ok, Kkhushi is here
+Jul 20 20:17:15 <arpita>	ria,xx is position of 10.81
+Jul 20 20:17:27 <ria>	the first character
+Jul 20 20:17:30 <arpita>	but what do you mean by it is for 1??
+Jul 20 20:17:40 <arpita>	o.k o.k
+Jul 20 20:17:41 <ria>	1 in 10
+Jul 20 20:17:42 <arpita>	got it
+Jul 20 20:17:56 <arpita>	it is the position of 1 of 10.81??
+Jul 20 20:17:58 <ria>	so you need to print upto 1
+Jul 20 20:18:05 <ria>	of 81
+Jul 20 20:18:06 <arpita>	ria,yes
+Jul 20 20:18:13 <ria>	so total 5 characters
+Jul 20 20:18:28 <ria>	arpita, so its from xx to xx + 5
+Jul 20 20:18:31 <ria>	arpita, ok?
+Jul 20 20:18:42 <ria>	that's it
+Jul 20 20:18:43 <arpita>	ria,yes understood now thanks a lot
+Jul 20 20:18:49 <Kkhushi>	kushal, http://wiki.dgplug.org/index.php/User:Khushbu/Python_assignment
+Jul 20 20:18:49 <ria>	arpita, nope
+Jul 20 20:18:50 <ria>	:)
+Jul 20 20:19:12 <ria>	kushal, your link?
+Jul 20 20:19:32 <kushal>	is the wiki down ?
+Jul 20 20:19:43 <Prakhar>	kushal: wiki is down
+Jul 20 20:20:01 <kushal>	eh
+Jul 20 20:20:09 <ria>	kushal, your link is not working
+Jul 20 20:20:17 <ria>	kushal, can you give it again
+Jul 20 20:20:18 <ria>	?
+Jul 20 20:20:19 <Prakhar>	kushal: its taking too long to respond
+Jul 20 20:20:31 <kushal>	yes
+Jul 20 20:20:40 *	munichlinux has quit ("Ex-Chat")
+Jul 20 20:20:42 <kushal>	http://rafb.net/p/PiYp1o33.html
+Jul 20 20:21:50 <ria>	kushal, i said you the same thing
+Jul 20 20:21:50 *	amrita has quit (Nick collision from services.)
+Jul 20 20:21:55 *	amrita_ is now known as amrita
+Jul 20 20:22:05 <Kkhushi>	Kushal, i did exactly the same :) http://rafb.net/p/vXMmGP75.html
+Jul 20 20:22:09 <ria>	kushal, you also did until it finds </
+Jul 20 20:22:14 <kushal>	ria, yes
+Jul 20 20:22:25 <ria>	kushal, you said me not in that way
+Jul 20 20:22:38 <sunny_slls>	kushal,understood a bit
+Jul 20 20:22:45 <ria>	only i can change one line to get the desired
+Jul 20 20:23:15 <kushal>	Kkhushi, your output needs to be fixed , a bit more fine tune :p
+Jul 20 20:23:27 <kushal>	ria, I said your choice
+Jul 20 20:23:40 <ria>	kushal, you also said me no
+Jul 20 20:23:46 <ria>	'no'
+Jul 20 20:24:22 <kushal>	ria, <ria> kushal, i can print untill < is encountered
+Jul 20 20:24:22 <kushal>	<ria> i think that will work
+Jul 20 20:24:22 <kushal>	<kushal> ria, that you decide :p
+Jul 20 20:24:23 <ria>	<kushal> ria, don't think so, try and see :)
+Jul 20 20:24:40 <ria>	kushal, you said it later what i pasted
+Jul 20 20:24:43 <ria>	<kushal> ria, don't think so, try and see :)
+Jul 20 20:24:48 <kushal>	ria, I asked you not to think, try and see
+Jul 20 20:24:49 *	Kkhushi_ (n=khushbu@59.180.145.102) has joined #dgplug
+Jul 20 20:25:04 <ria>	o i interpreted wrong
+Jul 20 20:25:05 <kushal>	anyway moving ahead 
+Jul 20 20:25:06 <ria>	:)
+Jul 20 20:25:30 <kushal>	Problem you should solve later at home : Home Task
+Jul 20 20:25:32 <ria>	sure
+Jul 20 20:25:56 <kushal>	Write a program to print Roman equivalent of a decimal number 
+Jul 20 20:26:42 <kushal>	To solve now
+Jul 20 20:26:52 *	Kkhushi__ (n=khushbu@59.180.144.152) has joined #dgplug
+Jul 20 20:27:04 <kushal>	Write a program which will split a given file into small parts
+Jul 20 20:27:23 <kushal>	and then another code which will join these parts into the original file 
+Jul 20 20:29:02 *	makghosh has quit (Read error: 110 (Connection timed out))
+Jul 20 20:29:38 <ria>	kushal, http://rafb.net/p/Yj1oYm21.html
+Jul 20 20:29:53 <ria>	kushal, i corrected it and working now better
+Jul 20 20:30:07 <kushal>	ria, ok
+Jul 20 20:30:56 <kushal>	every one understood the problem ?
+Jul 20 20:31:27 <ria>	kushal, can you give the module link?
+Jul 20 20:31:32 <Kkhushi__>	yup
+Jul 20 20:31:43 <kushal>	ria, docs.python.org 
+Jul 20 20:31:48 *	Prakhar is away for 10 minutes
+Jul 20 20:32:05 <kushal>	all python documentation can be found at docs.python.org 
+Jul 20 20:32:15 <ria>	kushal, what do you mean by small parts?
+Jul 20 20:32:35 <kushal>	ria, split a file into smaller size files 
+Jul 20 20:33:03 <ria>	kushal, an example?
+Jul 20 20:33:12 <kushal>	ria, google 
+Jul 20 20:33:27 <kushal>	for file splitter 
+Jul 20 20:33:47 <ria>	kushal, actually i did not understand the question
+Jul 20 20:34:07 <kushal>	ria, google for file splitter 
+Jul 20 20:34:24 <ria>	i find for windows
+Jul 20 20:35:02 <Kkhushi__>	ria if we have a essay in a file we have to split the file in smaller files containing one para or something like that
+Jul 20 20:35:07 <kushal>	yes
+Jul 20 20:35:23 <kushal>	Kkhushi_, very strange example :p
+Jul 20 20:35:26 <ria>	kishanGoyal,
+Jul 20 20:35:28 <kushal>	afk
+Jul 20 20:35:31 <ria>	Kkhushi, ok
+Jul 20 20:35:34 <ria>	kushal, wait
+Jul 20 20:36:00 <ria>	kushal, the splitted parts will be in files?
+Jul 20 20:36:23 <ria>	there will be separate files for them?
+Jul 20 20:36:45 <ria>	Kkhushi, will there be separate files for them?
+Jul 20 20:36:54 <ria>	i mean the smaller parts?
+Jul 20 20:36:56 <Kkhushi__>	ria, yes
+Jul 20 20:37:04 <ria>	ok thanks Kkhushi
+Jul 20 20:37:53 <Kkhushi__>	kushal, on what basis we'll split the files??
+Jul 20 20:38:18 <Kkhushi__>	number of characters?? i guess
+Jul 20 20:38:24 <kushal>	Kkhushi, you decide 
+Jul 20 20:38:31 <kushal>	Kkhushi, it may be a binary file 
+Jul 20 20:39:36 <kushal>	http://docs.python.org/lib/bltin-file-objects.html   this is what you need to know 
+Jul 20 20:41:19 *	Prakhar has to urgently leave
+Jul 20 20:41:29 <Prakhar>	kushal: sorry, urgent work
+Jul 20 20:41:35 *	Kkhushi has quit (Nick collision from services.)
+Jul 20 20:41:43 *	Kkhushi__ is now known as Kkhushi
+Jul 20 20:42:18 <Prakhar>	kushal: i'll read the log later.
+Jul 20 20:42:27 <kushal>	btw, I am going to take SVN class , so everyone mail me their desired password (at least 6 characters )
+Jul 20 20:43:01 <Prakhar>	kushal: waiting for your permission :)
+Jul 20 20:43:17 <kushal>	Prakhar, no need , just go :)
+Jul 20 20:43:29 <Prakhar>	kushal: ok, thanks
+Jul 20 20:43:31 <Prakhar>	kushal: bye
+Jul 20 20:43:42 *	Prakhar (n=prakhar@122.163.71.100) has left #dgplug ("Konversation terminated!")
+Jul 20 20:44:59 *	Kkhushi_ has quit (Read error: 110 (Connection timed out))
+Jul 20 20:45:46 *	Kkhushi_ (n=khushbu@59.180.136.201) has joined #dgplug
+Jul 20 20:46:10 <ria>	kushal, http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/224800
+Jul 20 20:46:16 *	Kkhushi has quit (Nick collision from services.)
+Jul 20 20:46:21 <ria>	kushal, see this is the program :)
+Jul 20 20:46:24 *	Kkhushi_ is now known as Kkhushi
+Jul 20 20:46:29 <ria>	i am trying to understand it
+Jul 20 20:46:36 <kushal>	ria, I asked you all to solve it 
+Jul 20 20:46:47 <ria>	kushal, i know
+Jul 20 20:47:00 <ria>	kushal, was just trying to get an idea
+Jul 20 20:47:08 <kushal>	ok
+Jul 20 20:47:15 <ria>	i just read http://docs.python.org/lib/bltin-file-objects.html now
+Jul 20 20:47:15 <kushal>	no problem on that 
+Jul 20 20:47:21 <ria>	which you earlier
+Jul 20 20:47:32 <ria>	*you gave
+Jul 20 20:47:36 <kushal>	ria, no need to tell everything you are doing 
+Jul 20 20:47:48 <ria>	kushal, sorry
+Jul 20 20:49:49 <kushal>	People don't forget to mail me details I asked 
+Jul 20 20:50:07 <arpita>	kushal, a six letter password and what else?
+Jul 20 20:50:55 <kushal>	arpita, username if you want 
+Jul 20 20:51:18 <kushal>	arpita, I will put your names as user names 
+Jul 20 20:51:20 <arpita>	kushal, where will this be used?
+Jul 20 20:51:24 <kushal>	arpita, svn 
+Jul 20 20:51:45 <arpita>	kushal, what is that??
+Jul 20 20:51:50 <kushal>	arpita, google 
+Jul 20 20:51:59 <kushal>	<--SESSION STOPPED-->

@@ -1,0 +1,251 @@
+[15:12:31] [## Class Started at Tue Aug  9 15:12:31 2016 ##]
+[15:12:31] <kushal> startclass
+[15:12:43] <kushal> Roll Call
+[15:12:45] <CuriousLearner_> Sanyam Khurana
+[15:12:45] <akshays> Akshay Shipurkar
+[15:12:45] <abhishekg5> Abhishek Gupta
+[15:12:46] <abstatic> Abhishek Shrivastava
+[15:12:46] <code_geek> Shantanu Acharya
+[15:12:46] <gobinda> Gobinda Akhuli
+[15:12:46] <smdeep> Sudeep Mukherjee
+[15:12:48] <vshelar> Vivek Shelar
+[15:12:48] <pyadav> Pooja Yadav
+[15:12:49] <avik> Avik Mukherjee
+[15:12:51] <venki> venkitaraman
+[15:12:52] <aniketh_> Aniketh Girish
+[15:12:53] <rl56> Varsha R
+[15:12:53] <akash47> Akash Mishra
+[15:12:53] <sandeepk> sandeep kumar choudhary
+[15:12:57] <pabitra> Pabitra Pati
+[15:12:57] <tabrez> Tabrez khan
+[15:12:58] <radhikaa> Radhika Arora
+[15:13:00] <moon45> Mamoon Manzoor
+[15:13:01] <poonam> Poonam Jadhav
+[15:13:16] <vbhjain> vaibhav jain
+[15:13:17] <jargonmonk> Aniket Khisti
+[15:13:23] <Onkar> Onkar Karale
+[15:13:28] <PrashantJ> Prashant jamkhande
+[15:13:29] <vharsh> Harsh Vardhan
+[15:13:30] <deep123k> Deepanshu Kapoor
+[15:13:38] <rohan_h> Rohan Hazra
+[15:13:47] <GoK__> Gokul P S
+[15:14:36] <iKshitij> Kshitij
+[15:14:42] <lambainsaan__> Rhitik Bhatt
+[15:14:56] <moizsajid> Moiz Sajid
+[15:15:13] <surendhar> surendhar
+[15:15:23] <mahesh5> Mahesh
+[15:17:03] <kushal> Okay
+[15:17:22] <rohitkrishna> Rohit_krishna
+[15:17:25] <Arun_Kumar> Roll Call: Arun kumar
+[15:17:32] <jogender> Jogender Kota
+[15:17:50] <aman_> Aman Kumar
+[15:18:40] <Anupama> Anupama Mandal
+[15:19:31] <kushal> So, questions ?
+[15:19:32] <kushal> Any questions?
+[15:20:12] <c0mrad3> Roll Call: Tummala Dhanvi
+[15:20:31] <Ananthu> Roll call: Anantha krishnan
+[15:22:39] <kushal> We can go on to new things, but first I want to hear the questions first?
+[15:23:47] <Krishna> sorry , I got late . What's going on ?
+[15:25:39] GoK__ is now known as GoK
+[15:26:02] <abhishekg5> Krishna: Questions related to functions
+[15:27:52] <sandeepk> !
+[15:29:08] <kushal> next
+[15:29:12] <ak_d> roll call: Akhilesh Dhaundiyal
+[15:29:13] <kushal> sorry I am slow today
+[15:29:13] <sandeepk> kushal: can you explain this why they put wordlist with * def sortwords(*wordlist, case_sensitive=False):
+[15:29:30] <sandeepk> is wordlist any varaible ?
+[15:30:01] <sandeepk> function defination ->def sortwords(*wordlist, case_sensitive=False):
+[15:33:58] <kushal> Who can answer sandeepk ?
+[15:36:38] <PrashantJ>  The asterisk "*" is used in Python to define a variable number of arguments. Am I right?
+[15:37:03] <mbtamuli12_> Roll Call: Mriyam Tamuli
+[15:37:48] <vharsh> PrashantJ: No
+[15:37:53] <akshays> to use keyword wordlist while passing parameter
+[15:38:13] <akshays> am i correct ?
+[15:38:21] <rohan_h> When we don't know the number of arguments, we us *args as a convention. We can also use anything instead of args.
+[15:38:23] <vharsh> It is kinda a way to say, hey python treat the args passed to it as a list
+[15:38:23] <PrashantJ> vharsh, Okay. Thanks:)
+[15:38:31] <pabitra> * used for passing non-keyworded arguments
+[15:38:35] <yash_b> k is a tuple , i guess
+[15:39:00] <vharsh> eg sortwords("hello", "hey", "xxx", 'yyy', True);
+[15:39:25] <vharsh>  wordlist = ["hello", "hey", "xxx", 'yyy']
+[15:39:52] <pabitra> all those arguments passed using * are passed as a tuple which can be accessed through their index
+[15:39:52] <vharsh> wordlist becomes a list of things, even if you pass just 1 args
+[15:40:16] <sandeepk> thank's vharsh got it :)
+[15:41:24] <yash_b> !
+[15:41:26] <vharsh> sandeepk: I am not sure if i am right.
+[15:41:48] <pabitra> vharsh, I guess it is passed as tuple instead of list
+[15:42:11] <yash_b> +1 pabitra
+[15:42:12] <poonam> i guess * is used when you  need to pass more argument that you have specified while definingthe function
+[15:42:40] <pabitra> so inside the function if you want to access the arguments that are passed using * you can use the indices of the tuple
+[15:42:54] <akshays> i would like to correct myself it accepts argument "case_sensitive" which should be specified and any numbers arguments
+[15:43:18] <akshays> s/numbers/number
+[15:43:21] <vharsh> pabitra: Yes. I just saw it :)
+[15:43:40] <pabitra> :)
+[15:46:00] <PrashantJ> thanks pabitra. You cleared ambiguity.:)
+[15:46:00] <SpEcBOT2> SpEcHiDe: Roll Call: Shrimadhav U K
+[15:46:18] <pabitra> my pleasure PrashantJ :)
+[15:47:06] <vharsh> I got an invalid syntax error Here's it http://paste.fedoraproject.org/404831/14707503/
+[15:47:37] <vharsh> pabitra: ^^
+[15:48:36] <pabitra> does your method have any statements inside it ?
+[15:49:08] <pabitra> oh yes
+[15:49:10] <vharsh> I am writing it in the python  interpreter.
+[15:49:20] <pabitra> vharsh, reverse the order
+[15:49:28] <kushal> brb
+[15:49:45] <vharsh> pabitra: It worked when I reversed it.
+[15:49:53] <pabitra> the non-keyworderd arguments come after keyworded arguments in function declaration
+[15:50:15] <vharsh> I think I read this in an orielly book with the heading tuple (un)packing.
+[15:50:44] <pabitra> so here case_sensitive is your keyworded argument and you are certain that your method will take this parameter
+[15:51:25] <pabitra> but non-keyworded arguments are especialy when user is not sure, if any more arguments would be passed going ahead
+[15:52:13] <vharsh> pabitra: I think it works if it is a part of a script. As rohan_h just pointed out to me.
+[15:52:34] <vharsh> oops he wrote it on IDLE.
+[15:52:54] <shobhitaqua14> roll call:shobhit upadhyay
+[15:53:21] <pabitra> I am not sure. but I don't think so,
+[15:53:59] <sandeepk> pabitra: But it works fine when i run  same defination of function
+[15:54:46] <kushal> brb sorry for this.
+[15:54:48] <vharsh> sandeepk: are you using python3.5 on windows?
+[15:55:03] <pabitra> are you trying on idle or python command prompt ? sandeepk
+[15:55:10] <sandeepk> vharsh: on fedora
+[15:55:35] <sandeepk> pabitra: python command prompt
+[15:55:54] <pabitra> don't know. kushal can guide you better
+[15:56:06] <iKshitij> sandeepk On windows use editor !
+[15:56:36] <vharsh> iKshitij: he is using Fedora
+[15:57:13] <iKshitij> vharsh ok then !
+[15:58:58] <sandeepk_> sorry got disconnected :(
+[15:59:03] <sandeepk_> pabitra: http://paste.fedoraproject.org/404837/
+[15:59:27] <pabitra> yes
+[15:59:45] <pabitra> sandeepk_, I think in Python 3 the precedence is not there
+[16:00:13] <pabitra> i.e. in Python 2.7 keyworded arguments have precedence than non-keyworded args
+[16:00:23] <pabitra> but in Python3 that has been removed
+[16:01:31] <sandeepk_> pabitra: ok, I was thinking that my pc got some magical power :p
+[16:01:56] <yash_b> files
+[16:02:09] <rohan_h> vharsh, told me to forward it :    https://s10.postimg.org/q20vbxvrt/Screenshot_from_2016_08_09_19_28_15.png
+[16:02:24] <yash_b> typed that by mistake
+[16:03:03] <vharsh> pabitra: The screenshot.
+[16:03:21] <vharsh> I wonder how false didn't give an error.
+[16:03:23] <pabitrapati> sorry vharsh I got disconnected
+[16:03:35] <vharsh> pabitrapati:  https://s10.postimg.org/q20vbxvrt/Screenshot_from_2016_08_09_19_28_15.png
+[16:03:37] <pabitrapati> vharsh, check your python version
+[16:04:22] <pabitrapati> yeah vharsh that's what I told
+[16:04:31] <vharsh> Python 3.5.1
+[16:04:46] <pabitrapati> in python3 this might work. kushal can confirm you on this
+[16:05:01] <vharsh> pabitrapati: rohan_h is on 3.4.2 :/
+[16:05:23] <pabitrapati> 3.4 or 3.5 all belongs to pthon3  :) :P
+[16:05:40] <pabitrapati> python3. sorry for typo
+[16:05:50] <sandeepk_> vharsh: i think you should complete your function body and call it to get an error :p
+[16:06:29] <sandeepk_> vharsh: http://paste.fedoraproject.org/404845/
+[16:07:07] <sandeepk_> vharsh: when i try ^^^
+[16:07:26] <vharsh> sandeepk_: mystery prevails :|
+[16:07:50] <pabitrapati> sandeepk_,
+[16:08:00] <pabitrapati> prior to print do a type(case)
+[16:08:36] <pabitrapati> I guess there is something wrong in your parameter parsing so the error
+[16:08:42] <mbtamuli12_> sandeepk_, "name 'fasle' is not defined"?
+[16:09:27] <vharsh> pabitrapati: It works if I write it in a .py file.
+[16:09:36] <pabitrapati> try False sandeepk_
+[16:09:41] <sandeepk_> mbtamuli12_: i know i was telling vharsh, that he will get error when we will finish functionn body :)
+[16:09:50] <vharsh> [harsh@thinking-cap ~]$ ./errrr.py
+[16:09:50] <vharsh> ('ehllo', 'camel', 'case', 'rocks', 9, 7, 0, False)
+[16:09:56] <vharsh> sandeepk_: I got no errors :p
+[16:10:03] <pabitrapati> vharsh, it would work even if you write in cmd only
+[16:10:40] <vharsh> pabitrapati: I am on Fedora24 and here's the code I wrote http://paste.fedoraproject.org/404851/70751819/
+[16:10:47] <pabitrapati> vharsh, http://paste.fedoraproject.org/404852/70751837/
+[16:12:21] <sandeepk_> vharsh: but the link you posted above will lead to error -->https://s10.postimg.org/q20vbxvrt/Screenshot_from_2016_08_09_19_28_15.png
+[16:12:24] <pabitrapati> so it worrked right vharsh
+[16:12:42] <vharsh> pabitrapati: yes.
+[16:12:52] <pabitrapati> so what is the problem then ?
+[16:13:27] <pabitrapati> it would still work if you put the code in python shell instead of a .py file
+[16:13:45] <vharsh> pabitrapati: If python is an interpreted language it is expected to behave the same, irrespective of the code (.py file or from a shell )
+[16:14:46] <vharsh> pabitrapati: Moreover, it is working for a people, not all.
+[16:15:05] <pabitrapati> I don't know. it works for me in shell as well
+[16:16:35] <PrashantJ> works in shell for me as well
+[16:17:19] <Anupama> works for me too
+[16:17:26] <pabitrapati> for whom it is not working vharsh
+[16:17:52] <vharsh> pabitrapati: Wait. Why did it print False?
+[16:18:00] <vharsh> pabitrapati: I think for me.
+[16:18:07] <vharsh> and sandeepk_
+[16:18:21] <vharsh> http://paste.fedoraproject.org/404845/
+[16:19:01] <sandeepk_> vharsh: because fasle in not defined
+[16:19:16] <sandeepk_> in place of false there should be False
+[16:19:16] <vharsh> sandeepk_: :) I just noticed the typo.
+[16:19:29] <pabitrapati> :)
+[16:19:40] <vharsh> In rohan_h's screenshot it is false.
+[16:19:45] <vharsh> with a small f
+[16:20:27] <sandeepk_> vharsh: i  write that code just to point out that small f only
+[16:20:48] <sandeepk_> in between, can anyone help me with whom talk to whom task problem
+[16:21:44] <sandeepk_> i copy someone's  code and try to run it but didn't get any output
+[16:26:33] <pabitrapati> what did you copy sandeepk_
+[16:27:39] <sandeepk_> pabitrapati: yes , from  paste.fedoraproject to check that code is right or not
+[16:27:58] <sandeepk_> but not getting whats the problem with it
+[16:28:40] <sandeepk_> pabitrapati: did i do something bad ?
+[16:28:44] <pabitrapati> so see. when you copy paste a code there might be indentation isues
+[16:29:22] <pabitrapati> because the editor you are using need not ahve the same indentaion level as set by the one who wrote the code piece
+[16:29:34] <pabitrapati> try putting correct indentation
+[16:29:41] <pabitrapati> paste your code if possible
+[16:30:06] <sandeepk_> pabitrapati: ok, wait
+[16:30:35] <sandeepk_> pabitrapati: https://da.gd/lgGe
+[16:31:42] <pabitrapati> and what error are you getting
+[16:32:08] <sandeepk_> pabitrapati:  there is no error and no output
+[16:32:33] <sandeepk_> it also not print even hi  :(
+[16:32:34] <pabitrapati> have you defined log1 log2 ..?
+[16:32:38] <sandeepk_> yes
+[16:33:29] <pabitrapati> write in apy file and run the py file
+[16:33:45] <sandeepk_> i have written the code in .py file
+[16:34:08] <pabitrapati> may i know what are your log files?
+[16:34:15] <pabitrapati> i mean log1 2 3 4
+[16:35:18] <sandeepk_> the first four log file from dgplug.org/irclogs
+[16:35:31] <sandeepk_> pabitrapati: let me paste whole code with log files
+[16:36:23] <pabitrapati> no no
+[16:36:31] <pabitrapati> don't paste the log files
+[16:36:33] <pabitrapati> :)
+[16:36:40] <pabitrapati> it will be huge i guess
+[16:36:49] <sandeepk_> pabitrapati: yes :)
+[16:37:13] <pabitrapati> ha ha :) you made me scared saying paste log file :)
+[16:37:43] <sandeepk_> pabitrapati: hahah
+[16:38:15] <sandeepk_> pabitrapati: even  paste.fedoraproject cannot have full code file :P
+[16:38:21] <pabitrapati> Lol
+[16:38:38] <pabitrapati> but I am not getting why it is not working
+[16:38:52] <sandeepk_> pabitrapati: it just stop at log2 half :P
+[16:38:55] <vharsh> sandeepk_: How big is the error log?
+[16:39:04] <pabitrapati> so let me confirm your log1,2,34 are all strigns right ?
+[16:39:06] <pabitrapati> or files ?
+[16:39:40] <sandeepk_> string in  enclosed in  """  """
+[16:39:56] <sandeepk_> vharsh:  error llog?
+[16:40:02] <sandeepk_> s/llog/log
+[16:40:17] <vharsh> yes, the one fpaste can't have :p
+[16:40:34] <vharsh> I wonder, what would be the size limit.
+[16:40:47] <sandeepk_> you can see yourself https://paste.fedoraproject.org/404870/
+[16:40:52] <sandeepk_> vharsh: ^^
+[16:41:08] <sandeepk_> vharsh: 1171 lines :P
+[16:41:26] <SpEcBOT2> SpEcHiDe: sandeepk_: can you share your code on GitHub gist?
+[16:41:51] <sandeepk_> SpEcBOT2:  ok
+[16:41:58] <vharsh> sandeepk_: Can't we use file handling, ro input redirection? It's just more convenient :)
+[16:43:01] <sandeepk_> vharsh: i donot know filehandling right now and kushal tell us to save them in string, i think so
+[16:43:22] <vharsh> help(fopen)
+[16:43:28] <vharsh> oh sorry help(open)
+[16:43:35] <kushal> sorry still stuck.
+[16:45:28] <pabitrapati> hey sandeepk_
+[16:45:37] <sandeepk_> pabitrapati: yes
+[16:45:40] <pabitrapati> I think you have not put \ before """
+[16:46:01] <pabitrapati> that might be closing the string
+[16:46:16] <pabitrapati> try putting \ whereever " in your log files
+[16:46:24] <sandeepk_> pabitrapati: ok
+[16:46:45] <pabitrapati> your error messge just tells it all
+[16:49:51] <sandeepk_> pabitrapati: :)
+[16:50:24] <pabitrapati> add \ it before each " and then try running your code
+[16:50:30] <pabitrapati> I hope that would work
+[16:51:06] <vharsh> pabitrapati: Shouldn't we put a \ before any char that is not alphabet or number ?
+[16:51:18] <vharsh> and not a space/tab
+[16:51:19] <sandeepk_> pabitrapati: nope it did not work
+[16:51:33] <pabitrapati> ok
+[16:51:47] <pabitrapati> sorry but try adding \ before ' as well
+[16:51:56] <pabitrapati> I mean before single quote
+[16:52:10] <pabitrapati> and not in one file all log files you need to add
+[16:53:32] <pabitrapati> sorry. need to go. roommate is sick.
+[16:53:48] <pabitrapati> good night #dgplug
+[16:54:42] <sandeepk_> pabitrapati: thank's for the help
+[16:55:03] <sandeepk_> pabitrapati:  i will try it, think it will work
+[16:55:16] <sandeepk_> ok biee
+[17:07:17] HoloIRCUser3 is now known as Anupama
+[17:18:25] <kushal> sorry, we will continue tomorrow
+[17:18:33] <kushal> got suck in something.
+[17:18:42] <kushal> endclass
+[17:18:42] [## Class Ended at Tue Aug  9 17:18:42 2016 ##]

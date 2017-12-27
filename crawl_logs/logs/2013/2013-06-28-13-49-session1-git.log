@@ -1,0 +1,673 @@
+[13:58:13] [## Class Started at Fri Jun 28 13:58:13 2013 ##]
+[13:58:13] <kushal> startclass
+[13:58:17] <kushal> ---------SESSION STARTS---------
+[13:58:22] <kushal> ROLL CALL
+[13:58:25] <nilanjit> Nilanjit Mitra
+[13:58:26] <lakshya> lakshya
+[13:58:27] <prikotiyal> Priyanka Kotiyal
+[13:58:27] <shantanu> shantanu sarkar
+[13:58:28] <rahulch> Rahul Chowdhury
+[13:58:28] <bidisha> Bidisha Mukherjee
+[13:58:28] <wjcrane> William Crane
+[13:58:29] <anwesha> Anwesha Das
+[13:58:29] <kirk_iowa> kirk
+[13:58:29] <rashmi> Rashmi
+[13:58:31] <tanv> tanvi dutta
+[13:58:32] <Christina> christina Beemer
+[13:58:32] <anurag> anurag kumar
+[13:58:33] <supriya> supriya saha
+[13:58:34] <purva> purva
+[13:58:34] <aanchal> Aanchal
+[13:58:35] <elita15> elita lobo
+[13:58:36] <amresh> amresh kumar
+[13:58:41] <umesh> Umesh Agarwal
+[13:58:41] <tenstormavi> Avinash Kumar Dasoundhi
+[13:58:42] <shalini> Shalini Roy
+[13:58:42] <satarupa> Satarupa Sinha
+[13:58:43] <suman> suman roy
+[13:58:43] <siddhant> siddhant sengar
+[13:58:45] <anisha23>  Anisha Agrawal
+[13:58:49] <sankha87> sankhadeep pujaru
+[13:58:55] <Devyani> Devyani
+[13:59:01] <Armageddon> Elijah
+[13:59:07] <J_Caselles> Josep Caselles
+[13:59:10] <zishan> Sheesh Mohsin
+[13:59:17] <tutum> Pritha Ganguly
+[13:59:27] <dell_> manish
+[13:59:34] <fossterer> ekan0ra: I'm new but no problem
+[13:59:55] <kushal> fossterer, hi, can you please introduce yourself to us ?
+[14:00:07] <dot|not> dot|not,
+[14:00:09] <Ashis> ashis mohta
+[14:00:36] <Sudip> Sudip Gorai
+[14:00:59] <korak> korak ghosh
+[14:01:33] <fossterer> I'm from Andhra Pradesh.. done with my Engineering... badly interested in FOSS... anythin' I missed?
+[14:01:50] <kushal> fossterer, name :)
+[14:02:10] <fossterer> Shashank
+[14:02:22] <fossterer> :)
+[14:02:30] <mac1733> Terry Mackin
+[14:02:31] <kushal> fossterer, welcome
+[14:02:44] <fossterer> kushal: Thank you..
+[14:02:56] <kushal> Can someone tell me which two packages I told to install other night ?
+[14:03:09] <kirk_iowa> git
+[14:03:11] <Christina> git
+[14:03:13] <rahulch> gitk and gtypist
+[14:03:15] <prikotiyal> gtypist and git
+[14:03:19] <korak> vim
+[14:03:27] <tutum> gitk and gtypist
+[14:03:36] <anurag> gtypist and git
+[14:03:46] <shantanu> git gitk
+[14:03:48] <J_Caselles> git gitk
+[14:03:50] <satarupa> gitk and gtypist
+[14:03:54] <kushal> git and gitk
+[14:04:08] <siddhant> git and gtypist
+[14:04:20] <kushal> gtypist was meant to learn touch typing
+[14:04:34] <Armageddon> !
+[14:04:47] <kushal> Armageddon, ask
+[14:04:57] <Armageddon> gitk as in the gtk front-end of as in a tk support ?
+[14:05:17] <kushal> I guess it is tk than gtk
+[14:05:18] supriya_ is now known as supriya
+[14:05:24] <shantanu> !
+[14:05:32] <kushal> shantanu, ask
+[14:05:44] <kushal> we will not questions on last logs
+[14:05:51] <kushal> we will not take questions on last logs
+[14:06:24] <kushal> shantanu, ?
+[14:06:31] <shantanu> :!ctags *.c created the tags file. but when i did :tfirst, it said tag not found. why is it so?
+[14:06:49] <shantanu> ok
+[14:06:56] <kushal> because the tag is not found
+[14:07:06] <kushal> shantanu, also learn to use google.com
+[14:07:23] <kushal> so I hope everyone installed atleast git in their system ?
+[14:07:31] <nilanjit> yes
+[14:07:32] <rahulch> yes
+[14:07:34] <bidisha> yes
+[14:07:35] <tutum> yes
+[14:07:37] <umesh> yes
+[14:07:37] <fossterer> git installed
+[14:07:39] <anurag> yes
+[14:07:40] <satarupa> yes
+[14:07:41] <shantanu> yes
+[14:07:42] <purva> yes
+[14:07:42] <tenstormavi> yes
+[14:07:43] <korak> yes
+[14:07:44] <rashmi> yes
+[14:07:45] <amresh> yes
+[14:07:47] <J_Caselles> yes
+[14:07:49] <kirk_iowa> yes
+[14:07:50] <Devyani> yes
+[14:07:51] <elita15> yes
+[14:07:51] <anwesha> yes
+[14:07:56] <anisha23> yes
+[14:07:57] <siddhant> yes
+[14:08:00] <tanv> yes
+[14:08:00] <Sudip> yes
+[14:08:04] <aanchal> yes
+[14:08:10] <prikotiyal> yes
+[14:08:11] <suman> yes
+[14:08:26] <Christina> no
+[14:08:45] <shalini> yes
+[14:09:00] <kushal> Christina, can you please install it ?
+[14:09:10] <Christina> kushal, yes
+[14:09:25] <supriya> no
+[14:10:08] <praveenkumar> then please do.
+[14:10:12] <Ashis> yes
+[14:10:23] <kushal> supriya, please install as praveenkumar suggested :D
+[14:11:35] <kushal> Christina, supriya tell us when you are done
+[14:11:52] <kushal> who all already know git ?
+[14:11:58] <supriya> i missed yesterdays class
+[14:12:05] <Armageddon> I
+[14:12:06] <supriya> so can you tell me how do i install it?
+[14:12:19] <kushal> supriya, which distribution you are using ?
+[14:12:22] <kirk_iowa> I've used it a little bit.
+[14:12:50] <supriya> distribution as in?
+[14:12:52] <shantanu> kushal, i also used it a bit
+[14:12:57] <Armageddon> I have to say, know git a bit broad, I don't know git in its entirety but I know how to use it in basic forms
+[14:13:07] <kushal> supriya, as in Fedora or Ubuntu
+[14:13:12] <supriya> fedora
+[14:13:14] <fossterer> its theory... use hg
+[14:13:59] <kushal> supriya, become root, then # yum install git
+[14:14:03] <Christina> kushal, #yum install git gitk nothing really happened
+[14:14:20] <kushal> Christina, you are on Ubuntu iirc ?
+[14:14:27] <Christina> yes
+[14:14:29] <kavis> kavis khandelwal
+[14:14:54] <fossterer> Installed gitk too
+[14:15:19] <kushal> Christina, sudo apt-get install git
+[14:15:27] <Christina> kushal, will #apt-get installgit gitk work
+[14:15:33] <supriya> ok
+[14:15:36] <Christina> kushal, ok
+[14:15:58] <supriya> thanx kushal
+[14:16:17] <kushal> supriya, the word is thanks not thanx
+[14:16:18] <praveenkumar> supriya,  s/thanx/thanks
+[14:16:28] <kushal> supriya, you can check any dictionary
+[14:16:32] <supriya> sorry,thanks
+[14:17:27] <kushal> any many times it happens that you have to deal with lots text files
+[14:17:40] <kushal> they may contain code/program or any documentation
+[14:17:55] <kushal> s/any/anyway
+[14:17:57] <kushal> s/any/anyway/
+[14:17:58] <batul> What kushal meant to say was: they may contain code/program or anyway documentation
+[14:18:12] <kushal> heh
+[14:18:16] <Christina> kushal,Building dependency tree
+[14:18:16] <Christina> Reading state information... Done
+[14:18:16] <Christina> Package git is not available, but is referred to by another package.
+[14:18:16] <Christina> This may mean that the package is missing, has been obsoleted, or
+[14:18:16] <Christina> is only available from another source
+[14:18:16] <Christina> E: Package git has no installation candidate
+[14:18:47] <kushal> Christina, please learn to use a pastebin such as fpaste.org
+[14:19:06] <Christina> This is what i got on the terminal
+[14:19:12] <Christina> kushal, ok
+[14:19:15] <praveenkumar> Can someone from ubuntu background help Christina.
+[14:19:24] <kushal> Christina, join #ubuntu and ask for help
+[14:19:29] <kushal> coming back
+[14:19:45] <kushal> for example you are writing an article
+[14:20:01] <kushal> and you want to keep track of any changes
+[14:20:41] <kushal> you may also want to keep track of any changes made by your teammates etc
+[14:20:47] <kirk_iowa> Christina: What version of Ubuntu are you using?
+[14:21:23] <kushal> we use a version control system to handle such cases
+[14:22:30] <kushal> https://en.wikipedia.org/wiki/Revision_control is the wiki link for the same
+[14:22:56] <kushal> you can read it later
+[14:23:23] <kushal> for our sessions we will learn a vcs (version control system) called git
+[14:23:40] <Christina> kirk_iowa, I am sorry I am using it on vmware. took the image from a friend
+[14:23:55] <Christina> so i don't know :(
+[14:24:26] <kushal> it will be heavily used during python sessions and later during project times
+[14:24:33] <dot|not> !
+[14:24:43] <kushal> in FOSS world you will find many projects are using git
+[14:24:46] <kushal> dot|not, ask
+[14:25:36] <dot|not> Not really a question. Christina, please stop disturbing the class - I'm sure kirk_iowa will help you, as will most other people here will. But during class, please do this in a query.
+[14:25:42] <dot|not> <EOF>
+[14:26:37] <kushal> Christina, you can pm kirk_iowa , /query kirk_iowa
+[14:26:46] <kushal> dot|not, thanks
+[14:26:56] <dot|not> Sorry for the interruption.
+[14:27:24] <kushal> git was originally written by Linus Torvalds
+[14:27:38] <kushal> I hope most you already know his name
+[14:27:43] <kushal> anyone who does not ?
+[14:28:02] <siddhant> me
+[14:28:06] <nilanjit> me
+[14:28:14] <dell_> me'
+[14:28:18] <bidisha> me
+[14:28:25] <dell_> s/me'/me
+[14:28:28] <rashmi> me too
+[14:28:31] <purva> me
+[14:28:31] <Christina> I don't
+[14:28:36] <praveenkumar> so completing kushal sentence please google it later.
+[14:28:43] <kushal> praveenkumar, :D
+[14:28:46] <kushal> just for one line
+[14:29:02] <kushal> Linus Torvalds  is the person who wrote Linux :D
+[14:29:02] <Armageddon> change the s in Linus with an x and you'll know who he is
+[14:29:03] <sankha> http://en.wikipedia.org/wiki/Linus_Torvalds
+[14:30:07] <kushal> so he wrote git to manage Linux kernel project
+[14:30:18] <kushal> and we will learn to use it today
+[14:31:38] <kushal> $ git config --global user.name "Kushal Das"
+[14:31:57] <kushal> replace the name with your own
+[14:32:06] <kushal> try the command
+[14:32:11] <kushal> should not give any error
+[14:32:37] <kushal> btw, remember to remove that $ sign
+[14:33:12] kavis_ is now known as kavis
+[14:33:30] <dell_> kushal:ok, no error.
+[14:33:35] <siddhant> kushal,done
+[14:33:52] <sankha> kushal: it doesnt show anything
+[14:34:00] <shantanu> done
+[14:34:08] kirk is now known as kirk_iowa
+[14:34:10] <rahulch> done
+[14:34:15] <nilanjit> done
+[14:34:27] <tutum>  done
+[14:34:31] <fossterer> done
+[14:34:33] <prikotiyal> done
+[14:34:35] <satarupa> done
+[14:34:38] <anisha23> done
+[14:34:40] <rashmi> done
+[14:34:53] <purva> done
+[14:34:53] <amresh> done
+[14:34:55] <tenstormavi> done
+[14:34:57] <umesh> done
+[14:35:00] <kushal> $ git config --global user.email "your email"
+[14:35:02] <supriya> done
+[14:35:11] <aanchal> done
+[14:35:32] <bidisha> yes it does not give any error
+[14:35:37] <umesh> done
+[14:35:44] <rahulch> done
+[14:35:45] <satarupa> done
+[14:35:51] <tutum> done
+[14:35:57] <suman> kushal,i was disconnected.. will you please repeat your question?
+[14:35:58] <amresh> done
+[14:36:01] <nilanjit> done
+[14:36:02] <dell_> done
+[14:36:18] <shantanu> done
+[14:36:25] <siddhant> done
+[14:36:33] <Ravi_pro> done
+[14:36:34] <prikotiyal> second part done
+[14:36:39] <rashmi> done
+[14:36:43] <kushal> suman, ask the log from any of your friend
+[14:36:47] <tenstormavi> done
+[14:36:56] <kushal> please do not type done unless asked
+[14:37:10] * praveenkumar points suman to execute 'git config --global user.email "your email" '
+[14:37:16] <kushal> if you see any error then press ! and wait
+[14:37:18] <anwesha> done
+[14:37:39] <anwesha> sorry
+[14:37:46] <kushal> $ git config --global core.editor vim
+[14:38:11] <kushal> these commands are there to add few basic configuration values
+[14:38:43] <dell_> !
+[14:39:24] <kushal> dell_, ask
+[14:39:26] <dell_> if i write vi instead of vim, will it work?
+[14:39:40] <kushal> dell_, yes, but we do not want that here
+[14:39:49] <kushal> $ git config --list
+[14:39:56] <kushal> will tell you the config values
+[14:40:11] <dell_> as vim is not installed.<EOF>
+[14:40:34] <shalini> done
+[14:40:47] <dell_> kushal: got it. Thanks.
+[14:40:51] <kushal> dell_, then it is your fault, we were teaching vim for more than one day
+[14:40:57] <bidisha> done
+[14:40:58] <kushal> shalini, stop typing done
+[14:41:04] <kushal> bidisha, stop that
+[14:41:04] <Devyani> !
+[14:41:08] <kushal> Devyani, ask
+[14:41:19] <Devyani> kushal, it says command not found
+[14:42:09] <kushal> Devyani, please paste the command you typed and the output to fpaste.org and show us
+[14:42:21] <dell_> kushal: sorry. i will install it as soon as possible. Thanks.
+[14:42:23] <korak> done
+[14:42:27] <korak> done
+[14:43:01] * kushal will kick out anyone saying done (if not asked for it specially)
+[14:43:09] * praveenkumar points korak to please scroll back and check what kushal said.
+[14:43:58] <kushal> Devyani, can you please show us or else we will advance ?
+[14:44:01] <Devyani> kushal,i typed : git config --global user.name "Devyani"
+[14:44:38] <kushal> Devyani, please use fpaste.org to show us both the command and the error
+[14:44:57] <Devyani> kushal, ok.
+[14:44:57] <kushal> also I am sure Devyani is not your full name
+[14:45:10] <fewcha> Devyani: install git first
+[14:45:14] <kushal> Devyani, check if you at all installed git or not
+[14:45:49] <Devyani> kushal, i did install
+[14:46:53] <kushal> Devyani, so can you please show us the error ?
+[14:46:56] <Devyani> it said  : divs not in sudoers file, incident will be noted
+[14:47:05] <Devyani> does that mean, it is not installed?
+[14:47:17] <kushal> Devyani, it means nothing
+[14:47:41] <kushal> Devyani, and as you never showed us the command and the error pasted in fpaste.org, I will just continue
+[14:47:57] <kushal> next, we will create a repository
+[14:48:53] <kushal> a repository is place where we will keep these history and other files related to the projects
+[14:49:26] <kushal> let us create a directory called ~/repo01
+[14:49:30] <kushal> and go inside it
+[14:50:26] <kushal> ~/ sign means it is under home directory
+[14:51:03] <kushal> $ git init
+[14:51:30] <kushal> it will confirm that it created an empty git repository
+[14:52:17] <dell_> !
+[14:52:19] <sankha> !
+[14:52:28] <kushal> dell_, ask
+[14:53:25] <dell_> http://fpaste.org "i will show as Intialized empty Git repository in home/manish/repo01/.git"
+[14:53:37] <dell_> s/i/it
+[14:53:56] <kushal> dell_, I am not sure what exactly you are smoking ?
+[14:54:16] <kushal> sankha, ask
+[14:54:18] <sankha> where should i make repo01 ?   /home$  mkdir repo01 ?
+[14:54:32] <kushal> sankha, no, in your home directory
+[14:54:58] <dell_> the output is shown as " Intialized empty Git repository in home/manish/repo01/.git" kushal
+[14:55:15] <rahulch> !
+[14:55:21] <kushal> dell_, yes, we know, you don't have to announce that
+[14:55:25] <kushal> rahulch, ask
+[14:55:48] <rahulch> shall we execute "git init" after being inside repo01?
+[14:55:49] <dell_> kushal: ok. Just to confirm i ask.
+[14:56:04] <kushal> rahulch, yes, read my lines above
+[14:56:39] <kushal> create another directory inside repo01 called datafiles
+[14:57:20] <korak> !
+[14:57:40] <kushal> korak, ask
+[14:58:06] <kushal> also create a file inside repo01 called progress.txt
+[14:58:22] <kushal> inside it write
+[14:58:28] <kushal> Summer Training
+[14:58:31] <kushal> do it everyone
+[14:59:05] <kushal> use vim to create the file
+[14:59:31] <korak> kushal, when i have created ~/repo01 it showed "bash:root/repo01:no such file or directory"
+[15:00:14] <kushal> btw, do not write "do it everyone" inside the file, that is a message in IRC
+[15:00:24] <kushal> korak, are you using root account ?
+[15:01:08] <kushal> korak, also if you can not create a directory then sorry, I can not help you
+[15:01:16] <shantanu> korak, you dont have to write "~/" with mkdir
+[15:01:39] <kushal> shantanu, he can if he wants
+[15:02:05] <kushal> which will make sure that the directory is under home directory
+[15:02:05] <shantanu> kushal, ok
+[15:02:44] * praveenkumar points shantanu please try yourself once before commenting/suggesting.
+[15:03:20] <kushal> if anyone is getting any error please ask here
+[15:03:41] <kushal> anyway we are still inside repo01
+[15:03:52] <kushal> now try $ git status
+[15:04:04] <kirk_iowa> !
+[15:04:19] <kushal> kirk_iowa, yes
+[15:04:20] <kirk_iowa> do we save progress.txt?
+[15:04:24] <bidisha> :x
+[15:04:37] <bidisha> Sorry wrong window
+[15:04:49] <kushal> kirk_iowa, yes , save and exit
+[15:04:57] <kushal> kirk_iowa, come back to the shell
+[15:05:04] <tanvi> !
+[15:05:08] <kushal> tanvi, ask
+[15:05:15] <tutum> !
+[15:05:37] <tanvi> it saycommand not found
+[15:06:12] <praveenkumar> tanvi, which command you tried?
+[15:06:14] <kushal> tanvi, can you please paste the command you typed into fpaste.org and give us the link
+[15:06:25] <kushal> tutum, ask
+[15:06:37] <tutum> do we get this as the output when we do 'git status'...http://fpaste.org/21674/37243137/
+[15:07:12] <kushal> tutum, please do not use so many full stops, in English we use only one
+[15:07:29] <kushal> I can not even click that link
+[15:07:35] <tutum> kushal,sorry.
+[15:07:39] <tutum> http://fpaste.org/21674/37243137/
+[15:07:47] <kushal> tutum, thanks
+[15:07:55] <praveenkumar> tutum, yes it's as expected
+[15:08:41] <tenstormavi> !
+[15:08:50] <kushal> tenstormavi, ask
+[15:08:57] <tenstormavi> http://fpaste.org/21676/
+[15:08:58] <tutum> praveenkumar:okay.
+[15:09:20] <kushal> tenstormavi, why you are pasting the same link ?
+[15:09:26] <kushal> sorry
+[15:09:37] <kushal> tenstormavi, yes it is the output you should get
+[15:09:51] <tenstormavi> kushal, it shows that message is its desired message?
+[15:10:04] <kushal> it says there is an untracked file
+[15:10:52] <kirk_iowa> vi progress.txt
+[15:10:59] <kushal> kirk_iowa, ?
+[15:11:03] <kushal> wrong windows I guess
+[15:11:10] <kushal> s/windows/window/
+[15:11:11] <batul> What kushal meant to say was: wrong window I guess
+[15:11:13] <kirk_iowa> doh, sorry.
+[15:11:49] <kushal> lets us add progress.txt into git
+[15:11:57] <kushal> $ git add progress.txt
+[15:13:18] <kushal> from now on I will paste the output in the channel so that it stays in the irc log
+[15:13:36] <kushal> in general that is bad but we will do it so that later others can get it from log
+[15:13:38] <kushal> [gitu@dhcp193-104 repo01]$ git status
+[15:13:39] <kushal> # On branch master
+[15:13:39] <kushal> #
+[15:13:39] <kushal> # Initial commit
+[15:13:39] <kushal> #
+[15:13:40] <kushal> # Changes to be committed:
+[15:13:41] <kushal> #   (use "git rm --cached <file>..." to unstage)
+[15:13:43] <kushal> #
+[15:13:47] <kushal> #	new file:   progress.txt
+[15:13:49] <kushal> #
+[15:14:15] <kushal> if you do the above status command it will tell you that a new file is ready to be committed
+[15:14:24] <bidisha> git status
+[15:14:33] <bidisha> sorry wroung window.
+[15:14:36] <kushal> bidisha, in the shell, not here
+[15:15:06] <bidisha> kushal, sorry
+[15:15:38] <kushal> now use the next command to commit it in the git repo
+[15:15:39] <sankha> !
+[15:16:14] <kushal> $ git commit -m "First commit to our documentation"
+[15:16:20] <kushal> sankha, ask
+[15:16:23] <sankha> committed means saved or what ?
+[15:16:50] <kushal> sankha, means it is saved in the repository
+[15:17:08] <sankha> ok
+[15:17:39] <kushal> now try $ git log
+[15:17:52] <kushal> that will tell you the commit details you made
+[15:18:27] <kushal> the value after commit is known as "commit hash"
+[15:19:19] <kushal> the value actually uniquely identifies the commit
+[15:19:34] <kushal> do $ ls -la
+[15:19:36] rahulch_ is now known as rahulch
+[15:19:47] <kushal> that will show you a .git directory
+[15:19:52] <kushal> where all details goes
+[15:19:59] <kushal> s/goes/go/
+[15:20:00] <batul> What kushal meant to say was: where all details go
+[15:21:06] <kushal> now edit the file add another line to the same file
+[15:21:28] <kushal> "I am editing this file." without quotes write that in the progress.txt
+[15:22:47] <kushal> remember it is in the second line
+[15:22:53] <kushal> save and exit
+[15:23:02] <kushal> now if you do $ git status
+[15:23:28] <rashmi> kushal,can you please tell what we need to do aftergit add progress.txt, i missed due to connection problem
+[15:23:50] <kushal> rashmi, please get the log from a friend in pm, session is going on
+[15:24:00] <kushal> $ git status
+[15:24:00] <kushal> # On branch master
+[15:24:00] <kushal> # Changes not staged for commit:
+[15:24:00] <kushal> #   (use "git add <file>..." to update what will be committed)
+[15:24:00] <kushal> #   (use "git checkout -- <file>..." to discard changes in working directory)
+[15:24:02] <kushal> #
+[15:24:04] <kushal> #	modified:   progress.txt
+[15:24:06] <kushal> #
+[15:24:08] <kushal> no changes added to commit (use "git add" and/or "git commit -a")
+[15:24:14] <rashmi> ok
+[15:25:00] <kushal> this means that progress.txt file contains some changes which is yet to be committed
+[15:25:41] <kushal> if you want to see what is exactly changed use $ git diff
+[15:26:04] <kushal> + sign means this is added/edited
+[15:26:20] <kushal> if there is a minus sign that means it was removed
+[15:26:34] <kushal> now let us commit this change
+[15:27:04] <sankha> !
+[15:27:14] <supriya> !
+[15:27:28] <rahulch> !
+[15:27:48] <kushal> $ git add progress.txt
+[15:27:54] <kushal> $ git commit -m "Adds a new line to the file"
+[15:28:01] <kushal> do a git log after that
+[15:28:16] <kushal> sankha, ask
+[15:28:39] <sankha> git diff shows consecutively two line , --- a/progress.txt      +++ b/progress.txt    .   here  what  is meant by a and b?
+[15:29:11] <fewcha> sankha: you will get minus sign showing the old lines, and plus sign showing the new lines (after modification)
+[15:29:43] <J_Caselles> !
+[15:29:44] <sankha> fewcha: and what for 'a' and 'b' ?
+[15:29:55] <kushal> sankha, it shows the changes between two files, in this both are same
+[15:30:04] <fewcha> sankha: for now, take them as 'old' and 'new'
+[15:30:12] <sankha> ok
+[15:30:20] <kushal> supriya, rahulch J_Caselles ask
+[15:30:44] <rahulch> what does the text in quotes after "git commit -m" generally indicate?
+[15:30:55] <supriya> what does -1 +1,3 mean?
+[15:31:02] <supriya> in git diff?
+[15:31:06] <kushal> rahulch, I am coming to that in few minutes
+[15:31:16] <rahulch> kushal, okay
+[15:31:17] <J_Caselles> git add is some sort of commit preparation? if I've changed some files, if I just put one on add, only this one will be commited, right?
+[15:31:30] <kushal> J_Caselles, yes
+[15:31:41] <kushal> supriya, details about the change
+[15:31:55] <kushal> everyone please do git log
+[15:31:59] <J_Caselles> git log
+[15:32:16] <kushal> you can understand the message after -m is coming in the log
+[15:32:19] kavis_ is now known as kavis
+[15:32:24] <kushal> that is known as commit message
+[15:32:54] <kushal> which basically tells what this commit is about
+[15:33:42] <kushal> general rule to follow: Always write that commit message in present tense
+[15:34:03] <kushal> now create another file called names.txt
+[15:34:21] <tenstormavi> !
+[15:34:26] <kushal> and write "Linux" without quotes inside it
+[15:34:30] <kushal> save and exit
+[15:34:33] <kushal> tenstormavi, ask
+[15:34:40] <tenstormavi> under rep01?<EOF>
+[15:34:55] <kushal> yes
+[15:35:16] <kushal> and now we will commit it after adding
+[15:36:15] <kushal> $ git add names.txt
+[15:36:20] <kushal> $ git commit -m "Adds a new names.txt file"
+[15:36:33] <kushal> do a git log to view the log '
+[15:37:45] <kushal> I hope it is working for everyone
+[15:38:36] <kushal> now we will make two changes
+[15:38:40] <kushal> in both the files
+[15:40:36] <kushal> http://paste.fedoraproject.org/21685/43347513/
+[15:40:47] <kushal> ^^ that contains the changed files
+[15:40:56] <kushal> please make the changes accordingly
+[15:41:01] <kushal> and say done after that
+[15:41:12] <kushal> http://paste.fedoraproject.org/21685/43347513/raw/
+[15:41:26] <sankha> !
+[15:41:29] <kushal> don not write those # lines
+[15:41:31] <kushal> sankha, ask
+[15:41:43] <sankha> git log is not showing - "Adds a new names.txt file"
+[15:41:48] <Armageddon> done
+[15:41:55] <sankha> instead " First commit to our documentation"
+[15:42:32] <amresh> done
+[15:42:53] <J_Caselles> !
+[15:42:55] <kushal> sankha, which means you are not following the steps I told here
+[15:42:58] <kushal> J_Caselles, ask
+[15:43:16] <nilanjit> done
+[15:43:23] <J_Caselles> can I paste from clipboard? "p" doesn't seems to work...
+[15:43:37] <kushal> J_Caselles, ctrl+shift+v
+[15:43:45] <rahulch> done
+[15:43:46] <tutum> done
+[15:43:48] <J_Caselles> oh sure, silly of me, thanks
+[15:43:53] <Armageddon> J_Caselles, "+gP also works
+[15:44:38] <anurag> done
+[15:44:50] <kirk_iowa> !
+[15:44:58] <kushal> kirk_iowa, ask
+[15:45:04] <anwesha> done
+[15:45:05] <J_Caselles> done
+[15:45:11] <kirk_iowa> do we just edit the .txt files or do we commit also?
+[15:45:16] <supriya> done
+[15:45:21] divs_ is now known as Devyani
+[15:45:21] <dell_> done
+[15:45:25] <kushal> kirk_iowa, don't commit
+[15:45:34] <kushal> kirk_iowa, just edit and save
+[15:45:39] <kirk_iowa> done
+[15:45:49] <siddhant> done
+[15:45:49] <anisha23> done
+[15:46:05] <bidisha> done
+[15:46:10] <prikotiyal> done
+[15:46:26] <satarupa> done
+[15:46:49] <tenstormavi> done
+[15:47:00] <kushal> now try $ git status
+[15:47:03] <kushal> also git diff
+[15:47:14] <sankha> !
+[15:47:49] <kushal> see those commands' output and try to understand the output
+[15:47:52] <kushal> sankha, ask
+[15:48:03] <sankha> i have pasted the text which is shown by the command git log ,  http://fpaste.org/21690/   , is it correct ?
+[15:48:32] <J_Caselles> !
+[15:48:58] <kushal> sankha, you missed one commit in between
+[15:49:07] <kushal> sankha, this will do for now
+[15:49:09] <kushal> J_Caselles, ask
+[15:50:10] <kushal> if you want to see the changes made to any particular file
+[15:50:15] <J_Caselles> git diff shows what is substracted and what is added in the modified files. correct?
+[15:50:17] <kushal> $ git diff names.txt
+[15:50:22] <kushal> J_Caselles, yes
+[15:50:40] <sankha> http://paste.fedoraproject.org/21692/ <- this is showing in the command line, when i do git diff , is it correct ?
+[15:51:09] <kushal> J_Caselles, it only shows the changes which are not staged, means any changes without add
+[15:51:18] <rahulch> !
+[15:51:24] <tenstormavi> !
+[15:51:34] <J_Caselles> kushal thanks <eof>
+[15:51:47] <kushal> sankha, yes
+[15:51:52] <sankha> ok
+[15:51:52] <kushal> rahulch, tenstormavi ask
+[15:52:21] <tenstormavi> i did git diff names.txt but nothing is shown to me.
+[15:52:42] <rahulch> i can not understand the line "-1 +1,4" in the output. what does it represent?
+[15:52:56] manishjain is now known as PleaseSTART
+[15:53:27] PleaseSTART is now known as dell_
+[15:53:48] <elita15> !
+[15:54:03] <kushal> tenstormavi, show us what git diff shows you
+[15:54:21] <kushal> rahulch, we already answer that before'
+[15:54:24] <kushal> elita15, ask
+[15:54:35] <tenstormavi> kushal, http://fpaste.org/21693/
+[15:54:40] <kushal> s/answer/answered/
+[15:54:41] <batul> What kushal meant to say was: rahulch, we already answered that before'
+[15:55:15] <kushal> tenstormavi, you never followed our session
+[15:55:27] <kushal> you never added your name or email
+[15:55:42] <kushal> also never made changes to the file as we asked
+[15:55:53] <rahulch> kushal, u said it shows details of the change. i was asking how can we interpret the details from that line.
+[15:55:58] <rahulch> *you
+[15:55:59] <rahulch> typo
+[15:56:06] <kushal> tenstormavi, sorry but it is difficult for us if you do not follow
+[15:56:13] <kushal> rahulch, you will learn slowly
+[15:56:18] <elita15> http://fpaste.org/21695/43443913/
+[15:56:20] <tenstormavi> kushal, i did but it is not showing. I follow all your commands.
+[15:56:25] <elita15> is this right?
+[15:56:26] <rahulch> kushal, okay.
+[15:56:46] <tenstormavi> kushal,  i did all the three commands you gave to us.
+[15:56:56] <kushal> tenstormavi, I gave other commands
+[15:57:07] <tenstormavi> kushal, about user.name,email all
+[15:57:49] <tenstormavi> kushal, all is going good till i changed the contained of both the files.
+[15:57:49] <kushal> tenstormavi, I guess no, also you are using the root account
+[15:58:02] <kushal> tenstormavi, which is idiotic
+[15:58:10] <kushal> using the root account for daily use
+[15:58:12] <tenstormavi> kushal, sorry
+[15:58:31] <kushal> Ritu_, can you please introduce yourself ?
+[15:58:59] <tenstormavi> kushal, i just add and commit after changing the both files and then it start giving problems.
+[15:59:18] <kushal> tenstormavi, please follow our logs, if possible from the beginning
+[15:59:35] <kushal> now we can commit only one file or both the files in the same commit
+[15:59:41] Ritu_ is now known as dell_
+[15:59:43] <kushal> which one we should do ? anyone ?
+[15:59:56] <tutum> both in the same commit
+[15:59:58] <amresh> both files
+[16:00:08] <rahulch> let's commit both
+[16:00:15] <Armageddon> it depends
+[16:00:20] <kushal> both it is
+[16:00:22] <kushal> so
+[16:00:52] <tenstormavi> kushal, ok thanks.
+[16:01:21] <kushal> $ git add names.txt progress.txt
+[16:01:27] <kushal> $ git commit -m "Changes both the files for more details"
+[16:01:53] <kushal> after that try git log
+[16:02:08] <kushal> remember to be very clear about commit logs
+[16:02:53] <sankha> !
+[16:03:00] <kushal> sankha, ask
+[16:03:10] <sankha> http://paste.fedoraproject.org/21698/43482613/raw/   <- here it is , correct ?
+[16:03:50] <kushal> sankha, yes, but that C of changes was capital
+[16:04:29] <kushal> anyway think that we wrote wrong commit message in the last commit
+[16:04:34] <kushal> we can actually change that
+[16:04:40] <amresh> !
+[16:04:54] <kushal> amresh, ask
+[16:05:04] <amresh> if we have many files, do we need to do write name of each file in git add? no shortcut?
+[16:05:46] <elita15> !
+[16:05:59] <kushal> amresh, if you want to add all changes in the current commit there is a way to do that
+[16:06:04] <kushal> we will learn them slowly
+[16:06:11] <kushal> not now
+[16:06:25] <kushal> elita15, ask
+[16:06:26] <amresh> kushal, ok.
+[16:06:27] <elita15> http://fpaste.org/21700/43500813/
+[16:06:34] <kushal> s/them/it/
+[16:06:34] <elita15> is this correct?
+[16:06:35] <batul> What kushal meant to say was: we will learn it slowly
+[16:06:55] <kushal> elita15, yes
+[16:08:20] <kushal> we use --amend to change the commit message of the last commit
+[16:08:21] <kushal> $ git commit --amend -m "Better documentation changes for starting"
+[16:08:27] <kushal> and then $ git log
+[16:08:31] <kushal> try and see
+[16:09:16] <kushal> say done if it works
+[16:09:34] <kirk_iowa> done
+[16:09:47] <tutum> done
+[16:09:52] <sankha> done but , can we append commit messages ?
+[16:09:57] <shantanu> done
+[16:10:00] <J_Caselles> done
+[16:10:14] <kushal> sankha, never understood your question
+[16:10:15] <anwesha> done
+[16:10:25] <bidisha> done
+[16:10:28] <prikotiyal> done
+[16:10:29] <rahulch> done
+[16:10:36] <ravi_pro> done
+[16:10:44] <satarupa> done
+[16:10:44] <anurag> !
+[16:10:45] <siddhant> !
+[16:10:49] <anisha23> done
+[16:10:50] <kushal> anurag, siddhant ask
+[16:10:52] <sankha> "Changes both the files for more details" , then " Better documentation changes for starting "
+[16:11:20] <sankha> or there should be one commit message ?
+[16:11:22] <siddhant> there is written end at the bottom of terminal not able to try any command what to do next?
+[16:11:52] <supriya> done
+[16:11:52] <J_Caselles> siddhant try press "q"
+[16:11:54] <dell_> done
+[16:12:08] <kushal> sankha, you can try to write both lines in the commit message
+[16:12:16] <kushal> we will learn those in the next session
+[16:12:19] <rahulch> !
+[16:12:23] <kushal> rahulch, ask
+[16:12:27] <J_Caselles> !
+[16:12:32] <kushal> J_Caselles, ask
+[16:12:41] <rahulch> is it possible to add directories to our repo?
+[16:12:44] <J_Caselles> and if we need to correct an older commit?
+[16:13:24] <kushal> rahulch, empty directories no, you can add any file inside a directory  and it will be automatically there
+[16:13:43] <kushal> J_Caselles, that is tricky, I will tell that later
+[16:13:53] <J_Caselles> kushal ok thanks
+[16:13:58] <kushal> may be after 1 or two weeks :)
+[16:14:10] <J_Caselles> kushal: hahaha
+[16:14:13] <rahulch> kushal, suppose a directory contains some files, and we want to add that directory. is it possible?
+[16:14:36] <kushal> rahulch, you can not add only the directory but add the files under it
+[16:14:51] <kushal> then the directory will automatically come in the commit
+[16:15:00] <kushal> we will take 1 hour 15 minutes break
+[16:15:08] <kushal> roll call
+[16:15:11] <siddhant> J_Caselles,thank you :)
+[16:15:13] <J_Caselles> Josep Caselles
+[16:15:14] <shantanu> shantanu sarkar
+[16:15:15] <supriya> supriya saha
+[16:15:15] <lakshya> lakshya
+[16:15:16] <tutum> Pritha Ganguly
+[16:15:16] <prikotiyal> Priyanka Kotiyal
+[16:15:19] <ravi_pro> ravi kumbhkar
+[16:15:19] <anurag> anurag kumar
+[16:15:21] <Armageddon> E,ijah
+[16:15:22] <elita15> elita lobo
+[16:15:24] <rahulch> kushal, i said about adding the directory along with its files as a whole.
+[16:15:25] <suman_> suman roy
+[16:15:26] <amresh> amresh kumar
+[16:15:30] <umesh> Umesh Agarwal
+[16:15:30] <satarupa> satarupa sinha
+[16:15:30] <rahulch> Rahul Chowdhury
+[16:15:30] <anisha23> anisha agrawal
+[16:15:32] <purva> purva
+[16:15:34] <J_Caselles> siddhant: Glad it worked ;)
+[16:15:38] <siddhant> siddhant sengar
+[16:15:42] <sankha> sankhadeep pujaru
+[16:15:45] <Kitty__> Christina Beemer
+[16:15:45] <shalini> Shalini Roy
+[16:15:49] <kirk_iowa> kirk gunderson
+[16:15:58] <dot|not> dot|not,
+[16:16:00] <tenstormavi> Avinash Kumar Dasoundhi
+[16:16:07] <bidisha> Bidisha Mukherjee
+[16:16:29] <Sudip> Sudip Gorai
+[16:16:29] <kushal> anyone else ?
+[16:16:40] <kushal> pingall: anyone missing roll call ?
+[16:16:42] <dell_> manish
+[16:16:58] <stephdg> kushal, exclude me please :)
+[16:17:05] <kushal> ----------SESSION ENDS--------------
+[16:17:05] <wjcrane> william crane
+[16:17:16] <kushal> endclass
+[16:17:16] [## Class Ended at Fri Jun 28 16:17:16 2013 ##]

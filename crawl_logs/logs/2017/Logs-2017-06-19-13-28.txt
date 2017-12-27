@@ -1,0 +1,772 @@
+----BEGIN CLASS----
+[13:28] <kushal> startclass
+[13:29] <mbuf> Good evening and welcome again to this years' summer training
+[13:29] <mbuf> today's session will be on communication and netiquette
+[13:29] <geekodour08> hello
+[13:29] <PHI> is it started
+[13:29] <mbuf> before I begin, let us do a roll call
+[13:29] <anupamas> Anupama Shipurkar
+[13:29] <imack> Mahendra Yadav
+[13:29] <akshays> Akshay Shipurkar
+[13:29] <abhinavshirur[m]> Abhinav Shirur
+[13:29] <shankarj67> Shankar Jha
+[13:29] <sitlanigaurav[m]> Gaurav Sitlani
+[13:29] <dodococo> Deepak Chethan
+[13:29] <bhavin192> Bhavin Gandhi
+[13:29] <balaji> Balaji
+[13:29] <vipulgupta2048_> Vipul Gupta
+[13:29] <BhaveshSGupta> Bhavesh Gupta
+[13:29] <wrik003> Wrik BHadra
+[13:29] <skarpy> Akash pathak
+[13:29] <schubisu> Robin Schubert
+[13:29] <jasonbraganza> Jason Braganza
+[13:29] <zebak_> Zeba Karin
+[13:29] <aditya> Aditya Khowala
+[13:29] <nitesh_> Nitesh Mishra
+[13:29] <shivanim> Shivani Mehendarge
+[13:29] <proishan11_> Ishan Singh
+[13:29] <RIcharD_> Mayank Gupta
+[13:29] <dev_> Devesh Kumar
+[13:29] <parthsharma2> Parth Sharma
+[13:29] <Cyber_freak> Pradhvan Bisht
+[13:29] <adityakonarde> Aditya Konarde
+[13:29] <apsknight> Aman Pratap Singh
+[13:29] <shivamA1> Shivam Ahirao
+[13:29] <deepika> Deepika Upadhyay
+[13:29] <sangram_k> Sangram kakade
+[13:29] <ravindra> Ravindra Lakal
+[13:29] <pr97> Priyanka Sharma
+[13:29] <apoorv> Apoorv Goel
+[13:29] <piyush> piyush
+[13:29] <nisha__> Nisha Rani
+[13:29] <sapahia> Rishav Sapahia
+[13:29] <theAtom> Deep
+[13:30] <saikat195> Saikat Dey
+[13:30] <singh123> Amarjeet Singh
+[13:30] <Padfoot7> Mohd Omama
+[13:30] <SpEcHiDeR> Shrimadhav U K
+[13:30] <ashwanig> Ashwani Kumar Gupta
+[13:30] <Stanv14> Stalin Varghese
+[13:30] <bhawana> Bhawana
+[13:30] <devesh_verma> Devesh Verma
+[13:30] <akanksha> Akanksha Bhardwaj
+[13:30] <geekodour08> Hrishikesh Barman
+[13:30] <anuGupta> Anu Kumari Gupta
+[13:30] <jiteshpabl> Jitesh Pabla
+[13:30] <rimshakhan> Rimsha Khan
+[13:30] <neer> Nishanta Sarma
+[13:30] <im_mohsin> Mohsin Mumtaz
+[13:30] <kushal> Kushal Das
+[13:30] <kushal> add: mbuf
+[13:30] <mbuf> Thanks for the roll call
+[13:30] <kushal> mbuf, config issue, will update it properly after the session.
+[13:30] <sachanapoorv> APOORV SACHAN
+[13:31] <{tHEbIgtHEb}> Bhargav Voleti
+[13:31] <dhairyya> Dhairyya Agarwal
+[13:31] <mbuf> My name is (@shakthimaan), in the real world people call me as Shakthi Kannan
+[13:31] <mbuf> After the introductions, we usually start with basic communication and netiquette
+[13:31] <mbuf> There are some best practices that we follow in this context
+[13:32] <messifc> Sorry I am late.
+[13:32] <messifc> messi fc
+[13:32] <mbuf> I am assuming you have already gone through the previous years' logs - https://dgplug.org/irclogs/mbuf_1stclass.log
+[13:32] <mbuf> kushal, okay
+[13:32] <mbuf> The second class is at https://dgplug.org/irclogs/mbuf_2ndclass.log
+[13:32] <salonigupta> my name is not there in the list.....saloni gupta
+[13:32] <mbuf> I am not going to repeat the same, but, I would like this to be more of a Q&A session
+[13:33] <shivamA1> yes shakthimaan!
+[13:33] <mbuf> To start with, when you type your name, only the first letter should be a capital letter
+[13:33] <mbuf> Typing in all capital letters in written form means that you are shouting at the person who is reading it
+[13:34] <wrik003> !
+[13:34] <mbuf> common errors I observe from yesterday's chats include using SMS speak
+[13:34] <dhairyya> !
+[13:34] <mbuf> SMS should be used only for SMS, not in other forms of communication; it is considered very unprofessional
+[13:34] <nisha__> iugifjdkofiid jgfiujeijkf jiuoekfol fgoigjkhg fjijfke
+[13:35] <mdbk> Onyinye Madubuko
+[13:35] <mbuf> also avoid typing "..." at the end of each sentence unless you intend to use ellipsis
+[13:35] <nisha__> sorry
+[13:35] <mbuf> next
+[13:35] <wrik003> What about typographical errors regarding capital letters?
+[13:35] <sachanapoorv> !
+[13:35] <wrik003> they are understandable right?
+[13:35] <mbuf> wrik003, acronyms are fine, but, at least do a spell check
+[13:35] <wrik003> <eof>
+[13:35] <apoorv> !
+[13:36] <mbuf> next
+[13:36] <dhairyya> What about ellipsis? Why do we use them here?<eof>
+[13:36] <mbuf> There is a saying that "Writing is human. Editing is divine." So, what you write reflects about you.
+[13:37] <mbuf> dhairyya, use it at the right context, https://en.wikipedia.org/wiki/Ellipsis
+[13:37] <mbuf> next
+[13:37] <sachanapoorv> i had the the same question had it answered
+[13:37] <mbuf> sachanapoorv, okay
+[13:37] <mbuf> next
+[13:37] <apoorv> answered
+[13:37] <mbuf> English is not our native language, hence grammatical mistakes can be forgiven
+[13:38] <mbuf> but, spell check, formatting are essetial when you are presenting content
+[13:38] <saikat195> !
+[13:38] <mbuf> next
+[13:38] <saikat195> Is writing everything in lower case alphabets ok?
+[13:39] <yurii> Hi everyone, glad to join you again. I was disconected forwhile
+[13:39] <mbuf> saikat195, the reason people write in lower case, like prose, is because it is readable
+[13:39] <saikat195> as long as it is understandable? Many are doing so. <EOF>
+[13:39] <mbuf> saikat195, you want to get the message across, not waste time trying to decipher
+[13:39] <mbuf> saikat195, some of us may not understand our own handwriting at times
+[13:40] <mbuf> saikat195, It is also a good practice to review your content before sending it (e-mail, for example)
+[13:40] <theAtom> !
+[13:40] <deepika> !
+[13:40] <mbuf> next
+[13:40] <theAtom> In case of mail communications sometimes people use sarcastic mails. Is it the right way to express or mails should be with minimum emotions?<eom>
+[13:40] <saikat195> Yes, of course, thank you mbuf <EOF>
+[13:40] <mbuf> theAtom, we are humans, and sarcasm is part of us
+[13:41] <mbuf> theAtom, usually, a certain amount is tolerated in mailing lists or on social media
+[13:41] <deepika> if we have to reply quick then how can we maintain check <eof>
+[13:41] <mbuf> theAtom, but, do not take these things very personally
+[13:41] <jiteshpabla> !
+[13:41] <mbuf> theAtom, flame wars, heated discussions happen all the time
+[13:41] <theAtom> Okay understood<eom>
+[13:41] <mbuf> theAtom, two people can go to a movie and have two different opinions
+[13:42] <mbuf> theAtom, they are not logical, but, psychological
+[13:42] <mbuf> theAtom, it is okay for people to agree to disagree and move on
+[13:42] <mbuf> theAtom, focus on the solution that you want to work with, learn whatever you need and move on
+[13:42] <mbuf> theAtom, otherwise these discussions are going to just eat your time (unless it is a time pass)
+[13:43] <geekodour08> !
+[13:43] <mbuf> theAtom, trolling is generally not encouraged; the amount of distractions people have these days is enormous
+[13:43] <mbuf> theAtom, focussing on Getting Things Done (GTD) is the key
+[13:43] <theAtom> Yes. Absolutely true.
+[13:43] <mbuf> theAtom, I had taken a separate session on "Time Management", check the past IRC logs
+[13:43] <mbuf> next
+[13:44] <mbuf> deepika, you can take your time before replying (don't rush, unless you are sure of the answers)
+[13:44] <deepika> how can we politely suggest that we had not understood what they said <eof>
+[13:44] <mbuf> deepika, "Can you re-phrase your answer/question" is one way
+[13:45] <mbuf> deepika, but, people need not necessarily be polite (depending on how the day has been, or under what pressure they are)
+[13:45] <mbuf> deepika, it is okay for people to be angry, or annoyed; "We are still only humans" :)
+[13:45] <deepika> query them again <eof>
+[13:45] <mbuf> deepika, just do not take it very personally; show empathy with people if you can
+[13:45] <mbuf> next
+[13:46] <jiteshpabla> Is it essential to be a part of the mailing-list? I haven't been able to receive a confirmation email yet, even in my spam.
+[13:46] <jiteshpabla> *not even
+[13:46] <mbuf> jiteshpabla, most discussions happen in mailing list, so you should subscribe to them
+[13:46] <Cyber_freak> !
+[13:46] <mbuf> jiteshpabla, the reason mailing lists (ML) still survive today because the organization controls the domain
+[13:47] <mbuf> of course, one can have meetups, or FB groups, but, the content is owned by them; since we care about privacy, security we don't rely on them entirely
+[13:47] <mbuf> one of the objectives of working with Free and Open Source Software communities are that you learn to be self-disciplined and can stand on your own
+[13:47] <mbuf> it is a different type of mind-set, which not everyone can adjust to
+[13:47] <mbuf> next
+[13:47] <saikat195> !
+[13:48] <geekabhi007> !
+[13:48] <mbuf> next
+[13:48] <Cyber_freak> Most of the mails from the mailing are in the spam folder. I don't know why ?
+[13:48] <mbuf> Cyber_freak, you might need to mark them as "not spam" and the filtering engine will learn it
+[13:49] <kushal> Cyber_freak, many marked them as spam, please help us by marking them not spam.
+[13:49] <mbuf> next
+[13:49] <saikat195> Has anyone yet received any mail in the mailing list? I am subscribed, kushal checked my email id yesterday and confirmed my subscription, yet i have not received a mail.
+[13:49] <Cyber_freak> okay ! I will . Thanks !
+[13:49] <wrik003> Cyber_freak, I did this in Gmail: mark it as non-spam and also enable the option (it shows soon after) to move all future correspondences to a certain tab.
+[13:50] <geekabhi007> I didn't attend last class what should i do ??
+[13:50] <im_mohsin> !
+[13:50] <sva> Cyber_freak: also it might help to add the list-address to your addressbook?
+[13:50] <singh123> !
+[13:50] <mbuf> saikat195, you will receive e-mail as and when it is sent
+[13:50] <mbuf> saikat195, you can check with kushal otherwise
+[13:50] <geekabhi007> because i didn't get any mail regarding this
+[13:50] <skarpy> !
+[13:50] <mbuf> geekabhi007, go through the logs from the previous sessions
+[13:50] <yurii> I have recieved mail in mailing list<eof>
+[13:50] <saikat195> Okay, so we haven't received one yet, right?
+[13:51] <kushal> saikat195, we did.
+[13:51] <sva> Cyber_freak: but for a proper reply you'd need to add details on mailserver and mailclient
+[13:51] <mbuf> next
+[13:51] <saikat195> But I did not get
+[13:51] <mbuf> You can check your mail settings after the class
+[13:52] <bhavin192> saikat195, we will try to solve it after class
+[13:52] <dodococo> !
+[13:52] <mbuf> next
+[13:52] <im_mohsin> Last year, i registered for mailing list. Should i do it again this year?<eom>
+[13:52] <mbuf> im_mohsin, you only register once with your e-mail address
+[13:52] <mbuf> im_mohsin, if you wish to register with a different e-mail address, you need to register again
+[13:52] <mbuf> im_mohsin, with the new one
+[13:52] <mbuf> next
+[13:52] <geekabhi007> I'm new at python language what is the best way to get it properly
+[13:52] <singh123> Suppose i have a doubt . So can i ask it apart from training time? Where and whom should ask doubts?<eof>
+[13:52] <im_mohsin> mbuf, thanks
+[13:53] <mbuf> geekabhi007, define "get it"
+[13:53] <geekodour08> is there any reading materials or something as of now? I also did not get any email? are you guys talking about the mailing list?
+[13:53] <mbuf> singh123, try to spend time hanging in this channel, where you can ask questions
+[13:53] <apoorv> !
+[13:53] <mbuf> singh123, you can also shoot an e-mail to the mailing list for help
+[13:53] <mbuf> singh123, but, before you ask questions, we expect that you did some homework
+[13:53] <geekabhi007> i mean how can l learn python language properly
+[13:54] <mbuf> singh123, you need to tell us what efforts you have taken to fix it, or solve it
+[13:54] <mbuf> singh123, we are all volunteers here, and we are here to help you
+[13:54] <mbuf> singh123, so everyone respects everyone's time
+[13:54] <mbuf> singh123, read on "How to ask questions the smart way" for a start, http://catb.org/~esr/faqs/smart-questions.html
+[13:54] <singh123> mbuf, thanks
+[13:55] <mbuf> geekabhi007, it takes ten years to learn a language properly; read http://norvig.com/21-days.html
+[13:55] <geekabhi007> !
+[13:55] <mbuf> geekabhi007, practice. practice. practice.
+[13:55] <mbuf> next
+[13:55] <skarpy> Is there any active Facebook group of dgplug? Can I have the link? <eof>
+[13:55] <neer> !
+[13:56] <geekabhi007> how do i learn python from beginning to advance
+[13:56] <mbuf> skarpy, I do not know of any; kushal can answer that, but, why FB?
+[13:56] <ashwanig> !
+[13:56] <skarpy> mbuf: I was looking for some visuals in communication, that's why
+[13:56] <Cyber_freak> !
+[13:56] <mbuf> geekabhi007, learn the language, and practice writing code in it; learn from other people's code etc.
+[13:56] <mbuf> geekabhi007, there is no one stop solution for it; it comes with experience
+[13:57] <kushal> skarpy, nope, we are active here on IRC.
+[13:57] <mbuf> skarpy, what are you referring to as "visuals"?
+[13:57] <mbuf> skarpy, did you read the FB privacy policy?
+[13:57] <mbuf> skarpy, you have to be careful with what you post in social media? Their terms and conditions are sometimes not suitable for the philosophy of F/OSS
+[13:57] <geekabhi007> can you suggest any website or book for learning python from beginning
+[13:58] <skarpy> mbuf: nope, ok got it. kushal : ok fine, I am comfortable here.
+[13:58] <mbuf> skarpy, people unfortunately are not aware of it (most of the time), and they fall into a trap
+[13:58] <mbuf> skarpy, with our own domain, we own the copyright; it does not mean we are not active on social media
+[13:58] <kushal> geekabhi007, have you seen the summer training course details?
+[13:58] <kushal> At all?
+[13:58] <mbuf> skarale, we are, but, we mostly use it for marketing (at least I do)
+[13:58] <mbuf> geekabhi007, kushal has a good book on Python; search the web for more
+[13:58] <mbuf> next
+[13:58] <dodococo> You talked a lot about mentors  in the irs chat log. Where and how to find myself a mentor ?
+[13:59] <sachanapoorv> !
+[13:59] <bhavin192> geekabhi007, http://pymbook.rtfd.io
+[13:59] <geekabhi007> ok
+[13:59] <mbuf> dodococo, who is your best teacher?
+[14:00] <mbuf> dodococo, in school/college
+[14:00] <dodococo> You guys are the best that I got right now
+[14:00] <mbuf> dodococo, which is your favourite ice-cream?
+[14:00] <dodococo> chocolate
+[14:01] <mbuf> let us do a roll-call for each of your favourite ice-creams
+[14:01] <amritha97> What are we discussing about today?
+[14:01] <jasonbraganza> Vanilla!
+[14:01] <skarpy> Butrer-scotch!
+[14:01] <pr97> Butter Scotch
+[14:01] <devesh_verma> Chocolate
+[14:01] <wrik003> Chocolate
+[14:01] <niranjana> Chocolate
+[14:01] <balaji> Choclate
+[14:01] <dhairyya> Strawberry
+[14:01] <RIcharD_> Black Forest
+[14:01] <im_mohsin> Chocolate
+[14:01] <shivanim> Chocolate
+[14:01] <bhavin192> Butterscotch
+[14:01] <zebak> Vanilla
+[14:01] <naveejka> I don't eat refined sugar. So don't like any
+[14:01] <singh123> Chocolate
+[14:01] <yurii> Fruit
+[14:01] <ravindra> Butter Scotch
+[14:01] <deepika> Chocolate :)
+[14:01] <ashwanig> Butter scotch
+[14:01] <fihae> Butter-scotch
+[14:01] <saikat195> Black Current
+[14:01] <parthsharma2> Chocolate
+[14:01] <shivamA1> mbuf, this reminded me of your workshop at reserved-bit ;)
+[14:01] <meamitk> Butter Scotch
+[14:01] <dodococo> Chocolate
+[14:01] <abhinavshirur[m]> Black Current
+[14:02] <Cyber_freak> black current
+[14:02] <bhawana> Mango
+[14:02] <proishan11_> Butter Scotch
+[14:02] <amritha97> Chocolate
+[14:02] <vikram_> chocolate!!
+[14:02] <anupamas> Chocolate
+[14:02] <apoorv> Chocolate
+[14:02] <sachanapoorv> butter scotch !!
+[14:02] <Stanv14> chocolate
+[14:02] <neer> Chocolate
+[14:02] <adityakonarde> Kaju-Anjeer; has anyone tried this one?
+[14:02] <mbuf> shivamA1, :)
+[14:02] <apsknight> Vanilla
+[14:02] <{tHEbIgtHEb}> Chocolate
+[14:02] <nisha__> Butter-scotch
+[14:02] <bhavin192> shivamA1, yes, me too.
+[14:02] <akshayg96[m]> vanilla
+[14:02] <santoshShaw[m]> Choclate
+[14:02] <kvy> mango
+[14:02] <mbuf> mine is chocolate too
+[14:02] <shivanim> shivamA1, yes, me too :)
+[14:02] <sitlanigaurav[m]> Custardapple
+[14:02] <shivamA1> bhavin192 we are having a revision :)
+[14:02] <mdbk> Vanilla
+[14:02] <jiteshpabla> strawberry
+[14:03] <mbuf> so majority is chocolate
+[14:03] <anuGupta> All are favourite
+[14:03] <mbuf> anuGupta, you are exceptional!
+[14:03] <dev__> !
+[14:03] <skarpy> Butter scotch gave tough competition!
+[14:03] <PHI> Tutti-Fruity
+[14:03] <mbuf> so you tried different flavours, and you decided on one
+[14:03] <Cyber_freak> !
+[14:03] <mbuf> you have to talk with different people, based on your interests, and decide
+[14:03] <mbuf> just as I cannot decide your favourite ice-cream, I cannot decide who is your mentor
+[14:04] <geekabhi007> !
+[14:04] <ravindra> !
+[14:04] <mbuf> it is perfectly fine to work with a mentor for a period of time, and then move to another project
+[14:04] <dodococo> I got the point, but where to start talking.
+[14:04] <jasonbraganza> !
+[14:04] <mbuf> you can share your concerns, and it is perfectly fine for people to move in and out of teams
+[14:04] <mbuf> but, try to work in a project for at least 3-4 years
+[14:04] <mbuf> next
+[14:04] <sachanapoorv> can you explain about the mailing list mechanism...? regarding the flow of the mails which i receive and the ones which i intend to send.
+[14:05] <apoorv> answered
+[14:05] <mbuf> sachanapoorv, can you re-phrase your question please?
+[14:05] <yurii> !
+[14:05] <mbuf> next
+[14:05] <geekabhi007> I'm not using fedora
+[14:05] <Cyber_freak> !
+[14:05] <sachanapoorv> sure!
+[14:05] <mbuf> geekabhi007, what is your question?
+[14:06] <mbuf> Please put a '?' at the end so that I know you are asking a question; otherwise, it is only a statement
+[14:06] <geekabhi007> I'm not using fedora , i'm using ubuntu
+[14:06] <mbuf> geekabhi007, and?
+[14:06] <kushal> geekabhi007, still not a question.
+[14:06] <geekabhi007> ok
+[14:06] <messifc> Butterscotch
+[14:06] <sachanapoorv> can you explain about the flow of information in a mailing list ?
+[14:06] <vamsi3296> Strawberry.
+[14:06] <mbuf> When we all meet in a conference, we can go for an ice-cream treat :)
+[14:07] <mbuf> and kushal will arrange for all the above flavours
+[14:07] <kushal> sachanapoorv, Someone sends mail to the list, everyone gets it, and then who ever wants, can reply to the list.
+[14:07] <Cyber_freak> 1
+[14:07] <Cyber_freak> !
+[14:07] <kushal> mbuf, next PyCon Pune.
+[14:07] <wrik003> mbuf, yes!
+[14:07] <mbuf> kushal, ACK!
+[14:07] <mbuf> next
+[14:07] <im_mohsin> !
+[14:08] <mbuf> next
+[14:08] <mbuf> With the rate at which questions are asked, I am assuming people are typing looking at the keyboards
+[14:08] <mbuf> Please learn touch typing!
+[14:08] <mbuf> next
+[14:08] <Cyber_freak> hey ! i am using python 2 for mostly web scraping how to move my code to python 3 ? Should i start from scratch again ?
+[14:09] <mbuf> Cyber_freak, that depends on what constructs you have used
+[14:09] <kushal> Cyber_freak, also this is not session for that, we are reviewing the logs given yesterday.
+[14:09] <mbuf> Cyber_freak, you might want to read on Python 2 to 3 migration guides
+[14:09] <kushal>  Cyber_freak ask after session.
+[14:09] <mbuf> next
+[14:09] <sachanapoorv> my question is answered!
+[14:09] <mbuf> next
+[14:09] <iKshitij> mbuf: we will maintain a Github repo for record of favourite flavour of all memeber :)
+[14:10] <Cyber_freak> okay ! sorry got a bit of topic here . Won't happen again.
+[14:10] <yurii> !
+[14:10] <mbuf> iKshitij, chocolate has still won over the years :)
+[14:10] <mbuf> iKshitij, sure
+[14:10] <deepika> !
+[14:10] <mbuf> next
+[14:10] <ravindra> How to find a project online to contribute ? How to start contributing ? <eof>
+[14:11] <mbuf> ravindra, you need to go through the previous years logs on the topic
+[14:11] <PHI> !
+[14:11] <mbuf> ravindra, I have a presentation on the topic as well, http://shakthimaan.com/downloads.html#i-want-2-do-project-tell-me-wat-2-do
+[14:12] <ravindra> ok
+[14:12] <mbuf> ravindra, for people who need a formal book, I have one too (commercial though) http://shakthimaan.com/what-to-do.html
+[14:12] <mbuf> ravindra, there is no one-liner for it; hence, the need for the above material
+[14:12] <mbuf> next
+[14:12] <mbuf> next
+[14:12] <jasonbraganza> Reaching out to people unknown is hard for introverts like me. Words of advice? <eom>
+[14:12] <yurii> I am from Ukraine, can I participate this internship? I am so interested in learning Python, and it seems to me this group is a good way
+[14:13] <kushal> yurii, You are already taking part in the training by being here.
+[14:13] <kushal> yurii, Welcome once again :)
+[14:13] <yurii> thank you
+[14:13] <mbuf> jasonbraganza, good question
+[14:13] <kushal> yurii, also make sure to join the mailing list
+[14:13] <mbuf> jasonbraganza, we are all here because we share some common traits
+[14:14] <iKshitij> @ravindra: check this writing http://blog.hackerearth.com/2014/03/how-to-get-started-with-open-source.html by sayan
+[14:14] <yurii> I have joined (it seems to me)
+[14:14] <mbuf> jasonbraganza, and like-minded people; hence, depending on your interest, you will find people who share your same interests
+[14:14] <mbuf> jasonbraganza, conferences, meet-ups, IRC discussions are places to socialize and share know-how
+[14:15] <theAtom> !
+[14:15] <mbuf> jasonbraganza, most developers who are introverts are happy hanging around these places
+[14:15] <mbuf> jasonbraganza, and the tools that were designed exist for the same reasaon
+[14:15] <dank-> !
+[14:16] <mbuf> jasonbraganza, so when you socialize and hang around with like-minded people, I am sure you will find the project and people you want to work with and be with
+[14:16] <mbuf> jasonbraganza, and people will start to open up and share know-how
+[14:16] <mbuf> jasonbraganza, at least that has been my experience too
+[14:16] <mbuf> next
+[14:16] <im_mohsin> Is it a bad practice to ask someo one for mentoring?<eom>
+[14:16] <im_mohsin> someone
+[14:16] <jasonbraganza> mbuf: Thank you. grateful :) <eom>
+[14:17] <mbuf> im_mohsin, yes, if you ask "i want 2 do project. tell me wat 2 do."
+[14:17] <mbuf> im_mohsin, try to write something about yourself, your interests, why you want to do the project, the timeframe, your skills etc.
+[14:17] <mbuf> im_mohsin, and mentors might respond
+[14:17] <mbuf> next
+[14:17] <mbuf> next
+[14:18] <PHI> Suppose we have an idea for an project and we do not know anything about Project Management or so and do not have much skills to start developing that project on our own, Where should we go or what to do? <eom>
+[14:18] <deepika> in earlier logs it is mentioned to not be language specific , (of trying out new languages too ) , how can we understand which language to select for a project ?<eof>
+[14:18] <im_mohsin> thanks mbuf
+[14:18] <mbuf> PHI, talk to me; I am starting to work on project management for F/OSS projects; see https://github.com/dgplug/operation-blue-moon
+[14:19] <mbuf> deepika, I mention this in my workshops that it is good to know to think in four paradigms: procedural, OO, functional and logical
+[14:19] <dhairyya> !
+[14:19] <mbuf> deepika, it opens up your mind into thinking in different ways
+[14:19] <mbuf> next
+[14:19] <theAtom> While sending mail to unknown person which is the best way-calling by name or Sir/Madam as different organizations are having different cultures? <eom>
+[14:19] <mbuf> theAtom, that is a tricky one
+[14:20] <mbuf> theAtom, most people do use Sir/Madam, or some say "To whomsover it may concern"
+[14:20] <mbuf> theAtom, but, again it depends on the context
+[14:20] <mbuf> next
+[14:20] <dank-> Many communities have both mailing list and IRC/slack. In that case if I need help, where should I post my query? <eom>
+[14:21] <theAtom> Thank you mbuf <eom>
+[14:21] <mbuf> dank-, try one, wait for a response, and then try the other channels
+[14:21] <mbuf> dank-, spamming the same problem to multiple (hoping for an answe) mailing lists is also discouraged
+[14:22] <mbuf> dank-, you need to give some time before trying again
+[14:22] <mbuf> dank-, BTW, Slack uses IRC protocol under the hood
+[14:22] <mbuf> dank-, lot of people think it is some new fancy technology
+[14:22] <dank-> mbuf, there is also gitter
+[14:22] <mbuf> dank-, sure
+[14:23] <mbuf> dank-, it is like re-branding socket programming to IoT
+[14:23] <mbuf> it has existed for decades
+[14:23] <mbuf> next
+[14:23] <dhairyya> Where to start with functional and logical paradigm of programming?<eof>
+[14:23] <johnsnow> !
+[14:23] <apsknight> !
+[14:24] <balaji> !
+[14:24] <mbuf> dhairyya, you need pick a functional language and logical programming language (PL)
+[14:24] <mbuf> dhairyya, and do some exercises with it
+[14:24] <mbuf> dhairyya, or work or real projects
+[14:24] <dhairyya> Some languages are a combination of many paradigms
+[14:24] <messifc> !
+[14:25] <theAtom> !
+[14:25] <mbuf> dhairyya, Project Euler is a good place, https://projecteuler.net/
+[14:25] <dhairyya> So which languages are best for starter in this domain?<eom>
+[14:25] <mbuf> dhairyya, sure
+[14:25] <mbuf> dhairyya, each PL was designed for a purpose; use the PL that best helps you to solve the problem in that particular domain
+[14:25] <dank-> !
+[14:25] <mbuf> next
+[14:25] <PHI> !
+[14:26] <mbuf> next
+[14:26] <apsknight> Does doing Competitive Programming helps in real world projects like FOSS etc ? <eof>
+[14:26] <dhairyya> thanks mbuf
+[14:26] <mbuf> We have slowly moved from communication and netiquette to project work; I am fine with it
+[14:26] <johnsnow> Do tough data structure and algorithms are required in this domain or normal would be fine ?
+[14:26] <mbuf> apsknight, I do not done competitive programming, so I can't comment on it much
+[14:26] <mbuf> apsknight, I am more of the do it right approach types, even if it takes a bit longer
+[14:27] <mbuf> johnsnow, those are good to know; it will help you when you do performance analysis
+[14:27] <mbuf> apsknight, in competitive programming, you have to do things in time, and you have to meet the time deadline
+[14:28] <mbuf> apsknight, at present, I am not much a fan of it; YMMV
+[14:28] <mbuf> next
+[14:28] <balaji> mbuf,  Where can I learn about git?
+[14:28] <mbuf> balaji, start with my presentation http://www.shakthimaan.com/downloads.html#di-git-ally-managing-love-letters
+[14:28] <johnsnow> Analysis of what ?
+[14:28] <mbuf> balaji, you should be able to find other tutorials online as well
+[14:28] <mbuf> johnsnow, of programs
+[14:28] <mbuf> next
+[14:28] <messifc> I already know in C++. So after the training is over, will I be able to contribute to C++ projects? Because I've heard that C++ projects' codes are tough to read <eof>
+[14:29] <messifc> *already know
+[14:29] <mbuf> messifc, the training is to guide on how to work with projects
+[14:29] <mbuf> messifc, toughness is subjective
+[14:29] <shankarj67> apsknight, do competitive and this training side by side.
+[14:30] <mbuf> messifc, we see there is a methodology and approach to working with F/OSS projects; we just share our time so you can benefit the same as how we have learnt it as well
+[14:30] <mbuf> next
+[14:30] <theAtom> In a mail communication sometimes people use one liners without addressing the particular people. Is it the right way or every time we have to address? <eom>
+[14:30] <messifc> okay :) yeah I eagerly waiting for that time when I am ready to work on some projects :)
+[14:30] <dodococo> !
+[14:30] <mbuf> theAtom, it is short and to the point
+[14:30] <johnsnow> Will this training help me in learning security related stuffs ?
+[14:30] <mbuf> theAtom, most of the time, we are only interested in the technical answers; people are not interested in reading prose
+[14:31] <neer> !
+[14:31] <mbuf> theAtom, in mailing lists; hence, we prefer to keep it short and sweet
+[14:31] <kushal> johnsnow, some amount yes.
+[14:31] <mbuf> johnsnow, find the mentor who works with security
+[14:31] <mbuf> next
+[14:31] <mbuf> next
+[14:31] <dank-> mbuf, Are side projects important? If yes, how to manage time for it?<eom>
+[14:31] <PHI> What are the basic skills that may be a required to start developing a project? Like Version Control, languages, interfaces... <eom>
+[14:31] <theAtom> Okay mbuf. Thank you <eom>
+[14:31] <sachanapoorv> !
+[14:32] <kushal> PHI, complete this training, you will learn what all are required
+[14:32] <mbuf> dank-, it depends on how much time you can give to them; I prefer that you work on one project, finish it before moving to the next
+[14:32] <iKshitij> apsknight: I regularly participate or practice in Competitive programming but I think FOSS projects teach you more ! CP will strengthen your Data structure and algorithm but FOSS will teach you more than that ! You will learn different framework different technologies and different approach !
+[14:32] <PHI> Ok
+[14:32] <mbuf> dank-, again this comes from *nix philosophy - "Do one thing, and do it well."
+[14:32] <vipulgupta2048_> !
+[14:33] <dank-> mbuf, Okay
+[14:33] <mbuf> PHI, if a domain requires that you learn a PL, learn it; VC is a must (most of us use Git here)
+[14:33] <shivamA1> iKshitij, i agree wid you.
+[14:33] <mbuf> PHI, learn the tools used in the project; find a mentor, pick tasks, get constant feedback, finally get commit access!
+[14:33] <bhavin192> shivamA1, wid ?
+[14:33] <apsknight> Okay, iKshitij
+[14:33] <mbuf> next
+[14:33] <dodococo> When did you start  contributing to OSS ? mbuf  and kushal
+[14:33] <kushal> shivamA1, What is wid? weed?
+[14:34] <kushal> dodococo, 2004 for me.
+[14:34] <PHI> mbuf: there are stuff that can be done with many languages, then which one should i pick?
+[14:34] <kushal> dodococo, As Bengali translator to KDE.
+[14:34] <shivamA1> sorry sorry with.
+[14:34] <dodococo> Did you participate in GSOC? What is your view on that?
+[14:35] <kushal> dodococo, That is not the discussion topic.
+[14:35] <kushal> People please come back to the session topic.
+[14:35] <dodococo> Oh okay, sorry
+[14:35] <saikat195> !
+[14:35] <mbuf> dodococo, I started with BASIC programming on a ZX spectrum; haven't pushed the code yet
+[14:35] <mbuf> dodococo, will do so
+[14:36] <mbuf> PHI, pick the one that you are comfortable with
+[14:36] <mbuf> dodococo, I have never participated in GSoC; but, I guess most students from India have used my material to get accepted in GSoC
+[14:37] <ashwanig> !
+[14:37] <mbuf> dodococo, at least that is what they tell me every year
+[14:37] <mbuf> we are past the one hour mark
+[14:37] <dodococo> Wow
+[14:37] <mbuf> next
+[14:37] <mbuf> next
+[14:37] <sachanapoorv> is it possible (may be in an extreme scenario), that a single programming language can take care of all the functional requirements of a PROJECT?
+[14:37] <neer> A programmer is expected to know a lot of languages, how do we really get good at so many of them?
+[14:38] <pr97> !
+[14:38] <kushal> neer, Have you read the link we gave yesterday?
+[14:38] <kushal> neer, it seems not.
+[14:38] <mbuf> I will finish the pending queue; but, we can take more questions later on
+[14:38] <neer> yes, it says 10,000 hours
+[14:38] <mbuf> sachanapoorv, in Scala you can program in different paradigms
+[14:38] <mbuf> next
+[14:38] <vipulgupta2048_> I tried to install Xchat in Ubuntu and it shows "no installation candidate" on the terminal. What might be issues ?
+[14:38] <mbuf> kushal, is there a way to tell batul to not take in more questions?
+[14:39] <mbuf> vipulgupta2048_, you need to tell us how you tried to install
+[14:39] <mbuf> next
+[14:39] <mbuf> next
+[14:39] <kushal> mbuf, nope, will add that.
+[14:39] <ashwanig> What is bottom posting and top posting? <eof>
+[14:39] <vipulgupta2048_> sudo apt-get install xchat
+[14:39] <saikat195> What are the challenges to expect when trying to contribute to FOSS after you have come up with an idea ? I am new to it, so would like to know the hard things to face.
+[14:39] <mbuf> vipulgupta2048_, you also need to use a pastebin service to tell us what the output was
+[14:39] <mbuf> saikat195, it varies from person to person
+[14:40] <kushal> mbuf, there is only person in the queue.
+[14:40] <vipulgupta2048_> mbuf : After the class send you the link
+[14:40] <mbuf> saikat195, some might find difficulty in communication, some in implementation, some in documentation, or some could have combination of the same
+[14:40] <mbuf> next
+[14:40] <pr97> mbuf, can you give those materials for GSoC?
+[14:40] <devesh_verma> vipulgupta2048_ I can help you with that as I faced the similar problem
+[14:40] <kushal> ashwanig, http://summertraining.readthedocs.io/en/latest/communication.html#mailing-list
+[14:40] <mbuf> pr97, all my material is available on my site www.shakthimaan.com/downloads.html
+[14:41] <mbuf> pr97, and it has been linked from other sites as well
+[14:41] <kushal> pr97, and you also missed the whole idea of GSoC.
+[14:41] <mbuf> pr97, just use a search engine
+[14:41] <pr97> okay thank you mbuf .
+[14:41] <mbuf> pr97, and getting into GSoC is not what we see want students for
+[14:41] <mbuf> pr97, we want students to continue contributing to the project for many years
+[14:42] <mbuf> pr97, it is not just for the money; it is the principles and values that we stand for in F/OSS which is knowledge-sharing
+[14:42] <orbot_> !
+[14:42] <bhavin192> And people are still top posting in mailing list :(
+[14:42] <mbuf> orbot_, pr97 was the last question
+[14:42] <jasonbraganza> !
+[14:42] <mbuf> orbot_, let me end the class, and we can have discussions afterwards
+[14:43] <im_mohsin> mbuf, that is really nice priciples, knowlegde sharing.
+[14:43] <mbuf> im_mohsin, you need to get the principles correct
+[14:44] <mbuf> im_mohsin, otherwise F/OSS is not for either one of use
+[14:44] <kushal> Btw, everyone, we are here on the IRC channel in the other time also, you can come and talk to everyone.
+[14:44] <mbuf> im_mohsin, it is the belief that we have; job, status, money are secondary here
+[14:44] <kushal> It does not have to be only during the session time.
+[14:44] <kushal> next
+[14:44] <kushal> next
+[14:45] <jasonbraganza> In your experience, is English the lingua franca in the programming world? Any special notions of sensitivity when dealing with other cultures? <eom>
+[14:45] <kushal> No more questions for now.
+[14:45] <orbot_> Can you please tell the role of pastebin in communication
+[14:45] <mbuf> jasonbraganza, there are programs written in native language too, but, that can be region specific
+[14:45] <jasonbraganza> and if i could sneak another one in, Etiquette when educating other folks about F/OSS?
+[14:46] <mbuf> jasonbraganza, in the early part of the century, there was a vote on which language to choose for scientific publications
+[14:46] <AndChat-622356> How to get Mailing list?
+[14:46] <kushal> orbot_, if you paste a long file here or say lines of error messages, it will be difficult to follow, many may be talking at the same time
+[14:46] <mbuf> jasonbraganza, and there was a close contest between German and English; and English won it with a slight margin
+[14:46] <mbuf> jasonbraganza, hence, today most of the documentation is in English; but, because in F/OSS projects, people contribute from different countries, you will find documentation in different langugase
+[14:46] <mbuf> s/langugase/languages/
+[14:47] <mbuf> jasonbraganza, but, most programs are written in English
+[14:47] <mbuf> jasonbraganza, http://www.shakthimaan.com/downloads/glv/presentations/mailing-list-etiquette.pdf
+[14:48] <balaji> What is the tomorrow home work?
+[14:48] <kushal> Next:
+[14:48] <kushal> As you all can see, to work with computers, we have to use a keyboard.
+[14:48] <kushal> And for longer hours than many of your friends.
+[14:48] <jasonbraganza> Thank you :)
+[14:49] <kushal> So, the most important thing to learn at this moment is touch typing.
+[14:49] <kushal> Who all here can do touch typing?
+[14:49] <kushal> say yes, if you can.
+[14:49] <dodococo> i can
+[14:49] <_RicharD_> Yes
+[14:49] <dodococo> yes
+[14:49] <Cyber_freak> I can but not good at it
+[14:49] <naveejka> Naveej Ahamed
+[14:49] <aditya_konarde> yes
+[14:49] <wrik003> i practised a bit
+[14:49] <bhavin192> yes, but slow
+[14:49] <shivanim> kushal, To an extent
+[14:49] <ghishadow> yes
+[14:49] <abhinavshirur[m]> learning it
+[14:49] <kushal> naveejka, what is that?
+[14:49] <devesh_verma> Not great at it
+[14:49] <PHI> yes
+[14:49] <shivamA1> slow
+[14:49] <parthsharma2> to a certain extent
+[14:50] <ravindra> slow
+[14:50] <meamitk> yes
+[14:50] <jiteshpabla> nope
+[14:50] <sitlanigaurav[m]> I can
+[14:50] <yurii> yes
+[14:50] <AndChat-622356> Means
+[14:50] <kushal> People can not read instruction: I said to write only yes if you can.
+[14:50] <poojaencoded> slow
+[14:50] <mbuf> AndChat-622356, typing without seeing the keyboard
+[14:50] <iKshitij> Yes
+[14:50] <AndChat-622356> Yes
+[14:50] <{tHEbIgtHEb}> Yes
+[14:50] <kvy> no
+[14:50] <naveejka> Yes
+[14:50] <santoshShaw> yes
+[14:51] <schubisu> yes
+[14:51] <Priyansh> Yes
+[14:51] <kushal> next question:
+[14:51] <AndChat-622356> !
+[14:51] <kushal> Do you have a modern Linux installed on your computer (may be on a vm)?
+[14:51] <PHI> suggestion: use typing tutor software and practice it "daily".
+[14:51] <nisha__> no
+[14:51] <ashwanig> Yes
+[14:51] <shivanim> Yes
+[14:51] <kushal> say yes or no.
+[14:51] <abhinavshirur[m]> Yes
+[14:51] <pr97> no
+[14:51] <skarpy> Yes
+[14:51] <ravindra> yes
+[14:51] <johnsnow>  I found typing.com vsry useful .
+[14:51] <schubisu> yes
+[14:51] <cran-cg> yes
+[14:51] <ksaikiranr> Yes
+[14:51] <meamitk> yes
+[14:51] <zebak_> yes
+[14:51] <parthsharma2> yes
+[14:51] <neer> yes
+[14:51] <wrik003> yes
+[14:51] <bhavin192> yes
+[14:51] <kvy> yes
+[14:51] <balaji> yes
+[14:51] <dhairyya> yes
+[14:51] <_RicharD_> Yes
+[14:51] <iKshitij> Yes
+[14:51] <theAtom> yes
+[14:51] <saikat195> yes
+[14:51] <dodococo> yes
+[14:51] <im_mohsin> yes
+[14:51] <vipulgupta2048_> yes
+[14:51] <yurii> ubuntu 16.04
+[14:51] <jiteshpabla> yes
+[14:51] <singh123> yes
+[14:51] <apoorv_> Yes
+[14:51] <imranjeetsingh> yes
+[14:51] <jasonbraganza> yes
+[14:51] <sapahia_> Yes
+[14:51] <deepika> yes
+[14:51] <sitlanigaurav[m]> Yes
+[14:51] <PHI> yes
+[14:51] <proishan11_> yes
+[14:52] <santoshShaw> Yes
+[14:52] <Priyansh> Yes
+[14:52] <Cyber_freak> yes
+[14:52] <pr97> yes
+[14:52] <Priyansh> Yes
+[14:52] <nisha__> yes
+[14:52] <aditya_konarde> yes
+[14:52] <messifc> yes
+[14:52] <shankarj67> yes
+[14:52] <rimshakhan> yes
+[14:52] <poojaencoded> linux mint 17.3
+[14:53] <anuGupta> No
+[14:53] <niranjana> Yes
+[14:54] <kushal> anuGupta, You will need Linux for this training.
+[14:54] <apsknight> Yes, Ubuntu 16.04 LTS
+[14:54] <ghishadow> ubuntu 16.04
+[14:55] <anuGupta> I am struggling to do so for last 3 days
+[14:55] <kushal> Now, everyone please install gtypist tool on your distro, and practice at least an hour for the next one week, you should be able to start doing full scale touch typing
+[14:55] <kushal> anuGupta, we will try to help you after the session.
+[14:56] <kushal> Remember the tool name, gtypist.
+[14:56] <anuGupta> Thank you.
+[14:56] <santoshShaw[m]> kushal: absolutely
+[14:56] <kushal> There are many other tools available, but this one works better in my experience.
+[14:57] <neer> thank you
+[14:57] <jiteshpabla> gtypist
+[14:57] <geekabhi007> ok
+[14:57] <shivanim> ok
+[14:57] <ashwanig> kushal: got it
+[14:57] <im_mohsin> great. I'll do it
+[14:57] <yurii> gtypist
+[14:57] <kushal> Today we saw many people are asking questions about how to learn some programming language again and again.
+[14:57] <cran-cg> Thank you !!
+[14:57] <kushal> But, that means none of them read the first link we gave yesterday:
+[14:58] <kushal> http://norvig.com/21-days.html
+[14:58] <PHI> mbuf: which layout should i follow then? dvorak or qwerty?
+[14:58] <kushal> Read it again.
+[14:58] <mbuf> PHI, I am not going to decide your favourite ice-cream
+[14:58] <mbuf> PHI, you can try dvorak if you wish
+[14:59] <kushal> Next,
+[14:59] <PHI> :) ok
+[14:59] <Cyber_freak> thanks mbuf i was searching for it
+[14:59] <akanksha> Yeah I found the link suggested in the mailing list very useful , everyone should go through it!
+[14:59] <akanksha> <eof>
+[14:59] <mbuf> kushal, please move this to the top-level directory
+[15:00] <kushal> mbuf, I will create a link from top level to this one.
+[15:00] <kushal> http://catb.org/~esr/faqs/smart-questions.html  mbuf already gave this link today
+[15:00] <kushal> Read it.
+[15:01] <kushal> Also read the time management log mbuf just now gave.
+[15:01] <kushal> next
+[15:01] <kushal> next
+[15:01] <mbuf> I will try and have a follow-up session with all of you after few weeks, just to see how you are all doing
+[15:01] <AndChat|622356> Not getting Mailing list
+[15:02] <mbuf> Keep asking questions
+[15:02] <kushal> AndChat|622356, that is not a question.
+[15:02] <kushal> Roll Call
+[15:02] <mbuf> so you learn in the process
+[15:02] <messifc> messi fc
+[15:02] <kushal> Kushal Das
+[15:02] <RIcharD_> Mayank gupta
+[15:02] <apsknight> Aman Pratap Singh
+[15:02] <parthsharma2> Parth Sharma
+[15:02] <shankarj67> Shankar Jha
+[15:02] <skarpy> Akash Pathak
+[15:02] <pr97> Priyanka Sharma
+[15:02] <Cyber_freak> Pradhvan  Bisht
+[15:02] <anupamas> Anupama Shipurkar
+[15:02] <saikat195> AndChat|622356: If subscribed, and if in gmail, type spam in the search bar
+[15:02] <dodococo> Deepak Chethan
+[15:02] <ksaikiranr> K Sai Kiran
+[15:02] <shivamA1> Shivam Ahirao
+[15:02] <niranjana> Niranjana Deshpande
+[15:02] <anuGupta> Anu Kumari Gupta
+[15:02] <meamitk> Amit Kokitkar
+[15:02] <zebak_> Zeba Karin
+[15:02] <yurii> Yurii Pylypchuk
+[15:02] <ravindra> Ravindra Lakal
+[15:02] <wrik003> Wrik Bhadra
+[15:02] <dhairyya> Dhairyya Agarwal
+[15:02] <akanksha> Akanksha Bhardwaj
+[15:02] <imranjeetsingh> Ranjeet kumar
+[15:02] <apoorv> Apoorv Goel
+[15:02] <schubisu> Robin Schubert
+[15:02] <neer> Nishanta Sarma
+[15:02] <balaji> Balaji
+[15:02] <bhavin192> Bhavin Gandhi
+[15:02] <aditya_konarde> Aditya Konarde
+[15:02] <saikat195> Saikat Dey
+[15:02] <ashwanig> Ashwani Kumar Gupta
+[15:02] <abhinavshirur[m]> Abhinav SHirur
+[15:03] <nisha__> Nisha Rani
+[15:03] <theAtom> deep
+[15:03] <lucifer> atul kumar
+[15:03] <vipulgupta2048_> Vipul Gupta
+[15:03] <im_mohsin> Mohsin Mumtaz
+[15:03] <abhinavshirur[m]> s/SHirur/Shirur
+[15:03] <jiteshpabla> Jitesh Pabla
+[15:03] <mdbk> Onyinye Madubuko
+[15:03] <Priyansh> Priyansh sourav
+[15:03] <poojaencoded> pooja
+[15:03] <deepika> Deepika Upadhyay
+[15:03] <rimshakhan> Rimsha Khan
+[15:03] <rahuldecoded> Rahul Bhattacharjee
+[15:03] <geekabhi007> Abhishek Sharma
+[15:03] <devesh_verma> Devesh Verma
+[15:03] <akshayg96[m]> Akshay Gaikwad
+[15:03] <santoshShaw[m]> Santosh Kumar Shaw
+[15:03] <sitlanigaurav[m]> Gaurav Sitlani
+[15:03] <ahole[m]> Kshithij Iyer
+[15:03] <cran-cg> Chiranjeev Gupta
+[15:03] <AndChat|622356> Pavan
+[15:03] <jasonbraganza> Jason Braganza
+[15:03] <sapahia_> Rishav Sapahia
+[15:03] <PHI> Mohit bansal
+[15:03] <rahuldecoded> poojaencoded: Full name
+[15:03] <fihae> Syed Mohammad Fiha
+[15:04] <poojaencoded> pooja kumari singh
+[15:04] <kvy> vipin kumar
+[15:04] <kushal> Thank you everyone, we will meet tomorrow at the same time.
+[15:04] <fhackdroid> Farhaan Bukhsh
+----END CLASS----

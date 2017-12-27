@@ -1,0 +1,134 @@
+----BEGIN CLASS----
+[13:37] <kushal> startclass
+[13:38] <kushal> Roll Call
+[13:38] <vharsh> Harsh Vardhan
+[13:38] <PrashantJ> Prashant Jamkhande
+[13:38] <kushal> Anyone else? :)
+[13:40] <arthar360__> Atharva Deshmukh
+[13:40] <kushal> Problem: read about http://www.pygit2.org/ and use that to write a command line tool, which will take --path or -p as an argument, and for the given git project, it will us who is the highest committer :)
+[13:41] <kushal> Feel free to use https://docs.python.org/3/howto/argparse.html
+[13:41] <kushal> Any questions?
+[13:42] <PrashantJ> kushal, we need to go through
+[13:44] <kushal> Prashanth, yes, now :)
+[13:45] <kushal> LambaInsaan, are you there?
+[13:45] <vharsh> kushal: I have pinged him.
+[13:55] <kushal> vharsh, PrashantJ you can name the app commitchamp :)
+[13:55] <vharsh> :)
+[13:56] <vharsh> Currently installing pygit2 :)
+[13:56] <PrashantJ> Okay, me too still in installation
+[13:56] <kushal> Okay
+[13:57] <kushal> vharsh, PrashantJ as usual I will try to do this using golang :)
+[13:59] <vharsh> kushal: It works in Python2, but not in python3
+[14:00] <kushal> vharsh, then use python2
+[14:00] <vharsh> Ok
+[14:00] <kushal> or find a python3 module
+[14:01] <kushal> vharsh, PrashantJ Btw, count only master branch
+[14:01] <kushal> vharsh, hahaha
+[14:05] <PrashantJ> vharsh, We need to install cmake as well?
+[14:05] <PrashantJ> To install libgit2
+[14:06] <PrashantJ> kushal, I feel this is too heavy exercise for me:(
+[14:07] <kushal> PrashantJ, World is heavy.
+[14:07] <kushal> Even I am heavy, 70+kgs
+[14:08] <PrashantJ> :D
+[14:08] <kushal> PrashantJ, we can do this.
+[14:08] <kushal> Just try :)
+[14:08] <PrashantJ> Okay, I will keep trying:)
+[14:09] <kushal> PrashantJ, you can discuss the idea/logic you are trying to follow
+[14:11] <PrashantJ> okay kushal
+[14:15] <kushal> yay, seeing some double linked list after ages.
+[14:17] <kushal> LambaInsaan, Are you back here?
+[14:17] <LambaInsaan> Hi kushal. Yes I am back! :)
+[14:18] <kushal> LambaInsaan, We are solving a problem today.
+[14:18] <kushal> The session is on :)
+[14:19] <kushal> LambaInsaan,
+[14:19] <kushal> <kushal> Problem: read about http://www.pygit2.org/ and use that to write a command line tool, which will take --path or -p as an argument, and for the given git project, it will us who is the highest committer :)
+[14:19] <kushal> <kushal> Feel free to use https://docs.python.org/3/howto/argparse.html
+[14:19] <kushal> use the master branch, and feel free to find any other python3 git module.
+[14:26] <kushal> vharsh, welcome back
+[14:26] <kushal> :)
+[14:26] <vharsh> Connected again :)
+[14:36] <PrashantJ> I am struggling with installation itself
+[14:36] <vharsh> PrashantJ: Where are you now?
+[14:36] <PrashantJ> to use cmake .
+[14:37] <vharsh> PrashantJ: I think you must have installed `cmake`
+[14:37] <vharsh> I had installed libgit before dnf
+[14:37] <PrashantJ> To install pygit2 we need libgit2. To install libgit2 we need cmake. To install cmake we need gcc-c++
+[14:37] <vharsh> It didn't work then I started doing the manual installation
+[14:37] <vharsh> :)
+[14:37] <PrashantJ> So vharsh you are done with 'pygit2' installation?
+[14:38] <vharsh> Yes
+[14:38] <vharsh> PrashantJ: But it's not there in python2
+[14:38] <vharsh> s/3/2
+[14:44] <kushal> vharsh, PrashantJ which OS?
+[14:44] <vharsh> Fedora 24
+[14:44] <kushal> I think it is packaged in Fedora
+[14:45] <kushal> vharsh, dnf install python3-pygit2.x86_64
+[14:45] <vharsh> I couldn't install it with pip
+[14:45] <PrashantJ> kushal, Fedora 24
+[14:45] <kushal> vharsh, what is wrong in install official Fedora packages?
+[14:45] <kushal> You both are wasting time.
+[14:45] <PrashantJ> oops
+[14:45] <kushal> vharsh, PrashantJ sudo python3-pygit2.x86_64
+[14:45] <kushal> vharsh, PrashantJ sudo dnf install python3-pygit2.x86_64
+[14:45] <vharsh> hmm..
+[14:46] <fhackdroid> kushal, question ?
+[14:46] <vharsh> kushal: I had done sudo dnf install libgit2
+[14:46] <vharsh> and then `pip install pygit2`
+[14:46] <kushal> fhackdroid, ask :)
+[14:46] <kushal> fhackdroid, you can also try to solve it :)
+[14:47] <PrashantJ> For me sudo dnf libgit itself was throwing errors:(
+[14:47] <PrashantJ> Now installed pygit2:)
+[14:48] <fhackdroid> kushal, I will try to :)
+[14:48] <kushal> vharsh, and you can see there is Python3 :)
+[14:48] <kushal> fhackdroid, what was your question?
+[14:48] <vharsh> I didn't try python3-libgit2
+[14:49] <kushal> vharsh, search first.
+[14:49] <kushal> vharsh, I did dnf search libgit2
+[14:49] <kushal> vharsh, fhackdroid PrashantJ https://modernpaste.stg.fedoraproject.org/paste/fCbVO~P2TjwH0hcBTgnffMnRi-rYnlYzizqToCmG3BY=/deactivate/KnwT6FFn0Rw56p05hJGmLAC8b6fR48tODNr3k23tLD7MY7gkTy5zevQT6WvXIsVs
+[14:49] <fhackdroid> kushal, I was asking what was the question but I got it now :)
+[14:50] <kushal> :)
+[14:51] <kushal> clearqueue
+[14:51] <kushal> Oh may be I never implemented that
+[14:51] <kushal> next
+[14:51] <fhackdroid> kushal, I was actually thinking to solve it in go
+[14:52] <kushal> fhackdroid, you can still do it.
+[14:52] <fhackdroid> kushal, i actually tried the mp3 one
+[14:52] <fhackdroid> kushal, i didn't use cli module for that
+[14:52] <kushal> fhackdroid, and?
+[14:53] <fhackdroid> i used simple file passing and reading
+[14:53] <kushal> fhackdroid, Okay
+[14:53] <kushal> that will also do.
+[15:01] <fhackdroid> kushal, will try to do this in python and Go :) may not immediately but I will :)
+[15:19] <vharsh> kushal: Why is x.walk(pygit2.GIT_SORT_NONE) giving TypeError? What steps can I take to analyze it?
+[15:23] <kushal> vharsh, no clue.
+[15:24] <kushal> let me try the code
+[15:29] <kushal> vharsh, have you read the docs?
+[15:29] <vharsh> kushal: yes
+[15:29] <vharsh> I jumped to the logs.html first
+[15:30] <vharsh> kushal: http://www.pygit2.org/log.html I started here
+[15:31] <praveenkumar> PrashantJ: I got ping from you yesterday, anything specific?
+[15:32] <kushal> vharsh, same here
+[15:32] <kushal> http://www.pygit2.org/log.html
+[15:32] <kushal> >>> d = {}
+[15:32] <kushal> >>> for commit in repo.walk(repo.head.target, GIT_SORT_TOPOLOGICAL):
+[15:32] <kushal> ...   x = d.get(commit.committer.name, 0)
+[15:32] <kushal> ...   x += 1
+[15:32] <kushal> ...   d[commit.committer.name] = x
+[15:32] <tenida> kushal: Error: ".." is not a valid command.
+[15:32] <kushal> ...
+[15:32] <tenida> kushal: Error: ".." is not a valid command.
+[15:33] <tenida> kushal: Error: "commit.committer.name" is not a valid command.
+[15:33] <tenida> kushal: Error: ".." is not a valid command.
+[15:33] <kushal> >>> final = list((k, d[k]) for k in sorted(d, key=d.get, reverse=True))
+[15:33] <kushal> >>> final[0]
+[15:33] <kushal> ('James Crosby', 1187)
+[15:33] <kushal> I don't care tenida
+[15:33] <vharsh> I tried to sort it without any order.
+[15:33] <kushal> vharsh, see that code :)
+[15:33] <kushal> vharsh, I don't know, just copy pasted the code, and worked :)
+[15:34] <PrashantJ> praveenkumar, I struggled for a basic playbook. Now query resolved. Thank you so much:)
+[15:35] <praveenkumar> Good to hear that issue resolved, happy hacking.
+[15:35] <PrashantJ> praveenkumar, :)
+[15:35] <PrashantJ> thanks
+[15:36] <kushal> Ending the session for now.
+----END CLASS----

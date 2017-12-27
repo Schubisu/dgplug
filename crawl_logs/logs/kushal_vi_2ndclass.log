@@ -1,0 +1,695 @@
+Jun 29 19:06:26 <kushal>	< -- CLASS STARTED -- >
+Jun 29 19:06:35 <kushal>	Roll call please 
+Jun 29 19:06:46 <Soumya>	hhe :)
+Jun 29 19:06:59 <Soumya>	Hi all Soumya here,
+Jun 29 19:07:02 *	TanmayaT (n=sktmeenu@59.95.213.148) has joined #dgplug
+Jun 29 19:07:07 <kushal>	Soumya, type your full name
+Jun 29 19:07:16 <Soumya>	oks
+Jun 29 19:07:26 <ecntrk>	Hi... Debmalya Sinha Here...
+Jun 29 19:07:26 <ria>	hi all , ria das here :-)
+Jun 29 19:07:33 <Soumya>	Hi This is Soumya Kanti Chakraborty joining in ...
+Jun 29 19:07:34 *	kushal has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplualso jg.org | How to write "Hello World!" in gcc http://tv.dgplug.org/ | Old classes http://www.dgplug.org/irclogs/ | Tonight 7pm Vi by Kushal, 10:30pm gcc by __pjp__, 12:00AM shell by rishi | <--CLASS STARTED-->
+Jun 29 19:07:41 <samar>	Soumya, what's oks?
+Jun 29 19:07:42 <kushal>	only name please 
+Jun 29 19:07:51 <samar>	Hi All, I am Samarjit Adhikari
+Jun 29 19:08:01 <susenj>	neeraj kumar here
+Jun 29 19:08:05 <Soumya>	it is s ,supporting ok
+Jun 29 19:08:19 <mavu>	satya komaragiri  \o
+Jun 29 19:08:35 <nandy_lost>	it's me narendra
+Jun 29 19:08:41 <kushal>	nandy_lost, full name 
+Jun 29 19:09:13 <nandy_lost>	narendra kumar
+Jun 29 19:09:20 <kushal>	anyone left  ?
+Jun 29 19:09:45 <Debashree>	hi! its debashree banerjee
+Jun 29 19:09:51 <kushal>	ok, so good evening everyone 
+Jun 29 19:09:56 <kushal>	Back in vi 
+Jun 29 19:10:02 <Soumya>	good evening sir
+Jun 29 19:10:15 <kushal>	everyone tried what ever we did last night ?
+Jun 29 19:10:22 <kushal>	counting it as yes
+Jun 29 19:10:23 <samar>	Good evening Sir
+Jun 29 19:10:23 *	ecntrk has quit (Read error: 104 (Connection reset by peer))
+Jun 29 19:10:27 <ria>	kushal, i have a question
+Jun 29 19:10:31 <Soumya>	yes Sir
+Jun 29 19:10:33 <kushal>	ria, yes 
+Jun 29 19:10:40 *	pushkal (n=chatzill@117.197.18.83) has joined #dgplug
+Jun 29 19:10:42 <kushal>	Soumya, no need to answer everything 
+Jun 29 19:10:42 <Debashree>	kushal, yes
+Jun 29 19:10:43 *	ecntrk (i=sunny@117.194.2.98) has joined #dgplug
+Jun 29 19:10:49 <ria>	kushal, how to set indentation ?
+Jun 29 19:11:07 <kushal>	ria, not taught yet,  you can use google 
+Jun 29 19:11:18 <ria>	kushal, ok
+Jun 29 19:11:23 <ecntrk>	Actually I'll have to view the last class data... until then...
+Jun 29 19:11:44 <ecntrk>	I'm continuing...
+Jun 29 19:11:50 <ria>	and for that question yes kushal
+Jun 29 19:11:51 <kushal>	ok
+Jun 29 19:11:57 <pushkal>	please pastebin someone
+Jun 29 19:12:00 <kushal>	so 
+Jun 29 19:12:07 *	chacha_chaudhry (n=dev@gnu-india/supporter/rakeshpandit) has joined #dgplug
+Jun 29 19:12:11 <kushal>	starting again, no more questions 
+Jun 29 19:12:16 <susenj>	kushal sir,please continue
+Jun 29 19:12:18 <kushal>	open a file in vi 
+Jun 29 19:12:29 <kushal>	susenj, no need to call sir anyone here 
+Jun 29 19:12:29 <samar>	kushal, i want to answer ria's qoestion
+Jun 29 19:12:37 <kushal>	samar, DON'T
+Jun 29 19:12:41 <samar>	kushal, sorry question
+Jun 29 19:12:42 <ria>	pushkal, http://www.dgplug.org/irclogs/
+Jun 29 19:12:48 <susenj>	sorry
+Jun 29 19:12:48 <kushal>	EVERYONE FOLLOW THE RULES 
+Jun 29 19:13:02 <pushkal>	ria, no current logs
+Jun 29 19:13:04 <kushal>	press ! if you want to speak 
+Jun 29 19:13:06 <ecntrk>	ok...
+Jun 29 19:13:12 <pushkal>	!
+Jun 29 19:13:16 <kushal>	pushkal, yes 
+Jun 29 19:13:27 <pushkal>	can u pastebin the above conversations
+Jun 29 19:13:27 <kushal>	pushkal, we never started yet 
+Jun 29 19:13:28 <pushkal>	http://pastebin.com/
+Jun 29 19:13:32 <pushkal>	ok..
+Jun 29 19:13:48 <pushkal>	please continue
+Jun 29 19:13:49 <kushal>	pushkal, and in *English* language , there is no *meaning8 of *u* 
+Jun 29 19:13:51 <kushal>	ok
+Jun 29 19:13:57 <kushal>	open a file in vi 
+Jun 29 19:14:03 <ria>	pushkal, http://www.dgplug.org/irclogs/kushal_vi_1stclass.log
+Jun 29 19:14:17 <pushkal>	ria, read that already
+Jun 29 19:14:23 <pushkal>	opened kushal
+Jun 29 19:14:26 <kushal>	ria, pushkal both STOP 
+Jun 29 19:14:50 <kushal>	now to go to the last line of the file , press G
+Jun 29 19:15:15 <kushal>	get out of the file
+Jun 29 19:15:26 <kushal>	Now to open a file in the last line command is 
+Jun 29 19:15:30 <kushal>	vi + filename 
+Jun 29 19:15:39 <kushal>	To open in the nth line
+Jun 29 19:15:45 <kushal>	vi +n filename
+Jun 29 19:16:13 <kushal>	To move around in the file
+Jun 29 19:16:27 <kushal>	Ctrl + F   forward one screen 
+Jun 29 19:16:42 <kushal>	Ctrl +  B scroll backward 
+Jun 29 19:16:56 <kushal>	Ctrl + D forward half screen
+Jun 29 19:17:10 *	indradg has quit (Remote closed the connection)
+Jun 29 19:17:15 <kushal>	Ctrl + U backward halfscreen 
+Jun 29 19:17:39 <kushal>	ok
+Jun 29 19:17:42 <kushal>	try them 
+Jun 29 19:17:49 <ecntrk>	ok...
+Jun 29 19:18:06 <ria>	!
+Jun 29 19:18:08 <pushkal>	!
+Jun 29 19:18:13 <kushal>	ria, yes
+Jun 29 19:18:36 <susenj>	!
+Jun 29 19:18:43 <ria>	kushal, ctrl+B and ctrl +D cant understand
+Jun 29 19:18:45 <ecntrk>	Kushal da.. I don't have any mic...:(
+Jun 29 19:18:51 <Soumya>	done
+Jun 29 19:18:59 <ria>	kushal, ctrl +F worked though
+Jun 29 19:19:04 <ria>	<EOF>
+Jun 29 19:19:10 <kushal>	ria, half of the screen 
+Jun 29 19:19:14 <kushal>	half == 1/2
+Jun 29 19:19:16 <ecntrk>	so.. please if you could write your queries..
+Jun 29 19:19:28 <ria>	kushal, but nothing happened
+Jun 29 19:19:29 <kushal>	ecntrk, are you lost 
+Jun 29 19:19:32 *	arpita (n=arpita@117.201.97.146) has joined #dgplug
+Jun 29 19:19:47 <ria>	kushal, the screen was the same
+Jun 29 19:20:01 <ecntrk>	Actually... I'm taking this session on windows machine...
+Jun 29 19:20:12 <kushal>	ecntrk, many are doing that 
+Jun 29 19:20:25 <kushal>	ria, try properly it will work 
+Jun 29 19:20:27 <ecntrk>	I can't make my debian etch work with broadband..:(
+Jun 29 19:20:28 <arpita>	kushal, sorry my net was not getting connected.has the class begun??
+Jun 29 19:20:37 <ria>	kushal, tried 2 times
+Jun 29 19:20:38 <kushal>	ria, with a bigger file 
+Jun 29 19:20:41 <kushal>	arpita, yes 
+Jun 29 19:20:43 <ecntrk>	Class started...
+Jun 29 19:20:52 <ria>	kushal, though ctrl +F worked
+Jun 29 19:20:58 <kushal>	ria, TRY 
+Jun 29 19:21:07 <kushal>	with a bigger file 
+Jun 29 19:21:16 <kushal>	anyone else ?
+Jun 29 19:21:23 <arpita>	kushal, could you please repeat the last command?
+Jun 29 19:21:23 <pushkal>	no.. done
+Jun 29 19:21:24 <susenj>	can we not use page up and page down instead of ctrl+f and ctrl+b?
+Jun 29 19:21:32 <samar>	i believe Ctrl +D and Ctrl +U will only work if the file size quite big to browse
+Jun 29 19:22:00 *	SDey (n=chatzill@117.194.96.135) has joined #dgplug
+Jun 29 19:22:02 <kushal>	susenj, samar type ! first then only speak 
+Jun 29 19:22:04 <ecntrk>	Kushal... I can't expetiment these now.. cause I am into windows...My debian etch is not working wid broadband...
+Jun 29 19:22:14 <samar>	kushal, ok fine
+Jun 29 19:22:19 <kushal>	ecntrk, ok, so just note down
+Jun 29 19:22:20 <susenj>	! i have typed already
+Jun 29 19:22:23 <SDey>	Hi all !
+Jun 29 19:22:26 <ecntrk>	Sure..
+Jun 29 19:22:26 <susenj>	<eof>
+Jun 29 19:22:38 <kushal>	ecntrk, and ask for permission before speaking 
+Jun 29 19:22:40 <ecntrk>	!
+Jun 29 19:22:44 <kushal>	ecntrk, yes 
+Jun 29 19:22:46 <ecntrk>	doopi
+Jun 29 19:23:03 <kushal>	ecntrk, ARE YOU ON DRUGS ?
+Jun 29 19:23:04 <ria>	kushal, it's rather like page up and page down , so understood now
+Jun 29 19:23:05 <ecntrk>	I can't speak ... I dont have mic...:(
+Jun 29 19:23:12 <ecntrk>	What?
+Jun 29 19:23:19 <mavu>	!
+Jun 29 19:23:20 <kushal>	ecntrk, here speak == type 
+Jun 29 19:23:26 <kushal>	mavu, yes please 
+Jun 29 19:23:28 <mavu>	can we get back?
+Jun 29 19:23:39 <kushal>	mavu, yes, please 
+Jun 29 19:23:49 <ecntrk>	ok.. let's get back...
+Jun 29 19:24:02 <mavu>	thanks :) and sorry... i just added to the noise
+Jun 29 19:24:05 <mavu>	<eof>
+Jun 29 19:24:13 <kushal>	+ to go to the first character of the line 
+Jun 29 19:24:17 <kushal>	+ to go to the first character of the nect line 
+Jun 29 19:24:20 <kushal>	*next 
+Jun 29 19:24:41 <kushal>	- first character of the last line 
+Jun 29 19:24:42 *	parthan has quit (Read error: 60 (Operation timed out))
+Jun 29 19:25:13 <kushal>	only pressing e will take you to the end of the word 
+Jun 29 19:26:26 <kushal>	Now basic search 
+Jun 29 19:27:57 <kushal>	sorry got disconnected 
+Jun 29 19:28:13 <kushal>	 /searchstring 
+Jun 29 19:28:35 *	Yaniel (n=yaniel@dsl-trebrasgw1-ff44c100-223.dhcp.inet.fi) has joined #dgplug
+Jun 29 19:28:38 <kushal>	Now everyone try to search some string 
+Jun 29 19:28:42 <arpita>	!
+Jun 29 19:28:47 *	chacha_chaudhry_ has quit (Read error: 110 (Connection timed out))
+Jun 29 19:28:48 <kushal>	arpita, yes 
+Jun 29 19:29:01 <ria>	!
+Jun 29 19:29:07 <arpita>	kushal, - is taking me to the first letter of previous line...
+Jun 29 19:29:09 *	mavu_ (n=satya@59.178.160.205) has joined #dgplug
+Jun 29 19:29:22 <kushal>	arpita, yes, i typed wrong 
+Jun 29 19:29:32 <arpita>	kushal, o.k
+Jun 29 19:29:36 <TanmayaT>	!
+Jun 29 19:29:42 <kushal>	ria, yes
+Jun 29 19:29:47 <pushkal>	!
+Jun 29 19:29:54 <ria>	kushal, problem soleved
+Jun 29 19:29:59 *	Kishan (n=Kishan@218.248.70.235) has joined #dgplug
+Jun 29 19:30:00 <ria>	<EOF>
+Jun 29 19:30:07 <kushal>	TanmayaT, yes 
+Jun 29 19:30:13 <TanmayaT>	does the string have to be in parentheses
+Jun 29 19:30:16 <Yaniel>	could someone tell me what you're doing?
+Jun 29 19:30:25 <kushal>	Yaniel, vi class is going on :)
+Jun 29 19:30:40 <kushal>	TanmayaT, no
+Jun 29 19:30:48 <kushal>	TanmayaT, and please type <eof>
+Jun 29 19:30:49 <mavu_>	! got disconnected.. could you please paste after kushal: now basic search?
+Jun 29 19:30:58 <kushal>	mavu,  /searchstring 
+Jun 29 19:31:10 <Yaniel>	As far as I understood you're training C with gcc?
+Jun 29 19:31:13 <TanmayaT>	well i would but you see its not matching any string
+Jun 29 19:31:17 *	kart__ (n=kart_@121.245.62.246) has joined #dgplug
+Jun 29 19:31:22 <TanmayaT>	so i just wanted to confirm
+Jun 29 19:31:25 <TanmayaT>	<EOF>
+Jun 29 19:31:35 <pushkal>	!
+Jun 29 19:31:42 <kushal>	 Yaniel that is from 10:30pm IST 
+Jun 29 19:31:54 <kart__>	class of vi started?
+Jun 29 19:32:05 <pushkal>	!
+Jun 29 19:32:13 <kushal>	TanmayaT,  like  /ram will take you to the first occurrence of the ram
+Jun 29 19:32:18 <kushal>	pushkal, 
+Jun 29 19:32:21 <kushal>	kart__, yes
+Jun 29 19:32:21 <pushkal>	how to get to the next occurance of the same string ?
+Jun 29 19:32:34 <samar>	!
+Jun 29 19:32:36 <TanmayaT>	ok got it
+Jun 29 19:32:50 <kushal>	pushkal, wait never told yet 
+Jun 29 19:33:16 <samar>	<eof>
+Jun 29 19:33:24 <kushal>	samar, yes 
+Jun 29 19:33:39 <pushkal>	<eof>
+Jun 29 19:33:41 <samar>	<eof>
+Jun 29 19:33:46 <kushal>	To go to the next occurrence type n
+Jun 29 19:34:30 <kushal>	now to move search in the same direction press n
+Jun 29 19:34:47 <kushal>	and now to move search in the opposite direction press N
+Jun 29 19:34:48 <Kishan>	!
+Jun 29 19:34:54 <kushal>	Kishan, later 
+Jun 29 19:35:16 <kushal>	to search forward , press /Enter
+Jun 29 19:35:28 <kushal>	to search backwards press ?Enter 
+Jun 29 19:35:53 <kushal>	to search any specific text backwards , type ?string 
+Jun 29 19:36:12 <kushal>	Kishan, yes please 
+Jun 29 19:36:19 <ria>	!
+Jun 29 19:36:30 *	mavu has quit (Read error: 104 (Connection reset by peer))
+Jun 29 19:36:58 <kushal>	ria, yes 
+Jun 29 19:36:58 <Kishan>	what do you mean by searching in the same direction???
+Jun 29 19:37:07 <ecntrk>	so.. pressing / or ? and then enter?
+Jun 29 19:37:20 <susenj>	!
+Jun 29 19:37:20 <kushal>	ecntrk, yes 
+Jun 29 19:37:47 <ria>	kushal, i could not understand when to type n
+Jun 29 19:38:05 <ecntrk>	after one search entry?
+Jun 29 19:38:10 <ria>	kushal, should i do esc first after /searchstring
+Jun 29 19:38:11 <ecntrk>	yes..
+Jun 29 19:38:28 <kushal>	ria, to do the same search in the last direction you did 
+Jun 29 19:38:58 <ria>	kushal, cant understand what you mean by last direction
+Jun 29 19:39:12 <kushal>	ecntrk, please type ! first , then wait for your turn to speak 
+Jun 29 19:39:21 <ria>	kushal, nor could i understand /Enter
+Jun 29 19:39:54 <ecntrk>	ok... I will...
+Jun 29 19:39:56 <kushal>	ria, like , last last time you searched in the forward direction , now you want to do the same search in the forward direction 
+Jun 29 19:40:02 <kushal>	ria, so, press n
+Jun 29 19:40:27 <kushal>	susenj, yes 
+Jun 29 19:40:32 <ria>	kushal, suppose i want to search the string the how will i do that?
+Jun 29 19:40:42 <ria>	string "the"
+Jun 29 19:40:48 <susenj>	what is meant by searching forward.?i didn't get /Enter<eof>
+Jun 29 19:40:59 <ria>	kushal, in backword direction?
+Jun 29 19:41:07 <ria>	*backward
+Jun 29 19:41:08 <susenj>	when to use it?<eof>
+Jun 29 19:41:19 <kushal>	ria, you are not using <eof>
+Jun 29 19:41:31 <ria>	kushal, i did not finish that's why
+Jun 29 19:41:43 <kushal>	ria, you are eof for now
+Jun 29 19:42:05 <ria>	kushal, ok, but i did not understand many things <EOF>
+Jun 29 19:42:05 *	partha_ (n=partha@59.93.213.7) has joined #dgplug
+Jun 29 19:42:26 <kushal>	susenj,  if you are in the first line of the file 
+Jun 29 19:42:37 *	chacha_chaudhry_ (n=dev@122.161.21.78) has joined #dgplug
+Jun 29 19:42:40 <kushal>	then 2nd or 3rd line is your forward direction 
+Jun 29 19:43:30 <susenj>	ya that is ok,but /enter takes the corsor  to the first character of the next line<eof>
+Jun 29 19:43:38 <susenj>	*cursor
+Jun 29 19:43:42 *	indradg (n=indradg@59.93.210.77) has joined #dgplug
+Jun 29 19:43:42 <susenj>	<eof>
+Jun 29 19:43:48 <kushal>	susenj, what you searched for ?
+Jun 29 19:44:35 <susenj>	pls tell me,once i searched  string,i have to press esc or not to use /enter<eof>
+Jun 29 19:44:36 *	partha__ (n=partha@59.93.213.7) has joined #dgplug
+Jun 29 19:44:39 <arpita>	!
+Jun 29 19:44:55 <kushal>	susenj,  /enter 
+Jun 29 19:45:01 *	partha__ has quit (Client Quit)
+Jun 29 19:45:03 <kushal>	ria, yes please 
+Jun 29 19:45:26 <arpita>	!
+Jun 29 19:45:33 <ria>	kushal, tell me the way to use n and /Enter
+Jun 29 19:45:35 *	partha__ (n=partha@59.93.213.7) has joined #DGPLUG
+Jun 29 19:45:48 <kushal>	n is to do the last search 
+Jun 29 19:45:57 <ria>	kushal, suppose my 2nd and 4th line has a string "the"
+Jun 29 19:46:09 <kushal>	ria, if you did it in forward, then this will go forward 
+Jun 29 19:46:14 <ria>	kushal, i did not ask what it does , i asked the way to use
+Jun 29 19:46:32 <ria>	kushal, first i will do /the
+Jun 29 19:46:33 <kushal>	ria, first type /the
+Jun 29 19:46:38 <kushal>	ria, then press n
+Jun 29 19:46:40 <pushkal>	rian, then do '/the' to go to the first occourance
+Jun 29 19:46:53 <ria>	kushal, then pressing n gives /then
+Jun 29 19:46:57 <pushkal>	ria,then press n to go to the next occourance
+Jun 29 19:47:04 <Yaniel>	!
+Jun 29 19:47:13 <kushal>	Yaniel, wait please 
+Jun 29 19:47:24 <ria>	kushal, and /Enter?
+Jun 29 19:47:30 <ria>	<EOF>
+Jun 29 19:47:35 <kushal>	ria, will do the same in this case 
+Jun 29 19:48:18 <kushal>	ria, do a backward search and then try /Enter
+Jun 29 19:48:23 <kushal>	arpita, yes please
+Jun 29 19:48:54 <ria>	kushal, if i press n after a string , like /the it becomes /then
+Jun 29 19:48:59 <ria>	<eof>
+Jun 29 19:49:22 <kushal>	ria, first press Enter and n for the next search 
+Jun 29 19:49:27 <kushal>	Yaniel, yes
+Jun 29 19:49:34 <Yaniel>	So now you are training to use vi?
+Jun 29 19:49:46 <kushal>	Yaniel, yes 
+Jun 29 19:49:59 <arpita>	kart__, / and enter if pressed together is working....
+Jun 29 19:50:04 <Yaniel>	Ok. In that case I try to follow.
+Jun 29 19:50:15 <kushal>	Yaniel, you are welcome :)
+Jun 29 19:50:21 <ria>	!
+Jun 29 19:50:24 <kushal>	Yaniel, your name please 
+Jun 29 19:50:40 <kushal>	arpita, ok 
+Jun 29 19:50:41 <Yaniel>	Real name?
+Jun 29 19:50:47 <kushal>	Yaniel, yes :)
+Jun 29 19:50:53 <kushal>	ria, yes please 
+Jun 29 19:50:53 <arpita>	kart__, , / and enter if pressed together is working....should / and enter be pressed at the same time?
+Jun 29 19:51:06 <Yaniel>	Public or private message?
+Jun 29 19:51:07 <ria>	kushal, tell me the way to use /Enter
+Jun 29 19:51:07 <kushal>	arpita, no type / and then press Enter 
+Jun 29 19:51:13 <ria>	kushal, n worked
+Jun 29 19:51:16 <kushal>	Yaniel, public 
+Jun 29 19:51:17 <ria>	<eof>
+Jun 29 19:51:26 <samar>	!
+Jun 29 19:51:27 <Yaniel>	OK.  Jan Solanti
+Jun 29 19:51:35 <kart__>	?
+Jun 29 19:51:45 <kushal>	ria, same , first do a search by /the , then type / press Enter 
+Jun 29 19:51:52 <kushal>	samar, yes please 
+Jun 29 19:51:54 <arpita>	kart__, yes that is also working ..taking to the next searched word...
+Jun 29 19:52:03 <kart__>	arpita: type, ku and press tab :)
+Jun 29 19:52:18 <kushal>	arpita, are you speaking with kart__ or kushal ?
+Jun 29 19:52:28 *	kart__ is innocent
+Jun 29 19:52:29 <samar>	kushal, you are flooded with queries... If you want i can help you out
+Jun 29 19:52:30 <ria>	kushal, clear <eof>
+Jun 29 19:52:30 <samar>	<eof>
+Jun 29 19:52:39 *	Soumya has quit (Read error: 110 (Connection timed out))
+Jun 29 19:52:44 <kushal>	samar, thanks 
+Jun 29 19:52:54 <arpita>	kushal, what will ku tab do>
+Jun 29 19:52:58 <kushal>	ok so moving on
+Jun 29 19:53:00 <kushal>	arpita, try 
+Jun 29 19:53:06 <mavu_>	:D
+Jun 29 19:53:08 <mavu_>	oops
+Jun 29 19:53:48 <kushal>	ok
+Jun 29 19:53:53 <kushal>	Search and replace 
+Jun 29 19:54:19 <kushal>	:s/oldstring/newstring 
+Jun 29 19:54:44 <kushal>	^^ above will replace the first occurence of the oldstring to the newstring 
+Jun 29 19:54:54 <kushal>	* occurrence 
+Jun 29 19:55:35 <kushal>	to replace all occurrences of the oldstring to new string in that line
+Jun 29 19:55:40 <kushal>	:s/oldstring/newstring/g
+Jun 29 19:56:04 <mavu_>	!
+Jun 29 19:56:09 <TanmayaT>	!
+Jun 29 19:56:12 <kushal>	to replace in all lines 
+Jun 29 19:56:13 <ecntrk>	!
+Jun 29 19:56:20 <kushal>	:1,$s/oldstring/newstring/g
+Jun 29 19:56:24 <kushal>	ok
+Jun 29 19:56:27 <kushal>	mavu_, yes 
+Jun 29 19:56:35 <susenj>	!
+Jun 29 19:56:46 <mavu_>	when i do s/old/new
+Jun 29 19:56:56 <mavu_>	it highlights the pattern
+Jun 29 19:57:00 <mavu_>	but says pattern not found
+Jun 29 19:57:07 <mavu_>	and hence does not peplace
+Jun 29 19:57:15 <mavu_>	replace*
+Jun 29 19:57:27 <ria>	mavu_, its :s
+Jun 29 19:57:35 <mavu_>	yea
+Jun 29 19:57:37 <susenj>	sorry for interrupting but
+Jun 29 19:57:38 <mavu_>	i did the :s
+Jun 29 19:57:38 <susenj>	the same thing here<eof>
+Jun 29 19:57:52 <kushal>	ok
+Jun 29 19:57:52 <TanmayaT>	same with mine as well <eof>
+Jun 29 19:58:08 <ria>	kushal, but mine worked
+Jun 29 19:58:25 *	chacha_chaudhry has quit (Read error: 110 (Connection timed out))
+Jun 29 19:58:53 <kushal>	TanmayaT, please type here what you typed 
+Jun 29 19:59:32 *	roni (n=aritra@117.201.97.33) has joined #dgplug
+Jun 29 19:59:48 <kushal>	susenj, mavu_ anyone please 
+Jun 29 20:00:03 <susenj>	:s/et/nee
+Jun 29 20:00:09 <mavu_>	:s/mavu_/mavu
+Jun 29 20:00:14 <mavu_>	it highlights
+Jun 29 20:00:20 <mavu_>	mavu_
+Jun 29 20:00:32 *	TanmayaT has quit (Read error: 104 (Connection reset by peer))
+Jun 29 20:00:34 <mavu_>	but still says pattern not found : mavu_
+Jun 29 20:00:42 <susenj>	highlighting et's but gives no pattern like "et"
+Jun 29 20:00:50 <susenj>	<eof>
+Jun 29 20:00:51 <kushal>	susenj, mavu_ are you in the same line ?
+Jun 29 20:01:30 <kushal>	susenj, mavu_ please stay in the same line and try it 
+Jun 29 20:01:31 <mavu_>	same line as in?
+Jun 29 20:01:46 <kushal>	mavu_, same line of the oldstring you want to replace 
+Jun 29 20:01:47 <mavu_>	when i do a : i am automatically brought to the last line
+Jun 29 20:01:51 <mavu_>	ah
+Jun 29 20:01:52 <mavu_>	okay
+Jun 29 20:02:13 <kushal>	anything else ?
+Jun 29 20:02:25 <ecntrk>	yes..
+Jun 29 20:02:27 <susenj>	oh!itworks fine.
+Jun 29 20:02:29 <susenj>	<eof>
+Jun 29 20:02:36 <ecntrk>	please clarify the last command...
+Jun 29 20:02:52 *	mobilesuit has quit (Read error: 110 (Connection timed out))
+Jun 29 20:02:56 <ecntrk>	to replace in all lines...
+Jun 29 20:03:07 *	chacha_chaudhry_ has quit (Read error: 110 (Connection timed out))
+Jun 29 20:03:11 *	partha_ has quit (Read error: 110 (Connection timed out))
+Jun 29 20:03:20 *	TanmayaT (n=sktmeenu@59.95.209.62) has joined #dgplug
+Jun 29 20:03:26 <mavu_>	it works now :) thanks
+Jun 29 20:03:28 <mavu_>	eof
+Jun 29 20:03:38 <kushal>	ecntrk, like if you want to replace a string in all lines of a file 
+Jun 29 20:03:45 <kushal>	:1,$s/oldstring/newstring/g
+Jun 29 20:03:51 <ecntrk>	no I got that.. but the syntax..
+Jun 29 20:03:53 <susenj>	!
+Jun 29 20:04:06 <kushal>	:1,$   first 
+Jun 29 20:04:08 <kushal>	:1,$s/oldstring/newstring/g
+Jun 29 20:04:08 *	Amit (n=chatzill@118.95.34.246) has joined #dgplug
+Jun 29 20:04:10 <ecntrk>	oh.. so : then 1 then a ,
+Jun 29 20:04:19 <kushal>	ecntrk, then $
+Jun 29 20:04:20 <ecntrk>	I got that.
+Jun 29 20:04:31 <ecntrk>	yes.. cool.. got that..
+Jun 29 20:04:32 <kushal>	ecntrk, 1,$ means first to last line 
+Jun 29 20:04:35 <kushal>	susenj, 
+Jun 29 20:04:41 <ecntrk>	oh...
+Jun 29 20:04:46 *	Amit has quit (Client Quit)
+Jun 29 20:04:50 <susenj>	just for curiosity,why 1 is being used here.any special significance?
+Jun 29 20:05:01 <ecntrk>	so in vi we denote last line as $
+Jun 29 20:05:03 <ecntrk>	?
+Jun 29 20:05:24 <ecntrk>	1 for first line and $ for last line...
+Jun 29 20:05:32 <ecntrk>	am I correct?
+Jun 29 20:05:33 <susenj>	oh,you answered already!thanks kushal!
+Jun 29 20:05:39 <kushal>	ecntrk, for searching yes
+Jun 29 20:05:39 <susenj>	<eof>
+Jun 29 20:05:45 <ecntrk>	ok..
+Jun 29 20:05:46 <kushal>	for the same you can even do 
+Jun 29 20:05:52 <kushal>	:%s/oldstring/newstring/g
+Jun 29 20:06:09 <ecntrk>	and what % meaning here?
+Jun 29 20:06:14 <ecntrk>	all the lines?
+Jun 29 20:06:28 <kushal>	yes
+Jun 29 20:06:33 <ecntrk>	ok...
+Jun 29 20:06:45 <susenj>	it did
+Jun 29 20:06:49 <kushal>	Now may want to confirm if you want to replace or not
+Jun 29 20:07:03 <kushal>	:%s/oldstring/newstring/gc   --- note the last c
+Jun 29 20:07:03 <indradg>	susenj, characters like  ^ and $ have special meaning as something called as regular expressions
+Jun 29 20:07:21 <kushal>	press y to change or enter if you don't want to 
+Jun 29 20:07:28 <ecntrk>	here c means confirm?
+Jun 29 20:07:39 *	Prakhar (n=prakhar@122.163.71.193) has joined #dgplug
+Jun 29 20:07:40 <kushal>	ecntrk, yes 
+Jun 29 20:08:23 <susenj>	l means what?
+Jun 29 20:08:31 <susenj>	<eof>
+Jun 29 20:08:37 <ecntrk>	1st line...
+Jun 29 20:08:54 <kushal>	ok moving on 
+Jun 29 20:09:04 <ecntrk>	Kushalda... one more thing
+Jun 29 20:09:16 <ecntrk>	What's regular expression in unix?
+Jun 29 20:09:22 <Kishan>	!
+Jun 29 20:09:37 <ecntrk>	we only hear about them in Compiler Designing and Automata...
+Jun 29 20:10:06 <kushal>	ecntrk, we will talk about them later after class 
+Jun 29 20:10:07 <ria>	!
+Jun 29 20:10:13 <ecntrk>	sure...
+Jun 29 20:10:17 <ecntrk>	<eof>
+Jun 29 20:10:20 <kushal>	Kishan, yes 
+Jun 29 20:10:25 <Kishan>	what if you want to change only the last line??
+Jun 29 20:10:45 <arpita>	!
+Jun 29 20:10:45 <kushal>	Kishan, go to last line 
+Jun 29 20:10:52 <kushal>	Kishan, then :s/old/new/g
+Jun 29 20:10:57 <kushal>	ria, yes 
+Jun 29 20:11:16 <ria>	kushal, what does ^Y and ^E mean?
+Jun 29 20:11:22 <ria>	in the options?
+Jun 29 20:11:27 <ria>	<eof>
+Jun 29 20:11:28 <kushal>	ria, no idea, I never spoke about them 
+Jun 29 20:11:46 <kushal>	arpita, yes 
+Jun 29 20:11:57 <ria>	kushal, they are in the options y/n/l/q/^Y etc. etc.
+Jun 29 20:12:01 <ria>	<eof>
+Jun 29 20:12:56 <ria>	kushal, and i could do nothing with them after trying <eof>
+Jun 29 20:13:23 <kushal>	ria, if you want to experiment , do it by yourself , don't talk here 
+Jun 29 20:13:44 <kushal>	arpita, anything ?
+Jun 29 20:13:49 <arpita>	kushal, what do ^Y,^E ,a and q mean?
+Jun 29 20:13:51 <ria>	kushal, i was just querying as i did not get any result
+Jun 29 20:14:07 <ria>	arpita, q for quiting
+Jun 29 20:14:21 <kushal>	arpita, ria if you want to *DO EXPERIMENT*, do it at home, not here 
+Jun 29 20:14:25 <kushal>	moving on
+Jun 29 20:14:25 <susenj>	a to abort,as i think
+Jun 29 20:14:49 <kushal>	to open more than one  file in vi 
+Jun 29 20:14:59 <kushal>	vi file1 file2 file3 
+Jun 29 20:15:09 <kushal>	now it will show only the first file
+Jun 29 20:15:16 <kushal>	to go to the next file 
+Jun 29 20:15:18 <kushal>	:n
+Jun 29 20:15:20 <kushal>	and so on
+Jun 29 20:15:27 <kushal>	to go to the last file
+Jun 29 20:15:29 <kushal>	:last 
+Jun 29 20:15:38 <kushal>	to go back to the first file
+Jun 29 20:15:43 <kushal>	:rew 
+Jun 29 20:16:09 <kushal>	and if you want to see all argument name 
+Jun 29 20:16:11 <kushal>	names
+Jun 29 20:16:13 <kushal>	:args
+Jun 29 20:16:18 <kushal>	try them please 
+Jun 29 20:16:31 <ecntrk>	!
+Jun 29 20:16:34 <ria>	kushal, tried
+Jun 29 20:16:38 <ria>	!
+Jun 29 20:16:39 <kushal>	ecntrk, yes please 
+Jun 29 20:16:51 *	Subhodip (n=subhodip@125.20.11.34) has joined #dgplug
+Jun 29 20:17:04 <ecntrk>	what should i do if i want to go back previous file?
+Jun 29 20:17:18 <ria>	kushal, same question
+Jun 29 20:17:31 <ecntrk>	like.. if i'm in 4th file, what's the command to lookup 3rd?
+Jun 29 20:17:41 <kushal>	ecntrk, not being told yet :)
+Jun 29 20:17:45 <kushal>	Ctrl + ^
+Jun 29 20:17:53 *	susenj (n=chatzill@59.178.175.199) has left #dgplug
+Jun 29 20:17:55 <ecntrk>	Ok ok... sorry...for bothering...:(
+Jun 29 20:18:01 <ecntrk>	ah.. I see...
+Jun 29 20:18:11 <ecntrk>	and another thing...
+Jun 29 20:18:22 <kushal>	ecntrk, can not see any eof from you 
+Jun 29 20:18:30 <ecntrk>	is there anything like cascading file window...
+Jun 29 20:18:52 <kushal>	ecntrk, there is something called google.com use it please 
+Jun 29 20:18:55 <ecntrk>	Sorry.. but..this is my 1st irc session...<eof> means what?
+Jun 29 20:19:05 *	Guest70348 (n=root@59.178.175.199) has joined #dgplug
+Jun 29 20:19:12 <indradg>	ecntrk, RTFM please
+Jun 29 20:19:13 <ecntrk>	ok.. sure...
+Jun 29 20:19:19 <kushal>	ecntrk, to tell that you are finished 
+Jun 29 20:19:20 <ecntrk>	sure..
+Jun 29 20:19:32 <ecntrk>	then...:D <eof>
+Jun 29 20:20:13 <kushal>	Now many times we need to open more than one file same time 
+Jun 29 20:20:25 <kushal>	for that you can split your window
+Jun 29 20:20:39 *	coolpyro (n=chatzill@202.63.119.36) has left #dgplug
+Jun 29 20:21:01 *	Guest70348 is now known as root
+Jun 29 20:21:02 <kushal>	:split     for horizontal split 
+Jun 29 20:21:28 <kushal>	:vsplit       for vertical split 
+Jun 29 20:21:30 *	root is now known as Guest3732
+Jun 29 20:21:32 *	Yaniel (n=yaniel@dsl-trebrasgw1-ff44c100-223.dhcp.inet.fi) has left #dgplug
+Jun 29 20:21:41 *	pushkal has quit ("ChatZilla 0.9.83 [Firefox 2.0.0.14/2008040413]")
+Jun 29 20:22:07 <kushal>	to move in between the frames, Ctrl + w
+Jun 29 20:22:20 <samar>	!
+Jun 29 20:22:38 <kushal>	samar, yes please 
+Jun 29 20:22:58 <samar>	vsplit doesn't work always! Don we need to install something more?
+Jun 29 20:23:13 <samar>	kushal, r/Don/do
+Jun 29 20:23:25 <samar>	<eof>
+Jun 29 20:23:37 <kushal>	samar, for standard fedora installation it works, others please check your distro documentation 
+Jun 29 20:23:48 *	deepakBCREC (n=chatzill@125.20.11.34) has joined #DGPLUG
+Jun 29 20:23:52 <ria>	!
+Jun 29 20:24:00 <kushal>	ria, yes please 
+Jun 29 20:24:00 <ecntrk>	!
+Jun 29 20:24:10 <roni>	!
+Jun 29 20:24:17 <ria>	kushal, i find the same file splited
+Jun 29 20:24:27 <kushal>	ria, yes
+Jun 29 20:24:36 <kushal>	ria, wait I will tell more 
+Jun 29 20:24:39 <kushal>	ecntrk, yes
+Jun 29 20:24:54 <ecntrk>	what is r/Don/do?
+Jun 29 20:24:56 <ria>	kushal, but will this be done after opening 2 files?
+Jun 29 20:25:08 *	susenj (n=chatzill@59.178.175.199) has joined #dgplug
+Jun 29 20:25:10 <ecntrk>	,eof.
+Jun 29 20:25:11 <kushal>	ria, wait please 
+Jun 29 20:25:13 <ecntrk>	<eof>
+Jun 29 20:25:21 <kushal>	ecntrk, actually that was wrong 
+Jun 29 20:25:38 <kushal>	ecntrk, in IRC, if we type anything wrong , we replace it 
+Jun 29 20:25:41 <kushal>	like in vi
+Jun 29 20:25:47 <kushal>	s/Don/Do
+Jun 29 20:25:56 <kushal>	ecntrk, ^^ that is a standard we follow 
+Jun 29 20:25:57 <kushal>	:)
+Jun 29 20:26:04 <ecntrk>	Ok...:)
+Jun 29 20:26:08 <ecntrk>	<eof>
+Jun 29 20:26:31 <kushal>	roni, yes please 
+Jun 29 20:26:34 <roni>	kushal, same as asked by ria di
+Jun 29 20:26:39 <kushal>	roni, ok
+Jun 29 20:26:42 <roni>	move on <eof>
+Jun 29 20:26:55 <kushal>	ok now to open a file 
+Jun 29 20:27:00 <kushal>	   :e filename 
+Jun 29 20:27:10 <kushal>	so in every frame to open another file
+Jun 29 20:27:16 <kushal>	 do :e newfilename 
+Jun 29 20:27:24 <kushal>	you can use TAB also 
+Jun 29 20:28:14 <kushal>	To use any shell command in vi 
+Jun 29 20:28:17 <kushal>	:!command
+Jun 29 20:28:20 <kushal>	like 
+Jun 29 20:28:28 <kushal>	 :!ls
+Jun 29 20:28:56 *	chacha_chaudhry (n=dev@gnu-india/supporter/rakeshpandit) has joined #dgplug
+Jun 29 20:29:41 <ecntrk>	!
+Jun 29 20:29:49 <kushal>	ecntrk, yes please 
+Jun 29 20:29:58 *	Guest3732 has quit (Remote closed the connection)
+Jun 29 20:30:12 <ecntrk>	does vi parses or executes the command from current screen?
+Jun 29 20:30:26 <ecntrk>	or it invokes any new shell window...
+Jun 29 20:30:32 <kushal>	ecntrk, try and see 
+Jun 29 20:30:46 <kushal>	:)
+Jun 29 20:30:46 <ecntrk>	ok...i'll<eof>
+Jun 29 20:31:07 <kushal>	anyone any other question ?
+Jun 29 20:33:15 <samar>	!
+Jun 29 20:33:21 <ria>	no questions perhaps kushal can we move on?
+Jun 29 20:33:22 <kushal>	samar, yes please 
+Jun 29 20:33:44 <samar>	Ctrl + ^ browse only between last 2 open files?
+Jun 29 20:33:54 <kushal>	samar, yes 
+Jun 29 20:33:59 <samar>	say if i open 1.c 2.c 3.c
+Jun 29 20:34:04 <samar>	ok
+Jun 29 20:34:06 <samar>	<eof>
+Jun 29 20:34:08 <samar>	!
+Jun 29 20:34:14 <samar>	1 more question
+Jun 29 20:34:20 <kushal>	yes
+Jun 29 20:34:29 <samar>	Is there any option to browse all open files?
+Jun 29 20:34:33 <samar>	<eof>
+Jun 29 20:34:39 <kushal>	:n
+Jun 29 20:34:40 <kushal>	:n
+Jun 29 20:34:51 <ria>	!
+Jun 29 20:34:56 <kushal>	and proper use of :rew and :last 
+Jun 29 20:35:05 <kushal>	ria, yes please 
+Jun 29 20:35:23 <ria>	kushal, please say about spliting different files
+Jun 29 20:35:37 <ria>	<eof>
+Jun 29 20:35:39 <roni>	^^^^^^^^^^
+Jun 29 20:35:49 <kushal>	ria, splitting happens for frame not for files
+Jun 29 20:36:09 <ria>	kushal, what is the use of spliting the same file?
+Jun 29 20:36:12 <ria>	<eof>
+Jun 29 20:36:14 <kushal>	ria, you have to open different file in different frame
+Jun 29 20:36:32 <kushal>	ria, no splitting of file
+Jun 29 20:36:39 <kushal>	ria, only frames
+Jun 29 20:36:50 <ria>	kushal, what is its use?
+Jun 29 20:36:55 <ria>	<eof>
+Jun 29 20:37:19 <kushal>	ria, to open different files in the different frames 
+Jun 29 20:37:36 <ria>	kushal, but how to do that?
+Jun 29 20:37:40 <ria>	<eof>
+Jun 29 20:38:21 *	coolpyro_rishi (n=chatzill@202.63.119.36) has joined #dgplug
+Jun 29 20:38:28 <susenj>	ria,in the same window,you have many frames,and you can open files in those frames by the commands kushal just told!
+Jun 29 20:38:29 <deepakBCREC>	kushal:different frame means different console
+Jun 29 20:38:41 <kushal>	ria, go to the other frames and open files there by using :e
+Jun 29 20:38:50 <kushal>	Debashree, no
+Jun 29 20:38:53 <kushal>	oops
+Jun 29 20:38:54 <ria>	kushal, ok
+Jun 29 20:38:56 <kushal>	deepakBCREC, no 
+Jun 29 20:39:16 <deepakBCREC>	kushal:then
+Jun 29 20:39:30 <kushal>	deepakBCREC, try , you can see it with your own eyes 
+Jun 29 20:39:51 <susenj>	different frames in same console,deepak<eof>
+Jun 29 20:39:56 <ria>	kushal, got it , everything clear
+Jun 29 20:40:36 <deepakBCREC>	kushal:like we open another window through TAB
+Jun 29 20:40:45 <kushal>	deepakBCREC, try and see
+Jun 29 20:41:26 <ria>	kushal, sorry for interruption, but will anything more be taught now?
+Jun 29 20:41:43 <kushal>	ria, no idea 
+Jun 29 20:42:25 <deepakBCREC>	kushal:where i could get all what you taught  today?
+Jun 29 20:42:34 <kushal>	deepakBCREC, see the logs later 
+Jun 29 20:42:41 <samar>	!
+Jun 29 20:42:45 <mavu_>	!topic
+Jun 29 20:42:49 <kushal>	deepakBCREC, and please type ! and wait for your turn to speal 
+Jun 29 20:42:53 <kushal>	*speak 
+Jun 29 20:42:58 <kushal>	samar, yes please 
+Jun 29 20:43:01 <deepakBCREC>	kushal:ok
+Jun 29 20:43:11 <samar>	kushal, how to do copy-paste a set of vertical lines in vim?
+Jun 29 20:43:14 <samar>	<eof>
+Jun 29 20:43:35 <ecntrk>	!
+Jun 29 20:44:02 *	ria has quit ("Leaving")
+Jun 29 20:44:03 <kushal>	samar, RTFM 
+Jun 29 20:44:08 <kushal>	ecntrk, yes please 
+Jun 29 20:44:25 <ecntrk>	 do we have Vertical lines also?
+Jun 29 20:44:29 <ecntrk>	<eof>
+Jun 29 20:44:41 *	Tanmaya1 (n=sktmeenu@59.95.208.17) has joined #dgplug
+Jun 29 20:44:56 <kushal>	ecntrk, yes, type a single character in everyline 
+Jun 29 20:45:08 <ecntrk>	ok<eof>
+Jun 29 20:45:17 <kushal>	anything else ?
+Jun 29 20:45:29 <ecntrk>	not for me...<eof>
+Jun 29 20:45:40 *	debayan (n=debayan@117.198.32.228) has joined #dgplug
+Jun 29 20:45:42 <kushal>	now last thing for tonight 
+Jun 29 20:45:49 <kushal>	Word completion 
+Jun 29 20:46:12 <kushal>	In insert mode press Ctrl + p or Ctrl + n to do word completion 
+Jun 29 20:46:43 <kushal>	try and see by yourself 
+Jun 29 20:47:04 <samar>	!
+Jun 29 20:47:10 <ecntrk>	!
+Jun 29 20:47:17 <kushal>	samar, yes
+Jun 29 20:47:39 <samar>	one more thing (i believe it is interesting also) about key mapping in vim
+Jun 29 20:47:50 <kushal>	samar, yes, do RTFM for that 
+Jun 29 20:48:05 <samar>	kushal, RTFM??
+Jun 29 20:48:15 <kushal>	samar, google RTFM 
+Jun 29 20:48:31 <samar>	<eof>
+Jun 29 20:48:44 <kushal>	ecntrk, yes please 
+Jun 29 20:49:01 <ecntrk>	i 'll try this later.. but for now,.. what is modes?
+Jun 29 20:49:16 <ecntrk>	I'm in windoze now..:(
+Jun 29 20:49:19 <ecntrk>	<eof>
+Jun 29 20:49:19 <kushal>	ecntrk, read yesterday's log first 
+Jun 29 20:49:36 <ecntrk>	sure... i'll..<eof>
+Jun 29 20:49:50 <samar>	!
+Jun 29 20:49:54 <kushal>	o, before ending , one small magic 
+Jun 29 20:49:55 *	partha__ has quit (Read error: 60 (Operation timed out))
+Jun 29 20:50:19 <kushal>	word abbreviation 
+Jun 29 20:50:25 *	kart__ has quit (Read error: 110 (Connection timed out))
+Jun 29 20:50:40 <kushal>	:ab abbr phrase 
+Jun 29 20:50:42 <kushal>	like
+Jun 29 20:51:21 <kushal>	:ab fosla  Frustrated One Sided Lover's Association 
+Jun 29 20:51:24 <kushal>	now type 
+Jun 29 20:51:25 <arpita>	Prakhar, hi!!!!!
+Jun 29 20:51:40 <kushal>	fosla and spacebar 
+Jun 29 20:52:01 *	Tanmaya1 (n=sktmeenu@59.95.208.17) has left #dgplug
+Jun 29 20:52:21 <kushal>	arpita, suddenly ? on high ?
+Jun 29 20:52:53 <ecntrk>	!??
+Jun 29 20:52:57 <ecntrk>	<eof
+Jun 29 20:53:03 <ecntrk>	*<eof>
+Jun 29 20:53:08 *	debayan has quit (Read error: 113 (No route to host))
+Jun 29 20:53:35 <kushal>	to remove abbreviation 
+Jun 29 20:53:43 <kushal>	:unabb abbr
+Jun 29 20:53:50 <kushal>	:unab abbr
+Jun 29 20:53:52 <kushal>	like
+Jun 29 20:53:59 <kushal>	 :unab fosla 
+Jun 29 20:54:09 <arpita>	kushal,arpi is not there,i am her's brother speaking
+Jun 29 20:54:28 *	kushal removes voice from arpita
+Jun 29 20:54:34 <kushal>	arpita, be happy 
+Jun 29 20:54:44 *	amrita (n=amrita@117.201.97.190) has joined #dgplug
+Jun 29 20:54:53 <susenj>	!
+Jun 29 20:54:54 *	kushal gives channel operator status to indradg
+Jun 29 20:55:00 <kushal>	susenj, yes 
+Jun 29 20:55:00 <ecntrk>	!
+Jun 29 20:55:02 <roni>	!
+Jun 29 20:55:13 <susenj>	i m not getting abbriviation
+Jun 29 20:55:21 <susenj>	please define it
+Jun 29 20:55:51 <kushal>	susenj, see dictionary for *abbreviation* 
+Jun 29 20:56:39 <kushal>	ecntrk, yes
+Jun 29 20:58:01 <ecntrk>	anything more teaching?
+Jun 29 20:58:05 <ecntrk>	<eof>
+Jun 29 20:58:11 <kushal>	roni, yes 
+Jun 29 20:58:18 <roni>	can u please clear the word abbreviation trick, once more, am not getting it?  i   just typed :ab fosla       it said no abbreviation found
+Jun 29 20:58:22 <susenj>	!
+Jun 29 20:58:34 <roni>	clear the syntax part <eof>
+Jun 29 20:58:43 <kushal>	roni, type the whole command as I gave 
+Jun 29 20:58:47 <ecntrk>	roni... abbreviation means small form of a big string...
+Jun 29 20:59:01 <roni>	ok am trying
+Jun 29 20:59:04 <ecntrk>	like IIT  : Indian Institute of Technology...
+Jun 29 20:59:21 <roni>	working
+Jun 29 20:59:27 <roni>	move on <eof>
+Jun 29 20:59:30 <susenj>	yes i m trying but result is no abbriviation is found!
+Jun 29 20:59:31 <ecntrk>	You have to enter the specified abbr before working it..
+Jun 29 20:59:46 <ecntrk>	<eof>
+Jun 29 20:59:52 *	deepakBCREC_ (n=chatzill@125.20.11.34) has joined #DGPLUG
+Jun 29 21:00:19 <ecntrk>	! kushalda... anything more?<eof>
+Jun 29 21:00:25 <kushal>	ecntrk, no 
+Jun 29 21:00:42 <kushal>	susenj, try what I typed
+Jun 29 21:00:54 <susenj>	ok
+Jun 29 21:01:02 <susenj>	but should abbreviation  be user defined?
+Jun 29 21:01:08 <kushal>	susenj, yes
+Jun 29 21:01:08 <ecntrk>	! I'm leaving now... Great session.. thanks a lot... Kushalda...<eof>
+Jun 29 21:01:25 *	ecntrk has quit ()
+Jun 29 21:01:27 <susenj>	where it should be defined?
+Jun 29 21:01:45 <kushal>	susenj, by the command I gave :)
+Jun 29 21:02:26 <kushal>	any more question ?
+Jun 29 21:03:00 <kushal>	<--CLASS OVER -->

@@ -1,0 +1,614 @@
+Jun 30 22:32:55 <kushal>	<--  CLASS STARTED -->
+Jun 30 22:33:02 <kushal>	roll call 
+Jun 30 22:33:09 <deepak>	deepak kumar
+Jun 30 22:33:12 <rtnpro>	Ratnadeep Debnath
+Jun 30 22:33:12 <pushkal>	Pushkal Srivastava
+Jun 30 22:33:15 <atanubera>	Atanu Bera
+Jun 30 22:33:17 <amrita>	amrita mukherjee
+Jun 30 22:33:19 <susenj>	Neeraj Kumar
+Jun 30 22:33:22 <chiks>	chikan banerjee
+Jun 30 22:33:22 <ria>	ria das
+Jun 30 22:33:27 <Prakhar>	Prakhar Agarwal
+Jun 30 22:34:09 <Kishan>	kishan goyal
+Jun 30 22:34:46 *	chacha_chaudhry (n=dev@gnu-india/supporter/rakeshpandit) has joined #dgplug
+Jun 30 22:35:07 <_pjp_>	okay friends, let's start.
+Jun 30 22:35:29 <atanubera>	ok
+Jun 30 22:35:50 <_pjp_>	So far we talked about gcc and it's compilation steps and some useful options.
+Jun 30 22:36:19 <_pjp_>	Today continuing the same, we'll see some more useful options of gcc
+Jun 30 22:36:25 <arpita>	arpita kapoor
+Jun 30 22:37:06 <_pjp_>	After -o, -c, and -x, next useful and important options is -std
+Jun 30 22:37:48 <atanubera>	!
+Jun 30 22:38:03 <_pjp_>	-std let's you specify the C language standard you want to follow.
+Jun 30 22:38:12 <_pjp_>	atanubera, ?
+Jun 30 22:38:15 <atanubera>	what is -std?
+Jun 30 22:38:45 <kushal>	atanubera, please check yesterday's log file 
+Jun 30 22:38:52 <atanubera>	ok
+Jun 30 22:39:13 <_pjp_>	As I said yesterday, there are more than one C standards today.
+Jun 30 22:39:14 <kushal>	atanubera, and then let him speak 
+Jun 30 22:39:47 <_pjp_>	The most widely used and supported by all the c compilers is standard C89.
+Jun 30 22:40:23 *	nandy_lost (n=chatzill@59.178.181.30) has joined #dgplug
+Jun 30 22:40:58 <_pjp_>	also know as -ansi
+Jun 30 22:41:19 *	kushal gives channel operator status to _pjp_
+Jun 30 22:41:59 <_pjp_>	The latest C language standard is C99 but is still not supported by all the C compilers.
+Jun 30 22:42:23 <_pjp_>	And that makes you take the call of code portability.
+Jun 30 22:42:51 <chiks>	!
+Jun 30 22:43:10 *	mavu (n=satya@59.178.170.242) has joined #dgplug
+Jun 30 22:43:19 <kushal>	chiks, please ask later 
+Jun 30 22:43:38 *	mavu is now known as mavu_
+Jun 30 22:43:51 <_pjp_>	i.e: If your C code follows C99 and you want to compile it with X compiler for Y platform, it is *necessary* that X understands C99 standard
+Jun 30 22:44:29 <_pjp_>	I personally use -ansi
+Jun 30 22:44:43 *	roni (n=aritra@117.201.96.75) has joined #dgplug
+Jun 30 22:45:45 *	Debashree_ (n=Debashre@61.0.133.58) has joined #dgplug
+Jun 30 22:46:00 <_pjp_>	It has a future advantage that, when the implementation of C99 is over and widely supported, -ansi might become -std=c99
+Jun 30 22:46:34 *	Debashree has quit (Nick collision from services.)
+Jun 30 22:46:54 <_pjp_>	anyways, so to use -std or -ansi just say: $ gcc -x c -std=c89 -o hello hello.c -lm
+Jun 30 22:46:57 *	Debashree_ is now known as Debashree
+Jun 30 22:47:13 <_pjp_>	or $ cc -x c -std=c89 -o hello hello.c -lm
+Jun 30 22:47:42 <_pjp_>	Also try to compile the same code with -std=c99
+Jun 30 22:48:53 <_pjp_>	You may not see any errors/warnings but as the code grows, and you use the latest language features, you'll start to notice the differences
+Jun 30 22:49:20 <_pjp_>	-ansi could be used as $ gcc -x c -ansi -o hello hello.c
+Jun 30 22:50:37 *	t4num0y_cs3 has quit (Read error: 104 (Connection reset by peer))
+Jun 30 22:51:44 <arpita>	!
+Jun 30 22:51:46 <deepak>	!
+Jun 30 22:51:51 <susenj>	!
+Jun 30 22:51:55 <_pjp_>	arpita, deepak susenj  ?
+Jun 30 22:52:14 <arpita>	_pjp_, the last command is showing errors
+Jun 30 22:52:23 <_pjp_>	what errors?
+Jun 30 22:52:26 <deepak>	do i need to use option -x c altogether
+Jun 30 22:52:44 <susenj>	all these three commands are giving warnings
+Jun 30 22:52:52 <_pjp_>	Well..-x c is not always required.
+Jun 30 22:53:15 <_pjp_>	what warnings?
+Jun 30 22:53:29 *	chacha_chaudhry has quit (Connection timed out)
+Jun 30 22:53:33 <susenj>	incompatible implicit declaration of built-in function âsqrtâ
+Jun 30 22:53:54 <ria>	 gcc -x c -ansi -o hello hello.c -lm _pjp_ this worked fine for me
+Jun 30 22:53:58 <susenj>	arpita ,use -lm with the last command
+Jun 30 22:54:02 <arpita>	_pjp_, undefined reference to square root
+Jun 30 22:54:18 <deepak>	[deepak@localhost ~]$ gcc -x c -ansi -o hello1 hello1.c
+Jun 30 22:54:18 <deepak>	/tmp/cclfFBQ9.o: In function `main':
+Jun 30 22:54:18 <deepak>	hello1.c:(.text+0x45): undefined reference to `sqrt'
+Jun 30 22:54:18 <deepak>	collect2: ld returned 1 exit status
+Jun 30 22:54:25 <_pjp_>	ah..sorry..I missed the -lm in the last one.
+Jun 30 22:54:29 <kushal>	deepak, USE rafb.net/paste 
+Jun 30 22:54:31 <susenj>	use -lm please
+Jun 30 22:54:59 <arpita>	_pjp_, yes now working........
+Jun 30 22:55:08 <deepak>	kushal:ok ,but it was not long
+Jun 30 22:55:22 <susenj>	what about the warnings,i found?
+Jun 30 22:55:35 <susenj>	<eof>
+Jun 30 22:55:41 <_pjp_>	Please try to read and follow the error messages, they are quite indicative
+Jun 30 22:55:55 <_pjp_>	susenj, what warnings?
+Jun 30 22:55:59 <kushal>	deepak, USE http://rafb.net/paste 
+Jun 30 22:56:07 <susenj>	warning:incompatible implicit declaration of built-in function âsqrtâ
+Jun 30 22:56:11 <susenj>	<eof>
+Jun 30 22:56:24 <deepak>	yes , it is working after using -lm
+Jun 30 22:56:33 <deepak>	kushal:ok
+Jun 30 22:56:35 <_pjp_>	susenj, have you included the math.h file?
+Jun 30 22:57:04 <susenj>	when i have linked with math library,is it necessary to include it as well?
+Jun 30 22:58:05 <_pjp_>	he..he..yes dear, they serve two different purposes, I'll come to that shortly.
+Jun 30 22:58:32 <susenj>	okay<eof>
+Jun 30 22:58:39 <_pjp_>	so is it working for all?
+Jun 30 22:58:46 <deepak>	!
+Jun 30 22:58:49 <pushkal>	yup,no errors
+Jun 30 22:59:47 <arpita>	!
+Jun 30 22:59:52 <ria>	yes
+Jun 30 22:59:58 <_pjp_>	Okay, the next option is -I <directory-path>, that's capital  i
+Jun 30 23:00:51 <_pjp_>	So far we've used two header files in hello.c, stdio.h and math.h, right?
+Jun 30 23:01:25 <pushkal>	yes
+Jun 30 23:01:44 <_pjp_>	The header files are suppose to contain certain declaration and #include statements.
+Jun 30 23:02:35 <_pjp_>	They can contain macro definitions, function declarations, or declarations of user defined data types in C
+Jun 30 23:03:18 <_pjp_>	User defined data types like structures, unions, function pointers etc.
+Jun 30 23:03:32 *	coolpyro_rishi (n=chatzill@202.63.119.36) has joined #dgplug
+Jun 30 23:04:22 <_pjp_>	Did you wonder how gcc knows about printf () and sqrt () functions?
+Jun 30 23:04:56 <_pjp_>	C is known to be a strongly typed language.
+Jun 30 23:06:14 *	Prams (n=prams@125.20.11.34) has joined #dgplug
+Jun 30 23:06:25 <_pjp_>	Everything has to be explicitly and precisely declared before you can use it. Otherwise gcc could make some assumptions and generate wrong/non-portable or sometimes even buggy code.
+Jun 30 23:06:26 <susenj>	
+Jun 30 23:06:56 *	chiks has quit ("ChatZilla 0.9.83 [Firefox 2.0.0.14/2008040413]")
+Jun 30 23:07:29 <_pjp_>	The declarations for functions printf() and sqrt() could be found in stdio.h and math.h respectively.
+Jun 30 23:08:29 <_pjp_>	If you don't declare a function before use, gcc assumes that it'll returns an integer value, and apply the relevant rules while compilation.
+Jun 30 23:09:05 <_pjp_>	Which can result in compilation errors/warnings etc.
+Jun 30 23:09:37 <_pjp_>	Now, the questions comes is where are these files stdio.h and math.h?
+Jun 30 23:09:54 <_pjp_>	and how does gcc finds them or knows about them?
+Jun 30 23:10:30 <mavu_>	is there not a library?
+Jun 30 23:11:45 <_pjp_>	right..the stdio.h and math.h are standard library files, which are shipped with libc, i.e. standard C library
+Jun 30 23:12:06 <_pjp_>	they are located under /usr/include and gcc know about it.
+Jun 30 23:12:44 *	arpita_ (n=arpita@117.201.97.208) has joined #dgplug
+Jun 30 23:13:04 *	ICEMAN_ (n=chatzill@125.20.11.34) has joined #dgplug
+Jun 30 23:13:04 *	ria_ (n=ria@121.245.35.212) has joined #dgplug
+Jun 30 23:13:22 *	ria has quit (Nick collision from services.)
+Jun 30 23:13:24 <Prams>	in case of gcc i can't run the graphics lin draw codes.
+Jun 30 23:13:29 *	ria_ is now known as ria
+Jun 30 23:13:38 *	ICEMAN_ is now known as Atanu_bera
+Jun 30 23:13:48 <kushal>	Prams, ask for permission then only speak 
+Jun 30 23:13:56 <nandy_lost>	!
+Jun 30 23:14:17 <_pjp_>	please see: $ gcc --print-search-dirs
+Jun 30 23:15:03 *	t4num0y_cs3 (n=Neo@117.194.2.207) has joined #dgplug
+Jun 30 23:15:14 <Prams>	sorry kushal
+Jun 30 23:15:46 <nandy_lost>	!
+Jun 30 23:16:12 <_pjp_>	it displays the directories that gcc looks into for headers and libraries.
+Jun 30 23:17:42 <_pjp_>	the lib and include directories are known to be under the same parent directory, so you may not find the include directory path in the above output.
+Jun 30 23:18:12 <Prams>	!
+Jun 30 23:18:39 *	t4num0y_cs3 has quit (Client Quit)
+Jun 30 23:18:41 <_pjp_>	If you include a file using angular brackets <stdio.h>, gcc looks for these files under the predefined search path.
+Jun 30 23:19:57 <_pjp_>	Try including hello.h in you program as #include <hello.h>
+Jun 30 23:20:20 <_pjp_>	compile it, and see what happens
+Jun 30 23:20:38 *	Debashree has quit (Read error: 104 (Connection reset by peer))
+Jun 30 23:21:12 <deepak>	!
+Jun 30 23:21:19 <susenj>	hello.c:3:18: error: hello.h: No such file or directory
+Jun 30 23:21:37 <ria>	same^^^
+Jun 30 23:21:43 >_pjp_<	take the questions 
+Jun 30 23:21:51 >_pjp_<	nandy_lost is first 
+Jun 30 23:21:51 <arpita_>	!
+Jun 30 23:22:00 <amrita>	mine too
+Jun 30 23:22:02 <_pjp_>	Great..now say: touch hello.h
+Jun 30 23:22:03 *	arpita has quit (Read error: 110 (Connection timed out))
+Jun 30 23:22:07 <deepak>	hello.h is not not any defined header file
+Jun 30 23:22:20 *	Debashree (n=Debashre@61.2.164.230) has joined #dgplug
+Jun 30 23:22:22 <_pjp_>	deepak, say: touch hello.h
+Jun 30 23:22:40 <kushal>	all please follow what _pjp_ says 
+Jun 30 23:23:00 <mavu_>	even then
+Jun 30 23:23:02 <mavu_>	same error
+Jun 30 23:23:13 <_pjp_>	and then compile the hello.c as: $ gcc -x c -ansi -I ./ -o hello hello.c
+Jun 30 23:23:18 <arpita_>	_pjp_, we will write #include<hello.h>
+Jun 30 23:23:32 <arpita_>	_pjp_, inside program or in command prompt?
+Jun 30 23:23:57 <_pjp_>	./ is for current working directory, that is where you created the hello.h file.
+Jun 30 23:23:57 <kushal>	arpita_, where do you wrote #include lines before ?
+Jun 30 23:24:25 <pushkal>	-lm too people !
+Jun 30 23:24:29 <susenj>	again -lm is left ,i think!
+Jun 30 23:24:39 <susenj>	it's working now
+Jun 30 23:24:47 *	atanubera has quit (Read error: 110 (Connection timed out))
+Jun 30 23:24:52 <_pjp_>	ah.gawd..yes -lm is required.
+Jun 30 23:24:58 <ria>	ya adding -lm give no errors
+Jun 30 23:26:45 <deepak>	_pjp_:means we created a empty header file
+Jun 30 23:27:04 <mavu_>	without -I ./ it gives error as no directory.. with it it runs
+Jun 30 23:27:06 <_pjp_>	So, did you get when and why to use -I ?
+Jun 30 23:27:14 <mavu_>	yes
+Jun 30 23:27:15 <pushkal>	absolutely
+Jun 30 23:27:27 <ria>	yes
+Jun 30 23:28:00 <_pjp_>	with -I you are instructing gcc to also search the specified directory
+Jun 30 23:28:15 *	nandy_lost_ (n=chatzill@59.178.169.243) has joined #dgplug
+Jun 30 23:28:27 <arpita_>	!
+Jun 30 23:28:33 *	t4num0y_cs3 (n=Neo@117.194.2.207) has joined #dgplug
+Jun 30 23:28:37 *	techno_freak has quit ("Leaving")
+Jun 30 23:28:39 <_pjp_>	arpita_, ?
+Jun 30 23:28:54 <_pjp_>	now, change #include <hello.h> to #include "hello.h"
+Jun 30 23:29:24 <arpita_>	_pjp_, on including hello.h and then compiling using  gcc -o hello -lm hello.c
+Jun 30 23:29:24 <arpita_>	 it is showing no such file name found
+Jun 30 23:29:27 <_pjp_>	and compile without -I ./ option
+Jun 30 23:29:46 <mavu_>	works
+Jun 30 23:29:58 *	mether (n=ask@fedora/mether) has joined #dgplug
+Jun 30 23:29:58 <_pjp_>	arpita_, -I ./
+Jun 30 23:30:05 <arpita_>	_pjp_, o.k
+Jun 30 23:30:27 *	suse_nj (n=root@59.178.169.243) has joined #dgplug
+Jun 30 23:30:29 <ria>	it worked
+Jun 30 23:30:47 *	indradg__ (n=indradg@59.93.216.129) has joined #dgplug
+Jun 30 23:31:10 <suse_nj>	!
+Jun 30 23:31:13 <arpita_>	!
+Jun 30 23:31:18 <_pjp_>	so, if you include a header file using double quotation("), gcc understands that file is in the same directory and the source file.
+Jun 30 23:31:36 <_pjp_>	suse_nj, arpita_ ?
+Jun 30 23:31:37 <arpita_>	_pjp_, still same error is showing..no such filename even with -I option
+Jun 30 23:31:39 <suse_nj>	so, -I ,includes whatsoever file we want to include in our program,should they be always .h files?
+Jun 30 23:32:03 <_pjp_>	arpita_, -I ./
+Jun 30 23:32:44 <kushal>	arpita_, did you created that file with touch command ?
+Jun 30 23:32:46 <_pjp_>	suse_nj, -I only specifies the search directory path.
+Jun 30 23:34:18 <_pjp_>	suse_nj, yes do not include any other file other than .h even though it is possible to include source files(i.e. .c or .cpp files).
+Jun 30 23:35:00 <suse_nj>	ok
+Jun 30 23:35:02 <_pjp_>	so far..all with me?
+Jun 30 23:35:03 <arpita_>	_pjp_, yes now no errors
+Jun 30 23:35:05 <suse_nj>	one more query
+Jun 30 23:35:09 <arpita_>	now to execute??
+Jun 30 23:35:16 <_pjp_>	arpita_, congratulations. :)
+Jun 30 23:35:24 <_pjp_>	suse_nj, ?
+Jun 30 23:35:26 <mavu_>	yes
+Jun 30 23:35:30 <suse_nj>	touch command is used for changing the timestamps for a file,it was taught last night.the same purpose here??
+Jun 30 23:35:52 <kushal>	suse_nj, and also to create an empty file if the file does not exist  
+Jun 30 23:36:17 <_pjp_>	suse_nj: No, touch creates a file if it is not there.
+Jun 30 23:36:43 <suse_nj>	ok,probably i didn't  read the manual well! :(
+Jun 30 23:38:07 *	mitesh_ (n=chatzill@121.247.228.161) has joined #dgplug
+Jun 30 23:38:07 <suse_nj>	<eof>
+Jun 30 23:38:07 <_pjp_>	Okay, the next option -L is same as -I, just that it works for the library(.a or .so) files instead of header(.h) files.
+Jun 30 23:38:30 <arpita_>	!
+Jun 30 23:38:40 <_pjp_>	when you say -lm,  gcc looks into the predefined search directories for the relevant library file.
+Jun 30 23:38:42 <_pjp_>	arpita_, ?
+Jun 30 23:38:53 *	mitesh_ has quit (Client Quit)
+Jun 30 23:39:16 <arpita_>	_pjp_, when we say touch hello.h it creates an empty file of name hello.h?
+Jun 30 23:39:41 <kushal>	arpita_, correct
+Jun 30 23:39:42 <_pjp_>	arpita_, right!
+Jun 30 23:40:05 *	mether has quit ("Ex-Chat")
+Jun 30 23:40:25 <arpita_>	_pjp_, and what is the use of including the file hello.h created in the program hello.c?
+Jun 30 23:41:26 *	prams_ (n=chatzill@125.20.11.34) has joined #dgplug
+Jun 30 23:41:28 <_pjp_>	arpita_, well..let's see
+Jun 30 23:41:59 *	Soumya (n=Soumya@59.164.98.140) has joined #dgplug
+Jun 30 23:42:06 *	Soumya_ (n=Soumya@59.164.98.140) has joined #dgplug
+Jun 30 23:42:35 <_pjp_>	Now to make use of the -L option, will have to add some more complications to our hello.c
+Jun 30 23:43:14 *	prams_ has quit (Client Quit)
+Jun 30 23:43:46 *	Soumya has quit (Nick collision from services.)
+Jun 30 23:43:52 *	Soumya_ is now known as Soumya
+Jun 30 23:43:58 *	Prams (n=prams@125.20.11.34) has left #dgplug
+Jun 30 23:44:17 *	Soumya_ (n=Soumya@59.164.98.140) has joined #dgplug
+Jun 30 23:44:20 *	mobilesuit_ (n=freedom@59.93.205.5) has joined #dgplug
+Jun 30 23:45:57 *	mobilesuit has quit (Nick collision from services.)
+Jun 30 23:45:57 *	mobilesuit_ is now known as mobilesuit
+Jun 30 23:45:59 *	nandy_lost has quit (Read error: 110 (Connection timed out))
+Jun 30 23:46:42 *	susenj has quit (Read error: 110 (Connection timed out))
+Jun 30 23:46:48 *	suse_nj is now known as susenj
+Jun 30 23:46:59 <ria>	kushal, !
+Jun 30 23:47:20 <kushal>	ria, yes
+Jun 30 23:47:24 *	samar (n=samar-ad@220.226.88.63) has joined #dgplug
+Jun 30 23:47:42 <ria>	kushal, i cant see anyone talking
+Jun 30 23:47:50 *	s_node (n=prams@125.20.11.34) has joined #dgplug
+Jun 30 23:47:57 <kushal>	ria, yes, because no one talking 
+Jun 30 23:47:58 <ria>	kushal, and my IRC is sometimes behaving typically
+Jun 30 23:48:23 <samar>	hi all , I am Samarjit
+Jun 30 23:48:42 <kushal>	samar, class is going on :)
+Jun 30 23:49:01 <samar>	i am talking now
+Jun 30 23:49:01 <samar>	:-)
+Jun 30 23:49:01 <ria>	kushal, i was writing something in pm and IRC was telling me unknown command
+Jun 30 23:49:09 <pushkal>	probably u put a / before
+Jun 30 23:49:19 <kushal>	ria, can we discuss these things later 
+Jun 30 23:49:19 <samar>	kushal, oops ! sorry
+Jun 30 23:49:24 <kushal>	ria, class is going on 
+Jun 30 23:49:28 <kushal>	samar, no problem 
+Jun 30 23:49:48 <_pjp_>	wait a sec guys
+Jun 30 23:49:55 <ria>	kushal, sorry
+Jun 30 23:50:13 *	stephaniewhiting (n=chatzill@209-33-197-89.dsl.infowest.net) has joined #dgplug
+Jun 30 23:50:56 *	Soumya_ has quit ("Leaving")
+Jun 30 23:51:09 <_pjp_>	okay ready guys?
+Jun 30 23:51:13 <susenj>	yes
+Jun 30 23:51:28 <ria>	yes
+Jun 30 23:52:19 <_pjp_>	Now to see how -L works, we are about to create our own library. As it'll be a bit difficult to explain it with the standard libraries.
+Jun 30 23:52:34 <deepak>	yes
+Jun 30 23:53:11 <_pjp_>	so, first add this line to your hello.h:  extern void greet (void);
+Jun 30 23:53:23 <arpita_>	!
+Jun 30 23:53:44 *	Debashree_ (n=Debashre@61.2.165.182) has joined #dgplug
+Jun 30 23:54:05 <susenj>	added
+Jun 30 23:54:16 <stephaniewhiting>	hi everyone
+Jun 30 23:54:22 <kushal>	stephaniewhiting, hi
+Jun 30 23:54:23 s_node samar SDey_ Soumya stephaniewhiting susenj 
+Jun 30 23:54:24 *	Debashree has quit (Nick collision from services.)
+Jun 30 23:54:30 <kushal>	stephaniewhiting, class is going on 
+Jun 30 23:54:42 <stephaniewhiting>	on what kushal? 
+Jun 30 23:54:49 *	Debashree_ is now known as Debashree
+Jun 30 23:54:58 <deepak>	yes added
+Jun 30 23:55:18 <ria>	!
+Jun 30 23:55:27 <_pjp_>	okay then, create a file called greet.c containing: http://rafb.net/p/VOOJYJ95.html
+Jun 30 23:56:26 <mavu_>	done
+Jun 30 23:56:32 <arpita_>	_pjp_, extern void greet (void); has to be added by opening hello.h in vi editor??
+Jun 30 23:56:37 <_pjp_>	then in your hello.c, inside main(), call the function: greet ();
+Jun 30 23:56:53 <_pjp_>	arpita_, yes!
+Jun 30 23:57:33 <_pjp_>	so far..all with me?
+Jun 30 23:57:44 <mavu_>	yes
+Jun 30 23:57:47 <coolpyro_rishi>	yes
+Jun 30 23:57:49 <deepak>	yes
+Jun 30 23:57:58 <susenj>	yes
+Jun 30 23:58:07 <ria>	yes
+Jun 30 23:58:55 <_pjp_>	cool..so now first compile the two source files with: $ gcc -x c -ansi -o hello hello.c greet.c -lm
+Jun 30 23:59:12 <_pjp_>	and then execute ./hello
+Jun 30 23:59:13 *	stephaniewhiting (n=chatzill@209-33-197-89.dsl.infowest.net) has left #dgplug
+Jun 30 23:59:26 <_pjp_>	did that work?
+Jun 30 23:59:31 <mavu_>	yes
+Jun 30 23:59:45 <amrita>	yes
+Jul 01 00:00:07 <susenj>	no
+Jul 01 00:00:08 <ria>	!
+Jul 01 00:00:11 <_pjp_>	susenj, ?
+Jul 01 00:00:14 <_pjp_>	ria, ?
+Jul 01 00:00:21 <arpita_>	no
+Jul 01 00:00:25 <susenj>	[root@localhost Desktop]# gcc -x c -ansi -o hello hello.c greet.c -lm
+Jul 01 00:00:25 <susenj>	hello.c:3:18: error: hello.h: No such file or directory
+Jul 01 00:00:31 <arpita_>	same here
+Jul 01 00:00:36 <_pjp_>	susenj, -I ./
+Jul 01 00:00:43 <ria>	will void greet() be written within hello.h
+Jul 01 00:00:45 <ria>	?
+Jul 01 00:00:51 <ria>	and same for me
+Jul 01 00:00:55 <ria>	did not work
+Jul 01 00:01:30 <_pjp_>	ria, yes, write extern void greet (void) inside hello.h
+Jul 01 00:02:01 <ria>	_pjp_, http://rafb.net/p/VOOJYJ95.html will this be written?
+Jul 01 00:02:05 <_pjp_>	folks don't copy paste the commands I write here.
+Jul 01 00:06:23 *	Topic for #dgplug set by kushal at Mon Jun 30 20:39:45 2008
+Jul 01 00:06:33 <amrita>	_pjp_, ^^^
+Jul 01 00:06:42 <_pjp_>	arpita_, compile with -I ./  you have angular brackets around hello.h
+Jul 01 00:07:06 <ria>	_pjp_, will only extern void greet (void) be written in hello.h?
+Jul 01 00:07:21 <ria>	in the same way i wrote here?
+Jul 01 00:07:26 *	rsa_md5 (n=droopy@117.194.0.33) has joined #dgplug
+Jul 01 00:07:28 <_pjp_>	amrita, I'll explain everything in a while.
+Jul 01 00:07:32 <_pjp_>	ria, yes
+Jul 01 00:07:46 <ria>	that command does not work
+Jul 01 00:08:10 <_pjp_>	ria, don't miss the semi-colon(;) after (void);
+Jul 01 00:08:17 <_pjp_>	ria, what command?
+Jul 01 00:08:26 <ria>	ok in hello.h?
+Jul 01 00:08:39 <ria>	after (void)
+Jul 01 00:08:47 <_pjp_>	mavu_, ?
+Jul 01 00:08:49 <ria>	i mean ;?
+Jul 01 00:08:59 <_pjp_>	ria, yes
+Jul 01 00:09:03 <ria>	ok
+Jul 01 00:09:30 <ria>	_pjp_, it works fine now
+Jul 01 00:09:32 <mavu_>	we did a function call to greet.. but how did it know its in greet.c? and will that work if i rename greet.c to something else and still have the function name as greet
+Jul 01 00:10:04 <deepak>	!
+Jul 01 00:10:10 <_pjp_>	mavu_, yes it will still work, as long as you compile the new file with hello.c.
+Jul 01 00:10:13 <_pjp_>	deepak, ?
+Jul 01 00:10:22 <_pjp_>	ria, congratulations!
+Jul 01 00:10:30 <susenj>	!
+Jul 01 00:10:32 <mavu_>	oh :)
+Jul 01 00:10:33 <_pjp_>	susenj, ?
+Jul 01 00:10:37 <susenj>	_pjp_!please make the connections, more clearer!,i didn't understand well
+Jul 01 00:11:04 <deepak>	_pjp_:it is giving no such file or directory
+Jul 01 00:11:10 *	SDey_ has quit (Read error: 110 (Connection timed out))
+Jul 01 00:11:22 <_pjp_>	okay..I think everybody got the correct output.
+Jul 01 00:11:34 <deepak>	_pjp_:gcc -x c -ansi -o hello1 hello1.c greet.c -lm
+Jul 01 00:11:34 <deepak>	hello1.c:2:18: error: hello.h: No such file or directory
+Jul 01 00:11:36 <ria>	yup got the correct o/p
+Jul 01 00:11:38 <_pjp_>	deepak, use -I ./
+Jul 01 00:12:01 <susenj>	yup ,but didn't understand the whole program!
+Jul 01 00:12:23 <deepak>	_pjp_:again it is giving many warnings
+Jul 01 00:12:38 <arpita_>	same here
+Jul 01 00:13:04 <_pjp_>	yes, I'm about to explain the whole thing. Just few more steps.
+Jul 01 00:13:29 <deepak>	_pjp_:my file name is hello1.c
+Jul 01 00:14:08 <_pjp_>	deepak, what do you mean?
+Jul 01 00:14:13 <_pjp_>	could someone help Deepak if he is physically reachable to you!?!
+Jul 01 00:14:35 <susenj>	deepak,paste your code please!
+Jul 01 00:14:50 *	roni has quit (Read error: 110 (Connection timed out))
+Jul 01 00:14:56 <kushal>	deepak, why your file name is hello1.c ?
+Jul 01 00:15:06 <kushal>	deepak, follow what _pjp_ is telling 
+Jul 01 00:15:40 <deepak>	kushal:i already created hello.c
+Jul 01 00:15:40 <_pjp_>	deepak, -I ./
+Jul 01 00:16:04 <_pjp_>	deepak, $ gcc -x c -ansi -I ./ -o hello1 hello1.c greet.c -lm
+Jul 01 00:16:39 <arpita_>	shows no such file or directory
+Jul 01 00:16:47 <_pjp_>	arpita_, ?
+Jul 01 00:16:53 <deepak>	_pjp_:i also tried it but screen gets flooded with warnings and at the end giving no such file and directory
+Jul 01 00:17:02 <susenj>	deepak,could you please paste the errors in pm!
+Jul 01 00:17:10 <ria>	arpita_, did you write hello.h, i was having the same problem
+Jul 01 00:17:20 <deepak>	i am pasting it
+Jul 01 00:17:38 <arpita_>	ria, where to write hello.h?
+Jul 01 00:18:00 <amrita>	arpita_, in terminal
+Jul 01 00:18:17 <amrita>	arpita_, open it with vi hello.h
+Jul 01 00:18:24 <ria>	arpita_, you already created it just edit it and write void extern greet (void);
+Jul 01 00:18:41 <amrita>	arpita_, and then write the above
+Jul 01 00:18:44 <_pjp_>	ria, it's extern void ...
+Jul 01 00:18:47 <kushal>	deepak, use rafb.net/paste 
+Jul 01 00:18:48 <kushal>	deepak, use rafb.net/paste 
+Jul 01 00:18:49 <kushal>	deepak, use rafb.net/paste 
+Jul 01 00:18:56 <kushal>	deepak, ^^  read above
+Jul 01 00:19:02 <ria>	_pjp_, ya sorry extern void
+Jul 01 00:20:27 <_pjp_>	deepak, I'm waiting for the link.
+Jul 01 00:20:27 <deepak>	ok
+Jul 01 00:21:07 <deepak>	_pjp_:my program is here:http://rafb.net/p/uUUgOs12.html
+Jul 01 00:21:40 *	roni (n=aritra@117.201.97.13) has joined #dgplug
+Jul 01 00:21:48 <pushkal>	"hello.h"
+Jul 01 00:22:21 <kushal>	deepak, learn how to paste the link 
+Jul 01 00:22:22 <susenj>	deepak,please paste the bugs also
+Jul 01 00:23:06 <pushkal>	deepak, "hello.h",greet (); both are missing
+Jul 01 00:23:27 <_pjp_>	deepak, right, now call the function greet () inside hello.c
+Jul 01 00:23:42 <_pjp_>	deepak, before return 0;
+Jul 01 00:23:49 <deepak>	ok
+Jul 01 00:24:30 <_pjp_>	deepak, and then compile both the files as: $ gcc -x c -ansi -I ./ -o hello hello1.c greet.c -lm
+Jul 01 00:25:16 <_pjp_>	others who got it working already, compile only greet.c with -c option to get greet.o file.
+Jul 01 00:25:40 <_pjp_>	let me know when you are done.
+Jul 01 00:26:09 <ria>	done
+Jul 01 00:26:18 *	Soumya has quit ("Leaving")
+Jul 01 00:26:20 <pushkal>	done
+Jul 01 00:26:42 <mavu_>	done
+Jul 01 00:26:44 <_pjp_>	ria, great. Now help others if you are physically reachable to them
+Jul 01 00:27:06 <deepak>	_pjp_:thanks its done. now my concept clear
+Jul 01 00:27:23 <_pjp_>	deepak, congratulations!
+Jul 01 00:27:28 <ria>	_pjp_, i did only gcc -c greet.c
+Jul 01 00:27:33 <ria>	is it ok?
+Jul 01 00:27:47 <_pjp_>	deepak, now create greet.o file.
+Jul 01 00:27:48 <mavu_>	-o if we need greet.o
+Jul 01 00:27:51 <_pjp_>	ria, yes, that's fine.
+Jul 01 00:27:54 <mavu_>	i guess
+Jul 01 00:27:56 <ria>	ok
+Jul 01 00:28:11 <pushkal>	-c , mavu_
+Jul 01 00:28:21 <mavu_>	hmm
+Jul 01 00:28:38 <susenj>	done
+Jul 01 00:28:46 <mavu_>	ah okay :) got it :) -o is for the executable
+Jul 01 00:28:50 <mavu_>	not for object file
+Jul 01 00:28:51 <_pjp_>	deepak, ?
+Jul 01 00:29:24 <pushkal>	mavu_, -o is for using another filename instead of a.out
+Jul 01 00:29:38 <mavu_>	yeah.. another name for the executable right?
+Jul 01 00:29:43 <mavu_>	i thought for object file too
+Jul 01 00:30:06 <pushkal>	mavu_,righto ! _pjp_ please continue
+Jul 01 00:30:11 <_pjp_>	mavu_, -o is for output file, not just executable file. You can very well say: $ gcc -x c -o abc.o -c greet.c
+Jul 01 00:30:46 <_pjp_>	deepak, did you get the object file greet.o?
+Jul 01 00:30:53 <deepak>	_pjp_:yes
+Jul 01 00:31:01 *	t4num0y_cs3 has quit (Read error: 110 (Connection timed out))
+Jul 01 00:31:03 <_pjp_>	great..now we
+Jul 01 00:31:37 <mavu_>	!
+Jul 01 00:31:49 <_pjp_>	we will create a static library from greet.o using command ar(1)
+Jul 01 00:31:49 *	t4num0y_cs3 (n=Neo@117.194.0.88) has joined #dgplug
+Jul 01 00:31:52 <_pjp_>	mavu_, ?
+Jul 01 00:31:55 <mavu_>	ah.. ! so when i say that.. a -c for greet.c and -o greet is redundant? as in without -o greet also the output goes to greet.o?
+Jul 01 00:32:18 <_pjp_>	mavu_, right.
+Jul 01 00:32:29 <mavu_>	:) thanks <EOF>
+Jul 01 00:32:39 <_pjp_>	now say: $ ar cr libgreet.a greet.o
+Jul 01 00:33:02 *	rsa_md5 has quit ("Leaving")
+Jul 01 00:33:27 <susenj>	to execute it right now??<eof>
+Jul 01 00:33:40 <_pjp_>	that will create a static C libray called libgreet.a
+Jul 01 00:33:47 <_pjp_>	does you see that file?
+Jul 01 00:33:53 <mavu_>	yes
+Jul 01 00:33:55 <_pjp_>	see: http://en.wikipedia.org/wiki/Static_library
+Jul 01 00:34:04 <susenj>	ya
+Jul 01 00:34:19 <ria>	earlier i have heard of ar crv, what is it then _pjp_ ?
+Jul 01 00:34:46 <ria>	<eof>
+Jul 01 00:34:58 <kushal>	ria, generally in any linux command v stands for verbose 
+Jul 01 00:35:17 <_pjp_>	ria, ar is an archiving utility, that creates an archive of one or more files.
+Jul 01 00:35:17 <kushal>	all please type ! and wait
+Jul 01 00:35:42 <ria>	ok _pjp_
+Jul 01 00:35:52 <ria>	!
+Jul 01 00:36:12 *	roni has quit ("Leaving")
+Jul 01 00:36:13 <_pjp_>	you can see the contents of an archive file using: $ ar -tvf libgreet.a
+Jul 01 00:36:50 *	aritra (n=aritra@117.201.97.13) has joined #dgplug
+Jul 01 00:37:21 <_pjp_>	now, try to compile hello.c as $ gcc -x c -ansi -I ./ -o hello hello.c -lm -lgreet
+Jul 01 00:37:48 <_pjp_>	ria, ?
+Jul 01 00:37:59 <ria>	what is cr for?
+Jul 01 00:38:39 <_pjp_>	c for create and r for replace, see:  $ man ar  or  $ ar --help
+Jul 01 00:38:43 >_pjp_<	_pjp_ :)
+Jul 01 00:38:49 <ria>	ok
+Jul 01 00:38:52 <ria>	<eof>
+Jul 01 00:39:18 <ria>	it does not work
+Jul 01 00:39:27 <amrita>	mine too
+Jul 01 00:39:31 <_pjp_>	what does not work?
+Jul 01 00:39:37 <susenj>	for me as well
+Jul 01 00:39:54 <mavu_>	usr/bin/ld :  cannot find -lgreet
+Jul 01 00:39:58 <ria>	gcc -x c -ansi -I ./ -o hello hello.c -lm -lgreet
+Jul 01 00:40:02 <amrita>	_pjp_, the compilation
+Jul 01 00:40:05 <mavu_>	i also tried -llibgreet
+Jul 01 00:40:10 <mavu_>	even that does not
+Jul 01 00:40:14 <_pjp_>	Excellent..that's where -L comes handy
+Jul 01 00:40:16 <ria>	i too tried that
+Jul 01 00:40:21 <kushal>	mavu_, not supposed to
+Jul 01 00:40:35 <susenj>	gives a pages full  of warnings and errors
+Jul 01 00:40:59 <_pjp_>	What happened was, gcc could not find our greet library in the predefined search path.
+Jul 01 00:41:39 <mavu_>	-L works :)
+Jul 01 00:41:40 <_pjp_>	so now we explicitly tell gcc where to find it.
+Jul 01 00:42:13 <_pjp_>	so just say: $ gcc -x c -ansi -I ./ -L ./ -o hello hello.c -lm -lgreet
+Jul 01 00:42:39 <_pjp_>	did that work for everone
+Jul 01 00:42:40 <_pjp_>	?
+Jul 01 00:42:45 <_pjp_>	everyone?
+Jul 01 00:43:09 <ria>	done
+Jul 01 00:43:17 <pushkal>	yes, it did
+Jul 01 00:43:28 *	t4num0y_cs3 has quit (Read error: 104 (Connection reset by peer))
+Jul 01 00:43:30 <ria>	!
+Jul 01 00:43:36 <deepak>	done
+Jul 01 00:43:38 <_pjp_>	ria, ?
+Jul 01 00:43:41 <aritra>	working
+Jul 01 00:43:42 <_pjp_>	deepak, great!
+Jul 01 00:43:46 <susenj>	no,there is the same error
+Jul 01 00:43:49 <ria>	why is it -lgreet?
+Jul 01 00:43:54 <ria>	_pjp_, ^^
+Jul 01 00:44:28 <_pjp_>	-l tells gcc that it is a library, and greet is the name of our library
+Jul 01 00:44:40 <mavu_>	!
+Jul 01 00:44:42 <_pjp_>	susenj, what did you do?
+Jul 01 00:44:43 <ria>	is it not libgreet?
+Jul 01 00:44:57 <susenj>	i tried :    gcc -x c -ansi  -I ./ -L ./ -o hello hello.c -lm -lgreet
+Jul 01 00:45:09 <_pjp_>	ria, yes that's a filename. lib is optional.
+Jul 01 00:45:20 <ria>	ok _pjp_
+Jul 01 00:45:25 <ria>	<eof>
+Jul 01 00:45:29 <_pjp_>	and what's the error?
+Jul 01 00:45:32 <_pjp_>	susenj, ?
+Jul 01 00:46:01 <susenj>	pages full of errors,uncountable
+Jul 01 00:46:30 <_pjp_>	susenj, could you paste it?
+Jul 01 00:46:31 <deepak>	!
+Jul 01 00:46:37 <_pjp_>	deepak, ?
+Jul 01 00:46:46 <susenj>	ok
+Jul 01 00:46:58 <deepak>	here lgreet is an option
+Jul 01 00:47:32 <deepak>	here is lgreet is an option ?
+Jul 01 00:47:51 <_pjp_>	deepak, -l is an option combined with library name.
+Jul 01 00:48:18 <_pjp_>	deepak, library name changes, see -lm
+Jul 01 00:48:46 <susenj>	_pjp_;      http://rafb.net/p/vy2lCS19.html
+Jul 01 00:49:39 <_pjp_>	susenj, what is in your hello.h file?
+Jul 01 00:51:26 <_pjp_>	susenj, ?
+Jul 01 00:51:33 <susenj>	when i tried: cat hello.h  ,it gives garbage,i don't know why.
+Jul 01 00:52:09 <_pjp_>	susenj, he..he..you messed up the hello.h file. check you command history.
+Jul 01 00:52:17 <kushal>	:)
+Jul 01 00:52:47 <susenj>	ok,let me do that,you may continue<eof>
+Jul 01 00:53:25 <_pjp_>	okay, so folks what we did was
+Jul 01 00:54:25 <_pjp_>	We did create our own static library containing function greet () and link it with the hello.c program where we did call greet() function.
+Jul 01 00:55:19 <_pjp_>	And we also did instruct gcc about where to look for our library for linking.
+Jul 01 00:56:21 <_pjp_>	You can use gcc option -I to specify include directory, and -L to specify library directory.
+Jul 01 00:57:02 <_pjp_>	I think now we can go for questions for today?
+Jul 01 00:57:05 <_pjp_>	kushal, ?
+Jul 01 00:57:11 <kushal>	yes
+Jul 01 00:57:36 <kushal>	everyone ask 
+Jul 01 00:57:38 <kushal>	:)
+Jul 01 00:57:40 <kushal>	with !
+Jul 01 00:58:15 <deepak>	!
+Jul 01 00:58:18 <mavu_>	d!
+Jul 01 00:58:23 <mavu_>	!*
+Jul 01 00:58:25 <_pjp_>	deepak, yes?
+Jul 01 00:58:32 <_pjp_>	mavu_, ?
+Jul 01 00:58:53 <mavu_>	what is the difference btw  a notmal #include and this process?
+Jul 01 00:59:00 <mavu_>	as in yeah i see the difference
+Jul 01 00:59:16 <mavu_>	but why should there be 2 methods of including code from external
+Jul 01 00:59:18 <mavu_>	file?
+Jul 01 00:59:22 <deepak>	_pjp_:please make me clear  this -lm option
+Jul 01 00:59:44 *	nandy_lost_ has quit ("ChatZilla 0.9.83 [Firefox 3.0/2008052906]")
+Jul 01 00:59:51 <_pjp_>	mavu_, #include only provides the declarations for functions, where as libraries have actual definitions of those functions.
+Jul 01 01:00:19 <kushal>	deepak, we are using sqrt function which is a part of math library 
+Jul 01 01:00:23 <_pjp_>	mavu_, header files do not have function definitions, as in the function code.
+Jul 01 01:00:31 <mavu_>	but in our previous codes.. we always just did a #include  math.h
+Jul 01 01:00:36 <kushal>	deepak, so we have to add that library for linking 
+Jul 01 01:00:40 <mavu_>	#include<math.h>
+Jul 01 01:00:49 <deepak>	kushal:so we use -lm m for math.h
+Jul 01 01:00:51 <_pjp_>	mavu_, and we also linked with -lm
+Jul 01 01:01:06 <mavu_>	that was because we used a -c
+Jul 01 01:01:09 <kushal>	deepak, not for, but you have to use both to use sqrt function 
+Jul 01 01:01:10 <mavu_>	as in
+Jul 01 01:01:15 <mavu_>	if we don't use -c
+Jul 01 01:01:24 <mavu_>	and a normal gee filename
+Jul 01 01:01:26 <_pjp_>	deepak, math.h has declaration for sqrt, see: less /usr/include/math.h
+Jul 01 01:01:26 <mavu_>	gcc
+Jul 01 01:01:27 <mavu_>	*
+Jul 01 01:01:31 <_pjp_>	mavu_, ?
+Jul 01 01:01:58 <mavu_>	the very first command you gave us
+Jul 01 01:02:02 <deepak>	_pjp_:-l is for linking but what m is for
+Jul 01 01:02:16 *	samar has quit ("Ex-Chat")
+Jul 01 01:02:18 <mavu_>	gcc 1 step one
+Jul 01 01:02:22 <susenj>	!
+Jul 01 01:02:23 <kushal>	deepak, name of the math library 
+Jul 01 01:02:23 <mavu_>	after which we called
+Jul 01 01:02:28 <mavu_>	a.out
+Jul 01 01:02:29 <kushal>	susenj, yes please
+Jul 01 01:02:32 <susenj>	i am confused
+Jul 01 01:02:34 <susenj>	like for some math functions,we have to link with math library,why not this linking is for printf()/scanf() like i/o functions?
+Jul 01 01:02:42 <_pjp_>	deepak, gcc understands m for maths, as it's part of the standard library.
+Jul 01 01:02:53 <_pjp_>	susenj, ?
+Jul 01 01:03:06 <susenj>	 like for some math functions,we have to link with math library,why not this linking is for printf()/scanf() like i/o functions?
+Jul 01 01:03:06 <kushal>	susenj, printf, scanf are part of standard C library , libc, which is included by default 
+Jul 01 01:03:27 <deepak>	_pjp_:-lgreet here greet is library
+Jul 01 01:03:30 <_pjp_>	susenj, I/O library is automatically linked with every program.
+Jul 01 01:03:34 <ria>	!
+Jul 01 01:03:39 <_pjp_>	Debashree, ?
+Jul 01 01:03:41 <_pjp_>	ria, ?
+Jul 01 01:03:48 <susenj>	ok.thanks! got that
+Jul 01 01:04:07 <ria>	like -lm is for maths link can you give examples of some other links?
+Jul 01 01:04:33 <ria>	i mean after -l
+Jul 01 01:04:40 <kushal>	ria, -lxml
+Jul 01 01:04:41 <ria>	<eof>
+Jul 01 01:04:44 <kushal>	ria, -lrfid
+Jul 01 01:04:57 <kushal>	-lyahoo
+Jul 01 01:05:05 <ria>	ok
+Jul 01 01:05:08 <_pjp_>	ria, there hundreds of external libraries like: -lncurses for new curses, or -lpcap for packet capture library etc.
+Jul 01 01:05:08 <kushal>	^^ above for lib yahoo 
+Jul 01 01:05:27 <ria>	ok thanks
+Jul 01 01:05:30 <ria>	<eof>
+Jul 01 01:05:33 <_pjp_>	deepak, ?
+Jul 01 01:05:49 <deepak>	_pjp_:-lgreet here greet is library
+Jul 01 01:05:58 <kushal>	deepak, correct 
+Jul 01 01:06:03 <mavu_>	!
+Jul 01 01:06:32 <_pjp_>	deepak, yes, it's an archive file containing greet.o, which contains the object code for function greet ()
+Jul 01 01:06:41 <_pjp_>	mavu_, ?
+Jul 01 01:07:00 <mavu_>	what i wanted to ask is.. if i remove all references of hello.h and greet().. a basic hello world program with a sqrt()
+Jul 01 01:07:02 *	Debashree_ (n=Debashre@61.2.164.178) has joined #dgplug
+Jul 01 01:07:04 <mavu_>	then i did
+Jul 01 01:07:06 <mavu_>	[satsiv@localhost ~]$ gcc hello.c
+Jul 01 01:07:07 <mavu_>	[satsiv@localhost ~]$ a.out
+Jul 01 01:07:16 <mavu_>	it works
+Jul 01 01:07:28 <mavu_>	$./a.out
+Jul 01 01:07:38 <mavu_>	$ ./a.out
+Jul 01 01:07:41 <mavu_>	sorry*
+Jul 01 01:07:45 <mavu_>	this works
+Jul 01 01:07:46 <deepak>	_pjp_:but you were talking about library
+Jul 01 01:07:58 <mavu_>	here if i don't use a -c..
+Jul 01 01:07:59 <_pjp_>	mavu_, yes, I did tell yesterday that on some machines maths library is also linked by default.
+Jul 01 01:08:27 <mavu_>	ah okay.. so is that not standard?
+Jul 01 01:08:36 <_pjp_>	deepak, yes, archive is collection of one or more files, i.e library.
+Jul 01 01:09:02 <deepak>	_pjp_:ok
+Jul 01 01:09:16 <mavu_>	koay :) thanks
+Jul 01 01:09:25 <mavu_>	okay* sorry for my typos
+Jul 01 01:09:26 <pushkal>	!
+Jul 01 01:09:40 <_pjp_>	mavu_, yes, it is. But it also depends on Linux distribution you are using.
+Jul 01 01:09:49 <_pjp_>	pushkal, ?
+Jul 01 01:09:58 <kushal>	pushkal, 
+Jul 01 01:09:59 <pushkal>	_pjp_: does the library have the *.o files only ?
+Jul 01 01:10:11 <_pjp_>	pushkal, yes.
+Jul 01 01:10:25 <pushkal>	ok.. thanks <oef>
+Jul 01 01:12:14 <_pjp_>	is that all?
+Jul 01 01:13:07 <deepak>	_pjp_:ok
+Jul 01 01:13:12 <_pjp_>	okay then, good night guys! :)
+Jul 01 01:13:21 <_pjp_>	and girls too! :) :)
+Jul 01 01:13:21 <deepak>	_pjp_:good night
+Jul 01 01:13:24 <pushkal>	good night _pjp_  ! thanks for a wonderful class !
+Jul 01 01:13:25 <ria>	good night and thanks :) _pjp_
+Jul 01 01:13:28 <kushal>	_pjp_, thanks
+Jul 01 01:13:30 <susenj>	Good Night all
+Jul 01 01:13:34 <mavu_>	good night :)
+Jul 01 01:13:34 <kushal>	<--CLASS OVER -->

@@ -1,0 +1,713 @@
+[15:01:32] [## Class Started at Mon Jun 27 15:01:32 2016 ##]
+[15:01:32] <kushal> startclass
+[15:01:38] <kushal> Roll Call
+[15:01:39] <CuriousLearner> Sanyam Khurana
+[15:01:40] <saru> Saran Teja
+[15:01:41] <deep123k> Deepanshu Kapoor
+[15:01:43] <anushil05> Anushil Kumar
+[15:01:43] <akshays> Akshay Shipurkar
+[15:01:43] <Richard99> Mayank Gupta
+[15:01:44] <vharsh> Harsh Vardhan
+[15:01:44] <pabitra> Pabitra Pati
+[15:01:44] <Alak> Alakshendra Yadav
+[15:01:45] <code_geek> Shantanu Acharya
+[15:01:45] <ak_d> Akhilesh Dhaundiyal
+[15:01:48] <rahuldecoded> Rahul Bhattacharjee
+[15:01:48] <madhuri> Madhuri Muley
+[15:01:48] <sandy_> sandeep kumar choudhary
+[15:01:49] <PrashantJ> Prashant Jamkhande
+[15:01:49] <yASH> Yashwanth M
+[15:01:50] <moizsajid> Moiz Sajid
+[15:01:51] <vbhjain> Vaibhav Jain
+[15:01:51] <mbtamuli12> Mriyam Tamuli, 1st day
+[15:01:52] <mahesh5> Mahesh Gahlot
+[15:01:54] <gayathri_> Gayathri Menakath
+[15:01:57] <real56> Varsha R
+[15:01:58] <mhalano> Marcos H. Alano
+[15:02:00] <akshay_CV> Akshay
+[15:02:01] <kunalk> Kunal Kumar
+[15:02:01] <ketank> Ketan Kumar
+[15:02:03] <fhackdroid> Farhaan Bukhsh
+[15:02:03] <maushmi> maushmi
+[15:02:09] <jogi96> Jogender Kota
+[15:02:10] <Anandprakash> Anandprakash
+[15:02:11] <Krishna> Krishna Biradar
+[15:02:11] <amrtanair_> amrita nair
+[15:02:16] <abstatic> Abhishek Shrivastava
+[15:02:16] <Prashanth> Prashanth
+[15:02:16] <trishnag> Trishna Guha
+[15:02:21] <akahat> Amol Kahat
+[15:02:24] <iKshitij> Kshitij
+[15:02:25] <D1nz> Dinesh
+[15:02:26] <chshbh> Avinash Madhukar
+[15:02:30] <priyanka_> Priyanka Sharma
+[15:02:30] <CuriousLearner> mbtamuli12, rahuldecoded was adding a new feature to batul; let's talk about it later, after the session.
+[15:02:47] <chirath> Chirath R
+[15:02:51] <Anupama> Anupama Mandal
+[15:02:53] <a2batic> Kanika Murarka
+[15:02:58] <abhishekg5> Abhishek Gupta
+[15:03:02] <rohan_h> Rohan Hazra
+[15:03:05] <iyogeshjoshi> Yogesh Joshi
+[15:03:25] <ananthakrishnan> Ananthakrishnan
+[15:03:33] <SRvSaha> Saurav Saha
+[15:03:35] <indiabhi> Abhishek Rai
+[15:03:39] <avik> Avik Mukherjee
+[15:03:40] <LambaInsaan> Rhitik Bhatt
+[15:03:40] <rahul_bajaj> Rahul Bajaj
+[15:03:53] <c0mrad3> Tummala Dhanvi
+[15:03:59] <Sparker0i> Aaditya Menon
+[15:04:31] <kushal> Anyone else?
+[15:04:34] <kushal> clearqueue
+[15:05:21] <himanshutechy> himanshu sharma
+[15:05:44] <kushal> Okay
+[15:05:44] <rahuldecoded> CuriousLearner, I am squeezing my brain for that. :D But can't figure it out. ok let's talk about it later
+[15:05:58] <kushal> rahuldecoded, please stop talking in the session
+[15:06:39] <abhishekcs10> Abhishek Tiwari
+[15:08:13] <gobinda> Gobinda akhuli
+[15:08:35] <jargonmonk> Aniket Khisti
+[15:08:44] <kashyap638>  abhishek kashyap
+[15:08:53] <sneo> Sarah Masud
+[15:09:00] <kushal> Joyita Chakraborty, Saurav Saha, mohd sanad zaki rizvi, Pabitra Pati, Shaurya Kalia, Dileep Sankhla, Shantanu Acharya, Shashank Kumar, shweta suman,  maushmi parmar,  Niranjan Ramesh ,
+[15:09:07] <kushal> ^^ who all from this list are here?
+[15:09:14] <pabitra> I am present
+[15:09:15] <SRvSaha> me
+[15:09:20] <code_geek> me
+[15:09:24] <pabitra> Also gave my roll call kushal
+[15:09:44] <kushal> Anyone else from that list?
+[15:10:27] <buvanesh_kumar> Happy birthday subho
+[15:10:50] <kushal> buvanesh_kumar, the session is going on
+[15:10:55] <fhackdroid> buvanesh_kumar, session is on
+[15:11:16] <kushal> All the people whose name I typed, should go back and read how to reply to a mail
+[15:11:23] <kushal> You all replied by top posting in the dgplug list
+[15:11:43] <kushal> In future if you do so, I will put your email id to the blocking list of the mailing list
+[15:11:48] <kushal> and also block you here
+[15:11:58] <kushal> So, take this as a serious warning.
+[15:12:11] <code_geek> Okay, sorry. I will take care of that from next time.
+[15:12:12] <kushal> If you have any doubts, or need to know how to, please ask herre.
+[15:12:14] <kushal> * here
+[15:12:18] <SRvSaha> Oh sorry for that. I replied Inline
+[15:12:19] <kushal> We will help you.
+[15:12:25] <SRvSaha> !
+[15:12:29] <kushal> next
+[15:13:04] <abstatic> !
+[15:13:06] <SRvSaha> kushal: Is there any special way of replying inline bottom post?
+[15:13:50] <kushal> No, just reply inline
+[15:13:59] <kushal> I saw all those names as top posters
+[15:14:00] <kushal> next
+[15:14:01] <abstatic> When we are doing bottom post, should we reply on the the content we want to reply to and remove unnecessary content ?
+[15:14:30] <SRvSaha> And also , while replying I am replying only to a certain question, is it like replying inline and deleting all the other portions of the thread leaving aside the important part <EOF>
+[15:15:07] <rahul_bajaj> SRvSaha, refer this, this explains it all - http://www.federicopistono.org/blog/the-madness-of-top-posting-lets-put-an-end-to-this
+[15:16:23] <kushal> abstatic, If the content is unnecessary, then you can remove it.
+[15:16:34] <kushal> Read the mailing list guidelines from mbuf.
+[15:16:46] <abstatic> thank you.
+[15:18:14] <avik> !
+[15:18:29] <sandy_> !
+[15:18:35] <kushal> next
+[15:18:55] <avik> sorry to disturb but can it be explained what you guys are talking about?
+[15:19:04] <kushal> avik, How to reply to a mail.
+[15:19:06] <kushal> next
+[15:19:11] <sandy_> kushal i have to go away from session for some time
+[15:19:14] <akorep_> !
+[15:19:21] <sandy_> can i
+[15:19:43] <avik> yeah but inline and bottomline part !
+[15:19:49] <kushal> sandy_, yes
+[15:19:59] <abstatic> avik, refer to the links posted and google
+[15:20:06] <sandy_> kushal: thank's i will be back in few minutes
+[15:20:06] <kushal> avik, There is a guideline from mbuf discussed in the session before
+[15:20:19] <kushal> next
+[15:20:55] <akorep_> I've just joined today. Other than reading the irc logs, is there anything else I should do?
+[15:21:04] <kushal> akorep_, nope
+[15:21:05] <kushal> next
+[15:21:07] <kushal> Okay
+[15:21:18] <kushal> Can everyone open https://shellshare.net/r/summertraining ?
+[15:21:39] <PrashantJ> yes
+[15:21:43] <rahul_bajaj> yes.
+[15:21:44] <abstatic> Yes. I can view the termianl
+[15:21:45] <madhuri>  yes
+[15:21:45] <jogi96_> yes
+[15:21:46] <himanshutechy> yeah
+[15:21:48] <adarsh> yes
+[15:21:52] <yajushi> Yes
+[15:21:53] <SRvSaha> Yes
+[15:21:57] <Anandprakash> able to see your terminal
+[15:22:03] <Alak> Yes, done.
+[15:22:06] <akorep_> Yes.
+[15:22:11] <dep1> yes
+[15:22:11] <a2batic> yes
+[15:22:12] <ananthakrishnan> yes
+[15:22:13] <gobinda> Yes
+[15:22:18] <Sparker0i> Cant type in it :(
+[15:22:26] <pksadiq> kushal: the PS1 is breaking being split into 2 lines
+[15:22:36] <iKshitij_>   yes
+[15:22:53] <kushal> pksadiq, yes, that we will look into later, it is behaving strangely
+[15:23:05] <mhalano> yes
+[15:23:11] <abstatic> In chrome, i can see everything perfectly
+[15:23:29] <pksadiq> kushal: may be just "export PS1='$ '" ?
+[15:23:46] <himanshutechy> iceweasel is showing black scree
+[15:23:52] <kushal> I need the directory name, what is that w?
+[15:24:26] <himanshutechy> iceweasel is showing black screen on the web page
+[15:24:58] <CuriousLearner> kushal, looks good now
+[15:25:02] <kushal> Okay, it works
+[15:25:03] <rahuldecoded> yes
+[15:25:07] <rohan_h> working fine kushal
+[15:25:08] <kushal> Question on vim?
+[15:25:09] <pksadiq> kushal: yeah \w
+[15:25:38] <madhuri> it used for saving contain
+[15:25:50] <himanshutechy> yeah now comes the terminal working fine
+[15:26:02] <kushal> Question on vim?
+[15:26:08] <kushal> The two logs we shared before weekend
+[15:26:42] <kushal> Everyone understood everything?
+[15:27:17] <iyogeshjoshi> !
+[15:27:19] <madhuri> yes kushal
+[15:27:31] <abstatic> Yes, the logs were clear, and googled solved all the remaining doubts.
+[15:27:40] <madhuri> :w used for save file
+[15:27:40] <himanshutechy> yes
+[15:28:20] <kushal> next
+[15:28:46] <iyogeshjoshi> I would like to know how to execute sudo command from directly within the vim
+[15:29:52] <kushal> iyogeshjoshi, !sudo command?
+[15:30:16] <iyogeshjoshi> I mean any cmd which require sudo rights
+[15:30:39] <iyogeshjoshi> like aptitute install or likewise
+[15:31:34] <iyogeshjoshi> do we need to install specific plugins for that or can we execute them directly from within vim
+[15:31:38] vharsh_ is now known as vharsh
+[15:31:45] <chshbh> bash script?
+[15:31:54] <madhuri> iyogeshjoshi, sudo command but you do some configuration /etc/sudores file
+[15:32:00] <shobhitupadhyay> roll call shobhit upadhyay
+[15:32:16] <shobhitupadhyay> sorry i am late today.
+[15:32:18] <smdeep> roll call Sudeep Mukherjee
+[15:32:30] <kushal> iyogeshjoshi, ! just works
+[15:32:32] <kushal> iyogeshjoshi, try
+[15:32:36] <kushal> :! ls
+[15:32:54] <madhuri> list of file
+[15:33:09] <vbhjain> iyogeshjoshi,try  :!  for any command from vim
+[15:33:10] <adarsh> roll call Adarsh
+[15:33:17] <iyogeshjoshi> thanks
+[15:34:05] <kushal> next
+[15:34:14] <kushal> Any more question from anyone on vim?
+[15:34:20] <kushal> If you have any doubts, ask now.
+[15:34:22] <himanshutechy> !
+[15:34:42] <himanshutechy> can we change the directory from within?
+[15:35:05] <kushal> next
+[15:35:09] <kushal> himanshutechy, try and see
+[15:35:58] <himanshutechy> no its showing No write since last change]
+[15:36:21] <kushal> himanshutechy, so use google.com
+[15:36:33] <kushal> I personally never did that, so I don't know the answer off hand.
+[15:36:41] <himanshutechy> yeah fine
+[15:37:13] <adarsh> !
+[15:37:23] <avik> !
+[15:37:31] <kushal> next
+[15:37:47] <adarsh> i am unable to type any command in it
+[15:38:21] <adarsh> in the link u have given
+[15:38:36] <h4xr> himanshutechy: you can try :cd <directory_name>
+[15:39:03] <kushal> adarsh, what is u?
+[15:39:15] <kushal> adarsh, that link is read only
+[15:39:35] <himanshutechy> h4xr i did, butit is showing no working directory exists!
+[15:39:48] <Lin_> Hi guys
+[15:39:56] <himanshutechy> i used !cd and th dir h4xr
+[15:40:12] <vbhjain> its : !cd
+[15:40:12] <kushal> Lin_, hello, the session is going on right now.
+[15:40:13] <kushal> next
+[15:40:17] <avik> due to college admission councellings, couldn't go though logs. SORRY may i ask later if anything stucks?
+[15:40:35] <kushal> avik, yes.
+[15:40:38] <shobhitupadhyay> please,could anyone provide the link
+[15:40:41] <himanshutechy> yeah did it sry for wrong typing in here vbhjain
+[15:41:45] <abhishekg5> himanshutechy, what is sry ??
+[15:41:57] <kushal> abhishekg5, Good.
+[15:41:59] <kushal> next
+[15:43:37] <himanshutechy> yeah got it abhishekg5 :)
+[15:44:05] <aniketh> Hello
+[15:45:36] <chshbh> aniketh: hi, the session is going on
+[15:46:39] <kushal> For the next part of the training today
+[15:46:51] <kushal> Start following the tutorial from here https://dgplug.org/irclogs/2012/rst-primer/
+[15:47:02] <kushal> If you have any question, you know how to ask.
+[15:47:20] <kushal> The session is going on, and you have to try this while in the session.
+[15:48:23] <mbtamuli12> !
+[15:49:18] <Richard99> !
+[15:49:38] <indiabhi_> !
+[15:50:04] <kushal> next
+[15:50:10] * sandy_ is back
+[15:50:19] <mbtamuli12> Why is rst used?
+[15:50:34] <chirath> !
+[15:50:57] <kushal> mbtamuli12, so that we can document things in an easier way.
+[15:51:03] <kushal> mbtamuli12, You will learn it slowly.
+[15:51:05] <kushal> next
+[15:53:25] <himanshutechy> !
+[15:53:37] <rahuldecoded> !
+[15:53:44] <indiabhi_> can you give a brief description of what we are learning?
+[15:54:32] <kushal> indiabhi_, we will do that later
+[15:54:37] <kushal> first try and see
+[15:54:37] <kushal> next
+[15:54:39] <kushal> nex
+[15:54:42] <kushal> next
+[15:54:45] <chirath> Can I install and try it out in Debain? I don't have fedora now <eof>
+[15:54:49] <kushal> Yes
+[15:55:02] <chirath> Ok
+[15:55:08] <kushal> chirath, install the python docutils package
+[15:55:09] <kushal> next
+[15:55:23] <iyogeshjoshi> !
+[15:55:33] <kushal> next
+[15:55:46] <rahuldecoded> we have to finish the setup right now ?
+[15:56:07] <kushal> rahuldecoded, unless you setup, how can you try out the examples?
+[15:56:15] <indiabhi_> the command to install python packages is pip install package-name.
+[15:56:17] <Anupama> !
+[15:57:05] <kushal> indiabhi_, nope
+[15:57:11] <kushal> indiabhi_, Use your system's package manager
+[15:57:19] <kushal> indiabhi_, If fedora, then use dnf
+[15:57:21] <pabitra> !
+[15:57:26] <indiabhi> ok
+[15:57:29] <kushal> indiabhi_, if debian or ubuntu, use apt-get
+[15:57:31] <kushal> next
+[15:57:33] <iyogeshjoshi> how is this different from markdown lang.? or is this just parser from markdown to html?
+[15:57:35] <chirath> indiabhi_: apt-get works fine in debian
+[15:57:38] <moizsajid> !
+[15:57:52] <Anupama> problem in installing
+[15:57:59] <himanshutechy> !
+[15:58:04] <mbtamuli12> !
+[15:58:23] <kushal> iyogeshjoshi, google for difference between markdown and rst
+[15:58:24] <kushal> next
+[15:58:43] <kushal> Anupama, can you please give us the details of the problem?
+[15:59:20] <Anupama> getting error no file or directory test.rst
+[15:59:41] <chshbh>  !
+[15:59:52] <kushal> Anupama, can you please all the commands(and the output) in the paste.fedoraproject.org ?
+[16:00:11] <kushal> Anupama, do ls and see if you actually created the test.rst file
+[16:00:11] <kushal> next
+[16:00:19] <pabitra> got cleared
+[16:00:23] <chshbh> !
+[16:00:28] <kushal> chshbh, you had space, so that will not be counted
+[16:00:30] <kushal> next
+[16:00:31] <moizsajid> Problem solved
+[16:00:38] <kushal> next
+[16:00:40] <himanshutechy> after installation what to do with test.rst?
+[16:00:52] <chshbh> yes, that is why i typed again :)
+[16:00:57] <rahuldecoded> Anupama for fedora: sudo dnf --allowerasing python-docutils
+[16:01:10] <pabitra> !
+[16:01:33] <kushal> himanshutechy, there is a command given in the presentation.
+[16:02:11] <shobhitupadhyay> !
+[16:02:13] <kushal> rst2html test.rst test.html
+[16:02:16] <kushal> run that command
+[16:02:17] <kushal> next
+[16:02:31] <mbtamuli12> question already cleared
+[16:02:37] <kushal> next
+[16:02:39] <Anandprakash> !
+[16:02:46] <chshbh> kushal can you explain the comment slide
+[16:02:51] <chshbh> how do i comment?
+[16:03:06] <kushal> chshbh, start a line with ..
+[16:03:15] <kushal> .. this is a comment
+[16:03:19] <kushal> I use this ^^^
+[16:03:21] <kushal> next
+[16:03:24] <pabitra> should i do pip install python-sphinx ? because my pip install sphinx worked successfully...
+[16:03:32] <kushal> chshbh, the comment will not become html
+[16:03:38] <shobhitupadhyay> while installing docutils, I'm getting Could not find a version that satisfies the requirement python-docutils (from versions: )
+[16:03:38] <shobhitupadhyay> No matching distribution found for python-docutils
+[16:03:41] <pabitra> or should i do dnf install??
+[16:03:50] <kushal> pabitra, you are only supposed to use dnf
+[16:04:00] <kushal> next
+[16:04:01] <pabitra> oh osrry
+[16:04:05] <PrashantJ> !
+[16:04:09] <kushal> shobhitupadhyay, which distribution?
+[16:04:11] <shobhitupadhyay> while installing docutils, I'm getting Could not find a version that satisfies the requirement python-docutils (from versions: )
+[16:04:12] <shobhitupadhyay> No matching distribution found for python-docutils
+[16:04:21] <shobhitupadhyay> ubuntu
+[16:04:28] <kushal> shobhitupadhyay, which version?
+[16:04:47] <shobhitupadhyay> 15.10
+[16:04:49] <sanketdg> shobhitupadhyay: are you using apt-get?
+[16:04:58] <abhishekcs10> !
+[16:05:03] <shobhitupadhyay> I'm installing through pip.
+[16:05:04] <vharsh> shobhitupadhyay, I think SUpport for 15.10 is over.
+[16:05:14] <sanketdg> use apt-get please shobhitupadhyay
+[16:05:18] <shobhitupadhyay> pip install python-docutils
+[16:05:20] <shobhitupadhyay> ok.
+[16:05:40] <code_geek> It worked for me, I am using ubuntu 15.10. I used apt-get
+[16:05:59] <kushal> shobhitupadhyay, ^^^
+[16:06:00] <himanshutechy> shobhitupadhyay use pip install docutils
+[16:06:08] <kushal> You should not do pip install
+[16:06:18] <sanketdg> vharsh: no
+[16:06:27] <kushal> Try to use the operating system's package manager as much as possible.
+[16:06:39] <shobhitupadhyay> apt-get worked for me. Thanks +1
+[16:07:21] <kushal> next
+[16:07:23] <Anandprakash> is anything is going on https://shellshare.net/r/summertraining, I see only black screen with blinking with promt
+[16:07:32] <kushal> Anandprakash, nope
+[16:07:37] <kushal> we will use it tomorrow
+[16:07:38] <kushal> next
+[16:07:41] <PrashantJ> kushal, why there are 4 ways of commenting while only one is sufficient?
+[16:08:53] <himanshutechy> !
+[16:09:16] <kushal> Prashanth, I don't know actually :)
+[16:09:22] <kushal> PrashantJ, ^^
+[16:09:29] <kushal> next
+[16:09:31] <abhishekcs10> is there a way for multi-line comment? and is indentation important in this tool?
+[16:09:34] <PrashantJ> kushal, okay we will search out
+[16:09:42] <PrashantJ> :)
+[16:09:44] <kushal> PrashantJ, you can ask the person who wrote it :)
+[16:10:00] <kushal> abhishekcs10, Try and see :)
+[16:10:04] <kushal> Best way to learn.
+[16:10:18] <abhishekcs10> for multiline comment..?
+[16:10:40] <kushal> abhishekcs10, Yes
+[16:10:41] <kushal> next
+[16:10:44] <himanshutechy> comments are also showing in the web page i am using ..
+[16:11:01] <abhishekcs10> thanks kushal  :)
+[16:11:05] <kushal> himanshutechy, paste your test.rst file in the paste.fedoraproject.org and share the link with us
+[16:11:29] <kunalk> himanshutechy, give space between ".." and "your_comment"
+[16:11:42] <himanshutechy> oh ok ok
+[16:11:51] li is now known as Guest79814
+[16:12:12] abc is now known as Guest44312
+[16:12:55] <aniketh_> Hello I am Aniketh
+[16:13:34] <kunalk> aniketh_: hello. session's going on
+[16:13:37] <ak_d> aniketh_ : hello, session is going on
+[16:13:50] <Guest79814> !
+[16:13:53] <aniketh_> Ok
+[16:14:27] <kushal> next
+[16:14:39] <himanshutechy> done kushal at fedora pastebin
+[16:14:50] <iKshitij> !
+[16:14:51] <kushal> himanshutechy, Then you have to give us the link too
+[16:15:05] <kushal> himanshutechy, other wise we have to go to your house
+[16:15:17] <Anupama> !
+[16:15:17] <kushal> Which is currently difficult as the session is going on.
+[16:15:20] <kushal> next
+[16:15:30] <himanshutechy> http://paste.fedoraproject.org/385485/46703679/
+[16:15:45] <iKshitij> Kushal Can I use another file name ?
+[16:15:56] <iKshitij> Found a swap file by the name ".test.rst.swp"
+[16:16:00] <iKshitij> I am getting this
+[16:16:05] <chshbh> remove it
+[16:16:16] <kushal> iKshitij,Yes, it is there due to the editor you used.
+[16:16:55] <sanketdg> himanshutechy: adjacent periods, no spaces in between
+[16:17:06] <Guest79814> !
+[16:17:21] <kushal> himanshutechy, also give blank line above
+[16:17:24] <kushal> next
+[16:17:26] <Anupama> I do not have the test.rst file created
+[16:17:36] <kunalk> himanshutechy: you cant give space in between
+[16:18:08] <himanshutechy> thank you kushal
+[16:18:20] <himanshutechy> kunalk thanks
+[16:18:24] <kushal> Anupama, you have to create it
+[16:18:27] <kushal> and write inside
+[16:18:48] <kushal> next
+[16:18:49] <iKshitij> !
+[16:19:03] <Guest79814> my doubt cleared thank you
+[16:19:07] <Guest79814> thank you
+[16:19:18] <Guest79814> same as above
+[16:19:30] <kushal> next
+[16:19:37] <iKshitij> ""Swap file ".test1.rst.swp" already exists!
+[16:19:38] <iKshitij> [O]pen Read-Only, (E)dit anyway, (R)ecover, (D)elete it, (Q)uit, (A)bort: ""
+[16:19:46] <code_geek> !
+[16:19:57] <kushal> iKshitij, Press D
+[16:19:59] <kushal> next
+[16:20:03] <code_geek> It worked for me, I am using ubuntu 15.10. I used apt-get
+[16:20:06] <code_geek> sorry
+[16:20:09] <code_geek> In option lists, when I convert it to html file it gives an error: Option list ends without a blank line, unexpected unindent. I already added a blank line using 'o' command.
+[16:20:38] <SRvSaha> !
+[16:21:08] <kushal> code_geek, paste the file to paste.fedoraproject.org
+[16:21:09] <kushal> and show us the link
+[16:21:09] <kushal> If you are on fedora
+[16:21:09] <kushal> you can just do
+[16:21:13] <kushal> fpaste test.rst
+[16:21:16] <code_geek> okay
+[16:21:55] <SRvSaha> How do I comment inside the section where I have written the DOCUMENT TITLE TILE. If I am adding more than one line inside the section, I am getting error
+[16:22:36] <kushal> SRvSaha, show us the file
+[16:23:38] <code_geek> kushal, the link: https://paste.fedoraproject.org/385493/
+[16:23:55] <gobinda_> !
+[16:24:36] <SRvSaha> kushal: http://paste.fedoraproject.org/385495/3746114/
+[16:25:11] <chshbh> !
+[16:26:06] <pksadiq> kushal: the width is too much less
+[16:26:18] <kushal> code_geek, I am trying it out on https://shellshare.net/r/summertraining
+[16:26:25] <kushal> pksadiq, I can not change it :(
+[16:26:28] <kushal> or rather don't know how
+[16:26:32] <code_geek> ok
+[16:27:13] <kushal> code_geek, see the changes I did
+[16:27:21] <kushal> No random blank lines
+[16:27:33] <kushal> also fixed that long line
+[16:27:33] <code_geek> oh, okay got it. Thanks
+[16:27:46] <kushal> next
+[16:28:29] <kushal> next
+[16:28:38] <gobinda_> getting a problem
+[16:28:40] <gobinda_> http://paste.fedoraproject.org/385494/03741214/
+[16:28:44] <hiro_dev> ls
+[16:28:59] <fhackdroid> kushal, sorry to interrupt but shellshare is awesome
+[16:28:59] <gobinda_> why this error is come
+[16:29:04] <kushal> gobinda_, Yes, the indentation of your file wrong
+[16:29:05] <pabitra> kushal,
+[16:29:07] <pabitra> !
+[16:29:13] <kushal> fhackdroid, isn't? :D
+[16:29:15] <kushal> next
+[16:29:25] <kushal> hiro_dev, files not found.
+[16:29:33] <chshbh> title over line can be on any type,
+[16:29:42] <chshbh> like
+[16:29:44] <kushal> chshbh, means?
+[16:29:44] <chshbh> #
+[16:29:46] <chshbh> or
+[16:29:48] <chshbh> ==
+[16:29:49] <kushal> Yes
+[16:29:52] <kushal> You choose
+[16:29:58] <kushal> next
+[16:30:02] <pabitra> http://paste.fedoraproject.org/385498/67037733/
+[16:30:12] <pabitra> Im getting syntax error
+[16:30:22] <SRvSaha> !
+[16:30:23] <kushal> pabitra, I am
+[16:30:55] <gkadam> pabitra, indent it properly.
+[16:30:56] <kushal> pabitra, do not give any spaces on line 9 onward
+[16:31:01] <kushal> next
+[16:31:09] <SRvSaha> Can you please tell where I am getting wrong? Can't figure out. I've pasted the link
+[16:31:12] <pabitra> sorry kushal, missed ' between i and m
+[16:32:00] <kushal> SRvSaha, can you please paste it again?
+[16:32:07] * kushal lost track of the links
+[16:32:30] <SRvSaha> kushal: http://paste.fedoraproject.org/385495/3746114/
+[16:33:36] <kushal> SRvSaha, only the title requires markups on top and bottom, rest will be only below
+[16:34:10] <warlord77> !
+[16:34:21] <kushal> next
+[16:34:28] <pabitra> !
+[16:34:45] <sanketdg> SRvSaha: why do you need to comment there?
+[16:35:00] <himanshutechy> !
+[16:35:44] <SRvSaha> sanketdg: I was just trying out if that works, but it is throwing error
+[16:35:55] <kushal> next
+[16:36:01] <sanketdg> SRvSaha: yes, because titles cant be multiline. +1
+[16:36:16] <sanketdg> even if its a comment.
+[16:36:21] <LambaInsaan> !
+[16:36:24] <kushal> next
+[16:36:33] <pabitra> http://paste.fedoraproject.org/385503/14670381/
+[16:36:48] <pabitra> kushal I removed all blank lines
+[16:36:51] <himanshutechy> http://paste.fedoraproject.org/385505/70381931/
+[16:36:52] <pabitra> still getting the error
+[16:37:14] <kushal> pabitra, yes, you have a comment's .. on line 5 but no real comment
+[16:38:26] <akshays> !
+[16:38:37] <kushal> next
+[16:38:46] <LambaInsaan> Solved! :)
+[16:38:52] <kushal> next
+[16:38:54] <pabitra> kushal, I didn;t get what you mean by real comment
+[16:39:02] <pabitra> s/;/'
+[16:39:12] <kushal> pabitra, line 5 should be something like
+[16:39:18] <kushal> .. this is a comment
+[16:39:25] <sanketdg> himanshutechy: remove space between ` and _
+[16:39:25] <kushal> also give a blank line after comment
+[16:39:28] <akshays> i did not get what is written in defination list
+[16:39:36] <kushal> and after section and subsection
+[16:39:46] <thisisashwani> kushal: is the class going on right now?
+[16:40:01] <kushal> akshays, It shows a definition of any term
+[16:40:10] <kushal> akshays, I am yet to use it ever
+[16:40:13] <kushal> thisisashwani, yes
+[16:40:33] <akshays> !
+[16:41:22] <sanketdg> himanshutechy: is this how you want it? http://dpaste.com/2VVVR8D
+[16:42:21] <kushal> next
+[16:42:37] <avik> !
+[16:42:51] <pabitra> !
+[16:42:55] <kushal> next
+[16:43:15] <avik> https://paste.fedoraproject.org/385506/
+[16:43:17] <akshays> Where is the definition list supposed to be used
+[16:43:53] <kushal> akshays, if you want to define something in the document
+[16:43:56] <avik> can not create html file ^^^
+[16:44:14] <akshays> thanks kushal :)
+[16:44:18] <sanketdg> avik: match the upper style with the lower style
+[16:44:40] <chshbh> !
+[16:44:46] <avik> means ?
+[16:44:48] <sanketdg> avik: so it should have equal number of ='s in both top and bottom.
+[16:45:17] <avik> got it
+[16:45:49] <kushal> next
+[16:45:54] jargmonk is now known as jargonmonk
+[16:45:55] <pabitra> kushal, does every lines need to be left indent??? that is if i leave some space from the beginning of line and start a new section, t is throwing error
+[16:46:10] <himanshutechy> thanks Sanketdg
+[16:46:31] * CuriousLearner afk
+[16:46:49] <pabitra> i mean in books we have some space left from leftmost, can't we do that here??
+[16:47:25] <kushal> pabitra, Yes
+[16:47:36] <pabitra> so then the slide says
+[16:47:39] <kushal> pabitra, Nope, that you can do using CSS
+[16:47:44] <pabitra> that indentation should be ther
+[16:47:51] <kushal> next
+[16:47:55] <chshbh> kushal, why is "arg" in -c arg, italic on HTML page?
+[16:48:14] <kushal> chshbh, that is how it looks by default
+[16:48:23] <thisisashwani> i came in between the class, can i get the slides that some of you are talking about?
+[16:48:31] <chshbh> are there some key terms, which will look italic?
+[16:48:44] <chirath> https://dgplug.org/irclogs/2012/rst-primer/
+[16:48:51] <code_geek> !
+[16:48:56] <kushal> next
+[16:49:00] <code_geek> Please see this link: https://paste.fedoraproject.org/385508/  It is giving the same blank line error for line 16
+[16:49:45] <thisisashwani> chirath: thanks!
+[16:50:27] <real56> !
+[16:50:58] <kushal> next
+[16:51:19] <real56> https://da.gd/87MNZ
+[16:51:42] <himanshutechy> !
+[16:51:44] <gobinda_> !
+[16:52:23] <real56> I am getting error in line 7,although it is commented
+[16:54:08] <kushal> okay, I must be missing somehing
+[16:54:51] <kushal> code_geek, see https://shellshare.net/r/summertraining
+[16:55:05] <kushal> There is a blank line between :: and the next text
+[16:55:23] <code_geek> yeah
+[16:56:10] <kushal> real56, line 7 is not a comment
+[16:56:12] <kushal> next
+[16:56:29] <code_geek> yes, resolved. Thanks
+[16:56:34] <kushal> next
+[16:57:00] <gobinda_> I got it <eof>
+[16:57:01] <pabitra> !
+[16:58:00] <kushal> next
+[16:58:16] <pabitra> kushal, I used > for bullet
+[16:58:30] <pabitra> but it didn't make a list
+[16:58:35] <pabitra> just printed as it is
+[16:59:17] <kushal> pabitra, Okay, I never tried that example though :)
+[16:59:24] <kushal> I always use either - or *
+[16:59:30] <pabitra> :)
+[16:59:48] <sayan> next
+[17:00:39] <kushal> sayan, will continue from here :)
+[17:01:17] <real56> !
+[17:01:38] <sayan> next
+[17:01:43] <himanshutechy> !
+[17:01:44] <SRvSaha> !
+[17:01:46] <sayan> next
+[17:01:48] <sayan> next
+[17:02:05] <real56> Still I am getting the same error
+[17:02:07] <real56> http://paste.fedoraproject.org/385515/
+[17:02:10] <himanshutechy> !
+[17:02:23] <amrtanair_> !
+[17:02:46] <SRvSaha> sayan: http://paste.fedoraproject.org/385517/70397531/
+[17:03:18] <sayan> real56: check the syntax again for comment, there are two dots and in the next line the comment
+[17:03:38] <sayan> real56: or on the same line
+[17:03:44] <sayan> real56: you need to follow the syntax
+[17:05:21] <sayan> SRvSaha: facing issue?
+[17:05:23] <sayan> next
+[17:05:33] <SRvSaha> sayan: Inline emphasis start-string without end-string.
+[17:05:36] <himanshutechy> this exercise is complete  anything else? and how this exercise is going to help us in future project?
+[17:06:21] <chshbh> !
+[17:06:32] <real56> !
+[17:06:33] <sayan> SRvSaha: yes
+[17:06:48] <chshbh> himanshutechy, documentation is very important in FOSS
+[17:07:03] <gobinda_> !
+[17:07:05] <SRvSaha> ^^  That is the WARNING I'm getting sayan
+[17:07:06] <sayan> SRvSaha: you are trying to use emphasis but not following the syntax
+[17:07:28] <avik> !
+[17:07:42] <sayan> SRvSaha: it should be *emphasis*, check the line which has C++
+[17:07:44] <sayan> next
+[17:08:18] <amrtanair_> I am getting the error rst2html: command not found when I am trying to run the command  "rst2html test.rst test.html". I googled it, but I can't figure it how to solve this.
+[17:08:42] <himanshutechy> but we are converting text into html can't we use simple html instead of using all the indentation and syntax in this ? chshbh
+[17:09:13] <chshbh> kushal at the start said, we are converting to html for today.
+[17:09:37] <gobinda_> !
+[17:09:39] <sayan> himanshutechy: rst is a markup language. This can be used for various purpose like writing books, documentation, README files, slides etc
+[17:09:46] <sayan> next
+[17:09:51] <chshbh> how to get out of "doctest block"?
+[17:09:56] <himanshutechy> oh so other formats is also available ?
+[17:10:07] <sayan> himanshutechy: yes
+[17:10:18] <himanshutechy> oh cool good
+[17:10:24] <himanshutechy> thanks sayan
+[17:10:36] <SRvSaha> !
+[17:10:50] <chshbh> solved. black line :)
+[17:10:51] <himanshutechy> but this is the final exercise for today no?
+[17:11:01] <tron> next
+[17:11:02] <chshbh> s/black/blank
+[17:11:10] <sayan> chshbh: what do you mean by getting out of the doctest block?
+[17:11:11] <sayan> next
+[17:11:14] <sayan> next
+[17:11:17] <real56> That was a comment,it is in the same color as that of section and subsection.
+[17:12:12] <sayan> real56: in your editor? It could be a feature of your editor
+[17:12:25] <sayan> real56: it doesn't really matter
+[17:12:29] <sayan> next
+[17:12:31] <SRvSaha> sayan : Can you please fix the emphasis issue in the code and paste the link please ? I am unable to get what you're referring to as the fix.
+[17:12:37] <avik> like "i" to insert how to stop inserting and save and exit?
+[17:12:45] <gobinda_> http://paste.fedoraproject.org/385521/14670398/       how this id is generated, what is the sequence?
+[17:12:57] <sayan> avik: you mean in vim?
+[17:13:07] <avik> yeah
+[17:13:22] <sayan> avik: press Esc, then :wq to save and exit
+[17:13:50] <sayan> next
+[17:13:55] <sayan> next
+[17:13:55] <gobinda_> http://paste.fedoraproject.org/385521/14670398/       how the id is generated?
+[17:14:03] <avik> Esc worked
+[17:14:08] <avik> but not wq
+[17:14:20] <SRvSaha>  sayan : Can you please fix the emphasis issue in the code and paste the link please ? I am unable to get what you're referring to as the fix
+[17:14:26] sandeepmaity09_ is now known as sandeepmaity09
+[17:14:32] <avik> sayan ^^
+[17:14:50] <sayan> avik: it's :wq
+[17:15:42] <sayan> gobinda_: #id1 that you have used?
+[17:15:55] <sayan> SRvSaha: *C++*
+[17:16:22] <sayan> SRvSaha: you just used *C++ and did use the end string for emphasis
+[17:16:24] <sayan> next
+[17:17:18] <amrtanair_> !
+[17:17:45] <SRvSaha> ^^ Sayan, I was trying to so the UNORDERED LIST
+[17:17:45] <avik> now that it is saved have another problem!   https://paste.fedoraproject.org/385531/67040569/
+[17:18:00] <avik> sorry
+[17:18:02] <avik> !
+[17:19:16] <sayan> SRvSaha: in that case * C++ -> see the space in between
+[17:19:19] <sayan> next
+[17:19:22] <sayan> next
+[17:19:33] <avik> sayan^^
+[17:19:51] <amrtanair_>  solved it !
+[17:19:59] <sayan> avik: what do understand from the error message?
+[17:20:26] <avik> what is "even is is also" ?
+[17:20:43] <SRvSaha> sayan: Thanks. Problem solved now. But it was showing some Warning some time back
+[17:20:56] <iKshitij_> Test.rst:4: (WARNING/2) Definition list ends without a blank line; unexpected unindent.
+[17:21:10] <iKshitij_> what does this mean ?
+[17:22:10] <sayan> iKshitij_: use !
+[17:22:42] <avik> sayan, ?
+[17:22:55] <SRvSaha> !
+[17:24:00] <sayan> avik: I asked you a question above on what do you understand by the error "Unexpected indentation."
+[17:24:21] <sayan> avik: "even is is also" is text in your rst file
+[17:24:23] <sayan> next
+[17:25:02] <avik> may be a error in indentations?   probly lines not alined as supposed to be?
+[17:25:14] <avik> is it so sayan ?
+[17:25:20] <SRvSaha> sayan : In the link it is said that we can use * or + or - for bulleting the items. But when I am using anything other than * I am getting this warning :Bullet list ends without a blank line; unexpected unindent. LINK for code : http://paste.fedoraproject.org/385533/46704111/
+[17:25:26] <SRvSaha> <eof>
+[17:25:52] <avik> am i anywhere close?
+[17:25:55] <sayan> avik: yes, the error is in line no 10, check what is the issue
+[17:26:13] <avik> ok
+[17:26:20] <sanket> SRvSaha: you can only use one, you cant combine them
+[17:26:48] <SRvSaha> sanket: Oh is it ? Ok thanks anyways
+[17:26:48] <sanket> so either * for all, or - for all, or + for all
+[17:29:39] <sayan> sorry power cut here :(
+[17:30:47] <avik> https://paste.fedoraproject.org/385536/46704134/ can you look into it sayan?
+[17:31:07] <sayan> SRvSaha: can you repeat your question?
+[17:31:09] <sayan> avik: yes
+[17:31:14] <avik> cannot find it myself!
+[17:31:43] <kushal> oh
+[17:31:45] <kushal> I am back
+[17:31:51] <kushal> sayan, is the session still on?
+[17:31:51] <pabitra> !
+[17:31:53] <kushal> avik, The comments are messed up
+[17:32:14] <avik> ooo
+[17:32:40] <sanketdg> avik insert newlines
+[17:33:10] <sayan> avik: you need to follow the syntax https://paste.fedoraproject.org/385539/14670415/
+[17:33:20] <sayan> kushal: yes
+[17:33:30] <sayan> next
+[17:33:34] <sayan> next
+[17:33:36] <SRvSaha> !
+[17:33:38] <pabitra> hi
+[17:33:41] <pabitra> i have
+[17:33:46] <pabitra> one question
+[17:33:57] <pabitra> so can we give block comment??
+[17:34:20] <SRvSaha> Why is it the case that I can't use BULLETS and ENUMERATED LISTS together?
+[17:34:20] <avik> ok fine thanks. sayan kushal  sanketdg
+[17:35:01] <pabitra> because .. gives one line comment
+[17:36:26] <kushal> pabitra, use many ..
+[17:36:38] <pabitra> in each line??
+[17:37:06] <chshbh> !
+[17:37:19] <sanketdg> pabitra: do:
+[17:37:21] <sayan> next
+[17:37:26] <sayan> next
+[17:37:41] <chshbh> test.rst:56: (WARNING/2) Block quote ends without a blank line; unexpected unindent.
+[17:37:41] <chshbh> test.rst:56: (SEVERE/4) Unexpected section title or transition.
+[17:37:41] <chshbh> -----
+[17:37:41] <chshbh> Exiting due to level-4 (SEVERE) system message.
+[17:38:03] <Rnarwade> !
+[17:38:05] <sayan> chshbh: check line no 56 for syntax error
+[17:38:09] <sanketdg> pabitra: http://dpaste.com/00HFBDW
+[17:38:20] <kushal> chshbh, use paste.fedoraproject.org always
+[17:38:24] <chshbh> yes, sayan, but i dont know what the problem is. okay i will look.
+[17:38:33] <chshbh> kushal, first let me try more.
+[17:39:02] <sayan> chshbh: give a blank line after 56
+[17:39:07] <sayan> ^^ just a guess
+[17:40:47] <sayan> next
+[17:41:01] <chshbh> https://paste.fedoraproject.org/385543/
+[17:41:06] <Rnarwade> can we align title
+[17:41:17] <kushal> Rnarwade, it is based on the css
+[17:41:18] <chshbh> sayan, its a table. can't give blank line in b/w
+[17:42:05] <kushal> chshbh, table header is wrong as it seesm
+[17:42:07] <kushal> seems
+[17:42:18] <kushal> Anyway, I will end the session today
+[17:42:23] <chshbh> okay,
+[17:42:27] <chshbh> i see now
+[17:42:29] <kushal> Keep practicing here
+[17:42:32] <chshbh> difficult to catch on vim
+[17:42:36] <chshbh> :/
+[17:42:45] <kushal> See you all tomorrow for more live demos :)
+[17:42:47] <aniketh_> !
+[17:42:54] <code_geek> !
+[17:43:00] <kushal> next
+[17:43:03] <kushal> next
+[17:43:07] <code_geek> In http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#quick-syntax-overview , the author made each list item a targeted link which points to a subsection of the document, how to make the link point to a subsection?
+[17:43:17] <sanketdg> chshbh: you have a space on line 56 :)
+[17:43:23] <kushal> code_geek, find the source :)
+[17:43:33] <aniketh_> What is the difference between TD and Th ?
+[17:43:46] <kushal> aniketh_, ask that to google uncle
+[17:43:49] <code_geek> Okay
+[17:43:53] <kushal> endclass
+[17:43:53] [## Class Ended at Mon Jun 27 17:43:53 2016 ##]

@@ -1,0 +1,432 @@
+[15:03:22] [## Class Started at Thu Jun 30 15:03:22 2016 ##]
+[15:03:22] <kushal> startclass
+[15:03:29] <kushal> Roll Call
+[15:03:29] <code_geek> Shantanu Acharya
+[15:03:30] <akshays> Akshay Shipurkar
+[15:03:30] <abhishekg5> Abhishek Gupta
+[15:03:30] <rahuldecoded_> Rahul Bhattacharjee
+[15:03:31] <abstatic> Abhishek Shrivastava
+[15:03:31] <PrashantJ> Prashant Jamkhande
+[15:03:33] <mahesh5> Mahesh Gahlot
+[15:03:33] <yASH> Yashwanth M
+[15:03:34] <Alak> Alakshendra Yadav
+[15:03:35] <shalaka> shalaka
+[15:03:36] <pabitrapati> Pabitra Pati
+[15:03:36] <rohan_h> Rohan Hazra
+[15:03:37] <pragnavi> pragnavi
+[15:03:38] <mhalano> Marcos H. Alano
+[15:03:38] <chshbh> Avinash Madhukar
+[15:03:38] <hiro_dev> Abhishek Goswami
+[15:03:41] <kashyap638> abhishek kashyap
+[15:03:41] <shobhitaqua14> shobhit upadhyay
+[15:03:41] <vharsh> Harsh Vardhan
+[15:03:42] <moizsajid> Moiz Sajid
+[15:03:42] <jogi96_> Jogender Kota
+[15:03:43] <deep123k> Deepanshu Kapoor
+[15:03:43] <LambaInsaan> Rhitik Bhatt
+[15:03:44] <indiabhi> Abhishek Rai
+[15:03:46] <vbhjain> Vaibhav jain
+[15:03:47] <rahul_bajaj> Rahul Bajaj
+[15:03:49] <thisisashwani> Ashwani Pandey
+[15:03:55] <avik> Avik Mukherjee
+[15:03:56] <buvanesh_kumar> Buvanesh Kumar
+[15:03:57] <gobinda_> Gobinda akhuli
+[15:03:59] <Krishna> Krishna Biradar
+[15:04:00] <SRvSaha> Saurav Saha
+[15:04:08] <warlord77> sahil joseph
+[15:04:23] <kushal> Okay, are we ready?
+[15:04:24] <rhnvrm> Rohan Verma
+[15:04:33] <kushal> Okay.
+[15:04:40] <D1mz> Aditya Bayana
+[15:04:46] <anushil05> Anushil Kumar
+[15:04:46] <warlord77> !
+[15:04:47] <SpEcHiDe> Roll Call: Shrimadhav U K
+[15:04:48] <Richard99> Mayank Gupta
+[15:04:55] <imack> Mahendra Yadav
+[15:05:07] <kushal> Yesterday I have asked you all to write a blog post about summer training, and then share it as a reply to my mail in the list.
+[15:05:16] <kushal> Many people shared but without writing the post.
+[15:05:27] <kushal> And most of the people replied by top-posting
+[15:05:47] <shauryak_3> Shaurya Kalia
+[15:05:50] <kushal> I have to guess you never understood what is top post/bottom/inline posting.
+[15:05:57] <kushal> So I will try to demo that first
+[15:05:59] <kushal> next
+[15:06:24] <warlord77> kushal, you replied already
+[15:06:26] <priyanka> Priyanka Sharma, sorry for late roll call since i got disconnected.
+[15:06:37] <Anupama> roll call: Anupama Mandal
+[15:06:48] <kushal> Okay
+[15:06:52] <kushal> give me a minute
+[15:06:53] <aman_> roll call: Aman Kumar
+[15:07:04] <ak_d> roll call: Akhilesh Dhaundiyal
+[15:07:23] <kushal> I am going to do this in vim
+[15:07:30] <iKshitij> roll call : Kshitij
+[15:07:31] <moon45> Moon45 roll call mamoon manzoor
+[15:07:36] <kushal> but you should do the same from your gmail/yahoo or any mail client
+[15:07:39] <akash47> roll call: Akash Mishra
+[15:07:49] <SRvSaha> kushal: I was absent yesterday as I was out of town. So I didn't know about the BLOG POST
+[15:07:56] <akshay_CV> Roll call : Akshay
+[15:07:57] <kushal> SRvSaha, which is okay.
+[15:08:36] <kushal> https://shellshare.net/r/summertraining everyone
+[15:08:47] <shauryak_3> kushal:  i was absent as well. will positively send today.
+[15:08:54] <jargonmonk> Roll Call: Aniket Khisti
+[15:09:05] <amitk_> roll call Amit Kokitkar
+[15:09:14] <kushal> Only 16 people are viewing that link
+[15:09:18] <yASH> So was I kushal, I'll write mine tonight !
+[15:09:22] <abstatic> Opened up shellshare
+[15:09:44] <rahuldecoded_> i am there
+[15:10:10] <jargonmonk> kushal, I was absent too, I'll write it asap.
+[15:10:15] <pksadiq> kushal: The other way please: PS1='\w $ '  Thank you
+[15:10:19] <kushal> Okay, 37 people
+[15:10:28] <sandeepmaity09> roll call Sandeep Maity
+[15:10:35] <kushal> pksadiq, yeah, fixed it other day, and forgot to add in the .bashrc
+[15:11:04] <snarwade> roll call: Suraj Narwade
+[15:11:07] <priyanka_> kushal, what i maissed? Since i got disconnected...
+[15:11:11] <priyanka_> missed.
+[15:11:21] <kushal> priyanka_, nothing, watch shellshare
+[15:11:36] <kushal> So that is the mail you have received
+[15:11:51] <priyanka_> okay, thanks kushal.
+[15:11:56] <iKshitij> 39 Now :)
+[15:13:10] <priyanka_> Will you please give me the link...
+[15:13:19] <code_geek> https://shellshare.net/r/summertraining
+[15:13:30] <moizsajid> !
+[15:13:35] <kushal> next
+[15:13:59] <priyanka_> Thanks code_geek.
+[15:14:02] <vharsh> !
+[15:14:05] <thisisashwani> !
+[15:14:16] <moizsajid> What to do if Gmail auto hides the previous message using three dots?
+[15:14:42] <moizsajid> or ellipses?
+[15:14:43] <buvanesh_kumar> you can possibly expand it. moizsajid ;)
+[15:14:44] <code_geek> click those three dots and it will show previous messages
+[15:14:52] <kushal> moizsajid, ^^^
+[15:15:12] <kushal> also for gmail, in the right bottom, there is an option to reply in plain text
+[15:15:14] <kushal> Please do that.
+[15:15:22] <kushal> Set that as default option.
+[15:15:23] <kushal> next
+[15:15:26] <vharsh> Did you explicitly write this line? "On 29/06/16, Kushal Das wrote: "
+[15:15:31] <akshays> !
+[15:15:40] <SRvSaha> !
+[15:15:45] <kushal> vharsh, Nope, my mail client did it, gmail does the same iirc
+[15:15:46] <kushal> next
+[15:15:50] <vharsh> Or did gmail, mailer wrote this for you  <EOF>
+[15:15:54] <tgadsing_> Sorry for joining late.
+[15:15:59] <abhishekg5> !
+[15:16:03] <thisisashwani> ksuhal: how did you open the mail in vim? :D
+[15:16:03] <kushal> tgadsing_, no problem
+[15:16:12] <thisisashwani> My mistake, I will find it myself from google! :)
+[15:16:23] <kushal> thisisashwani, I write my emails in vim, I will show how in some other day
+[15:16:25] <kushal> next
+[15:16:50] <kushal> next
+[15:16:50] <mhalano> !
+[15:16:50] <akshays> i had the same question
+[15:17:01] <SRvSaha> Is there any difference between Inline reply and bottom reply ? Actually the way you have shown your bottom reply using inline mode in Gmail.
+[15:17:17] <thisisashwani> kushal: okay, so can you see all the mails you get in vim too?
+[15:17:51] <shobhitaqua14> !
+[15:17:51] <kushal> SRvSaha, They are almost same, but for inline I can have more paragraphs of the original thread after my reply, and then my comments there too
+[15:17:58] <kushal> SRvSaha, read the doc from mbuf.
+[15:18:06] <kushal> thisisashwani, I use mutt, google about it :)
+[15:18:08] <kushal> next
+[15:18:19] <abhishekg5> kushal, same ques as thisisashwani. solved
+[15:18:22] <kushal> next
+[15:18:51] <kushal> next
+[15:18:53] <shobhitaqua14> what is the means of <,<<,<<< in gmail?
+[15:19:13] <kushal> That is marking the depth of the thread
+[15:19:16] <kushal> >>>>
+[15:19:16] <mbtamuli12> Roll Call: Mriyam Tamuli
+[15:19:22] <kushal> next
+[15:19:40] <kushal> Now who all think that they replied wrongly in the list?
+[15:20:00] <avik> I
+[15:20:04] <ak_d> me
+[15:20:06] <Anupama> me
+[15:20:13] <rahul_bajaj> !
+[15:20:21] <kushal> Only 3?
+[15:20:24] <kushal> next
+[15:20:27] <abstatic> Me - because i did not write my name at the ending, and pasted the direct link instead of doing something like [1]
+[15:20:35] <code_geek> I didn't use [1], is that wrong?
+[15:20:37] <kushal> abstatic, which is still better :)
+[15:20:51] <rahul_bajaj> kushal, on shellshare can you show me where i can write say, regards, rahul_bajaj .
+[15:20:57] <akshays> i did the same as abstatic
+[15:21:00] <chshbh> me, i did not write my name
+[15:21:13] <kushal> rahul_bajaj, where I wrote XYZ
+[15:21:18] <deep123k> !
+[15:21:20] <yASH> I did not write my name as well sorry
+[15:21:43] <kushal> code_geek, not totally wrong, but that way of writing mails help the people who are reading it.
+[15:21:53] <pabitrapati> !
+[15:21:57] <kushal> next
+[15:22:00] <shobhitaqua14> i write above the question
+[15:22:07] <deep123k> Kushal I am still not sure can you check my reply I am sending my email id on pm
+[15:22:13] <SRvSaha> I too have not written the name or added signature. Does that matter ?
+[15:22:20] <code_geek> Okay kushal , I'll take care of that from next time.
+[15:22:30] <kushal> SRvSaha, signature does not, but name yes :)
+[15:22:30] <rahul_bajaj> kushal, i should start my answer by saying, regards, Rahul Bajaj, and then answer the question?
+[15:22:31] <kushal> next
+[15:22:44] <kushal> rahul_bajaj, nah, just read mbuf's documentation
+[15:22:44] <pabitrapati> kushal, please refer https://snag.gy/9t5s3D.jpg
+[15:23:01] <rahul_bajaj> kushal, ohkay.
+[15:23:02] <pabitrapati> should I reply within that indented block ??
+[15:23:14] <kushal> pabitrapati, Yes, but first press enter twice
+[15:23:21] <kushal> That will break that line in the left
+[15:23:39] <kushal> and also click on the plain text mail in the right bottom
+[15:23:47] <kushal> next
+[15:23:55] <moizsajid> !
+[15:24:26] <pabitrapati> !
+[15:25:53] <kushal> next
+[15:26:11] <moizsajid> If we could remove the previous replies, and then write our message. Is that a good idea?
+[15:26:34] <rohan_h> !
+[15:26:59] <kushal> moizsajid, sometimes yes
+[15:27:19] <akshays> in this case ?
+[15:27:27] <akshays> because i did so
+[15:27:51] <moizsajid> !
+[15:28:19] <kushal> akshays, ?
+[15:28:21] <kushal> next
+[15:28:28] <pabitrapati> so is it necessary to reply in plain-text mode or we can do just inline as i shown ???
+[15:29:04] <akshays> kushal, i mean in the you send us
+[15:30:08] <avik> !
+[15:30:38] <kushal> pabitrapati, Please read the doc written by mbuf.
+[15:30:41] <kushal> .link email
+[15:30:49] <kushal> pabitrapati, ^^
+[15:30:51] <akshays> https://paste.fedoraproject.org/386670/93432146/
+[15:31:18] <kushal> akshays, this is okay, you can remove my signature from the end.
+[15:31:36] <akshays> thanks kushal
+[15:32:02] <kushal> next
+[15:32:02] <akshays> got it next time will write it perfectly :)
+[15:32:05] <rohan_h> doubt cleared :)
+[15:32:07] <kushal> next
+[15:32:09] <moizsajid> Are these email etiquettes only applicable for open source world or for all professional matters?
+[15:32:21] <kushal> moizsajid, We use the same everywhere.
+[15:32:27] <kushal> next
+[15:32:32] <avik> i never got any mail from you, only other users replies!
+[15:32:55] <avik> what should i have done?
+[15:33:11] <SpEcHiDe> avik: did you check your spam folder?
+[15:33:27] <abstatic> avik, its maybe because you were added later on to the mailing list.
+[15:33:38] <abhishekg5> avik, kushal put you in list after the mail
+[15:33:55] <avik> in my win10 mail i do not have spam folder SpEcHiDe
+[15:34:12] <avik> ok guys got it
+[15:34:16] <iKshitij_> !
+[15:34:20] <avik> thank you
+[15:34:43] <akorep> Roll Call: Akshay T S
+[15:34:57] <shobhitaqua14> !
+[15:35:02] <kushal> next
+[15:35:15] <avik> !
+[15:36:26] <iKshitij_> what is difference between APPENDING and simple Insert Mode ? (VIM)
+[15:36:57] <chshbh> !
+[15:37:27] <code_geek> in simple insert you add characters from your current cursor position and in append mode you add from the position next to the cursor
+[15:37:35] <kushal> iKshitij_, ^^
+[15:37:37] <kushal> next
+[15:37:42] <shobhitaqua14> open source mail and professional company mail is different?in open source should we are must reply to the point ?
+[15:37:49] <himanshutechy> roll call :Himanshu sharma
+[15:38:14] <kushal> shobhitaqua14, you should reply to the point in the companies too
+[15:38:18] <iKshitij_> Got It ! Noticed :)
+[15:38:22] <kushal> But sadly most people do not know that :)
+[15:38:25] <kushal> next
+[15:38:27] sandeepmaity09_ is now known as sandeepmaity09
+[15:38:30] <avik> is there any official way of writing a blog? I mean is there something important we should keep in mind while writing a blog?
+[15:38:32] <Anandprakash> Roll Call:  Anandprakash Tandale
+[15:38:41] <himanshutechy> did i missed something?
+[15:39:10] <kushal> avik, not much, we will talk about it in some time.
+[15:39:11] <kushal> next
+[15:39:20] <kushal> himanshutechy, Time.
+[15:39:25] <chshbh> kushal, we have to provide our name at the end of the mail?
+[15:39:55] <code_geek> chshbh, yes
+[15:40:05] <kushal> chshbh, yes
+[15:40:06] <kushal> next
+[15:40:23] <chshbh> no body did that.
+[15:40:28] <chshbh> :)
+[15:40:31] <himanshutechy> I will take care of that Kushal in future
+[15:40:58] <kushal> chshbh, I did.
+[15:41:19] <chshbh> I see.
+[15:41:40] <kushal> :)
+[15:41:53] <kushal> Now everyone, open the following URL and read the post slowly.
+[15:42:03] <kushal> Try to understand what is written.
+[15:42:05] <kushal> http://blog.rackspace.com/why-technical-people-should-blog-but-dont/
+[15:43:43] <kushal> We will wait for you to finish up.
+[15:45:32] <joyita_c> hi
+[15:45:43] <joyita_c> !
+[15:46:33] <rohan_h> !
+[15:46:40] <kushal> next
+[15:47:53] <joyita_c> I have today first joined the class. Please guide me. What we are learning in this training?
+[15:48:18] <vharsh> dgplug.org/irclogs/2016
+[15:48:43] <joyita_c> I have vm ware with nano editor but I don't know much about python.
+[15:48:45] <vharsh> We have recently created a blog in Wordpress.
+[15:49:00] <kushal> joyita_c, we are yet to start learning python
+[15:49:05] <vharsh> Read http://blog.rackspace.com/why-technical-people-should-blog-but-dont/
+[15:49:09] <kushal> joyita_c, go through the logs
+[15:49:34] <joyita_c> okay thank you.
+[15:49:39] <akorep> Finished reading.
+[15:50:27] <kushal> akorep, any comments?
+[15:50:53] <abhishekcs10_> \\\\\]]'
+[15:51:01] <kushal> abhishekcs10_, ?
+[15:51:08] <SpEcHiDe> Finished reading.
+[15:51:12] <himanshutechy> finished
+[15:51:27] <jogi96_> !
+[15:51:27] <deep123k> Nice motivation
+[15:51:30] <kushal> Any comments on that post ?
+[15:51:33] <abhishekcs10_> sorry kushal
+[15:51:35] <kushal> Just say what ever you want to.
+[15:51:47] <akorep> kushal, Well, if you're thinking it inspires me to write blogs, I'm sorry but it doesn't. Close though.
+[15:52:07] <akorep> Sorry if I'm being too honest here.
+[15:52:18] <kushal> akorep, okay, why don't you want to write blog posts?
+[15:52:22] <chshbh> kushal, since we dont have any obsolete guidance in open source, blogging is considered as sharing the experience which can be used by others. correct me if i am wrong.
+[15:52:35] <himanshutechy> you have to write what you think even if you don't think it is going to work in readers or you don't know anyting about
+[15:52:35] <kushal> chshbh, yes, and you will learn with time.
+[15:52:43] <abhishekg5> kushal, I went so involved in it while reading, for a time I forgot there is a session going on :D Really good
+[15:53:40] <avik> i liked blog writing from the very first moment. since i dont know much i wrote what my knowledge could compile!
+[15:53:41] <jogi96_> Kushal: what are archaic commands?
+[15:53:42] <chshbh> kushal, still it requires lots of time. Grammar check, research, i dont know its like you need to give around 4-5 hours per blog, even more.
+[15:54:12] <avik> this blog kind of a enhanced it!
+[15:54:18] <kushal> chshbh, it depends, sometimes I write in few minutes, most of the time few hours.
+[15:54:25] <kushal> next
+[15:54:27] <akorep> kushal, I feel whatever I write may not always be on a technical point of view. My biased opinions on my blog could either lead to spreading false knowledge or inciting anger in people.
+[15:54:28] <kushal> next
+[15:54:29] <rohan_h> kushal,  Should technical and personal blogs be separate?
+[15:54:30] <avik> good one kushal ,thank you
+[15:54:48] <jogi96_> : Kushal: what are archaic commands?
+[15:55:05] <kushal> akorep, that case always mention on the top that this is what you think, this may not be right or others may think different.
+[15:55:15] <kushal> rohan_h, I have only one blog
+[15:55:19] <kushal> can be different
+[15:55:20] <aman_> nice post, my writing, is my voice :)
+[15:55:21] <kushal> can be same
+[15:55:42] <rohan_h> Okay :)
+[15:55:48] <joyita_c> finished reading nice post.
+[15:56:18] <sandeepmaity09> This blog really inspires me. I'm trained  in RHCA but never thought that I can write a blog. But after reading this blog i think there are many topics  on which i can write in my blog
+[15:56:25] <amitk_> writing is the best way to memorize
+[15:56:27] <D1mz> what major said is true because his blog is like a reference and guide to many people like me. Thanks to fedora planet, I found a good blog for people interested in system administration.
+[15:56:48] <code_geek> kushal, that was really good. I also thought that I'm not an expert on anything, how can I write. I guess I'll start by sharing my experiences about this training from time to time.
+[15:57:08] <code_geek> then write about other stuff
+[15:57:15] <abhishekg5> code_geek, yes, indeed
+[15:57:24] <code_geek> :)
+[15:58:08] <rahuldecoded_> Once I started writing blog when I was in 11th and newly introduced to programming language. I used to blog each and every concept I have read about. But no one there is to encourage me and even my CS faculty told me that I wasting my time there so I stopped writing. This post motivates me once again. :D
+[15:58:10] <kushal> jogi96_, even I don't know.
+[15:58:37] <jogi96_> Ok kushal :(
+[15:58:39] <tgadsing_> kushal,should i start writing blogs about simple technical things that i know?
+[15:58:42] <rahul_bajaj> what i feel is when you go for any interview or try to introduce yourself, you cant tell him/her every bits and pieces that you have learned but as well write it in your blog. Secondly, blog writing have increased my communication skills. According to me, blog writing is one of the most important elements of your existence in the open source world.
+[15:58:55] <chshbh> jogi96_ google.com
+[15:59:05] <rahul_bajaj> akorep, ^^
+[15:59:19] <kushal> tgadsing_, yes
+[15:59:39] <SpEcHiDe> jogi96_: https://www.google.co.in/search?q=archaic
+[15:59:43] <rahul_bajaj> s/has/have
+[15:59:55] <shalaka> really good.inspiring blog :)
+[16:00:00] <abhishekg5> rahuldecoded_, most teachers in schools/colleges do everything but teach
+[16:00:33] <kushal> haha
+[16:00:36] <code_geek> abhishekg5, +1
+[16:01:07] <akshays> like giving assignments and finding ways to screw you even if you are going something good
+[16:01:11] <pabitrapati> really nice points rahul_bajaj
+[16:01:23] <avik> kushal, can we show our blogs during an interview?
+[16:01:25] <rahuldecoded_> abhishekg5 :D
+[16:01:36] <sandeepmaity09> :-)
+[16:01:45] <avik> does it worth anything?
+[16:02:16] <sandeepmaity09> akshays +1
+[16:02:17] <shobhitaqua14> can we show our blog writing in resume?
+[16:02:24] <rohan_h> avik, Someone may see your blog and give you a interview call :)
+[16:02:32] <abhishekcs10_> avik, it can be your portfolio :)
+[16:02:49] <avik> :0
+[16:03:10] <kushal> avik, it should be part of your resume
+[16:03:17] <buvanesh_kumar> I think blogging is the identity for us to this internet world
+[16:03:25] <akorep> Besides, if I want to write something, it should be related to what I would like to, which is gaming. Over the years, I have seen that not many people share my passion for game development as I do, not even in FOSS. That makes me feel whether anyone really is interested in what I have to say, and due to personal experiences, I've learned that it is better to remain silent instead of wasting my time doing things no one really cares about.
+[16:04:01] <akorep> Sorry if I'm being a little too personal here.
+[16:04:38] <priyanka_> after reading the post, i think error in writing don't matter if we are devoted to that. We should keep on learning through our mistakes(errors), important thing is to correct them instead of feeling bad for that.
+[16:06:12] <avik> priyanka_, +1
+[16:07:02] <kushal> akorep, no problem.
+[16:07:08] <rohan_h> akorep, I'm also interested in Game development and know many people from Ubisoft. Just start a blog and write whatever you love, be it gaming or FOSS of FOSS gaming :)
+[16:07:10] <kushal> priyanka_, yes
+[16:07:19] <akash47> akorep, IMHO the point is to write something 'you' care about. So, if there is someone out there who has the same interests as you, he might learn a thing or two from you.
+[16:07:43] <kushal> akorep, btw, there are many foss games.
+[16:07:51] <kushal> I play a few of them regularly :)
+[16:08:00] <sayan> akorep: The thing is you might not know when someobdy notices you :)
+[16:08:02] <rohan_h> kushal, that's what i was saying :D
+[16:08:21] <kushal> rohan_h, :)
+[16:08:23] <Anandprakash> !
+[16:08:27] <yASH> Besides when you're feeling low if you go through your blog (past fun experiences) it can cheer you a lot and reminds who you are and what you've accomplished . Like kushal It really helps you keep track of a lot of things
+[16:08:38] <kushal> yASH, Yes :)
+[16:08:45] <sandeepmaity09> yASH +1
+[16:09:29] <kushal> https://kushaldas.in/posts/my-new-walking-desk.html
+[16:09:37] <kushal> :)
+[16:09:38] <kushal> yASH, ^^ :)
+[16:09:53] <yASH> akorep: I had the same feeling like you. I'm so into game development but I've decided to overcome it and wrote a few on getting started with game development and how fun it is . It really helps
+[16:10:06] <abhishekg5> rohan_h, kushal, sugarlabs is one I know but I am unaware about other open source organizations ? You might be knowing ?
+[16:10:20] <deep123k> Looks like this chat is more motivating than the blog
+[16:10:22] <amitk_> Kushal same like Mr.Linus Torvalds  :)
+[16:10:25] * lambainsaan_ has to go, will read the logs
+[16:10:35] <kushal> abhishekg5, there are many
+[16:10:44] <kushal> I will create another planet with the links of the blogs shared on the list.
+[16:10:52] <kushal> and will share the link back on the list.
+[16:11:59] <abhishekg5> kushal, I will ask you after the session
+[16:12:20] <deep123k> Kushal nice treadmill setup
+[16:13:49] <rohan_h> deep123k, i like the mouse stand more :D
+[16:13:50] <yASH> akorep, Digitalerr0r.wordpress.com  it's about game development and shader programming. I met him during Microsoft build. He shares the same passion. He works at Microsoft HQ, Redmond. It's really a cool blog that gave me a boost
+[16:13:55] <thisisashwani> kushal: just linke linus! :D
+[16:13:56] <rahuldecoded_> kushal great "jugaad" :D
+[16:14:04] <thisisashwani> s/linke/like
+[16:14:33] <akshays> thisisashwani +1
+[16:14:48] <pabitrapati> so funny kushal... nice jugaad :)
+[16:15:26] <akorep__> I'd start rambling about my personal life here, but I don't want to disturb the session. Thanks to all who reached out to me. I'll think about writing my blog after all. Don't expect me to be regular though, haha! Takes some time to write what I want to.
+[16:16:15] <yASH> Cool that seems to be a nice start. Be open to everything ^^
+[16:16:53] <kushal> akorep_, yes, it takes time.
+[16:17:20] <yASH> And nice one kushal  impressive. It's like one those life hacks that you can do with things lying around you
+[16:18:16] <kushal> Tomorrow it will be our first guest lecture of 2016 :)
+[16:18:25] <Richard99> wow!!!
+[16:18:32] <kushal> trishnag, will talk about her journey in FOSS and dgplug :)
+[16:18:36] <kushal> 6:30pm
+[16:18:41] <kushal> So don't miss it :)
+[16:18:50] <buvanesh_kumar> interesting
+[16:18:54] <himanshutechy> wow
+[16:18:55] <Richard99> :))
+[16:18:57] <yASH> Awesome !! I read her interview it was really interesting
+[16:19:19] <CuriousLearner> trishnag++
+[16:19:20] <himanshutechy> yeah me too
+[16:19:20] <SRvSaha> kushal: That's cool. Worth it else the way we end up sitting all day before Monitor like a couch potato *sigh*. Anyways, I loved your Keyboard,*_*
+[16:19:22] <trishnag> :-)
+[16:19:24] <rahul_bajaj> she is the best :D
+[16:19:58] <SRvSaha> Yeah she's quite cool. I have a regular visit in her Github repo and blog as well
+[16:19:59] <vharsh> Same time?
+[16:20:27] <joyita_c> will not miss... really awesome.
+[16:20:29] <sandeepmaity09> this is going to be really cool. :-)
+[16:20:30] <iKshitij_> vharsh 6:30 PM .
+[16:20:31] <kushal> next
+[16:20:34] <Anandprakash> I heard from some engineers that engineers can read anything but some engineers told me that blog should be compact, whats your suggestion about blog whether blog should me more technical,compact,well formated or friendly ?
+[16:21:36] <kushal> Anandprakash, for the first few years, just write :)
+[16:21:41] <buvanesh_kumar> i think it's not about the cover, it's about the contents Anandprakash, am i right?
+[16:21:43] <kushal> Don't worry so much.
+[16:22:01] <kushal> Ending roll call?
+[16:22:09] <amitk_> Amit Kokitkar
+[16:22:13] <buvanesh_kumar> Buvanesh Kumar
+[16:22:13] <priyanka_> Priyanka Sharma
+[16:22:14] <pragnavi> Pragnavi
+[16:22:17] <mbtamuli12> Mriyam Tamuli
+[16:22:19] <jogi96_> Jogender Kota
+[16:22:20] <jargonmonk> Aniket Khisti
+[16:22:21] <real56> Varsha R
+[16:22:21] <vharsh> Harsh Vardhan
+[16:22:21] <D1mz> Aditya Bayana
+[16:22:21] <mahesh5> Mahesh Gahlot
+[16:22:22] <rohan_h> Rohan Hazra
+[16:22:22] <akshays> Akshay Shipurkar
+[16:22:22] <abhishekcs10_> Abhishek Tiwari
+[16:22:23] <pabitrapati> Pabitra Pati
+[16:22:23] <ak_d> Akhilesh Dhaundiyal
+[16:22:24] <akorep> Akshay T S
+[16:22:26] <iKshitij_> AnandPrakash I personally love Well formatted, Simple and friendly. In short easy to understand for beginners and for techy too
+[16:22:28] <Anandprakash> Anandprakash Tandale
+[16:22:29] <chshbh> Avinash Madhukar
+[16:22:29] <suniva> Suniva Priyadarshini
+[16:22:29] <sneo> Sarah Masud
+[16:22:30] <shalaka> shalaka
+[16:22:31] <deep123k> Deepanshu Kapoor
+[16:22:32] <avik> Avik Mukherjee
+[16:22:33] <rahuldecoded_> Rahul Bhattacharjee
+[16:22:34] <aman_> Aman Kumar
+[16:22:34] <CuriousLearner> Sanyam Khurana
+[16:22:35] <shobhitaqua14> shobhit upadhyay
+[16:22:37] <rahul_bajaj> Rahul Bajaj
+[16:22:38] <Anandprakash> thanks all
+[16:22:39] <warlord77> sahil joseph
+[16:22:40] <iKshitij_> Kshitij
+[16:22:42] <akash47> Akash Mishra
+[16:22:44] <nishapoyarekar> Nisha Poyarekar
+[16:22:44] <lambainsaan_> Rhitik Bhatt
+[16:22:44] <gobinda_> Gobinda akhuli
+[16:22:50] <Anupama> Anupama Mandal
+[16:22:56] <code_geek_> Shantanu Acharya
+[16:23:00] <SRvSaha> Saurav Saha
+[16:23:03] <PrashantJ> Prashant Jamkhande
+[16:23:14] <sandeepmaity09> Sandeep Maity
+[16:23:15] <kushal> endclass
+[16:23:15] [## Class Ended at Thu Jun 30 16:23:15 2016 ##]

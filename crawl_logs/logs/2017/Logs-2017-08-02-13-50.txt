@@ -1,0 +1,134 @@
+----BEGIN CLASS----
+[13:50] <sayan> #startclass
+[13:50] <sayan> Roll Call
+[13:50] <RIcharD_> Mayank Gupta
+[13:50] <bhavin192> Bhavin Gandhi
+[13:50] <san-D> Sandesh Patel
+[13:50] <ghishadow> Suraj Ghimire
+[13:50] <NikitaK3> Nikita Kotak
+[13:50] <ikshitij> Kshitij
+[13:50] <samridhia> Samridhi Agarwal
+[13:50] <kvy> kumar vipin yadav
+[13:50] <Guest11596> atul kumar
+[13:50] <knrai> Krishnanand Rai
+[13:50] <akshayg96> Akshay Gaikwad
+[13:50] <abhinavshirur> Abhinav Shirur
+[13:51] <gauravsitlani> Gaurav Sitlani
+[13:51] <ashwanig> Ashwani Kumar Gupta
+[13:51] <sayan> Guest11596: change your nick
+[13:51] <asraisingh> Abhishek Singh
+[13:51] <ravindra> Ravindra Lakal
+[13:51] <mayur01> Mayur khomane
+[13:51] <sandeepK> sandeep kumar choudhary
+[13:51] <mdbk> Onyinye Madubuko
+[13:51] <vivek_> Vivek Anand
+[13:51] <anuGupta> Anu kumari Gupta
+[13:51] <balaji> Balaji
+[13:51] <avik> Avik Mukherjee
+[13:52] <skarpy> Akash pathak
+[13:52] <sayan> Note the link to the github repo in this link: https://etherpad.gnome.org/p/dgplug-2018
+[13:56] <cignatious> roll call: sharon
+[13:56] <bhavin192> sayan, PM?
+[13:56] <viksss> Vikas Mulaje
+[13:56] <jasonbraganza> Jason Braganza
+[13:57] <sayan> Only 2?
+[13:57] <sayan> what about others?
+[13:57] <pr97> Priyanka Sharma
+[13:57] <kushal> akshayg96, write more in the readme file
+[13:58] <akshayg96> kushal, okay I will
+[13:58] <kushal> akshayg96, also you never mentioned any license
+[13:58] <sayan> People can you please answer? I cannot really sit idle here staring at the screen
+[13:58] <avik> I am still working on in! :(
+[13:59] <akshayg96> kushal, I forgot that :(
+[13:59] <sayan> avik: you can put the github link atleast?
+[13:59] <samridhia> i did no new work on GitHub in last two days :-(
+[13:59] <avik> I am writing on the notebook
+[13:59] <_RicharD_> I did nothing. And got to work on this today. :/
+[14:00] <kushal> And others?
+[14:00] <sayan> avik: writing in a notebook?
+[14:00] <balaji> Shall I update it tomorrow ?
+[14:00] <sayan> balaji: why not today?
+[14:01] <avik> https://notebooks.azure.com/technotron/libraries/dgplug/html/number_converter.ipynb
+[14:01] <cignatious> i came back after almost 3 weeks and i am still catching up, sorry
+[14:01] <balaji> sayan,  I am not done yet
+[14:02] <ashwanig> Sorry, can I do it after the class? I have not started it.
+[14:02] <kushal> avik, that notebook is from 30minutes of work.
+[14:02] <anuGupta> I missed your question sayan
+[14:02] <NikitaK3> I missed last few sessions, catching up with the logs.
+[14:03] <avik> yeah, that took me 1 hour yesterday
+[14:03] <sayan> NikitaK3: if I remember correctly, you attended last class
+[14:03] <avik> and then a few more hours to get the logics
+[14:03] <ikshitij> sayan: I had classes and lab work ! I will update next day for sure.
+[14:03] <avik> of conversion
+[14:03] <santoshShaw> Roll Call: Santosh Kumar Shaw
+[14:04] <avik> kushal, Its all done, I will finish it by today!
+[14:04] <sayan> Seriously speaking, we all have jobs, classes, lab work or any other work you have
+[14:05] <NikitaK3> sayan, yes but I was unable to attend the entire last session. And also missed few sessions before the last one. I will surely finish all the logs till tomorrow.
+[14:05] <sayan> samridhia: I know your work because I am reading your blog regularly
+[14:06] <samridhia> sayan, ok
+[14:06] <sayan> samridhia: but you have to push your code
+[14:07] <mdbk> I'm new to python language, still getting around with the basics for more understanding
+[14:07] <sayan> mdbk: that means you need to come here and ask more questions
+[14:08] <kushal> Point is very simple: If you don't work, we will not care.
+[14:08] <samridhia> sayan, I am not yet so well versed with GitHub, so investing my most of the time experimenting GitHub for now.
+[14:08] <kushal> If we our lives, and we will be busy helping out people who really need help.
+[14:08] <mdbk> sayan: okay
+[14:08] <Guest11596> i missed some git sessions. was reading them yesterday.
+[14:09] <kushal> You will keep looking at them because they will become better, they will work better projects, and work on good jobs (in future, eventually) etc etc.
+[14:09] <sayan> Guest11596: I already told you to change your nick once
+[14:09] <bhavin192> Guest11596, may we know, who are you? :(
+[14:09] <kushal> No one is paying us to help you.
+[14:09] <Guest11596> atul kumar
+[14:09] <championshuttler> Shivam Singhal
+[14:09] <kushal> bhavin192, No we can not (at least that is what he thinks).
+[14:10] <kushal> championshuttler, What exactly are you smoking during the class?
+[14:10] <kushal> Please do it afterwards.
+[14:10] <kushal> You all are online, but doing nothing.
+[14:10] <kushal> Only 3 people submitted links to their github repos.
+[14:11] <kushal> It is okay if you are slow, and doing something taught in the old sessions, but there must be a blog post showing that.
+[14:11] <sayan> jasonbraganza came online to ask how was his code written
+[14:11] <ikshitij> kushal sayan I am doing now, writing a simple Dice game
+[14:11] <kushal> ikshitij, What did you do over the weekend?
+[14:12] <sayan> ikshitij: or rather last 2 days?
+[14:12] <sayan> If you see jasonbraganza did 33 commits: https://github.com/jasonbraganza/mjbneue/commits/master
+[14:12] <jasonbraganza> most of which are crap commits :P
+[14:13] <sayan> jasonbraganza: yes, but they are commits. I would give you suggestions on what to change
+[14:13] <kushal> jasonbraganza, Still better than most of these people here.
+[14:13] <bhavin192> jasonbraganza, I was happy to see your script running :)
+[14:13] <sayan> jasonbraganza: that's the way to do, write small changes
+[14:13] <kushal> There is blue pill for you all.
+[14:13] <kushal> We can not make you learn everything in one hour.
+[14:14] <sayan> I need proper reasons for me to take to class today?
+[14:14] <jasonbraganza> sayan - like God told Abraham, I would do it for 5 good people? :P
+[14:15] <kushal> jasonbraganza, we don't even have those 5
+[14:15] <sayan> jasonbraganza: and people would lag and lag more
+[14:16] <sayan> jasonbraganza: and then they won't understand stuffs
+[14:16] <jasonbraganza> yikes
+[14:17] <sayan> but they won't even ask questions
+[14:17] <sayan> so, I am canceling the class for the day but people need to stay online and complete the task
+[14:18] <sayan> and this is the last warning for all of you guys, all the tasks given in the class are IMPORTANT
+[14:18] <sayan> and needs to be completed within the given time
+[14:18] <sayan> Any questions
+[14:20] <sayan> santoshShaw: what link did you post?
+[14:20] <santoshShaw> I have missed some classes.So can I submit the assignments now?
+[14:21] <sayan> santoshShaw: then why did you post an old repo?
+[14:21] <santoshShaw> sayan sorry for the post
+[14:22] <sayan> Okay, so those people who missed the class they need to post their links by tomorrow
+[14:23] <santoshShaw> sayan : Thanks
+[14:23] <sayan> ^^ I will be running the script that checks the attendence of the students through the logs
+[14:23] <sayan> which will give who missed the classes
+[14:24] <sayan> and those who did not I want in next 2-3 hours
+[14:24] <sayan> if you have questions ask
+[14:25] <jasonbraganza> speaking of kushal & sayan not being paid, itâs easy to underestimate the value of what they are teaching us.
+[14:26] <asraisingh> sayan, I didn't attended complete previous session can I submit it by tomorrow?
+[14:26] <asraisingh> I'm going through last session log.
+[14:26] <jasonbraganza> trust me, a single online class membership is easily 2000 bucks a month. personal mentorship is 10 times that
+[14:27] <jasonbraganza> a full semester like kushal and sayan teach, can easily run into lacs!
+[14:27] <jasonbraganza> not counting the guests!
+[14:27] <jasonbraganza> There is gold to be had here! for free! if only you invest the time!
+[14:27] <bhavin192> jasonbraganza, yes, you are right!
+[14:27] <sayan> asraisingh: that would take 30 mins at max
+[14:27] <jasonbraganza> </endrant>
+[14:27] <kushal> jasonbraganza, that would be 4-5lakhs in total easily.
+[14:28] <asraisingh> sayan, ok
+----END CLASS----

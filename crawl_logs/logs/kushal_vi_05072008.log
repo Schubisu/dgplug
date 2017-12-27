@@ -1,0 +1,198 @@
+Jul 05 19:30:41 *	kushal has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | 7:30pm - More on tags - Kushal | 10:30pm Python introduction Kushal | <--CLASS STARTED-->
+Jul 05 19:30:46 <kushal>	Roll Call
+Jul 05 19:30:47 <sumitc>	kushal,http://rafb.net/p/zzPVQ727.html
+Jul 05 19:31:05 <sumitc>	Sumit Chakraborty
+Jul 05 19:31:05 <kushal>	kushal,http://rafb.net/p/zzPVQ727.html
+Jul 05 19:31:10 <kushal>	eh
+Jul 05 19:31:13 <Kishan>	kishan goyal
+Jul 05 19:31:38 <amrita>	amrita mukherjee
+Jul 05 19:31:53 *	deepu_ (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 05 19:32:37 <ecntrk_>	Debmalya Sinha
+Jul 05 19:32:59 *	makghosh has quit ("Mustbe Network Problem :).........Bye!!")
+Jul 05 19:33:05 <kushal>	anyone else ?
+Jul 05 19:33:58 <kushal>	I think we should do something on this daily attendance 
+Jul 05 19:34:15 *	ria (n=ria@219.64.67.94) has joined #dgplug
+Jul 05 19:34:34 <arpita>	arpita kapoor
+Jul 05 19:34:42 <ria>	Ria Das
+Jul 05 19:34:52 <rtnpro>	Ratnadeep Debnath
+Jul 05 19:36:06 <kushal>	ok, who all understood anything on tags ?
+Jul 05 19:36:51 *	Kishan has quit ("Leaving")
+Jul 05 19:37:43 *	Kishan (n=Kishan@218.248.70.235) has joined #dgplug
+Jul 05 19:37:49 <ria>	i had problems yesterday which were not looked into later
+Jul 05 19:37:50 <sumitc>	There is no log of the class on tags at http://www.dgplug.org/irclogs/
+Jul 05 19:37:51 <rtnpro>	l am not that confident...but I am trying to follow
+Jul 05 19:38:01 *	deepakBCREC has quit (Read error: 110 (Connection timed out))
+Jul 05 19:38:14 <kushal>	sumitc, yes, as it is students' duty to maintain their own log
+Jul 05 19:38:44 <sumitc>	what about those who missed out due to network problem?
+Jul 05 19:39:18 <kushal>	sumitc, their problem
+Jul 05 19:39:39 <ria>	my problem?
+Jul 05 19:39:40 <sumitc>	ok
+Jul 05 19:40:08 <kushal>	ria, let me check 
+Jul 05 19:40:24 <kushal>	others , please ask questions on tags if you have ?
+Jul 05 19:40:27 <ria>	kushal, how?
+Jul 05 19:40:48 <ecntrk_>	I missed, kushalda..
+Jul 05 19:40:59 <kushal>	ecntrk_, why \
+Jul 05 19:41:36 <ecntrk_>	kushal: I have a fever... and missed the first half...sorry..
+Jul 05 19:41:42 <kushal>	ria, I am loggin in your system 
+Jul 05 19:41:45 <kushal>	ecntrk_, its ok
+Jul 05 19:41:56 <ria>	kushal, ok
+Jul 05 19:42:03 <ria>	the files are in Download
+Jul 05 19:42:18 <kushal>	ok
+Jul 05 19:42:32 <kushal>	which folder /
+Jul 05 19:42:47 <ria>	Download/training
+Jul 05 19:43:13 <ria>	~/Download/training
+Jul 05 19:44:05 <arpita>	kushal, dada what is the significance of adding tags to .c and .h files??
+Jul 05 19:44:11 <arpita>	why do we do it?
+Jul 05 19:44:19 *	sumitc (n=chatzill@unaffiliated/sumitc) has left #dgplug
+Jul 05 19:44:58 *	sumitc (n=chatzill@unaffiliated/sumitc) has joined #dgplug
+Jul 05 19:45:57 <kushal>	arpita, we don't add tags to the files
+Jul 05 19:45:57 *	deepu has quit (Read error: 110 (Connection timed out))
+Jul 05 19:46:07 <kushal>	arpita, we use them to browse the code
+Jul 05 19:46:20 <kushal>	so that it becomes very easy to move arround 
+Jul 05 19:46:23 <kushal>	* around
+Jul 05 19:46:52 <arpita>	how do we browse the code?
+Jul 05 19:47:08 <kushal>	arpita, that is what I told last night 
+Jul 05 19:47:13 <kushal>	arpita, go check your logs
+Jul 05 19:47:37 <kushal>	ria, problem fixed, from now on please delete any swp file vi creates 
+Jul 05 19:47:49 <kushal>	ria, and also recreate  the tags file please 
+Jul 05 19:47:56 <arpita>	that entire process that we did in pyrfid.c was only the browsing of code??
+Jul 05 19:47:57 <ria>	kushal, ok
+Jul 05 19:48:10 *	sumitc (n=chatzill@unaffiliated/sumitc) has left #dgplug
+Jul 05 19:48:12 *	pushkal (n=chatzill@117.197.20.54) has joined #dgplug
+Jul 05 19:48:29 <kushal>	arpita, we never did anything in pyrfid.c , we just opened it in vi to browse the code 
+Jul 05 19:49:33 <rtnpro>	kushal, does that mean that if we don't create the tag file
+Jul 05 19:49:45 <ria>	:! ctags *.ch is this the command to create kushal ?
+Jul 05 19:49:46 <rtnpro>	kushal, then we can't use ctrl+
+Jul 05 19:49:52 *	drunkencoder (n=kushal@tazz.in) has joined #dgplug
+Jul 05 19:50:01 <kushal>	ria, yes
+Jul 05 19:50:08 <ria>	ok kushal
+Jul 05 19:50:15 <kushal>	ria, but wrong syntax 
+Jul 05 19:50:27 *	kd has quit ("http://www.mibbit.com ajax IRC Client")
+Jul 05 19:50:38 <ecntrk_>	kushal: !
+Jul 05 19:50:44 <kushal>	ecntrk_, yes please 
+Jul 05 19:51:00 <ria>	kushal, can you please say the syntax
+Jul 05 19:51:08 <ecntrk_>	Have you add the logs of the previous class, kushalda?
+Jul 05 19:51:08 <ria>	kushal, i dont have its logs
+Jul 05 19:51:14 <pushkal>	kushal: yesterdays logs are'nt there ?
+Jul 05 19:52:17 <kushal>	pushkal, no 
+Jul 05 19:52:18 <kushal>	not yet
+Jul 05 19:53:26 Python interface unloaded
+**** ENDING LOGGING AT Sat Jul  5 19:53:26 2008
+
+**** BEGIN LOGGING AT Sat Jul  5 19:53:44 2008
+
+Jul 05 19:53:44 *	Now talking on #dgplug
+Jul 05 19:53:44 *	Topic for #dgplug is:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | 7:30pm - More on tags - Kushal | 10:30pm Python introduction Kushal | <--CLASS STARTED-->
+Jul 05 19:53:44 *	Topic for #dgplug set by kushal at Sat Jul  5 19:31:23 2008
+Jul 05 19:54:12 *	kushal has quit (Nick collision from services.)
+Jul 05 19:54:12 -NickServ-	kushal has been ghosted.
+Jul 05 19:54:19 *	You are now known as kushal
+Jul 05 19:54:32 -NickServ-	You are now identified for kushal.
+Jul 05 19:54:32 *	services. sets mode +e kushal
+Jul 05 19:55:52 <kushal>	ria, ask others here 
+Jul 05 19:55:55 <kushal>	in the room 
+Jul 05 19:56:00 <ria>	kushal, i did it
+Jul 05 19:56:02 <kushal>	ok
+Jul 05 19:56:03 <ria>	kushal, over
+Jul 05 19:56:08 <kushal>	ria, no wtry 
+Jul 05 19:56:11 <kushal>	now try 
+Jul 05 19:56:34 <ria>	kushal, can you please say me what needs to be done in openpcd.c?
+Jul 05 19:56:39 <kushal>	ria, nothing 
+Jul 05 19:56:45 <ria>	ok
+Jul 05 19:57:09 <kushal>	ria, if you want to see how any variable /function is just move the cursor there, and use Ctrl + ]
+Jul 05 19:57:23 *	deepu__ (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 05 19:57:25 *	deepu__ is now known as deepu
+Jul 05 19:57:27 <ria>	kushal, please say me about the choice number
+Jul 05 19:57:35 <ria>	kushal, i did those things
+Jul 05 19:57:52 *	deepu_ has quit (Read error: 110 (Connection timed out))
+Jul 05 19:58:09 <kushal>	ria, if you have two definitions for something , then vi will give you options where you want to go 
+Jul 05 19:58:14 <ria>	in openpcd.c in 203th line i went to the structure and did ctrl + ]
+Jul 05 19:58:16 <rtnpro>	kushal, were my queries correct?
+Jul 05 19:58:23 <kushal>	choose any one of them and try
+Jul 05 19:58:37 <kushal>	rtnpro, can you please tell them again, I got disconnected 
+Jul 05 19:58:49 <rtnpro>	ok
+Jul 05 19:59:08 *	Subhodip has quit (Read error: 60 (Operation timed out))
+Jul 05 19:59:14 <ria>	ya got them
+Jul 05 19:59:29 <rtnpro>	kushal, does that mean that if we don't create the tag file then we can't use ctrl+]
+Jul 05 19:59:49 <kushal>	rtnpro, yes
+Jul 05 19:59:50 <rtnpro>	kushal, is it browsing you were telling to arpita ?
+Jul 05 19:59:57 <kushal>	rtnpro, yes,
+Jul 05 20:00:01 <rtnpro>	kushal, thanks
+Jul 05 20:00:01 *	susenj (n=chatzill@59.178.182.18) has joined #dgplug
+Jul 05 20:00:25 <kushal>	now like when you will get choices to make, you can use few other commands also 
+Jul 05 20:00:43 <kushal>	like
+Jul 05 20:00:53 <kushal>	:tfirst for the first choice 
+Jul 05 20:01:03 <kushal>	:tlast for the last choice 
+Jul 05 20:01:10 <kushal>	:tnext for the next choice 
+Jul 05 20:01:19 <kushal>	:tprevious for the previous choice
+Jul 05 20:01:24 <kushal>	everyone try this 
+Jul 05 20:01:58 <ria>	!
+Jul 05 20:04:00 <kushal>	ria, yes 
+Jul 05 20:04:09 <rtnpro>	ok
+Jul 05 20:04:12 <ria>	kushal, problem solved
+Jul 05 20:04:18 <ria>	<eof>
+Jul 05 20:04:38 <rtnpro>	kushal, with tfirst I went  to the structure
+Jul 05 20:04:42 <rtnpro>	!
+Jul 05 20:04:46 <ecntrk_>	!
+Jul 05 20:04:51 <kushal>	rtnpro, yes ?
+Jul 05 20:05:16 <rtnpro>	kushal, are all these things are in the same file
+Jul 05 20:05:26 <kushal>	rtnpro, which things >
+Jul 05 20:05:27 <kushal>	?
+Jul 05 20:05:29 <pushkal>	does anyone have the logs of the first 'tags' class ??
+Jul 05 20:05:51 <kushal>	pushkal, why don't you enable logging from now ?
+Jul 05 20:05:56 <rtnpro>	kushal, these functions and structures we are browsing
+Jul 05 20:06:03 <pushkal>	i have enabled logging already kushal
+Jul 05 20:06:08 <rtnpro>	kushal, using ctrl+]
+Jul 05 20:07:00 <rtnpro>	kushal, I see that the ffile pyrfid.c consists of only 128 lines
+Jul 05 20:07:11 <kushal>	rtnpro, it depends, in this example , only two files
+Jul 05 20:07:34 <rtnpro>	kushal, but using ctrl+] we go to the 200th line
+Jul 05 20:07:42 <rtnpro>	kushal, how?
+Jul 05 20:07:43 <kushal>	rtnpro, it also shows the filename ?
+Jul 05 20:07:50 <kushal>	rtnpro, for me yes
+Jul 05 20:08:52 *	pushkal has quit ("ChatZilla 0.9.83 [Firefox 2.0.0.15/2008062306]")
+Jul 05 20:08:53 <rtnpro>	kushal, where is this structure definition of opencd
+Jul 05 20:09:02 *	pushkal (n=chatzill@117.197.20.54) has joined #dgplug
+Jul 05 20:09:08 *	drunkencoder has quit ("Lost terminal")
+Jul 05 20:09:15 <rtnpro>	kushal, where do I see the filename?
+Jul 05 20:09:31 <kushal>	rtnpro, look at the vi, it shows
+Jul 05 20:09:47 <rtnpro>	kushal, I am in the vi
+Jul 05 20:10:04 <rtnpro>	kushal, and chose the 1st option
+Jul 05 20:10:20 <kushal>	rtnpro, use your brain to find it out 
+Jul 05 20:10:28 <rtnpro>	ok
+Jul 05 20:10:47 *	susenj has quit (Remote closed the connection)
+Jul 05 20:11:07 *	susenj (n=chatzill@59.178.182.18) has joined #dgplug
+Jul 05 20:11:07 <rtnpro>	kushal, but here its just the definition of a structure
+Jul 05 20:11:23 <kushal>	rtnpro, I think that is what you wanted to search
+Jul 05 20:12:14 <rtnpro>	kushal, but where is this definition situated...how do I see that?
+Jul 05 20:12:53 <rtnpro>	kushal, as I said the file pyrfid.c contains only 128 lines
+Jul 05 20:13:06 <rtnpro>	kushal, but now I am in line no. 203
+Jul 05 20:13:09 <kushal>	rtnpro, you find it out
+Jul 05 20:13:20 <rtnpro>	kushal, <eof>
+Jul 05 20:13:26 <ria>	rtnpro, its in openpcd.c
+Jul 05 20:13:31 *	susenj has quit (Read error: 104 (Connection reset by peer))
+Jul 05 20:13:42 <rtnpro>	thanks ria
+Jul 05 20:13:44 *	susenj (n=chatzill@59.178.182.18) has joined #dgplug
+Jul 05 20:14:18 *	Subhodip (n=subhodip@125.20.11.34) has joined #dgplug
+Jul 05 20:14:21 *	Prakhar (n=prakhar@122.163.71.124) has joined #dgplug
+Jul 05 20:14:27 <kushal>	rtnpro, when you press Ctrl + ] , in the new file it shows the name in the below left side 
+Jul 05 20:15:24 <kushal>	rtnpro, try ?
+Jul 05 20:15:32 <kushal>	anyone else 
+Jul 05 20:17:07 *	deepu has quit (Read error: 110 (Connection timed out))
+Jul 05 20:17:21 *	deepu__ (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 05 20:17:22 *	deepu__ is now known as deepu
+Jul 05 20:18:33 <kushal>	no questions ?
+Jul 05 20:18:53 <kushal>	now ctags can do tags for you for many languages
+Jul 05 20:19:37 <rtnpro>	kushal, gotit...thanks
+Jul 05 20:19:43 <kushal>	try ctags --list-languages 
+Jul 05 20:19:45 <kushal>	rtnpro, ok 
+Jul 05 20:20:51 <ria>	kushal, done
+Jul 05 20:20:56 <rtnpro>	done
+Jul 05 20:21:12 <kushal>	so you can see almost all languages are being covered :)
+Jul 05 20:21:32 *	deepu__ (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 05 20:24:44 <kushal>	so no questions /
+Jul 05 20:24:45 <kushal>	?
+Jul 05 20:27:27 <arpita>	the above command shows names of languages in which ctags can be created??
+Jul 05 20:27:51 <kushal>	arpita, no, languages which ctags understands 
+Jul 05 20:27:55 <kushal>	to create tags
+Jul 05 20:31:04 <kushal>	ok , then 
+Jul 05 20:31:15 <kushal>	<--CLASS OVER-->

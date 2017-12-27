@@ -1,0 +1,111 @@
+Jun 29 19:04:29 <kushal>	-- Session begins --
+Jun 29 19:04:32 <kushal>	Roll Call
+Jun 29 19:04:48 <parthachowdhury>	partha chowdhury
+Jun 29 19:04:50 <rtnpro>	Ratnadeep Debnath
+Jun 29 19:05:02 <mether>	Rahul Sundaram
+Jun 29 19:05:11 <anki1>	Ankit Sharma
+Jun 29 19:05:15 <Meejan>	Meejanur Rahaman
+Jun 29 19:05:39 <kishan>	kishan goyal
+Jun 29 19:05:45 *	priti has quit (Remote closed the connection)
+Jun 29 19:05:50 <kushal>	anyone else here for the session ?
+Jun 29 19:06:57 <mether>	I guess i can get started then
+Jun 29 19:06:58 <kushal>	Meejan, stage is yours , go ahead
+Jun 29 19:07:10 <mether>	kushal, --
+Jun 29 19:07:24 <spechard>	kushal: StÃ©phane PÃ©chard
+Jun 29 19:07:24 <kushal>	oops
+Jun 29 19:07:25 <mether>	see, that is a common mistake one could avoid
+Jun 29 19:07:54 *	kopecks (n=koyel@117.201.100.56) has joined #dgplug
+Jun 29 19:08:25 <mether>	So this session isn't about the technical details ( irssi vs xchat or whatever) but the social context of IRC in free software development and feedback
+Jun 29 19:08:27 *	aunkit (n=ankit@117.197.57.66) has joined #dgplug
+Jun 29 19:08:44 *	aunkit (n=ankit@117.197.57.66) has left #dgplug
+Jun 29 19:09:36 <mether>	IRC rooms such as this one provides a place for free software development discussions and Q&A to happen in real time
+Jun 29 19:10:11 <mether>	This is important for all of us since most of the development happens via the Internet and we need to ask and answer questions
+Jun 29 19:10:35 <mether>	However, people's time and attention is a scarce resource and it would be advisable to use it wisely
+Jun 29 19:11:22 <mether>	It is possible to track down many key developers in various important projects and ask them questions directly and such transparency is powerful but people are generally busy and before doing so, do your own research
+Jun 29 19:12:38 <mether>	A common problem I see often in IRC channels (and other forums) especially from people new to Linux in India is a formal tone
+Jun 29 19:12:44 *	parthachowdhury has quit ("WeeChat 0.2.6.3")
+Jun 29 19:13:21 <mether>	Students who are trained to  be polite and show respect often tend to assume that they should do so in IRC channels and mailing lists as well
+Jun 29 19:13:41 <mether>	This is often quite strange thing for other people and some might consider it even offensive
+Jun 29 19:14:16 *	parthachowdhury (n=parthach@59.93.209.222) has joined #dgplug
+Jun 29 19:14:23 <mether>	"Respected people of the Internet, May I ask a question here humbly in your LUG channel" isn't necessary
+Jun 29 19:14:34 <mether>	Just ask the question
+Jun 29 19:15:05 <mether>	Another annoyance is people who ask to ask (ie) Can I ask a question? or another variant, which is, Is anybody here using Linux?
+Jun 29 19:15:36 <no_mind>	Vivek Khurana :)
+Jun 29 19:16:01 <mether>	You don't need permission. Just describe the problem briefly, stick to the technical details, what you tried to do to solve the issue and provide any error messages specifically
+Jun 29 19:16:17 <mether>	"Foo doesn't work" is completely meaningless
+Jun 29 19:16:21 *	mageshcse (n=mahesh@122.174.120.177) has joined #dgplug
+Jun 29 19:16:25 *	kishan_ (n=kishan@117.99.46.38) has joined #dgplug
+Jun 29 19:17:01 <mether>	"When I restart, I get a message, evdev loops. system struck" is more meaningful
+Jun 29 19:17:15 <mether>	Another common mistake, is to get on a channel
+Jun 29 19:17:16 *	mageshcse just joined dgplug
+Jun 29 19:17:28 <mether>	and start asking personal questions about people in the room
+Jun 29 19:17:41 <mether>	who are you, where are you from etc
+Jun 29 19:17:59 <mether>	save such social banter for people who are somewhat familiar with
+Jun 29 19:18:45 <mether>	Internet provides some amount of anonymity and many people value their privacy. They don't need to tell you their age, sex, location. This is not a yahoo chat room
+Jun 29 19:19:10 *	sunny_slls (n=sunny@125.20.11.34) has joined #dgplug
+Jun 29 19:19:19 *	mageshcse waves hi to everyone 
+Jun 29 19:19:22 <mether>	yet another common mistake is to ask a question in the room
+Jun 29 19:19:34 <mether>	and when you get an answer, PM the person for more details or more questions
+Jun 29 19:19:43 >mageshcse,<	a session is going on 
+Jun 29 19:19:45 <mether>	this is intrusive and irritating
+Jun 29 19:19:57 *	priya has quit (Read error: 110 (Connection timed out))
+Jun 29 19:20:06 <mether>	when you get a answer in the room, you are expected to continue with discussions in the public room itself
+Jun 29 19:20:28 *	zer0c00l_ (n=zer0c00l@117.199.134.7) has joined #dgplug
+Jun 29 19:20:34 <mether>	this is important for various other reasons - people learn from each other, it provides a chance for anyone interested to answer your questions etc
+Jun 29 19:21:14 <mether>	The various rooms defer on the amount of things they tolerate
+Jun 29 19:21:27 <mether>	for example, in some rooms, it is ok to paste quite a bit of content directly in the channel
+Jun 29 19:21:42 <mether>	others require you to use a site like pastebin.net
+Jun 29 19:21:58 <mether>	the first thing you should do while getting into a new irc channel
+Jun 29 19:22:05 <mether>	is OBSERVE what is happening
+Jun 29 19:22:10 *	zer0c00l has quit (Read error: 110 (Connection timed out))
+Jun 29 19:22:20 <mether>	read the topic of the channel. /topic for those new to IRC
+Jun 29 19:22:37 <mether>	once you observe for sometime
+Jun 29 19:23:00 *	yevlempy (i=yevlempy@121.245.27.140) has joined #dgplug
+Jun 29 19:23:06 <mether>	feel free to help out. Others will reciprocate when it is more evident you are willing to do your part
+Jun 29 19:23:19 <anki1>	!
+Jun 29 19:23:24 <mether>	anki1, ask
+Jun 29 19:23:44 <anki1>	if my question is not answered then what to do
+Jun 29 19:24:18 <anki1>	many irc's dont allow to post questions more than once
+Jun 29 19:24:29 <mether>	good question
+Jun 29 19:24:53 <mether>	there is a social norm even if it isn't a rigid rule about how long one must wait before repeating the things if at all
+Jun 29 19:25:00 <mether>	in some channels, it is simply not allowed
+Jun 29 19:25:18 <mether>	but in most cases, I have seen, it is ok, as long as you don't mindlessly repeat it every few seconds
+Jun 29 19:25:30 <mether>	what is important here is to understand the perspective of others
+Jun 29 19:25:40 <mether>	if you keep repeating it, it shows a few things
+Jun 29 19:25:48 <mether>	1) you are impatient
+Jun 29 19:25:56 <mether>	2) you expect others to provide answers immediately
+Jun 29 19:26:17 <mether>	3) you don't do enough research
+Jun 29 19:26:30 <mether>	wait for a few mins
+Jun 29 19:26:34 <mether>	provide more details if you can
+Jun 29 19:26:43 <mether>	go look for other venues
+Jun 29 19:27:04 <mether>	remember that a single irc channel isn't usually the only option available
+Jun 29 19:27:25 <mether>	if it is a small project, it is extremely common to have only a half dozen people in the room
+Jun 29 19:27:36 <mether>	with a single developer in a time zone different from yours
+Jun 29 19:27:43 <mether>	try asking a few hours later
+Jun 29 19:27:49 <mether>	or look for forums or mailing lists
+Jun 29 19:28:10 <mether>	if it is a generic issue, your local lug or even your friend might be able to help you
+Jun 29 19:30:46 <mether>	if it is a bug, you might try reading the project bug tracker.
+Jun 29 19:32:04 <mether>	does anyone here have questions, feel free to ask
+Jun 29 19:32:50 *	kishan has quit (Read error: 110 (Connection timed out))
+Jun 29 19:33:09 *	kishan__ (n=kishan@117.99.59.142) has joined #dgplug
+Jun 29 19:34:27 <mether>	nobody home?
+Jun 29 19:34:32 <mether>	:-)
+Jun 29 19:34:50 <anki1>	yeah
+Jun 29 19:34:51 <kishan__>	I am here
+Jun 29 19:34:58 <kishan__>	got dc twice
+Jun 29 19:34:59 <anki1>	no questions
+Jun 29 19:35:00 <kushal>	questions please
+Jun 29 19:35:09 <rtnpro>	me too
+Jun 29 19:35:31 <mether>	somebody post up a log then and I will happily answer questions even later
+Jun 29 19:35:45 <kushal>	a quick roll call then 
+Jun 29 19:35:52 <kushal>	again for the students 
+Jun 29 19:35:53 <mether>	PS: You cannot afford to be shy on IRC
+Jun 29 19:36:02 <anki1>	Ankit Sharma
+Jun 29 19:36:03 <kishan__>	Kishan Goyal
+Jun 29 19:36:15 <rtnpro>	Ratnadeep Debnath
+Jun 29 19:36:18 <Meejan>	Meejanur Rahaman
+Jun 29 19:36:19 <sunny_slls>	Sunny Sharma
+Jun 29 19:36:24 <yevlempy>	harsh verma
+Jun 29 19:37:07 <kushal>	-- session ends-- 
+Jun 29 19:37:24 <kushal>	mether, thank you :)
+Jun 29 19:37:25 <spechard>	StÃ©phane PÃ©chard (late)

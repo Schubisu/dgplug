@@ -1,0 +1,677 @@
+[15:30:28] <mbuf> --------- git session begins ----------
+[15:30:30] --> vivek (n=vivek@117.201.98.228) has joined #dgplug
+[15:30:43] <mbuf> roll call! please tell your name
+[15:30:55] <kishan> Kishan Goyal
+[15:30:55] <vivek> vivek
+[15:30:55] <rtnpro> Ratnadeep Debnath
+[15:30:59] --> sunny_slls (n=sunny@125.20.11.34) has joined #dgplug
+[15:31:14] <kopecks> koyel banerjee
+[15:31:21] <parthachowdhury>  partha chowdhury
+[15:31:24] <hermes> Abhishek Sharma
+[15:31:28] <Meejan> Meejanur Rahaman
+[15:31:35] <sunny_slls> Sunny Sharma
+[15:31:49] <abhishekg> Abhishek Gupta
+[15:32:05] <mbuf> ok, thanks! here after if you need to talk you need to type '!';
+[15:32:07] <hermes> cd ..
+[15:32:13] <mageshcse> magesh
+[15:32:36] <spechard> StÃ©phane PÃ©chard
+[15:32:43] <mbuf> If you haven't downloaded the .pdf yet, please download the presentation from http://shakthimaan.com/downloads/glv/presentations/di-git-ally-managing-love-letters.pdf
+[15:33:16] <sunny_slls> hi spechard
+[15:33:29] <mbuf> sunny_slls: don't interpret!
+[15:33:49] <sunny_slls> mbuf, sorry
+[15:33:50] <mbuf> today session is an introduction on using git -- a decentralized source control management tool;
+[15:34:07] --> zer0c00l_ (n=zer0c00l@117.199.137.176) has joined #dgplug
+[15:34:15] <mbuf> this tool is very important for all, because, it helps in your workflows, or the way you are going to work;
+[15:34:37] <mbuf> I am going to address some basics concepts of the tool, so understanding these are important; once you understand the flow, it becomes really useful
+[15:35:22] <mbuf> this is not just for source code, but, can be used for your HOWTOs, documentation, assignments, research papers, thesis, and anything text-based that you need to keep track of the history of changes;
+[15:35:43] <-- debayan (n=debayan@61.95.198.26) has quit (Read error: 110 (Connection timed out))
+[15:35:59] <no_mind> roll call time
+[15:36:21] <mbuf> for your projects or documentation you can use http://git.fedoraproject.org/git/ or gitorious.org
+[15:36:28] <mbuf> no_mind: its been done!
+[15:36:48] <mbuf> to host your git repos; but, git is very useful to work without Internet connection;
+[15:37:10] <mbuf> you work with a local copy of the repo in your system itself!
+[15:37:38] <mbuf> the source of this presentation has also been put in a git repo, which you can get from: http://gitorious.org/di-git-ally-managing-love-letters/mainline/blobs/master/di-git-ally-managing-love-letters.tex ; it has been done in LaTeX and LaTeX-Beamer
+[15:37:59] <mbuf> --> #n, means slide number 'n'
+[15:38:06] <abhishekg> mbuf: is it a local repository at  localhost
+[15:38:10] --> kushal (n=kdas@fedora/kushal) has joined #dgplug
+[15:38:19] <mbuf> abhishekg: if you want to talk, type '!'
+[15:38:29] <mbuf> abhishekg: don't type your message straight away!
+[15:38:31] <abhishekg> mbuf:!
+[15:38:52] <mbuf> abhishekg: yes, it is a local repository at localhost
+[15:39:09] <mbuf> abhishekg: when you are done talking use 'eof'; these were addressed in the previous chat IRC logs;
+[15:39:24] <mbuf> --> #1
+[15:39:58] <mbuf> This is version 1.3 of the presentation; you are welcome to freely re-distribute the presentation or present it to your friends;
+[15:40:02] <-- sumitc (n=chatzill@unaffiliated/sumitc) has quit (Read error: 110 (Connection timed out))
+[15:40:04] <mbuf> --> #2
+[15:40:14] <mbuf> Please read the 'Warning'
+[15:40:30] <mbuf> --> #3
+[15:40:53] <mbuf> You have to initially define your user.name and e-mail address which will be used in git commits;
+[15:40:59] <mbuf> --> #4
+[15:41:31] <mbuf> these commands update your /home/<your-username>/.gitconfig file
+[15:41:37] <mbuf> --> #5
+[15:41:40] <mbuf> --> #6
+[15:41:43] <mbuf> --> #7
+[15:41:46] <mbuf> --> #8
+[15:41:54] <mbuf> or you can manually update your .gitconfig file;
+[15:42:19] <mbuf> I have setup a gl alias that I can invoke with git, "git gl" to show the commit logs in the slides;
+[15:42:29] <mbuf> we will use it in this presentation;
+[15:42:37] <mbuf> --> #9
+[15:42:57] <mbuf> I am only going to show how to manage love-letters, not write love letters :)
+[15:43:36] <mbuf> working tree defines our local directory structure, /
+[15:43:45] <mbuf> I am simply creating a directory love-letters
+[15:43:47] <mbuf> --> #10
+[15:43:59] <mbuf> --> #11
+[15:44:22] <mbuf> in this top-level love-letters directory, I am initializing a git repo;
+[15:44:36] <mbuf> it basically creates a .git directory in this top-level love-letters directory
+[15:45:01] <mbuf> --> #12
+[15:45:13] <mbuf> The command and the outputs are shown in different font style formats;
+[15:45:18] <mbuf> --> #13
+[15:45:20] --> karthick (n=karthick@59.96.30.64) has joined #dgplug
+[15:45:27] <mbuf> I am creating a new file called "to-my-dearest.txt"
+[15:45:42] <mbuf> so the working tree represents what you see in your directory
+[15:45:49] <mbuf> --> #14
+[15:46:14] <mbuf> I am making some changes to to-my-dearest.txt file, by editing it with any editor of my choice;
+[15:46:18] <mbuf> --> #15
+[15:46:48] <mbuf> The index is also known as the staging area; before you commit your love letter you want to stage it (for rehearsal, perhaps) before you commit to your local repo;
+[15:47:08] <hermes> !
+[15:47:10] <mbuf> so any change you make in the files are pushed to index, before committing to the repo;
+[15:47:13] <mbuf> hermes: shoot!
+[15:47:47] <mbuf> hermes: yes, what is your question?
+[15:47:55] <hermes> please elaborate the above 2 lines that u just typed ,
+[15:48:02] <hermes> I dint quite understand
+[15:48:04] <hermes> eof
+[15:48:33] <mbuf> hermes: let me finish one iteration, and if you still don't understand, type '!' again;
+[15:48:52] <hermes> mbuf : alright
+[15:49:05] <mbuf> so, I have made some changes to to-my-dearest.txt since I created it touch
+[15:49:15] <-- zer0c00l (n=zer0c00l@117.199.137.176) has quit (Read error: 113 (No route to host))
+[15:49:21] <mbuf> and before I commit it to my local repo, I am staging it with 'git add'
+[15:49:32] <-- no_mind (i=7aa38309@gateway/web/freenode/x-2cf763c7f1d80887) has quit ("Page closed")
+[15:49:41] <mbuf> git basically creates object references for the change; everything is stored in .git/ directory
+[15:49:48] <mbuf> --> #16
+[15:50:00] --> sa111 (i=3b601e40@gateway/web/freenode/x-872bd38ae2dc4a09) has joined #dgplug
+[15:50:03] --> no_mind (i=7aa38309@gateway/web/freenode/x-6f36f204128fe3fa) has joined #dgplug
+[15:50:05] <mbuf> that is how you commit the message; as you can see the change is in the repository
+[15:50:18] <mbuf> --> #17
+[15:50:25] <mbuf> --> #18
+[15:50:30] <mbuf> --> #19
+[15:50:44] <parthachowdhury> !
+[15:50:45] <mbuf> You can always check the status of the git repo using 'git status'
+[15:50:54] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[15:51:07] <mbuf> if it doesn't mention any warning, or error messages, your repo status is clean;
+[15:51:29] <mbuf> so, the basic idea is that one needs to make changes to your local files, add it to the index and then commit it to the repository;
+[15:51:30] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 104 (Connection reset by peer))
+[15:51:41] <mbuf> the use of index, is that if you don't want to commit things to the repo, you can backtrack;
+[15:52:00] <mbuf> one of the biggest mistakes that newbies do, that I have observed, is that they hack on the same code, again and again and again
+[15:52:15] <mbuf> so after two days, you ask them to revert their changes to what was two days back, they will not be able to do it;
+[15:52:21] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[15:52:44] <mbuf> but, committing code locally, often and repeatedly, will help one to revert  back the commit, or see what changes have been made, and what can be undone;
+[15:53:18] <mbuf> what are the commands that are used for this workflow between working tree, index and repo is what we will see here today; you may or may not use everything in real-life, but, it is good to know;
+[15:53:20] <mbuf> parthachowdhury: shoot!
+[15:53:35] <parthachowdhury> what is 958d5ac ?
+[15:53:51] <mbuf> parthachowdhury: that is a SHA1 commit number;
+[15:53:57] <parthachowdhury> !
+[15:54:01] <mbuf> parthachowdhury: for every commit you make a unique number is generated
+[15:54:06] <mbuf> parthachowdhury: wait, let me finish;
+[15:54:14] <parthachowdhury> ok
+[15:54:17] <mbuf> parthachowdhury: this is used to identify your unique commit;
+[15:54:32] <parthachowdhury> is it the object reference ?
+[15:54:42] <mbuf> parthachowdhury: I said wait!
+[15:55:10] <mbuf> parthachowdhury: so if someone else copies your repository, which includes the .git repo, and your history of changes, they will see your commit messages;
+[15:55:27] <mbuf> parthachowdhury: we will not go into git internals, as that is left as an exercise, and not in the scope of this session;
+[15:55:44] <mbuf> parthachowdhury: git doesn't track files, unlike what cvs and svn do; it tracks content changes
+[15:55:51] --> vivek_ (n=vivek@117.201.101.73) has joined #dgplug
+[15:55:55] <mbuf> parthachowdhury: so each commit is only info on the change that you have done;
+[15:56:06] <mbuf> --> #20
+[15:56:06] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 104 (Connection reset by peer))
+[15:56:12] <mbuf> --> #21
+[15:56:27] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[15:56:31] <mbuf> so git gl shows use the first commit that we made, with the commit message "FIrst commit"
+[15:56:34] <hermes> !
+[15:56:43] <mbuf> just a brief message to fit in the slide;
+[15:56:44] <mbuf> hermes: shoot!
+[15:57:07] <hermes> mbuf : you said that it is a SHA1 commit number which is unique
+[15:57:16] <hermes> mbuf :what is SHA1 ?
+[15:57:17] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 104 (Connection reset by peer))
+[15:57:19] <hermes> mbuf :eof
+[15:57:27] <-- karthick (n=karthick@59.96.30.64) has quit ("Leaving")
+[15:57:30] <mbuf> hermes: you can google that?
+[15:57:36] <sunny_slls> !
+[15:57:41] <hermes> mbuf : alright
+[15:57:45] <mbuf> sunny_slls: shoot!
+[15:57:47] <-- vivek (n=vivek@117.201.98.228) has quit (Read error: 104 (Connection reset by peer))
+[15:57:49] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[15:58:03] <mbuf> hermes: http://en.wikipedia.org/wiki/SHA_hash_functions read later!
+[15:58:16] <sunny_slls> mbuf, suppose i wan't to make some changes in the .txt file
+[15:58:40] <sunny_slls> but the changes are not done properly so will it backtrack
+[15:58:51] <sunny_slls> or in other words revert
+[15:58:51] <mbuf> sunny_slls: we will see those use cases next;
+[15:59:11] <mbuf> sunny_slls: there is a lot of workflows of what you mean by 'revert' -- everything will be addressed next;
+[15:59:13] <abhishekg> !
+[15:59:18] <mbuf> abhishekg: shoot!
+[15:59:30] <sunny_slls> also you said about the errors that newbies make
+[15:59:30] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 104 (Connection reset by peer))
+[15:59:39] <sunny_slls> about editing
+[15:59:44] <abhishekg> I   have installed git on opeensuse 11
+[15:59:47] <abhishekg> but it doees
+[15:59:50] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[15:59:53] <abhishekg> not have gl
+[15:59:56] <abhishekg> eof
+[16:00:12] <zer0c00l_> !
+[16:00:59] <mbuf> abhishekg: this is not the time to answer installation and configuration problems;
+[16:01:16] <mbuf> abhishekg: you should have put your gl alias in .gitconfig in your home directory
+[16:01:25] <mbuf> abhishekg: or you could have sent an e-mail to the mailing list group
+[16:01:25] <sunny_slls> !
+[16:01:29] <mbuf> zer0c00l_: shoot!
+[16:01:46] <mbuf> abhishekg: before coming to the session;
+[16:01:47] <zer0c00l_> mbuf, same as abhishekg will correct it <eof>
+[16:01:55] <mbuf> sunny_slls: shoot!
+[16:02:01] <sunny_slls> also you said about the errors that newbies make in editing files
+[16:02:33] <mbuf> sunny_slls: yes; they cannot revert back after changing code; for larger code bases;
+[16:02:36] <sunny_slls> if suppose we have got make several changes in a file then how can we do it
+[16:02:52] <mbuf> sunny_slls: all these will be addressed next;
+[16:02:58] <sunny_slls> ok
+[16:03:07] <sunny_slls> eof
+[16:03:09] <mbuf> sunny_slls: first understand the workflow, you can try to use git practically, at the end of the session;
+[16:03:26] <mbuf> please understand how things work, you can play with git after the session
+[16:03:44] <mbuf> ask only questions pertaining to the workflow; I shall not take any other questions;
+[16:04:00] <mbuf> --> #22
+[16:04:03] <mbuf> --> #23
+[16:04:34] <mbuf> git show gives a more detailed log output, where you can see your username, e-mail given as Author, Date, commit message, SHA-1 number and diff change
+[16:04:34] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 54 (Connection reset by peer))
+[16:04:39] <mbuf> --> #24
+[16:04:42] <mbuf> --> #25
+[16:04:50] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[16:04:52] <mbuf> always good to check status
+[16:05:02] <mbuf> --> #26
+[16:05:14] <mbuf> Now we try to write a love letter to raaani-mukerji.txt, so I create a new file
+[16:05:23] <mbuf> --> #27
+[16:05:50] <mbuf> 'git diff' shows the difference between working tree and index;
+[16:05:59] <mbuf> --> #28
+[16:06:30] <mbuf> 'git diff --cached' shows the difference between index and HEAD; in other words, it tells whatever will be committed, on the changes that you added to index using 'git add'
+[16:06:38] <mbuf> --> #29
+[16:07:17] <mbuf> 'git diff HEAD' shows the difference between working tree and HEAD;
+[16:07:22] <mbuf> --> #30
+[16:07:28] <mbuf> --> #31
+[16:07:49] <mbuf> Since we add a file to working tree, git status is showing that there is an untracked file; tracked files are in the index;
+[16:07:56] <mbuf> --> #32
+[16:08:07] <mbuf> so we add the raaani-mukerji.txt love letter to the index;
+[16:08:18] <mbuf> --> #33
+[16:08:18] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 104 (Connection reset by peer))
+[16:08:48] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[16:08:52] <mbuf> because nothing was there in index with respect to raaani-mukerji.txt, there s no diff output
+[16:08:55] <mbuf> --> #34
+[16:09:01] <mbuf> --> #35
+[16:09:22] <mbuf> because 'git diff --cached' shows what will be committed next, if you commit, it shows the change;
+[16:09:26] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 104 (Connection reset by peer))
+[16:09:28] <mbuf> --> #36
+[16:09:34] <mbuf> --> #37
+[16:09:45] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[16:10:17] <mbuf> since we have already added the file to index, 'git diff HEAD' will show the difference because, it also shows what will be committed if you did 'git commit -a -m 'message'
+[16:10:24] <mbuf> --> #38
+[16:10:37] <mbuf> again check git status, to see what git says
+[16:10:57] <mbuf> now our file is in index, so we can commit as we did with our first commit or we can revert;
+[16:11:06] <mbuf> --> #39
+[16:11:11] <mbuf> --> #40
+[16:11:23] <mbuf> raani-mukerji doesn't want to date me;
+[16:11:24] <mbuf> --> #41
+[16:11:38] <mbuf> so we simply try to remove the love letter
+[16:11:44] <mbuf> --> #42
+[16:12:02] <mbuf> because we have staged it to the index, git gives us the error
+[16:12:04] <mbuf> --> #43
+[16:12:14] <mbuf> so we force remove it;
+[16:12:15] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 104 (Connection reset by peer))
+[16:12:17] <mbuf> --> #44
+[16:12:27] <mbuf> --> #45
+[16:12:34] <mbuf> --> #46
+[16:12:41] --> djthequest (i=daf85072@gateway/web/freenode/x-1c9fc357ba035987) has joined #dgplug
+[16:12:44] --> sumitc (n=chatzill@unaffiliated/sumitc) has joined #dgplug
+[16:12:45] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[16:12:48] <mbuf> so we see the file has been removed from index and the working tree;
+[16:12:55] <mbuf> --> #47
+[16:12:58] <mbuf> --> #48
+[16:13:02] <mbuf> our working tree is clean;
+[16:13:23] <mbuf> this was a workflow to show a file that you staged and then removed, because you didn't want to keep the file;
+[16:13:33] <mbuf> --> #49
+[16:13:43] <mbuf> Now we try our luck with nayantaara
+[16:13:49] <mbuf> --> #50
+[16:13:53] <hermes> !
+[16:13:54] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 104 (Connection reset by peer))
+[16:13:58] <mbuf> hermes: shoot!
+[16:14:25] <hermes> force deleting essentially deletes the entry from index for 'rani'
+[16:14:32] <hermes> ?
+[16:14:34] <hermes> eof
+[16:14:45] <mbuf> hermes: yes
+[16:14:56] <mbuf> hermes: and also the file from your folder
+[16:15:11] <hermes> ya sure
+[16:15:26] <mbuf> index is only a collection of object references on the changes;
+[16:15:31] <mbuf> --> #51
+[16:16:02] <mbuf> If we just want to remove from the caching staged (index) area, but, still want to retain it in the folder, we can use 'git rm --cached filename'
+[16:16:14] <mbuf> --> #52
+[16:16:16] <mbuf> --> #53
+[16:16:19] <mbuf> --> #54
+[16:16:25] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[16:16:39] <mbuf> so we now don't have the object references in the index for nayantaaara.txt, but the file exists in the directory;
+[16:16:52] <mbuf> --> #55
+[16:17:00] <mbuf> --> #56
+[16:17:09] <mbuf> no difference, and hence no output
+[16:17:24] <mbuf> --> #57
+[16:17:27] <mbuf> same as above;
+[16:17:31] <mbuf> --> #58
+[16:17:38] <mbuf> --> #59
+[16:17:39] <-- mavu_ (n=mavu@59.178.189.159) has quit (Read error: 110 (Connection timed out))
+[16:17:52] --> mavu_ (n=mavu@59.178.161.154) has joined #dgplug
+[16:18:03] <mbuf> since we have added the file to the directory, but is not tracked (to index), git says you need to add it to the index;
+[16:18:10] <mbuf> --> #60
+[16:18:19] <mbuf> make love doesn't work with Nayantaaara
+[16:18:25] <mbuf> --> #61
+[16:18:49] <mbuf> since the object reference has already been removed from the index, we can simply remove the file;
+[16:18:50] <mbuf> --> #62
+[16:19:01] <mbuf> --> #63
+[16:19:02] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 104 (Connection reset by peer))
+[16:19:04] <mbuf> --> #64
+[16:19:13] <mbuf> checking git status, just to check if our repo is clean;
+[16:19:23] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[16:19:46] <mbuf> so this was a case where we added a file to the index, but, temporarily removed it from the index, because, we could make more changes; but, since we didn't want to make any change, we simply removed it;
+[16:19:52] <mbuf> --> #65
+[16:20:07] <mbuf> we try a new letter for raaani-mukerji
+[16:20:10] <mbuf> --> #66
+[16:20:19] <mbuf> we add it to the index;
+[16:20:25] <mbuf> --> #67
+[16:20:46] <mbuf> But, she already rejected me. I forgot! So, we just rename the love letter so we can write a love letter to aishvarya-ray
+[16:20:52] <mbuf> you use 'git mv' for it;
+[16:21:01] <mbuf> yes, it works when you have added the file already to the index!
+[16:21:10] <mbuf> --> #68
+[16:21:42] <mbuf> instead of git rm, you can use 'git reset HEAD file', in case, you feel that you might mistakenly use rm to remove a file
+[16:21:57] <mbuf> in this case, 'git reset HEAD file' does the same as 'git rm --cached file'
+[16:22:10] <mbuf> --> #69
+[16:22:22] <mbuf> --> #70
+[16:22:25] <mbuf> --> #71
+[16:22:33] <mbuf> no differences, so no output;
+[16:22:36] <mbuf> --> #72
+[16:22:41] <mbuf> --> #73
+[16:22:42] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 54 (Connection reset by peer))
+[16:23:05] <mbuf> since we add a file aishvarya-ray.txt, but, it has not been staged to the index and is thus untracked, git is saying there is an untracked file;
+[16:23:11] <mbuf> --> #74
+[16:23:22] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[16:23:30] <mbuf> Aishvarya Ray is married! I didn't know that until now :(
+[16:23:32] <mbuf> --> #75
+[16:23:48] <mbuf> --> #76
+[16:23:50] <mbuf> so I just remove the file;
+[16:23:56] <mbuf> --> #77
+[16:24:03] <mbuf> --> #78
+[16:24:05] <mbuf> --> #79
+[16:24:13] <mbuf> our local repo is clean;
+[16:24:19] <mbuf> --> #80
+[16:24:31] <mbuf> now, let us try to write a letter to pretty-zinta;
+[16:24:36] <mbuf> --> #81
+[16:24:50] <sunny_slls> !
+[16:24:50] <mbuf> I feel the letter is satisfactory, and I want to add it to the index;
+[16:25:00] <mbuf> --> #82
+[16:25:17] <mbuf> I feel I can give this letter a shot at, and so I commit it to the local repo;
+[16:25:23] <mbuf> --> #83
+[16:25:29] <mbuf> sunny_slls: shoot!
+[16:26:13] <sunny_slls> please explain the git reset head file   since the file raani mukerjee was removed from the folder which it is rejected when created later?
+[16:26:15] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 104 (Connection reset by peer))
+[16:26:19] <sunny_slls> <eof>
+[16:26:45] <mbuf> sunny_slls: rejected is just a joke that I made;
+[16:26:58] <mbuf> sunny_slls: that is a use case scenario, where you have added a file to the index, and realized you mistakenly named it something else
+[16:27:08] <mbuf> sunny_slls: so if you want to rename it, you use 'git mv'
+[16:27:25] <mbuf> sunny_slls: git reset HEAD file, is like resetting the HEAD (part of git)
+[16:27:36] <mbuf> sunny_slls: which is the same pattern as 'git rm --cached'
+[16:27:52] <mbuf> sunny_slls: git has two pointers, HEAD and master;
+[16:28:00] <mbuf> sunny_slls: HEAD and master always point to the latest commit;
+[16:28:05] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[16:28:16] <mbuf> sunny_slls: there are scenarios where they can point to different things;
+[16:28:19] <mbuf> sunny_slls: we'll come to that;
+[16:28:23] <mbuf> sunny_slls: <eof>
+[16:28:31] <-- samar (n=samar-ad@115.108.6.29) has quit ("Ex-Chat")
+[16:28:35] <mbuf> --> #84
+[16:28:40] <mbuf> --> #85
+[16:29:00] <mbuf> so, now you see that we have made a second commit, and that is shown first (on the top)
+[16:29:15] <mbuf> so every time you feel you are satisfied with your work, you make a commit;
+[16:29:24] <mbuf> --> #86
+[16:30:19] <mbuf> HEAD is the current pointer or reference; HEAD^ points to the previous HEAD
+[16:30:54] <mbuf> so what 'reset --soft' does is rever the changes such that it keeps the changes in the index;
+[16:31:16] <mbuf> and because we used HEAD^, HEAD is shifted to the previous value that it had;
+[16:31:21] <mbuf> --> #87
+[16:31:25] <mbuf> --> #88
+[16:31:43] <mbuf> as you can see HEAD is now in the first commit;
+[16:32:04] <mbuf> --> #89
+[16:32:04] <mbuf> --> 90
+[16:32:13] <mbuf> 'reset --soft' keeps the changes in the index, and the files are retained in the working directory;
+[16:32:19] <mbuf> --> #91
+[16:32:27] <hermes> !
+[16:32:29] <mbuf> now, it is interesting to see the diff outputs;
+[16:32:30] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 104 (Connection reset by peer))
+[16:32:31] <-- kishan (n=kishan@117.99.63.16) has quit (Remote closed the connection)
+[16:32:33] <mbuf> hermes: shoot!
+[16:32:49] <hermes> why did we shift the head back to the first commit
+[16:33:01] --> SkyRocknRoll (n=chatzill@122.164.52.232) has joined #dgplug
+[16:33:03] <hermes> I mean what are we trying to achieve by doing that
+[16:33:04] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[16:33:05] <hermes> eof
+[16:33:10] <mbuf> hermes: because we are undoing our last commit or the most recent one!
+[16:33:26] <mbuf> hermes: let's say you made a commit in a hurry, and you want to undo or redo it!
+[16:33:38] <hermes> alright, i get it
+[16:33:40] <hermes> eof
+[16:33:48] <mbuf> hermes: you rever the repository HEAD to the previous one, while the last changes you made are still in the working tree;
+[16:33:49] <mbuf> hermes: :)
+[16:33:55] <mbuf> *revert
+[16:34:05] <mbuf> --> #92
+[16:34:08] <mbuf> --> #93
+[16:34:25] --> kishan (n=kishan@117.99.59.7) has joined #dgplug
+[16:34:28] <mbuf> 'diff --cached' shows the difference clearly;
+[16:34:31] <mbuf> --> #94
+[16:34:37] <mbuf> --> #95
+[16:34:50] <mbuf> shows what will be committed if you did 'git commit -a -m message'
+[16:34:50] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 104 (Connection reset by peer))
+[16:34:58] <mbuf> --> #96
+[16:35:05] <mbuf> --> #97
+[16:35:24] <mbuf> good to check status, if you are not sure what the git repo state is in;
+[16:35:58] <mbuf> it says you have some changes in the index, to undo you can reset HEAD -- which will remove from index, but, still keep the files in the working directory;
+[16:36:03] <mbuf> --> #98
+[16:36:14] <mbuf> --> #99
+[16:36:21] <mbuf> --> #100
+[16:36:28] <mbuf> or make some changes to satisfy pretty zinta
+[16:36:36] <mbuf> --> #101
+[16:36:43] <mbuf> --> #102
+[16:36:49] <mbuf> and we commit the message;
+[16:36:50] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[16:36:59] <mbuf> note now the commit SHA1 message will be a new number;
+[16:37:19] <mbuf> earlier it was 661bc09...
+[16:37:29] <mbuf> --> #103
+[16:37:32] <mbuf> --> #104
+[16:37:40] <mbuf> now it is c66e7f1...
+[16:37:45] --> Samsung (i=Samsung@115.108.6.29) has joined #dgplug
+[16:37:49] <mbuf> --> #105
+[16:38:07] <mbuf> now let's say I made a mistake in the commit message; I want to fix it
+[16:38:13] <mbuf> --> #106
+[16:38:18] <mbuf> --> #107
+[16:38:25] <mbuf> you use 'git commit --amend'
+[16:38:32] <mbuf> --> #108
+[16:38:34] <mbuf> --> #109
+[16:38:47] <mbuf> again note the new SHA-1 value;
+[16:38:52] <mbuf> --> #110
+[16:38:55] <mbuf> --> #111
+[16:38:58] <mbuf> just checking for status;
+[16:39:07] <mbuf> --> #112
+[16:39:15] <mbuf> now I am making some more changes in pretty-zinta.txt
+[16:39:19] <mbuf> --> #113
+[16:39:58] <mbuf> because, there were some changes in pretty-zinta.txt in the index before and now in the working directory, git diff shows the changes;
+[16:40:04] <mbuf> --> #114
+[16:40:04] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 104 (Connection reset by peer))
+[16:40:13] <mbuf> nothing is added to index, so no change in the output;
+[16:40:18] <mbuf> --> #115
+[16:40:23] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[16:40:26] <mbuf> --> #116
+[16:40:50] <mbuf> because, we have added some changes to the working directory, and pretty-zinta.txt is already tracked in the repo, 'diff HEAD' shows the changes;
+[16:40:56] <mbuf> --> #117
+[16:41:10] <mbuf> But, I couldn't find Pretty Zinta to give the love letter; how sad!
+[16:41:13] <mbuf> --> #118
+[16:41:22] <mbuf> --> #119
+[16:41:45] <mbuf> now we totally remove the committed entry in the repo _and_ in the working tree using 'reset --hard'
+[16:41:49] <mbuf> --> #120
+[16:41:56] <mbuf> --> #121
+[16:41:59] <mbuf> --> #122
+[16:42:04] <mbuf> --> #123
+[16:42:07] <mbuf> --> #124
+[16:42:30] <mbuf> so, this was a use case, where you completely undo a previous commit from the local repo, and also the changes from your working directory;
+[16:42:44] <mbuf> this is something that you will probably use often, if you don't want to keep whatever changes you have made;
+[16:42:56] <mbuf> --> #125
+[16:43:00] <mbuf> --> #126
+[16:43:03] <mbuf> --> #127
+[16:43:10] <mbuf> --> #128
+[16:43:13] <mbuf> --> #129
+[16:43:18] <mbuf> --> #130
+[16:43:28] <mbuf> these are examples of using 'grep' command with git;
+[16:43:44] <mbuf> these will search source files as well as git objects (called as blobs)
+[16:43:51] <mbuf> for any search pattern that you specify;
+[16:43:57] <mbuf> --> #131
+[16:44:07] <mbuf> --> #132
+[16:44:09] <mbuf> --> #133
+[16:44:14] <mbuf> --> #134
+[16:44:19] <mbuf> --> #135
+[16:44:22] <mbuf> --> #136
+[16:44:23] <mbuf> --> #137
+[16:44:35] <mbuf> there are different ways to see previous commit and log messages;
+[16:44:45] <mbuf> these are few examples;
+[16:45:07] <mbuf> --> #138
+[16:45:09] <mbuf> --> #139
+[16:45:12] <mbuf> --> #140
+[16:45:15] <mbuf> --> #141
+[16:45:19] <mbuf> --> #142
+[16:45:32] <mbuf> git show also produces nice output; I can't show everything on a slide though;
+[16:45:40] <mbuf> when you practice after the session, you can play with these :)
+[16:45:41] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 104 (Connection reset by peer))
+[16:45:46] <mbuf> --> #143
+[16:46:15] <mbuf> sometimes you are working on a change, and you suddenly have something more important to try; but, you don't want to discard the changes you have made;
+[16:46:23] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[16:46:24] <mbuf> so you simply 'stash' it, or leave it aside;
+[16:46:30] <mbuf> to do that you use 'git stash'
+[16:46:35] <-- Shrink (n=sgupta@redhat/shrink) has quit (Read error: 113 (No route to host))
+[16:46:37] <mbuf> --> #144
+[16:46:45] <mbuf> even this has an identifier;
+[16:46:50] <mbuf> --> #145
+[16:46:53] <mbuf> --> #146
+[16:47:03] <mbuf> --> 147
+[16:47:13] <mbuf> whatever changes you make are local and not affected by your stashed changes;
+[16:47:43] <mbuf> once you are done and you want to reapply the work that you left aside, you can just apply it back using 'git stash apply'
+[16:47:45] <mbuf> --> #148
+[16:47:56] <mbuf> --> #149
+[16:47:57] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 104 (Connection reset by peer))
+[16:47:59] <mbuf> --> #150
+[16:48:28] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[16:48:29] <mbuf> It says I have modified the file, to-my-dearest.txt, so I need to add it before committing; I just use 'commit -a -m' to do it in one shot;
+[16:48:35] <mbuf> --> #151
+[16:48:53] <mbuf> tagging is important if you want a label for a particular commit;
+[16:48:57] <mbuf> --> #152
+[16:49:10] <mbuf> --> #153
+[16:49:14] <mbuf> --> #154
+[16:49:26] <mbuf> just 'git tag' will list the tags
+[16:49:36] <mbuf> --> #155
+[16:49:39] <mbuf> --> #156
+[16:49:45] <mbuf> --> #157
+[16:49:57] <mbuf> Remove the tag using 'tag -d'
+[16:49:58] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 104 (Connection reset by peer))
+[16:50:01] <mbuf> --> #158
+[16:50:05] <mbuf> --> #159
+[16:50:22] --> yevlempy (n=yevlempy@124.124.157.94) has joined #dgplug
+[16:50:24] <mbuf> if you want your friend to use a particular tag release of your code, you can refer the same
+[16:50:35] <mbuf> and hence, one can use it for references;
+[16:50:44] <mbuf> --> #160
+[16:50:51] <hermes> !\
+[16:50:53] <mbuf> sometimes, when you are working with huge projects, and you are new developer
+[16:51:21] <mbuf> they might only accept patches, so you can use the git-format-patch command to get the change you made and send it via e-mail
+[16:51:23] <mbuf> hermes: shoot!
+[16:51:37] <mbuf> --> #161
+[16:51:39] <mbuf> --> #162
+[16:51:43] <mbuf> --> #163
+[16:51:46] <mbuf> --> #164
+[16:51:55] <mbuf> these show how a git patch looks like;
+[16:51:58] <hermes> what if i want to add a tag to some other identifier
+[16:52:00] --> akuscifi007 (n=akuscifi@122.162.82.58) has joined #dgplug
+[16:52:13] <hermes> not to what head is currently pointing
+[16:52:14] <hermes> eof
+[16:53:09] <mbuf> hermes: git has lot of command options; and each command has lot of options which are described in detail with examples in their manual page;
+[16:53:22] <mbuf> hermes: sure you can; check this (later) http://www.kernel.org/pub/software/scm/git/docs/git-tag.html
+[16:53:29] <mbuf> hermes: eof
+[16:53:35] <mbuf> --> #165
+[16:53:36] <hermes> mbuf :ok, thankful
+[16:53:40] <hermes> eof
+[16:54:08] <mbuf> reflog contains list of all your previous commits;
+[16:54:18] <mbuf> --> #166
+[16:54:34] <mbuf> so you can actually go back to some commit that you made;
+[16:54:41] <mbuf> *made directly;
+[16:54:45] <mbuf> --> #167
+[16:55:08] <mbuf> here we resetting it to 1, i.e., where HEAD was at {1]
+[16:55:26] <mbuf> remember again, that reset --hard, will revert and also remove the changes in the working directory;
+[16:55:43] <mbuf> --> #168
+[16:55:49] <mbuf> --> #169
+[16:55:52] <mbuf> --> #170
+[16:56:26] <mbuf> so we have undone all our previous changes, except our first commit;
+[16:56:32] <mbuf> --> #171
+[16:56:47] <mbuf> git basically doesn't track files, it only tracks content;
+[16:57:11] <mbuf> so ideally, we shouldn't be creating a separate love letter for each of our dear ones;
+[16:57:39] <mbuf> what if we had one love-letter, and the change control tracker, keeps track of the changes w.r.t. each dear one;
+[16:58:07] <mbuf> so in index, and repo, only objects, or the changes are stored, and not another copy of the file;
+[16:58:21] <mbuf> so far we have been working in the default branch, called the 'master' branch
+[16:58:31] <mbuf> --> #172
+[16:58:38] <sunny_slls> ?
+[16:58:41] <mbuf> I only have to-my-dearest.txt file in the working directory;
+[16:58:43] <mbuf> sunny_slls: shoot!
+[16:58:54] <sunny_slls> sorry typing mistake
+[16:59:07] <mbuf> sunny_slls: no problem;
+[16:59:12] <mbuf> --> #173
+[16:59:20] <mbuf> so, I am going to try my luck with Priyaaanka-chopra
+[16:59:26] <mbuf> I create a new branch for it;
+[16:59:29] <mbuf> --> #174
+[16:59:38] <mbuf> --> #175
+[16:59:55] <mbuf> so you now see two branches; the asterisk (*) shows which branch I am currently working in;
+[16:59:59] <mbuf> --> #176
+[17:00:06] <mbuf> --> #177
+[17:00:16] <mbuf> 'branch -d' is what I use to delete a branch;
+[17:00:49] <mbuf> branching is completely handled by git, you will only see one file in the working directory;
+[17:01:18] <mbuf> but, as you switch branch, the respective changes in the file for that particular branch will prevail, when you open the file;
+[17:01:22] <mbuf> we'll see this next;
+[17:01:24] <mbuf> --> #178
+[17:01:42] <mbuf> 'checkout -b' is used to create a new branch and to enter into it;
+[17:01:45] <mbuf> --> #179
+[17:01:57] <mbuf> --> #180
+[17:01:59] <mbuf> --> #181
+[17:02:09] <mbuf> it now shows we are in the priyaaanka-chopra branch;
+[17:02:16] <mbuf> --> #182
+[17:02:18] <mbuf> --> #183
+[17:02:26] <mbuf> to go back, we again use 'checkout'
+[17:02:32] <mbuf> --> #184
+[17:02:34] <mbuf> --> #185
+[17:02:47] <mbuf> so, 'git branch' shows us we are now in the 'master' branch;
+[17:02:53] <mbuf> --> #186
+[17:02:53] <-- akuscifi007 (n=akuscifi@122.162.82.58) has quit (Read error: 104 (Connection reset by peer))
+[17:03:09] <mbuf> I am now in the priyaaanka-chopra branch;
+[17:03:15] <mbuf> --> #187
+[17:03:19] <mbuf> --> #188
+[17:03:32] <mbuf> I am making some changes to to-my-dearest.txt and I am committing it;
+[17:03:38] <mbuf> --> #189
+[17:03:45] <mbuf> --> #190
+[17:03:48] <mbuf> --> #191
+[17:04:00] <mbuf> so, now you see that we have HEAD and priyaaanka-chopra ;
+[17:04:08] <mbuf> our commit (latest) is a63ae26...
+[17:04:17] <mbuf> there is only one file in the working directory;
+[17:04:36] <mbuf> if I switch to the master branch, there will be HEAD and master for the master branch with only 958d5ac...
+[17:04:41] <mbuf> --> #192
+[17:04:49] <mbuf> --> #193
+[17:04:58] <mbuf> --> #194
+[17:05:17] <mbuf> Now, I feel that priyaaanka-chopra changes are very good, and I can use it in 'master' copy
+[17:05:32] <mbuf> so I simply merge the changes from the priyaaanka-chopra branch to the master copy;
+[17:05:37] <mbuf> --> #195
+[17:05:43] <mbuf> --> #196
+[17:05:47] <mbuf> --> #197
+[17:06:01] <mbuf> so now we have the latest commit message on the master branch;
+[17:06:19] <mbuf> this use case is to show that if you decide to work on a bug or a new feature in your code, you always make a copy of it in the branch
+[17:06:35] <mbuf> you work in the branch, test it, and if satisfactory you merge it back to the master copy
+[17:06:36] <hermes> !
+[17:06:43] <mbuf> if you are not satisfied with the branch, you can always delete it!
+[17:07:07] <mbuf> this is very important, unlike, newbies hacking on the same code, again, and again, and again, without being able to revert changes quickly and correctly;
+[17:07:09] <mbuf> hermes: shoot!
+[17:07:54] <hermes> mbuf : Added very sweet is the name given to the commit operation right? It had nothing to do with the changes that we actually make to out txt file
+[17:07:56] <hermes> right
+[17:08:01] <hermes> ?
+[17:08:02] <hermes> eof
+[17:08:30] <hermes> Sorry our text file
+[17:08:33] <hermes> ef
+[17:08:33] <mbuf> hermes: that is correct! it is the commit message like, 'git commit -a -m 'Added very sweet''
+[17:08:35] <hermes> eof
+[17:09:01] --> kopecks89 (n=koyel@117.201.96.138) has joined #dgplug
+[17:09:09] <mbuf> hermes: as I told earlier, this is not about what you write in the love letter; it is only about managing love letters :)
+[17:09:19] <mbuf> hermes: eof
+[17:09:28] <sunny_slls> !
+[17:09:36] <mbuf> sunny_slls: shoot!
+[17:10:09] <sunny_slls> suppose there are many other branches and we wan't to merge some of them then how can we do that
+[17:10:13] <mbuf> there has been no conflict here; but, git tries to do its best to merge things; if there is a conflict, you need to resolve it manually, add the file again to index and commit it to the repo;
+[17:10:19] <sunny_slls> in the master?
+[17:10:25] <mbuf> sunny_slls: merge one by one;
+[17:10:50] <mbuf> sunny_slls: git merge foo; git merge bar; git merge alpha; git merge beta;
+[17:11:04] <sunny_slls> thanks
+[17:11:06] <sunny_slls> eof
+[17:11:21] <mbuf> sunny_slls: I am only describing the basic work mechanism of git; it doesn't define how your project workflow should be; that is something that your team must decide;
+[17:11:26] <mbuf> --> #198
+[17:11:49] <mbuf> usually, you will get the source code from upstream (like from sourceforge.net, or freshmeat.net) and you will work on your local copy;
+[17:12:20] <mbuf> so, here, I am simply simulating an upstream update, by manually doing a commit in the master branch -- as if it came from the upstream project;
+[17:12:25] <mbuf> --> #199
+[17:12:29] <mbuf> --> #200
+[17:12:46] <mbuf> note the commits in the master, the latest one being 19e0205...
+[17:12:48] <mbuf> --> #201
+[17:12:58] <mbuf> --> #202
+[17:13:02] <mbuf> --> #203
+[17:13:08] <mbuf> --> #204
+[17:13:14] <mbuf> --> #205
+[17:13:20] <mbuf> Now, I am checking out priyaaanka-chopra branch;
+[17:13:22] <mbuf> --> #206
+[17:13:29] <mbuf> --> #207
+[17:13:33] <mbuf> --> #208
+[17:13:38] <mbuf> --> #209
+[17:13:40] <mbuf> --> #210
+[17:13:56] <mbuf> you see the different commit history between the master and the priyaaanka-chopra branch;
+[17:14:11] <mbuf> the master branch has had one commit more than the priyaaanka-chopra branch;
+[17:14:14] <mbuf> --> #211
+[17:14:25] <mbuf> Now I am making some changes to priyaaanka-chopra branch;
+[17:14:32] <mbuf> --> #212
+[17:14:38] <mbuf> --> #213
+[17:15:15] <mbuf> Note the new commit is 1d1fd9f... which is different from the master (19e0205...)
+[17:15:23] <mbuf> --> #214
+[17:15:42] <mbuf> Now I could merge the changes (upstream) on the master with the priyaaanka-chopra branch changes;
+[17:16:16] <mbuf> but, we have what is called as 'rebase' which basically overwrites our previous changes and merges the changes in the priyaaanka-chopra branch, as we do it next;
+[17:16:16] <mbuf> --> #215
+[17:16:41] <mbuf> because of conflict, 'rebase' failed;
+[17:16:44] <mbuf> --> #216
+[17:17:37] <mbuf> so that is the conflict in the to-my-dearest.txt between the master and the priyaaanka-chopra branch; we edit it to choose either one above or below the ======
+[17:17:44] <mbuf> Remove the <<<<, >>>> lines;
+[17:17:49] <mbuf> --> #217
+[17:17:58] <mbuf> --> #218
+[17:18:08] <mbuf> --> #219
+[17:18:13] <mbuf> --> #220
+[17:18:27] <mbuf> Just checking git gl and since the file has been modified, we need to add it to index before committing;
+[17:18:30] <mbuf> --> #221
+[17:18:53] <mbuf> since we have fixed the conflict, we can ask 'git rebase' to skip the conflict and proceed to merge;
+[17:18:55] <mbuf> --> #222
+[17:19:01] <mbuf> --> #223
+[17:19:05] <mbuf> --> #224
+[17:19:21] <mbuf> master changes have been merged to priyaaanka-chopra branch
+[17:19:25] <mbuf> --> #225
+[17:19:39] <mbuf> But, most importantly note that it has overwritten our previous commit log;
+[17:19:58] <mbuf> Sometimes when we are working in our branch copy, we will make many commits;
+[17:20:17] <mbuf> When we want to synchronize our code base with an upstream project, we fetch the code from the upstream project repository;
+[17:20:26] <mbuf> and we need to merge it with our local copy;
+[17:20:50] <mbuf> so, we may not want to keep a history of our local changes; simply merge it with our changes, as long as our changes are there in code;
+[17:20:58] <mbuf> so rebase basically rewrites history!
+[17:21:05] <mbuf> --> #226
+[17:21:12] <mbuf> --> #227
+[17:21:43] <mbuf> so we have covered most use cases; to get a copy of a project repository in a server, you basically 'clone' a copy of the repository;
+[17:21:48] <mbuf> so you get the complete history;
+[17:21:54] <mbuf> --> #228
+[17:21:59] <mbuf> --> #229
+[17:22:21] <mbuf> If you already have cloned a repo, and you only want to get the upstream changes, just use fetch
+[17:22:27] <mbuf> --> #230
+[17:22:42] <mbuf> fetch will only download the upstream changes to the local system; it will not merge it with the master code;
+[17:22:47] <mbuf> pull will fetch+merge
+[17:22:51] <mbuf> --> #231
+[17:23:05] <mbuf> git provides different ways to download code from remote repos;
+[17:23:07] <mbuf> --> #232
+[17:23:18] <mbuf> --> #233
+[17:23:22] <mbuf> --> #234
+[17:23:25] <mbuf> --> #235
+[17:23:36] <mbuf> git remote shows that the remote repo also has a 'origin'
+[17:23:40] <mbuf> is a reference link
+[17:23:43] <mbuf> --> #236
+[17:23:53] <mbuf> --> #237
+[17:23:56] <mbuf> --> #238
+[17:23:57] <-- kopecks (n=koyel@117.201.100.101) has quit (Read error: 110 (Connection timed out))
+[17:24:11] <mbuf> branch only shows local branches; git branch -r shows remote branches
+[17:24:15] <mbuf> --> #239
+[17:24:29] <mbuf> so in the remote repo also, we have a origin/HEAD and origin/master
+[17:24:33] <mbuf> --> #240
+[17:24:54] <mbuf> you can add remote repository instance to your local .git/ to get updates;
+[17:25:07] <mbuf> you will learn these as you work between local and remote repos;
+[17:25:14] <mbuf> this ends the presentation;
+[17:25:30] <mbuf> I know I haven't covered many use cases, but, I feel these are basic ones that should help you get started with using git;
+[17:25:48] <mbuf> gitorious.org provides nice git commands on doing fetches, updates, and merges, which I like;

@@ -1,0 +1,335 @@
+17:30 <@_pjp_> okay guys..I'm ready!
+17:30 < sunny_slls> Subhodip, hi
+17:30 < rtnpro> _pjp_, hello
+17:30 <@_pjp_> And very sorry for the delay.
+17:30 < rtnpro> _pjp_, I have got a question
+17:31 <@_pjp_> It's pouring like hell outside.
+17:31 <@_pjp_> anyways..yes rtnpro?
+17:31 < rtnpro> _pjp_, whats the meaning of <CFLAGS=-x c -ansi -c -I/home/student/Desktop/nee/> in the makefile in the prev. class?
+17:32 -!- amrita_ [n=amrita@117.201.97.226] has quit [Read error: 110 (Connection timed out)]
+17:32 < rtnpro> _pjp_, isn't the -I option for locating the .h files, but the location after -I above isn't there in my PC<eof>
+17:33 < susenj> rtnpro..that is according to my pc
+17:33 <@_pjp_> rtnpro: CFLAGS is a variable in the makefile, and make uses it's value while executing commands
+17:34 -!- amrita [n=amrita@117.201.97.94] has joined #dgplug
+17:34 <@_pjp_> rtnpro: the path given after -I is suppose to be the directory containing headers(.h), you'
+17:34 < rtnpro> _pjp_, but what about the location   /home/student/Desktop/nee/
+17:34 <@_pjp_> you'll have to use the path specific to your machine.
+17:35 < rtnpro> _pjp_, does that mean that I have to replace the address where hello.h is there?
+17:35 <@_pjp_> I've already said, DO NOT copy and paste things and then try to understand it.
+17:35 <@_pjp_> rtnpro: yes
+17:35 <@_pjp_> rtnpro: what do you think?
+17:35 < rtnpro> _pjp_, ok...got it...
+17:36 < rtnpro> _pjp_, thanks...I also thought likewise...but felt that it would be better to ask
+17:36 <@_pjp_> guys and girls..PLEASE DO NOT copy/paste things from anywhere, type every command/program by yourself.
+17:36 < rtnpro> ok
+17:37 < rtnpro> _pjp_, could you explain the Wall option again, please...
+17:37 <@_pjp_> rtnpro: did you see the man page?
+17:38 < rtnpro> _pjp_, it shows all the warnings...
+17:39 < rtnpro> _pjp_, but we get those warnings anyway when we commit mistakes, so whats the big deal?
+17:39 <@_pjp_> rtnpro: yes, so what's difficult to comprehend?
+17:39 < rtnpro> _pjp_, ?
+17:40 <@_pjp_> rtnpro: ??
+17:40 -!- mbuf [n=shakthim@61.16.248.242] has quit [Remote closed the connection]
+17:40 <@_pjp_> rtnpro: which warnings do you get anyway/always?
+17:40 <@_pjp_> rtnpro: without -Wall
+17:40 < rtnpro> _pjp_, when we get error messages on committing mistakes...why the necessity of Wall
+17:41 <@_pjp_> rtnpro: which mistakes?
+17:41 < sunny_slls> _pjp_, !
+17:41 <@_pjp_> sunny_slls: ?
+17:41 < rtnpro> _pjp_, error in syntax
+17:42 <@_pjp_> folks did everyone try to write those programs?
+17:42 < rtnpro> _pjp_, did some of them...not all
+17:42 <@_pjp_> rtnpro: error in syntax is just one trivial case, -Wall gives you many other warnings, you'll learn as you practice more.
+17:42 < sunny_slls> previously i told you about an error in gcc compilation
+17:43 <@_pjp_> sunny_slls: could you please tell again?
+17:44 < rtnpro> _pjp_, ok
+17:44 <@_pjp_> rtnpro: keep using -Wall
+17:45 < rtnpro> _pjp_, in all compilations?
+17:45 -!- susenj is now known as susenj_
+17:46 < rtnpro> _pjp_, ok...I will use from now onwards
+17:46 <@_pjp_> rtnpro: well, that's your choice.
+17:46 -!- runa_b [n=runa@122.169.23.28] has quit ["à¦¦à§à¦°à§à¦¤ à¦ªà¦²à¦¾à§à¦¨, à¦ªà§à¦à¦¨à§ à¦­à¦¾à¦²à§à¦²à§à¦ à¦à¦¸à¦¿à¦¤à§à¦à§"]
+17:46 -!- susenj [n=student@59.178.165.83] has joined #dgplug
+17:47 -!- susenj_ [n=chatzill@59.178.165.83] has left #dgplug []
+17:47 < sunny_slls> http://rafb.net/p/Rq3KQ618.html
+17:48 <@_pjp_> sunny_slls: I told you `return' was outside your program.
+17:48 <@_pjp_> sunny_slls: could you paste the program?
+17:48 -!- samar [n=samar-ad@220.226.27.121] has quit ["Ex-Chat"]
+17:48 -!- amritaaa [n=amrita@117.201.97.108] has quit [Read error: 110 (Connection timed out)]
+17:48 -!- ecntrk [n=ecntrk@117.194.0.188] has joined #dgplug
+17:48 < sunny_slls> _pjp_, this error comes in simple hello.c program
+17:49 < rtnpro> _pjp_, can you tell us how to solve that progress bar assignment
+17:49 <@_pjp_> rtnpro: sorry, I can not help.
+17:50 < rtnpro> _pjp_, why?
+17:50 < sunny_slls> _pjp_, today i once again did some of the programs once again in gcc but the result was the same
+17:51 <@_pjp_> rtnpro: I don't help doing assignments.
+17:51 < rtnpro> _pjp_, ok...
+17:51 <@_pjp_> sunny_slls: what resule?
+17:51 <@_pjp_> result?
+17:52 -!- munichlinux [n=prashant@59.92.120.177] has joined #dgplug
+17:52 < sunny_slls> _pjp_, this error.........
+17:53 <@_pjp_> sunny_slls: paste your program
+17:53 < sunny_slls> _pjp_, ok
+17:54 -!- amrita [n=amrita@117.201.97.94] has quit [Read error: 110 (Connection timed out)]
+17:56 -!- Kkhushi_ [n=khushbu@59.180.153.121] has joined #dgplug
+17:56 -!- Debashree [n=Debashre@61.2.165.25] has quit [Read error: 104 (Connection reset by peer)]
+17:56 < sunny_slls> _pjp_, http://rafb.net/p/eNjkxU23.html
+17:56 -!- Kkhushi [n=khushbu@59.180.157.166] has quit [Nick collision from services.]
+17:57 -!- Kkhushi_ is now known as Kkhushi
+17:57 < susenj> sunny_slls...return 0; is outside main()
+17:57 -!- Debashree [n=Debashre@61.2.164.36] has joined #dgplug
+17:58 < sunny_slls> susenj, ok
+17:59 < sunny_slls> _pjp_, one more error .......http://rafb.net/p/0b2A7X36.html
+18:00 <@_pjp_> sunny_slls: paste the program
+18:01 < susenj> _pjp_,i think there should be some kind of illegal memory access..isn't it?
+18:01 <@_pjp_> susenj: right
+18:02 < sunny_slls> _pjp_, http://rafb.net/p/AMbOkh35.html
+18:03 < susenj> sunny_slls...your first scanf() statement???
+18:03 < sunny_slls> susenj, ok
+18:04 < sunny_slls> susenj, but is it the error?
+18:04 < susenj> sunny_slls...you got segmentation fault..that's it
+18:05 < arpita> sunny_slls, an & sign in first scanf is missing
+18:05 < ecntrk> _pjp_: !
+18:05 <@_pjp_> ecntrk: ?
+18:05 < ecntrk> can we use any delay() like function
+18:05 < ecntrk> in UNIX?
+18:05 < sunny_slls> susenj, but here return statement is inside the main() isn't it?
+18:06 < susenj> sunny_slls...no problem for that
+18:06 < susenj> just make your first scanf correct
+18:06 < sunny_slls> susenj, why it should not be inside?
+18:06 < ecntrk> I searched the time .h but didn't find any good function..
+18:07 <@_pjp_> ecntrk: there is sleep(3) for that
+18:07 < sunny_slls> susenj, i can't do it now i will do it later
+18:07 < susenj> sunny_slls..it should be inside main()
+18:07 < ecntrk> aha.. I'll search that..
+18:07 < sunny_slls> susenj, i am confused
+18:07 < sunny_slls> susenj, sometime inside sometime outside............main()
+18:08 < susenj> sunny_slls...i never told outside!
+18:08 < sunny_slls> in hello.c
+18:08 < susenj> yes...you have typed outside ..hence the error!
+18:10 < sunny_slls> susenj, ok
+18:11 < sunny_slls> susenj, thanks
+18:11 < susenj> sunny_slls ,:)
+18:11 < sunny_slls> susenj, did you complete the assignment?
+18:13 < susenj> sunny_slls...not all! i will talk after this session...let _pjp_ continue!
+18:13 <@_pjp_> so guys anymore problems?
+18:15 -!- Kkhushi_ [n=khushbu@59.180.136.235] has joined #dgplug
+18:17 <@_pjp_> Okay I assume all are doing their work, and so will proceed.
+18:17 <@_pjp_> let's do some debugging now
+18:19 < ecntrk> ok..
+18:19 < rtnpro> go ahead
+18:21 <@_pjp_> one min please
+18:21 < ecntrk> sure..
+18:22 <@_pjp_> okay..let's go
+18:23 <@_pjp_> So the first best debugger is printf (...)
+18:24 <@_pjp_> it's simple & easy, and you already know about it, don't you?
+18:24 -!- Debashree_ [n=Debashre@61.2.164.223] has joined #dgplug
+18:25 -!- Debashree [n=Debashre@61.2.164.36] has quit [Nick collision from services.]
+18:25 < sunny_slls> _pjp_, yeah!!!!!
+18:25 < susenj> yes
+18:25 -!- Debashree_ is now known as Debashree
+18:27 <@_pjp_> Now that everyone is solving some problems..you'll have to debug your programs
+18:28 <@_pjp_> of course unless you are careful from the beginning
+18:29 <@_pjp_> so to debug is to know what exactly going on in you program
+18:31 <@_pjp_> and the easiest way to know is to print the values contained by the variable
+18:32 -!- Kkhushi [n=khushbu@59.180.153.121] has quit [Read error: 110 (Connection timed out)]
+18:32 <@_pjp_> or add temporary printf() before and after the function calls to isolate the functions/area of your program were problem might exist.
+18:33 <@_pjp_> like some people did get(others will get) the `segmentation fault' error,
+18:34 <@_pjp_> it happens because of the wrong/invalid memory access
+18:35 <@_pjp_> like you have an array of 10 characters but you end-up accessing 11'th or 12'th character because of the wrong index value or something like that.
+18:36 <@_pjp_> or you've a pointer which is pointing to nothing and you try to use it as if it was pointing to something.
+18:36 <@_pjp_> let's see an example...
+18:37 -!- slls [i=Sunny@117.99.25.227] has joined #dgplug
+18:38 -!- slls [i=Sunny@117.99.25.227] has quit [Client Quit]
+18:41 -!- slls [i=Sunny@117.99.25.227] has joined #dgplug
+18:42 -!- Subhodip [n=subhodip@125.20.11.34] has quit ["Pants on Fire .. Angry elephant chasing ...ar ki ki hote pare ??"]
+18:42 < slls> sorry i was diconnected
+18:42 < slls>  did i miss something
+18:43 -!- karunakar [n=karunaka@61.17.194.130] has joined #dgplug
+18:45 -!- munichlinux [n=prashant@59.92.120.177] has quit ["Bye"]
+18:46 <@_pjp_> please see: http://rafb.net/p/KmmDKg78.html
+18:47 <@_pjp_> folks try to type -> compile -> and run this program and then tell me what happens?
+18:53 <@_pjp_> hello...what happened?
+18:55 < susenj> _pjp_,upto i=12 ..it's okay...but after that ..garbage and segmentation fault....also ptr:(null)
+18:55 < susenj> <eof>
+18:55 -!- Debashree_ [n=Debashre@61.2.164.82] has joined #dgplug
+18:55 <@_pjp_> yes segmentation fault..when did it come?
+18:56 < susenj> it's for strlen (ptr)
+18:56 < slls> _pjp_, i agree to susenj
+18:56 <@_pjp_> it may vary for everybody.
+18:57 -!- sunny_slls [i=Sunny@117.99.43.124] has quit [Read error: 104 (Connection reset by peer)]
+18:58 -!- slls is now known as sunny_slls
+18:59 <@_pjp_> Okay, so the thing to be noted is even though ptr was null you didn't get segmentation fault in the first printf where you tried to print ptr, but you did get it in strlen(), why so?
+19:02 < Kkhushi_> as strlen() tries to access memory to check for  number  of characters but ptr does n't hold any location
+19:02 <@_pjp_> that's because printf is smart enough to print null values, where as in strlen it tries to count the number of characters
+19:02 <@_pjp_> Kkhushi_: exactly..
+19:03 <@_pjp_> Now, compile the same program with -g gcc flag.
+19:03 <@_pjp_> some might get segmentation fault while printing greet[]
+19:04 <@_pjp_> and do tell me where you are done.
+19:04 -!- mbuf [n=shakthim@61.16.248.242] has joined #dgplug
+19:04 < susenj> _pjp_,for me it's same as before
+19:05 <@_pjp_> susenj: yes, it'll be same, you did not change code, did you?
+19:05 < susenj> _pjp_,no!
+19:06 -!- ecntr1 [n=ecntrk@117.194.1.87] has joined #dgplug
+19:06 <@_pjp_> right..so if everyone is done, do $ gdb ./a.out
+19:06 <@_pjp_> or whatever your executable is called
+19:08 <@_pjp_> ready..do you see the gdb prompt?
+19:08 < susenj> yes
+19:08 < Kkhushi_> yes
+19:08 <@_pjp_> right..I assume the same for others
+19:09 <@_pjp_> gdb is the GNU debugger, and it's really very powerful program.
+19:11 -!- ecntrk [n=ecntrk@117.194.0.188] has quit [Read error: 104 (Connection reset by peer)]
+19:11 <@_pjp_> Now if you've studied the Operating Systems, you might know that when in main memory, your program is divided into different parts/sections
+19:11 <@_pjp_> like data section, code section, stack, etc.
+19:12 -!- aritrabose [n=ARITRA@117.201.96.43] has quit ["Leaving"]
+19:12 -!- bose_aritra [n=ARITRA@117.201.96.43] has joined #dgplug
+19:12 <@_pjp_> gdb provides many commands to see the details about all these program sections, though I'm not going to cover all of them here.
+19:13 <@_pjp_> but you can type $ help  and see for yourself.
+19:14 <@_pjp_> just typing (gdb) help gives you the sections in which gdb command are divided.
+19:15 <@_pjp_> if you say (gdb) help <seciton-name> you'll see the help for that section.
+19:15 -!- susenj [n=student@59.178.165.83] has quit [Excess Flood]
+19:16 -!- susenj [n=student@59.178.165.83] has joined #dgplug
+19:16 <@_pjp_> try (gdb) help stack
+19:16 <@_pjp_> you'll see commands related to program stack.
+19:17 <@_pjp_> now just say (gdb) run
+19:17 <@_pjp_> what happened?
+19:18 < susenj> run
+19:18 < susenj> sorry
+19:19 <@_pjp_> susenj: ?
+19:19 < susenj> _pjp_,nothing!
+19:19 -!- Debashree [n=Debashre@61.2.164.223] has quit [Read error: 113 (No route to host)]
+19:19 < ecntr1> _pjp_: me too.. no exe file selected
+19:20 <@_pjp_> how did you start gdb? I said gdb ./<your-executable-file-name>
+19:21 < Kkhushi_> Program received signal SIGSEGV, Segmentation fault.
+19:21 < Kkhushi_> 0x0804846d in main () at try.c:14
+19:21 < Kkhushi_> 14          printf ("len: %d\n", strlen (ptr));
+19:21 <@_pjp_> correct..so the run command is used to run the program.
+19:21 < ecntr1> sorry _pjp_
+19:21 <@_pjp_> ecntr1: ?
+19:22 < ecntr1> _sorry.. i got dc...<eof>
+19:22 < susenj> _pjp_,it gives http://rafb.net/p/sFEync97.html
+19:22 <@_pjp_> susenj: right
+19:23 -!- rtnpro [n=rtnpro@117.99.40.32] has quit [Read error: 110 (Connection timed out)]
+19:24 -!- Debashree [n=Debashre@61.2.165.56] has joined #dgplug
+19:24 <@_pjp_> gdb tells you exactly where the segmentaion fault happened.
+19:25 <@_pjp_> though many times even that seems insufficient to get any clue.
+19:26 <@_pjp_> if your program accepts any command line arguments, you can specify them after (gdb) run arg1 arg2 ..
+19:26 <@_pjp_> see (gdb) help runn
+19:26 <@_pjp_> (gdb) help run
+19:26 -!- karunakarg [n=karunaka@61.17.13.62] has joined #dgplug
+19:26 -!- sunny_slls [i=Sunny@117.99.25.227] has quit [Read error: 110 (Connection timed out)]
+19:26 < ecntr1> _pjp_: in my case, it gives o/p http://rafb.net/p/mxzrCG28.html
+19:28 <@_pjp_> ecntr1: yes possible
+19:28 <@_pjp_> next gdb command is (gdb) list
+19:28 < ecntr1> how.. i mean some outputs are there.. still error?
+19:28 < ecntr1> <eof>
+19:29 <@_pjp_> list displays the lines from your program where error occurred
+19:29 <@_pjp_> ecntr1: run just runs your program and gives you the exactly same output
+19:29 < susenj> !
+19:30 < ecntr1> _pjp_: ok..<eof>
+19:30 <@_pjp_> advantage using debugger is that you can go one step at a time
+19:30 <@_pjp_> susenj: ?
+19:30 < susenj> ï»¿_pjp_,but it shows only first 10 lines of the program.
+19:30 < susenj> <eof>
+19:31 < ecntr1> !
+19:31 < susenj> and error lies in last printf() ,which is not there<eof>
+19:31 <@_pjp_> susenj: type enter or say list again
+19:31 <@_pjp_> ecntr1: ?
+19:31 -!- mbuf [n=shakthim@61.16.248.242] has quit ["shakthimaan.com"]
+19:32 < ecntr1> (gdb) list says... No symbol table is used
+19:33 < ecntr1> <eof>
+19:33 <@_pjp_> ecntr1: did you compile your program with -g flag?
+19:33 < ecntr1> -g ?
+19:33 < ecntr1> sorry no..<eof>
+19:33 <@_pjp_> ecntr1: gcc -g
+19:34 <@_pjp_> remember -g is used to add debugging information to the executable file?
+19:34 -!- karunakar [n=karunaka@61.17.194.130] has quit [Read error: 110 (Connection timed out)]
+19:35 -!- Debashree__ [n=Debashre@61.2.164.164] has joined #dgplug
+19:35 <@_pjp_> to list you can pass a line-number or a function-name as an argument
+19:35 <@_pjp_> and list will display 10 line around that point
+19:36 <@_pjp_> ex. say (gdb) list 4
+19:36 -!- Debashree [n=Debashre@61.2.165.56] has quit [Nick collision from services.]
+19:36 -!- Debashree__ is now known as Debashree
+19:36 <@_pjp_> you should see lines 1-10
+19:36 < susenj> yes
+19:36 < ecntr1> yes
+19:37 <@_pjp_> say list main
+19:37 < susenj> list main..also gives the same
+19:37 <@_pjp_> well it could be any other function-name instead of main()
+19:37 < ecntr1> ya
+19:38 <@_pjp_> next useful gdb command is break/breakpoint
+19:38 <@_pjp_> it is used to stop program execution at certain point/line in program
+19:38 <@_pjp_> see (gdb)help breakpoint
+19:40 < ecntr1> yes... lost of options..:)
+19:40 <@_pjp_> now you won't have to use all of the commands that are displayed there
+19:40 <@_pjp_> but say (gdb) break main
+19:41 <@_pjp_> see help break
+19:42 <@_pjp_> you can also set a breakpoint at a specific line by specifying a line-number after break
+19:43 <@_pjp_> okay now if you have the break point set, say (gdb) run
+19:43 <@_pjp_> did the execution stop after main?
+19:43 < susenj> ya
+19:44 < ecntr1> yes..
+19:44 <@_pjp_> good..now say print i
+19:44 <@_pjp_> what value did you get?
+19:45 < susenj> $1 = 134513753
+19:45 <@_pjp_> hello..?
+19:46 <@_pjp_> right..it can be any random value that was there in that memory location.
+19:46 -!- Debashree_ [n=Debashre@61.2.164.82] has quit [Read error: 113 (No route to host)]
+19:46 <@_pjp_> now type next
+19:46 <@_pjp_> (gdb)next
+19:46 <@_pjp_> next is to step to the next line
+19:46 <@_pjp_> again print i
+19:46 <@_pjp_> what now?
+19:46 < ecntr1> $2=0
+19:47 < susenj> 0
+19:47 <@_pjp_> right..so the i = 0 is executed
+19:47 <@_pjp_> now print ptr
+19:48 <@_pjp_> what?
+19:49 < susenj> shows an unknown address
+19:49 < ecntr1> 0x0
+19:49 <@_pjp_> right..again note that if you don't assign a value to a variable, does not mean it does not have any value.
+19:50 <@_pjp_> it could very well be a genuine valid address
+19:50 <@_pjp_> memory address.
+19:51 <@_pjp_> and that's what make using pointers a little dangerous.
+19:51 <@_pjp_> o to be on the safer side, *always*, ALWAYS assign an explicit value to all the vaiable
+19:52 <@_pjp_> Make it a habit
+19:52 < ecntr1> !
+19:52 <@_pjp_> not just pointers but even integer/float or any other variable for that matter.
+19:52 <@_pjp_> ecntr1: ?
+19:52 < ecntr1> you mean.. always assign any value to variables? like int a=0?
+19:52 < ecntr1> <eof>
+19:53 <@_pjp_> ecntr1: exactly..
+19:53 <@_pjp_> so that you know what is there
+19:53 <@_pjp_> again say (gdb) next
+19:53 -!- Debashree [n=Debashre@61.2.164.164] has quit [Read error: 104 (Connection reset by peer)]
+19:53 <@_pjp_> or you can also say just (gdb)n
+19:54 <@_pjp_> n for next
+19:54 -!- ecntr1 [n=ecntrk@117.194.1.87] has left #dgplug []
+19:54 <@_pjp_> s for step
+19:54 <@_pjp_> n does the line by line execution where as s steps through the function calls
+19:55 <@_pjp_> what else..?
+19:57 <@_pjp_> I think it's already a little overkill for today, isn't it?
+19:58 < Kkhushi_> yes it is
+19:58 <@_pjp_> no one is saying anything, all are dozing off probably?
+19:58 < susenj> _pjp_.ok
+19:59 <@_pjp_> anyways..that was pretty much all about gdb you'll need to know till you do some serious programming
+20:00 <@_pjp_> so practice it all as much as you can..and please feel free to ask any(kinds of) questions
+20:01 <@_pjp_> may be we'll catch up again on Thursday night
+20:01 <@_pjp_> where did kushal go?
+20:01 <@_pjp_> folk is that okay?
+20:02 <@_pjp_> folks
+20:02 < Kkhushi_> yup
+20:02 < susenj> _pjp_,yes
+20:02 < bose_aritra> yup
+20:04 <@_pjp_> okay then..good night for now..do write as *many* programs as you can, only that will help you.
+20:05 -!- stephaniewhiting [n=chatzill@65.89.170.203] has quit [Read error: 110 (Connection timed out)]
+20:05 <@_pjp_> you don't have to write/type them on your PC/Laptop, you can(or should) use a pen & paper at first.
+20:05 < bose_aritra> you mean dry run
+20:05 <@_pjp_> right..excellent, you know it already.
+20:05 <@_pjp_> :
+20:05 <@_pjp_> :)
+20:06 -!- Kkhushi_ [n=khushbu@59.180.136.235] has left #dgplug ["Ex-Chat"]
+20:07 < bose_aritra> :) ya
+20:07  * bose_aritra good night
+20:07 <@_pjp_> okay then..good night! :)
+

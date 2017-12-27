@@ -1,0 +1,616 @@
+[16:18:33] [## Class Started at Tue Jun 28 16:18:33 2016 ##]
+[16:18:33] <kushal> startclass
+[16:18:39] <kushal> Roll Call
+[16:18:40] <akshays> Akshay Shipurkar
+[16:18:40] <code_geek> Shantanu Acharya
+[16:18:41] <LambaInsaan> Rhitik Bhatt
+[16:18:42] <deep123k> Deepanshu Kapoor
+[16:18:43] <Alak> Alakshendra Yadav
+[16:18:44] <abstatic> Abhishek Shrivastava
+[16:18:45] <yASH> Yashwanth M
+[16:18:45] <vharsh> Harsh Vardham
+[16:18:45] <Rnarwade> Rushiprasad Narwade
+[16:18:46] <iyogeshjoshi> Yogesh Joshi
+[16:18:46] <moizsajid> Moiz Sajid
+[16:18:48] <dlpsankhla> Dileep Sankhla
+[16:18:48] <Richard15> Mayank Gupta
+[16:18:50] <akshay_CV> Akshay cv
+[16:18:50] <aman__> Aman Kumar
+[16:18:51] <jogi96_> Jogender Kota
+[16:18:51] <shauryak_3> Shaurya Kalia
+[16:18:52] <Sparker0i> Aaditya Menon
+[16:18:52] <avik> Avik Mukherjee
+[16:18:52] <rohan_h> Rohan Hazra
+[16:18:54] <rahul_bajaj> Rahul Bajaj
+[16:18:54] <mr-karan> Karan Sharma
+[16:18:55] <vbhjain> Vaibhav JAin
+[16:18:56] <real56> Varsha R
+[16:19:00] <amitk_> Amit Kokitkar
+[16:19:00] <suniva> Suniva Priyadarshini
+[16:19:02] <sandy> sandeep kumar choudhary
+[16:19:04] <c0mrad3> Tummala Dhanvi
+[16:19:09] <smdeep> Sudeep Mukherjee
+[16:19:10] <ak_d> Akhilesh Dhaundiyal
+[16:19:16] <sneo> Sarah Masud
+[16:19:46] <thisisashwani> Ashwani Pandey
+[16:19:53] <shanu> shalaka
+[16:19:56] <anagha_> Anagha R
+[16:20:07] <SRvSaha> Saurav Saha
+[16:20:25] <Anupama> Anupama Mandal
+[16:20:36] <vharsh> Harsh Vardham
+[16:20:39] <vharsh> Harsh Vardhan
+[16:20:42] <buvanesh_kumar> Buvanesh Kumar
+[16:20:47] <kushal> I hope everyone is done.
+[16:20:51] <kushal> clearqueue
+[16:21:10] <kushal> Question on the rst session?
+[16:21:12] <warlord77> rollcall, Sahil Joseph
+[16:21:14] <kushal> Anyone? Anything?
+[16:21:14] <avik> !
+[16:21:17] <dlpsankhla> !
+[16:21:22] <SRvSaha> !
+[16:21:23] <kushal> next
+[16:21:33] <avik> how to open the file from cmd?
+[16:21:34] <priyanka> Priyanka Sharma
+[16:21:43] <c0mrad3> !
+[16:22:01] <kushal> avik, you can open it from vim, but to view it properly you will have to use a broweser
+[16:22:01] <dlpsankhla> Will this training help me in GSoC 2017? A general question
+[16:22:04] <kushal> browser
+[16:22:08] <kushal> dlpsankhla, Yes
+[16:22:12] <kushal> next
+[16:22:14] <kushal> next
+[16:22:14] <Silenced> Bharath vijay
+[16:22:15] <amitk_> avik you can try elink test.html
+[16:22:15] <dlpsankhla> !
+[16:22:17] <shobhitupadhyay> shobhit upadhyay
+[16:22:21] <kushal> amitk_, nice idea
+[16:22:38] <vbhjain> !
+[16:22:42] <dlpsankhla> How?
+[16:23:03] <kushal> dlpsankhla, can not explain,  sorry.
+[16:23:08] <dlpsankhla> okay
+[16:23:09] <kushal> next
+[16:23:15] <c0mrad3> kushal: dates are wrong in https://dgplug.org/irclogs/2016/ can you please correct them
+[16:23:44] <kushal> c0mrad3, I noticed that too, will be fixed later (hopefully). for now people can use the session number to identify.
+[16:23:45] <kushal> next
+[16:23:55] <kushal> c0mrad3, thanks for noticing that.
+[16:24:00] <dlpsankhla> No question
+[16:24:04] <kushal> next
+[16:24:04] <dlpsankhla> pass
+[16:24:21] <vbhjain> kushal,I'm getting some error:Unknown target name: "python programming language" http://paste.fedoraproject.org/385845/
+[16:24:43] <avik> !
+[16:24:54] <amrtanair_> Sorry, i am late for the roll call: Amrita Nair
+[16:24:56] <mhalano> Marcos H. Alano
+[16:25:00] <mhalano> Soory for being late
+[16:25:18] <kushal> vbhjain, Give a blank line in line 60 and try again
+[16:25:20] <kushal> next
+[16:25:28] <kushal> mhalano, amrtanair_ no problem
+[16:25:32] <aman935> Aman Singh
+[16:25:38] <iKshitij> Kshitij
+[16:25:43] <vbhjain> ok, thanks
+[16:25:48] <akash47> roll call: Akash Mishra
+[16:26:08] <abhishekcs10> roll call: Abhishek Tiwari
+[16:26:09] <akorep_> Roll call: Akshay T S
+[16:26:20] <SRvSaha> kushal: http://paste.fedoraproject.org/385886/14671239/ Can you please check where I am doing the error in -py arg ?
+[16:26:20] <mbtamuli12> roll call: Mriyam Tamuli
+[16:26:28] <thisisashwani> !
+[16:26:30] <avik> and another problem > paragraphs are not being created!
+[16:26:32] <SRvSaha> It's not showing up properly <eof>
+[16:26:53] <aparna> Roll call: Aparna
+[16:27:19] <D1mz> roll call : Aditya
+[16:27:29] <kushal> SRvSaha, the spaces between the arguments and the explanation are not same across the file.
+[16:27:43] <kushal> avik, Give a blank line for new paragraph
+[16:27:46] <kushal> next
+[16:27:54] <thisisashwani> grid table, i am getting the error of "Blank line required after table"
+[16:28:00] <thisisashwani> *in grid table!
+[16:28:09] <kushal> thisisashwani, so give a blank line
+[16:28:24] <avik> it took in one case but next time didnt?
+[16:28:25] <SRvSaha> kushal: Sorry wrong link pasted. I'm giving the updated link asap
+[16:28:45] <D1mz> !
+[16:28:52] <thisisashwani> kushal: I did give, but the error persisted
+[16:29:07] <kushal> thisisashwani, then show us the file
+[16:29:19] <kushal> avik, unless you show us the source, and the error
+[16:29:31] <kushal> we can not guess what is going on, correct?
+[16:30:28] <kushal> next
+[16:30:42] <thisisashwani> kushal: sorry, sorry! i missed a + symbol at the very end, that's why the error!
+[16:31:00] <kushal> thisisashwani, hehe, nothing to be sorry about. We all do mistakes.
+[16:31:11] <avik> code:
+[16:31:21] <D1mz> Is there any particular reason to use rst other than that it is used in python community?
+[16:31:34] <thisisashwani> kushal: still i wanted to know is there an easier way to make grids
+[16:31:46] <avik> code: paste.fedoraproject.org/385893/
+[16:31:48] <thisisashwani> the ways i am making it, it seems to me i am doing it wrong!
+[16:31:49] <kushal> thisisashwani, I don't know actually :(
+[16:31:58] <thisisashwani> kushal: okay!
+[16:32:04] <D1mz> I mean we have alternatives like markdown
+[16:32:04] <SRvSaha> kushal: Updated link http://paste.fedoraproject.org/385890/24221146/ Still the same problem
+[16:32:15] <kushal> D1mz, I use it because I am doing it for a long time, and it does what I want, and it is easy
+[16:32:45] <D1mz> kushal, thank you
+[16:32:51] <avik> code: paste.fedoraproject.org/385894/67124346/
+[16:32:58] <avik> output^^
+[16:33:04] <thisisashwani> SRvSaha: what error are you getting?
+[16:33:10] <pabitra> Pabitra Pati
+[16:33:13] <pabitra> roll call
+[16:33:15] <avik> sorry not code
+[16:33:28] <kushal> avik, what is the error?
+[16:33:31] <kushal> next
+[16:33:46] <thisisashwani> SRvSaha: seems more like a problem of indentation, you mixed tabs and spaces?
+[16:34:10] <SRvSaha> thisisashwani: I am not seeing py as C, C++ and Java in output
+[16:34:14] <avik> see in the 1st paragraph, the lines are all collasped!
+[16:34:36] <avik> although i have blank lines
+[16:34:40] <kushal> avik, when you are pasting, you should paste with https:// that way we can click
+[16:35:07] <avik> very sorry kushal
+[16:35:12] <SRvSaha> thisisashwani: So, what should it be. Should there be equal indentation between the arg and the description
+[16:35:13] <kushal> avik, no problem
+[16:35:15] <kushal> avik, https://shellshare.net/r/summertraining
+[16:36:50] <thisisashwani> SRvSaha: i am trying it on my laptop, wait for a moment.
+[16:38:21] <kushal> avik, it works
+[16:38:38] <avik> so what was the problem?
+[16:38:51] <kushal> nothing I never did any change
+[16:39:02] <sanket> SRvSaha: two spaces between py and arg
+[16:40:03] <SRvSaha> sanket: So is it 2 spaces after arg and description as well?
+[16:40:06] <himanshutechy1> Roll Call :Himanshu sharma
+[16:40:26] <kushal> Can we move to new thing?
+[16:40:42] <sandy> kushal: yes
+[16:40:43] <avik> yes
+[16:40:44] <akshays> !
+[16:40:54] <vbhjain> yes
+[16:40:58] <buvanesh_kumar> !
+[16:41:02] <dep1> yes
+[16:41:09] <Richard15> yes
+[16:41:30] <anushil05> Roll call Anushil Kumar
+[16:41:36] <sanket> SRvSaha: yes, if you still encounter issues, lets talk after class.
+[16:42:02] <kushal> next
+[16:42:08] <kushal> next
+[16:42:18] <SRvSaha> ;)
+[16:42:29] <akshays> what was the last command you entered in terminal
+[16:43:10] <buvanesh_kumar> what is it? https://shellshare.net/r/summertraining ? i did't understand.
+[16:43:12] <kushal> akshays, less
+[16:43:19] <buvanesh_kumar> There is no coding
+[16:43:21] <akshays> was it less avik.rst ?
+[16:43:36] <buvanesh_kumar> same question akshays ;)
+[16:43:39] <kushal> buvanesh_kumar, yes, it is a live view of what I am doing
+[16:43:45] <rahul_bajaj> buvanesh_kumar, it is kushal terminal which he can share with shellshare.
+[16:43:45] <kushal> akshays, yes
+[16:43:55] <akshays> thanks :)
+[16:44:09] <akshays> kushal
+[16:44:12] <buvanesh_kumar> i known that thing. but inside the terminal content i did't understand
+[16:44:39] <kushal> Okay
+[16:45:02] <kushal> Can anyone tell me why are we learning about documentation first?
+[16:45:12] <kushal> Even before we are learning to code
+[16:45:13] <buvanesh_kumar> i am asking about  avik.rst file contents kushal
+[16:45:25] <kushal> buvanesh_kumar, he pasted that few minutes back
+[16:45:31] <mr-karan> because great docs help in the long run, for others to see and maintain the code we write
+[16:45:42] <rohan_h> kushal, because documentation helps us to easily read the code
+[16:45:49] <kushal> Correct.
+[16:46:02] <c0mrad3> kushal: documentation is important and not as difficult as coding
+[16:46:06] <kushal> But documentation is the way someone else will choose if they want to use the code you write or not/
+[16:46:13] <buvanesh_kumar> It helps to understand, kushal
+[16:46:25] <deep123k> Because it helps with getting started with project development
+[16:46:25] <kushal> c0mrad3, it is important, but in times it comes as difficult as coding.
+[16:46:35] <akorep_> !
+[16:46:41] <kushal> Unless one understands the subject, that person can not do any documentation.
+[16:46:47] <kushal> next
+[16:47:06] <akorep_> So, are we supposed to follow this form of documentation?
+[16:47:07] <pabitra> !
+[16:47:45] <kushal> akorep_, It is one way of doing it.
+[16:47:57] <kushal> There are various styles, you can choose whatever you like.
+[16:48:01] <kushal> next
+[16:48:11] <pabitra> hi kushal
+[16:48:16] <kushal> ?
+[16:48:24] <pabitra> i am trying to implement grid table
+[16:48:28] <akorep_> kushal, thanks!
+[16:48:36] <pabitra> it is whowing line error
+[16:48:53] <pabitra> and while pasting it to pastebin it is getting messed up
+[16:48:58] <pabitra> the table structure
+[16:49:08] <pabitra> how can i show it to you??
+[16:49:44] <mr-karan> paste.fedoraproject.com pabitra
+[16:49:52] <kushal> pabitra, ^^^
+[16:50:07] <pabitra> mr-karan, did you read what i typed
+[16:50:09] <pksadiq> kushal: you may probably add '.enter' command for batul that would trigger the same as: /msg fsbot enter
+[16:50:22] <c0mrad3> kushal: IMHO coding is a tough one than documentation, but I agree that one should understand the software for writing the documentation which is also a tough job
+[16:50:47] <Rnarwade> How to open .rst file by command
+[16:50:48] <pabitra> mr-karan, i am trying to paste it to there.. but on pasting it is getting messed up
+[16:51:12] <kushal> c0mrad3, and then think about documentation of the development process or any new project, which can only be done by experienced people.
+[16:51:15] <moizsajid> Rnarwade, vi test.rst
+[16:51:24] <kushal> pabitra, still show us that one only
+[16:51:29] <kushal> next
+[16:51:35] <Onkar> Onkar karale
+[16:51:35] <Onkar> Sry i am late
+[16:51:43] <kushal> Onkar, what is Sry?
+[16:51:51] <kushal> Onkar, is that Fry?
+[16:52:38] * c0mrad3 kushal I agree
+[16:52:53] <kushal> next
+[16:52:57] <kushal> Okay
+[16:52:59] <Silenced> Onkar: Fallow the etiqutte of IRC when chatting here.
+[16:53:20] <kushal> So in the Python world we use a project/tool called sphinx to create the documentation
+[16:54:15] <kushal> Today we will learn sphinx
+[16:54:17] <pabitra> !
+[16:54:20] <kushal> You can use it for most cases
+[16:54:23] HoloIRCUser is now known as jogi96_
+[16:54:33] <kushal> http://summertraining.readthedocs.io/en/latest/ this is done using sphinx
+[16:54:37] <kushal> next
+[16:54:54] <pabitra> what is the difference between table and grid table
+[16:55:00] <pabitra> because both looks alike
+[16:55:14] <rahul_bajaj> !
+[16:55:15] <pabitra> is only difference of spanned cells ??
+[16:55:50] <kushal> I think they are same,
+[16:56:00] <kushal> the difference is in how you write them
+[16:56:01] <kushal> next
+[16:56:04] <rahul_bajaj> kushal, python for you and me is written using sphinx ?
+[16:56:18] <kushal> rahul_bajaj, yes
+[16:56:21] <rahul_bajaj> okay.
+[16:56:28] <rahul_bajaj> <eof>
+[16:57:13] <kushal> The general idea is that we will have a docs directory inside any project, and we will create the documentation there
+[16:57:23] <thisisashwani> kushal, pabitra: isn't the other diff is that in grid cells, you can span multiple columns?
+[16:57:36] <akorep_> kushal, Can I leave now? I'll be back within half an hour.
+[16:57:42] <kushal> akorep_, yes, you can
+[16:57:47] <kushal> For today's class, we will call our project hellodgplug
+[16:58:05] <kushal> thisisashwani, yes, the way you can put details on the table are different
+[16:58:32] <thisisashwani> kushal: okay!
+[16:58:39] <pabitra> thisisashwani,  yes that's what i said... spanning across row and colummns
+[16:58:55] <thisisashwani> pabitra: oh, i missed that.
+[16:59:17] <kushal> Look at the https://shellshare.net/r/summertraining
+[16:59:23] <kushal> Everyone
+[17:00:07] <Richard15> looking
+[17:02:17] <pksadiq> kushal: PS1='\w $ ' is better I think
+[17:02:40] <avik> anything happinging there? am i missing out ?
+[17:04:45] <vharsh> Wow, this link works on tablets :)
+[17:05:21] <pabitra> !
+[17:05:33] <kushal> Now everyone please look at this very carefully
+[17:05:34] <kushal> next
+[17:05:42] <pabitra> http://paste.fedoraproject.org/385918/14671263/
+[17:05:57] <kushal> pabitra, can we please do this after the session?
+[17:05:57] <pabitra> sorry I missed the shellshare things
+[17:06:01] <pabitra> yeah sure
+[17:06:06] <pabitra> sorry
+[17:06:11] <kushal> back to the shell
+[17:07:41] <kushal> I enter n only to the last question
+[17:07:56] <kushal> where I do not want to have the windows .bat file, but you can have that too
+[17:08:51] <kushal> If your documentation needs to be build on windows, keep that to y
+[17:09:04] <kushal> Now can everyone do the same on their computer
+[17:09:13] <kushal> ?
+[17:09:20] <c0mrad3> !
+[17:09:21] <rahul_bajaj> yes.
+[17:09:22] <smdeep> Done
+[17:09:23] <kushal> next
+[17:09:40] <deep123k> !
+[17:09:42] <c0mrad3> kushal: did you mention to install python-sphinx ?
+[17:09:52] <kushal> c0mrad3, yes, but yesterday.
+[17:09:55] <kushal> next
+[17:09:58] <deep123k> Root path??
+[17:10:11] <kushal> deep123k, just press Enter
+[17:10:27] <Rnarwade> !
+[17:10:36] <c0mrad3> I missed yesterday
+[17:10:42] <kushal> deep123k, you can scroll that webpage to see what happened
+[17:10:46] <kushal> c0mrad3, Okay,
+[17:11:00] <deep123k> And what about name prefix for templates
+[17:11:01] <kushal> c0mrad3, I have asked people to install that as the part of the session yesterday.
+[17:11:11] <kushal> deep123k, just scroll the page and see
+[17:11:42] <abstatic> !
+[17:12:05] <kushal> next
+[17:12:09] <Rnarwade> sphinx-    its not working in my shell
+[17:12:16] <kushal> Rnarwade, what is the error?
+[17:12:18] <kushal> next
+[17:12:25] <abstatic> is there any difference in installing packages using the disto manager (like dnf, apt) and using pip ? In respect of where and how the packages are installed ?
+[17:12:41] <kushal> abstatic, Yes, there can be difference.
+[17:12:58] <Rnarwade> kushal, bash: sphinx-: command not found...
+[17:12:58] <Rnarwade> Failed to search for file: Failed to load repo fedora: error propagated from libsolv
+[17:13:24] <kushal> Rnarwade, can you please see what is the command I gave?
+[17:13:31] <kushal> Rnarwade, are you seeing this on a phone?
+[17:13:33] <deep123k> !
+[17:13:48] <kushal> Rnarwade, the command is sphinx-quickstart
+[17:13:50] <kushal> next
+[17:13:56] <code_geek> !
+[17:14:07] <Rnarwade> kushal, no
+[17:14:07] <deep123k> For source file suffix should I type .txt or .rst
+[17:14:55] <akshays> !
+[17:15:43] <thisisashwani> !
+[17:15:47] <kushal> next
+[17:15:50] <amitk_> kushal , Done
+[17:15:51] <code_geek> sphinx-  is not working, it says sphinx- : command not found. I am using Ubuntu 15.10.
+[17:16:11] <kushal> code_geek, can you please see the command I gave?
+[17:16:16] <pabitra> !
+[17:16:29] <kushal> code_geek, it is sphinx-quickstart
+[17:16:30] <code_geek> sorry, just saw Rnarwade's question
+[17:16:35] <kushal> next
+[17:16:49] <akshays> i got error while installing python-sphinx
+[17:17:06] <akshays> https://paste.fedoraproject.org/385927/71269621/
+[17:17:33] <avik> !
+[17:18:14] <kushal> akshays, strange
+[17:18:29] <kushal> akshays, what is the output of which sphinx-quickstart ?
+[17:18:48] <rohan_h> when i uses sphinx-quickstart command, it automatically prompted me to install sphinx .. akshays  try that
+[17:19:42] <akshays> but sphinx-quickstart does work
+[17:19:43] <c0mrad3> akshays: try doing sudo dnf upgrade and then installing using sudo dnf install python-sphinx
+[17:20:02] <kushal> akshays, good for now.
+[17:20:04] <kushal> next
+[17:20:09] <thisisashwani> kushal: i missed the first few things on your terminal, did you separate source and build directories?
+[17:20:29] <pabitra> kushal, i did all those steps... will it create a doc file ??
+[17:21:30] <pabitra> thisisashwani, scroll it
+[17:21:31] <rohan_h> pabitra, go to the directory and check yourself
+[17:21:36] <pabitra> you can scroll it up
+[17:21:58] <pabitra> yes... i checked... rohan_h only config and make files are present
+[17:22:00] <kushal> pabitra, it will create many files
+[17:22:01] <kushal> Next steps
+[17:22:28] <thisisashwani> pabitra: seriously, can it be scrolled, because i can't do it on my screen?
+[17:23:19] <pabitra> thisisashwani, i can scroll it ...
+[17:23:20] <buvanesh_kumar> I'm getting error. i tried it into google. but i'm not getting. https://paste.fedoraproject.org/385930/27346146/
+[17:23:22] <kushal> I just added a chapter
+[17:23:26] <moizsajid> c0mrad3, yes it is mentioned in the rst document
+[17:23:31] <kushal> Now going to build the html
+[17:23:32] <moizsajid> !
+[17:23:51] <smdeep> !
+[17:23:54] <kushal> Now open the _build/html directory in your browser
+[17:23:55] <kushal> next
+[17:24:31] <warlord77> !
+[17:24:34] <buvanesh_kumar> hi, it's now working for me :)
+[17:25:32] <rahul_bajaj> buvanesh_kumar, did you attend yesterdays session ?
+[17:25:44] <kushal> next
+[17:26:06] <buvanesh_kumar> nope :( rahul_bajaj
+[17:26:14] <kushal> buvanesh_kumar, disable atrpms
+[17:26:22] <kushal> next
+[17:26:29] <moizsajid> Problem solved
+[17:26:34] <kushal> next
+[17:26:35] <buvanesh_kumar> disabled kushal Thanks
+[17:26:35] <smdeep> solved.
+[17:26:38] <kushal> next
+[17:26:55] <kushal> Now people feel free to go ahead and add new chapters to your docs
+[17:27:03] <warlord77> can u tell the command to create a new file in the sphinx
+[17:27:08] <kushal> try out all the different rst things you know.
+[17:27:19] <kushal> warlord77, What is u?
+[17:27:29] <warlord77> sorry it was you
+[17:27:29] * Richard15 you kushal
+[17:27:32] <SRvSaha> !
+[17:28:07] <pabitra> !
+[17:28:31] <kushal> Richard15, ?
+[17:28:42] <kushal> warlord77, I used vim to create a new file.
+[17:29:05] <kushal> next
+[17:29:12] <SRvSaha> kushal: Should I first go to _build/toctrees and then do Make html ? I am getting this warning "/home/srvsaha/hellodgplug/docs/firstchapter.rst:: WARNING: document isn't included in any toctree"
+[17:29:23] <abstatic> !
+[17:29:44] <kushal> SRvSaha, see which directory I am in, also you have to add the firstchapter file in the index.rst
+[17:29:50] <kushal> SRvSaha, watch the scrren
+[17:29:54] <kushal> screen
+[17:30:15] <kushal> After 3 spaces, I wrote the name of the file without the extension
+[17:30:31] <SRvSaha> 3 spaces. I gave 4 :(
+[17:31:02] <abstatic> so we have to keep our chapters in a separate doc folder ?
+[17:31:42] <SRvSaha> !
+[17:32:04] <kushal> SRvSaha, :)
+[17:32:08] <SRvSaha> Kushal : Can you please do it again from the beginning ?
+[17:32:26] <SRvSaha> I missed something
+[17:32:28] <kushal> abstatic, no you have to keep them in the same directory with other docs files.
+[17:32:38] <kushal> SRvSaha, what is the error are you getting?
+[17:32:43] <SRvSaha> I am getting warning : /home/srvsaha/hellodgplug/docs/index.rst:11: WARNING: toctree contains reference to document u'firstchapter' that doesn't have a title: no link will be generated
+[17:32:45] <kushal> abstatic, check the terminal
+[17:33:01] <SRvSaha> kushal: Warning. No error
+[17:33:05] <kushal> SRvSaha, yes, in the firstchapter.rst you do not have a title on the top
+[17:33:21] <kushal> SRvSaha, look now
+[17:33:24] <abstatic> kushal, got it
+[17:33:56] <SRvSaha> Oh ok. Got it. Thanks Ku
+[17:33:59] <abstatic> kushal, can you do a ls command ?
+[17:34:20] <kushal> abstatic, done
+[17:34:21] <abstatic> thank you.
+[17:34:53] <kushal> Any more question on this ?
+[17:35:06] <kushal> Other wise feel free to read and learn more from http://www.sphinx-doc.org/en/stable/
+[17:35:25] <kushal> We will meet tomorrow.
+[17:35:27] <kushal> next
+[17:35:28] <deep123k> After creating firstchapter .rst how did you buils
+[17:35:37] <kushal> deep123k, make html
+[17:35:39] <kushal> next
+[17:35:41] <akshays> !
+[17:35:42] <kushal> next
+[17:35:42] <abstatic> when i browse the index.html file, i don't see the link to the new chapter that i created. but i can access it manually.
+[17:35:53] <deep123k> !
+[17:35:57] <warlord77> !
+[17:35:57] <pabitra> solved
+[17:36:00] <abstatic> i also get the warning - /home/ubuntu/dev/coding/python/doctest/firstchapter.rst:: WARNING: document isn't included in any toctree
+[17:36:02] <kushal> abstatic, yes, you are missing the chapter title on the top
+[17:36:05] <prashaant__> please share the link to live terminal , i got disconnected and had to login from another computer
+[17:36:14] <SRvSaha> kushal: Thanks I am done. It's working fine now.
+[17:36:20] <SRvSaha> !
+[17:36:20] <kushal> abstatic, then you don't have it in the index.rst
+[17:36:22] <kushal> next
+[17:36:26] <akshays> how to create first chapter
+[17:36:35] <SRvSaha> kushal: Is the make file directly doing the work of rst2html ?
+[17:36:40] <kushal> prashaant_, https://shellshare.net/r/summertraining
+[17:36:41] <SRvSaha> <eof>
+[17:36:49] <amitk_> kushal thanks i allways amazed how people can manage big Project documentation, and in couple of this lecture i came to know the secret :)
+[17:36:49] <kushal> SRvSaha, sphinx is doing that work
+[17:37:02] <kushal> amitk_, nothing secret in this :)
+[17:37:05] <prashaant__> thanks kushal.
+[17:37:07] <kushal> next
+[17:37:11] <deep123k> After creating firstchapter.rst how did you build
+[17:37:26] <kushal> deep123k, scroll up, I gave the command
+[17:37:27] <kushal> make html
+[17:37:28] <kushal> next
+[17:37:39] <akshay_CV> akshays: vim firstchapter.rst
+[17:37:52] <abstatic> kushal, i found what i did wrong. I had slightly differnt file names in index.rst and the actual file created. renaming solved the problem! :)
+[17:37:52] <kushal> next
+[17:37:52] <warlord77> kushal, to make it into html we have to use the same command as we used in rest
+[17:37:55] <SRvSaha> !
+[17:38:09] <deep123k> !
+[17:38:12] <kushal> warlord77, give the following command
+[17:38:14] <kushal> make html
+[17:38:14] <kushal> next
+[17:38:51] <kushal> next
+[17:39:01] <deep123k> Make html is giving error : no rule to make target 'html'
+[17:39:09] <avik> !
+[17:39:14] <kushal> deep123k, which directory are you in?
+[17:39:17] <kushal> next
+[17:39:26] <avik> what to do after doing make html?
+[17:39:38] <kushal> the files are in _build/html directory
+[17:39:40] <avik> how to view what we did?
+[17:39:41] <SRvSaha> kushal: Suppose I have 10 html files with 8 previously built using make. Now for the last 2, if I am doing make html, will all the html files be build or just the latest ones? <eof>
+[17:39:46] <kushal> OPen your browser to view them
+[17:39:55] <kushal> SRvSaha, try and see :)
+[17:40:02] <kushal> avik, open firefox
+[17:40:02] <code_geek> !
+[17:40:06] <kushal> and then in my case
+[17:40:27] <kushal> file:///home/fedora/hellodgplug/docs/_build/html
+[17:40:31] <kushal> I open this path
+[17:40:32] <kushal> next
+[17:40:35] <code_geek> We have to run the make html command every time we edit a project or create one?
+[17:40:44] <kushal> code_geek, every time you update the docs
+[17:40:52] <code_geek> okay
+[17:40:52] <kushal> code_geek, we can get it done automatically
+[17:40:58] <kushal> we will learn about it later
+[17:41:06] <code_geek> okay :)
+[17:41:12] <akshays> !
+[17:41:14] <avik> cool
+[17:41:17] <avik> :)
+[17:41:21] <kushal> If you see closely this docs already has a search engine for you.
+[17:41:22] <kushal> next
+[17:41:50] <akshays> i saw the index.html in browser but it doesnot look like the one you showed
+[17:42:26] <kushal> akshays, I did not show you my index.html
+[17:42:52] <akshays> i mean the dgplug python one
+[17:43:20] <avik> !
+[17:43:29] <kushal> akshays, yes, as it depends on the theme
+[17:43:34] <kushal> they may look different
+[17:43:36] <kushal> next
+[17:43:39] <akshays> its just pain html page
+[17:43:48] <code_geek> !
+[17:43:55] <c0mrad3> !
+[17:44:01] <kushal> akshays, may be you want to update your sphinx
+[17:44:01] <kushal> next
+[17:44:02] <avik> we do need to understand each prompt of sphinx we passed by enter , right?
+[17:44:04] <code_geek> We have to convert firstproject.rst using rst2html command? Because I cannot find firstproject.html after make html.
+[17:44:16] <kushal> avik, yes, but not right now
+[17:44:26] <avik> ok
+[17:44:28] <kushal> code_geek, it is under _build/html
+[17:44:33] <kushal> code_geek, see the terminal
+[17:44:48] <pabitra> code_geek, go to _build folder inside where you have the rst file
+[17:44:52] <kushal> next
+[17:44:54] <c0mrad3> kushal: can you cat both the files in shellshare once
+[17:44:56] <code_geek> okay, thanks
+[17:45:12] <kushal> c0mrad3, these two, correct?
+[17:45:19] <c0mrad3> yes
+[17:45:41] <kushal> c0mrad3, is this okay?
+[17:45:45] <c0mrad3> kushal: yes
+[17:46:15] <kushal> Okay
+[17:46:16] <kushal> next
+[17:46:26] <kushal> Good, have fun with sphinx
+[17:46:30] <kushal> See you all tomorrow
+[17:46:34] <kushal> Roll Call
+[17:46:36] <real56> !
+[17:46:39] <akshays> Akshay Shipurkar
+[17:46:39] <abstatic> Abhishek Shrivastava
+[17:46:40] <Alak> Alakshendra Yadav
+[17:46:41] <c0mrad3> Tummala Dhanvi
+[17:46:42] <amitk_> Amit Kokitkar
+[17:46:42] <rohan_h> Rohan Hazra
+[17:46:43] <vbhjain> Vaibhav Jain
+[17:46:44] <akshay_CV> akshay cv
+[17:46:45] <yASH> Yashwanth M
+[17:46:46] <suniva> Suniva Priyadarshini
+[17:46:48] <Richard15> Mayank Gupta
+[17:46:50] <pabitra> Pabitra Pati
+[17:46:51] <deep123k> Deepanshu Kapoor
+[17:46:54] <D1nz> Dinesh
+[17:46:56] <moizsajid> Moiz Sajid
+[17:46:56] <mahesh5> Mahesh Gahlot
+[17:46:58] <D1mz> Aditya Bayana
+[17:46:59] <avik> Avik Mukherjee
+[17:47:00] <smdeep> Sudeep Mukherjee
+[17:47:03] <poonam> poonam jadhav
+[17:47:08] <SRvSaha> Saurav Saha
+[17:47:09] <anushilk> Anushil Kumar
+[17:47:14] <jogi96_> Jogender Kota
+[17:47:28] <ak_d> Akhilesh Dhaundiyal
+[17:47:32] <abk1> Abheek
+[17:47:33] <sneo> Sarah Masud
+[17:47:46] <kushal> 26 people
+[17:47:48] <Anupama> Anupama Mandal
+[17:47:52] <kushal> 27
+[17:47:52] <kushal> :)
+[17:48:04] <kushal> See, only the interested people will continue the sessions.
+[17:48:17] <LambaInsaan> Rhitik Bhatt
+[17:48:23] <kushal> And if you continue, it will really help you in future :)
+[17:48:24] <real56> Varsha R
+[17:48:26] <yASH> !
+[17:48:28] <kushal> next
+[17:48:30] <kushal> next
+[17:48:40] <yASH> Kushal what about LaTeX
+[17:48:48] <mahesh5> !
+[17:48:50] <Anupama> !
+[17:48:51] <deep123k> !
+[17:49:15] <code_geek> Shantanu Acharya
+[17:49:44] <kushal> yASH, You can create latex from rst using sphinx
+[17:49:46] <kushal> next
+[17:49:48] <real56> Do we have to create the index and  firstchapter .rst page inside _build or is it okay to create outside of it?
+[17:50:04] <kushal> real56, you don't have to create index.rst
+[17:50:10] <kushal> see my directory
+[17:50:13] <kushal> on the screen
+[17:50:20] <shobhitupadhyay> shobhit upadhyay
+[17:50:24] <anushilk> !
+[17:50:25] <kushal> next
+[17:50:27] <Anupama> why can't i scroll in the live terminal?
+[17:50:29] <mahesh5> kushal,can we make our document in any other format like pdf using sphinx?
+[17:50:41] <kushal> mahesh5, yes, there is latexpdf
+[17:50:45] <kushal> make latexpdf
+[17:50:46] <chshbh> sorry kushal, i missed the session today, i had appointment with doctor. Thanks,
+[17:50:57] <kushal> but for that you need many latex packages installed.
+[17:51:03] <kushal> chshbh, No problem
+[17:51:04] <kushal> next
+[17:51:07] <deep123k> Kushal you did y for all except last two ..right?
+[17:52:00] <kushal> Pasting here for logs
+[17:52:01] <kushal> $ sphinx-quickstart
+[17:52:01] <kushal> Welcome to the Sphinx 1.2.3 quickstart utility.
+[17:52:01] <kushal> Please enter values for the following settings (just press Enter to
+[17:52:01] <kushal> accept a default value, if one is given in brackets).
+[17:52:01] <kushal> Enter the root path for documentation.
+[17:52:02] <kushal> > Root path for the documentation [.]:
+[17:52:07] <kushal> You have two options for placing the build directory for Sphinx output.
+[17:52:08] <kushal> Either, you use a directory "_build" within the root path, or you separate
+[17:52:12] <kushal> "source" and "build" directories within the root path.
+[17:52:14] <kushal> > Separate source and build directories (y/n) [n]:
+[17:52:16] <kushal> Inside the root directory, two more directories will be created; "_templates"
+[17:52:19] <kushal> for custom HTML templates and "_static" for custom stylesheets and other static
+[17:52:20] <kushal> files. You can enter another prefix (such as ".") to replace the underscore.
+[17:52:22] <kushal> > Name prefix for templates and static dir [_]:
+[17:52:24] <kushal> The project name will occur in several places in the built documentation.
+[17:52:28] <kushal> > Project name: Our hello dgplug
+[17:52:30] <kushal> > Author name(s): Kushal Das <kushaldas@gmail.com>
+[17:52:32] <kushal> Sphinx has the notion of a "version" and a "release" for the
+[17:52:36] <kushal> software. Each version can have multiple releases. For example, for
+[17:52:38] <kushal> Python the version is something like 2.5 or 3.0, while the release is
+[17:52:42] <kushal> something like 2.5.1 or 3.0a1.  If you don't need this dual structure,
+[17:52:44] <kushal> just set both to the same value.
+[17:52:46] <kushal> > Project version: 0.1
+[17:52:48] <kushal> > Project release [0.1]:
+[17:52:50] <kushal> The file name suffix for source files. Commonly, this is either ".txt"
+[17:52:52] <kushal> or ".rst".  Only files with this suffix are considered documents.
+[17:52:54] <kushal> > Source file suffix [.rst]:
+[17:52:58] <kushal> One document is special in that it is considered the top node of the
+[17:53:00] <kushal> "contents tree", that is, it is the root of the hierarchical structure
+[17:53:02] <kushal> of the documents. Normally, this is "index", but if your "index"
+[17:53:06] <kushal> document is a custom template, you can also set this to another filename.
+[17:53:08] <kushal> > Name of your master document (without suffix) [index]:
+[17:53:12] <kushal> Sphinx can also add configuration for epub output:
+[17:53:14] <kushal> > Do you want to use the epub builder (y/n) [n]:
+[17:53:16] <kushal> Please indicate if you want to use one of the following Sphinx extensions:
+[17:53:18] <kushal> > autodoc: automatically insert docstri
+[17:53:21] <kushal> Please indicate if you want to use one of the following Sphinx extensions:
+[17:53:22] <kushal> > autodoc: automatically insert docstrings from modules (y/n) [n]:
+[17:53:24] <kushal> > doctest: automatically test code snippets in doctest blocks (y/n) [n]:
+[17:53:28] <kushal> > intersphinx: link between Sphinx documentation of different projects (y/n) [n]:
+[17:53:30] <kushal> > todo: write "todo" entries that can be shown or hidden on build (y/n) [n]:
+[17:53:33] <kushal> > coverage: checks for documentation coverage (y/n) [n]:
+[17:53:34] <kushal> > pngmath: include math, rendered as PNG images (y/n) [n]:
+[17:53:39] <kushal> > mathjax: include math, rendered in the browser by MathJax (y/n) [n]:
+[17:53:42] <kushal> > ifconfig: conditional inclusion of content based on config values (y/n) [n]:
+[17:53:44] <kushal> > viewcode: include links to the source code of documented Python objects (y/n) [n]:
+[17:53:46] <kushal> A Makefile and a Windows command file can be generated for you so that you
+[17:53:48] <kushal> only have to run e.g. `make html' instead of invoking sphinx-build
+[17:53:50] <kushal> directly.
+[17:53:52] <kushal> > Create Makefile? (y/n) [y]:
+[17:53:54] <kushal> > Create Windows command file? (y/n) [y]: n
+[17:53:58] <kushal> Creating file ./conf.py.
+[17:54:00] <kushal> Creating file ./index.rst.
+[17:54:02] <kushal> Creating file ./Makefile.
+[17:54:04] <kushal> Finished: An initial directory structure has been created.
+[17:54:08] <kushal> You should now populate your master file ./index.rst and create other documentation
+[17:54:12] <kushal> source files. Use the Makefile to build the docs, like so:
+[17:54:15] <kushal>    make builder
+[17:54:16] <kushal> where "builder" is one of the supported builders, e.g. html, latex or linkcheck.
+[17:54:18] <kushal> and then do make html
+[17:54:20] <kushal> for the rest ask help here from friends
+[17:54:22] <kushal> You should try to help others, the easiest way to learn more.
+[17:54:24] <kushal> See you all tomorrow
+[17:54:28] <kushal> endclass
+[17:54:28] [## Class Ended at Tue Jun 28 17:54:28 2016 ##]

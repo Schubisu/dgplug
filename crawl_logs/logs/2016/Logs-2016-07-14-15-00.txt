@@ -1,0 +1,554 @@
+[15:00:15] [## Class Started at Thu Jul 14 15:00:15 2016 ##]
+[15:00:15] <kushal> startclass
+[15:00:22] <kushal> Roll Call
+[15:00:23] <Richard99> Mayank Gupta
+[15:00:25] <SRvSaha> fhackdroid: Didn't know that
+[15:00:25] <vbhjain> Vaibhav Jain
+[15:00:28] <akshays_> Akshay Shipurkar
+[15:00:28] <rohan_h> Rohan Hazra
+[15:00:29] <mitra00> Shubhodeep Mitra
+[15:00:29] <SRvSaha> Saurav Saha
+[15:00:30] <ak_d> Akhilesh Dhaundiyal
+[15:00:30] <abstatic> Abhishek Shrivastava
+[15:00:32] <smdeep> Sudeep Mukherjee
+[15:00:34] <anjali> Anjali Pardeshi
+[15:00:34] <amey> Amey Jain
+[15:00:34] <madhurii> Madhuri Muley
+[15:00:35] <LambaInsaan> Rhitik Bhatt
+[15:00:36] <deep123k> Deepanshu Kapoor
+[15:00:38] <shauryak_3> Shaurya Kalia
+[15:00:38] <PrashantJ> Prashant Jamkhande
+[15:00:38] <cosmologist10> shweta suman
+[15:00:39] <rhnvrm> Rohan Verma
+[15:00:42] <shashank-loki> Shashank
+[15:00:49] <rahuldecoded> Rahul Bhattacharjee
+[15:00:50] <vharsh> Harsh Vardhan
+[15:00:51] <Anupama> Anupama Mandal
+[15:00:51] <avik> Avik Mukherjee
+[15:01:03] <analyticalmonk> Akash Tandon
+[15:01:08] <jargonmonk> Aniket Khisti
+[15:01:09] <trishnag> Trishna Guha
+[15:01:18] <Anandprakash> Anandprakash Tandale
+[15:01:18] <ksaikiranr_> K Sai Kiran
+[15:01:23] <real56> Varsha R
+[15:01:25] <iKshitij> Kshitij
+[15:01:30] <sandy_> sandeep kumar choudhary
+[15:01:33] <priyanka_> Priyanka Sharma
+[15:01:56] <pabitra> Pabitra Pati
+[15:01:59] <kushal> add: fhackdroid
+[15:02:16] <D1mz> Aditya Bayana
+[15:02:27] <Alak> Alakshendra Yadav
+[15:02:33] <indiabhi> Abhishek rai
+[15:02:37] <Krishna> Krishna Biradar
+[15:02:37] <SpEcHiDe> Shrimadhav U K
+[15:02:38] <gobinda> Gobinda Akhuli
+[15:02:41] <yash_b> yash bhardwaj
+[15:04:06] <kushal> Okay
+[15:04:12] <kushal> fhackdroid, the stage is yours :)
+[15:04:16] <kushal> You know the drill :)
+[15:04:31] <fhackdroid> kushal, thanks :) haha thanks to trishnag yes I do
+[15:04:57] <jogender> roll call:Jogender Kota
+[15:05:18] <trishnag> fhackdroid: :-)
+[15:05:23] <akshay_CV> Roll call: Akshay
+[15:05:31] <meamitk> ROLL CALL: Amit Kokitkar
+[15:05:48] <kunalk> Roll Call: Kunal Kumar
+[15:06:38] <anushil051> Anushil Kumar
+[15:06:49] <HEMANTH> hemanth savasere
+[15:07:07] <poonam> Poonam Jadhav
+[15:07:36] <fhackdroid> Hello people My name is Farhaan Bukhsh, I just finished my 3rd year endsem , I am a Foss enthusiast and contributor , I have contributed to Fedora infra , for sometime to Mozilla ! I am also a part of FSMK , free software movement Karnataka. I was fortunate enough to get into GSoC, with pagure as my project, where we are trying to make Pagure the best code reviewing system available.
+[15:08:44] <fhackdroid> I think thats pretty much my intro , I am open to questions !
+[15:08:53] <HEMANTH> !
+[15:09:02] <fhackdroid> next
+[15:09:07] <SRvSaha> !
+[15:09:26] <HEMANTH> can you just tell us about the journey till here?
+[15:09:35] <abstatic> !
+[15:09:38] <indiabhi> !
+[15:10:29] <HEMANTH> I want you to describe the feeling and the effort and the method on how to contribute to open source for beginners?
+[15:10:32] <HEMANTH> EOF
+[15:10:53] <SRvSaha> What're you doing basically at Prague ? Is code reviewing restricted to just checking of the syntax or something beyond ?
+[15:12:39] <fhackdroid> Last year when I joined Dgplug all I did was one bug in Mozilla that took me around a month to merge, I met sayan in BangPypers , he pointed me here , I started learning more and more I began to know the work flow , I started contr. to fedora infra pingou has been amazing support,
+[15:14:02] <rohan_h> !
+[15:14:04] <fhackdroid> it feels unreal I dont know how I did but I just did what I love , the feeling when your code helps someone and the feeling of giving back to the community there is nothing you can compare wiht
+[15:14:16] <fhackdroid> hope that answers HEMANTH  quesdtion
+[15:14:19] <fhackdroid> next
+[15:14:32] <vharsh> http://bangalore.python.org.in/
+[15:14:37] <vharsh> sorry
+[15:14:41] <AndroUser2> Roll call : Onkar karale
+[15:14:43] <SRvSaha> What're you doing basically at Prague ? Is code reviewing restricted to just checking of the syntax or something beyond ? <eof>
+[15:14:52] <AndroUser2> Sry i am late
+[15:14:55] <fhackdroid> SRvSaha, its Pagure for starting
+[15:16:18] <satya4ever> Roll Call : Satyajit Bulage
+[15:17:12] ksaikiranr__ is now known as ksaikiranr
+[15:17:29] <fhackdroid> I assume that you have a GitHub session , so Pagure is a open source equivallent of Github, We dont check the syntax code quality or anything if its not our code base we help people to collaborate and review their code. when it comes to Pagure's code base its a very sacred place the best quality code gets in the code base :)
+[15:17:52] <fhackdroid> SRvSaha, ^ s does that answer your question ?
+[15:18:02] <rhnvrm> !
+[15:18:12] <fhackdroid> more you can find on https://pagure.io
+[15:18:22] <fhackdroid> next
+[15:18:27] <abstatic> How did you transition to doing FOSS after learning programming (as learning to program mainly involves doing psets, exercises)
+[15:18:38] <SRvSaha> Ok got it fhackdroid
+[15:20:36] <rhnvrm> I'm contributing to https://forge-allura.apache.org/ under GSoC. It's a similar project to yours. What are you working on specifically in the project?
+[15:21:17] <fhackdroid> abstatic, we dont have psets what we have is worse we are taught to mug, FOSS brings practicality in my approach what all I read in books be it about testing, sdlc or employing algorithms I have experienced them first hand. It is just like when experience something you understand it more , and I learn alot contributing :)
+[15:21:49] <fhackdroid> rhnvrm, i guess you should wait for your turn :) and I will come to you :)
+[15:21:54] <fhackdroid> next
+[15:22:07] <fhackdroid> abstatic, hope that answers your question :)
+[15:22:18] <abstatic> Yes it does ! thanks fhackdroid :)
+[15:22:31] <indiabhi> How do I join bangpypers group, What sort of discussions happen over there, IS there where you got started in FOSS?
+[15:25:05] <fhackdroid> indiabhi, Bpy is a group of python enthu. in bangalore. It's a meetup group join it on meetup.com and you will get notification you can just rsvp and go there. This is a very specific type of group full of geeks and discussions are amazing at times
+[15:25:45] <kushal> fhackdroid, what does it mean by "enthu"?
+[15:26:14] <fhackdroid> i have a "." there enthusiast :)
+[15:27:07] <indiabhi> thanks fhackdroid :)
+[15:27:28] <indiabhi> would love to attend them on weekends :)
+[15:28:10] HoloIRCUser1 is now known as Anupama
+[15:28:55] <fhackdroid> I think beginners might feel disconnected , let me tell you more about how I started !
+[15:29:21] <PrashantJ> yes please
+[15:29:45] <fhackdroid> When dgplug happened the curve to stay here and discuss is really steep
+[15:29:53] <fhackdroid> let me tell you what i mean by that
+[15:30:25] <fhackdroid> its not like normal lectures its different at times you discuss about things and you just want to work on something
+[15:30:40] <fhackdroid> one of the incident happen with irc bots
+[15:31:41] <fhackdroid> me trishnag sanketdg and abhishekg5  were discussing about them and out of the blue we started writing bots , which helped us to learn a lot tackling problems
+[15:31:59] <SRvSaha> kushal: code_geek could not attend the session today as there is no power in his laptop added with no electricity at his place. Even his phone is having 6% charge remaining to get the mobile IRC client and attend the session
+[15:32:14] <kushal> No problem.
+[15:32:19] <fhackdroid> First thing that poked me when I started dgplug is kushal's approach
+[15:32:44] <fhackdroid> he said the best way to learn programming is automate what you can !
+[15:33:03] <fhackdroid> I maintain something called zimwiki
+[15:33:30] <fhackdroid> i wrote a script to convert my logs and write it in my zim
+[15:34:11] <fhackdroid> The worst part is I see people take the email session very lightly !
+[15:34:21] <fhackdroid> they shouldn't
+[15:35:16] <fhackdroid> it teaches you how to talk , when someone is not seeing your face, you can convey any emotion, this very important when you are collaborating
+[15:35:43] <fhackdroid> so first and foremost in learning is be curious
+[15:36:09] <fhackdroid> second is discuss here all the time because you get a lot here!
+[15:36:39] <fhackdroid> third is never ever ever ever ever hesitate to ask question
+[15:37:53] <fhackdroid> sometimes back you had vim session right ?
+[15:38:10] <fhackdroid> I think vharsh posted a cs50 video
+[15:38:11] <deep123k> yes
+[15:38:11] <madhurii> yes
+[15:38:24] <vharsh> yes, awesome one
+[15:38:35] <shashank-loki> yes
+[15:38:45] <ksaikiranr_> yes
+[15:38:47] <fhackdroid> i watched that and I got to learn about text object I did my research and I feel vim is more awesome now
+[15:38:50] <SRvSaha> cs50 video on Vim ? vharsh
+[15:39:01] <anushil051> Awesome
+[15:39:03] <vharsh> yes SRvSaha
+[15:39:08] <fhackdroid> so these things you learn while discussing
+[15:39:21] <fhackdroid> so any questions till now ?
+[15:39:21] <SRvSaha> vharsh: Can you please share the link ?
+[15:39:30] <yajushi_> Roll Call: Yajushi Srivastava
+[15:39:38] <HEMANTH> !
+[15:39:38] <madhurii> can you share the link?
+[15:39:41] <SRvSaha> no
+[15:39:44] <madhurii> varsh:
+[15:39:48] <deep123k> fhackdroid, zim?
+[15:39:50] <vharsh> wait
+[15:40:02] <vharsh> https://manual.cs50.net/seminars/
+[15:40:19] <vharsh> Have the mother of all links :D
+[15:40:20] <madhurii> varsh: thank you
+[15:40:36] <anushil051> Zim is a text editor deep123k
+[15:40:40] <vharsh> Each video is awesome :) Take CS50 too :) <EOF>
+[15:40:57] <fhackdroid> deep123k, Zim wiki http://zim-wiki.org/ it is a personal inforamtion management system , I believe the information that is not recorded is lost
+[15:41:02] <SRvSaha> vharsh: thanks man
+[15:41:05] <fhackdroid> anushil051, no its not :P
+[15:41:42] <deep123k> Ohk , thanks fhackdroid anushil051
+[15:41:50] <vharsh> SRvSaha, Sharing is caring :) That's the way how we grow, be it assignments :p <EOF>
+[15:41:56] <anushil051> OK then fhackdroid
+[15:42:21] <SRvSaha> vharsh: CS50 of HAVARD?
+[15:42:31] <vharsh> SRvSaha, Yes :)
+[15:42:52] <fhackdroid> more CS50 disscussion after the session please :)
+[15:42:59] <Krishna> sorry, I may not attend todays session from now
+[15:43:07] <vharsh> CS101 (Prof. Nick Parlante) and CS106A/B of Stanford are good too :)
+[15:43:30] <fhackdroid> any other question or should I continue ?
+[15:43:36] <HEMANTH> !
+[15:43:44] <fhackdroid> next
+[15:43:47] <fhackdroid> next
+[15:43:49] <fhackdroid> next
+[15:43:56] <fhackdroid> next
+[15:43:57] <rohan_h> What's the role of dgplug in your success?
+[15:44:02] <fhackdroid> there you go :)
+[15:45:45] <fhackdroid> rohan_h, a huge huge one I am not from a background where you get a lot of exposure to technology, or to a lot of projects. what i have is a lot of energy, dgplug helped me to channalize it in a right direction!
+[15:46:09] <rohan_h> fhackdroid, care to explain more? :)
+[15:46:13] <fhackdroid> be it introducing to fedora infra or teaching me philosophy
+[15:46:19] <fhackdroid> rohan_h, I am
+[15:46:44] <HEMANTH> !
+[15:46:58] <fhackdroid> rohan_h, so everyone learns programing what makes you stand out is how implement things
+[15:47:43] <rohan_h> I agree
+[15:47:46] <fhackdroid> we are taught how to get things done, how to use the tools! how to approach a project how to start and where to start
+[15:48:02] <fhackdroid> rohan_h, does that answer your question ?
+[15:48:14] <fhackdroid> next
+[15:48:15] <HEMANTH> fhackdroid: can you describe more about choosing bugs for beginner ?
+[15:48:17] <rohan_h> yes
+[15:48:23] <vharsh> !
+[15:48:54] <akshays> !
+[15:49:13] <fhackdroid> I will try to answer Hemanths question in a way that everyone gets something from it !
+[15:49:45] <rahuldecoded> !
+[15:49:49] <fhackdroid> Everyone active opensource projects has a list of first good bugs , or low hanging fruits
+[15:50:36] <fhackdroid> My experience started with mozilla , I struggled with it , the first question was how to start?
+[15:51:15] <fhackdroid> I had no experience with IRC so the converstaion happened over mail and comments with my mentor
+[15:52:00] <fhackdroid> so I comment on a first good bug he replied and this lead to making of patch and all formalities  then it got into the codebase
+[15:52:26] <fhackdroid> this process took a month or more and it was really painfull for me tbh.
+[15:52:45] <fhackdroid> then with dgplug i got to fedora-infra
+[15:53:17] <fhackdroid> i remember the project was nuancier and i took a bug asked pingou and he assigned it to me
+[15:53:24] <fhackdroid> over irc
+[15:53:48] <fhackdroid> this is how my journey began I pinged my mentor on irc about the bug
+[15:54:23] <fhackdroid> he assigned it to me and began working , I didn't sleep the whole night because it was so interesting
+[15:54:43] <fhackdroid> I sent about 13 commits for a button on a website :P
+[15:55:16] <fhackdroid> hope most of you know what a commit is ?
+[15:55:19] <buvanesh_kumar> sounds great fhackdroid :)
+[15:55:24] <Alak> Yes
+[15:55:33] <yajushi> Yes
+[15:55:42] <madhurii> yes :)
+[15:56:06] <fhackdroid> then my mentor came online and he is like good job but "You know that I sleep right "
+[15:56:34] <fhackdroid> haha then  the whole evening he sat with me patiently and we squashed my commits
+[15:56:48] <fhackdroid> take notes google squashing commits :P
+[15:56:48] <avik> that button on website really turned on yours life button to success :P
+[15:57:01] <shashank-loki> yes
+[15:57:04] <fhackdroid> this is how I bonded with him
+[15:57:30] <fhackdroid> avik, it did :)
+[15:58:05] <fhackdroid> after that I went on a spree I made a point to send atleast one PR per day :)
+[15:58:15] <fhackdroid> next
+[15:58:19] <vharsh> How do I find good societies in Bhubaneswar, or any city for that matter. I guess there are no active societies here. IIT-Bhubaneswar and IIIT-Bhubaneswar are pretty nascent, and they don't have an active club(as far as I could find from there websites). Societies have a large impact on the growth of an individual. How do I find a society? I don't expect IIT-(x) to allow other students to join, like dgplug did.
+[15:58:22] <ksaikiranr_> !
+[15:58:59] <pabitra> vharsh, I know the pain as I had been the stage you are now in... :(
+[15:58:59] <vharsh> PS. google isn't always a friend :p <EOF>
+[15:59:36] <fhackdroid> vharsh, better form your own ! all it takes is a little effort , remember kushal formed dgplug !
+[15:59:48] <fhackdroid> there is your inspiration
+[15:59:54] <fhackdroid> next
+[15:59:57] <akshays> Have you ever faced problem setting up development environment locally? and how did you get it working.
+[16:00:03] <vharsh> Yes, but I failed to get my friends into dgplug.
+[16:00:14] <akshays> same here vharsh
+[16:00:19] <kushal> vharsh, we are your friends :)
+[16:00:27] <fhackdroid> akshays, good question !
+[16:00:34] <kushal> vharsh, or don't you count as friends?
+[16:00:36] <HEMANTH> This is the perfect answer that every beginner wants.
+[16:00:42] <HEMANTH> thanks fhackdroid
+[16:01:00] <sayan> vharsh: that's disheartening :(
+[16:01:05] <vharsh> Thanks kushal :) I hope, someday my friends realize that life isn't about writing a 50 line program for 3 hours.
+[16:01:06] <fhackdroid> akshays, you face a lot of trouble thats the best part
+[16:02:06] <akshays> i had tried pagure
+[16:02:12] <fhackdroid> akshays, i face a lot of trouble setting up bodhi so what i did was improve the documentation for bodhi set up and sent them a PR. bodhi is a fedora infra project
+[16:02:28] <fhackdroid> akshays, ask the mentor
+[16:02:29] <sayan> vharsh: btw, chandankumar and I were too alone in college, but we try to build society in and around our college
+[16:02:38] <akshays> which your currently work on
+[16:03:15] <sayan> vharsh: I would emphasize that we try to build a community in the city
+[16:03:25] <fhackdroid> they are there to help and to guide you! I pinged my mentors day in and day out , that channel at one point had only my questions :)
+[16:03:32] <vharsh> fhackdroid, Can I share a story afterclass? It's related to https://bugzilla.redhat.com/show_bug.cgi?id=1201445 << I had done "auto-remove" during my exams :) I hope it will instill courage in future enthusiasts :D.
+[16:03:52] <fhackdroid> vharsh, sure :)
+[16:03:57] <fhackdroid> next
+[16:04:05] <rahuldecoded> ! Being a 3rd year student how you managed to do open source contribution? As you have said your are not from a geeky background, so don't you face distraction? If you face how you come across it?
+[16:04:16] <akshays> fhackdroid: I felt like working on pagure is like dreaming inside a dream :P
+[16:04:20] <vharsh> sayan, No one takes me seriously :P
+[16:04:29] <trishnag> bodhi now has vagrantfile :) fhackdroid
+[16:05:00] <fhackdroid> akshays, no its not inception :P
+[16:05:09] <buvanesh_kumar> !
+[16:05:24] <akshays> fhackdroid: haha :)
+[16:07:34] <fhackdroid> rahuldecoded, actually me not being from a geeky background but being really being interested in working with code is my motivation , you need to set priority and set time for when you want to do it , for me it starts after college and goes through the whole night. There are a lot of distraction but the key is don't loose momentum, hustle till the end.
+[16:08:19] <rahuldecoded> fhackdroid Thanks
+[16:08:23] <rahuldecoded> :D
+[16:08:38] <buvanesh_kumar> not from geeky background means? are you from different degree ?  fhackdroid
+[16:08:43] <yajushi_> fhackdroid: about that! ;)
+[16:08:53] <fhackdroid> rahuldecoded, you need to be really interested in things, imagine your code being used by millions out there , isn't that motivating ?
+[16:09:37] <fhackdroid> buvanesh_kumar, no environment to be technically sound!
+[16:09:42] <fhackdroid> next
+[16:09:45] <ksaikiranr_> fhackdroid, you said you started with mozilla, which language did you choose at that time?
+[16:09:56] <rahuldecoded> Will you please share your first mozilla bug?
+[16:10:39] <fhackdroid> ksaikiranr_, good question , so I have a lot of people say I know only basic python can I contribute ?
+[16:11:31] <fhackdroid> the point is you keep learning when you contribute, when I started i knew how to write basic syntax thats it , i had logic though
+[16:11:42] <ksaikiranr_> yes, i saw the morzilla's what can i do page, it has lot of options.
+[16:12:02] <fhackdroid> what happened in the process was my mentor taught me a lot through the process
+[16:12:29] <fhackdroid> be it naming convention , list comprehension
+[16:12:42] <fhackdroid> and how to write commit messages
+[16:13:09] <fhackdroid> the only thing I knew about git was add commit push and pull
+[16:13:29] <avik> !
+[16:13:34] <fhackdroid> and now i work on a project where intensive git knowledge is required
+[16:14:18] <anjali> !
+[16:14:56] <fhackdroid> the point I am trying to convey is the hardest part is to start, so dont think too much just jump in the pool people are there who make sure you wouldn't sink and they will teach you how to swim in bonus
+[16:15:11] <fhackdroid> ksaikiranr_, it was Javascript :)
+[16:15:34] <fhackdroid> next
+[16:15:53] <buvanesh_kumar> already asked. got answer :) thanks
+[16:16:02] <fhackdroid> ksaikiranr_, hope that answers your question
+[16:16:04] <ksaikiranr_> fhackdroid,  got it, and thanks for additional information. :)
+[16:16:04] <fhackdroid> next
+[16:16:43] <avik> you guys, fhackdroid, trishnag... make programming look like child's play!
+[16:16:44] <avik> learning in July-August and entering FOSS by the end of that very year? wow but how?
+[16:16:44] <avik> in facebook language > #feelingamazed
+[16:16:44] <avik> I got my answer but still, could not stop myself from asking, youknow!
+[16:18:33] <trishnag> avik: The key things are motivation, dedication and fun ;).
+[16:18:35] <trishnag> fhackdroid is going to answer you today :)
+[16:19:03] <avik> trishnag, :)
+[16:19:53] <fhackdroid> avik, this is how learning works , you learn from experience you throw yourself to challenges and just start enjoying it , you fail I am not kidding you fail a lot , but failing is important but trying is the key , because you know when you get what you are trying to achieve that feeling will be awesome.
+[16:20:55] <avik> :D
+[16:21:10] <fhackdroid> avik, I still remember there were sessions where only two of us were there and we were talking about setting up environment etc, for us its a way of life, we do it because its fun.
+[16:21:48] <BaloneyGeek> trishnag: pm?
+[16:21:55] <avik> fhackdroid, still #feelingAwsome
+[16:22:00] <avik> :D
+[16:22:00] <meamitk> !
+[16:22:16] <avik> fhackdroid, thanks.
+[16:22:20] <fhackdroid> avik, hope I answered it :)
+[16:22:24] <fhackdroid> next
+[16:22:24] <avik> :)
+[16:22:28] <anjali> fhackdroid, how to find a mentor
+[16:23:02] <fhackdroid> anjali, kushal , sayan are one of them ! aren't they teaching you stuff?
+[16:23:15] <anjali> yes
+[16:23:43] <fhackdroid> what you have to ask are you taking your time off and trying to learn from them ?
+[16:24:52] <anjali> i did not get your question
+[16:25:07] <fhackdroid> anjali, if you are talking about the FOSS project mentor once you start contributing you are helped by people and they become your mentor
+[16:25:24] <shobhitupadhyay> !
+[16:25:34] <fhackdroid> anjali, it was rhetoric :P
+[16:25:44] <fhackdroid> next
+[16:25:46] <anjali> but it is very dificult to find a find a bug
+[16:25:53] <meamitk> What do you think,  can my server administration experience help me to contribute in Open source community ? <EOF>
+[16:27:44] <fhackdroid> anjali, you just have to ask the right question at the right place ! finding bugs are not that difficult
+[16:28:10] <rahuldecoded> angali it's difficult only because you are new to this. It won't be this difficult after you get started.
+[16:28:43] <fhackdroid> meamitk, that is some serious thing , it definately  is all OSS project require sys admin
+[16:28:58] <fhackdroid> next
+[16:29:01] <shobhitupadhyay> how to change the habit of failing in career?how to change it to winning habit?
+[16:29:32] <trishnag> BaloneyGeek: Sure
+[16:29:44] <rahuldecoded> s/angali/anjali
+[16:29:45] <anjali> fhackdroid, rahuldecoded thankyou i will ask someone for help
+[16:30:55] <anushil05> is there anyone
+[16:31:07] <anushil05> anyone there
+[16:31:16] <vharsh> anushil05, session is on
+[16:31:21] <rohan_h> anushil05, everyone is here :P
+[16:31:38] <anjali> rahuldecoded, thankyou
+[16:31:41] <anushil05> no one is saying
+[16:31:44] <fhackdroid> shobhitupadhyay, I dropped a year after 12th failed to clear any engg. test , finally somehow got a pvt. college in Bangalore, I have failed a lot and in a lot of ways.
+[16:31:57] <fhackdroid> but the point is failures teach you a lot
+[16:32:18] <mitra00> !
+[16:32:26] <fhackdroid> don't give up , have faith in yourself do what you love
+[16:32:54] <fhackdroid> chase for the excellence and success will follow
+[16:33:13] <vharsh> fhackdroid, I know how that feels. I am in the same boat as you are. I had a tough time convincing my parents that I was not cut out to be a marine engg in a good government college :p
+[16:33:36] <fhackdroid> i don't feel successful yet but I feel satisfied I am doing what I love.
+[16:33:59] <vharsh> *from a good government college.
+[16:34:00] <fhackdroid> find your passion shobhitupadhyay and you will do good :)
+[16:34:21] <fhackdroid> shobhitupadhyay, hope I answered your question
+[16:34:24] <fhackdroid> next
+[16:35:21] <fhackdroid> shobhitupadhyay, also reading a lot of motivational stories on quora helps
+[16:35:45] <mitra00> My question is how do you manage your time in your day to day life, like I know you are involved in a start-up also i guess and you also contribute, so how do you keep a balance at work and as well as social life?
+[16:36:11] <pabitra> +! mitra00
+[16:36:15] <pabitra> +1
+[16:36:43] <meamitk> no need to read stories when people like you are online with us. :)
+[16:36:53] <rohan_h> fhackdroid, Quora is awesome :)
+[16:37:06] <vharsh> rohan_h, +1
+[16:37:22] * vharsh came to know about dgplug through Quora :D
+[16:37:25] <shobhitupadhyay> thanx
+[16:38:01] <fhackdroid> mitra00, If you are passionate about something you will find time to do it.
+[16:38:03] <sandy_> !
+[16:38:08] <fhackdroid> elaborating on that
+[16:39:53] <fhackdroid> don't try this but I sleep in college and bus , so I get sufficient amount of sleep , after which I get sometime which I invest with stat up because I get to learn from them a lot like a crazy lot.
+[16:40:38] <fhackdroid> when I get back home , I talk to people here and people in fedora apps and try to learn and contribute
+[16:41:00] <fhackdroid> I do this because this is what I love , I am a workaholic by choice.
+[16:41:09] <fhackdroid> I have social life too
+[16:41:17] <fhackdroid> movies i watch
+[16:41:25] <fhackdroid> i go out with friends
+[16:41:40] <fhackdroid> again it narrow down to priority
+[16:42:03] <fhackdroid> mitra00, does that answer you ?
+[16:42:32] <fhackdroid> I just don't like to waste time , I love to learn !
+[16:42:32] <mitra00> Yeah thanks, it seems that I need to reschedule my day to day life :)
+[16:42:39] <fhackdroid> next
+[16:42:41] <sandy_>  fhackdroid:  how to choose from different source of learning,Suppose want to learn git and found x,y and z source, how you choose which will be good to go with?
+[16:44:12] <mahesh5> !
+[16:45:33] <sandy_> fhackdroid: like for git we have codecademy course ,udacity course,git scrum book and more
+[16:45:36] <fhackdroid> sandy_, it depends on you , for example, I gain a lot when I watch something so I go with a lot of videos , less of books which is bad , but I do read books too. Then the best you can learn from is other people experiece so I read a lot of blogs, a lot of hacker news pages. Chanakya says that life is too short to repeat other people's mistake so learn from them and don't commit them
+[16:46:24] <fhackdroid> sandy_, choose any one and learn what is required I don't go cover to cover if it is not required
+[16:46:45] <sandy_> fhackdroid: thank's :)
+[16:46:59] <fhackdroid> learn the parts you want now then come back and learn again when you require other parts
+[16:47:18] <fhackdroid> internet gives you that freedom
+[16:47:33] <fhackdroid> sandy_, hope it answers your query
+[16:47:34] <fhackdroid> next
+[16:47:37] <mahesh5> According to you how much time I give to solve a easy bugs? After trishnag guest session I try to contribute to KDE and fix my first bug in 2 days but unable setup environment for my second bug I asked many time in #kde-devel but every time they start opposing each other suggestion.what should I do move to other or give some more time to it?
+[16:47:46] <sandy_> fhackdroid: yes :)
+[16:48:56] <sayan> shobhitupadhyay: there is nothing as winning habbit, sadly you will keep failing
+[16:49:25] <vbhjain> !
+[16:49:30] <sayan> shobhitupadhyay: you fail multiple times, and then pass once
+[16:49:51] <sayan> shobhitupadhyay: and then the circle repeats
+[16:50:32] <fhackdroid> mahesh5, its not exam so there is no uppertime in what you give to a bug. Congratulations to you and trishnag for this though. mahesh5 again if there is ambiguity it means there is something missing document that do you want another contributor to suffer? No! right so there you go if you set it up you can give back to the community
+[16:50:59] <shobhitupadhyay> thanks sayan
+[16:51:16] <fhackdroid> mahesh5, does that make sense ?
+[16:51:34] <fhackdroid> next
+[16:51:44] <vbhjain> did you started contribution after going through #dgplug's training ?
+[16:51:50] <mahesh5> fhackdroid: not clear
+[16:52:43] <fhackdroid> mahesh5, try to set up the environment anyways , once you know the right way document that so that another contributor doesn't suffer
+[16:53:05] <fhackdroid> hence you can fix that bug and also contribute to documentation
+[16:53:18] <fhackdroid> therefore giving back to the community
+[16:54:21] <fhackdroid> vbhjain, my actual contribution started with the training , although I fixed a bug before but the actual feel of contribution I got with dgplug
+[16:54:34] <abstatic> Sorry guys I will have to go, have a train to catch. fhackdroid: really a great session, found it motivating. Thanks :)
+[16:54:51] <fhackdroid> abstatic, safe journey :)
+[16:55:45] <fhackdroid> vbhjain, hope I answered your question!
+[16:55:52] <fhackdroid> mahesh5, now ?
+[16:55:53] <vharsh> vbhjain, Ask
+[16:55:58] <vbhjain> fhackdroid, thanks you gave the answer what I want :)
+[16:57:22] <rahuldecoded> mahesh5 will you share you first bug ?
+[16:57:31] <mahesh5> fhackdroid:yes i get
+[16:58:53] <fhackdroid> okay if there are no more question I want to share an experience
+[16:58:56] <fhackdroid> :)
+[16:59:01] <Alak> Sure
+[16:59:10] <ksaikiranr> sure.
+[16:59:22] <rahuldecoded> s/you/your
+[17:00:16] <fhackdroid> Pycon is an amazing event , I see all those nicks but I never knew the face behind them
+[17:00:47] <fhackdroid> i met most of them at pycon, and the bond we share is something special
+[17:01:26] <fhackdroid> I met kushal and I have this habit of calling people "sir"
+[17:01:50] <fhackdroid> i met kushal and I called him sir for which I got belted :)
+[17:02:01] <Alak> lol
+[17:02:14] <acetakwas> Roll call: Tosin Animashaun
+[17:02:21] <fhackdroid> but the point is there I was with my nick
+[17:02:33] <fhackdroid> s/was/was known
+[17:02:34] <acetakwas> !
+[17:03:40] <fhackdroid> and because of the work I did till after a while kushal told me to give a lightening talk on dgplug
+[17:04:33] <avik> fhackdroid, saw that in you tube, great one :)
+[17:04:56] <fhackdroid> and that has been an amazing experience . When I get messages saying I saw your video , how do I start contributing it feels awesome
+[17:05:16] <akshays> thats what got me here :)
+[17:05:40] <fhackdroid> s/belted/ told me to not call him sir in a funny way
+[17:05:54] <fhackdroid> next
+[17:06:00] <acetakwas> fhackdroid::  What is belted?
+[17:06:06] <PrashantJ> :D
+[17:06:12] * abhishekg5 is amazed to see so much motivation in one session
+[17:06:32] <ksaikiranr> abhishekg5++
+[17:06:42] <acetakwas> fhackdroid::  Oh sorry, I didn't see your answer
+[17:06:46] <acetakwas> <eof>
+[17:06:54] <fhackdroid> acetakwas, cool :)
+[17:07:23] <fhackdroid> okay anymore question ?
+[17:07:35] <fhackdroid> I feel I bored you guys :P
+[17:07:42] <vbhjain> !
+[17:07:45] <acetakwas> !
+[17:07:45] <pabitra> no fhackdroid
+[17:07:46] <vharsh> Not once
+[17:07:47] <ksaikiranr> fhackdroid, nope
+[17:07:50] <fhackdroid> next
+[17:07:53] <vbhjain> fhackdroid, where should I search for java projects, I can start with .OR any suggestion for java programmers if you can.
+[17:08:12] <fhackdroid> vbhjain, jenkins is written in java
+[17:08:20] <PrashantJ> fhackdroid, you boosted us:)
+[17:08:20] <fhackdroid> jboss is written in java
+[17:08:36] <anushil05> no
+[17:08:49] <fhackdroid> vbhjain, there are a lot of java based projects out there!
+[17:08:52] <anushil05> !
+[17:08:56] <fhackdroid> next
+[17:09:00] <acetakwas> You have giving a very inspiring talk/session. Did you begin your programming journey here in #dgplug?
+[17:09:01] <acetakwas> !
+[17:10:10] <fhackdroid> acetakwas, I knew languages , may be syntax my journey of making a difference and writing code that does something began with dgplug!
+[17:10:30] <fhackdroid> acetakwas, so yes !
+[17:10:46] <fhackdroid> does that answer your question ?
+[17:10:49] <fhackdroid> next
+[17:11:01] <acetakwas> Yes, great.
+[17:11:03] <acetakwas> fhackdroid::  How many programming languages are you familiar with so far?
+[17:11:50] <anushil05> i started learning python and i want to do bugs fixing and projects what should i do ?
+[17:12:45] <madhurii> anushil05:1+
+[17:13:25] <fhackdroid> acetakwas, I actually learn them as per need ! so I am familiar with python, JS, i tried learning lisp I do a bit of shell etc.
+[17:13:28] <anushil05> .
+[17:13:41] <fhackdroid> I actually don't keep account of it :P
+[17:13:46] <acetakwas> anushil05, madhurii:: http://techinpink.com/2016/05/18/my-first-contribution-to-an-open-source-project/
+[17:14:05] <acetakwas> fhackdroid::  Awesome again. Thank you.
+[17:14:09] <fhackdroid> anushil05, just stay here you will get to know :)
+[17:14:30] <PrashantJ> !
+[17:14:35] <madhurii> acetakwas thanks for link
+[17:14:56] <fhackdroid> next
+[17:14:57] <ksaikiranr> !
+[17:15:01] <acetakwas> <eof>
+[17:15:06] <PrashantJ> fhackdroid, Please let us know why lisp?
+[17:15:12] <anushil05> i am getting discoonected all time
+[17:15:23] <anushil05> how to check i am connected or not
+[17:16:03] <PrashantJ> anushil05, '/ping'
+[17:16:45] <fhackdroid> PrashantJ, I find it challenging , it gives a lot of new pattern to learn , just wanted to learn to experiment !
+[17:17:06] <anushil05> not working
+[17:17:22] <PrashantJ> fhackdroid, thank you:)
+[17:17:38] <fhackdroid> next
+[17:17:42] <fhackdroid> next
+[17:17:44] <kushal> anushil05, use ping command
+[17:17:46] <PrashantJ> <eof>
+[17:17:48] <mahesh5> PrashantJ, what is lisp?
+[17:18:06] <PrashantJ> mahesh5, programming language
+[17:18:18] <ksaikiranr> fhackdroid: so while doing something i realise i need to learn some new stuff say X, what is the best way to learn that X? where to look for resources along with google?
+[17:18:23] <anushil05> kushal, /ping not working
+[17:18:56] <PrashantJ> anushil05, you will see connection reply in freenode log
+[17:19:07] <acetakwas> PrashantJ::  Also: Paul Graham is a great speaker on the subject of Lisp: http://www.paulgraham.com/onlisptext.html
+[17:19:28] <PrashantJ> acetakwas, will explore that link:)
+[17:19:31] <anushil05> ok thanks everyone
+[17:20:03] <fhackdroid> ksaikiranr, there will be documentation and blogs for what you want to learn , go with videos etc. The source is the ultimate truth if nothing works.
+[17:20:18] <fhackdroid> google gives you all
+[17:20:38] <fhackdroid> what you can also do is join their IRC channel
+[17:20:41] <acetakwas> anushil05::  Use `ping google.com`
+[17:20:51] <acetakwas> anushil05::  Don't include the backticks
+[17:20:56] <fhackdroid> and ask people there!
+[17:20:59] <ksaikiranr> fhackdroid: ok :)
+[17:21:00] <kushal> acetakwas, nope, it is the IRC ping command
+[17:21:06] <acetakwas> And in your terminal
+[17:21:14] <fhackdroid> ksaikiranr, cool
+[17:21:14] <acetakwas> kushal::  Oh
+[17:21:22] <acetakwas> anushil05::  ^
+[17:22:02] <fhackdroid> No more questions ?
+[17:22:17] <acetakwas> !
+[17:22:18] <fhackdroid> I think we should close todays session :)
+[17:22:22] <fhackdroid> lol
+[17:22:24] <fhackdroid> next
+[17:22:38] <acetakwas> Actually, I think someone asked earlier. Not sure if you answered.
+[17:22:49] <acetakwas> What is your specific part in pagure
+[17:22:50] <acetakwas> ?
+[17:23:10] <acetakwas> I mean did you create the Pagure project or what?
+[17:23:22] <acetakwas> fhackdroid::  ^
+[17:25:08] <fhackdroid> acetakwas, Pingou created it, but I contribute to it
+[17:25:47] <acetakwas> Cool, thank you. And yes, you may please end the session now, without any further [session] questions from me. :)
+[17:26:43] <smdeep> !
+[17:26:49] <fhackdroid> acetakwas, you may ask now or after the session !
+[17:26:52] <fhackdroid> next
+[17:27:00] <smdeep> fhackdroid: Can you give the link to your Youtube video?
+[17:27:15] <acetakwas> fhackdroid::  Yes. Thanks again.
+[17:27:21] <smdeep> or videos :)
+[17:27:22] <buvanesh_kumar> Thanks fhackdroid! Great session. Inspiring things :)
+[17:27:29] <fhackdroid> smdeep, akshays or vharsh may have it handy !
+[17:27:33] <iKshitij> Google not work properly
+[17:27:50] <vharsh> smdeep, which cs50 ones?
+[17:27:52] <iKshitij> Add some features
+[17:28:27] <priyanka> 7789945602123
+[17:28:30] <vharsh> smdeep,  https://manual.cs50.net/seminars/
+[17:28:35] <priyanka> oops sorry
+[17:28:48] <smdeep> vharsh: fhackdroid's presentation
+[17:29:01] <priyanka> send by mistake
+[17:29:06] <vharsh> priyanka, too long :P
+[17:29:32] <fhackdroid> Thanks a lot for having me here :) Thanks to kushal and sayan for guiding me throughout , and kushal to give me this opportunity . Hope I bring glory to dgplug :) Thanks alot for bearing with me :)
+[17:29:35] <trishnag> smdeep: https://www.youtube.com/watch?v=RW8A_alJQco :)
+[17:29:49] <smdeep> trishnag: Thanks :)
+[17:29:54] <priyanka> actually it was by mistake vharsh .
+[17:30:04] <smdeep> fhackdroid: thanks for a stupendous session!
+[17:30:13] <fhackdroid> kushal, sayan I think thats the end of the session handing over to you :)
+[17:30:18] <BaloneyGeek> trishnag: is that Anuvrat Parashar?
+[17:30:23] <meamitk> fhackdroid, Thanks
+[17:30:58] <PrashantJ> fhackdroid, thank you so much:)
+[17:31:22] <ksaikiranr> fhackdroid, thank you :).
+[17:31:40] <fhackdroid> BaloneyGeek, yeah we share the same video :P
+[17:32:09] <BaloneyGeek> fhackdroid: Yeah, recognized you from your Twitter picture :-)
+[17:32:13] <madhurii> fhackdroid, Thanks
+[17:32:15] <trishnag> BaloneyGeek: :)
+[17:32:21] <fhackdroid> BaloneyGeek, hahah :)
+[17:32:23] puiterwijk is now known as puiterwijk|mnt
+[17:32:47] <fhackdroid> so roll call
+[17:32:56] <vharsh> Harsh Vardhan
+[17:32:56] <madhurii> Madhuri Muley
+[17:32:57] <rahuldecoded> Rahul Bhattacharjee
+[17:32:58] <priyanka> Priyanka Sharma
+[17:32:58] <BaloneyGeek> I think anuvrat used to work at where I'm interning now. I'm having to deal with a bunch of his mess now ;-)
+[17:33:02] <PrashantJ> Prashant Jamkhande
+[17:33:03] <rohan_h> Rohan Hazra
+[17:33:04] <sandy_> sandeep kumar choudhary
+[17:33:06] <pabitra> Pabitra Pati
+[17:33:08] <cosmologist10> Shweta Suman
+[17:33:11] <HEMANTH> hemanth
+[17:33:11] <trishnag> Trishna Guha
+[17:33:12] <analyticalmonk> Akash Tandon
+[17:33:13] <real56> Varsha R
+[17:33:14] <vbhjain> Vaibhav Jain
+[17:33:15] <jogender> Jogender Kota
+[17:33:16] <shashank-loki> shashank
+[17:33:19] <LambaInsaan> Rhitik Bhatt
+[17:33:21] <yASH> Yashwanth M
+[17:33:22] <ksaikiranr> K Sai Kiran
+[17:33:28] <smdeep> Sudeep Mukherjee
+[17:33:32] <acetakwas> Tosin Animashaun
+[17:33:33] <avik> Avik Mukherjee
+[17:34:00] <fhackdroid> end session
+[17:34:10] <mahesh5> Mahesh Gahlot
+[17:34:16] <fhackdroid> batul, end session
+[17:34:19] <trishnag> fhackdroid: pm to batul :)
+[17:34:31] <fhackdroid> end session
+[17:34:42] <anushil_> Anushil Kumar
+[17:34:44] <fhackdroid> help
+[17:35:04] <fhackdroid> clearqueue
+[17:35:11] <acetakwas> fhackdroid::  endsession
+[17:35:13] <fhackdroid> endclass
+[17:35:13] [## Class Ended at Thu Jul 14 17:35:13 2016 ##]

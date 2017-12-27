@@ -1,0 +1,308 @@
+Jul 03 19:11:18 *	kushal has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | 7pm mbuf on Code cross-referencing tools | <-- CLASS STARTED -->
+Jul 03 19:11:21 <mbuf>	I don't have any presentation slides, but, we have some interesting points to ponder
+Jul 03 19:12:05 <sumitc>	!
+Jul 03 19:12:16 <mbuf>	When I type "START" on a separate line, I would like each one of you, to enter your favorite ice cream; when I say "STOP", everyone stops, and I continue sharing my thoughts
+Jul 03 19:12:20 <mbuf>	sumitc, shoot!
+Jul 03 19:12:20 *	khushi__ (n=khushbu@59.180.129.245) has joined #dgplug
+Jul 03 19:12:24 <sumitc>	what does Code cross-referencing mean?
+Jul 03 19:12:34 <mbuf>	sumitc, we shall get to that
+Jul 03 19:12:38 <sumitc>	ok
+Jul 03 19:12:41 <mbuf>	START
+Jul 03 19:12:42 <sumitc>	<eof>
+Jul 03 19:12:49 <techno_freak>	Casatta
+Jul 03 19:13:13 <mavu>	Vanilla
+Jul 03 19:13:17 <Kishan>	black currant
+Jul 03 19:13:30 <bose_aritra>	butter scotch
+Jul 03 19:13:30 <rtnpro>	Butter Scotch
+Jul 03 19:13:33 <_roshan>	vanila
+Jul 03 19:13:43 <amrita>	kesar pista
+Jul 03 19:13:45 <sumitc>	Butterscotch
+Jul 03 19:13:48 <ria>	vanilla
+Jul 03 19:14:06 <Arpita>	sundae
+Jul 03 19:14:12 <Debashree>	strawberry
+Jul 03 19:14:23 *	kushal gives channel operator status to techno_freak
+Jul 03 19:14:30 <susenj_>	vanilla
+Jul 03 19:15:09 <mbuf>	STOP
+Jul 03 19:15:25 <mbuf>	as you can see, we have different people in the room who have different tastes
+Jul 03 19:15:50 <mbuf>	it is not fair to make all of you to eat only 'vanilla' or 'butter scotch'
+Jul 03 19:16:19 <mbuf>	Similarly, there are different tools available for code browsing, referencing
+Jul 03 19:16:37 <mbuf>	you try out each of these tools, and use the one that you like;
+Jul 03 19:17:00 <mbuf>	with Free Software and GPL, you enjoy the freedom and choice of choosing whichever tools you like
+Jul 03 19:17:50 <mbuf>	code referencing is a means of browsing code segments -- could be location of variable/function declarations; where they are referenced/used et. al.
+Jul 03 19:18:21 <mbuf>	when I now say START on a separate line, I would like you to enter the text editor or IDE that you use for writing programs
+Jul 03 19:18:39 *	khushbu (n=khushbu@59.180.132.107) has joined #dgplug
+Jul 03 19:18:42 <mbuf>	of course, when I say STOP, I resume the talking
+Jul 03 19:18:44 <mbuf>	START
+Jul 03 19:18:47 <techno_freak>	Emacs
+Jul 03 19:18:47 <rtnpro>	vi
+Jul 03 19:18:49 <sumitc>	vim
+Jul 03 19:18:52 <susenj_>	gedit
+Jul 03 19:18:56 <amrita>	vi
+Jul 03 19:19:00 <bose_aritra>	vim
+Jul 03 19:19:07 <Debashree>	vi
+Jul 03 19:19:12 <ria>	vim
+Jul 03 19:19:17 <Arpita>	vi
+Jul 03 19:19:33 <mbuf>	Emacs
+Jul 03 19:21:10 <mbuf>	STOP
+Jul 03 19:21:14 <mavu>	gedit :| and eclipse
+Jul 03 19:21:44 <mbuf>	ok, as we say most of them prefer either 'vanilla' or 'butter scotch'
+Jul 03 19:21:53 <mbuf>	which is which, you decide later :)
+Jul 03 19:22:10 <mbuf>	The point I am trying to get to is, again the freedom of editor choice that you get to use with programming
+Jul 03 19:22:26 <mbuf>	These editors have integration with tools that aid in code browsing/referencing
+Jul 03 19:22:30 <mbuf>	or, you can use external tools
+Jul 03 19:23:00 <mbuf>	I prefer people to use any buffer editor (vim/GNU Emacs), simply because, you can work with these without the mouse
+Jul 03 19:23:17 <mbuf>	A good programmer whose thoughts flow like beautiful poetry, should not worry much about the environment
+Jul 03 19:23:44 <mbuf>	When people start using the mouse, their hands move away from the keyboard; and if you don't know typing, you really find it hard to put them back in place -- trust me
+Jul 03 19:24:15 <mbuf>	most keyboards have a small hinge in "F" and "J" keys, as a marker to place your index fingers
+Jul 03 19:24:25 <mbuf>	you may not have realized them, until now :)
+Jul 03 19:24:50 <mbuf>	These buffer editors work directly with RAM, and hence, working with them is really fast
+Jul 03 19:25:03 <mbuf>	They also have mouse bindings, so if you'd like you can use the GUI
+Jul 03 19:25:41 <mbuf>	Thirdly, if you are working on a remote server, you may not have a fancy bandwidth, and if you want to edit files, these buffer editors are really handy!
+Jul 03 19:26:03 <mbuf>	So, you may wonder why is this guy talking so much about these editors and not discussing about code referencing yet
+Jul 03 19:26:15 <mbuf>	BTW, my favorite ice-cream is chocolate :)
+Jul 03 19:26:24 <mbuf>	I am getting to that
+Jul 03 19:27:02 <mbuf>	Which editor you use, determines your comfort nature and the tools you can use with them
+Jul 03 19:27:20 <mbuf>	Of course, there are external tools available; but, most people like to have them integrated; YMMV
+Jul 03 19:27:47 <mbuf>	Sometimes in projects, you may have to use IDEs like Anjuta/Eclipse; if you have to use them, you really have to use them
+Jul 03 19:27:51 *	khushi_ has quit (Read error: 110 (Connection timed out))
+Jul 03 19:28:13 <mbuf>	These IDEs have 'tooltip' or tab completion features;
+Jul 03 19:28:19 *	khushi_ (n=khushbu@59.180.146.10) has joined #dgplug
+Jul 03 19:28:27 *	Arpita_ (i=Arpita@117.201.97.78) has joined #dgplug
+Jul 03 19:28:31 <mbuf>	If you click on a function, it shows the parameters to be passed to the function, syntax etc.
+Jul 03 19:28:46 <mbuf>	some people like these; tab completion fills up the function name for you;
+Jul 03 19:29:07 *	khushi_ (n=khushbu@59.180.146.10) has left #dgplug ("Ex-Chat")
+Jul 03 19:29:09 <mbuf>	IDEs also have 'search' feature where you can search for locations where the variable/functions are used
+Jul 03 19:29:23 <mbuf>	or where they are declared
+Jul 03 19:29:37 <mbuf>	Or, what I often use is simple "grep"
+Jul 03 19:29:51 <mbuf>	grep -r "variable/function" .
+Jul 03 19:30:09 <mbuf>	It will search all the .c and .h files, and displays the entries; fast, elegant and efficient
+Jul 03 19:30:34 <mbuf>	or, if the code is huge, and you really want to easily move across code; you can use ctags with vim, or etags with GNU Emacs
+Jul 03 19:31:17 <mbuf>	http://ctags.sourceforge.net/ctags.html
+Jul 03 19:31:51 <mbuf>	for etags, http://www.linuxjournal.com/article/0153
+Jul 03 19:31:53 *	khushi__ has quit (Read error: 110 (Connection timed out))
+Jul 03 19:32:00 <mbuf>	don't read it yet! just skim through quickly
+Jul 03 19:32:00 *	rangeen (i=sherry@220.226.41.237) has joined #dgplug
+Jul 03 19:32:26 *	_roshan has quit (Read error: 104 (Connection reset by peer))
+Jul 03 19:32:37 <mbuf>	i use the following to generate the TAGS file from etags:
+Jul 03 19:32:40 <mbuf>	find . -type f -name '*.[ch]' | xargs etags -a
+Jul 03 19:32:54 *	kushal has quit (Connection timed out)
+Jul 03 19:33:01 <mbuf>	open Emacs, and then use the short-cuts to just browse through the code
+Jul 03 19:33:25 <mbuf>	you can also use cscope: http://cscope.sourceforge.net/
+Jul 03 19:33:36 *	Subhodip (n=subhodip@125.20.11.34) has joined #dgplug
+Jul 03 19:33:44 <mbuf>	and here is a tutorial for vim/cscope: http://cscope.sourceforge.net/cscope_vim_tutorial.html
+Jul 03 19:33:51 <mbuf>	don't try it yet! just skim through quickly
+Jul 03 19:34:10 <mavu>	!
+Jul 03 19:34:16 <mbuf>	mavu, shoot!
+Jul 03 19:34:27 *	kushal (n=kd@122.167.25.88) has joined #dgplug
+Jul 03 19:34:28 <mavu>	is emacs already present or we download it?
+Jul 03 19:34:59 <mbuf>	mavu, depends on your distro :) if not installed, you can install it -- use your distro package manager
+Jul 03 19:35:15 <mavu>	okay
+Jul 03 19:35:41 <mbuf>	If people using GNU Emacs, still want the "IDE" kind of look and feel, you can try emacs code browser:
+Jul 03 19:35:51 <mbuf>	http://ecb.sourceforge.net/screenshots/index.html
+Jul 03 19:35:56 *	Arpita has quit (Read error: 104 (Connection reset by peer))
+Jul 03 19:36:40 <rtnpro>	!
+Jul 03 19:36:44 <mbuf>	rtnpro, shoot!
+Jul 03 19:37:00 <rtnpro>	How do we get the emacs code browser?
+Jul 03 19:37:51 <rtnpro>	<EOF>
+Jul 03 19:37:51 <mbuf>	rtnpro, 1. Need to install "ecb" from your distro package manager 2. you could have searched this on the Internet :)
+Jul 03 19:38:02 <rtnpro>	It is not in my distro
+Jul 03 19:38:12 <sumitc>	!
+Jul 03 19:38:13 <mbuf>	rtnpro, and which distro are you using?
+Jul 03 19:38:40 <rtnpro>	Its Fedora 9
+Jul 03 19:39:15 <rtnpro>	I have got emacs but not emacs code browser
+Jul 03 19:39:18 *	drunkencoder (i=7aa70fb7@gateway/web/ajax/mibbit.com/x-9781ac98a90b9dc8) has joined #dgplug
+Jul 03 19:39:30 <mbuf>	rtnpro, you can always install from source
+Jul 03 19:39:31 <techno_freak>	rtnpro, http://ecb.sourceforge.net/downloads.html
+Jul 03 19:39:33 *	khushbu has quit (Read error: 110 (Connection timed out))
+Jul 03 19:39:38 <rtnpro>	ok
+Jul 03 19:39:43 <drunkencoder>	My connection is going down after every couple of minute
+Jul 03 19:39:49 <mbuf>	sumitc, shoot!
+Jul 03 19:39:52 <sumitc>	what is a tag-file?
+Jul 03 19:40:08 <rtnpro>	What factors should decide the choice of our editor?
+Jul 03 19:40:22 <mbuf>	rtnpro, wait!
+Jul 03 19:40:36 <ria>	 /msg drunkencoder drunkencoder ping
+Jul 03 19:40:40 *	pushkal (n=chatzill@117.197.16.148) has joined #dgplug
+Jul 03 19:40:52 <mbuf>	sumitc, the TAGS file contains the details of the reference count, and locations of variables/functions et. al.
+Jul 03 19:41:14 *	techno_freak gives channel operator status to drunkencoder
+Jul 03 19:41:26 <sumitc>	So, a tag file is always associated with a specific file?
+Jul 03 19:41:46 <mbuf>	sumitc, no, it can have information of files in a directory
+Jul 03 19:41:55 <sumitc>	ok
+Jul 03 19:41:57 <sumitc>	<eof>
+Jul 03 19:42:04 *	drunkencoder has quit (Client Quit)
+Jul 03 19:42:18 <mbuf>	sumitc, think of it as a database that answers all your queries regarding code references
+Jul 03 19:42:37 <mbuf>	rtnpro, what factors made you choose your favorite ice-cream?
+Jul 03 19:42:47 <sumitc>	ok
+Jul 03 19:42:54 <rtnpro>	My likes and dislikes
+Jul 03 19:43:00 <rtnpro>	My taste
+Jul 03 19:43:09 <mbuf>	rtnpro, that answers your question
+Jul 03 19:43:13 <rtnpro>	ok
+Jul 03 19:43:16 <rtnpro>	Thanks
+Jul 03 19:43:38 <mbuf>	moving along
+Jul 03 19:44:16 <mbuf>	LXR is a very popular cross-referencing engine/tool that you can setup with Apache web-server for your code base
+Jul 03 19:44:45 <mbuf>	for example: http://lxr.linux.no/linux/drivers/acpi/bus.c
+Jul 03 19:45:15 <mbuf>	it is wonderful! you can click on any function, variable instance, and it will simply take you to its references!
+Jul 03 19:45:48 <mbuf>	people who like web interfaces, can setup LXR
+Jul 03 19:46:23 <mbuf>	or there are tools like doxygen that can generate HTML documentation from source code
+Jul 03 19:46:26 <mbuf>	http://www.stack.nl/~dimitri/doxygen/
+Jul 03 19:46:46 <sumitc>	!
+Jul 03 19:46:55 <mbuf>	KDevelop API is a good example: http://kdevelop.org/HEAD/doc/api/html/classes.html
+Jul 03 19:46:58 <mbuf>	sumitc, shoot!
+Jul 03 19:47:08 <sumitc>	what do you mean by "generate HTML documentation from source code"?
+Jul 03 19:47:16 *	kd_ (n=kd@122.167.39.15) has joined #dgplug
+Jul 03 19:47:25 <mbuf>	sumitc, i just sent an example link :)
+Jul 03 19:47:38 <sumitc>	oh, alright!
+Jul 03 19:47:40 <sumitc>	:)
+Jul 03 19:48:05 <mbuf>	try this one: http://kdevelop.org/HEAD/doc/api/html/cmakejob_8cpp.html
+Jul 03 19:48:31 <mbuf>	who really wants to documentation? write the code, comment it; generate the documentation!
+Jul 03 19:49:26 <sumitc>	wow
+Jul 03 19:49:45 <mbuf>	The gnome guys have devhelp for API references: http://www.gnome.org/projects/devtools/devhelp.shtml
+Jul 03 19:50:38 <mbuf>	GNOME documentation is also available online: http://library.gnome.org/devel/gtk/2.12/GtkButton.html
+Jul 03 19:50:47 <mbuf>	Wow!
+Jul 03 19:51:10 <mbuf>	By the way, you can also install these documentation offline, usually installs in /usr/share/doc
+Jul 03 19:51:37 <mbuf>	It is a very good practice, to install development documentation like these when you install development headers and tools
+Jul 03 19:51:55 <mbuf>	because you can always refer to them when you are disconnected from the Internet!
+Jul 03 19:52:02 <mbuf>	they come in extremely handy
+Jul 03 19:52:37 <mbuf>	so, we have editors, tools; what if you wanted to know how the flow of code?
+Jul 03 19:52:48 <mbuf>	try GNU cflow: http://www.gnu.org/software/cflow/
+Jul 03 19:52:55 *	rangeen has quit (Read error: 104 (Connection reset by peer))
+Jul 03 19:52:58 <mbuf>	Actually, most people use printf
+Jul 03 19:53:30 *	kushal has quit (Connection timed out)
+Jul 03 19:53:31 <mbuf>	You can also understand the flow with LXR, as you read code
+Jul 03 19:53:52 <rtnpro>	!
+Jul 03 19:53:57 <mbuf>	rtnpro, shoot!
+Jul 03 19:54:13 *	Debashree has quit (Read error: 54 (Connection reset by peer))
+Jul 03 19:54:15 <rtnpro>	Why do we need these LXR,API?
+Jul 03 19:54:36 <rtnpro>	aren't vi, emacs sufficient?
+Jul 03 19:54:58 <mbuf>	rtnpro, different people like different ice-creams
+Jul 03 19:55:33 <rtnpro>	Means its the same case of choice
+Jul 03 19:55:49 <rtnpro>	Or is these better than the previous ones?
+Jul 03 19:55:52 <susenj_>	!
+Jul 03 19:56:10 <mbuf>	rtnpro, what I have mentioned is only a few; there are more tools that you can explore :)
+Jul 03 19:56:22 <rtnpro>	ok
+Jul 03 19:56:32 <mbuf>	rtnpro, I am only giving an insight into the different ice-creams that are available
+Jul 03 19:56:33 *	runa_b (n=runa@122.169.12.50) has joined #dgplug
+Jul 03 19:56:35 <mbuf>	susenj_, shoot!
+Jul 03 19:56:36 *	Debashree (n=Debashre@61.0.133.55) has joined #dgplug
+Jul 03 19:56:37 <susenj_>	  can we use KDevelop for editing and cross referencing both?
+Jul 03 19:57:01 <mbuf>	susenj_, i guess you can; it is an IDE, I believe; you can check with the KDE guys
+Jul 03 19:57:16 <susenj_>	i use KDE ,that's why
+Jul 03 19:57:18 <susenj_>	<eof>
+Jul 03 19:57:18 <mbuf>	susenj_, i haven't used it much; except for the KDevelop tutorial
+Jul 03 19:58:03 <rtnpro>	!
+Jul 03 19:58:12 <mbuf>	susenj_, the features are here: http://www.kdevelop.org/index.html?filename=3.5/features.html
+Jul 03 19:58:14 <mbuf>	rtnpro, shoot!
+Jul 03 19:58:21 <rtnpro>	What is LXR?
+Jul 03 19:59:40 <mbuf>	rtnpro, i expected you to use a search engine; anyways, "Linux Cross Referencer" -- http://sourceforge.net/projects/lxr
+Jul 03 20:00:24 <rtnpro>	ok
+Jul 03 20:01:09 <rtnpro>	Thanks ...let me see the page
+Jul 03 20:01:19 <mbuf>	as i said, this is just a few of the tools that are available, or, that i have come across
+Jul 03 20:01:42 <mbuf>	there could be even more; you should explore more, and use the one that you like
+Jul 03 20:01:50 <mbuf>	after all, this community is all about freedom and choice
+Jul 03 20:02:07 <mbuf>	someday we will make an open recipe for ice-creams as well
+Jul 03 20:02:19 <mbuf>	This is the end of the session; and I am open to questions
+Jul 03 20:02:21 <sumitc>	:)
+Jul 03 20:03:56 *	indradg (n=indradg@59.93.202.56) has joined #dgplug
+Jul 03 20:04:26 <mbuf>	Either people have gone to buy ice-cream or they are still looking at the links and documentation in detail
+Jul 03 20:04:40 <sumitc>	the nd one, actually
+Jul 03 20:04:47 <sumitc>	2nd one
+Jul 03 20:05:08 <mbuf>	I am ok with either one :)
+Jul 03 20:05:36 <rtnpro>	!
+Jul 03 20:05:40 <mbuf>	rtnpro, shoot!
+Jul 03 20:05:47 *	Prakhar (n=prakhar@122.163.69.23) has joined #dgplug
+Jul 03 20:06:05 <rtnpro>	is cross referencing kind of browsing through the codes?
+Jul 03 20:06:19 <mbuf>	rtnpro, more than just browsing
+Jul 03 20:06:30 <rtnpro>	in what sense?
+Jul 03 20:07:32 <mbuf>	rtnpro, what does this tell you? http://lxr.linux.no/linux/+ident=10010111
+Jul 03 20:07:53 <rtnpro>	ok
+Jul 03 20:08:07 <mavu>	while i was looking at the link.. i accidentally stumbled upon this... seems awesome..http://tomoyo.sourceforge.jp/cgi-bin/lxr/ident?
+Jul 03 20:08:13 <mbuf>	rtnpro, 1.where the function is located 2. Where it is referenced et. al.
+Jul 03 20:08:37 *	susenj_ has quit ("ChatZilla 0.9.83 [Firefox 3.0b5/2008043010]")
+Jul 03 20:08:42 <mbuf>	i would encourage people to document whatever new things they learn, or come across in dgplug wiki site
+Jul 03 20:08:56 <mbuf>	and if all of you have started blogging, put that in your planet
+Jul 03 20:09:05 <mbuf>	after all, this community is about sharing knowledge :)
+Jul 03 20:09:05 *	susenj__ (n=chatzill@59.178.176.6) has joined #dgplug
+Jul 03 20:09:20 *	susenj__ is now known as susenj_
+Jul 03 20:09:31 *	kd_ has quit (Read error: 110 (Connection timed out))
+Jul 03 20:09:42 *	susenj_ is now known as suse_nj
+Jul 03 20:10:01 <mbuf>	so, we will close the class session for now; and we shall leave it open for further discussions
+Jul 03 20:10:18 <mbuf>	so everyone can chip in their suggestions, views, discussions et. al.
+Jul 03 20:10:21 <mbuf>	<EOF>
+Jul 03 20:11:44 <sumitc>	doxygen is excellent
+Jul 03 20:12:12 <sumitc>	so is ctags
+Jul 03 20:15:02 <mbuf>	It is going to be a long night for all of you, trying all these tools; but, I would prefer if you can spend a day or two on them
+Jul 03 20:18:23 <pushkal>	mbuf, when you referenced http://kdevelop.org/HEAD/doc/api/html/classes.html, what exactly were you trying to show ?
+Jul 03 20:18:28 <pushkal>	i mean that i always thought these documentation were built up manually, or is it done with the help of the cross-referencing tools you just mentioned?
+Jul 03 20:19:03 <mbuf>	pushkal, the tools generate the documentation :)
+Jul 03 20:19:40 <mbuf>	pushkal, use Free Software tools to make yourself more productive, and efficient
+Jul 03 20:20:28 <pushkal>	mbuf, all of it ? i mean the from the web pages, to the links to the matter ?
+Jul 03 20:20:45 <pushkal>	<eof>
+Jul 03 20:21:08 <mbuf>	pushkal, if you want to eat all the ice-cream, you can! nobody is stopping you :)
+Jul 03 20:21:13 <techno_freak>	pushkal, in the place where i work, we generate the entire documentation library using a tool called sphinx
+Jul 03 20:21:29 <mbuf>	pushkal, or if you only want selected flavors, you can choose;
+Jul 03 20:21:37 <techno_freak>	we write only the code and document content, rest is done by the tool
+Jul 03 20:21:46 *	pushkal would certainly love to have all of it !!
+Jul 03 20:22:03 *	susenj (n=student@59.178.176.6) has joined #dgplug
+Jul 03 20:22:13 *	ecntrk (n=ecntrk@117.194.2.120) has joined #dgplug
+Jul 03 20:22:20 <pushkal>	thanks mbuf , techno_freak !
+Jul 03 20:23:13 <Prakhar>	sorry, guys, i missed. will read the logs soon. it seems that something very cool was discussed
+Jul 03 20:23:37 <mbuf>	Prakhar, yes, both Free Software and ice-cream are cool!
+Jul 03 20:24:13 *	pushkal has quit ("ChatZilla 0.9.83 [Firefox 2.0.0.15/2008062306]")
+Jul 03 20:24:22 <Prakhar>	:) hey mbuf, i read many of your presentations. and i appreciate your efforts
+Jul 03 20:24:30 <mbuf>	Prakhar, np
+Jul 03 20:24:42 <mbuf>	ok guyz, i am calling it a day
+Jul 03 20:24:44 *	pushkal (n=chatzill@117.197.16.148) has joined #dgplug
+Jul 03 20:25:23 <mbuf>	now that we know each other, you are welcome to add me in orkut,  or LinkedIn;
+Jul 03 20:25:40 <mbuf>	i will be available on this channel, if I am logged in;
+Jul 03 20:25:53 <mbuf>	else, you are welcome to send me an e-mail; and we shall keep in touch
+Jul 03 20:25:59 <ecntrk>	will you please give your orkut uid?
+Jul 03 20:26:07 <bose_aritra>	^^^^^^ yes
+Jul 03 20:26:09 <Prakhar>	sure, thanks mbuf!
+Jul 03 20:26:14 <susenj>	will you please?
+Jul 03 20:26:20 <mbuf>	ecntrk, take the link from shakthimaan.com; you really need to use a search engine
+Jul 03 20:26:23 <Kishan>	of course.
+Jul 03 20:26:23 <pushkal>	use shois people
+Jul 03 20:26:25 *	Debashree has quit (Read error: 113 (No route to host))
+Jul 03 20:26:32 <mbuf>	Happy Hacking!
+Jul 03 20:26:33 <pushkal>	whois*
+Jul 03 20:26:34 <Prakhar>	mbuf, :)
+Jul 03 20:26:47 <ecntrk>	mbuf: hmm<eof>
+Jul 03 20:26:51 *	mbuf has quit ("shakthimaan.com")
+Jul 03 20:26:54 *	suse_nj has quit ("ChatZilla 0.9.83 [Firefox 2.0.0.14/0000000000]")
+Jul 03 20:27:32 <bose_aritra>	tuxmaniac, when will be the next class?
+Jul 03 20:29:10 *	amrita_ (n=amrita@117.201.97.62) has joined #dgplug
+Jul 03 20:29:15 *	amrita_ has quit (Client Quit)
+Jul 03 20:29:52 <rtnpro>	!
+Jul 03 20:29:52 *	techno_freak has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | 7pm mbuf on Code cross-referencing tools - CLASS OVER |
+Jul 03 20:30:23 <amrita>	techno_freak, what about the class at 10.30?
+Jul 03 20:30:37 <rtnpro>	Does doxygen generate docmentation from the source code by itself?
+Jul 03 20:30:43 *	Arpita_ has quit (Read error: 104 (Connection reset by peer))
+Jul 03 20:31:03 <rtnpro>	Is documentaion a kind of help file?
+Jul 03 20:31:09 <techno_freak>	amrita, no idea, looks like nothing is scheduled. gotta ask kushal da
+Jul 03 20:31:10 <ria>	techno_freak, ping
+Jul 03 20:31:29 <rtnpro>	techno_freak, can you help me with the doubts
+Jul 03 20:31:32 <techno_freak>	ria, yes?
+Jul 03 20:31:36 <techno_freak>	rtnpro, ?
+Jul 03 20:31:44 <rtnpro>	techno_freak, yes
+Jul 03 20:31:47 <Kishan>	will there be a class at 10:30????
+Jul 03 20:32:04 <ria>	techno_freak, kushal has asked you to send logs of today's class positively
+Jul 03 20:32:07 *	deepakBCREC_ (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 03 20:32:14 <ria>	Kishan, not sure about it
+Jul 03 20:32:21 <techno_freak>	ria, sure, will mail him the logs
+Jul 03 20:32:27 <techno_freak>	:)
+Jul 03 20:32:29 <rtnpro>	techno_freak, is this documentation generated by doxygen a kinf of hhelp file?
+Jul 03 20:32:32 <ria>	techno_freak, ok
+Jul 03 20:32:38 <Kishan>	ya...seems so....
+Jul 03 20:32:54 <rtnpro>	Kishan, any commments
+Jul 03 20:33:03 <techno_freak>	rtnpro, it's a proper HTML documentation for the source files
+Jul 03 20:33:05 <rtnpro>	techno_freak, ?
+Jul 03 20:33:18 <techno_freak>	rtnpro, it's not a manual or tutorial, it's code documentation
+Jul 03 20:33:56 <rtnpro>	techno_freak, means code in html format for easy searching the various functions
+Jul 03 20:34:01 <rtnpro>	techno_freak, is it?
+Jul 03 20:34:02 <sumitc>	rtnpro, try them out, you'll get it
+Jul 03 20:34:10 *	susenj (n=student@59.178.176.6) has left #dgplug
+Jul 03 20:34:12 <techno_freak>	rtnpro, when you write code, you also write documentation along with it
+Jul 03 20:34:13 <rtnpro>	techno_freak, like web pages
+Jul 03 20:34:18 <ria>	today there will be no classes
+Jul 03 20:34:27 <rtnpro>	sumitc, let me see...thanks
+Jul 03 20:34:37 <sumitc>	np
+Jul 03 20:34:43 *	techno_freak has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | 7pm mbuf on Code cross-referencing tools - CLASS OVER | No Class at 10.30 today |

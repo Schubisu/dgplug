@@ -1,0 +1,507 @@
+Jul 01 18:57:17 <kushal>	<--CLASS STARTED -->
+Jul 01 18:57:28 *	kushal has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | DOWNLOAD THIS http://www.shakthimaan.com/downloads/glv/presentations/i-want-2-do-project-tell-me-wat-2-do.pdf | From 7:00pm mbuf on FS project guidelines | 10:30pm rishi on shell commands | <--CLASS STARTED -->
+Jul 01 18:57:31 *	mavu (n=satya@59.178.169.226) has joined #dgplug
+Jul 01 18:57:32 *	kushal gives channel operator status to mbuf
+Jul 01 18:57:34 <mbuf>	--> #2
+Jul 01 18:57:43 *	kushal gives channel operator status to Soumya
+Jul 01 18:57:52 <mbuf>	The views expressed in this presentation are that of my own!
+Jul 01 18:58:07 <mbuf>	People are welcome to agree to disagree; but, these things I have learnt from experience
+Jul 01 18:58:18 *	mavu is now known as mavu_
+Jul 01 18:58:27 <mbuf>	so, I believe, it is the methodology of work that will be fruitful for all
+Jul 01 18:58:51 *	rtnpro (n=rtnpro@121.241.211.243) has joined #dgplug
+Jul 01 18:58:54 <mbuf>	Again, you are welcome to modify, re-distribute, copy this presentation provided you retain my name in the presentation
+Jul 01 18:59:12 <mbuf>	--> #3
+Jul 01 18:59:13 *	amrita has quit (Read error: 104 (Connection reset by peer))
+Jul 01 18:59:23 *	Kishan_ (n=Kishan@218.248.70.235) has joined #dgplug
+Jul 01 18:59:23 *	amrita (n=amrita@117.201.96.52) has joined #dgplug
+Jul 01 18:59:40 <mbuf>	People mistakenly call the system as "Linux"; we Free Software enthusiasts refer to the system as "GNU/Linux"
+Jul 01 19:00:11 <mbuf>	Open source guys are comfortable with mixing proprietary as well as open source code; Free Software is different from Open Source
+Jul 01 19:00:42 <mbuf>	The word "hacker" is heavily misused in the media; Hackers are programmers who pursue programming as an artistic passion, who are eager to solve challenging problems
+Jul 01 19:00:58 <mbuf>	The people who steal passwords, break down networks, cause DoS attacks are called 'crackers'
+Jul 01 19:01:12 <mbuf>	So, whenever anyone uses the terminology incorrectly, kindly correct them!
+Jul 01 19:01:17 <mbuf>	--> #4
+Jul 01 19:01:35 <mbuf>	It is very important in society to understand the meaning of 'earn your living'
+Jul 01 19:02:02 <mbuf>	most people try to inherit their parents' property or business, and live on it for life -- without doing much work
+Jul 01 19:02:05 *	sumitc (n=Sumit@59.93.202.240) has joined #dgplug
+Jul 01 19:02:27 <mbuf>	status in society is not measured by how much wealth you have, but, what you have contributed to society
+Jul 01 19:02:43 <mbuf>	so, work is important in life; and a good balance between work and play is essential
+Jul 01 19:02:58 <mbuf>	--> #5
+Jul 01 19:03:15 *	Debashree (n=Debashre@61.2.164.245) has joined #dgplug
+Jul 01 19:03:20 <mbuf>	In the Free Software world, you have to have the eagerness and drive to get information
+Jul 01 19:04:03 <mbuf>	Most of the information is already out there; even when you program, you are bound to get stuck with errors; but, ability to hunt on the Internet, with a resolve to solve the problem is important
+Jul 01 19:04:17 <mbuf>	it is a contest of "Survival of the Fittest"
+Jul 01 19:04:40 *	rtnpro has quit (Read error: 104 (Connection reset by peer))
+Jul 01 19:04:46 <mbuf>	When there is hunger for knowledge, you should not feel hungry for food :)
+Jul 01 19:05:24 <mbuf>	basically, you should have the 'attitude' to aggressively work on code; and also have the 'aptitude' to solve problems
+Jul 01 19:05:41 <mbuf>	logical reasoning in problem solving is a _must_ if you want to become a good developer
+Jul 01 19:05:52 <mbuf>	--> #6
+Jul 01 19:06:11 <mbuf>	just because you have an engineering degree in your hand, it doesn't make you an engineer
+Jul 01 19:06:33 *	rtnpro (n=rtnpro@121.241.211.243) has joined #dgplug
+Jul 01 19:06:35 <mbuf>	just because you did a course in some technical institute, and you got a certificate, it doesn't make you an engineer
+Jul 01 19:06:53 <mbuf>	just because you paid money for four years of engineering, it doesn't make you an engineer
+Jul 01 19:07:34 <mbuf>	you cannot buy knowledge; you have to seek knowledge; unfortunately this educational society has been made into a business model, without imparting much know-how to "students"
+Jul 01 19:08:09 <mbuf>	you can hold a ECE degree, and still do CS work; it really doesn't matter in the Industry
+Jul 01 19:08:24 <mbuf>	all that matters is your ability to work; ability to solve problems; ability to learn
+Jul 01 19:08:50 <mbuf>	Unfortunately, in most Industries, non-technical people review your resumes, and they see degree/certificates
+Jul 01 19:09:19 <mbuf>	even then, you need to sustain yourself in the Industry, for which you should really work hard (bureaucracy is an exception)
+Jul 01 19:09:47 <mbuf>	most students basically waste their four years of engineering, and "hope" that they can learn well during their job time
+Jul 01 19:10:10 <mbuf>	you have to really compete with developers across the world; when you start working with Free Software projects, you interact with people across the world
+Jul 01 19:10:27 <mbuf>	and you will realize what people of your age are doing, and where you really stand
+Jul 01 19:10:37 <mbuf>	--> #7
+Jul 01 19:10:58 <mbuf>	As we discussed in our communication guidelines presentation, "functional English" is essential
+Jul 01 19:11:43 <mbuf>	you should have the knack of reading, reading, reading -- HOWTOs on the web, e-mail/IRC instructions, books, FS magazines et. al.
+Jul 01 19:12:02 <mbuf>	the more you read, the more you learn; atleast one technical book a week should be your target
+Jul 01 19:12:37 <mbuf>	the day you stop reading, you will become stagnant, and you will not be able to keep up the pace with the Industry (and Academia)
+Jul 01 19:12:46 <mbuf>	--> #8
+Jul 01 19:13:11 <mbuf>	We have covered mailing list guidelines in our discussion yesterday;
+Jul 01 19:13:26 <mbuf>	as you gain experience, you should learn to strictly follow the guidelines
+Jul 01 19:13:34 <mbuf>	--> #9
+Jul 01 19:13:50 <mbuf>	People usually come and ask where can I get projects to work on;
+Jul 01 19:14:05 <mbuf>	there are lot of collaborative development sites, where you can create an account
+Jul 01 19:14:18 <mbuf>	most projects call for developers with the necessary skills
+Jul 01 19:14:31 <mbuf>	so you can search for projects of your interests and the skills that they require
+Jul 01 19:15:02 <mbuf>	you should always choose projects with an objective in mind, that at the end of the project, I will learn A or B or C
+Jul 01 19:15:24 <mbuf>	nobody knows everything in a project, until they start working on it; so one shouldn't be scared to take challenging projects
+Jul 01 19:15:25 *	Debashree has quit (Read error: 104 (Connection reset by peer))
+Jul 01 19:15:56 <mbuf>	there are always risks, but, you have nothing to lose; experience is what matters at the end
+Jul 01 19:16:05 <mbuf>	--> #10
+Jul 01 19:16:24 <mbuf>	So, you decided on a project, or you have chosen some Mentor(s) to work with
+Jul 01 19:16:33 *	rtnpro has quit (Read error: 104 (Connection reset by peer))
+Jul 01 19:16:35 *	deepakBCREC (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 01 19:16:41 <mbuf>	People are not interested only in your coding skill; coding is only 10% of your profile
+Jul 01 19:16:56 <mbuf>	wherever it is, there is more to your personality than the coding skills
+Jul 01 19:17:10 *	Debashree (n=Debashre@61.0.133.53) has joined #dgplug
+Jul 01 19:17:16 <mbuf>	this community is very sociable; so you also should learn to move around
+Jul 01 19:17:34 <mbuf>	yes, with open communication streams, open discussions, people are likely to have difference of opinions
+Jul 01 19:17:48 <mbuf>	but, that is common everywhere; so learn to move around, learn to make friends;
+Jul 01 19:18:16 <mbuf>	when writing to a project team, or Mentor, always write about your skills, your area of interest, and something about yourself
+Jul 01 19:18:44 <mbuf>	this community is built for the people; and it is not just code!
+Jul 01 19:18:52 <mbuf>	--> #11
+Jul 01 19:19:13 <mbuf>	just because you have idle time in college, doesn't mean you can demand work from others :)
+Jul 01 19:19:35 <mbuf>	most FS developers are working on it because they love what they do;
+Jul 01 19:19:39 *	amrita_ (n=amrita@117.201.96.207) has joined #dgplug
+Jul 01 19:20:07 <mbuf>	so if you are using their time, you have to be little courteous; time is money in this world, and it takes a lot to volunteer to do things
+Jul 01 19:20:20 <mbuf>	but, there is nothing stronger than the heart of a volunteer!
+Jul 01 19:20:31 <mbuf>	--> #12
+Jul 01 19:20:32 *	amrita has quit (Nick collision from services.)
+Jul 01 19:21:01 *	amrita_ is now known as amrita
+Jul 01 19:21:08 <mbuf>	people get hyped with the ideas and the fame of Free/Libre/Open Source, that they decide to do a final year FOSS project, just for the sake of it
+Jul 01 19:21:20 <mbuf>	seriously, it is a waste of your time, the teams' time or your Mentor's time
+Jul 01 19:21:34 <mbuf>	unless you really have the passion for it, don't attempt it
+Jul 01 19:21:43 <mbuf>	--> #13
+Jul 01 19:21:59 <mbuf>	It is very important to have a discussion with your Mentor before you begin the project
+Jul 01 19:22:21 <mbuf>	different people have different ways of work; time of work could be different
+Jul 01 19:22:37 *	Kishan has quit (Read error: 113 (No route to host))
+Jul 01 19:22:41 <mbuf>	communication tool could be different; so it is important to sort all these before you start the project
+Jul 01 19:22:50 <mbuf>	--> #14
+Jul 01 19:23:08 <mbuf>	because most developers are distributed, communication is vital
+Jul 01 19:23:13 <mbuf>	--> #15
+Jul 01 19:23:25 <mbuf>	we have discussed the communication guidelines yesterday;
+Jul 01 19:23:30 *	chacha_chaudhry has quit ("Ex-Chat")
+Jul 01 19:23:33 <mbuf>	--> #16
+Jul 01 19:23:44 <mbuf>	English is the accepted language for communication in the Industry
+Jul 01 19:24:05 <mbuf>	I am repeating it again and again, because, it is important! reading and comprehension are important!
+Jul 01 19:24:17 <mbuf>	nobody cares whether your spoken is good or bad;
+Jul 01 19:24:42 *	chacha_chaudhry (n=user@gnu-india/supporter/rakeshpandit) has joined #dgplug
+Jul 01 19:24:44 <mbuf>	just like us Europeans native language is not English; but, most Free Software work, AFAIK, is done in Europe;
+Jul 01 19:24:59 <mbuf>	because, they can really read and understand English; nobody cares about spoken English
+Jul 01 19:25:15 <mbuf>	--> #17
+Jul 01 19:25:40 <mbuf>	people ask me how to improve their English, if it is bad;
+Jul 01 19:26:04 *	chiks (i=7d140b22@gateway/web/ajax/mibbit.com/x-01e7212ac0d85287) has joined #dgplug
+Jul 01 19:26:22 <mbuf>	try to read computer magazines; participating in mailing list discussions -- understanding the conversations
+Jul 01 19:26:31 *	sumitc has quit ("Leaving")
+Jul 01 19:26:34 <mbuf>	the same applies to IRC discussions; trying out GNU/Linux HOWTOs
+Jul 01 19:27:07 <mbuf>	most of us are good in our native language, because we speak a lot; so, also try speaking in English; participate in group discussions
+Jul 01 19:27:15 <mbuf>	don't worry about your accent or grammar
+Jul 01 19:27:22 <mbuf>	--> #18
+Jul 01 19:27:47 <mbuf>	Mentors are usually busy with work during week-days; so, it is good to have a chit-chat with them during the weekends
+Jul 01 19:28:06 <mbuf>	unless they are not connected to the Internet; or, if you simply blog about it, then it will be noticed
+Jul 01 19:28:12 <makghosh>	chiks: hey :)
+Jul 01 19:28:52 <mbuf>	but, it is good to just put in a word or two
+Jul 01 19:29:11 <mbuf>	a way to sync up with what you have been doing, or if you have any issues
+Jul 01 19:29:18 <mbuf>	--> #19
+Jul 01 19:29:31 <mbuf>	Today is an exception, since, I am taking an hour of my work time, to spend time with you guyz
+Jul 01 19:29:56 *	sumitc (n=chatzill@unaffiliated/sumitc) has joined #dgplug
+Jul 01 19:29:58 <mbuf>	weekdays, use e-mail and blogs; IRC can be used on weekends, or if it is critical/urgent
+Jul 01 19:30:08 <mbuf>	--> #20
+Jul 01 19:30:33 <mbuf>	as a technical "engineer" it is important to write detailed reports; when raising a problem,
+Jul 01 19:30:50 <mbuf>	put screenshots, put logs, put error outputs; give detailed info as much as possible
+Jul 01 19:31:02 <mbuf>	give step-by-step documentation that anyone can follow to re-create the problem you have
+Jul 01 19:31:32 *	deepakBCREC_ (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 01 19:31:37 <mbuf>	always give proof for the statements that you make; this is where there is a difference between a layman and an engineer
+Jul 01 19:31:46 <mbuf>	--> #21
+Jul 01 19:32:08 *	rtnpro (n=rtnpro@121.241.211.243) has joined #dgplug
+Jul 01 19:32:18 <mbuf>	You already know this; In most parts of the world, everything runs on time
+Jul 01 19:32:33 <mbuf>	work, buses, trains, flights, appointments, meetings et. al.
+Jul 01 19:32:55 <mbuf>	Time lost can never be re-gained, so use it wisely!
+Jul 01 19:33:02 *	chiks has quit ("http://www.mibbit.com ajax IRC Client")
+Jul 01 19:33:17 <mbuf>	i am not saying you should work all the time; you should also balance work with play; but, just don't spend too much time playing :)
+Jul 01 19:33:17 *	Subhodip (n=subhodip@125.20.11.34) has joined #dgplug
+Jul 01 19:33:27 <mbuf>	--> #22
+Jul 01 19:33:46 <mbuf>	If you are unable to attend a meeting or a discussion, it is a _must_ to inform the other people that you cannot do so
+Jul 01 19:33:53 <mbuf>	so, they can get on with it, or do some other work
+Jul 01 19:34:16 <mbuf>	basically, you shouldn't keep others' waiting; for everyone time is the essence
+Jul 01 19:34:21 <mbuf>	--> #23
+Jul 01 19:34:48 <mbuf>	when chatting, people don't follow the full-stops, semi-colons, or commas, or exclamation marks!
+Jul 01 19:34:51 *	ria (n=ria@121.245.51.20) has joined #dgplug
+Jul 01 19:34:59 <mbuf>	so it is hard to tell whether you are making a statement or asking a question
+Jul 01 19:35:35 <mbuf>	"You have a DVD" is different from "You have a DVD?" in chat
+Jul 01 19:36:10 <mbuf>	so, i was chatting with this student, and he forgot to put a question mark; so I was thinking that he was telling me something
+Jul 01 19:36:55 <mbuf>	but he was asking questions, for 5 minutes; and i only kept answering "Ok"
+Jul 01 19:37:06 <mbuf>	--> #24
+Jul 01 19:37:32 <mbuf>	Professionalism at work is one of the essentials of Free Software work
+Jul 01 19:37:36 <mbuf>	--> #25
+Jul 01 19:37:50 <mbuf>	Of course, mentors cannot do everything for you :)
+Jul 01 19:38:07 <mbuf>	You need to do something; if they can do it, why should they give you some work to do?
+Jul 01 19:38:21 *	arpita (n=arpita@117.201.96.199) has joined #dgplug
+Jul 01 19:38:35 <mbuf>	It is meant for your learning needs; but, one student started off with abstract, and it went all the way to presentation
+Jul 01 19:38:43 <mbuf>	of course, i had to refuse due to lack of time
+Jul 01 19:38:57 <mbuf>	--> #26
+Jul 01 19:39:29 <mbuf>	when you start with a project, it is good to start working on smaller tasks
+Jul 01 19:39:45 <mbuf>	on completion of those, you gain lot of confidence, and it motivates you to do bigger things
+Jul 01 19:40:20 <mbuf>	yes, you have a steep learning curve, because, we haven't done anything productive 'learning' in our colleges
+Jul 01 19:40:44 <mbuf>	so, you are bound to stumble, fall, cry, get fed up; but, if you persevere, you will see light at the end of the tunnel!
+Jul 01 19:41:11 <mbuf>	--> #27
+Jul 01 19:41:22 <mbuf>	daily update on blogs is ideal
+Jul 01 19:41:36 *	Subhodip has quit (Remote closed the connection)
+Jul 01 19:41:43 <mbuf>	but, as we discussed yesterday, it is a way of keeping a check on yourself, that you have to do something to put something on the blog
+Jul 01 19:41:56 <mbuf>	and also, it is very useful documentation
+Jul 01 19:42:20 <mbuf>	if you go on a holiday during the weekend, you can just look at your blog post that you did on a Friday, and see where you left off
+Jul 01 19:43:15 <mbuf>	studying in the night before the exam, doesn't work in the real world -- unfortunately for all!
+Jul 01 19:43:30 <mbuf>	do daily work, and it will help you reach deadlines
+Jul 01 19:43:38 <mbuf>	--> #28
+Jul 01 19:43:59 <mbuf>	The learning curve is really steep; it is a mighty challenge; either you are in, or you are out :)
+Jul 01 19:44:07 <mbuf>	--> #29
+Jul 01 19:44:34 <mbuf>	Always write as detailed technical reports as possible
+Jul 01 19:44:50 <mbuf>	--> #30
+Jul 01 19:45:11 <mbuf>	So, you have to put yourself in the shoes of the other person; think about what questions he/she will ask you when trying to solve this problem
+Jul 01 19:45:42 <mbuf>	sometimes things don't get done; take a break; do something else, and a change of mind, will hint you to the solution!
+Jul 01 19:45:57 <mbuf>	--> #31
+Jul 01 19:46:15 <mbuf>	There are very common mistakes that newbies make when reporting a problem
+Jul 01 19:46:23 <mbuf>	Please avoid.
+Jul 01 19:46:31 <mbuf>	--> #32
+Jul 01 19:46:36 <mbuf>	More documentation to read!
+Jul 01 19:46:52 *	deepakBCREC has quit (Read error: 110 (Connection timed out))
+Jul 01 19:46:54 <mbuf>	Most "students" pick a subject of interest, based on the staff -- unfortunately
+Jul 01 19:47:13 <mbuf>	This should not be the case with you, because you have a world of resources to look into
+Jul 01 19:47:29 *	rtnpro_ (n=rtnpro_@121.241.211.243) has joined #dgplug
+Jul 01 19:47:38 <mbuf>	You should read more documentation than what is given to you -- that is where your attitude comes into play
+Jul 01 19:48:08 *	rtnpro has quit (Read error: 104 (Connection reset by peer))
+Jul 01 19:48:11 <mbuf>	if there is one book for "shell scripting", you explore 3-4 books and see how different authors have expressed their skills; maybe the thoughts don't overlap
+Jul 01 19:48:34 <mbuf>	if it is repetition, it is good; because, it refreshes your memory!
+Jul 01 19:48:51 <mbuf>	--> #33
+Jul 01 19:49:20 <mbuf>	You can put documentation in a project twiki or in your blog; at the end of the week, you will have so much documentation, that anyone can just read it like a story
+Jul 01 19:49:34 <mbuf>	of course, you can take only relevant content from your blog and use it for the project documentation
+Jul 01 19:49:52 <mbuf>	--> #34
+Jul 01 19:50:29 <mbuf>	If you have to go from Chennai->Hyderabad->Kolkatta, you have to follow that!
+Jul 01 19:50:48 <mbuf>	that is how HOWTOs are designed; if you skip any steps in-between, you will end up in the wrong place!
+Jul 01 19:51:02 <mbuf>	same when answering questions, make sure, you have answered all the questions
+Jul 01 19:51:38 <mbuf>	yes, there are commands, environment settings, and it looks very cryptic at first sight; but, systems we work are very complex
+Jul 01 19:51:46 <mbuf>	that is what we get paid for :)
+Jul 01 19:51:56 <mbuf>	--> #35
+Jul 01 19:52:33 <mbuf>	there is saying that "empty vessels make the most noise", and it is very true
+Jul 01 19:52:58 <mbuf>	with little knowledge and enlightenment, you will become very enthusiastic, that you can easily forget the basics
+Jul 01 19:53:23 <mbuf>	it is important to be patient, and learn the trade, rather than the tricks of the trade
+Jul 01 19:53:43 *	ecntrk (n=ecntrk@117.194.1.62) has joined #dgplug
+Jul 01 19:53:49 <mbuf>	so, it is important to consult with your mentor, if in doubt; don't make hasty, irrational decisions
+Jul 01 19:54:11 <mbuf>	when communicating to team members, it is important to send it to the mailing list, or if sending private e-mail, make sure you CC all team members
+Jul 01 19:54:37 <mbuf>	if you miss somebody, you will disrupt the group dynamics == they will not trust you anymore
+Jul 01 19:54:59 <mbuf>	so, keep everyone in the boat in sync; if you have to cross the ocean, everyone in the boat has to be in sync;
+Jul 01 19:55:13 <mbuf>	you don't want your project to be another Titanic
+Jul 01 19:55:27 <mbuf>	--> #36
+Jul 01 19:55:45 <mbuf>	Yes, always make sure everyone is informed
+Jul 01 19:55:52 <mbuf>	--> #37
+Jul 01 19:56:10 <mbuf>	People have their patience; don't test it too much;
+Jul 01 19:56:20 <mbuf>	if you are not comfortable with the project, or team members, just leave
+Jul 01 19:56:52 <mbuf>	it is also not good to keep repeating the same mistakes, again and again; it is unnecessary work for you and for the team
+Jul 01 19:57:19 <mbuf>	try to learn to accept positive criticism in a proper manner, else ignore and move on in life
+Jul 01 19:57:48 <mbuf>	someone point or the other you will get involved in heated discussion in mailing lists, where different parties disagree
+Jul 01 19:58:02 <mbuf>	don't take things to the heart, just ignore and move on;
+Jul 01 19:58:07 <mbuf>	--> #38
+Jul 01 19:58:27 <mbuf>	The other obvious question, "Can my roommate or benchmate or classmate also join the project?"
+Jul 01 19:58:52 <mbuf>	Team members don't care whether it is your roommate or benchmate or classmate, as long as they can contriibute and have the passion to work;
+Jul 01 19:59:19 <Kishan_>	 1 july...mbuf..FS project guidelines,.....
+Jul 01 19:59:20 <Kishan_>	* Now talking on #dgplug
+Jul 01 19:59:20 <Kishan_>	* Topic for #dgplug is:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | DOWNLOAD THIS http://www.shakthimaan.com/downloads/glv/presentations/i-want-2-do-project-tell-me-wat-2-do.pdf | From 7:00pm mbuf on FS project guidelines | 10:30pm rishi on shell commands | <--CLASS STARTED -->
+Jul 01 19:59:20 <Kishan_>	* Topic for #dgplug set by kushal at Tue Jul 01 18:58:01 2008
+Jul 01 19:59:22 <Kishan_>	* amrita (n=amrita@117.201.96.52) has joined #dgplug
+Jul 01 19:59:24 <Kishan_>	<mbuf> People mistakenly call the system as "Linux"; we Free Software enthusiasts refer to the system as "GNU/Linux"
+Jul 01 19:59:26 *	Subhodip (n=subhodip@125.20.11.34) has joined #dgplug
+Jul 01 19:59:27 <Kishan_>	<mbuf> Open source guys are comfortable with mixing proprietary as well as open source code; Free Software is different from Open Source
+Jul 01 19:59:30 <Kishan_>	<mbuf> The word "hacker" is heavily misused in the media; Hackers are programmers who pursue programming as an artistic passion, who are eager to solve challenging problems
+Jul 01 19:59:33 <Kishan_>	<mbuf> The people who steal passwords, break down networks, cause DoS attacks are called 'crackers'
+Jul 01 19:59:35 <Kishan_>	<mbuf> So, whenever anyone uses the terminology incorrectly, kindly correct them!
+Jul 01 19:59:37 <Kishan_>	<mbuf> --> #4
+Jul 01 19:59:39 <Kishan_>	<mbuf> It is very important in society to understand the meaning of 'earn your living'
+Jul 01 19:59:41 <Kishan_>	<mbuf> most people try to inherit their parents' property or business, and live on it for life -- without doing much work
+Jul 01 19:59:44 <Kishan_>	* sumitc (n=Sumit@59.93.202.240) has joined #dgplug
+Jul 01 19:59:46 <Kishan_>	<mbuf> status in society is not measured by how much wealth you have, but, what you have contributed to society
+Jul 01 19:59:51 <Kishan_>	<mbuf> so, work is important in life; and a good balance between work and play is essential
+Jul 01 19:59:53 <Kishan_>	<mbuf> --> #5
+Jul 01 19:59:55 <Kishan_>	* Debashree (n=Debashre@61.2.164.245) has joined #dgplug
+Jul 01 19:59:55 *	kushal removes voice from Kishan_
+Jul 01 19:59:57 <Kishan_>	<mbuf> In the Free Software world, you have to have the eagerness and drive to get information
+Jul 01 19:59:58 <mavu_>	wait!
+Jul 01 19:59:59 <Kishan_>	<mbuf> Most of the information is already out there; even when you program, you are bound to get stuck with errors; but, ability to hunt on the Internet, with a resolve to solve the problem is important
+Jul 01 20:00:02 <Kishan_>	<mbuf> it
+Jul 01 20:00:06 <Kishan_>	oops!...sorry!!
+Jul 01 20:00:09 *	kushal has kicked Kishan_ from #dgplug (kushal)
+Jul 01 20:00:20 <kushal>	let him come back 
+Jul 01 20:00:26 <mbuf>	But, if your roommate or benchmate or classmate leaves in-between the project release cycle, you shouldn't feel dis-heartened!
+Jul 01 20:00:36 <mbuf>	it is common in projects, for people to move in and out!
+Jul 01 20:00:47 <mbuf>	--> #39
+Jul 01 20:01:08 <mbuf>	People are willing to help you, so you should not ask questions like "How much salary are you getting?"
+Jul 01 20:01:33 <mbuf>	or, "Where is your house?", "How many siblings do you have?"
+Jul 01 20:01:41 *	Kishan_ (n=Kishan@218.248.70.235) has joined #dgplug
+Jul 01 20:01:56 <mbuf>	Unless you are really known the person, people need not open up to share their feelings with you
+Jul 01 20:02:19 <mbuf>	--> #40
+Jul 01 20:02:49 <mbuf>	W.r.t. development, writing small code during the early part of the project and submitting them is important
+Jul 01 20:03:04 <mbuf>	because, people can assess your coding style, logic, license, copyright notices et. al.
+Jul 01 20:03:25 <mbuf>	it is easier to correct mistakes early, rather than let you become a full-grown programmer, and then it is hard to change
+Jul 01 20:03:29 *	Stefan^ (n=stefan@59.93.204.156) has joined #dgplug
+Jul 01 20:03:44 <mbuf>	of course, with great attitude, you can still change; but, why leave it for so long?
+Jul 01 20:04:00 <mbuf>	commit early and often - that is the principle to be followed;
+Jul 01 20:04:08 <mbuf>	--> #41
+Jul 01 20:04:24 *	techno_freak (n=parthan@unaffiliated/teknofreak) has joined #dgplug
+Jul 01 20:04:27 <mbuf>	Assumptions are bad, never make them; don't say "I thought if I did like this, it will work".
+Jul 01 20:04:47 <mbuf>	No, it doesn't happen like that in the real world; as engineers, you are expected to reason out why somethings failed, or why it worked!
+Jul 01 20:05:04 <mbuf>	with Free Software you have the source code, so ability to use it to reason out things is a _must_.
+Jul 01 20:05:19 <mbuf>	Even when following HOWTOs, try to understand what is happening in the system;
+Jul 01 20:05:34 <mbuf>	it will greatly help your logical reasoning and your debugging skills
+Jul 01 20:05:39 <mbuf>	--> #42
+Jul 01 20:06:04 <mbuf>	Unfortunately in this country, from what I have seen people are afraid to ask questions; you have to question everything!
+Jul 01 20:06:32 <mbuf>	Being silent, means you are accepting what other people are saying (except this training session, of course)
+Jul 01 20:07:17 <mbuf>	The more your aptitude to challenge problems, the more you question, the better the programmer you become, and a great asset to Society.
+Jul 01 20:07:23 <mbuf>	--> #43
+Jul 01 20:07:33 <mbuf>	It is never late to start anything
+Jul 01 20:07:46 <mbuf>	If you believe that is is truly possible, it is possible;
+Jul 01 20:07:59 <mbuf>	"Impossible is a word only to be found in the dictionary of fools"
+Jul 01 20:08:16 <mbuf>	Thanks for your time; this ends my presentation for today.
+Jul 01 20:08:32 *	Prakhar (n=prakhar@122.163.69.196) has joined #dgplug
+Jul 01 20:08:40 <mbuf>	i am now open for questions.
+Jul 01 20:09:43 <amrita>	!
+Jul 01 20:09:48 <deepakBCREC_>	!
+Jul 01 20:09:48 <mbuf>	amrita, shoot
+Jul 01 20:09:50 <Kishan_>	!
+Jul 01 20:09:59 <susenj>	!
+Jul 01 20:10:12 <Stefan^>	!
+Jul 01 20:10:19 <amrita>	mbuf, in software world on what basis are we given projects?
+Jul 01 20:10:37 <mbuf>	amrita, define 'software world'?
+Jul 01 20:11:52 <amrita>	mbuf, where people uses some technology to produce something innovative
+Jul 01 20:11:53 *	mbuf for define, we don't put a question mark at the end, AFAIK.
+Jul 01 20:12:39 <mbuf>	amrita, it depends on 'where' means - Industry, Academia, or in the Community
+Jul 01 20:12:58 <mbuf>	amrita, In the community, you are welcome to participate in any project you like
+Jul 01 20:13:06 <amrita>	mbuf, industry
+Jul 01 20:13:21 <mbuf>	amrita, in the Academia, usually the professor assigns project work; in the Industry, you can choose your project, or they assign something for you
+Jul 01 20:13:43 <mbuf>	amrita, again, this should be taken on a case-by-case basis
+Jul 01 20:13:48 <mbuf>	amrita, it depends on the individual
+Jul 01 20:14:22 <mbuf>	amrita, but, in the Free Software community, you don't wait for someone to give you work; that is what I meant by "Hunger for Knowledge"
+Jul 01 20:14:31 <amrita>	mbuf, if i am not comfortable for the project can i leave in between?
+Jul 01 20:14:39 <mbuf>	amrita, you should seek out to do projects, to learn; if company is already doing FS work, it is great!
+Jul 01 20:14:59 <mbuf>	amrita, you have to inform the team members about it, and do a formal "technology transfer" on what you have been working so far
+Jul 01 20:15:23 <mbuf>	amrita, if you are in the middle of something, it is courteous to finish that work, before you leave
+Jul 01 20:15:44 <mbuf>	amrita, remember in this community everything is open (including communication), so it should not reflect back on you sometime in the future
+Jul 01 20:16:01 <mbuf>	deepakBCREC_, shoot!
+Jul 01 20:16:07 <amrita>	mbuf,thanks
+Jul 01 20:16:14 <deepakBCREC_>	what does project documentation means?
+Jul 01 20:16:47 <ecntrk>	!
+Jul 01 20:16:48 <mbuf>	deepakBCREC_, setting up build environment; code API documentation; design documentation; testing methodologies used; sample output/logs; use cases et. al.
+Jul 01 20:17:12 <mbuf>	Kishan_, shoot!
+Jul 01 20:17:17 <Kishan_>	what is "AFAIK" ?
+Jul 01 20:17:34 <mbuf>	Kishan_, As Far As I Know (you didn't Google for it :)
+Jul 01 20:17:54 <mbuf>	susenj, shoot!
+Jul 01 20:17:55 <Kishan_>	oh...got it .thanks.
+Jul 01 20:18:18 <susenj>	mbuf,what is DoS attack??
+Jul 01 20:18:34 <techno_freak>	:0
+Jul 01 20:18:44 <mbuf>	susenj, Denial of Service; ping flood on a server is an example
+Jul 01 20:19:17 <mbuf>	susenj, you keep pinging the server so it has to take care of your requests, while, it doesn't have time to service other clients, so you are denying service to others'
+Jul 01 20:19:26 <mbuf>	Stefan^, shoot!
+Jul 01 20:19:33 <susenj>	ok,thanks<eof>
+Jul 01 20:20:19 *	Num_Lock3d (n=stefan@59.93.204.156) has joined #dgplug
+Jul 01 20:20:26 <Num_Lock3d>	Good evening all :)
+Jul 01 20:20:29 *	amrita has quit (Read error: 104 (Connection reset by peer))
+Jul 01 20:20:34 *	Subhodip has quit (Read error: 110 (Connection timed out))
+Jul 01 20:20:43 <kushal>	Num_Lock3d, class is going all 
+Jul 01 20:20:52 <Num_Lock3d>	oops sorry
+Jul 01 20:20:57 <Num_Lock3d>	am I interrupting ?
+Jul 01 20:21:01 <rtnpro_>	!
+Jul 01 20:21:05 <kushal>	Num_Lock3d, yes
+Jul 01 20:21:10 <Num_Lock3d>	sorry
+Jul 01 20:21:20 <kushal>	Num_Lock3d, are you Stefan^ ?
+Jul 01 20:21:26 <Num_Lock3d>	yes
+Jul 01 20:21:32 <Num_Lock3d>	my connection timed out
+Jul 01 20:21:34 <kushal>	then ask your question 
+Jul 01 20:21:34 <mbuf>	Num_Lock3d, shoot your question!
+Jul 01 20:22:15 *	amrita (n=amrita@117.201.98.46) has joined #dgplug
+Jul 01 20:22:29 <rtnpro_>	!
+Jul 01 20:22:38 <mbuf>	ecntrk, shoot!
+Jul 01 20:22:51 <Num_Lock3d>	how can we view thÃ© contents of initrd ?
+Jul 01 20:22:53 <ecntrk>	ï»¿mbuf, What are the most essential skills to be a Able FS Programer?
+Jul 01 20:23:13 *	Subhodip (n=subhodip@125.20.11.34) has joined #dgplug
+Jul 01 20:23:28 *	Num_Lock3d is now known as Stefan_^
+Jul 01 20:23:31 <mbuf>	Num_Lock3d, you need to dd /dev/ramXY, dump the initrd to RAM, and mount it with -o loop
+Jul 01 20:23:52 <mbuf>	ecntrk, that is too generic a question;
+Jul 01 20:23:55 <Stefan_^>	can't we ungzip it ?
+Jul 01 20:23:56 <ecntrk>	Actually I think i'm good at so called bookish knowledge og C, C++...
+Jul 01 20:24:12 <Stefan_^>	I heard that its actually Ã¡ gzipped image...
+Jul 01 20:24:21 <rtnpro_>	!
+Jul 01 20:24:22 Soumya Stefan^ Stefan_^ Subhodip sumitc susenj 
+Jul 01 20:24:24 <ecntrk>	But you know, i'm feeling that there got to be more things, I need to brush up..
+Jul 01 20:24:30 <Stefan_^>	Ã¡nd initramd is Ã¡ cpio one
+Jul 01 20:24:32 <mbuf>	ecntrk, bookish knowledge doesn't sell
+Jul 01 20:24:36 <kushal>	Stefan^, please try to stay in the class 
+Jul 01 20:24:48 <mbuf>	Stefan^, read: http://lxr.linux.no/linux/Documentation/filesystems/ramfs-rootfs-initramfs.txt
+Jul 01 20:25:05 <mbuf>	ecntrk, there is a lot of difference between theory and practicals
+Jul 01 20:25:08 <mbuf>	rtnpro_, shoot!
+Jul 01 20:25:11 <ecntrk>	I now that, mbuf...
+Jul 01 20:25:33 <rtnpro_>	How do we take part in debugging?
+Jul 01 20:25:39 <ecntrk>	I just wanted some specifird answer from you...<eof>
+Jul 01 20:25:46 <rtnpro_>	What are the prerequisites?
+Jul 01 20:26:02 <rtnpro_>	What are the tools required?<EOF>
+Jul 01 20:26:17 <mbuf>	rtnpro_, to begin with you can use gdb; but,  logical reasoning comes with your interest in solving puzzles
+Jul 01 20:26:51 <rtnpro_>	mbuf, what is gdb?
+Jul 01 20:27:15 <mbuf>	ecntrk, start working on projects, and writing code; can't judget anything based on bookish know-how though
+Jul 01 20:27:15 <rtnpro_>	mbuf, Let me do a google
+Jul 01 20:27:20 <mbuf>	rtnpro_, better :)
+Jul 01 20:27:52 <rtnpro_>	mbuf, ok ...Got it...Thanks
+Jul 01 20:28:12 *	rangeen (i=sherry@61.2.163.9) has joined #dgplug
+Jul 01 20:28:16 <mbuf>	any other questions?
+Jul 01 20:28:17 <sumitc>	!
+Jul 01 20:28:23 <mbuf>	sumitc, shoot!
+Jul 01 20:28:29 <ecntrk>	Thanks , mbuf<eof>
+Jul 01 20:28:41 <sumitc>	while doing FS projects, you mentioned about having a mentor
+Jul 01 20:29:01 <mbuf>	sumitc, not necessarily; it could be a team as well
+Jul 01 20:29:07 <sumitc>	Why is it important to have a mentor while doing a project?
+Jul 01 20:29:26 <sumitc>	How exactly can a mentor help?
+Jul 01 20:29:27 <mbuf>	sumitc, that are part of a project
+Jul 01 20:29:37 <mbuf>	sumitc, some people like one-to-one correspondence
+Jul 01 20:30:40 <mbuf>	sumitc, like personal tutoring; but, again, it depends on how much time the Mentor can provide
+Jul 01 20:31:01 <mbuf>	sumitc, but, I'd prefer people to work in FS team projects, so you get to interact with lot of people
+Jul 01 20:31:33 <mbuf>	<EOF>
+Jul 01 20:31:39 <amrita>	mbuf, !
+Jul 01 20:31:42 <sumitc>	<eof>
+Jul 01 20:31:48 <mbuf>	amrita, shoot!
+Jul 01 20:32:27 <amrita>	mbuf, what are the duties or work of a team leader other than the members?
+Jul 01 20:32:48 *	rangeen has quit (Client Quit)
+Jul 01 20:33:21 <mbuf>	amrita, there is no strict hierarcy as such in FS teams;
+Jul 01 20:33:47 <mbuf>	amrita, usually the biggest *contributor* becomes Maintainer of code, and you have developers who submit code/patch to him/her
+Jul 01 20:34:12 <mbuf>	amrita, only in corporate, formal structures people do politics with hierarchy
+Jul 01 20:34:20 <amrita>	mbuf, in industries?
+Jul 01 20:34:32 <mbuf>	amrita, yes, and it is quite prevalent in India
+Jul 01 20:34:44 <mbuf>	amrita, in the FS world, technicality is given more credibility, and hence, is valued more
+Jul 01 20:35:09 <sumitc>	!
+Jul 01 20:35:15 *	Stefan^ has quit (Read error: 110 (Connection timed out))
+Jul 01 20:35:18 <mbuf>	amrita, so it doesn't matter if you have less Industry experience than others; if you are technically solid in whatever you are working on, you can be the Maintainer/Technical Lead/Architect for the project
+Jul 01 20:35:19 *	ecntrk (n=ecntrk@117.194.1.62) has left #dgplug
+Jul 01 20:35:43 <mbuf>	amrita, the Freedom you get in the FS world is what makes these people work towards it!
+Jul 01 20:35:50 <mbuf>	amrita, <EOF>
+Jul 01 20:35:52 <mbuf>	sumitc, shoot!
+Jul 01 20:35:59 <sumitc>	Do you really think what we are taught in colleges are irrelevant when it comes to practical life?
+Jul 01 20:36:02 <amrita>	mbuf, thanks
+Jul 01 20:36:41 <mbuf>	sumitc, 100% yes, from my experience
+Jul 01 20:37:21 <mbuf>	sumitc, even theory is not taught properly, why talk about practicality?
+Jul 01 20:37:25 <mbuf>	sumitc, read: http://www.shakthimaan.com/downloads/glv/shakthimaan-paper/shakthimaan-paper.pdf
+Jul 01 20:37:33 <mbuf>	sumitc, read: http://www.shakthimaan.com/downloads/glv/shakthimaan-paper/shakthimaan-paper-presentation.pdf
+Jul 01 20:37:37 <sumitc>	ok, thanks
+Jul 01 20:37:45 <sumitc>	I needed to know that
+Jul 01 20:37:49 <sumitc>	<eof>
+Jul 01 20:38:02 <mbuf>	sumitc, I have never seen anyone argue against it; so I accept that everyone has agreed to it
+Jul 01 20:38:37 <Prakhar>	!
+Jul 01 20:38:55 <sumitc>	that means i need to put in an extra effort to be in tune with the industry/FoSS world, is it?
+Jul 01 20:38:57 *	deepakBCREC__ (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 01 20:38:59 *	deepakBCREC__ is now known as deepakBCREC
+Jul 01 20:39:32 <deepakBCREC>	deepakBCREC, /nick deepak
+Jul 01 20:39:50 *	deepakBCREC (n=chatzill@125.20.11.34) has left #dgplug
+Jul 01 20:39:51 <mbuf>	sumitc, yes
+Jul 01 20:39:55 <mbuf>	Prakhar, shoot!
+Jul 01 20:40:05 *	deepakBCREC (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 01 20:40:24 <Prakhar>	i think this kind of procedure is followed only in India, right?
+Jul 01 20:40:32 <mbuf>	sumitc, you cannot get back the time whatever you have used so far; so you have to put even more effort to catch up with others
+Jul 01 20:41:02 <sumitc>	got it, thanks
+Jul 01 20:41:03 <mbuf>	Prakhar, what procedure?
+Jul 01 20:41:05 <sumitc>	<eof>
+Jul 01 20:41:45 *	deepakBCREC__ (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 01 20:41:45 <Prakhar>	the teaching procedure which disables students from entering new avenues
+Jul 01 20:42:17 <mbuf>	Prakhar, the way I see it is, you take the college/university, staff, your fellow students out of the equation
+Jul 01 20:42:41 *	sumitc has quit ("ChatZilla 0.9.82.1 [Firefox 3.0/2008060309]")
+Jul 01 20:42:46 <mbuf>	Prakhar, if you don't eat food, you are going to starve; why do you expect others to feed you? that is what i meant by "Hunger for knowledge"
+Jul 01 20:42:58 <Prakhar>	yes, right
+Jul 01 20:43:16 <mbuf>	Prakhar, if you have the drive, motivation, initiative to use a GNU/Linux system, you can learn whatever you want, from application development, to tools, middleware, operating systems, device drivers and what not!
+Jul 01 20:43:37 <mbuf>	Prakhar, so, the point I am trying to make is that your future is in your hands;
+Jul 01 20:43:51 <Prakhar>	right, I'm also an engineering student and I have seen the way subjects are handled. i completely agree with you.
+Jul 01 20:43:54 <mbuf>	Prakhar, unfortunately, people use others as an excuse
+Jul 01 20:44:14 *	sumitc (n=chatzill@unaffiliated/sumitc) has joined #dgplug
+Jul 01 20:44:18 <mbuf>	Prakhar, it doesn't help in the long run because, end of the day, you don't learn anything, it is you who is going to suffer
+Jul 01 20:44:33 <mbuf>	Prakhar, by 'you' I didn't mean you; I meant "engineering students"
+Jul 01 20:44:39 <sumitc>	!
+Jul 01 20:44:41 <Prakhar>	yes, this is one the favorite topics
+Jul 01 20:44:48 <Prakhar>	absolutely right
+Jul 01 20:44:49 <mbuf>	sumitc, shoot!
+Jul 01 20:44:52 <Prakhar>	thanks
+Jul 01 20:44:56 <Prakhar>	<eof>
+Jul 01 20:45:08 <sumitc>	Is there any way I can earn a living by contributing to the FS world?
+Jul 01 20:45:30 <mbuf>	sumitc, most companies use Free Software; they just like others, don't know it is Free Software
+Jul 01 20:45:41 <mbuf>	sumitc, but, everyone uses it; they just don't go announcing it, that is all
+Jul 01 20:46:06 <amrita>	mbuf, !
+Jul 01 20:46:07 <mbuf>	sumitc, some companies openly announce, or even sponsor Free Software conferences, as a means of attracting developers, and a way of giving back to the Community
+Jul 01 20:46:19 <mbuf>	amrita, shoot!
+Jul 01 20:46:21 <sumitc>	thats good
+Jul 01 20:46:25 <sumitc>	<eof>
+Jul 01 20:46:47 <amrita>	mbuf, what is the application of graphics or art in the industries?
+Jul 01 20:47:00 *	mbuf these questions, and answers can be put up as FAQ in the dgplug wiki site :)
+Jul 01 20:47:16 *	kushal is talking the charge 
+Jul 01 20:47:23 <kushal>	* taking 
+Jul 01 20:47:35 <mbuf>	amrita, unfortunately i don't work on those lines; but, there are good Free Software tools that you can use like Gimp, Scribus, Blender, et. al. that you can use
+Jul 01 20:47:43 <kushal>	but only after the whole course 
+Jul 01 20:47:54 <mbuf>	amrita, BTW, these are very powerful and widely used
+Jul 01 20:48:10 <mbuf>	amrita, Inkscape as well
+Jul 01 20:48:51 <kushal>	amrita, are you asking about where they use art/graphics ?
+Jul 01 20:49:30 <amrita>	kushal, i meant do they have importance very much?
+Jul 01 20:49:40 <mbuf>	amrita, yes, yes! they are widely used
+Jul 01 20:50:18 <mbuf>	because there is no single entity that represents these projects, and everyone uses it, people don't bother to advertise it
+Jul 01 20:50:20 <amrita>	kushal, except the logos or posters
+Jul 01 20:51:13 *	sumitc has quit ("ChatZilla 0.9.82.1 [Firefox 3.0/2008060309]")
+Jul 01 20:51:14 <mbuf>	amrita, there are lot of music/movie-creation software as well for FLOSS
+Jul 01 20:51:22 <mbuf>	any other questions?
+Jul 01 20:51:33 <amrita>	mbuf, ok
+Jul 01 20:51:40 *	sumitc (n=chatzill@unaffiliated/sumitc) has joined #dgplug
+Jul 01 20:52:42 <amrita>	mbuf, !
+Jul 01 20:52:42 <mbuf>	Ok, we will stop here.
+Jul 01 20:52:53 <mbuf>	amrita, ok, shoot!
+Jul 01 20:53:12 *	mbuf appreciates the "Hunger for Knowledge"
+Jul 01 20:53:15 <amrita>	everyone from it branch may not be good at programming
+Jul 01 20:53:34 <amrita>	so what other work they could get?
+Jul 01 20:53:40 <mbuf>	amrita, who said IT is all about programming?
+Jul 01 20:54:14 <amrita>	but its given the greater importance
+Jul 01 20:54:22 <mbuf>	amrita, by whom?
+Jul 01 20:54:48 <amrita>	not by anyone
+Jul 01 20:55:11 <mbuf>	amrita, you define what is important to you; you do what you feel like; you work on projects that interest you
+Jul 01 20:55:13 <amrita>	but our faculty members gives stress on it
+Jul 01 20:56:01 <mbuf>	amrita, end of the day what does that translate to?
+Jul 01 20:56:28 <amrita>	sorry "what "means?
+Jul 01 20:57:21 <mbuf>	amrita, have people asked questions on "Why faculty members have not done research projects?", "Why they haven't attended International conferences"? "What new software they have written?"
+Jul 01 20:57:42 *	deepakBCREC_ has quit (Read error: 110 (Connection timed out))
+Jul 01 20:57:49 <mbuf>	amrita, "What new papers they have published, and where?", "If they don't work in the Industry, why they emphasis on all these?"
+Jul 01 20:58:24 <mbuf>	amrita, you can count such dedicated people
+Jul 01 20:58:41 <mbuf>	amrita, the point is, you need to see the bigger picture of the world;
+Jul 01 20:59:00 <mbuf>	amrita, there is something called OPV (Other Peoples' View); before you come to any conclusion, you have to get opinion from different people
+Jul 01 20:59:46 <mbuf>	amrita, I suggest you read the presentation and paper that I gave the link to earlier
+Jul 01 21:00:19 *	deepakBCREC has quit (Read error: 110 (Connection timed out))
+Jul 01 21:00:20 <amrita>	mbuf, ok
+Jul 01 21:00:32 <mbuf>	<EOF>
+Jul 01 21:00:42 <kushal>	Roll Call
+Jul 01 21:00:55 <ria>	ria das
+Jul 01 21:00:56 <Prakhar>	Prakhar Agarwal
+Jul 01 21:00:57 <aritra>	Aritra Bose
+Jul 01 21:00:58 <pushkal>	Pushkal Srivastava
+Jul 01 21:01:00 <sumitc>	Sumit Chakraborty
+Jul 01 21:01:03 <amrita>	amrita mukherjee
+Jul 01 21:01:08 <Kishan_>	Kishan Goyal
+Jul 01 21:01:08 <mavu_>	satya komaragiri
+Jul 01 21:01:13 <TanmayaT>	Tanmaya Tewari
+Jul 01 21:01:16 >mbuf<	thank you again :)
+Jul 01 21:01:25 <arpita>	arpita kapoor
+Jul 01 21:01:31 <Debashree>	debashree banerjee
+Jul 01 21:02:02 *	PraMS (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 01 21:02:18 <kushal>	anyone else ?
+Jul 01 21:02:49 <kushal>	<--CLASS OVER-->

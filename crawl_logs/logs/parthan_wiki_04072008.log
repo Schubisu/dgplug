@@ -1,0 +1,214 @@
+Jul 04 22:35:01 *	kushal has changed the topic to:  Welcome to Linux User's Group of Durgapur | Mailing list at http://lists.dgplug.org/listinfo.cgi/users-dgplug.org | Old classes http://www.dgplug.org/irclogs/ | 10:30pm Wiki  - Parthan | <-- CLASS STARTED -->
+Jul 04 22:35:06 <kushal>	Roll call
+Jul 04 22:35:11 <ria>	Ria Das
+Jul 04 22:35:21 <ecntrk_>	Debmalya Sinha
+Jul 04 22:35:23 <mavu_>	satya komaragiri
+Jul 04 22:35:24 <susenj>	Neeraj Kumar
+Jul 04 22:35:29 <khushi_>	Khushbu Mohta
+Jul 04 22:35:33 <Pramit>	pramit roychowdhury
+Jul 04 22:35:39 <arpita>	arpita kapoor
+Jul 04 22:35:40 <Prakhar>	Prakhar Agarwal
+Jul 04 22:36:03 <Debashree>	debashree banerjee
+Jul 04 22:36:25 <bose_aritra>	aritra bose
+Jul 04 22:36:39 <Kishan>	kishan goyal
+Jul 04 22:37:42 <techno_freak>	are we done?
+Jul 04 22:38:07 <Subhodip>	subhodipbiswas
+Jul 04 22:38:36 *	kushal gives channel operator status to runa_b
+Jul 04 22:39:13 *	Soumya_ (n=chatzill@117.192.8.239) has joined #dgplug
+Jul 04 22:40:20 <techno_freak>	--- CLASS BEGINS -----
+Jul 04 22:40:34 <techno_freak>	[Q] How many of you know the most famous Wiki? Can you name it?
+Jul 04 22:40:57 <Prakhar>	wikipedia, i guess
+Jul 04 22:42:15 *	Debashree has quit (Read error: 104 (Connection reset by peer))
+Jul 04 22:42:58 <techno_freak>	Righto! [Q2] What do you think made Wikipedia so successful?
+Jul 04 22:43:28 *	sharanr (n=sharan@117.98.112.129) has joined #dgplug
+Jul 04 22:43:33 <Pramit>	we ca reedit it database.
+Jul 04 22:43:42 <susenj>	huge database
+Jul 04 22:43:43 <Pramit>	pages.
+Jul 04 22:43:44 <techno_freak>	and..
+Jul 04 22:43:52 <Prakhar>	open to all for modifications
+Jul 04 22:43:52 <techno_freak>	hmm, and..
+Jul 04 22:43:52 <khushi_>	it allows users to freely create and edit Web pages using any Web browser. ...
+Jul 04 22:44:07 <Pramit>	can create own database.
+Jul 04 22:44:15 *	Debashree (n=Debashre@61.2.164.20) has joined #dgplug
+Jul 04 22:44:19 <techno_freak>	good
+Jul 04 22:44:24 <ecntrk_>	It enables every user to create or contribute information into it...
+Jul 04 22:44:36 <ecntrk_>	thus making a database so huge..
+Jul 04 22:44:52 <techno_freak>	<END>
+Jul 04 22:45:24 <bose_aritra>	its easy to get any information, so its successful.
+Jul 04 22:45:38 <techno_freak>	What makes Wikipedia so awesome is, the entire content is not written by few people and hence doesnt represent one Point-of-View.
+Jul 04 22:45:56 <techno_freak>	It's all there by means of contribution from people all over the world
+Jul 04 22:46:09 <susenj>	!
+Jul 04 22:46:41 <techno_freak>	It was possible to amass such a great amount of information within a single site because people were allowed to freely contribute
+Jul 04 22:46:44 *	indradg_ has quit (Read error: 110 (Connection timed out))
+Jul 04 22:46:48 <techno_freak>	susenj, yes?
+Jul 04 22:46:53 <susenj>	ï»¿but if a user writes his own way..it's not always that he writes correct!
+Jul 04 22:47:07 <susenj>	<eof>
+Jul 04 22:47:11 <techno_freak>	susenj, am coming to the point..
+Jul 04 22:47:27 *	Soumya__ (n=chatzill@117.192.1.172) has joined #dgplug
+Jul 04 22:47:44 <techno_freak>	in your answers, few of you mentioned DB. actually wiki has nothing to do with a DB
+Jul 04 22:48:00 <techno_freak>	[Q3] So what Wiki is? any ideas?
+Jul 04 22:48:23 <khushi_>	server
+Jul 04 22:48:35 <Prakhar>	website to edit on the fly!
+Jul 04 22:49:06 <khushi_>	software
+Jul 04 22:49:09 <bose_aritra>	a forum
+Jul 04 22:49:39 <techno_freak>	any one else?
+Jul 04 22:49:47 <techno_freak>	am waiting for *the* word..
+Jul 04 22:50:19 <susenj>	blog
+Jul 04 22:50:39 <techno_freak>	<END>
+Jul 04 22:50:41 <Prakhar>	open  source
+Jul 04 22:50:48 <Prakhar>	oops, sorry!
+Jul 04 22:50:57 <techno_freak>	Wiki is a "Collaborative Editing" Tool
+Jul 04 22:51:24 <techno_freak>	[Q4] Can you name some collaborative development tool which you might have come across?
+Jul 04 22:51:31 *	Atanu_bera (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 04 22:51:32 <mavu_>	git?
+Jul 04 22:52:08 <techno_freak>	good.. others?
+Jul 04 22:52:16 <mavu_>	svn
+Jul 04 22:52:20 <mavu_>	bzr
+Jul 04 22:52:27 <techno_freak>	mavu_, give chance for others too :)
+Jul 04 22:52:32 <mavu_>	soory
+Jul 04 22:53:52 *	t4num0y_cs3 (n=Neo@117.194.0.246) has joined #dgplug
+Jul 04 22:53:54 <kushal>	!
+Jul 04 22:53:59 <techno_freak>	kushal, yes?
+Jul 04 22:54:06 *	Soumya___ (n=chatzill@117.192.0.235) has joined #dgplug
+Jul 04 22:54:09 <kushal>	techno_freak, nothing much :
+Jul 04 22:54:16 <kushal>	just ping 
+Jul 04 22:54:20 <kushal>	<eof>
+Jul 04 22:54:28 *	ecntrk1 (n=ecntrk@117.194.0.159) has joined #dgplug
+Jul 04 22:55:38 <techno_freak>	Ok, Collaborative Tools include Version Control Systems like subversion, git, bzr.. Mailing Lists like GNU mailman... issue trackers like Trac, bugzilla.. wikis like...
+Jul 04 22:55:55 <techno_freak>	Wiki are an important tool for Collaborative Development
+Jul 04 22:56:17 <Atanu_bera>	sorryfor late, Attendance Atanu Bera
+Jul 04 22:56:23 <techno_freak>	Why? Because it enables people to freely add textual content, and others to freely edit them as well
+Jul 04 22:56:25 *	Soumya has quit (Read error: 110 (Connection timed out))
+Jul 04 22:56:33 *	Soumya___ is now known as Soumya
+Jul 04 22:57:11 <techno_freak>	For example, if you are writing a essay about dgplug, kushal can just start a page and put some initial points, while all of you can participate adding more contents into it
+Jul 04 22:57:48 <techno_freak>	kushal can occasionally peep in, review the contents, edit them, format them, and make the page transform into an awesome easy on dgplug
+Jul 04 22:58:21 *	rtnpro has quit (Read error: 110 (Connection timed out))
+Jul 04 22:58:28 <bose_aritra>	!
+Jul 04 22:58:33 *	t4num0y_cs3 has quit (Client Quit)
+Jul 04 22:58:47 <techno_freak>	bose_aritra, yes
+Jul 04 22:58:55 <bose_aritra>	is it so that only khushal can edit.
+Jul 04 22:59:10 <bose_aritra>	that means editing option is not for all.
+Jul 04 22:59:13 <kushal>	bose_aritra, who is he ?
+Jul 04 22:59:17 <techno_freak>	bose_aritra, no, the very basic idea of wiki is that any one can add, edit or delete content
+Jul 04 22:59:43 <bose_aritra>	but what i want to edit may be right
+Jul 04 22:59:57 <bose_aritra>	who is governing the whole process?
+Jul 04 23:00:15 <techno_freak>	bose_aritra, any one as in [1] any one accessing the site [2] any one who is a registered member of the wiki site [3] any one who has been granted edit privileges by the admin or the page creator
+Jul 04 23:00:45 <bose_aritra>	some can even play pranks.
+Jul 04 23:00:45 <techno_freak>	it can [1] [2] or [3] because, depending upon how critical the content is, the owners of the wiki may choose it to be moderated wiki
+Jul 04 23:00:53 <techno_freak>	<eof>
+Jul 04 23:01:01 <bose_aritra>	ok
+Jul 04 23:01:02 *	Soumya_ has quit (Read error: 110 (Connection timed out))
+Jul 04 23:01:13 <techno_freak>	So, from the above example, we can clearly see what Wikis are for.
+Jul 04 23:01:39 <techno_freak>	The entire content blooms up not because of one persons contribution, but many people contributing their bits and bytes
+Jul 04 23:01:58 <techno_freak>	A lot of documents you see in various project's sites are indeed created by this method
+Jul 04 23:02:33 <techno_freak>	Now, the interesting question arises
+Jul 04 23:02:55 <techno_freak>	If anyone can edit, even let it be registered users, how do you ensure that the content is trustable?
+Jul 04 23:03:13 <techno_freak>	Wiki proved it can indeed do. But how?
+Jul 04 23:03:37 <techno_freak>	It follows the concept "More the number of eyes looking at, the better and dependable the content becomes"
+Jul 04 23:03:57 <techno_freak>	Let's take an ideal example to understand this concept
+Jul 04 23:04:31 <techno_freak>	[A] goes to Wikipedia and creates a page on Kolkatta
+Jul 04 23:04:57 <techno_freak>	he adds some initial content and leaves the page open for any one to add or edit it
+Jul 04 23:05:38 <techno_freak>	now [B] comes and sees the page. He has some interesting information about Kol and hence he adds them to the page.
+Jul 04 23:05:56 *	Soumya___ (n=chatzill@117.192.7.195) has joined #dgplug
+Jul 04 23:06:13 <techno_freak>	[A] comes back to the page, finds [B]'s contents which is good, but has some spellos here and there.
+Jul 04 23:06:22 <techno_freak>	so [A] fixes those spellos and saves the page.
+Jul 04 23:07:07 <techno_freak>	after this has happened [X] sees the page. But [X] is an evil chap, so he adds spam links all over the page, replacing the original contents by [A] and [B]
+Jul 04 23:07:35 <techno_freak>	now [A] and [B] come to know that their page has been spoiled by someone
+Jul 04 23:07:41 <techno_freak>	So, what's the solution?
+Jul 04 23:08:32 <techno_freak>	[1] Most wikis offer version control of the pages. So, you can always go to last edits, see the content, either revert to that old version or just copy the content and paste it into the existing page, save it
+Jul 04 23:09:08 <techno_freak>	[2] A and B have their own personal copies of the content. So A again adds the initial content, asks B to add his and brings back the page again
+Jul 04 23:09:30 <techno_freak>	Now, you might ask can't X return back and do the vandalism again?
+Jul 04 23:09:43 <techno_freak>	Yes, in fact he can if A still decides to keep the page open to anyone
+Jul 04 23:09:58 *	Soumya__ has quit (Read error: 110 (Connection timed out))
+Jul 04 23:10:39 <techno_freak>	Or else, A might give editing permissions to B and state in the his page that anybody with related information can mail him, sending their content which if found appropriate will be added to the wiki page
+Jul 04 23:10:39 *	sharanr has quit (Remote closed the connection)
+Jul 04 23:10:45 *	Soumya____ (n=chatzill@117.192.2.3) has joined #dgplug
+Jul 04 23:11:13 <techno_freak>	Most wikis go for the second mode where they ask users to register themselves, to prevent spam bots from acting upon
+Jul 04 23:11:42 <techno_freak>	Wikipedia has been following an open access policy in its initial days
+Jul 04 23:11:57 <techno_freak>	which proved futile as the spammers and objectionable content started to increase
+Jul 04 23:12:50 <techno_freak>	in its initial days, it worked because 1000s of people thronged to wikipedia, and hence when an objectionable content was found there were people to remove it and bring the page back to its previous state
+Jul 04 23:13:06 <techno_freak>	now, wikipedia follows registration process, if am not wrong
+Jul 04 23:13:17 <techno_freak>	Any questions so far?
+Jul 04 23:14:50 *	rtnpro (n=rtnpro@117.99.1.142) has joined #dgplug
+Jul 04 23:15:14 <rtnpro>	kushal, sorry ...I was disconnected
+Jul 04 23:15:30 <kushal>	rtnpro, why are you telling me sorry :(
+Jul 04 23:16:18 <rtnpro>	kushal, ok... sorry for that
+Jul 04 23:16:25 <techno_freak>	So, what are the well known Wiki softwares?
+Jul 04 23:16:37 <techno_freak>	http://en.wikipedia.org/wiki/Wiki_software names some
+Jul 04 23:16:38 <bose_aritra>	wikimapia
+Jul 04 23:17:15 <ecntrk1>	wikiwikiweb...!
+Jul 04 23:17:20 <techno_freak>	The most widely used as MediaWiki, MoinMoin and Trac
+Jul 04 23:17:35 <techno_freak>	[Q5] Do you know what dgplug uses?
+Jul 04 23:17:46 *	deepakBCREC (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 04 23:18:14 *	ecntrk_ has quit (Read error: 110 (Connection timed out))
+Jul 04 23:18:41 *	techno_freak can find a surge of hits on wiki.dgplug.org
+Jul 04 23:19:44 <techno_freak>	:-/
+Jul 04 23:19:59 <ecntrk1>	mediawiki..
+Jul 04 23:20:12 <ecntrk1>	it's in there...
+Jul 04 23:20:16 <ecntrk1>	<eof>
+Jul 04 23:20:54 <techno_freak>	ya, righto. so you have all landed up there isn't it?
+Jul 04 23:21:11 <ecntrk1>	:-D
+Jul 04 23:21:14 <bose_aritra>	:)
+Jul 04 23:21:16 <techno_freak>	Editing a wiki page is simple, starting one too is..
+Jul 04 23:21:53 <techno_freak>	But wikis follow a syntax for marking text in different formats such as lists, tables, headings, etc.
+Jul 04 23:22:32 <techno_freak>	Though this might be different between various wiki softwares, it is fairly straightforward
+Jul 04 23:22:54 <techno_freak>	It's more fun to explore this markup syntax than being thought..
+Jul 04 23:23:11 <techno_freak>	So, we are going to do an exercise over this weekend with wiki
+Jul 04 23:23:20 <techno_freak>	this will help us understand how to work with a wiki page
+Jul 04 23:23:49 <techno_freak>	[Q6] Hope you all are registered with wiki.dgplug.org? If not, do it right away.
+Jul 04 23:24:41 *	Soumya has quit (Read error: 110 (Connection timed out))
+Jul 04 23:26:12 <kushal>	and don't give space in the username ?
+Jul 04 23:26:38 <techno_freak>	kushal, ?
+Jul 04 23:26:51 <kushal>	I mean typo at the end 
+Jul 04 23:27:52 *	Soumya___ has quit (Read error: 110 (Connection timed out))
+Jul 04 23:28:41 *	deepakBCREC_ (n=chatzill@125.20.11.34) has joined #dgplug
+Jul 04 23:28:54 <techno_freak>	WEEKEND ASSIGNMENT:: [1] Create a wiki page in wiki.dgplug.org in your name [2] For each session you attended in this Summer Course, add a section header to it [3] Describe what you learnt in each session, how useful it was, what all you found yourself after the session on the topic and your personal comments
+Jul 04 23:29:00 <techno_freak>	as separate sub-topics
+Jul 04 23:29:20 <techno_freak>	[4] try to make the content a mixture of text and lists
+Jul 04 23:29:53 <techno_freak>	[5] If you have found any interesting projects or web sites related to the topic, give the relevant links
+Jul 04 23:31:43 <techno_freak>	You may continue to use this page, adding content after each session till the end of this course
+Jul 04 23:32:03 <techno_freak>	At the end, we will evaluate each one's page and the best ones will get some surprises..
+Jul 04 23:32:38 <kushal>	plus few bottles of beer if comes to foss.in this year 
+Jul 04 23:32:45 <techno_freak>	yup
+Jul 04 23:32:49 <Prakhar>	:)
+Jul 04 23:33:06 <mavu_>	hau
+Jul 04 23:33:07 <mavu_>	:P
+Jul 04 23:33:14 <techno_freak>	And they can also might becomes probable maintainers of the dgplug wiki ;)
+Jul 04 23:33:17 *	Soumya_____ (n=chatzill@117.192.1.225) has joined #dgplug
+Jul 04 23:33:18 *	Soumya_____ is now known as Soumya
+Jul 04 23:33:26 <techno_freak>	err.. /can also/ /
+Jul 04 23:33:29 *	arpita_ (n=arpita@117.201.96.131) has joined #dgplug
+Jul 04 23:33:57 <techno_freak>	Good Luck guys and gals, hope to see really interesting wiki pages of yours at the end.. :)
+Jul 04 23:34:09 <ecntrk1>	sure...
+Jul 04 23:35:25 <Prakhar>	!
+Jul 04 23:36:26 <Pramit>	!
+Jul 04 23:36:45 <rtnpro>	!
+Jul 04 23:36:47 <kushal>	à¦à¦¾à¦à¦¤à§ à¦°à¦¹à§
+Jul 04 23:36:59 <Subhodip>	kushal, heh :P
+Jul 04 23:37:01 <techno_freak>	Prakhar, shoot
+Jul 04 23:37:14 <Prakhar>	techno_freak, your comments please: http://wiki.laptop.org/go/User:Prakhar
+Jul 04 23:37:32 <techno_freak>	Prakhar, not now, let every one else complete theirs
+Jul 04 23:37:36 <techno_freak>	Pramit, shoot
+Jul 04 23:37:56 <Pramit>	i have to edit my user page in wiki.dgplug.org
+Jul 04 23:38:06 <techno_freak>	sure, go ahead and do it
+Jul 04 23:38:20 <Prakhar>	techno_freak, its not dgplug wiki, I just wished to have a feedback from you. nothing else :)
+Jul 04 23:38:22 <techno_freak>	i will give you all this weekends time to do your initial work
+Jul 04 23:38:35 <techno_freak>	Prakhar, i will look at it later :)
+Jul 04 23:38:45 <Prakhar>	ok sure, thanks
+Jul 04 23:38:48 <techno_freak>	Prakhar, and i will count only dpglug wiki
+Jul 04 23:38:53 <techno_freak>	rtnpro, shoot
+Jul 04 23:38:58 <Prakhar>	yeah, no issues :)
+Jul 04 23:39:14 <rtnpro>	do we need to download mediawiki?
+Jul 04 23:39:40 <bose_aritra>	Prakhar, nice man....
+Jul 04 23:39:40 <rtnpro>	or is it just like blogging?
+Jul 04 23:39:56 <techno_freak>	rtnpro, ouch, kushal has installed one for dgplug already. you should use it for your assignment
+Jul 04 23:39:57 <Prakhar>	bose_aritra, thanks!
+Jul 04 23:40:10 <rtnpro>	ok
+Jul 04 23:40:11 <techno_freak>	rtnpro, though you can install one in your computer for trying it out
+Jul 04 23:40:25 <rtnpro>	ok...thanks
+Jul 04 23:40:30 *	indradg has quit (Read error: 110 (Connection timed out))
+Jul 04 23:40:44 <techno_freak>	Ok, if you want to see mine for sample, I have one in dgplug wiki.. http://wiki.dgplug.org/index.php/User:Technofreak
+Jul 04 23:41:19 <techno_freak>	actually there are a couple of spellos, dont mind it. if you can edit it, you can do it (am not sure of it)
+Jul 04 23:41:54 *	deepakBCREC has quit (Read error: 110 (Connection timed out))
+Jul 04 23:43:16 <techno_freak>	There ends the class. Feel free to poke me if you want any help when am here, but no reviews until the end ;)
+Jul 04 23:43:21 <techno_freak>	kushal, done!

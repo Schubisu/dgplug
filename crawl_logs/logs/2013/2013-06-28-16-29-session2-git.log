@@ -1,0 +1,788 @@
+[17:36:28] [## Class Started at Fri Jun 28 17:36:28 2013 ##]
+[17:36:28] <kushal> startclass
+[17:36:33] <tutum> now
+[17:36:37] <shalini> now
+[17:36:37] <kushal> -------------SESSION STARTS---------------
+[17:36:43] <kushal> ROLL CALL
+[17:36:47] <prikotiyal> Priyanka Kotiyal
+[17:36:48] <tutum> Pritha Ganguly
+[17:36:50] <purva> purva
+[17:36:50] <anisha23> Anisha Agrawal
+[17:36:50] <tenstormavi> Avinash Kumar Dasoundhi
+[17:36:51] <umesh> Umesh Agarwal
+[17:36:52] <rashmi> Rashmi
+[17:36:52] <Devyani> Devyani
+[17:36:52] <rahulch> now
+[17:36:52] <pankhu> Pankhudi Jain
+[17:36:53] <bidisha> Bidisha Mukherjee
+[17:36:53] <rahulch> Rahul Chowdhury
+[17:36:54] <kirk_iowa> kirk
+[17:36:55] <anurag> anurag kumar
+[17:36:56] <nilanjit> Nilanjit Mitra
+[17:36:58] <suman> suman roy
+[17:36:59] <shalini> Shalini Roy
+[17:37:00] <satarupa> satarupa sinha
+[17:37:04] <dot|not> dot|not,
+[17:37:07] <korak> korak ghosh
+[17:37:13] <ravi_pro> ravi kumbhkar
+[17:37:14] <shantanu> shantanu sarkar
+[17:37:20] <anwesha> Anwesha Das
+[17:37:35] <siddhant> siddhant sengar
+[17:37:35] <kushal> pingall: roll call if you missed
+[17:37:36] <amresh> amresh kumar
+[17:37:41] <J_Caselles2> Josep Caselles
+[17:37:51] <cyogesh> Yogesh Chaudhari
+[17:37:55] <elita15> elita lobo
+[17:38:00] <christina> christina Beemer
+[17:38:06] <dell_> manish
+[17:38:36] <Sudip> sudip gorai
+[17:38:43] <kushal> any questions on things we discussed still now ?
+[17:38:53] <rahulch> !
+[17:39:32] <kushal> rahulch, ask
+[17:40:09] <iam_sudip> Iam sudip
+[17:40:34] <mac1733> Terry Mackin
+[17:40:46] <rahulch> suppose there is a directory containing some files under it, and i am interested in adding the whole directory including the files under it. can it be done in any way other than individually adding the files and placing them under one common directory?
+[17:40:51] <wjcrane> william crane
+[17:41:09] <pakko> Aniket Anvit
+[17:41:24] <mapyth> Mayank Jha
+[17:41:50] <kushal> rahulch, git add directory/*
+[17:42:08] <rahulch> kushal, got it :)
+[17:42:21] <kushal> so git log shows logs for the whole repository
+[17:43:14] <kushal> can anyone guess which command will show logs of commits for a particular file ? do not answer if you already know
+[17:44:21] <J_Caselles> git log filename?
+[17:44:28] <kushal> J_Caselles, correct :D
+[17:44:29] <kushal> try
+[17:44:54] <shantanu> !
+[17:45:13] <kushal> shantanu, ask
+[17:45:26] <rahulch_> kushal, can you please repeat your instruction, if any? i had lost my connection :(
+[17:45:33] <shantanu> kushal, tried. but it is showing log of both files
+[17:46:13] <kushal> rahulch_, nothing done yet
+[17:46:13] <shantanu> kushal, http://fpaste.org/21729/
+[17:46:17] <nilanjit> !
+[17:46:24] <kushal> shantanu, press ! and wait
+[17:46:30] <rahulch_> kushal, ok
+[17:46:39] <kushal> people are also forgetting to type <eof>
+[17:46:48] <rahulch_> <EOF>
+[17:46:50] <shantanu> <eof>
+[17:47:25] <kushal> shantanu, eeks, it seems you never followed anything we did till now
+[17:48:00] <kushal> shantanu, your commit messages are totally off the hook
+[17:48:04] <nilanjit> kushal, what if i made a mistake putting my second last commit? how can this be corrected <eof>
+[17:48:15] <nilanjit> oops sorry
+[17:48:18] <nilanjit> mistake
+[17:48:31] <shantanu> kushal, but they were showing last time i did
+[17:48:33] <kushal> nilanjit, generally you are not supposed to make changes to any of those old histories
+[17:48:58] <kushal> shantanu, then I don't know what happened
+[17:49:16] <nilanjit> kushal, ok
+[17:49:16] <shantanu> ok
+[17:49:29] <kushal> nilanjit, btw, why you asked out of turn ?
+[17:50:20] <nilanjit> kushal, i did a mistake, sorry for that.. i was waiting for your permission
+[17:50:35] <nilanjit> somehow the enter button got pressed
+[17:50:38] <kushal> now
+[17:50:53] <nilanjit> <eof>
+[17:50:59] <kushal> nilanjit, like a cat walked on your keyboard and pressed the Enter key
+[17:51:01] <kushal> anyway
+[17:51:11] <kushal> git is distributed
+[17:52:14] <nilanjit> kushal, sorry that cat was me
+[17:52:29] <kushal> I will explain that later
+[17:52:33] <kushal> nilanjit, no problem
+[17:53:13] <kushal> generally the project decides one git repo in the internet as the primary place
+[17:53:14] <nilanjit> thanks
+[17:53:21] <kushal> others clone the repo from there
+[17:53:36] <kushal> clone ==  I guess you can guess that
+[17:53:53] <nilanjit> copy?
+[17:53:55] <shantanu> kushal, copy
+[17:53:59] <tenstormavi> kushal, make copy.
+[17:54:01] <kushal> clone
+[17:54:15] <kushal> means every thing will be same
+[17:54:49] <kushal> for tonight we will clone itside our computer
+[17:56:02] rahulch_ is now known as rahulch
+[17:56:25] <kushal> let us goto home directory and create a directory called clonedrepo01
+[17:56:29] <kushal> do it
+[17:58:42] <kushal> tell me if you have any problem till now
+[17:58:51] <tenstormavi> no
+[17:59:09] <kushal> ok
+[17:59:31] <kushal> goto that directory
+[17:59:44] <kushal> [gitu@localhost clonedrepo1]$ git clone ../repo01 .
+[18:00:55] <kushal> now do a git log to see if you managed to clone it properly
+[18:01:16] <elita15> !
+[18:01:35] <kushal> elita15, ask
+[18:01:50] <tenstormavi> !
+[18:02:08] <tutum> !
+[18:02:12] <anurag> !
+[18:02:17] <elita15> i got error, as bad default revision 'HEAD'
+[18:02:59] <rahulch> !
+[18:03:10] <kushal> tenstormavi, tutum anurag rahulch ask
+[18:03:14] <tenstormavi> got cleared my doubt. same as elita15 .
+[18:03:16] <tutum> http://fpaste.org/21731/24419951/  <-- I got this after i did 'git log'
+[18:03:26] <rahulch> is there anything wrong in this? http://fpaste.org/21732/24420471/
+[18:03:32] <tutum> is this correct?<eof>
+[18:03:39] <anurag> same as elita15
+[18:03:41] <elita15> http://fpaste.org/21733/72442075/
+[18:03:56] <kushal> yes
+[18:04:00] <siddhant> !
+[18:04:13] <kushal> all of you get a spec with positive power
+[18:04:28] <kushal> none of you gave the command I typed
+[18:04:34] <dell_> !
+[18:04:41] <kushal> tell me what you missed
+[18:04:47] <kushal> siddhant, dell_ ask
+[18:04:50] <siddhant> http://fpaste.org/21734/
+[18:05:09] <elita15> dot after repo01?
+[18:05:11] <kushal> siddhant, check my answer above
+[18:05:24] <kushal> elita15, who will type that ? superman ?
+[18:05:53] <elita15> kushal,  i am sorry, thought it was a full stop.
+[18:05:58] <J_Caselles> elita15: dot as here this directory
+[18:06:16] <dell_> http://fpaste.org/21735/44211513/
+[18:06:56] <supriya> !
+[18:07:00] <shantanu> dell_, your paste is password protected
+[18:07:03] <kushal> dell_, and the password is ?
+[18:07:07] <nilanjit> !
+[18:07:14] <kushal> supriya, nilanjit ask
+[18:07:31] <nilanjit> is this ok? - http://fpaste.org/21736/72442284/
+[18:07:39] <supriya> i got error, as bad default revision 'HEAD'
+[18:07:49] <kushal> supriya, nilanjit no, not ok
+[18:08:18] <kushal> all of you missed the . at the end
+[18:08:50] <tenstormavi> !
+[18:08:52] <kushal> people who did the mistake
+[18:09:09] <nilanjit> kushal, sorry, let me try this again
+[18:09:10] <kushal> remove repo01 from clonedrepo1
+[18:09:18] <kushal> rm -rf repo01
+[18:09:38] <kushal> do not give that command from home directory, that will delete the main repo
+[18:09:49] <dell_> kushal:password
+[18:10:01] <amresh> kushal, http://www.fpaste.org/21738/ ok ?
+[18:10:17] <dell_> kushal: password
+[18:10:22] <kushal> amresh, yes
+[18:10:46] <kushal> dell_, same answer as others
+[18:10:49] <umesh> !
+[18:11:21] <kushal> umesh, ask
+[18:11:23] <tutum> !
+[18:11:28] <umesh> kushal, http://fpaste.org/21741/ is that ok ?
+[18:11:54] <kushal> looks good
+[18:12:04] <kushal> others please do not show me the output
+[18:12:11] <kushal> you check and use your brain
+[18:12:13] <kushal> tutum, ask
+[18:12:15] <dell_> kushal: as i gave that command from clonerepo01 direcrory?
+[18:12:39] <dell_> s/direcrory/directory
+[18:12:40] <kushal> dell_, no check what elita15 said
+[18:12:46] <kushal> dell_, you missed the . at the end
+[18:12:59] <tutum> kushal,i wanted to show the output,its correct i guess.
+[18:13:09] <kushal> tutum, good
+[18:13:28] <kushal> everyone working ?
+[18:13:32] <kushal> tell me yes/no
+[18:13:35] <rahulch> yes
+[18:13:36] <tutum> yes
+[18:13:37] <elita15> !
+[18:13:40] <umesh> yes
+[18:13:40] <ravi_pro> kushal,yes
+[18:13:40] <nilanjit> yes
+[18:13:43] <kirk_iowa> yes
+[18:13:44] <dell_> no
+[18:13:50] <tenstormavi> yes
+[18:13:50] <J_Caselles> yes
+[18:13:53] <kushal> dell_, fix it
+[18:13:56] <shantanu> yes
+[18:13:58] <kushal> elita15, ask
+[18:14:20] <supriya> yes
+[18:14:24] <bidisha> yes
+[18:14:25] <kushal> not sure what happened to the rest
+[18:14:30] <iam_sudip> yes.
+[18:14:34] <rashmi> yes
+[18:14:37] <elita15> http://fpaste.org/21744/42675137/    is this fine i deleted the directory and created again.
+[18:14:37] <anwesha> yes
+[18:14:40] <elita15> ?
+[18:14:44] <satarupa> yes
+[18:14:44] <elita15> <eof>
+[18:14:46] <pankhu> yes
+[18:14:49] <prikotiyal> yes
+[18:14:52] <korak> yes
+[18:14:55] <anisha23> yes
+[18:14:57] <mapyth> yes
+[18:14:57] <kushal> elita15, yes
+[18:15:10] <purva> yes
+[18:15:17] <kushal> now
+[18:15:34] <kushal> you can image repo01 from someone else , it may be there in internet
+[18:15:50] <kushal> and clonedrepo1 is your cloned repo
+[18:15:59] <kushal> so you can make any changes to this one
+[18:16:21] <kushal> which will not reflect to the other repository you cloned from
+[18:16:33] <kushal> btw, that repository is know as remote
+[18:16:46] <kushal> there can be more than one remote
+[18:16:58] <kushal> $ git remote
+[18:17:16] <kushal> shows remote
+[18:17:21] <kushal> $ git remote -v
+[18:17:27] <kushal> shows the remote details
+[18:17:40] <kushal> the default is known as origin
+[18:18:18] <J_Caselles> !
+[18:18:23] <kushal> J_Caselles, ask
+[18:18:32] <anurag> !
+[18:18:39] <kushal> anurag, ask
+[18:18:40] <J_Caselles> sorry, which is the remote, repo01
+[18:18:49] <kushal> J_Caselles, yes
+[18:19:03] <kushal> J_Caselles, name of that remote is origin
+[18:19:10] <J_Caselles> oh, now I understand the output of remote -v :D
+[18:19:16] <anurag> both are set as origin
+[18:19:52] <kushal> anurag, yes, one is for fetch and one for push, generally they are same
+[18:20:09] <J_Caselles> name <namerepocloned>/.../<remoterepo>, corrent?
+[18:20:12] <kushal> fetch to get from the remote, push to send back
+[18:20:17] <kushal> J_Caselles, yes
+[18:20:23] <kushal> try this
+[18:20:25] <J_Caselles> thanks <eof>
+[18:20:31] <anurag> <eof> ok
+[18:20:34] <kushal> $ git pull
+[18:20:45] <kushal> It should say "Already up-to-date."
+[18:20:54] <kushal> as we never made any changes to repo01
+[18:21:18] <kushal> let us go back to repo01
+[18:21:27] <kushal> $ cd ../repo01/
+[18:22:35] <kushal> now create a new file there ,
+[18:22:50] <kushal> README.txt
+[18:22:55] <kushal> inside
+[18:23:16] <kushal> write
+[18:23:29] <kushal> This is a test README file.
+[18:23:37] <kushal> do it^^^
+[18:23:48] <kushal> save and exit
+[18:24:19] rahulch_ is now known as rahulch
+[18:25:26] <kushal> $ git add README.txt
+[18:25:31] <kushal> $ git commit -m "Adds a README file"
+[18:25:57] <kushal> ^^ tell me when you are done
+[18:26:07] <amresh> done
+[18:26:13] <tenstormavi> done
+[18:26:16] <elita15> done
+[18:26:17] <supriya> done
+[18:26:21] <tutum> done
+[18:26:22] <J_Caselles> done
+[18:26:24] <anisha23> done
+[18:26:24] <ravi_pro> done
+[18:26:25] <anwesha> done
+[18:26:26] <rahulch> done
+[18:26:27] <siddhant> done
+[18:26:28] <nilanjit> done
+[18:26:31] <umesh> done
+[18:26:32] <bidisha> done
+[18:26:35] <sankha> done
+[18:26:43] <purva> done
+[18:26:43] <shantanu> done
+[18:26:47] <prikotiyal> done
+[18:26:49] <shalini> done
+[18:26:59] <satarupa> done
+[18:27:03] <pankhu> done
+[18:27:09] <anurag> done
+[18:27:30] <kushal> now one think this as an upstream change, image if the person from whom you cloned your repo made some changes like this
+[18:27:52] Ritu_ is now known as dell_
+[18:27:53] <kushal> s/image/imagine/
+[18:27:54] <batul> What kushal meant to say was: now one think this as an upstream change, imagine if the person from whom you cloned your repo made some changes like this
+[18:27:56] <dell_> done
+[18:28:02] <korak> done
+[18:28:39] <kushal> so this change will not show up in your cloned repo automatically
+[18:28:53] <kushal> let us first check that
+[18:29:20] <kushal> let us go to clonedrepo1
+[18:29:29] <kushal> $ cd ../clonedrepo1/
+[18:29:39] <kushal> check the directory name carefully
+[18:29:43] <kushal> git log
+[18:30:42] <kushal> should be clonedrepo01
+[18:31:48] <kushal> now you can see this does not have the remote changes
+[18:32:31] <kushal> you can pull these changes down to your cloned repo
+[18:33:21] <kushal> $ git pull
+[18:33:39] <kushal> this above command will pull all changes from the origin
+[18:33:56] <kushal> $ git pull
+[18:33:57] <kushal> remote: Counting objects: 4, done.
+[18:33:57] <kushal> remote: Compressing objects: 100% (2/2), done.
+[18:33:57] <kushal> remote: Total 3 (delta 0), reused 0 (delta 0)
+[18:33:57] <kushal> Unpacking objects: 100% (3/3), done.
+[18:33:57] <kushal> From /home/gitu/clonedrepo01/../repo01
+[18:33:59] <kushal>    bf5c05b..a9aafbb  master     -> origin/master
+[18:34:01] <kushal> Updating bf5c05b..a9aafbb
+[18:34:05] <kushal> Fast-forward
+[18:34:07] <kushal>  README.txt | 1 +
+[18:34:09] <kushal>  1 file changed, 1 insertion(+)
+[18:34:11] <kushal>  create mode 100644 README.txt
+[18:34:13] <kushal> you can try to do a git log now
+[18:34:42] <kushal> tell me if you have any confusion here
+[18:34:48] <tenstormavi> no
+[18:35:11] <elita15> !
+[18:35:38] <kushal> elita15, ask
+[18:35:52] <rahulch> !
+[18:36:15] <kushal> rahulch, ask
+[18:36:26] <elita15> i got aldready up to date
+[18:36:35] <rahulch> in the output, what is the meaning of "Fast-forward"?
+[18:36:57] <kushal> rahulch, you will learn it slowly :D
+[18:37:01] <kushal> rahulch, no hurry
+[18:37:10] <rahulch> kushal, okay :)
+[18:37:29] <kushal> elita15, have you committed those changes in repo01
+[18:37:52] <kushal> ?
+[18:38:01] <elita15> no
+[18:38:02] <kushal> anyone else any problem
+[18:38:06] <kushal> elita15, then ?
+[18:38:38] <kushal> elita15, if you do not follow the steps, none of these things will work
+[18:38:46] <kushal> next
+[18:39:37] <kushal> you want to know the changes made in the 2nd commit from the first ever commit
+[18:39:55] <kushal> $ git show commit_hash
+[18:40:13] <kushal> use the commit hash you want learn about
+[18:40:50] <anurag> !
+[18:41:05] <tenstormavi> !
+[18:41:10] <rahulch> !
+[18:41:15] <kushal> anurag, tenstormavi rahulch ask
+[18:41:21] <tenstormavi> fatal: ambiguous argument 'commit_hash': unknown revision or path not in the working tree.
+[18:41:21] <tenstormavi> Use '--' to separate paths from revisions, like this:
+[18:41:22] <tenstormavi> 'git <command> [<revision>...] -- [<file>...]'
+[18:41:28] <tenstormavi> i got this
+[18:41:37] <kushal> tenstormavi, use fpaste to show error
+[18:41:44] <rahulch> kushal, http://fpaste.org/21753/44436713/
+[18:41:45] <anurag> from which directory we will enter that
+[18:41:46] <anurag> ?
+[18:41:48] <tenstormavi> kushal, sorry
+[18:42:04] <kushal> anurag, clonedrepo01
+[18:42:13] <tenstormavi> kushal, solution?
+[18:43:15] <kushal> tenstormavi, rahulch you have to give a valid hash
+[18:43:24] <kushal> get it from git log command
+[18:43:28] <kushal> like example
+[18:43:51] <kushal> in my repo
+[18:43:52] <kushal> $ git show bf5c05b676a540bab3e31616ceef200676e84500
+[18:45:00] <kushal> try with other log hashes
+[18:45:13] <kushal> tell me when you are done
+[18:45:22] <nilanjit> done
+[18:45:25] <tutum> done
+[18:45:26] <supriya> done
+[18:45:30] <siddhant> done
+[18:45:35] <umesh> done
+[18:45:36] <kirk_iowa> !
+[18:45:37] <bidisha> done
+[18:45:38] <pankhu> done
+[18:45:43] <prikotiyal> done
+[18:45:44] <kirk_iowa> done
+[18:45:47] <ravi_pro> done
+[18:45:50] <J_Caselles> done
+[18:45:51] <kushal> kirk_iowa, ask
+[18:45:53] <amresh> done
+[18:46:01] <purva> done
+[18:46:15] <tenstormavi> done
+[18:46:16] <rahulch> kushal, does it seem okay? http://fpaste.org/21757/13724446/
+[18:46:20] <anisha23> done
+[18:46:23] manishjain is now known as dell_
+[18:46:24] <kirk_iowa> the previous revisions are stored, where ? in the .git directory ?
+[18:46:42] <shantanu> done
+[18:46:48] <elita15> done
+[18:46:50] fewcha_ is now known as fewcha
+[18:47:18] <kushal> kirk_iowa, yes
+[18:47:28] <kushal> kirk_iowa, we will learn about them :)
+[18:47:47] <rahulch> !
+[18:47:54] <kushal> rahulch, ask
+[18:48:10] <rahulch> http://fpaste.org/21757/13724446/ is it okay now?
+[18:48:23] <kushal> rahulch, you should be answering that
+[18:48:49] <kushal> so next
+[18:49:15] <kushal> I am going make some changes to README.txt file
+[18:49:15] <rahulch> got it
+[18:49:19] <kushal> and then push it
+[18:49:45] <kushal> Adding this line "We can do git pushes from our repo."
+[18:50:18] <kushal> and then
+[18:50:19] <kushal> $ git commit
+[18:50:24] <kushal> no -m message here
+[18:51:04] <rahulch> !
+[18:51:14] <kushal> of course we did $ git add README.txt
+[18:51:50] <kushal> rahulch, ask
+[18:52:18] <rahulch> we will make the change in repo01 or clonedrepo01?
+[18:52:53] <kushal> rahulch, clonedrepo01
+[18:52:58] <kushal> $ git commit
+[18:53:10] <amresh> !
+[18:53:13] <kushal> should open vi or vim to write commit message
+[18:53:17] <rahulch> ok
+[18:53:20] <kushal> you write what all you want there
+[18:53:29] <prikotiyal> !
+[18:53:35] <kushal> like I wrote
+[18:53:39] <kushal> Put details on README file.
+[18:53:43] <kushal> and save and exit
+[18:54:00] <kushal> amresh, prikotiyal ask
+[18:54:19] <amresh> commit without -m gives an error http://www.fpaste.org/21761/72445102/
+[18:54:44] <kushal> amresh, you don't have vim installed
+[18:54:58] <amresh> i have, and it works
+[18:55:11] <prikotiyal> kushal,  i got this http://fpaste.org/21762/72445136/   , is it ok?
+[18:55:19] <tenstormavi> done kushal
+[18:55:30] <kushal> prikotiyal, yes, it is vim
+[18:55:48] <kushal> prikotiyal, start writing in a new line in the beginning
+[18:56:02] <prikotiyal> ok thanks
+[18:56:17] <prikotiyal> !
+[18:56:24] <kushal> prikotiyal, ask
+[18:56:39] <prikotiyal> kushal,  what to write? anything?
+[18:56:43] <siddhant> !
+[18:56:51] <kushal> prikotiyal, I already gave that
+[18:57:02] <rahulch> !
+[18:57:03] <prikotiyal> ok i will see that
+[18:57:07] <kushal> prikotiyal, Put details on README file.
+[18:57:14] <kushal> siddhant, rahulch ask
+[18:57:16] <siddhant> http://fpaste.org/21763/
+[18:57:54] <rahulch> what is this file that just opened on vim after "git commit"?
+[18:57:55] <tenstormavi> kushal, http://paste.fedoraproject.org/21764/24453331/
+[18:58:07] <tenstormavi> kushal, is this all right?
+[18:58:10] <kushal> rahulch, that is a temporary file created by git
+[18:58:25] <rahulch> and its purpose?
+[18:58:51] <kushal> tenstormavi, yes, but we went ahead made more changes
+[18:59:01] <kushal> tenstormavi, see what I asked to do
+[18:59:19] <amresh> ok its vi not vim on my system, got it working by changing the config of git
+[18:59:21] <kushal> rahulch, to have a bigger commit message
+[18:59:44] <kushal> siddhant, also you are using root account
+[18:59:45] <rahulch> kushal, okay.
+[18:59:47] <kushal> which is bad
+[19:00:32] <siddhant> kushal,so what i have to use?
+[19:00:32] <kushal> and now we can push this to remote
+[19:00:39] <kushal> siddhant, a normal user
+[19:00:43] <kushal> non root user
+[19:00:48] <kushal> siddhant, install vim for now
+[19:00:53] <siddhant> kushal,ok
+[19:00:58] <kushal> $ git push
+[19:01:25] <kushal> ^^ the above command will push the changes to the repo, default is origin
+[19:01:30] <supriya> http://paste.fedoraproject.org/21768/45550137/
+[19:01:32] <supriya> is it ok?
+[19:02:11] <kushal> supriya, yes, it is vim only, write the commit message and save and exit
+[19:02:27] <elita15> !
+[19:02:30] <kushal> elita15, ask
+[19:02:45] <tutum> !
+[19:02:51] <kushal> tutum, ask
+[19:03:07] <rahulch> !
+[19:03:17] <tutum> http://fpaste.org/21769/72445650/  <--It is giving this.
+[19:03:38] <amresh> tutum, same problem here
+[19:03:39] <elita15> http://fpaste.org/21771/72445677/
+[19:03:43] <elita15> got an error
+[19:03:58] <nilanjit> !
+[19:04:42] <kushal> tutum, do a git pull ?
+[19:05:00] <kushal> nilanjit, ask
+[19:05:15] <nilanjit> kushal, got error - same as elita15 - http://fpaste.org/21772/44568913/
+[19:05:40] <tenstormavi> kushal, http://paste.fedoraproject.org/21773/45802137/
+[19:05:47] <tenstormavi> kushal, is its ok?
+[19:05:48] <kushal> tutum, nilanjit elita15 amresh show me $ history | tail
+[19:05:52] <kushal> output
+[19:05:58] <supriya> same problem
+[19:05:59] <anurag> !
+[19:06:02] <rahulch> !
+[19:06:09] <prikotiyal> !
+[19:06:16] <kushal> tenstormavi, you are like 3-5 steps behind
+[19:06:22] <kushal> anisha, rahulch prikotiyal ask
+[19:06:31] <rahulch> i am getting this- http://fpaste.org/21770/24456631/
+[19:07:11] <tutum> http://fpaste.org/21774/45877137/  <-- result of history | tail.
+[19:07:17] <tutum> <eof>
+[19:07:17] <kushal> anisha, rahulch prikotiyal ask
+[19:07:24] <rahulch> i am getting this- http://fpaste.org/21770/24456631/
+[19:07:31] <prikotiyal> kushal,  after doing git pull ?   i am getting this http://fpaste.org/21775/13724458/
+[19:07:44] <iam_sudip> !
+[19:07:51] <nilanjit> kushal, output- http://fpaste.org/21776/37244590/
+[19:07:52] <prikotiyal> <eof>
+[19:07:59] <nilanjit> <eof>
+[19:09:00] <elita15> kushal,http://fpaste.org/21778/44599713/
+[19:09:12] <kushal> rahulch, try:  git config --global push.default matching
+[19:09:17] <kushal> and then pushing again
+[19:09:28] <rahulch> kushal, okay trying that
+[19:09:28] <supriya> kushal on doing history|tail
+[19:09:41] <supriya> i m getting this
+[19:09:47] <supriya> http://fpaste.org/21779/44601813/
+[19:10:41] <rahulch> kushal, it showed no output at all. is it normal?
+[19:10:41] <kushal> people who are showing me history, you all did git pull before ?
+[19:10:53] <kushal> rahulch, yes, try to push after that
+[19:11:14] <anurag> !
+[19:11:21] <iam_sudip> !
+[19:11:26] <rahulch> kushal, i am still getting errors
+[19:11:36] <kushal> speak freely
+[19:11:42] <elita15> http://fpaste.org/21782/37244615/
+[19:11:51] <nilanjit> kushal, i did git pull before
+[19:11:52] <iam_sudip> Same error like others.
+[19:11:58] <elita15> kushal please check this history|tail
+[19:12:02] <tutum> kushal,yes i did a git pull while pulling the changes from the origin to the clonedrepo01
+[19:12:05] <anurag> same error
+[19:12:22] <rahulch> kushal, http://fpaste.org/21783/24462001/
+[19:12:24] <iam_sudip> And even after this "git config --global push.default matching"
+[19:12:55] <kushal> now just one person
+[19:12:58] <kushal> elita15, you
+[19:13:03] <kushal> elita15, goto repo01
+[19:13:10] <kushal> elita15, and try git config --bool core.bare true
+[19:13:20] <kushal> and then comeback to clonedrepo01
+[19:13:25] <kushal> and try to push
+[19:14:40] <prikotiyal> !
+[19:14:54] <kushal> elita15, worked ?
+[19:15:00] <kushal> prikotiyal, ask
+[19:15:13] <anurag> !
+[19:15:21] <elita15> kushal, yes
+[19:15:22] <kushal> anurag, ask
+[19:15:29] <rahulch> !
+[19:15:29] <kushal> elita15, git push worked ?
+[19:15:43] <elita15> kushal, yes, what was wrong?
+[19:16:12] <kushal> who all getting error can read http://stackoverflow.com/questions/2816369/git-push-error-remote-rejected-master-master-branch-is-currently-checked and try to understand
+[19:16:14] <umesh> !
+[19:16:20] <kushal> I am not the best person to explain
+[19:16:32] <kushal> but you can use the steps I told above
+[19:16:33] <prikotiyal> i got this http://fpaste.org/21775/13724458/ after git pull ? i am getting eror.what to do.even git push is not working
+[19:16:40] <prikotiyal> <eof>
+[19:16:41] <prikotiyal> ok
+[19:16:49] <umesh> kushal, http://fpaste.org/21785/ worked
+[19:16:53] <kushal> rahulch, say
+[19:17:04] <kushal> prikotiyal, show us which directory you are in
+[19:17:12] <kushal> pwd
+[19:17:14] <kushal> ?
+[19:17:21] <dell_> !
+[19:17:30] <kushal> dell_, ask
+[19:17:44] <kushal> say yes, if it worked for you properly
+[19:17:47] <rahulch> kushal, i got this http://fpaste.org/21783/24462001/
+[19:17:53] <anwesha> yes
+[19:17:59] <tutum> kushal,yes it worked.:)
+[19:18:13] <kushal> rahulch, see the steps I told to elita15
+[19:18:18] <dell_> i got http://ur1.ca/egwlg
+[19:18:21] <prikotiyal> http://fpaste.org/21787/44655013/    <------ this one
+[19:18:25] <rahulch> okay.
+[19:18:29] <anurag> kushal, that worked, but i am getting it. why and how things are happening. :(
+[19:18:36] <anurag> *not
+[19:18:43] <kushal> dell_, for which command ?
+[19:18:43] <umesh> kushal, yes worked
+[19:18:53] <dell_> git push
+[19:19:10] <J_Caselles> yes worked
+[19:19:24] <kushal> dell_, means push worked before
+[19:19:24] <dell_> kushal: is it right?
+[19:19:31] <kushal> dell_, yes, you already pushed
+[19:19:34] <supriya> http://fpaste.org/21789/24466361/
+[19:19:40] <supriya> it is showing this
+[19:19:47] <amresh> worked :)
+[19:20:00] <rahulch> kushal, its done :) where was i going wrong?
+[19:20:15] <nilanjit> kushal, it worked :)
+[19:20:32] <kushal> supriya, please show us full error messages not half
+[19:20:43] <kushal> supriya, first git config --global push.default matching
+[19:20:53] <kushal> and then follow the steps I said to elita15
+[19:20:54] <J_Caselles> rahulch: it has to do to with security block introduced in newer git versions
+[19:21:14] <supriya> http://fpaste.org/21790/44674113/
+[19:21:33] <supriya> it is the full error message whoch i got
+[19:21:40] <rahulch> kushal, ok
+[19:21:42] <supriya> which
+[19:21:50] <kushal> supriya, I told you the solution
+[19:22:04] <kushal> J_Caselles, thanks
+[19:22:06] <supriya> i did it that way
+[19:22:20] <kushal> supriya, how us history output
+[19:22:24] <kushal> show us
+[19:23:10] <supriya> http://fpaste.org/21791/44685613/
+[19:24:09] <kushal> supriya, you missed the other command I typed
+[19:24:32] <kushal> git config --global push.default matching
+[19:25:05] <supriya> ya ok
+[19:25:08] <supriya> i got it now
+[19:25:25] <kushal> let us move to the last part for tonight
+[19:25:30] <kushal> branches
+[19:25:39] <iam_sudip> kushal: Sorry for interrupting, Why we are doing this "git config --global push.default matching" ?
+[19:25:48] <iam_sudip> <EOF>
+[19:26:00] <kushal> iam_sudip, supriya 's error message has the answer
+[19:26:04] <kushal> go read it
+[19:26:56] <kushal> in git branches are named pointers to commits
+[19:27:05] <kushal> default branch is master
+[19:27:11] <kushal> $ git branch
+[19:27:20] <anurag> !
+[19:27:23] <kushal> will tell you all branches in the repo
+[19:27:26] <kushal> anurag, ask
+[19:27:33] <anurag> directory ?
+[19:28:06] <kushal> anurag, clonedrepo01
+[19:29:23] <kushal> now we can create a branch from master
+[19:29:39] Ritu_ is now known as dell_
+[19:30:02] <kushal> $ git branch newbranch
+[19:30:14] <kushal> this will create a branch named new branch
+[19:30:22] <kushal> and then $ git checkout newbranch
+[19:30:32] <kushal> will go to newbranch
+[19:30:44] <kushal> for now it is same of master
+[19:31:14] <kushal> you can use git branch command to see in which branch you are in
+[19:31:32] <kushal> it will show with the star
+[19:31:56] <rahulch> !
+[19:32:06] <kushal> rahulch, ask
+[19:32:17] <rahulch> what is newbranch pointing at now?
+[19:32:29] <kushal> master
+[19:32:36] <rahulch> ok
+[19:32:41] <siddhant> !
+[19:33:32] <kushal> siddhant, ask
+[19:33:34] <siddhant> http://fpaste.org/21793/37244742/ ,i'm getting this
+[19:34:08] <kushal> siddhant, you repo name is strange
+[19:34:50] <siddhant> kushal,yes i changed that because i made a mistakr earlier
+[19:35:03] <siddhant> *mistake
+[19:35:06] <rahulch> !
+[19:35:12] <kushal> siddhant, sorry but I can not help/debug your problem now
+[19:35:24] <kushal> siddhant, try to follow the logs over the weekend
+[19:35:27] <kushal> rahulch, ask
+[19:35:35] <siddhant> kushal,ok
+[19:35:46] <rahulch> if master is a branch, what is it pointing at?
+[19:35:55] <kushal> rahulch, latest commit in master
+[19:36:10] <kushal> now a small tric
+[19:36:15] <kushal> trick
+[19:36:23] <kushal> open the bashrc file
+[19:36:45] <kushal> vim ~/.bashrc
+[19:36:54] <elita15> !
+[19:37:45] <kushal> at the end write this http://paste.fedoraproject.org/21794/37244773/
+[19:37:49] <kushal> save and exit
+[19:37:53] <kushal> elita15, ask
+[19:38:05] <elita15> how do we come back to master branch from newbranch?
+[19:38:47] <J_Caselles> !
+[19:38:53] <kushal> elita15, wait, get some patience
+[19:38:56] <kushal> J_Caselles, ask
+[19:39:09] <J_Caselles> what does this trick do?
+[19:39:16] <kushal> J_Caselles, you will see
+[19:39:23] <kushal> after save and exit
+[19:39:29] <J_Caselles> oh ok
+[19:40:35] <kushal> then $ source ~/.bashrc
+[19:42:09] <kushal> from now on whenever you are inside a git directory it will show you the branch name
+[19:42:13] <kushal> magic :D
+[19:42:17] <umesh> kushal, its working
+[19:42:24] <kushal> say yes it id working
+[19:42:31] <kushal> s/id/is/
+[19:42:32] <batul> What kushal meant to say was: say yes it is working
+[19:42:33] <anwesha> yes
+[19:42:33] <tutum> yes.:)
+[19:42:33] <rahulch> yes
+[19:42:36] <nilanjit> kushal, cool :)
+[19:42:38] <anurag> yes
+[19:42:43] <umesh> yes
+[19:42:44] <bidisha> yes:)
+[19:42:45] <shalini> yes
+[19:42:46] <supriya> yes
+[19:42:47] <pankhu> yes
+[19:42:49] <ravi_pro> yes
+[19:42:49] <anisha23> yes
+[19:42:53] <siddhant> yes
+[19:42:54] <prikotiyal> yes
+[19:42:55] <satarupa> yes
+[19:42:58] <dot|not> Quick side note: RegExp are ugly sometimes..
+[19:43:08] <amresh> cool, and colorful :)
+[19:43:10] <shantanu> yes
+[19:43:38] <kushal> dot|not, yes and do not ask me to explain that one :D
+[19:43:43] <tenstormavi> yes
+[19:43:43] <dell_> yes
+[19:43:48] <J_Caselles> yes
+[19:44:18] <kushal> now to go to any branch
+[19:44:33] <kushal> command is $ git checkout branchname
+[19:44:45] <kushal> so to go to master $ git checkout master
+[19:45:59] <J_Caselles> May I change the color palette?
+[19:47:12] <kushal> J_Caselles, of  course :D
+[19:47:53] <kushal> now let us do some changes in the newbranch
+[19:48:07] <kushal> $ (master) git checkout newbranch
+[19:48:40] <kushal> in the names.txt add dgplug at the last in a new line
+[19:48:46] <kushal> save and commit
+[19:49:26] <kushal> $ (newbranch) git add names.txt
+[19:49:33] <kushal> $ (newbranch) git commit -m "Adds dgplug to the list."
+[19:50:11] <kushal> do a git log
+[19:50:36] <kushal> and then go back to the master branch
+[19:51:28] <kushal> if you do git log there
+[19:51:40] <kushal> you will not see the change we made few minutes back
+[19:51:51] <kushal> as it is in a different branch
+[19:53:04] <kushal> can everyone follow me ?
+[19:53:10] <kushal> yes/no
+[19:53:12] <amresh> yes
+[19:53:13] <tutum> yes
+[19:53:15] <nilanjit> yes
+[19:53:18] <kirk_iowa> yes
+[19:53:18] <pankhu> yes
+[19:53:19] <rahulch> yes
+[19:53:20] <supriya> yes
+[19:53:20] <ravi_pro> yes
+[19:53:21] <J_Caselles> yes
+[19:53:21] <umesh> yes
+[19:53:22] <tenstormavi> yes
+[19:53:23] <suman> yes
+[19:53:24] <siddhant> no
+[19:53:27] <shantanu> no
+[19:53:30] <anurag> yes
+[19:53:30] <shalini> yes
+[19:53:34] <anisha23> yes
+[19:53:44] <zishan> yes
+[19:53:44] <dell_> yes
+[19:53:48] <kushal> siddhant, shantanu what is your problem ?
+[19:53:49] <iam_sudip> Yes.
+[19:53:52] <siddhant> i am getting the same error message
+[19:53:56] <anwesha> yes
+[19:54:04] <purva> yes
+[19:54:05] <prikotiyal> yes
+[19:54:16] <siddhant> [root@siddhant] cloned_repo01 $ (master) git checkout newbranch
+[19:54:16] <siddhant> fatal: This operation must be run in a work tree
+[19:54:19] <kushal> siddhant, for you, you have to start cleanly from begining
+[19:54:27] <siddhant> kushal,ok
+[19:54:39] <kushal> now branches are very important
+[19:54:53] <kushal> in any project master is the stable branch
+[19:55:01] <kushal> means things which are in master works
+[19:55:11] <shantanu> kushal, http://paste.fedoraproject.org/21805/
+[19:55:20] <kushal> people do make development work in another branch, say development
+[19:55:54] <kushal> and for each different kind of change, they create a new branch and go; there , make changes, commit, come back to development branch
+[19:56:03] <kushal> and then merge the other branch
+[19:56:19] <kushal> in our case we will merge the newbranch into; master branch
+[19:56:34] <kushal> so that we can get the changes made in newbrach into; master branch
+[19:56:39] <kushal> to do;so
+[19:57:16] <shantanu> kushal, sorry, got it
+[19:57:25] <kushal> shantanu, ok
+[19:57:54] <kushal>  $ (master) git merge newbranch
+[19:57:55] <kushal> Updating 74b6979..32bff0b
+[19:57:55] <kushal> Fast-forward
+[19:57:55] <kushal>  names.txt | 1 +
+[19:57:55] <kushal>  1 file changed, 1 insertion(+)
+[19:58:31] <kushal> so the generic command is $ git merge branchname
+[19:58:44] <kushal> branchname is the branch you want merge
+[19:58:50] <kushal> always remember
+[19:59:28] <kushal> please do any development work in a separate git branch
+[19:59:31] <kushal> any questions ?
+[20:00:01] <anurag> !
+[20:00:11] <kushal> anurag, ask
+[20:00:20] <J_Caselles> I would point out the merging has to be done when on master
+[20:00:32] <kushal> J_Caselles, yes :)
+[20:00:42] <anurag> i need to understand more of git and branches.
+[20:00:58] <kushal> anurag, what you want to understand ?
+[20:01:26] <kushal> anyone else, any question?
+[20:01:29] <kushal> yes/no
+[20:01:35] <J_Caselles> no
+[20:01:36] <prikotiyal> no
+[20:01:38] <shantanu> no
+[20:01:38] <tutum> no
+[20:01:38] <amresh> no
+[20:01:39] <pankhu> no
+[20:01:40] <supriya> no
+[20:01:42] <umesh> no
+[20:01:42] <bidisha> no
+[20:01:43] <anwesha> no
+[20:01:45] <nilanjit> no
+[20:01:47] <satarupa> no
+[20:01:48] <siddhant> no
+[20:01:50] <suman> no
+[20:01:50] <ravi_pro> no
+[20:02:00] <anurag> in this session, lot of things i didn't understood. I did what you were doing
+[20:02:01] <kushal> btw, for reference:
+[20:02:01] <purva> no
+[20:02:09] <rahulch> no
+[20:02:15] <iam_sudip> Yes.
+[20:02:21] <tenstormavi> no
+[20:02:22] <kushal> anurag, ask  any friend later in the channel
+[20:02:25] <kushal> iam_sudip, ask
+[20:03:13] <iam_sudip> What is fast-forward? You said you will know later. Today or another day?
+[20:03:26] <kushal> iam_sudip, another week or month
+[20:03:51] <iam_sudip> Oh! It's long. :p
+[20:03:56] <kushal> so I will upload the log now
+[20:03:57] <iam_sudip> Ok. Thanks.
+[20:04:03] <kushal> pingall: ROLL CALL
+[20:04:09] <Armageddon> Elijah
+[20:04:10] <amresh> amresh kumar
+[20:04:11] <shantanu> shantanu sarkar
+[20:04:12] <siddhant> siddhant sengar
+[20:04:12] <tutum> Pritha Ganguly
+[20:04:12] <satarupa> satarupa sinha
+[20:04:13] <suman> suman
+[20:04:14] <tenstormavi> Avinash Kumar Dasoundhi
+[20:04:15] <anurag> anurag kumar
+[20:04:15] <supriya> supriya saha
+[20:04:16] <elita15> elita lobo
+[20:04:16] <umesh> Umesh Agarwal
+[20:04:17] <pankhu> Pankhudi
+[20:04:19] <rahulch> Rahul Chowdhury
+[20:04:19] <kirk_iowa>  gitkirk
+[20:04:19] <ravi_pro> ravi kumbhkar
+[20:04:19] <J_Caselles> Josep Caselles
+[20:04:20] <fewcha> Sanjiban Bairagya
+[20:04:20] <iam_sudip> Iam sudip
+[20:04:20] <dell_> manish
+[20:04:20] <anisha23> anisha agrawal
+[20:04:20] <purva> purva
+[20:04:22] <bidisha> Bidisha Mukherjee
+[20:04:23] <anwesha> Anwesha Das
+[20:04:24] <christina> christina Beemer
+[20:04:28] <prikotiyal> Priyanka Kotiyal
+[20:04:32] <Devyani> Devyani
+[20:04:36] <nilanjit> Nilanjit Mitra
+[20:04:44] <Sudip> sudipgorai
+[20:05:13] <dell_> kushal :please give us the link of this session. as it is so important for us. Please it is a request.
+[20:05:13] <mac1733> Terry Mackin
+[20:05:14] <shalini> Shalini Roy
+[20:05:20] <dell_> *:
+[20:05:33] <kushal> dell_, yes, wait for few minutes
+[20:05:42] <dot|not> dot|not, sorry. Toilet.
+[20:05:45] <piotrektt> Piotr Bednarek
+[20:05:52] <dell_> kushal: ok
+[20:06:04] <kushal> -------SESSION ENDS-----------
+[20:06:07] <kushal> endclass
+[20:06:07] [## Class Ended at Fri Jun 28 20:06:07 2013 ##]

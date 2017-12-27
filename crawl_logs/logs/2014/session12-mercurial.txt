@@ -1,0 +1,793 @@
+[13:19:12] [## Class Started at Mon Jul 14 13:19:12 2014 ##]
+[13:19:12] <sayan> startclass
+[13:19:15] <sayan> endclass
+[13:19:15] [## Class Ended at Mon Jul 14 13:19:15 2014 ##]
+[13:19:18] [## Class Started at Mon Jul 14 13:19:18 2014 ##]
+[13:19:18] <sayan> startclass
+[13:19:49] <ace139> no Armageddon today ?
+[13:20:57] sree82 is now known as Mactoc
+[13:21:37] <kushal> --------SESSION STARTS---------
+[13:21:41] <kushal> Roll Call
+[13:21:46] <amitt001> Amit Tripathi
+[13:21:48] <sivteck> Sivaram Balakrishnan
+[13:21:52] <dhritishikhar_> Dhriti Shikhar
+[13:21:53] <humpty> ashwani
+[13:21:57] <shilpi> shilpi shukla
+[13:21:57] <lixxz> Yasharth
+[13:21:58] <papiya> Papiya Sen
+[13:22:01] <RakRock> Rakesh
+[13:22:01] <heena> Heena Kaushar
+[13:22:02] <kanika04> kanika narang
+[13:22:03] <amittima> Amit Kumar
+[13:22:04] <silentSae> Amir
+[13:22:04] <ace139> Soumyo Dey
+[13:22:05] <surabhi> surabhi
+[13:22:07] <CuriousLearner> Sanyam Khurana
+[13:22:07] <Sparking> Bhargav Patel
+[13:22:10] <vipsy> Vipul Bansal
+[13:22:14] <prajesh> prajesh rawat
+[13:22:18] <koushik> Koushik Bag
+[13:22:19] <azharh_> Azhar Hussain
+[13:22:26] <donniezazen> Sudhir Khanger
+[13:22:29] <senju> vikash patil
+[13:22:34] <Mactoc> Sreedevi
+[13:22:40] <EkAurBottleLa> Sunit Jain
+[13:22:41] <satarupa> Satarupa Sinha
+[13:23:03] <Prash_5421> Prashant Surya
+[13:23:27] <NP1995> Nishant Pani
+[13:23:32] <humpty> chandankumar, can i pass you my link too?
+[13:23:39] <chandankumar> humpty, yes
+[13:23:39] <iamviknesh> Vikneshwar
+[13:24:20] <humpty> chandankumar, http://thisisashwanipandey.blogspot.in/
+[13:24:22] <thejaman> Thejazeto
+[13:24:41] <chandankumar> humpty, added.
+[13:24:54] <humpty> chandankumar, thanks :)
+[13:25:07] <korak1> korak ghosh
+[13:25:15] <chalizard>  /msg nickserv register amit@123 mail2amit19@gmail.com
+[13:25:28] <chalizard> oops
+[13:25:36] <abhiram_rk> Abhiram Ravikumar
+[13:25:43] <ace139> :D
+[13:26:37] <kushal> Unless you all add up your blog details, we will not be able to add you for many future sessions
+[13:26:54] <acetakwas> Tosin Animashaun
+[13:26:59] <kushal> those will be dependent on us knowing who all will attend
+[13:27:13] <m4_15> Mahendra Yadav
+[13:27:17] <acetakwas> okay...in a moment please
+[13:27:33] <acetakwas> I apologise about the ellipsis
+[13:27:48] <ace139> chalizard, time to change password.
+[13:27:53] <sayan> acetakwas, was about to point that to you :)
+[13:28:06] <humpty> kushal, i couldn't understand this though i have added.
+[13:28:13] <iamviknesh> kushal: i haven't created ,can i send you tomorrow  ??
+[13:28:31] <sayan> iamviknesh, can you use a single question mark?
+[13:28:48] <iamviknesh> sayan: ok thanks :)
+[13:28:48] <acetakwas> Does anyone know about 'Pelican'
+[13:28:52] <RakRock> Hi Kushal, I havent added my blog yet, Can I add it tomorrow ?
+[13:28:54] <kanika04> i have not made my blog yet. can i send it tomorrow ?
+[13:29:04] <acetakwas> It's written in Python, that's why I chose it
+[13:29:44] <humpty> acetakwas, what is pelican?
+[13:29:52] <acetakwas> Can I send my at the end of the class? I have written it but I'm still trying to add some rst features to it
+[13:30:23] <acetakwas> humpty, it is a Static Blog generator
+[13:30:35] <acetakwas> like Nikola and the rest
+[13:30:46] <sayan> any questions from the last session?
+[13:30:55] <acetakwas> But you have to set it up from the terminal
+[13:30:57] <humpty> acetakwas, ok
+[13:31:01] <humpty> !
+[13:31:23] <acetakwas> sayan, Can I send mine at the end of the class? I have written it but I'm still trying to add some rst features to it
+[13:31:30] amitt001 is now known as amit001
+[13:31:50] <sayan> acetakwas, just submit it in the link when you are done
+[13:31:58] <acetakwas> okay, thanks
+[13:32:13] <acetakwas> Besides I am moving away from Wordpress
+[13:32:26] * acetakwas approaches Pelican
+[13:32:28] <donniezazen> !
+[13:32:50] <humpty> sayan yes, i had to add an image in about me using rst. so i can add an image present in some folder. But how to add some from the web. i am unable to do that.
+[13:33:09] <sayan> next
+[13:33:19] <humpty>  i had to add an image in about me using rst. so i can add an image present in some folder. But how to add some from the web. i am unable to do that.
+[13:33:44] charany1 is now known as yogeshwar
+[13:33:54] <chandankumar> humpty, http://wiki.typo3.org/ReST_Syntax#Add_an_image
+[13:33:54] <amit001> humpty, http://docutils.sourceforge.net/docs/ref/rst/directives.html
+[13:34:41] <sayan> next
+[13:34:48] <donniezazen> sayan: Submit to which link?
+[13:34:57] <Mactoc> !
+[13:35:20] <acetakwas> donniezazen, the link posted from the previous class
+[13:35:23] <sayan> donniezazen, http://piratepad.net/HKVLwvc64q
+[13:35:25] <sayan> next
+[13:35:30] <humpty> chandankumar, i read that and i am even able to add image present in my folder. but the problem is i want to add an image of  mine from the web and i am unable to do that
+[13:35:35] <acetakwas> donniezazen, http://piratepad.net/HKVLwvc64q
+[13:35:46] <Mactoc> sorry, I couldn't  submit it , Can I submit it after  today's session?
+[13:35:47] <humpty> chandankumar, what to to do for this?
+[13:36:03] <sayan> Mactoc, yes
+[13:36:26] <sayan> humpty, download the image and save it in the image directory
+[13:36:45] <Mactoc> sayan, Thank you
+[13:36:50] <amit001> sayan link also works
+[13:37:01] <sayan> humpty, ^^
+[13:37:03] <acetakwas> sayan, ;o
+[13:37:13] <humpty> sayan, but then when i would publish my page on web or github, will that image still show up?
+[13:37:43] <humpty> because that image is in my computer and not on the web.
+[13:37:54] <sayan> humpty, try that out, i usually save the images in my image directory
+[13:38:15] <humpty> sayan, in that case it is working.
+[13:38:43] <acetakwas> humpty, make it a practice to have your images in one folder
+[13:38:49] <acetakwas> like this:
+[13:38:56] <sayan> humpty, i don't know if pasting link works or not. i have never tried that out.
+[13:39:01] <humpty> sayan, but how would you and others be able to see it then.
+[13:39:27] <acetakwas> Do 'mkdir img' in your root folder
+[13:39:29] <humpty> sayan, i tried but it's not working. it just shows that link in the html file and not he image
+[13:39:33] <amit001> humpty, pasting links also works
+[13:39:36] <humpty> s/he/the
+[13:39:43] <acetakwas> then move your images to the folder 'img'
+[13:40:01] <humpty> amit001, then tell me how?
+[13:40:18] <amit001> humpty, see this http://amitt001.github.io/  click on human icon
+[13:40:32] <amit001> humpty, http://docutils.sourceforge.net/docs/ref/rst/directives.html
+[13:40:48] <amit001> here insted of image.jpg use the link
+[13:41:18] <acetakwas> afterwards you can link to any image (e.g 'image001' in folder 'img') by indicating the source directory as 'res/image001'
+[13:41:21] <humpty> amit001, are you sure of that because i have already done that but it didn't work.
+[13:41:57] <amit001> yes I am. doubt? ok on my image cklick inspect element and see the link
+[13:42:14] <amit001> s/cklick/click
+[13:42:38] <sayan> amit001, can you the share the rst file for that page to humpty instead?
+[13:42:58] <sayan> amit001, it must be on github, so share the link
+[13:43:29] <humpty> amit001, yes because inspect element is showing me the html version and not the rst one
+[13:44:23] <amit001> sayan, actually i uploaded the html version
+[13:44:43] <amit001> humpty i wwill pass you the link after uploading my rst to gdrive
+[13:44:53] <amit001> s/wwill/will
+[13:44:55] <eeshangarg> !
+[13:45:18] <humpty> amit001, in that case let me show you what i did.
+[13:46:41] <humpty> amit001, .. image:: https://plus.google.com/u/0/photos?pid=5976132931173895458&oid=102513899573780558485&authkey=CO2Jre-4w_qklwE
+[13:46:58] <humpty> amit001, i think this is all what i need to do
+[13:47:09] <humpty> to get my image there
+[13:47:19] <amit001> here is the my rst file http://ur1.ca/hr089
+[13:47:26] <amit001> humpty talk in pm
+[13:48:02] <humpty> amit001, thanks and ok
+[13:48:10] <kushal> next
+[13:48:16] <eeshangarg> i was late. was there any homework for today? also can you please tell me what today's session is about?
+[13:48:27] <kushal> eeshangarg, discussion on last week
+[13:51:08] <kushal> So any other question?
+[13:51:32] <kushal> none, good.
+[13:51:35] <kushal> Few points
+[13:51:42] m4_15_ is now known as m4_15
+[13:52:13] <kushal> Please remember to submit your hometasks, we will be selecting people from there to be added for various future sessions.
+[13:52:28] <kushal> From now on, sessions will be 3 days a week
+[13:52:36] <kushal> Monday, Wednesday, Friday
+[13:52:55] <kushal> It can be on other days but those will be guest sessions mostly.
+[13:52:59] <donniezazen> !
+[13:53:02] <kushal> next
+[13:53:13] <donniezazen> What is the basis of selection?
+[13:53:40] <kushal> donniezazen, people who will keep submitting the hometasks
+[13:53:46] <kushal> donniezazen, nothing fancy
+[13:53:56] <ace139> !
+[13:54:02] <kushal> donniezazen, just have to show they are willing to put time and effort
+[13:54:04] <kushal> next
+[13:54:07] <ace139> kushal, what will be in the guest sessions ?
+[13:54:15] <ace139> <eof>
+[13:54:20] <kushal> ace139, not decided yet.
+[13:54:31] <acetakwas> kushal, good
+[13:54:41] <EkAurBottleLa> !
+[13:54:43] <ace139> kushal, we are not allowed to join ? <eof>
+[13:54:56] <kushal> ace139, everyone is allowed to join
+[13:55:29] <sayan> next
+[13:55:32] <EkAurBottleLa> will it be 3 days a week just for the next few weeks or till the end of the course? <eof>
+[13:55:35] <kushal> ace139, but say, we need to provide username/password, we will choose people who are coming online regularly and who submit hometasks back
+[13:55:45] <acetakwas> ace139, I think he means that the guest sessions will be on talks from invited folks, not necessarily tutorials
+[13:55:56] <kushal> EkAurBottleLa, till the end
+[13:56:03] <kushal> acetakwas, yes
+[13:56:05] <sayan> next
+[13:57:08] <kushal> Ok
+[13:57:24] <kushal> So next we will learn the basics of a version control system.
+[13:57:24] <_krash> !
+[13:57:28] <kushal> next
+[13:57:50] <_krash> when you wil declare who all are eligible for the session
+[13:58:17] <kushal> _krash, everyone is eligible by default
+[13:58:31] <_krash> I mean special sessions
+[13:58:33] <kushal> _krash, but we must know the names/blogs and see some effort from them too.
+[13:58:44] <kushal> _krash, yes, I am talking about those sessions too
+[13:58:54] <_krash> thanks
+[13:58:57] <_krash> <eof>
+[13:58:58] <acetakwas> !
+[13:59:08] <kushal> next
+[13:59:25] <acetakwas> Can anyone give me pointers on how to setup and use Pelican in PM?
+[13:59:43] <kushal> acetakwas, use Nikola, far better anyday.
+[13:59:54] <amit001> nikola +1
+[13:59:57] <kushal> acetakwas, also please do not ask out of session questions.
+[14:00:11] <acetakwas> kushal, okay
+[14:00:16] <kushal> coming back to the session
+[14:01:09] <kushal> The first source code management we will learn is called mercurial.
+[14:01:14] <kushal> yum install mercurial
+[14:01:22] <kushal> or apt-get install mercurial
+[14:01:28] <kushal> ^^ please install it now.
+[14:02:24] <sivteck> done.
+[14:02:43] <Mactoc> Done
+[14:02:56] <kushal> write done here when it is installed.
+[14:02:57] <koushik> done
+[14:03:00] <kanika04> done
+[14:03:02] <thejaman> done
+[14:03:14] <iamviknesh> done
+[14:03:17] <ace139> done
+[14:03:19] <EkAurBottleLa> done
+[14:03:23] <senju> done
+[14:03:24] <RakRock> done
+[14:03:54] <amit001> done
+[14:04:06] <CuriousLearner> would take some time for me (slow net :( )
+[14:04:33] <abhiram_rk> done
+[14:04:35] <silentSae> I'm not on a pc right now. will do it asap
+[14:04:50] <shilpi> it will take some time for me too :(
+[14:04:55] <Prash_5421> facing dependency problems.
+[14:04:56] <acetakwas> done
+[14:05:02] <azharh_> Done.
+[14:05:06] <dhritishikhar_> i also have slow connection. Its taking time.
+[14:05:11] <prajesh> done
+[14:05:15] <vipsy> Done
+[14:05:16] <acetakwas> It's just about 2.5MB
+[14:05:26] <m4_15> my system will take some time due to slow network .
+[14:05:36] <kushal> silentSae, you are supposed to use a computer
+[14:06:02] <acetakwas> silentSae, during sessions
+[14:06:04] <CuriousLearner> acetakwas, It's downloading dependencies too.
+[14:06:51] <Prash_5421> How to check if it is installed? I'm a bit confused.
+[14:07:31] <CuriousLearner> Prash_542, It would show you finished, if using fedora, and something similar in other linux distros.
+[14:07:37] <Mactoc> Prash_5421: Type hg in your command line
+[14:07:40] <acetakwas> CuriousLearner, okay but I think all of that is included in the 2.5MB archive
+[14:07:59] <Prash_5421> Mactoc thanks.
+[14:08:09] <Mactoc> Prash_5421:  :)
+[14:08:29] <CuriousLearner> acetakwas, no, it downloaded around 11MB+ dependencies and now, it's downloading the main package.
+[14:08:29] <humpty> done
+[14:08:40] <Prash_5421> Done.
+[14:08:50] <_krash> done
+[14:08:57] <dhritishikhar_> done
+[14:09:04] <CuriousLearner> done
+[14:09:18] <acetakwas> CuriousLearner, okay
+[14:09:20] <silentSae> kushal, Yes but I'm on the move these days. Will use it from 16th.
+[14:09:22] <ace139> CuriousLearner, 2.56 MB is downloaded aprox
+[14:09:52] <humpty> !
+[14:09:58] <kushal> next
+[14:10:08] <CuriousLearner> I don't know, for me, it downloaded some dependencies too. ace139
+[14:10:09] <humpty> kushal, what does it mean by source code management
+[14:10:24] <m4_15> done
+[14:10:36] <acetakwas> CuriousLearner, Yeah I now understand you
+[14:10:37] <humpty> CuriousLearner, same here!
+[14:10:39] <korak1> done
+[14:11:00] <acetakwas> I probably have some of those dependencies installed already, while you don't
+[14:11:14] <abhiram_rk> acetakwas: +1
+[14:11:18] <kushal> humpty, good question, I am coming to that point
+[14:11:30] <acetakwas> abhiram_rk, ;)
+[14:11:30] <kushal> First
+[14:11:40] <kushal> Everyone else please stop talking
+[14:11:44] <humpty> CuriousLearner, actually it's actually 12M
+[14:11:44] <kushal> next
+[14:12:16] <kushal> How many of you did any school/college project and kept source code from different day in different folder in a usb drive?
+[14:12:21] * kushal did.
+[14:12:51] <abhiram_rk> Me. Kept creating zip folders of each day's revisions.
+[14:12:59] * ace139 did
+[14:13:05] <iamviknesh> yeah i did
+[14:13:07] <_krash> did
+[14:13:13] <humpty> kushal, could not understand.
+[14:13:17] <EkAurBottleLa> q
+[14:13:20] * CuriousLearner didn't
+[14:13:23] <dhritishikhar_> Yes. I did.
+[14:13:30] <acetakwas> I kind of overwrote/merged them
+[14:13:41] <m4_15> i did.
+[14:13:58] <silentSae>  Me too
+[14:13:59] * humpty didn't
+[14:14:11] <kushal> humpty, which one? the question?
+[14:14:25] <acetakwas> humpty, if you've worked on something that you made updates to almost everyday
+[14:14:26] <humpty> kushal, yes but understood it now!
+[14:14:31] <korak1> !
+[14:14:49] <acetakwas> then had the work of each day saved in separate folders
+[14:14:58] <humpty> acetakwas, no, never!
+[14:15:20] <vipsy> kushal, excuse me. I will have to leave for now. Will read the log.
+[14:15:35] <kushal> next
+[14:15:56] <korak1> what will the advantages of mercurial over git?
+[14:16:23] <kushal> korak1, simple, google.com
+[14:16:41] * acetakwas bids vipsy farewell
+[14:16:41] <kushal> so coming back to my point
+[14:16:45] <korak1> ok
+[14:17:03] <iamviknesh> korak1: i think mercurial is good for newbie :)
+[14:17:19] <kushal> iamviknesh, please STOP TALKING.
+[14:17:27] <kushal>  We all had some issues in managing source code/text files, which we updated regularly.
+[14:18:00] <kushal> From the name source code management for SCM, we can understand it talks about managing the source code somehow.
+[14:18:12] <kushal> There are many available software which does that.
+[14:18:24] <kushal> We will only learn two of those,
+[14:19:45] <kushal> RCS was the oldest I know about, from there CVS came in.
+[14:19:54] <kushal> then it was the days of SVN
+[14:20:09] <kushal> and then these days people are using git and mercurial.
+[14:20:19] <kushal> http://en.wikipedia.org/wiki/List_of_revision_control_software is nice page to read later.
+[14:20:56] <acetakwas> full meanings please 'RCS', 'SVN'?
+[14:21:15] <kushal> acetakwas, read that wikipedia page when you have time :)
+[14:21:49] <kushal> To start we will learn Mercurial
+[14:23:03] <kushal> first everyone create a new folder called myproject
+[14:23:09] <kushal> then go inside it
+[14:23:13] <silentSae>  /
+[14:23:44] <kushal> silentSae, ?
+[14:24:10] <silentSae> Sorry phone issues
+[14:25:01] <kushal> now let us create a file called hello.txt
+[14:25:07] <kushal> inside it write
+[14:25:11] <kushal> Hello World.
+[14:25:37] <kushal> Tell me when you are done.
+[14:25:41] <iamviknesh> done
+[14:25:43] <abhiram_rk> Done
+[14:25:45] <CuriousLearner> done
+[14:25:46] <dhritishikhar_> done
+[14:25:49] <lixxz> done
+[14:25:51] <prajesh> done
+[14:25:53] <ahhda> Done
+[14:25:53] <gnovi> done
+[14:25:55] <donniezazen> done
+[14:25:57] <droy> done
+[14:26:02] <azharh_> Done.
+[14:26:03] <acetakwas> done
+[14:26:04] <Prash_5421> done
+[14:26:04] <papiya> done
+[14:26:07] <senju> done
+[14:26:08] <EkAurBottleLa> done
+[14:26:08] <sivteck> done
+[14:26:09] <kanika04> done
+[14:26:10] <_krash> done
+[14:26:12] <humpty> done
+[14:26:15] <m4_15> done
+[14:26:15] <thejaman> done
+[14:26:16] <ace139> done
+[14:26:18] * acetakwas winks at lixxz
+[14:26:25] <koushik_> done
+[14:27:07] <lixxz> acetakwas, was late
+[14:27:44] <kushal> Now first we will create a repository inside this directory, a mecurial repository
+[14:27:52] <kushal> the command is $ hg init
+[14:28:08] <kushal> after that do ls -la and tell me if you see any differenced
+[14:28:09] <kushal> after that do ls -la and tell me if you see any difference
+[14:28:23] <iamviknesh> .hg folder
+[14:28:30] <sivteck> a .hg folder
+[14:28:34] <CuriousLearner> It printed . .. hello.txt .hg
+[14:28:35] <sivteck> is created
+[14:28:58] <Sparking> done
+[14:29:01] <kushal> good so it added a .hg folder inside
+[14:29:03] <acetakwas> '.hg' directory created
+[14:29:13] <ace139> done
+[14:29:17] <thejaman> There seems to be a new hidden .hg file
+[14:29:28] <kushal> thejaman, it is a directory.
+[14:29:41] <kushal> The is the main part of the repository.
+[14:30:15] <kushal> Now it is a new repository.
+[14:30:17] <thejaman> kushal, thanks for the correction.
+[14:31:00] <kushal> We will add our sourcecode file to it, which is a text file.
+[14:31:07] <kushal> hg add hello.txt
+[14:31:38] <acetakwas> done
+[14:31:46] <kushal> and then we have to commit it.
+[14:31:48] <kushal> hg commit
+[14:32:16] <kushal> when you will say hg commit
+[14:32:19] <iamviknesh> opens a file
+[14:32:25] <kushal> it will open up an editor.
+[14:32:34] <acetakwas> "no username supplied"
+[14:32:37] <kushal> On the top line, write: First change.
+[14:32:47] <amit001> abort: no username supplied (see "hg help config")
+[14:32:55] <lixxz> same
+[14:32:57] <CuriousLearner> yes ^^ this is comming
+[14:32:57] <ace139> abort: no username supplied (see "hg help config")
+[14:33:01] <EkAurBottleLa> same
+[14:33:01] <kushal> Ok.
+[14:33:12] <abhiram_rk> error!
+[14:33:31] <kushal> wget this file to your home as .hgrc
+[14:33:32] <kushal> http://kushaldas.in/details/hgrc
+[14:33:36] <iamviknesh> you need to create username in .hg/hgrc
+[14:33:43] <kushal> ^^ save it as ~/.hgrc
+[14:34:16] <iamviknesh> 1
+[14:34:18] <kushal> change your name and email id inside that file
+[14:34:18] <iamviknesh> !
+[14:34:20] <kushal> next
+[14:34:53] <humpty> !
+[14:35:09] <iamviknesh> i have separate directory working on mozilla code , so creating this new hgrc will conflict with that ??
+[14:35:12] <ace139> !
+[14:36:18] <kushal> iamviknesh, see if you find any major difference in the two files, this one was created by the upstream :)
+[14:36:30] <kushal> iamviknesh, they just typed it in my laptop :)
+[14:36:33] <kushal> next
+[14:36:39] <humpty> kushal, i am unable to follow anything you said after it is showing the error of no username supplied
+[14:37:03] <kushal> humpty, I gave link to a file, download and save it as ~/.hgrc
+[14:37:09] <kushal> next
+[14:37:13] <ace139> not able to follow step from wget.
+[14:37:15] <humpty> kushal,ok
+[14:37:48] <lixxz> ace139, type wget http://kushaldas.in/details/hgrc
+[14:38:11] <acetakwas> !
+[14:38:18] <kushal> next
+[14:38:31] <acetakwas> by username, do you mean my computer's login name?
+[14:38:43] <kushal> acetakwas, No, your real name and your email id.
+[14:38:53] <kushal> acetakwas, see my file to understand
+[14:38:59] <acetakwas> okay
+[14:39:12] <droy> !
+[14:39:14] <acetakwas> <eof>
+[14:39:19] <CuriousLearner> lixxz, it says wget command not found. <eof>
+[14:39:34] <kushal> CuriousLearner, please  save the file using the browser
+[14:39:35] Sparking_ is now known as Sparking
+[14:39:39] <kushal> next
+[14:40:01] <droy> i saved it in home then ?
+[14:40:06] <thejaman> !
+[14:40:11] <CuriousLearner> !
+[14:40:15] <acetakwas> done
+[14:40:26] <kushal> droy, saved as .hgrc filename?
+[14:40:29] <kushal> next
+[14:40:41] <thejaman> How do we change default text editor
+[14:41:01] <droy> yes i saved it as .hgrc
+[14:41:06] <amit001> thejaman, by - select-editor command
+[14:41:11] <abhiram_rk> !
+[14:41:19] <amit001> droy, done
+[14:41:27] <ace139> !
+[14:41:40] <kushal> next
+[14:41:45] <CuriousLearner> saved it as .hgrc file in myproject folder, what's next?
+[14:41:45] <kushal> next
+[14:41:46] <EkAurBottleLa> !
+[14:42:01] <kushal> CuriousLearner, nope, I asked it to save as ~/.hgrc
+[14:42:12] <abhiram_rk> Should I save it as ~/.hgrc or just .hgrc?
+[14:42:17] <CuriousLearner> kushal, it's not accepting that name
+[14:42:23] <abhiram_rk> The former goes into my home directory. <eof>
+[14:42:30] <humpty> CuriousLearner, do the changes in your name and mail id and save it again.
+[14:42:39] <CuriousLearner> ok
+[14:42:41] <kushal> CuriousLearner, can you please tell me what ~/ means?
+[14:42:42] <kushal> next
+[14:42:45] <ace139> hello.hgrc ?
+[14:42:46] <kushal> next
+[14:42:50] <EkAurBottleLa> what do we do after saving it as ~/.hgrc ?
+[14:43:00] <kushal> EkAurBottleLa, wait please, people are confused.
+[14:43:02] <CuriousLearner> root directory
+[14:43:05] <acetakwas> abhiram_rk, ~/ is your home directory not part of the file name
+[14:43:09] <EkAurBottleLa> ok.
+[14:43:17] <sivteck> everone ! filename: .hgrc , folder: home
+[14:43:20] <kushal> CuriousLearner, nope
+[14:43:25] <kushal> CuriousLearner, home directory.
+[14:43:26] <sivteck> everyone*
+[14:43:26] <abhiram_rk> So I should save it in the current directory right?
+[14:43:33] <abhiram_rk> myproject?
+[14:43:34] <kushal> abhiram_rk, nope
+[14:43:36] <acetakwas> save it with the name '.hgrc' not '~/.hgrc'
+[14:44:02] <acetakwas> When you do wget it gets downloaded to your current folder
+[14:44:19] <acetakwas> that is, current working directory, do you understand?
+[14:44:29] <kushal> next
+[14:44:30] <humpty> acetakwas, no we have to save it with ~./hgrc
+[14:44:31] <lixxz> type cd it will take you to your home directory
+[14:44:40] <kushal> humpty, wrong
+[14:44:45] <acetakwas> then move it to your home directory
+[14:44:46] <abhiram_rk> I'm confused. Varied opinions.
+[14:44:47] <kushal> humpty, ~/.hgrc
+[14:44:58] <kushal> abhiram_rk, listen what I am saying
+[14:45:12] <humpty> kushal, sorry typing mistake1
+[14:45:12] * abhiram_rk gives kushal thumbs-up!
+[14:45:14] <kushal> In your home directory save the file as .hgrc
+[14:45:21] <amit001> for those who dont know what does ~/ mean - it is your home directory
+[14:45:22] <kushal> Next
+[14:45:25] <acetakwas> like this in terminal: mv hgrc ~/
+[14:45:25] <abhiram_rk> Done.
+[14:45:40] <kushal> amit001,  for those who dont know what does ~/ mean, they should leave the training now.
+[14:45:52] <acetakwas> then you can go to home directory which is ~/
+[14:45:53] <amit001> kushal, :)
+[14:45:56] <kushal> now try hg commit
+[14:46:05] <kushal> It will open up an editor
+[14:46:17] <acetakwas> and rename it from 'hgrc' to '.hgrc'
+[14:46:26] <kushal> write First change. and save the file.
+[14:46:40] <kushal> everyone tell me when you are done^^^^
+[14:46:43] <humpty> kushal, still the same error
+[14:46:57] <sivteck> cone
+[14:46:58] <abhi_poo> done
+[14:47:00] <iamviknesh> done
+[14:47:00] <sivteck> done*
+[14:47:03] <koushik_> done
+[14:47:03] <kushal> humpty, what error? same error can be anything.
+[14:47:13] <humpty> username not supplied
+[14:47:16] <acetakwas> failed to import extension script
+[14:47:22] <ace139> kushal, there are many editors. which one to choose ?
+[14:47:29] <humpty> kushal ^
+[14:47:30] <acetakwas> No module named strip
+[14:47:44] <azharh_> Done.
+[14:47:48] <thejaman> done
+[14:47:51] <acetakwas> done
+[14:47:58] <Prash_5421> Done
+[14:48:06] * acetakwas says it works now
+[14:48:08] <CuriousLearner> done
+[14:48:14] <kushal> humpty, you are missing that .hgrc file.
+[14:48:17] <abhiram_rk> done
+[14:48:20] <dhritishikhar_> done
+[14:48:35] <humpty> kushal, no i checked it is present in the home directory
+[14:48:45] <acetakwas> humpty, cd to ~/
+[14:48:52] <acetakwas> and do ls -al
+[14:48:55] <thejaman> ace139, we're using vim as our editor of choice
+[14:48:59] <acetakwas> ls -al
+[14:49:03] <ace139> kushal, which editor to open? vim.basic, vim.nox, vim.tiny
+[14:49:06] <kushal> humpty, show us the output of ls -ls ~/.hgrc
+[14:49:15] <kushal> ace139, vim.basic
+[14:49:28] <kushal> ace139, this is the reason we asked people to use Fedora.
+[14:50:00] <ace139> kushal, my laptop do not support fedora. :( formatted 20 times +
+[14:50:07] <kushal> ace139, ok
+[14:51:09] <acetakwas> done
+[14:51:17] <kushal> Now give the following command
+[14:51:19] <kushal> hg log
+[14:51:27] donniezazen_ is now known as donniezazen
+[14:51:52] <abhiram_rk> kushal: Gives my commit message.
+[14:51:56] <kushal> abhiram_rk, yes
+[14:52:24] <iamviknesh> done
+[14:52:35] <kushal> Now everyone opens up hello.txt again
+[14:52:43] <acetakwas> done
+[14:52:45] <kushal> Add a ! before that .
+[14:52:48] <humpty> kushal, [ash@localhost ~]$ ls -ls ~/.hgrc
+[14:52:49] <humpty> ls: cannot access /home/ash/.hgrc: No such file or directory
+[14:52:53] <kushal> save and exit of vim
+[14:53:03] <humpty> but the file is present in home directory
+[14:53:09] <kushal> humpty, ls -la ~/.hgrc
+[14:53:37] <acetakwas> do you mean at the end of Hello World?
+[14:53:44] <acetakwas> like this: Hello World!
+[14:53:45] <abhiram_rk> !
+[14:54:06] <kushal> acetakwas, like Hello World!
+[14:54:10] <kushal> next
+[14:54:11] <humpty> kushal, [ash@localhost ~]$ ls -la ~/.hgrc
+[14:54:12] <humpty> ls: cannot access /home/ash/.hgrc: No such file or directory
+[14:54:26] <abhiram_rk> "!" before what?
+[14:54:27] <kushal> humpty, that means you never saved it in the correct place.
+[14:54:30] <acetakwas> okay
+[14:54:32] <acetakwas> done
+[14:54:59] <sivteck> done
+[14:55:02] <abhiram_rk>  status
+[14:55:03] <acetakwas> humpty, do this
+[14:55:14] <acetakwas> open up terminal
+[14:55:14] <dhritishikhar_> done
+[14:55:17] <acetakwas> cd ~/
+[14:55:28] <kushal> abhiram_rk, at the end.
+[14:55:29] <koushik_> done
+[14:55:41] <kushal> abhiram_rk, I asked everyone to write Hello World.
+[14:55:47] <acetakwas> wget http://kushaldas.in/details/hgrc
+[14:55:49] <kushal> at the beginning
+[14:55:52] <abhiram_rk> kushal: Done! Got it.
+[14:55:58] <humpty> kushal, then how is it showing when i do ls -al
+[14:56:03] <humpty> -rw-rw-r--.  1 ash  ash    259 Jul 14 20:13 hgrc
+[14:56:05] <humpty> -rw-rw-r--.  1 ash  ash    259 Jul 14 20:09 hgrc~
+[14:56:27] <humpty> acetakwas, ok let me do it
+[14:56:45] <kushal> humpty, go to a local optician
+[14:56:55] <kushal> humpty, get a specs
+[14:57:06] <kushal> humpty, .hgrc and hgrc is not same.
+[14:57:22] <kanika04> cd ..
+[14:57:26] <kanika04> sorry
+[14:57:33] <kushal> humpty, see a dot a the first.
+[14:57:49] <kushal> humpty, see a dot at the first.
+[14:58:10] <ace139> kushal, after doing hg commit, and opening an editor, what to do ?
+[14:58:18] <RakRock> !
+[14:58:23] <kushal> ace139, read the log above I already answered that
+[14:58:25] <kushal> next
+[14:58:53] <acetakwas> ace139, which editor are you in?
+[14:59:02] <acetakwas> nano or vim?
+[14:59:02] <RakRock> How do I know if my commit has gone through successfully ? and how do I know the different versions of my file ?
+[14:59:14] <thejaman> !
+[14:59:30] <kushal> RakRock, hg log
+[14:59:38] <kushal> RakRock, learn to read what we are saying here.
+[14:59:49] <kushal> RakRock, We mostly write in English.
+[14:59:52] <kushal> next
+[14:59:55] <thejaman> kushal, what's with: no module named strip ?
+[15:00:14] <kushal> thejaman, means you mercurial installation does not have that extension
+[15:00:26] <kushal> thejaman, remove that word from .hgrc file
+[15:00:39] <thejaman> kushal, how does it effect mercurial?
+[15:00:46] <kushal> thejaman, google.com
+[15:01:03] <thejaman> <eof>
+[15:01:04] <kushal> After you all make changes to that hello.txt file
+[15:02:03] <kushal> do hg commit again
+[15:02:13] <kushal> and then write a new commit message.
+[15:02:22] <kushal> say: Second commit.
+[15:02:22] <acetakwas> humpty, are you done? PM
+[15:02:38] <kushal> do hg log again.
+[15:02:44] <kushal> Tell us what you see
+[15:03:00] <acetakwas> both changes
+[15:03:12] <kushal> ^^ others?
+[15:03:21] <acetakwas> changeset 0 and changeset 1 logs
+[15:03:22] <amit001> both changes with commit message
+[15:03:35] <thejaman> both changes with a tag in the second one
+[15:03:40] <Mactoc> kushal:I had a connection problem in between, was unable to connect to freenode :(
+[15:03:52] <sivteck> can see both the changes made
+[15:04:05] <amit001> !
+[15:04:06] <kushal> Mactoc, ok, you should use waartaa
+[15:04:07] <kushal> next
+[15:04:07] <ace139> can see both changes made
+[15:04:11] <amit001> what is tag?
+[15:04:11] <RakRock> !
+[15:04:13] <ahhda> !
+[15:04:21] <abhiram_rk> Commit history.
+[15:04:22] <amit001> it says tag: tip
+[15:04:47] <kushal> yes
+[15:04:55] <kushal> amit001, mercurial what is a tag -- search that in google.
+[15:05:00] <Mactoc> kushal, yes I am using it now
+[15:05:08] <amit001> kushal, ok <eof>
+[15:05:15] <kushal> next
+[15:05:17] <kushal> next
+[15:05:20] <ahhda> How can I change the editor?
+[15:05:21] <RakRock> Can we see diffs between two different versions ?
+[15:05:38] <kushal> RakRock, yes, google if you can not wait to learn with others
+[15:05:43] <acetakwas> ahhda, select-editor
+[15:05:55] <acetakwas> ahhda, type that in terminal
+[15:06:04] <ahhda> Thanks
+[15:06:07] <acetakwas> and select vim basic
+[15:06:12] <iamviknesh> ahhda: using ubuntu ??
+[15:06:41] <ahhda> Yes
+[15:07:03] <thejaman> ahhda, or add: editor=vim in the .hgrc file
+[15:07:17] <iamviknesh> ahhda: do this ---> sudo update-alternatives âconfig editor
+[15:07:37] <kushal> next
+[15:07:38] <acetakwas> thejaman, thanks for that one
+[15:07:54] <kushal> Now let us add one more line to the same file.
+[15:08:14] <kushal> Everyone add a second line: This is a second line with a number 1234.
+[15:08:34] <kushal> ^^ write that line in the hello.txt file and do hg diff
+[15:08:59] <iamviknesh> done
+[15:09:19] <acetakwas> done
+[15:09:25] <iamviknesh> showing new changes
+[15:09:27] <ahhda> Done
+[15:09:29] <kushal> yes
+[15:09:37] <acetakwas> +1234
+[15:09:43] <koushik_> done
+[15:09:53] <abhiram_rk> Shows additions and modifications.
+[15:09:57] <CuriousLearner> done
+[15:10:05] <kushal> Next, create a new file called bye.txt
+[15:10:09] <kushal> Inside write
+[15:10:15] <abhiram_rk> !
+[15:10:33] <Mactoc> !
+[15:10:40] <kushal> If you need to create an account, please ping any co-ordinators in #dgplug channel on Freenode.
+[15:10:46] <kushal> and save the file
+[15:10:51] <kushal> then do hg diff
+[15:11:00] <kushal> and tell me if there is any difference.
+[15:11:01] <kushal> next
+[15:11:03] <kushal> next
+[15:11:27] <abhiram_rk> What's the first line in the output of hg diff command?
+[15:11:37] <abhiram_rk> diff -r 0cfdcbb32a24 hello.txt
+[15:11:41] <Mactoc> I think I missed a lot, Should I continue with this or start from beginning?
+[15:11:59] <donniezazen> diff -r 128a3ca2406c hello.txt
+[15:12:02] <acetakwas> no
+[15:12:11] <iamviknesh> no change
+[15:12:30] <ace139> !
+[15:12:34] <ahhda> There is no difference
+[15:12:36] <CuriousLearner> no change
+[15:12:37] <acetakwas> Mactoc, start from beginning
+[15:12:42] <RakRock> I think we need to do add hg add here ?
+[15:12:44] <acetakwas> no difference
+[15:13:19] <kushal> abhiram_rk, difference between which files
+[15:13:27] <kushal> in this case one is a commit.
+[15:13:38] <kushal> next
+[15:13:44] <ace139> @@ -1,1 +1,2 @@
+[15:13:48] <ace139> what is this ?
+[15:13:55] <Mactoc> acetakwas:Ok
+[15:13:55] <acetakwas> kushal, still the same result as before
+[15:14:49] <iamviknesh> ace139: i think those a line number from the start where changes were made
+[15:15:23] <kushal> ace139, http://askubuntu.com/questions/56964/how-do-i-decipher-diff-output may help :)
+[15:15:35] <kushal> now everyone do a command hg status
+[15:15:40] <kushal> ^^ what it says?
+[15:15:47] <droy> acetkwas +1 means 1 line changed and 2 is the number of lines in the files
+[15:15:55] <iamviknesh> shows both the file
+[15:16:03] <kushal> M means that file is modified and ? means that file is not under revision control.
+[15:16:25] <CuriousLearner> It says A byte.txt
+[15:16:33] <donniezazen> ? bye.txt
+[15:16:55] <RakRock> got it.
+[15:17:01] <kushal> CuriousLearner, because you don't know how to follow steps given by me and you gave your own commands in between.
+[15:17:13] <kushal> Now everyone do hg add bye.txt
+[15:17:29] <iamviknesh> CuriousLearner: you gave hg commit :)
+[15:17:32] <kushal> and then check the status again.
+[15:17:35] <kushal> iamviknesh, no
+[15:17:40] <kushal> iamviknesh, he did hg add
+[15:17:55] <iamviknesh> oh sorry my mistake :P
+[15:18:05] <kushal> After you see the status, we will do another commit
+[15:18:17] <ahhda> now it says A bye.txt
+[15:18:19] <kushal> But before that I want everyone to be in same status
+[15:18:35] <kushal> ahhda, yes, correct, it should have another change in hello.txt file.
+[15:19:45] <ahhda> Both differ in colour
+[15:20:18] <kushal> ahhda, and a character in front
+[15:20:24] <acetakwas> kushal, what change please?
+[15:20:26] <donniezazen> A bye.txt
+[15:20:33] <ahhda> Yes, M hello.txt
+[15:20:36] <kushal> acetakwas, ?
+[15:21:04] <humpty> kushal, sorry for that and finally i am no more lagging behind!
+[15:21:11] <acetakwas> you said, it should have another change in the hello.txt file and a character in front
+[15:21:17] <acetakwas> I don't understand that
+[15:21:35] <acetakwas> What I have in my terminal is:
+[15:21:39] <ahhda> acetakwas by change he meant difference
+[15:21:40] <humpty> acetakwas, yeah done with it, was doing that silly mistake
+[15:21:41] <acetakwas> M hello.txt
+[15:21:47] <acetakwas> A bye.txt
+[15:22:00] <lixxz> acetakwas, you are good to go
+[15:22:02] <kushal> acetakwas,  yes, that is the thing I was talking as ahhda wrote about only bye.txt
+[15:22:12] <acetakwas> humpty, okay cool ;)
+[15:22:24] <acetakwas> okay
+[15:23:33] <kushal> Now before we do the third commit, we should learn a little bit about commit messages.
+[15:23:54] <kushal> They should be meaningful, in present tense generally
+[15:24:13] * abhiram_rk is finally on board.
+[15:24:17] <kushal> After the first line you can actually start adding up more details.
+[15:24:26] <kushal> Let me show an example.
+[15:26:03] <kushal> Read the commit message I used just now
+[15:26:04] <kushal> http://paste.fedoraproject.org/117846/14053513/raw/
+[15:26:23] <kushal> Remember to give a blank line between first line and next paragraph.
+[15:27:44] <kushal> now everyone commit it.
+[15:27:51] <kushal> with a proper message like mine.
+[15:27:58] <humpty> !
+[15:28:00] <kushal> and then do hg log
+[15:28:04] <kushal> next
+[15:28:10] <acetakwas> should we type that
+[15:28:14] <humpty> kushal, but why is that blank line required?
+[15:28:18] <acetakwas> ?
+[15:28:32] <kushal> humpty, do a hg log
+[15:28:46] <kushal> acetakwas, type the message I typed.
+[15:28:47] <lixxz_> repeat last line please got disconnected
+[15:29:04] <iamviknesh> the text after new line don't show up in hg log
+[15:29:06] <kushal> lixxz_, use waartaa please
+[15:29:07] <CuriousLearner> kushal, it shows just first line, working fine? or I'm on completely different track?
+[15:29:11] <kushal> iamviknesh, CuriousLearner yes
+[15:29:18] <acetakwas> in the hello.txt file?
+[15:29:29] <kushal> acetakwas, no as the commit message.
+[15:29:35] <lixxz_> kushal, it doesn't happen that often
+[15:29:42] lixxz_ is now known as lixxz
+[15:30:04] <kushal> CuriousLearner, iamviknesh people do not want to read the whole commit message, they will get an idea about the commit from the first line
+[15:30:12] <kushal> and then if required they will read about it.
+[15:30:37] <iamviknesh> kushal: oh ok :)
+[15:30:52] <thejaman> !
+[15:31:16] <kushal> next
+[15:31:19] <RakRock> !
+[15:31:22] <kushal> next
+[15:31:29] <thejaman> So how do we get to read that extra commit message?
+[15:31:33] <iamviknesh> !
+[15:31:39] <kushal> thejaman, I am coming to that
+[15:31:40] <kushal> next
+[15:31:50] <RakRock> Same question as Thejaman
+[15:31:53] <iamviknesh> kushal: yeah the same question :)
+[15:32:54] <kushal> Now can everyone see a changeset number for the 3rd commit?
+[15:33:02] <kushal> use that number like below
+[15:33:05] <ace139> yes
+[15:33:22] <kushal> hg log -v -r 0e558dd2a91d
+[15:33:35] <kushal> -v is for verbose
+[15:34:14] <RakRock> got it, Thanks
+[15:34:27] <iamviknesh> yeah , full commit message :)
+[15:34:47] <CuriousLearner> done
+[15:34:58] <sivteck> done
+[15:34:59] <kushal> Now say you do not want to commit while you are writing the commit message
+[15:35:09] <kushal> Just do not save that file and exit
+[15:35:12] <kushal> :q!
+[15:35:16] <kushal> ^^ in vim
+[15:35:19] <acetakwas> done
+[15:35:22] <kushal> It will not commit it
+[15:35:30] <CuriousLearner> !
+[15:35:31] <kushal> first make any change to hello.txt
+[15:35:42] <acetakwas> okay
+[15:35:50] <kushal> and then try to commit and then from the commit message editor do that above command.
+[15:35:54] <kushal> and exit
+[15:35:54] <kushal> next
+[15:36:08] <CuriousLearner> So this means in order to commit a change it is necessary to write something as commit message, even if it's just a word? Right? kushal
+[15:36:32] <kushal> CuriousLearner, yes
+[15:36:44] <kushal> CuriousLearner, better if you can write a proper commit message.
+[15:37:04] <acetakwas> done
+[15:37:11] <CuriousLearner> got it, thanks
+[15:38:23] <kushal> Is everyone ok with what we discussed till today?
+[15:38:29] <sivteck> yes
+[15:38:30] <ace139> yes
+[15:38:31] <koushik_> yes
+[15:38:33] <CuriousLearner> !
+[15:38:37] <kushal> next
+[15:38:38] <RakRock> yes,
+[15:38:41] <thejaman> absolutely
+[15:38:46] * acetakwas says Yes!
+[15:38:55] * lixxz yes
+[15:38:58] <dhritishikhar_> yes
+[15:38:58] <Prash_5421> yes
+[15:39:04] <CuriousLearner> kushal, I want to try all this once again, I will read the log, can you tell me how to erase all this what I've done, I mean the repositories?
+[15:39:09] <azharh_> Yes.
+[15:39:17] <abhiram_rk> yeah!
+[15:39:19] <acetakwas> !
+[15:39:21] <kushal> CuriousLearner, cd .. and just remove the directory.
+[15:39:26] <kushal> next
+[15:39:40] <acetakwas> So Git is for the next class, right?
+[15:39:44] <iamviknesh> yes
+[15:40:07] <RakRock> !
+[15:40:48] <humpty> CuriousLearner, +1
+[15:40:59] <kushal> acetakwas, mostly no
+[15:41:16] <RakRock> Can I revert just one version of changes ? i.e go to currentversion -1 ?
+[15:41:27] <korak1> !
+[15:41:35] <acetakwas> when will it likely be then?
+[15:41:49] <korak1> next class will be on wednesday?
+[15:42:01] <kushal> next
+[15:42:03] <kushal> next
+[15:42:11] <kushal> RakRock, yes
+[15:42:19] <kushal> next
+[15:42:25] <acetakwas> korak1, yes
+[15:42:30] <acetakwas> okay, <eof>
+[15:42:38] <humpty> !
+[15:42:42] <korak1> okay<eof>
+[15:42:55] <kushal> So till tomorrow, please try out the commands from today's session and keep an eye on http://summertraining.readthedocs.org/en/latest/mercurial.html
+[15:43:12] <kushal> I will adding stuff in there for Wednesday's session.
+[15:43:23] <kushal> acetakwas, later some time.
+[15:43:36] <acetakwas> kushal, 'tomorrow'?
+[15:43:43] * acetakwas rolls his eyes
+[15:43:59] <kushal> acetakwas, yes, I will update the book we are writing for the summer training.
+[15:44:31] <abhiram_rk> kushal: The book idea is amazing.
+[15:44:52] <acetakwas> okay readthedocs
+[15:44:54] <kushal> abhiram_rk, it was in plan for a long time, this year we are just doing it.
+[15:45:08] <ace139> kushal, +1
+[15:45:09] <kushal> We will meet again on Wednesday.
+[15:45:18] <kushal> --------SESSION ENDS--------
+[15:45:26] <CuriousLearner> Thanks kushal
+[15:45:27] <kushal> batul endclass
+[15:45:27] [## Class Ended at Mon Jul 14 15:45:27 2014 ##]
